@@ -2,24 +2,28 @@
 <html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>מנה ראשונה — כיתה ז׳</title>
-<meta name="description" content="פעילויות המנה הראשונה לכיתה ז׳">
+<title>השבוע הראשון — כיתה ז׳</title>
+<meta name="description" content="המצגת והפעילויות של השבוע הראשון בכיתה ז׳">
+<meta name="theme-color" content="#050b14">
 <style>
-:root{--ink:#101716;--paper:#f6f6f3;--lime:#dfff5b;--cyan:#4ee5ff;--muted:#66706c;--line:#dfe2dc}
-*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at 90% 0,#dfff5b33,transparent 28%),var(--paper);color:var(--ink);font-family:Arial,"Noto Sans Hebrew",sans-serif}
-header{background:var(--ink);color:#fff}.bar{max-width:1120px;margin:auto;padding:17px 26px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font-weight:900}.back{color:#fff;text-decoration:none;border:1px solid #ffffff2a;border-radius:999px;padding:8px 13px;font-size:13px;font-weight:800}
-main{max-width:1120px;margin:auto;padding:clamp(34px,7vw,76px) 24px}.eyebrow{color:#5d7800;font-weight:900;font-size:14px}.hero{border-bottom:1px solid var(--line);padding-bottom:28px}.hero h1{font-size:clamp(46px,8vw,82px);letter-spacing:-3px;line-height:1;margin:8px 0 12px}.hero p{margin:0;color:var(--muted);font-size:18px;font-weight:700}
-.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:30px}.card{position:relative;min-height:290px;padding:30px;display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:24px;color:inherit;text-decoration:none;box-shadow:0 18px 46px #1017160d;transition:.18s}.card:hover{transform:translateY(-5px);border-color:#91ad1e;box-shadow:0 24px 60px #10171618}.num{width:48px;height:48px;display:grid;place-items:center;border-radius:15px;background:var(--lime);font-size:18px;font-weight:900}.card:nth-child(2) .num{background:var(--cyan)}.card h2{font-size:32px;margin:26px 0 10px}.card p{margin:0;color:var(--muted);line-height:1.6;font-weight:700}.open{margin-top:auto;padding-top:24px;font-weight:900}
-@media(max-width:700px){.cards{grid-template-columns:1fr}.card{min-height:235px}.bar{padding:14px 18px}}
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500;600;700;800;900&family=Manrope:wght@600;700;800&display=swap");
+:root{--bg:#050b14;--panel:#0b1523;--text:#f4f8ff;--muted:#91a4bb;--cyan:#53e4ff;--lime:#dfff5b;--violet:#ae91ff;--line:#233750}
+*{box-sizing:border-box}html,body{min-height:100%}body{margin:0;background:radial-gradient(circle at 82% 3%,#0f8cad35,transparent 30%),radial-gradient(circle at 10% 88%,#7d40bb22,transparent 26%),var(--bg);color:var(--text);font-family:"Heebo",Arial,sans-serif}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background:linear-gradient(#ffffff05 1px,transparent 1px),linear-gradient(90deg,#ffffff05 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(to bottom,#000,transparent 84%)}
+header{position:relative;border-bottom:1px solid #ffffff12;background:#050b14cc;backdrop-filter:blur(18px)}.bar{max-width:1240px;margin:auto;padding:17px 24px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:11px;font-weight:900}.dot{width:10px;height:10px;border-radius:50%;background:var(--cyan);box-shadow:0 0 18px var(--cyan)}.back{color:#c8d4e2;text-decoration:none;border:1px solid #ffffff1e;border-radius:999px;padding:8px 13px;font-size:12px;font-weight:900}.back:hover{border-color:var(--cyan);color:#fff}
+main{position:relative;max-width:1240px;margin:auto;padding:clamp(38px,7vw,78px) 22px 60px}.eyebrow{color:var(--cyan);font:800 12px "Manrope";letter-spacing:.17em}.hero{display:flex;align-items:end;justify-content:space-between;gap:22px;border-bottom:1px solid #ffffff14;padding-bottom:28px}.hero h1{font-size:clamp(48px,8vw,88px);letter-spacing:-3.5px;line-height:.95;margin:10px 0 12px}.hero p{margin:0;color:var(--muted);font-size:17px;font-weight:600}.week-no{color:#ffffff08;font:900 clamp(90px,15vw,180px)/.7 "Manrope"}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:28px}.card{--accent:var(--cyan);position:relative;min-height:390px;padding:27px;overflow:hidden;display:flex;flex-direction:column;color:inherit;text-decoration:none;background:linear-gradient(150deg,#102033,#091421 70%);border:1px solid #28405a;border-radius:25px;box-shadow:0 24px 70px #0006,inset 0 1px #ffffff0d;transition:.22s}.card:nth-child(2){--accent:var(--lime)}.card:nth-child(3){--accent:var(--violet)}.card:before{content:"";position:absolute;inset:0 0 auto;height:3px;background:linear-gradient(90deg,var(--accent),transparent)}.card:after{content:"";position:absolute;width:170px;height:170px;border-radius:50%;background:var(--accent);filter:blur(80px);opacity:.09;left:-60px;bottom:-60px}.card:hover{transform:translateY(-6px);border-color:color-mix(in srgb,var(--accent) 65%,#28405a);box-shadow:0 32px 90px #0008,0 0 40px color-mix(in srgb,var(--accent) 10%,transparent)}.index{width:49px;height:49px;display:grid;place-items:center;border:1px solid color-mix(in srgb,var(--accent) 48%,transparent);border-radius:15px;background:color-mix(in srgb,var(--accent) 10%,transparent);color:var(--accent);font:800 14px "Manrope"}.type{margin-top:23px;color:var(--accent);font:800 11px "Manrope";letter-spacing:.13em}.card h2{font-size:clamp(27px,3vw,38px);letter-spacing:-1px;line-height:1.1;margin:10px 0 14px}.card p{margin:0;color:#9fb0c3;line-height:1.65;font-weight:600}.open{position:relative;z-index:2;margin-top:auto;padding-top:26px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid #ffffff12;color:#fff;font-weight:900}.open span{color:var(--accent);font-size:24px}
+@media(max-width:900px){.cards{grid-template-columns:1fr}.card{min-height:280px}.week-no{display:none}}@media(max-width:600px){.bar{padding:14px 16px}.hero{display:block}.card{min-height:270px}.hero h1{font-size:52px}}
 </style>
 </head>
 <body>
-<header><div class="bar"><div class="brand">כיתה ז׳ · חומרי הוראה</div><a class="back" href="../">חזרה לתפריט הכיתות</a></div></header>
+<header><div class="bar"><div class="brand"><i class="dot"></i> כיתה ז׳ · השבוע הראשון</div><a class="back" href="../">חזרה לתפריט הכיתות</a></div></header>
 <main>
-<section class="hero"><div class="eyebrow">שבוע ראשון</div><h1>מנה ראשונה</h1><p>שתי פעילויות לפתיחה ישירה בכיתה.</p></section>
-<section class="cards" aria-label="פעילויות המנה הראשונה">
-<a class="card" href="https://englishfornoar.co.il/word-forge/"><span class="num">01</span><h2 lang="en" dir="ltr">Word Forge</h2><p>משחק לתרגול פעיל וחזרה על אוצר מילים.</p><div class="open">פתיחת המשחק ←</div></a>
-<a class="card" href="https://simonh68.github.io/E-Vocab-Band-II/groups/group-01.html"><span class="num">02</span><h2><span lang="en" dir="ltr">Band II</span> — קבוצה 1</h2><p>תרגול ישיר של קבוצת המילים הראשונה ב־Core I.</p><div class="open">פתיחת קבוצה 1 ←</div></a>
+<section class="hero"><div><div class="eyebrow">GRADE 7 · WEEK 01</div><h1>השבוע הראשון</h1><p>שלושה חומרים מוכנים לפתיחה ישירה בכיתה.</p></div><div class="week-no">01</div></section>
+<section class="cards" aria-label="חומרי השבוע הראשון">
+<a class="card" href="../to-be/"><span class="index">01</span><span class="type">HTML PRESENTATION</span><h2>הפועל To Be</h2><p>מצגת ההקניה: הפועל החסר בעברית, ההתאמה לגופים והשימוש בהווה, בעבר, בעתיד ועם ‎-ing.</p><div class="open">פתיחת המצגת <span>←</span></div></a>
+<a class="card" href="https://englishfornoar.co.il/word-forge/"><span class="index">02</span><span class="type">READING GAME</span><h2 lang="en" dir="ltr">Word Forge</h2><p>משחק לחזרה יסודית על יסודות הקריאה באנגלית, עבור תלמידים שחסר להם בסיס בקריאה.</p><div class="open">פתיחת המשחק <span>←</span></div></a>
+<a class="card" href="https://simonh68.github.io/E-Vocab-Band-II/groups/group-01.html"><span class="index">03</span><span class="type">FIRST DICTATION</span><h2><span lang="en" dir="ltr">Band II</span> — קבוצה 1</h2><p>קבוצת אוצר המילים שעל התלמידים ללמוד ולתרגל לקראת ההכתבה הראשונה.</p><div class="open">פתיחת קבוצת המילים <span>←</span></div></a>
 </section>
 </main>
 </body></html>
