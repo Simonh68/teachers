@@ -31,6 +31,8 @@ header{position:relative;border-bottom:1px solid #ffffff12;background:#050b14cc;
 </section>
 </main>
 <script>
-document.querySelectorAll(".grade").forEach(b=>b.onclick=()=>{document.querySelectorAll(".grade").forEach(x=>x.classList.remove("active"));b.classList.add("active");const is7=b.dataset.grade==="ז׳";const is9=b.dataset.grade==="ט׳";document.querySelector("#gradeLabel").textContent="כיתה "+b.dataset.grade;document.querySelector("#grade7").classList.toggle("hidden",!is7);document.querySelector("#grade9").classList.toggle("hidden",!is9);document.querySelector("#empty").classList.toggle("hidden",is7||is9)});
+function activateGrade(b){document.querySelectorAll(".grade").forEach(x=>x.classList.remove("active"));b.classList.add("active");const is7=b.dataset.grade==="ז׳";const is9=b.dataset.grade==="ט׳";document.querySelector("#gradeLabel").textContent="כיתה "+b.dataset.grade;document.querySelector("#grade7").classList.toggle("hidden",!is7);document.querySelector("#grade9").classList.toggle("hidden",!is9);document.querySelector("#empty").classList.toggle("hidden",is7||is9)}
+document.querySelectorAll(".grade").forEach(b=>b.onclick=()=>activateGrade(b));
+if(location.hash==="#grade9")activateGrade(document.querySelector('[data-grade="ט׳"]'));
 </script>
 </body></html>
