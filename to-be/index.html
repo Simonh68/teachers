@@ -84,12 +84,12 @@ const S=[
 ];
 function tenseFor(s){
   if(s.welcome||s.a==="climb")return "";
-  if(s.a==="past")return "עבר";
-  if(s.a==="present"||s.a==="action")return "הווה";
-  if(s.a==="future")return "עתיד";
+  if(s.a==="past")return "עבר · Past";
+  if(s.a==="present"||s.a==="action")return "הווה · Present";
+  if(s.a==="future")return "עתיד · Future";
   if(s.a==="story"){
     const part=Number((s.e.match(/(\d+)$/)||[])[1]);
-    return part===3||part===4?"עבר":part===6?"עתיד":"הווה";
+    return part===3||part===4?"עבר · Past":part===6?"עתיד · Future":"הווה · Present";
   }
   return "";
 }
