@@ -27,12 +27,14 @@ header{position:relative;border-bottom:1px solid #ffffff12;background:#050b14cc;
 <section><div class="headline"><div><div class="eyebrow" id="gradeLabel">כיתה ז׳</div><h2>חומרי הוראה</h2></div><span class="status">WEEKLY MATERIALS</span></div>
 <div id="grade7"><a class="week-card" href="first-course/"><div><span class="tag"><i class="pulse"></i> שבוע 01</span><h3>השבוע הראשון</h3><p>מצגת To Be, משחק לחזרה יסודית על הקריאה ואוצר המילים להכתבה הראשונה.</p></div><span class="arrow">←</span></a></div>
 <div id="grade9" class="hidden"><a class="week-card" href="grade9/"><div><span class="tag"><i class="pulse"></i> שבוע 01</span><h3>פתיחת השנה ואתר הלמידה</h3><p>מטרות כיתה ט׳, שימוש בטוח באתר, Band II Core I ותרגול מילים מקבוצות 1–2.</p></div><span class="arrow">←</span></a></div>
+<div id="grade10" class="hidden"><a class="week-card" href="grade10/group-a/"><div><span class="tag"><i class="pulse"></i> הקבצה א׳ · שבוע 01</span><h3>Core II ופתיחת הספרות</h3><p>מטרות 5 יח״ל, הבוחן הקרוב בקבוצות 21–24 ו־The Road Not Taken.</p></div><span class="arrow">←</span></a></div>
 <div id="empty" class="empty hidden"><div><h3>טרם נוספו חומרים</h3><p>התפריט מוכן להוספת שבועות וחומרים.</p></div></div>
 </section>
 </main>
 <script>
-function activateGrade(b){document.querySelectorAll(".grade").forEach(x=>x.classList.remove("active"));b.classList.add("active");const is7=b.dataset.grade==="ז׳";const is9=b.dataset.grade==="ט׳";document.querySelector("#gradeLabel").textContent="כיתה "+b.dataset.grade;document.querySelector("#grade7").classList.toggle("hidden",!is7);document.querySelector("#grade9").classList.toggle("hidden",!is9);document.querySelector("#empty").classList.toggle("hidden",is7||is9)}
+function activateGrade(b){document.querySelectorAll(".grade").forEach(x=>x.classList.remove("active"));b.classList.add("active");const is7=b.dataset.grade==="ז׳";const is9=b.dataset.grade==="ט׳";const is10=b.dataset.grade==="י׳";document.querySelector("#gradeLabel").textContent="כיתה "+b.dataset.grade;document.querySelector("#grade7").classList.toggle("hidden",!is7);document.querySelector("#grade9").classList.toggle("hidden",!is9);document.querySelector("#grade10").classList.toggle("hidden",!is10);document.querySelector("#empty").classList.toggle("hidden",is7||is9||is10)}
 document.querySelectorAll(".grade").forEach(b=>b.onclick=()=>activateGrade(b));
 if(location.hash==="#grade9")activateGrade(document.querySelector('[data-grade="ט׳"]'));
+if(location.hash==="#grade10")activateGrade(document.querySelector('[data-grade="י׳"]'));
 </script>
 </body></html>
