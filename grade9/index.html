@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>כיתה ט׳ — English for Noar</title>
+  <style>
+    :root{--bg:#07111f;--panel:#101f35;--ink:#f7fbff;--muted:#a9bdd2;--cyan:#27d7d1;--gold:#ffb938;--purple:#b98cff;--green:#65e78d;--red:#ff7180}
+    *{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden;background:var(--bg);color:var(--ink);font-family:Arial,"Noto Sans Hebrew",sans-serif}
+    body:before{content:"";position:fixed;inset:0;background:radial-gradient(circle at 15% 10%,#15375b 0,transparent 36%),radial-gradient(circle at 84% 84%,#351e55 0,transparent 35%),linear-gradient(135deg,#07111f,#0b1729);pointer-events:none}
+    .deck{height:100%;position:relative}.slide{position:absolute;inset:0;padding:5.5vh 6vw 8vh;display:none;align-items:center;justify-content:center;overflow:auto}.slide.active{display:flex;animation:enter .42s ease-out}@keyframes enter{from{opacity:0;transform:translateX(-22px)}to{opacity:1;transform:none}}
+    .content{width:min(1180px,100%);margin:auto;text-align:center}.eyebrow{color:var(--cyan);font-size:clamp(14px,1.5vw,20px);letter-spacing:.13em;font-weight:800}.title{font-size:clamp(38px,6vw,84px);margin:.18em 0;line-height:1.02}.subtitle{font-size:clamp(22px,2.7vw,38px);color:var(--muted);margin:.4em 0 1em}.he{direction:rtl}.en{direction:ltr}
+    .heroTitle{font-size:clamp(52px,8vw,112px);background:linear-gradient(90deg,var(--cyan),#fff,var(--gold));-webkit-background-clip:text;color:transparent;margin:.12em 0}.grade{display:inline-block;padding:.35em .8em;border:2px solid #ffffff33;border-radius:999px;background:#ffffff0d;font-size:clamp(22px,2.5vw,34px)}
+    .roadmap{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:3vh auto 0;max-width:960px;direction:ltr}.goal{padding:18px;border:1px solid #ffffff22;border-radius:22px;background:#ffffff0a;opacity:.5;transition:.3s}.goal.active{opacity:1;transform:translateY(-5px);box-shadow:0 0 35px #27d7d144;border-color:var(--cyan)}.goal:nth-child(2).active{border-color:var(--gold);box-shadow:0 0 35px #ffb93844}.goal:nth-child(3).active{border-color:var(--purple);box-shadow:0 0 35px #b98cff44}.goal .icon{font-size:42px}.goal b{display:block;font-size:clamp(17px,2vw,26px)}.goal small{color:var(--muted);font-size:15px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin:3vh auto;max-width:1050px}.card{background:linear-gradient(145deg,#142942,#0d1a2c);border:1px solid #ffffff24;border-radius:26px;padding:28px;min-height:210px;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 20px 50px #0005}.card .big{font-size:56px}.card h3{font-size:26px;margin:.35em}.card p{font-size:19px;color:var(--muted);margin:0}
+    .bubble{display:inline-block;background:#fff;color:#101827;border:5px solid #101827;border-radius:28px;padding:18px 28px;font-size:clamp(20px,2.4vw,32px);font-weight:900;box-shadow:9px 9px 0 var(--gold);transform:rotate(-1deg)}
+    .domain{direction:ltr;font-weight:900;font-size:clamp(38px,7vw,94px);letter-spacing:-.04em;white-space:nowrap}.domain .english{color:var(--cyan)}.domain .for{color:#fff}.domain .noar{color:var(--gold)}.domain .suffix{color:#9eb0c4;font-size:.52em}.type span{display:inline-block;animation:pop .55s both}.type span:nth-child(2){animation-delay:.45s}.type span:nth-child(3){animation-delay:.9s}.type span:nth-child(4){animation-delay:1.3s}@keyframes pop{from{opacity:0;transform:translateY(18px) scale(.9)}to{opacity:1;transform:none}}
+    .screen{width:min(1040px,96%);height:min(61vh,620px);background:#fff;border:9px solid #18283c;border-radius:28px;overflow:hidden;box-shadow:0 24px 70px #0008;margin:auto}.screen iframe{width:100%;height:100%;border:0;background:#fff}.hint{margin:14px auto 0;color:var(--muted);font-size:16px}
+    .phone{width:min(390px,88vw);margin:auto;background:#101c2e;border:8px solid #263a54;border-radius:34px;padding:17px;box-shadow:0 22px 55px #0008}.wa{background:#d9fdd3;color:#15251b;text-align:right;padding:16px;border-radius:16px 4px 16px 16px;font-size:19px;line-height:1.5}.wa a{color:#075e54;font-weight:800}.tap{display:inline-block;animation:tap 1.2s infinite}@keyframes tap{50%{transform:scale(.82)}}
+    .privacy{display:grid;grid-template-columns:1fr 1fr;gap:25px;max-width:1000px;margin:auto}.yes,.no{border-radius:28px;padding:28px;text-align:right;font-size:clamp(18px,2vw,26px)}.yes{background:#153b2a;border:2px solid var(--green)}.no{background:#3c1f2a;border:2px solid var(--red)}.privacy li{margin:.65em 0}
+    .flow{display:flex;align-items:center;justify-content:center;gap:18px;direction:rtl;flex-wrap:wrap}.flow .step{background:#ffffff0d;border:1px solid #ffffff2a;border-radius:24px;padding:22px 28px;font-size:clamp(20px,2.5vw,32px);font-weight:900}.arrow{font-size:38px;color:var(--gold)}
+    .word{direction:ltr;font-size:clamp(56px,9vw,126px);color:var(--cyan);font-weight:950;letter-spacing:-.04em;margin:.05em}.pos{display:inline-block;color:#07111f;background:var(--gold);border-radius:999px;padding:8px 18px;font-weight:900;text-transform:uppercase;letter-spacing:.08em}.sentence{direction:ltr;font-size:clamp(28px,4vw,50px);line-height:1.25;max-width:1000px;margin:5vh auto 0}.answer .word{color:var(--gold)}.meaning{font-size:clamp(34px,5vw,66px);font-weight:900;margin:.25em 0;color:#fff}.translation{font-size:clamp(24px,3vw,40px);line-height:1.35;max-width:950px;margin:3vh auto;color:#dce9f6}.challengeTag{position:absolute;top:3vh;right:4vw;color:var(--muted);font-weight:800}.groupTag{position:absolute;top:3vh;left:4vw;color:var(--gold);font-weight:800;direction:ltr}
+    .breakSlide .content{background:linear-gradient(145deg,#172c49,#241b3e);border:2px solid var(--gold);border-radius:42px;padding:5vh 4vw;box-shadow:0 0 70px #ffb93828}.breakIcon{font-size:86px;animation:float 2s ease-in-out infinite}@keyframes float{50%{transform:translateY(-12px) rotate(4deg)}}
+    .footer{position:fixed;bottom:0;left:0;right:0;height:58px;background:#07111fe8;border-top:1px solid #ffffff1b;display:flex;align-items:center;justify-content:space-between;padding:0 4vw;z-index:20}.nav{display:flex;gap:9px;direction:ltr}.nav button{border:1px solid #ffffff2a;background:#ffffff0d;color:#fff;border-radius:13px;padding:9px 15px;font-size:18px;cursor:pointer}.nav button:hover{background:#ffffff20}.progressWrap{flex:1;max-width:440px;margin:0 20px;height:7px;border-radius:999px;background:#ffffff18;overflow:hidden}.progress{height:100%;width:0;background:linear-gradient(90deg,var(--cyan),var(--gold));transition:.3s}.counter{direction:ltr;color:var(--muted);min-width:75px}.home{position:fixed;top:18px;left:22px;z-index:30;color:white;text-decoration:none;font-size:22px;background:#ffffff12;border:1px solid #ffffff24;border-radius:13px;padding:8px 11px}
+    @media(max-width:760px){.slide{padding:6vh 4vw 10vh}.cards,.roadmap{grid-template-columns:1fr}.roadmap{gap:8px}.goal{padding:9px}.goal .icon{font-size:25px}.card{min-height:auto}.privacy{grid-template-columns:1fr}.screen{height:56vh}.domain{white-space:normal}.footer{padding:0 2vw}.progressWrap{display:none}}
+  </style>
+</head>
+<body>
+<a class="home" href="https://englishfornoar.co.il" target="_blank" aria-label="דף הבית">⌂</a>
+<main class="deck" id="deck"></main>
+<footer class="footer"><div class="counter" id="counter"></div><div class="progressWrap"><div class="progress" id="progress"></div></div><div class="nav"><button id="prev" aria-label="Previous">‹</button><button id="next" aria-label="Next">›</button></div></footer>
+<script>
+const roadmap=(active=0)=>`<div class="roadmap">
+  <div class="goal ${active===1?'active':''}"><div class="icon">📖</div><b>READING</b><small>A2 → B1</small></div>
+  <div class="goal ${active===2?'active':''}"><div class="icon">🧰</div><b>VOCABULARY</b><small>Junior High</small></div>
+  <div class="goal ${active===3?'active':''}"><div class="icon">✍️</div><b>WRITING</b><small>Express Yourself</small></div>
+</div>`;
+const words=[
+{g:1,w:'take something seriously',p:'phrase',m:'להתייחס למשהו ברצינות',e:'Do not take this joke too seriously.',h:'אל תיקח את הבדיחה הזאת ברצינות רבה מדי.'},
+{g:1,w:'lack of something',p:'phrase',m:'מחסור במשהו',e:'Lack of food made them really hungry.',h:'מחסור במזון גרם להם להיות רעבים.'},
+{g:1,w:'understanding',p:'noun',m:'הבנה; ידע',e:'Thank you for your patience and understanding.',h:'תודה על הסבלנות וההבנה.'},
+{g:1,w:'however',p:'adverb',m:'עם זאת',e:'It was cold. However, we went out.',h:'היה קר. עם זאת, יצאנו.'},
+{g:1,w:'contents',p:'noun',m:'תכולה; תוכן',e:'May I see the full contents of the package?',h:'אפשר לראות את כל תכולת החבילה?'},
+{g:1,w:'demand',p:'verb',m:'לדרוש',e:'Customers demand better service.',h:'לקוחות דורשים שירות טוב יותר.'},
+{g:1,w:'break down',p:'phrasal verb',m:'להתקלקל',e:'Our school bus broke down.',h:'אוטובוס בית הספר שלנו התקלקל.'},
+{g:1,w:'degree',p:'noun',m:'מידה; דרגה; תואר',e:'I agree to some degree.',h:'אני מסכים במידה מסוימת.'},
+{g:1,w:'so far',p:'idiom',m:'עד כה',e:'So far, everything is fine.',h:'עד כה הכול בסדר.'},
+{g:1,w:'be able to do something',p:'phrase',m:'להיות מסוגל לעשות משהו',e:'Would you please be able to do that?',h:'האם תוכל לעשות את זה בבקשה?'},
+{g:1,w:'read something out',p:'phrasal verb',m:'להקריא משהו בקול',e:'She read the poem out to the class.',h:'היא הקריאה את השיר לכיתה.'},
+{g:1,w:'by mistake',p:'phrase',m:'בטעות',e:'I took the wrong umbrella by mistake.',h:'לקחתי בטעות את המטרייה הלא נכונה.'},
+{g:1,w:'in half',p:'phrase',m:'לחצי',e:'He cut the orange in half.',h:'הוא חצה את התפוז לשניים.'},
+{g:1,w:'remove',p:'verb',m:'להסיר; להוציא',e:'Could you please remove your glasses?',h:'אתה יכול להסיר את המשקפיים בבקשה?'},
+{g:1,w:'international',p:'adjective',m:'בין־לאומי',e:'Spanish is an international language.',h:'ספרדית היא שפה בינלאומית.'},
+{g:2,w:'achieve',p:'verb',m:'להשיג',e:'She worked hard to achieve her goal.',h:'היא עבדה קשה כדי להשיג את מטרתה.'},
+{g:2,w:'increase',p:'noun',m:'עלייה; גידול',e:'We saw an increase in prices.',h:'ראינו עלייה במחירים.'},
+{g:2,w:'pension',p:'noun',m:'פנסיה',e:'I could lose my pension too.',h:'גם אני עלול לאבד את הפנסיה שלי.'},
+{g:2,w:'suit',p:'verb',m:'להתאים',e:'That hat will suit her.',h:'הכובע הזה מתאים לה.'},
+{g:2,w:'owe',p:'verb',m:'חייב',e:'Exactly how much do I owe you?',h:'בדיוק כמה אני חייב לך?'},
+{g:2,w:'threat',p:'noun',m:'איום',e:'It is a threat too.',h:'גם זה איום.'},
+{g:2,w:'relations',p:'noun',m:'יחסים',e:'Canada has diplomatic relations with China.',h:'לקנדה יחסים דיפלומטיים עם סין.'},
+{g:2,w:'though',p:'adverb',m:'אמנם',e:'Even though it is large, it is still my apartment.',h:'היא אמנם גדולה, אבל זו בכל זאת הדירה שלי.'},
+{g:2,w:'can afford',p:'phrase',m:'יכול להרשות לעצמו',e:'I can afford good food today.',h:'אני יכולה להרשות לעצמי מזון טוב היום.'},
+{g:2,w:'interval',p:'noun',m:'מרווח',e:'There is a short interval.',h:'יש הפסקה קצרה.'},
+{g:2,w:'be unable to do something',p:'phrase',m:'לא להיות מסוגל לעשות משהו',e:'She was unable to come.',h:'היא לא הייתה מסוגלת לבוא.'},
+{g:2,w:'certain',p:'adjective',m:'בטוח',e:'I am certain he will come.',h:'אני בטוח שהוא יבוא.'},
+{g:2,w:'operate',p:'verb',m:'הִפְעִיל; תִּפְעֵל',e:'Can you operate this machine?',h:'אתה יכול להפעיל את המכונה הזאת?'},
+{g:2,w:'be responsible for something',p:'phrase',m:'להיות אחראי למשהו',e:'I will not be responsible for my actions.',h:'אני לא אהיה אחראי למעשיי.'},
+{g:2,w:'industry',p:'noun',m:'תעשייה',e:'Tourism is an important industry.',h:'תיירות היא ענף חשוב.'}
+];
+const slides=[];
+function add(html,cls=''){slides.push({html,cls})}
+add(`<div class="content"><div class="grade">A NEW YEAR OF ENGLISH</div><h1 class="heroTitle">WELCOME TO 9TH GRADE</h1><h2 class="subtitle he">ברוכים הבאים לכיתה ט׳</h2><div class="bubble">השנה עולים שלב. הפעם באמת. ⚡</div></div>`);
+add(`<div class="content"><div class="eyebrow">YOUR MISSION</div><h1 class="title">מה הולכים להשיג השנה?</h1><p class="subtitle">שלושה כוחות. שנה אחת. קדימה.</p>${roadmap(0)}</div>`);
+add(`<div class="content"><div class="eyebrow">POWER 01</div><h1 class="title">READING</h1><h2 class="heroTitle">A2 → B1</h2><p class="subtitle">נקרא טקסטים ברמה גבוהה יותר — בלי להיתקע על כל מילה.</p>${roadmap(1)}</div>`);
+add(`<div class="content"><div class="eyebrow">POWER 02</div><h1 class="title">VOCABULARY</h1><div class="breakIcon">🧰</div><p class="subtitle">נסגור את כל המילים של החטיבה לפני שעוברים למילים של הבגרות.</p><div class="bubble">עוד מילה בכיס = עוד כוח</div>${roadmap(2)}</div>`);
+add(`<div class="content"><div class="eyebrow">POWER 03</div><h1 class="title">WRITING</h1><div class="breakIcon">✍️</div><p class="subtitle">נכתוב מה אנחנו באמת חושבים — באנגלית ברורה.</p><div class="bubble">“I don’t know” זה משפט. חיבור זה עדיין לא.</div>${roadmap(3)}</div>`);
+add(`<div class="content"><h1 class="title">THE ENGLISH TEAM</h1><div class="cards"><div class="card"><div class="big">📖</div><h3>מבינים</h3></div><div class="card"><div class="big">🧰</div><h3>אוספים מילים</h3></div><div class="card"><div class="big">✍️</div><h3>כותבים מה חושבים</h3></div></div><p class="subtitle">היום מתחילים עם המילים ועם האתר.</p></div>`);
+add(`<div class="content"><div class="eyebrow">OUR WEBSITE</div><div class="domain type"><span class="english">ENGLISH</span> <span class="for">FOR</span> <span class="noar">NOAR</span><span class="suffix">.CO.IL</span></div><p class="subtitle">English for Noar — אנגלית לנוער</p></div>`);
+add(`<div class="content"><div class="eyebrow">THE HOME PAGE</div><h1 class="title">זה עמוד הבית</h1><div class="screen"><iframe src="https://englishfornoar.co.il" title="English for Noar home page"></iframe></div><div class="hint">האתר לא עולה בתוך השקף? לחצו על הבית בפינה.</div></div>`);
+add(`<div class="content"><div class="eyebrow">DIRECT ACCESS</div><h1 class="title">הקישור מגיע ב־WhatsApp</h1><div class="phone"><div class="wa">השבוע לומדים:<br><b>Band II — Core I — Group 01</b><br><a>englishfornoar.co.il/…</a><br><span class="tap">👆</span> לוחצים ונכנסים</div></div><p class="subtitle">בלי לחפש ובלי להסתבך — נכנסים ישר לקבוצה.</p></div>`);
+add(`<div class="content"><div class="eyebrow">TECH CHECK</div><h1 class="title">אותו מכשיר. אותו דפדפן.</h1><div class="cards"><div class="card"><div class="big">📱</div><h3>אותו מכשיר</h3><p>כדי שהאתר יזכור אתכם</p></div><div class="card"><div class="big">🌐</div><h3>אותו דפדפן</h3><p>Chrome או Safari — לא קופצים ביניהם</p></div><div class="card"><div class="big">✅</div><h3>מאשרים שמירה</h3><p>וחוזרים בדיוק לאותה נקודה</p></div></div></div>`);
+add(`<div class="content"><div class="breakIcon">🦸</div><h1 class="title">QUICK BREAK</h1><p class="subtitle">איזה כוח־על בא לכם?</p><div class="flow"><div class="step">לזכור כל מילה</div><div class="step">להבין כל שפה</div><div class="step">לעצור זמן בבוחן</div></div></div>`,'breakSlide');
+add(`<div class="content"><div class="eyebrow">LOCAL PROGRESS</div><h1 class="title">האתר זוכר איפה עצרתם</h1><div class="privacy"><div class="yes"><h2>✅ עושים</h2><ul><li>מאשרים לשמור התקדמות</li><li>נשארים באותו דפדפן</li><li>חוזרים מאותו מכשיר</li></ul></div><div class="no"><h2>⛔ לא עושים</h2><ul><li>לא נכנסים בגלישה פרטית</li><li>לא מוחקים את נתוני האתר</li><li>לא מחליפים דפדפן בלי סיבה</li></ul></div></div></div>`);
+add(`<div class="content"><div class="eyebrow">YOUR PRIVACY</div><h1 class="title">הפרטים שלכם נשארים שלכם</h1><div class="privacy"><div class="yes"><h2>האתר שומר רק</h2><p>איפה עצרתם בלמידה — על המכשיר שלכם.</p></div><div class="no"><h2>לא נותנים באתר</h2><p>שם מלא, תעודת זהות, טלפון או סיסמה.</p></div></div><p class="subtitle">משהו נראה מוזר? לא ממשיכים. קוראים למורה.</p></div>`);
+add(`<div class="content"><div class="eyebrow">MAIN ROUTE</div><h1 class="title">BAND II — CORE I</h1><p class="subtitle">רק בדיקה זריזה: Core I ומספר הקבוצה שקיבלתם.</p><div class="bubble">הכול מתאים? מתחילים.</div></div>`);
+add(`<div class="content"><div class="eyebrow">LEARNING ROUTINE</div><h1 class="title">שתי קבוצות ואז בוחן</h1><div class="flow"><div class="step">קבוצה 1</div><div class="arrow">＋</div><div class="step">קבוצה 2</div><div class="arrow">←</div><div class="step" style="border-color:var(--gold)">בוחן מילים</div></div></div>`);
+add(`<div class="content"><div class="eyebrow">HOW TO LEARN</div><h1 class="title">שנייה. לא להפוך ישר.</h1><div class="flow"><div class="step">קוראים</div><div class="arrow">←</div><div class="step">מנסים להיזכר</div><div class="arrow">←</div><div class="step">בודקים</div></div><p class="subtitle">המוח עובד כשמנסים לבד — לא כשישר מציצים.</p></div>`);
+add(`<div class="content"><div class="eyebrow">CHALLENGE</div><h1 class="title">30 מילים שצריך לפצח</h1><p class="subtitle">קודם מילה ומשפט. מנסים להבין לבד. רק אז עוברים לפתרון.</p><div class="bubble">קודם ניחוש חכם, אחר כך תשובה 🎯</div></div>`);
+words.forEach((x,i)=>{
+  add(`<span class="challengeTag">WORD ${String(i+1).padStart(2,'0')} / 30</span><span class="groupTag">CORE I · GROUP ${String(x.g).padStart(2,'0')}</span><div class="content"><span class="pos">${x.p}</span><div class="word">${x.w}</div><div class="sentence">${x.e}</div><p class="hint">מה נראה לכם שזה אומר?</p></div>`);
+  add(`<span class="challengeTag">ANSWER ${String(i+1).padStart(2,'0')} / 30</span><span class="groupTag">CORE I · GROUP ${String(x.g).padStart(2,'0')}</span><div class="content answer"><span class="pos">${x.p}</span><div class="word">${x.w}</div><div class="meaning">${x.m}</div><div class="sentence">${x.e}</div><div class="translation">${x.h}</div></div>`);
+  if((i+1)%10===0 && i<words.length-1){
+    add(`<div class="content"><div class="breakIcon">⚡</div><h1 class="title">POWER CHECK</h1><p class="subtitle">עשר מילים מאחורינו. מי זוכר אחת בלי להציץ?</p><div class="bubble">בחרו מילה והסבירו אותה למישהו לידכם</div></div>`,'breakSlide');
+  }
+});
+add(`<div class="content"><div class="eyebrow">EXTRA PRACTICE</div><h1 class="title">WORD FORGE</h1><p class="subtitle">רוצים עוד? משחקים, צוברים נקודות ומתרגלים בלי להרגיש.</p><div class="screen"><iframe src="https://englishfornoar.co.il/word-forge/?level=1&lesson=1" title="Word Forge"></iframe></div></div>`);
+add(`<div class="content"><div class="eyebrow">EXTRA SUPPORT</div><h1 class="title">READ ALONG</h1><p class="subtitle">הקריאה קשה? מתחילים מסיפור קל ומתקדמים בקצב שלכם.</p><div class="screen"><iframe src="https://simonh68.github.io/E-Vocab-Band-II/Read-Along/" title="Read Along"></iframe></div></div>`);
+add(`<div class="content"><div class="domain"><span class="english">ENGLISH</span> <span class="for">FOR</span> <span class="noar">NOAR</span><span class="suffix">.CO.IL</span></div><h1 class="title">READY?</h1><div class="flow"><div class="step">קישור ב־WhatsApp</div><div class="arrow">←</div><div class="step">שתי קבוצות</div><div class="arrow">←</div><div class="step">בוחן מילים</div></div><p class="subtitle">אותו מכשיר, אותו דפדפן, והפרטים שלכם נשארים שלכם.</p></div>`);
+
+const deck=document.getElementById('deck');
+slides.forEach((s,i)=>{const el=document.createElement('section');el.className='slide '+s.cls;el.innerHTML=s.html;el.dataset.index=i;deck.appendChild(el)});
+let index=0;const all=[...document.querySelectorAll('.slide')];
+function show(n){index=Math.max(0,Math.min(all.length-1,n));all.forEach((s,i)=>s.classList.toggle('active',i===index));document.getElementById('counter').textContent=`${index+1} / ${all.length}`;document.getElementById('progress').style.width=`${(index+1)/all.length*100}%`;location.hash=`slide-${index+1}`}
+document.getElementById('prev').onclick=()=>show(index-1);document.getElementById('next').onclick=()=>show(index+1);
+document.addEventListener('keydown',e=>{if(['ArrowRight','PageUp'].includes(e.key))show(index-1);if(['ArrowLeft','PageDown',' '].includes(e.key)){e.preventDefault();show(index+1)}if(e.key==='Home')show(0);if(e.key==='End')show(all.length-1)});
+let x=0;document.addEventListener('touchstart',e=>x=e.changedTouches[0].clientX,{passive:true});document.addEventListener('touchend',e=>{const d=e.changedTouches[0].clientX-x;if(Math.abs(d)>55)show(index+(d<0?1:-1))},{passive:true});
+const hash=Number((location.hash.match(/slide-(\d+)/)||[])[1]);show(hash?hash-1:0);
+</script>
+</body>
+</html>
