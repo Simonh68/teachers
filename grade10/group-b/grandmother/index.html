@@ -14,6 +14,8 @@
 .compare{display:grid;grid-template-columns:1fr 1fr;gap:18px;direction:ltr;margin:3vh auto}.compare>div{padding:25px;border-radius:24px;background:#ffffff09;border:1px solid #ffffff22}.compare h3{font:900 28px "Nunito";color:var(--gold);margin:0 0 12px}.compare p{font:700 21px/1.45 "Nunito";color:var(--muted)}
 .quote{direction:ltr;font:900 clamp(34px,5vw,68px)/1.2 "Nunito";color:var(--gold);margin:3vh auto}.poemText{direction:ltr;text-align:left;font:800 clamp(25px,3.4vw,48px)/1.38 "Nunito";max-width:1050px;margin:3vh auto;padding:24px 30px;border-left:5px solid var(--gold);background:#ffffff09;border-radius:0 22px 22px 0}
 .breakSlide{background:radial-gradient(circle at 28% 45%,#ffc95c35 0 3%,transparent 22%),radial-gradient(circle at 70% 45%,#55e7ff28 0 3%,transparent 24%),linear-gradient(135deg,#112f47,#25192f)}
+.grandmotherScene{background-image:url('assets/grandmother-midpoint-scene.webp');background-position:center center;background-size:cover}
+.grandmotherScene:after{background:linear-gradient(180deg,transparent 72%,#050b1488)}
 @media(max-width:760px){.roadmap{grid-template-columns:1fr 1fr}.compare{grid-template-columns:1fr}.steps div{padding:12px 15px}}
 </style></head>
 <body>
@@ -42,6 +44,7 @@ vocab.forEach(([w,d,m])=>add(`<div class="content"><div class="eyebrow">KEY VOCA
 add(`<div class="content"><div class="eyebrow">GRANDMOTHER · PART 1 / 5</div><div class="poemText">I hadn’t asked her much, just how she felt, and she told me all about her day,</div><p class="question">What kind of answer did the speaker expect?</p></div>`);
 add(`<div class="content"><div class="eyebrow">GRANDMOTHER · PART 2 / 5</div><div class="poemText">and how she’d washed the sheets, and how she could not understand why the towel got so heavy when it was wet.</div><p class="question">What do these ordinary details tell us about the grandmother?</p></div>`);
 add(`<div class="content"><div class="eyebrow">GRANDMOTHER · PART 3 / 5</div><div class="poemText">She’d also sunned the mattresses, such tired bones and so much to do,</div><p class="question">What contrast appears in this part?</p></div>`);
+add(`<div class="content"></div>`,'breakSlide grandmotherScene');
 add(`<div class="content"><div class="eyebrow">GRANDMOTHER · PART 4 / 5</div><div class="poemText">and my eyes filled with tears when I thought of how I was simply going to say “Salaam” and walk away and so many words would have been trapped inside her.</div><p class="question">Why do the speaker’s eyes fill with tears?</p></div>`);
 add(`<div class="content"><div class="eyebrow">GRANDMOTHER · PART 5 / 5</div><div class="poemText">I would have passed by as if what lay between those bedclothes was just old life and not really my grandmother.</div><p class="question">What does the speaker finally understand?</p></div>`);
 add(`<div class="content"><div class="eyebrow">FIRST READING</div><h1 class="title">מה קורה בשיר?</h1><div class="steps"><div>The granddaughter asks a simple question.</div><div>The grandmother answers with details from her day.</div><div>The granddaughter begins to listen differently.</div><div>A routine conversation becomes an important moment.</div></div></div>`);
