@@ -26,6 +26,7 @@ header{position:relative;border-bottom:1px solid #ffffff12;background:#050b14cc;
 </nav></aside>
 <section><div class="headline"><div><div class="eyebrow" id="gradeLabel">כיתה ז׳</div><h2>חומרי הוראה</h2></div><span class="status">WEEKLY MATERIALS</span></div>
 <div id="grade7"><a class="week-card" href="first-course/"><div><span class="tag"><i class="pulse"></i> שבוע 01</span><h3>השבוע הראשון</h3><p>מצגת To Be, משחק לחזרה יסודית על הקריאה ואוצר המילים להכתבה הראשונה.</p></div><span class="arrow">←</span></a></div>
+<div id="grade8" class="hidden"><a class="week-card" href="grade8/"><div><span class="tag"><i class="pulse"></i> שבוע 01</span><h3>פתיחת השנה · <span lang="en" dir="ltr">New Directions</span></h3><p>הציוד לשיעור, היעד השנתי ב־Band II Core I ופתיחת אוצר המילים של קבוצה 01.</p></div><span class="arrow">←</span></a></div>
 <div id="grade9" class="hidden"><a class="week-card" href="grade9/"><div><span class="tag"><i class="pulse"></i> שבוע 01</span><h3>פתיחת השנה ואתר הלמידה</h3><p>מטרות כיתה ט׳, שימוש בטוח באתר, Band II Core I ותרגול מילים מקבוצות 1–2.</p></div><span class="arrow">←</span></a></div>
 <div id="grade10" class="hidden"><a class="week-card" href="grade10/"><div><span class="tag"><i class="pulse"></i> שתי הקבצות</span><h3>כיתה י׳ — בחירת הקבצה</h3><p>החומרים של הקבצה א׳ ושל הקבצה ב׳ נמצאים בספריות נפרדות.</p></div><span class="arrow">←</span></a></div>
 <div id="grade11" class="hidden"><a class="week-card" href="grade11/"><div><span class="tag"><i class="pulse"></i> 5 יח״ל · 4 יח״ל</span><h3>כיתה י״א — בחירת מסלול</h3><p>החומרים של 5 יח״ל ושל 4 יח״ל נמצאים במחיצות נפרדות.</p></div><span class="arrow">←</span></a></div>
@@ -33,8 +34,9 @@ header{position:relative;border-bottom:1px solid #ffffff12;background:#050b14cc;
 </section>
 </main>
 <script>
-function activateGrade(b){document.querySelectorAll(".grade").forEach(x=>x.classList.remove("active"));b.classList.add("active");const is7=b.dataset.grade==="ז׳";const is9=b.dataset.grade==="ט׳";const is10=b.dataset.grade==="י׳";const is11=b.dataset.grade==="י״א";document.querySelector("#gradeLabel").textContent="כיתה "+b.dataset.grade;document.querySelector("#grade7").classList.toggle("hidden",!is7);document.querySelector("#grade9").classList.toggle("hidden",!is9);document.querySelector("#grade10").classList.toggle("hidden",!is10);document.querySelector("#grade11").classList.toggle("hidden",!is11);document.querySelector("#empty").classList.toggle("hidden",is7||is9||is10||is11)}
+function activateGrade(b){document.querySelectorAll(".grade").forEach(x=>x.classList.remove("active"));b.classList.add("active");const is7=b.dataset.grade==="ז׳";const is8=b.dataset.grade==="ח׳";const is9=b.dataset.grade==="ט׳";const is10=b.dataset.grade==="י׳";const is11=b.dataset.grade==="י״א";document.querySelector("#gradeLabel").textContent="כיתה "+b.dataset.grade;document.querySelector("#grade7").classList.toggle("hidden",!is7);document.querySelector("#grade8").classList.toggle("hidden",!is8);document.querySelector("#grade9").classList.toggle("hidden",!is9);document.querySelector("#grade10").classList.toggle("hidden",!is10);document.querySelector("#grade11").classList.toggle("hidden",!is11);document.querySelector("#empty").classList.toggle("hidden",is7||is8||is9||is10||is11)}
 document.querySelectorAll(".grade").forEach(b=>b.onclick=()=>activateGrade(b));
+if(location.hash==="#grade8")activateGrade(document.querySelector('[data-grade="ח׳"]'));
 if(location.hash==="#grade9")activateGrade(document.querySelector('[data-grade="ט׳"]'));
 if(location.hash==="#grade10")activateGrade(document.querySelector('[data-grade="י׳"]'));
 if(location.hash==="#grade11")activateGrade(document.querySelector('[data-grade="י״א"]'));
