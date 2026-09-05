@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Teacher presentation layout check</title><style>body{margin:16px;background:#eceff3;font:15px Arial}header{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:12px}button,select{font:inherit;padding:8px}iframe{display:block;border:0;background:#07111f}pre{white-space:pre-wrap}#result{max-width:1200px}</style>
+<header><label>Viewport <select id="viewport"><option value="1024,640">1024 × 640</option><option value="390,844">390 × 844</option><option value="844,390">844 × 390</option><option value="320,568">320 × 568</option></select></label><label>Slide <select id="slide"></select></label><button id="run">Check all slides and sizes</button><span id="status">Ready</span></header><iframe id="preview" title="Teacher slide preview" src="./grade9/the-message-without-a-voice/"></iframe><pre id="result"></pre>
+<script>
+const frame=document.querySelector('#preview'),viewport=document.querySelector('#viewport'),slide=document.querySelector('#slide'),status=document.querySelector('#status'),result=document.querySelector('#result');
+for(let i=1;i<=96;i++)slide.add(new Option(String(i),String(i)));
+function size(){const [w,h]=viewport.value.split(',').map(Number);frame.style.width=w+'px';frame.style.height=h+'px'}
+viewport.addEventListener('change',size);slide.addEventListener('change',()=>{frame.contentWindow.location.hash='slide-'+slide.value});size();
+async function settle(){await new Promise(r=>setTimeout(r,240));await frame.contentDocument.fonts.ready;}
+document.querySelector('#run').addEventListener('click',async()=>{
+document.querySelector('#run').disabled=true;const failures=[],tested=[];const pairGeometry={};
+for(const dim of ['1024,640','390,844','844,390','320,568']){
+viewport.value=dim;size();await settle();const [w,h]=dim.split(',').map(Number);
+for(let i=1;i<=96;i++){
+slide.value=String(i);frame.contentWindow.location.hash='slide-'+i;await settle();
+const doc=frame.contentDocument,s=doc.querySelector('.slide.active'),f=s.querySelector('.frame'),r=f.getBoundingClientRect(),style=frame.contentWindow.getComputedStyle(s),top=parseFloat(style.paddingTop),bottom=h-parseFloat(style.paddingBottom),nav=doc.querySelector('.nav').getBoundingClientRect();
+const issues=[];if(s.id!=='slide-'+i)issues.push('wrong slide');if(s.scrollWidth>w+1)issues.push('horizontal overflow');if(r.top<top-1||r.bottom>bottom+1)issues.push('vertical overflow');
+for(const e of doc.querySelectorAll('.nav button,.progress,.home,.section-nav button')){const b=e.getBoundingClientRect();if(b.left<0||b.top<0||b.right>w+1||b.bottom>h+1)issues.push('navigation outside viewport')}
+for(const e of s.querySelectorAll('.word,.example,.meaning,.translation,.question,.possible-answer,.events,.story-sentence,.part-title,.cover-title')){const b=e.getBoundingClientRect();if(e.scrollWidth>e.clientWidth+1)issues.push('text width: '+e.className);if(b.left<0||b.right>w+1)issues.push('text outside viewport: '+e.className)}
+if(s.dataset.pair){const k=dim+':'+s.dataset.pair,el=s.querySelector('.word,.question-area'),b=el.getBoundingClientRect();if(s.dataset.reveal==='false')pairGeometry[k]=b;else{const a=pairGeometry[k];if(a&&Math.max(Math.abs(a.x-b.x),Math.abs(a.y-b.y),Math.abs(a.width-b.width),Math.abs(a.height-b.height))>1)issues.push('pair changed position')}}
+if(issues.length)failures.push({size:dim,slide:i,issues:[...new Set(issues)],frame:{top:r.top,bottom:r.bottom},available:{top,bottom}});
+tested.push({size:dim,slide:i});status.textContent=tested.length+' / 384';
+}}
+result.textContent=JSON.stringify({tested:tested.length,failures},null,2);status.textContent=failures.length?'Issues found':'PASS';document.querySelector('#run').disabled=false;
+});
+</script></html>
