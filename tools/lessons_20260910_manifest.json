@@ -1,0 +1,173 @@
+{
+  "story_word_count": 251,
+  "vocabulary": [
+    {
+      "word": "break",
+      "meaning": "הפסקה; חופשה",
+      "example": "Let’s take a break.",
+      "translation": "בואו נעשה הפסקה."
+    },
+    {
+      "word": "join",
+      "meaning": "לחבר; להצטרף",
+      "example": "Join us.",
+      "translation": "הצטרפו אלינו."
+    },
+    {
+      "word": "however",
+      "meaning": "עם זאת",
+      "example": "It was hard. However, I tried.",
+      "translation": "זה היה קשה. עם זאת, ניסיתי."
+    },
+    {
+      "word": "around",
+      "meaning": "בסביבה; מסביב",
+      "example": "Is anyone around?",
+      "translation": "יש מישהו בסביבה?"
+    },
+    {
+      "word": "understanding",
+      "meaning": "הבנה; ידע",
+      "example": "He has a good understanding of English.",
+      "translation": "יש לו הבנה טובה באנגלית."
+    },
+    {
+      "word": "take something seriously",
+      "meaning": "להתייחס למשהו ברצינות",
+      "example": "Take this seriously.",
+      "translation": "התייחסו לזה ברצינות."
+    },
+    {
+      "word": "by mistake",
+      "meaning": "בטעות",
+      "example": "I called you by mistake.",
+      "translation": "התקשרתי אליכם בטעות."
+    },
+    {
+      "word": "fine",
+      "meaning": "בסדר; בריא",
+      "example": "I feel fine.",
+      "translation": "אני מרגיש טוב."
+    },
+    {
+      "word": "go back",
+      "meaning": "לחזור",
+      "example": "Let’s go back.",
+      "translation": "בואו נחזור."
+    },
+    {
+      "word": "explanation",
+      "meaning": "הסבר",
+      "example": "I need an explanation.",
+      "translation": "אני צריך הסבר."
+    },
+    {
+      "word": "care",
+      "meaning": "טיפול; תשומת לב",
+      "example": "The baby needs care.",
+      "translation": "התינוק זקוק לטיפול."
+    },
+    {
+      "word": "be able to do something",
+      "meaning": "להיות מסוגל לעשות משהו",
+      "example": "I want to be able to swim.",
+      "translation": "אני רוצה להיות מסוגל לשחות."
+    }
+  ],
+  "grade8": {
+    "slides": 73,
+    "questions": [
+      [
+        "When and where does the story begin?",
+        "It begins at the morning break, beside the school football pitch."
+      ],
+      [
+        "Give one detail that shows Amir is on the team but is not really included.",
+        "The boys keep passing the ball around Amir. He raises his hand twice, but the ball goes somewhere else."
+      ],
+      [
+        "Why is it difficult for Noam to decide to pass to Amir?",
+        "His team is one goal behind. He takes the game seriously and wants to win."
+      ],
+      [
+        "What happens when Noam first passes the ball to Amir?",
+        "Amir kicks too quickly and sends the ball to the other team by mistake."
+      ],
+      [
+        "Name two things Noam does to help Amir stay in the game.",
+        "He asks Amir to stay, suggests a short pass, stands near him, and explains where to stand. Any two are acceptable."
+      ],
+      [
+        "How does Dan’s reaction to Amir’s mistakes change?",
+        "At first, Dan shouts at Noam for passing to Amir. Later, when Amir misses another pass, Dan encourages him: “Try again!”"
+      ],
+      [
+        "What does Amir’s question at the end suggest about how he feels? Use a story detail.",
+        "He seems more confident that he belongs. He runs toward his classmates and asks which team he is on, rather than waiting beside the pitch."
+      ],
+      [
+        "Write 3–4 sentences: How can classmates include a player who is still learning? Use one story detail and three focus words.",
+        "Example: A classmate can join our game even if he is still learning. He may pass to the wrong team by mistake. We can give a short explanation and try again, as Noam does. Passing to him again helps him take part."
+      ]
+    ]
+  },
+  "grade10": {
+    "slides": 69,
+    "questions": [
+      [
+        "Where is the speaker at the beginning, and what choice must he make?",
+        "He is in a yellow wood where two roads separate. He must choose one road because he cannot travel both at once."
+      ],
+      [
+        "What prevents the speaker from seeing the whole first road?",
+        "The road bends into the undergrowth, so he cannot see beyond the bend (lines 4–5)."
+      ],
+      [
+        "Copy words that show the two roads are similar.",
+        "“Had worn them really about the same” (line 10), or “both that morning equally lay” (line 11)."
+      ],
+      [
+        "Why does the speaker doubt that he will return?",
+        "He knows that “way leads on to way” (line 14): one journey or choice leads to others, making a return uncertain."
+      ],
+      [
+        "What might the two roads represent? Explain the metaphor.",
+        "They can represent different choices in life. The traveler must choose without knowing the full result, just as people do when making important decisions."
+      ],
+      [
+        "What might the “sigh” suggest? Support your interpretation with another detail.",
+        "It may suggest regret: he was “sorry” he could not travel both roads. It may also suggest reflection or satisfaction, linked to “all the difference.” The poem does not settle its meaning."
+      ],
+      [
+        "Connect the background about Edward Thomas to one specific detail in the poem. Explain how the connection helps you understand it.",
+        "Thomas’s habit of imagining a better route helps explain the speaker’s focus on the road he did not take. The wish to keep it “for another day” suggests that choosing does not end his thoughts about the other possibility."
+      ],
+      [
+        "Is the speaker satisfied with his choice? Write 60–80 words. Support your view with two details from the poem.",
+        "The speaker may feel satisfied, but the poem leaves room for doubt. He imagines saying that his choice made “all the difference,” which could sound positive. However, he also says that he was “sorry” he could not travel both roads. His future “sigh” may express regret or simply reflection. These details suggest mixed feelings rather than a clearly happy or unhappy ending."
+      ]
+    ]
+  },
+  "poem": [
+    "Two roads diverged in a yellow wood,",
+    "And sorry I could not travel both",
+    "And be one traveler, long I stood",
+    "And looked down one as far as I could",
+    "To where it bent in the undergrowth;",
+    "Then took the other, as just as fair,",
+    "And having perhaps the better claim,",
+    "Because it was grassy and wanted wear;",
+    "Though as for that the passing there",
+    "Had worn them really about the same,",
+    "And both that morning equally lay",
+    "In leaves no step had trodden black.",
+    "Oh, I kept the first for another day!",
+    "Yet knowing how way leads on to way,",
+    "I doubted if I should ever come back.",
+    "I shall be telling this with a sigh",
+    "Somewhere ages and ages hence:",
+    "Two roads diverged in a wood, and I—",
+    "I took the one less traveled by,",
+    "And that has made all the difference."
+  ]
+}
