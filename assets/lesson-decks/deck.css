@@ -62,3 +62,7 @@ button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:poin
 .riddle .idiom-answer{pointer-events:none}.clip-play{z-index:3}
 /* Reserve room for the question above the image, including short landscape windows. */
 .riddle .media-stage{width:min(900px,100%,calc((100dvh - var(--top-height) - var(--nav-height) - 125px)*1.7778))}
+/* The answer stays inside the image's empty top margin at every image size. */
+.riddle .media-stage{container-type:inline-size}
+.riddle .idiom-answer h3{font-size:clamp(12px,5cqw,36px)}
+.riddle .idiom-answer p{font-size:clamp(8px,2.7cqw,21px)}
