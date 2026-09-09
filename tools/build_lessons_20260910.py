@@ -147,9 +147,9 @@ class Deck:
 
     def idiom(self, section):
         head = self.meta('Visual riddle') + '<div class="question-area"><h2 class="question en">Which English idiom is hidden in this scene?</h2></div>'
-        video = '<video class="riddle-video" controls muted playsinline preload="none" poster="' + self.shared + 'cats-seven-six.webp" aria-label="Silent visual riddle: seven cats in the top row, six in the bottom row"><source src="' + self.shared + 'cats-seven-six.mp4" type="video/mp4"></video>'
-        self.add('riddle', section, head + video + '<div class="answer-slot" aria-hidden="true"></div>',pair='idiom',reveal='false')
-        self.add('riddle reveal', section, head + '<img class="riddle-still" src="' + self.shared + 'cats-seven-six.webp" alt="Seven cats in one row and six in another"><div class="answer-slot idiom-answer"><h3 class="en">At sixes and sevens</h3><p class="en">Confused or disorganized.</p><p>מבולבלים או בחוסר סדר</p></div>',pair='idiom',reveal='true')
+        video = '<video class="riddle-video" muted playsinline preload="none" poster="' + self.shared + 'cats-seven-six.webp" aria-label="Silent visual riddle: seven cats in the top row, six in the bottom row"><source src="' + self.shared + 'cats-seven-six.mp4" type="video/mp4"></video><button class="clip-play" data-play-clip aria-label="הפעלת הסרטון השקט" title="הפעלת הסרטון השקט">▶</button>'
+        self.add('riddle', section, head + '<div class="media-stage">' + video + '<div class="answer-slot idiom-answer" aria-hidden="true"></div></div>',pair='idiom',reveal='false')
+        self.add('riddle reveal', section, head + '<div class="media-stage"><img class="riddle-still" src="' + self.shared + 'cats-seven-six.webp" alt="Seven cats in one row and six in another"><div class="answer-slot idiom-answer"><h3 class="en">At sixes and sevens</h3><p class="en">Confused or disorganized. · <span lang="he" dir="rtl">מבולבלים או בחוסר סדר</span></p></div></div>',pair='idiom',reveal='true')
         self.info(section, 'Idiom in context', '“We were at sixes and sevens before the game. Nobody knew which team to join.”', 'עבר')
 
     def write(self):

@@ -91,6 +91,12 @@
     else if (slides[current].scrollHeight <= slides[current].clientHeight + 2) show(current + (dy < 0 ? 1 : -1));
   }, {passive:true});
   stage.addEventListener('touchcancel', () => {touchStart=null;}, {passive:true});
+  document.querySelectorAll('[data-play-clip]').forEach(button => {
+    const video = button.parentElement.querySelector('video');
+    function label() { const playing = !video.paused && !video.ended; button.textContent = playing ? 'Ⅱ' : '▶'; button.setAttribute('aria-label', playing ? 'השהיית הסרטון' : 'הפעלת הסרטון השקט'); }
+    button.addEventListener('click', async () => { if (video.paused) { try { await video.play(); } catch { button.setAttribute('aria-label','לא ניתן להפעיל כרגע — נסו שוב'); } } else video.pause(); label(); });
+    video.addEventListener('play',label); video.addEventListener('pause',label); video.addEventListener('ended',label);
+  });
   function fromHash() { const match = location.hash.match(/^#slide-(\d+)$/); show(match ? Number(match[1])-1 : 0, false); }
   window.addEventListener('hashchange', fromHash);
   window.addEventListener('resize', fit);

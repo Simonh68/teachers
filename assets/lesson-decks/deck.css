@@ -47,3 +47,13 @@ button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:poin
 .riddle .answer-slot{min-height:120px;width:100%;padding-top:12px}
 .riddle .frame{gap:10px}
 @media(max-height:570px){.riddle-video,.riddle-still,.riddle.reveal .riddle-still{height:23vh}.riddle .answer-slot{min-height:85px;padding-top:6px}.riddle .frame{gap:5px}}
+/* Keep all thirteen cats visible; playback controls stay in the empty margin. */
+.riddle .media-stage{position:relative;width:min(900px,100%);line-height:0}
+.riddle-video,.riddle-still,.riddle.reveal .riddle-still{display:block;width:100%;height:auto;aspect-ratio:1672/941;max-height:none;border-radius:12px}
+.riddle .idiom-answer{position:absolute;top:3%;left:0;width:100%;min-height:0;padding:0;border:0;color:#15263a;line-height:1.2}
+.idiom-answer h3{color:#15263a;font-size:clamp(21px,3vw,36px);line-height:1.12}
+.idiom-answer p{font-size:clamp(13px,1.65vw,21px);line-height:1.2}
+.clip-play{position:absolute;top:14px;right:14px;min-width:42px;height:42px;border:1px solid #15263a40;border-radius:50%;background:#ffffffcc;color:#15263a;font:900 20px Nunito;display:grid;place-items:center}
+.clip-play:hover{background:#fff}
+@media(max-width:760px){.clip-play{top:7px;right:7px;min-width:34px;height:34px;font-size:16px}.riddle .idiom-answer h3{font-size:clamp(17px,4vw,26px)}.riddle .idiom-answer p{font-size:clamp(11px,2.6vw,16px)}}
+@media(max-height:570px){.riddle .idiom-answer h3{font-size:clamp(16px,3vw,26px)}.riddle .idiom-answer p{font-size:clamp(10px,1.85vw,16px)}}
