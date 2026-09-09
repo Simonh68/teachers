@@ -60,3 +60,5 @@ button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:poin
 /* Keep media dimensions stable while the common fitting engine scales a slide. */
 .riddle .frame{width:min(1180px,calc(100vw - 2*clamp(24px,7vw,110px)))}
 .riddle .idiom-answer{pointer-events:none}.clip-play{z-index:3}
+/* Reserve room for the question above the image, including short landscape windows. */
+.riddle .media-stage{width:min(900px,100%,calc((100dvh - var(--top-height) - var(--nav-height) - 125px)*1.7778))}
