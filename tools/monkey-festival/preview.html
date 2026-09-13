@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lesson layout check</title>
+<style>body{font:16px Arial;background:#eef2f5;margin:20px}button{padding:10px 18px;margin-right:12px}iframe{border:1px solid #8995a5;background:#07111f;display:block;margin-top:20px}pre{white-space:pre-wrap}#result{max-width:1100px}</style>
+<h1>Grade 8 lesson layout check</h1><button id="run">Run viewport checks</button><button id="phone">Show phone layout</button><button id="reading">Show long reading</button><p id="status">Ready</p><pre id="result"></pre><iframe id="deck" title="Lesson preview" width="1024" height="600" src="../../grade8/monkey-festival/"></iframe>
+<script>
+const frame=document.getElementById('deck'),result=document.getElementById('result'),status=document.getElementById('status');
+const painted=()=>new Promise(resolve=>frame.contentWindow.requestAnimationFrame(()=>frame.contentWindow.requestAnimationFrame(resolve)));
+async function show(n){frame.contentWindow.location.hash='slide-'+n;await painted();await painted();}
+document.getElementById('phone').onclick=async()=>{frame.width=390;frame.height=844;await painted();status.textContent='Phone viewport: 390 × 844';};
+document.getElementById('reading').onclick=()=>show(47);
+document.getElementById('run').onclick=async()=>{
+ const report=[];status.textContent='Checking…';
+ await frame.contentDocument.fonts.ready;
+ for(const [width,height] of [[1363,936],[1024,600],[390,844]]){
+  frame.width=width;frame.height=height;await painted();const failures=[];
+  for(let n=1;n<=70;n++){
+   await show(n);const d=frame.contentDocument,s=d.querySelector('.slide.active'),f=s.querySelector('.frame');
+   const r=f.getBoundingClientRect(),cs=frame.contentWindow.getComputedStyle(s),top=parseFloat(cs.paddingTop),bottom=height-parseFloat(cs.paddingBottom);
+   if(s.id!=='slide-'+n||r.left < -1||r.right > width+1||r.top < top-2||r.bottom > bottom+2)failures.push({slide:n,active:s.id,rect:{left:r.left,right:r.right,top:r.top,bottom:r.bottom},available:{top,bottom}});
+   status.textContent=`Checking ${width} × ${height}: ${n} / 70`;
+  }
+  report.push({width,height,slides:70,failures});
+ }
+ result.textContent=JSON.stringify(report,null,2);status.textContent=report.every(x=>!x.failures.length)?'PASS: 210 slide views checked':'Review layout failures';
+ frame.width=390;frame.height=844;await show(47);
+};
+</script></html>
