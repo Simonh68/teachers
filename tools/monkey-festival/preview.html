@@ -1,10 +1,10 @@
 <!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lesson layout check</title>
-<style>body{font:16px Arial;background:#eef2f5;margin:20px}button{padding:10px 18px;margin-right:12px}iframe{border:1px solid #8995a5;background:#07111f;display:block;margin-top:20px}pre{white-space:pre-wrap}#result{max-width:1100px}</style>
+<style>body{font:16px Arial;background:#eef2f5;margin:20px}button{padding:10px 18px;margin-right:12px}iframe{border:1px solid #8995a5;background:#07111f;display:block;margin-top:20px}pre{white-space:pre-wrap;max-height:160px;overflow:auto}#result{max-width:1100px}</style>
 <h1>Grade 8 lesson layout check</h1><button id="run">Run viewport checks</button><button id="phone">Show phone layout</button><button id="reading">Show long reading</button><p id="status">Ready</p><pre id="result"></pre><iframe id="deck" title="Lesson preview" width="1024" height="600" src="../../grade8/monkey-festival/"></iframe>
 <script>
 const frame=document.getElementById('deck'),result=document.getElementById('result'),status=document.getElementById('status');
 const painted=()=>{frame.contentWindow.dispatchEvent(new Event('resize'));return Promise.resolve();};
-async function show(n){const w=frame.contentWindow;w.location.hash='slide-'+n;w.dispatchEvent(new w.HashChangeEvent('hashchange'));}
+async function show(n){const d=frame.contentDocument;let c=Number(d.querySelector('.slide.active').id.split('-')[1]);while(c!==n){d.querySelector('[data-step=\"'+(c<n?'1':'-1')+'\"]').click();c=Number(d.querySelector('.slide.active').id.split('-')[1]);}}
 document.getElementById('phone').onclick=async()=>{frame.width=390;frame.height=844;await painted();status.textContent='Phone viewport: 390 × 844';};
 document.getElementById('reading').onclick=()=>show(47);
 document.getElementById('run').onclick=async()=>{
