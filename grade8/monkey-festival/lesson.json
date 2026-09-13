@@ -1,0 +1,937 @@
+{
+  "title": "The Monkey Festival",
+  "date": "2026-09-14",
+  "exam_date": "2026-10-08",
+  "slides": [
+    {
+      "n": 1,
+      "kind": "cover",
+      "title": "ברוכים הבאים",
+      "body": "כיתה ח׳ · אנגלית",
+      "section": "start",
+      "notes": "11:10. פתיחה קצרה. היום מתכוננים למבחן בעזרת טקסט מבחן מהארכיון."
+    },
+    {
+      "n": 2,
+      "kind": "notice",
+      "title": "8 October 2026",
+      "body": "המבחן הראשון באנגלית",
+      "section": "start",
+      "sub": "יום חמישי, 8.10.2026",
+      "hint": "לפי הלוח שפורסם. המועד עשוי להשתנות.",
+      "source": "https://drive.google.com/file/d/1MkEy1qZROpufD3z4PVTW5YuP3VSotr6M/view",
+      "notes": "לומר: Our first English test is on Thursday, October 8. We are starting our preparation today. להבהיר שזהו המועד שפורסם."
+    },
+    {
+      "n": 3,
+      "kind": "schedule",
+      "title": "3 מפגשים כפולים עד המבחן",
+      "body": "",
+      "section": "start",
+      "items": [
+        "14.9 · היום בזום",
+        "17.9 · מתוכנן, טעון בדיקה בגלל מופע סליחות",
+        "5.10 · המפגש האחרון לפני המבחן"
+      ],
+      "hint": "כולל היום. אם המפגש ב־17.9 יתבטל, יישארו רק שני מפגשים כולל היום.",
+      "source": "https://drive.google.com/file/d/1MkEy1qZROpufD3z4PVTW5YuP3VSotr6M/view",
+      "notes": "מנקודת המבט של התלמידים ב־14.9: שלושה מפגשים מתוכננים כולל היום, שניים אחריו. חופשת החגים 20.9–3.10. המבחן עצמו אינו נספר כמפגש הכנה. אין להציג את 17.9 כמאושר."
+    },
+    {
+      "n": 4,
+      "kind": "notice",
+      "title": "ההכנה שלנו למבחן",
+      "body": "אוצר מילים וקבלת מידע מטקסט",
+      "section": "start",
+      "items": [
+        "קבוצה 01: פירוש, איות ושימוש במשפט",
+        "טקסט הקריאה: פרטים, הסבר ותשובה מבוססת"
+      ],
+      "hint": "היום מתרגלים עם The Monkey Festival ממבחן אוקטובר שבארכיון.",
+      "source": "https://simonh68.github.io/teachers/grade8/opening/",
+      "notes": "זהו מוקד ההכנה לשיעור. לא נמצא מפרט מלא לבחינה הקרובה, ולכן אין להכריז שהטקסט הזה יופיע שוב בבחינה או שקבוצה 01 היא כל החומר. למורה: יש לפרסם היקף סופי בנפרד."
+    },
+    {
+      "n": 5,
+      "kind": "schedule",
+      "title": "השיעור היום",
+      "body": "",
+      "section": "start",
+      "items": [
+        "11:10–11:50 · זום ותרגול יחד",
+        "12:00–12:25 · עבודה עצמאית",
+        "12:25 · סיכום קצר בזום",
+        "עד 12:40 · תיקון והגשה"
+      ],
+      "notes": "פורמט מומלץ שסוכם עם המורה. את השקפים הקצרים מחליפים במהירות לפי תגובות הכיתה. אם מתעכבים, מדלגים לחזרה המקוצרת בשקף 57 וחוזרים לתרגול בבית."
+    },
+    {
+      "n": 6,
+      "kind": "question",
+      "title": "The Monkey Festival",
+      "body": "Who do you think the food is for?",
+      "section": "start",
+      "hint": "ניחוש קצר בצ׳אט. נבדוק לפי הטקסט.",
+      "notes": "לשמוע שני ניחושים. זו שאלת חיזוי, לכן התשובה תתברר בקריאה ולא בשקף תשובה מיידי.",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 7,
+      "kind": "break",
+      "title": "",
+      "body": "",
+      "section": "words",
+      "asset": "banana_guest",
+      "notes": "מבט קצר על אורח רציני מאוד בשולחן הפירות. הפסקה חזותית של 15–20 שניות. איור הומוריסטי דמיוני, לא תיעוד מהפסטיבל."
+    },
+    {
+      "n": 8,
+      "kind": "vocab",
+      "title": "unusual",
+      "body": "This is an unusual festival.",
+      "section": "words",
+      "pair": "word-8",
+      "meaning": "",
+      "translation": "",
+      "label": "מילים מתוך טקסט הקריאה",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. הדוגמה נכתבה לצורך התרגול ואינה ציטוט מהטקסט. ",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 9,
+      "kind": "vocab",
+      "title": "unusual",
+      "body": "This is an unusual festival.",
+      "section": "words",
+      "pair": "word-8",
+      "meaning": "לא רגיל; יוצא דופן",
+      "translation": "זהו פסטיבל יוצא דופן.",
+      "label": "מילים מתוך טקסט הקריאה",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. הדוגמה נכתבה לצורך התרגול ואינה ציטוט מהטקסט. ",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 10,
+      "kind": "vocab",
+      "title": "festival",
+      "body": "People come to the festival.",
+      "section": "words",
+      "pair": "word-10",
+      "meaning": "",
+      "translation": "",
+      "label": "מילים מתוך טקסט הקריאה",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. הדוגמה נכתבה לצורך התרגול ואינה ציטוט מהטקסט. ",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 11,
+      "kind": "vocab",
+      "title": "festival",
+      "body": "People come to the festival.",
+      "section": "words",
+      "pair": "word-10",
+      "meaning": "פסטיבל; חגיגה",
+      "translation": "אנשים באים לפסטיבל.",
+      "label": "מילים מתוך טקסט הקריאה",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. הדוגמה נכתבה לצורך התרגול ואינה ציטוט מהטקסט. ",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 12,
+      "kind": "vocab",
+      "title": "prepare",
+      "body": "People prepare plates of fruit.",
+      "section": "words",
+      "pair": "word-12",
+      "meaning": "",
+      "translation": "",
+      "label": "מילים מתוך טקסט הקריאה",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. הדוגמה נכתבה לצורך התרגול ואינה ציטוט מהטקסט. ",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 13,
+      "kind": "vocab",
+      "title": "prepare",
+      "body": "People prepare plates of fruit.",
+      "section": "words",
+      "pair": "word-12",
+      "meaning": "להכין",
+      "translation": "אנשים מכינים צלחות של פירות.",
+      "label": "מילים מתוך טקסט הקריאה",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. הדוגמה נכתבה לצורך התרגול ואינה ציטוט מהטקסט. ",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 14,
+      "kind": "vocab",
+      "title": "valuable",
+      "body": "Sunglasses can be valuable.",
+      "section": "words",
+      "pair": "word-14",
+      "meaning": "",
+      "translation": "",
+      "label": "מילים מתוך טקסט הקריאה",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. הדוגמה נכתבה לצורך התרגול ואינה ציטוט מהטקסט. ",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 15,
+      "kind": "vocab",
+      "title": "valuable",
+      "body": "Sunglasses can be valuable.",
+      "section": "words",
+      "pair": "word-14",
+      "meaning": "בעל ערך; יקר ערך",
+      "translation": "משקפי שמש יכולים להיות בעלי ערך.",
+      "label": "מילים מתוך טקסט הקריאה",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. הדוגמה נכתבה לצורך התרגול ואינה ציטוט מהטקסט. ",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 16,
+      "kind": "vocab",
+      "title": "annual",
+      "body": "The annual festival happens once a year.",
+      "section": "words",
+      "pair": "word-16",
+      "meaning": "",
+      "translation": "",
+      "label": "מילים מתוך טקסט הקריאה",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. הדוגמה נכתבה לצורך התרגול ואינה ציטוט מהטקסט. ",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 17,
+      "kind": "vocab",
+      "title": "annual",
+      "body": "The annual festival happens once a year.",
+      "section": "words",
+      "pair": "word-16",
+      "meaning": "שנתי; שמתקיים פעם בשנה",
+      "translation": "הפסטיבל השנתי מתקיים פעם בשנה.",
+      "label": "מילים מתוך טקסט הקריאה",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. הדוגמה נכתבה לצורך התרגול ואינה ציטוט מהטקסט. ",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 18,
+      "kind": "vocab",
+      "title": "careful",
+      "body": "You have to be careful.",
+      "section": "words",
+      "pair": "word-18",
+      "meaning": "",
+      "translation": "",
+      "label": "מילים מתוך טקסט הקריאה",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. הדוגמה נכתבה לצורך התרגול ואינה ציטוט מהטקסט. ",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 19,
+      "kind": "vocab",
+      "title": "careful",
+      "body": "You have to be careful.",
+      "section": "words",
+      "pair": "word-18",
+      "meaning": "זהיר",
+      "translation": "צריך להיות זהירים.",
+      "label": "מילים מתוך טקסט הקריאה",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. הדוגמה נכתבה לצורך התרגול ואינה ציטוט מהטקסט. ",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 20,
+      "kind": "vocab",
+      "title": "take care of",
+      "body": "People take care of the monkeys.",
+      "section": "words",
+      "pair": "word-20",
+      "meaning": "",
+      "translation": "",
+      "label": "מילים מתוך טקסט הקריאה",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. הדוגמה נכתבה לצורך התרגול ואינה ציטוט מהטקסט. ",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 21,
+      "kind": "vocab",
+      "title": "take care of",
+      "body": "People take care of the monkeys.",
+      "section": "words",
+      "pair": "word-20",
+      "meaning": "לטפל ב־; לדאוג ל־",
+      "translation": "אנשים דואגים לקופים.",
+      "label": "מילים מתוך טקסט הקריאה",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. הדוגמה נכתבה לצורך התרגול ואינה ציטוט מהטקסט. ",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 22,
+      "kind": "vocab",
+      "title": "honor",
+      "body": "People honor the monkeys with a festival.",
+      "section": "words",
+      "pair": "word-22",
+      "meaning": "",
+      "translation": "",
+      "label": "מילים מתוך טקסט הקריאה",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. הדוגמה נכתבה לצורך התרגול ואינה ציטוט מהטקסט. ",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 23,
+      "kind": "vocab",
+      "title": "honor",
+      "body": "People honor the monkeys with a festival.",
+      "section": "words",
+      "pair": "word-22",
+      "meaning": "לכבד; לחלוק כבוד",
+      "translation": "אנשים חולקים כבוד לקופים באמצעות פסטיבל.",
+      "label": "מילים מתוך טקסט הקריאה",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. הדוגמה נכתבה לצורך התרגול ואינה ציטוט מהטקסט. ",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 24,
+      "kind": "break",
+      "title": "",
+      "body": "",
+      "section": "words",
+      "asset": "banana_safe",
+      "notes": "בננה אחת זוכה לאבטחה של אוצר יקר. אפשר להצביע על valuable בלי להפוך את התמונה למשימה נוספת. הפסקה חזותית של 15–20 שניות. איור הומוריסטי דמיוני, לא תיעוד מהפסטיבל."
+    },
+    {
+      "n": 25,
+      "kind": "vocab",
+      "title": "however",
+      "body": "It was hard. However, I tried.",
+      "section": "words",
+      "pair": "word-25",
+      "meaning": "",
+      "translation": "",
+      "label": "Band II · Core I · Group 01",
+      "tense": "עבר",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. משפט ותרגום נשמרו מהמצגת הקיימת. ",
+      "source": "https://simonh68.github.io/teachers/grade8/opening/"
+    },
+    {
+      "n": 26,
+      "kind": "vocab",
+      "title": "however",
+      "body": "It was hard. However, I tried.",
+      "section": "words",
+      "pair": "word-25",
+      "meaning": "עם זאת",
+      "translation": "זה היה קשה. עם זאת, ניסיתי.",
+      "label": "Band II · Core I · Group 01",
+      "tense": "עבר",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. משפט ותרגום נשמרו מהמצגת הקיימת. ",
+      "source": "https://simonh68.github.io/teachers/grade8/opening/"
+    },
+    {
+      "n": 27,
+      "kind": "vocab",
+      "title": "around",
+      "body": "Is anyone around?",
+      "section": "words",
+      "pair": "word-27",
+      "meaning": "",
+      "translation": "",
+      "label": "Band II · Core I · Group 01",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. משפט ותרגום נשמרו מהמצגת הקיימת. ",
+      "source": "https://simonh68.github.io/teachers/grade8/opening/"
+    },
+    {
+      "n": 28,
+      "kind": "vocab",
+      "title": "around",
+      "body": "Is anyone around?",
+      "section": "words",
+      "pair": "word-27",
+      "meaning": "בסביבה; מסביב",
+      "translation": "יש מישהו בסביבה?",
+      "label": "Band II · Core I · Group 01",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. משפט ותרגום נשמרו מהמצגת הקיימת. ",
+      "source": "https://simonh68.github.io/teachers/grade8/opening/"
+    },
+    {
+      "n": 29,
+      "kind": "vocab",
+      "title": "care",
+      "body": "The baby needs care.",
+      "section": "words",
+      "pair": "word-29",
+      "meaning": "",
+      "translation": "",
+      "label": "Band II · Core I · Group 01",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. משפט ותרגום נשמרו מהמצגת הקיימת. ",
+      "source": "https://simonh68.github.io/teachers/grade8/opening/"
+    },
+    {
+      "n": 30,
+      "kind": "vocab",
+      "title": "care",
+      "body": "The baby needs care.",
+      "section": "words",
+      "pair": "word-29",
+      "meaning": "טיפול; תשומת לב",
+      "translation": "התינוק צריך טיפול.",
+      "label": "Band II · Core I · Group 01",
+      "tense": "הווה",
+      "notes": "להמתין כ־10 שניות לניחוש. לקרוא את הדוגמה ואז לחשוף משמעות. משפט ותרגום נשמרו מהמצגת הקיימת. ",
+      "source": "https://simonh68.github.io/teachers/grade8/opening/"
+    },
+    {
+      "n": 31,
+      "kind": "notice",
+      "title": "איך בונים תשובה?",
+      "body": "Question → paragraph → answer",
+      "section": "reading",
+      "items": [
+        "מזהים מה שואלים: מי, היכן, מה או למה",
+        "מוצאים פרט מתאים בטקסט",
+        "כותבים תשובה ובודקים שהיא עונה לשאלה"
+      ],
+      "notes": "להדגים בקצרה: Where מצפה למקום. Why מצפה לסיבה. לא צריך להבין כל מילה כדי לענות על פרט מפורש."
+    },
+    {
+      "n": 32,
+      "kind": "reading",
+      "title": "Part One · A",
+      "body": "I am at one of the most unusual festivals in the world – the Monkey Festival in Lopburi, Thailand. People are getting ready for the festival, so I finally have some time to write about my adventures.",
+      "section": "reading",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view",
+      "notes": "קריאה קצרה עם המורה. אין צורך לתרגם כל מילה. לבקש לאתר את המידע הנדרש. אותיות הפסקאות נוספו לצורך התרגול. הטקסט המקורי נשמר, ופסקה אחת חולקה ל־E ול־F."
+    },
+    {
+      "n": 33,
+      "kind": "qa",
+      "title": "Where is the festival?",
+      "body": "",
+      "section": "reading",
+      "pair": "pair-33",
+      "hint": "Part One · A",
+      "label": "שאלת הבנה",
+      "tense": "",
+      "notes": "שאלה 1 במבחן הישן. ההפניה עודכנה לאות הפסקה, כי מספרי השורות בצילום אינם מתאימים לכל השאלות.",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 34,
+      "kind": "qa",
+      "title": "Where is the festival?",
+      "body": "",
+      "section": "reading",
+      "pair": "pair-33",
+      "answer": "The festival is in Lopburi, Thailand.",
+      "hint": "Part One · A",
+      "label": "שאלת הבנה",
+      "tense": "",
+      "notes": "שאלה 1 במבחן הישן. ההפניה עודכנה לאות הפסקה, כי מספרי השורות בצילום אינם מתאימים לכל השאלות.",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 35,
+      "kind": "reading",
+      "title": "Part One · B",
+      "body": "Everybody in town gets together and the entire town goes a little crazy on this day! Many people are dressed like monkeys, and the festival has live performances and dances.",
+      "section": "reading",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view",
+      "notes": "קריאה קצרה עם המורה. אין צורך לתרגם כל מילה. לבקש לאתר את המידע הנדרש. אותיות הפסקאות נוספו לצורך התרגול. הטקסט המקורי נשמר, ופסקה אחת חולקה ל־E ול־F."
+    },
+    {
+      "n": 36,
+      "kind": "reading",
+      "title": "Part One · C",
+      "body": "The first thing you notice when you look around town are the monkeys. They are everywhere! I can see a few of them right now. They are gathered together on the street corner, playing with each other and making loud noises.",
+      "section": "reading",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view",
+      "notes": "קריאה קצרה עם המורה. אין צורך לתרגם כל מילה. לבקש לאתר את המידע הנדרש. אותיות הפסקאות נוספו לצורך התרגול. הטקסט המקורי נשמר, ופסקה אחת חולקה ל־E ול־F."
+    },
+    {
+      "n": 37,
+      "kind": "reading",
+      "title": "Part One · D",
+      "body": "They may look cute, but you have to be careful. These monkeys can cause major trouble. They like to take things from people, especially food and drinks, and even valuable things, like handbags and sunglasses.",
+      "section": "reading",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view",
+      "notes": "קריאה קצרה עם המורה. אין צורך לתרגם כל מילה. לבקש לאתר את המידע הנדרש. אותיות הפסקאות נוספו לצורך התרגול. הטקסט המקורי נשמר, ופסקה אחת חולקה ל־E ול־F."
+    },
+    {
+      "n": 38,
+      "kind": "qa",
+      "title": "Name two valuable things the monkeys take.",
+      "body": "",
+      "section": "reading",
+      "pair": "pair-38",
+      "hint": "Part One · D",
+      "label": "שאלת הבנה",
+      "tense": "",
+      "notes": "תרגול נוסף, אינו אחת מחמש שאלות המבחן המקורי. לבקש את שני הפריטים ולא רק food.",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 39,
+      "kind": "qa",
+      "title": "Name two valuable things the monkeys take.",
+      "body": "",
+      "section": "reading",
+      "pair": "pair-38",
+      "answer": "They take handbags and sunglasses.",
+      "hint": "Part One · D",
+      "label": "שאלת הבנה",
+      "tense": "",
+      "notes": "תרגול נוסף, אינו אחת מחמש שאלות המבחן המקורי. לבקש את שני הפריטים ולא רק food.",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 40,
+      "kind": "break",
+      "title": "",
+      "body": "",
+      "section": "reading",
+      "asset": "monkey_detective",
+      "notes": "בלש מחפש רמז בתוך קליפת בננה. הפסקה קצרה לפני המשך הקריאה. הפסקה חזותית של 15–20 שניות. איור הומוריסטי דמיוני, לא תיעוד מהפסטיבל."
+    },
+    {
+      "n": 41,
+      "kind": "reading",
+      "title": "Part One · E",
+      "body": "This is an annual festival, and people look forward to it all year. Early in the morning, people prepare huge plates of fruit and put them on long tables. The tables look beautiful, but they aren’t going to stay that way.",
+      "section": "reading",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view",
+      "notes": "קריאה קצרה עם המורה. אין צורך לתרגם כל מילה. לבקש לאתר את המידע הנדרש. אותיות הפסקאות נוספו לצורך התרגול. הטקסט המקורי נשמר, ופסקה אחת חולקה ל־E ול־F."
+    },
+    {
+      "n": 42,
+      "kind": "reading",
+      "title": "Part One · F",
+      "body": "The best part of the festival is when thousands of excited monkeys jump on the tables and eat as much fruit as they possibly can. I heard that sometimes the monkeys even have food fights! I hope they have one today. What a crazy festival!",
+      "section": "reading",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view",
+      "notes": "קריאה קצרה עם המורה. אין צורך לתרגם כל מילה. לבקש לאתר את המידע הנדרש. אותיות הפסקאות נוספו לצורך התרגול. הטקסט המקורי נשמר, ופסקה אחת חולקה ל־E ול־F."
+    },
+    {
+      "n": 43,
+      "kind": "qa",
+      "title": "Who eats the food at the festival?",
+      "body": "",
+      "section": "reading",
+      "pair": "pair-43",
+      "hint": "Part One · F",
+      "label": "שאלת הבנה",
+      "tense": "",
+      "notes": "שאלה 2 במבחן הישן בניסוח אנגלי טבעי. במקור הופיעו שורות 6–8, אך התשובה נמצאת בפסקה האחרונה בחלק הראשון. בתרגול משתמשים בהפניה F.",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 44,
+      "kind": "qa",
+      "title": "Who eats the food at the festival?",
+      "body": "",
+      "section": "reading",
+      "pair": "pair-43",
+      "answer": "The monkeys eat the food.",
+      "hint": "Part One · F",
+      "label": "שאלת הבנה",
+      "tense": "",
+      "notes": "שאלה 2 במבחן הישן בניסוח אנגלי טבעי. במקור הופיעו שורות 6–8, אך התשובה נמצאת בפסקה האחרונה בחלק הראשון. בתרגול משתמשים בהפניה F.",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 45,
+      "kind": "qa",
+      "title": "What do people prepare in the morning?",
+      "body": "",
+      "section": "reading",
+      "pair": "pair-45",
+      "hint": "Part One · E",
+      "label": "שאלת הבנה",
+      "tense": "",
+      "notes": "שאלה 3 במבחן הישן. לשאול מה מכינים, ולא לדרוש פירוט שלא נמצא בטקסט.",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 46,
+      "kind": "qa",
+      "title": "What do people prepare in the morning?",
+      "body": "",
+      "section": "reading",
+      "pair": "pair-45",
+      "answer": "They prepare huge plates of fruit and put them on long tables.",
+      "hint": "Part One · E",
+      "label": "שאלת הבנה",
+      "tense": "",
+      "notes": "שאלה 3 במבחן הישן. לשאול מה מכינים, ולא לדרוש פירוט שלא נמצא בטקסט.",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 47,
+      "kind": "reading",
+      "title": "Part Two · G",
+      "body": "I also noticed the way the people of Lopburi treat the monkeys. They are kind to them and make sure that they are not hungry. In the beginning, I found this attitude a bit strange. Why would these people care so much about the monkeys? After all, they are quite scary and they often steal things.",
+      "section": "reading",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view",
+      "notes": "קריאה קצרה עם המורה. אין צורך לתרגם כל מילה. לבקש לאתר את המידע הנדרש. אותיות הפסקאות נוספו לצורך התרגול. הטקסט המקורי נשמר, ופסקה אחת חולקה ל־E ול־F."
+    },
+    {
+      "n": 48,
+      "kind": "qa",
+      "title": "Why does the writer find the people’s attitude strange?",
+      "body": "",
+      "section": "reading",
+      "pair": "pair-48",
+      "hint": "Part Two · G",
+      "label": "שאלת הבנה",
+      "tense": "",
+      "notes": "שאלה 4 במבחן הישן בניסוח מפורש יותר. אפשר לקבל שני משפטים קצרים: The monkeys steal things. However, the people are kind to them. זו חזרה על however מהקבוצה.",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 49,
+      "kind": "qa",
+      "title": "Why does the writer find the people’s attitude strange?",
+      "body": "",
+      "section": "reading",
+      "pair": "pair-48",
+      "answer": "They are kind to the monkeys, although the monkeys are scary and often steal things.",
+      "hint": "Part Two · G",
+      "label": "שאלת הבנה",
+      "tense": "",
+      "notes": "שאלה 4 במבחן הישן בניסוח מפורש יותר. אפשר לקבל שני משפטים קצרים: The monkeys steal things. However, the people are kind to them. זו חזרה על however מהקבוצה.",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 50,
+      "kind": "break",
+      "title": "",
+      "body": "",
+      "section": "reading",
+      "asset": "banana_calendar",
+      "notes": "התלמיד שהכין יותר מדי ציוד. הפסקה לפני ההסבר שבחלק השני. הפסקה חזותית של 15–20 שניות. איור הומוריסטי דמיוני, לא תיעוד מהפסטיבל."
+    },
+    {
+      "n": 51,
+      "kind": "reading",
+      "title": "Part Two · H",
+      "body": "I asked my friend Aroon, who owns a small business in the center of town. He explained that the people of Lopburi admire the monkeys because of a famous story that happened many centuries ago. It is about Prince Rama and it tells how monkeys helped him save his wife from a horrible monster.",
+      "section": "reading",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view",
+      "notes": "קריאה קצרה עם המורה. אין צורך לתרגם כל מילה. לבקש לאתר את המידע הנדרש. אותיות הפסקאות נוספו לצורך התרגול. הטקסט המקורי נשמר, ופסקה אחת חולקה ל־E ול־F."
+    },
+    {
+      "n": 52,
+      "kind": "reading",
+      "title": "Part Two · I",
+      "body": "They take care of the monkeys and once a year, every November, they honor them by having a monkey festival. They believe that these monkeys will bring them good luck, like they did for Prince Rama.",
+      "section": "reading",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view",
+      "notes": "קריאה קצרה עם המורה. אין צורך לתרגם כל מילה. לבקש לאתר את המידע הנדרש. אותיות הפסקאות נוספו לצורך התרגול. הטקסט המקורי נשמר, ופסקה אחת חולקה ל־E ול־F."
+    },
+    {
+      "n": 53,
+      "kind": "qa",
+      "title": "How do the people honor the monkeys?",
+      "body": "",
+      "section": "reading",
+      "pair": "pair-53",
+      "hint": "Part Two · I",
+      "label": "שאלת הבנה",
+      "tense": "",
+      "notes": "שאלה 5 במבחן הישן. התשובה היא הפעולה שעושים כדי לכבד. ההסבר התרבותי מתאר את אמונת התושבים לפי הטקסט.",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 54,
+      "kind": "qa",
+      "title": "How do the people honor the monkeys?",
+      "body": "",
+      "section": "reading",
+      "pair": "pair-53",
+      "answer": "They have a monkey festival every November.",
+      "hint": "Part Two · I",
+      "label": "שאלת הבנה",
+      "tense": "",
+      "notes": "שאלה 5 במבחן הישן. התשובה היא הפעולה שעושים כדי לכבד. ההסבר התרבותי מתאר את אמונת התושבים לפי הטקסט.",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 55,
+      "kind": "qa",
+      "title": "Why does the writer include the story about Prince Rama?",
+      "body": "",
+      "section": "reading",
+      "pair": "pair-55",
+      "hint": "Part Two · H–I",
+      "label": "שאלת חשיבה על הטקסט",
+      "tense": "",
+      "notes": "שאלת הרחבה. להסביר שזהו סיפור שמסביר מנהג בטקסט, ולא עובדה היסטורית שאנו מאמתים. אפשר לענות בעברית תחילה ואחר כך לבנות משפט אנגלי.",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 56,
+      "kind": "qa",
+      "title": "Why does the writer include the story about Prince Rama?",
+      "body": "",
+      "section": "reading",
+      "pair": "pair-55",
+      "answer": "It helps explain why the people admire the monkeys and hold the festival.",
+      "hint": "Part Two · H–I",
+      "label": "שאלת חשיבה על הטקסט",
+      "tense": "",
+      "notes": "שאלת הרחבה. להסביר שזהו סיפור שמסביר מנהג בטקסט, ולא עובדה היסטורית שאנו מאמתים. אפשר לענות בעברית תחילה ואחר כך לבנות משפט אנגלי.",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 57,
+      "kind": "notice",
+      "title": "בדיקה לפני עבודה עצמאית",
+      "body": "Where? Who? What? Why? How?",
+      "section": "work",
+      "items": [
+        "אני יודע היכן למצוא את המידע",
+        "אני מבדיל בין תשובה קצרה להסבר עם סיבה",
+        "אני בודק אות גדולה, פועל וסימן פיסוק"
+      ],
+      "notes": "עד 11:47. לשאול מי זקוק לעזרה באיתור פסקאות. אפשר לדלג לכאן מכל שלב אם נגמר זמן הזום הראשון."
+    },
+    {
+      "n": 58,
+      "kind": "break",
+      "title": "",
+      "body": "",
+      "section": "reading",
+      "asset": "monkey_zoom",
+      "notes": "משתתף נוסף בזום: בננה עם אוזניות. הפסקה קצרה לפני היציאה לעבודה. הפסקה חזותית של 15–20 שניות. איור הומוריסטי דמיוני, לא תיעוד מהפסטיבל."
+    },
+    {
+      "n": 59,
+      "kind": "notice",
+      "title": "הפסקה עד 12:00",
+      "body": "חוזרים לזום ב־12:25",
+      "section": "work",
+      "hint": "העבודה העצמאית נמצאת בדף התרגול. ההגשה עד 12:40.",
+      "notes": "11:50. לסיים את המפגש הראשון. לשלוח בצ׳אט קישור לדף העבודה ולוודא שנפתח. אין צורך להישאר בזום בזמן העבודה העצמאית."
+    },
+    {
+      "n": 60,
+      "kind": "schedule",
+      "title": "העבודה העצמאית",
+      "body": "",
+      "section": "work",
+      "items": [
+        "A · חמש שאלות קריאה. ציינו אות פסקה בכל תשובה",
+        "B · שלושה משפטים לתרגום לאנגלית",
+        "C · שתי השלמות מקבוצה 01"
+      ],
+      "hint": "הטקסט פתוח. כתבו תשובות משלכם, בלי להעתיק משקפי הפתרונות.",
+      "notes": "12:00–12:25. דף העבודה כולל שאלות חדשות על אותו טקסט, כדי לבדוק הבנה ולא רק זיכרון של הפתרונות. לתלמידים מתקשים: להתחיל ב־A1–A3 ו־B1, ואז להמשיך. למתקדמים: שאלת ההרחבה D.",
+      "links": [
+        {
+          "label": "דף תרגול · PDF",
+          "href": "files/monkey-festival-practice.pdf"
+        }
+      ]
+    },
+    {
+      "n": 61,
+      "kind": "notice",
+      "title": "מה מגישים?",
+      "body": "תשובות מסומנות A, B, C",
+      "section": "work",
+      "items": [
+        "שם פרטי וכיתה בראש העבודה",
+        "תשובות קריאה עם אות הפסקה",
+        "צילום ברור או קובץ בערוץ הכיתתי הרגיל"
+      ],
+      "hint": "סמנו בכוכבית שאלה שתרצו לבדוק בזום.",
+      "notes": "שקף זה נשאר מוצג אם המורה משאיר שיתוף מסך. אין לאסוף פרטים אישיים נוספים. לא הוגדר בשיחה כלי הגשה מסוים."
+    },
+    {
+      "n": 62,
+      "kind": "notice",
+      "title": "12:25 · סיכום בזום",
+      "body": "איזו שאלה הייתה קשה?",
+      "section": "wrap",
+      "hint": "שלחו בצ׳אט את מספר השאלה בלבד.",
+      "notes": "סיכום מומלץ של כחמש עד שבע דקות. לבחור קושי אחד או שניים מהצ׳אט. השקפים הבאים קצרים. אם אין זמן, להשתמש רק בזוג הרלוונטי."
+    },
+    {
+      "n": 63,
+      "kind": "qa",
+      "title": "I can _____ at the festival.",
+      "body": "",
+      "section": "wrap",
+      "pair": "pair-63",
+      "hint": "be / am / is",
+      "label": "בדיקת משפט",
+      "tense": "",
+      "notes": "אחרי can משתמשים בצורת הבסיס be. לא I can am. זו הכנה למשפטי התרגום מהמבחן הישן. אפשר לקבל join רק אם השאלה אינה רב־ברירה, אך כאן האפשרויות קבועות.",
+      "source": ""
+    },
+    {
+      "n": 64,
+      "kind": "qa",
+      "title": "I can _____ at the festival.",
+      "body": "",
+      "section": "wrap",
+      "pair": "pair-63",
+      "answer": "I can be at the festival.",
+      "hint": "be / am / is",
+      "label": "בדיקת משפט",
+      "tense": "",
+      "notes": "אחרי can משתמשים בצורת הבסיס be. לא I can am. זו הכנה למשפטי התרגום מהמבחן הישן. אפשר לקבל join רק אם השאלה אינה רב־ברירה, אך כאן האפשרויות קבועות.",
+      "source": ""
+    },
+    {
+      "n": 65,
+      "kind": "qa",
+      "title": "Translate: אני בפסטיבל.",
+      "body": "",
+      "section": "wrap",
+      "pair": "pair-65",
+      "hint": "",
+      "label": "תרגום לאנגלית",
+      "tense": "הווה",
+      "notes": "משפט 6 במבחן הישן. להדגיש שנחוץ am גם אם בעברית אין פועל מפורש.",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 66,
+      "kind": "qa",
+      "title": "Translate: אני בפסטיבל.",
+      "body": "",
+      "section": "wrap",
+      "pair": "pair-65",
+      "answer": "I am at the festival.",
+      "hint": "",
+      "label": "תרגום לאנגלית",
+      "tense": "הווה",
+      "notes": "משפט 6 במבחן הישן. להדגיש שנחוץ am גם אם בעברית אין פועל מפורש.",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 67,
+      "kind": "qa",
+      "title": "Why do the people admire the monkeys?",
+      "body": "",
+      "section": "wrap",
+      "pair": "pair-67",
+      "hint": "Begin with: They admire them because…",
+      "label": "תשובה עם סיבה",
+      "tense": "",
+      "notes": "לקבל גם תשובה על האמונה שהקופים מביאים מזל טוב. לבדוק שמוצגת סיבה ושלא הופכים אמונה או אגדה לטענה היסטורית. מתאים לשאלת A5 בעבודה העצמאית.",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 68,
+      "kind": "qa",
+      "title": "Why do the people admire the monkeys?",
+      "body": "",
+      "section": "wrap",
+      "pair": "pair-67",
+      "answer": "They admire them because, in the story, monkeys helped Prince Rama.",
+      "hint": "Begin with: They admire them because…",
+      "label": "תשובה עם סיבה",
+      "tense": "",
+      "notes": "לקבל גם תשובה על האמונה שהקופים מביאים מזל טוב. לבדוק שמוצגת סיבה ושלא הופכים אמונה או אגדה לטענה היסטורית. מתאים לשאלת A5 בעבודה העצמאית.",
+      "source": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view"
+    },
+    {
+      "n": 69,
+      "kind": "schedule",
+      "title": "תרגול עד המפגש הבא",
+      "body": "",
+      "section": "wrap",
+      "items": [
+        "קבוצה 01: פירוש, איות ומשפט",
+        "קריאה חוזרת של The Monkey Festival",
+        "תיקון תשובה אחת שלא הייתה מדויקת"
+      ],
+      "hint": "תרגלו 10 דקות בכל יום. אל תחכו לסוף חופשת החגים.",
+      "source": "https://simonh68.github.io/teachers/grade8/opening/",
+      "links": [
+        {
+          "label": "תרגול קבוצה 01",
+          "href": "https://englishfornoar.co.il/band-ii/groups/group-01.html"
+        }
+      ],
+      "notes": "זהו תרגול שנקבע במערך הזה. אין להציג את שלוש המילים שהופיעו במצגת כמכלול 55 מילות הקבוצה. המועד שפורסם לבחינה הוא 8.10."
+    },
+    {
+      "n": 70,
+      "kind": "notice",
+      "title": "הגשה עד 12:40",
+      "body": "One thing I can do better now is…",
+      "section": "wrap",
+      "hint": "תקנו בעקבות הסיכום, הוסיפו משפט יציאה והגישו.",
+      "notes": "לאחר סיכום הזום, התלמידים מסיימים תיקון והגשה עד 12:40. משפט היציאה יכול להיות באנגלית פשוטה או בעברית לפי יכולת. אין להוסיף שיעורי זום מעבר לשעות שנקבעו."
+    }
+  ],
+  "paragraphs": [
+    {
+      "label": "Part One · A",
+      "text": "I am at one of the most unusual festivals in the world – the Monkey Festival in Lopburi, Thailand. People are getting ready for the festival, so I finally have some time to write about my adventures."
+    },
+    {
+      "label": "Part One · B",
+      "text": "Everybody in town gets together and the entire town goes a little crazy on this day! Many people are dressed like monkeys, and the festival has live performances and dances."
+    },
+    {
+      "label": "Part One · C",
+      "text": "The first thing you notice when you look around town are the monkeys. They are everywhere! I can see a few of them right now. They are gathered together on the street corner, playing with each other and making loud noises."
+    },
+    {
+      "label": "Part One · D",
+      "text": "They may look cute, but you have to be careful. These monkeys can cause major trouble. They like to take things from people, especially food and drinks, and even valuable things, like handbags and sunglasses."
+    },
+    {
+      "label": "Part One · E",
+      "text": "This is an annual festival, and people look forward to it all year. Early in the morning, people prepare huge plates of fruit and put them on long tables. The tables look beautiful, but they aren’t going to stay that way."
+    },
+    {
+      "label": "Part One · F",
+      "text": "The best part of the festival is when thousands of excited monkeys jump on the tables and eat as much fruit as they possibly can. I heard that sometimes the monkeys even have food fights! I hope they have one today. What a crazy festival!"
+    },
+    {
+      "label": "Part Two · G",
+      "text": "I also noticed the way the people of Lopburi treat the monkeys. They are kind to them and make sure that they are not hungry. In the beginning, I found this attitude a bit strange. Why would these people care so much about the monkeys? After all, they are quite scary and they often steal things."
+    },
+    {
+      "label": "Part Two · H",
+      "text": "I asked my friend Aroon, who owns a small business in the center of town. He explained that the people of Lopburi admire the monkeys because of a famous story that happened many centuries ago. It is about Prince Rama and it tells how monkeys helped him save his wife from a horrible monster."
+    },
+    {
+      "label": "Part Two · I",
+      "text": "They take care of the monkeys and once a year, every November, they honor them by having a monkey festival. They believe that these monkeys will bring them good luck, like they did for Prince Rama."
+    }
+  ],
+  "sources": {
+    "reading": "https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view",
+    "calendar": "https://drive.google.com/file/d/1MkEy1qZROpufD3z4PVTW5YuP3VSotr6M/view",
+    "opening": "https://simonh68.github.io/teachers/grade8/opening/",
+    "vocabulary": "https://englishfornoar.co.il/band-ii/groups/group-01.html"
+  },
+  "archive_note": "The source exam is filed under התשפו / ח / מבחן אקטובר. The original file modification date is 21 October 2024. The folder placement identifies the archive context, not independent proof that this exact copy was administered in 2025.",
+  "editorial_note": "Original passage wording preserved. The website navigation sentence was omitted. Original footnote markers with missing footnotes were removed. Paragraph letters A–I were added and the last paragraph of Part One was split into E and F. Teaching questions use paragraph references because some original line references are inaccurate."
+}

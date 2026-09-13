@@ -1,0 +1,13 @@
+
+.lesson-shortcuts{position:fixed;top:19px;right:20px;left:86px;z-index:12;display:flex;gap:14px;align-items:center;justify-content:flex-start;flex-wrap:wrap}
+.lesson-shortcuts a{color:var(--cyan);font-size:14px;font-weight:800;text-decoration:none;background:#07111fec;padding:6px 3px}.lesson-shortcuts a:hover{text-decoration:underline}
+.clue{font-size:21px;color:var(--cyan);text-align:left;direction:ltr;font-family:Nunito,Arial,sans-serif}
+.qa .frame{grid-template-rows:auto auto auto minmax(140px,auto)}.qa .question{font-size:clamp(29px,3.7vw,52px)}.qa .possible-answer{font-size:clamp(26px,3.2vw,42px)}
+.reading .story-sentence{font-size:clamp(27px,3.1vw,43px);line-height:1.5;font-weight:700;text-wrap:pretty}
+.reading .slide-meta{margin-bottom:20px}.reading .frame:before{margin-bottom:18px}
+.notice .part-title,.schedule .part-title{font-size:clamp(34px,5.2vw,68px)}.part-title:not(.en){font-family:Heebo,Arial,sans-serif}.cover-title:not(.en){font-family:Heebo,Arial,sans-serif}
+.lesson-items{margin:25px auto 0;max-width:1000px}.lesson-item{font-size:clamp(23px,2.7vw,35px);line-height:1.45;margin:12px 0;text-wrap:balance}.instruction{font-size:clamp(19px,2vw,26px)}
+.break .frame{height:100%}.resource-links{margin:12px auto}.resource-links a{font-size:22px}.cover:after{display:none}
+@media(max-width:760px){.lesson-shortcuts{top:15px;right:12px;left:65px;gap:10px}.lesson-shortcuts a{font-size:11px;padding:6px 1px}.reading .story-sentence{font-size:clamp(24px,6vw,34px)}.qa .question{font-size:clamp(26px,6.7vw,37px)}.qa .possible-answer{font-size:clamp(23px,5.6vw,32px)}.lesson-item{font-size:24px}.clue{font-size:18px}}
+@media(max-height:570px){.reading .story-sentence{font-size:clamp(23px,4.6vh,32px);line-height:1.36}.lesson-items{margin-top:15px}.lesson-item{font-size:23px;margin:8px 0}.notice .part-title,.schedule .part-title{font-size:40px}.qa .frame{grid-template-rows:auto auto auto minmax(110px,auto);gap:8px}.qa .question{font-size:32px}.qa .possible-answer{font-size:27px}.clue{font-size:18px}.lesson-shortcuts{top:12px}.instruction{font-size:20px;margin-top:14px}}
+@media print{.lesson-shortcuts{display:none}}
