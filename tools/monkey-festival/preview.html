@@ -3,8 +3,8 @@
 <h1>Grade 8 lesson layout check</h1><button id="run">Run viewport checks</button><button id="phone">Show phone layout</button><button id="reading">Show long reading</button><p id="status">Ready</p><pre id="result"></pre><iframe id="deck" title="Lesson preview" width="1024" height="600" src="../../grade8/monkey-festival/"></iframe>
 <script>
 const frame=document.getElementById('deck'),result=document.getElementById('result'),status=document.getElementById('status');
-const painted=()=>new Promise(resolve=>frame.contentWindow.requestAnimationFrame(()=>frame.contentWindow.requestAnimationFrame(resolve)));
-async function show(n){frame.contentWindow.location.hash='slide-'+n;await painted();await painted();}
+const painted=()=>{frame.contentWindow.dispatchEvent(new Event('resize'));return Promise.resolve();};
+async function show(n){const w=frame.contentWindow;w.location.hash='slide-'+n;w.dispatchEvent(new w.HashChangeEvent('hashchange'));}
 document.getElementById('phone').onclick=async()=>{frame.width=390;frame.height=844;await painted();status.textContent='Phone viewport: 390 × 844';};
 document.getElementById('reading').onclick=()=>show(47);
 document.getElementById('run').onclick=async()=>{
