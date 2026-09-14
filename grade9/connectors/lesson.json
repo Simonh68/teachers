@@ -1,0 +1,421 @@
+[
+  {
+    "kind": "cover",
+    "title": "Connectors",
+    "he": "מילות קישור",
+    "sub": "ט׳ · י׳ · י״א"
+  },
+  {
+    "kind": "example",
+    "family": "contrast",
+    "title": "BUT",
+    "sentence": "The cat is tired, <b>but</b> it keeps playing.",
+    "he": "החתול עייף, אבל הוא ממשיך לשחק.",
+    "rule": "ניגוד בין שני רעיונות",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "family": "contrast",
+    "image": "contrast-a",
+    "en": "Tired. Still playing.",
+    "he": "עייף, ובכל זאת משחק"
+  },
+  {
+    "kind": "example",
+    "family": "contrast",
+    "title": "However",
+    "sentence": "The cat is tired<em>.</em> <b>However</b><em>,</em> it keeps playing.",
+    "he": "אולם / עם זאת",
+    "rule": "משפט חדש. אחר כך מילת הקישור ופסיק.",
+    "base": "The cat is tired, but it keeps playing.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "family": "contrast",
+    "image": "contrast-b",
+    "en": "Tired. Still playing.",
+    "he": "עייף, ובכל זאת משחק"
+  },
+  {
+    "kind": "example",
+    "family": "contrast",
+    "title": "Nevertheless",
+    "sentence": "The cat is tired<em>.</em> <b>Nevertheless</b><em>,</em> it keeps playing.",
+    "he": "אף על פי כן",
+    "rule": "הוא ממשיך למרות העייפות. ביטוי רשמי יותר.",
+    "base": "The cat is tired, but it keeps playing.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "family": "contrast",
+    "image": "contrast-a",
+    "en": "Tired. Still playing.",
+    "he": "עייף, ובכל זאת משחק"
+  },
+  {
+    "kind": "example",
+    "family": "contrast",
+    "title": "Nonetheless",
+    "sentence": "The cat is tired<em>.</em> <b>Nonetheless</b><em>,</em> it keeps playing.",
+    "he": "אף על פי כן",
+    "rule": "משמעות דומה ל־Nevertheless.",
+    "base": "The cat is tired, but it keeps playing.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "family": "contrast",
+    "image": "contrast-b",
+    "en": "Tired. Still playing.",
+    "he": "עייף, ובכל זאת משחק"
+  },
+  {
+    "kind": "example",
+    "family": "contrast",
+    "title": "Even so",
+    "sentence": "The cat is tired<em>.</em> <b>Even so</b><em>,</em> it keeps playing.",
+    "he": "למרות זאת",
+    "rule": "גם במצב הזה הוא ממשיך לשחק.",
+    "base": "The cat is tired, but it keeps playing.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "family": "contrast",
+    "image": "contrast-b",
+    "en": "Lazy? Full of energy.",
+    "he": "אולי הוא דווקא מלא אנרגיה?"
+  },
+  {
+    "kind": "example",
+    "family": "contrast",
+    "title": "BUT · משפט חדש",
+    "sentence": "The cat isn’t lazy, <b>but</b> it is full of energy.",
+    "he": "החתול אינו עצלן, אלא מלא אנרגיה.",
+    "rule": "כאן מתקנים רושם שגוי: עצלן או מלא אנרגיה?",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "family": "contrast",
+    "title": "On the contrary",
+    "sentence": "The cat isn’t lazy<em>.</em> <b>On the contrary</b><em>,</em> it is full of energy.",
+    "he": "להפך",
+    "rule": "מתקנים טענה או רושם ומציגים את ההפך.",
+    "base": "The cat isn’t lazy, but it is full of energy.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "family": "addition",
+    "image": "addition-a",
+    "en": "A book. A new idea.",
+    "he": "קריאה שמוסיפה רעיון"
+  },
+  {
+    "kind": "example",
+    "family": "addition",
+    "title": "AND",
+    "sentence": "The app has games, <b>and</b> it has stories.",
+    "he": "באפליקציה יש משחקים, ויש בה סיפורים.",
+    "rule": "מוסיפים עוד פרט",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "family": "addition",
+    "image": "addition-b",
+    "en": "One idea. One more.",
+    "he": "מוסיפים משהו קשור"
+  },
+  {
+    "kind": "example",
+    "family": "addition",
+    "title": "Moreover",
+    "sentence": "The app has games<em>.</em> <b>Moreover</b><em>,</em> it has stories.",
+    "he": "בנוסף / יתרה מזאת",
+    "rule": "מוסיפים פרט שמחזק את הנקודה. ביטוי רשמי יותר.",
+    "base": "The app has games, and it has stories.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "family": "addition",
+    "image": "addition-a",
+    "en": "One idea. One more.",
+    "he": "מוסיפים משהו קשור"
+  },
+  {
+    "kind": "example",
+    "family": "addition",
+    "title": "Furthermore",
+    "sentence": "The app has games<em>.</em> <b>Furthermore</b><em>,</em> it has stories.",
+    "he": "בנוסף / יתרה מזאת",
+    "rule": "מוסיפים עוד פרט או נימוק. ביטוי רשמי יותר.",
+    "base": "The app has games, and it has stories.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "family": "addition",
+    "image": "addition-b",
+    "en": "One idea. One more.",
+    "he": "מוסיפים משהו קשור"
+  },
+  {
+    "kind": "example",
+    "family": "addition",
+    "title": "In addition",
+    "sentence": "The app has games<em>.</em> <b>In addition</b><em>,</em> it has stories.",
+    "he": "בנוסף / יתרה מזאת",
+    "rule": "מוסיפים מידע. משפט חדש ופסיק אחרי הביטוי.",
+    "base": "The app has games, and it has stories.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "family": "addition",
+    "image": "addition-a",
+    "en": "One idea. One more.",
+    "he": "מוסיפים משהו קשור"
+  },
+  {
+    "kind": "example",
+    "family": "addition",
+    "title": "Additionally",
+    "sentence": "The app has games<em>.</em> <b>Additionally</b><em>,</em> it has stories.",
+    "he": "בנוסף / יתרה מזאת",
+    "rule": "מוסיפים מידע. משפט חדש ופסיק אחרי המילה.",
+    "base": "The app has games, and it has stories.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "family": "addition",
+    "image": "addition-b",
+    "en": "And there is more.",
+    "he": "עוד פרט שמחזק את הרעיון"
+  },
+  {
+    "kind": "example",
+    "family": "addition",
+    "title": "Not to mention",
+    "sentence": "The app has games<em>,</em> <b>not to mention</b> <u>stories</u>.",
+    "he": "שלא לדבר על",
+    "rule": "בדוגמה הזו הביטוי בא לפני שם עצם: stories.",
+    "base": "The app has games, and it has stories.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "family": "cause",
+    "image": "cause-a",
+    "en": "An empty battery.",
+    "he": "מה קורה לטלפון עכשיו?"
+  },
+  {
+    "kind": "example",
+    "family": "cause",
+    "title": "BECAUSE",
+    "sentence": "My phone is off <b>because</b> the battery is dead.",
+    "he": "הטלפון שלי כבוי כי הסוללה ריקה.",
+    "rule": "אחרי because מופיע משפט עם נושא ופועל.",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "family": "cause",
+    "image": "cause-b",
+    "en": "A silent phone.",
+    "he": "הסוללה מסבירה את התוצאה"
+  },
+  {
+    "kind": "example",
+    "family": "cause",
+    "title": "Since",
+    "sentence": "My phone is off <b>since</b> the battery is dead.",
+    "he": "מכיוון ש־",
+    "rule": "כאן Since מציין סיבה. בהקשרים אחרים הוא מציין זמן.",
+    "base": "My phone is off because the battery is dead.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "family": "cause",
+    "image": "cause-a",
+    "en": "The reason is clear.",
+    "he": "הסיבה ידועה"
+  },
+  {
+    "kind": "example",
+    "family": "cause",
+    "title": "Given that",
+    "sentence": "<b>Given that</b> the battery is dead<em>,</em> my phone is off.",
+    "he": "בהתחשב בכך ש־",
+    "rule": "מציגים עובדה שעליה מבוסס ההסבר.",
+    "base": "My phone is off because the battery is dead.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "family": "cause",
+    "image": "cause-b",
+    "en": "A battery. A result.",
+    "he": "סיבה ותוצאה"
+  },
+  {
+    "kind": "example",
+    "family": "cause",
+    "title": "Due to",
+    "sentence": "My phone is off <b>due to</b> <u>the dead battery</u>.",
+    "he": "בגלל / עקב",
+    "rule": "כאן צריך צירוף שמני: the dead battery.",
+    "base": "My phone is off because the battery is dead.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "family": "cause",
+    "image": "cause-a",
+    "en": "No power. No call.",
+    "he": "הסיבה נשארת אותה סיבה"
+  },
+  {
+    "kind": "example",
+    "family": "cause",
+    "title": "As a result of",
+    "sentence": "My phone is off <b>as a result of</b> <u>the dead battery</u>.",
+    "he": "כתוצאה מ־",
+    "rule": "אחרי of מופיע כאן צירוף שמני.",
+    "base": "My phone is off because the battery is dead.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "family": "cause",
+    "image": "cause-b",
+    "en": "Time to charge it.",
+    "he": "המידע מוביל להחלטה"
+  },
+  {
+    "kind": "example",
+    "family": "cause",
+    "title": "BECAUSE · החלטה",
+    "sentence": "I charge my phone <b>because</b> the battery is dead.",
+    "he": "אני מטעין את הטלפון כי הסוללה ריקה.",
+    "rule": "עכשיו מתארים החלטה בעקבות המידע.",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "family": "cause",
+    "title": "In light of",
+    "sentence": "<b>In light of</b> <u>the dead battery</u><em>,</em> I charge my phone.",
+    "he": "לאור / בהתחשב ב־",
+    "rule": "לאור המצב אני מחליט לפעול. ביטוי רשמי.",
+    "base": "I charge my phone because the battery is dead.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "comparison",
+    "family": "cause",
+    "title": "As a result of / As a result",
+    "sentence": "<b>As a result of</b> the dead battery, my phone is off.",
+    "second": "The battery is dead. <b>As a result</b>, my phone is off.",
+    "he": "עם of מציגים את הסיבה; בלי of מציגים את התוצאה.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "family": "contrast",
+    "title": "Your turn",
+    "sentence": "Dan is tired, but he studies.",
+    "he": "החליפו את but ב־However",
+    "rule": "",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "family": "contrast",
+    "title": "Your turn",
+    "sentence": "Dan is tired, but he studies.",
+    "he": "החליפו את but ב־However",
+    "rule": "נקודה לפני However ופסיק אחריו.",
+    "answer": "Dan is tired<em>.</em> <b>However</b><em>,</em> he studies.",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "family": "addition",
+    "title": "Your turn",
+    "sentence": "The app has music, and it has games.",
+    "he": "החליפו את and ב־In addition",
+    "rule": "",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "family": "addition",
+    "title": "Your turn",
+    "sentence": "The app has music, and it has games.",
+    "he": "החליפו את and ב־In addition",
+    "rule": "שני משפטים שלמים.",
+    "answer": "The app has music<em>.</em> <b>In addition</b><em>,</em> it has games.",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "family": "cause",
+    "title": "Your turn",
+    "sentence": "We stay home because it is raining.",
+    "he": "החליפו את because ב־Due to",
+    "rule": "",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "family": "cause",
+    "title": "Your turn",
+    "sentence": "We stay home because it is raining.",
+    "he": "החליפו את because ב־Due to",
+    "rule": "it is raining משתנה לצירוף השמני the rain.",
+    "answer": "We stay home <b>due to</b> <u>the rain</u>.",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "summary",
+    "title": "Connectors",
+    "he": "בוחרים לפי הקשר, המבנה והפיסוק",
+    "rows": [
+      [
+        "BUT",
+        "ניגוד",
+        "However, it keeps playing."
+      ],
+      [
+        "AND",
+        "תוספת",
+        "In addition, it has stories."
+      ],
+      [
+        "BECAUSE",
+        "סיבה",
+        "due to the dead battery"
+      ]
+    ]
+  }
+]
