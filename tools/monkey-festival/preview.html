@@ -1,26 +1,37 @@
 <!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lesson layout check</title>
 <style>body{font:16px Arial;background:#eef2f5;margin:20px}button{padding:10px 18px;margin-right:12px}iframe{border:1px solid #8995a5;background:#07111f;display:block;margin-top:20px}pre{white-space:pre-wrap;max-height:160px;overflow:auto}#result{max-width:1100px}</style>
-<h1>Grade 8 lesson layout check</h1><button id="run">Run viewport checks</button><button id="phone">Show phone layout</button><button id="reading">Show long reading</button><p id="status">Ready</p><pre id="result"></pre><iframe id="deck" title="Lesson preview" width="1024" height="600" src="../../grade8/monkey-festival/"></iframe>
+<h1>Grade 8 lesson layout check</h1><button id="run">Run viewport checks</button><button id="phone">Show phone layout</button><button id="reading">Show long reading</button><button id="navigation">Check navigation</button><label>Slide <select id="slide"></select></label><p id="status">Ready</p><pre id="result"></pre><iframe id="deck" title="Lesson preview" width="1024" height="600" src="../../grade8/monkey-festival/"></iframe>
 <script>
 const frame=document.getElementById('deck'),result=document.getElementById('result'),status=document.getElementById('status');
-const painted=()=>{frame.contentWindow.dispatchEvent(new Event('resize'));return Promise.resolve();};
+const painted=async()=>{await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));frame.contentWindow.dispatchEvent(new Event('resize'));await new Promise(r=>requestAnimationFrame(r));};
+const picker=document.getElementById('slide');for(let n=1;n<=70;n++)picker.add(new Option(String(n),String(n)));picker.onchange=()=>show(Number(picker.value));
 async function show(n){const d=frame.contentDocument;let c=Number(d.querySelector('.slide.active').id.split('-')[1]);while(c!==n){d.querySelector('[data-step=\"'+(c<n?'1':'-1')+'\"]').click();c=Number(d.querySelector('.slide.active').id.split('-')[1]);}}
 document.getElementById('phone').onclick=async()=>{frame.width=390;frame.height=844;await painted();status.textContent='Phone viewport: 390 × 844';};
 document.getElementById('reading').onclick=()=>show(47);
 document.getElementById('run').onclick=async()=>{
  const report=[];status.textContent='Checking…';
  await frame.contentDocument.fonts.ready;
- for(const [width,height] of [[1363,936],[1024,600],[390,844]]){
+ for(const [width,height] of [[1363,936],[1024,600],[390,844],[844,390]]){
   frame.width=width;frame.height=height;await painted();const failures=[];
   for(let n=1;n<=70;n++){
-   await show(n);const d=frame.contentDocument,s=d.querySelector('.slide.active'),f=s.querySelector('.frame');
+   await show(n);await painted();const d=frame.contentDocument,s=d.querySelector('.slide.active'),f=s.querySelector('.frame');
    const r=f.getBoundingClientRect(),cs=frame.contentWindow.getComputedStyle(s),top=parseFloat(cs.paddingTop),bottom=height-parseFloat(cs.paddingBottom);
    if(s.id!=='slide-'+n||r.left < -1||r.right > width+1||r.top < top-2||r.bottom > bottom+2)failures.push({slide:n,active:s.id,rect:{left:r.left,right:r.right,top:r.top,bottom:r.bottom},available:{top,bottom}});
    status.textContent=`Checking ${width} × ${height}: ${n} / 70`;
   }
   report.push({width,height,slides:70,failures});
  }
- result.textContent=JSON.stringify(report,null,2);status.textContent=report.every(x=>!x.failures.length)?'PASS: 210 slide views checked':'Review layout failures';
+ result.textContent=JSON.stringify(report,null,2);status.textContent=report.every(x=>!x.failures.length)?'PASS: 280 slide views checked':'Review layout failures';
  frame.width=390;frame.height=844;await show(47);
+};
+document.getElementById('navigation').onclick=async()=>{
+ frame.width=1024;frame.height=600;await painted();await show(5);
+ const w=frame.contentWindow,d=frame.contentDocument,stage=d.querySelector('.stage'),checks=[];
+ const record=(kind,want)=>checks.push({kind,want,actual:d.querySelector('.slide.active').id,pass:d.querySelector('.slide.active').id==='slide-'+want});
+ for(const [key,want] of [['ArrowRight',6],['ArrowDown',7],['ArrowLeft',6],['ArrowUp',5]]){stage.dispatchEvent(new w.KeyboardEvent('keydown',{key,bubbles:true}));await painted();record(key,want)}
+ for(const [dx,dy,want] of [[-130,0,6],[130,0,5],[0,-130,6],[0,130,5]]){const start=new w.Touch({identifier:1,target:stage,clientX:200,clientY:200}),end=new w.Touch({identifier:1,target:stage,clientX:200+dx,clientY:200+dy});stage.dispatchEvent(new w.TouchEvent('touchstart',{touches:[start],changedTouches:[start],bubbles:true}));stage.dispatchEvent(new w.TouchEvent('touchend',{touches:[],changedTouches:[end],bubbles:true}));await painted();record('swipe '+dx+','+dy,want)}
+ for(const [delta,want] of [[120,6],[-120,5]]){await new Promise(r=>setTimeout(r,420));stage.dispatchEvent(new w.WheelEvent('wheel',{deltaY:delta,bubbles:true,cancelable:true}));await painted();record('wheel '+delta,want)}
+ for(const [idx,want] of [[0,4],[1,3],[2,4],[3,5]]){d.querySelectorAll('[data-step]')[idx].click();await painted();record('button '+idx,want)}
+ result.textContent=JSON.stringify({mode:'DOM event checks',checks},null,2);status.textContent=checks.every(x=>x.pass)?'PASS: navigation':'Review navigation';
 };
 </script></html>

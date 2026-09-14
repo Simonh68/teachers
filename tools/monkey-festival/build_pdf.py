@@ -9,7 +9,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib.pagesizes import A4
 
-R=Path(__file__).parent; O=R/'repo/grade8/monkey-festival/files';O.mkdir(parents=True,exist_ok=True)
+R=Path(__file__).parent; O=R.parents[1]/'grade8/monkey-festival/files';O.mkdir(parents=True,exist_ok=True)
 d=json.loads((O.parent/'lesson.json').read_text())
 fonts=Path('/root/.local/share/fonts/teacher')
 for family in ('Nunito','Heebo'):
@@ -29,7 +29,12 @@ def header(sub):
     c.setFillColor(HexColor('#ffffff'));c.setFont('NunitoRegular',11);c.drawString(margin,H-65,sub)
 def footer(n):
     c.setFont('NunitoRegular',8);c.setFillColor(HexColor('#435568'))
-    c.drawString(margin,25,'Grade 8 | 14 September 2026 | Exam preparation')
+    hebrew_date,gregorian_date=d['display_dates']['lesson'].split(' (')
+    c.setFont('HeeboRegular',9)
+    c.drawRightString(420,25,hebrew_date[::-1])
+    date_width=pdfmetrics.stringWidth(hebrew_date,'HeeboRegular',9)
+    c.setFont('NunitoRegular',9)
+    c.drawRightString(416-date_width,25,'('+gregorian_date)
     c.drawRightString(W-margin,25,str(n)+' / 2')
 header('Reading text | Keep this page open while you answer the questions.')
 y=H-112
@@ -51,9 +56,9 @@ y=H-115
 y=p('First name: _______________________  Class: __________',y)-14
 y=p('<font name="NunitoBold">A. Reading</font> - Answer in English. Add the paragraph letter.',y)-10
 questions=[
-'When does the festival take place each year?',
+'Where are the monkeys that the writer can see right now?',
 'What do many people wear at the festival?',
-'Name two valuable things that the monkeys take.',
+'What does the writer hope to see at the festival today?',
 'Why should visitors be careful around the monkeys?',
 'Why do people believe the monkeys can bring them good luck?']
 for i,q in enumerate(questions,1):

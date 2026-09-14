@@ -2,9 +2,10 @@ import json
 from pathlib import Path
 
 ROOT=Path(__file__).parent
-OUT=ROOT/'repo/grade8/monkey-festival'
+OUT=ROOT.parents[1]/'grade8/monkey-festival'
 OUT.mkdir(parents=True,exist_ok=True)
 SOURCE='https://drive.google.com/file/d/1GJz_c1qY3qMb3NidioFReT7V1l2WebFr/view'
+READING_SOURCE='https://drive.google.com/file/d/1v5hxzvq6L3lwQonsgvWBEOi9tFcik7v0/view'
 CAL='https://drive.google.com/file/d/1MkEy1qZROpufD3z4PVTW5YuP3VSotr6M/view'
 OPENING='https://simonh68.github.io/teachers/grade8/opening/'
 GROUP='https://englishfornoar.co.il/band-ii/groups/group-01.html'
@@ -35,14 +36,14 @@ def vocab(word,example,meaning,translation,*,group=False,tense=''):
         add('vocab',word,example,pair=pid,meaning=meaning if reveal else '',translation=translation if reveal else '',label=label,section='words',tense=tense,notes=note,source=src)
 def read(i):
     title,body=paragraphs[i]
-    add('reading',title,body,section='reading',source=SOURCE,notes='קריאה קצרה עם המורה. אין צורך לתרגם כל מילה. לבקש לאתר את המידע הנדרש. אותיות הפסקאות נוספו לצורך התרגול. הטקסט המקורי נשמר, ופסקה אחת חולקה ל־E ול־F.')
+    add('reading',title,body,section='reading',source=READING_SOURCE,notes='קריאה קצרה עם המורה. אין צורך לתרגם כל מילה. לבקש לאתר את המידע הנדרש. אותיות הפסקאות נוספו לצורך התרגול. הטקסט המקורי נשמר, ופסקה אחת חולקה ל־E ול־F.')
 def funny(key,note):
     add('break',asset=key,section='words' if len(slides)<30 else 'reading',notes=note+' הפסקה חזותית של 15–20 שניות. איור הומוריסטי דמיוני, לא תיעוד מהפסטיבל.')
 
-add('cover','ברוכים הבאים','כיתה ח׳ · אנגלית',notes='11:10. פתיחה קצרה. היום מתכוננים למבחן בעזרת טקסט מבחן מהארכיון.')
-add('notice','8 October 2026','המבחן הראשון באנגלית',sub='יום חמישי, 8.10.2026',hint='לפי הלוח שפורסם. המועד עשוי להשתנות.',source=CAL,notes='לומר: Our first English test is on Thursday, October 8. We are starting our preparation today. להבהיר שזהו המועד שפורסם.')
-add('schedule','3 מפגשים כפולים עד המבחן',items=['14.9 · היום בזום','17.9 · מתוכנן, טעון בדיקה בגלל מופע סליחות','5.10 · המפגש האחרון לפני המבחן'],hint='כולל היום. אם המפגש ב־17.9 יתבטל, יישארו רק שני מפגשים כולל היום.',source=CAL,notes='מנקודת המבט של התלמידים ב־14.9: שלושה מפגשים מתוכננים כולל היום, שניים אחריו. חופשת החגים 20.9–3.10. המבחן עצמו אינו נספר כמפגש הכנה. אין להציג את 17.9 כמאושר.')
-add('notice','ההכנה שלנו למבחן','אוצר מילים וקבלת מידע מטקסט',items=['קבוצה 01: פירוש, איות ושימוש במשפט','טקסט הקריאה: פרטים, הסבר ותשובה מבוססת'],hint='היום מתרגלים עם The Monkey Festival ממבחן אוקטובר שבארכיון.',source=OPENING,notes='זהו מוקד ההכנה לשיעור. לא נמצא מפרט מלא לבחינה הקרובה, ולכן אין להכריז שהטקסט הזה יופיע שוב בבחינה או שקבוצה 01 היא כל החומר. למורה: יש לפרסם היקף סופי בנפרד.')
+add('cover','ברוכים הבאים','כיתה ח׳2 · אנגלית',notes='11:10. פתיחה קצרה. היום מתכוננים למבחן בעזרת טקסט מבחן מהארכיון.')
+add('notice','המבחן הראשון באנגלית','יום חמישי, כ״ז בתשרי תשפ״ז',sub='(8.10.2026)',hint='לפי הלוח שפורסם. המועד עשוי להשתנות.',source=CAL,notes='לומר: המבחן ביום חמישי, כ״ז בתשרי תשפ״ז (8.10.2026). היום מתחילים להתכונן. להבהיר שזהו המועד שפורסם.')
+add('schedule','נשארו 3 מפגשים כפולים',items=['יום שני, ג׳ בתשרי תשפ״ז (14.9.2026)\nהיום בזום','יום חמישי, ו׳ בתשרי תשפ״ז (17.9.2026)\nטעון בדיקה בגלל מופע סליחות','יום שני, כ״ד בתשרי תשפ״ז (5.10.2026)\nהמפגש האחרון לפני המבחן'],hint='כולל היום. אם המפגש השני יתבטל, יישארו שני מפגשים כולל היום.',source=CAL,notes='ליום השיעור: שלושה מפגשים מתוכננים כולל היום, שניים אחריו. חופשת החגים מיום ראשון, ט׳ בתשרי תשפ״ז (20.9.2026), עד שבת, כ״ב בתשרי תשפ״ז (3.10.2026). המבחן עצמו אינו נספר כמפגש הכנה. המפגש השני אינו מאושר סופית.')
+add('notice','מה מתרגלים היום?','אוצר מילים והבנת הנקרא',items=['קבוצה 01: פירוש, איות ושימוש במשפט','טקסט הקריאה: פרטים, הסבר ותשובה מבוססת'],hint='הטקסט מהארכיון מיועד לתרגול. פירוט החומר למבחן יימסר בנפרד.',source=OPENING,notes='זהו מוקד ההכנה לשיעור. לא נמצא מפרט מלא לבחינה הקרובה, ולכן אין להכריז שהטקסט הזה יופיע שוב בבחינה או שקבוצה 01 היא כל החומר. למורה: יש לפרסם היקף סופי בנפרד.')
 add('schedule','השיעור היום',items=['11:10–11:50 · זום ותרגול יחד','12:00–12:25 · עבודה עצמאית','12:25 · סיכום קצר בזום','עד 12:40 · תיקון והגשה'],notes='פורמט מומלץ שסוכם עם המורה. את השקפים הקצרים מחליפים במהירות לפי תגובות הכיתה. אם מתעכבים, מדלגים לחזרה המקוצרת בשקף 57 וחוזרים לתרגול בבית.')
 add('question','The Monkey Festival','Who do you think the food is for?',hint='ניחוש קצר בצ׳אט. נבדוק לפי הטקסט.',notes='לשמוע שני ניחושים. זו שאלת חיזוי, לכן התשובה תתברר בקריאה ולא בשקף תשובה מיידי.',source=SOURCE)
 funny('banana_guest','מבט קצר על אורח רציני מאוד בשולחן הפירות.')
@@ -88,10 +89,10 @@ add('notice','12:25 · סיכום בזום','איזו שאלה הייתה קשה
 pair('I can _____ at the festival.','I can be at the festival.',hint='be / am / is',label='בדיקת משפט',section='wrap',source='',notes='אחרי can משתמשים בצורת הבסיס be. לא I can am. זו הכנה למשפטי התרגום מהמבחן הישן. אפשר לקבל join רק אם השאלה אינה רב־ברירה, אך כאן האפשרויות קבועות.')
 pair('Translate: אני בפסטיבל.','I am at the festival.',label='תרגום לאנגלית',section='wrap',tense='הווה',source=SOURCE,notes='משפט 6 במבחן הישן. להדגיש שנחוץ am גם אם בעברית אין פועל מפורש.')
 pair('Why do the people admire the monkeys?','They admire them because, in the story, monkeys helped Prince Rama.',hint='Begin with: They admire them because…',label='תשובה עם סיבה',section='wrap',source=SOURCE,notes='לקבל גם תשובה על האמונה שהקופים מביאים מזל טוב. לבדוק שמוצגת סיבה ושלא הופכים אמונה או אגדה לטענה היסטורית. מתאים לשאלת A5 בעבודה העצמאית.')
-add('schedule','תרגול עד המפגש הבא',items=['קבוצה 01: פירוש, איות ומשפט','קריאה חוזרת של The Monkey Festival','תיקון תשובה אחת שלא הייתה מדויקת'],hint='תרגלו 10 דקות בכל יום. אל תחכו לסוף חופשת החגים.',section='wrap',source=OPENING,links=[{'label':'תרגול קבוצה 01','href':GROUP}],notes='זהו תרגול שנקבע במערך הזה. אין להציג את שלוש המילים שהופיעו במצגת כמכלול 55 מילות הקבוצה. המועד שפורסם לבחינה הוא 8.10.')
+add('schedule','תרגול עד המפגש הבא',items=['קבוצה 01: פירוש, איות ומשפט','קריאה חוזרת של The Monkey Festival','תיקון תשובה אחת שלא הייתה מדויקת'],hint='תרגלו 10 דקות בכל יום. אל תחכו לסוף חופשת החגים.',section='wrap',source=OPENING,links=[{'label':'תרגול קבוצה 01','href':GROUP}],notes='זהו תרגול שנקבע במערך הזה. אין להציג את שלוש המילים שהופיעו במצגת כמכלול 55 מילות הקבוצה. המועד שפורסם לבחינה הוא יום חמישי, כ״ז בתשרי תשפ״ז (8.10.2026).')
 add('notice','הגשה עד 12:40','One thing I can do better now is…',hint='תקנו בעקבות הסיכום, הוסיפו משפט יציאה והגישו.',section='wrap',notes='לאחר סיכום הזום, התלמידים מסיימים תיקון והגשה עד 12:40. משפט היציאה יכול להיות באנגלית פשוטה או בעברית לפי יכולת. אין להוסיף שיעורי זום מעבר לשעות שנקבעו.')
 assert len(slides)==70,len(slides)
 
-data={'title':'The Monkey Festival','date':'2026-09-14','exam_date':'2026-10-08','slides':slides,'paragraphs':[{'label':k,'text':v} for k,v in paragraphs],'sources':{'reading':SOURCE,'calendar':CAL,'opening':OPENING,'vocabulary':GROUP},'archive_note':'The source exam is filed under התשפו / ח / מבחן אקטובר. The original file modification date is 21 October 2024. The folder placement identifies the archive context, not independent proof that this exact copy was administered in 2025.','editorial_note':'Original passage wording preserved. The website navigation sentence was omitted. Original footnote markers with missing footnotes were removed. Paragraph letters A–I were added and the last paragraph of Part One was split into E and F. Teaching questions use paragraph references because some original line references are inaccurate.'}
+data={'title':'The Monkey Festival','date':'2026-09-14','exam_date':'2026-10-08','slides':slides,'paragraphs':[{'label':k,'text':v} for k,v in paragraphs],'display_dates':{'lesson':'יום שני, ג׳ בתשרי תשפ״ז (14.9.2026)','second_lesson':'יום חמישי, ו׳ בתשרי תשפ״ז (17.9.2026)','last_lesson':'יום שני, כ״ד בתשרי תשפ״ז (5.10.2026)','exam':'יום חמישי, כ״ז בתשרי תשפ״ז (8.10.2026)'},'sources':{'reading':READING_SOURCE,'exam_questions':SOURCE,'calendar':CAL,'opening':OPENING,'vocabulary':GROUP},'archive_note':'The source exam is filed under התשפו / ח / מבחן אקטובר. The original file modification date is 21 October 2024. The folder placement identifies the archive context, not independent proof that this exact copy was administered in 2025.','editorial_note':'Original passage wording preserved. The website navigation sentence was omitted. Original footnote markers with missing footnotes were removed. Paragraph letters A–I were added and the last paragraph of Part One was split into E and F. Teaching questions use paragraph references because some original line references are inaccurate.'}
 (OUT/'lesson.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
 print('Slides:',len(slides),'Reading words:',sum(len(t.split()) for _,t in paragraphs))

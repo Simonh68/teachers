@@ -8,8 +8,9 @@ process.env.RUNTIME_NODE_MODULES=process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES;
 process.env.RUNTIME_PYTHON=process.env.CODEX_PRIMARY_RUNTIME_PYTHON;
 process.env.RUNTIME_BIN_DIR=process.env.CODEX_PRIMARY_RUNTIME+'/dependencies/bin/override';
 const ROOT=path.dirname(new URL(import.meta.url).pathname);
-const site=path.join(ROOT,'repo/grade8/monkey-festival');
-const build=path.join(ROOT,'pptx-build');
+const site=path.resolve(ROOT,'../../grade8/monkey-festival');
+const workspace=process.env.LESSON_BUILD_ROOT||ROOT;
+const build=path.join(workspace,'pptx-build');
 await fs.mkdir(build,{recursive:true});
 const data=JSON.parse(await fs.readFile(path.join(site,'lesson.json'),'utf8'));
 const P=Presentation.create({slideSize:{width:1280,height:720}});
@@ -19,7 +20,7 @@ const boxes=[];
 function tx(slide,text,x,y,w,h,size,color=C.paper,bold=false,align='center',name='text'){
   if(!text)return;
   const sh=slide.shapes.add({name,geometry:'textbox',position:{left:x,top:y,width:w,height:h},fill:'none',line:{fill:'none',width:0}});
-  sh.text=text;
+  sh.text=text.replace(/\d{1,2}:\d{2}[–-]\d{1,2}:\d{2}/g,m=>'\u200e'+m+'\u200e');
   sh.text.style={typeface:he(text)?'Heebo':'Nunito',fontSize:size,bold,color,alignment:align,verticalAlignment:'middle',autoFit:'none',wrap:'square',insets:{left:0,right:0,top:0,bottom:0}};
   boxes.push({slide:data.slides[P.slides.items.length-1]?.n,text,x,y,w,h,size});
   return sh;
@@ -48,16 +49,17 @@ for(const s of data.slides){
     }else if(s.kind==='reading'){
       tx(slide,s.body,90,158,1100,440,s.body.length>310?36:40,C.paper,false,'left');
     }else{
-      const titleSize=s.title==='8 October 2026'?90:(s.title.length>28?52:64);
+      const titleSize=s.title.length>28?52:64;
       tx(slide,s.title,82,134,1116,116,titleSize,C.lime,true);
       let y=272;
       if(s.body){tx(slide,s.body,85,y,1110,76,38,C.paper,true);y+=85;}
       if(s.sub){tx(slide,s.sub,85,y,1110,60,35,C.cyan,true);y+=68;}
       if(s.items){
-        const size=s.items.some(t=>t.length>60)?28:33;
-        for(const item of s.items){tx(slide,item,90,y,1100,57,size,C.paper,false);y+=63;}
+        const dated=s.n===3;
+        const size=dated?30:(s.items.some(t=>t.length>60)?28:33);
+        for(const item of s.items){tx(slide,item,90,y,1100,dated?82:57,size,C.paper,false);y+=dated?92:63;}
       }
-      if(s.hint)tx(slide,s.hint,90,Math.max(y+5,545),1100,75,25,C.muted,false);
+      if(s.hint)tx(slide,s.hint,90,Math.max(y+5,545),1100,s.n===3?67:75,s.n===3?24:25,C.muted,false);
       if(s.links){
         const sh=tx(slide,s.links[0].label,90,625,1100,30,22,C.cyan,true);
         if(sh)sh.text.get(s.links[0].label).link={uri:s.links[0].href.startsWith('http')?s.links[0].href:'https://simonh68.github.io/teachers/grade8/monkey-festival/'+s.links[0].href,isExternal:true};
@@ -78,5 +80,5 @@ await fs.writeFile(path.join(build,'authored-boxes.json'),JSON.stringify(boxes))
 const {finalizePresentation}=await import(pathToFileURL('/root/.codex/skills/builtins/presentations/container_tools/artifact_tool_utils.mjs').href);
 const FINAL=process.env.FINAL_PPTX||path.join(site,'files/monkey-festival.pptx');
 await fs.mkdir(path.dirname(FINAL),{recursive:true});
-await finalizePresentation({workspaceDir:ROOT,candidatePath:candidate,finalPath:FINAL,pythonExecutable:process.env.CODEX_PRIMARY_RUNTIME_PYTHON,integrityValidatorPath:'/root/.codex/skills/builtins/presentations/container_tools/inspect_presentation_package_integrity.py',layoutValidatorPath:'/root/.codex/skills/builtins/presentations/container_tools/inspect_presentation_layout_geometry.py',layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit'],explicitTotalSlideCount:70,requiredNativeTableOwnerSlides:[],requiredNativeChartOwnerSlides:[],fontPolicy:{basis:'user_request',families:['Nunito','Heebo']},verifyArtifactToolImport:true,receiptPath:path.join(build,'validation.json')});
+await finalizePresentation({workspaceDir:workspace,candidatePath:candidate,finalPath:FINAL,pythonExecutable:process.env.CODEX_PRIMARY_RUNTIME_PYTHON,integrityValidatorPath:'/root/.codex/skills/builtins/presentations/container_tools/inspect_presentation_package_integrity.py',layoutValidatorPath:'/root/.codex/skills/builtins/presentations/container_tools/inspect_presentation_layout_geometry.py',layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit'],explicitTotalSlideCount:70,requiredNativeTableOwnerSlides:[],requiredNativeChartOwnerSlides:[],fontPolicy:{basis:'user_request',families:['Nunito','Heebo']},verifyArtifactToolImport:true,receiptPath:path.join(build,'validation.json')});
 console.log(FINAL);

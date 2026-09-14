@@ -10,4 +10,10 @@
 .break .frame{height:100%}.resource-links{margin:12px auto}.resource-links a{font-size:22px}.cover:after{display:none}
 @media(max-width:760px){.lesson-shortcuts{top:15px;right:12px;left:65px;gap:10px}.lesson-shortcuts a{font-size:11px;padding:6px 1px}.reading .story-sentence{font-size:clamp(24px,6vw,34px)}.qa .question{font-size:clamp(26px,6.7vw,37px)}.qa .possible-answer{font-size:clamp(23px,5.6vw,32px)}.lesson-item{font-size:24px}.clue{font-size:18px}}
 @media(max-height:570px){.reading .story-sentence{font-size:clamp(23px,4.6vh,32px);line-height:1.36}.lesson-items{margin-top:15px}.lesson-item{font-size:23px;margin:8px 0}.notice .part-title,.schedule .part-title{font-size:40px}.qa .frame{grid-template-rows:auto auto auto minmax(110px,auto);gap:8px}.qa .question{font-size:32px}.qa .possible-answer{font-size:27px}.clue{font-size:18px}.lesson-shortcuts{top:12px}.instruction{font-size:20px;margin-top:14px}}
+.gregorian{white-space:nowrap;unicode-bidi:isolate}
+.dated-schedule .lesson-items{margin-top:18px}
+.dated-schedule .lesson-item{font-size:clamp(23px,2.35vw,31px);line-height:1.4;margin:14px 0}
+.dated-schedule .instruction{font-size:clamp(18px,1.8vw,24px);margin-top:16px}
+@media(max-width:760px){.dated-schedule .part-title{font-size:36px}.dated-schedule .lesson-item{font-size:23px;margin:12px 0}}
+@media(max-height:570px){.dated-schedule .part-title{font-size:34px}.dated-schedule .lesson-item{font-size:23px;margin:8px 0}.dated-schedule .instruction{font-size:19px}}
 @media print{.lesson-shortcuts{display:none}}
