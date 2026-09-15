@@ -1,421 +1,2609 @@
 [
   {
     "kind": "cover",
+    "chapter": "פתיחה",
+    "pair": "p1",
+    "reveal": false,
     "title": "Connectors",
-    "he": "מילות קישור",
-    "sub": "ט׳ · י׳ · י״א"
+    "he": "מילות קישור"
+  },
+  {
+    "kind": "cover",
+    "chapter": "פתיחה",
+    "pair": "p1",
+    "reveal": true,
+    "title": "Connectors",
+    "he": "מילות קישור"
+  },
+  {
+    "kind": "explain",
+    "chapter": "פתיחה",
+    "title": "מה נלמד לעשות?",
+    "body": "נחבר שני רעיונות, נבחר מילת קישור מתאימה, ונבדוק את המבנה ואת הפיסוק.",
+    "formula": "",
+    "family": "",
+    "note": ""
+  },
+  {
+    "kind": "explain",
+    "chapter": "פתיחה",
+    "title": "בכל דוגמה",
+    "body": "קראו את האנגלית ונסו להבין לפי ההקשר. עצרו לפני המעבר הבא; אחריו יתווסף התרגום בלבד.",
+    "formula": "",
+    "family": "",
+    "note": ""
+  },
+  {
+    "kind": "explain",
+    "chapter": "פתיחה",
+    "title": "שלוש בדיקות לפני שכותבים",
+    "body": "מה הקשר בין הרעיונות? מה צריך לבוא אחרי מילת הקישור? איזה סימן פיסוק צריך?",
+    "formula": "",
+    "family": "",
+    "note": ""
+  },
+  {
+    "kind": "explain",
+    "chapter": "ניגוד · הבסיס",
+    "title": "שני רעיונות שלא מסתדרים כצפוי",
+    "body": "החתול עייף. מה היינו מצפים שהוא יעשה? ומה הוא עושה בפועל?",
+    "formula": "",
+    "family": "contrast",
+    "note": ""
   },
   {
     "kind": "example",
+    "chapter": "ניגוד · הבסיס",
+    "pair": "p7",
+    "reveal": false,
     "family": "contrast",
-    "title": "BUT",
-    "sentence": "The cat is tired, <b>but</b> it keeps playing.",
+    "title": "But",
+    "sentence": "The cat is tired<em>,</em> <b>but</b> it keeps playing.",
     "he": "החתול עייף, אבל הוא ממשיך לשחק.",
-    "rule": "ניגוד בין שני רעיונות",
+    "meaning": "אבל",
     "base": "",
     "tense": "הווה"
   },
   {
+    "kind": "example",
+    "chapter": "ניגוד · הבסיס",
+    "pair": "p7",
+    "reveal": true,
+    "family": "contrast",
+    "title": "But",
+    "sentence": "The cat is tired<em>,</em> <b>but</b> it keeps playing.",
+    "he": "החתול עייף, אבל הוא ממשיך לשחק.",
+    "meaning": "אבל",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "ניגוד · הבסיס",
+    "title": "מזהים שני חלקים שלמים",
+    "body": "לכל חלק יש נושא ופועל. כאן מחברים אותם בתוך משפט אחד.",
+    "formula": "The cat is tired <em>│</em> it keeps playing.",
+    "family": "contrast",
+    "note": ""
+  },
+  {
     "kind": "idea",
+    "chapter": "ניגוד · הבסיס",
     "family": "contrast",
     "image": "contrast-a",
-    "en": "Tired. Still playing.",
-    "he": "עייף, ובכל זאת משחק"
+    "en": "Still playing."
   },
   {
     "kind": "example",
+    "chapter": "ניגוד · הבסיס",
+    "pair": "p11",
+    "reveal": false,
     "family": "contrast",
     "title": "However",
     "sentence": "The cat is tired<em>.</em> <b>However</b><em>,</em> it keeps playing.",
-    "he": "אולם / עם זאת",
-    "rule": "משפט חדש. אחר כך מילת הקישור ופסיק.",
+    "he": "החתול עייף. עם זאת, הוא ממשיך לשחק.",
+    "meaning": "עם זאת / אולם",
     "base": "The cat is tired, but it keeps playing.",
     "tense": "הווה"
   },
   {
+    "kind": "example",
+    "chapter": "ניגוד · הבסיס",
+    "pair": "p11",
+    "reveal": true,
+    "family": "contrast",
+    "title": "However",
+    "sentence": "The cat is tired<em>.</em> <b>However</b><em>,</em> it keeps playing.",
+    "he": "החתול עייף. עם זאת, הוא ממשיך לשחק.",
+    "meaning": "עם זאת / אולם",
+    "base": "The cat is tired, but it keeps playing.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "ניגוד · הבסיס",
+    "title": "שלב 1 · מפרידים",
+    "body": "מוציאים את but והופכים את שני החלקים לשני משפטים.",
+    "formula": "The cat is tired<em>.</em> It keeps playing.",
+    "family": "contrast",
+    "note": ""
+  },
+  {
+    "kind": "explain",
+    "chapter": "ניגוד · הבסיס",
+    "title": "שלב 2 · מוסיפים בתחילת המשפט השני",
+    "body": "כותבים However ואחריו פסיק. בדוגמה הזו it ממשיך באות קטנה.",
+    "formula": "The cat is tired<em>.</em> <b>However</b><em>,</em> it keeps playing.",
+    "family": "contrast",
+    "note": ""
+  },
+  {
+    "kind": "explain",
+    "chapter": "ניגוד · הבסיס",
+    "title": "שלב 3 · בודקים מה נשאר",
+    "body": "החתול עדיין עייף ועדיין משחק. השינוי הוא בדרך שבה מחברים את הרעיונות.",
+    "formula": "A<em>,</em> <b>but</b> B.  →  A<em>.</em> <b>However</b><em>,</em> B.",
+    "family": "contrast",
+    "note": ""
+  },
+  {
+    "kind": "practice",
+    "chapter": "ניגוד · הבסיס",
+    "answerVisible": false,
+    "reveal": false,
+    "family": "contrast",
+    "title": "Your turn",
+    "prompt": "החליפו את but ב־However. שימו לב לפיסוק.",
+    "question": "Dan is tired, but he studies.",
+    "answer": "Dan is tired<em>.</em> <b>However</b><em>,</em> he studies.",
+    "he": "דן עייף. עם זאת, הוא לומד.",
+    "why": "במבנה הזה: נקודה לפני However ופסיק אחריו.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "ניגוד · הבסיס",
+    "pair": "p17",
+    "reveal": false,
+    "answerVisible": true,
+    "family": "contrast",
+    "title": "Your turn",
+    "prompt": "החליפו את but ב־However. שימו לב לפיסוק.",
+    "question": "Dan is tired, but he studies.",
+    "answer": "Dan is tired<em>.</em> <b>However</b><em>,</em> he studies.",
+    "he": "דן עייף. עם זאת, הוא לומד.",
+    "why": "במבנה הזה: נקודה לפני However ופסיק אחריו.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "ניגוד · הבסיס",
+    "pair": "p17",
+    "reveal": true,
+    "answerVisible": true,
+    "family": "contrast",
+    "title": "Your turn",
+    "prompt": "החליפו את but ב־However. שימו לב לפיסוק.",
+    "question": "Dan is tired, but he studies.",
+    "answer": "Dan is tired<em>.</em> <b>However</b><em>,</em> he studies.",
+    "he": "דן עייף. עם זאת, הוא לומד.",
+    "why": "במבנה הזה: נקודה לפני However ופסיק אחריו.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "summary",
+    "chapter": "ניגוד · הבסיס",
+    "pair": "p19",
+    "reveal": false,
+    "title": "סיכום ביניים · אותו קשר, מבנה אחר",
+    "family": "contrast",
+    "rows": [
+      [
+        "but",
+        "אבל",
+        "A, but B."
+      ],
+      [
+        "however",
+        "עם זאת",
+        "A. However, B."
+      ]
+    ],
+    "note": "במבנה המתורגל כאן, לא מחליפים רק מילה: משנים גם את הפיסוק."
+  },
+  {
+    "kind": "summary",
+    "chapter": "ניגוד · הבסיס",
+    "pair": "p19",
+    "reveal": true,
+    "title": "סיכום ביניים · אותו קשר, מבנה אחר",
+    "family": "contrast",
+    "rows": [
+      [
+        "but",
+        "אבל",
+        "A, but B."
+      ],
+      [
+        "however",
+        "עם זאת",
+        "A. However, B."
+      ]
+    ],
+    "note": "במבנה המתורגל כאן, לא מחליפים רק מילה: משנים גם את הפיסוק."
+  },
+  {
     "kind": "idea",
+    "chapter": "ניגוד · משנים את המבנה",
     "family": "contrast",
     "image": "contrast-b",
-    "en": "Tired. Still playing.",
-    "he": "עייף, ובכל זאת משחק"
+    "en": "Still playing."
   },
   {
     "kind": "example",
+    "chapter": "ניגוד · משנים את המבנה",
+    "pair": "p22",
+    "reveal": false,
+    "family": "contrast",
+    "title": "Although",
+    "sentence": "<b>Although</b> the cat is tired<em>,</em> it keeps playing.",
+    "he": "אף שהחתול עייף, הוא ממשיך לשחק.",
+    "meaning": "אף ש־ / למרות ש־",
+    "base": "The cat is tired, but it keeps playing.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "ניגוד · משנים את המבנה",
+    "pair": "p22",
+    "reveal": true,
+    "family": "contrast",
+    "title": "Although",
+    "sentence": "<b>Although</b> the cat is tired<em>,</em> it keeps playing.",
+    "he": "אף שהחתול עייף, הוא ממשיך לשחק.",
+    "meaning": "אף ש־ / למרות ש־",
+    "base": "The cat is tired, but it keeps playing.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "ניגוד · משנים את המבנה",
+    "title": "אחרי Although · נושא ופועל",
+    "body": "בחלק הראשון יש נושא ופועל. כשהחלק הזה פותח את המשפט, מפרידים אחריו בפסיק.",
+    "formula": "<b>Although</b> the cat <u>is</u> tired<em>,</em> it keeps playing.",
+    "family": "contrast",
+    "note": ""
+  },
+  {
+    "kind": "explain",
+    "chapter": "ניגוד · משנים את המבנה",
+    "title": "לא מוסיפים but לאותו חיבור",
+    "body": "בחרו אחד משני המבנים. אחרי פתיחה ב־Although, ממשיכים ישר לרעיון השני.",
+    "formula": "<b>Although</b> A<em>,</em> B.",
+    "family": "contrast",
+    "note": ""
+  },
+  {
+    "kind": "idea",
+    "chapter": "ניגוד · משנים את המבנה",
+    "family": "contrast",
+    "image": "contrast-a",
+    "en": "Still playing."
+  },
+  {
+    "kind": "example",
+    "chapter": "ניגוד · משנים את המבנה",
+    "pair": "p27",
+    "reveal": false,
+    "family": "contrast",
+    "title": "Even though",
+    "sentence": "<b>Even though</b> the cat is tired<em>,</em> it keeps playing.",
+    "he": "אף שהחתול עייף, הוא בכל זאת ממשיך לשחק.",
+    "meaning": "אף ש־, בהדגשה",
+    "base": "The cat is tired, but it keeps playing.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "ניגוד · משנים את המבנה",
+    "pair": "p27",
+    "reveal": true,
+    "family": "contrast",
+    "title": "Even though",
+    "sentence": "<b>Even though</b> the cat is tired<em>,</em> it keeps playing.",
+    "he": "אף שהחתול עייף, הוא בכל זאת ממשיך לשחק.",
+    "meaning": "אף ש־, בהדגשה",
+    "base": "The cat is tired, but it keeps playing.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "ניגוד · משנים את המבנה",
+    "title": "מבנה מוכר · הדגשה חזקה יותר",
+    "body": "Even though משתמש באותו מבנה כמו Although ומדגיש את הפער בין הציפייה למציאות.",
+    "formula": "<b>Even though</b> A<em>,</em> B.",
+    "family": "contrast",
+    "note": ""
+  },
+  {
+    "kind": "idea",
+    "chapter": "ניגוד · משנים את המבנה",
+    "family": "contrast",
+    "image": "contrast-b",
+    "en": "Still playing."
+  },
+  {
+    "kind": "example",
+    "chapter": "ניגוד · משנים את המבנה",
+    "pair": "p31",
+    "reveal": false,
+    "family": "contrast",
+    "title": "Despite",
+    "sentence": "<b>Despite</b> <u>its tiredness</u><em>,</em> the cat keeps playing.",
+    "he": "למרות עייפותו, החתול ממשיך לשחק.",
+    "meaning": "למרות",
+    "base": "The cat is tired, but it keeps playing.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "ניגוד · משנים את המבנה",
+    "pair": "p31",
+    "reveal": true,
+    "family": "contrast",
+    "title": "Despite",
+    "sentence": "<b>Despite</b> <u>its tiredness</u><em>,</em> the cat keeps playing.",
+    "he": "למרות עייפותו, החתול ממשיך לשחק.",
+    "meaning": "למרות",
+    "base": "The cat is tired, but it keeps playing.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "ניגוד · משנים את המבנה",
+    "title": "שלב 1 · מצמצמים לצירוף שמני",
+    "body": "במבנה הזה לא כותבים אחרי Despite את המשפט the cat is tired. הופכים אותו לצירוף שמני.",
+    "formula": "the cat is tired  →  <u>its tiredness</u>",
+    "family": "contrast",
+    "note": ""
+  },
+  {
+    "kind": "explain",
+    "chapter": "ניגוד · משנים את המבנה",
+    "title": "שלב 2 · מחברים מחדש",
+    "body": "אחרי Despite מופיע כאן צירוף שמני. לא מוסיפים of.",
+    "formula": "<b>Despite</b> <u>its tiredness</u><em>,</em> the cat keeps playing.",
+    "family": "contrast",
+    "note": ""
+  },
+  {
+    "kind": "practice",
+    "chapter": "ניגוד · משנים את המבנה",
+    "answerVisible": false,
+    "reveal": false,
+    "family": "contrast",
+    "title": "Your turn",
+    "prompt": "חברו בעזרת Although. התחילו במילה Although.",
+    "question": "It is raining. We play outside.",
+    "answer": "<b>Although</b> it is raining<em>,</em> we play outside.",
+    "he": "אף שיורד גשם, אנחנו משחקים בחוץ.",
+    "why": "פסיק אחרי החלק הפותח; ללא but.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "ניגוד · משנים את המבנה",
+    "pair": "p36",
+    "reveal": false,
+    "answerVisible": true,
+    "family": "contrast",
+    "title": "Your turn",
+    "prompt": "חברו בעזרת Although. התחילו במילה Although.",
+    "question": "It is raining. We play outside.",
+    "answer": "<b>Although</b> it is raining<em>,</em> we play outside.",
+    "he": "אף שיורד גשם, אנחנו משחקים בחוץ.",
+    "why": "פסיק אחרי החלק הפותח; ללא but.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "ניגוד · משנים את המבנה",
+    "pair": "p36",
+    "reveal": true,
+    "answerVisible": true,
+    "family": "contrast",
+    "title": "Your turn",
+    "prompt": "חברו בעזרת Although. התחילו במילה Although.",
+    "question": "It is raining. We play outside.",
+    "answer": "<b>Although</b> it is raining<em>,</em> we play outside.",
+    "he": "אף שיורד גשם, אנחנו משחקים בחוץ.",
+    "why": "פסיק אחרי החלק הפותח; ללא but.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "ניגוד · משנים את המבנה",
+    "answerVisible": false,
+    "reveal": false,
+    "family": "contrast",
+    "title": "Your turn",
+    "prompt": "כתבו את אותו רעיון בעזרת Despite.",
+    "question": "Although it is raining, we play outside.",
+    "answer": "<b>Despite</b> <u>the rain</u><em>,</em> we play outside.",
+    "he": "למרות הגשם, אנחנו משחקים בחוץ.",
+    "why": "it is raining הפך לצירוף השמני the rain.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "ניגוד · משנים את המבנה",
+    "pair": "p39",
+    "reveal": false,
+    "answerVisible": true,
+    "family": "contrast",
+    "title": "Your turn",
+    "prompt": "כתבו את אותו רעיון בעזרת Despite.",
+    "question": "Although it is raining, we play outside.",
+    "answer": "<b>Despite</b> <u>the rain</u><em>,</em> we play outside.",
+    "he": "למרות הגשם, אנחנו משחקים בחוץ.",
+    "why": "it is raining הפך לצירוף השמני the rain.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "ניגוד · משנים את המבנה",
+    "pair": "p39",
+    "reveal": true,
+    "answerVisible": true,
+    "family": "contrast",
+    "title": "Your turn",
+    "prompt": "כתבו את אותו רעיון בעזרת Despite.",
+    "question": "Although it is raining, we play outside.",
+    "answer": "<b>Despite</b> <u>the rain</u><em>,</em> we play outside.",
+    "he": "למרות הגשם, אנחנו משחקים בחוץ.",
+    "why": "it is raining הפך לצירוף השמני the rain.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "summary",
+    "chapter": "ניגוד · משנים את המבנה",
+    "pair": "p41",
+    "reveal": false,
+    "title": "סיכום ביניים · מה בא אחרי הביטוי?",
+    "family": "contrast",
+    "rows": [
+      [
+        "although / even though",
+        "אף ש־",
+        "Although it is raining, …"
+      ],
+      [
+        "despite",
+        "למרות",
+        "Despite the rain, …"
+      ]
+    ],
+    "note": "Although ו־Even though: נושא ופועל. Despite: כאן צירוף שמני; אפשר גם צורת ing."
+  },
+  {
+    "kind": "summary",
+    "chapter": "ניגוד · משנים את המבנה",
+    "pair": "p41",
+    "reveal": true,
+    "title": "סיכום ביניים · מה בא אחרי הביטוי?",
+    "family": "contrast",
+    "rows": [
+      [
+        "although / even though",
+        "אף ש־",
+        "Although it is raining, …"
+      ],
+      [
+        "despite",
+        "למרות",
+        "Despite the rain, …"
+      ]
+    ],
+    "note": "Although ו־Even though: נושא ופועל. Despite: כאן צירוף שמני; אפשר גם צורת ing."
+  },
+  {
+    "kind": "idea",
+    "chapter": "ניגוד · חלופות והבדלי משמעות",
+    "family": "contrast",
+    "image": "contrast-a",
+    "en": "Still playing."
+  },
+  {
+    "kind": "example",
+    "chapter": "ניגוד · חלופות והבדלי משמעות",
+    "pair": "p44",
+    "reveal": false,
     "family": "contrast",
     "title": "Nevertheless",
     "sentence": "The cat is tired<em>.</em> <b>Nevertheless</b><em>,</em> it keeps playing.",
-    "he": "אף על פי כן",
-    "rule": "הוא ממשיך למרות העייפות. ביטוי רשמי יותר.",
+    "he": "החתול עייף. אף על פי כן, הוא ממשיך לשחק.",
+    "meaning": "אף על פי כן",
+    "base": "The cat is tired, but it keeps playing.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "ניגוד · חלופות והבדלי משמעות",
+    "pair": "p44",
+    "reveal": true,
+    "family": "contrast",
+    "title": "Nevertheless",
+    "sentence": "The cat is tired<em>.</em> <b>Nevertheless</b><em>,</em> it keeps playing.",
+    "he": "החתול עייף. אף על פי כן, הוא ממשיך לשחק.",
+    "meaning": "אף על פי כן",
     "base": "The cat is tired, but it keeps playing.",
     "tense": "הווה"
   },
   {
     "kind": "idea",
+    "chapter": "ניגוד · חלופות והבדלי משמעות",
     "family": "contrast",
-    "image": "contrast-a",
-    "en": "Tired. Still playing.",
-    "he": "עייף, ובכל זאת משחק"
+    "image": "contrast-b",
+    "en": "Still playing."
   },
   {
     "kind": "example",
+    "chapter": "ניגוד · חלופות והבדלי משמעות",
+    "pair": "p47",
+    "reveal": false,
     "family": "contrast",
     "title": "Nonetheless",
     "sentence": "The cat is tired<em>.</em> <b>Nonetheless</b><em>,</em> it keeps playing.",
-    "he": "אף על פי כן",
-    "rule": "משמעות דומה ל־Nevertheless.",
+    "he": "החתול עייף. אף על פי כן, הוא ממשיך לשחק.",
+    "meaning": "אף על פי כן",
+    "base": "The cat is tired, but it keeps playing.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "ניגוד · חלופות והבדלי משמעות",
+    "pair": "p47",
+    "reveal": true,
+    "family": "contrast",
+    "title": "Nonetheless",
+    "sentence": "The cat is tired<em>.</em> <b>Nonetheless</b><em>,</em> it keeps playing.",
+    "he": "החתול עייף. אף על פי כן, הוא ממשיך לשחק.",
+    "meaning": "אף על פי כן",
     "base": "The cat is tired, but it keeps playing.",
     "tense": "הווה"
   },
   {
     "kind": "idea",
+    "chapter": "ניגוד · חלופות והבדלי משמעות",
     "family": "contrast",
-    "image": "contrast-b",
-    "en": "Tired. Still playing.",
-    "he": "עייף, ובכל זאת משחק"
+    "image": "contrast-a",
+    "en": "Still playing."
   },
   {
     "kind": "example",
+    "chapter": "ניגוד · חלופות והבדלי משמעות",
+    "pair": "p50",
+    "reveal": false,
     "family": "contrast",
     "title": "Even so",
     "sentence": "The cat is tired<em>.</em> <b>Even so</b><em>,</em> it keeps playing.",
-    "he": "למרות זאת",
-    "rule": "גם במצב הזה הוא ממשיך לשחק.",
+    "he": "החתול עייף. למרות זאת, הוא ממשיך לשחק.",
+    "meaning": "למרות זאת",
     "base": "The cat is tired, but it keeps playing.",
     "tense": "הווה"
   },
   {
-    "kind": "idea",
-    "family": "contrast",
-    "image": "contrast-b",
-    "en": "Lazy? Full of energy.",
-    "he": "אולי הוא דווקא מלא אנרגיה?"
-  },
-  {
     "kind": "example",
+    "chapter": "ניגוד · חלופות והבדלי משמעות",
+    "pair": "p50",
+    "reveal": true,
     "family": "contrast",
-    "title": "BUT · משפט חדש",
-    "sentence": "The cat isn’t lazy, <b>but</b> it is full of energy.",
-    "he": "החתול אינו עצלן, אלא מלא אנרגיה.",
-    "rule": "כאן מתקנים רושם שגוי: עצלן או מלא אנרגיה?",
-    "base": "",
+    "title": "Even so",
+    "sentence": "The cat is tired<em>.</em> <b>Even so</b><em>,</em> it keeps playing.",
+    "he": "החתול עייף. למרות זאת, הוא ממשיך לשחק.",
+    "meaning": "למרות זאת",
+    "base": "The cat is tired, but it keeps playing.",
     "tense": "הווה"
   },
   {
+    "kind": "explain",
+    "chapter": "ניגוד · חלופות והבדלי משמעות",
+    "title": "המשמעות קודמת למילה המרשימה",
+    "body": "Nevertheless ו־Nonetheless רשמיים יותר. אין צורך להחליף However בכל משפט; בוחרים ביטוי שמתאים להקשר.",
+    "formula": "",
+    "family": "contrast",
+    "note": ""
+  },
+  {
+    "kind": "idea",
+    "chapter": "ניגוד · חלופות והבדלי משמעות",
+    "family": "contrast",
+    "image": "contrast-b",
+    "en": "Lazy? Look again."
+  },
+  {
     "kind": "example",
+    "chapter": "ניגוד · חלופות והבדלי משמעות",
+    "pair": "p54",
+    "reveal": false,
     "family": "contrast",
     "title": "On the contrary",
     "sentence": "The cat isn’t lazy<em>.</em> <b>On the contrary</b><em>,</em> it is full of energy.",
-    "he": "להפך",
-    "rule": "מתקנים טענה או רושם ומציגים את ההפך.",
-    "base": "The cat isn’t lazy, but it is full of energy.",
+    "he": "החתול אינו עצלן. להפך, הוא מלא אנרגיה.",
+    "meaning": "להפך",
+    "base": "The cat isn’t lazy; it is full of energy.",
     "tense": "הווה"
   },
   {
+    "kind": "example",
+    "chapter": "ניגוד · חלופות והבדלי משמעות",
+    "pair": "p54",
+    "reveal": true,
+    "family": "contrast",
+    "title": "On the contrary",
+    "sentence": "The cat isn’t lazy<em>.</em> <b>On the contrary</b><em>,</em> it is full of energy.",
+    "he": "החתול אינו עצלן. להפך, הוא מלא אנרגיה.",
+    "meaning": "להפך",
+    "base": "The cat isn’t lazy; it is full of energy.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "ניגוד · חלופות והבדלי משמעות",
+    "title": "כאן מתקנים רושם שגוי",
+    "body": "On the contrary דוחה טענה או רושם ומציג את ההפך. עייפות ומשחק יכולים להתקיים יחד; עצלנות ומרץ מוצגים כאן כהפכים.",
+    "formula": "",
+    "family": "contrast",
+    "note": ""
+  },
+  {
+    "kind": "practice",
+    "chapter": "ניגוד · חלופות והבדלי משמעות",
+    "answerVisible": false,
+    "reveal": false,
+    "family": "contrast",
+    "title": "Your turn",
+    "prompt": "איזה ביטוי מתאים: However או On the contrary?",
+    "question": "This task isn’t boring. ____, it is exciting.",
+    "answer": "This task isn’t boring<em>.</em> <b>On the contrary</b><em>,</em> it is exciting.",
+    "he": "המשימה הזאת אינה משעממת. להפך, היא מרגשת.",
+    "why": "המשפט השני מציג את ההפך מהרושם שנדחה.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "ניגוד · חלופות והבדלי משמעות",
+    "pair": "p58",
+    "reveal": false,
+    "answerVisible": true,
+    "family": "contrast",
+    "title": "Your turn",
+    "prompt": "איזה ביטוי מתאים: However או On the contrary?",
+    "question": "This task isn’t boring. ____, it is exciting.",
+    "answer": "This task isn’t boring<em>.</em> <b>On the contrary</b><em>,</em> it is exciting.",
+    "he": "המשימה הזאת אינה משעממת. להפך, היא מרגשת.",
+    "why": "המשפט השני מציג את ההפך מהרושם שנדחה.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "ניגוד · חלופות והבדלי משמעות",
+    "pair": "p58",
+    "reveal": true,
+    "answerVisible": true,
+    "family": "contrast",
+    "title": "Your turn",
+    "prompt": "איזה ביטוי מתאים: However או On the contrary?",
+    "question": "This task isn’t boring. ____, it is exciting.",
+    "answer": "This task isn’t boring<em>.</em> <b>On the contrary</b><em>,</em> it is exciting.",
+    "he": "המשימה הזאת אינה משעממת. להפך, היא מרגשת.",
+    "why": "המשפט השני מציג את ההפך מהרושם שנדחה.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "summary",
+    "chapter": "ניגוד · חלופות והבדלי משמעות",
+    "pair": "p60",
+    "reveal": false,
+    "title": "סיכום ביניים · שלושה סוגי ניגוד",
+    "family": "contrast",
+    "rows": [
+      [
+        "however / even so",
+        "עם זאת / למרות זאת",
+        "A. However, B."
+      ],
+      [
+        "nevertheless / nonetheless",
+        "אף על פי כן",
+        "A. Nevertheless, B."
+      ],
+      [
+        "on the contrary",
+        "להפך",
+        "Not A. On the contrary, B."
+      ]
+    ],
+    "note": "לא כל ביטוי מתאים לכל ניגוד. שאלו אם מדובר בפער מהציפייה או בתיקון טענה."
+  },
+  {
+    "kind": "summary",
+    "chapter": "ניגוד · חלופות והבדלי משמעות",
+    "pair": "p60",
+    "reveal": true,
+    "title": "סיכום ביניים · שלושה סוגי ניגוד",
+    "family": "contrast",
+    "rows": [
+      [
+        "however / even so",
+        "עם זאת / למרות זאת",
+        "A. However, B."
+      ],
+      [
+        "nevertheless / nonetheless",
+        "אף על פי כן",
+        "A. Nevertheless, B."
+      ],
+      [
+        "on the contrary",
+        "להפך",
+        "Not A. On the contrary, B."
+      ]
+    ],
+    "note": "לא כל ביטוי מתאים לכל ניגוד. שאלו אם מדובר בפער מהציפייה או בתיקון טענה."
+  },
+  {
+    "kind": "explain",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "title": "מוסיפים לרעיון הקיים",
+    "body": "במשפחה הבאה מצרפים פרט נוסף. לא מחפשים ניגוד ולא מסבירים סיבה.",
+    "formula": "",
+    "family": "addition",
+    "note": ""
+  },
+  {
     "kind": "idea",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
     "family": "addition",
     "image": "addition-a",
-    "en": "A book. A new idea.",
-    "he": "קריאה שמוסיפה רעיון"
+    "en": "One more idea."
   },
   {
     "kind": "example",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p64",
+    "reveal": false,
     "family": "addition",
-    "title": "AND",
-    "sentence": "The app has games, <b>and</b> it has stories.",
+    "title": "And",
+    "sentence": "The app has games<em>,</em> <b>and</b> it has stories.",
     "he": "באפליקציה יש משחקים, ויש בה סיפורים.",
-    "rule": "מוסיפים עוד פרט",
+    "meaning": "ו־",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p64",
+    "reveal": true,
+    "family": "addition",
+    "title": "And",
+    "sentence": "The app has games<em>,</em> <b>and</b> it has stories.",
+    "he": "באפליקציה יש משחקים, ויש בה סיפורים.",
+    "meaning": "ו־",
     "base": "",
     "tense": "הווה"
   },
   {
     "kind": "idea",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
     "family": "addition",
     "image": "addition-b",
-    "en": "One idea. One more.",
-    "he": "מוסיפים משהו קשור"
+    "en": "One more idea."
   },
   {
     "kind": "example",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p67",
+    "reveal": false,
     "family": "addition",
-    "title": "Moreover",
-    "sentence": "The app has games<em>.</em> <b>Moreover</b><em>,</em> it has stories.",
-    "he": "בנוסף / יתרה מזאת",
-    "rule": "מוסיפים פרט שמחזק את הנקודה. ביטוי רשמי יותר.",
+    "title": "Also",
+    "sentence": "The app has games<em>.</em> It <b>also</b> has stories.",
+    "he": "באפליקציה יש משחקים. יש בה גם סיפורים.",
+    "meaning": "גם",
     "base": "The app has games, and it has stories.",
     "tense": "הווה"
   },
   {
+    "kind": "example",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p67",
+    "reveal": true,
+    "family": "addition",
+    "title": "Also",
+    "sentence": "The app has games<em>.</em> It <b>also</b> has stories.",
+    "he": "באפליקציה יש משחקים. יש בה גם סיפורים.",
+    "meaning": "גם",
+    "base": "The app has games, and it has stories.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "title": "Also · שמים לב למיקום",
+    "body": "בדוגמה הזאת also בא לפני הפועל העיקרי has. אחרי be הוא בדרך כלל בא אחרי הפועל.",
+    "formula": "It <b>also</b> has stories.  /  It is <b>also</b> free.",
+    "family": "addition",
+    "note": ""
+  },
+  {
     "kind": "idea",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
     "family": "addition",
     "image": "addition-a",
-    "en": "One idea. One more.",
-    "he": "מוסיפים משהו קשור"
+    "en": "One more idea."
   },
   {
     "kind": "example",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p71",
+    "reveal": false,
     "family": "addition",
-    "title": "Furthermore",
-    "sentence": "The app has games<em>.</em> <b>Furthermore</b><em>,</em> it has stories.",
-    "he": "בנוסף / יתרה מזאת",
-    "rule": "מוסיפים עוד פרט או נימוק. ביטוי רשמי יותר.",
+    "title": "Too",
+    "sentence": "The app has games<em>.</em> It has stories <b>too</b>.",
+    "he": "באפליקציה יש משחקים. יש בה גם סיפורים.",
+    "meaning": "גם",
     "base": "The app has games, and it has stories.",
     "tense": "הווה"
   },
   {
+    "kind": "example",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p71",
+    "reveal": true,
+    "family": "addition",
+    "title": "Too",
+    "sentence": "The app has games<em>.</em> It has stories <b>too</b>.",
+    "he": "באפליקציה יש משחקים. יש בה גם סיפורים.",
+    "meaning": "גם",
+    "base": "The app has games, and it has stories.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "title": "אותו רעיון · מיקום אחר",
+    "body": "במשפטים האלה also בא באמצע ו־too בסוף. לא משאירים את המילה באותו מקום באופן אוטומטי.",
+    "formula": "It <b>also</b> has stories.  →  It has stories <b>too</b>.",
+    "family": "addition",
+    "note": ""
+  },
+  {
     "kind": "idea",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
     "family": "addition",
     "image": "addition-b",
-    "en": "One idea. One more.",
-    "he": "מוסיפים משהו קשור"
+    "en": "One more idea."
   },
   {
     "kind": "example",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p75",
+    "reveal": false,
     "family": "addition",
     "title": "In addition",
     "sentence": "The app has games<em>.</em> <b>In addition</b><em>,</em> it has stories.",
-    "he": "בנוסף / יתרה מזאת",
-    "rule": "מוסיפים מידע. משפט חדש ופסיק אחרי הביטוי.",
+    "he": "באפליקציה יש משחקים. בנוסף, יש בה סיפורים.",
+    "meaning": "בנוסף",
+    "base": "The app has games, and it has stories.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p75",
+    "reveal": true,
+    "family": "addition",
+    "title": "In addition",
+    "sentence": "The app has games<em>.</em> <b>In addition</b><em>,</em> it has stories.",
+    "he": "באפליקציה יש משחקים. בנוסף, יש בה סיפורים.",
+    "meaning": "בנוסף",
+    "base": "The app has games, and it has stories.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "title": "חוזרים למבנה שכבר הכרנו",
+    "body": "מסיימים את המשפט הראשון. פותחים את השני בביטוי ובפסיק.",
+    "formula": "A<em>.</em> <b>In addition</b><em>,</em> B.",
+    "family": "addition",
+    "note": ""
+  },
+  {
+    "kind": "practice",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "answerVisible": false,
+    "reveal": false,
+    "family": "addition",
+    "title": "Your turn",
+    "prompt": "החליפו את and ב־In addition.",
+    "question": "The app has music, and it has games.",
+    "answer": "The app has music<em>.</em> <b>In addition</b><em>,</em> it has games.",
+    "he": "באפליקציה יש מוזיקה. בנוסף, יש בה משחקים.",
+    "why": "שני משפטים שלמים; פסיק אחרי הביטוי.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p79",
+    "reveal": false,
+    "answerVisible": true,
+    "family": "addition",
+    "title": "Your turn",
+    "prompt": "החליפו את and ב־In addition.",
+    "question": "The app has music, and it has games.",
+    "answer": "The app has music<em>.</em> <b>In addition</b><em>,</em> it has games.",
+    "he": "באפליקציה יש מוזיקה. בנוסף, יש בה משחקים.",
+    "why": "שני משפטים שלמים; פסיק אחרי הביטוי.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p79",
+    "reveal": true,
+    "answerVisible": true,
+    "family": "addition",
+    "title": "Your turn",
+    "prompt": "החליפו את and ב־In addition.",
+    "question": "The app has music, and it has games.",
+    "answer": "The app has music<em>.</em> <b>In addition</b><em>,</em> it has games.",
+    "he": "באפליקציה יש מוזיקה. בנוסף, יש בה משחקים.",
+    "why": "שני משפטים שלמים; פסיק אחרי הביטוי.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "family": "addition",
+    "image": "addition-a",
+    "en": "One more idea."
+  },
+  {
+    "kind": "example",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p82",
+    "reveal": false,
+    "family": "addition",
+    "title": "Moreover",
+    "sentence": "The app has games<em>.</em> <b>Moreover</b><em>,</em> it has stories.",
+    "he": "באפליקציה יש משחקים. יתרה מזאת, יש בה סיפורים.",
+    "meaning": "יתרה מזאת",
+    "base": "The app has games, and it has stories.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p82",
+    "reveal": true,
+    "family": "addition",
+    "title": "Moreover",
+    "sentence": "The app has games<em>.</em> <b>Moreover</b><em>,</em> it has stories.",
+    "he": "באפליקציה יש משחקים. יתרה מזאת, יש בה סיפורים.",
+    "meaning": "יתרה מזאת",
     "base": "The app has games, and it has stories.",
     "tense": "הווה"
   },
   {
     "kind": "idea",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
     "family": "addition",
-    "image": "addition-a",
-    "en": "One idea. One more.",
-    "he": "מוסיפים משהו קשור"
+    "image": "addition-b",
+    "en": "One more idea."
   },
   {
     "kind": "example",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p85",
+    "reveal": false,
+    "family": "addition",
+    "title": "Furthermore",
+    "sentence": "The app has games<em>.</em> <b>Furthermore</b><em>,</em> it has stories.",
+    "he": "באפליקציה יש משחקים. יתר על כן, יש בה סיפורים.",
+    "meaning": "יתר על כן",
+    "base": "The app has games, and it has stories.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p85",
+    "reveal": true,
+    "family": "addition",
+    "title": "Furthermore",
+    "sentence": "The app has games<em>.</em> <b>Furthermore</b><em>,</em> it has stories.",
+    "he": "באפליקציה יש משחקים. יתר על כן, יש בה סיפורים.",
+    "meaning": "יתר על כן",
+    "base": "The app has games, and it has stories.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "family": "addition",
+    "image": "addition-a",
+    "en": "One more idea."
+  },
+  {
+    "kind": "example",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p88",
+    "reveal": false,
     "family": "addition",
     "title": "Additionally",
     "sentence": "The app has games<em>.</em> <b>Additionally</b><em>,</em> it has stories.",
-    "he": "בנוסף / יתרה מזאת",
-    "rule": "מוסיפים מידע. משפט חדש ופסיק אחרי המילה.",
+    "he": "באפליקציה יש משחקים. בנוסף, יש בה סיפורים.",
+    "meaning": "בנוסף",
     "base": "The app has games, and it has stories.",
     "tense": "הווה"
   },
   {
+    "kind": "example",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p88",
+    "reveal": true,
+    "family": "addition",
+    "title": "Additionally",
+    "sentence": "The app has games<em>.</em> <b>Additionally</b><em>,</em> it has stories.",
+    "he": "באפליקציה יש משחקים. בנוסף, יש בה סיפורים.",
+    "meaning": "בנוסף",
+    "base": "The app has games, and it has stories.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "title": "מתי התוספת גם מחזקת טענה?",
+    "body": "אם אנחנו מסבירים למה האפליקציה שימושית, סיפורים הם יתרון נוסף. Moreover ו־Furthermore מתאימים במיוחד להוספת נימוק מחזק.",
+    "formula": "",
+    "family": "addition",
+    "note": ""
+  },
+  {
     "kind": "idea",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
     "family": "addition",
     "image": "addition-b",
-    "en": "And there is more.",
-    "he": "עוד פרט שמחזק את הרעיון"
+    "en": "One more idea."
   },
   {
     "kind": "example",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p92",
+    "reveal": false,
     "family": "addition",
     "title": "Not to mention",
     "sentence": "The app has games<em>,</em> <b>not to mention</b> <u>stories</u>.",
-    "he": "שלא לדבר על",
-    "rule": "בדוגמה הזו הביטוי בא לפני שם עצם: stories.",
+    "he": "באפליקציה יש משחקים, שלא לדבר על סיפורים.",
+    "meaning": "שלא לדבר על",
     "base": "The app has games, and it has stories.",
     "tense": "הווה"
   },
   {
+    "kind": "example",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p92",
+    "reveal": true,
+    "family": "addition",
+    "title": "Not to mention",
+    "sentence": "The app has games<em>,</em> <b>not to mention</b> <u>stories</u>.",
+    "he": "באפליקציה יש משחקים, שלא לדבר על סיפורים.",
+    "meaning": "שלא לדבר על",
+    "base": "The app has games, and it has stories.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "title": "כאן מוסיפים שם עצם",
+    "body": "בדוגמה הזאת הביטוי מוביל ישירות ל־stories. לא מעתיקים אחריו את כל המשפט it has stories.",
+    "formula": "games<em>,</em> <b>not to mention</b> <u>stories</u>",
+    "family": "addition",
+    "note": ""
+  },
+  {
+    "kind": "summary",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p95",
+    "reveal": false,
+    "title": "סיכום ביניים · תוספת ומיקום",
+    "family": "addition",
+    "rows": [
+      [
+        "also / too",
+        "גם",
+        "It also has stories. / It has stories too."
+      ],
+      [
+        "in addition / additionally",
+        "בנוסף",
+        "A. In addition, B."
+      ],
+      [
+        "moreover / furthermore",
+        "יתרה מזאת / יתר על כן",
+        "A. Moreover, B."
+      ]
+    ],
+    "note": "בחרו חלופה אחת מתאימה; אין צורך לצרף כמה מילות קישור לאותה תוספת."
+  },
+  {
+    "kind": "summary",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p95",
+    "reveal": true,
+    "title": "סיכום ביניים · תוספת ומיקום",
+    "family": "addition",
+    "rows": [
+      [
+        "also / too",
+        "גם",
+        "It also has stories. / It has stories too."
+      ],
+      [
+        "in addition / additionally",
+        "בנוסף",
+        "A. In addition, B."
+      ],
+      [
+        "moreover / furthermore",
+        "יתרה מזאת / יתר על כן",
+        "A. Moreover, B."
+      ]
+    ],
+    "note": "בחרו חלופה אחת מתאימה; אין צורך לצרף כמה מילות קישור לאותה תוספת."
+  },
+  {
+    "kind": "practice",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "answerVisible": false,
+    "reveal": false,
+    "family": "addition",
+    "title": "Your turn",
+    "prompt": "סדרו את המילים למשפט עם also.",
+    "question": "It / stories / also / has",
+    "answer": "It <b>also</b> has stories.",
+    "he": "יש בה גם סיפורים.",
+    "why": "במשפט הזה also בא לפני has.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p98",
+    "reveal": false,
+    "answerVisible": true,
+    "family": "addition",
+    "title": "Your turn",
+    "prompt": "סדרו את המילים למשפט עם also.",
+    "question": "It / stories / also / has",
+    "answer": "It <b>also</b> has stories.",
+    "he": "יש בה גם סיפורים.",
+    "why": "במשפט הזה also בא לפני has.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "תוספת · עוד פרט ועוד נימוק",
+    "pair": "p98",
+    "reveal": true,
+    "answerVisible": true,
+    "family": "addition",
+    "title": "Your turn",
+    "prompt": "סדרו את המילים למשפט עם also.",
+    "question": "It / stories / also / has",
+    "answer": "It <b>also</b> has stories.",
+    "he": "יש בה גם סיפורים.",
+    "why": "במשפט הזה also בא לפני has.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "title": "שואלים למה",
+    "body": "הטלפון כבוי. הסוללה ריקה. נזהה איזה פרט מסביר את האחר.",
+    "formula": "",
+    "family": "cause",
+    "note": ""
+  },
+  {
     "kind": "idea",
+    "chapter": "סיבה · משפט או צירוף שמני",
     "family": "cause",
     "image": "cause-a",
-    "en": "An empty battery.",
-    "he": "מה קורה לטלפון עכשיו?"
+    "en": "No power."
   },
   {
     "kind": "example",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "pair": "p102",
+    "reveal": false,
     "family": "cause",
-    "title": "BECAUSE",
+    "title": "Because",
     "sentence": "My phone is off <b>because</b> the battery is dead.",
     "he": "הטלפון שלי כבוי כי הסוללה ריקה.",
-    "rule": "אחרי because מופיע משפט עם נושא ופועל.",
+    "meaning": "כי / מפני ש־",
     "base": "",
     "tense": "הווה"
   },
   {
+    "kind": "example",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "pair": "p102",
+    "reveal": true,
+    "family": "cause",
+    "title": "Because",
+    "sentence": "My phone is off <b>because</b> the battery is dead.",
+    "he": "הטלפון שלי כבוי כי הסוללה ריקה.",
+    "meaning": "כי / מפני ש־",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "title": "אחרי Because · הסיבה במשפט",
+    "body": "הסיבה כוללת נושא ופועל: the battery + is.",
+    "formula": "My phone is off <b>because</b> the battery <u>is</u> dead.",
+    "family": "cause",
+    "note": ""
+  },
+  {
     "kind": "idea",
+    "chapter": "סיבה · משפט או צירוף שמני",
     "family": "cause",
     "image": "cause-b",
-    "en": "A silent phone.",
-    "he": "הסוללה מסבירה את התוצאה"
+    "en": "No power."
   },
   {
     "kind": "example",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "pair": "p106",
+    "reveal": false,
     "family": "cause",
     "title": "Since",
     "sentence": "My phone is off <b>since</b> the battery is dead.",
-    "he": "מכיוון ש־",
-    "rule": "כאן Since מציין סיבה. בהקשרים אחרים הוא מציין זמן.",
+    "he": "הטלפון שלי כבוי מכיוון שהסוללה ריקה.",
+    "meaning": "מכיוון ש־",
     "base": "My phone is off because the battery is dead.",
     "tense": "הווה"
   },
   {
+    "kind": "example",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "pair": "p106",
+    "reveal": true,
+    "family": "cause",
+    "title": "Since",
+    "sentence": "My phone is off <b>since</b> the battery is dead.",
+    "he": "הטלפון שלי כבוי מכיוון שהסוללה ריקה.",
+    "meaning": "מכיוון ש־",
+    "base": "My phone is off because the battery is dead.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "title": "Since · בודקים את ההקשר",
+    "body": "כאן Since מציין סיבה. במקומות אחרים הוא מציין זמן; לא בוחרים פירוש בלי לקרוא את המשפט.",
+    "formula": "",
+    "family": "cause",
+    "note": ""
+  },
+  {
     "kind": "idea",
+    "chapter": "סיבה · משפט או צירוף שמני",
     "family": "cause",
     "image": "cause-a",
-    "en": "The reason is clear.",
-    "he": "הסיבה ידועה"
+    "en": "No power."
   },
   {
     "kind": "example",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "pair": "p110",
+    "reveal": false,
     "family": "cause",
     "title": "Given that",
     "sentence": "<b>Given that</b> the battery is dead<em>,</em> my phone is off.",
-    "he": "בהתחשב בכך ש־",
-    "rule": "מציגים עובדה שעליה מבוסס ההסבר.",
+    "he": "בהתחשב בכך שהסוללה ריקה, הטלפון שלי כבוי.",
+    "meaning": "בהתחשב בכך ש־",
     "base": "My phone is off because the battery is dead.",
     "tense": "הווה"
   },
   {
+    "kind": "example",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "pair": "p110",
+    "reveal": true,
+    "family": "cause",
+    "title": "Given that",
+    "sentence": "<b>Given that</b> the battery is dead<em>,</em> my phone is off.",
+    "he": "בהתחשב בכך שהסוללה ריקה, הטלפון שלי כבוי.",
+    "meaning": "בהתחשב בכך ש־",
+    "base": "My phone is off because the battery is dead.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "title": "פותחים בעובדה שעליה נשענים",
+    "body": "אחרי Given that באים נושא ופועל. כשהחלק הזה פותח את המשפט, שמים אחריו פסיק.",
+    "formula": "<b>Given that</b> the battery is dead<em>,</em> my phone is off.",
+    "family": "cause",
+    "note": ""
+  },
+  {
     "kind": "idea",
+    "chapter": "סיבה · משפט או צירוף שמני",
     "family": "cause",
     "image": "cause-b",
-    "en": "A battery. A result.",
-    "he": "סיבה ותוצאה"
+    "en": "No power."
   },
   {
     "kind": "example",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "pair": "p114",
+    "reveal": false,
+    "family": "cause",
+    "title": "Because of",
+    "sentence": "My phone is off <b>because of</b> <u>the dead battery</u>.",
+    "he": "הטלפון שלי כבוי בגלל הסוללה הריקה.",
+    "meaning": "בגלל",
+    "base": "My phone is off because the battery is dead.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "pair": "p114",
+    "reveal": true,
+    "family": "cause",
+    "title": "Because of",
+    "sentence": "My phone is off <b>because of</b> <u>the dead battery</u>.",
+    "he": "הטלפון שלי כבוי בגלל הסוללה הריקה.",
+    "meaning": "בגלל",
+    "base": "My phone is off because the battery is dead.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "title": "שלב 1 · מזהים את שינוי המבנה",
+    "body": "תוספת of משנה את מה שמגיע אחריה. כאן הופכים משפט לצירוף שמני.",
+    "formula": "the battery is dead  →  <u>the dead battery</u>",
+    "family": "cause",
+    "note": ""
+  },
+  {
+    "kind": "explain",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "title": "שלב 2 · בודקים את ההמשך",
+    "body": "שימו לב להבדל בין שתי התבניות.",
+    "formula": "<b>because</b> the battery <u>is</u> dead<br><b>because of</b> <u>the dead battery</u>",
+    "family": "cause",
+    "note": ""
+  },
+  {
+    "kind": "idea",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "family": "cause",
+    "image": "cause-a",
+    "en": "No power."
+  },
+  {
+    "kind": "example",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "pair": "p119",
+    "reveal": false,
     "family": "cause",
     "title": "Due to",
     "sentence": "My phone is off <b>due to</b> <u>the dead battery</u>.",
-    "he": "בגלל / עקב",
-    "rule": "כאן צריך צירוף שמני: the dead battery.",
+    "he": "הטלפון שלי כבוי עקב הסוללה הריקה.",
+    "meaning": "עקב / בגלל",
+    "base": "My phone is off because the battery is dead.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "pair": "p119",
+    "reveal": true,
+    "family": "cause",
+    "title": "Due to",
+    "sentence": "My phone is off <b>due to</b> <u>the dead battery</u>.",
+    "he": "הטלפון שלי כבוי עקב הסוללה הריקה.",
+    "meaning": "עקב / בגלל",
     "base": "My phone is off because the battery is dead.",
     "tense": "הווה"
   },
   {
     "kind": "idea",
+    "chapter": "סיבה · משפט או צירוף שמני",
     "family": "cause",
-    "image": "cause-a",
-    "en": "No power. No call.",
-    "he": "הסיבה נשארת אותה סיבה"
+    "image": "cause-b",
+    "en": "No power."
   },
   {
     "kind": "example",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "pair": "p122",
+    "reveal": false,
     "family": "cause",
     "title": "As a result of",
     "sentence": "My phone is off <b>as a result of</b> <u>the dead battery</u>.",
-    "he": "כתוצאה מ־",
-    "rule": "אחרי of מופיע כאן צירוף שמני.",
+    "he": "הטלפון שלי כבוי כתוצאה מהסוללה הריקה.",
+    "meaning": "כתוצאה מ־",
     "base": "My phone is off because the battery is dead.",
     "tense": "הווה"
   },
   {
-    "kind": "idea",
-    "family": "cause",
-    "image": "cause-b",
-    "en": "Time to charge it.",
-    "he": "המידע מוביל להחלטה"
-  },
-  {
     "kind": "example",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "pair": "p122",
+    "reveal": true,
     "family": "cause",
-    "title": "BECAUSE · החלטה",
-    "sentence": "I charge my phone <b>because</b> the battery is dead.",
-    "he": "אני מטעין את הטלפון כי הסוללה ריקה.",
-    "rule": "עכשיו מתארים החלטה בעקבות המידע.",
-    "base": "",
+    "title": "As a result of",
+    "sentence": "My phone is off <b>as a result of</b> <u>the dead battery</u>.",
+    "he": "הטלפון שלי כבוי כתוצאה מהסוללה הריקה.",
+    "meaning": "כתוצאה מ־",
+    "base": "My phone is off because the battery is dead.",
     "tense": "הווה"
   },
   {
+    "kind": "practice",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "answerVisible": false,
+    "reveal": false,
+    "family": "cause",
+    "title": "Your turn",
+    "prompt": "החליפו את because ב־Due to. התאימו גם את ההמשך.",
+    "question": "We stay home because it is raining.",
+    "answer": "We stay home <b>due to</b> <u>the rain</u>.",
+    "he": "אנחנו נשארים בבית עקב הגשם.",
+    "why": "it is raining הפך לצירוף השמני the rain.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "pair": "p125",
+    "reveal": false,
+    "answerVisible": true,
+    "family": "cause",
+    "title": "Your turn",
+    "prompt": "החליפו את because ב־Due to. התאימו גם את ההמשך.",
+    "question": "We stay home because it is raining.",
+    "answer": "We stay home <b>due to</b> <u>the rain</u>.",
+    "he": "אנחנו נשארים בבית עקב הגשם.",
+    "why": "it is raining הפך לצירוף השמני the rain.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "pair": "p125",
+    "reveal": true,
+    "answerVisible": true,
+    "family": "cause",
+    "title": "Your turn",
+    "prompt": "החליפו את because ב־Due to. התאימו גם את ההמשך.",
+    "question": "We stay home because it is raining.",
+    "answer": "We stay home <b>due to</b> <u>the rain</u>.",
+    "he": "אנחנו נשארים בבית עקב הגשם.",
+    "why": "it is raining הפך לצירוף השמני the rain.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "summary",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "pair": "p127",
+    "reveal": false,
+    "title": "סיכום ביניים · שתי תבניות לסיבה",
+    "family": "cause",
+    "rows": [
+      [
+        "because / since",
+        "כי / מכיוון ש־",
+        "because the battery is dead"
+      ],
+      [
+        "because of / due to",
+        "בגלל / עקב",
+        "due to the dead battery"
+      ],
+      [
+        "as a result of",
+        "כתוצאה מ־",
+        "as a result of the dead battery"
+      ]
+    ],
+    "note": "לא מחליפים רק את מילת הקישור: בודקים אם צריך לשנות גם את הסיבה שאחריה."
+  },
+  {
+    "kind": "summary",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "pair": "p127",
+    "reveal": true,
+    "title": "סיכום ביניים · שתי תבניות לסיבה",
+    "family": "cause",
+    "rows": [
+      [
+        "because / since",
+        "כי / מכיוון ש־",
+        "because the battery is dead"
+      ],
+      [
+        "because of / due to",
+        "בגלל / עקב",
+        "due to the dead battery"
+      ],
+      [
+        "as a result of",
+        "כתוצאה מ־",
+        "as a result of the dead battery"
+      ]
+    ],
+    "note": "לא מחליפים רק את מילת הקישור: בודקים אם צריך לשנות גם את הסיבה שאחריה."
+  },
+  {
+    "kind": "idea",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "family": "cause",
+    "image": "cause-a",
+    "en": "A reason to act."
+  },
+  {
     "kind": "example",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "pair": "p130",
+    "reveal": false,
     "family": "cause",
     "title": "In light of",
     "sentence": "<b>In light of</b> <u>the dead battery</u><em>,</em> I charge my phone.",
-    "he": "לאור / בהתחשב ב־",
-    "rule": "לאור המצב אני מחליט לפעול. ביטוי רשמי.",
+    "he": "לאור הסוללה הריקה, אני מטעין את הטלפון שלי.",
+    "meaning": "לאור / בהתחשב ב־",
     "base": "I charge my phone because the battery is dead.",
     "tense": "הווה"
   },
   {
-    "kind": "comparison",
+    "kind": "example",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "pair": "p130",
+    "reveal": true,
     "family": "cause",
-    "title": "As a result of / As a result",
-    "sentence": "<b>As a result of</b> the dead battery, my phone is off.",
-    "second": "The battery is dead. <b>As a result</b>, my phone is off.",
-    "he": "עם of מציגים את הסיבה; בלי of מציגים את התוצאה.",
+    "title": "In light of",
+    "sentence": "<b>In light of</b> <u>the dead battery</u><em>,</em> I charge my phone.",
+    "he": "לאור הסוללה הריקה, אני מטעין את הטלפון שלי.",
+    "meaning": "לאור / בהתחשב ב־",
+    "base": "I charge my phone because the battery is dead.",
     "tense": "הווה"
   },
   {
-    "kind": "practice",
-    "family": "contrast",
-    "title": "Your turn",
-    "sentence": "Dan is tired, but he studies.",
-    "he": "החליפו את but ב־However",
-    "rule": "",
-    "base": "",
-    "tense": "הווה"
-  },
-  {
-    "kind": "practice",
-    "family": "contrast",
-    "title": "Your turn",
-    "sentence": "Dan is tired, but he studies.",
-    "he": "החליפו את but ב־However",
-    "rule": "נקודה לפני However ופסיק אחריו.",
-    "answer": "Dan is tired<em>.</em> <b>However</b><em>,</em> he studies.",
-    "base": "",
-    "tense": "הווה"
-  },
-  {
-    "kind": "practice",
-    "family": "addition",
-    "title": "Your turn",
-    "sentence": "The app has music, and it has games.",
-    "he": "החליפו את and ב־In addition",
-    "rule": "",
-    "base": "",
-    "tense": "הווה"
-  },
-  {
-    "kind": "practice",
-    "family": "addition",
-    "title": "Your turn",
-    "sentence": "The app has music, and it has games.",
-    "he": "החליפו את and ב־In addition",
-    "rule": "שני משפטים שלמים.",
-    "answer": "The app has music<em>.</em> <b>In addition</b><em>,</em> it has games.",
-    "base": "",
-    "tense": "הווה"
-  },
-  {
-    "kind": "practice",
+    "kind": "explain",
+    "chapter": "סיבה · משפט או צירוף שמני",
+    "title": "מהמידע להחלטה",
+    "body": "In light of מציג מידע שנלקח בחשבון. לכן בדוגמה הזאת מופיעה החלטה לפעול: להטעין את הטלפון.",
+    "formula": "",
     "family": "cause",
-    "title": "Your turn",
-    "sentence": "We stay home because it is raining.",
-    "he": "החליפו את because ב־Due to",
-    "rule": "",
+    "note": ""
+  },
+  {
+    "kind": "explain",
+    "chapter": "תוצאה · כיוון הקשר",
+    "title": "אותם פרטים · כיוון אחר",
+    "body": "עד עכשיו הסברנו למה הטלפון כבוי. עכשיו נתחיל בסוללה ונאמר מה נובע מכך.",
+    "formula": "",
+    "family": "result",
+    "note": ""
+  },
+  {
+    "kind": "idea",
+    "chapter": "תוצאה · כיוון הקשר",
+    "family": "result",
+    "image": "cause-b",
+    "en": "No call."
+  },
+  {
+    "kind": "example",
+    "chapter": "תוצאה · כיוון הקשר",
+    "pair": "p135",
+    "reveal": false,
+    "family": "result",
+    "title": "So",
+    "sentence": "The battery is dead<em>,</em> <b>so</b> my phone is off.",
+    "he": "הסוללה ריקה, ולכן הטלפון שלי כבוי.",
+    "meaning": "לכן / אז",
     "base": "",
     "tense": "הווה"
   },
   {
+    "kind": "example",
+    "chapter": "תוצאה · כיוון הקשר",
+    "pair": "p135",
+    "reveal": true,
+    "family": "result",
+    "title": "So",
+    "sentence": "The battery is dead<em>,</em> <b>so</b> my phone is off.",
+    "he": "הסוללה ריקה, ולכן הטלפון שלי כבוי.",
+    "meaning": "לכן / אז",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "תוצאה · כיוון הקשר",
+    "title": "בודקים את הכיוון",
+    "body": "אחרי because באה הסיבה. אחרי so באה התוצאה.",
+    "formula": "result <b>because</b> reason<br>reason<em>,</em> <b>so</b> result",
+    "family": "result",
+    "note": ""
+  },
+  {
+    "kind": "idea",
+    "chapter": "תוצאה · כיוון הקשר",
+    "family": "result",
+    "image": "cause-a",
+    "en": "No call."
+  },
+  {
+    "kind": "example",
+    "chapter": "תוצאה · כיוון הקשר",
+    "pair": "p139",
+    "reveal": false,
+    "family": "result",
+    "title": "Therefore",
+    "sentence": "The battery is dead<em>.</em> <b>Therefore</b><em>,</em> my phone is off.",
+    "he": "הסוללה ריקה. לכן, הטלפון שלי כבוי.",
+    "meaning": "לכן",
+    "base": "The battery is dead, so my phone is off.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "תוצאה · כיוון הקשר",
+    "pair": "p139",
+    "reveal": true,
+    "family": "result",
+    "title": "Therefore",
+    "sentence": "The battery is dead<em>.</em> <b>Therefore</b><em>,</em> my phone is off.",
+    "he": "הסוללה ריקה. לכן, הטלפון שלי כבוי.",
+    "meaning": "לכן",
+    "base": "The battery is dead, so my phone is off.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "תוצאה · כיוון הקשר",
+    "title": "מבנה מוכר · קשר אחר",
+    "body": "הפיסוק דומה לזה של However, אבל כאן הרעיון השני הוא תוצאה ולא ניגוד.",
+    "formula": "A<em>.</em> <b>Therefore</b><em>,</em> B.",
+    "family": "result",
+    "note": ""
+  },
+  {
+    "kind": "idea",
+    "chapter": "תוצאה · כיוון הקשר",
+    "family": "result",
+    "image": "cause-b",
+    "en": "No call."
+  },
+  {
+    "kind": "example",
+    "chapter": "תוצאה · כיוון הקשר",
+    "pair": "p143",
+    "reveal": false,
+    "family": "result",
+    "title": "As a result",
+    "sentence": "The battery is dead<em>.</em> <b>As a result</b><em>,</em> my phone is off.",
+    "he": "הסוללה ריקה. כתוצאה מכך, הטלפון שלי כבוי.",
+    "meaning": "כתוצאה מכך",
+    "base": "The battery is dead, so my phone is off.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "תוצאה · כיוון הקשר",
+    "pair": "p143",
+    "reveal": true,
+    "family": "result",
+    "title": "As a result",
+    "sentence": "The battery is dead<em>.</em> <b>As a result</b><em>,</em> my phone is off.",
+    "he": "הסוללה ריקה. כתוצאה מכך, הטלפון שלי כבוי.",
+    "meaning": "כתוצאה מכך",
+    "base": "The battery is dead, so my phone is off.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "תוצאה · כיוון הקשר",
+    "title": "מילה קטנה משנה את המבנה",
+    "body": "עם of מציגים את הסיבה בצירוף שמני. בלי of עוברים לתוצאה במשפט חדש.",
+    "formula": "<b>As a result of</b> the dead battery, …<br>The battery is dead. <b>As a result</b>, …",
+    "family": "result",
+    "note": ""
+  },
+  {
     "kind": "practice",
-    "family": "cause",
+    "chapter": "תוצאה · כיוון הקשר",
+    "answerVisible": false,
+    "reveal": false,
+    "family": "result",
     "title": "Your turn",
-    "sentence": "We stay home because it is raining.",
-    "he": "החליפו את because ב־Due to",
-    "rule": "it is raining משתנה לצירוף השמני the rain.",
-    "answer": "We stay home <b>due to</b> <u>the rain</u>.",
+    "prompt": "חברו בעזרת Therefore. התחילו בסיבה.",
+    "question": "It is raining. We stay home.",
+    "answer": "It is raining<em>.</em> <b>Therefore</b><em>,</em> we stay home.",
+    "he": "יורד גשם. לכן, אנחנו נשארים בבית.",
+    "why": "קודם הסיבה, אחר כך התוצאה; פסיק אחרי Therefore.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "תוצאה · כיוון הקשר",
+    "pair": "p147",
+    "reveal": false,
+    "answerVisible": true,
+    "family": "result",
+    "title": "Your turn",
+    "prompt": "חברו בעזרת Therefore. התחילו בסיבה.",
+    "question": "It is raining. We stay home.",
+    "answer": "It is raining<em>.</em> <b>Therefore</b><em>,</em> we stay home.",
+    "he": "יורד גשם. לכן, אנחנו נשארים בבית.",
+    "why": "קודם הסיבה, אחר כך התוצאה; פסיק אחרי Therefore.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "תוצאה · כיוון הקשר",
+    "pair": "p147",
+    "reveal": true,
+    "answerVisible": true,
+    "family": "result",
+    "title": "Your turn",
+    "prompt": "חברו בעזרת Therefore. התחילו בסיבה.",
+    "question": "It is raining. We stay home.",
+    "answer": "It is raining<em>.</em> <b>Therefore</b><em>,</em> we stay home.",
+    "he": "יורד גשם. לכן, אנחנו נשארים בבית.",
+    "why": "קודם הסיבה, אחר כך התוצאה; פסיק אחרי Therefore.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "summary",
+    "chapter": "תוצאה · כיוון הקשר",
+    "pair": "p149",
+    "reveal": false,
+    "title": "סיכום ביניים · סיבה ותוצאה",
+    "family": "result",
+    "rows": [
+      [
+        "because",
+        "כי",
+        "We stay home because it is raining."
+      ],
+      [
+        "so",
+        "לכן",
+        "It is raining, so we stay home."
+      ],
+      [
+        "therefore / as a result",
+        "לכן / כתוצאה מכך",
+        "It is raining. Therefore, we stay home."
+      ]
+    ],
+    "note": "העובדות נשארות זהות. בודקים מאיזה רעיון מתחילים ולאן מילת הקישור מובילה."
+  },
+  {
+    "kind": "summary",
+    "chapter": "תוצאה · כיוון הקשר",
+    "pair": "p149",
+    "reveal": true,
+    "title": "סיכום ביניים · סיבה ותוצאה",
+    "family": "result",
+    "rows": [
+      [
+        "because",
+        "כי",
+        "We stay home because it is raining."
+      ],
+      [
+        "so",
+        "לכן",
+        "It is raining, so we stay home."
+      ],
+      [
+        "therefore / as a result",
+        "לכן / כתוצאה מכך",
+        "It is raining. Therefore, we stay home."
+      ]
+    ],
+    "note": "העובדות נשארות זהות. בודקים מאיזה רעיון מתחילים ולאן מילת הקישור מובילה."
+  },
+  {
+    "kind": "explain",
+    "chapter": "הדגמה · מהכלל לפרט",
+    "title": "מוסיפים דוגמה",
+    "body": "נציג רעיון כללי, ואז פרט שממחיש אותו. דוגמה היא מקרה אחד שמתאים לרעיון הכללי.",
+    "formula": "",
+    "family": "example",
+    "note": ""
+  },
+  {
+    "kind": "idea",
+    "chapter": "הדגמה · מהכלל לפרט",
+    "family": "example",
+    "image": "addition-a",
+    "en": "One clear example."
+  },
+  {
+    "kind": "example",
+    "chapter": "הדגמה · מהכלל לפרט",
+    "pair": "p153",
+    "reveal": false,
+    "family": "example",
+    "title": "For example",
+    "sentence": "I enjoy sports<em>.</em> <b>For example</b><em>,</em> I play football.",
+    "he": "אני אוהב ספורט. למשל, אני משחק כדורגל.",
+    "meaning": "למשל / לדוגמה",
+    "base": "I enjoy sports. I play football.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "הדגמה · מהכלל לפרט",
+    "pair": "p153",
+    "reveal": true,
+    "family": "example",
+    "title": "For example",
+    "sentence": "I enjoy sports<em>.</em> <b>For example</b><em>,</em> I play football.",
+    "he": "אני אוהב ספורט. למשל, אני משחק כדורגל.",
+    "meaning": "למשל / לדוגמה",
+    "base": "I enjoy sports. I play football.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "הדגמה · מהכלל לפרט",
+    "title": "דוגמה בתוך משפט שלם",
+    "body": "בדגם הזה הדוגמה היא משפט עם נושא ופועל.",
+    "formula": "A<em>.</em> <b>For example</b><em>,</em> B.",
+    "family": "example",
+    "note": ""
+  },
+  {
+    "kind": "idea",
+    "chapter": "הדגמה · מהכלל לפרט",
+    "family": "example",
+    "image": "addition-b",
+    "en": "One example."
+  },
+  {
+    "kind": "example",
+    "chapter": "הדגמה · מהכלל לפרט",
+    "pair": "p157",
+    "reveal": false,
+    "family": "example",
+    "title": "Such as",
+    "sentence": "I enjoy sports <b>such as</b> <u>football</u>.",
+    "he": "אני אוהב ענפי ספורט כגון כדורגל.",
+    "meaning": "כגון",
+    "base": "I enjoy sports. For example, I play football.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "הדגמה · מהכלל לפרט",
+    "pair": "p157",
+    "reveal": true,
+    "family": "example",
+    "title": "Such as",
+    "sentence": "I enjoy sports <b>such as</b> <u>football</u>.",
+    "he": "אני אוהב ענפי ספורט כגון כדורגל.",
+    "meaning": "כגון",
+    "base": "I enjoy sports. For example, I play football.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "הדגמה · מהכלל לפרט",
+    "title": "דוגמה בתוך צירוף",
+    "body": "אחרי such as מופיע כאן שם של ענף ספורט. לא מעתיקים את כל המשפט I play football.",
+    "formula": "sports <b>such as</b> <u>football</u>",
+    "family": "example",
+    "note": ""
+  },
+  {
+    "kind": "practice",
+    "chapter": "הדגמה · מהכלל לפרט",
+    "answerVisible": false,
+    "reveal": false,
+    "family": "example",
+    "title": "Your turn",
+    "prompt": "חברו למשפט אחד בעזרת Such as.",
+    "question": "I like fruit. For example, I like apples.",
+    "answer": "I like fruit <b>such as</b> <u>apples</u>.",
+    "he": "אני אוהב פירות כגון תפוחים.",
+    "why": "אחרי such as בא כאן שם עצם: apples.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "הדגמה · מהכלל לפרט",
+    "pair": "p161",
+    "reveal": false,
+    "answerVisible": true,
+    "family": "example",
+    "title": "Your turn",
+    "prompt": "חברו למשפט אחד בעזרת Such as.",
+    "question": "I like fruit. For example, I like apples.",
+    "answer": "I like fruit <b>such as</b> <u>apples</u>.",
+    "he": "אני אוהב פירות כגון תפוחים.",
+    "why": "אחרי such as בא כאן שם עצם: apples.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "הדגמה · מהכלל לפרט",
+    "pair": "p161",
+    "reveal": true,
+    "answerVisible": true,
+    "family": "example",
+    "title": "Your turn",
+    "prompt": "חברו למשפט אחד בעזרת Such as.",
+    "question": "I like fruit. For example, I like apples.",
+    "answer": "I like fruit <b>such as</b> <u>apples</u>.",
+    "he": "אני אוהב פירות כגון תפוחים.",
+    "why": "אחרי such as בא כאן שם עצם: apples.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "summary",
+    "chapter": "הדגמה · מהכלל לפרט",
+    "pair": "p163",
+    "reveal": false,
+    "title": "סיכום ביניים · שתי דרכים להדגים",
+    "family": "example",
+    "rows": [
+      [
+        "for example",
+        "לדוגמה",
+        "For example, I play football."
+      ],
+      [
+        "such as",
+        "כגון",
+        "sports such as football"
+      ]
+    ],
+    "note": "הדוגמה נשארת קשורה לאותה קבוצה כללית; המבנה משתנה."
+  },
+  {
+    "kind": "summary",
+    "chapter": "הדגמה · מהכלל לפרט",
+    "pair": "p163",
+    "reveal": true,
+    "title": "סיכום ביניים · שתי דרכים להדגים",
+    "family": "example",
+    "rows": [
+      [
+        "for example",
+        "לדוגמה",
+        "For example, I play football."
+      ],
+      [
+        "such as",
+        "כגון",
+        "sports such as football"
+      ]
+    ],
+    "note": "הדוגמה נשארת קשורה לאותה קבוצה כללית; המבנה משתנה."
+  },
+  {
+    "kind": "explain",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "title": "מסדרים פעולות ברצף",
+    "body": "נתאר הכנה למשימה: קוראים, מתכננים, ואז כותבים.",
+    "formula": "",
+    "family": "sequence",
+    "note": ""
+  },
+  {
+    "kind": "idea",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "family": "sequence",
+    "image": "addition-a",
+    "en": "What comes next?"
+  },
+  {
+    "kind": "example",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "pair": "p167",
+    "reveal": false,
+    "family": "sequence",
+    "title": "First",
+    "sentence": "<b>First</b><em>,</em> I read the question.",
+    "he": "תחילה, אני קורא את השאלה.",
+    "meaning": "תחילה / ראשית",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "pair": "p167",
+    "reveal": true,
+    "family": "sequence",
+    "title": "First",
+    "sentence": "<b>First</b><em>,</em> I read the question.",
+    "he": "תחילה, אני קורא את השאלה.",
+    "meaning": "תחילה / ראשית",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "family": "sequence",
+    "image": "addition-b",
+    "en": "The next step."
+  },
+  {
+    "kind": "example",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "pair": "p170",
+    "reveal": false,
+    "family": "sequence",
+    "title": "Then",
+    "sentence": "<b>Then</b><em>,</em> I plan my answer.",
+    "he": "לאחר מכן, אני מתכנן את התשובה שלי.",
+    "meaning": "לאחר מכן",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "pair": "p170",
+    "reveal": true,
+    "family": "sequence",
+    "title": "Then",
+    "sentence": "<b>Then</b><em>,</em> I plan my answer.",
+    "he": "לאחר מכן, אני מתכנן את התשובה שלי.",
+    "meaning": "לאחר מכן",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "idea",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "family": "sequence",
+    "image": "addition-a",
+    "en": "Ready to write."
+  },
+  {
+    "kind": "example",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "pair": "p173",
+    "reveal": false,
+    "family": "sequence",
+    "title": "Finally",
+    "sentence": "<b>Finally</b><em>,</em> I write my answer.",
+    "he": "לבסוף, אני כותב את התשובה שלי.",
+    "meaning": "לבסוף",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "pair": "p173",
+    "reveal": true,
+    "family": "sequence",
+    "title": "Finally",
+    "sentence": "<b>Finally</b><em>,</em> I write my answer.",
+    "he": "לבסוף, אני כותב את התשובה שלי.",
+    "meaning": "לבסוף",
     "base": "",
     "tense": "הווה"
   },
   {
     "kind": "summary",
-    "title": "Connectors",
-    "he": "בוחרים לפי הקשר, המבנה והפיסוק",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "pair": "p175",
+    "reveal": false,
+    "title": "סיכום ביניים · שלושה שלבים",
+    "family": "sequence",
     "rows": [
       [
-        "BUT",
-        "ניגוד",
-        "However, it keeps playing."
+        "first",
+        "תחילה",
+        "First, I read the question."
       ],
       [
-        "AND",
-        "תוספת",
-        "In addition, it has stories."
+        "then",
+        "לאחר מכן",
+        "Then, I plan my answer."
       ],
       [
-        "BECAUSE",
-        "סיבה",
-        "due to the dead battery"
+        "finally",
+        "לבסוף",
+        "Finally, I write my answer."
       ]
-    ]
+    ],
+    "note": "בחרו פעולה אחרת בכל שלב. סדר הפעולות צריך להיות הגיוני."
+  },
+  {
+    "kind": "summary",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "pair": "p175",
+    "reveal": true,
+    "title": "סיכום ביניים · שלושה שלבים",
+    "family": "sequence",
+    "rows": [
+      [
+        "first",
+        "תחילה",
+        "First, I read the question."
+      ],
+      [
+        "then",
+        "לאחר מכן",
+        "Then, I plan my answer."
+      ],
+      [
+        "finally",
+        "לבסוף",
+        "Finally, I write my answer."
+      ]
+    ],
+    "note": "בחרו פעולה אחרת בכל שלב. סדר הפעולות צריך להיות הגיוני."
+  },
+  {
+    "kind": "explain",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "title": "לא רק למה · גם לשם מה",
+    "body": "נסיים בשתי דרכים להציג מטרה: מה רוצים להשיג באמצעות הפעולה?",
+    "formula": "",
+    "family": "purpose",
+    "note": ""
+  },
+  {
+    "kind": "idea",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "family": "purpose",
+    "image": "cause-b",
+    "en": "Time to charge."
+  },
+  {
+    "kind": "example",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "pair": "p179",
+    "reveal": false,
+    "family": "purpose",
+    "title": "To",
+    "sentence": "I charge my phone <b>to</b> <u>call</u> Dan.",
+    "he": "אני מטעין את הטלפון כדי להתקשר לדן.",
+    "meaning": "כדי",
+    "base": "I charge my phone. I want to call Dan.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "pair": "p179",
+    "reveal": true,
+    "family": "purpose",
+    "title": "To",
+    "sentence": "I charge my phone <b>to</b> <u>call</u> Dan.",
+    "he": "אני מטעין את הטלפון כדי להתקשר לדן.",
+    "meaning": "כדי",
+    "base": "I charge my phone. I want to call Dan.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "title": "אותו מבצע · פעולה ומטרה",
+    "body": "במבנה הזה to מציג מטרה ואחריו הפועל בצורת הבסיס.",
+    "formula": "I charge my phone <b>to</b> <u>call</u> Dan.",
+    "family": "purpose",
+    "note": ""
+  },
+  {
+    "kind": "idea",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "family": "purpose",
+    "image": "cause-a",
+    "en": "Time to charge."
+  },
+  {
+    "kind": "example",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "pair": "p183",
+    "reveal": false,
+    "family": "purpose",
+    "title": "So that",
+    "sentence": "I charge my phone <b>so that</b> I can call Dan.",
+    "he": "אני מטעין את הטלפון כדי שאוכל להתקשר לדן.",
+    "meaning": "כדי ש־",
+    "base": "I charge my phone to call Dan.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "pair": "p183",
+    "reveal": true,
+    "family": "purpose",
+    "title": "So that",
+    "sentence": "I charge my phone <b>so that</b> I can call Dan.",
+    "he": "אני מטעין את הטלפון כדי שאוכל להתקשר לדן.",
+    "meaning": "כדי ש־",
+    "base": "I charge my phone to call Dan.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "title": "אחרי So that · נושא ופועל",
+    "body": "כאן ממשיכים עם I can call. אל תבלבלו בין so שמציג תוצאה לבין so that שמציג כאן מטרה.",
+    "formula": "<b>to</b> call Dan  →  <b>so that</b> I can call Dan",
+    "family": "purpose",
+    "note": ""
+  },
+  {
+    "kind": "practice",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "answerVisible": false,
+    "reveal": false,
+    "family": "purpose",
+    "title": "Your turn",
+    "prompt": "החליפו את to ב־so that והשלימו את המבנה.",
+    "question": "I save money to buy a bike.",
+    "answer": "I save money <b>so that</b> I can buy a bike.",
+    "he": "אני חוסך כסף כדי שאוכל לקנות אופניים.",
+    "why": "to buy הפך ל־so that I can buy.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "pair": "p187",
+    "reveal": false,
+    "answerVisible": true,
+    "family": "purpose",
+    "title": "Your turn",
+    "prompt": "החליפו את to ב־so that והשלימו את המבנה.",
+    "question": "I save money to buy a bike.",
+    "answer": "I save money <b>so that</b> I can buy a bike.",
+    "he": "אני חוסך כסף כדי שאוכל לקנות אופניים.",
+    "why": "to buy הפך ל־so that I can buy.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "סדר ותכלית · בונים רצף",
+    "pair": "p187",
+    "reveal": true,
+    "answerVisible": true,
+    "family": "purpose",
+    "title": "Your turn",
+    "prompt": "החליפו את to ב־so that והשלימו את המבנה.",
+    "question": "I save money to buy a bike.",
+    "answer": "I save money <b>so that</b> I can buy a bike.",
+    "he": "אני חוסך כסף כדי שאוכל לקנות אופניים.",
+    "why": "to buy הפך ל־so that I can buy.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "תרגול מסכם",
+    "title": "עכשיו אתם בוחרים",
+    "body": "קודם קובעים את הקשר. אחר כך בוחרים ביטוי ובודקים מבנה ופיסוק.",
+    "formula": "",
+    "family": "",
+    "note": ""
+  },
+  {
+    "kind": "practice",
+    "chapter": "תרגול מסכם",
+    "answerVisible": false,
+    "reveal": false,
+    "family": "contrast",
+    "title": "Your turn",
+    "prompt": "השלימו: However / Therefore / In addition.",
+    "question": "The game is difficult. ____, I enjoy it.",
+    "answer": "The game is difficult<em>.</em> <b>However</b><em>,</em> I enjoy it.",
+    "he": "המשחק קשה. עם זאת, אני נהנה ממנו.",
+    "why": "יש ניגוד בין הקושי לבין ההנאה.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "תרגול מסכם",
+    "pair": "p191",
+    "reveal": false,
+    "answerVisible": true,
+    "family": "contrast",
+    "title": "Your turn",
+    "prompt": "השלימו: However / Therefore / In addition.",
+    "question": "The game is difficult. ____, I enjoy it.",
+    "answer": "The game is difficult<em>.</em> <b>However</b><em>,</em> I enjoy it.",
+    "he": "המשחק קשה. עם זאת, אני נהנה ממנו.",
+    "why": "יש ניגוד בין הקושי לבין ההנאה.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "תרגול מסכם",
+    "pair": "p191",
+    "reveal": true,
+    "answerVisible": true,
+    "family": "contrast",
+    "title": "Your turn",
+    "prompt": "השלימו: However / Therefore / In addition.",
+    "question": "The game is difficult. ____, I enjoy it.",
+    "answer": "The game is difficult<em>.</em> <b>However</b><em>,</em> I enjoy it.",
+    "he": "המשחק קשה. עם זאת, אני נהנה ממנו.",
+    "why": "יש ניגוד בין הקושי לבין ההנאה.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "תרגול מסכם",
+    "answerVisible": false,
+    "reveal": false,
+    "family": "cause",
+    "title": "Your turn",
+    "prompt": "תקנו את המבנה. אפשר לשנות את הביטוי או את המשכו.",
+    "question": "We stay home because of it is raining.",
+    "answer": "We stay home <b>because of</b> <u>the rain</u>.",
+    "he": "אנחנו נשארים בבית בגלל הגשם.",
+    "why": "אפשר גם: We stay home because it is raining.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "תרגול מסכם",
+    "pair": "p194",
+    "reveal": false,
+    "answerVisible": true,
+    "family": "cause",
+    "title": "Your turn",
+    "prompt": "תקנו את המבנה. אפשר לשנות את הביטוי או את המשכו.",
+    "question": "We stay home because of it is raining.",
+    "answer": "We stay home <b>because of</b> <u>the rain</u>.",
+    "he": "אנחנו נשארים בבית בגלל הגשם.",
+    "why": "אפשר גם: We stay home because it is raining.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "תרגול מסכם",
+    "pair": "p194",
+    "reveal": true,
+    "answerVisible": true,
+    "family": "cause",
+    "title": "Your turn",
+    "prompt": "תקנו את המבנה. אפשר לשנות את הביטוי או את המשכו.",
+    "question": "We stay home because of it is raining.",
+    "answer": "We stay home <b>because of</b> <u>the rain</u>.",
+    "he": "אנחנו נשארים בבית בגלל הגשם.",
+    "why": "אפשר גם: We stay home because it is raining.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "תרגול מסכם",
+    "answerVisible": false,
+    "reveal": false,
+    "family": "contrast",
+    "title": "Your turn",
+    "prompt": "תקנו את החיבור הכפול. שמרו על Although.",
+    "question": "Although Dan is tired, but he studies.",
+    "answer": "<b>Although</b> Dan is tired<em>,</em> he studies.",
+    "he": "אף שדן עייף, הוא לומד.",
+    "why": "מסירים את but; Although כבר מבצע את החיבור.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "תרגול מסכם",
+    "pair": "p197",
+    "reveal": false,
+    "answerVisible": true,
+    "family": "contrast",
+    "title": "Your turn",
+    "prompt": "תקנו את החיבור הכפול. שמרו על Although.",
+    "question": "Although Dan is tired, but he studies.",
+    "answer": "<b>Although</b> Dan is tired<em>,</em> he studies.",
+    "he": "אף שדן עייף, הוא לומד.",
+    "why": "מסירים את but; Although כבר מבצע את החיבור.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "תרגול מסכם",
+    "pair": "p197",
+    "reveal": true,
+    "answerVisible": true,
+    "family": "contrast",
+    "title": "Your turn",
+    "prompt": "תקנו את החיבור הכפול. שמרו על Although.",
+    "question": "Although Dan is tired, but he studies.",
+    "answer": "<b>Although</b> Dan is tired<em>,</em> he studies.",
+    "he": "אף שדן עייף, הוא לומד.",
+    "why": "מסירים את but; Although כבר מבצע את החיבור.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "תרגול מסכם",
+    "answerVisible": false,
+    "reveal": false,
+    "family": "result",
+    "title": "Your turn",
+    "prompt": "החליפו את so ב־Therefore.",
+    "question": "The bus is late, so we wait.",
+    "answer": "The bus is late<em>.</em> <b>Therefore</b><em>,</em> we wait.",
+    "he": "האוטובוס מאחר. לכן, אנחנו מחכים.",
+    "why": "שומרים על הסיבה ועל התוצאה ומשנים את הפיסוק.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "תרגול מסכם",
+    "pair": "p200",
+    "reveal": false,
+    "answerVisible": true,
+    "family": "result",
+    "title": "Your turn",
+    "prompt": "החליפו את so ב־Therefore.",
+    "question": "The bus is late, so we wait.",
+    "answer": "The bus is late<em>.</em> <b>Therefore</b><em>,</em> we wait.",
+    "he": "האוטובוס מאחר. לכן, אנחנו מחכים.",
+    "why": "שומרים על הסיבה ועל התוצאה ומשנים את הפיסוק.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "practice",
+    "chapter": "תרגול מסכם",
+    "pair": "p200",
+    "reveal": true,
+    "answerVisible": true,
+    "family": "result",
+    "title": "Your turn",
+    "prompt": "החליפו את so ב־Therefore.",
+    "question": "The bus is late, so we wait.",
+    "answer": "The bus is late<em>.</em> <b>Therefore</b><em>,</em> we wait.",
+    "he": "האוטובוס מאחר. לכן, אנחנו מחכים.",
+    "why": "שומרים על הסיבה ועל התוצאה ומשנים את הפיסוק.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "תרגול מסכם",
+    "title": "מחברים לפסקה · בוחרים קשרים",
+    "body": "חברו את שלושת המשפטים. הוסיפו מילת קישור מתאימה לפני המשפט השני ולפני השלישי.",
+    "formula": "The app is useful.<br>It has stories.<br>Some games are difficult.",
+    "family": "",
+    "note": ""
+  },
+  {
+    "kind": "example",
+    "chapter": "תרגול מסכם",
+    "pair": "p203",
+    "reveal": false,
+    "family": "addition",
+    "title": "One possible answer",
+    "sentence": "The app is useful. <b>In addition</b>, it has stories. <b>However</b>, some games are difficult.",
+    "he": "האפליקציה שימושית. בנוסף, יש בה סיפורים. עם זאת, חלק מהמשחקים קשים.",
+    "meaning": "",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "example",
+    "chapter": "תרגול מסכם",
+    "pair": "p203",
+    "reveal": true,
+    "family": "addition",
+    "title": "One possible answer",
+    "sentence": "The app is useful. <b>In addition</b>, it has stories. <b>However</b>, some games are difficult.",
+    "he": "האפליקציה שימושית. בנוסף, יש בה סיפורים. עם זאת, חלק מהמשחקים קשים.",
+    "meaning": "",
+    "base": "",
+    "tense": "הווה"
+  },
+  {
+    "kind": "explain",
+    "chapter": "תרגול מסכם",
+    "title": "בודקים את הבחירה",
+    "body": "הסיפורים הם יתרון נוסף. הקושי במשחקים מוצג כהסתייגות. אפשר לבחור חלופות אחרות ששומרות על הקשרים האלה.",
+    "formula": "",
+    "family": "",
+    "note": ""
+  },
+  {
+    "kind": "summary",
+    "chapter": "תרגול מסכם",
+    "pair": "p206",
+    "reveal": false,
+    "title": "סיכום · בוחרים לפי הקשר",
+    "family": "",
+    "rows": [
+      [
+        "but / however",
+        "ניגוד",
+        "A, but B."
+      ],
+      [
+        "and / in addition",
+        "תוספת",
+        "A. In addition, B."
+      ],
+      [
+        "because / therefore",
+        "סיבה / תוצאה",
+        "A because B. / A. Therefore, B."
+      ]
+    ],
+    "note": "עוד קשרים שלמדנו: הדגמה, סדר פעולות ומטרה."
+  },
+  {
+    "kind": "summary",
+    "chapter": "תרגול מסכם",
+    "pair": "p206",
+    "reveal": true,
+    "title": "סיכום · בוחרים לפי הקשר",
+    "family": "",
+    "rows": [
+      [
+        "but / however",
+        "ניגוד",
+        "A, but B."
+      ],
+      [
+        "and / in addition",
+        "תוספת",
+        "A. In addition, B."
+      ],
+      [
+        "because / therefore",
+        "סיבה / תוצאה",
+        "A because B. / A. Therefore, B."
+      ]
+    ],
+    "note": "עוד קשרים שלמדנו: הדגמה, סדר פעולות ומטרה."
+  },
+  {
+    "kind": "explain",
+    "chapter": "תרגול מסכם",
+    "title": "משימת סיום",
+    "body": "כתבו ארבעה משפטים על אפליקציה, משחק או פעילות. שלבו תוספת, ניגוד וסיבה או תוצאה. סמנו את מילות הקישור שבחרתם.",
+    "formula": "",
+    "family": "",
+    "note": ""
+  },
+  {
+    "kind": "explain",
+    "chapter": "תרגול מסכם",
+    "title": "בדיקה עצמית לפני שמסיימים",
+    "body": "האם הקשר מתאים? האם ההמשך בנוי נכון? האם הפיסוק תקין? קראו את המשפט בקול ובדקו שהוא אומר את מה שהתכוונתם.",
+    "formula": "",
+    "family": "",
+    "note": ""
   }
 ]
