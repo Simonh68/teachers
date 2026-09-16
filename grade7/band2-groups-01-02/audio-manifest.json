@@ -230,10 +230,10 @@
       "sha256": "0af87a1bf5bb27f0f7ddb847f2a5198ace5bef901520e267662df42e262cc7b9"
     },
     "g01-38": {
-      "src": "audio/g01-38-8941815aa521ee3e.mp3",
-      "text": "look like. Did he really look like a doctor?",
-      "duration": 2.544,
-      "sha256": "f457c5ee1f326da6fc4d12991bfc066378bbbe467867884870f94a47f49a8db3"
+      "src": "audio/g01-38-b0f51f46e994e838.mp3",
+      "text": "look like. This cloud looks like a ship.",
+      "duration": 2.376,
+      "sha256": "39cb4a8c4845e340f87dc06fac41afbfdc8180f0b4671144bfc9eb8a527c0b26"
     },
     "g01-39": {
       "src": "audio/g01-39-24a316c992970165.mp3",
@@ -260,10 +260,10 @@
       "sha256": "71b51018885ee285f9e8c222236d61adf829413ef32ba58ab12c682de011fad2"
     },
     "g01-43": {
-      "src": "audio/g01-43-99da5e27b007d863.mp3",
-      "text": "bring something back. Please bring back some food.",
-      "duration": 3.048,
-      "sha256": "357182f4b84727ce18cb6df23ade7c483b343f37b34b33be33f2071feef2ba30"
+      "src": "audio/g01-43-691aa2dd922fe4a8.mp3",
+      "text": "bring something back. Please bring my book back.",
+      "duration": 2.856,
+      "sha256": "b2fa96ad31369c337f1970151535c59b458e42dfafd45ad081aca72f7d4b3948"
     },
     "g01-44": {
       "src": "audio/g01-44-2c47096851598350.mp3",
@@ -332,10 +332,10 @@
       "sha256": "9ce41d38a112b3fb9962fc29e3750c5a5defdd828e4c7b4ab0ba59b9976b9395"
     },
     "g01-55": {
-      "src": "audio/g01-55-635a0c23b1401e82.mp3",
-      "text": "be able to do something. Would you please be able to do that?",
-      "duration": 3.504,
-      "sha256": "a3abbef028c3becc3d6b17a7ab7f8d2b5577e3c03e82f9c8df4c04b57bbf8846"
+      "src": "audio/g01-55-d60f50d868ca215b.mp3",
+      "text": "be able to do something. We are able to read this book.",
+      "duration": 3.264,
+      "sha256": "e806a90d0306018d93539c54829877240e881a2484971066fcd8059426303406"
     },
     "g02-01": {
       "src": "audio/g02-01-3b086f9f168ae7cf.mp3",
@@ -374,10 +374,10 @@
       "sha256": "44e0594291e564dbee4ad5f3fa74b5ad4dda8d714c8848e098ab0ad597e337ae"
     },
     "g02-07": {
-      "src": "audio/g02-07-d85357dc4194e0e5.mp3",
-      "text": "exercise. Please let's do a little exercise.",
-      "duration": 2.976,
-      "sha256": "943eb7a041c3aac69d1a5756129e7662b566d08525287af04ecf567a5ebb8de2"
+      "src": "audio/g02-07-7db5697efc6c032b.mp3",
+      "text": "exercise. Walking is good exercise.",
+      "duration": 2.808,
+      "sha256": "9381c80103109ed5ab2b8006d2138bf4bda6420b5646b167b7cf5bba80794300"
     },
     "g02-08": {
       "src": "audio/g02-08-11c4663ad8951dfc.mp3",
@@ -578,10 +578,10 @@
       "sha256": "04f61f97704921bdc472251b29cae809101c0d9da87aed61ee1d34cfefc1091e"
     },
     "g02-41": {
-      "src": "audio/g02-41-23c9a22a4f7033c5.mp3",
-      "text": "ill. I hear he is ill too.",
-      "duration": 1.944,
-      "sha256": "a2fb20f8e884445da5daa12f7533b2ec07f609f9d290c32c069a2ff2848f4833"
+      "src": "audio/g02-41-28d5cb986598f222.mp3",
+      "text": "ill. I stayed home because I was ill.",
+      "duration": 2.424,
+      "sha256": "38865a72761b58ea21eedfb3bfc459004aec4c6ec89ccf8e3d6e2f542febc90f"
     },
     "g02-42": {
       "src": "audio/g02-42-0e6f7427fae5b8c9.mp3",
@@ -620,10 +620,10 @@
       "sha256": "84a64206f30426315e7455d973c834045a9e82a0915d68cff4028197a4937d86"
     },
     "g02-48": {
-      "src": "audio/g02-48-9b9e87d2123ce62b.mp3",
-      "text": "be responsible for something. I will not be responsible for my actions.",
-      "duration": 4.56,
-      "sha256": "9b719948e303d498ab5a45a87cd7a164aaee2218ad8716c306e4b23ee5e97aec"
+      "src": "audio/g02-48-1a04489862ccc70a.mp3",
+      "text": "be responsible for something. We are responsible for keeping the classroom clean.",
+      "duration": 4.8,
+      "sha256": "4b6e373e7cb9af5771fcabfbed42cc6bf172001eda5f32da42f1d37520b9123f"
     },
     "g02-49": {
       "src": "audio/g02-49-512e1cf9dcf91c3f.mp3",
