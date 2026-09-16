@@ -1,0 +1,671 @@
+{
+  "engine": "Kokoro v1.0 / kokoro-onnx 0.5.0",
+  "voice": "af_heart",
+  "language": "en-US",
+  "speed": 0.88,
+  "synthetic": true,
+  "browserTTS": false,
+  "count": 110,
+  "clips": {
+    "g01-01": {
+      "src": "audio/g01-01-4f492afa8baaba4b.mp3",
+      "text": "lift. Help me lift this chair.",
+      "duration": 2.064,
+      "sha256": "3796b8373ebe1c8f27009dbf503e1f9da1018e0644048134fb4cd1cf080075da"
+    },
+    "g01-02": {
+      "src": "audio/g01-02-392108fbd0811c4d.mp3",
+      "text": "take something out. Take the cake out of the oven.",
+      "duration": 3.048,
+      "sha256": "13dce4c934ce718ba1df71aa1429eebf65fd507538786b11e3193b7be37ae16e"
+    },
+    "g01-03": {
+      "src": "audio/g01-03-2aa2d844dfd5aa3a.mp3",
+      "text": "top. Our team came out on top.",
+      "duration": 2.136,
+      "sha256": "4fb426a6226ff5d6e4fefbe4b866bd6fbf2c567b59edcaf4d262fa9ea190e1b7"
+    },
+    "g01-04": {
+      "src": "audio/g01-04-548ca1cac7d5d455.mp3",
+      "text": "remove. Could you please remove your glasses?",
+      "duration": 2.64,
+      "sha256": "9a670e2079f8391bff730b7ceb6c76e61160d433ac6dad9710c995528f3fb726"
+    },
+    "g01-05": {
+      "src": "audio/g01-05-936c914f589a6eb2.mp3",
+      "text": "environment. Some factories can harm the environment.",
+      "duration": 3.576,
+      "sha256": "15ec7d9076af61c4a83690f1d5f649c74f8dbbea7cdaa544855695ba232affa8"
+    },
+    "g01-06": {
+      "src": "audio/g01-06-3283cf01b1c61ebe.mp3",
+      "text": "take something seriously. Do not take this joke too seriously.",
+      "duration": 4.08,
+      "sha256": "4e81d7ab7ce01559536a0eb605b4965cab89f6ab411689dd56db9909af5a40f8"
+    },
+    "g01-07": {
+      "src": "audio/g01-07-c1dd633b74e3ae9d.mp3",
+      "text": "petrol. The car needs petrol.",
+      "duration": 2.016,
+      "sha256": "dd02815ab763b14e1ebdd2aec13772599a4c2c5127821bd5dfdfb7afcc0712b6"
+    },
+    "g01-08": {
+      "src": "audio/g01-08-41d11764928cfabe.mp3",
+      "text": "mosque. We visited a mosque in Acre.",
+      "duration": 2.472,
+      "sha256": "faaed4e4c1338c3aa3bf73202bea376f725fdc354eb9f7cfdea2365707d6cd19"
+    },
+    "g01-09": {
+      "src": "audio/g01-09-87d02e61d75be01d.mp3",
+      "text": "understanding. Thank you for your patience and understanding.",
+      "duration": 3.576,
+      "sha256": "34a01edef23b485b58d445113353e2adb3837b30e5879234788c0834e216291b"
+    },
+    "g01-10": {
+      "src": "audio/g01-10-79cd75bf12fa550e.mp3",
+      "text": "weekly. We meet weekly.",
+      "duration": 1.752,
+      "sha256": "b7c8436d5e7c11af22d31ddd5de727bc40e98e8910bd7890e2c1d395b464bd62"
+    },
+    "g01-11": {
+      "src": "audio/g01-11-25605e8d822d6d4f.mp3",
+      "text": "lack of something. Lack of food made them really hungry.",
+      "duration": 3.504,
+      "sha256": "8ab80579acfdbcc1534d7738d183fe6b9608f7fd3164fad042c0dcbbf057b129"
+    },
+    "g01-12": {
+      "src": "audio/g01-12-08fcae4a1b73540e.mp3",
+      "text": "amazing. The school trip was amazing.",
+      "duration": 2.544,
+      "sha256": "cb67f48e4febb5e474b069ac8c0018cc41ded5b4ad900be5b533b4b81744d255"
+    },
+    "g01-13": {
+      "src": "audio/g01-13-c40daf916ebb4fd5.mp3",
+      "text": "death. The students are afraid of death.",
+      "duration": 2.352,
+      "sha256": "a92b1c1112dc275655fb0aacec147587ee3e5594a1f2734a68412117be087565"
+    },
+    "g01-14": {
+      "src": "audio/g01-14-1240140a35acf8c1.mp3",
+      "text": "break. Our class needs a short break.",
+      "duration": 2.352,
+      "sha256": "d356da8538062a4548bf4e395ce2b53821723bfa8565718fe307b8a6ae5ed8ba"
+    },
+    "g01-15": {
+      "src": "audio/g01-15-a9033e102876d27d.mp3",
+      "text": "around. I like having my friends around.",
+      "duration": 2.688,
+      "sha256": "cf88f9c605c50b303fbe9b24343fdc4a93a9f0f69416e8651cf68d3b6edfe6d1"
+    },
+    "g01-16": {
+      "src": "audio/g01-16-8fc2c6f46981c187.mp3",
+      "text": "disease. This disease spreads through the air.",
+      "duration": 2.712,
+      "sha256": "2fd76792ee617108b572c5dff29307b3707f0d37f61028e40da31d2821f585c7"
+    },
+    "g01-17": {
+      "src": "audio/g01-17-7c5a610451c87da3.mp3",
+      "text": "Bible. The Bible is on the shelf.",
+      "duration": 2.304,
+      "sha256": "6b3e4a284e42f200dd2f8d6030b9863f2ffbf138e0f15b25b5295b1aba8fb9ce"
+    },
+    "g01-18": {
+      "src": "audio/g01-18-d42e017688bedc4b.mp3",
+      "text": "discover. They were not able to discover any secrets.",
+      "duration": 3.144,
+      "sha256": "79f09142f25926e4b52f5c2a9f108d0b386315fc6aaa20fc8d9e72fd8cb4c956"
+    },
+    "g01-19": {
+      "src": "audio/g01-19-b4820db527f8dd98.mp3",
+      "text": "inform. Please inform us about the change.",
+      "duration": 2.808,
+      "sha256": "683e0695a218445b97c8b528b82003551f6d5f589302e9e1995c8608b4a6a002"
+    },
+    "g01-20": {
+      "src": "audio/g01-20-d9b6e14ca95489e8.mp3",
+      "text": "drawer. The top desk drawer is open.",
+      "duration": 2.376,
+      "sha256": "2ede4201c2e5e482e809fed922cd213af2d1d8632b026f3dae8255a44d63c3c8"
+    },
+    "g01-21": {
+      "src": "audio/g01-21-2dbb9a955602ecba.mp3",
+      "text": "virus. It is probably a virus.",
+      "duration": 2.328,
+      "sha256": "25f2034072142bfc2c34af4b43accc436667cbd6feb0c6115b20008089a2e04d"
+    },
+    "g01-22": {
+      "src": "audio/g01-22-fdc71547c4ed0adc.mp3",
+      "text": "however. It was cold. However, we went out.",
+      "duration": 2.928,
+      "sha256": "63d809318f40c277f1adb4c681eb89583b4314d754e82bab3050c089d342ad5f"
+    },
+    "g01-23": {
+      "src": "audio/g01-23-124b2b14aa972d03.mp3",
+      "text": "international. Spanish is an international language.",
+      "duration": 3.48,
+      "sha256": "1687af38369790d8cda0a600434096be1e1d8641a57ff663eee9bca0a4be8865"
+    },
+    "g01-24": {
+      "src": "audio/g01-24-7317cabe79a1092b.mp3",
+      "text": "back. The back door is open.",
+      "duration": 1.944,
+      "sha256": "11b98a31fbfc6f9bd8c11c095c5297306511f95a17f231786c9984abbdc081dd"
+    },
+    "g01-25": {
+      "src": "audio/g01-25-9f79f0d4f6959c87.mp3",
+      "text": "go back. I had to go back to school.",
+      "duration": 2.328,
+      "sha256": "27be0a78825153eb59b37238cd3f3e4f7fa840c9f729e2b74cde737ef01f8c12"
+    },
+    "g01-26": {
+      "src": "audio/g01-26-7f387459d6654366.mp3",
+      "text": "care. The patient needs daily care.",
+      "duration": 2.352,
+      "sha256": "e633dd5ec7e6c60e1e052fd5ff10723fffe07d76c6956c64eefb06127d347521"
+    },
+    "g01-27": {
+      "src": "audio/g01-27-166b63310ab36e16.mp3",
+      "text": "adjective. “Blue” is an adjective.",
+      "duration": 2.496,
+      "sha256": "b8914e9afd7c12701988cb598419bd4060394e7f82ce3a752fc77676e3421752"
+    },
+    "g01-28": {
+      "src": "audio/g01-28-075f83d4a07a6506.mp3",
+      "text": "read something out. She read the poem out to the class.",
+      "duration": 3.24,
+      "sha256": "252449178ad6b86042a6a1295c9b8e18f95fbe0fa4c4e445617554567efe156d"
+    },
+    "g01-29": {
+      "src": "audio/g01-29-44239d8dd91a197e.mp3",
+      "text": "demand. Customers demand better service.",
+      "duration": 2.952,
+      "sha256": "5cd18d702bf3df174a5f76ff84a76d84a99c94fab83d4073944b2f57fe74bf6c"
+    },
+    "g01-30": {
+      "src": "audio/g01-30-5ee031d2dd8d417f.mp3",
+      "text": "then. Finish your work, then go home.",
+      "duration": 2.232,
+      "sha256": "35060cfb18a10de3f5e754a3dc0c2cb2234281c8fd2a1c6b906762a90321ede5"
+    },
+    "g01-31": {
+      "src": "audio/g01-31-91d7dafbab96d3ca.mp3",
+      "text": "Earth. Earth moves around the sun.",
+      "duration": 2.232,
+      "sha256": "cffb6b2153de8440180fc21de03deb8a5c8eb1b77a805e3d49238b0f18855317"
+    },
+    "g01-32": {
+      "src": "audio/g01-32-d02a231a23b492cc.mp3",
+      "text": "break down. Our school bus broke down.",
+      "duration": 2.496,
+      "sha256": "9f6b03f564466b5bc684d0b567e773084c191fb5542a261f78201660d6ad3ee2"
+    },
+    "g01-33": {
+      "src": "audio/g01-33-dcb7537d14d8623a.mp3",
+      "text": "meet. I would like to meet the new teacher.",
+      "duration": 2.472,
+      "sha256": "99fc20db51b894038904c36429f06c08d6b7178e6df9e47f2af724d4ce229016"
+    },
+    "g01-34": {
+      "src": "audio/g01-34-b502f38cab96fb16.mp3",
+      "text": "highway. The highway runs beside the river.",
+      "duration": 2.712,
+      "sha256": "c38825ebff6495efef9ae63f091e61c65b3b785f7f394044f02cdd839e46fe02"
+    },
+    "g01-35": {
+      "src": "audio/g01-35-53a68bf6e8784875.mp3",
+      "text": "contents. May I see the full contents of the package?",
+      "duration": 3.216,
+      "sha256": "5a513ec31c1f27ebd0f6dc42e306d8c9c95a02f282506facf215e2e5e012992b"
+    },
+    "g01-36": {
+      "src": "audio/g01-36-ac94105b74da37da.mp3",
+      "text": "around. We walked around the lake.",
+      "duration": 2.112,
+      "sha256": "06d6a99811b496adeafae62e6b0c29728af6daaa9c22f57486bc0ebf237f9dd8"
+    },
+    "g01-37": {
+      "src": "audio/g01-37-a3e5622c2ee929b6.mp3",
+      "text": "circus. The circus is in town.",
+      "duration": 2.352,
+      "sha256": "0af87a1bf5bb27f0f7ddb847f2a5198ace5bef901520e267662df42e262cc7b9"
+    },
+    "g01-38": {
+      "src": "audio/g01-38-8941815aa521ee3e.mp3",
+      "text": "look like. Did he really look like a doctor?",
+      "duration": 2.544,
+      "sha256": "f457c5ee1f326da6fc4d12991bfc066378bbbe467867884870f94a47f49a8db3"
+    },
+    "g01-39": {
+      "src": "audio/g01-39-24a316c992970165.mp3",
+      "text": "physics. We study physics at school.",
+      "duration": 2.304,
+      "sha256": "890a774745220bde9c17bf5d475ac5c7e200e7b1c4e41560b35d32da0efaeaf8"
+    },
+    "g01-40": {
+      "src": "audio/g01-40-5a442684e1ab0197.mp3",
+      "text": "until. Please wait here until we get back.",
+      "duration": 2.592,
+      "sha256": "b8f4f9173304e6926af8a7971cf4164b2dd4db6f0fbde11bd2166feb82cecf24"
+    },
+    "g01-41": {
+      "src": "audio/g01-41-9d890fd8069c4624.mp3",
+      "text": "by mistake. I took the wrong umbrella by mistake.",
+      "duration": 3.336,
+      "sha256": "579c2e5b4036983d3867d600bf6526285d6f9d99fe5eb2797e435b763f5a5c44"
+    },
+    "g01-42": {
+      "src": "audio/g01-42-60c9d8e027588de3.mp3",
+      "text": "wool. Sheep give us wool.",
+      "duration": 1.8,
+      "sha256": "71b51018885ee285f9e8c222236d61adf829413ef32ba58ab12c682de011fad2"
+    },
+    "g01-43": {
+      "src": "audio/g01-43-99da5e27b007d863.mp3",
+      "text": "bring something back. Please bring back some food.",
+      "duration": 3.048,
+      "sha256": "357182f4b84727ce18cb6df23ade7c483b343f37b34b33be33f2071feef2ba30"
+    },
+    "g01-44": {
+      "src": "audio/g01-44-2c47096851598350.mp3",
+      "text": "degree. It is thirty degrees today.",
+      "duration": 2.424,
+      "sha256": "f559a54f741b47e1258111f909d39bbb9a4ae3be073ca13fd823e22afa9aab18"
+    },
+    "g01-45": {
+      "src": "audio/g01-45-29b31e04dbb8baac.mp3",
+      "text": "murder. The police are investigating a murder.",
+      "duration": 2.856,
+      "sha256": "8fffea9930f744e46db25d17369fab502d4bc3fd043743fb3cbeedec89ae1264"
+    },
+    "g01-46": {
+      "src": "audio/g01-46-b93507e414468acd.mp3",
+      "text": "yourselves. Enjoy yourselves at the party.",
+      "duration": 2.76,
+      "sha256": "2aab92f0cba79faf66fefdb5d106137c73494c65bc7bb11bb6aace479d3caa54"
+    },
+    "g01-47": {
+      "src": "audio/g01-47-97ca048b9dfda914.mp3",
+      "text": "join. Do you really want to join us?",
+      "duration": 2.208,
+      "sha256": "a096ec4b92e8564c8948670bc820a32e1bff9f2fb9229fe32dd9418d0ac54a77"
+    },
+    "g01-48": {
+      "src": "audio/g01-48-a5e02d449e7a80bc.mp3",
+      "text": "so far. So far, everything is fine.",
+      "duration": 2.688,
+      "sha256": "14608fa290f56c68fd0c727e045b76b3db3f31600e91edede9de0c068d0f5538"
+    },
+    "g01-49": {
+      "src": "audio/g01-49-c42e56ed392c9e13.mp3",
+      "text": "if you like. I will go with you if you like.",
+      "duration": 2.592,
+      "sha256": "939b13f74d6c1b561a8ded22bec6b3a4c9289d40999191bcd4295a842a49514b"
+    },
+    "g01-50": {
+      "src": "audio/g01-50-b090c1c56e04c5ca.mp3",
+      "text": "adverb. “Slowly” is an adverb.",
+      "duration": 2.328,
+      "sha256": "bed74c60d73b308349c57a388c326700cdd0c30cd0eee4943fc7ec9d9fef31a3"
+    },
+    "g01-51": {
+      "src": "audio/g01-51-079f90b4a75897e5.mp3",
+      "text": "in half. He cut the orange in half.",
+      "duration": 2.232,
+      "sha256": "1538d702282e2fffdf88b4fa0be6a81e260a164109fc24e6ff5e632c97dc2d95"
+    },
+    "g01-52": {
+      "src": "audio/g01-52-2d4aa4fa56bd3f3e.mp3",
+      "text": "explanation. The explanation was not difficult to understand.",
+      "duration": 4.32,
+      "sha256": "f898bd4e6801de9effb667c8d38c9b7d0f76c747f114bf10a50e13531eefdfbe"
+    },
+    "g01-53": {
+      "src": "audio/g01-53-6b1b142c772b34b5.mp3",
+      "text": "fine. I feel fine today.",
+      "duration": 1.968,
+      "sha256": "39880c133463b0b2036544afff77d7b348cd48e10fcef19063c73b4bf9293045"
+    },
+    "g01-54": {
+      "src": "audio/g01-54-f21983c582e4cee5.mp3",
+      "text": "medicine. Give me my medicine, please.",
+      "duration": 2.52,
+      "sha256": "9ce41d38a112b3fb9962fc29e3750c5a5defdd828e4c7b4ab0ba59b9976b9395"
+    },
+    "g01-55": {
+      "src": "audio/g01-55-635a0c23b1401e82.mp3",
+      "text": "be able to do something. Would you please be able to do that?",
+      "duration": 3.504,
+      "sha256": "a3abbef028c3becc3d6b17a7ab7f8d2b5577e3c03e82f9c8df4c04b57bbf8846"
+    },
+    "g02-01": {
+      "src": "audio/g02-01-3b086f9f168ae7cf.mp3",
+      "text": "history. I do not need a history lesson.",
+      "duration": 2.544,
+      "sha256": "0e572901d3f55e8c6474143bc84b7afb0631d5473b753469a65447f2e9371d22"
+    },
+    "g02-02": {
+      "src": "audio/g02-02-c69408953070a95e.mp3",
+      "text": "achieve. She worked hard to achieve her goal.",
+      "duration": 2.76,
+      "sha256": "7b5175876f98b50bc8192d97754cd4548fd46164c0831f67cbfe233b8782dc56"
+    },
+    "g02-03": {
+      "src": "audio/g02-03-6abb5ad610f1b3e6.mp3",
+      "text": "soccer. We play soccer after school.",
+      "duration": 2.448,
+      "sha256": "a20df115bb0e85ca7c8cebcb0754b87a9861210344c56fa271ef09923b4389e1"
+    },
+    "g02-04": {
+      "src": "audio/g02-04-09869439b08691c8.mp3",
+      "text": "would love something. I would love a cup of tea.",
+      "duration": 2.736,
+      "sha256": "c737d88ef4a1a57f7486a179f6fcb2852ce91be849215ac5afcf078e814e712d"
+    },
+    "g02-05": {
+      "src": "audio/g02-05-6fb0f08a5fa57940.mp3",
+      "text": "silver. Our team won a silver medal.",
+      "duration": 2.28,
+      "sha256": "9d06e78d24e97c5d6339f6bf13c075525935bd56526e69090128b823b6b3b774"
+    },
+    "g02-06": {
+      "src": "audio/g02-06-89ec2c1d66c4ca57.mp3",
+      "text": "call. They called the baby David.",
+      "duration": 2.16,
+      "sha256": "44e0594291e564dbee4ad5f3fa74b5ad4dda8d714c8848e098ab0ad597e337ae"
+    },
+    "g02-07": {
+      "src": "audio/g02-07-d85357dc4194e0e5.mp3",
+      "text": "exercise. Please let's do a little exercise.",
+      "duration": 2.976,
+      "sha256": "943eb7a041c3aac69d1a5756129e7662b566d08525287af04ecf567a5ebb8de2"
+    },
+    "g02-08": {
+      "src": "audio/g02-08-11c4663ad8951dfc.mp3",
+      "text": "left. Turn to the left at the corner.",
+      "duration": 2.352,
+      "sha256": "d3ac3210dc38667ab1439f89e7e357cd745b85b2b2dc5803724cdb5d34fea05c"
+    },
+    "g02-09": {
+      "src": "audio/g02-09-20d348299ceb24b0.mp3",
+      "text": "earn. I would like to earn more money.",
+      "duration": 2.232,
+      "sha256": "ea01ea6e2ecf6299ba4afd5d039466deaf852779a59d6a707648b4cc53d8ca8c"
+    },
+    "g02-10": {
+      "src": "audio/g02-10-d3c5d296471f8863.mp3",
+      "text": "if. If I feel tired, I go to bed early.",
+      "duration": 2.952,
+      "sha256": "a76274e168e700af4866cfb7af576add1f0d39fd0fa80a59ea9238bf455c4a8c"
+    },
+    "g02-11": {
+      "src": "audio/g02-11-385b8252e76c939d.mp3",
+      "text": "Bedouin. Many Bedouin live in the desert.",
+      "duration": 2.52,
+      "sha256": "833d76a2e40946dfbbd4a9e0f3549f9b530db46818a7a3e0d37e51d22e3985f6"
+    },
+    "g02-12": {
+      "src": "audio/g02-12-efeada18f7fabeae.mp3",
+      "text": "wow. Wow! That is a big house!",
+      "duration": 2.208,
+      "sha256": "3e365f905873a9a42773a254e8235760817998f43df70976370005dbcb98cc6e"
+    },
+    "g02-13": {
+      "src": "audio/g02-13-9152df725eda0306.mp3",
+      "text": "distance. Please keep your distance.",
+      "duration": 2.28,
+      "sha256": "036ed80a0a2660e4b23752af7409fd5837171afbc17449d3ab82f72d7b87c260"
+    },
+    "g02-14": {
+      "src": "audio/g02-14-230a822065cc473a.mp3",
+      "text": "vote. The class called for a vote.",
+      "duration": 2.136,
+      "sha256": "18538f5d8e5af4b0ff797221b31be3008946f2c56b8daae38745a7dbfccbf9a7"
+    },
+    "g02-15": {
+      "src": "audio/g02-15-72619b16a1e2f56e.mp3",
+      "text": "murder. Someone tried to murder the king.",
+      "duration": 2.256,
+      "sha256": "30ea6598e2366b34ff94ccdcb317a9ee40a653258357c0e8c7365c18fde14976"
+    },
+    "g02-16": {
+      "src": "audio/g02-16-ebc0fc4dd9e357e0.mp3",
+      "text": "mouse. Click the button with the mouse.",
+      "duration": 2.256,
+      "sha256": "b9685045eb1c4485a10f1ac7ad773b4ed254c27d2df7ebd30c7ad4bc03b57786"
+    },
+    "g02-17": {
+      "src": "audio/g02-17-1a9605a7d33514b8.mp3",
+      "text": "taste. This soup has a rich taste.",
+      "duration": 2.256,
+      "sha256": "2a644416a04af72da504addd9245b4e892dd7b26cd7aa3d08e1462c12bf0d6bf"
+    },
+    "g02-18": {
+      "src": "audio/g02-18-71a578b9679362ed.mp3",
+      "text": "increase. We saw an increase in prices.",
+      "duration": 2.544,
+      "sha256": "9afc528e6032f436794597d35fb869942565179a9cbba746a5314f69cb98fca9"
+    },
+    "g02-19": {
+      "src": "audio/g02-19-930fae8f46225c71.mp3",
+      "text": "pension. I could lose my pension too.",
+      "duration": 2.544,
+      "sha256": "aacd03ff303f04b2df58b50cfcba91a563d036b08c1a9b4d5bd4bb080a304941"
+    },
+    "g02-20": {
+      "src": "audio/g02-20-a7e24254f91b8957.mp3",
+      "text": "suit. That hat will suit her.",
+      "duration": 1.776,
+      "sha256": "b4050ea9049f8e534fc5f3a1640eba7f1f5b4e1384aa43127239f6bfbd47d4dd"
+    },
+    "g02-21": {
+      "src": "audio/g02-21-ea86190c1d51d818.mp3",
+      "text": "owe. Exactly how much do I owe you?",
+      "duration": 2.592,
+      "sha256": "7c687b495cb73880cbd26597c4d5c079b45ef7f145170537af0e2194806cfcb3"
+    },
+    "g02-22": {
+      "src": "audio/g02-22-7bdd0bffca027a27.mp3",
+      "text": "tell. Please come on, you can tell me.",
+      "duration": 2.232,
+      "sha256": "df26603fb1392c81fca9ac8e6b09c31e80a6cde23710b50da833b3360b5c87cf"
+    },
+    "g02-23": {
+      "src": "audio/g02-23-2c90199520c50b1a.mp3",
+      "text": "local. We buy food at the local market.",
+      "duration": 2.64,
+      "sha256": "43f6c24aeadf5bed2755024bf0a7e393aa00eeae64ed6a2e398f3db18551e02c"
+    },
+    "g02-24": {
+      "src": "audio/g02-24-033461cc4eff5a10.mp3",
+      "text": "can't wait. I cannot wait to see the new film.",
+      "duration": 2.736,
+      "sha256": "dae7179fbfc62ba8a3d942c1edf09fd6098ca9e6e73b319141d3af73691c6b92"
+    },
+    "g02-25": {
+      "src": "audio/g02-25-62b4dd533889e668.mp3",
+      "text": "threat. It is a threat too.",
+      "duration": 1.824,
+      "sha256": "d695961a0669e37359e66493e2f0a869990ac8281f0f6abeb0713781145bbab2"
+    },
+    "g02-26": {
+      "src": "audio/g02-26-f5e1850cb86e8d01.mp3",
+      "text": "you know. It was difficult, you know.",
+      "duration": 2.064,
+      "sha256": "a650521405ae1b17431d1dd1a190d4b8b2219c1d422a7bdef8203c7b7181f3a4"
+    },
+    "g02-27": {
+      "src": "audio/g02-27-e31476c61ca34e24.mp3",
+      "text": "piano. I am playing the piano today.",
+      "duration": 2.568,
+      "sha256": "2693b88bae267b4fbba440a8a9f85d95b3afcea7488ba8a4a787e28e84f6ca28"
+    },
+    "g02-28": {
+      "src": "audio/g02-28-dda623e11885ebcb.mp3",
+      "text": "lock. The door has a new lock.",
+      "duration": 2.136,
+      "sha256": "1cb1495507aac6bb5ff0e57fe7f52f111b195550594a16e96e5d054ac49354ce"
+    },
+    "g02-29": {
+      "src": "audio/g02-29-7588ad4e39f1b869.mp3",
+      "text": "relations. Canada has diplomatic relations with China.",
+      "duration": 3.984,
+      "sha256": "65d4c15c58dd113caf99b0137a1c4469429b3e8e5ad5230a4cb7b8f0e64cbac7"
+    },
+    "g02-30": {
+      "src": "audio/g02-30-4ccea38199287a17.mp3",
+      "text": "though. Even though it is large, it is still my apartment.",
+      "duration": 3.552,
+      "sha256": "e69b35570384c2760ee419e4ab573d4beffe14134fae714db45b9ee09d864bf8"
+    },
+    "g02-31": {
+      "src": "audio/g02-31-e025eb04ba4fe954.mp3",
+      "text": "contact. I will tell them to contact you.",
+      "duration": 2.712,
+      "sha256": "016bd33b87a8e17849ddead5c81ed80b9a6263933ac0bb6b9ebf150d2547fa60"
+    },
+    "g02-32": {
+      "src": "audio/g02-32-1c22496a990f0599.mp3",
+      "text": "can afford. I can afford good food today.",
+      "duration": 2.808,
+      "sha256": "71b6d70dd88a50b4db61f0e6b787c81fa0d256e55751006ae015c39974a577aa"
+    },
+    "g02-33": {
+      "src": "audio/g02-33-9ec59e050144b21b.mp3",
+      "text": "deal. I have got a deal for you.",
+      "duration": 2.088,
+      "sha256": "6474938a607bed5a1d23723c2f9661895d4510e03c416ec546e9b1a9bd508ef6"
+    },
+    "g02-34": {
+      "src": "audio/g02-34-0bf6d3f86ecf88ae.mp3",
+      "text": "boss. I am my own boss.",
+      "duration": 1.968,
+      "sha256": "c78fc2fd284017a172020e4ef0ab31de79b56c3e439537371c38397220f550e1"
+    },
+    "g02-35": {
+      "src": "audio/g02-35-e634f7df5ecbf8f4.mp3",
+      "text": "together. We walk home together after school.",
+      "duration": 2.664,
+      "sha256": "ec9dd4d61113ddf1b31484a822b6caf339b812a98ef10fc963253d89a3ea36fc"
+    },
+    "g02-36": {
+      "src": "audio/g02-36-8d779610ab6c06a6.mp3",
+      "text": "interval. There is a short interval.",
+      "duration": 2.208,
+      "sha256": "7bafa7556403ee55f8b69a7cd0490b1f42f3d30a01d5d610d458fdbb14eadcf8"
+    },
+    "g02-37": {
+      "src": "audio/g02-37-53f3df8244348f92.mp3",
+      "text": "stomach. My stomach hurts after lunch.",
+      "duration": 2.352,
+      "sha256": "1d0592c633c1dcadcd84346bca3b7279f2fdab3f0ede73cfad29b83182e85f18"
+    },
+    "g02-38": {
+      "src": "audio/g02-38-5891933b8f6f0573.mp3",
+      "text": "be unable to do something. She was unable to come.",
+      "duration": 3.36,
+      "sha256": "668ed5d53fdd68c27333835d3859865036d9a6ee5296c71068ed238c4024a6ed"
+    },
+    "g02-39": {
+      "src": "audio/g02-39-8edcee7e28b3c88f.mp3",
+      "text": "elevator. Is there really an elevator?",
+      "duration": 2.544,
+      "sha256": "f4f6bc025eacb3904471714334d07613599f6a38f1338f5bb1be1905b830d3d2"
+    },
+    "g02-40": {
+      "src": "audio/g02-40-d2290c5a09f943c7.mp3",
+      "text": "cotton. This shirt is made of cotton.",
+      "duration": 2.328,
+      "sha256": "04f61f97704921bdc472251b29cae809101c0d9da87aed61ee1d34cfefc1091e"
+    },
+    "g02-41": {
+      "src": "audio/g02-41-23c9a22a4f7033c5.mp3",
+      "text": "ill. I hear he is ill too.",
+      "duration": 1.944,
+      "sha256": "a2fb20f8e884445da5daa12f7533b2ec07f609f9d290c32c069a2ff2848f4833"
+    },
+    "g02-42": {
+      "src": "audio/g02-42-0e6f7427fae5b8c9.mp3",
+      "text": "certain. I am certain he will come.",
+      "duration": 2.112,
+      "sha256": "22fc19e385b8d2ac138a533b9f0e08c52ce4f12d4fc415d9dd7493f64b01dcf6"
+    },
+    "g02-43": {
+      "src": "audio/g02-43-2c63bd51b17f2e96.mp3",
+      "text": "below. The temperature fell below zero.",
+      "duration": 2.568,
+      "sha256": "291a5750d468217d74ec87fa6a71217ceca67f69c45f465f15263ef5408d82f4"
+    },
+    "g02-44": {
+      "src": "audio/g02-44-619ae70436ac0d00.mp3",
+      "text": "luck. We have not had much luck this week.",
+      "duration": 2.352,
+      "sha256": "7709cc9fe9d50f132f3f6c434bf1aa77517632a77618d1b56343cb12ba4037c3"
+    },
+    "g02-45": {
+      "src": "audio/g02-45-47311c774f489a20.mp3",
+      "text": "operate. Can you operate this machine?",
+      "duration": 2.376,
+      "sha256": "731e829882f94bf7855dd5794e305a167dbce8bf87ec8de2a186509563734732"
+    },
+    "g02-46": {
+      "src": "audio/g02-46-0a53a359767ad583.mp3",
+      "text": "credit. We bought the sofa on credit.",
+      "duration": 2.424,
+      "sha256": "14d3bba0eef7bbf71e18863aa77bbf4dade3ef9a8778c03164e912ffd0c22203"
+    },
+    "g02-47": {
+      "src": "audio/g02-47-84c1498b47dcd47a.mp3",
+      "text": "slice. The boy brought me a slice of pie.",
+      "duration": 2.712,
+      "sha256": "84a64206f30426315e7455d973c834045a9e82a0915d68cff4028197a4937d86"
+    },
+    "g02-48": {
+      "src": "audio/g02-48-9b9e87d2123ce62b.mp3",
+      "text": "be responsible for something. I will not be responsible for my actions.",
+      "duration": 4.56,
+      "sha256": "9b719948e303d498ab5a45a87cd7a164aaee2218ad8716c306e4b23ee5e97aec"
+    },
+    "g02-49": {
+      "src": "audio/g02-49-512e1cf9dcf91c3f.mp3",
+      "text": "limit. Please limit your presentation to twenty minutes.",
+      "duration": 3.336,
+      "sha256": "276e1c702868cd20c283191f838a2567c1015173ce817ec1d102e379f4f2f88a"
+    },
+    "g02-50": {
+      "src": "audio/g02-50-e202b95273072f7d.mp3",
+      "text": "joke. It was just a joke.",
+      "duration": 1.872,
+      "sha256": "a79409c47c4ba5722a67c0eb418558c55384c92eea78aa96aeca2ad76bef97b6"
+    },
+    "g02-51": {
+      "src": "audio/g02-51-dd1b05a922db2ded.mp3",
+      "text": "try. Do you really want to try it?",
+      "duration": 2.16,
+      "sha256": "bf54f075cae14b5bf90c70ffa7d71ca4865309f390ef7a68c35ae95ea722dd30"
+    },
+    "g02-52": {
+      "src": "audio/g02-52-a7b8ce9eae6024d4.mp3",
+      "text": "magic. The show felt like magic.",
+      "duration": 2.352,
+      "sha256": "21f79fc9398311381e5e2d1f5f2e5278d8c6e81025b41bfd9a12a548b65f7b6a"
+    },
+    "g02-53": {
+      "src": "audio/g02-53-e923c7e2bdcc428b.mp3",
+      "text": "industry. Tourism is an important industry.",
+      "duration": 3.288,
+      "sha256": "7ad284b63b541898bf87e8407aef8deea76f4a53233a29b656ecf31319eb127f"
+    },
+    "g02-54": {
+      "src": "audio/g02-54-ff1be243f7f7a98e.mp3",
+      "text": "bear. A bear can climb trees.",
+      "duration": 2.016,
+      "sha256": "0abedcc17eae220ee4a71cf49949deffe8d6ff8c53b9196b6f6a5a71e7605d16"
+    },
+    "g02-55": {
+      "src": "audio/g02-55-477d8f21856432e2.mp3",
+      "text": "jazz. We listened to jazz.",
+      "duration": 1.944,
+      "sha256": "4ffb9ad24b52579f3cffed1d6a6fe741e3d9cdfeca52d7b1a94755be70587cb5"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+AI-generated narration: Kokoro v1.0, af_heart, US English, speed 0.88.
+110 actual MP3 files served by Teachers. No browser speech synthesis.
+Kokoro model: Apache-2.0, https://huggingface.co/hexgrad/Kokoro-82M
+kokoro-onnx: MIT, https://github.com/thewh1teagle/kokoro-onnx
+Only vocabulary words and original English examples are narrated.
