@@ -1,0 +1,44 @@
+{
+  "lesson": "The Message Without a Voice — Exam practice",
+  "slides": 60,
+  "animatedBreaks": 12,
+  "questionAnswerPairs": 19,
+  "gapQuestions": 4,
+  "optionsPerGapQuestion": 3,
+  "viewportChecks": [
+    {
+      "size": "1280x720",
+      "slidesChecked": 60,
+      "overflow": 0,
+      "stablePairs": 19
+    },
+    {
+      "size": "1024x600",
+      "slidesChecked": 60,
+      "overflow": 0,
+      "stablePairs": 19
+    },
+    {
+      "size": "390x844",
+      "slidesChecked": 60,
+      "overflow": 0,
+      "stablePairs": 19
+    },
+    {
+      "size": "844x390",
+      "slidesChecked": 60,
+      "overflow": 0,
+      "stablePairs": 19
+    }
+  ],
+  "animation": {
+    "distinctFrames": 3,
+    "animationAfterSlideExit": "none",
+    "silent": true
+  },
+  "keyboard": "All four arrows verified in browser",
+  "wheel": "Verified in browser",
+  "pdf": "Three pages rendered and visually reviewed; published PDF opens in browser",
+  "teacherScript": "Published teacher page and answer key verified",
+  "sharedNavigation": "Existing shared runtime retained; touch handlers reviewed"
+}
