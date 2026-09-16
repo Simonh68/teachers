@@ -1,0 +1,55 @@
+name: Build Grade 7 vocabulary audio
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/grade7-vocabulary-audio.yml'
+      - 'tools/grade7-vocab/build_assets.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: grade7-vocabulary-audio
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Snapshot exact vocabulary data
+        run: python tools/grade7-vocab/build_assets.py --data-only
+      - name: Install neural speech tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq espeak-ng ffmpeg libsndfile1
+          python -m pip install --quiet torch==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install --quiet 'kokoro==0.9.4' 'soundfile==0.13.1' 'numpy<3' 'transformers<5' 'huggingface-hub<1'
+      - name: Generate and validate 110 MP3 files
+        env:
+          HF_HUB_DISABLE_XET: '1'
+          TOKENIZERS_PARALLELISM: 'false'
+        run: python tools/grade7-vocab/build_assets.py
+      - name: Preserve generated lesson assets
+        if: always()
+        run: |
+          git config user.name 'Teachers Lesson Builder'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add grade7/band2-groups-01-02/data.js grade7/band2-groups-01-02/source-manifest.json
+          if test -f grade7/band2-groups-01-02/audio/manifest.json; then
+            git add grade7/band2-groups-01-02/audio grade7/band2-groups-01-02/audio-manifest.js
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'Add Grade 7 vocabulary snapshot and generated neural audio assets'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then exit 0; fi
+              sleep 3
+            done
+            exit 1
+          fi
