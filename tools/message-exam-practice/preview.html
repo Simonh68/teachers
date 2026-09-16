@@ -1,14 +1,14 @@
 <!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Message exam practice · preview and QA</title><style>body{margin:0;background:#dce4ed;font:14px Arial;color:#15283b}header{display:flex;gap:12px;padding:12px;align-items:center;flex-wrap:wrap}button,select,input{font:inherit;padding:8px}input{width:55px}#host{margin:0 12px;transform-origin:top left}iframe{border:0;display:block}pre{white-space:pre-wrap;max-width:1200px;padding:15px;background:white}label{white-space:nowrap}</style><header><label>Viewport <select id="size"><option value="1280,720">1280 × 720</option><option value="1024,600">1024 × 600</option><option value="390,844">390 × 844</option><option value="844,390">844 × 390</option></select></label><label>Slide <input id="slide" type="number" min="1" max="60" value="1"></label><button id="go">Show slide</button><button id="audit">Run 60-slide audit</button><button id="animation">Check animation</button><a href="../../grade9/message-exam-practice/">Open full lesson</a></header><div id="host"><iframe title="Lesson preview" id="deck" src="../../grade9/message-exam-practice/"></iframe></div><pre id="results">Ready.</pre><script>
 const frame=document.getElementById('deck'),host=document.getElementById('host'),results=document.getElementById('results');
 function resize(){const [w,h]=document.getElementById('size').value.split(',').map(Number);frame.width=w;frame.height=h;const scale=Math.min(1,(innerWidth-24)/w);host.style.width=w+'px';host.style.height=h*scale+'px';frame.style.transformOrigin='top left';frame.style.transform=`scale(${scale})`;}
-function jump(n){frame.contentWindow.location.hash='slide-'+n;}
+function jump(n){frame.contentWindow.location.hash='slide-'+n;frame.contentWindow.dispatchEvent(new HashChangeEvent('hashchange'));}
 const settle=()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(()=>requestAnimationFrame(r))));
 document.getElementById('go').onclick=()=>{jump(+document.getElementById('slide').value);};document.getElementById('size').onchange=resize;window.onresize=resize;
 document.getElementById('audit').onclick=async()=>{
  const report={viewport:document.getElementById('size').value,slides:[],pairs:[],issues:[]};
  results.textContent='Checking all slides…';await frame.contentDocument.fonts.ready;
  for(let n=1;n<=60;n++){
-  jump(n);await settle();const d=frame.contentDocument,w=frame.contentWindow,s=d.querySelector('.slide.active'),f=s.querySelector('.frame'),r=f.getBoundingClientRect(),style=w.getComputedStyle(s);
+  jump(n);const d=frame.contentDocument,w=frame.contentWindow,s=d.querySelector('.slide.active'),f=s.querySelector('.frame'),r=f.getBoundingClientRect(),style=w.getComputedStyle(s);
   const safeTop=parseFloat(style.paddingTop),safeBottom=w.innerHeight-parseFloat(style.paddingBottom);const overflow=s.scrollWidth>s.clientWidth+2 || r.left < -1 || r.right>w.innerWidth+1 || r.top<safeTop-2 || r.bottom>safeBottom+2;
   const pair=s.dataset.pair,focus=s.querySelector('.word,.question');const fr=focus?.getBoundingClientRect();
   const row={n,pair,overflow,box:[r.x,r.y,r.width,r.height].map(v=>Math.round(v*10)/10),focus:fr?[fr.x,fr.y,fr.width,fr.height].map(v=>Math.round(v*10)/10):null};report.slides.push(row);if(overflow)report.issues.push(row);
