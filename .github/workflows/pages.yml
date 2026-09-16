@@ -16,9 +16,24 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Restore Grade 7 neural recordings
+        if: ${{ hashFiles('tools/build_grade7_band2.py') != '' }}
+        uses: actions/cache@v4
+        with:
+          path: grade7/band2-groups-01-02/audio
+          key: grade7-band2-neural-v1-${{ github.sha }}
+          restore-keys: grade7-band2-neural-v1-
+      - name: Install neural speech generator
+        if: ${{ hashFiles('tools/build_grade7_band2.py') != '' }}
+        continue-on-error: true
+        run: python -m pip install edge-tts==7.2.8
+      - name: Build verified Grade 7 vocabulary and MP3 assets
+        if: ${{ hashFiles('tools/build_grade7_band2.py') != '' }}
+        run: python tools/build_grade7_band2.py
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
