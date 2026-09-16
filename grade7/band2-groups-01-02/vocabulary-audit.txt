@@ -35,12 +35,12 @@ g01-34 | highway | כביש מהיר | The highway runs beside the river. | הכ
 g01-35 | contents | תכולה; תוכן | May I see the full contents of the package? | אפשר לראות את כל תכולת החבילה?
 g01-36 | around | בסביבה; מסביב | We walked around the lake. | הלכנו מסביב לאגם.
 g01-37 | circus | קרקס | The circus is in town. | הקרקס הגיע לעיר.
-g01-38 | look like | להיראות כמו | Did he really look like a doctor? | האם באמת הוא נראָה כמו רופא?
+g01-38 | look like | להיראות כמו | This cloud looks like a ship. | הענן הזה נראה כמו ספינה.
 g01-39 | physics | פיזיקה | We study physics at school. | אנחנו לומדים פיזיקה בבית הספר.
 g01-40 | until | עד ש־ | Please wait here until we get back. | בבקשה, תמתין פה עד שנשוב.
 g01-41 | by mistake | בטעות | I took the wrong umbrella by mistake. | לקחתי בטעות את המטרייה הלא נכונה.
 g01-42 | wool | צמר | Sheep give us wool. | כבשים נותנות לנו צמר.
-g01-43 | bring something back | להחזיר משהו | Please bring back some food. | החזר בבקשה מעט אוכל.
+g01-43 | bring something back | להחזיר משהו | Please bring my book back. | החזר בבקשה את הספר שלי.
 g01-44 | degree | מעלה; טמפרטורה | It is thirty degrees today. | היום שלושים מעלות.
 g01-45 | murder | רצח | The police are investigating a murder. | המשטרה חוקרת מקרה רצח.
 g01-46 | yourselves | את עצמכם; את עצמכן | Enjoy yourselves at the party. | תיהנו במסיבה.
@@ -52,14 +52,14 @@ g01-51 | in half | לחצי | He cut the orange in half. | הוא חצה את ה
 g01-52 | explanation | הסבר | The explanation was not difficult to understand. | ההסבר לא היה קשה להבנה.
 g01-53 | fine | בסדר; בריא | I feel fine today. | אני מרגיש טוב היום.
 g01-54 | medicine | תרופה | Give me my medicine, please. | תן לי את התרופה שלי בבקשה.
-g01-55 | be able to do something | להיות מסוגל לעשות משהו | Would you please be able to do that? | האם תוכל לעשות את זה בבקשה?
+g01-55 | be able to do something | להיות מסוגל לעשות משהו | We are able to read this book. | אנחנו מסוגלים לקרוא את הספר הזה.
 g02-01 | history | היסטוריה | I do not need a history lesson. | אני לא צריך שיעורי היסטוריה.
 g02-02 | achieve | להשיג | She worked hard to achieve her goal. | היא עבדה קשה כדי להשיג את מטרתה.
 g02-03 | soccer | כדורגל | We play soccer after school. | אנחנו משחקים כדורגל אחרי הלימודים.
 g02-04 | would love something | אשמח ל־; הייתי רוצה מאוד | I would love a cup of tea. | אשמח לכוס תה.
 g02-05 | silver | כסף | Our team won a silver medal. | הקבוצה שלנו זכתה במדליית כסף.
 g02-06 | call | לקרוא בשם; לכנות | They called the baby David. | הם קראו לתינוק דוד.
-g02-07 | exercise | תרגיל; פעילות גופנית | Please let's do a little exercise. | בבקשה, בוא נעשה תרגיל קטן.
+g02-07 | exercise | תרגיל; פעילות גופנית | Walking is good exercise. | הליכה היא פעילות גופנית טובה.
 g02-08 | left | שמאל | Turn to the left at the corner. | פנה שמאלה בפינה.
 g02-09 | earn | להרוויח | I would like to earn more money. | הייתי רוצה להרוויח יותר כסף.
 g02-10 | if | כאשר; בכל פעם ש־ | If I feel tired, I go to bed early. | כשאני עייף, אני הולך לישון מוקדם.
@@ -72,7 +72,7 @@ g02-16 | mouse | עכבר מחשב | Click the button with the mouse. | לחץ �
 g02-17 | taste | טעם | This soup has a rich taste. | למרק הזה יש טעם עשיר.
 g02-18 | increase | עלייה; גידול | We saw an increase in prices. | ראינו עלייה במחירים.
 g02-19 | pension | פנסיה | I could lose my pension too. | גם אני עלול לאבד את הפנסיה שלי.
-g02-20 | suit | להתאים | That hat will suit her. | הכובע הזה מתאים לה.
+g02-20 | suit | להתאים | That hat will suit her. | הכובע הזה יתאים לה.
 g02-21 | owe | חייב | Exactly how much do I owe you? | בדיוק כמה אני חייב לך?
 g02-22 | tell | לספר | Please come on, you can tell me. | בבקשה, נו, את יכולה לספר לי.
 g02-23 | local | מקומי | We buy food at the local market. | אנחנו קונים אוכל בשוק המקומי.
@@ -83,7 +83,7 @@ g02-27 | piano | פסנתר | I am playing the piano today. | אני מנגן ה
 g02-28 | lock | מנעול | The door has a new lock. | לדלת יש מנעול חדש.
 g02-29 | relations | יחסים | Canada has diplomatic relations with China. | לקנדה יחסים דיפלומטיים עם סין.
 g02-30 | though | אמנם | Even though it is large, it is still my apartment. | היא אמנם גדולה, אבל זו בכל זאת הדירה שלי.
-g02-31 | contact | ליצור קשר | I will tell them to contact you. | אגיד להם לצור איתך קשר.
+g02-31 | contact | ליצור קשר | I will tell them to contact you. | אגיד להם ליצור איתך קשר.
 g02-32 | can afford | יכול להרשות לעצמו | I can afford good food today. | אני יכולה להרשות לעצמי מזון טוב היום.
 g02-33 | deal | עסקה | I have got a deal for you. | יש לי עסקה טובה בשבילך.
 g02-34 | boss | בוס | I am my own boss. | אני בוס לעצמי.
@@ -93,14 +93,14 @@ g02-37 | stomach | בטן | My stomach hurts after lunch. | כואבת לי הב
 g02-38 | be unable to do something | לא להיות מסוגל לעשות משהו | She was unable to come. | היא לא הייתה מסוגלת לבוא.
 g02-39 | elevator | מעלית | Is there really an elevator? | באמת יש מעלית?
 g02-40 | cotton | כותנה | This shirt is made of cotton. | החולצה הזאת עשויה כותנה.
-g02-41 | ill | חולה | I hear he is ill too. | גם אני שומע שהוא חולה.
+g02-41 | ill | חולה | I stayed home because I was ill. | נשארתי בבית כי הייתי חולה.
 g02-42 | certain | בטוח | I am certain he will come. | אני בטוח שהוא יבוא.
 g02-43 | below | פחות מ־; מתחת ל־ | The temperature fell below zero. | הטמפרטורה ירדה מתחת לאפס.
-g02-44 | luck | מזל | We have not had much luck this week. | לא היה לי השבוע הרבה מזל.
-g02-45 | operate | הִפְעִיל; תִּפְעֵל | Can you operate this machine? | אתה יכול להפעיל את המכונה הזאת?
+g02-44 | luck | מזל | We have not had much luck this week. | לא היה לנו השבוע הרבה מזל.
+g02-45 | operate | להפעיל; לתפעל | Can you operate this machine? | אתה יכול להפעיל את המכונה הזאת?
 g02-46 | credit | אשראי | We bought the sofa on credit. | קנינו את הספה באשראי.
-g02-47 | slice | נתח | The boy brought me a slice of pie. | דן הביא לי חתיכת פאי.
-g02-48 | be responsible for something | להיות אחראי למשהו | I will not be responsible for my actions. | אני לא אהיה אחראי למעשיי.
+g02-47 | slice | נתח | The boy brought me a slice of pie. | הילד הביא לי פרוסת פאי.
+g02-48 | be responsible for something | להיות אחראי למשהו | We are responsible for keeping the classroom clean. | אנחנו אחראים לשמור על הכיתה נקייה.
 g02-49 | limit | להגביל | Please limit your presentation to twenty minutes. | אנא הגבילו את המצגת שלכם לעשרים דקות.
 g02-50 | joke | בדיחה | It was just a joke. | זו הייתה רק בדיחה.
 g02-51 | try | לנסות | Do you really want to try it? | באמת אתה רוצה לנסות את זה?

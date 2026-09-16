@@ -414,8 +414,8 @@
     "word": "look like",
     "pos": "Phrase",
     "meaning": "להיראות כמו",
-    "sentence": "Did he really look like a doctor?",
-    "translation": "האם באמת הוא נראָה כמו רופא?"
+    "sentence": "This cloud looks like a ship.",
+    "translation": "הענן הזה נראה כמו ספינה."
   },
   {
     "id": "g01-39",
@@ -469,8 +469,8 @@
     "word": "bring something back",
     "pos": "Phrasal verb",
     "meaning": "להחזיר משהו",
-    "sentence": "Please bring back some food.",
-    "translation": "החזר בבקשה מעט אוכל."
+    "sentence": "Please bring my book back.",
+    "translation": "החזר בבקשה את הספר שלי."
   },
   {
     "id": "g01-44",
@@ -601,8 +601,8 @@
     "word": "be able to do something",
     "pos": "Phrase",
     "meaning": "להיות מסוגל לעשות משהו",
-    "sentence": "Would you please be able to do that?",
-    "translation": "האם תוכל לעשות את זה בבקשה?"
+    "sentence": "We are able to read this book.",
+    "translation": "אנחנו מסוגלים לקרוא את הספר הזה."
   },
   {
     "id": "g02-01",
@@ -678,8 +678,8 @@
     "word": "exercise",
     "pos": "Noun",
     "meaning": "תרגיל; פעילות גופנית",
-    "sentence": "Please let's do a little exercise.",
-    "translation": "בבקשה, בוא נעשה תרגיל קטן."
+    "sentence": "Walking is good exercise.",
+    "translation": "הליכה היא פעילות גופנית טובה."
   },
   {
     "id": "g02-08",
@@ -822,7 +822,7 @@
     "pos": "Verb",
     "meaning": "להתאים",
     "sentence": "That hat will suit her.",
-    "translation": "הכובע הזה מתאים לה."
+    "translation": "הכובע הזה יתאים לה."
   },
   {
     "id": "g02-21",
@@ -943,7 +943,7 @@
     "pos": "Verb",
     "meaning": "ליצור קשר",
     "sentence": "I will tell them to contact you.",
-    "translation": "אגיד להם לצור איתך קשר."
+    "translation": "אגיד להם ליצור איתך קשר."
   },
   {
     "id": "g02-32",
@@ -1052,8 +1052,8 @@
     "word": "ill",
     "pos": "Adjective",
     "meaning": "חולה",
-    "sentence": "I hear he is ill too.",
-    "translation": "גם אני שומע שהוא חולה."
+    "sentence": "I stayed home because I was ill.",
+    "translation": "נשארתי בבית כי הייתי חולה."
   },
   {
     "id": "g02-42",
@@ -1086,7 +1086,7 @@
     "pos": "Noun",
     "meaning": "מזל",
     "sentence": "We have not had much luck this week.",
-    "translation": "לא היה לי השבוע הרבה מזל."
+    "translation": "לא היה לנו השבוע הרבה מזל."
   },
   {
     "id": "g02-45",
@@ -1095,7 +1095,7 @@
     "serial": 685,
     "word": "operate",
     "pos": "Verb",
-    "meaning": "הִפְעִיל; תִּפְעֵל",
+    "meaning": "להפעיל; לתפעל",
     "sentence": "Can you operate this machine?",
     "translation": "אתה יכול להפעיל את המכונה הזאת?"
   },
@@ -1119,7 +1119,7 @@
     "pos": "Noun",
     "meaning": "נתח",
     "sentence": "The boy brought me a slice of pie.",
-    "translation": "דן הביא לי חתיכת פאי."
+    "translation": "הילד הביא לי פרוסת פאי."
   },
   {
     "id": "g02-48",
@@ -1129,8 +1129,8 @@
     "word": "be responsible for something",
     "pos": "Phrase",
     "meaning": "להיות אחראי למשהו",
-    "sentence": "I will not be responsible for my actions.",
-    "translation": "אני לא אהיה אחראי למעשיי."
+    "sentence": "We are responsible for keeping the classroom clean.",
+    "translation": "אנחנו אחראים לשמור על הכיתה נקייה."
   },
   {
     "id": "g02-49",
