@@ -1,0 +1,33 @@
+name: Verify Grade 7 full sequence
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/grade7-sequence-qa.yml'
+      - 'tools/grade7-vocab/verify_sequence.py'
+      - 'grade7/band2-groups-01-02/sequence.js'
+      - 'grade7/band2-groups-01-02/sequence.css'
+      - 'grade7/band2-groups-01-02/full.html'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: grade7-sequence-qa
+  cancel-in-progress: true
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright==1.55.0
+      - run: python -m playwright install --with-deps chromium
+      - run: python -u tools/grade7-vocab/verify_sequence.py
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: grade7-sequence-qa
+          path: grade7-sequence-qa.json
