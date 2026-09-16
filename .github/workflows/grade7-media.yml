@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths:
       - tools/build_grade7_vocab.py
+      - tools/refine_grade7_vocab.py
+      - tools/check_grade7_lesson.py
       - .github/workflows/grade7-media.yml
   workflow_dispatch:
 permissions:
@@ -24,15 +26,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Create complete source snapshot
-        run: python tools/build_grade7_vocab.py --data-only
-      - name: Commit source snapshot
+      - name: Create and align complete source snapshot
+        run: |
+          python tools/build_grade7_vocab.py --data-only
+          python tools/refine_grade7_vocab.py
+      - name: Commit source snapshot and navigation
         run: |
           git config user.name 'Teachers lesson builder'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add grade7/band2-groups-01-02/entries.json grade7/band2-groups-01-02/vocabulary-audit.txt
+          git add grade7/band2-groups-01-02/entries.json grade7/band2-groups-01-02/vocabulary-audit.txt grade7/band2-groups-01-02/lesson.css index.html
           if ! git diff --cached --quiet; then
-            git commit -m 'Snapshot all 110 Grade 7 vocabulary entries'
+            git commit -m 'Align Grade 7 translations and link full presentation'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
@@ -42,7 +46,7 @@ jobs:
           key: teachers-kokoro-v1-onnx-voices
       - name: Install neural speech dependencies
         run: |
-          python -m pip install kokoro-onnx==0.5.0 soundfile==0.13.1
+          python -m pip install kokoro-onnx==0.5.0 soundfile==0.13.1 playwright==1.55.0
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg
       - name: Generate and validate real MP3 files
@@ -51,11 +55,25 @@ jobs:
         run: |
           git add grade7/band2-groups-01-02/audio grade7/band2-groups-01-02/audio-manifest.json grade7/band2-groups-01-02/AUDIO-NOTICE.txt
           if ! git diff --cached --quiet; then
-            git commit -m 'Add 110 verified neural English narration MP3 files'
+            git commit -m 'Verify 110 final English narration MP3 files'
             for attempt in 1 2 3; do
               git pull --rebase origin main
-              if git push origin HEAD:main; then exit 0; fi
+              if git push origin HEAD:main; then break; fi
               sleep 3
             done
-            exit 1
+          fi
+      - name: Install browser for QA
+        run: python -m playwright install --with-deps chromium
+      - name: Verify complete lesson, gestures and public deployment
+        run: python -u tools/check_grade7_lesson.py
+      - name: Preserve verification report
+        if: always()
+        run: |
+          if [ -f grade7/band2-groups-01-02/qa-report.json ]; then
+            git add grade7/band2-groups-01-02/qa-report.json
+            if ! git diff --cached --quiet; then
+              git commit -m 'Record full Grade 7 browser and public website verification'
+              git pull --rebase origin main
+              git push origin HEAD:main
+            fi
           fi
