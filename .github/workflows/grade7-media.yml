@@ -1,0 +1,61 @@
+name: Build Grade 7 vocabulary and neural audio
+on:
+  push:
+    branches: [main]
+    paths:
+      - tools/build_grade7_vocab.py
+      - .github/workflows/grade7-media.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: grade7-neural-media
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      OMP_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Create complete source snapshot
+        run: python tools/build_grade7_vocab.py --data-only
+      - name: Commit source snapshot
+        run: |
+          git config user.name 'Teachers lesson builder'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add grade7/band2-groups-01-02/entries.json grade7/band2-groups-01-02/vocabulary-audit.txt
+          if ! git diff --cached --quiet; then
+            git commit -m 'Snapshot all 110 Grade 7 vocabulary entries'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/cache@v4
+        with:
+          path: .cache/kokoro-v1
+          key: teachers-kokoro-v1-onnx-voices
+      - name: Install neural speech dependencies
+        run: |
+          python -m pip install kokoro-onnx==0.5.0 soundfile==0.13.1
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+      - name: Generate and validate real MP3 files
+        run: python -u tools/build_grade7_vocab.py --audio
+      - name: Commit only lesson audio assets
+        run: |
+          git add grade7/band2-groups-01-02/audio grade7/band2-groups-01-02/audio-manifest.json grade7/band2-groups-01-02/AUDIO-NOTICE.txt
+          if ! git diff --cached --quiet; then
+            git commit -m 'Add 110 verified neural English narration MP3 files'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then exit 0; fi
+              sleep 3
+            done
+            exit 1
+          fi
