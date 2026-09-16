@@ -1,0 +1,1385 @@
+{
+  "title": "Advanced Grammar in an Essay",
+  "grade": "י״א · 5 יח״ל",
+  "durationMinutes": 90,
+  "wordCount": 125,
+  "paragraphs": [
+    "Some students enjoy school sports, while others worry about making mistakes. In my opinion, every student should have a chance to join class games, regardless of ability.",
+    "First, playing together helps students build friendships. When classmates support one another, they learn to work as a team. For example, passing the ball to a beginner can make that student feel included.",
+    "Moreover, equal chances can improve confidence. Some students have felt excluded from games. If they received more encouragement, they would feel safer trying again. Therefore, games should be organized so that everyone can take part.",
+    "In conclusion, schools should value participation as well as achievement. Although winning is exciting, learning to support others is more important. Therefore, teachers should encourage students to include every classmate."
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "kind": "cover",
+      "title": "ברוכים הבאים",
+      "text": "כיתה י״א · 5 יח״ל",
+      "he": "ישיבת בני עקיבא קריית הרצוג",
+      "note": "שיעור המשך לאחר השלמת Advanced Grammar. כעת מיישמים בכתיבה.",
+      "section": "plan"
+    },
+    {
+      "n": 2,
+      "kind": "info",
+      "title": "Advanced Grammar in an Essay",
+      "text": "A clear opinion. Developed reasons. Accurate language.",
+      "he": "נבנה חיבור דעה שלם, צעד אחר צעד.",
+      "note": "הסבירו: כל מבנה נכנס לחיבור משום שהוא מועיל לרעיון. אין צורך לדחוס את כל המבנים לכל משפט.",
+      "section": "plan"
+    },
+    {
+      "n": 3,
+      "kind": "info",
+      "title": "The writing task",
+      "text": "Should every student have a chance to take part in class sports games, even if they are not good at sports?",
+      "he": "כתבו את דעתכם ותמכו בה בנימוקים ובדוגמאות.",
+      "note": "נושא תרגול מקורי. אין כאן התחייבות לשאלה שתופיע במבחן.",
+      "section": "plan"
+    },
+    {
+      "n": 4,
+      "kind": "info",
+      "title": "מסגרת התרגול",
+      "text": "Introduction / Reason 1 / Reason 2 / Conclusion",
+      "he": "120–140 מילים. היום נתאמן בארבע פסקאות.",
+      "note": "האורך תואם למשימות G שפורסמו ב־2026. ארבע פסקאות הן מסגרת ההוראה שנבחרה לשיעור; יש לקרוא תמיד את הוראות המשימה בפועל.",
+      "section": "plan",
+      "source": "https://meyda.education.gov.il/sheeloney_bagrut/pitronot_bagrut/2026/6/016582-8-HEB-1400-1600.pdf"
+    },
+    {
+      "n": 5,
+      "kind": "info",
+      "title": "מה בדיוק מבקשים?",
+      "text": "Our focus: participation in class games.",
+      "he": "עמדה על שיתוף במשחקי הכיתה, גם כשהיכולת שונה.",
+      "note": "הבחינו בין השתתפות במשחק כיתתי לבין בחירת נבחרת תחרותית. הימנעו מחיבור כללי על יתרונות הספורט.",
+      "section": "plan"
+    },
+    {
+      "n": 6,
+      "kind": "timer",
+      "title": "תכנון קצר",
+      "text": "Write your opinion and two different reasons.",
+      "he": "רק שלוש הערות קצרות. עדיין לא כותבים חיבור.",
+      "note": "תנו 90 שניות. בקשו מתלמיד אחד להסביר מה ההבדל בין שני הנימוקים.",
+      "section": "plan",
+      "seconds": 90
+    },
+    {
+      "n": 7,
+      "kind": "info",
+      "title": "תוכנית לדוגמה",
+      "text": "Include everyone. Build friendships. Improve confidence.",
+      "he": "עמדה: לשתף את כולם. נימוק ראשון: חברות. נימוק שני: ביטחון עצמי.",
+      "note": "זו תוכנית אפשרית. אפשר לבחור עמדה אחרת ולנמק אותה היטב.",
+      "section": "plan"
+    },
+    {
+      "n": 8,
+      "kind": "animation",
+      "title": "הפוגה קצרה",
+      "text": "Planning is half the game. Aiming helps too.",
+      "he": "",
+      "note": "תכנון לפני כתיבה. 10 שניות, בלי משימה נוספת.",
+      "section": "plan",
+      "asset": "tiny-goal",
+      "alt": "חתול זורק כדור נייר לסל והוא נוחת על ראשו.",
+      "seconds": 10.8
+    },
+    {
+      "n": 9,
+      "kind": "info",
+      "title": "עמדה במשפט ברור",
+      "text": "Every student should have a chance to join class games.",
+      "he": "נושא, פועל והמשך שמביעים עמדה.",
+      "note": "התחילו במשפט נקי. אין צורך לפתוח בקלישאה כללית כגון Nowadays everything is important.",
+      "section": "intro"
+    },
+    {
+      "n": 10,
+      "kind": "example",
+      "title": "פסקת פתיחה",
+      "text": "Some students enjoy school sports, while others worry about making mistakes. In my opinion, every student should have a chance to join class games, regardless of ability.",
+      "he": "",
+      "note": "הפתיחה מציגה את הנושא ואת העמדה. while מציג ניגוד בתוך המשפט הראשון.",
+      "section": "intro",
+      "pair": "reveal-10",
+      "reveal": false,
+      "tense": "",
+      "highlights": [
+        "while",
+        "In my opinion"
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "example",
+      "title": "פסקת פתיחה",
+      "text": "Some students enjoy school sports, while others worry about making mistakes. In my opinion, every student should have a chance to join class games, regardless of ability.",
+      "he": "יש תלמידים שנהנים מספורט בבית הספר, ואחרים חוששים לטעות. לדעתי, לכל תלמיד צריכה להיות הזדמנות להשתתף במשחקי הכיתה, בלי קשר ליכולת.",
+      "note": "הפתיחה מציגה את הנושא ואת העמדה. while מציג ניגוד בתוך המשפט הראשון.",
+      "section": "intro",
+      "pair": "reveal-10",
+      "reveal": true,
+      "tense": "",
+      "highlights": [
+        "while",
+        "In my opinion"
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "choice",
+      "title": "עמדה ממוקדת",
+      "text": "Which sentence directly answers the task?",
+      "he": "",
+      "note": "האפשרות השנייה עונה לשאלה על שיתוף תלמידים במשחק. משפט כללי על ספורט אינו מספיק.",
+      "section": "intro",
+      "pair": "choice-12",
+      "reveal": false,
+      "options": [
+        "Sport is very popular around the world.",
+        "Every classmate should have a chance to join the game.",
+        "There are many different kinds of sports."
+      ],
+      "correct": 1
+    },
+    {
+      "n": 13,
+      "kind": "choice",
+      "title": "עמדה ממוקדת",
+      "text": "Which sentence directly answers the task?",
+      "he": "האפשרות השנייה עונה לשאלה על שיתוף תלמידים במשחק. משפט כללי על ספורט אינו מספיק.",
+      "note": "האפשרות השנייה עונה לשאלה על שיתוף תלמידים במשחק. משפט כללי על ספורט אינו מספיק.",
+      "section": "intro",
+      "pair": "choice-12",
+      "reveal": true,
+      "options": [
+        "Sport is very popular around the world.",
+        "Every classmate should have a chance to join the game.",
+        "There are many different kinds of sports."
+      ],
+      "correct": 1
+    },
+    {
+      "n": 14,
+      "kind": "animation",
+      "title": "הפוגה קצרה",
+      "text": "He has read half the message. He has formed a whole opinion.",
+      "he": "",
+      "note": "קשר בין קריאת המשימה לגיבוש עמדה. אפשר לחייך ולהמשיך.",
+      "section": "intro",
+      "asset": "half-message",
+      "alt": "חתול מסיק מסקנה מוקדם מדי מקריאה בטלפון.",
+      "seconds": 10.8
+    },
+    {
+      "n": 15,
+      "kind": "info",
+      "title": "פסקת נימוק",
+      "text": "Reason + explanation + example",
+      "he": "כל פסקת גוף מפתחת רעיון אחד: נימוק, הסבר ואז דוגמה.",
+      "note": "אין חובה שכל פסקה תהיה באותו אורך. הדוגמה חייבת להראות איך הנימוק פועל.",
+      "section": "gerund"
+    },
+    {
+      "n": 16,
+      "kind": "example",
+      "title": "Gerund כנושא המשפט",
+      "text": "Playing together helps students build friendships.",
+      "he": "",
+      "note": "Playing together היא הפעילות שעליה מדברים. כל הצירוף משמש נושא יחיד, ולכן helps.",
+      "section": "gerund",
+      "pair": "reveal-16",
+      "reveal": false,
+      "tense": "הווה",
+      "highlights": [
+        "Playing together",
+        "helps"
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "example",
+      "title": "Gerund כנושא המשפט",
+      "text": "Playing together helps students build friendships.",
+      "he": "משחק משותף עוזר לתלמידים ליצור חברויות.",
+      "note": "Playing together היא הפעילות שעליה מדברים. כל הצירוף משמש נושא יחיד, ולכן helps.",
+      "section": "gerund",
+      "pair": "reveal-16",
+      "reveal": true,
+      "tense": "הווה",
+      "highlights": [
+        "Playing together",
+        "helps"
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "info",
+      "title": "שם של פעילות",
+      "text": "Playing together helps students.",
+      "he": "Gerund הוא פועל עם ing שמתפקד כשם עצם. כאן הוא נושא המשפט.",
+      "note": "הבחינו בין Playing helps לבין They are playing. בשני יש פעולה בזמן מתמשך; בשיעור משתמשים בפעילות כשם עצם.",
+      "section": "gerund"
+    },
+    {
+      "n": 19,
+      "kind": "gap",
+      "title": "Gerund והסכמה עם הפועל",
+      "text": "___ together helps students build friendships.",
+      "he": "",
+      "note": "התלמידים אומרים אות ומסבירים לפני החשיפה.",
+      "section": "gerund",
+      "pair": "gap-19",
+      "reveal": false,
+      "before": "",
+      "after": " together helps students build friendships.",
+      "options": [
+        "Play",
+        "Playing",
+        "Played"
+      ],
+      "correct": 1,
+      "tense": "הווה"
+    },
+    {
+      "n": 20,
+      "kind": "gap",
+      "title": "Gerund והסכמה עם הפועל",
+      "text": "___ together helps students build friendships.",
+      "he": "Playing together משמש נושא יחיד. לכן נכתוב helps.",
+      "note": "התלמידים אומרים אות ומסבירים לפני החשיפה.",
+      "section": "gerund",
+      "pair": "gap-19",
+      "reveal": true,
+      "before": "",
+      "after": " together helps students build friendships.",
+      "options": [
+        "Play",
+        "Playing",
+        "Played"
+      ],
+      "correct": 1,
+      "tense": "הווה"
+    },
+    {
+      "n": 21,
+      "kind": "gap",
+      "title": "אחרי מילת יחס",
+      "text": "Students learn teamwork by ___ together.",
+      "he": "",
+      "note": "הדגישו: מבנה נוסף שאפשר להשתמש בו לפי הצורך, ולא תוספת חובה לחיבור שלנו.",
+      "section": "gerund",
+      "pair": "gap-21",
+      "reveal": false,
+      "before": "Students learn teamwork by ",
+      "after": " together.",
+      "options": [
+        "work",
+        "worked",
+        "working"
+      ],
+      "correct": 2,
+      "tense": "הווה"
+    },
+    {
+      "n": 22,
+      "kind": "gap",
+      "title": "אחרי מילת יחס",
+      "text": "Students learn teamwork by ___ together.",
+      "he": "אחרי מילת היחס by משתמשים ב־gerund: by working.",
+      "note": "הדגישו: מבנה נוסף שאפשר להשתמש בו לפי הצורך, ולא תוספת חובה לחיבור שלנו.",
+      "section": "gerund",
+      "pair": "gap-21",
+      "reveal": true,
+      "before": "Students learn teamwork by ",
+      "after": " together.",
+      "options": [
+        "work",
+        "worked",
+        "working"
+      ],
+      "correct": 2,
+      "tense": "הווה"
+    },
+    {
+      "n": 23,
+      "kind": "info",
+      "title": "נימוק עם הסבר",
+      "text": "First, playing together helps students build friendships. When classmates support one another, they learn to work as a team.",
+      "he": "הנימוק מציג חברות. ההסבר מראה מה התלמידים עושים יחד.",
+      "note": "שאלו: האם המשפט השני מוסיף מידע, או רק חוזר על הראשון?",
+      "section": "gerund"
+    },
+    {
+      "n": 24,
+      "kind": "animation",
+      "title": "הפוגה קצרה",
+      "text": "Balancing books is easier in the instructions.",
+      "he": "",
+      "note": "Balancing הוא נושא המשפט. לא חייבים לענות על שאלה בכל הפוגה.",
+      "section": "gerund",
+      "asset": "word-order",
+      "alt": "חתול מאזן ספרים והם נוחתים על ראשו.",
+      "seconds": 10.8
+    },
+    {
+      "n": 25,
+      "kind": "gap",
+      "title": "סיבה",
+      "text": "Students feel included ___ their classmates pass them the ball.",
+      "he": "",
+      "note": "Because מחבר סיבה למשפט. אחריו מופיע משפט עם נושא ופועל.",
+      "section": "connectors",
+      "pair": "gap-25",
+      "reveal": false,
+      "before": "Students feel included ",
+      "after": " their classmates pass them the ball.",
+      "options": [
+        "therefore",
+        "because",
+        "however"
+      ],
+      "correct": 1,
+      "tense": "הווה"
+    },
+    {
+      "n": 26,
+      "kind": "gap",
+      "title": "סיבה",
+      "text": "Students feel included ___ their classmates pass them the ball.",
+      "he": "Because מחבר סיבה למשפט. אחריו מופיע משפט עם נושא ופועל.",
+      "note": "Because מחבר סיבה למשפט. אחריו מופיע משפט עם נושא ופועל.",
+      "section": "connectors",
+      "pair": "gap-25",
+      "reveal": true,
+      "before": "Students feel included ",
+      "after": " their classmates pass them the ball.",
+      "options": [
+        "therefore",
+        "because",
+        "however"
+      ],
+      "correct": 1,
+      "tense": "הווה"
+    },
+    {
+      "n": 27,
+      "kind": "gap",
+      "title": "תוצאה",
+      "text": "Classmates encourage beginners. ___, beginners feel more confident.",
+      "he": "",
+      "note": "Therefore מציג תוצאה. כאן הוא פותח משפט חדש ואחריו פסיק.",
+      "section": "connectors",
+      "pair": "gap-27",
+      "reveal": false,
+      "before": "Classmates encourage beginners. ",
+      "after": ", beginners feel more confident.",
+      "options": [
+        "However",
+        "For example",
+        "Therefore"
+      ],
+      "correct": 2,
+      "tense": "הווה"
+    },
+    {
+      "n": 28,
+      "kind": "gap",
+      "title": "תוצאה",
+      "text": "Classmates encourage beginners. ___, beginners feel more confident.",
+      "he": "Therefore מציג תוצאה. כאן הוא פותח משפט חדש ואחריו פסיק.",
+      "note": "Therefore מציג תוצאה. כאן הוא פותח משפט חדש ואחריו פסיק.",
+      "section": "connectors",
+      "pair": "gap-27",
+      "reveal": true,
+      "before": "Classmates encourage beginners. ",
+      "after": ", beginners feel more confident.",
+      "options": [
+        "However",
+        "For example",
+        "Therefore"
+      ],
+      "correct": 2,
+      "tense": "הווה"
+    },
+    {
+      "n": 29,
+      "kind": "gap",
+      "title": "ניגוד",
+      "text": "Winning is exciting. ___, participation also matters.",
+      "he": "",
+      "note": "However מציג ניגוד או הסתייגות. הוא אינו מציג סיבה.",
+      "section": "connectors",
+      "pair": "gap-29",
+      "reveal": false,
+      "before": "Winning is exciting. ",
+      "after": ", participation also matters.",
+      "options": [
+        "However",
+        "Because",
+        "For example"
+      ],
+      "correct": 0,
+      "tense": "הווה"
+    },
+    {
+      "n": 30,
+      "kind": "gap",
+      "title": "ניגוד",
+      "text": "Winning is exciting. ___, participation also matters.",
+      "he": "However מציג ניגוד או הסתייגות. הוא אינו מציג סיבה.",
+      "note": "However מציג ניגוד או הסתייגות. הוא אינו מציג סיבה.",
+      "section": "connectors",
+      "pair": "gap-29",
+      "reveal": true,
+      "before": "Winning is exciting. ",
+      "after": ", participation also matters.",
+      "options": [
+        "However",
+        "Because",
+        "For example"
+      ],
+      "correct": 0,
+      "tense": "הווה"
+    },
+    {
+      "n": 31,
+      "kind": "info",
+      "title": "מילות קישור ומשמעות",
+      "text": "because + reason\nFor example, + example\nHowever, + contrast\nTherefore, + result",
+      "he": "בחרו קשר שמתאים לרעיון, ושמרו על פיסוק מתאים.",
+      "note": "דוגמאות הפיסוק כאן מראות דרך בטוחה לתלמידים: However ו־Therefore בתחילת משפט חדש. קיימים גם מבנים תקינים נוספים.",
+      "section": "connectors"
+    },
+    {
+      "n": 32,
+      "kind": "animation",
+      "title": "הפוגה קצרה",
+      "text": "The book is tiny. However, the jump is dramatic.",
+      "he": "",
+      "note": "הניגוד בין מכשול קטן לתגובה גדולה ממחיש However.",
+      "section": "connectors",
+      "asset": "however-cat",
+      "alt": "חתול קופץ מעל ספר זעיר בהגזמה.",
+      "seconds": 10.8
+    },
+    {
+      "n": 33,
+      "kind": "info",
+      "title": "פסקת הגוף הראשונה",
+      "text": "First, playing together helps students build friendships. When classmates support one another, they learn to work as a team. For example, passing the ball to a beginner can make that student feel included.",
+      "he": "נימוק, הסבר ודוגמה שממחישה שיתוף. ",
+      "note": "קראו את הפסקה כמכלול. First מסמן נימוק ראשון; For example מציג את הדוגמה. playing ו־passing משמשים gerunds.",
+      "section": "connectors",
+      "highlights": [
+        "First",
+        "playing together",
+        "For example",
+        "passing the ball"
+      ]
+    },
+    {
+      "n": 34,
+      "kind": "example",
+      "title": "Active: מי עושה את הפעולה?",
+      "text": "Teachers should organize games fairly.",
+      "he": "",
+      "note": "משפט פעיל. המוקד הוא במורים שמארגנים.",
+      "section": "passive",
+      "pair": "reveal-34",
+      "reveal": false,
+      "tense": "",
+      "highlights": [
+        "Teachers",
+        "should organize"
+      ]
+    },
+    {
+      "n": 35,
+      "kind": "example",
+      "title": "Active: מי עושה את הפעולה?",
+      "text": "Teachers should organize games fairly.",
+      "he": "המורים צריכים לארגן את המשחקים בהוגנות.",
+      "note": "משפט פעיל. המוקד הוא במורים שמארגנים.",
+      "section": "passive",
+      "pair": "reveal-34",
+      "reveal": true,
+      "tense": "",
+      "highlights": [
+        "Teachers",
+        "should organize"
+      ]
+    },
+    {
+      "n": 36,
+      "kind": "example",
+      "title": "Passive: המוקד במשחקים",
+      "text": "Games should be organized fairly.",
+      "he": "",
+      "note": "המשמעות נשמרת. שינינו את מוקד המשפט למשחקים. אין צורך ב־by teachers כשהמבצע מובן מההקשר.",
+      "section": "passive",
+      "pair": "reveal-36",
+      "reveal": false,
+      "tense": "",
+      "highlights": [
+        "Games",
+        "should be organized"
+      ]
+    },
+    {
+      "n": 37,
+      "kind": "example",
+      "title": "Passive: המוקד במשחקים",
+      "text": "Games should be organized fairly.",
+      "he": "המשחקים צריכים להיות מאורגנים בהוגנות.",
+      "note": "המשמעות נשמרת. שינינו את מוקד המשפט למשחקים. אין צורך ב־by teachers כשהמבצע מובן מההקשר.",
+      "section": "passive",
+      "pair": "reveal-36",
+      "reveal": true,
+      "tense": "",
+      "highlights": [
+        "Games",
+        "should be organized"
+      ]
+    },
+    {
+      "n": 38,
+      "kind": "info",
+      "title": "מבנה הסביל אחרי should",
+      "text": "subject + should + be + V3",
+      "he": "הנושא מקבל את הפעולה. אחרי should מוסיפים be ואת צורת V3.",
+      "note": "למשל: games should be organized; every student should be included. המילה should אינה משתנה לפי הנושא.",
+      "section": "passive"
+    },
+    {
+      "n": 39,
+      "kind": "gap",
+      "title": "השלמת Passive",
+      "text": "Games should ___ so that everyone can take part.",
+      "he": "",
+      "note": "should be organized הוא מבנה סביל תקין: should + be + V3.",
+      "section": "passive",
+      "pair": "gap-39",
+      "reveal": false,
+      "before": "Games should ",
+      "after": " so that everyone can take part.",
+      "options": [
+        "be organized",
+        "organize",
+        "be organizing"
+      ],
+      "correct": 0,
+      "tense": ""
+    },
+    {
+      "n": 40,
+      "kind": "gap",
+      "title": "השלמת Passive",
+      "text": "Games should ___ so that everyone can take part.",
+      "he": "should be organized הוא מבנה סביל תקין: should + be + V3.",
+      "note": "should be organized הוא מבנה סביל תקין: should + be + V3.",
+      "section": "passive",
+      "pair": "gap-39",
+      "reveal": true,
+      "before": "Games should ",
+      "after": " so that everyone can take part.",
+      "options": [
+        "be organized",
+        "organize",
+        "be organizing"
+      ],
+      "correct": 0,
+      "tense": ""
+    },
+    {
+      "n": 41,
+      "kind": "choice",
+      "title": "איזה משפט תקין?",
+      "text": "The focus is on including every student.",
+      "he": "",
+      "note": "צריך גם be וגם V3: should be included. אין להשמיט אחד מהם.",
+      "section": "passive",
+      "pair": "choice-41",
+      "reveal": false,
+      "options": [
+        "Every student should included.",
+        "Every student should be included.",
+        "Every student should be include."
+      ],
+      "correct": 1
+    },
+    {
+      "n": 42,
+      "kind": "choice",
+      "title": "איזה משפט תקין?",
+      "text": "The focus is on including every student.",
+      "he": "צריך גם be וגם V3: should be included. אין להשמיט אחד מהם.",
+      "note": "צריך גם be וגם V3: should be included. אין להשמיט אחד מהם.",
+      "section": "passive",
+      "pair": "choice-41",
+      "reveal": true,
+      "options": [
+        "Every student should included.",
+        "Every student should be included.",
+        "Every student should be include."
+      ],
+      "correct": 1
+    },
+    {
+      "n": 43,
+      "kind": "animation",
+      "title": "הפוגה קצרה",
+      "text": "The message was delivered. To the wrong head.",
+      "he": "",
+      "note": "הדגמה משעשעת של passive: המוקד במה שקרה להודעה.",
+      "section": "passive",
+      "asset": "wrong-envelope",
+      "alt": "מעטפה נוחתת על ראשו של חתול.",
+      "seconds": 10.8
+    },
+    {
+      "n": 44,
+      "kind": "info",
+      "title": "Present Perfect והקשר להווה",
+      "text": "Some students have felt excluded from games.",
+      "he": "מתארים ניסיון או מצב מן העבר שיש לו משמעות עכשיו.",
+      "note": "הרגשת ההדרה מהעבר מסבירה למה צריך לפעול כעת. לא מציינים כאן זמן עבר מסוים כגון yesterday.",
+      "section": "perfect"
+    },
+    {
+      "n": 45,
+      "kind": "example",
+      "title": "ניסיון קודם, משמעות עכשיו",
+      "text": "Some students have felt excluded from games.",
+      "he": "",
+      "note": "זהו ניסיון קודם שרלוונטי לטיעון בהווה. הפועל feel מופיע בצורת V3: felt.",
+      "section": "perfect",
+      "pair": "reveal-45",
+      "reveal": false,
+      "tense": "",
+      "highlights": [
+        "have felt"
+      ]
+    },
+    {
+      "n": 46,
+      "kind": "example",
+      "title": "ניסיון קודם, משמעות עכשיו",
+      "text": "Some students have felt excluded from games.",
+      "he": "יש תלמידים שהרגישו מודרים ממשחקים.",
+      "note": "זהו ניסיון קודם שרלוונטי לטיעון בהווה. הפועל feel מופיע בצורת V3: felt.",
+      "section": "perfect",
+      "pair": "reveal-45",
+      "reveal": true,
+      "tense": "",
+      "highlights": [
+        "have felt"
+      ]
+    },
+    {
+      "n": 47,
+      "kind": "info",
+      "title": "מבנה Present Perfect",
+      "text": "have / has + V3",
+      "he": "עם I / you / we / they משתמשים ב־have. עם he / she / it משתמשים ב־has.",
+      "note": "אל תוסיפו תווית הווה/עבר בודדת למשפט הזה: המבנה מחבר ניסיון קודם להווה.",
+      "section": "perfect"
+    },
+    {
+      "n": 48,
+      "kind": "gap",
+      "title": "צורת V3",
+      "text": "Some students have ___ excluded from games.",
+      "he": "",
+      "note": "V3 של feel הוא felt. לכן: have felt.",
+      "section": "perfect",
+      "pair": "gap-48",
+      "reveal": false,
+      "before": "Some students have ",
+      "after": " excluded from games.",
+      "options": [
+        "feel",
+        "feeling",
+        "felt"
+      ],
+      "correct": 2,
+      "tense": ""
+    },
+    {
+      "n": 49,
+      "kind": "gap",
+      "title": "צורת V3",
+      "text": "Some students have ___ excluded from games.",
+      "he": "V3 של feel הוא felt. לכן: have felt.",
+      "note": "V3 של feel הוא felt. לכן: have felt.",
+      "section": "perfect",
+      "pair": "gap-48",
+      "reveal": true,
+      "before": "Some students have ",
+      "after": " excluded from games.",
+      "options": [
+        "feel",
+        "feeling",
+        "felt"
+      ],
+      "correct": 2,
+      "tense": ""
+    },
+    {
+      "n": 50,
+      "kind": "choice",
+      "title": "זמן עבר מוגדר",
+      "text": "Which sentence fits the time expression yesterday?",
+      "he": "",
+      "note": "Yesterday מציין זמן עבר שהסתיים. כאן משתמשים ב־Past Simple: felt.",
+      "section": "perfect",
+      "pair": "choice-50",
+      "reveal": false,
+      "options": [
+        "Yesterday, Tom has felt left out.",
+        "Yesterday, Tom felt left out.",
+        "Yesterday, Tom have felt left out."
+      ],
+      "correct": 1
+    },
+    {
+      "n": 51,
+      "kind": "choice",
+      "title": "זמן עבר מוגדר",
+      "text": "Which sentence fits the time expression yesterday?",
+      "he": "Yesterday מציין זמן עבר שהסתיים. כאן משתמשים ב־Past Simple: felt.",
+      "note": "Yesterday מציין זמן עבר שהסתיים. כאן משתמשים ב־Past Simple: felt.",
+      "section": "perfect",
+      "pair": "choice-50",
+      "reveal": true,
+      "options": [
+        "Yesterday, Tom has felt left out.",
+        "Yesterday, Tom felt left out.",
+        "Yesterday, Tom have felt left out."
+      ],
+      "correct": 1
+    },
+    {
+      "n": 52,
+      "kind": "animation",
+      "title": "הפוגה קצרה",
+      "text": "He has climbed three books. He needs a holiday.",
+      "he": "",
+      "note": "תוצאה עד כה: has climbed. הפוגה קצרה.",
+      "section": "perfect",
+      "asset": "so-far",
+      "alt": "חתול מטפס על ספרים כאילו טיפס על הר.",
+      "seconds": 10.8
+    },
+    {
+      "n": 53,
+      "kind": "info",
+      "title": "Second Conditional",
+      "text": "More encouragement could change how students feel.",
+      "he": "מדמיינים שינוי במצב ומסבירים מה הייתה התוצאה שלו.",
+      "note": "זו דרך לפתח טיעון, לא רק להדגים נוסחה דקדוקית.",
+      "section": "conditionals"
+    },
+    {
+      "n": 54,
+      "kind": "info",
+      "title": "מבנה תנאי שני",
+      "text": "If + Past Simple, would + base verb",
+      "he": "בחלק של if משתמשים ב־Past Simple. בחלק השני: would והפועל הבסיסי.",
+      "note": "צורת העבר מסמנת כאן מצב היפותטי בהווה או בעתיד, ולא אירוע שהתרחש בעבר. לכן אין תווית עבר צהובה.",
+      "section": "conditionals"
+    },
+    {
+      "n": 55,
+      "kind": "example",
+      "title": "השינוי והתוצאה",
+      "text": "If they received more encouragement, they would feel safer trying again.",
+      "he": "",
+      "note": "they מתייחס לתלמידים שהרגישו מודרים. תנו לתלמידים לזהות את השינוי ואת התוצאה לפני התרגום.",
+      "section": "conditionals",
+      "pair": "reveal-55",
+      "reveal": false,
+      "tense": "",
+      "highlights": [
+        "If",
+        "received",
+        "would feel"
+      ]
+    },
+    {
+      "n": 56,
+      "kind": "example",
+      "title": "השינוי והתוצאה",
+      "text": "If they received more encouragement, they would feel safer trying again.",
+      "he": "אם הם היו מקבלים יותר עידוד, הם היו מרגישים בטוחים יותר לנסות שוב.",
+      "note": "they מתייחס לתלמידים שהרגישו מודרים. תנו לתלמידים לזהות את השינוי ואת התוצאה לפני התרגום.",
+      "section": "conditionals",
+      "pair": "reveal-55",
+      "reveal": true,
+      "tense": "",
+      "highlights": [
+        "If",
+        "received",
+        "would feel"
+      ]
+    },
+    {
+      "n": 57,
+      "kind": "gap",
+      "title": "תוצאה היפותטית",
+      "text": "If they received more encouragement, they ___ safer trying again.",
+      "he": "",
+      "note": "עם If + Past Simple משתמשים כאן ב־would + base verb. הכוונה לתוצאה היפותטית.",
+      "section": "conditionals",
+      "pair": "gap-57",
+      "reveal": false,
+      "before": "If they received more encouragement, they ",
+      "after": " safer trying again.",
+      "options": [
+        "will feel",
+        "would feel",
+        "felt"
+      ],
+      "correct": 1,
+      "tense": ""
+    },
+    {
+      "n": 58,
+      "kind": "gap",
+      "title": "תוצאה היפותטית",
+      "text": "If they received more encouragement, they ___ safer trying again.",
+      "he": "עם If + Past Simple משתמשים כאן ב־would + base verb. הכוונה לתוצאה היפותטית.",
+      "note": "עם If + Past Simple משתמשים כאן ב־would + base verb. הכוונה לתוצאה היפותטית.",
+      "section": "conditionals",
+      "pair": "gap-57",
+      "reveal": true,
+      "before": "If they received more encouragement, they ",
+      "after": " safer trying again.",
+      "options": [
+        "will feel",
+        "would feel",
+        "felt"
+      ],
+      "correct": 1,
+      "tense": ""
+    },
+    {
+      "n": 59,
+      "kind": "info",
+      "title": "First Conditional",
+      "text": "If we include every classmate tomorrow, more students will enjoy the game.",
+      "he": "מתארים אפשרות ממשית בעתיד ואת התוצאה הצפויה שלה.",
+      "note": "זהו משפט חלופי למסר עתידי. לא חייבים להכניס לחיבור גם תנאי ראשון וגם תנאי שני.",
+      "section": "conditionals",
+      "tense": "עתיד"
+    },
+    {
+      "n": 60,
+      "kind": "gap",
+      "title": "אפשרות ממשית בעתיד",
+      "text": "If we include every classmate tomorrow, more students ___ the game.",
+      "he": "",
+      "note": "First Conditional: בחלק של if יש Present Simple; בחלק התוצאה will + base verb.",
+      "section": "conditionals",
+      "pair": "gap-60",
+      "reveal": false,
+      "before": "If we include every classmate tomorrow, more students ",
+      "after": " the game.",
+      "options": [
+        "would enjoy",
+        "will enjoy",
+        "enjoyed"
+      ],
+      "correct": 1,
+      "tense": "עתיד"
+    },
+    {
+      "n": 61,
+      "kind": "gap",
+      "title": "אפשרות ממשית בעתיד",
+      "text": "If we include every classmate tomorrow, more students ___ the game.",
+      "he": "First Conditional: בחלק של if יש Present Simple; בחלק התוצאה will + base verb.",
+      "note": "First Conditional: בחלק של if יש Present Simple; בחלק התוצאה will + base verb.",
+      "section": "conditionals",
+      "pair": "gap-60",
+      "reveal": true,
+      "before": "If we include every classmate tomorrow, more students ",
+      "after": " the game.",
+      "options": [
+        "would enjoy",
+        "will enjoy",
+        "enjoyed"
+      ],
+      "correct": 1,
+      "tense": "עתיד"
+    },
+    {
+      "n": 62,
+      "kind": "animation",
+      "title": "הפוגה קצרה",
+      "text": "If his glasses were smaller, he would look less surprised.",
+      "he": "",
+      "note": "משפט תנאי דמיוני הקשור לתמונה.",
+      "section": "conditionals",
+      "asset": "serious-cat",
+      "alt": "חתול עם משקפיים ענקיים שמחליקים.",
+      "seconds": 10.8
+    },
+    {
+      "n": 63,
+      "kind": "info",
+      "title": "בחירת סוג התנאי",
+      "text": "If we include them, they will enjoy the game.\nIf they received more encouragement, they would feel safer.",
+      "he": "תנאי ראשון: תוצאה צפויה של אפשרות ממשית. תנאי שני: תוצאה של מצב היפותטי.",
+      "note": "בפסקת הדוגמה נבחר בתנאי השני כדי לדמיין שינוי. שימוש מדויק אחד מועיל יותר מרשימת מבנים.",
+      "section": "conditionals"
+    },
+    {
+      "n": 64,
+      "kind": "info",
+      "title": "פסקת הגוף השנייה",
+      "text": "Moreover, equal chances can improve confidence. Some students have felt excluded from games. If they received more encouragement, they would feel safer trying again. Therefore, games should be organized so that everyone can take part.",
+      "he": "הנימוק הוא ביטחון עצמי. שאר המשפטים מפתחים אותו.",
+      "note": "הקריאו ברצף. Some students מציג ניסיון קודם; If מראה שינוי אפשרי; Therefore מציג מסקנה מעשית: לארגן את המשחק כך שכולם יוכלו להשתתף.",
+      "section": "body2",
+      "highlights": [
+        "Moreover",
+        "have felt",
+        "If",
+        "would feel",
+        "Therefore",
+        "should be organized"
+      ]
+    },
+    {
+      "n": 65,
+      "kind": "info",
+      "title": "לכל מבנה יש תפקיד",
+      "text": "experience / imagined change / focus on the action",
+      "he": "Perfect: ניסיון קודם. Conditional: שינוי אפשרי. Passive: ארגון המשחקים.",
+      "note": "אין צורך להוסיף שמות מבנים בתוך החיבור המוגש. בתרגול נסמן אותם אחרי שהכתיבה הושלמה.",
+      "section": "body2"
+    },
+    {
+      "n": 66,
+      "kind": "choice",
+      "title": "Although בחיבור",
+      "text": "Which sentence connects the ideas correctly?",
+      "he": "",
+      "note": "Although כבר מציג ניגוד. לא מוסיפים but או so באותו מבנה.",
+      "section": "conclusion",
+      "pair": "choice-66",
+      "reveal": false,
+      "options": [
+        "Although winning is exciting, but learning to support others matters more.",
+        "Although winning is exciting, learning to support others matters more.",
+        "Although winning is exciting, so learning to support others matters more."
+      ],
+      "correct": 1
+    },
+    {
+      "n": 67,
+      "kind": "choice",
+      "title": "Although בחיבור",
+      "text": "Which sentence connects the ideas correctly?",
+      "he": "Although כבר מציג ניגוד. לא מוסיפים but או so באותו מבנה.",
+      "note": "Although כבר מציג ניגוד. לא מוסיפים but או so באותו מבנה.",
+      "section": "conclusion",
+      "pair": "choice-66",
+      "reveal": true,
+      "options": [
+        "Although winning is exciting, but learning to support others matters more.",
+        "Although winning is exciting, learning to support others matters more.",
+        "Although winning is exciting, so learning to support others matters more."
+      ],
+      "correct": 1
+    },
+    {
+      "n": 68,
+      "kind": "example",
+      "title": "פסקת סיום",
+      "text": "In conclusion, schools should value participation as well as achievement. Although winning is exciting, learning to support others is more important. Therefore, teachers should encourage students to include every classmate.",
+      "he": "",
+      "note": "הסיום חוזר לעמדה ומסיק מסקנה. אין לפתוח בו נימוק חדש שלא פותח קודם.",
+      "section": "conclusion",
+      "pair": "reveal-68",
+      "reveal": false,
+      "tense": "",
+      "highlights": [
+        "In conclusion",
+        "Although",
+        "Therefore"
+      ]
+    },
+    {
+      "n": 69,
+      "kind": "example",
+      "title": "פסקת סיום",
+      "text": "In conclusion, schools should value participation as well as achievement. Although winning is exciting, learning to support others is more important. Therefore, teachers should encourage students to include every classmate.",
+      "he": "לסיכום, על בתי הספר להעריך השתתפות לצד הישגים. אף שניצחון מרגש, למידה לתמוך באחרים חשובה יותר. לכן, על המורים לעודד שיתוף של כל חבר לכיתה.",
+      "note": "הסיום חוזר לעמדה ומסיק מסקנה. אין לפתוח בו נימוק חדש שלא פותח קודם.",
+      "section": "conclusion",
+      "pair": "reveal-68",
+      "reveal": true,
+      "tense": "",
+      "highlights": [
+        "In conclusion",
+        "Although",
+        "Therefore"
+      ]
+    },
+    {
+      "n": 70,
+      "kind": "animation",
+      "title": "הפוגה קצרה",
+      "text": "They have tried three times. Teamwork takes practice.",
+      "he": "",
+      "note": "מחזיר לנושא של שיתוף פעולה ולזמן perfect.",
+      "section": "conclusion",
+      "asset": "two-friends",
+      "alt": "שני חתולים מחטיאים כיף ולבסוף מצליחים.",
+      "seconds": 10.8
+    },
+    {
+      "n": 71,
+      "kind": "essay",
+      "title": "החיבור השלם",
+      "text": "Some students enjoy school sports, while others worry about making mistakes. In my opinion, every student should have a chance to join class games, regardless of ability.\n\nFirst, playing together helps students build friendships. When classmates support one another, they learn to work as a team. For example, passing the ball to a beginner can make that student feel included.\n\nMoreover, equal chances can improve confidence. Some students have felt excluded from games. If they received more encouragement, they would feel safer trying again. Therefore, games should be organized so that everyone can take part.\n\nIn conclusion, schools should value participation as well as achievement. Although winning is exciting, learning to support others is more important. Therefore, teachers should encourage students to include every classmate.",
+      "he": "125 מילים · ארבע פסקאות",
+      "note": "קראו את החיבור ברצף לפני שמסמנים מבנים. שאלו אם העמדה נשארת עקבית.",
+      "section": "essay",
+      "paragraphs": [
+        "Some students enjoy school sports, while others worry about making mistakes. In my opinion, every student should have a chance to join class games, regardless of ability.",
+        "First, playing together helps students build friendships. When classmates support one another, they learn to work as a team. For example, passing the ball to a beginner can make that student feel included.",
+        "Moreover, equal chances can improve confidence. Some students have felt excluded from games. If they received more encouragement, they would feel safer trying again. Therefore, games should be organized so that everyone can take part.",
+        "In conclusion, schools should value participation as well as achievement. Although winning is exciting, learning to support others is more important. Therefore, teachers should encourage students to include every classmate."
+      ],
+      "source": "https://meyda.education.gov.il/sheeloney_bagrut/pitronot_bagrut/2026/6/016582-8-HEB-1400-1600.pdf"
+    },
+    {
+      "n": 72,
+      "kind": "info",
+      "title": "הפתיחה מחזיקה את העמדה",
+      "text": "Some students enjoy school sports, while others worry about making mistakes. In my opinion, every student should have a chance to join class games, regardless of ability.",
+      "he": "הנושא מוצג, ויש תשובה ברורה לשאלה.",
+      "note": "שאלו: איזה משפט מבטא את העמדה? זהו שיתוף קצר ולא בוחן.",
+      "section": "essay",
+      "highlights": [
+        "In my opinion",
+        "every student should have a chance"
+      ]
+    },
+    {
+      "n": 73,
+      "kind": "info",
+      "title": "הנימוק הראשון מתפתח",
+      "text": "First, playing together helps students build friendships. When classmates support one another, they learn to work as a team. For example, passing the ball to a beginner can make that student feel included.",
+      "he": "חברות, עבודת צוות ודוגמה מהמשחק.",
+      "note": "הצביעו על המעבר מטענה כללית לפעולה ממשית: מסירה לתלמיד מתחיל.",
+      "section": "essay",
+      "highlights": [
+        "playing together",
+        "For example",
+        "passing the ball"
+      ]
+    },
+    {
+      "n": 74,
+      "kind": "info",
+      "title": "הנימוק השני מתפתח",
+      "text": "Moreover, equal chances can improve confidence. Some students have felt excluded from games. If they received more encouragement, they would feel safer trying again. Therefore, games should be organized so that everyone can take part.",
+      "he": "ניסיון קודם, שינוי אפשרי והתארגנות מעשית.",
+      "note": "זהו אותו טקסט. כעת הצבע מדגיש את תרומת המבנים לטיעון.",
+      "section": "essay",
+      "highlights": [
+        "have felt",
+        "received",
+        "would feel",
+        "should be organized"
+      ]
+    },
+    {
+      "n": 75,
+      "kind": "info",
+      "title": "הסיום סוגר את הטיעון",
+      "text": "In conclusion, schools should value participation as well as achievement. Although winning is exciting, learning to support others is more important. Therefore, teachers should encourage students to include every classmate.",
+      "he": "מסקנה שנובעת משני הנימוקים.",
+      "note": "Although משלב רעיון מנוגד, אבל העמדה המקורית נשמרת.",
+      "section": "essay",
+      "highlights": [
+        "In conclusion",
+        "Although",
+        "Therefore"
+      ]
+    },
+    {
+      "n": 76,
+      "kind": "animation",
+      "title": "הפוגה קצרה",
+      "text": "The mystery has been solved. It was his tail.",
+      "he": "",
+      "note": "חשיפה קצרה של present perfect passive. אין צורך ללמד מבנה חדש כעת.",
+      "section": "essay",
+      "asset": "certain-cat",
+      "alt": "חתול בלש מגלה את זנבו.",
+      "seconds": 10.8
+    },
+    {
+      "n": 77,
+      "kind": "timer",
+      "title": "העברה לנושא חדש",
+      "text": "Should students work with different partners in class?",
+      "he": "תכננו עמדה ושני נימוקים. אפשר לבחור חברות וביטחון, או רעיונות אחרים.",
+      "note": "התלמידים מיישמים את אותה דרך כתיבה על נושא קרוב אך חדש. אל תציגו עדיין את תשובת הדוגמה.",
+      "section": "practice",
+      "seconds": 120
+    },
+    {
+      "n": 78,
+      "kind": "info",
+      "title": "תוכנית אפשרית",
+      "text": "Changing partners can help students learn from one another.",
+      "he": "עמדה: כדאי להחליף שותפים. נימוק אחד: ללמוד מאנשים שונים. נימוק שני: להכיר תלמידים חדשים.",
+      "note": "אפשר לקבל גם התנגדות מנומקת, למשל חשש מתחלופה מהירה מדי. העמדה אינה חלק מהציון.",
+      "section": "practice"
+    },
+    {
+      "n": 79,
+      "kind": "timer",
+      "title": "משפט אחד משודרג",
+      "text": "Write one sentence using a structure that supports your reason.",
+      "he": "בחרו gerund, passive, perfect או conditional.",
+      "note": "תנו לכל תלמיד לבחור מבנה שהוא מבין. בקשו משפט עם משמעות ברורה, לא דוגמה מנותקת.",
+      "section": "practice",
+      "seconds": 90
+    },
+    {
+      "n": 80,
+      "kind": "example",
+      "title": "דוגמה אפשרית",
+      "text": "Working with different classmates can help students discover new ideas.",
+      "he": "",
+      "note": "הדוגמה משתמשת ב־gerund. משפט תקין עם מבנה אחר מתקבל באותה מידה.",
+      "section": "practice",
+      "pair": "reveal-80",
+      "reveal": false,
+      "tense": "",
+      "highlights": [
+        "Working with different classmates"
+      ]
+    },
+    {
+      "n": 81,
+      "kind": "example",
+      "title": "דוגמה אפשרית",
+      "text": "Working with different classmates can help students discover new ideas.",
+      "he": "עבודה עם תלמידים שונים יכולה לעזור לגלות רעיונות חדשים.",
+      "note": "הדוגמה משתמשת ב־gerund. משפט תקין עם מבנה אחר מתקבל באותה מידה.",
+      "section": "practice",
+      "pair": "reveal-80",
+      "reveal": true,
+      "tense": "",
+      "highlights": [
+        "Working with different classmates"
+      ]
+    },
+    {
+      "n": 82,
+      "kind": "animation",
+      "title": "הפוגה קצרה",
+      "text": "He has found the missing piece. Behind his ear.",
+      "he": "",
+      "note": "כמו בדיקת חיבור: לפעמים הפרט החסר קרוב.",
+      "section": "practice",
+      "asset": "missing-piece",
+      "alt": "חתול מוצא חלק פאזל מאחורי האוזן.",
+      "seconds": 10.8
+    },
+    {
+      "n": 83,
+      "kind": "choice",
+      "title": "עריכה: נושא ופועל",
+      "text": "Which sentence is correct?",
+      "he": "",
+      "note": "הצירוף Playing together הוא נושא יחיד; הפועל הוא helps.",
+      "section": "edit",
+      "pair": "choice-83",
+      "reveal": false,
+      "options": [
+        "Playing together help students.",
+        "Playing together helps students.",
+        "Playing together helping students."
+      ],
+      "correct": 1
+    },
+    {
+      "n": 84,
+      "kind": "choice",
+      "title": "עריכה: נושא ופועל",
+      "text": "Which sentence is correct?",
+      "he": "הצירוף Playing together הוא נושא יחיד; הפועל הוא helps.",
+      "note": "הצירוף Playing together הוא נושא יחיד; הפועל הוא helps.",
+      "section": "edit",
+      "pair": "choice-83",
+      "reveal": true,
+      "options": [
+        "Playing together help students.",
+        "Playing together helps students.",
+        "Playing together helping students."
+      ],
+      "correct": 1
+    },
+    {
+      "n": 85,
+      "kind": "choice",
+      "title": "עריכה: משפט תנאי",
+      "text": "Which sentence correctly describes an imaginary change?",
+      "he": "",
+      "note": "If + Past Simple, would + base verb. קראו גם את המשמעות ולא רק את הנוסחה.",
+      "section": "edit",
+      "pair": "choice-85",
+      "reveal": false,
+      "options": [
+        "If students received support, they would try again.",
+        "If students would receive support, they tried again.",
+        "If students received support, they will tried again."
+      ],
+      "correct": 0
+    },
+    {
+      "n": 86,
+      "kind": "choice",
+      "title": "עריכה: משפט תנאי",
+      "text": "Which sentence correctly describes an imaginary change?",
+      "he": "If + Past Simple, would + base verb. קראו גם את המשמעות ולא רק את הנוסחה.",
+      "note": "If + Past Simple, would + base verb. קראו גם את המשמעות ולא רק את הנוסחה.",
+      "section": "edit",
+      "pair": "choice-85",
+      "reveal": true,
+      "options": [
+        "If students received support, they would try again.",
+        "If students would receive support, they tried again.",
+        "If students received support, they will tried again."
+      ],
+      "correct": 0
+    },
+    {
+      "n": 87,
+      "kind": "info",
+      "title": "בדיקת חיבור",
+      "text": "Task / clear paragraphs / developed ideas",
+      "he": "האם עניתי למשימה? האם לכל נימוק יש הסבר? האם הדוגמאות קשורות אליו?",
+      "note": "בסבב הראשון בודקים תוכן וארגון. רק אחר כך בודקים דקדוק ומכניקה.",
+      "section": "edit"
+    },
+    {
+      "n": 88,
+      "kind": "info",
+      "title": "בדיקת שפה",
+      "text": "Check meaning first. Then check form.",
+      "he": "בדקו נושא ופועל, V3, מילות קישור, אות גדולה ופיסוק.",
+      "note": "בכיתה אפשר להדגיש את המבנים לצורך משוב. הסימון ושמות המבנים אינם חלק מהחיבור עצמו.",
+      "section": "edit"
+    },
+    {
+      "n": 89,
+      "kind": "animation",
+      "title": "הפוגה קצרה",
+      "text": "A small idea. An unnecessarily large bag.",
+      "he": "",
+      "note": "זוכרים להרחיב רעיון באמצעות דוגמה, בלי להעמיס מילים.",
+      "section": "edit",
+      "asset": "helpful-bag",
+      "alt": "חתול שולף מעמד קטן מתיק גדול.",
+      "seconds": 10.8
+    },
+    {
+      "n": 90,
+      "kind": "timer",
+      "title": "כתיבה עצמאית",
+      "text": "Write 120–140 words about working with different partners in class.",
+      "he": "ארבע פסקאות. דעה, שני נימוקים מפותחים וסיום.",
+      "note": "12 דקות כתיבה אחרי התכנון שכבר נעשה. יעד התרגול הכיתתי: ארבעה מבנים שונים שנלמדו, במקומות המתאימים למשמעות. תנו תמיכה נקודתית בלי לכתוב במקום התלמידים.",
+      "section": "write",
+      "seconds": 720
+    },
+    {
+      "n": 91,
+      "kind": "timer",
+      "title": "בדיקה עצמית",
+      "text": "Read your essay and improve two things.",
+      "he": "בדיקה אחת של התוכן ובדיקה אחת של השפה.",
+      "note": "השעון אינו מעביר שקף אוטומטית. אפשר להאריך זמן לפי קצב הכיתה.",
+      "section": "write",
+      "seconds": 120
+    },
+    {
+      "n": 92,
+      "kind": "info",
+      "title": "סימון לצורך משוב",
+      "text": "gerund / passive / perfect / conditional",
+      "he": "היעד הכיתתי: ארבעה מבנים מתאימים. סמנו אותם והקיפו את מילות הקישור.",
+      "note": "זהו כלי כיתתי לבדיקה. אין להציג מספר מסוים של מבנים או ספירה כפולה של Although ככלל ניקוד רשמי.",
+      "section": "write"
+    },
+    {
+      "n": 93,
+      "kind": "animation",
+      "title": "הפוגה קצרה",
+      "text": "Everyone should be included. Even the chair needs practice.",
+      "he": "",
+      "note": "חזרה לנושא החיבור: הכללה, חברות ומתן הזדמנות.",
+      "section": "write",
+      "asset": "chair-friend",
+      "alt": "חתול מזיז כיסא לחבר ומנסה שוב לאחר טעות.",
+      "seconds": 10.8
+    },
+    {
+      "n": 94,
+      "kind": "choice",
+      "title": "כרטיס יציאה",
+      "text": "Which improvement makes the essay stronger?",
+      "he": "",
+      "note": "החיבור מתחזק כשהטיעון ברור והשפה מדויקת ומתאימה למשמעות.",
+      "section": "end",
+      "pair": "choice-94",
+      "reveal": false,
+      "options": [
+        "Adding a difficult structure to every sentence.",
+        "Using clear reasons and grammar that fits the meaning.",
+        "Writing as many connectors as possible."
+      ],
+      "correct": 1
+    },
+    {
+      "n": 95,
+      "kind": "choice",
+      "title": "כרטיס יציאה",
+      "text": "Which improvement makes the essay stronger?",
+      "he": "החיבור מתחזק כשהטיעון ברור והשפה מדויקת ומתאימה למשמעות.",
+      "note": "החיבור מתחזק כשהטיעון ברור והשפה מדויקת ומתאימה למשמעות.",
+      "section": "end",
+      "pair": "choice-94",
+      "reveal": true,
+      "options": [
+        "Adding a difficult structure to every sentence.",
+        "Using clear reasons and grammar that fits the meaning.",
+        "Writing as many connectors as possible."
+      ],
+      "correct": 1
+    },
+    {
+      "n": 96,
+      "kind": "info",
+      "title": "להמשך התרגול",
+      "text": "One clear opinion. Two developed reasons. A relevant conclusion.",
+      "he": "סיימו את החיבור, תקנו אותו ושמרו את שתי הגרסאות להשוואה.",
+      "note": "בקשו להביא גם את הטיוטה. בהמשך בוחרים פסקה אחת למשוב ומפתחים אותה, בלי לעבור על כל שגיאה במליאה.",
+      "section": "end"
+    }
+  ],
+  "source": "https://meyda.education.gov.il/sheeloney_bagrut/pitronot_bagrut/2026/6/016582-8-HEB-1400-1600.pdf"
+}
