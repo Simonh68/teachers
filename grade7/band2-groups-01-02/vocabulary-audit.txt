@@ -1,0 +1,110 @@
+g01-01 | lift | להרים | Help me lift this chair. | עזור לי להרים את הכיסא הזה.
+g01-02 | take something out | להוציא משהו | Take the cake out of the oven. | הוצא את העוגה מהתנור.
+g01-03 | top | הכי טוב; החשוב ביותר | Our team came out on top. | הקבוצה שלנו סיימה במקום הראשון.
+g01-04 | remove | להסיר; להוציא | Could you please remove your glasses? | אתה יכול להסיר את המשקפיים בבקשה?
+g01-05 | environment | סביבה | Some factories can harm the environment. | יש מפעלים שעלולים לפגוע בסביבה.
+g01-06 | take something seriously | להתייחס למשהו ברצינות | Do not take this joke too seriously. | אל תיקח את הבדיחה הזאת ברצינות רבה מדי.
+g01-07 | petrol | בנזין | The car needs petrol. | המכונית צריכה בנזין.
+g01-08 | mosque | מסגד | We visited a mosque in Acre. | ביקרנו במסגד בעכו.
+g01-09 | understanding | הבנה; ידע | Thank you for your patience and understanding. | תודה על הסבלנות וההבנה.
+g01-10 | weekly | מדי שבוע | We meet weekly. | אנחנו נפגשים מדי שבוע.
+g01-11 | lack of something | מחסור במשהו | Lack of food made them really hungry. | מחסור במזון גרם להם להיות רעבים.
+g01-12 | amazing | מדהים | The school trip was amazing. | הטיול של בית הספר היה מדהים.
+g01-13 | death | מוות | The students are afraid of death. | התלמידים מפחדים ממוות.
+g01-14 | break | הפסקה; חופשה | Our class needs a short break. | הכיתה שלנו זקוקה להפסקה קצרה.
+g01-15 | around | בסביבה; מסביב | I like having my friends around. | אני אוהב כשהחברים שלי בסביבה.
+g01-16 | disease | מחלה | This disease spreads through the air. | המחלה הזאת מתפשטת באוויר.
+g01-17 | Bible | התנ״ך; כתבי הקודש | The Bible is on the shelf. | התנ״ך נמצא על המדף.
+g01-18 | discover | לגלות | They were not able to discover any secrets. | הם לא הצליחו לגלות שום סודות.
+g01-19 | inform | ליידע | Please inform us about the change. | אנא הודע לנו על השינוי.
+g01-20 | drawer | מגירה | The top desk drawer is open. | המגירה העליונה בשולחן פתוחה.
+g01-21 | virus | נגיף; וירוס מחשב | It is probably a virus. | זה כנראה נגיף.
+g01-22 | however | עם זאת | It was cold. However, we went out. | היה קר. עם זאת, יצאנו.
+g01-23 | international | בין־לאומי | Spanish is an international language. | ספרדית היא שפה בינלאומית.
+g01-24 | back | אחורי | The back door is open. | הדלת האחורית פתוחה.
+g01-25 | go back | לחזור | I had to go back to school. | נאלצתי לחזור לבית הספר.
+g01-26 | care | טיפול; תשומת לב | The patient needs daily care. | החולה זקוק לטיפול יומיומי.
+g01-27 | adjective | שם תואר | “Blue” is an adjective. | המילה “blue” היא שם תואר.
+g01-28 | read something out | להקריא משהו בקול | She read the poem out to the class. | היא הקריאה את השיר לכיתה.
+g01-29 | demand | לדרוש | Customers demand better service. | לקוחות דורשים שירות טוב יותר.
+g01-30 | then | אז; כתוצאה מכך | Finish your work, then go home. | סיים את העבודה ואז לך הביתה.
+g01-31 | Earth | אדמה; כדור הארץ | Earth moves around the sun. | כדור הארץ נע סביב השמש.
+g01-32 | break down | להתקלקל | Our school bus broke down. | אוטובוס בית הספר שלנו התקלקל.
+g01-33 | meet | להכיר; לפגוש | I would like to meet the new teacher. | הייתי רוצה לפגוש את המורה החדש.
+g01-34 | highway | כביש מהיר | The highway runs beside the river. | הכביש המהיר עובר לצד הנהר.
+g01-35 | contents | תכולה; תוכן | May I see the full contents of the package? | אפשר לראות את כל תכולת החבילה?
+g01-36 | around | בסביבה; מסביב | We walked around the lake. | הלכנו מסביב לאגם.
+g01-37 | circus | קרקס | The circus is in town. | הקרקס הגיע לעיר.
+g01-38 | look like | להיראות כמו | Did he really look like a doctor? | האם באמת הוא נראָה כמו רופא?
+g01-39 | physics | פיזיקה | We study physics at school. | אנחנו לומדים פיזיקה בבית הספר.
+g01-40 | until | עד ש־ | Please wait here until we get back. | בבקשה, תמתין פה עד שנשוב.
+g01-41 | by mistake | בטעות | I took the wrong umbrella by mistake. | לקחתי בטעות את המטרייה הלא נכונה.
+g01-42 | wool | צמר | Sheep give us wool. | כבשים נותנות לנו צמר.
+g01-43 | bring something back | להחזיר משהו | Please bring back some food. | החזר בבקשה מעט אוכל.
+g01-44 | degree | מעלה; טמפרטורה | It is thirty degrees today. | היום שלושים מעלות.
+g01-45 | murder | רצח | The police are investigating a murder. | המשטרה חוקרת מקרה רצח.
+g01-46 | yourselves | את עצמכם; את עצמכן | Enjoy yourselves at the party. | תיהנו במסיבה.
+g01-47 | join | לחבר; להצטרף | Do you really want to join us? | אתה באמת רוצה להצטרף אלינו?
+g01-48 | so far | עד כה | So far, everything is fine. | עד כה הכול בסדר.
+g01-49 | if you like | אם תרצה; אם תרצי | I will go with you if you like. | אלך אתך אם תרצה.
+g01-50 | adverb | תואר הפועל | “Slowly” is an adverb. | המילה “slowly” היא תואר הפועל.
+g01-51 | in half | לחצי | He cut the orange in half. | הוא חצה את התפוז לשניים.
+g01-52 | explanation | הסבר | The explanation was not difficult to understand. | ההסבר לא היה קשה להבנה.
+g01-53 | fine | בסדר; בריא | I feel fine today. | אני מרגיש טוב היום.
+g01-54 | medicine | תרופה | Give me my medicine, please. | תן לי את התרופה שלי בבקשה.
+g01-55 | be able to do something | להיות מסוגל לעשות משהו | Would you please be able to do that? | האם תוכל לעשות את זה בבקשה?
+g02-01 | history | היסטוריה | I do not need a history lesson. | אני לא צריך שיעורי היסטוריה.
+g02-02 | achieve | להשיג | She worked hard to achieve her goal. | היא עבדה קשה כדי להשיג את מטרתה.
+g02-03 | soccer | כדורגל | We play soccer after school. | אנחנו משחקים כדורגל אחרי הלימודים.
+g02-04 | would love something | אשמח ל־; הייתי רוצה מאוד | I would love a cup of tea. | אשמח לכוס תה.
+g02-05 | silver | כסף | Our team won a silver medal. | הקבוצה שלנו זכתה במדליית כסף.
+g02-06 | call | לקרוא בשם; לכנות | They called the baby David. | הם קראו לתינוק דוד.
+g02-07 | exercise | תרגיל; פעילות גופנית | Please let's do a little exercise. | בבקשה, בוא נעשה תרגיל קטן.
+g02-08 | left | שמאל | Turn to the left at the corner. | פנה שמאלה בפינה.
+g02-09 | earn | להרוויח | I would like to earn more money. | הייתי רוצה להרוויח יותר כסף.
+g02-10 | if | כאשר; בכל פעם ש־ | If I feel tired, I go to bed early. | כשאני עייף, אני הולך לישון מוקדם.
+g02-11 | Bedouin | בדואים | Many Bedouin live in the desert. | בדואים רבים חיים במדבר.
+g02-12 | wow! | וואו! | Wow! That is a big house! | וואו! זה בית גדול!
+g02-13 | distance | מרחק | Please keep your distance. | בבקשה, שמור מרחק.
+g02-14 | vote | הצבעה | The class called for a vote. | הכיתה ביקשה לערוך הצבעה.
+g02-15 | murder | לרצוח | Someone tried to murder the king. | מישהו ניסה לרצוח את המלך.
+g02-16 | mouse | עכבר מחשב | Click the button with the mouse. | לחץ על הכפתור בעזרת העכבר.
+g02-17 | taste | טעם | This soup has a rich taste. | למרק הזה יש טעם עשיר.
+g02-18 | increase | עלייה; גידול | We saw an increase in prices. | ראינו עלייה במחירים.
+g02-19 | pension | פנסיה | I could lose my pension too. | גם אני עלול לאבד את הפנסיה שלי.
+g02-20 | suit | להתאים | That hat will suit her. | הכובע הזה מתאים לה.
+g02-21 | owe | חייב | Exactly how much do I owe you? | בדיוק כמה אני חייב לך?
+g02-22 | tell | לספר | Please come on, you can tell me. | בבקשה, נו, את יכולה לספר לי.
+g02-23 | local | מקומי | We buy food at the local market. | אנחנו קונים אוכל בשוק המקומי.
+g02-24 | can't wait | לא יכול לחכות | I cannot wait to see the new film. | אני לא יכול לחכות לראות את הסרט החדש.
+g02-25 | threat | איום | It is a threat too. | גם זה איום.
+g02-26 | you know | אתה יודע | It was difficult, you know. | זה היה קשה, אתה יודע.
+g02-27 | piano | פסנתר | I am playing the piano today. | אני מנגן היום על הפסנתר.
+g02-28 | lock | מנעול | The door has a new lock. | לדלת יש מנעול חדש.
+g02-29 | relations | יחסים | Canada has diplomatic relations with China. | לקנדה יחסים דיפלומטיים עם סין.
+g02-30 | though | אמנם | Even though it is large, it is still my apartment. | היא אמנם גדולה, אבל זו בכל זאת הדירה שלי.
+g02-31 | contact | ליצור קשר | I will tell them to contact you. | אגיד להם לצור איתך קשר.
+g02-32 | can afford | יכול להרשות לעצמו | I can afford good food today. | אני יכולה להרשות לעצמי מזון טוב היום.
+g02-33 | deal | עסקה | I have got a deal for you. | יש לי עסקה טובה בשבילך.
+g02-34 | boss | בוס | I am my own boss. | אני בוס לעצמי.
+g02-35 | together | ביחד | We walk home together after school. | אנחנו הולכים יחד הביתה אחרי הלימודים.
+g02-36 | interval | מרווח | There is a short interval. | יש הפסקה קצרה.
+g02-37 | stomach | בטן | My stomach hurts after lunch. | כואבת לי הבטן אחרי ארוחת הצהריים.
+g02-38 | be unable to do something | לא להיות מסוגל לעשות משהו | She was unable to come. | היא לא הייתה מסוגלת לבוא.
+g02-39 | elevator | מעלית | Is there really an elevator? | באמת יש מעלית?
+g02-40 | cotton | כותנה | This shirt is made of cotton. | החולצה הזאת עשויה כותנה.
+g02-41 | ill | חולה | I hear he is ill too. | גם אני שומע שהוא חולה.
+g02-42 | certain | בטוח | I am certain he will come. | אני בטוח שהוא יבוא.
+g02-43 | below | פחות מ־; מתחת ל־ | The temperature fell below zero. | הטמפרטורה ירדה מתחת לאפס.
+g02-44 | luck | מזל | We have not had much luck this week. | לא היה לי השבוע הרבה מזל.
+g02-45 | operate | הִפְעִיל; תִּפְעֵל | Can you operate this machine? | אתה יכול להפעיל את המכונה הזאת?
+g02-46 | credit | אשראי | We bought the sofa on credit. | קנינו את הספה באשראי.
+g02-47 | slice | נתח | The boy brought me a slice of pie. | דן הביא לי חתיכת פאי.
+g02-48 | be responsible for something | להיות אחראי למשהו | I will not be responsible for my actions. | אני לא אהיה אחראי למעשיי.
+g02-49 | limit | להגביל | Please limit your presentation to twenty minutes. | אנא הגבילו את המצגת שלכם לעשרים דקות.
+g02-50 | joke | בדיחה | It was just a joke. | זו הייתה רק בדיחה.
+g02-51 | try | לנסות | Do you really want to try it? | באמת אתה רוצה לנסות את זה?
+g02-52 | magic | קסם | The show felt like magic. | המופע הרגיש כמו קסם.
+g02-53 | industry | תעשייה | Tourism is an important industry. | תיירות היא ענף חשוב.
+g02-54 | bear | דוב | A bear can climb trees. | דוב יכול לטפס על עצים.
+g02-55 | jazz | ג'אז | We listened to jazz. | הקשבנו למוזיקת ג׳אז.
