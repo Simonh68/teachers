@@ -20,7 +20,8 @@ def he(text,cls='instruction'):
     return f'<p class="{cls}">{text}</p>'
 def qa(q,a,note,section='read',pair=None,extra='',source=''):
     pair=pair or f'qa-{len(slides)+1}'
-    core=meta('קוראים · חושבים · מוצאים הוכחה')+f'<div><h2 class="en question" lang="en">{q}</h2>{extra}</div>'
+    tense='עבר' if any(x in q for x in ['went wrong','was the class','did Noam','wanted to help']) else ('הווה' if 'does Noam move' in q else '')
+    core=meta('קוראים · חושבים · מוצאים הוכחה',tense)+f'<div><h2 class="en question" lang="en">{q}</h2>{extra}</div>'
     add('qa',core+'<div class="answer-slot"></div>',note,section,pair,q)
     add('qa reveal',core+f'<div class="answer-slot"><p class="answer-label">תשובה אפשרית</p><p class="en possible-answer" lang="en">{a}</p><p class="evidence">{source}</p></div>',f'אפשר לקבל ניסוחים אחרים שמבוססים על הטקסט. {note}',section,pair,q)
 def gap(before,after,opts,correct,explain,note,section='vocab'):
@@ -30,7 +31,7 @@ def gap(before,after,opts,correct,explain,note,section='vocab'):
         choices=''.join(f'<div class="choice {"correct" if reveal and i==correct else ""}"><b>{chr(65+i)}</b><span>{esc(x)}</span></div>' for i,x in enumerate(opts))
         answer=esc(opts[correct]) if reveal else '&nbsp;'
         sentence=f'{before}<span class="gap {"filled" if reveal else ""}" style="--gap-ch:{width}">{answer}</span>{after}'
-        body=meta('בוחרים תשובה · מסבירים למה')+f'<h2 class="en question" lang="en">{sentence}</h2><div class="choices en" lang="en">{choices}</div><div class="answer-slot">'+(f'<p class="explanation">{explain}</p>' if reveal else '')+'</div>'
+        body=meta('בוחרים תשובה · מסבירים למה','הווה' if before=='I ' else 'עבר')+f'<h2 class="en question" lang="en">{sentence}</h2><div class="choices en" lang="en">{choices}</div><div class="answer-slot">'+(f'<p class="explanation">{explain}</p>' if reveal else '')+'</div>'
         add('gap-slide'+(' reveal' if reveal else ''),body,note if not reveal else 'חשפו רק עכשיו את התשובה. '+explain,section,pair,before+'___'+after)
 
 animations=[

@@ -15,7 +15,7 @@ Each gap question displays three options immediately. The following slide preser
 
 Sources: Grade 9 opening deck (Core I groups 01–02, exact examples/translations), the original story in the class log, and the published Grade 9 exam calendar. The story is practice material, not a promise about the forthcoming exam text. The writing length is a practice instruction, not a confirmed exam specification.
 
-`build_lesson.py` authors the deck, lesson JSON and teacher page. `build_pdf.py` creates the worksheet using ReportLab and static Nunito font instances. Supply `Nunito.ttf` in the build font directory, or adapt the font path to a local licensed font. Runtime dependencies are the shared `/assets/lesson-decks/deck.css` and `deck.js`.
+`build_lesson.py` authors the deck, lesson JSON and teacher page. `build_pdf.py` creates the worksheet using ReportLab and static Nunito font instances. Supply `Nunito-Variable.ttf` in `tools/message-exam-practice/fonts/`, or adapt the font path to a local licensed font. Runtime dependencies are the shared `/assets/lesson-decks/deck.css` and `deck.js`.
 
 `preview.html` provides four viewport sizes, navigation to any slide, a DOM geometry audit of all 60 slides, stable-pair checks and a live animation-frame check. It is a development tool and is not linked from the student deck.
 
