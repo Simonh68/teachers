@@ -1,0 +1,56 @@
+{
+  "entries": 110,
+  "vocabulary_slides": 220,
+  "breaks": 36,
+  "total_slides": 259,
+  "audio_files": 110,
+  "browser_tts": false,
+  "checks": [
+    {
+      "viewport": "1366x768",
+      "pairs_stationary": 110,
+      "no_text_clipping": true,
+      "arrow_keys": true,
+      "wheel": true,
+      "four_direction_touch": false,
+      "real_audio_playback": true,
+      "audio_stops_on_navigation": true,
+      "two_second_auto_delay": true
+    },
+    {
+      "viewport": "390x844",
+      "pairs_stationary": 110,
+      "no_text_clipping": true,
+      "arrow_keys": true,
+      "wheel": true,
+      "four_direction_touch": true,
+      "real_audio_playback": true,
+      "audio_stops_on_navigation": true,
+      "two_second_auto_delay": true
+    },
+    {
+      "viewport": "844x390",
+      "pairs_stationary": 110,
+      "no_text_clipping": true,
+      "arrow_keys": true,
+      "wheel": true,
+      "four_direction_touch": true,
+      "real_audio_playback": true,
+      "audio_stops_on_navigation": true,
+      "two_second_auto_delay": true
+    }
+  ],
+  "public_url": "https://simonh68.github.io/teachers/grade7/band2-groups-01-02/",
+  "public_checks": {
+    "index.html": "HTTP 200; exact content hash",
+    "lesson.css": "HTTP 200; exact content hash",
+    "lesson.js": "HTTP 200; exact content hash",
+    "visuals.js": "HTTP 200; exact content hash",
+    "entries.json": "HTTP 200; exact content hash",
+    "audio-manifest.json": "HTTP 200; exact content hash",
+    "g01-01": "Public MP3 HTTP 200; exact audio hash",
+    "g02-55": "Public MP3 HTTP 200; exact audio hash"
+  },
+  "passed": true,
+  "timestamp_utc": "2026-09-16T17:45:09Z"
+}
