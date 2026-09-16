@@ -1,0 +1,704 @@
+{
+  "title": "The Message Without a Voice · Exam practice",
+  "grade": "ט׳1",
+  "date": "2026-09-16",
+  "durationMinutes": 80,
+  "slides": [
+    {
+      "n": 1,
+      "kind": "cover",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">כיתה ט׳1</div><div class=\"tense\"></div></div><h1 class=\"cover-title\">ברוכים הבאים</h1><p class=\"cover-sub\">ישיבת בני עקיבא קריית הרצוג</p>",
+      "note": "פתחו את דף העבודה. היום משלבים אוצר מילים, קריאה וכתיבה לקראת המבחן.",
+      "section": "start",
+      "pair": null,
+      "title": "ברוכים הבאים"
+    },
+    {
+      "n": 2,
+      "kind": "info",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">מתכוננים למבחן</div><div class=\"tense\"></div></div><h2 class=\"part-title\">יש לנו מבחן באנגלית</h2><p class=\"date-main\">יום ראשון, ל׳ בתשרי תשפ״ז<br><span class=\"gregorian\" dir=\"ltr\">(11.10.2026)</span></p><p class=\"instruction\">מתכוננים באוצר מילים, בהבנת הנקרא ובכתיבה.</p><p class=\"small-note\">המועד פורסם בלוח בית הספר ועשוי להשתנות.</p>",
+      "note": "הציגו את מועד המבחן. הבהירו שהטקסט המוכר משמש לתרגול מיומנויות; לא הובטח שזה הטקסט שיופיע במבחן.",
+      "section": "start",
+      "pair": null,
+      "title": "יש לנו מבחן באנגלית"
+    },
+    {
+      "n": 3,
+      "kind": "info",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">מתכוננים למבחן</div><div class=\"tense\"></div></div><h2 class=\"part-title\">נשארו 3 מפגשים כפולים</h2><div class=\"meeting-list\"><p><b>היום</b> · יום רביעי, ה׳ בתשרי תשפ״ז <span dir=\"ltr\">(16.9.2026)</span></p><p>יום ראשון, כ״ג בתשרי תשפ״ז <span dir=\"ltr\">(4.10.2026)</span></p><p>יום רביעי, כ״ו בתשרי תשפ״ז <span dir=\"ltr\">(7.10.2026)</span></p></div><p class=\"small-note\">כולל המפגש היום · לפי המערכת המתוכננת</p>",
+      "note": "אמרו: We have three double lessons left before the test, including today. Today we will practise vocabulary, answer reading questions and write a short paragraph.",
+      "section": "start",
+      "pair": null,
+      "title": "נשארו 3 מפגשים כפולים"
+    },
+    {
+      "n": 4,
+      "kind": "info",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">מתכוננים למבחן</div><div class=\"tense\"></div></div><h2 class=\"part-title\">בסוף השיעור נוכל…</h2><div class=\"goal-grid\"><p><b>01</b> להשתמש ב־8 מילים וביטויים</p><p><b>02</b> לבסס תשובה על הטקסט</p><p><b>03</b> לכתוב פסקה ברורה</p></div>",
+      "note": "הזכירו: המילים לבוחן הראשון הן קבוצות 01–02 ב־Band II, Core I. שמונה המילים היום הן מדגם מתוך הרשימה, לא כל הרשימה.",
+      "section": "start",
+      "pair": null,
+      "title": "בסוף השיעור נוכל…"
+    },
+    {
+      "n": 5,
+      "kind": "animation",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">הפוגה קצרה · 1 / 12</div><div class=\"tense\"></div></div><div class=\"sprite\" role=\"img\" aria-label=\"חתול קורא הודעה בטלפון, נבהל ואז מגלה את ההמשך.\" style=\"background-image:url(assets/half-message.webp)\"></div><p class=\"en caption\" lang=\"en\">The message loaded. The meaning didn’t.</p><div class=\"animation-controls\"><button type=\"button\" data-anim-toggle aria-label=\"השהיית ההנפשה\">Ⅱ</button><button type=\"button\" data-anim-replay aria-label=\"הפעלה מחדש\">↻</button></div>",
+      "note": "8–12 שניות בלבד, ללא קול. לפני שמסיקים מסקנה: האם קראנו את כל ההודעה?",
+      "section": "start",
+      "pair": null,
+      "title": "The message loaded. The meaning didn’t."
+    },
+    {
+      "n": 6,
+      "kind": "qa",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">קוראים · חושבים · מוצאים הוכחה</div><div class=\"tense\"></div></div><div><h2 class=\"en question\" lang=\"en\">What went wrong between Noam and Eitan?</h2></div><div class=\"answer-slot\"></div>",
+      "note": "אספו תשובה אחת מהזיכרון; אל תקראו שוב את כל הסיפור בשלב זה.",
+      "section": "start",
+      "pair": "qa-6",
+      "title": "What went wrong between Noam and Eitan?"
+    },
+    {
+      "n": 7,
+      "kind": "qa reveal",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">קוראים · חושבים · מוצאים הוכחה</div><div class=\"tense\"></div></div><div><h2 class=\"en question\" lang=\"en\">What went wrong between Noam and Eitan?</h2></div><div class=\"answer-slot\"><p class=\"answer-label\">תשובה אפשרית</p><p class=\"en possible-answer\" lang=\"en\">Noam read only part of Eitan’s message and thought Eitan did not want to help.</p><p class=\"evidence\">נבדוק את הפרטים בקריאה החוזרת.</p></div>",
+      "note": "אפשר לקבל ניסוחים אחרים שמבוססים על הטקסט. אספו תשובה אחת מהזיכרון; אל תקראו שוב את כל הסיפור בשלב זה.",
+      "section": "start",
+      "pair": "qa-6",
+      "title": "What went wrong between Noam and Eitan?"
+    },
+    {
+      "n": 8,
+      "kind": "animation",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">הפוגה קצרה · 2 / 12</div><div class=\"tense\"></div></div><div class=\"sprite\" role=\"img\" aria-label=\"חתול רודף אחרי מעטפה שנוחתת על ראשו.\" style=\"background-image:url(assets/wrong-envelope.webp)\"></div><p class=\"en caption\" lang=\"en\">Right message. Wrong human.</p><div class=\"animation-controls\"><button type=\"button\" data-anim-toggle aria-label=\"השהיית ההנפשה\">Ⅱ</button><button type=\"button\" data-anim-replay aria-label=\"הפעלה מחדש\">↻</button></div>",
+      "note": "8–12 שניות בלבד, ללא קול. הפוגה קצרה. מילה אחת: mistake.",
+      "section": "start",
+      "pair": null,
+      "title": "Right message. Wrong human."
+    },
+    {
+      "n": 9,
+      "kind": "vocab",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">Band II · Core I · Group 01</div><div class=\"tense\">עבר</div></div><h2 class=\"en word\" lang=\"en\">by mistake<span class=\"qualifier\">phrase</span></h2><p class=\"en example\" lang=\"en\">I took the wrong umbrella by mistake.</p><div class=\"translation-slot\"></div>",
+      "note": "קראו את המילה והמשפט; בקשו פירוש לפני המעבר.",
+      "section": "vocab",
+      "pair": "word-0",
+      "title": "by mistake"
+    },
+    {
+      "n": 10,
+      "kind": "vocab reveal",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">Band II · Core I · Group 01</div><div class=\"tense\">עבר</div></div><h2 class=\"en word\" lang=\"en\">by mistake<span class=\"qualifier\">phrase</span></h2><p class=\"en example\" lang=\"en\">I took the wrong umbrella by mistake.</p><div class=\"translation-slot\"><p class=\"meaning\">בטעות</p><p class=\"translation\">לקחתי בטעות את המטרייה הלא נכונה.</p></div>",
+      "note": "חשפו את הפירוש. תלמיד אחד קורא שוב את המשפט.",
+      "section": "vocab",
+      "pair": "word-0",
+      "title": "by mistake"
+    },
+    {
+      "n": 11,
+      "kind": "animation",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">הפוגה קצרה · 3 / 12</div><div class=\"tense\"></div></div><div class=\"sprite\" role=\"img\" aria-label=\"חתול רציני עם משקפיים ענקיים שמחליקים.\" style=\"background-image:url(assets/serious-cat.webp)\"></div><p class=\"en caption\" lang=\"en\">Very serious. Slightly blurry.</p><div class=\"animation-controls\"><button type=\"button\" data-anim-toggle aria-label=\"השהיית ההנפשה\">Ⅱ</button><button type=\"button\" data-anim-replay aria-label=\"הפעלה מחדש\">↻</button></div>",
+      "note": "8–12 שניות בלבד, ללא קול. אפשר לשאול: Is he angry, or just trying to see?",
+      "section": "vocab",
+      "pair": null,
+      "title": "Very serious. Slightly blurry."
+    },
+    {
+      "n": 12,
+      "kind": "vocab",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">Band II · Core I · Group 01</div><div class=\"tense\">עבר</div></div><h2 class=\"en word\" lang=\"en\">however<span class=\"qualifier\">adverb</span></h2><p class=\"en example\" lang=\"en\">It was cold. However, we went out.</p><div class=\"translation-slot\"></div>",
+      "note": "קראו את המילה והמשפט; בקשו פירוש לפני המעבר.",
+      "section": "vocab",
+      "pair": "word-1",
+      "title": "however"
+    },
+    {
+      "n": 13,
+      "kind": "vocab reveal",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">Band II · Core I · Group 01</div><div class=\"tense\">עבר</div></div><h2 class=\"en word\" lang=\"en\">however<span class=\"qualifier\">adverb</span></h2><p class=\"en example\" lang=\"en\">It was cold. However, we went out.</p><div class=\"translation-slot\"><p class=\"meaning\">עם זאת</p><p class=\"translation\">היה קר. עם זאת, יצאנו.</p></div>",
+      "note": "חשפו את הפירוש. תלמיד אחד קורא שוב את המשפט.",
+      "section": "vocab",
+      "pair": "word-1",
+      "title": "however"
+    },
+    {
+      "n": 14,
+      "kind": "animation",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">הפוגה קצרה · 4 / 12</div><div class=\"tense\"></div></div><div class=\"sprite\" role=\"img\" aria-label=\"חתול קופץ מעל ספר קטן במאמץ מוגזם.\" style=\"background-image:url(assets/however-cat.webp)\"></div><p class=\"en caption\" lang=\"en\">Tiny book. Huge adventure.</p><div class=\"animation-controls\"><button type=\"button\" data-anim-toggle aria-label=\"השהיית ההנפשה\">Ⅱ</button><button type=\"button\" data-anim-replay aria-label=\"הפעלה מחדש\">↻</button></div>",
+      "note": "8–12 שניות בלבד, ללא קול. בקול: It was a tiny book. However, the jump was huge.",
+      "section": "vocab",
+      "pair": null,
+      "title": "Tiny book. Huge adventure."
+    },
+    {
+      "n": 15,
+      "kind": "vocab",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">Band II · Core I · Group 01</div><div class=\"tense\"></div></div><h2 class=\"en word\" lang=\"en\">understanding<span class=\"qualifier\">noun</span></h2><p class=\"en example\" lang=\"en\">Thank you for your patience and understanding.</p><div class=\"translation-slot\"></div>",
+      "note": "קראו את המילה והמשפט; בקשו פירוש לפני המעבר.",
+      "section": "vocab",
+      "pair": "word-2",
+      "title": "understanding"
+    },
+    {
+      "n": 16,
+      "kind": "vocab reveal",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">Band II · Core I · Group 01</div><div class=\"tense\"></div></div><h2 class=\"en word\" lang=\"en\">understanding<span class=\"qualifier\">noun</span></h2><p class=\"en example\" lang=\"en\">Thank you for your patience and understanding.</p><div class=\"translation-slot\"><p class=\"meaning\">הבנה; ידע</p><p class=\"translation\">תודה על הסבלנות וההבנה.</p></div>",
+      "note": "חשפו את הפירוש. תלמיד אחד קורא שוב את המשפט.",
+      "section": "vocab",
+      "pair": "word-2",
+      "title": "understanding"
+    },
+    {
+      "n": 17,
+      "kind": "animation",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">הפוגה קצרה · 5 / 12</div><div class=\"tense\"></div></div><div class=\"sprite\" role=\"img\" aria-label=\"חתול מחפש חלק של פאזל שנמצא מאחורי אוזנו.\" style=\"background-image:url(assets/missing-piece.webp)\"></div><p class=\"en caption\" lang=\"en\">The answer was behind his ear.</p><div class=\"animation-controls\"><button type=\"button\" data-anim-toggle aria-label=\"השהיית ההנפשה\">Ⅱ</button><button type=\"button\" data-anim-replay aria-label=\"הפעלה מחדש\">↻</button></div>",
+      "note": "8–12 שניות בלבד, ללא קול. הפוגה של שמונה שניות; חוזרים למילה understanding.",
+      "section": "vocab",
+      "pair": null,
+      "title": "The answer was behind his ear."
+    },
+    {
+      "n": 18,
+      "kind": "vocab",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">Band II · Core I · Group 01</div><div class=\"tense\">הווה</div></div><h2 class=\"en word\" lang=\"en\">so far<span class=\"qualifier\">idiom</span></h2><p class=\"en example\" lang=\"en\">So far, everything is fine.</p><div class=\"translation-slot\"></div>",
+      "note": "קראו את המילה והמשפט; בקשו פירוש לפני המעבר.",
+      "section": "vocab",
+      "pair": "word-3",
+      "title": "so far"
+    },
+    {
+      "n": 19,
+      "kind": "vocab reveal",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">Band II · Core I · Group 01</div><div class=\"tense\">הווה</div></div><h2 class=\"en word\" lang=\"en\">so far<span class=\"qualifier\">idiom</span></h2><p class=\"en example\" lang=\"en\">So far, everything is fine.</p><div class=\"translation-slot\"><p class=\"meaning\">עד כה</p><p class=\"translation\">עד כה הכול בסדר.</p></div>",
+      "note": "חשפו את הפירוש. תלמיד אחד קורא שוב את המשפט.",
+      "section": "vocab",
+      "pair": "word-3",
+      "title": "so far"
+    },
+    {
+      "n": 20,
+      "kind": "animation",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">הפוגה קצרה · 6 / 12</div><div class=\"tense\"></div></div><div class=\"sprite\" role=\"img\" aria-label=\"חתול מטפס על שלושה ספרים כאילו הם הר.\" style=\"background-image:url(assets/so-far.webp)\"></div><p class=\"en caption\" lang=\"en\">So far… three books.</p><div class=\"animation-controls\"><button type=\"button\" data-anim-toggle aria-label=\"השהיית ההנפשה\">Ⅱ</button><button type=\"button\" data-anim-replay aria-label=\"הפעלה מחדש\">↻</button></div>",
+      "note": "8–12 שניות בלבד, ללא קול. So far — מה כבר הספקנו? תשובת מילה אחת.",
+      "section": "vocab",
+      "pair": null,
+      "title": "So far… three books."
+    },
+    {
+      "n": 21,
+      "kind": "vocab",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">Band II · Core I · Group 02</div><div class=\"tense\">עבר</div></div><h2 class=\"en word\" lang=\"en\">achieve<span class=\"qualifier\">verb</span></h2><p class=\"en example\" lang=\"en\">She worked hard to achieve her goal.</p><div class=\"translation-slot\"></div>",
+      "note": "קראו את המילה והמשפט; בקשו פירוש לפני המעבר.",
+      "section": "vocab",
+      "pair": "word-4",
+      "title": "achieve"
+    },
+    {
+      "n": 22,
+      "kind": "vocab reveal",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">Band II · Core I · Group 02</div><div class=\"tense\">עבר</div></div><h2 class=\"en word\" lang=\"en\">achieve<span class=\"qualifier\">verb</span></h2><p class=\"en example\" lang=\"en\">She worked hard to achieve her goal.</p><div class=\"translation-slot\"><p class=\"meaning\">להשיג</p><p class=\"translation\">היא עבדה קשה כדי להשיג את מטרתה.</p></div>",
+      "note": "חשפו את הפירוש. תלמיד אחד קורא שוב את המשפט.",
+      "section": "vocab",
+      "pair": "word-4",
+      "title": "achieve"
+    },
+    {
+      "n": 23,
+      "kind": "animation",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">הפוגה קצרה · 7 / 12</div><div class=\"tense\"></div></div><div class=\"sprite\" role=\"img\" aria-label=\"כדור נייר נוחת על ראשו של חתול במקום בסל.\" style=\"background-image:url(assets/tiny-goal.webp)\"></div><p class=\"en caption\" lang=\"en\">New goal: aim at the bin.</p><div class=\"animation-controls\"><button type=\"button\" data-anim-toggle aria-label=\"השהיית ההנפשה\">Ⅱ</button><button type=\"button\" data-anim-replay aria-label=\"הפעלה מחדש\">↻</button></div>",
+      "note": "8–12 שניות בלבד, ללא קול. גם כשהניסיון הראשון נכשל, אפשר לנסות להשיג את המטרה.",
+      "section": "vocab",
+      "pair": null,
+      "title": "New goal: aim at the bin."
+    },
+    {
+      "n": 24,
+      "kind": "vocab",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">Band II · Core I · Group 02</div><div class=\"tense\">הווה</div></div><h2 class=\"en word\" lang=\"en\">relations<span class=\"qualifier\">noun</span></h2><p class=\"en example\" lang=\"en\">Canada has diplomatic relations with China.</p><div class=\"translation-slot\"></div>",
+      "note": "קראו את המילה והמשפט; בקשו פירוש לפני המעבר.",
+      "section": "vocab",
+      "pair": "word-5",
+      "title": "relations"
+    },
+    {
+      "n": 25,
+      "kind": "vocab reveal",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">Band II · Core I · Group 02</div><div class=\"tense\">הווה</div></div><h2 class=\"en word\" lang=\"en\">relations<span class=\"qualifier\">noun</span></h2><p class=\"en example\" lang=\"en\">Canada has diplomatic relations with China.</p><div class=\"translation-slot\"><p class=\"meaning\">יחסים</p><p class=\"translation\">לקנדה יחסים דיפלומטיים עם סין.</p></div>",
+      "note": "חשפו את הפירוש. תלמיד אחד קורא שוב את המשפט.",
+      "section": "vocab",
+      "pair": "word-5",
+      "title": "relations"
+    },
+    {
+      "n": 26,
+      "kind": "animation",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">הפוגה קצרה · 8 / 12</div><div class=\"tense\"></div></div><div class=\"sprite\" role=\"img\" aria-label=\"שני חתולים מנסים כיף, מפספסים ולבסוף מצליחים.\" style=\"background-image:url(assets/two-friends.webp)\"></div><p class=\"en caption\" lang=\"en\">Friendship: a work in progress.</p><div class=\"animation-controls\"><button type=\"button\" data-anim-toggle aria-label=\"השהיית ההנפשה\">Ⅱ</button><button type=\"button\" data-anim-replay aria-label=\"הפעלה מחדש\">↻</button></div>",
+      "note": "8–12 שניות בלבד, ללא קול. היחסים משתפרים גם בלי הצלחה מושלמת בכל ניסיון.",
+      "section": "vocab",
+      "pair": null,
+      "title": "Friendship: a work in progress."
+    },
+    {
+      "n": 27,
+      "kind": "vocab",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">Band II · Core I · Group 02</div><div class=\"tense\"></div></div><h2 class=\"en word\" lang=\"en\">certain<span class=\"qualifier\">adjective</span></h2><p class=\"en example\" lang=\"en\">I am certain he will come.</p><div class=\"translation-slot\"></div>",
+      "note": "קראו את המילה והמשפט; בקשו פירוש לפני המעבר. המובן כאן: certain = בטוח.",
+      "section": "vocab",
+      "pair": "word-6",
+      "title": "certain"
+    },
+    {
+      "n": 28,
+      "kind": "vocab reveal",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">Band II · Core I · Group 02</div><div class=\"tense\"></div></div><h2 class=\"en word\" lang=\"en\">certain<span class=\"qualifier\">adjective</span></h2><p class=\"en example\" lang=\"en\">I am certain he will come.</p><div class=\"translation-slot\"><p class=\"meaning\">בטוח</p><p class=\"translation\">אני בטוח שהוא יבוא.</p></div>",
+      "note": "חשפו את הפירוש. תלמיד אחד קורא שוב את המשפט. המובן כאן: certain = בטוח.",
+      "section": "vocab",
+      "pair": "word-6",
+      "title": "certain"
+    },
+    {
+      "n": 29,
+      "kind": "animation",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">הפוגה קצרה · 9 / 12</div><div class=\"tense\"></div></div><div class=\"sprite\" role=\"img\" aria-label=\"חתול בלש מגלה שהדבר החשוד הוא הזנב שלו.\" style=\"background-image:url(assets/certain-cat.webp)\"></div><p class=\"en caption\" lang=\"en\">Case closed. It’s my tail.</p><div class=\"animation-controls\"><button type=\"button\" data-anim-toggle aria-label=\"השהיית ההנפשה\">Ⅱ</button><button type=\"button\" data-anim-replay aria-label=\"הפעלה מחדש\">↻</button></div>",
+      "note": "8–12 שניות בלבד, ללא קול. Are you certain? חכו לבדיקה לפני מסקנה.",
+      "section": "vocab",
+      "pair": null,
+      "title": "Case closed. It’s my tail."
+    },
+    {
+      "n": 30,
+      "kind": "vocab",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">Band II · Core I · Group 02</div><div class=\"tense\">עתיד</div></div><h2 class=\"en word\" lang=\"en\">be responsible for something<span class=\"qualifier\">phrase</span></h2><p class=\"en example\" lang=\"en\">I will not be responsible for my actions.</p><div class=\"translation-slot\"></div>",
+      "note": "קראו את המילה והמשפט; בקשו פירוש לפני המעבר.",
+      "section": "vocab",
+      "pair": "word-7",
+      "title": "be responsible for something"
+    },
+    {
+      "n": 31,
+      "kind": "vocab reveal",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">Band II · Core I · Group 02</div><div class=\"tense\">עתיד</div></div><h2 class=\"en word\" lang=\"en\">be responsible for something<span class=\"qualifier\">phrase</span></h2><p class=\"en example\" lang=\"en\">I will not be responsible for my actions.</p><div class=\"translation-slot\"><p class=\"meaning\">להיות אחראי למשהו</p><p class=\"translation\">אני לא אהיה אחראי למעשיי.</p></div>",
+      "note": "חשפו את הפירוש. תלמיד אחד קורא שוב את המשפט.",
+      "section": "vocab",
+      "pair": "word-7",
+      "title": "be responsible for something"
+    },
+    {
+      "n": 32,
+      "kind": "animation",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">הפוגה קצרה · 10 / 12</div><div class=\"tense\"></div></div><div class=\"sprite\" role=\"img\" aria-label=\"חתול מוציא מעמד עץ קטן מתיק כחול ענק.\" style=\"background-image:url(assets/helpful-bag.webp)\"></div><p class=\"en caption\" lang=\"en\">A small stand. A very big bag.</p><div class=\"animation-controls\"><button type=\"button\" data-anim-toggle aria-label=\"השהיית ההנפשה\">Ⅱ</button><button type=\"button\" data-anim-replay aria-label=\"הפעלה מחדש\">↻</button></div>",
+      "note": "8–12 שניות בלבד, ללא קול. רמז חזותי למעמד שאיתן מביא בסיפור.",
+      "section": "vocab",
+      "pair": null,
+      "title": "A small stand. A very big bag."
+    },
+    {
+      "n": 33,
+      "kind": "gap-slide",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">בוחרים תשובה · מסבירים למה</div><div class=\"tense\"></div></div><h2 class=\"en question\" lang=\"en\">I took your book <span class=\"gap \" style=\"--gap-ch:11\">&nbsp;</span>. I thought it was mine.</h2><div class=\"choices en\" lang=\"en\"><div class=\"choice \"><b>A</b><span>on purpose</span></div><div class=\"choice \"><b>B</b><span>by mistake</span></div><div class=\"choice \"><b>C</b><span>at last</span></div></div><div class=\"answer-slot\"></div>",
+      "note": "כולם בוחרים A, B או C, ואז מסבירים איזו ראיה במשפט עזרה להם.",
+      "section": "vocab",
+      "pair": "gap-33",
+      "title": "I took your book ___. I thought it was mine."
+    },
+    {
+      "n": 34,
+      "kind": "gap-slide reveal",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">בוחרים תשובה · מסבירים למה</div><div class=\"tense\"></div></div><h2 class=\"en question\" lang=\"en\">I took your book <span class=\"gap filled\" style=\"--gap-ch:11\">by mistake</span>. I thought it was mine.</h2><div class=\"choices en\" lang=\"en\"><div class=\"choice \"><b>A</b><span>on purpose</span></div><div class=\"choice correct\"><b>B</b><span>by mistake</span></div><div class=\"choice \"><b>C</b><span>at last</span></div></div><div class=\"answer-slot\"><p class=\"explanation\">חשבתי שזה הספר שלי — לכן לקחתי אותו בטעות.</p></div>",
+      "note": "חשפו רק עכשיו את התשובה. חשבתי שזה הספר שלי — לכן לקחתי אותו בטעות.",
+      "section": "vocab",
+      "pair": "gap-33",
+      "title": "I took your book ___. I thought it was mine."
+    },
+    {
+      "n": 35,
+      "kind": "info",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">חוזרים לטקסט</div><div class=\"tense\"></div></div><h2 class=\"part-title\">The Message Without a Voice</h2><p class=\"en instruction\" lang=\"en\">Read the story again. Underline one misunderstanding and one action that helps the friendship.</p><p class=\"instruction\">עובדים בדף: פסקאות A–K. קראו בשקט במשך 4 דקות.</p><div class=\"resource-links\"><a href=\"files/message-exam-practice.pdf\" target=\"_blank\">פתיחת דף העבודה · PDF</a></div>",
+      "note": "חלקו את הדף או פתחו את הקובץ. ארבע דקות קריאה שקטה. התמקדו בחוסר ההבנה ובפעולה מתקנת.",
+      "section": "read",
+      "pair": null,
+      "title": "The Message Without a Voice"
+    },
+    {
+      "n": 36,
+      "kind": "qa",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">קוראים · חושבים · מוצאים הוכחה</div><div class=\"tense\"></div></div><div><h2 class=\"en question\" lang=\"en\">What was the class preparing?</h2></div><div class=\"answer-slot\"></div>",
+      "note": "בקשו לציין פסקה ולהבחין בין הפעילות לבין המטרה.",
+      "section": "read",
+      "pair": "qa-36",
+      "title": "What was the class preparing?"
+    },
+    {
+      "n": 37,
+      "kind": "qa reveal",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">קוראים · חושבים · מוצאים הוכחה</div><div class=\"tense\"></div></div><div><h2 class=\"en question\" lang=\"en\">What was the class preparing?</h2></div><div class=\"answer-slot\"><p class=\"answer-label\">תשובה אפשרית</p><p class=\"en possible-answer\" lang=\"en\">The class was preparing a book sale for a community library.</p><p class=\"evidence\">הוכחה: פסקה A.</p></div>",
+      "note": "אפשר לקבל ניסוחים אחרים שמבוססים על הטקסט. בקשו לציין פסקה ולהבחין בין הפעילות לבין המטרה.",
+      "section": "read",
+      "pair": "qa-36",
+      "title": "What was the class preparing?"
+    },
+    {
+      "n": 38,
+      "kind": "qa",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">קוראים · חושבים · מוצאים הוכחה</div><div class=\"tense\"></div></div><div><h2 class=\"en question\" lang=\"en\">What did Noam think Eitan meant?<br>What did Eitan actually mean?</h2></div><div class=\"answer-slot\"></div>",
+      "note": "בזוגות: תלמיד אחד מסביר את המחשבה של נועם, השני את הכוונה של איתן. שתי דקות לפני החשיפה.",
+      "section": "read",
+      "pair": "qa-38",
+      "title": "What did Noam think Eitan meant?<br>What did Eitan actually mean?"
+    },
+    {
+      "n": 39,
+      "kind": "qa reveal",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">קוראים · חושבים · מוצאים הוכחה</div><div class=\"tense\"></div></div><div><h2 class=\"en question\" lang=\"en\">What did Noam think Eitan meant?<br>What did Eitan actually mean?</h2></div><div class=\"answer-slot\"><p class=\"answer-label\">תשובה אפשרית</p><p class=\"en possible-answer\" lang=\"en\">Noam thought Eitan did not want to help. Eitan meant: start for now; I can bring the stand tomorrow.</p><p class=\"evidence\">הוכחה: פסקאות B ו־D.</p></div>",
+      "note": "אפשר לקבל ניסוחים אחרים שמבוססים על הטקסט. בזוגות: תלמיד אחד מסביר את המחשבה של נועם, השני את הכוונה של איתן. שתי דקות לפני החשיפה.",
+      "section": "read",
+      "pair": "qa-38",
+      "title": "What did Noam think Eitan meant?<br>What did Eitan actually mean?"
+    },
+    {
+      "n": 40,
+      "kind": "qa",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">קוראים · חושבים · מוצאים הוכחה</div><div class=\"tense\"></div></div><div><h2 class=\"en question\" lang=\"en\">Which two details show that Eitan wanted to help?</h2></div><div class=\"answer-slot\"></div>",
+      "note": "הבדילו בין דעה לבין שתי פעולות מפורשות בסיפור.",
+      "section": "read",
+      "pair": "qa-40",
+      "title": "Which two details show that Eitan wanted to help?"
+    },
+    {
+      "n": 41,
+      "kind": "qa reveal",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">קוראים · חושבים · מוצאים הוכחה</div><div class=\"tense\"></div></div><div><h2 class=\"en question\" lang=\"en\">Which two details show that Eitan wanted to help?</h2></div><div class=\"answer-slot\"><p class=\"answer-label\">תשובה אפשרית</p><p class=\"en possible-answer\" lang=\"en\">He and his father finished the stand late at night. He brought the stand to school.</p><p class=\"evidence\">הוכחה: פסקה E, ובפסקה D מופיע תכנון הבאת המעמד.</p></div>",
+      "note": "אפשר לקבל ניסוחים אחרים שמבוססים על הטקסט. הבדילו בין דעה לבין שתי פעולות מפורשות בסיפור.",
+      "section": "read",
+      "pair": "qa-40",
+      "title": "Which two details show that Eitan wanted to help?"
+    },
+    {
+      "n": 42,
+      "kind": "animation",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">הפוגה קצרה · 11 / 12</div><div class=\"tense\"></div></div><div class=\"sprite\" role=\"img\" aria-label=\"חתול מאזן ספרים שלבסוף נוחתים על ראשו.\" style=\"background-image:url(assets/word-order.webp)\"></div><p class=\"en caption\" lang=\"en\">Everything is under control. Almost.</p><div class=\"animation-controls\"><button type=\"button\" data-anim-toggle aria-label=\"השהיית ההנפשה\">Ⅱ</button><button type=\"button\" data-anim-replay aria-label=\"הפעלה מחדש\">↻</button></div>",
+      "note": "8–12 שניות בלבד, ללא קול. הפוגה קצרה לפני סידור האירועים.",
+      "section": "read",
+      "pair": null,
+      "title": "Everything is under control. Almost."
+    },
+    {
+      "n": 43,
+      "kind": "qa",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">קוראים · חושבים · מוצאים הוכחה</div><div class=\"tense\"></div></div><div><h2 class=\"en question\" lang=\"en\">Put the events in the correct order.</h2><ol class=\"en events\" lang=\"en\" type=\"A\"><li>Eitan explains the missing message.</li><li>Noam reads the short message.</li><li>The boys welcome the first visitors.</li><li>Eitan brings a wooden stand.</li></ol></div><div class=\"answer-slot\"></div>",
+      "note": "תנו דקה עצמאית ועוד דקה להשוואה בזוגות.",
+      "section": "read",
+      "pair": "event-order",
+      "title": "Put the events in the correct order."
+    },
+    {
+      "n": 44,
+      "kind": "qa reveal",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">קוראים · חושבים · מוצאים הוכחה</div><div class=\"tense\"></div></div><div><h2 class=\"en question\" lang=\"en\">Put the events in the correct order.</h2><ol class=\"en events\" lang=\"en\" type=\"A\"><li>Eitan explains the missing message.</li><li>Noam reads the short message.</li><li>The boys welcome the first visitors.</li><li>Eitan brings a wooden stand.</li></ol></div><div class=\"answer-slot\"><p class=\"answer-label\">תשובה אפשרית</p><p class=\"en possible-answer\" lang=\"en\">B → D → A → C</p><p class=\"evidence\">קוראים לפי רצף הסיפור, לא לפי סדר הצגת האפשרויות.</p></div>",
+      "note": "אפשר לקבל ניסוחים אחרים שמבוססים על הטקסט. תנו דקה עצמאית ועוד דקה להשוואה בזוגות.",
+      "section": "read",
+      "pair": "event-order",
+      "title": "Put the events in the correct order."
+    },
+    {
+      "n": 45,
+      "kind": "qa",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">קוראים · חושבים · מוצאים הוכחה</div><div class=\"tense\"></div></div><div><h2 class=\"en question\" lang=\"en\">Why does Noam move his chair at the end?</h2></div><div class=\"answer-slot\"></div>",
+      "note": "זו הסקה: יש יותר מניסוח מוצלח אחד, אבל חייבים להסביר כיצד הפעולה תומכת בו.",
+      "section": "read",
+      "pair": "qa-45",
+      "title": "Why does Noam move his chair at the end?"
+    },
+    {
+      "n": 46,
+      "kind": "qa reveal",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">קוראים · חושבים · מוצאים הוכחה</div><div class=\"tense\"></div></div><div><h2 class=\"en question\" lang=\"en\">Why does Noam move his chair at the end?</h2></div><div class=\"answer-slot\"><p class=\"answer-label\">תשובה אפשרית</p><p class=\"en possible-answer\" lang=\"en\">He wants Eitan to feel welcome and included. His action suggests that their friendship is beginning to recover.</p><p class=\"evidence\">הוכחה: פסקה K — נועם מזיז את כיסאו ומציע לאיתן לשבת.</p></div>",
+      "note": "אפשר לקבל ניסוחים אחרים שמבוססים על הטקסט. זו הסקה: יש יותר מניסוח מוצלח אחד, אבל חייבים להסביר כיצד הפעולה תומכת בו.",
+      "section": "read",
+      "pair": "qa-45",
+      "title": "Why does Noam move his chair at the end?"
+    },
+    {
+      "n": 47,
+      "kind": "animation",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">הפוגה קצרה · 12 / 12</div><div class=\"tense\"></div></div><div class=\"sprite\" role=\"img\" aria-label=\"חתול מזיז כיסא לחבר, דוחף רחוק מדי ולבסוף שניהם יושבים יחד.\" style=\"background-image:url(assets/chair-friend.webp)\"></div><p class=\"en caption\" lang=\"en\">Making room for a friend. Literally.</p><div class=\"animation-controls\"><button type=\"button\" data-anim-toggle aria-label=\"השהיית ההנפשה\">Ⅱ</button><button type=\"button\" data-anim-replay aria-label=\"הפעלה מחדש\">↻</button></div>",
+      "note": "8–12 שניות בלבד, ללא קול. מקום ליד השולחן יכול להראות שייכות וחברות.",
+      "section": "read",
+      "pair": null,
+      "title": "Making room for a friend. Literally."
+    },
+    {
+      "n": 48,
+      "kind": "gap-slide",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">בוחרים תשובה · מסבירים למה</div><div class=\"tense\"></div></div><h2 class=\"en question\" lang=\"en\">I <span class=\"gap \" style=\"--gap-ch:12\">&nbsp;</span> with you.</h2><div class=\"choices en\" lang=\"en\"><div class=\"choice \"><b>A</b><span>agree</span></div><div class=\"choice \"><b>B</b><span>am agreeing</span></div><div class=\"choice \"><b>C</b><span>agrees</span></div></div><div class=\"answer-slot\"></div>",
+      "note": "חזרו לאמירה של איתן: I agree. בקשו לזהות את הנושא I.",
+      "section": "language",
+      "pair": "gap-48",
+      "title": "I ___ with you."
+    },
+    {
+      "n": 49,
+      "kind": "gap-slide reveal",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">בוחרים תשובה · מסבירים למה</div><div class=\"tense\"></div></div><h2 class=\"en question\" lang=\"en\">I <span class=\"gap filled\" style=\"--gap-ch:12\">agree</span> with you.</h2><div class=\"choices en\" lang=\"en\"><div class=\"choice correct\"><b>A</b><span>agree</span></div><div class=\"choice \"><b>B</b><span>am agreeing</span></div><div class=\"choice \"><b>C</b><span>agrees</span></div></div><div class=\"answer-slot\"><p class=\"explanation\">כאן agree מבטא דעה או הסכמה. משתמשים ב־Present Simple.</p></div>",
+      "note": "חשפו רק עכשיו את התשובה. כאן agree מבטא דעה או הסכמה. משתמשים ב־Present Simple.",
+      "section": "language",
+      "pair": "gap-48",
+      "title": "I ___ with you."
+    },
+    {
+      "n": 50,
+      "kind": "gap-slide",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">בוחרים תשובה · מסבירים למה</div><div class=\"tense\"></div></div><h2 class=\"en question\" lang=\"en\">Noam was still hurt. <span class=\"gap \" style=\"--gap-ch:12\">&nbsp;</span>, he thanked Eitan for the stand.</h2><div class=\"choices en\" lang=\"en\"><div class=\"choice \"><b>A</b><span>Because</span></div><div class=\"choice \"><b>B</b><span>However</span></div><div class=\"choice \"><b>C</b><span>For example</span></div></div><div class=\"answer-slot\"></div>",
+      "note": "הצביעו גם על הנקודה לפני However ועל הפסיק אחריו.",
+      "section": "language",
+      "pair": "gap-50",
+      "title": "Noam was still hurt. ___, he thanked Eitan for the stand."
+    },
+    {
+      "n": 51,
+      "kind": "gap-slide reveal",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">בוחרים תשובה · מסבירים למה</div><div class=\"tense\"></div></div><h2 class=\"en question\" lang=\"en\">Noam was still hurt. <span class=\"gap filled\" style=\"--gap-ch:12\">However</span>, he thanked Eitan for the stand.</h2><div class=\"choices en\" lang=\"en\"><div class=\"choice \"><b>A</b><span>Because</span></div><div class=\"choice correct\"><b>B</b><span>However</span></div><div class=\"choice \"><b>C</b><span>For example</span></div></div><div class=\"answer-slot\"><p class=\"explanation\">However מציג ניגוד: הוא עדיין נפגע, ובכל זאת הודה לחברו.</p></div>",
+      "note": "חשפו רק עכשיו את התשובה. However מציג ניגוד: הוא עדיין נפגע, ובכל זאת הודה לחברו.",
+      "section": "language",
+      "pair": "gap-50",
+      "title": "Noam was still hurt. ___, he thanked Eitan for the stand."
+    },
+    {
+      "n": 52,
+      "kind": "gap-slide",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">בוחרים תשובה · מסבירים למה</div><div class=\"tense\"></div></div><h2 class=\"en question\" lang=\"en\">Noam misunderstood Eitan <span class=\"gap \" style=\"--gap-ch:9\">&nbsp;</span> part of the message was missing.</h2><div class=\"choices en\" lang=\"en\"><div class=\"choice \"><b>A</b><span>however</span></div><div class=\"choice \"><b>B</b><span>although</span></div><div class=\"choice \"><b>C</b><span>because</span></div></div><div class=\"answer-slot\"></div>",
+      "note": "בקשו להשלים בקול ולזהות את הסיבה.",
+      "section": "language",
+      "pair": "gap-52",
+      "title": "Noam misunderstood Eitan ___ part of the message was missing."
+    },
+    {
+      "n": 53,
+      "kind": "gap-slide reveal",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">בוחרים תשובה · מסבירים למה</div><div class=\"tense\"></div></div><h2 class=\"en question\" lang=\"en\">Noam misunderstood Eitan <span class=\"gap filled\" style=\"--gap-ch:9\">because</span> part of the message was missing.</h2><div class=\"choices en\" lang=\"en\"><div class=\"choice \"><b>A</b><span>however</span></div><div class=\"choice \"><b>B</b><span>although</span></div><div class=\"choice correct\"><b>C</b><span>because</span></div></div><div class=\"answer-slot\"><p class=\"explanation\">Because מציג סיבה: חלק מההודעה היה חסר.</p></div>",
+      "note": "חשפו רק עכשיו את התשובה. Because מציג סיבה: חלק מההודעה היה חסר.",
+      "section": "language",
+      "pair": "gap-52",
+      "title": "Noam misunderstood Eitan ___ part of the message was missing."
+    },
+    {
+      "n": 54,
+      "kind": "info",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">כותבים בעצמנו</div><div class=\"tense\"></div></div><h2 class=\"part-title\">Your turn: a misunderstanding</h2><p class=\"en instruction\" lang=\"en\">Write 70–100 words about a misunderstanding between two friends. Explain what happened and how they solved it.</p><p class=\"instruction\">אפשר להמציא סיפור. אין צורך לשתף אירוע אישי.</p>",
+      "note": "תנו שמונה דקות לכתיבה עצמאית ועוד זמן לתכנון ולבדיקה. מסגרת האורך היא משימת התרגול היום; לא דרישה מאומתת של המבחן.",
+      "section": "write",
+      "pair": null,
+      "title": "Your turn: a misunderstanding"
+    },
+    {
+      "n": 55,
+      "kind": "info",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">כותבים בעצמנו</div><div class=\"tense\"></div></div><h2 class=\"part-title\">Plan before you write</h2><div class=\"writing-plan en\" lang=\"en\"><p><b>1</b> What happened?</p><p><b>2</b> What did each friend think?</p><p><b>3</b> How did they solve the problem?</p></div><p class=\"instruction\">כתבו תחילה שלוש הערות קצרות — לא פסקה שלמה.</p>",
+      "note": "שתי דקות תכנון. הסתובבו בין התלמידים ועזרו רק בבחירת אירוע וקשר סיבתי.",
+      "section": "write",
+      "pair": null,
+      "title": "Plan before you write"
+    },
+    {
+      "n": 56,
+      "kind": "info",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">כותבים בעצמנו</div><div class=\"tense\"></div></div><h2 class=\"part-title\">Need a first sentence?</h2><p class=\"en writing-starter\" lang=\"en\">“Last week, I sent my friend the wrong message by mistake…”</p><p class=\"instruction\">המשיכו בכיוון שלכם. אפשר גם להתחיל בדרך אחרת.</p>",
+      "note": "משפט הפתיחה הוא תמיכה, לא תשובה להעתקה. את השאר התלמידים מפתחים בעצמם. לתלמידים מתקדמים: הוסיפו דיאלוג קצר.",
+      "section": "write",
+      "pair": null,
+      "title": "Need a first sentence?"
+    },
+    {
+      "n": 57,
+      "kind": "info",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">כותבים בעצמנו</div><div class=\"tense\"></div></div><h2 class=\"part-title\">Check your paragraph</h2><div class=\"checklist en\" lang=\"en\"><p>□ 70–100 words</p><p>□ Three target words or phrases</p><p>□ Mainly Past Simple</p><p>□ because and however</p><p>□ A clear problem and solution</p></div>",
+      "note": "בשתי דקות הסיום: סמנו שלוש מילות יעד, בדקו זמן עבר ושימוש נכון במילות הקישור. תלמידים הזקוקים לתמיכה יכולים להיעזר ברשימת המילים בדף.",
+      "section": "write",
+      "pair": null,
+      "title": "Check your paragraph"
+    },
+    {
+      "n": 58,
+      "kind": "qa",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">קוראים · חושבים · מוצאים הוכחה</div><div class=\"tense\"></div></div><div><h2 class=\"en question\" lang=\"en\">What should you do when a message sounds unfriendly?</h2></div><div class=\"answer-slot\"></div>",
+      "note": "כרטיס יציאה: משפט אחד במחברת. בקשו גם לתקן דבר אחד בפסקה שכתבו.",
+      "section": "end",
+      "pair": "qa-58",
+      "title": "What should you do when a message sounds unfriendly?"
+    },
+    {
+      "n": 59,
+      "kind": "qa reveal",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">קוראים · חושבים · מוצאים הוכחה</div><div class=\"tense\"></div></div><div><h2 class=\"en question\" lang=\"en\">What should you do when a message sounds unfriendly?</h2></div><div class=\"answer-slot\"><p class=\"answer-label\">תשובה אפשרית</p><p class=\"en possible-answer\" lang=\"en\">Ask the person what they meant before you assume. Read the whole message.</p><p class=\"evidence\">יותר מניסוח אחד יכול להתאים.</p></div>",
+      "note": "אפשר לקבל ניסוחים אחרים שמבוססים על הטקסט. כרטיס יציאה: משפט אחד במחברת. בקשו גם לתקן דבר אחד בפסקה שכתבו.",
+      "section": "end",
+      "pair": "qa-58",
+      "title": "What should you do when a message sounds unfriendly?"
+    },
+    {
+      "n": 60,
+      "kind": "info",
+      "body": "<div class=\"slide-meta\"><div class=\"eyebrow\">מסיימים וממשיכים</div><div class=\"tense\"></div></div><h2 class=\"part-title\">לקראת המפגש הבא</h2><p class=\"instruction\">סיימו ותקנו את הפסקה שלכם.<br>תרגלו את כל המילים בקבוצות 01–02 ב־Band II, Core I.</p><div class=\"resource-links\"><a href=\"https://englishfornoar.co.il/band-ii/groups/group-01.html?preview=20260902\" target=\"_blank\">קבוצה 01 · תרגול</a><a href=\"https://englishfornoar.co.il/band-ii/groups/group-02.html?preview=20260902\" target=\"_blank\">קבוצה 02 · תרגול</a></div><p class=\"small-note\">פירוש · הגייה · איות · שימוש במשפט</p>",
+      "note": "הזכירו שהתרגול היום כלל שמונה ערכים בלבד מתוך שתי הקבוצות. יש לתרגל את שתי הקבוצות בשלמותן.",
+      "section": "end",
+      "pair": null,
+      "title": "לקראת המפגש הבא"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "by mistake",
+      "partOfSpeech": "phrase",
+      "meaning": "בטעות",
+      "example": "I took the wrong umbrella by mistake.",
+      "translation": "לקחתי בטעות את המטרייה הלא נכונה.",
+      "tense": "עבר",
+      "group": 1,
+      "animation": 3
+    },
+    {
+      "word": "however",
+      "partOfSpeech": "adverb",
+      "meaning": "עם זאת",
+      "example": "It was cold. However, we went out.",
+      "translation": "היה קר. עם זאת, יצאנו.",
+      "tense": "עבר",
+      "group": 1,
+      "animation": 4
+    },
+    {
+      "word": "understanding",
+      "partOfSpeech": "noun",
+      "meaning": "הבנה; ידע",
+      "example": "Thank you for your patience and understanding.",
+      "translation": "תודה על הסבלנות וההבנה.",
+      "tense": "",
+      "group": 1,
+      "animation": 5
+    },
+    {
+      "word": "so far",
+      "partOfSpeech": "idiom",
+      "meaning": "עד כה",
+      "example": "So far, everything is fine.",
+      "translation": "עד כה הכול בסדר.",
+      "tense": "הווה",
+      "group": 1,
+      "animation": 6
+    },
+    {
+      "word": "achieve",
+      "partOfSpeech": "verb",
+      "meaning": "להשיג",
+      "example": "She worked hard to achieve her goal.",
+      "translation": "היא עבדה קשה כדי להשיג את מטרתה.",
+      "tense": "עבר",
+      "group": 2,
+      "animation": 7
+    },
+    {
+      "word": "relations",
+      "partOfSpeech": "noun",
+      "meaning": "יחסים",
+      "example": "Canada has diplomatic relations with China.",
+      "translation": "לקנדה יחסים דיפלומטיים עם סין.",
+      "tense": "הווה",
+      "group": 2,
+      "animation": 8
+    },
+    {
+      "word": "certain",
+      "partOfSpeech": "adjective",
+      "meaning": "בטוח",
+      "example": "I am certain he will come.",
+      "translation": "אני בטוח שהוא יבוא.",
+      "tense": "",
+      "group": 2,
+      "animation": 9
+    },
+    {
+      "word": "be responsible for something",
+      "partOfSpeech": "phrase",
+      "meaning": "להיות אחראי למשהו",
+      "example": "I will not be responsible for my actions.",
+      "translation": "אני לא אהיה אחראי למעשיי.",
+      "tense": "עתיד",
+      "group": 2,
+      "animation": 10
+    }
+  ],
+  "animations": [
+    {
+      "id": "half-message",
+      "caption": "The message loaded. The meaning didn’t.",
+      "alt": "חתול קורא הודעה בטלפון, נבהל ואז מגלה את ההמשך.",
+      "note": "לפני שמסיקים מסקנה: האם קראנו את כל ההודעה?"
+    },
+    {
+      "id": "wrong-envelope",
+      "caption": "Right message. Wrong human.",
+      "alt": "חתול רודף אחרי מעטפה שנוחתת על ראשו.",
+      "note": "הפוגה קצרה. מילה אחת: mistake."
+    },
+    {
+      "id": "serious-cat",
+      "caption": "Very serious. Slightly blurry.",
+      "alt": "חתול רציני עם משקפיים ענקיים שמחליקים.",
+      "note": "אפשר לשאול: Is he angry, or just trying to see?"
+    },
+    {
+      "id": "however-cat",
+      "caption": "Tiny book. Huge adventure.",
+      "alt": "חתול קופץ מעל ספר קטן במאמץ מוגזם.",
+      "note": "בקול: It was a tiny book. However, the jump was huge."
+    },
+    {
+      "id": "missing-piece",
+      "caption": "The answer was behind his ear.",
+      "alt": "חתול מחפש חלק של פאזל שנמצא מאחורי אוזנו.",
+      "note": "הפוגה של שמונה שניות; חוזרים למילה understanding."
+    },
+    {
+      "id": "so-far",
+      "caption": "So far… three books.",
+      "alt": "חתול מטפס על שלושה ספרים כאילו הם הר.",
+      "note": "So far — מה כבר הספקנו? תשובת מילה אחת."
+    },
+    {
+      "id": "tiny-goal",
+      "caption": "New goal: aim at the bin.",
+      "alt": "כדור נייר נוחת על ראשו של חתול במקום בסל.",
+      "note": "גם כשהניסיון הראשון נכשל, אפשר לנסות להשיג את המטרה."
+    },
+    {
+      "id": "two-friends",
+      "caption": "Friendship: a work in progress.",
+      "alt": "שני חתולים מנסים כיף, מפספסים ולבסוף מצליחים.",
+      "note": "היחסים משתפרים גם בלי הצלחה מושלמת בכל ניסיון."
+    },
+    {
+      "id": "certain-cat",
+      "caption": "Case closed. It’s my tail.",
+      "alt": "חתול בלש מגלה שהדבר החשוד הוא הזנב שלו.",
+      "note": "Are you certain? חכו לבדיקה לפני מסקנה."
+    },
+    {
+      "id": "helpful-bag",
+      "caption": "A small stand. A very big bag.",
+      "alt": "חתול מוציא מעמד עץ קטן מתיק כחול ענק.",
+      "note": "רמז חזותי למעמד שאיתן מביא בסיפור."
+    },
+    {
+      "id": "word-order",
+      "caption": "Everything is under control. Almost.",
+      "alt": "חתול מאזן ספרים שלבסוף נוחתים על ראשו.",
+      "note": "הפוגה קצרה לפני סידור האירועים."
+    },
+    {
+      "id": "chair-friend",
+      "caption": "Making room for a friend. Literally.",
+      "alt": "חתול מזיז כיסא לחבר, דוחף רחוק מדי ולבסוף שניהם יושבים יחד.",
+      "note": "מקום ליד השולחן יכול להראות שייכות וחברות."
+    }
+  ]
+}
