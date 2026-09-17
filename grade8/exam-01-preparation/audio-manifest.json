@@ -1,0 +1,448 @@
+{
+  "engine": "Kokoro v1.0",
+  "voice": "af_heart",
+  "language": "en-US",
+  "synthetic": true,
+  "browserTTS": false,
+  "count": 73,
+  "clips": {
+    "g01-01": {
+      "src": "audio/g01-01-784cde359b96.mp3",
+      "text": "lift. Help me lift this chair.",
+      "duration": 2.712,
+      "sha256": "600d80330eeb9d8bbc0e248d7b4db0c6026f86f4b35a567cfa64c7eae948c00c"
+    },
+    "g01-02": {
+      "src": "audio/g01-02-95683ce6e998.mp3",
+      "text": "take something out. Take the cake out of the oven.",
+      "duration": 3.624,
+      "sha256": "f65b9191548428ff5c9546c438b875c0ef53efc888afb4cfe5ab96603ee61ec9"
+    },
+    "g01-03": {
+      "src": "audio/g01-03-40497f09d0b0.mp3",
+      "text": "top. Our team came out on top.",
+      "duration": 2.736,
+      "sha256": "c973533e39181c9bc9964f568a3717a235b3f44d6249d801b01c7dd11bd0b40d"
+    },
+    "g01-04": {
+      "src": "audio/g01-04-2cdbc51cf9f4.mp3",
+      "text": "remove. Could you please remove your glasses?",
+      "duration": 3.36,
+      "sha256": "1037718579da047f1570cd49e05615c23944874f8c214dc5b9d6c3b28e64b96c"
+    },
+    "g01-05": {
+      "src": "audio/g01-05-f5599569608c.mp3",
+      "text": "environment. Some factories can harm the environment.",
+      "duration": 4.08,
+      "sha256": "b4492bd822018cd1a5c202b8a06866f20fec3a8eb42259001d5e4f89bc0a6fe5"
+    },
+    "g01-06": {
+      "src": "audio/g01-06-1cb50d945084.mp3",
+      "text": "take something seriously. Do not take this joke too seriously.",
+      "duration": 4.656,
+      "sha256": "88848f3a33eb00825c141e5b97ada2a61117d18cc9a5fdf19a81265fca7096ba"
+    },
+    "g01-07": {
+      "src": "audio/g01-07-f31806e4e4fd.mp3",
+      "text": "petrol. The car needs petrol.",
+      "duration": 2.568,
+      "sha256": "cb9f9eae17d2634a6fc30af9dac5ceb95216fd2e18fa821d9c8afb529c70b9d3"
+    },
+    "g01-08": {
+      "src": "audio/g01-08-7fdbec8167aa.mp3",
+      "text": "mosque. We visited a mosque in Acre.",
+      "duration": 3.144,
+      "sha256": "b7d1faae19517b1e097b23f624b376775cda4800f22f6be4bc853933e5ccfd15"
+    },
+    "g01-09": {
+      "src": "audio/g01-09-e91bfc441046.mp3",
+      "text": "understanding. Thank you for your patience and understanding.",
+      "duration": 4.368,
+      "sha256": "69ee7cfdb029b51097f34c74094d069e3a43244bc667ccb1ee4c0f4d5b95dfb4"
+    },
+    "g01-10": {
+      "src": "audio/g01-10-598936eb287d.mp3",
+      "text": "weekly. We meet weekly.",
+      "duration": 2.352,
+      "sha256": "f70f004887c9fe3571cfded6beb4deb320874bcb8d9e3264457a7f5e56154768"
+    },
+    "g01-11": {
+      "src": "audio/g01-11-84a21b4d9d0c.mp3",
+      "text": "lack of something. Lack of food made them really hungry.",
+      "duration": 4.128,
+      "sha256": "5beb162b05365b0ed362cde52e38cbebf62d2174379394134e27196bce86adb1"
+    },
+    "g01-12": {
+      "src": "audio/g01-12-f366e99b61cd.mp3",
+      "text": "amazing. The school trip was amazing.",
+      "duration": 3.264,
+      "sha256": "83f9ca275b105bb6eb8f70dbd3d68a3f4cdaa974d799ab6c7146d175e74a80b0"
+    },
+    "g01-13": {
+      "src": "audio/g01-13-a09183f8fe46.mp3",
+      "text": "death. The students are afraid of death.",
+      "duration": 2.976,
+      "sha256": "7ca64c2e44a63c8938aa7b0fe4ec40b55eb7a796b2c0def752e78caba48479c3"
+    },
+    "g01-14": {
+      "src": "audio/g01-14-5ed42fc99bad.mp3",
+      "text": "break. Our class needs a short break.",
+      "duration": 2.952,
+      "sha256": "8fdb53925809bd76a23fe381a36f4c3b8a229e2c41ade36a082279d58001757c"
+    },
+    "g01-15": {
+      "src": "audio/g01-15-9187fcd388dc.mp3",
+      "text": "around. I like having my friends around.",
+      "duration": 3.264,
+      "sha256": "4e7a00f03fe0f3d9d5f338a718a6ccbff1cdf5c251934d325f6c9a6007c4747a"
+    },
+    "g01-16": {
+      "src": "audio/g01-16-8f8c25879db7.mp3",
+      "text": "disease. This disease spreads through the air.",
+      "duration": 3.432,
+      "sha256": "6e99833029d8dffc4bf2079e4f8b1d6771514f034a4ac5c8de898058765a206b"
+    },
+    "g01-17": {
+      "src": "audio/g01-17-cb56f99c6b7a.mp3",
+      "text": "Bible. The boy reads the Bible at home.",
+      "duration": 3.216,
+      "sha256": "d7b9268b50495fc9dd1af39b8e9ffed5750235c595a476f18694d0849138edff"
+    },
+    "g01-18": {
+      "src": "audio/g01-18-ed53620ff49b.mp3",
+      "text": "discover. They were not able to discover any secrets.",
+      "duration": 3.84,
+      "sha256": "05ee6513d3d3dbc79e6e2b70ec42c933e87a108283b6cf47d560f54c473eed41"
+    },
+    "g01-19": {
+      "src": "audio/g01-19-0b8fa9c0692d.mp3",
+      "text": "inform. Please inform us about the change.",
+      "duration": 3.552,
+      "sha256": "f55fecdc2038c92804195326b220fa5854f42ff2d034e98ae4e7239896ce1763"
+    },
+    "g01-20": {
+      "src": "audio/g01-20-761fb8631c02.mp3",
+      "text": "drawer. The top desk drawer is open.",
+      "duration": 2.976,
+      "sha256": "7e3b4da299f780b625ba27e509e8510e878707e7e36fcef11fa33510e7f08d5a"
+    },
+    "g01-21": {
+      "src": "audio/g01-21-56a22e8e27a3.mp3",
+      "text": "virus. It is probably a virus.",
+      "duration": 3.0,
+      "sha256": "de70a2f43b574752fab98cc3e262f29ec233baa496e551d9c20d670fb8342e1c"
+    },
+    "g01-22": {
+      "src": "audio/g01-22-a1f3f593247b.mp3",
+      "text": "however. It was cold. However, we went out.",
+      "duration": 3.696,
+      "sha256": "742398fe34050090b5d60df8fc3d610e534e0a9f23764a3bba800e4930ddd36b"
+    },
+    "g01-23": {
+      "src": "audio/g01-23-a940c10f2221.mp3",
+      "text": "international. Spanish is an international language.",
+      "duration": 4.296,
+      "sha256": "048335d9df577b3fd4c616790e98a6117240e545943ceae2e6738d3f46428339"
+    },
+    "g01-24": {
+      "src": "audio/g01-24-9e142b76178e.mp3",
+      "text": "back. The back door is open.",
+      "duration": 2.544,
+      "sha256": "8b2b0a745b75131e3a70d0245f4c45c1ea69880fb6c55dc8c39503cb7b061207"
+    },
+    "g01-25": {
+      "src": "audio/g01-25-d554e68bcb7f.mp3",
+      "text": "go back. I had to go back to school.",
+      "duration": 2.88,
+      "sha256": "fab07266e8c05bf752dd7be77c0f9779d4d3c61bfd6ef1af6024518816dc173a"
+    },
+    "g01-26": {
+      "src": "audio/g01-26-f72cfde5bff9.mp3",
+      "text": "care. The patient needs daily care.",
+      "duration": 2.976,
+      "sha256": "895fa1a247e62c619d852463a55db5ae61030266b58a8f6d7723cb4b13257c90"
+    },
+    "g01-27": {
+      "src": "audio/g01-27-c852f53a2366.mp3",
+      "text": "adjective. “Blue” is an adjective.",
+      "duration": 2.952,
+      "sha256": "a6b0452021fa1c6d855d69b21bf662036a48365f7f1c233ff47cfe431992da02"
+    },
+    "g01-28": {
+      "src": "audio/g01-28-6042c9ac5018.mp3",
+      "text": "read something out. She read the poem out to the class.",
+      "duration": 3.936,
+      "sha256": "c2079a8aad9da0cf212c92dc2a30e90d30fe53c5c94366e0e5bede534e24a7fe"
+    },
+    "g01-29": {
+      "src": "audio/g01-29-b6a44f07decd.mp3",
+      "text": "demand. Customers demand better service.",
+      "duration": 3.792,
+      "sha256": "32e964810bcbe29b8fde880312da28e17ff7a73a7857189224540f952739908f"
+    },
+    "g01-30": {
+      "src": "audio/g01-30-39003969ffe7.mp3",
+      "text": "then. Finish your work, then go home.",
+      "duration": 2.904,
+      "sha256": "8e283b2063b37e4558c086a22bedd4c3c2a37722a13c45ef2f9e272111c1258b"
+    },
+    "g01-31": {
+      "src": "audio/g01-31-1e52adc9e2ec.mp3",
+      "text": "Earth. Earth moves around the sun.",
+      "duration": 2.808,
+      "sha256": "978f878f3c82708b3bfb262d944b8a09928368df9a5e936df0b425e3dccc7e33"
+    },
+    "g01-32": {
+      "src": "audio/g01-32-cc0fe3be6a46.mp3",
+      "text": "break down. Our school bus broke down.",
+      "duration": 3.048,
+      "sha256": "04a314f094a73566302a387216968d6cbc1ab164b134ece3381a285981e722f4"
+    },
+    "g01-33": {
+      "src": "audio/g01-33-09ec0ebd2f0b.mp3",
+      "text": "meet. I would like to meet the new teacher.",
+      "duration": 2.976,
+      "sha256": "2c4a0f4354ca00bbd0ed4c7317fae320bf650cfe55424588cf0d6425c6338217"
+    },
+    "g01-34": {
+      "src": "audio/g01-34-68b0eda1d9cf.mp3",
+      "text": "highway. The highway runs beside the river.",
+      "duration": 3.336,
+      "sha256": "47fec59447857924b62492b19918bf826c33baef4e69ac4eb17bb18ca2ac3e63"
+    },
+    "g01-35": {
+      "src": "audio/g01-35-0df731d97aa8.mp3",
+      "text": "contents. May I see the full contents of the package?",
+      "duration": 4.104,
+      "sha256": "531c101dee424b0af420bb249d45d3c49c8fc110ca672e56b0d5373732489d9f"
+    },
+    "g01-36": {
+      "src": "audio/g01-36-561f693600de.mp3",
+      "text": "around. We walked around the lake.",
+      "duration": 2.856,
+      "sha256": "c1c2dc18413aeae459eeaaacc173d3d6cccf507700dafd1af2716626acda1264"
+    },
+    "g01-37": {
+      "src": "audio/g01-37-ae0392c18e88.mp3",
+      "text": "circus. The circus is in town.",
+      "duration": 2.976,
+      "sha256": "81a3085ec41c599cc2b32b8bac42e0bdcc13cc138681e63888366c6cc09a3ade"
+    },
+    "g01-38": {
+      "src": "audio/g01-38-127302794b2d.mp3",
+      "text": "look like. Did he really look like a doctor?",
+      "duration": 3.264,
+      "sha256": "1ccae190e9fbe7c08d530e4abe2f42fc456d32c7dc8ab01e2b00b73423fc4738"
+    },
+    "g01-39": {
+      "src": "audio/g01-39-3557a04e3b58.mp3",
+      "text": "physics. We study physics at school.",
+      "duration": 2.928,
+      "sha256": "64ff05f44bdfa81743452fbc2e9309d4108f91ed17ac187436d1c0ba98f98c82"
+    },
+    "g01-40": {
+      "src": "audio/g01-40-5c509841b746.mp3",
+      "text": "until. Please wait here until we get back.",
+      "duration": 3.336,
+      "sha256": "efdaef1c6ef8a3f90f3182affc4d415fcee0deaf43faf40a2013f29f9ded8f4e"
+    },
+    "g01-41": {
+      "src": "audio/g01-41-56a358b813a2.mp3",
+      "text": "by mistake. I took the wrong umbrella by mistake.",
+      "duration": 4.008,
+      "sha256": "1b9b6cf6bcb49f6ebe8c039d5ce22d3ed730eebd01f82b9983023e0cfcde22c0"
+    },
+    "g01-42": {
+      "src": "audio/g01-42-ee116d789fc2.mp3",
+      "text": "wool. Sheep give us wool.",
+      "duration": 2.448,
+      "sha256": "56aae4ed9b38e3dc2da2540b2f7de8782dd3056768c7670691dd03fa0e33853d"
+    },
+    "g01-43": {
+      "src": "audio/g01-43-215a1d0b5d32.mp3",
+      "text": "bring something back. Please bring back some food.",
+      "duration": 3.696,
+      "sha256": "1c68b6c5543a82b50fffd7a09627ff7d627334f641bfa66e15e568f6c04d3d23"
+    },
+    "g01-44": {
+      "src": "audio/g01-44-2e6d24671473.mp3",
+      "text": "degree. It is thirty degrees today.",
+      "duration": 3.0,
+      "sha256": "edb6d1d117094f47a38a18379cd57104cbfc17afefc65f1c5adb5e07cd558495"
+    },
+    "g01-45": {
+      "src": "audio/g01-45-e3d08ed5accd.mp3",
+      "text": "murder. The police are investigating a murder.",
+      "duration": 3.6,
+      "sha256": "c8909441c8eca2b20bc5a6cda0cf444a5f2951aabea469522863753aa771b5c4"
+    },
+    "g01-46": {
+      "src": "audio/g01-46-0ffbeb35c419.mp3",
+      "text": "yourselves. Enjoy yourselves at the party.",
+      "duration": 3.36,
+      "sha256": "4639afaab5f2efc4e2b3dcfac2cfc884fa76c8d8e0ad1625d36c8924ac32d4a9"
+    },
+    "g01-47": {
+      "src": "audio/g01-47-a3f13e86e463.mp3",
+      "text": "join. Do you really want to join us?",
+      "duration": 2.784,
+      "sha256": "e725f21bd23c2b344c41d30d70b7724fe3e5fa09b5ea8c7d60b58edce89c07d1"
+    },
+    "g01-48": {
+      "src": "audio/g01-48-7e89db0fca38.mp3",
+      "text": "so far. So far, everything is fine.",
+      "duration": 3.312,
+      "sha256": "e0d4c28a09325887666a2da04815ae21b54e150997ca5129b7215561397b1b98"
+    },
+    "g01-49": {
+      "src": "audio/g01-49-5cc7ae41ee51.mp3",
+      "text": "if you like. I will go with you if you like.",
+      "duration": 3.192,
+      "sha256": "096dd61b1b417149c00714ddee456b53ed113a05d3f2d14d9a9cfbb9c644b201"
+    },
+    "g01-50": {
+      "src": "audio/g01-50-8983a97804d6.mp3",
+      "text": "adverb. “Slowly” is an adverb.",
+      "duration": 2.976,
+      "sha256": "1821a89de1a8d14c63160ff45edc529cd7704b86c68d8881294867182362f1a8"
+    },
+    "g01-51": {
+      "src": "audio/g01-51-4a740b5c19be.mp3",
+      "text": "in half. He cut the orange in half.",
+      "duration": 2.88,
+      "sha256": "62d351cd4afd00998e86351bf5ef972b5fd5b9059599cc31519dea0258f9cffc"
+    },
+    "g01-52": {
+      "src": "audio/g01-52-34a488585ddb.mp3",
+      "text": "explanation. The explanation was not difficult to understand.",
+      "duration": 5.112,
+      "sha256": "32ab024d6dda3bf5cb19fc18f42d93e0eac316351b7f19c03a3ddb65cfcc6081"
+    },
+    "g01-53": {
+      "src": "audio/g01-53-a7f122a49376.mp3",
+      "text": "fine. I feel fine today.",
+      "duration": 2.52,
+      "sha256": "cc819375a03514091cb78dec5cadbee962825a9bab3a6d2869d42965527eb7e0"
+    },
+    "g01-54": {
+      "src": "audio/g01-54-73908ee6acd0.mp3",
+      "text": "medicine. Give me my medicine, please.",
+      "duration": 3.192,
+      "sha256": "62f84b18ebb931c120c6b6534ca9a3676b40246202e23974f5b68b1d8b634f99"
+    },
+    "g01-55": {
+      "src": "audio/g01-55-52aa768585db.mp3",
+      "text": "be able to do something. Would you please be able to do that?",
+      "duration": 4.344,
+      "sha256": "2a7530d149fedbe0c8c015e1646049c4a705033f98a184c7d46996dccb04af98"
+    },
+    "story-01": {
+      "src": "audio/story-01-3f7b039cc4e6.mp3",
+      "text": "I am at one of the most unusual festivals in the world – the Monkey Festival in Lopburi, Thailand.",
+      "duration": 6.6,
+      "sha256": "a420441fceb18faf790707960c411e0c4ff9cf4236c938016688d238d152ccfb"
+    },
+    "story-02": {
+      "src": "audio/story-02-2ad25a30ec67.mp3",
+      "text": "People are getting ready for the festival, so I finally have some time to write about my adventures.",
+      "duration": 5.88,
+      "sha256": "fbc85f5e2cae045a15594ea6cdc045147f1ad5bc68695cfeb9637bf646b62516"
+    },
+    "story-03": {
+      "src": "audio/story-03-132354fee839.mp3",
+      "text": "Everybody in town gets together and the entire town goes a little crazy on this day!",
+      "duration": 5.52,
+      "sha256": "88dc7cdf6ed262051af10edd9eef95da2014eebf5cfc44f68d37e40924c724a3"
+    },
+    "story-04": {
+      "src": "audio/story-04-6773b6dc62aa.mp3",
+      "text": "Many people are dressed like monkeys, and the festival has live performances and dances.",
+      "duration": 5.76,
+      "sha256": "bf56b1b1b01c17681e634a300b1f78970a94aeb0502f610c4348756662d90a65"
+    },
+    "story-05": {
+      "src": "audio/story-05-b416ea70549f.mp3",
+      "text": "The first thing you notice when you look around town are the monkeys.",
+      "duration": 3.912,
+      "sha256": "a2e87a30bc777f4f21295aeff087f9621245fb03d3b68102b8c03bca32479cca"
+    },
+    "story-06": {
+      "src": "audio/story-06-8139d102ccb4.mp3",
+      "text": "They are everywhere!",
+      "duration": 1.272,
+      "sha256": "d7fe3c5beb25007580cf3fc2ebff49183d524cd7d56cdb8b50d7611596943050"
+    },
+    "story-07": {
+      "src": "audio/story-07-6b3f22df8554.mp3",
+      "text": "I can see a few of them right now.",
+      "duration": 2.064,
+      "sha256": "02b8e430fffc51732cf31b65f97f88891a2e79c9b3cd230b71734a32357414b0"
+    },
+    "story-08": {
+      "src": "audio/story-08-91438cc1b30a.mp3",
+      "text": "They are gathered together on the street corner, playing with each other and making loud noises.",
+      "duration": 5.544,
+      "sha256": "51fa960994f2e30c28469cd5455f3a49eb13e0753aa0f4d82ccb64b3878d7463"
+    },
+    "story-09": {
+      "src": "audio/story-09-7487e2643800.mp3",
+      "text": "They may look cute, but you have to be careful.",
+      "duration": 2.616,
+      "sha256": "45e9d3417602dd69b406580bcbeee827647229d82469ef4cdac4f0719b05907c"
+    },
+    "story-10": {
+      "src": "audio/story-10-d257cd08a0de.mp3",
+      "text": "These monkeys can cause major trouble.",
+      "duration": 2.352,
+      "sha256": "7c40cc58ed55173e78ea7d1d688bc8ada943bc16fd1c29523bd0f4dfe7baa875"
+    },
+    "story-11": {
+      "src": "audio/story-11-765838e36df4.mp3",
+      "text": "They like to take things from people, especially food and drinks, and even valuable things, like handbags and sunglasses.",
+      "duration": 7.848,
+      "sha256": "b99b98ee614576485565dfd1c156d58fd9919a611cd0b01863df7c1d01f5c3ba"
+    },
+    "story-12": {
+      "src": "audio/story-12-6f91be8d70d2.mp3",
+      "text": "This is an annual festival, and people look forward to it all year.",
+      "duration": 4.128,
+      "sha256": "86e38b5bb2099c293f116cbe6aa359fb3922cf3674b129ec35702e7c3441ef49"
+    },
+    "story-13": {
+      "src": "audio/story-13-bf97adacda58.mp3",
+      "text": "Early in the morning, people prepare huge plates of fruit and put them on long tables.",
+      "duration": 5.4,
+      "sha256": "ecd827b2edf3679dba8b4aac267102276507ff57fd333934debdf88d7a8b7b05"
+    },
+    "story-14": {
+      "src": "audio/story-14-73e977e1503c.mp3",
+      "text": "The tables look beautiful, but they aren’t going to stay that way.",
+      "duration": 3.648,
+      "sha256": "554cab93681ad07435fded454c1bcb1a97e86a2a02e871b6cb6d7b12247e900d"
+    },
+    "story-15": {
+      "src": "audio/story-15-c4ce1b53b296.mp3",
+      "text": "The best part of the festival is when thousands of excited monkeys jump on the tables and eat as much fruit as they possibly can.",
+      "duration": 8.664,
+      "sha256": "7eedce31bea43abd135a7c3d5305c5a856e8fb2ed275f1177199b6bf0c60faf8"
+    },
+    "story-16": {
+      "src": "audio/story-16-771116ff0540.mp3",
+      "text": "I heard that sometimes the monkeys even have food fights!",
+      "duration": 3.528,
+      "sha256": "c3be966e3c4aad9acd7ccf6a3adc5bcc8959b5ed0b0ada38c63b2c5a2ae31982"
+    },
+    "story-17": {
+      "src": "audio/story-17-140a3beb63ed.mp3",
+      "text": "I hope they have one today.",
+      "duration": 1.848,
+      "sha256": "44b5bd2bcf7fe8b54a6234bfdb00e1bacfe402613ea4489873793b7cbacac3e9"
+    },
+    "story-18": {
+      "src": "audio/story-18-c385ad560274.mp3",
+      "text": "What a crazy festival!",
+      "duration": 1.536,
+      "sha256": "b4c743450c17046f742c6dd6dbb1c13c8672454cfe8c1a817eab11724ff10dc8"
+    }
+  }
+}

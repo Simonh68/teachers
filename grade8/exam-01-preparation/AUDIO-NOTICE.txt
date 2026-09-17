@@ -1,0 +1,1 @@
+Prerecorded AI narration, Kokoro v1.0 / af_heart, US English. Vocabulary + original English examples, and original Part One sentences only. No browser TTS. Model: https://huggingface.co/hexgrad/Kokoro-82M (Apache-2.0). Runtime: https://github.com/thewh1teagle/kokoro-onnx (MIT). Existing source narration reused only when the full transcript matches.

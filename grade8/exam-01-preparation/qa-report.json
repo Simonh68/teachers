@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "words": 55,
+  "storySentences": 18,
+  "basicQuestions": 4,
+  "comprehensionQuestions": 3,
+  "translationExercises": 6,
+  "audioClips": 73,
+  "checks": [
+    {
+      "viewport": "1366x768",
+      "pages": 235,
+      "stationarySequences": 107,
+      "textClipping": false,
+      "fourDirectionTouch": true,
+      "keyboard": true,
+      "wheel": true,
+      "vocabularyAudio": true,
+      "storyAudio": true,
+      "twoSecondDelay": true,
+      "stopOnNavigation": true,
+      "answerNotPremature": true
+    },
+    {
+      "viewport": "1024x600",
+      "pages": 235,
+      "stationarySequences": 107,
+      "textClipping": false,
+      "fourDirectionTouch": true,
+      "keyboard": true,
+      "wheel": true,
+      "vocabularyAudio": true,
+      "storyAudio": true,
+      "twoSecondDelay": true,
+      "stopOnNavigation": true,
+      "answerNotPremature": true
+    },
+    {
+      "viewport": "390x844",
+      "pages": 235,
+      "stationarySequences": 107,
+      "textClipping": false,
+      "fourDirectionTouch": true,
+      "keyboard": true,
+      "wheel": true,
+      "vocabularyAudio": true,
+      "storyAudio": true,
+      "twoSecondDelay": true,
+      "stopOnNavigation": true,
+      "answerNotPremature": true
+    },
+    {
+      "viewport": "844x390",
+      "pages": 235,
+      "stationarySequences": 107,
+      "textClipping": false,
+      "fourDirectionTouch": true,
+      "keyboard": true,
+      "wheel": true,
+      "vocabularyAudio": true,
+      "storyAudio": true,
+      "twoSecondDelay": true,
+      "stopOnNavigation": true,
+      "answerNotPremature": true
+    },
+    {
+      "viewport": "360x640",
+      "pages": 235,
+      "stationarySequences": 107,
+      "textClipping": false,
+      "fourDirectionTouch": true,
+      "keyboard": true,
+      "wheel": true,
+      "vocabularyAudio": true,
+      "storyAudio": true,
+      "twoSecondDelay": true,
+      "stopOnNavigation": true,
+      "answerNotPremature": true
+    }
+  ],
+  "checkedAtUTC": "2026-09-17T15:55:43Z"
+}

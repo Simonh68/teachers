@@ -1,0 +1,23 @@
+{
+  "sourceWords": "grade7/band2-groups-01-02/data.js",
+  "sourceWordSHA256": "185644bddfddb286736f8b10297aee29860453871ac441bdcd4b253b416c972c",
+  "sourceStory": "grade8/monkey-festival/lesson-data-v2.js",
+  "sourceStorySHA256": "dcc520bad7f554ed7639042b962c105533a80ad0ef4fb8021e8fd824909f48bd",
+  "vocabularyCount": 55,
+  "storySentences": 18,
+  "basicQuestions": 4,
+  "comprehensionQuestions": 3,
+  "translationExercises": 6,
+  "vocabularyBrainBreaks": 18,
+  "readingBrainBreaks": 3,
+  "documentedTranslationCorrections": [
+    {
+      "id": "g01-17",
+      "field": "ex_he",
+      "before": "דן קורא בתנ״ך בבית.",
+      "after": "הילד קורא בתנ״ך בבית.",
+      "reason": "The source English says the boy, not Dan."
+    }
+  ],
+  "sourceStoryFolderUnchanged": true
+}
