@@ -1,0 +1,83 @@
+name: Publish approved Grade 8 exam lesson
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/grade8-exam/**'
+      - '.github/workflows/grade8-exam-approved.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: grade8-exam-approved
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      OMP_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/cache@v4
+        with:
+          path: .cache/kokoro-v1
+          key: teachers-kokoro-v1-onnx-voices
+      - name: Install narration and browser test dependencies
+        run: |
+          python -m pip install kokoro-onnx==0.5.0 soundfile==0.13.1 playwright==1.55.0
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m playwright install --with-deps chromium
+      - name: Build full Group 01 and original Part One; generate missing narration
+        run: python -u tools/grade8-exam/build.py
+      - name: Check JavaScript syntax and complete browser sequence
+        run: |
+          node --check grade8/exam-01-preparation/exam.js
+          python -u tools/grade8-exam/verify.py
+      - name: Preserve preview screenshots for review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: grade8-exam-visual-qa
+          path: /tmp/h8-qa/
+          if-no-files-found: ignore
+      - name: Commit only verified lesson and class card
+        run: |
+          git config user.name 'Teachers Lesson Builder'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add grade8/exam-01-preparation grade8/index.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish approved Grade 8 Group 01 and Part One with 73 verified MP3 clips'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then break; fi
+              if [ "$attempt" = 3 ]; then exit 1; fi
+              sleep 3
+            done
+          fi
+      - name: Stage site without model cache or build workspace
+        run: |
+          mkdir -p /tmp/teachers-site
+          git archive HEAD | tar -x -C /tmp/teachers-site
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: /tmp/teachers-site
+      - name: Deploy verified HTML lesson
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Verify the public URL and every MP3
+        run: python -u tools/grade8-exam/verify.py --live
