@@ -1,0 +1,134 @@
+name: Verify exam preparation 2026-09-17
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/exam-prep-20260917-qa.yml'
+      - 'grade8/exam-01-preparation/index.html'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright==1.55.0
+      - run: python -m playwright install --with-deps chromium
+      - name: Browser and public-link verification
+        run: |
+          python -u - <<'PY'
+          import functools, hashlib, http.server, json, pathlib, threading, time, urllib.request
+          from playwright.sync_api import sync_playwright
+          root=pathlib.Path.cwd()
+          out=root/'exam-prep-qa';out.mkdir(exist_ok=True)
+          report={'grade8':{},'grade10':{},'public':{}}
+          class Quiet(http.server.SimpleHTTPRequestHandler):
+              def log_message(self,*args): pass
+          server=http.server.ThreadingHTTPServer(('127.0.0.1',8879),functools.partial(Quiet,directory=str(root)))
+          threading.Thread(target=server.serve_forever,daemon=True).start()
+          with sync_playwright() as p:
+              browser=p.chromium.launch()
+              for width,height in [(1366,768),(390,844),(844,390),(360,640)]:
+                  context=browser.new_context(viewport={'width':width,'height':height},has_touch=True)
+                  page=context.new_page();errors=[]
+                  page.on('pageerror',lambda e:errors.append(str(e)))
+                  page.goto('http://127.0.0.1:8879/grade8/exam-01-preparation/',wait_until='networkidle')
+                  page.wait_for_function('window.ExamPrep8 && !document.getElementById("sound").disabled')
+                  page.evaluate('document.fonts.ready')
+                  result=page.evaluate('''() => {
+                      const d=ExamPrep8;const issues=[];
+                      if(d.vocab.length!==55||d.story.length!==18||d.vocab.some(w=>w.group!==1))throw Error('Wrong scope');
+                      if(d.story.some(s=>!s.eyebrow.startsWith('PART ONE')))throw Error('Part Two leaked');
+                      if(d.pages.length!==226)throw Error('Page count '+d.pages.length);
+                      if(d.questions.filter(q=>q.level==='BASIC').length!==4||d.questions.filter(q=>q.level==='COMPREHENSION').length!==3)throw Error('Question levels');
+                      let run=0,breaks=0;
+                      for(const s of d.pages.slice(d.sections.vocab,d.sections.story)){
+                          if(s.type==='word')run++;
+                          if(s.type==='visual'&&!s.reveal){if(run!==6)throw Error('Break cadence '+run);run=0;breaks++;}
+                      }
+                      if(breaks!==18||run!==2)throw Error('Vocabulary coverage/cadence');
+                      let checked=0;
+                      for(let i=0;i<d.pages.length;i++){
+                          const s=d.pages[i];d.show(i);
+                          for(const el of document.querySelectorAll('[data-fit]')){
+                              if(el.scrollHeight>el.clientHeight+2||el.scrollWidth>el.clientWidth+2)issues.push({page:i+1,kind:'clipped',class:el.className,h:[el.scrollHeight,el.clientHeight]});
+                          }
+                          if(i+1<d.pages.length&&d.pages[i+1].key===s.key){
+                              const el=document.querySelector('[data-original]');
+                              if(el){const a=JSON.stringify(el.getBoundingClientRect().toJSON());d.show(i+1);if(document.querySelector('[data-original]')!==el||JSON.stringify(el.getBoundingClientRect().toJSON())!==a)issues.push({page:i+1,kind:'source moved'});checked++;}
+                          }
+                      }
+                      if(issues.length)throw Error(JSON.stringify(issues));
+                      return {entries:55,storySentences:18,basic:4,comprehension:3,vocabBreaks:18,pages:d.pages.length,stationaryTransitions:checked,clipping:0};
+                  }''')
+                  page.evaluate('ExamPrep8.show(2)')
+                  for k,target in [('ArrowDown',3),('ArrowUp',2),('ArrowRight',3),('ArrowLeft',2)]:
+                      page.keyboard.press(k);assert page.evaluate('ExamPrep8.current')==target
+                  cdp=context.new_cdp_session(page)
+                  x,y=width//2,height//2
+                  for dx,dy,start,target in [(0,-80,2,3),(0,80,3,2),(-80,0,2,3),(80,0,3,2)]:
+                      page.evaluate(f'ExamPrep8.show({start})')
+                      cdp.send('Input.dispatchTouchEvent',{'type':'touchStart','touchPoints':[{'x':x,'y':y}]})
+                      cdp.send('Input.dispatchTouchEvent',{'type':'touchMove','touchPoints':[{'x':x+dx,'y':y+dy}]})
+                      cdp.send('Input.dispatchTouchEvent',{'type':'touchEnd','touchPoints':[]})
+                      assert page.evaluate('ExamPrep8.current')==target,(width,height,dx,dy)
+                  page.evaluate('ExamPrep8.show(2)');page.click('#replay')
+                  page.wait_for_function('ExamPrep8.audio.currentTime>0',timeout=10000)
+                  page.evaluate('ExamPrep8.step(1)');assert page.evaluate('ExamPrep8.audio.paused')
+                  page.evaluate('ExamPrep8.show(0)');page.screenshot(path=str(out/f'opening-{width}-{height}.png'))
+                  page.evaluate('ExamPrep8.show(3)');page.screenshot(path=str(out/f'vocab-{width}-{height}.png'))
+                  assert not errors,errors
+                  result.update(fourDirectionTouch=True,arrowKeys=True,realAudioPlayback=True,audioStops=True)
+                  report['grade8'][f'{width}x{height}']=result
+                  print('GRADE 8 PASS',width,height,result,flush=True)
+                  context.close()
+              page=browser.new_page(viewport={'width':390,'height':844})
+              page.goto('http://127.0.0.1:8879/grade10/group-a/poem-writing-coach/',wait_until='networkidle')
+              page.wait_for_function('!document.getElementById("copy").disabled')
+              prompt=page.locator('#prompt').input_value()
+              for part in ['CORE 1','CORE 8','OPTIONAL EXTENSION','PRACTICE SCORE','at most TWO','POEM — REFERENCE TEXT']:
+                  assert part in prompt,part
+              assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
+              report['grade10']={'promptLoaded':True,'coreQuestions':8,'optionalExtensionSeparate':True,'notHostedBotDisclosure':True}
+              browser.close()
+          server.shutdown()
+          public='https://simonh68.github.io/teachers/'
+          paths=['grade8/exam-01-preparation/index.html','grade8/index.html','grade10/group-a/poem-writing-coach/index.html','grade10/group-a/poem-writing-coach/prompt.txt','grade10/group-a/library/index.html']
+          for attempt in range(20):
+              try:
+                  for path in paths:
+                      req=urllib.request.Request(public+path+'?verify='+str(int(time.time())),headers={'User-Agent':'Teachers-Exam-Prep-QA'})
+                      with urllib.request.urlopen(req,timeout=25) as r:
+                          assert r.status==200
+                          body=r.read()
+                      assert hashlib.sha256(body).digest()==hashlib.sha256((root/path).read_bytes()).digest(),'Stale: '+path
+                      report['public'][path]='HTTP 200; exact repository bytes'
+                  break
+              except Exception as e:
+                  if attempt==19: raise
+                  print('Waiting for public deployment:',str(e),flush=True);time.sleep(8)
+          manifest=json.loads((root/'grade7/band2-groups-01-02/audio/manifest.json').read_text())
+          count=0
+          for key,clip in manifest['files'].items():
+              if key.startswith('g01-'):
+                  assert (root/'grade7/band2-groups-01-02'/clip['src']).stat().st_size>1000
+                  count+=1
+          assert count==55
+          for key in ['g01-01','g01-55']:
+              url=public+'grade7/band2-groups-01-02/'+manifest['files'][key]['src']
+              with urllib.request.urlopen(url,timeout=25) as r: assert r.status==200 and len(r.read())>1000
+          report['vocabAudio']={'repositoryFiles':55,'publicSamples':2,'storyAudioClaimed':False}
+          report['passed']=True
+          (out/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
+          print('ALL CHECKS PASSED',json.dumps(report,ensure_ascii=False),flush=True)
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: exam-prep-20260917-qa
+          path: exam-prep-qa/
