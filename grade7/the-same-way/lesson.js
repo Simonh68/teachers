@@ -6,17 +6,20 @@ const pmap=['A','B','C','D','E'];let lastWheel=0;
 const routeItems=['walk to school','train','walk to the bus stop','second bus','first bus'];
 const correctRoute=['walk to the bus stop','first bus','train','second bus','walk to school'];
 const sentenceAudio=new Audio();sentenceAudio.id='sentenceAudio';sentenceAudio.preload='auto';document.body.append(sentenceAudio);
-let sentenceTimer=0,sentenceFrame=0,sentenceRun=0,sentenceEnd=0;
-const narrationData=fetch('reading.json?v=swipe-standard-7').then(r=>{if(!r.ok)throw Error('audio data');return r.json()});narrationData.catch(()=>{});
-function stopSentence(){sentenceRun++;clearTimeout(sentenceTimer);cancelAnimationFrame(sentenceFrame);sentenceAudio.pause();}
+let sentenceTimer=0,sentenceFrame=0,sentenceRun=0,sentenceEnd=0,sentenceCues=[],spokenIndex=-1;
+const narrationData=fetch('reading.json?v=sentence-highlight-8').then(r=>{if(!r.ok)throw Error('audio data');return r.json()});narrationData.catch(()=>{});
+function clearSentenceHighlight(){document.querySelectorAll('.sentenceWord.spoken').forEach(w=>w.classList.remove('spoken'));spokenIndex=-1;}
+function syncSentenceHighlight(){const t=sentenceAudio.currentTime;const index=sentenceAudio.paused?-1:sentenceCues.findIndex(w=>t>=w.start&&t<w.end);if(index===spokenIndex)return;clearSentenceHighlight();if(index>=0){const word=document.querySelector(`[data-sentence-word="${index}"]`);if(word){word.classList.add('spoken');spokenIndex=index;}}}
+function stopSentence(){clearSentenceHighlight();sentenceRun++;clearTimeout(sentenceTimer);cancelAnimationFrame(sentenceFrame);sentenceAudio.pause();}
 async function speakSentence(s){stopSentence();const run=sentenceRun;
- try{const data=await narrationData;if(run!==sentenceRun||document.hidden||$('#menu').open)return;const clip=data.sentences[s.n-1];if(!sentenceAudio.src)sentenceAudio.src=data.audio;
+ try{const data=await narrationData;if(run!==sentenceRun||document.hidden||$('#menu').open)return;const clip=data.sentences[s.n-1];sentenceCues=clip.words;if(!sentenceAudio.src)sentenceAudio.src=data.audio;
  let rate=.75;try{const saved=Number(localStorage.getItem('teachers-read-alone-speed-v1'));if([1,.75,.5,.35,.25].includes(saved))rate=saved;}catch(e){}
  sentenceAudio.playbackRate=rate;sentenceAudio.preservesPitch=true;sentenceAudio.currentTime=Math.max(0,clip.start-.03);sentenceEnd=clip.end+.025;
  await sentenceAudio.play();if(run!==sentenceRun){sentenceAudio.pause();return;}if($('#sentenceSpeak'))$('#sentenceSpeak').textContent='❚❚ עצירה';
- const watch=()=>{if(run!==sentenceRun)return;if(sentenceAudio.currentTime>=sentenceEnd){sentenceAudio.pause();if($('#sentenceSpeak'))$('#sentenceSpeak').textContent='▶ שוב';return;}sentenceFrame=requestAnimationFrame(watch);};watch();
+ const watch=()=>{if(run!==sentenceRun)return;syncSentenceHighlight();if(sentenceAudio.currentTime>=sentenceEnd){sentenceAudio.pause();if($('#sentenceSpeak'))$('#sentenceSpeak').textContent='▶ שוב';return;}sentenceFrame=requestAnimationFrame(watch);};watch();
  }catch(e){if(run===sentenceRun&&$('#sentenceSpeak'))$('#sentenceSpeak').textContent='▶ לחצו להקראה';}}
-sentenceAudio.addEventListener('timeupdate',()=>{if(sentenceAudio.currentTime>=sentenceEnd)sentenceAudio.pause();});
+sentenceAudio.addEventListener('timeupdate',()=>{syncSentenceHighlight();if(sentenceAudio.currentTime>=sentenceEnd)sentenceAudio.pause();});
+sentenceAudio.addEventListener('seeked',syncSentenceHighlight);sentenceAudio.addEventListener('pause',clearSentenceHighlight);sentenceAudio.addEventListener('ended',clearSentenceHighlight);
 window.addEventListener('pagehide',stopSentence);document.addEventListener('visibilitychange',()=>{if(document.hidden)stopSentence();});
 // Use the same gesture rules in the outer deck and inside the reading frame.
 function installSwipe(surface,navigate){
@@ -33,7 +36,7 @@ function readingChrome(s){$('#counter').textContent=`${i+1} / ${SLIDES.length}`;
 function render(){stopSentence();const s=SLIDES[i];
 if(s.kind==='readalong'){
  $('#stage').classList.add('reader-stage');readingChrome(s);
- if(!readerFrame){readerReady=false;readerFrame=document.createElement('iframe');readerFrame.title='Read Alone Text — קריאה מלווה של הסיפור המלא';readerFrame.src='read-along.html?v=swipe-standard-7';$('#stage').replaceChildren(readerFrame);
+ if(!readerFrame){readerReady=false;readerFrame=document.createElement('iframe');readerFrame.title='Read Alone Text — קריאה מלווה של הסיפור המלא';readerFrame.src='read-along.html?v=sentence-highlight-8';$('#stage').replaceChildren(readerFrame);
  readerFrame.onload=()=>{const w=readerFrame.contentWindow;const ready=()=>{readerReady=true;if(w.readAlong?.data)w.readAlong.setPage(SLIDES[i].page);};w.addEventListener('reader-complete',()=>go(SLIDES.findLastIndex(x=>x.kind==='readalong')+1));w.addEventListener('reader-ready',ready);if(w.readAlong?.data)ready();w.addEventListener('reader-page',e=>{const target=SLIDES.findIndex(x=>x.kind==='readalong'&&x.page===e.detail.page);if(target!==i){readerAutomatic=true;go(target);readerAutomatic=false;}});w.document.addEventListener('keydown',e=>{if(e.target.closest('button,input,select,.unit')||!['ArrowRight','ArrowDown','ArrowLeft','ArrowUp'].includes(e.key))return;e.preventDefault();e.stopImmediatePropagation();go(i+(['ArrowRight','ArrowDown'].includes(e.key)?1:-1));},true);
  installSwipe(w.document,delta=>go(i+delta));};
  }else if(readerReady&&!readerAutomatic)readerFrame.contentWindow.readAlong.setPage(s.page);
@@ -44,7 +47,7 @@ $('#stage').classList.remove('reader-stage');$('#stage').scrollTop=0;let c='';
 const title=`<p class="eyebrow">${esc(s.title)}</p>`;const tense=`<div class="tense ${s.tense==='הווה'?'present':s.tense==='עתיד'?'future':''}">${esc(s.tense)}</div>`;
 if(s.kind==='cover')c=`<p class="eyebrow">ברוכים הבאים</p><h1>The Same Way</h1><p class="sub">${esc(s.sub)}</p><p class="sub" style="font-size:16px">נוצר: מוצאי שבת, ט׳ בתשרי תשפ״ז (19.9.2026)</p><div class="linkrow"><button id="startNow">פתיחת המצגת</button><button id="resume">המשך מהמקום האחרון</button></div>`;
 else if(s.kind==='whole')c=`<h2 dir="ltr">The Same Way</h2><p class="sub">${esc(s.sub)}</p><div class="story">${STORY.paragraphs.map((p,n)=>`<p><span class="para">${pmap[n]}</span>${esc(p)}</p>`).join('')}</div><span class="wordcount">${STORY.wordcount} words</span>`;
-else if(s.kind==='sentence')c=`<h2>פסקה ${s.part} · משפט ${s.n} מתוך ${STORY.sentences.length} <button id="sentenceSpeak" aria-label="הקראת המשפט באנגלית">▶ הקראה</button></h2>${tense}<p class="hero english">${esc(s.en)}</p><div class="translation ${s.reveal?'':'hidden'}" ${s.reveal?'':'aria-hidden="true"'}>${esc(s.he)}</div>`;
+else if(s.kind==='sentence')c=`<h2>פסקה ${s.part} · משפט ${s.n} מתוך ${STORY.sentences.length} <button id="sentenceSpeak" aria-label="הקראת המשפט באנגלית">▶ הקראה</button></h2>${tense}<p class="hero english"><span class="sentenceWords">${s.en.split(' ').map((word,n)=>`<span class="sentenceWord" data-sentence-word="${n}">${esc(word)}</span>`).join(' ')}</span></p><div class="translation ${s.reveal?'':'hidden'}" ${s.reveal?'':'aria-hidden="true"'}>${esc(s.he)}</div>`;
 else if(s.kind==='quiz'){let qid=s.reveal?i-1:i;c=`${title}${tense}<p class="hero english">${esc(s.q)}</p><div class="options">${s.opts.map((o,n)=>`<button class="option ${state.choices[qid]===n?'selected':''} ${s.reveal&&s.correct===n?'correct':''}" data-choice="${n}" ${s.reveal?'disabled':''} aria-pressed="${state.choices[qid]===n}">${esc(o)}</button>`).join('')}</div><div class="response ${s.reveal?'':'neutral'}" aria-live="polite">${s.reveal?esc(s.why):state.choices[qid]!==undefined?'הבחירה נשמרה. בדקו את הנימוק בשקף הבא.':'בחרו תשובה ונמקו. הפתרון בשקף הבא.'}</div>`;}
 else if(s.kind==='route')c=`${title}<h2>לחצו על התחנות לפי סדר הנסיעה</h2><div class="options">${routeItems.map((x,n)=>`<button class="option" data-route="${n}" ${s.reveal||state.route.includes(x)?'disabled':''}>${esc(x)}</button>`).join('')}</div><div class="routeOutput"><span class="routeSizer" aria-hidden="true">${correctRoute.map((x,n)=>`${n+1}. ${esc(x)}`).join(' → ')}</span><span class="routeValue">${(s.reveal?correctRoute:state.route).map((x,n)=>`${n+1}. ${esc(x)}`).join(' → ')||'1. …'}</span></div><div class="response ${s.reveal?'':'neutral'}">${s.reveal?'First → Then → Finally · חזרו לפסקה B ובדקו.':'הסדר שבחרתם יופיע כאן. הפתרון בשקף הבא.'}</div><button id="resetRoute" ${s.reveal?'disabled':''}>איפוס הבחירה</button>`;
 else if(s.kind==='pause')c=`<h2 dir="ltr">${esc(s.title)}</h2><img src="assets/train-umbrella.png" alt="איור משעשע: מטרייה ענקית מגינה על רכבת בגשם"><p class="sub">${esc(s.sub)}</p>`;

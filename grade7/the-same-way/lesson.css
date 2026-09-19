@@ -15,3 +15,5 @@ footer{height:92px;display:flex;flex-direction:column;align-items:center;justify
 #sentenceSpeak{font-size:12px;padding:4px 9px;margin-inline-start:8px;min-width:90px;vertical-align:middle}
 
 #stage{touch-action:pan-y pinch-zoom}
+
+.sentenceWord{border-radius:.12em}.sentenceWord.spoken{background:#ffe082;color:#182336;box-shadow:0 0 0 2px #ffe082}
