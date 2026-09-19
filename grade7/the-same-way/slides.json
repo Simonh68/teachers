@@ -1046,6 +1046,24 @@
     "progress": 28
   },
   {
+    "kind": "review",
+    "title": "בודקים את הסיפור שלכם",
+    "heading": "האם המשפטים מתאימים למה שרציתם לומר?",
+    "answers": [
+      {
+        "label": "1. רגש בדרך לבית הספר",
+        "en": "I am tired on the way to school.",
+        "he": "זו דוגמה בלבד. גם happy או worried מתאימים אם כך אתם מרגישים. בדקו: I + am + רגש."
+      },
+      {
+        "label": "2. תיאור הדרך",
+        "en": "My journey is long.",
+        "he": "אפשר גם short, בהתאם לדרך שלכם. בדקו: My journey + is + תיאור. אם שני המשפטים מביעים את כוונתכם והשתמשתם ב־am וב־is נכון — הצלחתם."
+      }
+    ],
+    "progress": 28
+  },
+  {
     "kind": "work",
     "title": "עבודה בדף המודפס",
     "text": "Read → Find evidence → Answer",
@@ -1053,10 +1071,71 @@
     "progress": 28
   },
   {
+    "kind": "review",
+    "title": "בודקים את דף העבודה",
+    "heading": "משווים, מתקנים ומוצאים ראיה",
+    "answers": [
+      {
+        "label": "1. הבחירה בבית הספר",
+        "en": "He loves its science lessons.",
+        "he": "מצאתם את שיעורי המדעים כסיבה? נכון. בדקו בפסקה A."
+      },
+      {
+        "label": "2. סדר הדרך",
+        "en": "1. Walk to the bus stop\n2. First bus\n3. Train\n4. Second bus\n5. Walk to school",
+        "he": "בדף, לפי סדר הפריטים המודפסים: 3, 2, 5, 4, 1. תקנו כל מספר שונה ובדקו בפסקה B."
+      },
+      {
+        "label": "3. האם דן ידע מראש?",
+        "en": "False. “The boys from the journey are in my class.”",
+        "he": "דן מגלה שהם בכיתתו רק כשהוא מגיע. אפשר לצטט גם את העצירה בפתח הכיתה. we do not talk לבדו אינו מראה בבירור שהוא לא ידע."
+      },
+      {
+        "label": "4. הדאגה המשותפת",
+        "en": "The rain / What will happen when it rains.",
+        "he": "אם ציינתם את הגשם — נכון. הספרים אינם רטובים עכשיו: זהו החשש לחורף."
+      },
+      {
+        "label": "5. To Be",
+        "en": "Dan is tired. The boys are in his class.",
+        "he": "Dan = he → is; The boys = they → are. סמנו ותקנו כל התאמה שונה."
+      },
+      {
+        "label": "6. מה השתנה ומה נשאר?",
+        "en": "Dan has new friends to travel with. The rain is still a problem.",
+        "he": "בתשובה מלאה מופיעים שני הדברים: חברים חדשים, ובעיית הגשם שנותרה. אם חסר חלק — הוסיפו אותו."
+      }
+    ],
+    "progress": 28
+  },
+  {
     "kind": "exit",
     "title": "לפני שיוצאים",
     "text": "1. Dan is ___. The boys are ___.\n2. What is still a problem?\n3. Which sentence helped you understand?",
     "sub": "ענו בעל פה או במחברת. תשובה + פרט מן הסיפור.",
+    "progress": 28
+  },
+  {
+    "kind": "review",
+    "title": "בודקים לפני שיוצאים",
+    "heading": "שלוש תשובות — בדיקה עצמית",
+    "answers": [
+      {
+        "label": "1. משפטים עם To Be — דוגמה",
+        "en": "Dan is tired. The boys are in his class.",
+        "he": "גם השלמות אחרות נכונות מתקבלות אם הן מתאימות לסיפור. בדקו: Dan + is, The boys + are."
+      },
+      {
+        "label": "2. מה עדיין בעיה?",
+        "en": "The rain is still a problem.",
+        "he": "גשם או הדרך בגשם הם התשובה. אם כתבתם שהדרך התקצרה או שהגשם נפתר — תקנו לפי פסקה E."
+      },
+      {
+        "label": "3. משפט שעזר להבין — דוגמה",
+        "en": "“The boys from the journey are in my class.”",
+        "he": "למשל: המשפט מראה שהילדים מהדרך הם חבריו לכיתה. בחרתם משפט אחר וציינתם מה הבנתם ממנו? גם זו תשובה מתאימה. ודאו שיש ציטוט והסבר, והשלימו אם חסר."
+      }
+    ],
     "progress": 28
   },
   {
