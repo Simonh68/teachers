@@ -1,20 +1,20 @@
 {
   "title": "Advanced Grammar in an Essay",
   "grade": "י״א · 5 יח״ל",
-  "durationMinutes": 90,
-  "wordCount": 128,
-  "topic": "Should every student have a chance to take part in class sports games, regardless of ability?",
+  "durationMinutes": 72,
+  "wordCount": 123,
+  "topic": "Should every student have a chance to play in class games, even if some students play better than others?",
   "sentences": [
-    "School sports often raise questions about ability and participation in class games.",
-    "I claim that every student should have a chance to participate, regardless of ability.",
-    "On the one hand, including beginners may reduce a team’s chances of winning competitive matches.",
-    "If teams include inexperienced players, they will sometimes lose matches because of simple mistakes.",
-    "On the other hand, playing together can improve confidence and develop useful social skills.",
-    "Some students have felt excluded, so joining a team can be especially beneficial.",
-    "In conclusion, participation has significant educational value despite the challenges it creates.",
-    "Therefore, class games should be organized fairly to give everyone a meaningful role.",
-    "For example, repeated mistakes can frustrate teammates who hope to win.",
-    "Moreover, sharing responsibility can assist quieter classmates and build friendships."
+    "School games are part of school life, but some students play better than others.",
+    "I claim that every student should have a chance to play.",
+    "On the one hand, some students may make more mistakes during games.",
+    "If they play, the team will sometimes lose since these mistakes can help the other team.",
+    "On the other hand, playing together can help students make friends and feel better.",
+    "Some students have felt alone, so joining a team can help them.",
+    "In conclusion, I believe that everyone should have a chance to play.",
+    "Therefore, every student should be included in class games.",
+    "For example, they may pass the ball to the other team.",
+    "Moreover, students can learn to help each other when they play together."
   ],
   "paragraphSteps": [
     [
@@ -37,10 +37,10 @@
     ]
   ],
   "paragraphs": [
-    "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.",
-    "On the one hand, including beginners may reduce a team’s chances of winning competitive matches. If teams include inexperienced players, they will sometimes lose matches because of simple mistakes. For example, repeated mistakes can frustrate teammates who hope to win.",
-    "On the other hand, playing together can improve confidence and develop useful social skills. Some students have felt excluded, so joining a team can be especially beneficial. Moreover, sharing responsibility can assist quieter classmates and build friendships.",
-    "In conclusion, participation has significant educational value despite the challenges it creates. Therefore, class games should be organized fairly to give everyone a meaningful role."
+    "School games are part of school life, but some students play better than others. I claim that every student should have a chance to play.",
+    "On the one hand, some students may make more mistakes during games. If they play, the team will sometimes lose since these mistakes can help the other team. For example, they may pass the ball to the other team.",
+    "On the other hand, playing together can help students make friends and feel better. Some students have felt alone, so joining a team can help them. Moreover, students can learn to help each other when they play together.",
+    "In conclusion, I believe that everyone should have a chance to play. Therefore, every student should be included in class games."
   ],
   "slides": [
     {
@@ -49,1536 +49,647 @@
       "title": "ברוכים הבאים",
       "text": "כיתה י״א · 5 יח״ל",
       "he": "ישיבת בני עקיבא קריית הרצוג",
-      "note": "שיעור המשך לאחר השלמת Advanced Grammar. כעת מיישמים בכתיבה.",
+      "note": "שיעור המשך: יישום מבנים שנלמדו, ולא לימוד הדקדוק מחדש.",
       "section": "plan"
     },
     {
       "n": 2,
       "kind": "info",
-      "title": "Advanced Grammar in an Essay",
-      "text": "A for-and-against essay with a clear opinion.",
-      "he": "ארבע פסקאות: פתיחה ודעה, טענה נגדית, חזרה לעמדה וסיכום.",
-      "note": "הסבירו: כל מבנה נכנס לחיבור משום שהוא מועיל לרעיון. אין צורך לדחוס את כל המבנים לכל משפט.",
+      "title": "חיבור ברור, צעד אחר צעד",
+      "text": "Simple words. Clear ideas.",
+      "he": "נשתמש במילים מוכרות ובמבנים קבועים.",
+      "note": "מטרת המפגש: חיבור מפותח וברור עם שפה שהתלמיד מסוגל לכתוב בעצמו. אין הבטחת ציון.",
       "section": "plan"
     },
     {
       "n": 3,
       "kind": "info",
       "title": "The writing task",
-      "text": "Should every student have a chance to take part in class sports games, regardless of ability?",
-      "he": "הציגו את עמדתכם, בחנו טענה נגדית וחזרו לתמוך בעמדה שלכם.",
-      "note": "נושא תרגול מקורי. אין כאן התחייבות לשאלה שתופיע במבחן.",
+      "text": "Should every student have a chance to play in class games, even if some students play better than others?",
+      "he": "האם כל תלמיד צריך לקבל הזדמנות לשחק במשחקי הכיתה?",
+      "note": "הבחינו בין משחקי הכיתה לבין בחירה לנבחרת. זו משימת תרגול.",
       "section": "plan"
     },
     {
       "n": 4,
       "kind": "info",
-      "title": "מסגרת התרגול",
+      "title": "ארבע פסקאות",
       "text": "Introduction\nOn the one hand, ...\nOn the other hand, ...\nIn conclusion, ...",
-      "he": "120–140 מילים. בדיוק ארבע פסקאות. ההרחבות נכנסות לפסקאות הגוף.",
-      "note": "פסקה 1: משפטים 1–2. פסקה 2: 3–4 והרחבה 9. פסקה 3: 5–6 והרחבה 10. פסקה 4: 7–8. המספרים מציינים שלבי כתיבה, לא סדר סופי.",
+      "he": "פתיחה ודעה; טענה נגדית; תמיכה בדעה; סיום.",
+      "note": "יעד התרגול: 120–140 מילים. במבחן פועלים לפי הוראות המשימה.",
       "section": "plan",
       "source": "https://meyda.education.gov.il/sheeloney_bagrut/pitronot_bagrut/2026/6/016582-8-HEB-1400-1600.pdf"
     },
     {
       "n": 5,
       "kind": "info",
-      "title": "מה בדיוק מבקשים?",
-      "text": "Our focus: participation in class games.",
-      "he": "עמדה על שיתוף במשחקי הכיתה, גם כשהיכולת שונה.",
-      "note": "הבחינו בין השתתפות במשחק כיתתי לבין בחירת נבחרת תחרותית. הימנעו מחיבור כללי על יתרונות הספורט.",
+      "title": "מילים שניקח לחיבור הבא",
+      "text": "I claim that ...\nsince / For example, / Moreover,\nTherefore, / In conclusion,",
+      "he": "משתמשים בכל ביטוי רק כשהוא מתאים לרעיון.",
+      "note": "since מציג סיבה. moreover מוסיף רעיון. therefore מציג תוצאה. חזרה שימושית על מספר קטן של ביטויים.",
       "section": "plan"
     },
     {
       "n": 6,
-      "kind": "timer",
-      "title": "תכנון קצר",
-      "text": "Plan your opinion, an opposing idea and a supporting idea.",
-      "he": "קודם העמדה שלכם. אחר כך חשבו על טענה נגדה ועל תשובה שתומכת בה.",
-      "note": "תנו זמן לתכנון. בקשו טענה נגדית אמיתית, לא נימוק נוסף לאותה עמדה.",
-      "section": "plan",
-      "seconds": 90
-    },
-    {
-      "n": 7,
       "kind": "info",
-      "title": "תוכנית לדוגמה",
-      "text": "Include everyone.\nAgainst: fewer chances to win.\nFor: confidence and social skills.",
-      "he": "העמדה: לשתף את כולם. נגד: פגיעה בתחרותיות. בעד: ביטחון וכישורים חברתיים.",
-      "note": "במודל שלנו פסקת On the one hand מתנגדת לעמדה. פסקת On the other hand חוזרת לתמוך בה.",
+      "title": "מילים לנושא של היום",
+      "text": "games / play / team\nfriends / help / mistakes",
+      "he": "בחרו מילים שאתם יודעים להשתמש בהן.",
+      "note": "אין צורך במילים כגון matches, inexperienced או beneficial. הדיוק והרלוונטיות קודמים למילה קשה.",
       "section": "plan"
     },
     {
+      "n": 7,
+      "kind": "timer",
+      "title": "תכנון קצר",
+      "text": "One idea against. One idea for.",
+      "he": "מה הקושי בשיתוף כולם? מה היתרון?",
+      "note": "שתי הערות קצרות בעברית או באנגלית. אין כותבים עכשיו חיבור מלא.",
+      "section": "plan",
+      "seconds": 120
+    },
+    {
       "n": 8,
+      "kind": "timer",
+      "title": "1 · פתיחה בלי דעה",
+      "text": "School games ...",
+      "he": "הציגו את הנושא. עדיין בלי לומר מה דעתכם.",
+      "note": "ניסיון עצמאי קצר. קבלו ניסוחים פשוטים ותקינים. חשפו את הדוגמה רק אחריו.",
+      "section": "intro",
+      "seconds": 45
+    },
+    {
+      "n": 9,
+      "kind": "essay",
+      "title": "החיבור עד עכשיו",
+      "text": "School games are part of school life, but some students play better than others.\n\n\n\n\n\n",
+      "he": "שלב 1/10 · 14 מילים",
+      "note": "קראו רק את המשפט החדש; אין לקרוא שוב את כל החיבור. משפט חדש: School games are part of school life, but some students play better than others. ההרחבות 9–10 נשארות בפסקאות הגוף.",
+      "section": "intro",
+      "paragraphs": [
+        "School games are part of school life, but some students play better than others.",
+        "",
+        "",
+        ""
+      ],
+      "step": 1
+    },
+    {
+      "n": 10,
+      "kind": "timer",
+      "title": "2 · הדעה שלי",
+      "text": "I claim that ...",
+      "he": "האם צריך לתת לכל תלמיד הזדמנות לשחק?",
+      "note": "ניסיון עצמאי קצר. קבלו ניסוחים פשוטים ותקינים. חשפו את הדוגמה רק אחריו.",
+      "section": "intro",
+      "seconds": 45
+    },
+    {
+      "n": 11,
+      "kind": "essay",
+      "title": "החיבור עד עכשיו",
+      "text": "School games are part of school life, but some students play better than others. I claim that every student should have a chance to play.\n\n\n\n\n\n",
+      "he": "שלב 2/10 · 25 מילים",
+      "note": "קראו רק את המשפט החדש; אין לקרוא שוב את כל החיבור. משפט חדש: I claim that every student should have a chance to play. ההרחבות 9–10 נשארות בפסקאות הגוף.",
+      "section": "intro",
+      "paragraphs": [
+        "School games are part of school life, but some students play better than others. I claim that every student should have a chance to play.",
+        "",
+        "",
+        ""
+      ],
+      "step": 2
+    },
+    {
+      "n": 12,
       "kind": "animation",
       "title": "הפוגה קצרה",
       "text": "Planning is half the game. Aiming helps too.",
       "he": "",
       "note": "תכנון לפני כתיבה. 10 שניות, בלי משימה נוספת.",
-      "section": "plan",
+      "section": "intro",
       "asset": "tiny-goal",
       "alt": "חתול זורק כדור נייר לסל והוא נוחת על ראשו.",
       "seconds": 10.8
     },
     {
-      "n": 9,
-      "kind": "info",
-      "title": "עמדה במשפט ברור",
-      "text": "Opening: introduce the issue.\nOpinion: I claim that ...",
-      "he": "משפט 1 מציג את הנושא בלי דעה. משפט 2 מביע דעה וכולל I claim that.",
-      "note": "בקשו שני משפטים נפרדים. אל תכניסו עמדה במשפט הראשון.",
-      "section": "intro",
-      "highlights": [
-        "I claim that"
-      ]
-    },
-    {
-      "n": 10,
-      "kind": "example",
-      "title": "פסקת פתיחה",
-      "text": "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.",
-      "he": "",
-      "note": "משפט פתיחה ניטרלי ואחריו דעה מפורשת. מתקנים רק מה שנחוץ ושומרים על הרעיון של התלמיד.",
-      "section": "intro",
-      "pair": "reveal-10",
-      "reveal": false,
-      "tense": "",
-      "highlights": [
-        "I claim that"
-      ]
-    },
-    {
-      "n": 11,
-      "kind": "example",
-      "title": "פסקת פתיחה",
-      "text": "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.",
-      "he": "ספורט בבית הספר מעורר שאלות על יכולת והשתתפות במשחקי הכיתה. אני טוען שלכל תלמיד צריכה להיות הזדמנות להשתתף, בלי קשר ליכולת.",
-      "note": "משפט פתיחה ניטרלי ואחריו דעה מפורשת. מתקנים רק מה שנחוץ ושומרים על הרעיון של התלמיד.",
-      "section": "intro",
-      "pair": "reveal-10",
-      "reveal": true,
-      "tense": "",
-      "highlights": [
-        "I claim that"
-      ]
-    },
-    {
-      "n": 12,
-      "kind": "choice",
-      "title": "עמדה ממוקדת",
-      "text": "Which sentence directly answers the task?",
-      "he": "",
-      "note": "האפשרות השנייה עונה לשאלה על שיתוף תלמידים במשחק. משפט כללי על ספורט אינו מספיק.",
-      "section": "intro",
-      "pair": "choice-12",
-      "reveal": false,
-      "options": [
-        "Sport is very popular around the world.",
-        "I claim that every student should have a chance to participate, regardless of ability.",
-        "There are many different kinds of sports."
-      ],
-      "correct": 1
-    },
-    {
       "n": 13,
-      "kind": "choice",
-      "title": "עמדה ממוקדת",
-      "text": "Which sentence directly answers the task?",
-      "he": "האפשרות השנייה מביעה עמדה שעונה למשימה וכוללת I claim that.",
-      "note": "האפשרות השנייה עונה לשאלה על שיתוף תלמידים במשחק. משפט כללי על ספורט אינו מספיק.",
+      "kind": "timer",
+      "title": "3 · חושבים על הקושי",
+      "text": "On the one hand, ...",
+      "he": "מה עלול לקרות לקבוצה כשמשתפים שחקנים פחות מנוסים?",
+      "note": "ניסיון עצמאי קצר. קבלו ניסוחים פשוטים ותקינים. חשפו את הדוגמה רק אחריו.",
       "section": "intro",
-      "pair": "choice-12",
-      "reveal": true,
-      "options": [
-        "Sport is very popular around the world.",
-        "I claim that every student should have a chance to participate, regardless of ability.",
-        "There are many different kinds of sports."
-      ],
-      "correct": 1
+      "seconds": 45
     },
     {
       "n": 14,
-      "kind": "animation",
-      "title": "הפוגה קצרה",
-      "text": "He has read half the message. He has formed a whole opinion.",
-      "he": "",
-      "note": "קשר בין קריאת המשימה לגיבוש עמדה. אפשר לחייך ולהמשיך.",
+      "kind": "essay",
+      "title": "החיבור עד עכשיו",
+      "text": "School games are part of school life, but some students play better than others. I claim that every student should have a chance to play.\n\nOn the one hand, some students may make more mistakes during games.\n\n\n\n",
+      "he": "שלב 3/10 · 37 מילים",
+      "note": "קראו רק את המשפט החדש; אין לקרוא שוב את כל החיבור. משפט חדש: On the one hand, some students may make more mistakes during games. ההרחבות 9–10 נשארות בפסקאות הגוף.",
       "section": "intro",
-      "asset": "half-message",
-      "alt": "חתול מסיק מסקנה מוקדם מדי מקריאה בטלפון.",
-      "seconds": 10.8
+      "paragraphs": [
+        "School games are part of school life, but some students play better than others. I claim that every student should have a chance to play.",
+        "On the one hand, some students may make more mistakes during games.",
+        "",
+        ""
+      ],
+      "step": 3
     },
     {
       "n": 15,
       "kind": "info",
-      "title": "פיתוח פסקאות הגוף",
-      "text": "Opposing idea + consequence\nSupporting idea + experience",
-      "he": "פסקה 2 מפתחת את הטענה הנגדית. פסקה 3 חוזרת לעמדה שלנו ותומכת בה.",
-      "note": "לפני משפט 3: חשבו הפוך. לפני משפט 5: חזרו לעמדה. תוספת דוגמה בכל פסקת גוף מפתחת את הטיעון.",
-      "section": "gerund"
+      "title": "First Conditional",
+      "text": "If + Present Simple, will + verb",
+      "he": "תנאי אפשרי ותוצאה: בחלק של if אין will.",
+      "note": "חזרה קצרה על מבנה שכבר נלמד. תנאי שני אינו חלק מהשיעור הזה.",
+      "section": "conditionals"
     },
     {
       "n": 16,
-      "kind": "example",
-      "title": "Gerund כנושא המשפט",
-      "text": "Playing together helps students build friendships.",
+      "kind": "gap",
+      "title": "תנאי אפשרי",
+      "text": "If students practise, they ___ better.",
       "he": "",
-      "note": "Playing together היא הפעילות שעליה מדברים. כל הצירוף משמש נושא יחיד, ולכן helps.",
-      "section": "gerund",
-      "pair": "reveal-16",
+      "note": "שאלו מה התנאי ומה התוצאה. אל תלמדו כעת מבנים נוספים.",
+      "section": "conditionals",
+      "pair": "gap-16",
       "reveal": false,
-      "tense": "הווה",
-      "highlights": [
-        "Playing together",
-        "helps"
-      ]
+      "before": "If students practise, they ",
+      "after": " better.",
+      "options": [
+        "play",
+        "will play",
+        "played"
+      ],
+      "correct": 1,
+      "tense": ""
     },
     {
       "n": 17,
-      "kind": "example",
-      "title": "Gerund כנושא המשפט",
-      "text": "Playing together helps students build friendships.",
-      "he": "משחק משותף עוזר לתלמידים ליצור חברויות.",
-      "note": "Playing together היא הפעילות שעליה מדברים. כל הצירוף משמש נושא יחיד, ולכן helps.",
-      "section": "gerund",
-      "pair": "reveal-16",
+      "kind": "gap",
+      "title": "תנאי אפשרי",
+      "text": "If students practise, they ___ better.",
+      "he": "If + Present Simple, will + verb.",
+      "note": "שאלו מה התנאי ומה התוצאה. אל תלמדו כעת מבנים נוספים.",
+      "section": "conditionals",
+      "pair": "gap-16",
       "reveal": true,
-      "tense": "הווה",
-      "highlights": [
-        "Playing together",
-        "helps"
-      ]
+      "before": "If students practise, they ",
+      "after": " better.",
+      "options": [
+        "play",
+        "will play",
+        "played"
+      ],
+      "correct": 1,
+      "tense": ""
     },
     {
       "n": 18,
-      "kind": "info",
-      "title": "שם של פעילות",
-      "text": "Playing together helps students.",
-      "he": "Gerund הוא פועל עם ing שמתפקד כשם עצם. כאן הוא נושא המשפט.",
-      "note": "הבחינו בין Playing helps לבין They are playing. בשני יש פעולה בזמן מתמשך; בשיעור משתמשים בפעילות כשם עצם.",
-      "section": "gerund"
+      "kind": "gap",
+      "title": "since מציג סיבה",
+      "text": "Students learn faster ___ they practise every day.",
+      "he": "",
+      "note": "בתרגול הזה נבחר since כדי ליצור הרגל קבוע. אין הבדל ניקוד אוטומטי רק בגלל החלפת מילת קישור.",
+      "section": "conditionals",
+      "pair": "gap-18",
+      "reveal": false,
+      "before": "Students learn faster ",
+      "after": " they practise every day.",
+      "options": [
+        "since",
+        "although",
+        "therefore"
+      ],
+      "correct": 0,
+      "tense": ""
     },
     {
       "n": 19,
       "kind": "gap",
-      "title": "Gerund והסכמה עם הפועל",
-      "text": "___ together helps students build friendships.",
-      "he": "",
-      "note": "התלמידים אומרים אות ומסבירים לפני החשיפה.",
-      "section": "gerund",
-      "pair": "gap-19",
-      "reveal": false,
-      "before": "",
-      "after": " together helps students build friendships.",
+      "title": "since מציג סיבה",
+      "text": "Students learn faster ___ they practise every day.",
+      "he": "since = מכיוון ש־. אחריו נושא ופועל.",
+      "note": "בתרגול הזה נבחר since כדי ליצור הרגל קבוע. אין הבדל ניקוד אוטומטי רק בגלל החלפת מילת קישור.",
+      "section": "conditionals",
+      "pair": "gap-18",
+      "reveal": true,
+      "before": "Students learn faster ",
+      "after": " they practise every day.",
       "options": [
-        "Play",
-        "Playing",
-        "Played"
+        "since",
+        "although",
+        "therefore"
       ],
-      "correct": 1,
-      "tense": "הווה"
+      "correct": 0,
+      "tense": ""
     },
     {
       "n": 20,
-      "kind": "gap",
-      "title": "Gerund והסכמה עם הפועל",
-      "text": "___ together helps students build friendships.",
-      "he": "Playing together משמש נושא יחיד. לכן נכתוב helps.",
-      "note": "התלמידים אומרים אות ומסבירים לפני החשיפה.",
-      "section": "gerund",
-      "pair": "gap-19",
-      "reveal": true,
-      "before": "",
-      "after": " together helps students build friendships.",
-      "options": [
-        "Play",
-        "Playing",
-        "Played"
-      ],
-      "correct": 1,
-      "tense": "הווה"
+      "kind": "timer",
+      "title": "4 · תנאי וסיבה",
+      "text": "If they play, the team will ... since ...",
+      "he": "תארו תוצאה אפשרית והסבירו את הסיבה.",
+      "note": "ניסיון עצמאי קצר. קבלו ניסוחים פשוטים ותקינים. חשפו את הדוגמה רק אחריו.",
+      "section": "conditionals",
+      "seconds": 45
     },
     {
       "n": 21,
-      "kind": "gap",
-      "title": "אחרי מילת יחס",
-      "text": "Students learn teamwork by ___ together.",
-      "he": "",
-      "note": "הדגישו: מבנה נוסף שאפשר להשתמש בו לפי הצורך, ולא תוספת חובה לחיבור שלנו.",
-      "section": "gerund",
-      "pair": "gap-21",
-      "reveal": false,
-      "before": "Students learn teamwork by ",
-      "after": " together.",
-      "options": [
-        "work",
-        "worked",
-        "working"
+      "kind": "essay",
+      "title": "החיבור עד עכשיו",
+      "text": "School games are part of school life, but some students play better than others. I claim that every student should have a chance to play.\n\nOn the one hand, some students may make more mistakes during games. If they play, the team will sometimes lose since these mistakes can help the other team.\n\n\n\n",
+      "he": "שלב 4/10 · 53 מילים",
+      "note": "קראו רק את המשפט החדש; אין לקרוא שוב את כל החיבור. משפט חדש: If they play, the team will sometimes lose since these mistakes can help the other team. ההרחבות 9–10 נשארות בפסקאות הגוף.",
+      "section": "conditionals",
+      "paragraphs": [
+        "School games are part of school life, but some students play better than others. I claim that every student should have a chance to play.",
+        "On the one hand, some students may make more mistakes during games. If they play, the team will sometimes lose since these mistakes can help the other team.",
+        "",
+        ""
       ],
-      "correct": 2,
-      "tense": "הווה"
+      "step": 4
     },
     {
       "n": 22,
-      "kind": "gap",
-      "title": "אחרי מילת יחס",
-      "text": "Students learn teamwork by ___ together.",
-      "he": "אחרי מילת היחס by משתמשים ב־gerund: by working.",
-      "note": "הדגישו: מבנה נוסף שאפשר להשתמש בו לפי הצורך, ולא תוספת חובה לחיבור שלנו.",
-      "section": "gerund",
-      "pair": "gap-21",
-      "reveal": true,
-      "before": "Students learn teamwork by ",
-      "after": " together.",
-      "options": [
-        "work",
-        "worked",
-        "working"
-      ],
-      "correct": 2,
-      "tense": "הווה"
+      "kind": "timer",
+      "title": "5 · חוזרים לעמדה שלנו",
+      "text": "On the other hand, ...",
+      "he": "איך משחק משותף יכול לעזור לתלמידים?",
+      "note": "ניסיון עצמאי קצר. קבלו ניסוחים פשוטים ותקינים. חשפו את הדוגמה רק אחריו.",
+      "section": "perfect",
+      "seconds": 45
     },
     {
       "n": 23,
-      "kind": "info",
-      "title": "טענה שתומכת בעמדה",
-      "text": "On the other hand, playing together can improve confidence and develop useful social skills.",
-      "he": "בפסקה השלישית חוזרים לעמדה: משחק משותף מפתח ביטחון וכישורים חברתיים.",
-      "note": "On the other hand מתחיל את פסקה 3, והוא משיב לטענה הנגדית שבפסקה 2.",
-      "section": "gerund",
-      "highlights": [
-        "On the other hand",
-        "playing together"
-      ]
+      "kind": "essay",
+      "title": "החיבור עד עכשיו",
+      "text": "School games are part of school life, but some students play better than others. I claim that every student should have a chance to play.\n\nOn the one hand, some students may make more mistakes during games. If they play, the team will sometimes lose since these mistakes can help the other team.\n\nOn the other hand, playing together can help students make friends and feel better.\n\n",
+      "he": "שלב 5/10 · 67 מילים",
+      "note": "קראו רק את המשפט החדש; אין לקרוא שוב את כל החיבור. משפט חדש: On the other hand, playing together can help students make friends and feel better. ההרחבות 9–10 נשארות בפסקאות הגוף.",
+      "section": "perfect",
+      "paragraphs": [
+        "School games are part of school life, but some students play better than others. I claim that every student should have a chance to play.",
+        "On the one hand, some students may make more mistakes during games. If they play, the team will sometimes lose since these mistakes can help the other team.",
+        "On the other hand, playing together can help students make friends and feel better.",
+        ""
+      ],
+      "step": 5
     },
     {
       "n": 24,
       "kind": "animation",
       "title": "הפוגה קצרה",
-      "text": "Balancing books is easier in the instructions.",
-      "he": "",
-      "note": "Balancing הוא נושא המשפט. לא חייבים לענות על שאלה בכל הפוגה.",
-      "section": "gerund",
-      "asset": "word-order",
-      "alt": "חתול מאזן ספרים והם נוחתים על ראשו.",
-      "seconds": 10.8
-    },
-    {
-      "n": 25,
-      "kind": "gap",
-      "title": "סיבה",
-      "text": "Students feel included ___ their classmates pass them the ball.",
-      "he": "",
-      "note": "Because מחבר סיבה למשפט. אחריו מופיע משפט עם נושא ופועל.",
-      "section": "connectors",
-      "pair": "gap-25",
-      "reveal": false,
-      "before": "Students feel included ",
-      "after": " their classmates pass them the ball.",
-      "options": [
-        "therefore",
-        "because",
-        "however"
-      ],
-      "correct": 1,
-      "tense": "הווה"
-    },
-    {
-      "n": 26,
-      "kind": "gap",
-      "title": "סיבה",
-      "text": "Students feel included ___ their classmates pass them the ball.",
-      "he": "Because מחבר סיבה למשפט. אחריו מופיע משפט עם נושא ופועל.",
-      "note": "Because מחבר סיבה למשפט. אחריו מופיע משפט עם נושא ופועל.",
-      "section": "connectors",
-      "pair": "gap-25",
-      "reveal": true,
-      "before": "Students feel included ",
-      "after": " their classmates pass them the ball.",
-      "options": [
-        "therefore",
-        "because",
-        "however"
-      ],
-      "correct": 1,
-      "tense": "הווה"
-    },
-    {
-      "n": 27,
-      "kind": "gap",
-      "title": "תוצאה",
-      "text": "Classmates encourage beginners. ___, beginners feel more confident.",
-      "he": "",
-      "note": "Therefore מציג תוצאה. כאן הוא פותח משפט חדש ואחריו פסיק.",
-      "section": "connectors",
-      "pair": "gap-27",
-      "reveal": false,
-      "before": "Classmates encourage beginners. ",
-      "after": ", beginners feel more confident.",
-      "options": [
-        "However",
-        "For example",
-        "Therefore"
-      ],
-      "correct": 2,
-      "tense": "הווה"
-    },
-    {
-      "n": 28,
-      "kind": "gap",
-      "title": "תוצאה",
-      "text": "Classmates encourage beginners. ___, beginners feel more confident.",
-      "he": "Therefore מציג תוצאה. כאן הוא פותח משפט חדש ואחריו פסיק.",
-      "note": "Therefore מציג תוצאה. כאן הוא פותח משפט חדש ואחריו פסיק.",
-      "section": "connectors",
-      "pair": "gap-27",
-      "reveal": true,
-      "before": "Classmates encourage beginners. ",
-      "after": ", beginners feel more confident.",
-      "options": [
-        "However",
-        "For example",
-        "Therefore"
-      ],
-      "correct": 2,
-      "tense": "הווה"
-    },
-    {
-      "n": 29,
-      "kind": "gap",
-      "title": "ניגוד",
-      "text": "Winning is exciting. ___, participation also matters.",
-      "he": "",
-      "note": "However מציג ניגוד או הסתייגות. הוא אינו מציג סיבה.",
-      "section": "connectors",
-      "pair": "gap-29",
-      "reveal": false,
-      "before": "Winning is exciting. ",
-      "after": ", participation also matters.",
-      "options": [
-        "However",
-        "Because",
-        "For example"
-      ],
-      "correct": 0,
-      "tense": "הווה"
-    },
-    {
-      "n": 30,
-      "kind": "gap",
-      "title": "ניגוד",
-      "text": "Winning is exciting. ___, participation also matters.",
-      "he": "However מציג ניגוד או הסתייגות. הוא אינו מציג סיבה.",
-      "note": "However מציג ניגוד או הסתייגות. הוא אינו מציג סיבה.",
-      "section": "connectors",
-      "pair": "gap-29",
-      "reveal": true,
-      "before": "Winning is exciting. ",
-      "after": ", participation also matters.",
-      "options": [
-        "However",
-        "Because",
-        "For example"
-      ],
-      "correct": 0,
-      "tense": "הווה"
-    },
-    {
-      "n": 31,
-      "kind": "info",
-      "title": "מילות קישור ומשמעות",
-      "text": "because + reason\nFor example, + example\nHowever, + contrast\nTherefore, + result",
-      "he": "בחרו קשר שמתאים לרעיון, ושמרו על פיסוק מתאים.",
-      "note": "דוגמאות הפיסוק כאן מראות דרך בטוחה לתלמידים: However ו־Therefore בתחילת משפט חדש. קיימים גם מבנים תקינים נוספים.",
-      "section": "connectors"
-    },
-    {
-      "n": 32,
-      "kind": "animation",
-      "title": "הפוגה קצרה",
-      "text": "The book is tiny. However, the jump is dramatic.",
-      "he": "",
-      "note": "הניגוד בין מכשול קטן לתגובה גדולה ממחיש However.",
-      "section": "connectors",
-      "asset": "however-cat",
-      "alt": "חתול קופץ מעל ספר זעיר בהגזמה.",
-      "seconds": 10.8
-    },
-    {
-      "n": 33,
-      "kind": "info",
-      "title": "פסקה 2: הטענה הנגדית",
-      "text": "On the one hand, including beginners may reduce a team’s chances of winning competitive matches. If teams include inexperienced players, they will sometimes lose matches because of simple mistakes. For example, repeated mistakes can frustrate teammates who hope to win.",
-      "he": "קודם חושבים הפוך: מה המחיר של שיתוף כולם? תנאי ראשון ודוגמה מפתחים את החשש.",
-      "note": "הפתיח המדויק: On the one hand,. הטענה נגדית לעמדת I claim that. משפט If הוא תנאי ראשון. משפט For example הוא הרחבה 9 בתוך אותה פסקה.",
-      "section": "connectors",
-      "highlights": [
-        "On the one hand",
-        "If",
-        "will",
-        "For example"
-      ]
-    },
-    {
-      "n": 34,
-      "kind": "example",
-      "title": "Active: מי עושה את הפעולה?",
-      "text": "Teachers should organize games fairly.",
-      "he": "",
-      "note": "משפט פעיל. המוקד הוא במורים שמארגנים.",
-      "section": "passive",
-      "pair": "reveal-34",
-      "reveal": false,
-      "tense": "",
-      "highlights": [
-        "Teachers",
-        "should organize"
-      ]
-    },
-    {
-      "n": 35,
-      "kind": "example",
-      "title": "Active: מי עושה את הפעולה?",
-      "text": "Teachers should organize games fairly.",
-      "he": "המורים צריכים לארגן את המשחקים בהוגנות.",
-      "note": "משפט פעיל. המוקד הוא במורים שמארגנים.",
-      "section": "passive",
-      "pair": "reveal-34",
-      "reveal": true,
-      "tense": "",
-      "highlights": [
-        "Teachers",
-        "should organize"
-      ]
-    },
-    {
-      "n": 36,
-      "kind": "example",
-      "title": "Passive: המוקד במשחקים",
-      "text": "Games should be organized fairly.",
-      "he": "",
-      "note": "המשמעות נשמרת. שינינו את מוקד המשפט למשחקים. אין צורך ב־by teachers כשהמבצע מובן מההקשר.",
-      "section": "passive",
-      "pair": "reveal-36",
-      "reveal": false,
-      "tense": "",
-      "highlights": [
-        "Games",
-        "should be organized"
-      ]
-    },
-    {
-      "n": 37,
-      "kind": "example",
-      "title": "Passive: המוקד במשחקים",
-      "text": "Games should be organized fairly.",
-      "he": "המשחקים צריכים להיות מאורגנים בהוגנות.",
-      "note": "המשמעות נשמרת. שינינו את מוקד המשפט למשחקים. אין צורך ב־by teachers כשהמבצע מובן מההקשר.",
-      "section": "passive",
-      "pair": "reveal-36",
-      "reveal": true,
-      "tense": "",
-      "highlights": [
-        "Games",
-        "should be organized"
-      ]
-    },
-    {
-      "n": 38,
-      "kind": "info",
-      "title": "מבנה הסביל אחרי should",
-      "text": "subject + should + be + V3",
-      "he": "הנושא מקבל את הפעולה. אחרי should מוסיפים be ואת צורת V3.",
-      "note": "למשל: games should be organized; every student should be included. המילה should אינה משתנה לפי הנושא.",
-      "section": "passive"
-    },
-    {
-      "n": 39,
-      "kind": "gap",
-      "title": "השלמת Passive",
-      "text": "Games should ___ so that everyone can take part.",
-      "he": "",
-      "note": "should be organized הוא מבנה סביל תקין: should + be + V3.",
-      "section": "passive",
-      "pair": "gap-39",
-      "reveal": false,
-      "before": "Games should ",
-      "after": " so that everyone can take part.",
-      "options": [
-        "be organized",
-        "organize",
-        "be organizing"
-      ],
-      "correct": 0,
-      "tense": ""
-    },
-    {
-      "n": 40,
-      "kind": "gap",
-      "title": "השלמת Passive",
-      "text": "Games should ___ so that everyone can take part.",
-      "he": "should be organized הוא מבנה סביל תקין: should + be + V3.",
-      "note": "should be organized הוא מבנה סביל תקין: should + be + V3.",
-      "section": "passive",
-      "pair": "gap-39",
-      "reveal": true,
-      "before": "Games should ",
-      "after": " so that everyone can take part.",
-      "options": [
-        "be organized",
-        "organize",
-        "be organizing"
-      ],
-      "correct": 0,
-      "tense": ""
-    },
-    {
-      "n": 41,
-      "kind": "choice",
-      "title": "איזה משפט תקין?",
-      "text": "The focus is on including every student.",
-      "he": "",
-      "note": "צריך גם be וגם V3: should be included. אין להשמיט אחד מהם.",
-      "section": "passive",
-      "pair": "choice-41",
-      "reveal": false,
-      "options": [
-        "Every student should included.",
-        "Every student should be included.",
-        "Every student should be include."
-      ],
-      "correct": 1
-    },
-    {
-      "n": 42,
-      "kind": "choice",
-      "title": "איזה משפט תקין?",
-      "text": "The focus is on including every student.",
-      "he": "צריך גם be וגם V3: should be included. אין להשמיט אחד מהם.",
-      "note": "צריך גם be וגם V3: should be included. אין להשמיט אחד מהם.",
-      "section": "passive",
-      "pair": "choice-41",
-      "reveal": true,
-      "options": [
-        "Every student should included.",
-        "Every student should be included.",
-        "Every student should be include."
-      ],
-      "correct": 1
-    },
-    {
-      "n": 43,
-      "kind": "animation",
-      "title": "הפוגה קצרה",
-      "text": "The message was delivered. To the wrong head.",
-      "he": "",
-      "note": "הדגמה משעשעת של passive: המוקד במה שקרה להודעה.",
-      "section": "passive",
-      "asset": "wrong-envelope",
-      "alt": "מעטפה נוחתת על ראשו של חתול.",
-      "seconds": 10.8
-    },
-    {
-      "n": 44,
-      "kind": "info",
-      "title": "Present Perfect והקשר להווה",
-      "text": "Some students have felt excluded from games.",
-      "he": "מתארים ניסיון או מצב מן העבר שיש לו משמעות עכשיו.",
-      "note": "הרגשת ההדרה מהעבר מסבירה למה צריך לפעול כעת. לא מציינים כאן זמן עבר מסוים כגון yesterday.",
-      "section": "perfect"
-    },
-    {
-      "n": 45,
-      "kind": "example",
-      "title": "ניסיון קודם, משמעות עכשיו",
-      "text": "Some students have felt excluded from games.",
-      "he": "",
-      "note": "זהו ניסיון קודם שרלוונטי לטיעון בהווה. הפועל feel מופיע בצורת V3: felt.",
-      "section": "perfect",
-      "pair": "reveal-45",
-      "reveal": false,
-      "tense": "",
-      "highlights": [
-        "have felt"
-      ]
-    },
-    {
-      "n": 46,
-      "kind": "example",
-      "title": "ניסיון קודם, משמעות עכשיו",
-      "text": "Some students have felt excluded from games.",
-      "he": "יש תלמידים שהרגישו מודרים ממשחקים.",
-      "note": "זהו ניסיון קודם שרלוונטי לטיעון בהווה. הפועל feel מופיע בצורת V3: felt.",
-      "section": "perfect",
-      "pair": "reveal-45",
-      "reveal": true,
-      "tense": "",
-      "highlights": [
-        "have felt"
-      ]
-    },
-    {
-      "n": 47,
-      "kind": "info",
-      "title": "מבנה Present Perfect",
-      "text": "have / has + V3",
-      "he": "עם I / you / we / they משתמשים ב־have. עם he / she / it משתמשים ב־has.",
-      "note": "אל תוסיפו תווית הווה/עבר בודדת למשפט הזה: המבנה מחבר ניסיון קודם להווה.",
-      "section": "perfect"
-    },
-    {
-      "n": 48,
-      "kind": "gap",
-      "title": "צורת V3",
-      "text": "Some students have ___ excluded from games.",
-      "he": "",
-      "note": "V3 של feel הוא felt. לכן: have felt.",
-      "section": "perfect",
-      "pair": "gap-48",
-      "reveal": false,
-      "before": "Some students have ",
-      "after": " excluded from games.",
-      "options": [
-        "feel",
-        "feeling",
-        "felt"
-      ],
-      "correct": 2,
-      "tense": ""
-    },
-    {
-      "n": 49,
-      "kind": "gap",
-      "title": "צורת V3",
-      "text": "Some students have ___ excluded from games.",
-      "he": "V3 של feel הוא felt. לכן: have felt.",
-      "note": "V3 של feel הוא felt. לכן: have felt.",
-      "section": "perfect",
-      "pair": "gap-48",
-      "reveal": true,
-      "before": "Some students have ",
-      "after": " excluded from games.",
-      "options": [
-        "feel",
-        "feeling",
-        "felt"
-      ],
-      "correct": 2,
-      "tense": ""
-    },
-    {
-      "n": 50,
-      "kind": "choice",
-      "title": "זמן עבר מוגדר",
-      "text": "Which sentence fits the time expression yesterday?",
-      "he": "",
-      "note": "Yesterday מציין זמן עבר שהסתיים. כאן משתמשים ב־Past Simple: felt.",
-      "section": "perfect",
-      "pair": "choice-50",
-      "reveal": false,
-      "options": [
-        "Yesterday, Tom has felt left out.",
-        "Yesterday, Tom felt left out.",
-        "Yesterday, Tom have felt left out."
-      ],
-      "correct": 1
-    },
-    {
-      "n": 51,
-      "kind": "choice",
-      "title": "זמן עבר מוגדר",
-      "text": "Which sentence fits the time expression yesterday?",
-      "he": "Yesterday מציין זמן עבר שהסתיים. כאן משתמשים ב־Past Simple: felt.",
-      "note": "Yesterday מציין זמן עבר שהסתיים. כאן משתמשים ב־Past Simple: felt.",
-      "section": "perfect",
-      "pair": "choice-50",
-      "reveal": true,
-      "options": [
-        "Yesterday, Tom has felt left out.",
-        "Yesterday, Tom felt left out.",
-        "Yesterday, Tom have felt left out."
-      ],
-      "correct": 1
-    },
-    {
-      "n": 52,
-      "kind": "animation",
-      "title": "הפוגה קצרה",
-      "text": "He has climbed three books. He needs a holiday.",
-      "he": "",
-      "note": "תוצאה עד כה: has climbed. הפוגה קצרה.",
-      "section": "perfect",
-      "asset": "so-far",
-      "alt": "חתול מטפס על ספרים כאילו טיפס על הר.",
-      "seconds": 10.8
-    },
-    {
-      "n": 53,
-      "kind": "info",
-      "title": "Second Conditional",
-      "text": "More encouragement could change how students feel.",
-      "he": "מדמיינים שינוי במצב ומסבירים מה הייתה התוצאה שלו.",
-      "note": "זו דרך לפתח טיעון, לא רק להדגים נוסחה דקדוקית.",
-      "section": "conditionals"
-    },
-    {
-      "n": 54,
-      "kind": "info",
-      "title": "Second Conditional: הרחבה",
-      "text": "If + Past Simple, would + base verb",
-      "he": "בחלק של if משתמשים ב־Past Simple. בחלק השני: would והפועל הבסיסי.",
-      "note": "השוואה למבנה שלמדנו בעבר. בחיבור הנוכחי משפט 4 חייב להיות First Conditional.",
-      "section": "conditionals"
-    },
-    {
-      "n": 55,
-      "kind": "example",
-      "title": "השינוי והתוצאה",
-      "text": "If they received more encouragement, they would feel safer trying again.",
-      "he": "",
-      "note": "they מתייחס לתלמידים שהרגישו מודרים. תנו לתלמידים לזהות את השינוי ואת התוצאה לפני התרגום.",
-      "section": "conditionals",
-      "pair": "reveal-55",
-      "reveal": false,
-      "tense": "",
-      "highlights": [
-        "If",
-        "received",
-        "would feel"
-      ]
-    },
-    {
-      "n": 56,
-      "kind": "example",
-      "title": "השינוי והתוצאה",
-      "text": "If they received more encouragement, they would feel safer trying again.",
-      "he": "אם הם היו מקבלים יותר עידוד, הם היו מרגישים בטוחים יותר לנסות שוב.",
-      "note": "they מתייחס לתלמידים שהרגישו מודרים. תנו לתלמידים לזהות את השינוי ואת התוצאה לפני התרגום.",
-      "section": "conditionals",
-      "pair": "reveal-55",
-      "reveal": true,
-      "tense": "",
-      "highlights": [
-        "If",
-        "received",
-        "would feel"
-      ]
-    },
-    {
-      "n": 57,
-      "kind": "gap",
-      "title": "תוצאה היפותטית",
-      "text": "If they received more encouragement, they ___ safer trying again.",
-      "he": "",
-      "note": "עם If + Past Simple משתמשים כאן ב־would + base verb. הכוונה לתוצאה היפותטית.",
-      "section": "conditionals",
-      "pair": "gap-57",
-      "reveal": false,
-      "before": "If they received more encouragement, they ",
-      "after": " safer trying again.",
-      "options": [
-        "will feel",
-        "would feel",
-        "felt"
-      ],
-      "correct": 1,
-      "tense": ""
-    },
-    {
-      "n": 58,
-      "kind": "gap",
-      "title": "תוצאה היפותטית",
-      "text": "If they received more encouragement, they ___ safer trying again.",
-      "he": "עם If + Past Simple משתמשים כאן ב־would + base verb. הכוונה לתוצאה היפותטית.",
-      "note": "עם If + Past Simple משתמשים כאן ב־would + base verb. הכוונה לתוצאה היפותטית.",
-      "section": "conditionals",
-      "pair": "gap-57",
-      "reveal": true,
-      "before": "If they received more encouragement, they ",
-      "after": " safer trying again.",
-      "options": [
-        "will feel",
-        "would feel",
-        "felt"
-      ],
-      "correct": 1,
-      "tense": ""
-    },
-    {
-      "n": 59,
-      "kind": "info",
-      "title": "First Conditional",
-      "text": "If we include every classmate tomorrow, more students will enjoy the game.",
-      "he": "מתארים אפשרות ממשית בעתיד ואת התוצאה הצפויה שלה.",
-      "note": "זהו משפט חלופי למסר עתידי. לא חייבים להכניס לחיבור גם תנאי ראשון וגם תנאי שני.",
-      "section": "conditionals",
-      "tense": "עתיד"
-    },
-    {
-      "n": 60,
-      "kind": "gap",
-      "title": "אפשרות ממשית בעתיד",
-      "text": "If we include every classmate tomorrow, more students ___ the game.",
-      "he": "",
-      "note": "First Conditional: בחלק של if יש Present Simple; בחלק התוצאה will + base verb.",
-      "section": "conditionals",
-      "pair": "gap-60",
-      "reveal": false,
-      "before": "If we include every classmate tomorrow, more students ",
-      "after": " the game.",
-      "options": [
-        "would enjoy",
-        "will enjoy",
-        "enjoyed"
-      ],
-      "correct": 1,
-      "tense": "עתיד"
-    },
-    {
-      "n": 61,
-      "kind": "gap",
-      "title": "אפשרות ממשית בעתיד",
-      "text": "If we include every classmate tomorrow, more students ___ the game.",
-      "he": "First Conditional: בחלק של if יש Present Simple; בחלק התוצאה will + base verb.",
-      "note": "First Conditional: בחלק של if יש Present Simple; בחלק התוצאה will + base verb.",
-      "section": "conditionals",
-      "pair": "gap-60",
-      "reveal": true,
-      "before": "If we include every classmate tomorrow, more students ",
-      "after": " the game.",
-      "options": [
-        "would enjoy",
-        "will enjoy",
-        "enjoyed"
-      ],
-      "correct": 1,
-      "tense": "עתיד"
-    },
-    {
-      "n": 62,
-      "kind": "animation",
-      "title": "הפוגה קצרה",
-      "text": "If his glasses were smaller, he would look less surprised.",
-      "he": "",
-      "note": "משפט תנאי דמיוני הקשור לתמונה.",
-      "section": "conditionals",
-      "asset": "serious-cat",
-      "alt": "חתול עם משקפיים ענקיים שמחליקים.",
-      "seconds": 10.8
-    },
-    {
-      "n": 63,
-      "kind": "info",
-      "title": "בחירת סוג התנאי",
-      "text": "If we include them, they will enjoy the game.\nIf they received more encouragement, they would feel safer.",
-      "he": "בחיבור שלנו משתמשים בתנאי ראשון במשפט 4. תנאי שני מוצג להשוואה בלבד.",
-      "note": "בחיבור: If teams include inexperienced players, they will sometimes lose matches because of simple mistakes.",
-      "section": "conditionals"
-    },
-    {
-      "n": 64,
-      "kind": "info",
-      "title": "פסקה 3: חזרה לעמדה",
-      "text": "On the other hand, playing together can improve confidence and develop useful social skills. Some students have felt excluded, so joining a team can be especially beneficial. Moreover, sharing responsibility can assist quieter classmates and build friendships.",
-      "he": "כעת חוזרים לעמדה שלנו: כישורים חברתיים, ניסיון קודם ויתרון נוסף.",
-      "note": "On the other hand מתחיל פסקה חדשה. משפט 5 תומך בעמדה, משפט 6 משתמש ב־Present Perfect, ומשפט 10 מרחיב בתוך הפסקה.",
-      "section": "body2",
-      "highlights": [
-        "On the other hand",
-        "playing together",
-        "have felt",
-        "Moreover"
-      ]
-    },
-    {
-      "n": 65,
-      "kind": "info",
-      "title": "לכל מבנה יש תפקיד",
-      "text": "First Conditional: a possible consequence\nPresent Perfect: relevant experience\nPassive: how games should be organized",
-      "he": "משפט 4: תנאי ראשון. משפט 6: Present Perfect. משפט 8: סביל.",
-      "note": "הסדר נקבע לפי ההנחיות. Gerund משתלב באופן טבעי במשפט התמיכה ובהרחבה.",
-      "section": "body2"
-    },
-    {
-      "n": 66,
-      "kind": "choice",
-      "title": "Although בחיבור",
-      "text": "Which sentence connects the ideas correctly?",
-      "he": "",
-      "note": "Although כבר מציג ניגוד. לא מוסיפים but או so באותו מבנה.",
-      "section": "conclusion",
-      "pair": "choice-66",
-      "reveal": false,
-      "options": [
-        "Although winning is exciting, but learning to support others matters more.",
-        "Although winning is exciting, learning to support others matters more.",
-        "Although winning is exciting, so learning to support others matters more."
-      ],
-      "correct": 1
-    },
-    {
-      "n": 67,
-      "kind": "choice",
-      "title": "Although בחיבור",
-      "text": "Which sentence connects the ideas correctly?",
-      "he": "Although כבר מציג ניגוד. לא מוסיפים but או so באותו מבנה.",
-      "note": "Although כבר מציג ניגוד. לא מוסיפים but או so באותו מבנה.",
-      "section": "conclusion",
-      "pair": "choice-66",
-      "reveal": true,
-      "options": [
-        "Although winning is exciting, but learning to support others matters more.",
-        "Although winning is exciting, learning to support others matters more.",
-        "Although winning is exciting, so learning to support others matters more."
-      ],
-      "correct": 1
-    },
-    {
-      "n": 68,
-      "kind": "example",
-      "title": "פסקת סיום",
-      "text": "In conclusion, participation has significant educational value despite the challenges it creates. Therefore, class games should be organized fairly to give everyone a meaningful role.",
-      "he": "",
-      "note": "משפט 7 מסכם את העמדה. משפט 8 מוסיף המלצה בסביל. שני המשפטים באותה פסקת סיום.",
-      "section": "conclusion",
-      "pair": "reveal-68",
-      "reveal": false,
-      "tense": "",
-      "highlights": [
-        "In conclusion",
-        "should be organized"
-      ]
-    },
-    {
-      "n": 69,
-      "kind": "example",
-      "title": "פסקת סיום",
-      "text": "In conclusion, participation has significant educational value despite the challenges it creates. Therefore, class games should be organized fairly to give everyone a meaningful role.",
-      "he": "לסיכום, להשתתפות יש ערך חינוכי משמעותי למרות הקשיים שהיא יוצרת. לכן יש לארגן את משחקי הכיתה בהוגנות, כך שלכל אחד יהיה תפקיד בעל משמעות.",
-      "note": "משפט 7 מסכם את העמדה. משפט 8 מוסיף המלצה בסביל. שני המשפטים באותה פסקת סיום.",
-      "section": "conclusion",
-      "pair": "reveal-68",
-      "reveal": true,
-      "tense": "",
-      "highlights": [
-        "In conclusion",
-        "should be organized"
-      ]
-    },
-    {
-      "n": 70,
-      "kind": "animation",
-      "title": "הפוגה קצרה",
       "text": "They have tried three times. Teamwork takes practice.",
       "he": "",
       "note": "מחזיר לנושא של שיתוף פעולה ולזמן perfect.",
-      "section": "conclusion",
+      "section": "perfect",
       "asset": "two-friends",
       "alt": "שני חתולים מחטיאים כיף ולבסוף מצליחים.",
       "seconds": 10.8
     },
     {
-      "n": 71,
+      "n": 25,
       "kind": "info",
-      "title": "מפת המשפטים: פתיחה וגוף",
-      "text": "1 Opening · 2 I claim that\n3 Opposing idea · 4 First Conditional\n5 Support · 6 Present Perfect",
-      "he": "מספרי המשפטים מציינים את סדר העבודה.",
-      "note": "",
-      "section": "essay"
+      "title": "Present Perfect",
+      "text": "have / has + V3\nfeel → felt → felt",
+      "he": "ניסיון קודם שקשור לרעיון שלנו.",
+      "note": "דוגמה לצורך בנימוק: תלמידים הרגישו לבד, והקבוצה יכולה לעזור. לא מוסיפים זמן עבר מסוים כגון yesterday.",
+      "section": "perfect"
     },
     {
-      "n": 72,
-      "kind": "info",
-      "title": "מפת המשפטים: סיום והרחבה",
-      "text": "7 Conclusion · 8 Passive\n9 Expansion in paragraph 2\n10 Expansion in paragraph 3",
-      "he": "בסיום עדיין לא מגישים. משלימים את הגוף עד 120–140 מילים.",
-      "note": "",
-      "section": "essay"
-    },
-    {
-      "n": 73,
-      "kind": "essay",
-      "title": "החיבור עד עכשיו",
-      "text": "School sports often raise questions about ability and participation in class games.\n\n\n\n\n\n",
-      "he": "שלב 1/10 · 12 מילים",
-      "note": "משפט פתיחה בלי דעה\nסופרים רק את הטקסט שנכתב. הפסקאות הריקות הן מקומות שמורים, ולא פסקאות נוספות. ",
-      "section": "essay",
-      "paragraphs": [
-        "School sports often raise questions about ability and participation in class games.",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "n": 74,
-      "kind": "essay",
-      "title": "החיבור עד עכשיו",
-      "text": "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.\n\n\n\n\n\n",
-      "he": "שלב 2/10 · 26 מילים",
-      "note": "משפט דעה: I claim that\nסופרים רק את הטקסט שנכתב. הפסקאות הריקות הן מקומות שמורים, ולא פסקאות נוספות. ",
-      "section": "essay",
-      "paragraphs": [
-        "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "n": 75,
-      "kind": "essay",
-      "title": "החיבור עד עכשיו",
-      "text": "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.\n\nOn the one hand, including beginners may reduce a team’s chances of winning competitive matches.\n\n\n\n",
-      "he": "שלב 3/10 · 41 מילים",
-      "note": "טענה נגדית: חשבו הפוך\nסופרים רק את הטקסט שנכתב. הפסקאות הריקות הן מקומות שמורים, ולא פסקאות נוספות. לפני משפט 3 חושבים הפוך.",
-      "section": "essay",
-      "paragraphs": [
-        "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.",
-        "On the one hand, including beginners may reduce a team’s chances of winning competitive matches.",
-        "",
-        ""
-      ]
-    },
-    {
-      "n": 76,
-      "kind": "essay",
-      "title": "החיבור עד עכשיו",
-      "text": "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.\n\nOn the one hand, including beginners may reduce a team’s chances of winning competitive matches. If teams include inexperienced players, they will sometimes lose matches because of simple mistakes.\n\n\n\n",
-      "he": "שלב 4/10 · 55 מילים",
-      "note": "תנאי ראשון שמפתח את הטענה הנגדית\nסופרים רק את הטקסט שנכתב. הפסקאות הריקות הן מקומות שמורים, ולא פסקאות נוספות. ",
-      "section": "essay",
-      "paragraphs": [
-        "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.",
-        "On the one hand, including beginners may reduce a team’s chances of winning competitive matches. If teams include inexperienced players, they will sometimes lose matches because of simple mistakes.",
-        "",
-        ""
-      ]
-    },
-    {
-      "n": 77,
-      "kind": "essay",
-      "title": "החיבור עד עכשיו",
-      "text": "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.\n\nOn the one hand, including beginners may reduce a team’s chances of winning competitive matches. If teams include inexperienced players, they will sometimes lose matches because of simple mistakes.\n\nOn the other hand, playing together can improve confidence and develop useful social skills.\n\n",
-      "he": "שלב 5/10 · 69 מילים",
-      "note": "תמיכה: חוזרים לעמדה שלנו\nסופרים רק את הטקסט שנכתב. הפסקאות הריקות הן מקומות שמורים, ולא פסקאות נוספות. לפני משפט 5 חוזרים לעמדה שלנו.",
-      "section": "essay",
-      "paragraphs": [
-        "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.",
-        "On the one hand, including beginners may reduce a team’s chances of winning competitive matches. If teams include inexperienced players, they will sometimes lose matches because of simple mistakes.",
-        "On the other hand, playing together can improve confidence and develop useful social skills.",
-        ""
-      ]
-    },
-    {
-      "n": 78,
-      "kind": "essay",
-      "title": "החיבור עד עכשיו",
-      "text": "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.\n\nOn the one hand, including beginners may reduce a team’s chances of winning competitive matches. If teams include inexperienced players, they will sometimes lose matches because of simple mistakes.\n\nOn the other hand, playing together can improve confidence and develop useful social skills. Some students have felt excluded, so joining a team can be especially beneficial.\n\n",
-      "he": "שלב 6/10 · 82 מילים",
-      "note": "ניסיון קודם ב־Present Perfect\nסופרים רק את הטקסט שנכתב. הפסקאות הריקות הן מקומות שמורים, ולא פסקאות נוספות. ",
-      "section": "essay",
-      "paragraphs": [
-        "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.",
-        "On the one hand, including beginners may reduce a team’s chances of winning competitive matches. If teams include inexperienced players, they will sometimes lose matches because of simple mistakes.",
-        "On the other hand, playing together can improve confidence and develop useful social skills. Some students have felt excluded, so joining a team can be especially beneficial.",
-        ""
-      ]
-    },
-    {
-      "n": 79,
-      "kind": "essay",
-      "title": "החיבור עד עכשיו",
-      "text": "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.\n\nOn the one hand, including beginners may reduce a team’s chances of winning competitive matches. If teams include inexperienced players, they will sometimes lose matches because of simple mistakes.\n\nOn the other hand, playing together can improve confidence and develop useful social skills. Some students have felt excluded, so joining a team can be especially beneficial.\n\nIn conclusion, participation has significant educational value despite the challenges it creates.",
-      "he": "שלב 7/10 · 94 מילים",
-      "note": "מסקנה\nסופרים רק את הטקסט שנכתב. הפסקאות הריקות הן מקומות שמורים, ולא פסקאות נוספות. ",
-      "section": "essay",
-      "paragraphs": [
-        "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.",
-        "On the one hand, including beginners may reduce a team’s chances of winning competitive matches. If teams include inexperienced players, they will sometimes lose matches because of simple mistakes.",
-        "On the other hand, playing together can improve confidence and develop useful social skills. Some students have felt excluded, so joining a team can be especially beneficial.",
-        "In conclusion, participation has significant educational value despite the challenges it creates."
-      ]
-    },
-    {
-      "n": 80,
-      "kind": "essay",
-      "title": "החיבור עד עכשיו",
-      "text": "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.\n\nOn the one hand, including beginners may reduce a team’s chances of winning competitive matches. If teams include inexperienced players, they will sometimes lose matches because of simple mistakes.\n\nOn the other hand, playing together can improve confidence and develop useful social skills. Some students have felt excluded, so joining a team can be especially beneficial.\n\nIn conclusion, participation has significant educational value despite the challenges it creates. Therefore, class games should be organized fairly to give everyone a meaningful role.",
-      "he": "שלב 8/10 · 107 מילים · דרושה הרחבה",
-      "note": "המלצה בסביל\nסופרים רק את הטקסט שנכתב. הפסקאות הריקות הן מקומות שמורים, ולא פסקאות נוספות. ",
-      "section": "essay",
-      "paragraphs": [
-        "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.",
-        "On the one hand, including beginners may reduce a team’s chances of winning competitive matches. If teams include inexperienced players, they will sometimes lose matches because of simple mistakes.",
-        "On the other hand, playing together can improve confidence and develop useful social skills. Some students have felt excluded, so joining a team can be especially beneficial.",
-        "In conclusion, participation has significant educational value despite the challenges it creates. Therefore, class games should be organized fairly to give everyone a meaningful role."
-      ]
-    },
-    {
-      "n": 81,
-      "kind": "essay",
-      "title": "החיבור עד עכשיו",
-      "text": "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.\n\nOn the one hand, including beginners may reduce a team’s chances of winning competitive matches. If teams include inexperienced players, they will sometimes lose matches because of simple mistakes. For example, repeated mistakes can frustrate teammates who hope to win.\n\nOn the other hand, playing together can improve confidence and develop useful social skills. Some students have felt excluded, so joining a team can be especially beneficial.\n\nIn conclusion, participation has significant educational value despite the challenges it creates. Therefore, class games should be organized fairly to give everyone a meaningful role.",
-      "he": "שלב 9/10 · 118 מילים · דרושה הרחבה",
-      "note": "הרחבה בתוך פסקה 2\nסופרים רק את הטקסט שנכתב. הפסקאות הריקות הן מקומות שמורים, ולא פסקאות נוספות. ",
-      "section": "essay",
-      "paragraphs": [
-        "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.",
-        "On the one hand, including beginners may reduce a team’s chances of winning competitive matches. If teams include inexperienced players, they will sometimes lose matches because of simple mistakes. For example, repeated mistakes can frustrate teammates who hope to win.",
-        "On the other hand, playing together can improve confidence and develop useful social skills. Some students have felt excluded, so joining a team can be especially beneficial.",
-        "In conclusion, participation has significant educational value despite the challenges it creates. Therefore, class games should be organized fairly to give everyone a meaningful role."
-      ]
-    },
-    {
-      "n": 82,
-      "kind": "essay",
-      "title": "החיבור עד עכשיו",
-      "text": "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.\n\nOn the one hand, including beginners may reduce a team’s chances of winning competitive matches. If teams include inexperienced players, they will sometimes lose matches because of simple mistakes. For example, repeated mistakes can frustrate teammates who hope to win.\n\nOn the other hand, playing together can improve confidence and develop useful social skills. Some students have felt excluded, so joining a team can be especially beneficial. Moreover, sharing responsibility can assist quieter classmates and build friendships.\n\nIn conclusion, participation has significant educational value despite the challenges it creates. Therefore, class games should be organized fairly to give everyone a meaningful role.",
-      "he": "שלב 10/10 · 128 מילים",
-      "note": "הרחבה בתוך פסקה 3\nסופרים רק את הטקסט שנכתב. הפסקאות הריקות הן מקומות שמורים, ולא פסקאות נוספות. ",
-      "section": "essay",
-      "paragraphs": [
-        "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.",
-        "On the one hand, including beginners may reduce a team’s chances of winning competitive matches. If teams include inexperienced players, they will sometimes lose matches because of simple mistakes. For example, repeated mistakes can frustrate teammates who hope to win.",
-        "On the other hand, playing together can improve confidence and develop useful social skills. Some students have felt excluded, so joining a team can be especially beneficial. Moreover, sharing responsibility can assist quieter classmates and build friendships.",
-        "In conclusion, participation has significant educational value despite the challenges it creates. Therefore, class games should be organized fairly to give everyone a meaningful role."
-      ]
-    },
-    {
-      "n": 83,
-      "kind": "essay",
-      "title": "החיבור השלם: בעד ונגד",
-      "text": "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.\n\nOn the one hand, including beginners may reduce a team’s chances of winning competitive matches. If teams include inexperienced players, they will sometimes lose matches because of simple mistakes. For example, repeated mistakes can frustrate teammates who hope to win.\n\nOn the other hand, playing together can improve confidence and develop useful social skills. Some students have felt excluded, so joining a team can be especially beneficial. Moreover, sharing responsibility can assist quieter classmates and build friendships.\n\nIn conclusion, participation has significant educational value despite the challenges it creates. Therefore, class games should be organized fairly to give everyone a meaningful role.",
-      "he": "128 מילים · ארבע פסקאות",
-      "note": "הנושא: Should every student have a chance to take part in class sports games, regardless of ability?\nסדר הקריאה הסופי: 1,2 / 3,4,9 / 5,6,10 / 7,8. עשרת המספרים מציינים שלבי כתיבה. סופרים מילים בלי הכותרת והנושא.",
-      "section": "essay",
-      "paragraphs": [
-        "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.",
-        "On the one hand, including beginners may reduce a team’s chances of winning competitive matches. If teams include inexperienced players, they will sometimes lose matches because of simple mistakes. For example, repeated mistakes can frustrate teammates who hope to win.",
-        "On the other hand, playing together can improve confidence and develop useful social skills. Some students have felt excluded, so joining a team can be especially beneficial. Moreover, sharing responsibility can assist quieter classmates and build friendships.",
-        "In conclusion, participation has significant educational value despite the challenges it creates. Therefore, class games should be organized fairly to give everyone a meaningful role."
-      ],
-      "source": "https://meyda.education.gov.il/sheeloney_bagrut/pitronot_bagrut/2026/6/016582-8-HEB-1400-1600.pdf"
-    },
-    {
-      "n": 84,
-      "kind": "info",
-      "title": "הפתיחה מחזיקה את העמדה",
-      "text": "School sports often raise questions about ability and participation in class games. I claim that every student should have a chance to participate, regardless of ability.",
-      "he": "משפט 1 מציג נושא בלי דעה. משפט 2 מביע עמדה באמצעות I claim that.",
-      "note": "בדקו שהפתיחה והדעה הם שני משפטים נפרדים.",
-      "section": "essay",
-      "highlights": [
-        "I claim that"
-      ]
-    },
-    {
-      "n": 85,
-      "kind": "info",
-      "title": "הטענה הנגדית מתפתחת",
-      "text": "On the one hand, including beginners may reduce a team’s chances of winning competitive matches. If teams include inexperienced players, they will sometimes lose matches because of simple mistakes. For example, repeated mistakes can frustrate teammates who hope to win.",
-      "he": "פסקה 2: טענה נגדית, תנאי ראשון ודוגמה. כל המשפטים מפתחים את אותו חשש.",
-      "note": "משפט ההרחבה 9 נכנס אחרי משפט 4 בפסקה השנייה. אין פסקה חמישית.",
-      "section": "essay",
-      "highlights": [
-        "On the one hand",
-        "If",
-        "will",
-        "For example"
-      ]
-    },
-    {
-      "n": 86,
-      "kind": "info",
-      "title": "התמיכה בעמדה מתפתחת",
-      "text": "On the other hand, playing together can improve confidence and develop useful social skills. Some students have felt excluded, so joining a team can be especially beneficial. Moreover, sharing responsibility can assist quieter classmates and build friendships.",
-      "he": "פסקה 3: חזרה לעמדה, ניסיון קודם והרחבה. כאן מופיע Present Perfect.",
-      "note": "משפט ההרחבה 10 נכנס אחרי משפט 6 בפסקה השלישית.",
-      "section": "essay",
-      "highlights": [
-        "On the other hand",
+      "n": 26,
+      "kind": "gap",
+      "title": "ניסיון קודם",
+      "text": "Some students ___ alone.",
+      "he": "",
+      "note": "מזהים את הנושא ובוחרים have ואת צורת V3.",
+      "section": "perfect",
+      "pair": "gap-26",
+      "reveal": false,
+      "before": "Some students ",
+      "after": " alone.",
+      "options": [
+        "has felt",
         "have felt",
-        "Moreover"
-      ]
+        "have feel"
+      ],
+      "correct": 1,
+      "tense": ""
     },
     {
-      "n": 87,
-      "kind": "info",
-      "title": "הסיום סוגר את הטיעון",
-      "text": "In conclusion, participation has significant educational value despite the challenges it creates. Therefore, class games should be organized fairly to give everyone a meaningful role.",
-      "he": "פסקה 4: מסקנה והמלצה בסביל, בלי נימוק חדש.",
-      "note": "מסקנה שנובעת מהדיון בשני הצדדים וחוזרת לעמדה המקורית.",
-      "section": "essay",
-      "highlights": [
-        "In conclusion",
-        "should be organized"
-      ]
-    },
-    {
-      "n": 88,
-      "kind": "animation",
-      "title": "הפוגה קצרה",
-      "text": "The mystery has been solved. It was his tail.",
-      "he": "",
-      "note": "חשיפה קצרה של present perfect passive. אין צורך ללמד מבנה חדש כעת.",
-      "section": "essay",
-      "asset": "certain-cat",
-      "alt": "חתול בלש מגלה את זנבו.",
-      "seconds": 10.8
-    },
-    {
-      "n": 89,
-      "kind": "timer",
-      "title": "העברה לנושא חדש",
-      "text": "Should teenagers have an after-school job?",
-      "he": "תכננו עמדה, טענה נגדית ותמיכה בעמדתכם. נשתמש באותו מבנה של ארבע פסקאות.",
-      "note": "זהו נושא מתוך הרשימה שסיימון מסר. אין לתת חיבור מוכן על נושא התלמיד.",
-      "section": "practice",
-      "seconds": 120
-    },
-    {
-      "n": 90,
-      "kind": "info",
-      "title": "תכנון לפני כתיבה",
-      "text": "I claim that ...\nOn the one hand, ...\nOn the other hand, ...",
-      "he": "חומר למחשבה: זמן ללימודים, הכנסה וניסיון. בחרו עמדה משלכם.",
-      "note": "אלה פתיחים ניטרליים. התלמיד קובע את הטענה ואת הרעיונות. הדוגמאות הבאות משתמשות בנושא קבוע אחר: גיל לקבלת טלפון.",
-      "section": "practice"
-    },
-    {
-      "n": 91,
-      "kind": "timer",
-      "title": "משפט אחד משודרג",
-      "text": "Write one sentence using a structure that supports your reason.",
-      "he": "בחרו gerund, passive, perfect או conditional.",
-      "note": "תנו לכל תלמיד לבחור מבנה שהוא מבין. בקשו משפט עם משמעות ברורה, לא דוגמה מנותקת.",
-      "section": "practice",
-      "seconds": 90
-    },
-    {
-      "n": 92,
-      "kind": "example",
-      "title": "משפט לדוגמה ללמוד ממנו את התבנית",
-      "text": "Using a cellphone responsibly can assist children in becoming more independent.",
-      "he": "",
-      "note": "נושא הדוגמה הקבוע: From what age should children have their own cellphone? הנושא של התלמיד הוא Should teenagers have an after-school job? אל תחליפו את נושא הדוגמה בזמן התרגול.",
-      "section": "practice",
-      "pair": "reveal-80",
-      "reveal": false,
-      "tense": "",
-      "highlights": [
-        "Using a cellphone"
-      ]
-    },
-    {
-      "n": 93,
-      "kind": "example",
-      "title": "משפט לדוגמה ללמוד ממנו את התבנית",
-      "text": "Using a cellphone responsibly can assist children in becoming more independent.",
-      "he": "שימוש אחראי בטלפון יכול לסייע לילדים להיות עצמאיים יותר. אני מזכיר לך: הנושא שלך הוא עבודה אחרי הלימודים.",
-      "note": "נושא הדוגמה הקבוע: From what age should children have their own cellphone? הנושא של התלמיד הוא Should teenagers have an after-school job? אל תחליפו את נושא הדוגמה בזמן התרגול.",
-      "section": "practice",
-      "pair": "reveal-80",
+      "n": 27,
+      "kind": "gap",
+      "title": "ניסיון קודם",
+      "text": "Some students ___ alone.",
+      "he": "students הוא רבים: have felt.",
+      "note": "מזהים את הנושא ובוחרים have ואת צורת V3.",
+      "section": "perfect",
+      "pair": "gap-26",
       "reveal": true,
-      "tense": "",
-      "highlights": [
-        "Using a cellphone"
-      ]
-    },
-    {
-      "n": 94,
-      "kind": "animation",
-      "title": "הפוגה קצרה",
-      "text": "He has found the missing piece. Behind his ear.",
-      "he": "",
-      "note": "כמו בדיקת חיבור: לפעמים הפרט החסר קרוב.",
-      "section": "practice",
-      "asset": "missing-piece",
-      "alt": "חתול מוצא חלק פאזל מאחורי האוזן.",
-      "seconds": 10.8
-    },
-    {
-      "n": 95,
-      "kind": "choice",
-      "title": "עריכה: נושא ופועל",
-      "text": "Which sentence is correct?",
-      "he": "",
-      "note": "הצירוף Playing together הוא נושא יחיד; הפועל הוא helps.",
-      "section": "edit",
-      "pair": "choice-83",
-      "reveal": false,
+      "before": "Some students ",
+      "after": " alone.",
       "options": [
-        "Playing together help students.",
-        "Playing together helps students.",
-        "Playing together helping students."
+        "has felt",
+        "have felt",
+        "have feel"
       ],
-      "correct": 1
+      "correct": 1,
+      "tense": ""
     },
     {
-      "n": 96,
-      "kind": "choice",
-      "title": "עריכה: נושא ופועל",
-      "text": "Which sentence is correct?",
-      "he": "הצירוף Playing together הוא נושא יחיד; הפועל הוא helps.",
-      "note": "הצירוף Playing together הוא נושא יחיד; הפועל הוא helps.",
-      "section": "edit",
-      "pair": "choice-83",
-      "reveal": true,
-      "options": [
-        "Playing together help students.",
-        "Playing together helps students.",
-        "Playing together helping students."
-      ],
-      "correct": 1
-    },
-    {
-      "n": 97,
-      "kind": "choice",
-      "title": "עריכה: משפט תנאי",
-      "text": "Which sentence uses the first conditional correctly?",
-      "he": "",
-      "note": "First Conditional: If + Present Simple, will + base verb. בחיבור זהו משפט 4.",
-      "section": "edit",
-      "pair": "choice-85",
-      "reveal": false,
-      "options": [
-        "If students receive support, they will try again.",
-        "If students will receive support, they try again.",
-        "If students receive support, they will tried again."
-      ],
-      "correct": 0
-    },
-    {
-      "n": 98,
-      "kind": "choice",
-      "title": "עריכה: משפט תנאי",
-      "text": "Which sentence uses the first conditional correctly?",
-      "he": "If + Present Simple, will + base verb. משפט 4 בחיבור מתאר תנאי אפשרי ותוצאה צפויה.",
-      "note": "First Conditional: If + Present Simple, will + base verb. בחיבור זהו משפט 4.",
-      "section": "edit",
-      "pair": "choice-85",
-      "reveal": true,
-      "options": [
-        "If students receive support, they will try again.",
-        "If students will receive support, they try again.",
-        "If students receive support, they will tried again."
-      ],
-      "correct": 0
-    },
-    {
-      "n": 99,
-      "kind": "info",
-      "title": "בדיקת חיבור",
-      "text": "Four paragraphs. An opposing idea. A supported opinion.",
-      "he": "האם פסקה 2 מתחילה ב־On the one hand ופסקה 3 ב־On the other hand? האם חזרתי לעמדה שלי?",
-      "note": "ודאו שגם הטענה הנגדית מפותחת. סופרים מילים אחרי כל תוספת. אין לסיים מתחת ל־120 מילים.",
-      "section": "edit"
-    },
-    {
-      "n": 100,
-      "kind": "info",
-      "title": "בדיקת שפה",
-      "text": "meaningful / significant / central\nbeneficial / useful / practical\nassist / improve",
-      "he": "בחרו מילה שמתאימה למשמעות. הימנעו מחזרה על אותה מילה ובדקו את הדקדוק.",
-      "note": "לפי הנחיות התרגול, לא משתמשים ב־good או ב־important. אין צורך לדחוס את כל החלופות לחיבור אחד.",
-      "section": "edit"
-    },
-    {
-      "n": 101,
-      "kind": "animation",
-      "title": "הפוגה קצרה",
-      "text": "A small idea. An unnecessarily large bag.",
-      "he": "",
-      "note": "זוכרים להרחיב רעיון באמצעות דוגמה, בלי להעמיס מילים.",
-      "section": "edit",
-      "asset": "helpful-bag",
-      "alt": "חתול שולף מעמד קטן מתיק גדול.",
-      "seconds": 10.8
-    },
-    {
-      "n": 102,
+      "n": 28,
       "kind": "timer",
-      "title": "כתיבה עצמאית",
-      "text": "Should teenagers have an after-school job?\nWrite 120–140 words.",
-      "he": "ארבע פסקאות. כתבו משפט אחד בכל פעם: פתיחה, עמדה, נגד, בעד וסיכום.",
-      "note": "תנו משוב מינימלי אחרי כל משפט. הציגו החיבור עד עכשיו וספירת מילים. משפטים 9–10 נכנסים לגוף, לא לפסקאות חדשות. אין לסיים מתחת ל־120 מילים.",
-      "section": "write",
-      "seconds": 720
+      "title": "6 · ניסיון קודם",
+      "text": "Some students have felt ... , so ...",
+      "he": "חברו את הניסיון הקודם ליתרון של משחק משותף.",
+      "note": "ניסיון עצמאי קצר. קבלו ניסוחים פשוטים ותקינים. חשפו את הדוגמה רק אחריו.",
+      "section": "perfect",
+      "seconds": 45
     },
     {
-      "n": 103,
+      "n": 29,
+      "kind": "essay",
+      "title": "החיבור עד עכשיו",
+      "text": "School games are part of school life, but some students play better than others. I claim that every student should have a chance to play.\n\nOn the one hand, some students may make more mistakes during games. If they play, the team will sometimes lose since these mistakes can help the other team.\n\nOn the other hand, playing together can help students make friends and feel better. Some students have felt alone, so joining a team can help them.\n\n",
+      "he": "שלב 6/10 · 79 מילים",
+      "note": "קראו רק את המשפט החדש; אין לקרוא שוב את כל החיבור. משפט חדש: Some students have felt alone, so joining a team can help them. ההרחבות 9–10 נשארות בפסקאות הגוף.",
+      "section": "perfect",
+      "paragraphs": [
+        "School games are part of school life, but some students play better than others. I claim that every student should have a chance to play.",
+        "On the one hand, some students may make more mistakes during games. If they play, the team will sometimes lose since these mistakes can help the other team.",
+        "On the other hand, playing together can help students make friends and feel better. Some students have felt alone, so joining a team can help them.",
+        ""
+      ],
+      "step": 6
+    },
+    {
+      "n": 30,
       "kind": "timer",
-      "title": "בדיקה עצמית",
-      "text": "Read your essay and improve two things.",
-      "he": "ספרו מילים. אם חסרות מילים, הוסיפו הסבר או דוגמה בתוך פסקאות הגוף.",
-      "note": "הטווח: 120–140. לא מוסיפים פסקה חמישית ולא מסיימים מתחת ל־120. מתקנים תחילה תוכן ואז שפה.",
-      "section": "write",
-      "seconds": 120
+      "title": "7 · סיכום הדעה",
+      "text": "In conclusion, I believe that ...",
+      "he": "חזרו לעמדה בקצרה. אל תוסיפו טענה חדשה.",
+      "note": "ניסיון עצמאי קצר. קבלו ניסוחים פשוטים ותקינים. חשפו את הדוגמה רק אחריו.",
+      "section": "passive",
+      "seconds": 45
     },
     {
-      "n": 104,
+      "n": 31,
+      "kind": "essay",
+      "title": "החיבור עד עכשיו",
+      "text": "School games are part of school life, but some students play better than others. I claim that every student should have a chance to play.\n\nOn the one hand, some students may make more mistakes during games. If they play, the team will sometimes lose since these mistakes can help the other team.\n\nOn the other hand, playing together can help students make friends and feel better. Some students have felt alone, so joining a team can help them.\n\nIn conclusion, I believe that everyone should have a chance to play.",
+      "he": "שלב 7/10 · 91 מילים",
+      "note": "קראו רק את המשפט החדש; אין לקרוא שוב את כל החיבור. משפט חדש: In conclusion, I believe that everyone should have a chance to play. ההרחבות 9–10 נשארות בפסקאות הגוף.",
+      "section": "passive",
+      "paragraphs": [
+        "School games are part of school life, but some students play better than others. I claim that every student should have a chance to play.",
+        "On the one hand, some students may make more mistakes during games. If they play, the team will sometimes lose since these mistakes can help the other team.",
+        "On the other hand, playing together can help students make friends and feel better. Some students have felt alone, so joining a team can help them.",
+        "In conclusion, I believe that everyone should have a chance to play."
+      ],
+      "step": 7
+    },
+    {
+      "n": 32,
       "kind": "info",
-      "title": "סימון לצורך משוב",
-      "text": "I claim that\nFirst Conditional / Present Perfect / Passive",
-      "he": "בדקו גם Gerund ומילות קישור. המבנים צריכים לשרת את הטיעון.",
-      "note": "משפט 2: I claim that. משפט 4: תנאי ראשון. משפט 6: Present Perfect. משפט 8: סביל. אלה הוראות התרגול של סיימון.",
-      "section": "write"
+      "title": "Passive",
+      "text": "should be + V3\ninclude → included",
+      "he": "המלצה על מה שצריך לקרות לתלמידים.",
+      "note": "שומרים על מבנה קבוע ועל פועל פשוט. התלמידים מקבלים הזדמנות להשתתף.",
+      "section": "passive"
     },
     {
-      "n": 105,
+      "n": 33,
+      "kind": "gap",
+      "title": "סביל בהמלצה",
+      "text": "Every student should ___ in class games.",
+      "he": "",
+      "note": "הקפידו על be ועל צורת הפועל. אין צורך בפועל ארוך יותר.",
+      "section": "passive",
+      "pair": "gap-33",
+      "reveal": false,
+      "before": "Every student should ",
+      "after": " in class games.",
+      "options": [
+        "include",
+        "be included",
+        "be include"
+      ],
+      "correct": 1,
+      "tense": ""
+    },
+    {
+      "n": 34,
+      "kind": "gap",
+      "title": "סביל בהמלצה",
+      "text": "Every student should ___ in class games.",
+      "he": "should be + V3: should be included.",
+      "note": "הקפידו על be ועל צורת הפועל. אין צורך בפועל ארוך יותר.",
+      "section": "passive",
+      "pair": "gap-33",
+      "reveal": true,
+      "before": "Every student should ",
+      "after": " in class games.",
+      "options": [
+        "include",
+        "be included",
+        "be include"
+      ],
+      "correct": 1,
+      "tense": ""
+    },
+    {
+      "n": 35,
+      "kind": "timer",
+      "title": "8 · המלצה בסביל",
+      "text": "Therefore, every student should be ...",
+      "he": "סיימו בהמלצה שתומכת בעמדה.",
+      "note": "ניסיון עצמאי קצר. קבלו ניסוחים פשוטים ותקינים. חשפו את הדוגמה רק אחריו.",
+      "section": "passive",
+      "seconds": 45
+    },
+    {
+      "n": 36,
+      "kind": "essay",
+      "title": "החיבור עד עכשיו",
+      "text": "School games are part of school life, but some students play better than others. I claim that every student should have a chance to play.\n\nOn the one hand, some students may make more mistakes during games. If they play, the team will sometimes lose since these mistakes can help the other team.\n\nOn the other hand, playing together can help students make friends and feel better. Some students have felt alone, so joining a team can help them.\n\nIn conclusion, I believe that everyone should have a chance to play. Therefore, every student should be included in class games.",
+      "he": "שלב 8/10 · 100 מילים · נוסיף דוגמה בגוף",
+      "note": "קראו רק את המשפט החדש; אין לקרוא שוב את כל החיבור. משפט חדש: Therefore, every student should be included in class games. ההרחבות 9–10 נשארות בפסקאות הגוף.",
+      "section": "passive",
+      "paragraphs": [
+        "School games are part of school life, but some students play better than others. I claim that every student should have a chance to play.",
+        "On the one hand, some students may make more mistakes during games. If they play, the team will sometimes lose since these mistakes can help the other team.",
+        "On the other hand, playing together can help students make friends and feel better. Some students have felt alone, so joining a team can help them.",
+        "In conclusion, I believe that everyone should have a chance to play. Therefore, every student should be included in class games."
+      ],
+      "step": 8
+    },
+    {
+      "n": 37,
+      "kind": "info",
+      "title": "הטיוטה עדיין קצרה",
+      "text": "100 words\nAdd an example. Add one more idea.",
+      "he": "יש לנו 100 מילים. נוסיף דוגמה בפסקה 2 ורעיון בפסקה 3.",
+      "note": "לא מוסיפים פסקה חמישית ולא ממלאים במילים ריקות. מרחיבים את ההסבר.",
+      "section": "expand"
+    },
+    {
+      "n": 38,
+      "kind": "timer",
+      "title": "9 · דוגמה לקושי",
+      "text": "For example, they may ...",
+      "he": "תנו דוגמה פשוטה לטעות במשחק. היא נכנסת לפסקה 2.",
+      "note": "ניסיון עצמאי קצר. קבלו ניסוחים פשוטים ותקינים. חשפו את הדוגמה רק אחריו.",
+      "section": "expand",
+      "seconds": 45
+    },
+    {
+      "n": 39,
+      "kind": "essay",
+      "title": "החיבור עד עכשיו",
+      "text": "School games are part of school life, but some students play better than others. I claim that every student should have a chance to play.\n\nOn the one hand, some students may make more mistakes during games. If they play, the team will sometimes lose since these mistakes can help the other team. For example, they may pass the ball to the other team.\n\nOn the other hand, playing together can help students make friends and feel better. Some students have felt alone, so joining a team can help them.\n\nIn conclusion, I believe that everyone should have a chance to play. Therefore, every student should be included in class games.",
+      "he": "שלב 9/10 · 111 מילים · נוסיף דוגמה בגוף",
+      "note": "קראו רק את המשפט החדש; אין לקרוא שוב את כל החיבור. משפט חדש: For example, they may pass the ball to the other team. ההרחבות 9–10 נשארות בפסקאות הגוף.",
+      "section": "expand",
+      "paragraphs": [
+        "School games are part of school life, but some students play better than others. I claim that every student should have a chance to play.",
+        "On the one hand, some students may make more mistakes during games. If they play, the team will sometimes lose since these mistakes can help the other team. For example, they may pass the ball to the other team.",
+        "On the other hand, playing together can help students make friends and feel better. Some students have felt alone, so joining a team can help them.",
+        "In conclusion, I believe that everyone should have a chance to play. Therefore, every student should be included in class games."
+      ],
+      "step": 9
+    },
+    {
+      "n": 40,
+      "kind": "timer",
+      "title": "10 · עוד יתרון",
+      "text": "Moreover, students can ...",
+      "he": "מה עוד לומדים ממשחק משותף? ההרחבה נכנסת לפסקה 3.",
+      "note": "ניסיון עצמאי קצר. קבלו ניסוחים פשוטים ותקינים. חשפו את הדוגמה רק אחריו.",
+      "section": "expand",
+      "seconds": 45
+    },
+    {
+      "n": 41,
+      "kind": "essay",
+      "title": "החיבור עד עכשיו",
+      "text": "School games are part of school life, but some students play better than others. I claim that every student should have a chance to play.\n\nOn the one hand, some students may make more mistakes during games. If they play, the team will sometimes lose since these mistakes can help the other team. For example, they may pass the ball to the other team.\n\nOn the other hand, playing together can help students make friends and feel better. Some students have felt alone, so joining a team can help them. Moreover, students can learn to help each other when they play together.\n\nIn conclusion, I believe that everyone should have a chance to play. Therefore, every student should be included in class games.",
+      "he": "שלב 10/10 · 123 מילים",
+      "note": "קראו רק את המשפט החדש; אין לקרוא שוב את כל החיבור. משפט חדש: Moreover, students can learn to help each other when they play together. ההרחבות 9–10 נשארות בפסקאות הגוף.",
+      "section": "expand",
+      "paragraphs": [
+        "School games are part of school life, but some students play better than others. I claim that every student should have a chance to play.",
+        "On the one hand, some students may make more mistakes during games. If they play, the team will sometimes lose since these mistakes can help the other team. For example, they may pass the ball to the other team.",
+        "On the other hand, playing together can help students make friends and feel better. Some students have felt alone, so joining a team can help them. Moreover, students can learn to help each other when they play together.",
+        "In conclusion, I believe that everyone should have a chance to play. Therefore, every student should be included in class games."
+      ],
+      "step": 10
+    },
+    {
+      "n": 42,
       "kind": "animation",
       "title": "הפוגה קצרה",
       "text": "Everyone should be included. Even the chair needs practice.",
       "he": "",
       "note": "חזרה לנושא החיבור: הכללה, חברות ומתן הזדמנות.",
-      "section": "write",
+      "section": "expand",
       "asset": "chair-friend",
       "alt": "חתול מזיז כיסא לחבר ומנסה שוב לאחר טעות.",
       "seconds": 10.8
     },
     {
-      "n": 106,
+      "n": 43,
+      "kind": "info",
+      "title": "תבניות לחיבור הבא",
+      "text": "If ..., ... will ...\nSome ... have ...\n... should be ...",
+      "he": "מחליפים את הרעיון ואת מילות הנושא, ושומרים על מבנה שמתאים למשמעות.",
+      "note": "אין לכפות תבנית שאינה מתאימה לנושא. playing ו־joining במודל מדגימים גם gerund, בלי להוסיף יחידת לימוד נפרדת.",
+      "section": "expand"
+    },
+    {
+      "n": 44,
+      "kind": "info",
+      "title": "נושא לתרגול עצמאי",
+      "text": "Should teenagers have an after-school job?",
+      "he": "עכשיו אתם בוחרים עמדה ומפתחים את הרעיונות.",
+      "note": "שומרים על ארבע פסקאות. אין להציג חיבור מוכן לנושא זה לפני ניסיון התלמיד.",
+      "section": "practice"
+    },
+    {
+      "n": 45,
+      "kind": "timer",
+      "title": "תכנון החיבור שלכם",
+      "text": "My opinion / An idea against / An idea for",
+      "he": "כתבו שלוש הערות קצרות. אפשר להתחיל בעברית.",
+      "note": "עברו בין התלמידים ועזרו ברעיון אחד בלבד. מילים זמינות: work, money, time, school, tired, help.",
+      "section": "practice",
+      "seconds": 180
+    },
+    {
+      "n": 46,
+      "kind": "timer",
+      "title": "כתיבה עצמאית",
+      "text": "Write 120–140 words.",
+      "he": "ארבע פסקאות. משפט אחד בכל פעם.",
+      "note": "14 דקות כתיבה. אל תעצרו את כולם לכל שגיאה. תנו עד שני תיקונים עיקריים לתלמיד. מי שלא סיים שומר טיוטה ומסיים בהמשך.",
+      "section": "write",
+      "seconds": 840
+    },
+    {
+      "n": 47,
+      "kind": "info",
+      "title": "לפני העריכה",
+      "text": "Task / reasons / examples\nIf ... will / have + V3 / should be + V3",
+      "he": "בדקו קודם את הרעיון ואת ארבע הפסקאות. אחר כך את המבנים והכתיב.",
+      "note": "סופרים מילים ומרחיבים בתוך הגוף אם צריך. אין לצמצם רעיון נחוץ רק כדי לפשט שפה.",
+      "section": "edit"
+    },
+    {
+      "n": 48,
+      "kind": "timer",
+      "title": "עריכה עצמית",
+      "text": "Read your essay. Improve two things.",
+      "he": "תיקון אחד בתוכן או בהסבר, ותיקון אחד בשפה.",
+      "note": "שלוש דקות מוגנות לעריכה. אפשר להיעזר בביטויים הקבועים, בלי להחליף אוטומטית מילים נכונות.",
+      "section": "edit",
+      "seconds": 180
+    },
+    {
+      "n": 49,
       "kind": "choice",
       "title": "כרטיס יציאה",
-      "text": "Which improvement makes the essay stronger?",
+      "text": "Which sentence explains how games help?",
       "he": "",
-      "note": "החיבור מתחזק כשהטיעון ברור והשפה מדויקת ומתאימה למשמעות.",
+      "note": "משפט פשוט שמסביר את הרעיון עדיף על משפט שקשה להבין או להשתמש בו.",
       "section": "end",
-      "pair": "choice-94",
+      "pair": "choice-49",
       "reveal": false,
       "options": [
-        "Adding a difficult structure to every sentence.",
-        "Using clear reasons and grammar that fits the meaning.",
-        "Writing as many connectors as possible."
+        "Games help students.",
+        "Games help students make friends since they spend time together.",
+        "Games help students since games help students."
       ],
       "correct": 1
     },
     {
-      "n": 107,
+      "n": 50,
       "kind": "choice",
       "title": "כרטיס יציאה",
-      "text": "Which improvement makes the essay stronger?",
-      "he": "החיבור מתחזק כשהטיעון ברור והשפה מדויקת ומתאימה למשמעות.",
-      "note": "החיבור מתחזק כשהטיעון ברור והשפה מדויקת ומתאימה למשמעות.",
+      "text": "Which sentence explains how games help?",
+      "he": "משפט פשוט שמסביר את הרעיון עדיף על משפט שקשה להבין או להשתמש בו.",
+      "note": "משפט פשוט שמסביר את הרעיון עדיף על משפט שקשה להבין או להשתמש בו.",
       "section": "end",
-      "pair": "choice-94",
+      "pair": "choice-49",
       "reveal": true,
       "options": [
-        "Adding a difficult structure to every sentence.",
-        "Using clear reasons and grammar that fits the meaning.",
-        "Writing as many connectors as possible."
+        "Games help students.",
+        "Games help students make friends since they spend time together.",
+        "Games help students since games help students."
       ],
       "correct": 1
-    },
-    {
-      "n": 108,
-      "kind": "info",
-      "title": "להמשך התרגול",
-      "text": "An opinion. An opposing view. A return to your opinion.",
-      "he": "ארבע פסקאות, 120–140 מילים. ההרחבות נשארות בתוך פסקאות הגוף.",
-      "note": "סיום רק לאחר שהחיבור עומד באורך ובמבנה. שמרו טיוטה וגרסה מתוקנת להשוואה.",
-      "section": "end"
     }
   ],
   "source": "https://meyda.education.gov.il/sheeloney_bagrut/pitronot_bagrut/2026/6/016582-8-HEB-1400-1600.pdf"

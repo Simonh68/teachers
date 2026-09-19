@@ -1,29 +1,26 @@
 # Advanced Grammar in an Essay
 
-Grade 11, 5-point English. Updated to Simon's Module G structure on 19 September 2026.
+Grade 11, 5-point English. Simplified at Simon’s request after classroom review.
 
-The 108-slide lesson preserves the existing design, 12 cat animations, timers, and question/answer and translation reveal pairs. Its sports-participation model is a 128-word for-and-against essay with exactly four paragraphs.
+## Current lesson
 
-## Writing structure
+50 slides and 72 planned minutes, including three short existing animations, 14 minutes of independent writing and 3 minutes of editing. In a 90-minute meeting, 18 minutes remain for unscheduled interruptions and transitions. The previous 108-slide version remains in Git history.
 
-Drafting steps: 1 neutral opening; 2 opinion with `I claim that`; 3 opposing idea; 4 first conditional; 5 support for the opinion; 6 present perfect; 7 conclusion; 8 passive; 9–10 body expansions.
+The model uses 123 words in four paragraphs. Topic vocabulary is deliberately familiar: games, play, team, friends, help, mistakes. Reusable connectors and structures carry the challenge: I claim that; On the one hand; On the other hand; since; For example; Moreover; In conclusion; Therefore. Since expresses a reason; no automatic scoring benefit over because is claimed.
 
-Final reading order: **1,2 / 3,4,9 / 5,6,10 / 7,8**. Paragraph 2 begins `On the one hand,`; paragraph 3 begins `On the other hand,`. The second conditional is retained only as a comparison, not as the model's required conditional.
+First Conditional, Present Perfect and modal Passive remain. Gerunds occur naturally; the separate Second Conditional lesson and repeated explanations have been removed.
 
-Ten cumulative essay slides show the draft and actual word count after each step. The eight-sentence draft has 107 words and is explicitly unfinished. Step 9 brings it to 118; step 10 brings it to 128. Expansions stay inside the body; there is no fifth paragraph.
+## Writing sequence
 
-Independent practice uses `Should teenagers have an after-school job?` from Simon's supplied list. The transfer example uses the fixed cellphone-age topic. Teachers ask for one sentence at a time, provide neutral starters, correct minimally, and keep the student's draft and word count visible. Required classroom vocabulary avoids `good` and `important`; choose precise alternatives by meaning.
+Ten short independent sentence attempts alternate with cumulative model reveals and actual word counts. Drafting order: opening, opinion, opposing idea, conditional with reason, supporting idea, previous experience, conclusion, passive recommendation, two body expansions. Final paragraph order: 1,2 / 3,4,9 / 5,6,10 / 7,8. The 8-sentence draft has 100 words; the expansions bring it to 111, then 123. Read only the new sentence at each cumulative reveal.
+
+Independent practice: Should teenagers have an after-school job? Keep simple topic vocabulary and develop the ideas. Give content feedback first, then at most two key corrections. This is a teaching scaffold, not a guaranteed examination score.
 
 ## Files and rebuilding
 
-- `grade11/grammar-in-an-essay/index.html`, `lesson.css`, `lesson.js`, `lesson.json`: live lesson.
-- `teacher.html`: updated teacher script and model.
-- `files/grammar-in-an-essay.pptx`: matching editable download.
-- `build_lesson.py`: content, HTML and teacher-script generator.
-- `build_pptx.mjs`: Artifact Tool builder; `fix_rtl.py` preserves Hebrew paragraph direction.
+- grade11/grammar-in-an-essay/: HTML, CSS, JS, lesson.json and teacher.html.
+- files/grammar-in-an-essay.pptx: matching editable presentation.
+- build_lesson.py: content and HTML generator; reuses the established player and visual style.
+- build_pptx.mjs and fix_rtl.py: Artifact Tool builder and Hebrew direction repair.
 
-Run the content generator first. For the PPTX builder, set `ESSAY_ROOT` to the repository root, optionally set `ESSAY_BUILD_DIR` and `ESSAY_WORKSPACE` to a private task workspace, and set `ESSAY_FINAL_PPTX` to a new output path. Validate and visually review the new output before replacing the live download.
-
-The HTML timers can start, pause, reset and add 30 seconds; leaving a slide pauses its timer. PPTX displays a time allocation and a link to the live timer. Animated GIF playback depends on the presentation software.
-
-The supplied structure is a classroom writing scaffold. Follow the actual exam task's directions.
+Run the content generator first. Copy the PPTX builder and fix_rtl.py into a private build directory with the supplied runtime dependencies. Set ESSAY_ROOT, ESSAY_BUILD_DIR, ESSAY_WORKSPACE and ESSAY_FINAL_PPTX to task paths. Finalize to a new output, verify it, then replace the site download unchanged. HTML timers are interactive; PPTX timers are allocations with links to the live timers. GIF playback depends on the presentation application.
