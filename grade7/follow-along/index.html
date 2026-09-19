@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#071526">
+  <title>The Green Bag · קריאה עם הדגשה | Teachers</title>
+  <link rel="stylesheet" href="reader.css">
+</head>
+<body>
+<main>
+  <nav><a href="../" aria-label="חזרה לכיתה ז׳">⌂ כיתה ז׳</a><span lang="en" dir="ltr">TEACHERS / FOLLOW ALONG</span></nav>
+  <header><p class="eyebrow">כיתה ז׳ · קריאה והאזנה</p><h1 lang="en" dir="ltr">The Green Bag</h1>
+    <p class="intro">הקשיבו ועקבו אחרי המילה המודגשת. רחפו על מילה או ביטוי לתרגום; בטלפון — נגיעה.</p>
+    <p class="meta">קטע קצר בהשראת <a href="../the-same-way/" lang="en" dir="ltr">The Same Way</a> · <span id="wordCount"></span></p>
+  </header>
+  <section class="reader" aria-label="קטע הקריאה">
+    <div class="reading-heading"><span lang="en">READ & LISTEN</span><span id="pageTitle">הדרך לבית הספר</span></div>
+    <div class="page-navigation"><button id="previousPage" disabled>→ הקודם</button><span id="pageNumber" aria-live="polite">דף 1 מתוך 3</span><button id="nextPage" disabled>הבא ←</button></div>
+    <div class="reading-layout"><div id="story" lang="en" dir="ltr"><p>Loading the reading…</p></div><div id="scene" aria-label="איור מונפש של הסיפור"></div></div>
+    <p class="hint">המילה הנשׁמעת מסומנת בצהוב. ▶ ליד משפט משמיע אותו שוב. התרגום מותאם להקשר, ולפעמים כמה מילים מתורגמות יחד.</p>
+  </section>
+  <section class="player" aria-label="בקרי הקראה">
+    <div class="controls">
+      <button id="play" class="primary" disabled>▶ הקראה</button>
+      <button id="restart" disabled>↺ מההתחלה</button>
+      <button id="repeat" disabled>⟲ המשפט שוב</button>
+      <label for="speed">מהירות <select id="speed"><option value="0.75">0.75×</option><option value="0.9">0.9×</option><option value="1" selected>1×</option><option value="1.15">1.15×</option></select></label>
+    </div>
+    <label class="follow-option"><input type="checkbox" id="followScroll" checked> גלילה עם הקריאה</label>
+    <div class="timeline" dir="ltr"><time id="elapsed">0:00</time><input id="seek" type="range" min="0" max="100" value="0" step="0.01" aria-label="מיקום בהקראה" disabled><time id="duration">0:00</time></div>
+    <div class="progress-label"><span id="progress">מוכנים לקריאה</span><span id="status" role="status">טוען אודיו…</span></div>
+    <audio id="audio" preload="metadata"></audio>
+  </section>
+  <div class="below">
+    <section class="translation-box"><button id="translate" aria-expanded="false" aria-controls="translation">הצגת תרגום לעברית</button><div id="translation" hidden></div></section>
+    <section class="question"><p class="eyebrow">אחרי הקריאה</p><h2 lang="en" dir="ltr">Where does Dan see the green bag again?</h2>
+      <fieldset><legend>בחרו תשובה, ואז בדקו.</legend><label><input type="radio" name="answer" value="home"><span lang="en" dir="ltr">At home.</span></label><label><input type="radio" name="answer" value="class"><span lang="en" dir="ltr">In his classroom.</span></label><label><input type="radio" name="answer" value="bus"><span lang="en" dir="ltr">On the bus.</span></label></fieldset>
+      <button id="check">בדיקת תשובה</button><p id="feedback" role="status"></p>
+    </section>
+  </div>
+  <footer>קריינות AI מוכנה מראש באנגלית אמריקאית · <a href="assets/narration.mp3" download>קובץ ההקראה</a><br>נוצר: מוצאי שבת, ט׳ בתשרי תשפ״ז (19.9.2026)</footer>
+</main>
+<div id="unitTooltip" role="tooltip" dir="rtl" hidden></div>
+<script src="scenes.js"></script><script src="reader.js"></script>
+</body></html>

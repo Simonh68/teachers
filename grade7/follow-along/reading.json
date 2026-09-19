@@ -1,0 +1,696 @@
+{
+  "title": "The Green Bag",
+  "audio": "assets/narration.mp3",
+  "voice": "en-US-GuyNeural",
+  "rate": "-15%",
+  "synthetic": true,
+  "timing": "Speech engine word boundary events, seconds on the audio timeline",
+  "wordCount": 80,
+  "sha256": "bd2e6920072e02a6c167134841789a06e5da377c5387201fe6ef2dda28140933",
+  "sentences": [
+    {
+      "text": "My name is Dan, and I am in Grade seven.",
+      "translation": "קוראים לי דן, ואני בכיתה ז׳.",
+      "paragraph": 0,
+      "start": 0.1088,
+      "end": 2.8147,
+      "words": [
+        {
+          "word": "My",
+          "start": 0.1088,
+          "end": 0.3
+        },
+        {
+          "word": "name",
+          "start": 0.3294,
+          "end": 0.5647
+        },
+        {
+          "word": "is",
+          "start": 0.5941,
+          "end": 0.7412
+        },
+        {
+          "word": "Dan,",
+          "start": 0.7706,
+          "end": 1.1676
+        },
+        {
+          "word": "and",
+          "start": 1.4177,
+          "end": 1.55
+        },
+        {
+          "word": "I",
+          "start": 1.5794,
+          "end": 1.7117
+        },
+        {
+          "word": "am",
+          "start": 1.7265,
+          "end": 1.8735
+        },
+        {
+          "word": "in",
+          "start": 1.903,
+          "end": 2.0059
+        },
+        {
+          "word": "Grade",
+          "start": 2.0353,
+          "end": 2.3294
+        },
+        {
+          "word": "seven.",
+          "start": 2.3588,
+          "end": 2.8147
+        }
+      ],
+      "units": [
+        {
+          "text": "My name",
+          "translation": "השם שלי"
+        },
+        {
+          "text": "is",
+          "translation": "הוא"
+        },
+        {
+          "text": "Dan,",
+          "translation": "דן"
+        },
+        {
+          "text": "and",
+          "translation": "ו־"
+        },
+        {
+          "text": "I am",
+          "translation": "אני"
+        },
+        {
+          "text": "in Grade seven.",
+          "translation": "בכיתה ז׳"
+        }
+      ]
+    },
+    {
+      "text": "My new school is far from home.",
+      "translation": "בית הספר החדש שלי רחוק מהבית.",
+      "paragraph": 0,
+      "start": 3.8677,
+      "end": 5.9412,
+      "words": [
+        {
+          "word": "My",
+          "start": 3.8677,
+          "end": 4.0441
+        },
+        {
+          "word": "new",
+          "start": 4.0735,
+          "end": 4.3088
+        },
+        {
+          "word": "school",
+          "start": 4.3383,
+          "end": 4.7647
+        },
+        {
+          "word": "is",
+          "start": 4.7941,
+          "end": 4.9412
+        },
+        {
+          "word": "far",
+          "start": 4.9706,
+          "end": 5.2647
+        },
+        {
+          "word": "from",
+          "start": 5.2794,
+          "end": 5.4706
+        },
+        {
+          "word": "home.",
+          "start": 5.5,
+          "end": 5.9412
+        }
+      ],
+      "units": [
+        {
+          "text": "My new school",
+          "translation": "בית הספר החדש שלי"
+        },
+        {
+          "text": "is",
+          "translation": "הוא"
+        },
+        {
+          "text": "far from home.",
+          "translation": "רחוק מהבית"
+        }
+      ]
+    },
+    {
+      "text": "Every morning, I walk, take a bus, and then take a train.",
+      "translation": "בכל בוקר אני הולך ברגל, נוסע באוטובוס ואז נוסע ברכבת.",
+      "paragraph": 0,
+      "start": 6.9853,
+      "end": 10.9265,
+      "words": [
+        {
+          "word": "Every",
+          "start": 6.9853,
+          "end": 7.3235
+        },
+        {
+          "word": "morning,",
+          "start": 7.3383,
+          "end": 7.7794
+        },
+        {
+          "word": "I",
+          "start": 8.0883,
+          "end": 8.1618
+        },
+        {
+          "word": "walk,",
+          "start": 8.1912,
+          "end": 8.6029
+        },
+        {
+          "word": "take",
+          "start": 8.8088,
+          "end": 9.0294
+        },
+        {
+          "word": "a",
+          "start": 9.0588,
+          "end": 9.1324
+        },
+        {
+          "word": "bus,",
+          "start": 9.147,
+          "end": 9.5294
+        },
+        {
+          "word": "and",
+          "start": 9.7353,
+          "end": 9.8676
+        },
+        {
+          "word": "then",
+          "start": 9.897,
+          "end": 10.1029
+        },
+        {
+          "word": "take",
+          "start": 10.1177,
+          "end": 10.353
+        },
+        {
+          "word": "a",
+          "start": 10.3823,
+          "end": 10.4412
+        },
+        {
+          "word": "train.",
+          "start": 10.4559,
+          "end": 10.9265
+        }
+      ],
+      "units": [
+        {
+          "text": "Every morning,",
+          "translation": "בכל בוקר"
+        },
+        {
+          "text": "I walk,",
+          "translation": "אני הולך ברגל"
+        },
+        {
+          "text": "take a bus,",
+          "translation": "נוסע באוטובוס"
+        },
+        {
+          "text": "and then",
+          "translation": "ואז"
+        },
+        {
+          "text": "take a train.",
+          "translation": "נוסע ברכבת"
+        }
+      ]
+    },
+    {
+      "text": "Two boys are on the train too.",
+      "translation": "גם שני ילדים נמצאים ברכבת.",
+      "paragraph": 1,
+      "start": 11.9706,
+      "end": 13.8382,
+      "words": [
+        {
+          "word": "Two",
+          "start": 11.9706,
+          "end": 12.1912
+        },
+        {
+          "word": "boys",
+          "start": 12.2059,
+          "end": 12.5882
+        },
+        {
+          "word": "are",
+          "start": 12.6177,
+          "end": 12.7647
+        },
+        {
+          "word": "on",
+          "start": 12.7941,
+          "end": 12.9118
+        },
+        {
+          "word": "the",
+          "start": 12.9265,
+          "end": 13.0294
+        },
+        {
+          "word": "train",
+          "start": 13.0588,
+          "end": 13.3971
+        },
+        {
+          "word": "too.",
+          "start": 13.4265,
+          "end": 13.8382
+        }
+      ],
+      "units": [
+        {
+          "text": "Two boys",
+          "translation": "שני ילדים"
+        },
+        {
+          "text": "are",
+          "translation": "נמצאים"
+        },
+        {
+          "text": "on the train",
+          "translation": "ברכבת"
+        },
+        {
+          "text": "too.",
+          "translation": "גם"
+        }
+      ]
+    },
+    {
+      "text": "One has a green bag.",
+      "translation": "לאחד מהם יש תיק ירוק.",
+      "paragraph": 1,
+      "start": 14.8677,
+      "end": 16.4265,
+      "words": [
+        {
+          "word": "One",
+          "start": 14.8677,
+          "end": 15.2059
+        },
+        {
+          "word": "has",
+          "start": 15.2353,
+          "end": 15.4559
+        },
+        {
+          "word": "a",
+          "start": 15.4853,
+          "end": 15.5588
+        },
+        {
+          "word": "green",
+          "start": 15.5883,
+          "end": 15.9412
+        },
+        {
+          "word": "bag.",
+          "start": 15.9706,
+          "end": 16.4265
+        }
+      ],
+      "units": [
+        {
+          "text": "One",
+          "translation": "אחד מהם"
+        },
+        {
+          "text": "has",
+          "translation": "יש לו"
+        },
+        {
+          "text": "a green bag.",
+          "translation": "תיק ירוק"
+        }
+      ]
+    },
+    {
+      "text": "We do not talk.",
+      "translation": "אנחנו לא מדברים.",
+      "paragraph": 1,
+      "start": 17.4559,
+      "end": 18.647,
+      "words": [
+        {
+          "word": "We",
+          "start": 17.4559,
+          "end": 17.6912
+        },
+        {
+          "word": "do",
+          "start": 17.7206,
+          "end": 17.8676
+        },
+        {
+          "word": "not",
+          "start": 17.8823,
+          "end": 18.1323
+        },
+        {
+          "word": "talk.",
+          "start": 18.1618,
+          "end": 18.647
+        }
+      ],
+      "units": [
+        {
+          "text": "We",
+          "translation": "אנחנו"
+        },
+        {
+          "text": "do not talk.",
+          "translation": "לא מדברים"
+        }
+      ]
+    },
+    {
+      "text": "I look at the sky.",
+      "translation": "אני מביט בשמיים.",
+      "paragraph": 1,
+      "start": 19.6618,
+      "end": 20.9706,
+      "words": [
+        {
+          "word": "I",
+          "start": 19.6618,
+          "end": 19.8529
+        },
+        {
+          "word": "look",
+          "start": 19.8823,
+          "end": 20.1176
+        },
+        {
+          "word": "at",
+          "start": 20.147,
+          "end": 20.2353
+        },
+        {
+          "word": "the",
+          "start": 20.2647,
+          "end": 20.397
+        },
+        {
+          "word": "sky.",
+          "start": 20.4265,
+          "end": 20.9706
+        }
+      ],
+      "units": [
+        {
+          "text": "I",
+          "translation": "אני"
+        },
+        {
+          "text": "look at",
+          "translation": "מביט ב־"
+        },
+        {
+          "text": "the sky.",
+          "translation": "השמיים"
+        }
+      ]
+    },
+    {
+      "text": "What will I do when it rains?",
+      "translation": "מה אעשה כשירד גשם?",
+      "paragraph": 1,
+      "start": 21.9853,
+      "end": 23.8088,
+      "words": [
+        {
+          "word": "What",
+          "start": 21.9853,
+          "end": 22.2206
+        },
+        {
+          "word": "will",
+          "start": 22.25,
+          "end": 22.4265
+        },
+        {
+          "word": "I",
+          "start": 22.4559,
+          "end": 22.5294
+        },
+        {
+          "word": "do",
+          "start": 22.5588,
+          "end": 22.8382
+        },
+        {
+          "word": "when",
+          "start": 22.853,
+          "end": 23.0294
+        },
+        {
+          "word": "it",
+          "start": 23.0588,
+          "end": 23.1912
+        },
+        {
+          "word": "rains?",
+          "start": 23.2059,
+          "end": 23.8088
+        }
+      ],
+      "units": [
+        {
+          "text": "What",
+          "translation": "מה"
+        },
+        {
+          "text": "will I do",
+          "translation": "אעשה"
+        },
+        {
+          "text": "when it rains?",
+          "translation": "כשירד גשם?"
+        }
+      ]
+    },
+    {
+      "text": "At school, I open the classroom door.",
+      "translation": "בבית הספר אני פותח את דלת הכיתה.",
+      "paragraph": 2,
+      "start": 24.853,
+      "end": 27.5147,
+      "words": [
+        {
+          "word": "At",
+          "start": 24.853,
+          "end": 25.0735
+        },
+        {
+          "word": "school,",
+          "start": 25.103,
+          "end": 25.5441
+        },
+        {
+          "word": "I",
+          "start": 25.8382,
+          "end": 25.9265
+        },
+        {
+          "word": "open",
+          "start": 25.9559,
+          "end": 26.2647
+        },
+        {
+          "word": "the",
+          "start": 26.2941,
+          "end": 26.4118
+        },
+        {
+          "word": "classroom",
+          "start": 26.4412,
+          "end": 27.0147
+        },
+        {
+          "word": "door.",
+          "start": 27.0441,
+          "end": 27.5147
+        }
+      ],
+      "units": [
+        {
+          "text": "At school,",
+          "translation": "בבית הספר"
+        },
+        {
+          "text": "I open",
+          "translation": "אני פותח"
+        },
+        {
+          "text": "the classroom door.",
+          "translation": "את דלת הכיתה"
+        }
+      ]
+    },
+    {
+      "text": "The green bag is there!",
+      "translation": "התיק הירוק נמצא שם!",
+      "paragraph": 2,
+      "start": 28.5441,
+      "end": 30.1617,
+      "words": [
+        {
+          "word": "The",
+          "start": 28.5441,
+          "end": 28.7206
+        },
+        {
+          "word": "green",
+          "start": 28.75,
+          "end": 29.1177
+        },
+        {
+          "word": "bag",
+          "start": 29.1323,
+          "end": 29.4853
+        },
+        {
+          "word": "is",
+          "start": 29.5,
+          "end": 29.647
+        },
+        {
+          "word": "there!",
+          "start": 29.6765,
+          "end": 30.1617
+        }
+      ],
+      "units": [
+        {
+          "text": "The green bag",
+          "translation": "התיק הירוק"
+        },
+        {
+          "text": "is there!",
+          "translation": "נמצא שם!"
+        }
+      ]
+    },
+    {
+      "text": "The boys are in my class.",
+      "translation": "הילדים בכיתה שלי.",
+      "paragraph": 2,
+      "start": 31.2059,
+      "end": 32.9412,
+      "words": [
+        {
+          "word": "The",
+          "start": 31.2059,
+          "end": 31.3823
+        },
+        {
+          "word": "boys",
+          "start": 31.4118,
+          "end": 31.7794
+        },
+        {
+          "word": "are",
+          "start": 31.8088,
+          "end": 31.9412
+        },
+        {
+          "word": "in",
+          "start": 31.9706,
+          "end": 32.0588
+        },
+        {
+          "word": "my",
+          "start": 32.0883,
+          "end": 32.2647
+        },
+        {
+          "word": "class.",
+          "start": 32.2941,
+          "end": 32.9412
+        }
+      ],
+      "units": [
+        {
+          "text": "The boys",
+          "translation": "הילדים"
+        },
+        {
+          "text": "are in my class.",
+          "translation": "בכיתה שלי"
+        }
+      ]
+    },
+    {
+      "text": "I smile and say hello.",
+      "translation": "אני מחייך ואומר שלום.",
+      "paragraph": 2,
+      "start": 33.9559,
+      "end": 35.7794,
+      "words": [
+        {
+          "word": "I",
+          "start": 33.9559,
+          "end": 34.147
+        },
+        {
+          "word": "smile",
+          "start": 34.1765,
+          "end": 34.75
+        },
+        {
+          "word": "and",
+          "start": 34.7647,
+          "end": 34.8824
+        },
+        {
+          "word": "say",
+          "start": 34.9117,
+          "end": 35.1765
+        },
+        {
+          "word": "hello.",
+          "start": 35.2059,
+          "end": 35.7794
+        }
+      ],
+      "units": [
+        {
+          "text": "I smile",
+          "translation": "אני מחייך"
+        },
+        {
+          "text": "and say hello.",
+          "translation": "ואומר שלום"
+        }
+      ]
+    }
+  ]
+}

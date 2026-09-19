@@ -1,0 +1,57 @@
+[
+  {
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "pages": 3,
+    "translationUnits": 38,
+    "noOverflow": true,
+    "tooltipNoOverlap": true,
+    "stationaryEnglish": true,
+    "realAudio": true,
+    "seek": true,
+    "rate": true,
+    "autoPage": true,
+    "replay": true,
+    "quiz": true
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "pages": 3,
+    "translationUnits": 38,
+    "noOverflow": true,
+    "tooltipNoOverlap": true,
+    "stationaryEnglish": true,
+    "realAudio": true,
+    "seek": true,
+    "rate": true,
+    "autoPage": true,
+    "replay": true,
+    "quiz": true
+  },
+  {
+    "viewport": {
+      "width": 844,
+      "height": 390
+    },
+    "pages": 3,
+    "translationUnits": 38,
+    "noOverflow": true,
+    "tooltipNoOverlap": true,
+    "stationaryEnglish": true,
+    "realAudio": true,
+    "seek": true,
+    "rate": true,
+    "autoPage": true,
+    "replay": true,
+    "quiz": true
+  },
+  {
+    "touch": true,
+    "noUnwantedAudio": true
+  }
+]
