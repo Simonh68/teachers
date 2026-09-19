@@ -1,0 +1,2173 @@
+{
+  "title": "The Same Way",
+  "audio": "assets/narration-full.mp3",
+  "voice": "en-US-AnaNeural",
+  "rate": "+0%",
+  "synthetic": true,
+  "voiceDescription": "Synthetic child voice, American English",
+  "timing": "Engine word boundaries on the audio timeline, seconds",
+  "wordCount": 268,
+  "sha256": "695eb2b82777eb2f91d076278116ea057c81b8ca4dfdebe3af6e00f19a03fe0b",
+  "source": "../the-same-way/story.json",
+  "sourceSha256": "124bd14c8472815550be11ce98a72beafd2b7594cc4529f0ba82cdef24b5d043",
+  "pages": [
+    {
+      "title": "בית ספר חדש",
+      "image": "assets/departure.webp"
+    },
+    {
+      "title": "יוצאים מהבית",
+      "image": "assets/departure.webp"
+    },
+    {
+      "title": "אוטובוסים ורכבת",
+      "image": "assets/journey.webp"
+    },
+    {
+      "title": "שני בנים בדרך",
+      "image": "assets/journey.webp"
+    },
+    {
+      "title": "מה יהיה בחורף?",
+      "image": "assets/winter.webp"
+    },
+    {
+      "title": "הטלפון נשאר שקט",
+      "image": "assets/winter.webp"
+    },
+    {
+      "title": "הפתעה בכיתה",
+      "image": "assets/classroom.webp"
+    },
+    {
+      "title": "גם אתם עייפים?",
+      "image": "assets/friends.webp"
+    },
+    {
+      "title": "אותן תחושות",
+      "image": "assets/friends.webp"
+    },
+    {
+      "title": "מחר נגיד שלום",
+      "image": "assets/friends.webp"
+    }
+  ],
+  "sentences": [
+    {
+      "text": "My name is Dan, and I am in Grade 7.",
+      "translation": "קוראים לי דן, ואני בכיתה ז׳.",
+      "sourceParagraph": "A",
+      "paragraph": 0,
+      "start": 0.1,
+      "end": 3.175,
+      "words": [
+        {
+          "word": "My",
+          "start": 0.1,
+          "end": 0.3
+        },
+        {
+          "word": "name",
+          "start": 0.3125,
+          "end": 0.6375
+        },
+        {
+          "word": "is",
+          "start": 0.65,
+          "end": 0.825
+        },
+        {
+          "word": "Dan,",
+          "start": 0.8375,
+          "end": 1.2625
+        },
+        {
+          "word": "and",
+          "start": 1.525,
+          "end": 1.7125
+        },
+        {
+          "word": "I",
+          "start": 1.725,
+          "end": 1.875
+        },
+        {
+          "word": "am",
+          "start": 1.8875,
+          "end": 2.025
+        },
+        {
+          "word": "in",
+          "start": 2.0375,
+          "end": 2.1875
+        },
+        {
+          "word": "Grade",
+          "start": 2.2,
+          "end": 2.6125
+        },
+        {
+          "word": "7.",
+          "start": 2.625,
+          "end": 3.175
+        }
+      ],
+      "units": [
+        {
+          "text": "My name",
+          "translation": "השם שלי"
+        },
+        {
+          "text": "is",
+          "translation": "הוא"
+        },
+        {
+          "text": "Dan,",
+          "translation": "דן"
+        },
+        {
+          "text": "and",
+          "translation": "ו־"
+        },
+        {
+          "text": "I am",
+          "translation": "אני"
+        },
+        {
+          "text": "in Grade 7.",
+          "translation": "בכיתה ז׳"
+        }
+      ]
+    },
+    {
+      "text": "My new school is far from home, but I chose it because I love its science lessons.",
+      "translation": "בית הספר החדש שלי רחוק מהבית, אבל בחרתי בו כי אני אוהב את שיעורי המדעים שלו.",
+      "sourceParagraph": "A",
+      "paragraph": 0,
+      "start": 4.0375,
+      "end": 9.45,
+      "words": [
+        {
+          "word": "My",
+          "start": 4.0375,
+          "end": 4.2375
+        },
+        {
+          "word": "new",
+          "start": 4.25,
+          "end": 4.5125
+        },
+        {
+          "word": "school",
+          "start": 4.525,
+          "end": 4.925
+        },
+        {
+          "word": "is",
+          "start": 4.9375,
+          "end": 5.125
+        },
+        {
+          "word": "far",
+          "start": 5.1375,
+          "end": 5.4625
+        },
+        {
+          "word": "from",
+          "start": 5.475,
+          "end": 5.7
+        },
+        {
+          "word": "home,",
+          "start": 5.7125,
+          "end": 6.125
+        },
+        {
+          "word": "but",
+          "start": 6.4375,
+          "end": 6.5875
+        },
+        {
+          "word": "I",
+          "start": 6.6,
+          "end": 6.725
+        },
+        {
+          "word": "chose",
+          "start": 6.7375,
+          "end": 7.075
+        },
+        {
+          "word": "it",
+          "start": 7.0875,
+          "end": 7.2375
+        },
+        {
+          "word": "because",
+          "start": 7.25,
+          "end": 7.6
+        },
+        {
+          "word": "I",
+          "start": 7.6125,
+          "end": 7.725
+        },
+        {
+          "word": "love",
+          "start": 7.7375,
+          "end": 8.05
+        },
+        {
+          "word": "its",
+          "start": 8.0625,
+          "end": 8.2625
+        },
+        {
+          "word": "science",
+          "start": 8.275,
+          "end": 8.7375
+        },
+        {
+          "word": "lessons.",
+          "start": 8.75,
+          "end": 9.45
+        }
+      ],
+      "units": [
+        {
+          "text": "My new school",
+          "translation": "בית הספר החדש שלי"
+        },
+        {
+          "text": "is",
+          "translation": "הוא"
+        },
+        {
+          "text": "far from home,",
+          "translation": "רחוק מהבית"
+        },
+        {
+          "text": "but",
+          "translation": "אבל"
+        },
+        {
+          "text": "I chose it",
+          "translation": "בחרתי בו"
+        },
+        {
+          "text": "because",
+          "translation": "כי"
+        },
+        {
+          "text": "I love",
+          "translation": "אני אוהב"
+        },
+        {
+          "text": "its science lessons.",
+          "translation": "את שיעורי המדעים שלו"
+        }
+      ]
+    },
+    {
+      "text": "Every morning, I leave home with a heavy blue bag.",
+      "translation": "בכל בוקר אני יוצא מהבית עם תיק כחול כבד.",
+      "sourceParagraph": "A",
+      "paragraph": 1,
+      "start": 10.3125,
+      "end": 13.6375,
+      "words": [
+        {
+          "word": "Every",
+          "start": 10.3125,
+          "end": 10.6625
+        },
+        {
+          "word": "morning,",
+          "start": 10.675,
+          "end": 11.2
+        },
+        {
+          "word": "I",
+          "start": 11.5,
+          "end": 11.6125
+        },
+        {
+          "word": "leave",
+          "start": 11.625,
+          "end": 11.925
+        },
+        {
+          "word": "home",
+          "start": 11.9375,
+          "end": 12.275
+        },
+        {
+          "word": "with",
+          "start": 12.2875,
+          "end": 12.475
+        },
+        {
+          "word": "a",
+          "start": 12.4875,
+          "end": 12.5375
+        },
+        {
+          "word": "heavy",
+          "start": 12.55,
+          "end": 12.925
+        },
+        {
+          "word": "blue",
+          "start": 12.9375,
+          "end": 13.2125
+        },
+        {
+          "word": "bag.",
+          "start": 13.225,
+          "end": 13.6375
+        }
+      ],
+      "units": [
+        {
+          "text": "Every morning,",
+          "translation": "בכל בוקר"
+        },
+        {
+          "text": "I leave home",
+          "translation": "אני יוצא מהבית"
+        },
+        {
+          "text": "with",
+          "translation": "עם"
+        },
+        {
+          "text": "a heavy blue bag.",
+          "translation": "תיק כחול כבד"
+        }
+      ]
+    },
+    {
+      "text": "My little brother is still in bed when I close the door.",
+      "translation": "אחי הקטן עדיין במיטה כשאני סוגר את הדלת.",
+      "sourceParagraph": "A",
+      "paragraph": 1,
+      "start": 14.5,
+      "end": 17.8125,
+      "words": [
+        {
+          "word": "My",
+          "start": 14.5,
+          "end": 14.725
+        },
+        {
+          "word": "little",
+          "start": 14.7375,
+          "end": 15.075
+        },
+        {
+          "word": "brother",
+          "start": 15.0875,
+          "end": 15.5
+        },
+        {
+          "word": "is",
+          "start": 15.5125,
+          "end": 15.6625
+        },
+        {
+          "word": "still",
+          "start": 15.675,
+          "end": 15.9875
+        },
+        {
+          "word": "in",
+          "start": 16.0,
+          "end": 16.175
+        },
+        {
+          "word": "bed",
+          "start": 16.1875,
+          "end": 16.55
+        },
+        {
+          "word": "when",
+          "start": 16.5625,
+          "end": 16.725
+        },
+        {
+          "word": "I",
+          "start": 16.7375,
+          "end": 16.8625
+        },
+        {
+          "word": "close",
+          "start": 16.875,
+          "end": 17.2625
+        },
+        {
+          "word": "the",
+          "start": 17.275,
+          "end": 17.4
+        },
+        {
+          "word": "door.",
+          "start": 17.4125,
+          "end": 17.8125
+        }
+      ],
+      "units": [
+        {
+          "text": "My little brother",
+          "translation": "אחי הקטן"
+        },
+        {
+          "text": "is still in bed",
+          "translation": "עדיין במיטה"
+        },
+        {
+          "text": "when",
+          "translation": "כש־"
+        },
+        {
+          "text": "I close the door.",
+          "translation": "אני סוגר את הדלת"
+        }
+      ]
+    },
+    {
+      "text": "First, I walk to the bus stop and take a bus to the train station.",
+      "translation": "ראשית, אני הולך לתחנת האוטובוס ונוסע באוטובוס לתחנת הרכבת.",
+      "sourceParagraph": "B",
+      "paragraph": 2,
+      "start": 18.675,
+      "end": 23.0875,
+      "words": [
+        {
+          "word": "First,",
+          "start": 18.675,
+          "end": 19.2125
+        },
+        {
+          "word": "I",
+          "start": 19.475,
+          "end": 19.6
+        },
+        {
+          "word": "walk",
+          "start": 19.6125,
+          "end": 19.9375
+        },
+        {
+          "word": "to",
+          "start": 19.95,
+          "end": 20.0625
+        },
+        {
+          "word": "the",
+          "start": 20.075,
+          "end": 20.2
+        },
+        {
+          "word": "bus",
+          "start": 20.2125,
+          "end": 20.475
+        },
+        {
+          "word": "stop",
+          "start": 20.4875,
+          "end": 20.9
+        },
+        {
+          "word": "and",
+          "start": 20.9125,
+          "end": 21.0625
+        },
+        {
+          "word": "take",
+          "start": 21.075,
+          "end": 21.3375
+        },
+        {
+          "word": "a",
+          "start": 21.35,
+          "end": 21.425
+        },
+        {
+          "word": "bus",
+          "start": 21.4375,
+          "end": 21.775
+        },
+        {
+          "word": "to",
+          "start": 21.7875,
+          "end": 21.9125
+        },
+        {
+          "word": "the",
+          "start": 21.925,
+          "end": 22.0375
+        },
+        {
+          "word": "train",
+          "start": 22.05,
+          "end": 22.425
+        },
+        {
+          "word": "station.",
+          "start": 22.4375,
+          "end": 23.0875
+        }
+      ],
+      "units": [
+        {
+          "text": "First,",
+          "translation": "ראשית"
+        },
+        {
+          "text": "I walk",
+          "translation": "אני הולך ברגל"
+        },
+        {
+          "text": "to the bus stop",
+          "translation": "לתחנת האוטובוס"
+        },
+        {
+          "text": "and take a bus",
+          "translation": "ונוסע באוטובוס"
+        },
+        {
+          "text": "to the train station.",
+          "translation": "לתחנת הרכבת"
+        }
+      ]
+    },
+    {
+      "text": "Then I take a train and another bus.",
+      "translation": "לאחר מכן אני נוסע ברכבת ובאוטובוס נוסף.",
+      "sourceParagraph": "B",
+      "paragraph": 2,
+      "start": 23.95,
+      "end": 26.325,
+      "words": [
+        {
+          "word": "Then",
+          "start": 23.95,
+          "end": 24.2375
+        },
+        {
+          "word": "I",
+          "start": 24.25,
+          "end": 24.35
+        },
+        {
+          "word": "take",
+          "start": 24.3625,
+          "end": 24.6375
+        },
+        {
+          "word": "a",
+          "start": 24.65,
+          "end": 24.725
+        },
+        {
+          "word": "train",
+          "start": 24.7375,
+          "end": 25.25
+        },
+        {
+          "word": "and",
+          "start": 25.2625,
+          "end": 25.425
+        },
+        {
+          "word": "another",
+          "start": 25.4375,
+          "end": 25.8625
+        },
+        {
+          "word": "bus.",
+          "start": 25.875,
+          "end": 26.325
+        }
+      ],
+      "units": [
+        {
+          "text": "Then",
+          "translation": "לאחר מכן"
+        },
+        {
+          "text": "I take a train",
+          "translation": "אני נוסע ברכבת"
+        },
+        {
+          "text": "and another bus.",
+          "translation": "ובאוטובוס נוסף"
+        }
+      ]
+    },
+    {
+      "text": "Finally, I walk for ten minutes to school.",
+      "translation": "לבסוף, אני הולך עשר דקות לבית הספר.",
+      "sourceParagraph": "B",
+      "paragraph": 2,
+      "start": 27.1875,
+      "end": 30.2,
+      "words": [
+        {
+          "word": "Finally,",
+          "start": 27.1875,
+          "end": 27.85
+        },
+        {
+          "word": "I",
+          "start": 28.15,
+          "end": 28.3
+        },
+        {
+          "word": "walk",
+          "start": 28.3125,
+          "end": 28.65
+        },
+        {
+          "word": "for",
+          "start": 28.6625,
+          "end": 28.85
+        },
+        {
+          "word": "ten",
+          "start": 28.8625,
+          "end": 29.1375
+        },
+        {
+          "word": "minutes",
+          "start": 29.15,
+          "end": 29.575
+        },
+        {
+          "word": "to",
+          "start": 29.5875,
+          "end": 29.7
+        },
+        {
+          "word": "school.",
+          "start": 29.7125,
+          "end": 30.2
+        }
+      ],
+      "units": [
+        {
+          "text": "Finally,",
+          "translation": "לבסוף"
+        },
+        {
+          "text": "I walk",
+          "translation": "אני הולך ברגל"
+        },
+        {
+          "text": "for ten minutes",
+          "translation": "במשך עשר דקות"
+        },
+        {
+          "text": "to school.",
+          "translation": "לבית הספר"
+        }
+      ]
+    },
+    {
+      "text": "I lift my bag onto my back and look at the time again.",
+      "translation": "אני מרים את התיק אל הגב ומסתכל שוב מה השעה.",
+      "sourceParagraph": "B",
+      "paragraph": 3,
+      "start": 31.0625,
+      "end": 34.5125,
+      "words": [
+        {
+          "word": "I",
+          "start": 31.0625,
+          "end": 31.225
+        },
+        {
+          "word": "lift",
+          "start": 31.2375,
+          "end": 31.5875
+        },
+        {
+          "word": "my",
+          "start": 31.6,
+          "end": 31.775
+        },
+        {
+          "word": "bag",
+          "start": 31.7875,
+          "end": 32.1625
+        },
+        {
+          "word": "onto",
+          "start": 32.175,
+          "end": 32.4375
+        },
+        {
+          "word": "my",
+          "start": 32.45,
+          "end": 32.6375
+        },
+        {
+          "word": "back",
+          "start": 32.65,
+          "end": 33.0375
+        },
+        {
+          "word": "and",
+          "start": 33.05,
+          "end": 33.2375
+        },
+        {
+          "word": "look",
+          "start": 33.25,
+          "end": 33.475
+        },
+        {
+          "word": "at",
+          "start": 33.4875,
+          "end": 33.5875
+        },
+        {
+          "word": "the",
+          "start": 33.6,
+          "end": 33.7
+        },
+        {
+          "word": "time",
+          "start": 33.7125,
+          "end": 34.025
+        },
+        {
+          "word": "again.",
+          "start": 34.0375,
+          "end": 34.5125
+        }
+      ],
+      "units": [
+        {
+          "text": "I lift my bag",
+          "translation": "אני מרים את התיק שלי"
+        },
+        {
+          "text": "onto my back",
+          "translation": "אל הגב שלי"
+        },
+        {
+          "text": "and look at",
+          "translation": "ומסתכל על"
+        },
+        {
+          "text": "the time",
+          "translation": "השעה"
+        },
+        {
+          "text": "again.",
+          "translation": "שוב"
+        }
+      ]
+    },
+    {
+      "text": "There are two boys near me, but we do not talk.",
+      "translation": "יש שני בנים לידי, אבל אנחנו לא מדברים.",
+      "sourceParagraph": "B",
+      "paragraph": 3,
+      "start": 35.375,
+      "end": 38.55,
+      "words": [
+        {
+          "word": "There",
+          "start": 35.375,
+          "end": 35.5875
+        },
+        {
+          "word": "are",
+          "start": 35.6,
+          "end": 35.75
+        },
+        {
+          "word": "two",
+          "start": 35.7625,
+          "end": 36.0125
+        },
+        {
+          "word": "boys",
+          "start": 36.025,
+          "end": 36.4
+        },
+        {
+          "word": "near",
+          "start": 36.4125,
+          "end": 36.675
+        },
+        {
+          "word": "me,",
+          "start": 36.6875,
+          "end": 36.95
+        },
+        {
+          "word": "but",
+          "start": 37.2625,
+          "end": 37.45
+        },
+        {
+          "word": "we",
+          "start": 37.4625,
+          "end": 37.6125
+        },
+        {
+          "word": "do",
+          "start": 37.625,
+          "end": 37.775
+        },
+        {
+          "word": "not",
+          "start": 37.7875,
+          "end": 38.075
+        },
+        {
+          "word": "talk.",
+          "start": 38.0875,
+          "end": 38.55
+        }
+      ],
+      "units": [
+        {
+          "text": "There are",
+          "translation": "יש"
+        },
+        {
+          "text": "two boys",
+          "translation": "שני בנים"
+        },
+        {
+          "text": "near me,",
+          "translation": "לידי"
+        },
+        {
+          "text": "but",
+          "translation": "אבל"
+        },
+        {
+          "text": "we do not talk.",
+          "translation": "אנחנו לא מדברים"
+        }
+      ]
+    },
+    {
+      "text": "One has a green bag, and the other has a red cap.",
+      "translation": "לאחד יש תיק ירוק, ולאחר יש כובע אדום.",
+      "sourceParagraph": "B",
+      "paragraph": 3,
+      "start": 39.4125,
+      "end": 42.8125,
+      "words": [
+        {
+          "word": "One",
+          "start": 39.4125,
+          "end": 39.7
+        },
+        {
+          "word": "has",
+          "start": 39.7125,
+          "end": 39.975
+        },
+        {
+          "word": "a",
+          "start": 39.9875,
+          "end": 40.0625
+        },
+        {
+          "word": "green",
+          "start": 40.075,
+          "end": 40.4375
+        },
+        {
+          "word": "bag,",
+          "start": 40.45,
+          "end": 40.825
+        },
+        {
+          "word": "and",
+          "start": 41.1375,
+          "end": 41.25
+        },
+        {
+          "word": "the",
+          "start": 41.2625,
+          "end": 41.375
+        },
+        {
+          "word": "other",
+          "start": 41.3875,
+          "end": 41.7125
+        },
+        {
+          "word": "has",
+          "start": 41.725,
+          "end": 41.9625
+        },
+        {
+          "word": "a",
+          "start": 41.975,
+          "end": 42.05
+        },
+        {
+          "word": "red",
+          "start": 42.0625,
+          "end": 42.4
+        },
+        {
+          "word": "cap.",
+          "start": 42.4125,
+          "end": 42.8125
+        }
+      ],
+      "units": [
+        {
+          "text": "One has",
+          "translation": "לאחד יש"
+        },
+        {
+          "text": "a green bag,",
+          "translation": "תיק ירוק"
+        },
+        {
+          "text": "and the other",
+          "translation": "ולאחר"
+        },
+        {
+          "text": "has",
+          "translation": "יש"
+        },
+        {
+          "text": "a red cap.",
+          "translation": "כובע אדום"
+        }
+      ]
+    },
+    {
+      "text": "Today the sky is blue, but I think about winter.",
+      "translation": "היום השמיים כחולים, אבל אני חושב על החורף.",
+      "sourceParagraph": "C",
+      "paragraph": 4,
+      "start": 43.675,
+      "end": 46.9875,
+      "words": [
+        {
+          "word": "Today",
+          "start": 43.675,
+          "end": 44.1
+        },
+        {
+          "word": "the",
+          "start": 44.1125,
+          "end": 44.2375
+        },
+        {
+          "word": "sky",
+          "start": 44.25,
+          "end": 44.625
+        },
+        {
+          "word": "is",
+          "start": 44.6375,
+          "end": 44.8125
+        },
+        {
+          "word": "blue,",
+          "start": 44.825,
+          "end": 45.2
+        },
+        {
+          "word": "but",
+          "start": 45.5125,
+          "end": 45.675
+        },
+        {
+          "word": "I",
+          "start": 45.6875,
+          "end": 45.8125
+        },
+        {
+          "word": "think",
+          "start": 45.825,
+          "end": 46.1
+        },
+        {
+          "word": "about",
+          "start": 46.1125,
+          "end": 46.425
+        },
+        {
+          "word": "winter.",
+          "start": 46.4375,
+          "end": 46.9875
+        }
+      ],
+      "units": [
+        {
+          "text": "Today",
+          "translation": "היום"
+        },
+        {
+          "text": "the sky",
+          "translation": "השמיים"
+        },
+        {
+          "text": "is blue,",
+          "translation": "כחולים"
+        },
+        {
+          "text": "but",
+          "translation": "אבל"
+        },
+        {
+          "text": "I think about",
+          "translation": "אני חושב על"
+        },
+        {
+          "text": "winter.",
+          "translation": "החורף"
+        }
+      ]
+    },
+    {
+      "text": "What will I do when it rains?",
+      "translation": "מה אעשה כשירד גשם?",
+      "sourceParagraph": "C",
+      "paragraph": 4,
+      "start": 47.85,
+      "end": 49.5875,
+      "words": [
+        {
+          "word": "What",
+          "start": 47.85,
+          "end": 48.1
+        },
+        {
+          "word": "will",
+          "start": 48.1125,
+          "end": 48.2875
+        },
+        {
+          "word": "I",
+          "start": 48.3,
+          "end": 48.4
+        },
+        {
+          "word": "do",
+          "start": 48.4125,
+          "end": 48.6875
+        },
+        {
+          "word": "when",
+          "start": 48.7,
+          "end": 48.875
+        },
+        {
+          "word": "it",
+          "start": 48.8875,
+          "end": 49.025
+        },
+        {
+          "word": "rains?",
+          "start": 49.0375,
+          "end": 49.5875
+        }
+      ],
+      "units": [
+        {
+          "text": "What",
+          "translation": "מה"
+        },
+        {
+          "text": "will I do",
+          "translation": "אעשה"
+        },
+        {
+          "text": "when it rains?",
+          "translation": "כשירד גשם?"
+        }
+      ]
+    },
+    {
+      "text": "My books will be wet, and I will be cold.",
+      "translation": "הספרים שלי יהיו רטובים, ויהיה לי קר.",
+      "sourceParagraph": "C",
+      "paragraph": 4,
+      "start": 50.45,
+      "end": 53.3375,
+      "words": [
+        {
+          "word": "My",
+          "start": 50.45,
+          "end": 50.6875
+        },
+        {
+          "word": "books",
+          "start": 50.7,
+          "end": 51.0875
+        },
+        {
+          "word": "will",
+          "start": 51.1,
+          "end": 51.2625
+        },
+        {
+          "word": "be",
+          "start": 51.275,
+          "end": 51.45
+        },
+        {
+          "word": "wet,",
+          "start": 51.4625,
+          "end": 51.8125
+        },
+        {
+          "word": "and",
+          "start": 52.125,
+          "end": 52.3
+        },
+        {
+          "word": "I",
+          "start": 52.3125,
+          "end": 52.45
+        },
+        {
+          "word": "will",
+          "start": 52.4625,
+          "end": 52.6375
+        },
+        {
+          "word": "be",
+          "start": 52.65,
+          "end": 52.8
+        },
+        {
+          "word": "cold.",
+          "start": 52.8125,
+          "end": 53.3375
+        }
+      ],
+      "units": [
+        {
+          "text": "My books",
+          "translation": "הספרים שלי"
+        },
+        {
+          "text": "will be wet,",
+          "translation": "יהיו רטובים"
+        },
+        {
+          "text": "and",
+          "translation": "ו־"
+        },
+        {
+          "text": "I will be cold.",
+          "translation": "יהיה לי קר"
+        }
+      ]
+    },
+    {
+      "text": "I do not know the answer.",
+      "translation": "אני לא יודע את התשובה.",
+      "sourceParagraph": "C",
+      "paragraph": 5,
+      "start": 54.2,
+      "end": 55.8375,
+      "words": [
+        {
+          "word": "I",
+          "start": 54.2,
+          "end": 54.35
+        },
+        {
+          "word": "do",
+          "start": 54.3625,
+          "end": 54.5375
+        },
+        {
+          "word": "not",
+          "start": 54.55,
+          "end": 54.825
+        },
+        {
+          "word": "know",
+          "start": 54.8375,
+          "end": 55.0875
+        },
+        {
+          "word": "the",
+          "start": 55.1,
+          "end": 55.225
+        },
+        {
+          "word": "answer.",
+          "start": 55.2375,
+          "end": 55.8375
+        }
+      ],
+      "units": [
+        {
+          "text": "I do not know",
+          "translation": "אני לא יודע"
+        },
+        {
+          "text": "the answer.",
+          "translation": "את התשובה"
+        }
+      ]
+    },
+    {
+      "text": "I take my phone out of my bag, but I do not call home.",
+      "translation": "אני מוציא את הטלפון מהתיק, אבל לא מתקשר הביתה.",
+      "sourceParagraph": "C",
+      "paragraph": 5,
+      "start": 56.7,
+      "end": 60.4125,
+      "words": [
+        {
+          "word": "I",
+          "start": 56.7,
+          "end": 56.85
+        },
+        {
+          "word": "take",
+          "start": 56.8625,
+          "end": 57.175
+        },
+        {
+          "word": "my",
+          "start": 57.1875,
+          "end": 57.3625
+        },
+        {
+          "word": "phone",
+          "start": 57.375,
+          "end": 57.7125
+        },
+        {
+          "word": "out",
+          "start": 57.725,
+          "end": 57.8625
+        },
+        {
+          "word": "of",
+          "start": 57.875,
+          "end": 57.9625
+        },
+        {
+          "word": "my",
+          "start": 57.975,
+          "end": 58.1625
+        },
+        {
+          "word": "bag,",
+          "start": 58.175,
+          "end": 58.5625
+        },
+        {
+          "word": "but",
+          "start": 58.875,
+          "end": 59.0375
+        },
+        {
+          "word": "I",
+          "start": 59.05,
+          "end": 59.1375
+        },
+        {
+          "word": "do",
+          "start": 59.15,
+          "end": 59.325
+        },
+        {
+          "word": "not",
+          "start": 59.3375,
+          "end": 59.6375
+        },
+        {
+          "word": "call",
+          "start": 59.65,
+          "end": 59.9625
+        },
+        {
+          "word": "home.",
+          "start": 59.975,
+          "end": 60.4125
+        }
+      ],
+      "units": [
+        {
+          "text": "I take my phone",
+          "translation": "אני מוציא את הטלפון שלי"
+        },
+        {
+          "text": "out of my bag,",
+          "translation": "מתוך התיק שלי"
+        },
+        {
+          "text": "but",
+          "translation": "אבל"
+        },
+        {
+          "text": "I do not call home.",
+          "translation": "אני לא מתקשר הביתה"
+        }
+      ]
+    },
+    {
+      "text": "At school, I open the classroom door and stop.",
+      "translation": "בבית הספר אני פותח את דלת הכיתה ועוצר.",
+      "sourceParagraph": "D",
+      "paragraph": 6,
+      "start": 61.275,
+      "end": 64.575,
+      "words": [
+        {
+          "word": "At",
+          "start": 61.275,
+          "end": 61.4875
+        },
+        {
+          "word": "school,",
+          "start": 61.5,
+          "end": 61.9625
+        },
+        {
+          "word": "I",
+          "start": 62.3,
+          "end": 62.425
+        },
+        {
+          "word": "open",
+          "start": 62.4375,
+          "end": 62.7375
+        },
+        {
+          "word": "the",
+          "start": 62.75,
+          "end": 62.85
+        },
+        {
+          "word": "classroom",
+          "start": 62.8625,
+          "end": 63.5
+        },
+        {
+          "word": "door",
+          "start": 63.5125,
+          "end": 63.9
+        },
+        {
+          "word": "and",
+          "start": 63.9125,
+          "end": 64.075
+        },
+        {
+          "word": "stop.",
+          "start": 64.0875,
+          "end": 64.575
+        }
+      ],
+      "units": [
+        {
+          "text": "At school,",
+          "translation": "בבית הספר"
+        },
+        {
+          "text": "I open",
+          "translation": "אני פותח"
+        },
+        {
+          "text": "the classroom door",
+          "translation": "את דלת הכיתה"
+        },
+        {
+          "text": "and stop.",
+          "translation": "ועוצר"
+        }
+      ]
+    },
+    {
+      "text": "The green bag and the red cap are there!",
+      "translation": "התיק הירוק והכובע האדום שם!",
+      "sourceParagraph": "D",
+      "paragraph": 6,
+      "start": 65.4375,
+      "end": 67.95,
+      "words": [
+        {
+          "word": "The",
+          "start": 65.4375,
+          "end": 65.6125
+        },
+        {
+          "word": "green",
+          "start": 65.625,
+          "end": 66.025
+        },
+        {
+          "word": "bag",
+          "start": 66.0375,
+          "end": 66.425
+        },
+        {
+          "word": "and",
+          "start": 66.4375,
+          "end": 66.5625
+        },
+        {
+          "word": "the",
+          "start": 66.575,
+          "end": 66.6875
+        },
+        {
+          "word": "red",
+          "start": 66.7,
+          "end": 67.0375
+        },
+        {
+          "word": "cap",
+          "start": 67.05,
+          "end": 67.3875
+        },
+        {
+          "word": "are",
+          "start": 67.4,
+          "end": 67.575
+        },
+        {
+          "word": "there!",
+          "start": 67.5875,
+          "end": 67.95
+        }
+      ],
+      "units": [
+        {
+          "text": "The green bag",
+          "translation": "התיק הירוק"
+        },
+        {
+          "text": "and the red cap",
+          "translation": "והכובע האדום"
+        },
+        {
+          "text": "are there!",
+          "translation": "נמצאים שם!"
+        }
+      ]
+    },
+    {
+      "text": "The boys from the journey are in my class.",
+      "translation": "הבנים מהדרך נמצאים בכיתה שלי.",
+      "sourceParagraph": "D",
+      "paragraph": 6,
+      "start": 68.8125,
+      "end": 71.35,
+      "words": [
+        {
+          "word": "The",
+          "start": 68.8125,
+          "end": 68.9625
+        },
+        {
+          "word": "boys",
+          "start": 68.975,
+          "end": 69.3625
+        },
+        {
+          "word": "from",
+          "start": 69.375,
+          "end": 69.575
+        },
+        {
+          "word": "the",
+          "start": 69.5875,
+          "end": 69.6875
+        },
+        {
+          "word": "journey",
+          "start": 69.7,
+          "end": 70.1875
+        },
+        {
+          "word": "are",
+          "start": 70.2,
+          "end": 70.3875
+        },
+        {
+          "word": "in",
+          "start": 70.4,
+          "end": 70.55
+        },
+        {
+          "word": "my",
+          "start": 70.5625,
+          "end": 70.75
+        },
+        {
+          "word": "class.",
+          "start": 70.7625,
+          "end": 71.35
+        }
+      ],
+      "units": [
+        {
+          "text": "The boys",
+          "translation": "הבנים"
+        },
+        {
+          "text": "from the journey",
+          "translation": "מהדרך"
+        },
+        {
+          "text": "are in my class.",
+          "translation": "נמצאים בכיתה שלי"
+        }
+      ]
+    },
+    {
+      "text": "At break, I walk over to meet them.",
+      "translation": "בהפסקה אני ניגש להכיר אותם.",
+      "sourceParagraph": "D",
+      "paragraph": 7,
+      "start": 72.2125,
+      "end": 74.6,
+      "words": [
+        {
+          "word": "At",
+          "start": 72.2125,
+          "end": 72.425
+        },
+        {
+          "word": "break,",
+          "start": 72.4375,
+          "end": 72.8375
+        },
+        {
+          "word": "I",
+          "start": 73.1125,
+          "end": 73.2
+        },
+        {
+          "word": "walk",
+          "start": 73.2125,
+          "end": 73.55
+        },
+        {
+          "word": "over",
+          "start": 73.5625,
+          "end": 73.8625
+        },
+        {
+          "word": "to",
+          "start": 73.875,
+          "end": 74.0
+        },
+        {
+          "word": "meet",
+          "start": 74.0125,
+          "end": 74.2625
+        },
+        {
+          "word": "them.",
+          "start": 74.275,
+          "end": 74.6
+        }
+      ],
+      "units": [
+        {
+          "text": "At break,",
+          "translation": "בהפסקה"
+        },
+        {
+          "text": "I walk over",
+          "translation": "אני ניגש"
+        },
+        {
+          "text": "to meet them.",
+          "translation": "כדי להכיר אותם"
+        }
+      ]
+    },
+    {
+      "text": "“Are you tired too?” I ask.",
+      "translation": "״גם אתם עייפים?״ אני שואל.",
+      "sourceParagraph": "D",
+      "paragraph": 7,
+      "start": 75.4625,
+      "end": 78.2375,
+      "words": [
+        {
+          "word": "“Are",
+          "start": 75.4625,
+          "end": 75.625
+        },
+        {
+          "word": "you",
+          "start": 75.6375,
+          "end": 75.775
+        },
+        {
+          "word": "tired",
+          "start": 75.7875,
+          "end": 76.3
+        },
+        {
+          "word": "too?”",
+          "start": 76.3125,
+          "end": 76.675
+        },
+        {
+          "word": "I",
+          "start": 77.5375,
+          "end": 77.725
+        },
+        {
+          "word": "ask.",
+          "start": 77.7375,
+          "end": 78.2375
+        }
+      ],
+      "units": [
+        {
+          "text": "“Are you tired",
+          "translation": "״האם אתם עייפים"
+        },
+        {
+          "text": "too?”",
+          "translation": "גם?״"
+        },
+        {
+          "text": "I ask.",
+          "translation": "אני שואל"
+        }
+      ]
+    },
+    {
+      "text": "“Yes, and I worry about the rain,” says Ben.",
+      "translation": "״כן, ואני דואג מהגשם,״ אומר בן.",
+      "sourceParagraph": "D",
+      "paragraph": 7,
+      "start": 79.1,
+      "end": 82.3625,
+      "words": [
+        {
+          "word": "“Yes,",
+          "start": 79.1,
+          "end": 79.575
+        },
+        {
+          "word": "and",
+          "start": 79.8375,
+          "end": 80.05
+        },
+        {
+          "word": "I",
+          "start": 80.0625,
+          "end": 80.175
+        },
+        {
+          "word": "worry",
+          "start": 80.1875,
+          "end": 80.5375
+        },
+        {
+          "word": "about",
+          "start": 80.55,
+          "end": 80.85
+        },
+        {
+          "word": "the",
+          "start": 80.8625,
+          "end": 80.9625
+        },
+        {
+          "word": "rain,”",
+          "start": 80.975,
+          "end": 81.3625
+        },
+        {
+          "word": "says",
+          "start": 81.6125,
+          "end": 81.95
+        },
+        {
+          "word": "Ben.",
+          "start": 81.9625,
+          "end": 82.3625
+        }
+      ],
+      "units": [
+        {
+          "text": "“Yes,",
+          "translation": "״כן"
+        },
+        {
+          "text": "and I worry about",
+          "translation": "ואני דואג מ־"
+        },
+        {
+          "text": "the rain,”",
+          "translation": "הגשם״"
+        },
+        {
+          "text": "says Ben.",
+          "translation": "אומר בן"
+        }
+      ]
+    },
+    {
+      "text": "“Me too,” says Noam.",
+      "translation": "״גם אני,״ אומר נועם.",
+      "sourceParagraph": "D",
+      "paragraph": 8,
+      "start": 83.225,
+      "end": 84.9,
+      "words": [
+        {
+          "word": "“Me",
+          "start": 83.225,
+          "end": 83.4875
+        },
+        {
+          "word": "too,”",
+          "start": 83.5,
+          "end": 83.825
+        },
+        {
+          "word": "says",
+          "start": 84.1,
+          "end": 84.4375
+        },
+        {
+          "word": "Noam.",
+          "start": 84.45,
+          "end": 84.9
+        }
+      ],
+      "units": [
+        {
+          "text": "“Me too,”",
+          "translation": "״גם אני״"
+        },
+        {
+          "text": "says Noam.",
+          "translation": "אומר נועם"
+        }
+      ]
+    },
+    {
+      "text": "“I look at the time all the way to school!”",
+      "translation": "״אני מסתכל מה השעה כל הדרך לבית הספר!״",
+      "sourceParagraph": "D",
+      "paragraph": 8,
+      "start": 85.7625,
+      "end": 88.05,
+      "words": [
+        {
+          "word": "“I",
+          "start": 85.7625,
+          "end": 85.9375
+        },
+        {
+          "word": "look",
+          "start": 85.95,
+          "end": 86.2375
+        },
+        {
+          "word": "at",
+          "start": 86.25,
+          "end": 86.35
+        },
+        {
+          "word": "the",
+          "start": 86.3625,
+          "end": 86.475
+        },
+        {
+          "word": "time",
+          "start": 86.4875,
+          "end": 86.8625
+        },
+        {
+          "word": "all",
+          "start": 86.875,
+          "end": 87.075
+        },
+        {
+          "word": "the",
+          "start": 87.0875,
+          "end": 87.1875
+        },
+        {
+          "word": "way",
+          "start": 87.2,
+          "end": 87.3875
+        },
+        {
+          "word": "to",
+          "start": 87.4,
+          "end": 87.525
+        },
+        {
+          "word": "school!”",
+          "start": 87.5375,
+          "end": 88.05
+        }
+      ],
+      "units": [
+        {
+          "text": "“I look at",
+          "translation": "״אני מסתכל על"
+        },
+        {
+          "text": "the time",
+          "translation": "השעה"
+        },
+        {
+          "text": "all the way",
+          "translation": "כל הדרך"
+        },
+        {
+          "text": "to school!”",
+          "translation": "לבית הספר!״"
+        }
+      ]
+    },
+    {
+      "text": "I smile and put my phone away.",
+      "translation": "אני מחייך ומניח את הטלפון בצד.",
+      "sourceParagraph": "E",
+      "paragraph": 8,
+      "start": 88.9125,
+      "end": 91.0,
+      "words": [
+        {
+          "word": "I",
+          "start": 88.9125,
+          "end": 89.1125
+        },
+        {
+          "word": "smile",
+          "start": 89.125,
+          "end": 89.7
+        },
+        {
+          "word": "and",
+          "start": 89.7125,
+          "end": 89.85
+        },
+        {
+          "word": "put",
+          "start": 89.8625,
+          "end": 90.0875
+        },
+        {
+          "word": "my",
+          "start": 90.1,
+          "end": 90.2625
+        },
+        {
+          "word": "phone",
+          "start": 90.275,
+          "end": 90.575
+        },
+        {
+          "word": "away.",
+          "start": 90.5875,
+          "end": 91.0
+        }
+      ],
+      "units": [
+        {
+          "text": "I smile",
+          "translation": "אני מחייך"
+        },
+        {
+          "text": "and",
+          "translation": "ו־"
+        },
+        {
+          "text": "put my phone away.",
+          "translation": "מניח את הטלפון בצד"
+        }
+      ]
+    },
+    {
+      "text": "“Can I join you tomorrow?” I ask.",
+      "translation": "״אפשר להצטרף אליכם מחר?״ אני שואל.",
+      "sourceParagraph": "E",
+      "paragraph": 9,
+      "start": 91.8625,
+      "end": 94.85,
+      "words": [
+        {
+          "word": "“Can",
+          "start": 91.8625,
+          "end": 92.0625
+        },
+        {
+          "word": "I",
+          "start": 92.075,
+          "end": 92.2
+        },
+        {
+          "word": "join",
+          "start": 92.2125,
+          "end": 92.5375
+        },
+        {
+          "word": "you",
+          "start": 92.55,
+          "end": 92.6875
+        },
+        {
+          "word": "tomorrow?”",
+          "start": 92.7,
+          "end": 93.2875
+        },
+        {
+          "word": "I",
+          "start": 94.15,
+          "end": 94.3375
+        },
+        {
+          "word": "ask.",
+          "start": 94.35,
+          "end": 94.85
+        }
+      ],
+      "units": [
+        {
+          "text": "“Can I join you",
+          "translation": "״אפשר להצטרף אליכם"
+        },
+        {
+          "text": "tomorrow?”",
+          "translation": "מחר?״"
+        },
+        {
+          "text": "I ask.",
+          "translation": "אני שואל"
+        }
+      ]
+    },
+    {
+      "text": "“Of course!” they say.",
+      "translation": "״בוודאי!״ הם אומרים.",
+      "sourceParagraph": "E",
+      "paragraph": 9,
+      "start": 95.7125,
+      "end": 97.3,
+      "words": [
+        {
+          "word": "“Of",
+          "start": 95.7125,
+          "end": 95.9375
+        },
+        {
+          "word": "course!”",
+          "start": 95.95,
+          "end": 96.4375
+        },
+        {
+          "word": "they",
+          "start": 96.7,
+          "end": 96.875
+        },
+        {
+          "word": "say.",
+          "start": 96.8875,
+          "end": 97.3
+        }
+      ],
+      "units": [
+        {
+          "text": "“Of course!”",
+          "translation": "״בוודאי!״"
+        },
+        {
+          "text": "they say.",
+          "translation": "הם אומרים"
+        }
+      ]
+    },
+    {
+      "text": "The rain is still a problem, but now we can think about it together.",
+      "translation": "הגשם עדיין בעיה, אבל עכשיו אנחנו יכולים לחשוב עליה יחד.",
+      "sourceParagraph": "E",
+      "paragraph": 9,
+      "start": 98.1625,
+      "end": 102.3125,
+      "words": [
+        {
+          "word": "The",
+          "start": 98.1625,
+          "end": 98.325
+        },
+        {
+          "word": "rain",
+          "start": 98.3375,
+          "end": 98.6625
+        },
+        {
+          "word": "is",
+          "start": 98.675,
+          "end": 98.825
+        },
+        {
+          "word": "still",
+          "start": 98.8375,
+          "end": 99.15
+        },
+        {
+          "word": "a",
+          "start": 99.1625,
+          "end": 99.2375
+        },
+        {
+          "word": "problem,",
+          "start": 99.25,
+          "end": 99.825
+        },
+        {
+          "word": "but",
+          "start": 100.15,
+          "end": 100.325
+        },
+        {
+          "word": "now",
+          "start": 100.3375,
+          "end": 100.6375
+        },
+        {
+          "word": "we",
+          "start": 100.65,
+          "end": 100.8
+        },
+        {
+          "word": "can",
+          "start": 100.8125,
+          "end": 100.9875
+        },
+        {
+          "word": "think",
+          "start": 101.0,
+          "end": 101.25
+        },
+        {
+          "word": "about",
+          "start": 101.2625,
+          "end": 101.575
+        },
+        {
+          "word": "it",
+          "start": 101.5875,
+          "end": 101.7
+        },
+        {
+          "word": "together.",
+          "start": 101.7125,
+          "end": 102.3125
+        }
+      ],
+      "units": [
+        {
+          "text": "The rain",
+          "translation": "הגשם"
+        },
+        {
+          "text": "is still a problem,",
+          "translation": "עדיין בעיה"
+        },
+        {
+          "text": "but now",
+          "translation": "אבל עכשיו"
+        },
+        {
+          "text": "we can think about it",
+          "translation": "אנחנו יכולים לחשוב על כך"
+        },
+        {
+          "text": "together.",
+          "translation": "יחד"
+        }
+      ]
+    },
+    {
+      "text": "Tomorrow, I will say hello at the bus stop.",
+      "translation": "מחר אגיד שלום בתחנת האוטובוס.",
+      "sourceParagraph": "E",
+      "paragraph": 9,
+      "start": 103.175,
+      "end": 106.1875,
+      "words": [
+        {
+          "word": "Tomorrow,",
+          "start": 103.175,
+          "end": 103.8
+        },
+        {
+          "word": "I",
+          "start": 104.05,
+          "end": 104.2
+        },
+        {
+          "word": "will",
+          "start": 104.2125,
+          "end": 104.375
+        },
+        {
+          "word": "say",
+          "start": 104.3875,
+          "end": 104.65
+        },
+        {
+          "word": "hello",
+          "start": 104.6625,
+          "end": 105.1375
+        },
+        {
+          "word": "at",
+          "start": 105.15,
+          "end": 105.3125
+        },
+        {
+          "word": "the",
+          "start": 105.325,
+          "end": 105.425
+        },
+        {
+          "word": "bus",
+          "start": 105.4375,
+          "end": 105.7125
+        },
+        {
+          "word": "stop.",
+          "start": 105.725,
+          "end": 106.1875
+        }
+      ],
+      "units": [
+        {
+          "text": "Tomorrow,",
+          "translation": "מחר"
+        },
+        {
+          "text": "I will say hello",
+          "translation": "אגיד שלום"
+        },
+        {
+          "text": "at the bus stop.",
+          "translation": "בתחנת האוטובוס"
+        }
+      ]
+    }
+  ]
+}

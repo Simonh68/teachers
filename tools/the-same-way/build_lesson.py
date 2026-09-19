@@ -39,6 +39,9 @@ add('pair','הסיפור שלכם',text='I am ___ on the way to school.\nMy jour
 add('work','עבודה בדף המודפס',text='Read → Find evidence → Answer',sub='עבדו לבד 8 דקות. חזרו לפסקה המתאימה לפני כל תשובה. לאחר מכן השוו בזוגות.',progress=28)
 add('exit','לפני שיוצאים',text='1. Dan is ___. The boys are ___.\n2. What is still a problem?\n3. Which sentence helped you understand?',sub='ענו בעל פה או במחברת. תשובה + פרט מן הסיפור.',progress=28)
 add('links','חזרה קצרה בבית',sub='קראו שוב את הסיפור ותרגלו את המילים שבחרנו מתוך קבוצה 01.',progress=28)
+# Retain the approved ten-page Read Alone Text addition on rebuild.
+reading=json.loads((R/'reading.json').read_text())
+slides[2:2]=[dict(kind='readalong',title='Read Alone Text',page=n,progress=max(i+1 for i,x in enumerate(reading['sentences']) if x['paragraph']==n)) for n in range(len(reading['pages']))]
 (R/'slides.json').write_text(json.dumps(slides,ensure_ascii=False,indent=2))
 (R/'data.js').write_text('const STORY='+json.dumps(d,ensure_ascii=False)+';\nconst SLIDES='+json.dumps(slides,ensure_ascii=False)+';\n')
 print('Slides',len(slides))
@@ -109,6 +112,6 @@ notes='''# The Same Way — תסריט מורה
 מקבלים ניסוחים חלופיים נכונים. בשאלות תוכן מתקנים תחילה הבנה; לא פוסלים תשובה מובנת בשל שגיאת כתיב קלה.
 
 ## שימוש
-חצים ימינה/למטה: קדימה; שמאלה/למעלה: אחורה. גם כפתורים, גלילת עכבר והחלקה. אין אודיו אוטומטי או הקראת דפדפן. המורה מקריא והכיתה חוזרת. הפעילויות והבחירות נשמרות בזיכרון ההפעלה בלבד; מספר השקף נשמר מקומית במכשיר.
+חצים ימינה/למטה: קדימה; שמאלה/למעלה: אחורה. גם כפתורים, גלילת עכבר והחלקה. עשרת דפי Read Alone Text נוספו לאחר הסיפור המלא, בלי למחוק אף שקף. ההקראה המוקלטת מתחילה בלחיצה ומעבירה דפים אוטומטית; מעבר ידני משהה. אין הקראת דפדפן. אפשר לבחור בהאזנה במקום חלק מן הקריאה בהד, תוך שמירה על מסגרת 72 הדקות. הפעילויות והבחירות נשמרות בזיכרון ההפעלה בלבד; מספר השקף נשמר מקומית במכשיר.
 '''
 (R/'teacher-notes.md').write_text(notes)

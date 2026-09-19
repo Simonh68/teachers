@@ -9,3 +9,5 @@ footer{height:92px;display:flex;flex-direction:column;align-items:center;justify
 .tense.present{color:var(--cyan)}.tense.future{color:var(--amber)}
 
 .routeOutput{position:relative}.routeSizer{visibility:hidden}.routeValue{position:absolute;inset:0}
+
+#stage.reader-stage{padding:0;max-width:1440px;overflow:hidden}#stage.reader-stage iframe{display:block;width:100%;height:100%;border:0;color-scheme:dark}

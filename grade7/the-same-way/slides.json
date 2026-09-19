@@ -11,6 +11,66 @@
     "progress": 0
   },
   {
+    "kind": "readalong",
+    "title": "Read Alone Text",
+    "page": 0,
+    "progress": 2
+  },
+  {
+    "kind": "readalong",
+    "title": "Read Alone Text",
+    "page": 1,
+    "progress": 4
+  },
+  {
+    "kind": "readalong",
+    "title": "Read Alone Text",
+    "page": 2,
+    "progress": 7
+  },
+  {
+    "kind": "readalong",
+    "title": "Read Alone Text",
+    "page": 3,
+    "progress": 10
+  },
+  {
+    "kind": "readalong",
+    "title": "Read Alone Text",
+    "page": 4,
+    "progress": 13
+  },
+  {
+    "kind": "readalong",
+    "title": "Read Alone Text",
+    "page": 5,
+    "progress": 15
+  },
+  {
+    "kind": "readalong",
+    "title": "Read Alone Text",
+    "page": 6,
+    "progress": 18
+  },
+  {
+    "kind": "readalong",
+    "title": "Read Alone Text",
+    "page": 7,
+    "progress": 21
+  },
+  {
+    "kind": "readalong",
+    "title": "Read Alone Text",
+    "page": 8,
+    "progress": 24
+  },
+  {
+    "kind": "readalong",
+    "title": "Read Alone Text",
+    "page": 9,
+    "progress": 28
+  },
+  {
     "kind": "quiz",
     "title": "הרעיון המרכזי",
     "reveal": false,
