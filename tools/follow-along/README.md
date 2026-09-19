@@ -33,3 +33,7 @@ The images are illustrative, not photographs of actual students.
 Exact source text/translation/word count, positive ordered timing cues, hosted
 MP3 hash, all ten pages, phrase tooltips, real playback at one-quarter speed,
 pitch preservation, seeking, page advance and static images are checked.
+
+Playback defaults to 0.75 and saves explicit choices in localStorage under
+`teachers-read-alone-speed-v1`, shared across Teachers readers. Invalid or blocked
+storage falls back to 0.75. Restoring a preference never autoplays.

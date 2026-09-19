@@ -48,7 +48,13 @@ async function repeatSentence(i){const s=data.sentences[i];repeatEnd=s.end+.12;a
 $('#play').onclick=()=>{if(!audio.paused)audio.pause();else{repeatEnd=null;if(audio.ended)audio.currentTime=0;play();}};
 $('#restart').onclick=()=>{repeatEnd=null;setPage(0);audio.currentTime=0;sync();play();};
 $('#repeat').onclick=()=>repeatSentence(sentenceAt());
-$('#speed').onchange=e=>{audio.playbackRate=Number(e.target.value);};
+// One preference shared by Teachers reading presentations on this browser.
+const speedKey='teachers-read-alone-speed-v1',allowedSpeeds=[1,.75,.5,.35,.25];
+let preferredSpeed=.75;
+try{const saved=Number(localStorage.getItem(speedKey));if(allowedSpeeds.includes(saved))preferredSpeed=saved;}catch(e){}
+function applySpeed(value){const speed=allowedSpeeds.includes(value)?value:.75;audio.defaultPlaybackRate=speed;audio.playbackRate=speed;audio.preservesPitch=true;$('#speed').value=String(speed);}
+applySpeed(preferredSpeed);
+$('#speed').onchange=e=>{const speed=Number(e.target.value);applySpeed(speed);try{localStorage.setItem(speedKey,String(audio.playbackRate));}catch(e){}};
 $('#seek').oninput=e=>{repeatEnd=null;audio.currentTime=Number(e.target.value);let target=0;for(const s of data.sentences)if(audio.currentTime>=s.start-.08)target=s.paragraph;setPage(target);sync();};
 audio.addEventListener('play',()=>{$('#play').textContent='❚❚ השהיה';$('#status').textContent='מקשיבים וקוראים';cancelAnimationFrame(raf);frame();});
 audio.addEventListener('pause',()=>{cancelAnimationFrame(raf);$('#play').textContent='▶ המשך';$('#status').textContent=audio.ended?'הקריאה הושלמה':'מושהה';sync();});
@@ -63,7 +69,7 @@ document.addEventListener('visibilitychange',()=>{if(document.hidden)audio.pause
 $('#translate').onclick=()=>{const open=$('#translation').hidden;$('#translation').hidden=!open;$('#translate').setAttribute('aria-expanded',String(open));$('#translate').textContent=open?'הסתרת התרגום':'הצגת תרגום לעברית';};
 $('#check').onclick=()=>{const answer=$('input[name=answer]:checked');$('#feedback').textContent=!answer?'בחרו תשובה לפני הבדיקה.':answer.value==='class'?'נכון. התיק הירוק נמצא בכיתה — והילדים מהרכבת הם חבריו לכיתה.':'קראו שוב את הפסקה האחרונה. היכן דן פותח את הדלת?';};
 async function init(){try{
-  const response=await fetch('reading.json?v=teen-voice-3');if(!response.ok)throw Error('Reading unavailable');data=await response.json();
+  const response=await fetch('reading.json?v=reading-prefs-4');if(!response.ok)throw Error('Reading unavailable');data=await response.json();
   $('#wordCount').textContent=`${data.wordCount} מילים`;$('#story').textContent='';let paragraph=-1,p;
   data.sentences.forEach((s,i)=>{if(s.paragraph!==paragraph){p=document.createElement('p');$('#story').append(p);paragraph=s.paragraph;}
     const node=document.createElement('span');node.className='sentence';let wordInSentence=0;
