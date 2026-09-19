@@ -17,3 +17,5 @@ footer{height:92px;display:flex;flex-direction:column;align-items:center;justify
 #stage{touch-action:pan-y pinch-zoom}
 
 .sentenceWord{border-radius:.12em}.sentenceWord.spoken{background:#ffe082;color:#182336;box-shadow:0 0 0 2px #ffe082}
+
+.sentenceWord{cursor:help;text-decoration:underline dotted #658295;text-underline-offset:.12em}.sentenceWord:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}#sentenceWordTooltip{position:fixed;z-index:20;max-width:min(310px,calc(100vw - 16px));padding:9px 13px;border-radius:9px;border:1px solid #80d8ed;background:#e4f7ff;color:#0a253a;box-shadow:0 4px 20px #0007;font:700 17px/1.5 Heebo,Arial,sans-serif;text-align:center;pointer-events:none}#sentenceWordTooltip[hidden]{display:none}

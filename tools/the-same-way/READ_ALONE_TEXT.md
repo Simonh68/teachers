@@ -45,3 +45,12 @@ Sliders, selects and multi-touch remain native. One gesture triggers one transit
 Real Chromium touch input verified all four directions on sentence and reader pages,
 translation units, images, long-story scrolling, short translation taps, and first/last
 slide boundaries. This is a required publication gate in the charter.
+
+## Individual word translations on sentence slides
+
+`sentence-word-translations.js` maps all 268 original tokens to contextual Hebrew
+word glosses. Auxiliary verbs and idioms include short contextual explanations;
+the reader's multiword translation units remain separate and unchanged.
+Every sentence/reveal slide supports hover, focus, tap, Enter/Space and Escape.
+The fixed tooltip stays outside its source word without changing line wrapping.
+Audio timing and yellow word highlighting use the existing narration cues.
