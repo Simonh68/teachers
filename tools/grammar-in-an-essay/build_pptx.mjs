@@ -4,7 +4,9 @@ import {execFileSync} from 'node:child_process';
 import {pathToFileURL} from 'node:url';
 import {Presentation,PresentationFile} from '@oai/artifact-tool';
 import {createCanvas,GlobalFonts} from '@napi-rs/canvas';
-const BUILD=path.dirname(new URL(import.meta.url).pathname),ROOT=path.dirname(path.dirname(BUILD)),SITE=path.join(ROOT,'grade11/grammar-in-an-essay');
+const SCRIPT_DIR=path.dirname(new URL(import.meta.url).pathname);
+const BUILD=process.env.ESSAY_BUILD_DIR||SCRIPT_DIR,ROOT=process.env.ESSAY_ROOT||path.dirname(path.dirname(SCRIPT_DIR)),SITE=path.join(ROOT,'grade11/grammar-in-an-essay');
+await fs.mkdir(BUILD,{recursive:true});
 const SKILL='/root/.codex/skills/builtins/presentations';
 process.env.RUNTIME_NODE=process.env.CODEX_PRIMARY_RUNTIME_NODE;process.env.RUNTIME_NODE_MODULES=process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES;process.env.RUNTIME_PYTHON=process.env.CODEX_PRIMARY_RUNTIME_PYTHON;process.env.RUNTIME_BIN_DIR=process.env.CODEX_PRIMARY_RUNTIME+'/dependencies/bin/override';
 GlobalFonts.registerFromPath(path.join(SITE,'assets/Nunito.ttf'),'Nunito');
@@ -48,8 +50,8 @@ for(const s of D.slides){
   s.options.forEach((o,i)=>tx(sl,`${String.fromCharCode(65+i)}   ${o}`,95,254+i*88,1090,78,o.length>99?28:31,s.reveal&&i===s.correct?C.lime:C.paper,true,'left'));
   tx(sl,s.he,95,540,1090,109,28,C.lime);
  }else if(s.kind==='essay'){
-  let y=133;
-  for(const para of s.paragraphs){tx(sl,para,88,y,1104,113,29,C.paper,false,'left');y+=120;}
+  const ys=[132,225,365,505],hs=[88,135,135,110];
+  s.paragraphs.forEach((para,i)=>tx(sl,para,88,ys[i],1104,hs[i],27,C.paper,false,'left'));
   tx(sl,s.he,90,623,1100,34,22,C.lime);
  }else if(s.kind==='timer'){
   tx(sl,s.text,90,164,1100,156,45,C.paper,true);
@@ -72,5 +74,5 @@ const candidate=path.join(BUILD,'candidate.pptx');await(await PresentationFile.e
 const fixed=path.join(BUILD,'candidate-rtl.pptx');execFileSync(process.env.CODEX_PRIMARY_RUNTIME_PYTHON,[path.join(BUILD,'fix_rtl.py'),candidate,fixed]);
 const {finalizePresentation}=await import(pathToFileURL(path.join(SKILL,'container_tools/artifact_tool_utils.mjs')).href);
 const final=process.env.ESSAY_FINAL_PPTX||path.join(SITE,'files/grammar-in-an-essay.pptx');
-await finalizePresentation({workspaceDir:ROOT,candidatePath:fixed,finalPath:final,pythonExecutable:process.env.CODEX_PRIMARY_RUNTIME_PYTHON,integrityValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit'],explicitTotalSlideCount:D.slides.length,requiredNativeTableOwnerSlides:[],requiredNativeChartOwnerSlides:[],fontPolicy:{basis:'user_request',families:['Nunito','Heebo']},verifyArtifactToolImport:true,receiptPath:path.join(BUILD,'validation-'+Date.now()+'.json')});
+await finalizePresentation({workspaceDir:process.env.ESSAY_WORKSPACE||ROOT,candidatePath:fixed,finalPath:final,pythonExecutable:process.env.CODEX_PRIMARY_RUNTIME_PYTHON,integrityValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit'],explicitTotalSlideCount:D.slides.length,requiredNativeTableOwnerSlides:[],requiredNativeChartOwnerSlides:[],fontPolicy:{basis:'user_request',families:['Nunito','Heebo']},verifyArtifactToolImport:true,receiptPath:path.join(BUILD,'validation-'+Date.now()+'.json')});
 console.log(final);

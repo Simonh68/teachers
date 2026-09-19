@@ -1,35 +1,29 @@
 # Advanced Grammar in an Essay
 
-Grade 11, 5-point English. Follow-up to the completed Advanced Grammar lesson.
+Grade 11, 5-point English. Updated to Simon's Module G structure on 19 September 2026.
 
-The lesson has 96 slides, including 12 silent three-frame cat animations, stable question/answer and translation pairs, and five timed activities. The full model opinion essay contains 125 words in four paragraphs. The writing topic is inclusion in class sports games; independent transfer practice asks about changing partners in class.
+The 108-slide lesson preserves the existing design, 12 cat animations, timers, and question/answer and translation reveal pairs. Its sports-participation model is a 128-word for-and-against essay with exactly four paragraphs.
 
-Live materials: `/grade11/grammar-in-an-essay/`. The class hub and the Grade 11 five-point library link directly to the lesson. Downloads use the label `PPTX`.
+## Writing structure
 
-## Pedagogy
+Drafting steps: 1 neutral opening; 2 opinion with `I claim that`; 3 opposing idea; 4 first conditional; 5 support for the opinion; 6 present perfect; 7 conclusion; 8 passive; 9–10 body expansions.
 
-- Build an opinion and two distinct reasons before adding grammar.
-- Develop each reason with explanation and a relevant example.
-- Teach gerunds, modal passive, present perfect, first/second conditionals and connectors through the same essay.
-- All gaps have options on the question slide and the correct choice only on the next, visually stable slide.
-- Four paragraphs and four different advanced structures are classroom practice targets. They are not presented as an official minimum for every task.
-- The 120–140 word range follows published Module G tasks from 2026. Topics and model writing are original classroom practice.
-- Full route: about 90 minutes. The teacher script gives an 80-minute adaptation and a natural break for a further lesson.
+Final reading order: **1,2 / 3,4,9 / 5,6,10 / 7,8**. Paragraph 2 begins `On the one hand,`; paragraph 3 begins `On the other hand,`. The second conditional is retained only as a comparison, not as the model's required conditional.
 
-## Files
+Ten cumulative essay slides show the draft and actual word count after each step. The eight-sentence draft has 107 words and is explicitly unfinished. Step 9 brings it to 118; step 10 brings it to 128. Expansions stay inside the body; there is no fifth paragraph.
 
-- `index.html`, `lesson.css`, `lesson.js`, `lesson.json`: editable HTML lesson and content.
-- `teacher.html`: full teacher script and timing guidance.
-- `files/grammar-in-an-essay.pptx`: all 96 slides with editable text, notes and embedded animated GIFs.
-- `assets/`: Teachers cat sprite strips, derived GIFs and Heebo/Nunito fonts.
-- `preview.html`: development preview and geometry audit at four viewport sizes. Not linked from student pages.
+Independent practice uses `Should teenagers have an after-school job?` from Simon's supplied list. The transfer example uses the fixed cellphone-age topic. Teachers ask for one sentence at a time, provide neutral starters, correct minimally, and keep the student's draft and word count visible. Required classroom vocabulary avoids `good` and `important`; choose precise alternatives by meaning.
 
-The HTML timers support start, pause, reset and +30 seconds. They stop when leaving a slide and never advance slides automatically. Animations respect reduced motion and stop on exit. PPTX has static time allocations and a hyperlink to the corresponding live timer; animated GIF playback depends on the presentation software.
+## Files and rebuilding
 
-## Rebuilding
+- `grade11/grammar-in-an-essay/index.html`, `lesson.css`, `lesson.js`, `lesson.json`: live lesson.
+- `teacher.html`: updated teacher script and model.
+- `files/grammar-in-an-essay.pptx`: matching editable download.
+- `build_lesson.py`: content, HTML and teacher-script generator.
+- `build_pptx.mjs`: Artifact Tool builder; `fix_rtl.py` preserves Hebrew paragraph direction.
 
-Use the installed Codex primary runtime and the Presentations skill. `build_lesson.py` generates content, HTML and the teacher script. `build_pptx.mjs` uses `@oai/artifact-tool`; `fix_rtl.py` preserves Hebrew paragraph direction in the exported package. Finalize and visually inspect a new output path before copying it into `files/`.
+Run the content generator first. For the PPTX builder, set `ESSAY_ROOT` to the repository root, optionally set `ESSAY_BUILD_DIR` and `ESSAY_WORKSPACE` to a private task workspace, and set `ESSAY_FINAL_PPTX` to a new output path. Validate and visually review the new output before replacing the live download.
 
-The cat artwork was originally generated for Teachers. Each scene is used once in this lesson with a new grammar-related caption. The originals are preserved. GIF derivatives contain three cropped frames with 0.6 seconds per frame, repeated six times.
+The HTML timers can start, pause, reset and add 30 seconds; leaving a slide pauses its timer. PPTX displays a time allocation and a link to the live timer. Animated GIF playback depends on the presentation software.
 
-Source for writing length: https://meyda.education.gov.il/sheeloney_bagrut/pitronot_bagrut/2026/6/016582-8-HEB-1400-1600.pdf
+The supplied structure is a classroom writing scaffold. Follow the actual exam task's directions.
