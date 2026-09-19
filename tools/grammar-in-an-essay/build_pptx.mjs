@@ -11,11 +11,14 @@ const SKILL='/root/.codex/skills/builtins/presentations';
 process.env.RUNTIME_NODE=process.env.CODEX_PRIMARY_RUNTIME_NODE;process.env.RUNTIME_NODE_MODULES=process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES;process.env.RUNTIME_PYTHON=process.env.CODEX_PRIMARY_RUNTIME_PYTHON;process.env.RUNTIME_BIN_DIR=process.env.CODEX_PRIMARY_RUNTIME+'/dependencies/bin/override';
 GlobalFonts.registerFromPath(path.join(SITE,'assets/Nunito.ttf'),'Nunito');
 const ctx=createCanvas(10,10).getContext('2d');
-const D=JSON.parse(await fs.readFile(path.join(SITE,'lesson.json'),'utf8'));
+const EN=process.env.ESSAY_LANG==='en';
+const D=JSON.parse(await fs.readFile(path.join(SITE,EN?'lesson.en.json':'lesson.json'),'utf8'));
+const px=x=>220+x*.815, pw=w=>w*.815;
 const P=Presentation.create({slideSize:{width:1280,height:720}});
 const C={bg:'#07111F',paper:'#F7F7F2',cyan:'#4EE5FF',lime:'#DFFF5B',amber:'#FFC857',muted:'#A9BDD2',coral:'#FF7163'};
 let serial=0;
-function tx(slide,text,x,y,w,h,size,color=C.paper,bold=true,align='center',name='text'){
+function tx(slide,text,x,y,w,h,size,color=C.paper,bold=true,align='center',name='text',rail=false){
+ if(!rail){x=px(x);w=pw(w);size*=.90;}
  if(!text)return null;
  const sh=slide.shapes.add({name:`${name}-${++serial}`,geometry:'textbox',position:{left:x,top:y,width:w,height:h},fill:'none',line:{fill:'none',width:0}});
  sh.text=text;sh.text.style={typeface:/[\u0590-\u05ff]/.test(text)?'Heebo':'Nunito',fontSize:size,bold,color,alignment:align,verticalAlignment:'middle',autoFit:'none',wrap:'square',insets:{left:0,right:0,top:0,bottom:0}};
@@ -23,13 +26,13 @@ function tx(slide,text,x,y,w,h,size,color=C.paper,bold=true,align='center',name=
 }
 function highlights(sh,terms){for(const t of terms||[])if(sh)sh.text.get(t).fill=C.cyan;}
 function gapSentence(slide,s){
- const size=43;ctx.font=`800 ${size}px Nunito`;
+ const size=38;ctx.font=`800 ${size}px Nunito`;
  const space=ctx.measureText(' ').width*1.15;
- const bw=Math.max(...s.options.map(t=>ctx.measureText(t).width*1.16))+30;
- const tokens=[...s.before.trim().split(/\s+/).filter(Boolean).map(t=>({t,w:ctx.measureText(t).width*1.16})),{t:s.reveal?s.options[s.correct]:'',w:bw,gap:true},...s.after.trim().split(/\s+/).filter(Boolean).map(t=>({t,w:ctx.measureText(t).width*1.16}))];
+ const bw=Math.max(...s.options.map(t=>ctx.measureText(t).width*1.45))+30;
+ const tokens=[...s.before.trim().split(/\s+/).filter(Boolean).map(t=>({t,w:ctx.measureText(t).width*1.45})),{t:s.reveal?s.options[s.correct]:'',w:bw,gap:true},...s.after.trim().split(/\s+/).filter(Boolean).map(t=>({t,w:ctx.measureText(t).width*1.45}))];
  const lines=[[]];let used=0;for(const t of tokens){if(used+t.w+space>1100&&lines.at(-1).length){lines.push([]);used=0;}lines.at(-1).push(t);used+=t.w+space;}
  const y0=174+(155-lines.length*65)/2;
- lines.forEach((line,li)=>{let x=(1280-line.reduce((n,t)=>n+t.w,0)-space*(line.length-1))/2;for(const t of line){if(t.gap){const sh=tx(slide,t.t||' ',x,y0+li*65,t.w,58,size,C.lime,true);slide.shapes.add({name:'gap-line-'+s.n,geometry:'line',position:{left:x,top:y0+li*65+57,width:t.w,height:0},line:{fill:s.reveal?C.lime:C.cyan,width:2}});}else tx(slide,t.t,x-2,y0+li*65,t.w+4,58,size,C.paper,true);x+=t.w+space;}});
+ lines.forEach((line,li)=>{let x=(1280-line.reduce((n,t)=>n+t.w,0)-space*(line.length-1))/2;for(const t of line){if(t.gap){const sh=tx(slide,t.t||' ',x,y0+li*65,t.w,58,size,C.lime,true);slide.shapes.add({name:'gap-line-'+s.n,geometry:'line',position:{left:px(x),top:y0+li*65+57,width:pw(t.w),height:0},line:{fill:s.reveal?C.lime:C.cyan,width:2}});}else tx(slide,t.t,x-2,y0+li*65,t.w+4,58,size,C.paper,true);x+=t.w+space;}});
 }
 for(const s of D.slides){
  const sl=P.slides.add();sl.background.fill={type:'gradient',gradientKind:'linear',angleDeg:24,stops:[{offset:0,color:'#102A42'},{offset:65000,color:C.bg},{offset:100000,color:'#161B35'}]};
@@ -37,9 +40,9 @@ for(const s of D.slides){
  tx(sl,s.title,95,53,1090,55,28,C.cyan,true,'center','title');
  if(s.tense)tx(sl,s.tense,100,105,1080,30,20,'#FFE35B');
  if(s.kind==='cover'){
-  tx(sl,'ברוכים הבאים',80,216,1120,116,86,C.lime);tx(sl,'כיתה י״א · 5 יח״ל',80,356,1120,60,45);tx(sl,s.he,80,445,1120,60,36,C.muted);
+  tx(sl,EN?'Welcome':'ברוכים הבאים',80,216,1120,116,86,C.lime);tx(sl,EN?'Grade 11 · 5-point English':'כיתה י״א · 5 יח״ל',80,356,1120,60,45);tx(sl,s.he,80,445,1120,60,36,C.muted);
  }else if(s.kind==='animation'){
-  sl.images.add({blob:new Uint8Array(await fs.readFile(path.join(SITE,'assets',s.asset+'.gif'))),contentType:'image/gif',alt:s.alt,fit:'contain',position:{left:450,top:137,width:380,height:380}});
+  sl.images.add({blob:new Uint8Array(await fs.readFile(path.join(SITE,'assets',s.asset+'.gif'))),contentType:'image/gif',alt:s.alt,fit:'contain',position:{left:px(450),top:137,width:380,height:380}});
   tx(sl,s.text,80,540,1120,94,36,C.amber,true);
  }else if(s.kind==='gap'){
   gapSentence(sl,s);
@@ -57,7 +60,8 @@ for(const s of D.slides){
   tx(sl,s.text,90,164,1100,156,45,C.paper,true);
   tx(sl,s.he,100,330,1080,102,31,C.muted,true);
   tx(sl,`${String(Math.floor(s.seconds/60)).padStart(2,'0')}:${String(s.seconds%60).padStart(2,'0')}`,100,456,1080,100,85,C.amber);
-  const sh=tx(sl,'שעון פעיל במצגת באתר',100,583,1080,41,24,C.cyan,true);sh.text.get('שעון פעיל במצגת באתר').link={uri:`https://simonh68.github.io/teachers/grade11/grammar-in-an-essay/#slide-${s.n}`,isExternal:true};
+  const timerLabel=EN?'Live timer on the website':'שעון פעיל במצגת באתר';
+  const sh=tx(sl,timerLabel,100,583,1080,41,24,C.cyan,true);sh.text.get(timerLabel).link={uri:`https://simonh68.github.io/teachers/grade11/grammar-in-an-essay/${EN?'english.html':''}#slide-${s.n}`,isExternal:true};
  }else if(s.kind==='example'){
   const sh=tx(sl,s.text,85,157,1110,262,s.text.length>160?38:46,C.paper,true);highlights(sh,s.highlights);
   tx(sl,s.he,92,461,1096,169,s.he.length>150?29:33,C.lime,true);
@@ -66,6 +70,16 @@ for(const s of D.slides){
   const sh=tx(sl,s.text,85,151,1110,294,size,C.paper,true);highlights(sh,s.highlights);
   tx(sl,s.he,92,475,1096,151,s.he.length>130?30:33,C.muted,true);
  }
+ // Native, editable sidebar. Counts match the model reveal on this exact slide.
+ const rt=(text,x,y,w,h,size,color=C.paper,bold=true,align='left')=>tx(sl,text,x,y,w,h,size,color,bold,align,'progress',true);
+ rt('Model essay',24,70,170,35,24,C.cyan);
+ rt(`${s.completedSentences} / 10`,24,119,170,42,33,C.lime);
+ rt('sentences',24,163,170,25,17,C.muted);
+ rt(`${s.completedWords}`,24,198,170,42,33,C.lime);
+ rt('words so far',24,242,170,25,17,C.muted);
+ sl.shapes.add({name:'sidebar-divider',geometry:'line',position:{left:210,top:70,width:0,height:583},line:{fill:'#A9BDD2',width:.5}});
+ D.sentenceRoles.forEach((role,i)=>{const n=i+1,color=n<=s.completedSentences?C.lime:n===s.writingStep?C.cyan:C.muted;rt(`${n===s.writingStep?'› ':''}${n}. ${role}`,24,290+i*31,176,27,17,color,n<=s.completedSentences||n===s.writingStep);});
+ rt('Goal: 120–140 words',24,622,178,30,14,C.muted);
  tx(sl,`${s.n} / ${D.slides.length}`,1100,674,120,24,17,C.muted,false);
  let notes=s.note||'';if(s.kind==='animation')notes+='\nOriginal Teachers generated cat illustration, reused for this lesson with new grammar context. Silent GIF, 6 cycles of 1.8 seconds.';if(s.source)notes+='\nSource: '+s.source;if(s.kind==='timer')notes+='\nTimer is interactive in the HTML version. PPTX shows the time allocation and a link to the live timer.';
  sl.speakerNotes.textFrame.setText(notes);
@@ -74,5 +88,5 @@ const candidate=path.join(BUILD,'candidate.pptx');await(await PresentationFile.e
 const fixed=path.join(BUILD,'candidate-rtl.pptx');execFileSync(process.env.CODEX_PRIMARY_RUNTIME_PYTHON,[path.join(BUILD,'fix_rtl.py'),candidate,fixed]);
 const {finalizePresentation}=await import(pathToFileURL(path.join(SKILL,'container_tools/artifact_tool_utils.mjs')).href);
 const final=process.env.ESSAY_FINAL_PPTX||path.join(SITE,'files/grammar-in-an-essay.pptx');
-await finalizePresentation({workspaceDir:process.env.ESSAY_WORKSPACE||ROOT,candidatePath:fixed,finalPath:final,pythonExecutable:process.env.CODEX_PRIMARY_RUNTIME_PYTHON,integrityValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit'],explicitTotalSlideCount:D.slides.length,requiredNativeTableOwnerSlides:[],requiredNativeChartOwnerSlides:[],fontPolicy:{basis:'user_request',families:['Nunito','Heebo']},verifyArtifactToolImport:true,receiptPath:path.join(BUILD,'validation-'+Date.now()+'.json')});
+await finalizePresentation({workspaceDir:process.env.ESSAY_WORKSPACE||ROOT,candidatePath:fixed,finalPath:final,pythonExecutable:process.env.CODEX_PRIMARY_RUNTIME_PYTHON,integrityValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit'],explicitTotalSlideCount:D.slides.length,requiredNativeTableOwnerSlides:[],requiredNativeChartOwnerSlides:[],fontPolicy:{basis:'design',families:['Nunito','Heebo']},verifyArtifactToolImport:true,receiptPath:path.join(BUILD,'validation-'+Date.now()+'.json')});
 console.log(final);

@@ -24,3 +24,11 @@ Independent practice: Should teenagers have an after-school job? Keep simple top
 - build_pptx.mjs and fix_rtl.py: Artifact Tool builder and Hebrew direction repair.
 
 Run the content generator first. Copy the PPTX builder and fix_rtl.py into a private build directory with the supplied runtime dependencies. Set ESSAY_ROOT, ESSAY_BUILD_DIR, ESSAY_WORKSPACE and ESSAY_FINAL_PPTX to task paths. Finalize to a new output, verify it, then replace the site download unchanged. HTML timers are interactive; PPTX timers are allocations with links to the live timers. GIF playback depends on the presentation application.
+
+## Progress and English edition
+
+The left sidebar shows the complete ten-sentence route from the first slide. Counts refer to the model essay, not to student drafts. Prompts highlight the sentence being attempted; reveals advance the completed count. Counts are derived from the model text: 14, 25, 37, 53, 67, 79, 91, 100, 111, 123. Backward navigation and direct links restore the exact state. Independent work retains the completed model count.
+
+Both prompt and reveal headings use English ordinals. `versions.py`, called by `build_lesson.py`, adds metadata and generates `english.html`, `lesson.en.json` and `teacher.en.html` alongside the bilingual edition. The language switch preserves the current slide. English instructions, explanations, controls, alt text and teacher notes are translated. The essay, sequence, fifty slides and 72-minute plan are identical.
+
+Build the English PPTX with `ESSAY_LANG=en` and its own private build directory and final filename `grammar-in-an-essay-en.pptx`. Both PPTXs have a native editable progress sidebar on every slide. Use a workspace parent containing both the private build and final output directories.

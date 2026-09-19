@@ -69,6 +69,7 @@ timer('תכנון קצר','One idea against. One idea for.',120,'מה הקושי
 
 def draft(step,title,prompt,he,section):
     timer(title,prompt,45,he,'ניסיון עצמאי קצר. קבלו ניסוחים פשוטים ותקינים. חשפו את הדוגמה רק אחריו.',section=section)
+    S[-1]['draftStep']=step
     paras=[' '.join(SENTENCES[i] for i in ids if i<step) for ids in PARAGRAPH_STEPS]
     words=len(' '.join(paras).split())
     add('essay','החיבור עד עכשיו', '\n\n'.join(paras),f'שלב {step}/10 · {words} מילים'+(' · נוסיף דוגמה בגוף' if step in (8,9) else ''),'קראו רק את המשפט החדש; אין לקרוא שוב את כל החיבור. משפט חדש: '+SENTENCES[step-1]+' ההרחבות 9–10 נשארות בפסקאות הגוף.',section=section,paragraphs=paras,step=step)
@@ -144,3 +145,6 @@ teacher=f'''<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"
 manifest=[dict(n=s['n'],kind=s['kind'],title=s['title'],section=s['section']) for s in S]
 (ROOT/'tools/grammar-in-an-essay/build/slide-list.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
 print(f'{len(S)} slides, {WC} words, 72 minutes. '+str(OUT))
+
+from versions import build_versions
+build_versions(globals())
