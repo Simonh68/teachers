@@ -14,13 +14,13 @@ function showTooltip(unit){
 document.addEventListener('pointerdown',e=>{if(!e.target.closest('.unit'))hideTooltip();});
 document.addEventListener('keydown',e=>{if(e.key==='Escape')hideTooltip();});
 window.addEventListener('scroll',()=>{if(tooltipUnit&&tooltipUnit.matches(':hover'))showTooltip(tooltipUnit);else hideTooltip();},{passive:true});window.addEventListener('resize',hideTooltip);
-const pageTitles=['הדרך לבית הספר','שני ילדים ברכבת','הפתעה בכיתה'];
+
 function setPage(n,manual=false){
-  if(!data)return;n=Math.max(0,Math.min(2,n));
+  if(!data)return;n=Math.max(0,Math.min(data.pages.length-1,n));
   hideTooltip();pageIndex=n;
   document.querySelectorAll('#story > p').forEach((p,i)=>p.hidden=i!==n);
-  $('#scene').innerHTML=window.READING_SCENES[n];$('#pageTitle').textContent=pageTitles[n];$('#pageNumber').textContent=`דף ${n+1} מתוך 3`;
-  $('#previousPage').disabled=n===0;$('#nextPage').disabled=n===2;
+  const image=document.createElement('img');image.src=data.pages[n].image;image.alt=data.pages[n].title+' — תמונה להמחשת הסיפור';image.width=1536;image.height=1024;$('#scene').replaceChildren(image);$('#pageTitle').textContent=data.pages[n].title;$('#pageNumber').textContent=`דף ${n+1} מתוך ${data.pages.length}`;
+  $('#previousPage').disabled=n===0;$('#nextPage').disabled=n===data.pages.length-1;
   const t=$('#translation').children;for(let i=0;i<t.length;i++)t[i].hidden=i!==n;
   if(manual){audio.pause();repeatEnd=null;audio.currentTime=Math.max(0,data.sentences.find(s=>s.paragraph===n).start-.06);sync();$('#status').textContent='לחצו על הקראה';}
 }
@@ -63,7 +63,7 @@ document.addEventListener('visibilitychange',()=>{if(document.hidden)audio.pause
 $('#translate').onclick=()=>{const open=$('#translation').hidden;$('#translation').hidden=!open;$('#translate').setAttribute('aria-expanded',String(open));$('#translate').textContent=open?'הסתרת התרגום':'הצגת תרגום לעברית';};
 $('#check').onclick=()=>{const answer=$('input[name=answer]:checked');$('#feedback').textContent=!answer?'בחרו תשובה לפני הבדיקה.':answer.value==='class'?'נכון. התיק הירוק נמצא בכיתה — והילדים מהרכבת הם חבריו לכיתה.':'קראו שוב את הפסקה האחרונה. היכן דן פותח את הדלת?';};
 async function init(){try{
-  const response=await fetch('reading.json');if(!response.ok)throw Error('Reading unavailable');data=await response.json();
+  const response=await fetch('reading.json?v=full-static-2');if(!response.ok)throw Error('Reading unavailable');data=await response.json();
   $('#wordCount').textContent=`${data.wordCount} מילים`;$('#story').textContent='';let paragraph=-1,p;
   data.sentences.forEach((s,i)=>{if(s.paragraph!==paragraph){p=document.createElement('p');$('#story').append(p);paragraph=s.paragraph;}
     const node=document.createElement('span');node.className='sentence';let wordInSentence=0;
@@ -76,7 +76,7 @@ async function init(){try{
     p.append(node,' ');sentenceNodes.push(node);
   });
   for(const part of [...new Set(data.sentences.map(s=>s.paragraph))]){const p=document.createElement('p');p.textContent=data.sentences.filter(s=>s.paragraph===part).map(s=>s.translation).join(' ');$('#translation').append(p);}
-  audio.src=data.audio;['play','restart','repeat'].forEach(id=>$('#'+id).disabled=false);$('#status').textContent='לחצו על הקראה';setPage(0);sync();
+  audio.preservesPitch=true;audio.src=data.audio;['play','restart','repeat'].forEach(id=>$('#'+id).disabled=false);$('#status').textContent='לחצו על הקראה';setPage(0);sync();
 }catch(e){$('#story').textContent='הקטע לא נטען. רעננו את העמוד כדי לנסות שוב.';$('#status').textContent='שגיאה בטעינה';}}
 init();
 })();
