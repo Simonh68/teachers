@@ -1,0 +1,181 @@
+{
+  "title": "The Same Way",
+  "paragraphs": [
+    "My name is Dan, and I am in Grade 7. My new school is far from home, but I chose it because I love its science lessons. Every morning, I leave home with a heavy blue bag. My little brother is still in bed when I close the door.",
+    "First, I walk to the bus stop and take a bus to the train station. Then I take a train and another bus. Finally, I walk for ten minutes to school. I lift my bag onto my back and look at the time again. There are two boys near me, but we do not talk. One has a green bag, and the other has a red cap.",
+    "Today the sky is blue, but I think about winter. What will I do when it rains? My books will be wet, and I will be cold. I do not know the answer. I take my phone out of my bag, but I do not call home.",
+    "At school, I open the classroom door and stop. The green bag and the red cap are there! The boys from the journey are in my class. At break, I walk over to meet them. “Are you tired too?” I ask. “Yes, and I worry about the rain,” says Ben. “Me too,” says Noam. “I look at the time all the way to school!”",
+    "I smile and put my phone away. “Can I join you tomorrow?” I ask. “Of course!” they say. The rain is still a problem, but now we can think about it together. Tomorrow, I will say hello at the bus stop."
+  ],
+  "sentences": [
+    {
+      "en": "My name is Dan, and I am in Grade 7.",
+      "he": "קוראים לי דן, ואני בכיתה ז׳.",
+      "part": "A",
+      "n": 1
+    },
+    {
+      "en": "My new school is far from home, but I chose it because I love its science lessons.",
+      "he": "בית הספר החדש שלי רחוק מהבית, אבל בחרתי בו כי אני אוהב את שיעורי המדעים שלו.",
+      "part": "A",
+      "n": 2
+    },
+    {
+      "en": "Every morning, I leave home with a heavy blue bag.",
+      "he": "בכל בוקר אני יוצא מהבית עם תיק כחול כבד.",
+      "part": "A",
+      "n": 3
+    },
+    {
+      "en": "My little brother is still in bed when I close the door.",
+      "he": "אחי הקטן עדיין במיטה כשאני סוגר את הדלת.",
+      "part": "A",
+      "n": 4
+    },
+    {
+      "en": "First, I walk to the bus stop and take a bus to the train station.",
+      "he": "ראשית, אני הולך לתחנת האוטובוס ונוסע באוטובוס לתחנת הרכבת.",
+      "part": "B",
+      "n": 5
+    },
+    {
+      "en": "Then I take a train and another bus.",
+      "he": "לאחר מכן אני נוסע ברכבת ובאוטובוס נוסף.",
+      "part": "B",
+      "n": 6
+    },
+    {
+      "en": "Finally, I walk for ten minutes to school.",
+      "he": "לבסוף, אני הולך עשר דקות לבית הספר.",
+      "part": "B",
+      "n": 7
+    },
+    {
+      "en": "I lift my bag onto my back and look at the time again.",
+      "he": "אני מרים את התיק אל הגב ומסתכל שוב מה השעה.",
+      "part": "B",
+      "n": 8
+    },
+    {
+      "en": "There are two boys near me, but we do not talk.",
+      "he": "יש שני בנים לידי, אבל אנחנו לא מדברים.",
+      "part": "B",
+      "n": 9
+    },
+    {
+      "en": "One has a green bag, and the other has a red cap.",
+      "he": "לאחד יש תיק ירוק, ולאחר יש כובע אדום.",
+      "part": "B",
+      "n": 10
+    },
+    {
+      "en": "Today the sky is blue, but I think about winter.",
+      "he": "היום השמיים כחולים, אבל אני חושב על החורף.",
+      "part": "C",
+      "n": 11
+    },
+    {
+      "en": "What will I do when it rains?",
+      "he": "מה אעשה כשירד גשם?",
+      "part": "C",
+      "n": 12
+    },
+    {
+      "en": "My books will be wet, and I will be cold.",
+      "he": "הספרים שלי יהיו רטובים, ויהיה לי קר.",
+      "part": "C",
+      "n": 13
+    },
+    {
+      "en": "I do not know the answer.",
+      "he": "אני לא יודע את התשובה.",
+      "part": "C",
+      "n": 14
+    },
+    {
+      "en": "I take my phone out of my bag, but I do not call home.",
+      "he": "אני מוציא את הטלפון מהתיק, אבל לא מתקשר הביתה.",
+      "part": "C",
+      "n": 15
+    },
+    {
+      "en": "At school, I open the classroom door and stop.",
+      "he": "בבית הספר אני פותח את דלת הכיתה ועוצר.",
+      "part": "D",
+      "n": 16
+    },
+    {
+      "en": "The green bag and the red cap are there!",
+      "he": "התיק הירוק והכובע האדום שם!",
+      "part": "D",
+      "n": 17
+    },
+    {
+      "en": "The boys from the journey are in my class.",
+      "he": "הבנים מהדרך נמצאים בכיתה שלי.",
+      "part": "D",
+      "n": 18
+    },
+    {
+      "en": "At break, I walk over to meet them.",
+      "he": "בהפסקה אני ניגש להכיר אותם.",
+      "part": "D",
+      "n": 19
+    },
+    {
+      "en": "“Are you tired too?” I ask.",
+      "he": "״גם אתם עייפים?״ אני שואל.",
+      "part": "D",
+      "n": 20
+    },
+    {
+      "en": "“Yes, and I worry about the rain,” says Ben.",
+      "he": "״כן, ואני דואג מהגשם,״ אומר בן.",
+      "part": "D",
+      "n": 21
+    },
+    {
+      "en": "“Me too,” says Noam.",
+      "he": "״גם אני,״ אומר נועם.",
+      "part": "D",
+      "n": 22
+    },
+    {
+      "en": "“I look at the time all the way to school!”",
+      "he": "״אני מסתכל מה השעה כל הדרך לבית הספר!״",
+      "part": "D",
+      "n": 23
+    },
+    {
+      "en": "I smile and put my phone away.",
+      "he": "אני מחייך ומניח את הטלפון בצד.",
+      "part": "E",
+      "n": 24
+    },
+    {
+      "en": "“Can I join you tomorrow?” I ask.",
+      "he": "״אפשר להצטרף אליכם מחר?״ אני שואל.",
+      "part": "E",
+      "n": 25
+    },
+    {
+      "en": "“Of course!” they say.",
+      "he": "״בוודאי!״ הם אומרים.",
+      "part": "E",
+      "n": 26
+    },
+    {
+      "en": "The rain is still a problem, but now we can think about it together.",
+      "he": "הגשם עדיין בעיה, אבל עכשיו אנחנו יכולים לחשוב עליה יחד.",
+      "part": "E",
+      "n": 27
+    },
+    {
+      "en": "Tomorrow, I will say hello at the bus stop.",
+      "he": "מחר אגיד שלום בתחנת האוטובוס.",
+      "part": "E",
+      "n": 28
+    }
+  ],
+  "wordcount": 268
+}

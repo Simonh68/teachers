@@ -1,0 +1,1008 @@
+[
+  {
+    "kind": "cover",
+    "title": "The Same Way",
+    "sub": "כיתה ז׳ · אנגלית · סיפור ותרגול"
+  },
+  {
+    "kind": "whole",
+    "title": "The Same Way",
+    "sub": "קריאה ראשונה: מה מדאיג את דן, ומה משתנה בסוף?",
+    "progress": 0
+  },
+  {
+    "kind": "quiz",
+    "title": "הרעיון המרכזי",
+    "reveal": false,
+    "q": "What changes for Dan?",
+    "opts": [
+      "His school is closer.",
+      "He finds boys who feel like him.",
+      "The rain stops."
+    ],
+    "correct": 1,
+    "why": "הדרך אינה מתקצרת. דן מגלה שהוא אינו היחיד שמרגיש כך.",
+    "progress": 0,
+    "tense": ""
+  },
+  {
+    "kind": "quiz",
+    "title": "הרעיון המרכזי",
+    "reveal": true,
+    "q": "What changes for Dan?",
+    "opts": [
+      "His school is closer.",
+      "He finds boys who feel like him.",
+      "The rain stops."
+    ],
+    "correct": 1,
+    "why": "הדרך אינה מתקצרת. דן מגלה שהוא אינו היחיד שמרגיש כך.",
+    "progress": 0,
+    "tense": ""
+  },
+  {
+    "kind": "bridge",
+    "title": "מה כבר מוכר לנו?",
+    "text": "To Be: I am · The school is · The boys are",
+    "sub": "נשתמש במה שלמדנו כדי להבין את הדמויות ואת הרגשות שלהן.",
+    "tense": "הווה"
+  },
+  {
+    "kind": "quiz",
+    "title": "חזרה: To Be",
+    "reveal": false,
+    "q": "Dan ___ in Grade 7.",
+    "opts": [
+      "am",
+      "is",
+      "are"
+    ],
+    "correct": 1,
+    "why": "Dan = he → is. גם כשבעברית אין פועל, באנגלית צריך is.",
+    "progress": 0,
+    "tense": "הווה"
+  },
+  {
+    "kind": "quiz",
+    "title": "חזרה: To Be",
+    "reveal": true,
+    "q": "Dan ___ in Grade 7.",
+    "opts": [
+      "am",
+      "is",
+      "are"
+    ],
+    "correct": 1,
+    "why": "Dan = he → is. גם כשבעברית אין פועל, באנגלית צריך is.",
+    "progress": 0,
+    "tense": "הווה"
+  },
+  {
+    "kind": "bridge",
+    "title": "מילים מקבוצה 01",
+    "text": "lift · take something out · then · break · meet · join",
+    "sub": "חלק מהמילים כבר פגשנו. נזהה אותן בתוך הסיפור; מילה שעדיין לא נלמדה נקרא יחד."
+  },
+  {
+    "kind": "bridge",
+    "title": "תמיכה בקריאה",
+    "text": "chose = בחרתי / בחר\njourney = דרך / מסע\nworry = לדאוג · wet = רטוב",
+    "sub": "chose מספר על בחירה שכבר נעשתה. רוב הסיפור מתאר את הדרך ואת היום בבית הספר."
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "My name is Dan, and I am in Grade 7.",
+    "he": "קוראים לי דן, ואני בכיתה ז׳.",
+    "part": "A",
+    "n": 1,
+    "reveal": false,
+    "progress": 1,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "My name is Dan, and I am in Grade 7.",
+    "he": "קוראים לי דן, ואני בכיתה ז׳.",
+    "part": "A",
+    "n": 1,
+    "reveal": true,
+    "progress": 1,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "My new school is far from home, but I chose it because I love its science lessons.",
+    "he": "בית הספר החדש שלי רחוק מהבית, אבל בחרתי בו כי אני אוהב את שיעורי המדעים שלו.",
+    "part": "A",
+    "n": 2,
+    "reveal": false,
+    "progress": 2,
+    "tense": ""
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "My new school is far from home, but I chose it because I love its science lessons.",
+    "he": "בית הספר החדש שלי רחוק מהבית, אבל בחרתי בו כי אני אוהב את שיעורי המדעים שלו.",
+    "part": "A",
+    "n": 2,
+    "reveal": true,
+    "progress": 2,
+    "tense": ""
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "Every morning, I leave home with a heavy blue bag.",
+    "he": "בכל בוקר אני יוצא מהבית עם תיק כחול כבד.",
+    "part": "A",
+    "n": 3,
+    "reveal": false,
+    "progress": 3,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "Every morning, I leave home with a heavy blue bag.",
+    "he": "בכל בוקר אני יוצא מהבית עם תיק כחול כבד.",
+    "part": "A",
+    "n": 3,
+    "reveal": true,
+    "progress": 3,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "My little brother is still in bed when I close the door.",
+    "he": "אחי הקטן עדיין במיטה כשאני סוגר את הדלת.",
+    "part": "A",
+    "n": 4,
+    "reveal": false,
+    "progress": 4,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "My little brother is still in bed when I close the door.",
+    "he": "אחי הקטן עדיין במיטה כשאני סוגר את הדלת.",
+    "part": "A",
+    "n": 4,
+    "reveal": true,
+    "progress": 4,
+    "tense": "הווה"
+  },
+  {
+    "kind": "quiz",
+    "title": "הבחירה של דן",
+    "reveal": false,
+    "q": "Why did Dan choose this school?",
+    "opts": [
+      "It is near his home.",
+      "He loves its science lessons.",
+      "His brother studies there."
+    ],
+    "correct": 1,
+    "why": "חפשו את הסיבה בפסקה A: because I love its science lessons.",
+    "progress": 4,
+    "tense": ""
+  },
+  {
+    "kind": "quiz",
+    "title": "הבחירה של דן",
+    "reveal": true,
+    "q": "Why did Dan choose this school?",
+    "opts": [
+      "It is near his home.",
+      "He loves its science lessons.",
+      "His brother studies there."
+    ],
+    "correct": 1,
+    "why": "חפשו את הסיבה בפסקה A: because I love its science lessons.",
+    "progress": 4,
+    "tense": ""
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "First, I walk to the bus stop and take a bus to the train station.",
+    "he": "ראשית, אני הולך לתחנת האוטובוס ונוסע באוטובוס לתחנת הרכבת.",
+    "part": "B",
+    "n": 5,
+    "reveal": false,
+    "progress": 5,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "First, I walk to the bus stop and take a bus to the train station.",
+    "he": "ראשית, אני הולך לתחנת האוטובוס ונוסע באוטובוס לתחנת הרכבת.",
+    "part": "B",
+    "n": 5,
+    "reveal": true,
+    "progress": 5,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "Then I take a train and another bus.",
+    "he": "לאחר מכן אני נוסע ברכבת ובאוטובוס נוסף.",
+    "part": "B",
+    "n": 6,
+    "reveal": false,
+    "progress": 6,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "Then I take a train and another bus.",
+    "he": "לאחר מכן אני נוסע ברכבת ובאוטובוס נוסף.",
+    "part": "B",
+    "n": 6,
+    "reveal": true,
+    "progress": 6,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "Finally, I walk for ten minutes to school.",
+    "he": "לבסוף, אני הולך עשר דקות לבית הספר.",
+    "part": "B",
+    "n": 7,
+    "reveal": false,
+    "progress": 7,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "Finally, I walk for ten minutes to school.",
+    "he": "לבסוף, אני הולך עשר דקות לבית הספר.",
+    "part": "B",
+    "n": 7,
+    "reveal": true,
+    "progress": 7,
+    "tense": "הווה"
+  },
+  {
+    "kind": "route",
+    "title": "מסדרים את הדרך",
+    "reveal": false,
+    "progress": 7
+  },
+  {
+    "kind": "route",
+    "title": "מסדרים את הדרך",
+    "reveal": true,
+    "progress": 7
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "I lift my bag onto my back and look at the time again.",
+    "he": "אני מרים את התיק אל הגב ומסתכל שוב מה השעה.",
+    "part": "B",
+    "n": 8,
+    "reveal": false,
+    "progress": 8,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "I lift my bag onto my back and look at the time again.",
+    "he": "אני מרים את התיק אל הגב ומסתכל שוב מה השעה.",
+    "part": "B",
+    "n": 8,
+    "reveal": true,
+    "progress": 8,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "There are two boys near me, but we do not talk.",
+    "he": "יש שני בנים לידי, אבל אנחנו לא מדברים.",
+    "part": "B",
+    "n": 9,
+    "reveal": false,
+    "progress": 9,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "There are two boys near me, but we do not talk.",
+    "he": "יש שני בנים לידי, אבל אנחנו לא מדברים.",
+    "part": "B",
+    "n": 9,
+    "reveal": true,
+    "progress": 9,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "One has a green bag, and the other has a red cap.",
+    "he": "לאחד יש תיק ירוק, ולאחר יש כובע אדום.",
+    "part": "B",
+    "n": 10,
+    "reveal": false,
+    "progress": 10,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "One has a green bag, and the other has a red cap.",
+    "he": "לאחד יש תיק ירוק, ולאחר יש כובע אדום.",
+    "part": "B",
+    "n": 10,
+    "reveal": true,
+    "progress": 10,
+    "tense": "הווה"
+  },
+  {
+    "kind": "quiz",
+    "title": "הילדים בדרך",
+    "reveal": false,
+    "q": "Do the boys talk on the way?",
+    "opts": [
+      "Yes, about school.",
+      "No, they do not talk.",
+      "The story does not say."
+    ],
+    "correct": 1,
+    "why": "בפסקה B כתוב במפורש: we do not talk. בשלב זה הוא עדיין לא יודע שהם בכיתה שלו.",
+    "progress": 10,
+    "tense": ""
+  },
+  {
+    "kind": "quiz",
+    "title": "הילדים בדרך",
+    "reveal": true,
+    "q": "Do the boys talk on the way?",
+    "opts": [
+      "Yes, about school.",
+      "No, they do not talk.",
+      "The story does not say."
+    ],
+    "correct": 1,
+    "why": "בפסקה B כתוב במפורש: we do not talk. בשלב זה הוא עדיין לא יודע שהם בכיתה שלו.",
+    "progress": 10,
+    "tense": ""
+  },
+  {
+    "kind": "grammar",
+    "title": "To Be בתוך הסיפור",
+    "text": "The bag is green.\nThe boys are quiet.",
+    "sub": "שם עצם יחיד → is. רבים → are. חזרו למצגת To Be: הפועל מתאר מצב.",
+    "progress": 10,
+    "tense": "הווה"
+  },
+  {
+    "kind": "quiz",
+    "title": "מתרגלים את ההתאמה",
+    "reveal": false,
+    "q": "The boys ___ near Dan.",
+    "opts": [
+      "am",
+      "is",
+      "are"
+    ],
+    "correct": 2,
+    "why": "The boys = they → are.",
+    "progress": 10,
+    "tense": "הווה"
+  },
+  {
+    "kind": "quiz",
+    "title": "מתרגלים את ההתאמה",
+    "reveal": true,
+    "q": "The boys ___ near Dan.",
+    "opts": [
+      "am",
+      "is",
+      "are"
+    ],
+    "correct": 2,
+    "why": "The boys = they → are.",
+    "progress": 10,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "Today the sky is blue, but I think about winter.",
+    "he": "היום השמיים כחולים, אבל אני חושב על החורף.",
+    "part": "C",
+    "n": 11,
+    "reveal": false,
+    "progress": 11,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "Today the sky is blue, but I think about winter.",
+    "he": "היום השמיים כחולים, אבל אני חושב על החורף.",
+    "part": "C",
+    "n": 11,
+    "reveal": true,
+    "progress": 11,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "What will I do when it rains?",
+    "he": "מה אעשה כשירד גשם?",
+    "part": "C",
+    "n": 12,
+    "reveal": false,
+    "progress": 12,
+    "tense": ""
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "What will I do when it rains?",
+    "he": "מה אעשה כשירד גשם?",
+    "part": "C",
+    "n": 12,
+    "reveal": true,
+    "progress": 12,
+    "tense": ""
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "My books will be wet, and I will be cold.",
+    "he": "הספרים שלי יהיו רטובים, ויהיה לי קר.",
+    "part": "C",
+    "n": 13,
+    "reveal": false,
+    "progress": 13,
+    "tense": "עתיד"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "My books will be wet, and I will be cold.",
+    "he": "הספרים שלי יהיו רטובים, ויהיה לי קר.",
+    "part": "C",
+    "n": 13,
+    "reveal": true,
+    "progress": 13,
+    "tense": "עתיד"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "I do not know the answer.",
+    "he": "אני לא יודע את התשובה.",
+    "part": "C",
+    "n": 14,
+    "reveal": false,
+    "progress": 14,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "I do not know the answer.",
+    "he": "אני לא יודע את התשובה.",
+    "part": "C",
+    "n": 14,
+    "reveal": true,
+    "progress": 14,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "I take my phone out of my bag, but I do not call home.",
+    "he": "אני מוציא את הטלפון מהתיק, אבל לא מתקשר הביתה.",
+    "part": "C",
+    "n": 15,
+    "reveal": false,
+    "progress": 15,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "I take my phone out of my bag, but I do not call home.",
+    "he": "אני מוציא את הטלפון מהתיק, אבל לא מתקשר הביתה.",
+    "part": "C",
+    "n": 15,
+    "reveal": true,
+    "progress": 15,
+    "tense": "הווה"
+  },
+  {
+    "kind": "quiz",
+    "title": "עכשיו או בעתיד?",
+    "reveal": false,
+    "q": "Are Dan’s books wet now?",
+    "opts": [
+      "Yes, it is raining now.",
+      "No, he is thinking about winter.",
+      "He has no books."
+    ],
+    "correct": 1,
+    "why": "Today the sky is blue. הספרים הרטובים הם חשש לעתיד, לא עובדה בהווה.",
+    "progress": 15,
+    "tense": ""
+  },
+  {
+    "kind": "quiz",
+    "title": "עכשיו או בעתיד?",
+    "reveal": true,
+    "q": "Are Dan’s books wet now?",
+    "opts": [
+      "Yes, it is raining now.",
+      "No, he is thinking about winter.",
+      "He has no books."
+    ],
+    "correct": 1,
+    "why": "Today the sky is blue. הספרים הרטובים הם חשש לעתיד, לא עובדה בהווה.",
+    "progress": 15,
+    "tense": ""
+  },
+  {
+    "kind": "pause",
+    "title": "Rain plan?",
+    "sub": "התנחתא קצרה · חוזרים כשמוכנים",
+    "progress": 15
+  },
+  {
+    "kind": "grammar",
+    "title": "הווה ועתיד עם To Be",
+    "text": "Now: The sky is blue.\nWinter: My books will be wet.",
+    "sub": "is מתאר את המצב עכשיו. will be מתאר את המצב שדן חושש ממנו בעתיד.",
+    "progress": 15
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "At school, I open the classroom door and stop.",
+    "he": "בבית הספר אני פותח את דלת הכיתה ועוצר.",
+    "part": "D",
+    "n": 16,
+    "reveal": false,
+    "progress": 16,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "At school, I open the classroom door and stop.",
+    "he": "בבית הספר אני פותח את דלת הכיתה ועוצר.",
+    "part": "D",
+    "n": 16,
+    "reveal": true,
+    "progress": 16,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "The green bag and the red cap are there!",
+    "he": "התיק הירוק והכובע האדום שם!",
+    "part": "D",
+    "n": 17,
+    "reveal": false,
+    "progress": 17,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "The green bag and the red cap are there!",
+    "he": "התיק הירוק והכובע האדום שם!",
+    "part": "D",
+    "n": 17,
+    "reveal": true,
+    "progress": 17,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "The boys from the journey are in my class.",
+    "he": "הבנים מהדרך נמצאים בכיתה שלי.",
+    "part": "D",
+    "n": 18,
+    "reveal": false,
+    "progress": 18,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "The boys from the journey are in my class.",
+    "he": "הבנים מהדרך נמצאים בכיתה שלי.",
+    "part": "D",
+    "n": 18,
+    "reveal": true,
+    "progress": 18,
+    "tense": "הווה"
+  },
+  {
+    "kind": "quiz",
+    "title": "הרמזים מתחברים",
+    "reveal": false,
+    "q": "Why does Dan stop at the door?",
+    "opts": [
+      "He sees the boys from the journey.",
+      "His brother is there.",
+      "The door is locked."
+    ],
+    "correct": 0,
+    "why": "התיק הירוק והכובע האדום חוזרים בפסקה D ומאפשרים לדן לזהות את הבנים.",
+    "progress": 18,
+    "tense": ""
+  },
+  {
+    "kind": "quiz",
+    "title": "הרמזים מתחברים",
+    "reveal": true,
+    "q": "Why does Dan stop at the door?",
+    "opts": [
+      "He sees the boys from the journey.",
+      "His brother is there.",
+      "The door is locked."
+    ],
+    "correct": 0,
+    "why": "התיק הירוק והכובע האדום חוזרים בפסקה D ומאפשרים לדן לזהות את הבנים.",
+    "progress": 18,
+    "tense": ""
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "At break, I walk over to meet them.",
+    "he": "בהפסקה אני ניגש להכיר אותם.",
+    "part": "D",
+    "n": 19,
+    "reveal": false,
+    "progress": 19,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "At break, I walk over to meet them.",
+    "he": "בהפסקה אני ניגש להכיר אותם.",
+    "part": "D",
+    "n": 19,
+    "reveal": true,
+    "progress": 19,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "“Are you tired too?” I ask.",
+    "he": "״גם אתם עייפים?״ אני שואל.",
+    "part": "D",
+    "n": 20,
+    "reveal": false,
+    "progress": 20,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "“Are you tired too?” I ask.",
+    "he": "״גם אתם עייפים?״ אני שואל.",
+    "part": "D",
+    "n": 20,
+    "reveal": true,
+    "progress": 20,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "“Yes, and I worry about the rain,” says Ben.",
+    "he": "״כן, ואני דואג מהגשם,״ אומר בן.",
+    "part": "D",
+    "n": 21,
+    "reveal": false,
+    "progress": 21,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "“Yes, and I worry about the rain,” says Ben.",
+    "he": "״כן, ואני דואג מהגשם,״ אומר בן.",
+    "part": "D",
+    "n": 21,
+    "reveal": true,
+    "progress": 21,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "“Me too,” says Noam.",
+    "he": "״גם אני,״ אומר נועם.",
+    "part": "D",
+    "n": 22,
+    "reveal": false,
+    "progress": 22,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "“Me too,” says Noam.",
+    "he": "״גם אני,״ אומר נועם.",
+    "part": "D",
+    "n": 22,
+    "reveal": true,
+    "progress": 22,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "“I look at the time all the way to school!”",
+    "he": "״אני מסתכל מה השעה כל הדרך לבית הספר!״",
+    "part": "D",
+    "n": 23,
+    "reveal": false,
+    "progress": 23,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "“I look at the time all the way to school!”",
+    "he": "״אני מסתכל מה השעה כל הדרך לבית הספר!״",
+    "part": "D",
+    "n": 23,
+    "reveal": true,
+    "progress": 23,
+    "tense": "הווה"
+  },
+  {
+    "kind": "quiz",
+    "title": "רגשות משותפים",
+    "reveal": false,
+    "q": "What do Dan and Ben both worry about?",
+    "opts": [
+      "The science test.",
+      "The rain.",
+      "A red cap."
+    ],
+    "correct": 1,
+    "why": "דן שואל מה יקרה בגשם; בן אומר: I worry about the rain.",
+    "progress": 23,
+    "tense": ""
+  },
+  {
+    "kind": "quiz",
+    "title": "רגשות משותפים",
+    "reveal": true,
+    "q": "What do Dan and Ben both worry about?",
+    "opts": [
+      "The science test.",
+      "The rain.",
+      "A red cap."
+    ],
+    "correct": 1,
+    "why": "דן שואל מה יקרה בגשם; בן אומר: I worry about the rain.",
+    "progress": 23,
+    "tense": ""
+  },
+  {
+    "kind": "quiz",
+    "title": "כינויי גוף",
+    "reveal": false,
+    "q": "“Are you tired too?” — Who is “you”?",
+    "opts": [
+      "Dan’s brother",
+      "Ben and Noam",
+      "Dan’s books"
+    ],
+    "correct": 1,
+    "why": "דן פונה לשני הבנים. you יכול להיות גם אתם.",
+    "progress": 23,
+    "tense": ""
+  },
+  {
+    "kind": "quiz",
+    "title": "כינויי גוף",
+    "reveal": true,
+    "q": "“Are you tired too?” — Who is “you”?",
+    "opts": [
+      "Dan’s brother",
+      "Ben and Noam",
+      "Dan’s books"
+    ],
+    "correct": 1,
+    "why": "דן פונה לשני הבנים. you יכול להיות גם אתם.",
+    "progress": 23,
+    "tense": ""
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "I smile and put my phone away.",
+    "he": "אני מחייך ומניח את הטלפון בצד.",
+    "part": "E",
+    "n": 24,
+    "reveal": false,
+    "progress": 24,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "I smile and put my phone away.",
+    "he": "אני מחייך ומניח את הטלפון בצד.",
+    "part": "E",
+    "n": 24,
+    "reveal": true,
+    "progress": 24,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "“Can I join you tomorrow?” I ask.",
+    "he": "״אפשר להצטרף אליכם מחר?״ אני שואל.",
+    "part": "E",
+    "n": 25,
+    "reveal": false,
+    "progress": 25,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "“Can I join you tomorrow?” I ask.",
+    "he": "״אפשר להצטרף אליכם מחר?״ אני שואל.",
+    "part": "E",
+    "n": 25,
+    "reveal": true,
+    "progress": 25,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "“Of course!” they say.",
+    "he": "״בוודאי!״ הם אומרים.",
+    "part": "E",
+    "n": 26,
+    "reveal": false,
+    "progress": 26,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "“Of course!” they say.",
+    "he": "״בוודאי!״ הם אומרים.",
+    "part": "E",
+    "n": 26,
+    "reveal": true,
+    "progress": 26,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "The rain is still a problem, but now we can think about it together.",
+    "he": "הגשם עדיין בעיה, אבל עכשיו אנחנו יכולים לחשוב עליה יחד.",
+    "part": "E",
+    "n": 27,
+    "reveal": false,
+    "progress": 27,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "The rain is still a problem, but now we can think about it together.",
+    "he": "הגשם עדיין בעיה, אבל עכשיו אנחנו יכולים לחשוב עליה יחד.",
+    "part": "E",
+    "n": 27,
+    "reveal": true,
+    "progress": 27,
+    "tense": "הווה"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "Tomorrow, I will say hello at the bus stop.",
+    "he": "מחר אגיד שלום בתחנת האוטובוס.",
+    "part": "E",
+    "n": 28,
+    "reveal": false,
+    "progress": 28,
+    "tense": "עתיד"
+  },
+  {
+    "kind": "sentence",
+    "title": "קריאה מקרוב",
+    "en": "Tomorrow, I will say hello at the bus stop.",
+    "he": "מחר אגיד שלום בתחנת האוטובוס.",
+    "part": "E",
+    "n": 28,
+    "reveal": true,
+    "progress": 28,
+    "tense": "עתיד"
+  },
+  {
+    "kind": "quiz",
+    "title": "מה נפתר ומה נשאר?",
+    "reveal": false,
+    "q": "Which sentence is true at the end?",
+    "opts": [
+      "The journey is short now.",
+      "They know exactly what to do in the rain.",
+      "Dan can travel with new friends."
+    ],
+    "correct": 2,
+    "why": "נוצר קשר עם חברים. הסיפור אומר במפורש שהגשם עדיין בעיה.",
+    "progress": 28,
+    "tense": ""
+  },
+  {
+    "kind": "quiz",
+    "title": "מה נפתר ומה נשאר?",
+    "reveal": true,
+    "q": "Which sentence is true at the end?",
+    "opts": [
+      "The journey is short now.",
+      "They know exactly what to do in the rain.",
+      "Dan can travel with new friends."
+    ],
+    "correct": 2,
+    "why": "נוצר קשר עם חברים. הסיפור אומר במפורש שהגשם עדיין בעיה.",
+    "progress": 28,
+    "tense": ""
+  },
+  {
+    "kind": "pair",
+    "title": "הסיפור שלכם",
+    "text": "I am ___ on the way to school.\nMy journey is ___.",
+    "sub": "חשבו לבד, ואז שתפו בן זוג. אפשר לבחור: tired / happy / worried · short / long.",
+    "progress": 28
+  },
+  {
+    "kind": "work",
+    "title": "עבודה בדף המודפס",
+    "text": "Read → Find evidence → Answer",
+    "sub": "עבדו לבד 8 דקות. חזרו לפסקה המתאימה לפני כל תשובה. לאחר מכן השוו בזוגות.",
+    "progress": 28
+  },
+  {
+    "kind": "exit",
+    "title": "לפני שיוצאים",
+    "text": "1. Dan is ___. The boys are ___.\n2. What is still a problem?\n3. Which sentence helped you understand?",
+    "sub": "ענו בעל פה או במחברת. תשובה + פרט מן הסיפור.",
+    "progress": 28
+  },
+  {
+    "kind": "links",
+    "title": "חזרה קצרה בבית",
+    "sub": "קראו שוב את הסיפור ותרגלו את המילים שבחרנו מתוך קבוצה 01.",
+    "progress": 28
+  }
+]
