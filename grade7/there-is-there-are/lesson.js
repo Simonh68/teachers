@@ -1,7 +1,7 @@
 (()=>{'use strict';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const slides=LESSON.slides,choices={},rateKey='teachers-read-alone-speed-v1',slideKey='teachers-there-is-are-slide-v1';let i=Math.max(0,Math.min(slides.length-1,(parseInt(location.hash.slice(1))||1)-1));let lastWheel=0,timer=0,frame=0,run=0,clip=null,activeWord=-1,tipWord=null;
-const audio=new Audio();audio.id='sentenceAudio';audio.preload='auto';document.body.append(audio);const audioData=fetch('audio.json?v=1').then(r=>{if(!r.ok)throw Error('audio');return r.json()});audioData.catch(()=>{});
+const audio=new Audio();audio.id='sentenceAudio';audio.preload='auto';document.body.append(audio);const audioData=fetch('audio.json?v=names-2').then(r=>{if(!r.ok)throw Error('audio');return r.json()});audioData.catch(()=>{});
 let speed=.75;try{const n=Number(localStorage.getItem(rateKey));if([1,.75,.5,.35,.25].includes(n))speed=n;}catch(e){}$('#speed').value=String(speed);
 function clearHighlight(){document.querySelectorAll('.spoken').forEach(w=>w.classList.remove('spoken'));activeWord=-1;}
 function sync(){if(audio.paused||!clip)return clearHighlight();const n=clip.words.findIndex(w=>audio.currentTime>=w.start&&audio.currentTime<w.end);if(n===activeWord)return;clearHighlight();document.querySelector(`[data-word="${n}"]`)?.classList.add('spoken');activeWord=n;}

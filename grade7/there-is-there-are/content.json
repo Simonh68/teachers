@@ -76,12 +76,12 @@
       ]
     },
     {
-      "en": "Ben has two history books.",
-      "he": "לבן יש שני ספרי היסטוריה.",
+      "en": "Daniel has two history books.",
+      "he": "לדניאל יש שני ספרי היסטוריה.",
       "words": [
         {
-          "word": "Ben",
-          "he": "בן (שם)"
+          "word": "Daniel",
+          "he": "דניאל (שם)"
         },
         {
           "word": "has",
@@ -1221,8 +1221,8 @@
       "title": "בעל החפצים הוא יחיד",
       "section": "שייכות ומקום",
       "n": 2,
-      "en": "Ben has two history books.",
-      "he": "לבן יש שני ספרי היסטוריה.",
+      "en": "Daniel has two history books.",
+      "he": "לדניאל יש שני ספרי היסטוריה.",
       "tense": "הווה",
       "reveal": false
     },
@@ -1231,8 +1231,8 @@
       "title": "בעל החפצים הוא יחיד",
       "section": "שייכות ומקום",
       "n": 2,
-      "en": "Ben has two history books.",
-      "he": "לבן יש שני ספרי היסטוריה.",
+      "en": "Daniel has two history books.",
+      "he": "לדניאל יש שני ספרי היסטוריה.",
       "tense": "הווה",
       "reveal": true
     },
@@ -1292,14 +1292,14 @@
       "kind": "quiz",
       "title": "שימו לב למי, לא לכמה",
       "section": "שייכות ומקום",
-      "q": "Ben ___ three pencils.",
+      "q": "Daniel ___ three pencils.",
       "opts": [
         "have",
         "are",
         "has"
       ],
       "correct": 2,
-      "why": "Ben = he, ולכן has. שלושת העפרונות אינם משנים את הפועל שמתאים לבן.",
+      "why": "Daniel = he, ולכן has. שלושת העפרונות אינם משנים את הפועל שמתאים לדניאל.",
       "tense": "הווה",
       "context": "",
       "reveal": false
@@ -1308,14 +1308,14 @@
       "kind": "quiz",
       "title": "שימו לב למי, לא לכמה",
       "section": "שייכות ומקום",
-      "q": "Ben ___ three pencils.",
+      "q": "Daniel ___ three pencils.",
       "opts": [
         "have",
         "are",
         "has"
       ],
       "correct": 2,
-      "why": "Ben = he, ולכן has. שלושת העפרונות אינם משנים את הפועל שמתאים לבן.",
+      "why": "Daniel = he, ולכן has. שלושת העפרונות אינם משנים את הפועל שמתאים לדניאל.",
       "tense": "הווה",
       "context": "",
       "reveal": true
@@ -1503,12 +1503,12 @@
       "section": "הווה: יש ואין",
       "q": "There are two books on the table. מה ידוע?",
       "opts": [
-        "הספרים שייכים לבן.",
+        "הספרים שייכים לדניאל.",
         "הספרים נמצאים על השולחן.",
         "יש לי שני ספרים."
       ],
       "correct": 1,
-      "why": "there are מציג מה נמצא במקום. כדי לומר שלבן יש ספרים נשתמש ב־Ben has.",
+      "why": "there are מציג מה נמצא במקום. כדי לומר שלדניאל יש ספרים נשתמש ב־Daniel has.",
       "tense": "הווה",
       "context": "",
       "reveal": false
@@ -1519,12 +1519,12 @@
       "section": "הווה: יש ואין",
       "q": "There are two books on the table. מה ידוע?",
       "opts": [
-        "הספרים שייכים לבן.",
+        "הספרים שייכים לדניאל.",
         "הספרים נמצאים על השולחן.",
         "יש לי שני ספרים."
       ],
       "correct": 1,
-      "why": "there are מציג מה נמצא במקום. כדי לומר שלבן יש ספרים נשתמש ב־Ben has.",
+      "why": "there are מציג מה נמצא במקום. כדי לומר שלדניאל יש ספרים נשתמש ב־Daniel has.",
       "tense": "הווה",
       "context": "",
       "reveal": true
@@ -2054,10 +2054,10 @@
       "opts": [
         "יש פסנתר בחדר.",
         "הפסנתר שייך לי.",
-        "לבן יש פסנתר."
+        "לדניאל יש פסנתר."
       ],
       "correct": 0,
-      "why": "מיקום אינו שייכות. לשייכות נאמר I have או Ben has. מבנה there נשאר הנושא המרכזי שלנו.",
+      "why": "מיקום אינו שייכות. לשייכות נאמר I have או Daniel has. מבנה there נשאר הנושא המרכזי שלנו.",
       "tense": "הווה",
       "context": "",
       "reveal": false
@@ -2070,10 +2070,10 @@
       "opts": [
         "יש פסנתר בחדר.",
         "הפסנתר שייך לי.",
-        "לבן יש פסנתר."
+        "לדניאל יש פסנתר."
       ],
       "correct": 0,
-      "why": "מיקום אינו שייכות. לשייכות נאמר I have או Ben has. מבנה there נשאר הנושא המרכזי שלנו.",
+      "why": "מיקום אינו שייכות. לשייכות נאמר I have או Daniel has. מבנה there נשאר הנושא המרכזי שלנו.",
       "tense": "הווה",
       "context": "",
       "reveal": true
@@ -2432,7 +2432,7 @@
       "kind": "rule",
       "title": "גם שייכות יכולה להיות בעבר",
       "section": "עבר: היה והיו",
-      "formula": "Ben has a bag now.\nBen had a bag yesterday.",
+      "formula": "Daniel has a bag now.\nDaniel had a bag yesterday.",
       "he": "לשייכות בעבר משתמשים ב־had. כדי לומר שהיה משהו במקום משתמשים ב־there was או there were.",
       "tense": "",
       "rows": null
@@ -2441,14 +2441,14 @@
       "kind": "quiz",
       "title": "משמעות לפני צורה",
       "section": "עבר: היה והיו",
-      "q": "אתמול היה לבן תיק.",
+      "q": "אתמול היה לדניאל תיק.",
       "opts": [
         "There was a bag in the room.",
-        "Ben had a bag yesterday.",
+        "Daniel had a bag yesterday.",
         "There were bags yesterday."
       ],
       "correct": 1,
-      "why": "המשפט בעברית מספר מה היה לבן. לכן had. שאר האפשרויות מתארות מה היה במקום.",
+      "why": "המשפט בעברית מספר מה היה לדניאל. לכן had. שאר האפשרויות מתארות מה היה במקום.",
       "tense": "עבר",
       "context": "",
       "reveal": false
@@ -2457,14 +2457,14 @@
       "kind": "quiz",
       "title": "משמעות לפני צורה",
       "section": "עבר: היה והיו",
-      "q": "אתמול היה לבן תיק.",
+      "q": "אתמול היה לדניאל תיק.",
       "opts": [
         "There was a bag in the room.",
-        "Ben had a bag yesterday.",
+        "Daniel had a bag yesterday.",
         "There were bags yesterday."
       ],
       "correct": 1,
-      "why": "המשפט בעברית מספר מה היה לבן. לכן had. שאר האפשרויות מתארות מה היה במקום.",
+      "why": "המשפט בעברית מספר מה היה לדניאל. לכן had. שאר האפשרויות מתארות מה היה במקום.",
       "tense": "עבר",
       "context": "",
       "reveal": true
@@ -2655,7 +2655,7 @@
       "section": "קוראים ובודקים",
       "q": "Who owns the ball?",
       "opts": [
-        "Ben.",
+        "Daniel.",
         "The teacher.",
         "The text does not say."
       ],
@@ -2671,7 +2671,7 @@
       "section": "קוראים ובודקים",
       "q": "Who owns the ball?",
       "opts": [
-        "Ben.",
+        "Daniel.",
         "The teacher.",
         "The text does not say."
       ],

@@ -18,6 +18,6 @@ async def main():
  clips=[];cursor=0
  for s in data['sentences']:
   w=cues[cursor:cursor+len(s['words'])];cursor+=len(w);clips.append(dict(start=w[0]['start'],end=w[-1]['end'],words=w))
- out=dict(audio='assets/narration.mp3?v=1',voice='en-US-BrianNeural',pitch='+10Hz',synthetic=True,sha256=hashlib.sha256(dest.read_bytes()).hexdigest(),sentences=clips)
+ out=dict(audio='assets/narration.mp3?v=names-2',voice='en-US-BrianNeural',pitch='+10Hz',synthetic=True,sha256=hashlib.sha256(dest.read_bytes()).hexdigest(),sentences=clips)
  (R/'audio.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n');print('Recorded',len(clips),'sentences;',len(cues),'words;',dest.stat().st_size,'bytes',flush=True)
 asyncio.run(main())

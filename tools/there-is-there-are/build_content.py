@@ -22,10 +22,10 @@ rule('שייכות או מה נמצא במקום?','I have a bag.\nThere is a ba
 ex('I have a soccer ball.','יש לי כדורגל.','מה יש לי?')
 ex('There is a soccer ball on the chair.','יש כדורגל על הכיסא.','מה נמצא במקום?')
 rule('have או has?','I / you / we / they → have\nhe / she / it → has','מסתכלים על מי שיש לו משהו, ולא על מספר החפצים. גם לחדר יכול להיות משהו: The room has two windows.')
-ex('Ben has two history books.','לבן יש שני ספרי היסטוריה.','בעל החפצים הוא יחיד')
+ex('Daniel has two history books.','לדניאל יש שני ספרי היסטוריה.','בעל החפצים הוא יחיד')
 ex('We have one ball.','יש לנו כדור אחד.','בעלי החפץ הם רבים')
 quiz('בודקים את המשמעות','יש כדור על השולחן.',['I have a ball.','There is a ball on the table.','He has a ball.'],1,'המשפט מתאר מה נמצא על השולחן. הוא אינו אומר למי הכדור שייך.')
-quiz('שימו לב למי, לא לכמה','Ben ___ three pencils.',['have','are','has'],2,'Ben = he, ולכן has. שלושת העפרונות אינם משנים את הפועל שמתאים לבן.')
+quiz('שימו לב למי, לא לכמה','Daniel ___ three pencils.',['have','are','has'],2,'Daniel = he, ולכן has. שלושת העפרונות אינם משנים את הפועל שמתאים לדניאל.')
 rule('there בתחילת המבנה','There is a bag here.','כאן there הוא חלק מהמבנה שמשמעותו „יש”. הוא אינו חייב לציין „שם”. אפשר לתאר גם משהו שנמצא כאן.')
 pause('Northern Lights','../../grade9/assets/northern-lights.webp')
 section='הווה: יש ואין'
@@ -36,7 +36,7 @@ ex('There is a drawer under the table.','יש מגירה מתחת לשולחן.'
 ex('There is a Bible on the shelf.','יש תנ״ך על המדף.','מילה מקבוצה 01')
 quiz('מה קובע את הפועל?','There ___ one book on the desks.',['are','is','have'],1,'one book הוא הדבר שמציגים, ולכן is. המילה desks מופיעה כחלק מתיאור המקום ואינה קובעת את הפועל.')
 quiz('איתור טעות','איזה משפט תקין?',['There is three chairs.','There are three chairs.','There have three chairs.'],1,'three chairs הם רבים. המבנה הוא There are + רבים.')
-quiz('חוזרים למשמעות','There are two books on the table. מה ידוע?',['הספרים שייכים לבן.','הספרים נמצאים על השולחן.','יש לי שני ספרים.'],1,'there are מציג מה נמצא במקום. כדי לומר שלבן יש ספרים נשתמש ב־Ben has.')
+quiz('חוזרים למשמעות','There are two books on the table. מה ידוע?',['הספרים שייכים לדניאל.','הספרים נמצאים על השולחן.','יש לי שני ספרים.'],1,'there are מציג מה נמצא במקום. כדי לומר שלדניאל יש ספרים נשתמש ב־Daniel has.')
 rule('שלילה בהווה','is not = isn’t\nare not = aren’t','מוסיפים not אחרי is או are. הקיצור אינו משנה את המשמעות.')
 ex('There is not a computer in this room.','אין מחשב בחדר הזה.','שלילה מלאה')
 ex("There isn't a computer in this room.",'אין מחשב בחדר הזה.','אותה משמעות בקיצור')
@@ -68,7 +68,7 @@ pause('Petra','../../grade9/assets/petra.webp')
 add('checkpoint','סיום מפגש 1',sub='אמרו משפט חיובי, משפט שלילי ושאלה על הכיתה. הסבירו למה there is אינו אומר למי החפץ שייך. אפשר לעצור כאן ולהמשיך במפגש הבא.')
 section='עבר: היה והיו'
 add('restart','מפגש 2 · חוזרים בלי להציץ',sub='כתבו מהזיכרון משפט אחד עם There is, משפט עם There aren’t ושאלה עם Are there. בדקו בסיכום ההווה, ואז המשיכו.')
-quiz('חזרה קצרה: שייכות או מקום?','There is a piano in the room. מה אפשר להסיק?',['יש פסנתר בחדר.','הפסנתר שייך לי.','לבן יש פסנתר.'],0,'מיקום אינו שייכות. לשייכות נאמר I have או Ben has. מבנה there נשאר הנושא המרכזי שלנו.')
+quiz('חזרה קצרה: שייכות או מקום?','There is a piano in the room. מה אפשר להסיק?',['יש פסנתר בחדר.','הפסנתר שייך לי.','לדניאל יש פסנתר.'],0,'מיקום אינו שייכות. לשייכות נאמר I have או Daniel has. מבנה there נשאר הנושא המרכזי שלנו.')
 add('vocab','עוד מילה לפני הקריאה',entries=['g02-28'],sub='נשתמש ב־lock כדי לתאר מה היה ומה לא היה בחדר.')
 rule('אתמול: מחליפים רק את הפועל','is → was\nare → were','there נשאר. יחיד בעבר: was. רבים בעבר: were. חפשו רמזי זמן, למשל yesterday או last week.',tense='עבר')
 ex('There was a drawer in the classroom yesterday.','הייתה מגירה בכיתה אתמול.','יחיד בעבר','עבר')
@@ -86,8 +86,8 @@ ex('Were there any books in the drawer?','האם היו ספרים במגירה?
 ex('Yes, there were.','כן, היו.','תשובה קצרה ברבים בעבר','עבר')
 quiz('לא מחליפים זמן באמצע','Were there any pencils?',['No, there aren’t.',"No, there weren't.","No, there wasn't."],1,'Were מציין רבים בעבר, ולכן weren’t. aren’t היה עונה על ההווה.','עבר',context='נתון: אתמול לא היו עפרונות על השולחן.')
 add('summary','עבר במבט אחד',tense='עבר',rows=[['חיוב','There was a book.','There were books.'],['שלילה','There wasn’t a book.','There weren’t any books.'],['שאלה','Was there a book?','Were there any books?'],['כן','Yes, there was.','Yes, there were.'],['לא','No, there wasn’t.','No, there weren’t.']])
-rule('גם שייכות יכולה להיות בעבר','Ben has a bag now.\nBen had a bag yesterday.','לשייכות בעבר משתמשים ב־had. כדי לומר שהיה משהו במקום משתמשים ב־there was או there were.',tense='')
-quiz('משמעות לפני צורה','אתמול היה לבן תיק.',['There was a bag in the room.','Ben had a bag yesterday.','There were bags yesterday.'],1,'המשפט בעברית מספר מה היה לבן. לכן had. שאר האפשרויות מתארות מה היה במקום.','עבר')
+rule('גם שייכות יכולה להיות בעבר','Daniel has a bag now.\nDaniel had a bag yesterday.','לשייכות בעבר משתמשים ב־had. כדי לומר שהיה משהו במקום משתמשים ב־there was או there were.',tense='')
+quiz('משמעות לפני צורה','אתמול היה לדניאל תיק.',['There was a bag in the room.','Daniel had a bag yesterday.','There were bags yesterday.'],1,'המשפט בעברית מספר מה היה לדניאל. לכן had. שאר האפשרויות מתארות מה היה במקום.','עבר')
 task('עכשיו ואתמול','עבדו בזוגות. היום: שני ספרים ואין כדור. אתמול: ספר אחד וכדור אחד. אמרו משפט על היום, שני משפטים על אתמול ושאלה על אתמול.','There are two books today.\nThere was one book yesterday.\nThere was a ball yesterday.\nWas there a ball yesterday?','בדקו זמן, יחיד/רבים, והקדמת was בשאלה. אפשר גם משפט שלילה נכון על היום: There isn’t a ball today.')
 pause('Northern Lights · A quiet moment','../../grade9/assets/northern-lights.webp')
 section='קוראים ובודקים'
@@ -95,7 +95,7 @@ passage=[('Yesterday, there was a drawer in our classroom.','אתמול היית
 add('reading','The Classroom Drawer',text=' '.join(x[0] for x in passage),sub='קראו פעם אחת: מה השתנה? לאחר מכן נבדוק כל משפט ונחפש ראיות.')
 for en,he,t in passage:ex(en,he,'The Classroom Drawer',t)
 quiz('שאלת קשב: המיקום השתנה','Where are the books now?',['In the drawer.','On the shelf.','Under the table.'],1,'עכשיו הספרים על המדף. במגירה היו ספרים אתמול. חזרו למשפט שמתחיל There are.')
-quiz('שאלת קשב: מה באמת ידוע?','Who owns the ball?',['Ben.','The teacher.','The text does not say.'],2,'הטקסט מספר איפה הכדור נמצא. הוא אינו אומר למי הכדור שייך. there is אינו מוכיח שייכות.')
+quiz('שאלת קשב: מה באמת ידוע?','Who owns the ball?',['Daniel.','The teacher.','The text does not say.'],2,'הטקסט מספר איפה הכדור נמצא. הוא אינו אומר למי הכדור שייך. there is אינו מוכיח שייכות.')
 quiz('עבר מול הווה','Was there a ball in the drawer yesterday?',['Yes, there was.',"No, there wasn't.","No, there isn't."],1,'אתמול לא היה כדור במגירה. היום יש כדור על השולחן; זה אינו משנה את התשובה על אתמול.','עבר')
 section='תרגול עצמאי'
 rule('מקרה נוסף: מים','There is some water.\nThere isn’t any water.','water הוא שם עצם שאינו נספר ביחידות במבנה הזה, ולכן משתמשים ב־is. bottles הם בקבוקים שאפשר לספור: There are two bottles.')
@@ -107,7 +107,7 @@ quiz('בדיקת יציאה: שלילה בעבר','Yesterday, there ___ any chai
 quiz('בדיקת יציאה: שאלה','שאלו אם יש חלונות בחדר.',['Are there any windows in the room?','Is there any windows in the room?','Do there have windows in the room?'],0,'windows הם רבים. are עובר להתחלה ואין צורך ב־do.')
 add('finish','לפני שסוגרים',text='מי? → have / has / had\nמה נמצא? → there is / are / was / were',sub='אמרו משפט אחד חדש בלי להסתכל. אחר כך חזרו לסיכום ובדקו את הזמן, המספר וסדר המילים.')
 # Every displayed sentence token gets an individually accessible contextual Hebrew gloss.
-gloss={'i':'אני','have':'יש ל־; שייכות','has':'יש לו / לה; שייכות ביחיד','had':'היה ל־; שייכות בעבר','a':'פריט אחד, לא מיודע','blue':'כחול','bag':'תיק','there':'חלק ממבנה יש / היה; בשאלה האם יש / היה','is':'יש ביחיד, כחלק מ־there is','are':'יש ברבים, כחלק מ־there are','was':'היה / הייתה ביחיד','were':'היו ברבים','on':'על','the':'ה־','chair':'כיסא','ben':'בן (שם)','two':'שניים / שתי','books':'ספרים','we':'אנחנו','one':'אחד / אחת','ball':'כדור','piano':'פסנתר','in':'ב־ / בתוך','classroom':'כיתה','windows':'חלונות','drawer':'מגירה','under':'מתחת ל־','table':'שולחן','not':'לא; יוצר שלילה','computer':'מחשב','this':'הזה / הזאת','room':'חדר',"isn't":'is not; אין ביחיד',"aren't":'are not; אין ברבים','any':'בשאלה: כלשהם; בשלילה: אין בכלל','bags':'תיקים','floor':'רצפה','yes':'כן','no':'לא','yesterday':'אתמול','three':'שלושה / שלוש',"wasn't":'was not; לא היה / הייתה',"weren't":'were not; לא היו','pencils':'עפרונות','our':'שלנו','today':'היום','shelf':'מדף','now':'עכשיו','some':'כמות כלשהי / מעט','water':'מים','bottle':'בקבוק'}
+gloss={'i':'אני','have':'יש ל־; שייכות','has':'יש לו / לה; שייכות ביחיד','had':'היה ל־; שייכות בעבר','a':'פריט אחד, לא מיודע','blue':'כחול','bag':'תיק','there':'חלק ממבנה יש / היה; בשאלה האם יש / היה','is':'יש ביחיד, כחלק מ־there is','are':'יש ברבים, כחלק מ־there are','was':'היה / הייתה ביחיד','were':'היו ברבים','on':'על','the':'ה־','chair':'כיסא','daniel':'דניאל (שם)','two':'שניים / שתי','books':'ספרים','we':'אנחנו','one':'אחד / אחת','ball':'כדור','piano':'פסנתר','in':'ב־ / בתוך','classroom':'כיתה','windows':'חלונות','drawer':'מגירה','under':'מתחת ל־','table':'שולחן','not':'לא; יוצר שלילה','computer':'מחשב','this':'הזה / הזאת','room':'חדר',"isn't":'is not; אין ביחיד',"aren't":'are not; אין ברבים','any':'בשאלה: כלשהם; בשלילה: אין בכלל','bags':'תיקים','floor':'רצפה','yes':'כן','no':'לא','yesterday':'אתמול','three':'שלושה / שלוש',"wasn't":'was not; לא היה / הייתה',"weren't":'were not; לא היו','pencils':'עפרונות','our':'שלנו','today':'היום','shelf':'מדף','now':'עכשיו','some':'כמות כלשהי / מעט','water':'מים','bottle':'בקבוק'}
 gloss.update({'soccer':'כדורגל','history':'היסטוריה','bible':'התנ״ך; כתבי הקודש','short':'קצר / קצרה','break':'הפסקה; חופשה','after':'אחרי','exercise':'תרגיל; פעילות גופנית','an':'פריט אחד, לא מיודע','explanation':'הסבר','board':'לוח','mouse':'עכבר מחשב','next':'חלק מהביטוי next to: ליד','to':'חלק מהביטוי next to: ליד','lock':'מנעול'})
 for x in sentences:
  x['words']=[]

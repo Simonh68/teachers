@@ -1,9 +1,9 @@
 {
-  "audio": "assets/narration.mp3?v=1",
+  "audio": "assets/narration.mp3?v=names-2",
   "voice": "en-US-BrianNeural",
   "pitch": "+10Hz",
   "synthetic": true,
-  "sha256": "35e6bdd2df8829fd1b97914341b4e5c82a75af330a98f3a725f0ce3182534aeb",
+  "sha256": "d02007e925409778a5d11ee7c9ab2e0cf6365f3313eba3dba8a7bc423ae62b1c",
   "sentences": [
     {
       "start": 0.05,
@@ -83,1244 +83,1244 @@
       ]
     },
     {
-      "start": 3.95,
-      "end": 5.6,
+      "start": 3.9375,
+      "end": 5.725,
       "words": [
         {
-          "word": "Ben",
-          "start": 3.95,
-          "end": 4.2
+          "word": "Daniel",
+          "start": 3.9375,
+          "end": 4.35
         },
         {
           "word": "has",
-          "start": 4.2125,
-          "end": 4.475
+          "start": 4.3625,
+          "end": 4.6125
         },
         {
           "word": "two",
-          "start": 4.4875,
-          "end": 4.7
+          "start": 4.625,
+          "end": 4.8375
         },
         {
           "word": "history",
-          "start": 4.7125,
-          "end": 5.125
+          "start": 4.85,
+          "end": 5.2625
         },
         {
           "word": "books.",
-          "start": 5.1375,
-          "end": 5.6
+          "start": 5.275,
+          "end": 5.725
         }
       ]
     },
     {
-      "start": 5.975,
-      "end": 6.975,
+      "start": 6.1,
+      "end": 7.1,
       "words": [
         {
           "word": "We",
-          "start": 5.975,
-          "end": 6.0625
+          "start": 6.1,
+          "end": 6.1875
         },
         {
           "word": "have",
-          "start": 6.075,
-          "end": 6.275
+          "start": 6.2,
+          "end": 6.4
         },
         {
           "word": "one",
-          "start": 6.2875,
-          "end": 6.55
+          "start": 6.4125,
+          "end": 6.675
         },
         {
           "word": "ball.",
-          "start": 6.5625,
-          "end": 6.975
+          "start": 6.6875,
+          "end": 7.1
         }
       ]
     },
     {
-      "start": 7.35,
-      "end": 9.275,
+      "start": 7.475,
+      "end": 9.4,
       "words": [
         {
           "word": "There",
-          "start": 7.35,
-          "end": 7.5125
+          "start": 7.475,
+          "end": 7.6375
         },
         {
           "word": "is",
-          "start": 7.525,
-          "end": 7.6625
+          "start": 7.65,
+          "end": 7.7875
         },
         {
           "word": "a",
-          "start": 7.675,
-          "end": 7.7625
+          "start": 7.8,
+          "end": 7.8875
         },
         {
           "word": "piano",
-          "start": 7.775,
-          "end": 8.3625
+          "start": 7.9,
+          "end": 8.4875
         },
         {
           "word": "in",
-          "start": 8.375,
-          "end": 8.5
+          "start": 8.5,
+          "end": 8.625
         },
         {
           "word": "the",
-          "start": 8.5125,
-          "end": 8.5875
+          "start": 8.6375,
+          "end": 8.7125
         },
         {
           "word": "classroom.",
-          "start": 8.6,
-          "end": 9.275
+          "start": 8.725,
+          "end": 9.4
         }
       ]
     },
     {
-      "start": 9.6625,
-      "end": 11.575,
+      "start": 9.7875,
+      "end": 11.7,
       "words": [
         {
           "word": "There",
-          "start": 9.6625,
-          "end": 9.7625
+          "start": 9.7875,
+          "end": 9.8875
         },
         {
           "word": "are",
-          "start": 9.775,
-          "end": 9.875
+          "start": 9.9,
+          "end": 10.0
         },
         {
           "word": "two",
-          "start": 9.8875,
-          "end": 10.1125
+          "start": 10.0125,
+          "end": 10.2375
         },
         {
           "word": "windows",
-          "start": 10.125,
-          "end": 10.65
+          "start": 10.25,
+          "end": 10.775
         },
         {
           "word": "in",
-          "start": 10.6625,
-          "end": 10.8
+          "start": 10.7875,
+          "end": 10.925
         },
         {
           "word": "the",
-          "start": 10.8125,
-          "end": 10.875
+          "start": 10.9375,
+          "end": 11.0
         },
         {
           "word": "classroom.",
-          "start": 10.8875,
-          "end": 11.575
+          "start": 11.0125,
+          "end": 11.7
         }
       ]
     },
     {
-      "start": 11.9625,
-      "end": 13.8375,
+      "start": 12.0875,
+      "end": 13.9625,
       "words": [
         {
           "word": "There",
-          "start": 11.9625,
-          "end": 12.15
+          "start": 12.0875,
+          "end": 12.275
         },
         {
           "word": "is",
-          "start": 12.1625,
-          "end": 12.3125
+          "start": 12.2875,
+          "end": 12.4375
         },
         {
           "word": "a",
-          "start": 12.325,
-          "end": 12.4
+          "start": 12.45,
+          "end": 12.525
         },
         {
           "word": "drawer",
-          "start": 12.4125,
-          "end": 12.9125
+          "start": 12.5375,
+          "end": 13.0375
         },
         {
           "word": "under",
-          "start": 12.925,
-          "end": 13.1875
+          "start": 13.05,
+          "end": 13.3125
         },
         {
           "word": "the",
-          "start": 13.2,
-          "end": 13.3
+          "start": 13.325,
+          "end": 13.425
         },
         {
           "word": "table.",
-          "start": 13.3125,
-          "end": 13.8375
+          "start": 13.4375,
+          "end": 13.9625
         }
       ]
     },
     {
-      "start": 14.2125,
-      "end": 15.9875,
+      "start": 14.3375,
+      "end": 16.1125,
       "words": [
         {
           "word": "There",
-          "start": 14.2125,
-          "end": 14.3875
+          "start": 14.3375,
+          "end": 14.5125
         },
         {
           "word": "is",
-          "start": 14.4,
-          "end": 14.5375
+          "start": 14.525,
+          "end": 14.6625
         },
         {
           "word": "a",
-          "start": 14.55,
-          "end": 14.65
+          "start": 14.675,
+          "end": 14.775
         },
         {
           "word": "Bible",
-          "start": 14.6625,
-          "end": 15.1375
+          "start": 14.7875,
+          "end": 15.2625
         },
         {
           "word": "on",
-          "start": 15.15,
-          "end": 15.3125
+          "start": 15.275,
+          "end": 15.4375
         },
         {
           "word": "the",
-          "start": 15.325,
-          "end": 15.3875
+          "start": 15.45,
+          "end": 15.5125
         },
         {
           "word": "shelf.",
-          "start": 15.4,
-          "end": 15.9875
+          "start": 15.525,
+          "end": 16.1125
         }
       ]
     },
     {
-      "start": 16.375,
-      "end": 18.4125,
+      "start": 16.5,
+      "end": 18.5375,
       "words": [
         {
           "word": "There",
-          "start": 16.375,
-          "end": 16.5125
-        },
-        {
-          "word": "is",
-          "start": 16.525,
+          "start": 16.5,
           "end": 16.6375
         },
         {
-          "word": "not",
+          "word": "is",
           "start": 16.65,
-          "end": 16.9375
+          "end": 16.7625
+        },
+        {
+          "word": "not",
+          "start": 16.775,
+          "end": 17.0625
         },
         {
           "word": "a",
-          "start": 16.95,
-          "end": 17.025
+          "start": 17.075,
+          "end": 17.15
         },
         {
           "word": "computer",
-          "start": 17.0375,
-          "end": 17.6125
+          "start": 17.1625,
+          "end": 17.7375
         },
         {
           "word": "in",
-          "start": 17.625,
-          "end": 17.775
+          "start": 17.75,
+          "end": 17.9
         },
         {
           "word": "this",
-          "start": 17.7875,
-          "end": 18.0
+          "start": 17.9125,
+          "end": 18.125
         },
         {
           "word": "room.",
-          "start": 18.0125,
-          "end": 18.4125
+          "start": 18.1375,
+          "end": 18.5375
         }
       ]
     },
     {
-      "start": 18.8,
-      "end": 20.6875,
+      "start": 18.925,
+      "end": 20.8125,
       "words": [
         {
           "word": "There",
-          "start": 18.8,
-          "end": 18.9375
+          "start": 18.925,
+          "end": 19.0625
         },
         {
           "word": "isn't",
-          "start": 18.95,
-          "end": 19.2375
+          "start": 19.075,
+          "end": 19.3625
         },
         {
           "word": "a",
-          "start": 19.25,
-          "end": 19.3125
+          "start": 19.375,
+          "end": 19.4375
         },
         {
           "word": "computer",
-          "start": 19.325,
-          "end": 19.9
+          "start": 19.45,
+          "end": 20.025
         },
         {
           "word": "in",
-          "start": 19.9125,
-          "end": 20.05
+          "start": 20.0375,
+          "end": 20.175
         },
         {
           "word": "this",
-          "start": 20.0625,
-          "end": 20.275
+          "start": 20.1875,
+          "end": 20.4
         },
         {
           "word": "room.",
-          "start": 20.2875,
-          "end": 20.6875
+          "start": 20.4125,
+          "end": 20.8125
         }
       ]
     },
     {
-      "start": 21.0625,
-      "end": 22.9875,
+      "start": 21.1875,
+      "end": 23.1125,
       "words": [
         {
           "word": "There",
-          "start": 21.0625,
-          "end": 21.225
+          "start": 21.1875,
+          "end": 21.35
         },
         {
           "word": "aren't",
-          "start": 21.2375,
-          "end": 21.5125
+          "start": 21.3625,
+          "end": 21.6375
         },
         {
           "word": "any",
-          "start": 21.5375,
-          "end": 21.775
+          "start": 21.6625,
+          "end": 21.9
         },
         {
           "word": "bags",
-          "start": 21.7875,
-          "end": 22.2
+          "start": 21.9125,
+          "end": 22.325
         },
         {
           "word": "on",
-          "start": 22.2125,
-          "end": 22.35
+          "start": 22.3375,
+          "end": 22.475
         },
         {
           "word": "the",
-          "start": 22.3625,
-          "end": 22.45
+          "start": 22.4875,
+          "end": 22.575
         },
         {
           "word": "floor.",
-          "start": 22.4625,
-          "end": 22.9875
+          "start": 22.5875,
+          "end": 23.1125
         }
       ]
     },
     {
-      "start": 23.3625,
-      "end": 25.725,
+      "start": 23.4875,
+      "end": 25.85,
       "words": [
         {
           "word": "There",
-          "start": 23.3625,
-          "end": 23.5125
+          "start": 23.4875,
+          "end": 23.6375
         },
         {
           "word": "is",
-          "start": 23.525,
-          "end": 23.65
+          "start": 23.65,
+          "end": 23.775
         },
         {
           "word": "a",
-          "start": 23.6625,
-          "end": 23.7125
+          "start": 23.7875,
+          "end": 23.8375
         },
         {
           "word": "short",
-          "start": 23.725,
-          "end": 24.125
+          "start": 23.85,
+          "end": 24.25
         },
         {
           "word": "break",
-          "start": 24.1375,
-          "end": 24.5125
+          "start": 24.2625,
+          "end": 24.6375
         },
         {
           "word": "after",
-          "start": 24.5375,
-          "end": 24.8625
+          "start": 24.6625,
+          "end": 24.9875
         },
         {
           "word": "the",
-          "start": 24.875,
-          "end": 24.9375
+          "start": 25.0,
+          "end": 25.0625
         },
         {
           "word": "exercise.",
-          "start": 24.95,
-          "end": 25.725
+          "start": 25.075,
+          "end": 25.85
         }
       ]
     },
     {
-      "start": 26.1,
-      "end": 28.2625,
+      "start": 26.225,
+      "end": 28.3875,
       "words": [
         {
           "word": "There",
-          "start": 26.1,
-          "end": 26.2875
+          "start": 26.225,
+          "end": 26.4125
         },
         {
           "word": "is",
-          "start": 26.3,
-          "end": 26.4875
+          "start": 26.425,
+          "end": 26.6125
         },
         {
           "word": "an",
-          "start": 26.5,
-          "end": 26.625
+          "start": 26.625,
+          "end": 26.75
         },
         {
           "word": "explanation",
-          "start": 26.6375,
-          "end": 27.425
+          "start": 26.7625,
+          "end": 27.55
         },
         {
           "word": "on",
-          "start": 27.4375,
-          "end": 27.625
+          "start": 27.5625,
+          "end": 27.75
         },
         {
           "word": "the",
-          "start": 27.6375,
-          "end": 27.7375
+          "start": 27.7625,
+          "end": 27.8625
         },
         {
           "word": "board.",
-          "start": 27.75,
-          "end": 28.2625
+          "start": 27.875,
+          "end": 28.3875
         }
       ]
     },
     {
-      "start": 28.6625,
-      "end": 30.725,
+      "start": 28.7875,
+      "end": 30.85,
       "words": [
         {
           "word": "There",
-          "start": 28.6625,
-          "end": 28.8375
+          "start": 28.7875,
+          "end": 28.9625
         },
         {
           "word": "is",
-          "start": 28.85,
-          "end": 28.9875
+          "start": 28.975,
+          "end": 29.1125
         },
         {
           "word": "a",
-          "start": 29.0,
-          "end": 29.0625
+          "start": 29.125,
+          "end": 29.1875
         },
         {
           "word": "mouse",
-          "start": 29.075,
-          "end": 29.525
+          "start": 29.2,
+          "end": 29.65
         },
         {
           "word": "next",
-          "start": 29.5375,
-          "end": 29.9
+          "start": 29.6625,
+          "end": 30.025
         },
         {
           "word": "to",
-          "start": 29.9125,
-          "end": 30.0
+          "start": 30.0375,
+          "end": 30.125
         },
         {
           "word": "the",
-          "start": 30.0125,
-          "end": 30.1125
+          "start": 30.1375,
+          "end": 30.2375
         },
         {
           "word": "computer.",
-          "start": 30.125,
-          "end": 30.725
+          "start": 30.25,
+          "end": 30.85
         }
       ]
     },
     {
-      "start": 31.0875,
-      "end": 33.0625,
+      "start": 31.2125,
+      "end": 33.1875,
       "words": [
         {
           "word": "Is",
-          "start": 31.0875,
-          "end": 31.225
+          "start": 31.2125,
+          "end": 31.35
         },
         {
           "word": "there",
-          "start": 31.2375,
-          "end": 31.4625
+          "start": 31.3625,
+          "end": 31.5875
         },
         {
           "word": "a",
-          "start": 31.475,
-          "end": 31.5625
+          "start": 31.6,
+          "end": 31.6875
         },
         {
           "word": "piano",
-          "start": 31.575,
-          "end": 32.1625
+          "start": 31.7,
+          "end": 32.2875
         },
         {
           "word": "in",
-          "start": 32.175,
-          "end": 32.3
+          "start": 32.3,
+          "end": 32.425
         },
         {
           "word": "the",
-          "start": 32.3125,
-          "end": 32.375
+          "start": 32.4375,
+          "end": 32.5
         },
         {
           "word": "classroom?",
-          "start": 32.3875,
-          "end": 33.0625
+          "start": 32.5125,
+          "end": 33.1875
         }
       ]
     },
     {
-      "start": 33.45,
-      "end": 34.3625,
+      "start": 33.575,
+      "end": 34.4875,
       "words": [
         {
           "word": "Yes,",
-          "start": 33.45,
-          "end": 33.7625
+          "start": 33.575,
+          "end": 33.8875
         },
         {
           "word": "there",
-          "start": 33.775,
-          "end": 34.0
+          "start": 33.9,
+          "end": 34.125
         },
         {
           "word": "is.",
-          "start": 34.0125,
-          "end": 34.3625
+          "start": 34.1375,
+          "end": 34.4875
         }
       ]
     },
     {
-      "start": 34.75,
-      "end": 36.3625,
+      "start": 34.875,
+      "end": 36.4875,
       "words": [
         {
           "word": "Are",
-          "start": 34.75,
-          "end": 34.8375
+          "start": 34.875,
+          "end": 34.9625
         },
         {
           "word": "there",
-          "start": 34.85,
-          "end": 35.0125
+          "start": 34.975,
+          "end": 35.1375
         },
         {
           "word": "any",
-          "start": 35.025,
-          "end": 35.2125
+          "start": 35.15,
+          "end": 35.3375
         },
         {
           "word": "bags",
-          "start": 35.225,
-          "end": 35.625
+          "start": 35.35,
+          "end": 35.75
         },
         {
           "word": "on",
-          "start": 35.6375,
-          "end": 35.7875
+          "start": 35.7625,
+          "end": 35.9125
         },
         {
           "word": "the",
-          "start": 35.8,
-          "end": 35.8625
+          "start": 35.925,
+          "end": 35.9875
         },
         {
           "word": "floor?",
-          "start": 35.875,
-          "end": 36.3625
+          "start": 36.0,
+          "end": 36.4875
         }
       ]
     },
     {
-      "start": 36.725,
-      "end": 37.6,
+      "start": 36.85,
+      "end": 37.725,
       "words": [
         {
           "word": "No,",
-          "start": 36.725,
-          "end": 36.9375
+          "start": 36.85,
+          "end": 37.0625
         },
         {
           "word": "there",
-          "start": 36.95,
-          "end": 37.1625
+          "start": 37.075,
+          "end": 37.2875
         },
         {
           "word": "aren't.",
-          "start": 37.175,
-          "end": 37.6
+          "start": 37.3,
+          "end": 37.725
         }
       ]
     },
     {
-      "start": 37.9875,
-      "end": 40.275,
+      "start": 38.1125,
+      "end": 40.4,
       "words": [
         {
           "word": "There",
-          "start": 37.9875,
-          "end": 38.1
+          "start": 38.1125,
+          "end": 38.225
         },
         {
           "word": "was",
-          "start": 38.1125,
-          "end": 38.2625
+          "start": 38.2375,
+          "end": 38.3875
         },
         {
           "word": "a",
-          "start": 38.275,
-          "end": 38.35
+          "start": 38.4,
+          "end": 38.475
         },
         {
           "word": "drawer",
-          "start": 38.3625,
-          "end": 38.8625
+          "start": 38.4875,
+          "end": 38.9875
         },
         {
           "word": "in",
-          "start": 38.875,
-          "end": 39.025
+          "start": 39.0,
+          "end": 39.15
         },
         {
           "word": "the",
-          "start": 39.0375,
-          "end": 39.1
+          "start": 39.1625,
+          "end": 39.225
         },
         {
           "word": "classroom",
-          "start": 39.1125,
-          "end": 39.6375
+          "start": 39.2375,
+          "end": 39.7625
         },
         {
           "word": "yesterday.",
-          "start": 39.65,
-          "end": 40.275
+          "start": 39.775,
+          "end": 40.4
         }
       ]
     },
     {
-      "start": 40.6625,
-      "end": 42.3875,
+      "start": 40.7875,
+      "end": 42.5125,
       "words": [
         {
           "word": "There",
-          "start": 40.6625,
-          "end": 40.775
+          "start": 40.7875,
+          "end": 40.9
         },
         {
           "word": "were",
-          "start": 40.7875,
-          "end": 40.9125
+          "start": 40.9125,
+          "end": 41.0375
         },
         {
           "word": "three",
-          "start": 40.925,
-          "end": 41.2375
+          "start": 41.05,
+          "end": 41.3625
         },
         {
           "word": "books",
-          "start": 41.25,
-          "end": 41.6
+          "start": 41.375,
+          "end": 41.725
         },
         {
           "word": "in",
-          "start": 41.6125,
-          "end": 41.75
+          "start": 41.7375,
+          "end": 41.875
         },
         {
           "word": "the",
-          "start": 41.7625,
-          "end": 41.85
+          "start": 41.8875,
+          "end": 41.975
         },
         {
           "word": "drawer.",
-          "start": 41.8625,
-          "end": 42.3875
+          "start": 41.9875,
+          "end": 42.5125
         }
       ]
     },
     {
-      "start": 42.775,
-      "end": 44.4875,
+      "start": 42.9,
+      "end": 44.6125,
       "words": [
         {
           "word": "There",
-          "start": 42.775,
-          "end": 42.9
+          "start": 42.9,
+          "end": 43.025
         },
         {
           "word": "wasn't",
-          "start": 42.9125,
-          "end": 43.2375
+          "start": 43.0375,
+          "end": 43.3625
         },
         {
           "word": "a",
-          "start": 43.25,
-          "end": 43.325
+          "start": 43.375,
+          "end": 43.45
         },
         {
           "word": "ball",
-          "start": 43.3375,
-          "end": 43.7
+          "start": 43.4625,
+          "end": 43.825
         },
         {
           "word": "in",
-          "start": 43.7125,
-          "end": 43.8375
+          "start": 43.8375,
+          "end": 43.9625
         },
         {
           "word": "the",
-          "start": 43.85,
-          "end": 43.9375
+          "start": 43.975,
+          "end": 44.0625
         },
         {
           "word": "drawer.",
-          "start": 43.95,
-          "end": 44.4875
+          "start": 44.075,
+          "end": 44.6125
         }
       ]
     },
     {
-      "start": 44.875,
-      "end": 47.0375,
+      "start": 45.0,
+      "end": 47.1625,
       "words": [
         {
           "word": "There",
-          "start": 44.875,
-          "end": 45.0125
+          "start": 45.0,
+          "end": 45.1375
         },
         {
           "word": "weren't",
-          "start": 45.025,
-          "end": 45.35
+          "start": 45.15,
+          "end": 45.475
         },
         {
           "word": "any",
-          "start": 45.375,
-          "end": 45.625
+          "start": 45.5,
+          "end": 45.75
         },
         {
           "word": "pencils",
-          "start": 45.6375,
-          "end": 46.2125
+          "start": 45.7625,
+          "end": 46.3375
         },
         {
           "word": "on",
-          "start": 46.225,
-          "end": 46.3875
+          "start": 46.35,
+          "end": 46.5125
         },
         {
           "word": "the",
-          "start": 46.4,
-          "end": 46.475
+          "start": 46.525,
+          "end": 46.6
         },
         {
           "word": "table.",
-          "start": 46.4875,
-          "end": 47.0375
+          "start": 46.6125,
+          "end": 47.1625
         }
       ]
     },
     {
-      "start": 47.425,
-      "end": 49.125,
+      "start": 47.55,
+      "end": 49.25,
       "words": [
         {
           "word": "There",
-          "start": 47.425,
-          "end": 47.55
+          "start": 47.55,
+          "end": 47.675
         },
         {
           "word": "wasn't",
-          "start": 47.5625,
-          "end": 47.875
+          "start": 47.6875,
+          "end": 48.0
         },
         {
           "word": "a",
-          "start": 47.8875,
-          "end": 47.95
+          "start": 48.0125,
+          "end": 48.075
         },
         {
           "word": "lock",
-          "start": 47.9625,
-          "end": 48.3375
+          "start": 48.0875,
+          "end": 48.4625
         },
         {
           "word": "on",
-          "start": 48.35,
-          "end": 48.4875
+          "start": 48.475,
+          "end": 48.6125
         },
         {
           "word": "the",
-          "start": 48.5,
-          "end": 48.5875
+          "start": 48.625,
+          "end": 48.7125
         },
         {
           "word": "drawer.",
-          "start": 48.6,
-          "end": 49.125
+          "start": 48.725,
+          "end": 49.25
         }
       ]
     },
     {
-      "start": 49.525,
-      "end": 51.025,
+      "start": 49.65,
+      "end": 51.15,
       "words": [
         {
           "word": "Was",
-          "start": 49.525,
-          "end": 49.6375
+          "start": 49.65,
+          "end": 49.7625
         },
         {
           "word": "there",
-          "start": 49.65,
-          "end": 49.85
+          "start": 49.775,
+          "end": 49.975
         },
         {
           "word": "a",
-          "start": 49.8625,
-          "end": 49.9375
+          "start": 49.9875,
+          "end": 50.0625
         },
         {
           "word": "ball",
-          "start": 49.95,
-          "end": 50.2875
+          "start": 50.075,
+          "end": 50.4125
         },
         {
           "word": "in",
-          "start": 50.3,
-          "end": 50.4
+          "start": 50.425,
+          "end": 50.525
         },
         {
           "word": "the",
-          "start": 50.4125,
-          "end": 50.5
+          "start": 50.5375,
+          "end": 50.625
         },
         {
           "word": "drawer?",
-          "start": 50.5125,
-          "end": 51.025
+          "start": 50.6375,
+          "end": 51.15
         }
       ]
     },
     {
-      "start": 51.3875,
-      "end": 52.3375,
+      "start": 51.5125,
+      "end": 52.4625,
       "words": [
         {
           "word": "No,",
-          "start": 51.3875,
-          "end": 51.6
+          "start": 51.5125,
+          "end": 51.725
         },
         {
           "word": "there",
-          "start": 51.6125,
-          "end": 51.7875
+          "start": 51.7375,
+          "end": 51.9125
         },
         {
           "word": "wasn't.",
-          "start": 51.8,
-          "end": 52.3375
+          "start": 51.925,
+          "end": 52.4625
         }
       ]
     },
     {
-      "start": 52.7375,
-      "end": 54.4375,
+      "start": 52.8625,
+      "end": 54.5625,
       "words": [
         {
           "word": "Were",
-          "start": 52.7375,
-          "end": 52.8375
+          "start": 52.8625,
+          "end": 52.9625
         },
         {
           "word": "there",
-          "start": 52.85,
-          "end": 53.0625
+          "start": 52.975,
+          "end": 53.1875
         },
         {
           "word": "any",
-          "start": 53.075,
-          "end": 53.3125
+          "start": 53.2,
+          "end": 53.4375
         },
         {
           "word": "books",
-          "start": 53.325,
-          "end": 53.6625
+          "start": 53.45,
+          "end": 53.7875
         },
         {
           "word": "in",
-          "start": 53.675,
-          "end": 53.8
+          "start": 53.8,
+          "end": 53.925
         },
         {
           "word": "the",
-          "start": 53.8125,
-          "end": 53.9
+          "start": 53.9375,
+          "end": 54.025
         },
         {
           "word": "drawer?",
-          "start": 53.9125,
-          "end": 54.4375
+          "start": 54.0375,
+          "end": 54.5625
         }
       ]
     },
     {
-      "start": 54.825,
-      "end": 55.675,
+      "start": 54.95,
+      "end": 55.8,
       "words": [
         {
           "word": "Yes,",
-          "start": 54.825,
-          "end": 55.1375
+          "start": 54.95,
+          "end": 55.2625
         },
         {
           "word": "there",
-          "start": 55.15,
-          "end": 55.3375
+          "start": 55.275,
+          "end": 55.4625
         },
         {
           "word": "were.",
-          "start": 55.35,
-          "end": 55.675
+          "start": 55.475,
+          "end": 55.8
         }
       ]
     },
     {
-      "start": 56.075,
-      "end": 58.9125,
+      "start": 56.2,
+      "end": 59.0375,
       "words": [
         {
           "word": "Yesterday,",
-          "start": 56.075,
-          "end": 56.6625
+          "start": 56.2,
+          "end": 56.7875
         },
         {
           "word": "there",
-          "start": 57.1625,
-          "end": 57.2875
+          "start": 57.2875,
+          "end": 57.4125
         },
         {
           "word": "was",
-          "start": 57.3,
-          "end": 57.425
+          "start": 57.425,
+          "end": 57.55
         },
         {
           "word": "a",
-          "start": 57.4375,
-          "end": 57.5125
+          "start": 57.5625,
+          "end": 57.6375
         },
         {
           "word": "drawer",
-          "start": 57.525,
-          "end": 58.0
+          "start": 57.65,
+          "end": 58.125
         },
         {
           "word": "in",
-          "start": 58.0125,
-          "end": 58.1625
+          "start": 58.1375,
+          "end": 58.2875
         },
         {
           "word": "our",
-          "start": 58.175,
-          "end": 58.275
+          "start": 58.3,
+          "end": 58.4
         },
         {
           "word": "classroom.",
-          "start": 58.2875,
-          "end": 58.9125
+          "start": 58.4125,
+          "end": 59.0375
         }
       ]
     },
     {
-      "start": 59.3,
-      "end": 61.025,
+      "start": 59.425,
+      "end": 61.15,
       "words": [
         {
           "word": "There",
-          "start": 59.3,
-          "end": 59.4125
+          "start": 59.425,
+          "end": 59.5375
         },
         {
           "word": "were",
-          "start": 59.425,
-          "end": 59.55
+          "start": 59.55,
+          "end": 59.675
         },
         {
           "word": "three",
-          "start": 59.5625,
-          "end": 59.875
+          "start": 59.6875,
+          "end": 60.0
         },
         {
           "word": "books",
-          "start": 59.8875,
-          "end": 60.2375
+          "start": 60.0125,
+          "end": 60.3625
         },
         {
           "word": "in",
-          "start": 60.25,
-          "end": 60.3875
+          "start": 60.375,
+          "end": 60.5125
         },
         {
           "word": "the",
-          "start": 60.4,
-          "end": 60.4875
+          "start": 60.525,
+          "end": 60.6125
         },
         {
           "word": "drawer.",
-          "start": 60.5,
-          "end": 61.025
+          "start": 60.625,
+          "end": 61.15
         }
       ]
     },
     {
-      "start": 61.4125,
-      "end": 63.125,
+      "start": 61.5375,
+      "end": 63.25,
       "words": [
         {
           "word": "There",
-          "start": 61.4125,
-          "end": 61.5375
+          "start": 61.5375,
+          "end": 61.6625
         },
         {
           "word": "wasn't",
-          "start": 61.55,
-          "end": 61.875
+          "start": 61.675,
+          "end": 62.0
         },
         {
           "word": "a",
-          "start": 61.8875,
-          "end": 61.9625
+          "start": 62.0125,
+          "end": 62.0875
         },
         {
           "word": "ball",
-          "start": 61.975,
-          "end": 62.3375
+          "start": 62.1,
+          "end": 62.4625
         },
         {
           "word": "in",
-          "start": 62.35,
-          "end": 62.475
+          "start": 62.475,
+          "end": 62.6
         },
         {
           "word": "the",
-          "start": 62.4875,
-          "end": 62.575
+          "start": 62.6125,
+          "end": 62.7
         },
         {
           "word": "drawer.",
-          "start": 62.5875,
-          "end": 63.125
+          "start": 62.7125,
+          "end": 63.25
         }
       ]
     },
     {
-      "start": 63.525,
-      "end": 65.55,
+      "start": 63.65,
+      "end": 65.675,
       "words": [
         {
           "word": "Today,",
-          "start": 63.525,
-          "end": 63.9875
+          "start": 63.65,
+          "end": 64.1125
         },
         {
           "word": "there",
-          "start": 64.0125,
-          "end": 64.1875
-        },
-        {
-          "word": "is",
-          "start": 64.2,
+          "start": 64.1375,
           "end": 64.3125
         },
         {
-          "word": "a",
+          "word": "is",
           "start": 64.325,
-          "end": 64.4125
+          "end": 64.4375
+        },
+        {
+          "word": "a",
+          "start": 64.45,
+          "end": 64.5375
         },
         {
           "word": "ball",
-          "start": 64.425,
-          "end": 64.7625
+          "start": 64.55,
+          "end": 64.8875
         },
         {
           "word": "on",
-          "start": 64.775,
-          "end": 64.925
+          "start": 64.9,
+          "end": 65.05
         },
         {
           "word": "the",
-          "start": 64.9375,
-          "end": 65.0125
+          "start": 65.0625,
+          "end": 65.1375
         },
         {
           "word": "table.",
-          "start": 65.025,
-          "end": 65.55
+          "start": 65.15,
+          "end": 65.675
         }
       ]
     },
     {
-      "start": 65.9375,
-      "end": 67.7125,
+      "start": 66.0625,
+      "end": 67.8375,
       "words": [
         {
           "word": "There",
-          "start": 65.9375,
-          "end": 66.0625
-        },
-        {
-          "word": "are",
-          "start": 66.075,
+          "start": 66.0625,
           "end": 66.1875
         },
         {
-          "word": "three",
+          "word": "are",
           "start": 66.2,
-          "end": 66.5125
+          "end": 66.3125
+        },
+        {
+          "word": "three",
+          "start": 66.325,
+          "end": 66.6375
         },
         {
           "word": "books",
-          "start": 66.525,
-          "end": 66.875
+          "start": 66.65,
+          "end": 67.0
         },
         {
           "word": "on",
-          "start": 66.8875,
-          "end": 67.0375
+          "start": 67.0125,
+          "end": 67.1625
         },
         {
           "word": "the",
-          "start": 67.05,
-          "end": 67.1125
+          "start": 67.175,
+          "end": 67.2375
         },
         {
           "word": "shelf.",
-          "start": 67.125,
-          "end": 67.7125
+          "start": 67.25,
+          "end": 67.8375
         }
       ]
     },
     {
-      "start": 68.0875,
-      "end": 70.125,
+      "start": 68.2125,
+      "end": 70.25,
       "words": [
         {
           "word": "There",
-          "start": 68.0875,
-          "end": 68.2375
+          "start": 68.2125,
+          "end": 68.3625
         },
         {
           "word": "aren't",
-          "start": 68.25,
-          "end": 68.525
+          "start": 68.375,
+          "end": 68.65
         },
         {
           "word": "any",
-          "start": 68.55,
-          "end": 68.7875
+          "start": 68.675,
+          "end": 68.9125
         },
         {
           "word": "books",
-          "start": 68.8,
-          "end": 69.125
+          "start": 68.925,
+          "end": 69.25
         },
         {
           "word": "in",
-          "start": 69.1375,
-          "end": 69.2625
+          "start": 69.2625,
+          "end": 69.3875
         },
         {
           "word": "the",
-          "start": 69.275,
-          "end": 69.3625
+          "start": 69.4,
+          "end": 69.4875
         },
         {
           "word": "drawer",
-          "start": 69.375,
-          "end": 69.7125
+          "start": 69.5,
+          "end": 69.8375
         },
         {
           "word": "now.",
-          "start": 69.725,
-          "end": 70.125
+          "start": 69.85,
+          "end": 70.25
         }
       ]
     },
     {
-      "start": 70.5,
-      "end": 72.3,
+      "start": 70.625,
+      "end": 72.425,
       "words": [
         {
           "word": "There",
-          "start": 70.5,
-          "end": 70.675
+          "start": 70.625,
+          "end": 70.8
         },
         {
           "word": "is",
-          "start": 70.6875,
-          "end": 70.825
+          "start": 70.8125,
+          "end": 70.95
         },
         {
           "word": "some",
-          "start": 70.8375,
-          "end": 71.0875
+          "start": 70.9625,
+          "end": 71.2125
         },
         {
           "word": "water",
-          "start": 71.1,
-          "end": 71.5375
+          "start": 71.225,
+          "end": 71.6625
         },
         {
           "word": "in",
-          "start": 71.55,
-          "end": 71.6875
+          "start": 71.675,
+          "end": 71.8125
         },
         {
           "word": "the",
-          "start": 71.7,
-          "end": 71.7875
+          "start": 71.825,
+          "end": 71.9125
         },
         {
           "word": "bottle.",
-          "start": 71.8,
-          "end": 72.3
+          "start": 71.925,
+          "end": 72.425
         }
       ]
     }
