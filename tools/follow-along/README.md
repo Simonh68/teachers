@@ -11,8 +11,8 @@ are also copied from the source. Build validation checks exact equality.
 
 - `build_audio.py` uses `edge-tts==7.2.8` to create `assets/narration-full.mp3`
   and word-boundary timing data in `reading.json`.
-- Voice: `en-US-AnaNeural`, a synthetic child voice (female voice catalog entry),
-  replacing the adult Guy narrator. No claim of an actual boy recording.
+- Voice: `en-US-BrianNeural`, male voice with `pitch=+10Hz` for a youthful reading,
+  replacing the childlike Ana voice at Simon’s request. No claim of an actual teenager recording.
 - The MP3 is hosted on Teachers; the learner's device never synthesizes speech.
 - `units.json` supplies contextual Hebrew translations for every word or phrase.
 - HTML media playback rates: 1, .75, .5, .35 and .25. Labels are in simple Hebrew.

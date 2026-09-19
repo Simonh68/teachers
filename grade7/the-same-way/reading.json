@@ -1,13 +1,14 @@
 {
   "title": "The Same Way",
-  "audio": "assets/narration-full.mp3",
-  "voice": "en-US-AnaNeural",
+  "audio": "assets/narration-full.mp3?v=teen-voice-3",
+  "voice": "en-US-BrianNeural",
   "rate": "+0%",
+  "pitch": "+10Hz",
   "synthetic": true,
-  "voiceDescription": "Synthetic child voice, American English",
+  "voiceDescription": "Synthetic male voice with a youthful pitch, American English",
   "timing": "Engine word boundaries on the audio timeline, seconds",
   "wordCount": 268,
-  "sha256": "695eb2b82777eb2f91d076278116ea057c81b8ca4dfdebe3af6e00f19a03fe0b",
+  "sha256": "3edb6e61d91ba7848758ac1e7251c5ef974e0b960b6b62b76c3ba899dea4402b",
   "source": "../the-same-way/story.json",
   "sourceSha256": "124bd14c8472815550be11ce98a72beafd2b7594cc4529f0ba82cdef24b5d043",
   "pages": [
@@ -58,58 +59,58 @@
       "translation": "קוראים לי דן, ואני בכיתה ז׳.",
       "sourceParagraph": "A",
       "paragraph": 0,
-      "start": 0.1,
-      "end": 3.175,
+      "start": 0.0625,
+      "end": 2.95,
       "words": [
         {
           "word": "My",
-          "start": 0.1,
-          "end": 0.3
+          "start": 0.0625,
+          "end": 0.1625
         },
         {
           "word": "name",
-          "start": 0.3125,
-          "end": 0.6375
+          "start": 0.175,
+          "end": 0.4375
         },
         {
           "word": "is",
-          "start": 0.65,
-          "end": 0.825
+          "start": 0.45,
+          "end": 0.5875
         },
         {
           "word": "Dan,",
-          "start": 0.8375,
-          "end": 1.2625
+          "start": 0.6,
+          "end": 1.05
         },
         {
           "word": "and",
-          "start": 1.525,
-          "end": 1.7125
+          "start": 1.45,
+          "end": 1.625
         },
         {
           "word": "I",
-          "start": 1.725,
-          "end": 1.875
+          "start": 1.6375,
+          "end": 1.775
         },
         {
           "word": "am",
-          "start": 1.8875,
-          "end": 2.025
+          "start": 1.7875,
+          "end": 2.0125
         },
         {
           "word": "in",
-          "start": 2.0375,
-          "end": 2.1875
+          "start": 2.025,
+          "end": 2.175
         },
         {
           "word": "Grade",
-          "start": 2.2,
-          "end": 2.6125
+          "start": 2.1875,
+          "end": 2.475
         },
         {
           "word": "7.",
-          "start": 2.625,
-          "end": 3.175
+          "start": 2.4875,
+          "end": 2.95
         }
       ],
       "units": [
@@ -144,93 +145,93 @@
       "translation": "בית הספר החדש שלי רחוק מהבית, אבל בחרתי בו כי אני אוהב את שיעורי המדעים שלו.",
       "sourceParagraph": "A",
       "paragraph": 0,
-      "start": 4.0375,
-      "end": 9.45,
+      "start": 3.325,
+      "end": 8.075,
       "words": [
         {
           "word": "My",
-          "start": 4.0375,
-          "end": 4.2375
+          "start": 3.325,
+          "end": 3.425
         },
         {
           "word": "new",
-          "start": 4.25,
-          "end": 4.5125
+          "start": 3.4375,
+          "end": 3.6125
         },
         {
           "word": "school",
-          "start": 4.525,
-          "end": 4.925
+          "start": 3.625,
+          "end": 4.0
         },
         {
           "word": "is",
-          "start": 4.9375,
-          "end": 5.125
+          "start": 4.0125,
+          "end": 4.15
         },
         {
           "word": "far",
-          "start": 5.1375,
-          "end": 5.4625
+          "start": 4.1625,
+          "end": 4.425
         },
         {
           "word": "from",
-          "start": 5.475,
-          "end": 5.7
+          "start": 4.4375,
+          "end": 4.6
         },
         {
           "word": "home,",
-          "start": 5.7125,
-          "end": 6.125
+          "start": 4.6125,
+          "end": 5.05
         },
         {
           "word": "but",
-          "start": 6.4375,
-          "end": 6.5875
+          "start": 5.5375,
+          "end": 5.725
         },
         {
           "word": "I",
-          "start": 6.6,
-          "end": 6.725
+          "start": 5.7375,
+          "end": 5.8125
         },
         {
           "word": "chose",
-          "start": 6.7375,
-          "end": 7.075
+          "start": 5.825,
+          "end": 6.1625
         },
         {
           "word": "it",
-          "start": 7.0875,
-          "end": 7.2375
+          "start": 6.175,
+          "end": 6.3125
         },
         {
           "word": "because",
-          "start": 7.25,
-          "end": 7.6
+          "start": 6.325,
+          "end": 6.6125
         },
         {
           "word": "I",
-          "start": 7.6125,
-          "end": 7.725
+          "start": 6.625,
+          "end": 6.7125
         },
         {
           "word": "love",
-          "start": 7.7375,
-          "end": 8.05
+          "start": 6.725,
+          "end": 6.9875
         },
         {
           "word": "its",
-          "start": 8.0625,
-          "end": 8.2625
+          "start": 7.0,
+          "end": 7.125
         },
         {
           "word": "science",
-          "start": 8.275,
-          "end": 8.7375
+          "start": 7.1375,
+          "end": 7.5375
         },
         {
           "word": "lessons.",
-          "start": 8.75,
-          "end": 9.45
+          "start": 7.55,
+          "end": 8.075
         }
       ],
       "units": [
@@ -273,58 +274,58 @@
       "translation": "בכל בוקר אני יוצא מהבית עם תיק כחול כבד.",
       "sourceParagraph": "A",
       "paragraph": 1,
-      "start": 10.3125,
-      "end": 13.6375,
+      "start": 8.475,
+      "end": 11.6625,
       "words": [
         {
           "word": "Every",
-          "start": 10.3125,
-          "end": 10.6625
+          "start": 8.475,
+          "end": 8.7125
         },
         {
           "word": "morning,",
-          "start": 10.675,
-          "end": 11.2
+          "start": 8.725,
+          "end": 9.1875
         },
         {
           "word": "I",
-          "start": 11.5,
-          "end": 11.6125
+          "start": 9.7875,
+          "end": 9.875
         },
         {
           "word": "leave",
-          "start": 11.625,
-          "end": 11.925
+          "start": 9.8875,
+          "end": 10.1625
         },
         {
           "word": "home",
-          "start": 11.9375,
-          "end": 12.275
+          "start": 10.175,
+          "end": 10.4875
         },
         {
           "word": "with",
-          "start": 12.2875,
-          "end": 12.475
+          "start": 10.5,
+          "end": 10.6375
         },
         {
           "word": "a",
-          "start": 12.4875,
-          "end": 12.5375
+          "start": 10.65,
+          "end": 10.6875
         },
         {
           "word": "heavy",
-          "start": 12.55,
-          "end": 12.925
+          "start": 10.7,
+          "end": 11.025
         },
         {
           "word": "blue",
-          "start": 12.9375,
-          "end": 13.2125
+          "start": 11.0375,
+          "end": 11.2625
         },
         {
           "word": "bag.",
-          "start": 13.225,
-          "end": 13.6375
+          "start": 11.275,
+          "end": 11.6625
         }
       ],
       "units": [
@@ -351,68 +352,68 @@
       "translation": "אחי הקטן עדיין במיטה כשאני סוגר את הדלת.",
       "sourceParagraph": "A",
       "paragraph": 1,
-      "start": 14.5,
-      "end": 17.8125,
+      "start": 12.0375,
+      "end": 15.0375,
       "words": [
         {
           "word": "My",
-          "start": 14.5,
-          "end": 14.725
+          "start": 12.0375,
+          "end": 12.1625
         },
         {
           "word": "little",
-          "start": 14.7375,
-          "end": 15.075
+          "start": 12.175,
+          "end": 12.4
         },
         {
           "word": "brother",
-          "start": 15.0875,
-          "end": 15.5
+          "start": 12.4125,
+          "end": 12.8125
         },
         {
           "word": "is",
-          "start": 15.5125,
-          "end": 15.6625
+          "start": 12.825,
+          "end": 12.9625
         },
         {
           "word": "still",
-          "start": 15.675,
-          "end": 15.9875
+          "start": 12.975,
+          "end": 13.3
         },
         {
           "word": "in",
-          "start": 16.0,
-          "end": 16.175
+          "start": 13.3125,
+          "end": 13.4625
         },
         {
           "word": "bed",
-          "start": 16.1875,
-          "end": 16.55
+          "start": 13.475,
+          "end": 13.85
         },
         {
           "word": "when",
-          "start": 16.5625,
-          "end": 16.725
+          "start": 13.8625,
+          "end": 14.025
         },
         {
           "word": "I",
-          "start": 16.7375,
-          "end": 16.8625
+          "start": 14.0375,
+          "end": 14.125
         },
         {
           "word": "close",
-          "start": 16.875,
-          "end": 17.2625
+          "start": 14.1375,
+          "end": 14.475
         },
         {
           "word": "the",
-          "start": 17.275,
-          "end": 17.4
+          "start": 14.4875,
+          "end": 14.5875
         },
         {
           "word": "door.",
-          "start": 17.4125,
-          "end": 17.8125
+          "start": 14.6,
+          "end": 15.0375
         }
       ],
       "units": [
@@ -439,83 +440,83 @@
       "translation": "ראשית, אני הולך לתחנת האוטובוס ונוסע באוטובוס לתחנת הרכבת.",
       "sourceParagraph": "B",
       "paragraph": 2,
-      "start": 18.675,
-      "end": 23.0875,
+      "start": 15.4375,
+      "end": 19.375,
       "words": [
         {
           "word": "First,",
-          "start": 18.675,
-          "end": 19.2125
+          "start": 15.4375,
+          "end": 15.925
         },
         {
           "word": "I",
-          "start": 19.475,
-          "end": 19.6
+          "start": 16.2875,
+          "end": 16.425
         },
         {
           "word": "walk",
-          "start": 19.6125,
-          "end": 19.9375
+          "start": 16.4375,
+          "end": 16.7125
         },
         {
           "word": "to",
-          "start": 19.95,
-          "end": 20.0625
+          "start": 16.725,
+          "end": 16.8
         },
         {
           "word": "the",
-          "start": 20.075,
-          "end": 20.2
+          "start": 16.8125,
+          "end": 16.9125
         },
         {
           "word": "bus",
-          "start": 20.2125,
-          "end": 20.475
+          "start": 16.925,
+          "end": 17.1375
         },
         {
           "word": "stop",
-          "start": 20.4875,
-          "end": 20.9
+          "start": 17.15,
+          "end": 17.5125
         },
         {
           "word": "and",
-          "start": 20.9125,
-          "end": 21.0625
+          "start": 17.5375,
+          "end": 17.65
         },
         {
           "word": "take",
-          "start": 21.075,
-          "end": 21.3375
+          "start": 17.6625,
+          "end": 17.8625
         },
         {
           "word": "a",
-          "start": 21.35,
-          "end": 21.425
+          "start": 17.875,
+          "end": 17.9375
         },
         {
           "word": "bus",
-          "start": 21.4375,
-          "end": 21.775
+          "start": 17.95,
+          "end": 18.3
         },
         {
           "word": "to",
-          "start": 21.7875,
-          "end": 21.9125
+          "start": 18.3125,
+          "end": 18.4375
         },
         {
           "word": "the",
-          "start": 21.925,
-          "end": 22.0375
+          "start": 18.45,
+          "end": 18.5375
         },
         {
           "word": "train",
-          "start": 22.05,
-          "end": 22.425
+          "start": 18.55,
+          "end": 18.825
         },
         {
           "word": "station.",
-          "start": 22.4375,
-          "end": 23.0875
+          "start": 18.8375,
+          "end": 19.375
         }
       ],
       "units": [
@@ -546,48 +547,48 @@
       "translation": "לאחר מכן אני נוסע ברכבת ובאוטובוס נוסף.",
       "sourceParagraph": "B",
       "paragraph": 2,
-      "start": 23.95,
-      "end": 26.325,
+      "start": 19.75,
+      "end": 21.8875,
       "words": [
         {
           "word": "Then",
-          "start": 23.95,
-          "end": 24.2375
+          "start": 19.75,
+          "end": 19.925
         },
         {
           "word": "I",
-          "start": 24.25,
-          "end": 24.35
+          "start": 19.9375,
+          "end": 20.025
         },
         {
           "word": "take",
-          "start": 24.3625,
-          "end": 24.6375
+          "start": 20.0375,
+          "end": 20.2625
         },
         {
           "word": "a",
-          "start": 24.65,
-          "end": 24.725
+          "start": 20.275,
+          "end": 20.325
         },
         {
           "word": "train",
-          "start": 24.7375,
-          "end": 25.25
+          "start": 20.3375,
+          "end": 20.8625
         },
         {
           "word": "and",
-          "start": 25.2625,
-          "end": 25.425
+          "start": 20.8875,
+          "end": 21.0375
         },
         {
           "word": "another",
-          "start": 25.4375,
-          "end": 25.8625
+          "start": 21.05,
+          "end": 21.4125
         },
         {
           "word": "bus.",
-          "start": 25.875,
-          "end": 26.325
+          "start": 21.425,
+          "end": 21.8875
         }
       ],
       "units": [
@@ -610,48 +611,48 @@
       "translation": "לבסוף, אני הולך עשר דקות לבית הספר.",
       "sourceParagraph": "B",
       "paragraph": 2,
-      "start": 27.1875,
-      "end": 30.2,
+      "start": 22.2875,
+      "end": 24.5625,
       "words": [
         {
           "word": "Finally,",
-          "start": 27.1875,
-          "end": 27.85
+          "start": 22.2875,
+          "end": 22.775
         },
         {
           "word": "I",
-          "start": 28.15,
-          "end": 28.3
+          "start": 22.7875,
+          "end": 22.925
         },
         {
           "word": "walk",
-          "start": 28.3125,
-          "end": 28.65
+          "start": 22.9375,
+          "end": 23.25
         },
         {
           "word": "for",
-          "start": 28.6625,
-          "end": 28.85
+          "start": 23.2625,
+          "end": 23.4125
         },
         {
           "word": "ten",
-          "start": 28.8625,
-          "end": 29.1375
+          "start": 23.425,
+          "end": 23.65
         },
         {
           "word": "minutes",
-          "start": 29.15,
-          "end": 29.575
+          "start": 23.6625,
+          "end": 23.9625
         },
         {
           "word": "to",
-          "start": 29.5875,
-          "end": 29.7
+          "start": 23.975,
+          "end": 24.0625
         },
         {
           "word": "school.",
-          "start": 29.7125,
-          "end": 30.2
+          "start": 24.075,
+          "end": 24.5625
         }
       ],
       "units": [
@@ -678,73 +679,73 @@
       "translation": "אני מרים את התיק אל הגב ומסתכל שוב מה השעה.",
       "sourceParagraph": "B",
       "paragraph": 3,
-      "start": 31.0625,
-      "end": 34.5125,
+      "start": 24.95,
+      "end": 28.025,
       "words": [
         {
           "word": "I",
-          "start": 31.0625,
-          "end": 31.225
+          "start": 24.95,
+          "end": 25.025
         },
         {
           "word": "lift",
-          "start": 31.2375,
-          "end": 31.5875
+          "start": 25.0375,
+          "end": 25.325
         },
         {
           "word": "my",
-          "start": 31.6,
-          "end": 31.775
+          "start": 25.3375,
+          "end": 25.5
         },
         {
           "word": "bag",
-          "start": 31.7875,
-          "end": 32.1625
+          "start": 25.5125,
+          "end": 25.8625
         },
         {
           "word": "onto",
-          "start": 32.175,
-          "end": 32.4375
+          "start": 25.875,
+          "end": 26.1375
         },
         {
           "word": "my",
-          "start": 32.45,
-          "end": 32.6375
+          "start": 26.15,
+          "end": 26.3125
         },
         {
           "word": "back",
-          "start": 32.65,
-          "end": 33.0375
+          "start": 26.325,
+          "end": 26.725
         },
         {
           "word": "and",
-          "start": 33.05,
-          "end": 33.2375
+          "start": 26.75,
+          "end": 26.925
         },
         {
           "word": "look",
-          "start": 33.25,
-          "end": 33.475
+          "start": 26.9375,
+          "end": 27.125
         },
         {
           "word": "at",
-          "start": 33.4875,
-          "end": 33.5875
+          "start": 27.1375,
+          "end": 27.2125
         },
         {
           "word": "the",
-          "start": 33.6,
-          "end": 33.7
+          "start": 27.225,
+          "end": 27.3
         },
         {
           "word": "time",
-          "start": 33.7125,
-          "end": 34.025
+          "start": 27.3125,
+          "end": 27.6
         },
         {
           "word": "again.",
-          "start": 34.0375,
-          "end": 34.5125
+          "start": 27.6125,
+          "end": 28.025
         }
       ],
       "units": [
@@ -775,63 +776,63 @@
       "translation": "יש שני בנים לידי, אבל אנחנו לא מדברים.",
       "sourceParagraph": "B",
       "paragraph": 3,
-      "start": 35.375,
-      "end": 38.55,
+      "start": 28.4125,
+      "end": 31.2875,
       "words": [
         {
           "word": "There",
-          "start": 35.375,
-          "end": 35.5875
+          "start": 28.4125,
+          "end": 28.525
         },
         {
           "word": "are",
-          "start": 35.6,
-          "end": 35.75
+          "start": 28.5375,
+          "end": 28.625
         },
         {
           "word": "two",
-          "start": 35.7625,
-          "end": 36.0125
+          "start": 28.6375,
+          "end": 28.85
         },
         {
           "word": "boys",
-          "start": 36.025,
-          "end": 36.4
+          "start": 28.8625,
+          "end": 29.225
         },
         {
           "word": "near",
-          "start": 36.4125,
-          "end": 36.675
+          "start": 29.2375,
+          "end": 29.4625
         },
         {
           "word": "me,",
-          "start": 36.6875,
-          "end": 36.95
+          "start": 29.475,
+          "end": 29.7875
         },
         {
           "word": "but",
-          "start": 37.2625,
-          "end": 37.45
+          "start": 30.15,
+          "end": 30.3375
         },
         {
           "word": "we",
-          "start": 37.4625,
-          "end": 37.6125
+          "start": 30.35,
+          "end": 30.4625
         },
         {
           "word": "do",
-          "start": 37.625,
-          "end": 37.775
+          "start": 30.475,
+          "end": 30.5875
         },
         {
           "word": "not",
-          "start": 37.7875,
-          "end": 38.075
+          "start": 30.6,
+          "end": 30.825
         },
         {
           "word": "talk.",
-          "start": 38.0875,
-          "end": 38.55
+          "start": 30.8375,
+          "end": 31.2875
         }
       ],
       "units": [
@@ -862,68 +863,68 @@
       "translation": "לאחד יש תיק ירוק, ולאחר יש כובע אדום.",
       "sourceParagraph": "B",
       "paragraph": 3,
-      "start": 39.4125,
-      "end": 42.8125,
+      "start": 31.65,
+      "end": 34.7375,
       "words": [
         {
           "word": "One",
-          "start": 39.4125,
-          "end": 39.7
+          "start": 31.65,
+          "end": 31.875
         },
         {
           "word": "has",
-          "start": 39.7125,
-          "end": 39.975
+          "start": 31.8875,
+          "end": 32.0875
         },
         {
           "word": "a",
-          "start": 39.9875,
-          "end": 40.0625
+          "start": 32.1,
+          "end": 32.1625
         },
         {
           "word": "green",
-          "start": 40.075,
-          "end": 40.4375
+          "start": 32.175,
+          "end": 32.5
         },
         {
           "word": "bag,",
-          "start": 40.45,
-          "end": 40.825
+          "start": 32.5125,
+          "end": 32.975
         },
         {
           "word": "and",
-          "start": 41.1375,
-          "end": 41.25
+          "start": 33.1875,
+          "end": 33.375
         },
         {
           "word": "the",
-          "start": 41.2625,
-          "end": 41.375
+          "start": 33.3875,
+          "end": 33.475
         },
         {
           "word": "other",
-          "start": 41.3875,
-          "end": 41.7125
+          "start": 33.4875,
+          "end": 33.75
         },
         {
           "word": "has",
-          "start": 41.725,
-          "end": 41.9625
+          "start": 33.7625,
+          "end": 33.9375
         },
         {
           "word": "a",
-          "start": 41.975,
-          "end": 42.05
+          "start": 33.95,
+          "end": 34.0
         },
         {
           "word": "red",
-          "start": 42.0625,
-          "end": 42.4
+          "start": 34.0125,
+          "end": 34.275
         },
         {
           "word": "cap.",
-          "start": 42.4125,
-          "end": 42.8125
+          "start": 34.2875,
+          "end": 34.7375
         }
       ],
       "units": [
@@ -954,58 +955,58 @@
       "translation": "היום השמיים כחולים, אבל אני חושב על החורף.",
       "sourceParagraph": "C",
       "paragraph": 4,
-      "start": 43.675,
-      "end": 46.9875,
+      "start": 35.1,
+      "end": 38.35,
       "words": [
         {
           "word": "Today",
-          "start": 43.675,
-          "end": 44.1
+          "start": 35.1,
+          "end": 35.4375
         },
         {
           "word": "the",
-          "start": 44.1125,
-          "end": 44.2375
+          "start": 35.45,
+          "end": 35.5375
         },
         {
           "word": "sky",
-          "start": 44.25,
-          "end": 44.625
+          "start": 35.55,
+          "end": 35.9125
         },
         {
           "word": "is",
-          "start": 44.6375,
-          "end": 44.8125
+          "start": 35.925,
+          "end": 36.0875
         },
         {
           "word": "blue,",
-          "start": 44.825,
-          "end": 45.2
+          "start": 36.1,
+          "end": 36.5625
         },
         {
           "word": "but",
-          "start": 45.5125,
-          "end": 45.675
+          "start": 37.0125,
+          "end": 37.225
         },
         {
           "word": "I",
-          "start": 45.6875,
-          "end": 45.8125
+          "start": 37.2375,
+          "end": 37.325
         },
         {
           "word": "think",
-          "start": 45.825,
-          "end": 46.1
+          "start": 37.3375,
+          "end": 37.5375
         },
         {
           "word": "about",
-          "start": 46.1125,
-          "end": 46.425
+          "start": 37.55,
+          "end": 37.825
         },
         {
           "word": "winter.",
-          "start": 46.4375,
-          "end": 46.9875
+          "start": 37.8375,
+          "end": 38.35
         }
       ],
       "units": [
@@ -1040,43 +1041,43 @@
       "translation": "מה אעשה כשירד גשם?",
       "sourceParagraph": "C",
       "paragraph": 4,
-      "start": 47.85,
-      "end": 49.5875,
+      "start": 38.7375,
+      "end": 40.2875,
       "words": [
         {
           "word": "What",
-          "start": 47.85,
-          "end": 48.1
+          "start": 38.7375,
+          "end": 38.8625
         },
         {
           "word": "will",
-          "start": 48.1125,
-          "end": 48.2875
+          "start": 38.875,
+          "end": 39.0375
         },
         {
           "word": "I",
-          "start": 48.3,
-          "end": 48.4
+          "start": 39.05,
+          "end": 39.15
         },
         {
           "word": "do",
-          "start": 48.4125,
-          "end": 48.6875
+          "start": 39.1625,
+          "end": 39.425
         },
         {
           "word": "when",
-          "start": 48.7,
-          "end": 48.875
+          "start": 39.4375,
+          "end": 39.5875
         },
         {
           "word": "it",
-          "start": 48.8875,
-          "end": 49.025
+          "start": 39.6,
+          "end": 39.7625
         },
         {
           "word": "rains?",
-          "start": 49.0375,
-          "end": 49.5875
+          "start": 39.775,
+          "end": 40.2875
         }
       ],
       "units": [
@@ -1099,58 +1100,58 @@
       "translation": "הספרים שלי יהיו רטובים, ויהיה לי קר.",
       "sourceParagraph": "C",
       "paragraph": 4,
-      "start": 50.45,
-      "end": 53.3375,
+      "start": 40.6625,
+      "end": 43.0125,
       "words": [
         {
           "word": "My",
-          "start": 50.45,
-          "end": 50.6875
+          "start": 40.6625,
+          "end": 40.825
         },
         {
           "word": "books",
-          "start": 50.7,
-          "end": 51.0875
+          "start": 40.8375,
+          "end": 41.1625
         },
         {
           "word": "will",
-          "start": 51.1,
-          "end": 51.2625
+          "start": 41.175,
+          "end": 41.3125
         },
         {
           "word": "be",
-          "start": 51.275,
-          "end": 51.45
+          "start": 41.325,
+          "end": 41.475
         },
         {
           "word": "wet,",
-          "start": 51.4625,
-          "end": 51.8125
+          "start": 41.4875,
+          "end": 41.875
         },
         {
           "word": "and",
-          "start": 52.125,
-          "end": 52.3
+          "start": 41.9,
+          "end": 42.075
         },
         {
           "word": "I",
-          "start": 52.3125,
-          "end": 52.45
+          "start": 42.0875,
+          "end": 42.2125
         },
         {
           "word": "will",
-          "start": 52.4625,
-          "end": 52.6375
+          "start": 42.225,
+          "end": 42.3625
         },
         {
           "word": "be",
-          "start": 52.65,
-          "end": 52.8
+          "start": 42.375,
+          "end": 42.5
         },
         {
           "word": "cold.",
-          "start": 52.8125,
-          "end": 53.3375
+          "start": 42.5125,
+          "end": 43.0125
         }
       ],
       "units": [
@@ -1177,38 +1178,38 @@
       "translation": "אני לא יודע את התשובה.",
       "sourceParagraph": "C",
       "paragraph": 5,
-      "start": 54.2,
-      "end": 55.8375,
+      "start": 43.4,
+      "end": 44.825,
       "words": [
         {
           "word": "I",
-          "start": 54.2,
-          "end": 54.35
+          "start": 43.4,
+          "end": 43.475
         },
         {
           "word": "do",
-          "start": 54.3625,
-          "end": 54.5375
+          "start": 43.4875,
+          "end": 43.6125
         },
         {
           "word": "not",
-          "start": 54.55,
-          "end": 54.825
+          "start": 43.625,
+          "end": 43.8625
         },
         {
           "word": "know",
-          "start": 54.8375,
-          "end": 55.0875
+          "start": 43.875,
+          "end": 44.1
         },
         {
           "word": "the",
-          "start": 55.1,
-          "end": 55.225
+          "start": 44.1125,
+          "end": 44.2
         },
         {
           "word": "answer.",
-          "start": 55.2375,
-          "end": 55.8375
+          "start": 44.2125,
+          "end": 44.825
         }
       ],
       "units": [
@@ -1227,78 +1228,78 @@
       "translation": "אני מוציא את הטלפון מהתיק, אבל לא מתקשר הביתה.",
       "sourceParagraph": "C",
       "paragraph": 5,
-      "start": 56.7,
-      "end": 60.4125,
+      "start": 45.1875,
+      "end": 48.5625,
       "words": [
         {
           "word": "I",
-          "start": 56.7,
-          "end": 56.85
+          "start": 45.1875,
+          "end": 45.2375
         },
         {
           "word": "take",
-          "start": 56.8625,
-          "end": 57.175
+          "start": 45.25,
+          "end": 45.45
         },
         {
           "word": "my",
-          "start": 57.1875,
-          "end": 57.3625
+          "start": 45.4625,
+          "end": 45.6
         },
         {
           "word": "phone",
-          "start": 57.375,
-          "end": 57.7125
+          "start": 45.6125,
+          "end": 45.9625
         },
         {
           "word": "out",
-          "start": 57.725,
-          "end": 57.8625
+          "start": 45.975,
+          "end": 46.1125
         },
         {
           "word": "of",
-          "start": 57.875,
-          "end": 57.9625
+          "start": 46.125,
+          "end": 46.175
         },
         {
           "word": "my",
-          "start": 57.975,
-          "end": 58.1625
+          "start": 46.1875,
+          "end": 46.3375
         },
         {
           "word": "bag,",
-          "start": 58.175,
-          "end": 58.5625
+          "start": 46.35,
+          "end": 46.8125
         },
         {
           "word": "but",
-          "start": 58.875,
-          "end": 59.0375
+          "start": 47.2625,
+          "end": 47.4625
         },
         {
           "word": "I",
-          "start": 59.05,
-          "end": 59.1375
+          "start": 47.475,
+          "end": 47.55
         },
         {
           "word": "do",
-          "start": 59.15,
-          "end": 59.325
+          "start": 47.5625,
+          "end": 47.675
         },
         {
           "word": "not",
-          "start": 59.3375,
-          "end": 59.6375
+          "start": 47.6875,
+          "end": 47.8875
         },
         {
           "word": "call",
-          "start": 59.65,
-          "end": 59.9625
+          "start": 47.9,
+          "end": 48.125
         },
         {
           "word": "home.",
-          "start": 59.975,
-          "end": 60.4125
+          "start": 48.1375,
+          "end": 48.5625
         }
       ],
       "units": [
@@ -1325,53 +1326,53 @@
       "translation": "בבית הספר אני פותח את דלת הכיתה ועוצר.",
       "sourceParagraph": "D",
       "paragraph": 6,
-      "start": 61.275,
-      "end": 64.575,
+      "start": 48.9625,
+      "end": 52.025,
       "words": [
         {
           "word": "At",
-          "start": 61.275,
-          "end": 61.4875
+          "start": 48.9625,
+          "end": 49.075
         },
         {
           "word": "school,",
-          "start": 61.5,
-          "end": 61.9625
+          "start": 49.0875,
+          "end": 49.5625
         },
         {
           "word": "I",
-          "start": 62.3,
-          "end": 62.425
+          "start": 50.1375,
+          "end": 50.275
         },
         {
           "word": "open",
-          "start": 62.4375,
-          "end": 62.7375
+          "start": 50.2875,
+          "end": 50.4875
         },
         {
           "word": "the",
-          "start": 62.75,
-          "end": 62.85
+          "start": 50.5,
+          "end": 50.575
         },
         {
           "word": "classroom",
-          "start": 62.8625,
-          "end": 63.5
+          "start": 50.5875,
+          "end": 51.0875
         },
         {
           "word": "door",
-          "start": 63.5125,
-          "end": 63.9
+          "start": 51.1,
+          "end": 51.4375
         },
         {
           "word": "and",
-          "start": 63.9125,
-          "end": 64.075
+          "start": 51.45,
+          "end": 51.55
         },
         {
           "word": "stop.",
-          "start": 64.0875,
-          "end": 64.575
+          "start": 51.5625,
+          "end": 52.025
         }
       ],
       "units": [
@@ -1398,53 +1399,53 @@
       "translation": "התיק הירוק והכובע האדום שם!",
       "sourceParagraph": "D",
       "paragraph": 6,
-      "start": 65.4375,
-      "end": 67.95,
+      "start": 52.4125,
+      "end": 54.65,
       "words": [
         {
           "word": "The",
-          "start": 65.4375,
-          "end": 65.6125
+          "start": 52.4125,
+          "end": 52.4875
         },
         {
           "word": "green",
-          "start": 65.625,
-          "end": 66.025
+          "start": 52.5,
+          "end": 52.8125
         },
         {
           "word": "bag",
-          "start": 66.0375,
-          "end": 66.425
+          "start": 52.825,
+          "end": 53.225
         },
         {
           "word": "and",
-          "start": 66.4375,
-          "end": 66.5625
+          "start": 53.25,
+          "end": 53.375
         },
         {
           "word": "the",
-          "start": 66.575,
-          "end": 66.6875
+          "start": 53.3875,
+          "end": 53.4625
         },
         {
           "word": "red",
-          "start": 66.7,
-          "end": 67.0375
+          "start": 53.475,
+          "end": 53.725
         },
         {
           "word": "cap",
-          "start": 67.05,
-          "end": 67.3875
+          "start": 53.7375,
+          "end": 54.0625
         },
         {
           "word": "are",
-          "start": 67.4,
-          "end": 67.575
+          "start": 54.0875,
+          "end": 54.25
         },
         {
           "word": "there!",
-          "start": 67.5875,
-          "end": 67.95
+          "start": 54.2625,
+          "end": 54.65
         }
       ],
       "units": [
@@ -1467,53 +1468,53 @@
       "translation": "הבנים מהדרך נמצאים בכיתה שלי.",
       "sourceParagraph": "D",
       "paragraph": 6,
-      "start": 68.8125,
-      "end": 71.35,
+      "start": 55.0375,
+      "end": 57.425,
       "words": [
         {
           "word": "The",
-          "start": 68.8125,
-          "end": 68.9625
+          "start": 55.0375,
+          "end": 55.125
         },
         {
           "word": "boys",
-          "start": 68.975,
-          "end": 69.3625
+          "start": 55.1375,
+          "end": 55.5125
         },
         {
           "word": "from",
-          "start": 69.375,
-          "end": 69.575
+          "start": 55.525,
+          "end": 55.7125
         },
         {
           "word": "the",
-          "start": 69.5875,
-          "end": 69.6875
+          "start": 55.725,
+          "end": 55.8125
         },
         {
           "word": "journey",
-          "start": 69.7,
-          "end": 70.1875
+          "start": 55.825,
+          "end": 56.2875
         },
         {
           "word": "are",
-          "start": 70.2,
-          "end": 70.3875
+          "start": 56.3,
+          "end": 56.525
         },
         {
           "word": "in",
-          "start": 70.4,
-          "end": 70.55
+          "start": 56.5375,
+          "end": 56.675
         },
         {
           "word": "my",
-          "start": 70.5625,
-          "end": 70.75
+          "start": 56.6875,
+          "end": 56.85
         },
         {
           "word": "class.",
-          "start": 70.7625,
-          "end": 71.35
+          "start": 56.8625,
+          "end": 57.425
         }
       ],
       "units": [
@@ -1536,48 +1537,48 @@
       "translation": "בהפסקה אני ניגש להכיר אותם.",
       "sourceParagraph": "D",
       "paragraph": 7,
-      "start": 72.2125,
-      "end": 74.6,
+      "start": 57.7875,
+      "end": 60.1125,
       "words": [
         {
           "word": "At",
-          "start": 72.2125,
-          "end": 72.425
+          "start": 57.7875,
+          "end": 57.925
         },
         {
           "word": "break,",
-          "start": 72.4375,
-          "end": 72.8375
+          "start": 57.9375,
+          "end": 58.375
         },
         {
           "word": "I",
-          "start": 73.1125,
-          "end": 73.2
+          "start": 58.8125,
+          "end": 58.9375
         },
         {
           "word": "walk",
-          "start": 73.2125,
-          "end": 73.55
+          "start": 58.95,
+          "end": 59.2375
         },
         {
           "word": "over",
-          "start": 73.5625,
-          "end": 73.8625
+          "start": 59.25,
+          "end": 59.4625
         },
         {
           "word": "to",
-          "start": 73.875,
-          "end": 74.0
+          "start": 59.475,
+          "end": 59.5625
         },
         {
           "word": "meet",
-          "start": 74.0125,
-          "end": 74.2625
+          "start": 59.575,
+          "end": 59.825
         },
         {
           "word": "them.",
-          "start": 74.275,
-          "end": 74.6
+          "start": 59.8375,
+          "end": 60.1125
         }
       ],
       "units": [
@@ -1600,38 +1601,38 @@
       "translation": "״גם אתם עייפים?״ אני שואל.",
       "sourceParagraph": "D",
       "paragraph": 7,
-      "start": 75.4625,
-      "end": 78.2375,
+      "start": 60.5875,
+      "end": 62.475,
       "words": [
         {
           "word": "“Are",
-          "start": 75.4625,
-          "end": 75.625
+          "start": 60.5875,
+          "end": 60.5875
         },
         {
           "word": "you",
-          "start": 75.6375,
-          "end": 75.775
+          "start": 60.6625,
+          "end": 60.8125
         },
         {
           "word": "tired",
-          "start": 75.7875,
-          "end": 76.3
+          "start": 60.825,
+          "end": 61.275
         },
         {
           "word": "too?”",
-          "start": 76.3125,
-          "end": 76.675
+          "start": 61.2875,
+          "end": 61.6625
         },
         {
           "word": "I",
-          "start": 77.5375,
-          "end": 77.725
+          "start": 62.0375,
+          "end": 62.1
         },
         {
           "word": "ask.",
-          "start": 77.7375,
-          "end": 78.2375
+          "start": 62.1125,
+          "end": 62.475
         }
       ],
       "units": [
@@ -1654,53 +1655,53 @@
       "translation": "״כן, ואני דואג מהגשם,״ אומר בן.",
       "sourceParagraph": "D",
       "paragraph": 7,
-      "start": 79.1,
-      "end": 82.3625,
+      "start": 62.95,
+      "end": 65.8625,
       "words": [
         {
           "word": "“Yes,",
-          "start": 79.1,
-          "end": 79.575
+          "start": 62.95,
+          "end": 63.25
         },
         {
           "word": "and",
-          "start": 79.8375,
-          "end": 80.05
+          "start": 63.325,
+          "end": 63.475
         },
         {
           "word": "I",
-          "start": 80.0625,
-          "end": 80.175
+          "start": 63.4875,
+          "end": 63.6
         },
         {
           "word": "worry",
-          "start": 80.1875,
-          "end": 80.5375
+          "start": 63.6125,
+          "end": 63.9125
         },
         {
           "word": "about",
-          "start": 80.55,
-          "end": 80.85
+          "start": 63.925,
+          "end": 64.1875
         },
         {
           "word": "the",
-          "start": 80.8625,
-          "end": 80.9625
+          "start": 64.2,
+          "end": 64.275
         },
         {
           "word": "rain,”",
-          "start": 80.975,
-          "end": 81.3625
+          "start": 64.2875,
+          "end": 64.775
         },
         {
           "word": "says",
-          "start": 81.6125,
-          "end": 81.95
+          "start": 65.2375,
+          "end": 65.525
         },
         {
           "word": "Ben.",
-          "start": 81.9625,
-          "end": 82.3625
+          "start": 65.5375,
+          "end": 65.8625
         }
       ],
       "units": [
@@ -1727,28 +1728,28 @@
       "translation": "״גם אני,״ אומר נועם.",
       "sourceParagraph": "D",
       "paragraph": 8,
-      "start": 83.225,
-      "end": 84.9,
+      "start": 66.325,
+      "end": 67.9875,
       "words": [
         {
           "word": "“Me",
-          "start": 83.225,
-          "end": 83.4875
+          "start": 66.325,
+          "end": 66.4375
         },
         {
           "word": "too,”",
-          "start": 83.5,
-          "end": 83.825
+          "start": 66.5125,
+          "end": 67.0
         },
         {
           "word": "says",
-          "start": 84.1,
-          "end": 84.4375
+          "start": 67.325,
+          "end": 67.6125
         },
         {
           "word": "Noam.",
-          "start": 84.45,
-          "end": 84.9
+          "start": 67.625,
+          "end": 67.9875
         }
       ],
       "units": [
@@ -1767,58 +1768,58 @@
       "translation": "״אני מסתכל מה השעה כל הדרך לבית הספר!״",
       "sourceParagraph": "D",
       "paragraph": 8,
-      "start": 85.7625,
-      "end": 88.05,
+      "start": 68.4625,
+      "end": 70.6875,
       "words": [
         {
           "word": "“I",
-          "start": 85.7625,
-          "end": 85.9375
+          "start": 68.4625,
+          "end": 68.5
         },
         {
           "word": "look",
-          "start": 85.95,
-          "end": 86.2375
+          "start": 68.575,
+          "end": 68.825
         },
         {
           "word": "at",
-          "start": 86.25,
-          "end": 86.35
+          "start": 68.8375,
+          "end": 68.925
         },
         {
           "word": "the",
-          "start": 86.3625,
-          "end": 86.475
+          "start": 68.9375,
+          "end": 69.025
         },
         {
           "word": "time",
-          "start": 86.4875,
-          "end": 86.8625
+          "start": 69.0375,
+          "end": 69.45
         },
         {
           "word": "all",
-          "start": 86.875,
-          "end": 87.075
+          "start": 69.475,
+          "end": 69.725
         },
         {
           "word": "the",
-          "start": 87.0875,
-          "end": 87.1875
+          "start": 69.7375,
+          "end": 69.8375
         },
         {
           "word": "way",
-          "start": 87.2,
-          "end": 87.3875
+          "start": 69.85,
+          "end": 70.0125
         },
         {
           "word": "to",
-          "start": 87.4,
-          "end": 87.525
+          "start": 70.025,
+          "end": 70.1125
         },
         {
           "word": "school!”",
-          "start": 87.5375,
-          "end": 88.05
+          "start": 70.125,
+          "end": 70.6875
         }
       ],
       "units": [
@@ -1845,43 +1846,43 @@
       "translation": "אני מחייך ומניח את הטלפון בצד.",
       "sourceParagraph": "E",
       "paragraph": 8,
-      "start": 88.9125,
-      "end": 91.0,
+      "start": 71.0625,
+      "end": 72.875,
       "words": [
         {
           "word": "I",
-          "start": 88.9125,
-          "end": 89.1125
+          "start": 71.0625,
+          "end": 71.125
         },
         {
           "word": "smile",
-          "start": 89.125,
-          "end": 89.7
+          "start": 71.1375,
+          "end": 71.675
         },
         {
           "word": "and",
-          "start": 89.7125,
-          "end": 89.85
+          "start": 71.6875,
+          "end": 71.8375
         },
         {
           "word": "put",
-          "start": 89.8625,
-          "end": 90.0875
+          "start": 71.85,
+          "end": 72.025
         },
         {
           "word": "my",
-          "start": 90.1,
-          "end": 90.2625
+          "start": 72.0375,
+          "end": 72.175
         },
         {
           "word": "phone",
-          "start": 90.275,
-          "end": 90.575
+          "start": 72.1875,
+          "end": 72.45
         },
         {
           "word": "away.",
-          "start": 90.5875,
-          "end": 91.0
+          "start": 72.4625,
+          "end": 72.875
         }
       ],
       "units": [
@@ -1904,43 +1905,43 @@
       "translation": "״אפשר להצטרף אליכם מחר?״ אני שואל.",
       "sourceParagraph": "E",
       "paragraph": 9,
-      "start": 91.8625,
-      "end": 94.85,
+      "start": 73.3375,
+      "end": 75.575,
       "words": [
         {
           "word": "“Can",
-          "start": 91.8625,
-          "end": 92.0625
+          "start": 73.3375,
+          "end": 73.375
         },
         {
           "word": "I",
-          "start": 92.075,
-          "end": 92.2
+          "start": 73.45,
+          "end": 73.5875
         },
         {
           "word": "join",
-          "start": 92.2125,
-          "end": 92.5375
+          "start": 73.6,
+          "end": 73.95
         },
         {
           "word": "you",
-          "start": 92.55,
-          "end": 92.6875
+          "start": 73.9625,
+          "end": 74.125
         },
         {
           "word": "tomorrow?”",
-          "start": 92.7,
-          "end": 93.2875
+          "start": 74.1375,
+          "end": 74.7625
         },
         {
           "word": "I",
-          "start": 94.15,
-          "end": 94.3375
+          "start": 75.1375,
+          "end": 75.2
         },
         {
           "word": "ask.",
-          "start": 94.35,
-          "end": 94.85
+          "start": 75.2125,
+          "end": 75.575
         }
       ],
       "units": [
@@ -1963,28 +1964,28 @@
       "translation": "״בוודאי!״ הם אומרים.",
       "sourceParagraph": "E",
       "paragraph": 9,
-      "start": 95.7125,
-      "end": 97.3,
+      "start": 76.05,
+      "end": 77.525,
       "words": [
         {
           "word": "“Of",
-          "start": 95.7125,
-          "end": 95.9375
+          "start": 76.05,
+          "end": 76.0875
         },
         {
           "word": "course!”",
-          "start": 95.95,
-          "end": 96.4375
+          "start": 76.1625,
+          "end": 76.725
         },
         {
           "word": "they",
-          "start": 96.7,
-          "end": 96.875
+          "start": 76.95,
+          "end": 77.1125
         },
         {
           "word": "say.",
-          "start": 96.8875,
-          "end": 97.3
+          "start": 77.125,
+          "end": 77.525
         }
       ],
       "units": [
@@ -2003,78 +2004,78 @@
       "translation": "הגשם עדיין בעיה, אבל עכשיו אנחנו יכולים לחשוב עליה יחד.",
       "sourceParagraph": "E",
       "paragraph": 9,
-      "start": 98.1625,
-      "end": 102.3125,
+      "start": 77.9125,
+      "end": 81.5,
       "words": [
         {
           "word": "The",
-          "start": 98.1625,
-          "end": 98.325
+          "start": 77.9125,
+          "end": 77.9875
         },
         {
           "word": "rain",
-          "start": 98.3375,
-          "end": 98.6625
+          "start": 78.0,
+          "end": 78.2625
         },
         {
           "word": "is",
-          "start": 98.675,
-          "end": 98.825
+          "start": 78.275,
+          "end": 78.375
         },
         {
           "word": "still",
-          "start": 98.8375,
-          "end": 99.15
+          "start": 78.3875,
+          "end": 78.6
         },
         {
           "word": "a",
-          "start": 99.1625,
-          "end": 99.2375
+          "start": 78.6125,
+          "end": 78.675
         },
         {
           "word": "problem,",
-          "start": 99.25,
-          "end": 99.825
+          "start": 78.6875,
+          "end": 79.1625
         },
         {
           "word": "but",
-          "start": 100.15,
-          "end": 100.325
+          "start": 79.7125,
+          "end": 79.8625
         },
         {
           "word": "now",
-          "start": 100.3375,
-          "end": 100.6375
+          "start": 79.875,
+          "end": 80.125
         },
         {
           "word": "we",
-          "start": 100.65,
-          "end": 100.8
+          "start": 80.1375,
+          "end": 80.25
         },
         {
           "word": "can",
-          "start": 100.8125,
-          "end": 100.9875
+          "start": 80.2625,
+          "end": 80.4
         },
         {
           "word": "think",
-          "start": 101.0,
-          "end": 101.25
+          "start": 80.4125,
+          "end": 80.65
         },
         {
           "word": "about",
-          "start": 101.2625,
-          "end": 101.575
+          "start": 80.6625,
+          "end": 80.9125
         },
         {
           "word": "it",
-          "start": 101.5875,
-          "end": 101.7
+          "start": 80.925,
+          "end": 81.0
         },
         {
           "word": "together.",
-          "start": 101.7125,
-          "end": 102.3125
+          "start": 81.0125,
+          "end": 81.5
         }
       ],
       "units": [
@@ -2105,53 +2106,53 @@
       "translation": "מחר אגיד שלום בתחנת האוטובוס.",
       "sourceParagraph": "E",
       "paragraph": 9,
-      "start": 103.175,
-      "end": 106.1875,
+      "start": 81.875,
+      "end": 84.2125,
       "words": [
         {
           "word": "Tomorrow,",
-          "start": 103.175,
-          "end": 103.8
+          "start": 81.875,
+          "end": 82.4
         },
         {
           "word": "I",
-          "start": 104.05,
-          "end": 104.2
+          "start": 82.425,
+          "end": 82.55
         },
         {
           "word": "will",
-          "start": 104.2125,
-          "end": 104.375
+          "start": 82.5625,
+          "end": 82.675
         },
         {
           "word": "say",
-          "start": 104.3875,
-          "end": 104.65
+          "start": 82.6875,
+          "end": 82.9125
         },
         {
           "word": "hello",
-          "start": 104.6625,
-          "end": 105.1375
+          "start": 82.925,
+          "end": 83.325
         },
         {
           "word": "at",
-          "start": 105.15,
-          "end": 105.3125
+          "start": 83.3375,
+          "end": 83.4375
         },
         {
           "word": "the",
-          "start": 105.325,
-          "end": 105.425
+          "start": 83.45,
+          "end": 83.5375
         },
         {
           "word": "bus",
-          "start": 105.4375,
-          "end": 105.7125
+          "start": 83.55,
+          "end": 83.7625
         },
         {
           "word": "stop.",
-          "start": 105.725,
-          "end": 106.1875
+          "start": 83.775,
+          "end": 84.2125
         }
       ],
       "units": [
