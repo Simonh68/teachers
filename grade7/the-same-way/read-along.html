@@ -4,7 +4,7 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#071526">
   <title>The Same Way · Read Alone Text</title>
-  <link rel="stylesheet" href="reader.css?v=reading-prefs-4">
+  <link rel="stylesheet" href="reader.css?v=tabs-trial-5">
 </head>
 <body class="embedded-reader">
 <main>
@@ -16,12 +16,12 @@
   <section class="reader" aria-label="קטע הקריאה">
     <div class="reading-heading"><span lang="en">READ & LISTEN</span><span id="pageTitle">הדרך לבית הספר</span></div>
     <div class="page-navigation"><button id="previousPage" disabled>→ הקודם</button><span id="pageNumber" aria-live="polite">דף 1 מתוך 10</span><button id="nextPage" disabled>הבא ←</button></div>
-    <div class="reading-layout"><div id="story" lang="en" dir="ltr"><p>Loading the reading…</p></div><div id="scene" aria-label="תמונה מתוך הסיפור"></div></div>
+    <div id="readingTabs" role="tablist" aria-label="חלקי הסיפור"></div><div class="reading-layout" id="readingPanel" role="tabpanel"><div id="story" lang="en" dir="ltr"><p>Loading the reading…</p></div><div id="scene" aria-label="תמונה מתוך הסיפור"></div></div>
     <p class="hint">המילה הנשׁמעת מסומנת בצהוב. ▶ ליד משפט משמיע אותו שוב. התרגום מותאם להקשר, ולפעמים כמה מילים מתורגמות יחד.</p>
   </section>
   <section class="player" aria-label="בקרי הקראה">
     <div class="controls">
-      <button id="play" class="primary" disabled>▶ הקראה</button>
+      <button id="continueTab" class="continue-tab" disabled>המשך ←</button><button id="play" class="primary" disabled>▶ הקראה</button>
       <button id="restart" disabled>↺ מההתחלה</button>
       <button id="repeat" disabled>⟲ המשפט שוב</button>
       <label for="speed">מהירות <select id="speed"><option value="1">רגילה</option><option value="0.75" selected>איטית</option><option value="0.5">איטית מאוד — חצי</option><option value="0.35">איטית במיוחד</option><option value="0.25">רבע מהמהירות</option></select></label>
@@ -38,8 +38,8 @@
       <button id="check">בדיקת תשובה</button><p id="feedback" role="status"></p>
     </section>
   </div>
-  <footer>קריינות AI בקול צעיר באנגלית אמריקאית · תמונות המחשה שנוצרו ב־AI · <a href="assets/narration-full.mp3?v=reading-prefs-4" download>קובץ ההקראה</a><br>נוצר: מוצאי שבת, ט׳ בתשרי תשפ״ז (19.9.2026)</footer>
+  <footer>קריינות AI בקול צעיר באנגלית אמריקאית · תמונות המחשה שנוצרו ב־AI · <a href="assets/narration-full.mp3?v=tabs-trial-5" download>קובץ ההקראה</a><br>נוצר: מוצאי שבת, ט׳ בתשרי תשפ״ז (19.9.2026)</footer>
 </main>
 <div id="unitTooltip" role="tooltip" dir="rtl" hidden></div>
-<script src="reader.js?v=reading-prefs-4"></script>
+<script src="reader.js?v=tabs-trial-5"></script>
 </body></html>

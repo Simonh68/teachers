@@ -2,6 +2,11 @@
 const $=s=>document.querySelector(s),audio=$('#audio');
 let data,words=[],sentenceNodes=[],wordNodes=[],activeWord=-1,activeSentence=-1,repeatEnd=null,raf=0,tooltipUnit=null,pageIndex=0;
 const tooltip=$('#unitTooltip');
+const completedTabs=new Set();let tabFinished=false;
+function tabEnd(){const list=data.sentences.filter(s=>s.paragraph===pageIndex);return list[list.length-1].end+.04;}
+function updateTabs(){document.querySelectorAll('[data-tab]').forEach(b=>{const n=Number(b.dataset.tab);b.setAttribute('aria-selected',String(n===pageIndex));b.classList.toggle('completed',completedTabs.has(n));});$('#continueTab').disabled=!tabFinished;$('#continueTab').classList.toggle('ready',tabFinished);$('#continueTab').textContent=pageIndex===data.pages.length-1?'סיום הקריאה ←':'המשך ←';}
+function finishTab(){tabFinished=true;completedTabs.add(pageIndex);audio.pause();updateTabs();$('#status').textContent='סיימתם את הקטע. לחצו על המשך.';}
+$('#continueTab').onclick=()=>{if(!tabFinished)return;if(pageIndex===data.pages.length-1){window.dispatchEvent(new Event('reader-complete'));return;}setPage(pageIndex+1,true);play();};
 $('.reader').append($('.below'));
 $('.reader').addEventListener('scroll',hideTooltip,{passive:true});
 function notifyPage(){window.dispatchEvent(new CustomEvent('reader-page',{detail:{page:pageIndex}}));}
@@ -20,7 +25,7 @@ window.addEventListener('scroll',()=>{if(tooltipUnit&&tooltipUnit.matches(':hove
 
 function setPage(n,manual=false){
   if(!data)return;n=Math.max(0,Math.min(data.pages.length-1,n));
-  hideTooltip();pageIndex=n;
+  hideTooltip();pageIndex=n;tabFinished=false;updateTabs();$('#readingPanel').setAttribute('aria-labelledby','reading-tab-'+n);
   document.querySelectorAll('#story > p').forEach((p,i)=>p.hidden=i!==n);
   const image=document.createElement('img');image.src=data.pages[n].image;image.alt=data.pages[n].title+' — תמונה להמחשת הסיפור';image.width=1536;image.height=1024;$('#scene').replaceChildren(image);$('#pageTitle').textContent=data.pages[n].title;$('#pageNumber').textContent=`דף ${n+1} מתוך ${data.pages.length}`;
   $('#previousPage').disabled=n===0;$('#nextPage').disabled=n===data.pages.length-1;
@@ -34,10 +39,12 @@ let touchStart=null;$('.reader').addEventListener('touchstart',e=>{if(e.target.c
 const clock=t=>`${Math.floor((t||0)/60)}:${String(Math.floor((t||0)%60)).padStart(2,'0')}`;
 function sync(){
   const t=audio.currentTime;
+  if(!data)return;
+  if(!audio.paused&&t>=tabEnd()){finishTab();}
   if(repeatEnd!==null&&t>=repeatEnd){audio.pause();repeatEnd=null;}
   let wi=-1,si=-1,read=0;
   for(let i=0;i<words.length;i++){if(t>=words[i].start){read=i+1;si=words[i].sentence;}if(t>=words[i].start&&t<words[i].end)wi=i;}
-  if(!audio.paused){let target=0;for(const s of data.sentences)if(t>=s.start-.08)target=s.paragraph;if(target!==pageIndex)setPage(target);}
+
   if(audio.ended){wi=-1;si=-1;read=words.length;}
   if(wi!==activeWord){if(activeWord>=0)wordNodes[activeWord].classList.remove('current');if(wi>=0)wordNodes[wi].classList.add('current');activeWord=wi;if(wi>=0&&!audio.paused&&$('#followScroll').checked){const r=wordNodes[wi].getBoundingClientRect(),playerTop=$('.player').getBoundingClientRect().top;const bottom=Math.min(innerHeight-20,playerTop-20);if(r.top<20||r.bottom>bottom)wordNodes[wi].scrollIntoView({block:'center',behavior:'instant'});}}
   if(si!==activeSentence){if(activeSentence>=0)sentenceNodes[activeSentence].classList.remove('active');if(si>=0)sentenceNodes[si].classList.add('active');activeSentence=si;}
@@ -48,8 +55,8 @@ function sync(){
 function frame(){sync();if(!audio.paused)raf=requestAnimationFrame(frame);}
 async function play(){try{await audio.play();}catch(e){$('#status').textContent='לא ניתן לנגן כרגע. נסו שוב או פתחו את קובץ ההקראה.';}}
 function sentenceAt(){return activeSentence>=0&&data.sentences[activeSentence].paragraph===pageIndex?activeSentence:data.sentences.findIndex(s=>s.paragraph===pageIndex);}
-async function repeatSentence(i){const s=data.sentences[i];repeatEnd=s.end+.12;audio.currentTime=Math.max(0,s.start-.06);sync();await play();}
-$('#play').onclick=()=>{if(!audio.paused)audio.pause();else{repeatEnd=null;if(audio.ended)audio.currentTime=0;play();}};
+async function repeatSentence(i){tabFinished=false;updateTabs();const s=data.sentences[i];repeatEnd=s.end+.12;audio.currentTime=Math.max(0,s.start-.06);sync();await play();}
+$('#play').onclick=()=>{if(!audio.paused)audio.pause();else{repeatEnd=null;if(tabFinished||audio.ended){audio.currentTime=Math.max(0,data.sentences.find(s=>s.paragraph===pageIndex).start-.06);tabFinished=false;updateTabs();}play();}};
 $('#restart').onclick=()=>{repeatEnd=null;setPage(0);audio.currentTime=0;sync();play();};
 $('#repeat').onclick=()=>repeatSentence(sentenceAt());
 // One preference shared by Teachers reading presentations on this browser.
@@ -62,7 +69,7 @@ $('#speed').onchange=e=>{const speed=Number(e.target.value);applySpeed(speed);tr
 $('#seek').oninput=e=>{repeatEnd=null;audio.currentTime=Number(e.target.value);let target=0;for(const s of data.sentences)if(audio.currentTime>=s.start-.08)target=s.paragraph;setPage(target);sync();};
 audio.addEventListener('play',()=>{$('#play').textContent='❚❚ השהיה';$('#status').textContent='מקשיבים וקוראים';cancelAnimationFrame(raf);frame();});
 audio.addEventListener('pause',()=>{cancelAnimationFrame(raf);$('#play').textContent='▶ המשך';$('#status').textContent=audio.ended?'הקריאה הושלמה':'מושהה';sync();});
-audio.addEventListener('ended',()=>{repeatEnd=null;$('#play').textContent='▶ שוב מההתחלה';$('#status').textContent='הקריאה הושלמה';sync();});
+audio.addEventListener('ended',()=>{repeatEnd=null;finishTab();sync();});
 audio.addEventListener('timeupdate',sync);audio.addEventListener('seeked',sync);
 audio.addEventListener('loadedmetadata',()=>{$('#duration').textContent=clock(audio.duration);$('#seek').max=audio.duration;$('#seek').disabled=false;});
 audio.addEventListener('waiting',()=>{$('#status').textContent='טוען אודיו…';});
@@ -73,7 +80,9 @@ document.addEventListener('visibilitychange',()=>{if(document.hidden)audio.pause
 $('#translate').onclick=()=>{const open=$('#translation').hidden;$('#translation').hidden=!open;$('#translate').setAttribute('aria-expanded',String(open));$('#translate').textContent=open?'הסתרת התרגום':'הצגת תרגום לעברית';};
 $('#check').onclick=()=>{const answer=$('input[name=answer]:checked');$('#feedback').textContent=!answer?'בחרו תשובה לפני הבדיקה.':answer.value==='class'?'נכון. התיק הירוק נמצא בכיתה — והילדים מהרכבת הם חבריו לכיתה.':'קראו שוב את הפסקה האחרונה. היכן דן פותח את הדלת?';};
 async function init(){try{
-  const response=await fetch('reading.json?v=reading-prefs-4');if(!response.ok)throw Error('Reading unavailable');data=await response.json();
+  const response=await fetch('reading.json?v=tabs-trial-5');if(!response.ok)throw Error('Reading unavailable');data=await response.json();
+  $('#readingTabs').innerHTML=data.pages.map((p,n)=>`<button id="reading-tab-${n}" role="tab" aria-controls="readingPanel" aria-label="חלק ${n+1}: ${p.title}" data-tab="${n}">${n+1}</button>`).join('');
+  document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>setPage(Number(b.dataset.tab),true));
   $('#wordCount').textContent=`${data.wordCount} מילים`;$('#story').textContent='';let paragraph=-1,p;
   data.sentences.forEach((s,i)=>{if(s.paragraph!==paragraph){p=document.createElement('p');$('#story').append(p);paragraph=s.paragraph;}
     const node=document.createElement('span');node.className='sentence';let wordInSentence=0;

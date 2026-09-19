@@ -21,3 +21,17 @@ Validated: original-slide subsequence equality, exact story text, actual quarter
 playback, preserved pitch, pause/seek, automatic page advance without interruption,
 translation without movement or playback, removal on exit, images and all ten pages
 at 1280×720, 1000×600 and 390×844.
+
+## Local trial: tabs and sentence audio
+
+The integrated lesson now uses ten numbered tabs, current/completed states and a
+pause at each page boundary. Continue pulses gently after completion; only its
+click starts the following tab. Tab selection pauses and seeks to that tab. The
+last Continue leaves the reader. This is a trial in this lesson only, not a charter
+change; the standalone reader retains its approved continuous flow.
+
+Each original sentence slide (including its translation reveal) schedules the
+matching segment of the same narration two seconds after rendering. Navigation,
+menu opening or page hiding cancels pending and active playback. A replay/stop
+button handles browser autoplay restrictions. Saved reading speed is respected.
+The 100 slide objects and source story remain unchanged.
