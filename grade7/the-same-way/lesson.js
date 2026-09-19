@@ -1,6 +1,6 @@
 (()=>{'use strict';
 const $=s=>document.querySelector(s),esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const state={choices:{},route:[],reviewed:{}};let i=0;const key='teachers-the-same-way-slide-v1';
+const state={choices:{},route:[]};let i=0;const key='teachers-the-same-way-slide-v1';
 const fromHash=parseInt(location.hash.slice(1),10);if(fromHash>0)i=Math.min(SLIDES.length-1,fromHash-1);
 const pmap=['A','B','C','D','E'];let lastWheel=0;
 const routeItems=['walk to school','train','walk to the bus stop','second bus','first bus'];
@@ -12,7 +12,7 @@ function outcome(s){
  return !state.route.length?{tone:'unanswered',text:'לא נבחר סדר — נבדוק יחד'}:state.route.length<5?{tone:'needs-work',text:`הסדר לא הושלם: נבחרו ${state.route.length} מתוך 5 תחנות`}:count===5?{tone:'success',text:'✓ נכון! כל 5 התחנות בסדר הנכון.'}:{tone:'needs-work',text:`✗ צריך לתקן את הסדר: ${count} מתוך 5 תחנות במקום הנכון`};
 }
 function banner(s){const o=s.reveal?outcome(s):{tone:'pending',text:s.kind==='quiz'?'בחרו תשובה, ואז לחצו על בדיקה':'סדרו את כל 5 התחנות, ואז לחצו על בדיקה'};return `<div class="assessmentBanner ${o.tone}" role="status">${esc(o.text)}</div>`;}
-function reviewActions(){return `<div class="reviewActions"><button id="retryAnswer">↶ ניסיון נוסף</button><button id="reviewContinue">קראתי ובדקתי — המשך ←</button></div>`;}
+function reviewActions(){return `<div class="reviewActions"><button id="retryAnswer">↶ ניסיון נוסף</button><button id="reviewContinue">המשך ←</button></div>`;}
 function quizFeedback(s,pick){return `<section class="answerFeedback" tabindex="-1" aria-label="משוב לתשובה"><p>התשובה שלכם: <bdi dir="ltr">${pick===undefined?'לא נבחרה תשובה':esc(s.opts[pick])}</bdi></p><p class="rightAnswer">✓ התשובה הנכונה: <bdi dir="ltr">${esc(s.opts[s.correct])}</bdi></p><p class="explanation">${esc(s.why)}</p>${reviewActions()}</section>`;}
 function routeFeedback(s){return `<div class="routeComparison"><div class="routeHead">שלב</div><div class="routeHead">הסדר שלכם</div><div class="routeHead ${s.reveal?'':'hidden'}">הסדר הנכון</div>${correctRoute.map((x,n)=>{const picked=state.route[n],same=picked===x;return `<div class="routeStep">${n+1}</div><div class="routeCell ${s.reveal?(same?'match':'mismatch'):''}"><bdi dir="ltr">${esc(picked||'—')}</bdi><span class="routeVerdict ${s.reveal?'':'hidden'}">${!picked?'חסר':same?'✓ במקום הנכון':'✗ לא במקום הנכון'}</span></div><div class="routeCell rightAnswer ${s.reveal?'':'hidden'}"><bdi dir="ltr">${esc(x)}</bdi></div>`;}).join('')}</div>`;}
 const wordTooltip=document.createElement('div');wordTooltip.id='sentenceWordTooltip';wordTooltip.role='tooltip';wordTooltip.dir='rtl';wordTooltip.hidden=true;document.body.append(wordTooltip);let tooltipWord=null;
@@ -71,23 +71,24 @@ else c=`${title}${tense}<p class="hero english">${esc(s.text)}</p><p class="sub"
 $('#stage').innerHTML=`<article class="${s.kind}">${c}</article>`;$('#counter').textContent=`${i+1} / ${SLIDES.length}`;$('#prev').disabled=i===0;$('#next').disabled=i===SLIDES.length-1;
 const progress=s.progress||0;$('#readLabel').innerHTML=progress?`התקדמות בקריאה: <bdi dir="ltr">${progress} / 28</bdi>`:'לפני הקריאה המודרכת';$('#readBar').style.width=(progress/28*100)+'%';
 history.replaceState(null,'','#'+(i+1));try{if(i>0)localStorage.setItem(key,i)}catch(e){}
-document.querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>{state.choices[i]=Number(b.dataset.choice);delete state.reviewed[i+1];render();document.querySelector(`[data-choice="${b.dataset.choice}"]`)?.focus({preventScroll:true});});
-document.querySelectorAll('[data-route]').forEach(b=>b.onclick=()=>{const scroll=$('#stage').scrollTop;state.route.push(routeItems[Number(b.dataset.route)]);delete state.reviewed[i+1];render();$('#stage').scrollTop=scroll});
+document.querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>{state.choices[i]=Number(b.dataset.choice);render();document.querySelector(`[data-choice="${b.dataset.choice}"]`)?.focus({preventScroll:true});});
+document.querySelectorAll('[data-route]').forEach(b=>b.onclick=()=>{const scroll=$('#stage').scrollTop;state.route.push(routeItems[Number(b.dataset.route)]);render();$('#stage').scrollTop=scroll});
 if(s.kind==='sentence'){document.querySelectorAll('.sentenceWord').forEach(w=>{w.onpointerenter=e=>{if(e.pointerType!=='touch')showWordTooltip(w);};w.onpointerleave=e=>{if(e.pointerType!=='touch')hideWordTooltip();};w.onfocus=()=>showWordTooltip(w);w.onblur=hideWordTooltip;w.onclick=()=>showWordTooltip(w);w.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();e.stopPropagation();showWordTooltip(w);}};});$('#sentenceSpeak').onclick=()=>{if(!sentenceAudio.paused){stopSentence();$('#sentenceSpeak').textContent='▶ שוב';}else speakSentence(s);};sentenceTimer=setTimeout(()=>speakSentence(s),2000);}
 if($('#checkAnswer'))$('#checkAnswer').onclick=()=>go(i+1);
-if(isReview(s)){$('#next').textContent=state.reviewed[i]?'→':'משוב ↓';$('#next').setAttribute('aria-label',state.reviewed[i]?'השקף הבא':'קריאת המשוב לפני המשך');$('#reviewContinue').onclick=()=>{state.reviewed[i]=true;go(i+1);};$('#retryAnswer').onclick=()=>{delete state.reviewed[i];if(s.kind==='quiz')delete state.choices[i-1];if(s.kind==='route')state.route=[];go(i-1);};}else{$('#next').textContent='→';$('#next').setAttribute('aria-label','השקף הבא');}
-if($('#resetRoute'))$('#resetRoute').onclick=()=>{state.route=[];delete state.reviewed[i+1];render()};
+$('#next').textContent='→';$('#next').setAttribute('aria-label','השקף הבא');
+if(isReview(s)){$('#reviewContinue').onclick=()=>go(i+1);$('#retryAnswer').onclick=()=>{if(s.kind==='quiz')delete state.choices[i-1];if(s.kind==='route')state.route=[];go(i-1);};}
+if($('#resetRoute'))$('#resetRoute').onclick=()=>{state.route=[];render()};
 if($('#startNow'))$('#startNow').onclick=()=>go(1);
 if($('#resume'))$('#resume').onclick=()=>{let n=1;try{n=Number(localStorage.getItem(key))||1}catch(e){}go(n)};
 }
-function go(n,explicitJump=false){if(n>i&&!explicitJump&&isReview(SLIDES[i])&&!state.reviewed[i]){const feedback=$('.answerFeedback');feedback?.scrollIntoView({block:'start',behavior:'instant'});feedback?.focus({preventScroll:true});return;}i=Math.max(0,Math.min(SLIDES.length-1,n));render()}
+function go(n){i=Math.max(0,Math.min(SLIDES.length-1,n));render()}
 $('#prev').onclick=()=>go(i-1);$('#next').onclick=()=>go(i+1);
 document.addEventListener('keydown',e=>{if($('#menu').open)return;if(e.target.closest('button,a,.sentenceWord')&&(e.key===' '||e.key==='Enter'))return;if(['ArrowRight','ArrowDown','PageDown',' '].includes(e.key)){e.preventDefault();go(i+1)}if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();go(i-1)}if(e.key==='Home')go(0);if(e.key==='End')go(SLIDES.length-1)});
 $('#stage').addEventListener('wheel',e=>{const el=$('#stage');if(el.scrollHeight>el.clientHeight+4){if(e.deltaY>0&&el.scrollTop+el.clientHeight<el.scrollHeight-3)return;if(e.deltaY<0&&el.scrollTop>3)return;}e.preventDefault();if(Date.now()-lastWheel<500)return;lastWheel=Date.now();go(i+(e.deltaY>0?1:-1))},{passive:false});
 installSwipe($('#stage'),delta=>go(i+delta));
-$('#menuBtn').onclick=()=>{stopSentence();readerFrame?.contentWindow.readAlong?.pause();$('#menu').showModal();};$('#closeMenu').onclick=()=>$('#menu').close();$('#restart').onclick=()=>{state.route=[];state.choices={};state.reviewed={};$('#menu').close();go(0)};
+$('#menuBtn').onclick=()=>{stopSentence();readerFrame?.contentWindow.readAlong?.pause();$('#menu').showModal();};$('#closeMenu').onclick=()=>$('#menu').close();$('#restart').onclick=()=>{state.route=[];state.choices={};$('#menu').close();go(0)};
 $('#fullBtn').onclick=()=>document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen?.();
 const stops=[{label:'פתיחה',n:0},{label:'הסיפור המלא',n:1},{label:'Read Alone Text · קריאה והאזנה',n:SLIDES.findIndex(s=>s.kind==='readalong')},{label:'חיבור ל־To Be ולאוצר המילים',n:SLIDES.findIndex(s=>s.kind==='bridge')}];for(const p of pmap){stops.push({label:`פסקה ${p}`,n:SLIDES.findIndex(s=>s.kind==='sentence'&&s.part===p)})}stops.push({label:'משימת הדף',n:SLIDES.findIndex(s=>s.kind==='work')},{label:'בדיקת יציאה',n:SLIDES.findIndex(s=>s.kind==='exit')});
-$('#contents').innerHTML=stops.map(x=>`<button data-go="${x.n}">${x.label}</button>`).join('');document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>{$('#menu').close();go(Number(b.dataset.go),true)});
+$('#contents').innerHTML=stops.map(x=>`<button data-go="${x.n}">${x.label}</button>`).join('');document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>{$('#menu').close();go(Number(b.dataset.go))});
 window.lesson={go,slides:SLIDES,state};render();
 })();
