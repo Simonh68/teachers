@@ -1,0 +1,2896 @@
+{
+  "vocabularySource": "../band2-groups-01-02/entries.json",
+  "title": "There is · There are",
+  "created": "יום ראשון, ט׳ בתשרי תשפ״ז (20.9.2026)",
+  "sections": [
+    "שייכות ומקום",
+    "הווה: יש ואין",
+    "הווה: שאלות",
+    "עבר: היה והיו",
+    "קוראים ובודקים",
+    "תרגול עצמאי"
+  ],
+  "sentences": [
+    {
+      "en": "I have a soccer ball.",
+      "he": "יש לי כדורגל.",
+      "words": [
+        {
+          "word": "I",
+          "he": "אני"
+        },
+        {
+          "word": "have",
+          "he": "יש ל־; שייכות"
+        },
+        {
+          "word": "a",
+          "he": "פריט אחד, לא מיודע"
+        },
+        {
+          "word": "soccer",
+          "he": "כדורגל"
+        },
+        {
+          "word": "ball.",
+          "he": "כדור"
+        }
+      ]
+    },
+    {
+      "en": "There is a soccer ball on the chair.",
+      "he": "יש כדורגל על הכיסא.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "is",
+          "he": "יש ביחיד, כחלק מ־there is"
+        },
+        {
+          "word": "a",
+          "he": "פריט אחד, לא מיודע"
+        },
+        {
+          "word": "soccer",
+          "he": "כדורגל"
+        },
+        {
+          "word": "ball",
+          "he": "כדור"
+        },
+        {
+          "word": "on",
+          "he": "על"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "chair.",
+          "he": "כיסא"
+        }
+      ]
+    },
+    {
+      "en": "Ben has two history books.",
+      "he": "לבן יש שני ספרי היסטוריה.",
+      "words": [
+        {
+          "word": "Ben",
+          "he": "בן (שם)"
+        },
+        {
+          "word": "has",
+          "he": "יש לו / לה; שייכות ביחיד"
+        },
+        {
+          "word": "two",
+          "he": "שניים / שתי"
+        },
+        {
+          "word": "history",
+          "he": "היסטוריה"
+        },
+        {
+          "word": "books.",
+          "he": "ספרים"
+        }
+      ]
+    },
+    {
+      "en": "We have one ball.",
+      "he": "יש לנו כדור אחד.",
+      "words": [
+        {
+          "word": "We",
+          "he": "אנחנו"
+        },
+        {
+          "word": "have",
+          "he": "יש ל־; שייכות"
+        },
+        {
+          "word": "one",
+          "he": "אחד / אחת"
+        },
+        {
+          "word": "ball.",
+          "he": "כדור"
+        }
+      ]
+    },
+    {
+      "en": "There is a piano in the classroom.",
+      "he": "יש פסנתר בכיתה.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "is",
+          "he": "יש ביחיד, כחלק מ־there is"
+        },
+        {
+          "word": "a",
+          "he": "פריט אחד, לא מיודע"
+        },
+        {
+          "word": "piano",
+          "he": "פסנתר"
+        },
+        {
+          "word": "in",
+          "he": "ב־ / בתוך"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "classroom.",
+          "he": "כיתה"
+        }
+      ]
+    },
+    {
+      "en": "There are two windows in the classroom.",
+      "he": "יש שני חלונות בכיתה.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "are",
+          "he": "יש ברבים, כחלק מ־there are"
+        },
+        {
+          "word": "two",
+          "he": "שניים / שתי"
+        },
+        {
+          "word": "windows",
+          "he": "חלונות"
+        },
+        {
+          "word": "in",
+          "he": "ב־ / בתוך"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "classroom.",
+          "he": "כיתה"
+        }
+      ]
+    },
+    {
+      "en": "There is a drawer under the table.",
+      "he": "יש מגירה מתחת לשולחן.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "is",
+          "he": "יש ביחיד, כחלק מ־there is"
+        },
+        {
+          "word": "a",
+          "he": "פריט אחד, לא מיודע"
+        },
+        {
+          "word": "drawer",
+          "he": "מגירה"
+        },
+        {
+          "word": "under",
+          "he": "מתחת ל־"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "table.",
+          "he": "שולחן"
+        }
+      ]
+    },
+    {
+      "en": "There is a Bible on the shelf.",
+      "he": "יש תנ״ך על המדף.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "is",
+          "he": "יש ביחיד, כחלק מ־there is"
+        },
+        {
+          "word": "a",
+          "he": "פריט אחד, לא מיודע"
+        },
+        {
+          "word": "Bible",
+          "he": "התנ״ך; כתבי הקודש"
+        },
+        {
+          "word": "on",
+          "he": "על"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "shelf.",
+          "he": "מדף"
+        }
+      ]
+    },
+    {
+      "en": "There is not a computer in this room.",
+      "he": "אין מחשב בחדר הזה.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "is",
+          "he": "יש ביחיד, כחלק מ־there is"
+        },
+        {
+          "word": "not",
+          "he": "לא; יוצר שלילה"
+        },
+        {
+          "word": "a",
+          "he": "פריט אחד, לא מיודע"
+        },
+        {
+          "word": "computer",
+          "he": "מחשב"
+        },
+        {
+          "word": "in",
+          "he": "ב־ / בתוך"
+        },
+        {
+          "word": "this",
+          "he": "הזה / הזאת"
+        },
+        {
+          "word": "room.",
+          "he": "חדר"
+        }
+      ]
+    },
+    {
+      "en": "There isn't a computer in this room.",
+      "he": "אין מחשב בחדר הזה.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "isn't",
+          "he": "is not; אין ביחיד"
+        },
+        {
+          "word": "a",
+          "he": "פריט אחד, לא מיודע"
+        },
+        {
+          "word": "computer",
+          "he": "מחשב"
+        },
+        {
+          "word": "in",
+          "he": "ב־ / בתוך"
+        },
+        {
+          "word": "this",
+          "he": "הזה / הזאת"
+        },
+        {
+          "word": "room.",
+          "he": "חדר"
+        }
+      ]
+    },
+    {
+      "en": "There aren't any bags on the floor.",
+      "he": "אין תיקים על הרצפה.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "aren't",
+          "he": "are not; אין ברבים"
+        },
+        {
+          "word": "any",
+          "he": "בשאלה: כלשהם; בשלילה: אין בכלל"
+        },
+        {
+          "word": "bags",
+          "he": "תיקים"
+        },
+        {
+          "word": "on",
+          "he": "על"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "floor.",
+          "he": "רצפה"
+        }
+      ]
+    },
+    {
+      "en": "There is a short break after the exercise.",
+      "he": "יש הפסקה קצרה אחרי התרגיל.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "is",
+          "he": "יש ביחיד, כחלק מ־there is"
+        },
+        {
+          "word": "a",
+          "he": "פריט אחד, לא מיודע"
+        },
+        {
+          "word": "short",
+          "he": "קצר / קצרה"
+        },
+        {
+          "word": "break",
+          "he": "הפסקה; חופשה"
+        },
+        {
+          "word": "after",
+          "he": "אחרי"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "exercise.",
+          "he": "תרגיל; פעילות גופנית"
+        }
+      ]
+    },
+    {
+      "en": "There is an explanation on the board.",
+      "he": "יש הסבר על הלוח.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "is",
+          "he": "יש ביחיד, כחלק מ־there is"
+        },
+        {
+          "word": "an",
+          "he": "פריט אחד, לא מיודע"
+        },
+        {
+          "word": "explanation",
+          "he": "הסבר"
+        },
+        {
+          "word": "on",
+          "he": "על"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "board.",
+          "he": "לוח"
+        }
+      ]
+    },
+    {
+      "en": "There is a mouse next to the computer.",
+      "he": "יש עכבר מחשב ליד המחשב.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "is",
+          "he": "יש ביחיד, כחלק מ־there is"
+        },
+        {
+          "word": "a",
+          "he": "פריט אחד, לא מיודע"
+        },
+        {
+          "word": "mouse",
+          "he": "עכבר מחשב"
+        },
+        {
+          "word": "next",
+          "he": "חלק מהביטוי next to: ליד"
+        },
+        {
+          "word": "to",
+          "he": "חלק מהביטוי next to: ליד"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "computer.",
+          "he": "מחשב"
+        }
+      ]
+    },
+    {
+      "en": "Is there a piano in the classroom?",
+      "he": "האם יש פסנתר בכיתה?",
+      "words": [
+        {
+          "word": "Is",
+          "he": "פועל בתחילת שאלה: האם יש?"
+        },
+        {
+          "word": "there",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "a",
+          "he": "פריט אחד, לא מיודע"
+        },
+        {
+          "word": "piano",
+          "he": "פסנתר"
+        },
+        {
+          "word": "in",
+          "he": "ב־ / בתוך"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "classroom?",
+          "he": "כיתה"
+        }
+      ]
+    },
+    {
+      "en": "Yes, there is.",
+      "he": "כן, יש.",
+      "words": [
+        {
+          "word": "Yes,",
+          "he": "כן"
+        },
+        {
+          "word": "there",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "is.",
+          "he": "יש ביחיד, כחלק מ־there is"
+        }
+      ]
+    },
+    {
+      "en": "Are there any bags on the floor?",
+      "he": "האם יש תיקים על הרצפה?",
+      "words": [
+        {
+          "word": "Are",
+          "he": "פועל בתחילת שאלה: האם יש?"
+        },
+        {
+          "word": "there",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "any",
+          "he": "בשאלה: כלשהם; בשלילה: אין בכלל"
+        },
+        {
+          "word": "bags",
+          "he": "תיקים"
+        },
+        {
+          "word": "on",
+          "he": "על"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "floor?",
+          "he": "רצפה"
+        }
+      ]
+    },
+    {
+      "en": "No, there aren't.",
+      "he": "לא, אין.",
+      "words": [
+        {
+          "word": "No,",
+          "he": "לא"
+        },
+        {
+          "word": "there",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "aren't.",
+          "he": "are not; אין ברבים"
+        }
+      ]
+    },
+    {
+      "en": "There was a drawer in the classroom yesterday.",
+      "he": "הייתה מגירה בכיתה אתמול.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "was",
+          "he": "היה / הייתה ביחיד"
+        },
+        {
+          "word": "a",
+          "he": "פריט אחד, לא מיודע"
+        },
+        {
+          "word": "drawer",
+          "he": "מגירה"
+        },
+        {
+          "word": "in",
+          "he": "ב־ / בתוך"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "classroom",
+          "he": "כיתה"
+        },
+        {
+          "word": "yesterday.",
+          "he": "אתמול"
+        }
+      ]
+    },
+    {
+      "en": "There were three books in the drawer.",
+      "he": "היו שלושה ספרים במגירה.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "were",
+          "he": "היו ברבים"
+        },
+        {
+          "word": "three",
+          "he": "שלושה / שלוש"
+        },
+        {
+          "word": "books",
+          "he": "ספרים"
+        },
+        {
+          "word": "in",
+          "he": "ב־ / בתוך"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "drawer.",
+          "he": "מגירה"
+        }
+      ]
+    },
+    {
+      "en": "There wasn't a ball in the drawer.",
+      "he": "לא היה כדור במגירה.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "wasn't",
+          "he": "was not; לא היה / הייתה"
+        },
+        {
+          "word": "a",
+          "he": "פריט אחד, לא מיודע"
+        },
+        {
+          "word": "ball",
+          "he": "כדור"
+        },
+        {
+          "word": "in",
+          "he": "ב־ / בתוך"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "drawer.",
+          "he": "מגירה"
+        }
+      ]
+    },
+    {
+      "en": "There weren't any pencils on the table.",
+      "he": "לא היו עפרונות על השולחן.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "weren't",
+          "he": "were not; לא היו"
+        },
+        {
+          "word": "any",
+          "he": "בשאלה: כלשהם; בשלילה: אין בכלל"
+        },
+        {
+          "word": "pencils",
+          "he": "עפרונות"
+        },
+        {
+          "word": "on",
+          "he": "על"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "table.",
+          "he": "שולחן"
+        }
+      ]
+    },
+    {
+      "en": "There wasn't a lock on the drawer.",
+      "he": "לא היה מנעול על המגירה.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "wasn't",
+          "he": "was not; לא היה / הייתה"
+        },
+        {
+          "word": "a",
+          "he": "פריט אחד, לא מיודע"
+        },
+        {
+          "word": "lock",
+          "he": "מנעול"
+        },
+        {
+          "word": "on",
+          "he": "על"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "drawer.",
+          "he": "מגירה"
+        }
+      ]
+    },
+    {
+      "en": "Was there a ball in the drawer?",
+      "he": "האם היה כדור במגירה?",
+      "words": [
+        {
+          "word": "Was",
+          "he": "פועל בתחילת שאלה: האם היה / היו?"
+        },
+        {
+          "word": "there",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "a",
+          "he": "פריט אחד, לא מיודע"
+        },
+        {
+          "word": "ball",
+          "he": "כדור"
+        },
+        {
+          "word": "in",
+          "he": "ב־ / בתוך"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "drawer?",
+          "he": "מגירה"
+        }
+      ]
+    },
+    {
+      "en": "No, there wasn't.",
+      "he": "לא, לא היה.",
+      "words": [
+        {
+          "word": "No,",
+          "he": "לא"
+        },
+        {
+          "word": "there",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "wasn't.",
+          "he": "was not; לא היה / הייתה"
+        }
+      ]
+    },
+    {
+      "en": "Were there any books in the drawer?",
+      "he": "האם היו ספרים במגירה?",
+      "words": [
+        {
+          "word": "Were",
+          "he": "פועל בתחילת שאלה: האם היה / היו?"
+        },
+        {
+          "word": "there",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "any",
+          "he": "בשאלה: כלשהם; בשלילה: אין בכלל"
+        },
+        {
+          "word": "books",
+          "he": "ספרים"
+        },
+        {
+          "word": "in",
+          "he": "ב־ / בתוך"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "drawer?",
+          "he": "מגירה"
+        }
+      ]
+    },
+    {
+      "en": "Yes, there were.",
+      "he": "כן, היו.",
+      "words": [
+        {
+          "word": "Yes,",
+          "he": "כן"
+        },
+        {
+          "word": "there",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "were.",
+          "he": "היו ברבים"
+        }
+      ]
+    },
+    {
+      "en": "Yesterday, there was a drawer in our classroom.",
+      "he": "אתמול הייתה מגירה בכיתה שלנו.",
+      "words": [
+        {
+          "word": "Yesterday,",
+          "he": "אתמול"
+        },
+        {
+          "word": "there",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "was",
+          "he": "היה / הייתה ביחיד"
+        },
+        {
+          "word": "a",
+          "he": "פריט אחד, לא מיודע"
+        },
+        {
+          "word": "drawer",
+          "he": "מגירה"
+        },
+        {
+          "word": "in",
+          "he": "ב־ / בתוך"
+        },
+        {
+          "word": "our",
+          "he": "שלנו"
+        },
+        {
+          "word": "classroom.",
+          "he": "כיתה"
+        }
+      ]
+    },
+    {
+      "en": "There were three books in the drawer.",
+      "he": "היו שלושה ספרים במגירה.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "were",
+          "he": "היו ברבים"
+        },
+        {
+          "word": "three",
+          "he": "שלושה / שלוש"
+        },
+        {
+          "word": "books",
+          "he": "ספרים"
+        },
+        {
+          "word": "in",
+          "he": "ב־ / בתוך"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "drawer.",
+          "he": "מגירה"
+        }
+      ]
+    },
+    {
+      "en": "There wasn't a ball in the drawer.",
+      "he": "לא היה כדור במגירה.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "wasn't",
+          "he": "was not; לא היה / הייתה"
+        },
+        {
+          "word": "a",
+          "he": "פריט אחד, לא מיודע"
+        },
+        {
+          "word": "ball",
+          "he": "כדור"
+        },
+        {
+          "word": "in",
+          "he": "ב־ / בתוך"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "drawer.",
+          "he": "מגירה"
+        }
+      ]
+    },
+    {
+      "en": "Today, there is a ball on the table.",
+      "he": "היום יש כדור על השולחן.",
+      "words": [
+        {
+          "word": "Today,",
+          "he": "היום"
+        },
+        {
+          "word": "there",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "is",
+          "he": "יש ביחיד, כחלק מ־there is"
+        },
+        {
+          "word": "a",
+          "he": "פריט אחד, לא מיודע"
+        },
+        {
+          "word": "ball",
+          "he": "כדור"
+        },
+        {
+          "word": "on",
+          "he": "על"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "table.",
+          "he": "שולחן"
+        }
+      ]
+    },
+    {
+      "en": "There are three books on the shelf.",
+      "he": "יש שלושה ספרים על המדף.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "are",
+          "he": "יש ברבים, כחלק מ־there are"
+        },
+        {
+          "word": "three",
+          "he": "שלושה / שלוש"
+        },
+        {
+          "word": "books",
+          "he": "ספרים"
+        },
+        {
+          "word": "on",
+          "he": "על"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "shelf.",
+          "he": "מדף"
+        }
+      ]
+    },
+    {
+      "en": "There aren't any books in the drawer now.",
+      "he": "אין ספרים במגירה עכשיו.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "aren't",
+          "he": "are not; אין ברבים"
+        },
+        {
+          "word": "any",
+          "he": "בשאלה: כלשהם; בשלילה: אין בכלל"
+        },
+        {
+          "word": "books",
+          "he": "ספרים"
+        },
+        {
+          "word": "in",
+          "he": "ב־ / בתוך"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "drawer",
+          "he": "מגירה"
+        },
+        {
+          "word": "now.",
+          "he": "עכשיו"
+        }
+      ]
+    },
+    {
+      "en": "There is some water in the bottle.",
+      "he": "יש מעט מים בבקבוק.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק ממבנה יש / היה; בשאלה האם יש / היה"
+        },
+        {
+          "word": "is",
+          "he": "יש ביחיד, כחלק מ־there is"
+        },
+        {
+          "word": "some",
+          "he": "כמות כלשהי / מעט"
+        },
+        {
+          "word": "water",
+          "he": "מים"
+        },
+        {
+          "word": "in",
+          "he": "ב־ / בתוך"
+        },
+        {
+          "word": "the",
+          "he": "ה־"
+        },
+        {
+          "word": "bottle.",
+          "he": "בקבוק"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "title": "There is · There are",
+      "section": "שייכות ומקום",
+      "sub": "כיתה ז׳ · אנגלית"
+    },
+    {
+      "kind": "plan",
+      "title": "מה נוכל לעשות בסוף?",
+      "section": "שייכות ומקום",
+      "steps": [
+        "להבחין בין מה שיש למישהו לבין מה שנמצא במקום.",
+        "לתאר יחיד ורבים, עכשיו ואתמול.",
+        "לומר מה אין ולשאול מה יש.",
+        "לקרוא, לבדוק רמזים ולנסח משפטים משלנו."
+      ]
+    },
+    {
+      "kind": "vocab",
+      "title": "מילים שיעזרו לנו",
+      "section": "שייכות ומקום",
+      "entries": [
+        {
+          "id": "g01-20",
+          "group": 1,
+          "word": "drawer",
+          "meaning": "מגירה"
+        },
+        {
+          "id": "g02-03",
+          "group": 2,
+          "word": "soccer",
+          "meaning": "כדורגל"
+        },
+        {
+          "id": "g02-27",
+          "group": 2,
+          "word": "piano",
+          "meaning": "פסנתר"
+        },
+        {
+          "id": "g02-01",
+          "group": 2,
+          "word": "history",
+          "meaning": "היסטוריה"
+        }
+      ],
+      "sub": "מילים מקבוצות 01–02. מילה שעדיין לא פגשנו נלמד יחד לפני התרגול."
+    },
+    {
+      "kind": "rule",
+      "title": "שייכות או מה נמצא במקום?",
+      "section": "שייכות ומקום",
+      "formula": "I have a bag.\nThere is a bag on the chair.",
+      "he": "have מספר מה יש לי. there is מציג משהו שנמצא במקום. אותו תיק, שתי משמעויות שונות.",
+      "tense": "הווה",
+      "rows": null
+    },
+    {
+      "kind": "sentence",
+      "title": "מה יש לי?",
+      "section": "שייכות ומקום",
+      "n": 0,
+      "en": "I have a soccer ball.",
+      "he": "יש לי כדורגל.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "מה יש לי?",
+      "section": "שייכות ומקום",
+      "n": 0,
+      "en": "I have a soccer ball.",
+      "he": "יש לי כדורגל.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "מה נמצא במקום?",
+      "section": "שייכות ומקום",
+      "n": 1,
+      "en": "There is a soccer ball on the chair.",
+      "he": "יש כדורגל על הכיסא.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "מה נמצא במקום?",
+      "section": "שייכות ומקום",
+      "n": 1,
+      "en": "There is a soccer ball on the chair.",
+      "he": "יש כדורגל על הכיסא.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "rule",
+      "title": "have או has?",
+      "section": "שייכות ומקום",
+      "formula": "I / you / we / they → have\nhe / she / it → has",
+      "he": "מסתכלים על מי שיש לו משהו, ולא על מספר החפצים. גם לחדר יכול להיות משהו: The room has two windows.",
+      "tense": "הווה",
+      "rows": null
+    },
+    {
+      "kind": "sentence",
+      "title": "בעל החפצים הוא יחיד",
+      "section": "שייכות ומקום",
+      "n": 2,
+      "en": "Ben has two history books.",
+      "he": "לבן יש שני ספרי היסטוריה.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "בעל החפצים הוא יחיד",
+      "section": "שייכות ומקום",
+      "n": 2,
+      "en": "Ben has two history books.",
+      "he": "לבן יש שני ספרי היסטוריה.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "בעלי החפץ הם רבים",
+      "section": "שייכות ומקום",
+      "n": 3,
+      "en": "We have one ball.",
+      "he": "יש לנו כדור אחד.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "בעלי החפץ הם רבים",
+      "section": "שייכות ומקום",
+      "n": 3,
+      "en": "We have one ball.",
+      "he": "יש לנו כדור אחד.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "quiz",
+      "title": "בודקים את המשמעות",
+      "section": "שייכות ומקום",
+      "q": "יש כדור על השולחן.",
+      "opts": [
+        "I have a ball.",
+        "There is a ball on the table.",
+        "He has a ball."
+      ],
+      "correct": 1,
+      "why": "המשפט מתאר מה נמצא על השולחן. הוא אינו אומר למי הכדור שייך.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "בודקים את המשמעות",
+      "section": "שייכות ומקום",
+      "q": "יש כדור על השולחן.",
+      "opts": [
+        "I have a ball.",
+        "There is a ball on the table.",
+        "He has a ball."
+      ],
+      "correct": 1,
+      "why": "המשפט מתאר מה נמצא על השולחן. הוא אינו אומר למי הכדור שייך.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": true
+    },
+    {
+      "kind": "quiz",
+      "title": "שימו לב למי, לא לכמה",
+      "section": "שייכות ומקום",
+      "q": "Ben ___ three pencils.",
+      "opts": [
+        "have",
+        "are",
+        "has"
+      ],
+      "correct": 2,
+      "why": "Ben = he, ולכן has. שלושת העפרונות אינם משנים את הפועל שמתאים לבן.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "שימו לב למי, לא לכמה",
+      "section": "שייכות ומקום",
+      "q": "Ben ___ three pencils.",
+      "opts": [
+        "have",
+        "are",
+        "has"
+      ],
+      "correct": 2,
+      "why": "Ben = he, ולכן has. שלושת העפרונות אינם משנים את הפועל שמתאים לבן.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": true
+    },
+    {
+      "kind": "rule",
+      "title": "there בתחילת המבנה",
+      "section": "שייכות ומקום",
+      "formula": "There is a bag here.",
+      "he": "כאן there הוא חלק מהמבנה שמשמעותו „יש”. הוא אינו חייב לציין „שם”. אפשר לתאר גם משהו שנמצא כאן.",
+      "tense": "הווה",
+      "rows": null
+    },
+    {
+      "kind": "pause",
+      "title": "Northern Lights",
+      "section": "שייכות ומקום",
+      "image": "../../grade9/assets/northern-lights.webp"
+    },
+    {
+      "kind": "rule",
+      "title": "חיוב בהווה",
+      "section": "הווה: יש ואין",
+      "formula": "There is + one thing\nThere are + two or more things",
+      "he": "בודקים את שם העצם שמציגים: דבר אחד או כמה דברים?",
+      "tense": "הווה",
+      "rows": [
+        [
+          "יחיד",
+          "There is a chair."
+        ],
+        [
+          "רבים",
+          "There are two chairs."
+        ]
+      ]
+    },
+    {
+      "kind": "sentence",
+      "title": "יחיד",
+      "section": "הווה: יש ואין",
+      "n": 4,
+      "en": "There is a piano in the classroom.",
+      "he": "יש פסנתר בכיתה.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "יחיד",
+      "section": "הווה: יש ואין",
+      "n": 4,
+      "en": "There is a piano in the classroom.",
+      "he": "יש פסנתר בכיתה.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "רבים",
+      "section": "הווה: יש ואין",
+      "n": 5,
+      "en": "There are two windows in the classroom.",
+      "he": "יש שני חלונות בכיתה.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "רבים",
+      "section": "הווה: יש ואין",
+      "n": 5,
+      "en": "There are two windows in the classroom.",
+      "he": "יש שני חלונות בכיתה.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "המיקום בסוף המשפט",
+      "section": "הווה: יש ואין",
+      "n": 6,
+      "en": "There is a drawer under the table.",
+      "he": "יש מגירה מתחת לשולחן.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "המיקום בסוף המשפט",
+      "section": "הווה: יש ואין",
+      "n": 6,
+      "en": "There is a drawer under the table.",
+      "he": "יש מגירה מתחת לשולחן.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "מילה מקבוצה 01",
+      "section": "הווה: יש ואין",
+      "n": 7,
+      "en": "There is a Bible on the shelf.",
+      "he": "יש תנ״ך על המדף.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "מילה מקבוצה 01",
+      "section": "הווה: יש ואין",
+      "n": 7,
+      "en": "There is a Bible on the shelf.",
+      "he": "יש תנ״ך על המדף.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "quiz",
+      "title": "מה קובע את הפועל?",
+      "section": "הווה: יש ואין",
+      "q": "There ___ one book on the desks.",
+      "opts": [
+        "are",
+        "is",
+        "have"
+      ],
+      "correct": 1,
+      "why": "one book הוא הדבר שמציגים, ולכן is. המילה desks מופיעה כחלק מתיאור המקום ואינה קובעת את הפועל.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "מה קובע את הפועל?",
+      "section": "הווה: יש ואין",
+      "q": "There ___ one book on the desks.",
+      "opts": [
+        "are",
+        "is",
+        "have"
+      ],
+      "correct": 1,
+      "why": "one book הוא הדבר שמציגים, ולכן is. המילה desks מופיעה כחלק מתיאור המקום ואינה קובעת את הפועל.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": true
+    },
+    {
+      "kind": "quiz",
+      "title": "איתור טעות",
+      "section": "הווה: יש ואין",
+      "q": "איזה משפט תקין?",
+      "opts": [
+        "There is three chairs.",
+        "There are three chairs.",
+        "There have three chairs."
+      ],
+      "correct": 1,
+      "why": "three chairs הם רבים. המבנה הוא There are + רבים.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "איתור טעות",
+      "section": "הווה: יש ואין",
+      "q": "איזה משפט תקין?",
+      "opts": [
+        "There is three chairs.",
+        "There are three chairs.",
+        "There have three chairs."
+      ],
+      "correct": 1,
+      "why": "three chairs הם רבים. המבנה הוא There are + רבים.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": true
+    },
+    {
+      "kind": "quiz",
+      "title": "חוזרים למשמעות",
+      "section": "הווה: יש ואין",
+      "q": "There are two books on the table. מה ידוע?",
+      "opts": [
+        "הספרים שייכים לבן.",
+        "הספרים נמצאים על השולחן.",
+        "יש לי שני ספרים."
+      ],
+      "correct": 1,
+      "why": "there are מציג מה נמצא במקום. כדי לומר שלבן יש ספרים נשתמש ב־Ben has.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "חוזרים למשמעות",
+      "section": "הווה: יש ואין",
+      "q": "There are two books on the table. מה ידוע?",
+      "opts": [
+        "הספרים שייכים לבן.",
+        "הספרים נמצאים על השולחן.",
+        "יש לי שני ספרים."
+      ],
+      "correct": 1,
+      "why": "there are מציג מה נמצא במקום. כדי לומר שלבן יש ספרים נשתמש ב־Ben has.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": true
+    },
+    {
+      "kind": "rule",
+      "title": "שלילה בהווה",
+      "section": "הווה: יש ואין",
+      "formula": "is not = isn’t\nare not = aren’t",
+      "he": "מוסיפים not אחרי is או are. הקיצור אינו משנה את המשמעות.",
+      "tense": "הווה",
+      "rows": null
+    },
+    {
+      "kind": "sentence",
+      "title": "שלילה מלאה",
+      "section": "הווה: יש ואין",
+      "n": 8,
+      "en": "There is not a computer in this room.",
+      "he": "אין מחשב בחדר הזה.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "שלילה מלאה",
+      "section": "הווה: יש ואין",
+      "n": 8,
+      "en": "There is not a computer in this room.",
+      "he": "אין מחשב בחדר הזה.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "אותה משמעות בקיצור",
+      "section": "הווה: יש ואין",
+      "n": 9,
+      "en": "There isn't a computer in this room.",
+      "he": "אין מחשב בחדר הזה.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "אותה משמעות בקיצור",
+      "section": "הווה: יש ואין",
+      "n": 9,
+      "en": "There isn't a computer in this room.",
+      "he": "אין מחשב בחדר הזה.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "rule",
+      "title": "אין אפילו אחד",
+      "section": "הווה: יש ואין",
+      "formula": "There aren’t any + plural noun",
+      "he": "בשלילה עם שם עצם ברבים משתמשים כאן ב־any: אין כאלה בכלל. בשאלה any עוזר לשאול אם יש כאלה.",
+      "tense": "הווה",
+      "rows": null
+    },
+    {
+      "kind": "sentence",
+      "title": "שלילה ברבים",
+      "section": "הווה: יש ואין",
+      "n": 10,
+      "en": "There aren't any bags on the floor.",
+      "he": "אין תיקים על הרצפה.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "שלילה ברבים",
+      "section": "הווה: יש ואין",
+      "n": 10,
+      "en": "There aren't any bags on the floor.",
+      "he": "אין תיקים על הרצפה.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "quiz",
+      "title": "מה נכון כשאין ספרים?",
+      "section": "הווה: יש ואין",
+      "q": "על המדף אין ספרים.",
+      "opts": [
+        "There are books on the shelf.",
+        "There isn't any books on the shelf.",
+        "There aren't any books on the shelf."
+      ],
+      "correct": 2,
+      "why": "books הם רבים, ולכן aren’t. any מתאים לשלילה: אין ספרים בכלל.",
+      "tense": "הווה",
+      "context": "בחרו משפט בשלילה עם books ברבים.",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "מה נכון כשאין ספרים?",
+      "section": "הווה: יש ואין",
+      "q": "על המדף אין ספרים.",
+      "opts": [
+        "There are books on the shelf.",
+        "There isn't any books on the shelf.",
+        "There aren't any books on the shelf."
+      ],
+      "correct": 2,
+      "why": "books הם רבים, ולכן aren’t. any מתאים לשלילה: אין ספרים בכלל.",
+      "tense": "הווה",
+      "context": "בחרו משפט בשלילה עם books ברבים.",
+      "reveal": true
+    },
+    {
+      "kind": "inventory",
+      "title": "מה יש בחדר?",
+      "section": "הווה: יש ואין",
+      "items": [
+        [
+          "piano",
+          "1"
+        ],
+        [
+          "windows",
+          "2"
+        ],
+        [
+          "computer",
+          "0"
+        ],
+        [
+          "bags on the floor",
+          "0"
+        ]
+      ],
+      "sub": "זהו חדר לדוגמה. קראו את הנתונים ואז תארו אותו באנגלית.",
+      "tense": "הווה"
+    },
+    {
+      "kind": "task",
+      "title": "מתארים חדר בזוגות",
+      "section": "הווה: יש ואין",
+      "prompt": "לפי הנתונים: פסנתר אחד, שני חלונות, אין מחשב. אמרו שני משפטי חיוב ומשפט שלילה. בן הזוג בודק את שם העצם ואת הפועל.",
+      "tense": "הווה"
+    },
+    {
+      "kind": "review",
+      "title": "מתארים חדר בזוגות · בודקים",
+      "section": "הווה: יש ואין",
+      "model": "There is a piano.\nThere are two windows.\nThere isn’t a computer.",
+      "check": "בדקו: piano עם is; windows עם are; שלילה עם isn’t. אם המבנה והמשמעות מתאימים — הצלחתם. החליפו תפקידים.",
+      "tense": "הווה"
+    },
+    {
+      "kind": "pause",
+      "title": "Mount Everest",
+      "section": "הווה: יש ואין",
+      "image": "../../grade9/assets/mount-everest.webp"
+    },
+    {
+      "kind": "vocab",
+      "title": "מילים נוספות מהקבוצות",
+      "section": "הווה: שאלות",
+      "entries": [
+        {
+          "id": "g01-14",
+          "group": 1,
+          "word": "break",
+          "meaning": "הפסקה; חופשה"
+        },
+        {
+          "id": "g01-52",
+          "group": 1,
+          "word": "explanation",
+          "meaning": "הסבר"
+        },
+        {
+          "id": "g02-07",
+          "group": 2,
+          "word": "exercise",
+          "meaning": "תרגיל; פעילות גופנית"
+        },
+        {
+          "id": "g02-16",
+          "group": 2,
+          "word": "mouse",
+          "meaning": "עכבר מחשב"
+        }
+      ],
+      "sub": "הפירושים כאן לקוחים מהמאגר. נשתמש במשמעות שמתאימה למשפט."
+    },
+    {
+      "kind": "sentence",
+      "title": "יש גם בזמן, לא רק במקום",
+      "section": "הווה: שאלות",
+      "n": 11,
+      "en": "There is a short break after the exercise.",
+      "he": "יש הפסקה קצרה אחרי התרגיל.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "יש גם בזמן, לא רק במקום",
+      "section": "הווה: שאלות",
+      "n": 11,
+      "en": "There is a short break after the exercise.",
+      "he": "יש הפסקה קצרה אחרי התרגיל.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "מתארים מה יש",
+      "section": "הווה: שאלות",
+      "n": 12,
+      "en": "There is an explanation on the board.",
+      "he": "יש הסבר על הלוח.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "מתארים מה יש",
+      "section": "הווה: שאלות",
+      "n": 12,
+      "en": "There is an explanation on the board.",
+      "he": "יש הסבר על הלוח.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "mouse בהקשר של מחשב",
+      "section": "הווה: שאלות",
+      "n": 13,
+      "en": "There is a mouse next to the computer.",
+      "he": "יש עכבר מחשב ליד המחשב.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "mouse בהקשר של מחשב",
+      "section": "הווה: שאלות",
+      "n": 13,
+      "en": "There is a mouse next to the computer.",
+      "he": "יש עכבר מחשב ליד המחשב.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "rule",
+      "title": "שאלה: הפועל עובר להתחלה",
+      "section": "הווה: שאלות",
+      "formula": "There is a piano. → Is there a piano?\nThere are bags. → Are there any bags?",
+      "he": "מקדימים is או are ל־there. אין צורך להוסיף do או does.",
+      "tense": "הווה",
+      "rows": null
+    },
+    {
+      "kind": "sentence",
+      "title": "שאלה ביחיד",
+      "section": "הווה: שאלות",
+      "n": 14,
+      "en": "Is there a piano in the classroom?",
+      "he": "האם יש פסנתר בכיתה?",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "שאלה ביחיד",
+      "section": "הווה: שאלות",
+      "n": 14,
+      "en": "Is there a piano in the classroom?",
+      "he": "האם יש פסנתר בכיתה?",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "תשובה קצרה ביחיד",
+      "section": "הווה: שאלות",
+      "n": 15,
+      "en": "Yes, there is.",
+      "he": "כן, יש.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "תשובה קצרה ביחיד",
+      "section": "הווה: שאלות",
+      "n": 15,
+      "en": "Yes, there is.",
+      "he": "כן, יש.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "שאלה ברבים",
+      "section": "הווה: שאלות",
+      "n": 16,
+      "en": "Are there any bags on the floor?",
+      "he": "האם יש תיקים על הרצפה?",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "שאלה ברבים",
+      "section": "הווה: שאלות",
+      "n": 16,
+      "en": "Are there any bags on the floor?",
+      "he": "האם יש תיקים על הרצפה?",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "תשובה קצרה ברבים",
+      "section": "הווה: שאלות",
+      "n": 17,
+      "en": "No, there aren't.",
+      "he": "לא, אין.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "תשובה קצרה ברבים",
+      "section": "הווה: שאלות",
+      "n": 17,
+      "en": "No, there aren't.",
+      "he": "לא, אין.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "rule",
+      "title": "התשובה שומרת על הפועל",
+      "section": "הווה: שאלות",
+      "formula": "Is there …? → Yes, there is. / No, there isn’t.\nAre there …? → Yes, there are. / No, there aren’t.",
+      "he": "בתשובה קצרה משתמשים ב־there. בסוף תשובה חיובית קצרה אומרים Yes, there is. ולא Yes, there’s.",
+      "tense": "הווה",
+      "rows": null
+    },
+    {
+      "kind": "quiz",
+      "title": "סדר המילים בשאלה",
+      "section": "הווה: שאלות",
+      "q": "בחרו שאלה תקינה.",
+      "opts": [
+        "Do there are two windows?",
+        "Are there two windows?",
+        "There are two windows?"
+      ],
+      "correct": 1,
+      "why": "בשאלה מהסוג שלמדנו are עובר לפני there. אין מוסיפים do.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "סדר המילים בשאלה",
+      "section": "הווה: שאלות",
+      "q": "בחרו שאלה תקינה.",
+      "opts": [
+        "Do there are two windows?",
+        "Are there two windows?",
+        "There are two windows?"
+      ],
+      "correct": 1,
+      "why": "בשאלה מהסוג שלמדנו are עובר לפני there. אין מוסיפים do.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": true
+    },
+    {
+      "kind": "quiz",
+      "title": "מקשיבים למספר",
+      "section": "הווה: שאלות",
+      "q": "Is there a computer?",
+      "opts": [
+        "No, there aren’t.",
+        "No, there isn't.",
+        "No, it has."
+      ],
+      "correct": 1,
+      "why": "השאלה מתחילה ב־Is there ולכן התשובה היא No, there isn’t.",
+      "tense": "הווה",
+      "context": "נתון: אין מחשב בחדר.",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "מקשיבים למספר",
+      "section": "הווה: שאלות",
+      "q": "Is there a computer?",
+      "opts": [
+        "No, there aren’t.",
+        "No, there isn't.",
+        "No, it has."
+      ],
+      "correct": 1,
+      "why": "השאלה מתחילה ב־Is there ולכן התשובה היא No, there isn’t.",
+      "tense": "הווה",
+      "context": "נתון: אין מחשב בחדר.",
+      "reveal": true
+    },
+    {
+      "kind": "quiz",
+      "title": "כן, ברבים",
+      "section": "הווה: שאלות",
+      "q": "Are there two windows?",
+      "opts": [
+        "Yes, there is.",
+        "Yes, they have.",
+        "Yes, there are."
+      ],
+      "correct": 2,
+      "why": "השאלה עם are ולכן גם התשובה עם are.",
+      "tense": "הווה",
+      "context": "נתון: בחדר יש שני חלונות.",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "כן, ברבים",
+      "section": "הווה: שאלות",
+      "q": "Are there two windows?",
+      "opts": [
+        "Yes, there is.",
+        "Yes, they have.",
+        "Yes, there are."
+      ],
+      "correct": 2,
+      "why": "השאלה עם are ולכן גם התשובה עם are.",
+      "tense": "הווה",
+      "context": "נתון: בחדר יש שני חלונות.",
+      "reveal": true
+    },
+    {
+      "kind": "task",
+      "title": "שאלות על הכיתה שלנו",
+      "section": "הווה: שאלות",
+      "prompt": "בן זוג א׳ שואל על פסנתר. בן זוג ב׳ שואל על חלונות. ענו לפי הכיתה האמיתית, ואחר כך החליפו תפקידים.",
+      "tense": "הווה"
+    },
+    {
+      "kind": "review",
+      "title": "שאלות על הכיתה שלנו · בודקים",
+      "section": "הווה: שאלות",
+      "model": "Is there a piano?\nAre there any windows?",
+      "check": "התשובה תלויה בכיתה. בדקו התאמה: Is → is / isn’t; Are → are / aren’t. תשובה שלילית נכונה חשובה כמו תשובה חיובית.",
+      "tense": "הווה"
+    },
+    {
+      "kind": "rule",
+      "title": "עוצרים ומחזירים מהזיכרון",
+      "section": "הווה: שאלות",
+      "formula": "יש → There …\nאין → There … not\nהאם יש? → … there?",
+      "he": "בלי לחזור אחורה: אמרו מה משתנה בין יחיד לרבים ובין חיוב, שלילה ושאלה. לאחר מכן בדקו בשקף הסיכום.",
+      "tense": "הווה",
+      "rows": null
+    },
+    {
+      "kind": "summary",
+      "title": "הווה במבט אחד",
+      "section": "הווה: שאלות",
+      "tense": "הווה",
+      "rows": [
+        [
+          "חיוב",
+          "There is a book.",
+          "There are books."
+        ],
+        [
+          "שלילה",
+          "There isn’t a book.",
+          "There aren’t any books."
+        ],
+        [
+          "שאלה",
+          "Is there a book?",
+          "Are there any books?"
+        ],
+        [
+          "כן",
+          "Yes, there is.",
+          "Yes, there are."
+        ],
+        [
+          "לא",
+          "No, there isn’t.",
+          "No, there aren’t."
+        ]
+      ]
+    },
+    {
+      "kind": "pause",
+      "title": "Petra",
+      "section": "הווה: שאלות",
+      "image": "../../grade9/assets/petra.webp"
+    },
+    {
+      "kind": "checkpoint",
+      "title": "סיום מפגש 1",
+      "section": "הווה: שאלות",
+      "sub": "אמרו משפט חיובי, משפט שלילי ושאלה על הכיתה. הסבירו למה there is אינו אומר למי החפץ שייך. אפשר לעצור כאן ולהמשיך במפגש הבא."
+    },
+    {
+      "kind": "restart",
+      "title": "מפגש 2 · חוזרים בלי להציץ",
+      "section": "עבר: היה והיו",
+      "sub": "כתבו מהזיכרון משפט אחד עם There is, משפט עם There aren’t ושאלה עם Are there. בדקו בסיכום ההווה, ואז המשיכו."
+    },
+    {
+      "kind": "quiz",
+      "title": "חזרה קצרה: שייכות או מקום?",
+      "section": "עבר: היה והיו",
+      "q": "There is a piano in the room. מה אפשר להסיק?",
+      "opts": [
+        "יש פסנתר בחדר.",
+        "הפסנתר שייך לי.",
+        "לבן יש פסנתר."
+      ],
+      "correct": 0,
+      "why": "מיקום אינו שייכות. לשייכות נאמר I have או Ben has. מבנה there נשאר הנושא המרכזי שלנו.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "חזרה קצרה: שייכות או מקום?",
+      "section": "עבר: היה והיו",
+      "q": "There is a piano in the room. מה אפשר להסיק?",
+      "opts": [
+        "יש פסנתר בחדר.",
+        "הפסנתר שייך לי.",
+        "לבן יש פסנתר."
+      ],
+      "correct": 0,
+      "why": "מיקום אינו שייכות. לשייכות נאמר I have או Ben has. מבנה there נשאר הנושא המרכזי שלנו.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": true
+    },
+    {
+      "kind": "vocab",
+      "title": "עוד מילה לפני הקריאה",
+      "section": "עבר: היה והיו",
+      "entries": [
+        {
+          "id": "g02-28",
+          "group": 2,
+          "word": "lock",
+          "meaning": "מנעול"
+        }
+      ],
+      "sub": "נשתמש ב־lock כדי לתאר מה היה ומה לא היה בחדר."
+    },
+    {
+      "kind": "rule",
+      "title": "אתמול: מחליפים רק את הפועל",
+      "section": "עבר: היה והיו",
+      "formula": "is → was\nare → were",
+      "he": "there נשאר. יחיד בעבר: was. רבים בעבר: were. חפשו רמזי זמן, למשל yesterday או last week.",
+      "tense": "עבר",
+      "rows": null
+    },
+    {
+      "kind": "sentence",
+      "title": "יחיד בעבר",
+      "section": "עבר: היה והיו",
+      "n": 18,
+      "en": "There was a drawer in the classroom yesterday.",
+      "he": "הייתה מגירה בכיתה אתמול.",
+      "tense": "עבר",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "יחיד בעבר",
+      "section": "עבר: היה והיו",
+      "n": 18,
+      "en": "There was a drawer in the classroom yesterday.",
+      "he": "הייתה מגירה בכיתה אתמול.",
+      "tense": "עבר",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "רבים בעבר",
+      "section": "עבר: היה והיו",
+      "n": 19,
+      "en": "There were three books in the drawer.",
+      "he": "היו שלושה ספרים במגירה.",
+      "tense": "עבר",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "רבים בעבר",
+      "section": "עבר: היה והיו",
+      "n": 19,
+      "en": "There were three books in the drawer.",
+      "he": "היו שלושה ספרים במגירה.",
+      "tense": "עבר",
+      "reveal": true
+    },
+    {
+      "kind": "quiz",
+      "title": "רמז הזמן קובע",
+      "section": "עבר: היה והיו",
+      "q": "Yesterday, there ___ two balls in the room.",
+      "opts": [
+        "are",
+        "was",
+        "were"
+      ],
+      "correct": 2,
+      "why": "Yesterday מציין עבר; two balls הם רבים. לכן were.",
+      "tense": "עבר",
+      "context": "",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "רמז הזמן קובע",
+      "section": "עבר: היה והיו",
+      "q": "Yesterday, there ___ two balls in the room.",
+      "opts": [
+        "are",
+        "was",
+        "were"
+      ],
+      "correct": 2,
+      "why": "Yesterday מציין עבר; two balls הם רבים. לכן were.",
+      "tense": "עבר",
+      "context": "",
+      "reveal": true
+    },
+    {
+      "kind": "rule",
+      "title": "שלילה בעבר",
+      "section": "עבר: היה והיו",
+      "formula": "was not = wasn’t\nwere not = weren’t",
+      "he": "מוסיפים not אחרי was או were, בדיוק כמו בהווה. אין מוסיפים didn’t לפני was או were.",
+      "tense": "עבר",
+      "rows": null
+    },
+    {
+      "kind": "sentence",
+      "title": "שלילה ביחיד בעבר",
+      "section": "עבר: היה והיו",
+      "n": 20,
+      "en": "There wasn't a ball in the drawer.",
+      "he": "לא היה כדור במגירה.",
+      "tense": "עבר",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "שלילה ביחיד בעבר",
+      "section": "עבר: היה והיו",
+      "n": 20,
+      "en": "There wasn't a ball in the drawer.",
+      "he": "לא היה כדור במגירה.",
+      "tense": "עבר",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "שלילה ברבים בעבר",
+      "section": "עבר: היה והיו",
+      "n": 21,
+      "en": "There weren't any pencils on the table.",
+      "he": "לא היו עפרונות על השולחן.",
+      "tense": "עבר",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "שלילה ברבים בעבר",
+      "section": "עבר: היה והיו",
+      "n": 21,
+      "en": "There weren't any pencils on the table.",
+      "he": "לא היו עפרונות על השולחן.",
+      "tense": "עבר",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "מילה מקבוצה 02",
+      "section": "עבר: היה והיו",
+      "n": 22,
+      "en": "There wasn't a lock on the drawer.",
+      "he": "לא היה מנעול על המגירה.",
+      "tense": "עבר",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "מילה מקבוצה 02",
+      "section": "עבר: היה והיו",
+      "n": 22,
+      "en": "There wasn't a lock on the drawer.",
+      "he": "לא היה מנעול על המגירה.",
+      "tense": "עבר",
+      "reveal": true
+    },
+    {
+      "kind": "quiz",
+      "title": "תיקון טעות בעבר",
+      "section": "עבר: היה והיו",
+      "q": "איזה משפט שלילה תקין?",
+      "opts": [
+        "There didn't were any bags.",
+        "There weren't any bags.",
+        "There wasn't any bags."
+      ],
+      "correct": 1,
+      "why": "bags הם רבים. בשלילה בעבר אומרים weren’t. אין לשלב didn’t עם were.",
+      "tense": "עבר",
+      "context": "",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "תיקון טעות בעבר",
+      "section": "עבר: היה והיו",
+      "q": "איזה משפט שלילה תקין?",
+      "opts": [
+        "There didn't were any bags.",
+        "There weren't any bags.",
+        "There wasn't any bags."
+      ],
+      "correct": 1,
+      "why": "bags הם רבים. בשלילה בעבר אומרים weren’t. אין לשלב didn’t עם were.",
+      "tense": "עבר",
+      "context": "",
+      "reveal": true
+    },
+    {
+      "kind": "rule",
+      "title": "שאלות בעבר",
+      "section": "עבר: היה והיו",
+      "formula": "There was a drawer. → Was there a drawer?\nThere were books. → Were there any books?",
+      "he": "was או were עוברים לפני there. אין צורך ב־did.",
+      "tense": "עבר",
+      "rows": null
+    },
+    {
+      "kind": "sentence",
+      "title": "שאלה ביחיד בעבר",
+      "section": "עבר: היה והיו",
+      "n": 23,
+      "en": "Was there a ball in the drawer?",
+      "he": "האם היה כדור במגירה?",
+      "tense": "עבר",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "שאלה ביחיד בעבר",
+      "section": "עבר: היה והיו",
+      "n": 23,
+      "en": "Was there a ball in the drawer?",
+      "he": "האם היה כדור במגירה?",
+      "tense": "עבר",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "תשובה קצרה ביחיד בעבר",
+      "section": "עבר: היה והיו",
+      "n": 24,
+      "en": "No, there wasn't.",
+      "he": "לא, לא היה.",
+      "tense": "עבר",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "תשובה קצרה ביחיד בעבר",
+      "section": "עבר: היה והיו",
+      "n": 24,
+      "en": "No, there wasn't.",
+      "he": "לא, לא היה.",
+      "tense": "עבר",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "שאלה ברבים בעבר",
+      "section": "עבר: היה והיו",
+      "n": 25,
+      "en": "Were there any books in the drawer?",
+      "he": "האם היו ספרים במגירה?",
+      "tense": "עבר",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "שאלה ברבים בעבר",
+      "section": "עבר: היה והיו",
+      "n": 25,
+      "en": "Were there any books in the drawer?",
+      "he": "האם היו ספרים במגירה?",
+      "tense": "עבר",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "תשובה קצרה ברבים בעבר",
+      "section": "עבר: היה והיו",
+      "n": 26,
+      "en": "Yes, there were.",
+      "he": "כן, היו.",
+      "tense": "עבר",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "תשובה קצרה ברבים בעבר",
+      "section": "עבר: היה והיו",
+      "n": 26,
+      "en": "Yes, there were.",
+      "he": "כן, היו.",
+      "tense": "עבר",
+      "reveal": true
+    },
+    {
+      "kind": "quiz",
+      "title": "לא מחליפים זמן באמצע",
+      "section": "עבר: היה והיו",
+      "q": "Were there any pencils?",
+      "opts": [
+        "No, there aren’t.",
+        "No, there weren't.",
+        "No, there wasn't."
+      ],
+      "correct": 1,
+      "why": "Were מציין רבים בעבר, ולכן weren’t. aren’t היה עונה על ההווה.",
+      "tense": "עבר",
+      "context": "נתון: אתמול לא היו עפרונות על השולחן.",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "לא מחליפים זמן באמצע",
+      "section": "עבר: היה והיו",
+      "q": "Were there any pencils?",
+      "opts": [
+        "No, there aren’t.",
+        "No, there weren't.",
+        "No, there wasn't."
+      ],
+      "correct": 1,
+      "why": "Were מציין רבים בעבר, ולכן weren’t. aren’t היה עונה על ההווה.",
+      "tense": "עבר",
+      "context": "נתון: אתמול לא היו עפרונות על השולחן.",
+      "reveal": true
+    },
+    {
+      "kind": "summary",
+      "title": "עבר במבט אחד",
+      "section": "עבר: היה והיו",
+      "tense": "עבר",
+      "rows": [
+        [
+          "חיוב",
+          "There was a book.",
+          "There were books."
+        ],
+        [
+          "שלילה",
+          "There wasn’t a book.",
+          "There weren’t any books."
+        ],
+        [
+          "שאלה",
+          "Was there a book?",
+          "Were there any books?"
+        ],
+        [
+          "כן",
+          "Yes, there was.",
+          "Yes, there were."
+        ],
+        [
+          "לא",
+          "No, there wasn’t.",
+          "No, there weren’t."
+        ]
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "גם שייכות יכולה להיות בעבר",
+      "section": "עבר: היה והיו",
+      "formula": "Ben has a bag now.\nBen had a bag yesterday.",
+      "he": "לשייכות בעבר משתמשים ב־had. כדי לומר שהיה משהו במקום משתמשים ב־there was או there were.",
+      "tense": "",
+      "rows": null
+    },
+    {
+      "kind": "quiz",
+      "title": "משמעות לפני צורה",
+      "section": "עבר: היה והיו",
+      "q": "אתמול היה לבן תיק.",
+      "opts": [
+        "There was a bag in the room.",
+        "Ben had a bag yesterday.",
+        "There were bags yesterday."
+      ],
+      "correct": 1,
+      "why": "המשפט בעברית מספר מה היה לבן. לכן had. שאר האפשרויות מתארות מה היה במקום.",
+      "tense": "עבר",
+      "context": "",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "משמעות לפני צורה",
+      "section": "עבר: היה והיו",
+      "q": "אתמול היה לבן תיק.",
+      "opts": [
+        "There was a bag in the room.",
+        "Ben had a bag yesterday.",
+        "There were bags yesterday."
+      ],
+      "correct": 1,
+      "why": "המשפט בעברית מספר מה היה לבן. לכן had. שאר האפשרויות מתארות מה היה במקום.",
+      "tense": "עבר",
+      "context": "",
+      "reveal": true
+    },
+    {
+      "kind": "task",
+      "title": "עכשיו ואתמול",
+      "section": "עבר: היה והיו",
+      "prompt": "עבדו בזוגות. היום: שני ספרים ואין כדור. אתמול: ספר אחד וכדור אחד. אמרו משפט על היום, שני משפטים על אתמול ושאלה על אתמול.",
+      "tense": ""
+    },
+    {
+      "kind": "review",
+      "title": "עכשיו ואתמול · בודקים",
+      "section": "עבר: היה והיו",
+      "model": "There are two books today.\nThere was one book yesterday.\nThere was a ball yesterday.\nWas there a ball yesterday?",
+      "check": "בדקו זמן, יחיד/רבים, והקדמת was בשאלה. אפשר גם משפט שלילה נכון על היום: There isn’t a ball today.",
+      "tense": ""
+    },
+    {
+      "kind": "pause",
+      "title": "Northern Lights · A quiet moment",
+      "section": "עבר: היה והיו",
+      "image": "../../grade9/assets/northern-lights.webp"
+    },
+    {
+      "kind": "reading",
+      "title": "The Classroom Drawer",
+      "section": "קוראים ובודקים",
+      "text": "Yesterday, there was a drawer in our classroom. There were three books in the drawer. There wasn't a ball in the drawer. Today, there is a ball on the table. There are three books on the shelf. There aren't any books in the drawer now.",
+      "sub": "קראו פעם אחת: מה השתנה? לאחר מכן נבדוק כל משפט ונחפש ראיות."
+    },
+    {
+      "kind": "sentence",
+      "title": "The Classroom Drawer",
+      "section": "קוראים ובודקים",
+      "n": 27,
+      "en": "Yesterday, there was a drawer in our classroom.",
+      "he": "אתמול הייתה מגירה בכיתה שלנו.",
+      "tense": "עבר",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "The Classroom Drawer",
+      "section": "קוראים ובודקים",
+      "n": 27,
+      "en": "Yesterday, there was a drawer in our classroom.",
+      "he": "אתמול הייתה מגירה בכיתה שלנו.",
+      "tense": "עבר",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "The Classroom Drawer",
+      "section": "קוראים ובודקים",
+      "n": 28,
+      "en": "There were three books in the drawer.",
+      "he": "היו שלושה ספרים במגירה.",
+      "tense": "עבר",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "The Classroom Drawer",
+      "section": "קוראים ובודקים",
+      "n": 28,
+      "en": "There were three books in the drawer.",
+      "he": "היו שלושה ספרים במגירה.",
+      "tense": "עבר",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "The Classroom Drawer",
+      "section": "קוראים ובודקים",
+      "n": 29,
+      "en": "There wasn't a ball in the drawer.",
+      "he": "לא היה כדור במגירה.",
+      "tense": "עבר",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "The Classroom Drawer",
+      "section": "קוראים ובודקים",
+      "n": 29,
+      "en": "There wasn't a ball in the drawer.",
+      "he": "לא היה כדור במגירה.",
+      "tense": "עבר",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "The Classroom Drawer",
+      "section": "קוראים ובודקים",
+      "n": 30,
+      "en": "Today, there is a ball on the table.",
+      "he": "היום יש כדור על השולחן.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "The Classroom Drawer",
+      "section": "קוראים ובודקים",
+      "n": 30,
+      "en": "Today, there is a ball on the table.",
+      "he": "היום יש כדור על השולחן.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "The Classroom Drawer",
+      "section": "קוראים ובודקים",
+      "n": 31,
+      "en": "There are three books on the shelf.",
+      "he": "יש שלושה ספרים על המדף.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "The Classroom Drawer",
+      "section": "קוראים ובודקים",
+      "n": 31,
+      "en": "There are three books on the shelf.",
+      "he": "יש שלושה ספרים על המדף.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "sentence",
+      "title": "The Classroom Drawer",
+      "section": "קוראים ובודקים",
+      "n": 32,
+      "en": "There aren't any books in the drawer now.",
+      "he": "אין ספרים במגירה עכשיו.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "The Classroom Drawer",
+      "section": "קוראים ובודקים",
+      "n": 32,
+      "en": "There aren't any books in the drawer now.",
+      "he": "אין ספרים במגירה עכשיו.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "quiz",
+      "title": "שאלת קשב: המיקום השתנה",
+      "section": "קוראים ובודקים",
+      "q": "Where are the books now?",
+      "opts": [
+        "In the drawer.",
+        "On the shelf.",
+        "Under the table."
+      ],
+      "correct": 1,
+      "why": "עכשיו הספרים על המדף. במגירה היו ספרים אתמול. חזרו למשפט שמתחיל There are.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "שאלת קשב: המיקום השתנה",
+      "section": "קוראים ובודקים",
+      "q": "Where are the books now?",
+      "opts": [
+        "In the drawer.",
+        "On the shelf.",
+        "Under the table."
+      ],
+      "correct": 1,
+      "why": "עכשיו הספרים על המדף. במגירה היו ספרים אתמול. חזרו למשפט שמתחיל There are.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": true
+    },
+    {
+      "kind": "quiz",
+      "title": "שאלת קשב: מה באמת ידוע?",
+      "section": "קוראים ובודקים",
+      "q": "Who owns the ball?",
+      "opts": [
+        "Ben.",
+        "The teacher.",
+        "The text does not say."
+      ],
+      "correct": 2,
+      "why": "הטקסט מספר איפה הכדור נמצא. הוא אינו אומר למי הכדור שייך. there is אינו מוכיח שייכות.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "שאלת קשב: מה באמת ידוע?",
+      "section": "קוראים ובודקים",
+      "q": "Who owns the ball?",
+      "opts": [
+        "Ben.",
+        "The teacher.",
+        "The text does not say."
+      ],
+      "correct": 2,
+      "why": "הטקסט מספר איפה הכדור נמצא. הוא אינו אומר למי הכדור שייך. there is אינו מוכיח שייכות.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": true
+    },
+    {
+      "kind": "quiz",
+      "title": "עבר מול הווה",
+      "section": "קוראים ובודקים",
+      "q": "Was there a ball in the drawer yesterday?",
+      "opts": [
+        "Yes, there was.",
+        "No, there wasn't.",
+        "No, there isn't."
+      ],
+      "correct": 1,
+      "why": "אתמול לא היה כדור במגירה. היום יש כדור על השולחן; זה אינו משנה את התשובה על אתמול.",
+      "tense": "עבר",
+      "context": "",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "עבר מול הווה",
+      "section": "קוראים ובודקים",
+      "q": "Was there a ball in the drawer yesterday?",
+      "opts": [
+        "Yes, there was.",
+        "No, there wasn't.",
+        "No, there isn't."
+      ],
+      "correct": 1,
+      "why": "אתמול לא היה כדור במגירה. היום יש כדור על השולחן; זה אינו משנה את התשובה על אתמול.",
+      "tense": "עבר",
+      "context": "",
+      "reveal": true
+    },
+    {
+      "kind": "rule",
+      "title": "מקרה נוסף: מים",
+      "section": "תרגול עצמאי",
+      "formula": "There is some water.\nThere isn’t any water.",
+      "he": "water הוא שם עצם שאינו נספר ביחידות במבנה הזה, ולכן משתמשים ב־is. bottles הם בקבוקים שאפשר לספור: There are two bottles.",
+      "tense": "הווה",
+      "rows": null
+    },
+    {
+      "kind": "sentence",
+      "title": "לא כל שם עצם מקבל מספר",
+      "section": "תרגול עצמאי",
+      "n": 33,
+      "en": "There is some water in the bottle.",
+      "he": "יש מעט מים בבקבוק.",
+      "tense": "הווה",
+      "reveal": false
+    },
+    {
+      "kind": "sentence",
+      "title": "לא כל שם עצם מקבל מספר",
+      "section": "תרגול עצמאי",
+      "n": 33,
+      "en": "There is some water in the bottle.",
+      "he": "יש מעט מים בבקבוק.",
+      "tense": "הווה",
+      "reveal": true
+    },
+    {
+      "kind": "quiz",
+      "title": "אתגר קצר",
+      "section": "תרגול עצמאי",
+      "q": "There ___ two bottles on the desk.",
+      "opts": [
+        "is",
+        "are",
+        "has"
+      ],
+      "correct": 1,
+      "why": "סופרים bottles, ולכן are. מים בתוך הבקבוקים אינם משנים את ההתאמה.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "אתגר קצר",
+      "section": "תרגול עצמאי",
+      "q": "There ___ two bottles on the desk.",
+      "opts": [
+        "is",
+        "are",
+        "has"
+      ],
+      "correct": 1,
+      "why": "סופרים bottles, ולכן are. מים בתוך הבקבוקים אינם משנים את ההתאמה.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": true
+    },
+    {
+      "kind": "task",
+      "title": "תיאור עצמאי: לפני ואחרי",
+      "section": "תרגול עצמאי",
+      "prompt": "בחרו חדר דמיוני. כתבו ארבעה משפטים: חיוב ושלילה על היום, חיוב על אתמול ושאלה על אתמול. אין צורך לציין פרטים אישיים.",
+      "tense": ""
+    },
+    {
+      "kind": "review",
+      "title": "תיאור עצמאי: לפני ואחרי · בודקים",
+      "section": "תרגול עצמאי",
+      "model": "There is a desk in the room.\nThere aren’t any bags on the floor.\nThere were two chairs yesterday.\nWas there a piano yesterday?",
+      "check": "זו דוגמה, לא התשובה היחידה. סמנו בכל משפט: זמן, שם העצם והפועל. תקנו משפט אחד בעזרת בן הזוג. בדקו שהשלילה כוללת not או קיצור, ושהשאלה מתחילה בפועל.",
+      "tense": ""
+    },
+    {
+      "kind": "quiz",
+      "title": "בדיקת יציאה: יחיד בהווה",
+      "section": "תרגול עצמאי",
+      "q": "There ___ a pencil on the books.",
+      "opts": [
+        "are",
+        "is",
+        "has"
+      ],
+      "correct": 1,
+      "why": "a pencil הוא יחיד. books הוא חלק מתיאור המקום.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "בדיקת יציאה: יחיד בהווה",
+      "section": "תרגול עצמאי",
+      "q": "There ___ a pencil on the books.",
+      "opts": [
+        "are",
+        "is",
+        "has"
+      ],
+      "correct": 1,
+      "why": "a pencil הוא יחיד. books הוא חלק מתיאור המקום.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": true
+    },
+    {
+      "kind": "quiz",
+      "title": "בדיקת יציאה: שלילה בעבר",
+      "section": "תרגול עצמאי",
+      "q": "Yesterday, there ___ any chairs.",
+      "opts": [
+        "aren’t",
+        "wasn't",
+        "weren't"
+      ],
+      "correct": 2,
+      "why": "chairs הם רבים ו־Yesterday מציין עבר. לכן weren’t.",
+      "tense": "עבר",
+      "context": "",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "בדיקת יציאה: שלילה בעבר",
+      "section": "תרגול עצמאי",
+      "q": "Yesterday, there ___ any chairs.",
+      "opts": [
+        "aren’t",
+        "wasn't",
+        "weren't"
+      ],
+      "correct": 2,
+      "why": "chairs הם רבים ו־Yesterday מציין עבר. לכן weren’t.",
+      "tense": "עבר",
+      "context": "",
+      "reveal": true
+    },
+    {
+      "kind": "quiz",
+      "title": "בדיקת יציאה: שאלה",
+      "section": "תרגול עצמאי",
+      "q": "שאלו אם יש חלונות בחדר.",
+      "opts": [
+        "Are there any windows in the room?",
+        "Is there any windows in the room?",
+        "Do there have windows in the room?"
+      ],
+      "correct": 0,
+      "why": "windows הם רבים. are עובר להתחלה ואין צורך ב־do.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": false
+    },
+    {
+      "kind": "quiz",
+      "title": "בדיקת יציאה: שאלה",
+      "section": "תרגול עצמאי",
+      "q": "שאלו אם יש חלונות בחדר.",
+      "opts": [
+        "Are there any windows in the room?",
+        "Is there any windows in the room?",
+        "Do there have windows in the room?"
+      ],
+      "correct": 0,
+      "why": "windows הם רבים. are עובר להתחלה ואין צורך ב־do.",
+      "tense": "הווה",
+      "context": "",
+      "reveal": true
+    },
+    {
+      "kind": "finish",
+      "title": "לפני שסוגרים",
+      "section": "תרגול עצמאי",
+      "text": "מי? → have / has / had\nמה נמצא? → there is / are / was / were",
+      "sub": "אמרו משפט אחד חדש בלי להסתכל. אחר כך חזרו לסיכום ובדקו את הזמן, המספר וסדר המילים."
+    }
+  ]
+}
