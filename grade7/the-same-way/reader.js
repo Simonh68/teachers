@@ -4,9 +4,9 @@ let data,words=[],sentenceNodes=[],wordNodes=[],activeWord=-1,activeSentence=-1,
 const tooltip=$('#unitTooltip');
 const completedTabs=new Set();let tabFinished=false;
 function tabEnd(){const list=data.sentences.filter(s=>s.paragraph===pageIndex);return list[list.length-1].end+.04;}
-function updateTabs(){document.querySelectorAll('[data-tab]').forEach(b=>{const n=Number(b.dataset.tab);b.setAttribute('aria-selected',String(n===pageIndex));b.classList.toggle('completed',completedTabs.has(n));});$('#continueTab').disabled=!tabFinished;$('#continueTab').classList.toggle('ready',tabFinished);$('#continueTab').textContent=pageIndex===data.pages.length-1?'סיום הקריאה ←':'המשך ←';}
+function updateTabs(){document.querySelectorAll('[data-tab]').forEach(b=>{const n=Number(b.dataset.tab);b.setAttribute('aria-selected',String(n===pageIndex));b.classList.toggle('completed',completedTabs.has(n));});$('#continueTab').disabled=false;$('#continueTab').classList.toggle('ready',tabFinished);$('#continueTab').textContent=pageIndex===data.pages.length-1?'סיום הקריאה ←':'המשך ←';}
 function finishTab(){tabFinished=true;completedTabs.add(pageIndex);audio.pause();updateTabs();$('#status').textContent='סיימתם את הקטע. לחצו על המשך.';}
-$('#continueTab').onclick=()=>{if(!tabFinished)return;if(pageIndex===data.pages.length-1){window.dispatchEvent(new Event('reader-complete'));return;}setPage(pageIndex+1,true);play();};
+$('#continueTab').onclick=()=>{if(!data)return;if(pageIndex===data.pages.length-1){window.dispatchEvent(new Event('reader-complete'));return;}setPage(pageIndex+1,true);play();};
 $('.reader').append($('.below'));
 $('.reader').addEventListener('scroll',hideTooltip,{passive:true});
 function notifyPage(){window.dispatchEvent(new CustomEvent('reader-page',{detail:{page:pageIndex}}));}
@@ -80,7 +80,7 @@ document.addEventListener('visibilitychange',()=>{if(document.hidden)audio.pause
 $('#translate').onclick=()=>{const open=$('#translation').hidden;$('#translation').hidden=!open;$('#translate').setAttribute('aria-expanded',String(open));$('#translate').textContent=open?'הסתרת התרגום':'הצגת תרגום לעברית';};
 $('#check').onclick=()=>{const answer=$('input[name=answer]:checked');$('#feedback').textContent=!answer?'בחרו תשובה לפני הבדיקה.':answer.value==='class'?'נכון. התיק הירוק נמצא בכיתה — והילדים מהרכבת הם חבריו לכיתה.':'קראו שוב את הפסקה האחרונה. היכן דן פותח את הדלת?';};
 async function init(){try{
-  const response=await fetch('reading.json?v=tabs-trial-5');if(!response.ok)throw Error('Reading unavailable');data=await response.json();
+  const response=await fetch('reading.json?v=folder-tabs-6');if(!response.ok)throw Error('Reading unavailable');data=await response.json();
   $('#readingTabs').innerHTML=data.pages.map((p,n)=>`<button id="reading-tab-${n}" role="tab" aria-controls="readingPanel" aria-label="חלק ${n+1}: ${p.title}" data-tab="${n}">${n+1}</button>`).join('');
   document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>setPage(Number(b.dataset.tab),true));
   $('#wordCount').textContent=`${data.wordCount} מילים`;$('#story').textContent='';let paragraph=-1,p;

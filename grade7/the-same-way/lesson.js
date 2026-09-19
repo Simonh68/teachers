@@ -7,7 +7,7 @@ const routeItems=['walk to school','train','walk to the bus stop','second bus','
 const correctRoute=['walk to the bus stop','first bus','train','second bus','walk to school'];
 const sentenceAudio=new Audio();sentenceAudio.id='sentenceAudio';sentenceAudio.preload='auto';document.body.append(sentenceAudio);
 let sentenceTimer=0,sentenceFrame=0,sentenceRun=0,sentenceEnd=0;
-const narrationData=fetch('reading.json?v=tabs-trial-5').then(r=>{if(!r.ok)throw Error('audio data');return r.json()});narrationData.catch(()=>{});
+const narrationData=fetch('reading.json?v=folder-tabs-6').then(r=>{if(!r.ok)throw Error('audio data');return r.json()});narrationData.catch(()=>{});
 function stopSentence(){sentenceRun++;clearTimeout(sentenceTimer);cancelAnimationFrame(sentenceFrame);sentenceAudio.pause();}
 async function speakSentence(s){stopSentence();const run=sentenceRun;
  try{const data=await narrationData;if(run!==sentenceRun||document.hidden||$('#menu').open)return;const clip=data.sentences[s.n-1];if(!sentenceAudio.src)sentenceAudio.src=data.audio;
@@ -23,7 +23,7 @@ function readingChrome(s){$('#counter').textContent=`${i+1} / ${SLIDES.length}`;
 function render(){stopSentence();const s=SLIDES[i];
 if(s.kind==='readalong'){
  $('#stage').classList.add('reader-stage');readingChrome(s);
- if(!readerFrame){readerReady=false;readerFrame=document.createElement('iframe');readerFrame.title='Read Alone Text — קריאה מלווה של הסיפור המלא';readerFrame.src='read-along.html?v=tabs-trial-5';$('#stage').replaceChildren(readerFrame);
+ if(!readerFrame){readerReady=false;readerFrame=document.createElement('iframe');readerFrame.title='Read Alone Text — קריאה מלווה של הסיפור המלא';readerFrame.src='read-along.html?v=folder-tabs-6';$('#stage').replaceChildren(readerFrame);
  readerFrame.onload=()=>{const w=readerFrame.contentWindow;const ready=()=>{readerReady=true;if(w.readAlong?.data)w.readAlong.setPage(SLIDES[i].page);};w.addEventListener('reader-complete',()=>go(SLIDES.findLastIndex(x=>x.kind==='readalong')+1));w.addEventListener('reader-ready',ready);if(w.readAlong?.data)ready();w.addEventListener('reader-page',e=>{const target=SLIDES.findIndex(x=>x.kind==='readalong'&&x.page===e.detail.page);if(target!==i){readerAutomatic=true;go(target);readerAutomatic=false;}});w.document.addEventListener('keydown',e=>{if(e.target.closest('button,input,select,.unit')||!['ArrowRight','ArrowDown','ArrowLeft','ArrowUp'].includes(e.key))return;e.preventDefault();e.stopImmediatePropagation();go(i+(['ArrowRight','ArrowDown'].includes(e.key)?1:-1));},true);
  w.document.addEventListener('touchstart',e=>{if(e.target.closest('button,input,select,.unit'))return;touch={x:e.touches[0].clientX,y:e.touches[0].clientY};},{passive:true,capture:true});w.document.addEventListener('touchend',e=>{if(!touch)return;const dx=e.changedTouches[0].clientX-touch.x,dy=e.changedTouches[0].clientY-touch.y;touch=null;if(Math.abs(dx)>70&&Math.abs(dx)>Math.abs(dy)){e.stopImmediatePropagation();go(i+(dx<0?1:-1));}},{capture:true});};
  }else if(readerReady&&!readerAutomatic)readerFrame.contentWindow.readAlong.setPage(s.page);
