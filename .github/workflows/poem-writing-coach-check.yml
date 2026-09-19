@@ -35,7 +35,7 @@ jobs:
               assert question in short
           original=(folder/'prompt.txt').read_bytes()
           original_sha=hashlib.sha1(b'blob '+str(len(original)).encode()+b'\0'+original).hexdigest()
-          assert original_sha=='0136b14270eb15dd769964e377a7e955cde7b9ab','Full prompt changed: review before certifying preservation'
+          assert original_sha=='7cfbd8e614b72b1dccb8981852aef83eb81cb8ac','Full prompt differs from the reviewed Gem handover'
           assert short.rstrip().endswith('Start now with the brief Hebrew introduction and QUESTION 1 ONLY, then wait for my answer.')
           expected={p:hashlib.sha256((folder/p).read_bytes()).hexdigest() for p in ['index.html','session-01.txt','prompt.txt']}
           base='https://simonh68.github.io/teachers/grade10/group-a/poem-writing-coach/'
@@ -47,7 +47,7 @@ jobs:
           for attempt in range(24):
               try:
                   for name,digest in expected.items():
-                      data=get(base+name+'?qa=20260917-session1-'+str(attempt))
+                      data=get(base+name+'?qa=20260919-coach-'+str(attempt))
                       assert hashlib.sha256(data).hexdigest()==digest,'Old deployment: '+name
                   break
               except Exception as error:
@@ -58,7 +58,7 @@ jobs:
           assert 'The Road' in review and 'slide-20' in review
           vocab=get('https://englishfornoar.co.il/band-ii/groups/group-01.html').decode()
           assert 'Group 01' in vocab and 'Core I' in vocab
-          result={'passed':True,'source_questions_verified':list(questions),'full_prompt_unchanged':True,'live_coach_files_match_repository':list(expected),'grade7_vocabulary_url':'https://englishfornoar.co.il/band-ii/groups/group-01.html','review_url_reachable':True,'model_conversation_tested':False}
+          result={'passed':True,'source_questions_verified':list(questions),'full_prompt_matches_reviewed_gem_handover':True,'live_coach_files_match_repository':list(expected),'grade7_vocabulary_url':'https://englishfornoar.co.il/band-ii/groups/group-01.html','review_url_reachable':True,'model_conversation_tested':False}
           Path('poem-coach-link-check.json').write_text(json.dumps(result,indent=2))
           print(json.dumps(result,indent=2),flush=True)
           PY
