@@ -55,3 +55,5 @@ main{max-width:1340px}header{margin:24px 0 22px}h1{font-size:clamp(38px,5vw,58px
 #readingTabs button:hover{background:#25455d}
 #readingTabs button[aria-selected=true]:hover{background:#0e2237}
 @media(max-width:700px){#readingTabs{gap:1px;min-height:36px;margin:2px 0 8px;padding:2px 0 0}#readingTabs button{min-height:27px;height:27px;font-size:12px;border-radius:8px 8px 0 0}#readingTabs button[aria-selected=true]{height:33px;border-radius:9px 9px 0 0}}
+
+.reader,.unit{touch-action:pan-y pinch-zoom}

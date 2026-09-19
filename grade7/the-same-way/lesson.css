@@ -13,3 +13,5 @@ footer{height:92px;display:flex;flex-direction:column;align-items:center;justify
 #stage.reader-stage{padding:0;max-width:1440px;overflow:hidden}#stage.reader-stage iframe{display:block;width:100%;height:100%;border:0;color-scheme:dark}
 
 #sentenceSpeak{font-size:12px;padding:4px 9px;margin-inline-start:8px;min-width:90px;vertical-align:middle}
+
+#stage{touch-action:pan-y pinch-zoom}

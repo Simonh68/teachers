@@ -7,7 +7,7 @@ const routeItems=['walk to school','train','walk to the bus stop','second bus','
 const correctRoute=['walk to the bus stop','first bus','train','second bus','walk to school'];
 const sentenceAudio=new Audio();sentenceAudio.id='sentenceAudio';sentenceAudio.preload='auto';document.body.append(sentenceAudio);
 let sentenceTimer=0,sentenceFrame=0,sentenceRun=0,sentenceEnd=0;
-const narrationData=fetch('reading.json?v=folder-tabs-6').then(r=>{if(!r.ok)throw Error('audio data');return r.json()});narrationData.catch(()=>{});
+const narrationData=fetch('reading.json?v=swipe-standard-7').then(r=>{if(!r.ok)throw Error('audio data');return r.json()});narrationData.catch(()=>{});
 function stopSentence(){sentenceRun++;clearTimeout(sentenceTimer);cancelAnimationFrame(sentenceFrame);sentenceAudio.pause();}
 async function speakSentence(s){stopSentence();const run=sentenceRun;
  try{const data=await narrationData;if(run!==sentenceRun||document.hidden||$('#menu').open)return;const clip=data.sentences[s.n-1];if(!sentenceAudio.src)sentenceAudio.src=data.audio;
@@ -18,14 +18,24 @@ async function speakSentence(s){stopSentence();const run=sentenceRun;
  }catch(e){if(run===sentenceRun&&$('#sentenceSpeak'))$('#sentenceSpeak').textContent='▶ לחצו להקראה';}}
 sentenceAudio.addEventListener('timeupdate',()=>{if(sentenceAudio.currentTime>=sentenceEnd)sentenceAudio.pause();});
 window.addEventListener('pagehide',stopSentence);document.addEventListener('visibilitychange',()=>{if(document.hidden)stopSentence();});
+// Use the same gesture rules in the outer deck and inside the reading frame.
+function installSwipe(surface,navigate){
+ let gesture=null,suppressClickUntil=0;
+ const scrolls=(node,dy)=>{for(let el=node;el&&el.nodeType===1;el=el.parentElement){const style=el.ownerDocument.defaultView.getComputedStyle(el);if(/auto|scroll/.test(style.overflowY)&&el.scrollHeight>el.clientHeight+3){if(dy<0&&el.scrollTop+el.clientHeight<el.scrollHeight-3)return true;if(dy>0&&el.scrollTop>3)return true;}}return false;};
+ surface.addEventListener('touchstart',e=>{gesture=null;if(e.touches.length!==1||e.target.closest('input,select,textarea'))return;const t=e.touches[0];gesture={x:t.clientX,y:t.clientY,target:e.target,scroll:false};},{capture:true,passive:true});
+ surface.addEventListener('touchmove',e=>{if(!gesture||e.touches.length!==1){gesture=null;return;}const t=e.touches[0],dx=t.clientX-gesture.x,dy=t.clientY-gesture.y;if(Math.max(Math.abs(dx),Math.abs(dy))<10)return;const horizontal=Math.abs(dx)>Math.abs(dy)*1.15;if(!horizontal&&scrolls(gesture.target,dy)){gesture.scroll=true;return;}if(!gesture.scroll&&e.cancelable)e.preventDefault();},{capture:true,passive:false});
+ surface.addEventListener('touchend',e=>{if(!gesture)return;const g=gesture;gesture=null;const t=e.changedTouches[0],dx=t.clientX-g.x,dy=t.clientY-g.y;if(g.scroll||Math.max(Math.abs(dx),Math.abs(dy))<45)return;const horizontal=Math.abs(dx)>Math.abs(dy)*1.15;if(!horizontal&&(Math.abs(dy)<=Math.abs(dx)*1.15||scrolls(g.target,dy)))return;if(e.cancelable)e.preventDefault();e.stopImmediatePropagation();suppressClickUntil=Date.now()+450;navigate((horizontal?dx:dy)<0?1:-1);},{capture:true,passive:false});
+ surface.addEventListener('touchcancel',()=>{gesture=null;},{capture:true,passive:true});
+ surface.addEventListener('click',e=>{if(Date.now()<suppressClickUntil){e.preventDefault();e.stopImmediatePropagation();}},{capture:true});
+}
 let readerFrame=null,readerReady=false,readerAutomatic=false;
 function readingChrome(s){$('#counter').textContent=`${i+1} / ${SLIDES.length}`;$('#prev').disabled=i===0;$('#next').disabled=i===SLIDES.length-1;$('#readLabel').textContent=`Read Alone Text · דף ${s.page+1} / 10`;$('#readBar').style.width=((s.page+1)/10*100)+'%';history.replaceState(null,'','#'+(i+1));try{localStorage.setItem(key,i)}catch(e){}}
 function render(){stopSentence();const s=SLIDES[i];
 if(s.kind==='readalong'){
  $('#stage').classList.add('reader-stage');readingChrome(s);
- if(!readerFrame){readerReady=false;readerFrame=document.createElement('iframe');readerFrame.title='Read Alone Text — קריאה מלווה של הסיפור המלא';readerFrame.src='read-along.html?v=folder-tabs-6';$('#stage').replaceChildren(readerFrame);
+ if(!readerFrame){readerReady=false;readerFrame=document.createElement('iframe');readerFrame.title='Read Alone Text — קריאה מלווה של הסיפור המלא';readerFrame.src='read-along.html?v=swipe-standard-7';$('#stage').replaceChildren(readerFrame);
  readerFrame.onload=()=>{const w=readerFrame.contentWindow;const ready=()=>{readerReady=true;if(w.readAlong?.data)w.readAlong.setPage(SLIDES[i].page);};w.addEventListener('reader-complete',()=>go(SLIDES.findLastIndex(x=>x.kind==='readalong')+1));w.addEventListener('reader-ready',ready);if(w.readAlong?.data)ready();w.addEventListener('reader-page',e=>{const target=SLIDES.findIndex(x=>x.kind==='readalong'&&x.page===e.detail.page);if(target!==i){readerAutomatic=true;go(target);readerAutomatic=false;}});w.document.addEventListener('keydown',e=>{if(e.target.closest('button,input,select,.unit')||!['ArrowRight','ArrowDown','ArrowLeft','ArrowUp'].includes(e.key))return;e.preventDefault();e.stopImmediatePropagation();go(i+(['ArrowRight','ArrowDown'].includes(e.key)?1:-1));},true);
- w.document.addEventListener('touchstart',e=>{if(e.target.closest('button,input,select,.unit'))return;touch={x:e.touches[0].clientX,y:e.touches[0].clientY};},{passive:true,capture:true});w.document.addEventListener('touchend',e=>{if(!touch)return;const dx=e.changedTouches[0].clientX-touch.x,dy=e.changedTouches[0].clientY-touch.y;touch=null;if(Math.abs(dx)>70&&Math.abs(dx)>Math.abs(dy)){e.stopImmediatePropagation();go(i+(dx<0?1:-1));}},{capture:true});};
+ installSwipe(w.document,delta=>go(i+delta));};
  }else if(readerReady&&!readerAutomatic)readerFrame.contentWindow.readAlong.setPage(s.page);
  return;
 }
@@ -54,7 +64,7 @@ function go(n){i=Math.max(0,Math.min(SLIDES.length-1,n));render()}
 $('#prev').onclick=()=>go(i-1);$('#next').onclick=()=>go(i+1);
 document.addEventListener('keydown',e=>{if($('#menu').open)return;if(e.target.closest('button,a')&&(e.key===' '||e.key==='Enter'))return;if(['ArrowRight','ArrowDown','PageDown',' '].includes(e.key)){e.preventDefault();go(i+1)}if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();go(i-1)}if(e.key==='Home')go(0);if(e.key==='End')go(SLIDES.length-1)});
 $('#stage').addEventListener('wheel',e=>{const el=$('#stage');if(el.scrollHeight>el.clientHeight+4){if(e.deltaY>0&&el.scrollTop+el.clientHeight<el.scrollHeight-3)return;if(e.deltaY<0&&el.scrollTop>3)return;}e.preventDefault();if(Date.now()-lastWheel<500)return;lastWheel=Date.now();go(i+(e.deltaY>0?1:-1))},{passive:false});
-let touch=null;$('#stage').addEventListener('touchstart',e=>{if(e.target.closest('button,a'))return;touch={x:e.touches[0].clientX,y:e.touches[0].clientY}},{passive:true});$('#stage').addEventListener('touchend',e=>{if(!touch)return;const dx=e.changedTouches[0].clientX-touch.x,dy=e.changedTouches[0].clientY-touch.y;touch=null;if(Math.max(Math.abs(dx),Math.abs(dy))<70)return;if(Math.abs(dx)>Math.abs(dy))go(i+(dx<0?1:-1));else if($('#stage').scrollHeight<=$('#stage').clientHeight+4)go(i+(dy<0?1:-1))},{passive:true});
+installSwipe($('#stage'),delta=>go(i+delta));
 $('#menuBtn').onclick=()=>{stopSentence();readerFrame?.contentWindow.readAlong?.pause();$('#menu').showModal();};$('#closeMenu').onclick=()=>$('#menu').close();$('#restart').onclick=()=>{state.route=[];state.choices={};$('#menu').close();go(0)};
 $('#fullBtn').onclick=()=>document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen?.();
 const stops=[{label:'פתיחה',n:0},{label:'הסיפור המלא',n:1},{label:'Read Alone Text · קריאה והאזנה',n:SLIDES.findIndex(s=>s.kind==='readalong')},{label:'חיבור ל־To Be ולאוצר המילים',n:SLIDES.findIndex(s=>s.kind==='bridge')}];for(const p of pmap){stops.push({label:`פסקה ${p}`,n:SLIDES.findIndex(s=>s.kind==='sentence'&&s.part===p)})}stops.push({label:'משימת הדף',n:SLIDES.findIndex(s=>s.kind==='work')},{label:'בדיקת יציאה',n:SLIDES.findIndex(s=>s.kind==='exit')});

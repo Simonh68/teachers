@@ -35,7 +35,7 @@ function setPage(n,manual=false){
 }
 $('#previousPage').onclick=()=>setPage(pageIndex-1,true);$('#nextPage').onclick=()=>setPage(pageIndex+1,true);
 document.addEventListener('keydown',e=>{if(e.target.closest('button,input,select,.unit'))return;if(['ArrowRight','ArrowDown'].includes(e.key)){e.preventDefault();setPage(pageIndex+1,true);}if(['ArrowLeft','ArrowUp'].includes(e.key)){e.preventDefault();setPage(pageIndex-1,true);}});
-let touchStart=null;$('.reader').addEventListener('touchstart',e=>{if(e.target.closest('button,input,select,.unit'))return;touchStart={x:e.touches[0].clientX,y:e.touches[0].clientY};},{passive:true});$('.reader').addEventListener('touchend',e=>{if(!touchStart)return;const dx=e.changedTouches[0].clientX-touchStart.x,dy=e.changedTouches[0].clientY-touchStart.y;touchStart=null;if(Math.abs(dx)>60&&Math.abs(dx)>Math.abs(dy))setPage(pageIndex+(dx<0?1:-1),true);},{passive:true});
+
 const clock=t=>`${Math.floor((t||0)/60)}:${String(Math.floor((t||0)%60)).padStart(2,'0')}`;
 function sync(){
   const t=audio.currentTime;
@@ -80,7 +80,7 @@ document.addEventListener('visibilitychange',()=>{if(document.hidden)audio.pause
 $('#translate').onclick=()=>{const open=$('#translation').hidden;$('#translation').hidden=!open;$('#translate').setAttribute('aria-expanded',String(open));$('#translate').textContent=open?'הסתרת התרגום':'הצגת תרגום לעברית';};
 $('#check').onclick=()=>{const answer=$('input[name=answer]:checked');$('#feedback').textContent=!answer?'בחרו תשובה לפני הבדיקה.':answer.value==='class'?'נכון. התיק הירוק נמצא בכיתה — והילדים מהרכבת הם חבריו לכיתה.':'קראו שוב את הפסקה האחרונה. היכן דן פותח את הדלת?';};
 async function init(){try{
-  const response=await fetch('reading.json?v=folder-tabs-6');if(!response.ok)throw Error('Reading unavailable');data=await response.json();
+  const response=await fetch('reading.json?v=swipe-standard-7');if(!response.ok)throw Error('Reading unavailable');data=await response.json();
   $('#readingTabs').innerHTML=data.pages.map((p,n)=>`<button id="reading-tab-${n}" role="tab" aria-controls="readingPanel" aria-label="חלק ${n+1}: ${p.title}" data-tab="${n}">${n+1}</button>`).join('');
   document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>setPage(Number(b.dataset.tab),true));
   $('#wordCount').textContent=`${data.wordCount} מילים`;$('#story').textContent='';let paragraph=-1,p;
