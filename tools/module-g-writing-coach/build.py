@@ -40,7 +40,7 @@ essay=[
 'In conclusion, I think students can work a few hours a week. However, enough time should be left for schoolwork and sleep.']
 count=sum(len(p.split()) for p in essay)
 assert 120<=count<=140
-add(f'חיבור לדוגמה · {count} מילים','<div class="essay" lang="en" dir="ltr">'+''.join('<p>'+p+'</p>' for p in essay)+'</div>','essay-slide')
+add('חיבור לדוגמה','<p class="essay-ruler-key">מילים בכל שורה ↓</p><div class="essay essay-counted" lang="en" dir="ltr">'+''.join('<p>'+p+'</p>' for p in essay)+f'</div><p class="essay-total">סך הכול: <bdi data-essay-total>{count}</bdi> מילים</p>','essay-slide')
 add('לפני שמסיימים','<div class="checklist"><p>עניתי על הנושא?</p><p>הסברתי את הרעיון והוספתי דוגמה?</p><p>ארבע פסקאות ו־120–140 מילים?</p></div>'+he('מאמתים את הספירה ב־Word או ב־Google Docs.','note'))
 add('כתיבה עצמאית',he('35 דקות לכתיבה','command')+he('כותבים במאמן משפט אחד בכל פעם.')+he('אחר כך: 10 דקות לקריאה ולתיקון.','note'))
 add('בדיקת יציאה',he('בחרו משפט אחד שתיקנתם.')+he('הסבירו מה השתנה ולמה.')+he('לתרגול חדש מקלידים ״נביא״. טיוטה שטרם הושלמה ממשיכים בפעם הבאה.','note'))
@@ -48,11 +48,11 @@ sections=[]
 for i,s in enumerate(slides,1):
     meta='' if s['kind']=='break' else f'<header class="slide-meta"><h2 class="eyebrow">{s["title"]}</h2><div class="tense">{s["tense"]}</div></header>'
     sections.append(f'<section class="slide {s["kind"]}" data-pair="{s["pair"]}" aria-label="שקף {i}: {s["title"]}" hidden><div class="frame">{meta}{s["body"]}</div></section>')
-html='''<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#07111f"><title>מאמן כתיבה למודול G — כיתה י״א | Teachers</title><link rel="stylesheet" href="assets/deck.css"><link rel="stylesheet" href="lesson.css"></head><body>
+html='''<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#07111f"><title>מאמן כתיבה למודול G — כיתה י״א | Teachers</title><link rel="stylesheet" href="assets/deck.css"><link rel="stylesheet" href="lesson.css?v=linewords1"></head><body>
 <a class="home" href="../five-units/" aria-label="חזרה לספריית כיתה י״א"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 11 12 3l9 8M5 10v11h5v-7h4v7h5V10"/></svg></a>
 <div class="coach-access"><span>לתרגול כתיבה עם משוב</span><a href="GEM" target="_blank" rel="noopener">פתיחת המאמן ↗</a></div>
 <main class="stage" tabindex="-1">SLIDES</main>
-<nav class="nav" aria-label="ניווט במצגת"><div class="nav-group"><button data-step="-1" aria-label="השקף הקודם">←</button><button data-step="1" aria-label="השקף הבא">→</button></div><div class="progress" id="counter" aria-live="polite"></div><div class="lesson-links"><a href="teacher.html">למורה</a></div></nav><div class="progress-track"><div class="progress-fill"></div></div><script src="assets/deck.js"></script></body></html>'''.replace('GEM',GEM).replace('SLIDES','\n'.join(sections))
+<nav class="nav" aria-label="ניווט במצגת"><div class="nav-group"><button data-step="-1" aria-label="השקף הקודם">←</button><button data-step="1" aria-label="השקף הבא">→</button></div><div class="progress" id="counter" aria-live="polite"></div><div class="lesson-links"><a href="teacher.html">למורה</a></div></nav><div class="progress-track"><div class="progress-fill"></div></div><script src="assets/deck.js"></script><script src="assets/essay-ruler.js?v=linewords1"></script></body></html>'''.replace('GEM',GEM).replace('SLIDES','\n'.join(sections))
 OUT.joinpath('index.html').write_text(html)
 OUT.joinpath('lesson-data.json').write_text(json.dumps({'gem':GEM,'slides':slides,'essay':essay,'count':count},ensure_ascii=False,indent=2))
 # Pin shared presentation engine and styles so the package is self-contained.
@@ -62,3 +62,4 @@ css='@font-face{font-family:Heebo;src:url(Heebo.ttf);font-weight:100 900;font-di
 OUT.joinpath('assets/deck.css').write_text(css)
 shutil.copyfile(ROOT/'assets/lesson-decks/deck.js',OUT/'assets/deck.js')
 print(f'Built {len(slides)} slides; essay: {count} words; paragraphs: {[len(p.split()) for p in essay]}')
+
