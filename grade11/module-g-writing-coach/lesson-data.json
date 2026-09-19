@@ -1,0 +1,250 @@
+{
+  "gem": "https://gemini.google.com/gem/d675ebc8760b",
+  "slides": [
+    {
+      "title": "כיתה י״א · 5 יחידות",
+      "body": "<p class=\"welcome\">ברוכים הבאים</p><h1 class=\"cover-title\">מאמן כתיבה<br>למודול G</h1><p class=\"en cover-sub\" lang=\"en\" dir=\"ltr\">Module G Writing Coach</p>",
+      "kind": "cover",
+      "pair": "",
+      "tense": ""
+    },
+    {
+      "title": "איך מתחילים",
+      "body": "<p class=\"instruction\">פותחים את המאמן ומקלידים:</p><p class=\"command\">מתחילים</p><p class=\"instruction\">קוראים את הנושא שנבחר וכותבים משפט אחד באנגלית.</p><p class=\"note\">אם אין גישה, פונים למורה לפני התרגול.</p>",
+      "kind": "",
+      "pair": "",
+      "tense": ""
+    },
+    {
+      "title": "מה עושים בכל תור",
+      "body": "<div class=\"steps\"><div><b>1</b> קוראים את המשימה</div><div><b>2</b> כותבים משפט באנגלית</div><div><b>3</b> קוראים משוב ומתקנים</div></div><p class=\"note\">המאמן מסביר בעברית; הרעיונות והניסוח שלכם.</p>",
+      "kind": "",
+      "pair": "",
+      "tense": ""
+    },
+    {
+      "title": "ארבע פסקאות בחיבור דעה",
+      "body": "<div class=\"plan\"><div><b>1</b><span>פתיחה ניטרלית + עמדה</span></div><div><b>2</b><span>הצד האחר + הסבר ודוגמה</span></div><div><b>3</b><span>העמדה שלי + הסבר ודוגמה</span></div><div><b>4</b><span>מסקנה</span></div></div><p class=\"note\">יעד התרגול: 120–140 מילים. הרחבות נכנסות לפסקאות הגוף.</p>",
+      "kind": "",
+      "pair": "",
+      "tense": ""
+    },
+    {
+      "title": "נושא ההדגמה",
+      "body": "<p class=\"en example\" lang=\"en\" dir=\"ltr\">Should teenagers have an after-school job?</p><p class=\"instruction\">חשבו על יתרון אחד ועל קושי אחד.</p><p class=\"note\">זו הדגמה כיתתית. במאמן עשוי להיבחר נושא אחר.</p>",
+      "kind": "",
+      "pair": "",
+      "tense": ""
+    },
+    {
+      "title": "לומדים תבנית מנושא אחר",
+      "body": "<p class=\"instruction\">נושא הדוגמאות של המאמן: גיל קבלת טלפון</p><p class=\"en example\" lang=\"en\" dir=\"ltr\">Many parents discuss when children should get their first cellphone.</p><p class=\"note\">לוקחים את המבנה וכותבים רעיון על עבודה אחרי הלימודים.</p>",
+      "kind": "",
+      "pair": "",
+      "tense": ""
+    },
+    {
+      "title": "משפט פתיחה",
+      "body": "<p class=\"instruction\">מציגים את הנושא בלי להביע עמדה. כתבו משפט משלכם.</p><p class=\"en example\" lang=\"en\" dir=\"ltr\">Many teenagers…</p><div class=\"answer-slot\" aria-hidden=\"true\"> <div class=\"reveal-content concealed\"><p class=\"en possible-answer\" lang=\"en\" dir=\"ltr\">Many teenagers consider getting a job while they are still at school.</p></div></div>",
+      "kind": "writing",
+      "pair": "opening",
+      "tense": "הווה"
+    },
+    {
+      "title": "משפט פתיחה",
+      "body": "<p class=\"instruction\">מציגים את הנושא בלי להביע עמדה. כתבו משפט משלכם.</p><p class=\"en example\" lang=\"en\" dir=\"ltr\">Many teenagers…</p><div class=\"answer-slot\"> <div class=\"reveal-content\"><p class=\"en possible-answer\" lang=\"en\" dir=\"ltr\">Many teenagers consider getting a job while they are still at school.</p></div></div>",
+      "kind": "writing",
+      "pair": "opening",
+      "tense": "הווה"
+    },
+    {
+      "title": "משפט עמדה",
+      "body": "<p class=\"instruction\">בחרו: בעד, נגד, או בעד בתנאים מסוימים. נסחו את עמדתכם.</p><p class=\"en example\" lang=\"en\" dir=\"ltr\">I claim that…</p><div class=\"answer-slot\" aria-hidden=\"true\"> <div class=\"reveal-content concealed\"><p class=\"en possible-answer\" lang=\"en\" dir=\"ltr\">I claim that limited working hours can help students prepare for adult life.</p></div></div>",
+      "kind": "writing",
+      "pair": "opinion",
+      "tense": "הווה"
+    },
+    {
+      "title": "משפט עמדה",
+      "body": "<p class=\"instruction\">בחרו: בעד, נגד, או בעד בתנאים מסוימים. נסחו את עמדתכם.</p><p class=\"en example\" lang=\"en\" dir=\"ltr\">I claim that…</p><div class=\"answer-slot\"> <div class=\"reveal-content\"><p class=\"en possible-answer\" lang=\"en\" dir=\"ltr\">I claim that limited working hours can help students prepare for adult life.</p></div></div>",
+      "kind": "writing",
+      "pair": "opinion",
+      "tense": "הווה"
+    },
+    {
+      "title": "התנחתא",
+      "body": "<img class=\"break-image\" src=\"assets/serious-cat.webp\" alt=\"חתול מאויר עם מחברת וציוד לימוד\"><div class=\"break-caption en\" lang=\"en\" dir=\"ltr\">A short break</div>",
+      "kind": "break",
+      "pair": "",
+      "tense": ""
+    },
+    {
+      "title": "משוב שמאפשר לתקן",
+      "body": "<p class=\"en example\" lang=\"en\" dir=\"ltr\">I claim that teenagers <span class=\"gap\"><span class=\"concealed\">need</span></span> time for homework.</p><div class=\"choices en\" lang=\"en\" dir=\"ltr\"><span class=\"choice\">needs</span><span class=\"choice\">need</span><span class=\"choice\">needing</span></div><p class=\"instruction\">הנושא ברבים. איזו צורת פועל מתאימה?</p><div class=\"answer-slot mini\"><p class=\"reveal-content concealed\">התשובה: <b class=\"en\" lang=\"en\" dir=\"ltr\">need</b></p></div>",
+      "kind": "quiz",
+      "pair": "repair",
+      "tense": "הווה"
+    },
+    {
+      "title": "משוב שמאפשר לתקן",
+      "body": "<p class=\"en example\" lang=\"en\" dir=\"ltr\">I claim that teenagers <span class=\"gap\"><span class=\"solved\">need</span></span> time for homework.</p><div class=\"choices en\" lang=\"en\" dir=\"ltr\"><span class=\"choice\">needs</span><span class=\"choice\">need</span><span class=\"choice\">needing</span></div><p class=\"instruction\">הנושא ברבים. איזו צורת פועל מתאימה?</p><div class=\"answer-slot mini\"><p class=\"reveal-content\">התשובה: <b class=\"en\" lang=\"en\" dir=\"ltr\">need</b></p></div>",
+      "kind": "quiz",
+      "pair": "repair",
+      "tense": "הווה"
+    },
+    {
+      "title": "פסקה שנייה: הצד האחר",
+      "body": "<p class=\"instruction\">אנחנו בעד עבודה מוגבלת. איזה קושי מי שחושב אחרת עשוי להציג?</p><p class=\"en example\" lang=\"en\" dir=\"ltr\">On the one hand,</p><div class=\"answer-slot\" aria-hidden=\"true\"> <div class=\"reveal-content concealed\"><p class=\"en possible-answer\" lang=\"en\" dir=\"ltr\">On the one hand, working after school can leave teenagers tired.</p></div></div>",
+      "kind": "writing",
+      "pair": "opposite",
+      "tense": ""
+    },
+    {
+      "title": "פסקה שנייה: הצד האחר",
+      "body": "<p class=\"instruction\">אנחנו בעד עבודה מוגבלת. איזה קושי מי שחושב אחרת עשוי להציג?</p><p class=\"en example\" lang=\"en\" dir=\"ltr\">On the one hand,</p><div class=\"answer-slot\"> <div class=\"reveal-content\"><p class=\"en possible-answer\" lang=\"en\" dir=\"ltr\">On the one hand, working after school can leave teenagers tired.</p></div></div>",
+      "kind": "writing",
+      "pair": "opposite",
+      "tense": ""
+    },
+    {
+      "title": "תנאי ראשון",
+      "body": "<p class=\"en example\" lang=\"en\" dir=\"ltr\">If they <span class=\"gap\"><span class=\"concealed\">work</span></span> every evening, they will have less time for homework.</p><div class=\"choices en\" lang=\"en\" dir=\"ltr\"><span class=\"choice\">will work</span><span class=\"choice\">working</span><span class=\"choice\">work</span></div><p class=\"instruction\">מה מתאים אחרי If בתנאי ראשון?</p><div class=\"answer-slot mini\"><p class=\"reveal-content concealed\">התשובה: <b class=\"en\" lang=\"en\" dir=\"ltr\">work</b></p></div>",
+      "kind": "quiz",
+      "pair": "conditional",
+      "tense": ""
+    },
+    {
+      "title": "תנאי ראשון",
+      "body": "<p class=\"en example\" lang=\"en\" dir=\"ltr\">If they <span class=\"gap\"><span class=\"solved\">work</span></span> every evening, they will have less time for homework.</p><div class=\"choices en\" lang=\"en\" dir=\"ltr\"><span class=\"choice\">will work</span><span class=\"choice\">working</span><span class=\"choice\">work</span></div><p class=\"instruction\">מה מתאים אחרי If בתנאי ראשון?</p><div class=\"answer-slot mini\"><p class=\"reveal-content\">התשובה: <b class=\"en\" lang=\"en\" dir=\"ltr\">work</b></p></div>",
+      "kind": "quiz",
+      "pair": "conditional",
+      "tense": ""
+    },
+    {
+      "title": "פסקה שלישית: העמדה שלי",
+      "body": "<p class=\"instruction\">כעת חוזרים לעמדה שלנו. איזה יתרון מצדיק עבודה מוגבלת?</p><p class=\"en example\" lang=\"en\" dir=\"ltr\">On the other hand,</p><div class=\"answer-slot\" aria-hidden=\"true\"> <div class=\"reveal-content concealed\"><p class=\"en possible-answer\" lang=\"en\" dir=\"ltr\">On the other hand, a small job can teach practical skills.</p></div></div>",
+      "kind": "writing",
+      "pair": "support",
+      "tense": ""
+    },
+    {
+      "title": "פסקה שלישית: העמדה שלי",
+      "body": "<p class=\"instruction\">כעת חוזרים לעמדה שלנו. איזה יתרון מצדיק עבודה מוגבלת?</p><p class=\"en example\" lang=\"en\" dir=\"ltr\">On the other hand,</p><div class=\"answer-slot\"> <div class=\"reveal-content\"><p class=\"en possible-answer\" lang=\"en\" dir=\"ltr\">On the other hand, a small job can teach practical skills.</p></div></div>",
+      "kind": "writing",
+      "pair": "support",
+      "tense": ""
+    },
+    {
+      "title": "ניסיון שמשפיע על ההווה",
+      "body": "<p class=\"en example\" lang=\"en\" dir=\"ltr\">Many students have <span class=\"gap\"><span class=\"concealed\">learned</span></span> to manage money through work.</p><div class=\"choices en\" lang=\"en\" dir=\"ltr\"><span class=\"choice\">learn</span><span class=\"choice\">learned</span><span class=\"choice\">learning</span></div><p class=\"instruction\">אחרי have או has נשתמש בצורת V3.</p><div class=\"answer-slot mini\"><p class=\"reveal-content concealed\">התשובה: <b class=\"en\" lang=\"en\" dir=\"ltr\">learned</b></p></div>",
+      "kind": "quiz",
+      "pair": "perfect",
+      "tense": "הווה"
+    },
+    {
+      "title": "ניסיון שמשפיע על ההווה",
+      "body": "<p class=\"en example\" lang=\"en\" dir=\"ltr\">Many students have <span class=\"gap\"><span class=\"solved\">learned</span></span> to manage money through work.</p><div class=\"choices en\" lang=\"en\" dir=\"ltr\"><span class=\"choice\">learn</span><span class=\"choice\">learned</span><span class=\"choice\">learning</span></div><p class=\"instruction\">אחרי have או has נשתמש בצורת V3.</p><div class=\"answer-slot mini\"><p class=\"reveal-content\">התשובה: <b class=\"en\" lang=\"en\" dir=\"ltr\">learned</b></p></div>",
+      "kind": "quiz",
+      "pair": "perfect",
+      "tense": "הווה"
+    },
+    {
+      "title": "התנחתא",
+      "body": "<img class=\"break-image\" src=\"assets/however-cat.webp\" alt=\"חתול מאויר עם מחברת וציוד לימוד\"><div class=\"break-caption en\" lang=\"en\" dir=\"ltr\">Another point of view</div>",
+      "kind": "break",
+      "pair": "",
+      "tense": ""
+    },
+    {
+      "title": "הרחבה שמוסיפה משמעות",
+      "body": "<p class=\"instruction\">הטענה: עבודה מלמדת לנהל כסף. במה זה מועיל בחיי היום־יום?</p><p class=\"en example\" lang=\"en\" dir=\"ltr\">For example,…</p><div class=\"answer-slot\" aria-hidden=\"true\"> <div class=\"reveal-content concealed\"><p class=\"en possible-answer\" lang=\"en\" dir=\"ltr\">Saving part of their pay can help them understand the difference between needs and wishes.</p></div></div>",
+      "kind": "writing",
+      "pair": "expand",
+      "tense": ""
+    },
+    {
+      "title": "הרחבה שמוסיפה משמעות",
+      "body": "<p class=\"instruction\">הטענה: עבודה מלמדת לנהל כסף. במה זה מועיל בחיי היום־יום?</p><p class=\"en example\" lang=\"en\" dir=\"ltr\">For example,…</p><div class=\"answer-slot\"> <div class=\"reveal-content\"><p class=\"en possible-answer\" lang=\"en\" dir=\"ltr\">Saving part of their pay can help them understand the difference between needs and wishes.</p></div></div>",
+      "kind": "writing",
+      "pair": "expand",
+      "tense": ""
+    },
+    {
+      "title": "תקועים באמצע",
+      "body": "<div class=\"commands\"><div><b>רמז</b><span>מקבלים מעט עזרה ומנסים שוב</span></div><div><b>למה</b><span>מבקשים הסבר לתיקון</span></div><div><b>החיבור שלי</b><span>רואים את הטקסט ואת הספירה</span></div><div><b>איפה אני</b><span>מזכירים מה הצעד הבא</span></div></div><p class=\"note\">אלה פקודות שמקלידים בשיחה.</p>",
+      "kind": "",
+      "pair": "",
+      "tense": ""
+    },
+    {
+      "title": "פסקה רביעית: מסקנה",
+      "body": "<p class=\"instruction\">חוזרים לעמדה ומסיימים בלי טיעון חדש. כתבו מסקנה.</p><p class=\"en example\" lang=\"en\" dir=\"ltr\">In conclusion,…</p><div class=\"answer-slot\" aria-hidden=\"true\"> <div class=\"reveal-content concealed\"><p class=\"en possible-answer\" lang=\"en\" dir=\"ltr\">In conclusion, an after-school job can be beneficial when school remains the main priority.</p></div></div>",
+      "kind": "writing",
+      "pair": "conclusion",
+      "tense": ""
+    },
+    {
+      "title": "פסקה רביעית: מסקנה",
+      "body": "<p class=\"instruction\">חוזרים לעמדה ומסיימים בלי טיעון חדש. כתבו מסקנה.</p><p class=\"en example\" lang=\"en\" dir=\"ltr\">In conclusion,…</p><div class=\"answer-slot\"> <div class=\"reveal-content\"><p class=\"en possible-answer\" lang=\"en\" dir=\"ltr\">In conclusion, an after-school job can be beneficial when school remains the main priority.</p></div></div>",
+      "kind": "writing",
+      "pair": "conclusion",
+      "tense": ""
+    },
+    {
+      "title": "מסיימים במשפט סביל",
+      "body": "<p class=\"en example\" lang=\"en\" dir=\"ltr\">Working hours should <span class=\"gap\"><span class=\"concealed\">be limited</span></span> during the school year.</p><div class=\"choices en\" lang=\"en\" dir=\"ltr\"><span class=\"choice\">limit</span><span class=\"choice\">be limited</span><span class=\"choice\">be limiting</span></div><p class=\"instruction\">המבנה: should be + V3. מה מתאים?</p><div class=\"answer-slot mini\"><p class=\"reveal-content concealed\">התשובה: <b class=\"en\" lang=\"en\" dir=\"ltr\">be limited</b></p></div>",
+      "kind": "quiz",
+      "pair": "passive",
+      "tense": ""
+    },
+    {
+      "title": "מסיימים במשפט סביל",
+      "body": "<p class=\"en example\" lang=\"en\" dir=\"ltr\">Working hours should <span class=\"gap\"><span class=\"solved\">be limited</span></span> during the school year.</p><div class=\"choices en\" lang=\"en\" dir=\"ltr\"><span class=\"choice\">limit</span><span class=\"choice\">be limited</span><span class=\"choice\">be limiting</span></div><p class=\"instruction\">המבנה: should be + V3. מה מתאים?</p><div class=\"answer-slot mini\"><p class=\"reveal-content\">התשובה: <b class=\"en\" lang=\"en\" dir=\"ltr\">be limited</b></p></div>",
+      "kind": "quiz",
+      "pair": "passive",
+      "tense": ""
+    },
+    {
+      "title": "החיבור עד עכשיו",
+      "body": "<p class=\"en word-count\" lang=\"en\" dir=\"ltr\">119 words</p><p class=\"instruction\">איזה הסבר או איזו דוגמה חסרים בפסקת הגוף?</p><p class=\"note\">מוסיפים תוכן בעל משמעות עד 120–140 מילים, ונשארים בארבע פסקאות.</p><p class=\"note\">בסיום מאמתים את הספירה גם ב־Word או ב־Google Docs.</p>",
+      "kind": "",
+      "pair": "",
+      "tense": ""
+    },
+    {
+      "title": "החיבור שהשלמנו · 127 מילים",
+      "body": "<div class=\"essay\" lang=\"en\" dir=\"ltr\"><p>Many teenagers consider getting a job while they are still at school. I claim that limited working hours can help students prepare for adult life.</p><p>On the one hand, working after school can leave teenagers tired. If they work every evening, they will have less time for homework. For example, a late shift may make preparing for a test difficult.</p><p>On the other hand, a small job can teach practical skills. Many students have learned to manage money through work. Saving part of their pay can also help them understand the difference between needs and wishes. In this way, they may become more independent.</p><p>In conclusion, an after-school job can be beneficial when school remains the main priority. Working hours should be limited during the school year.</p></div>",
+      "kind": "essay-slide",
+      "pair": "",
+      "tense": ""
+    },
+    {
+      "title": "גם נושא תיאורי",
+      "body": "<p class=\"en example\" lang=\"en\" dir=\"ltr\">Describe someone who had a great influence on your life.</p><p class=\"instruction\">בוחרים אדם, מתארים את ההשפעה ומוסיפים דוגמה.</p><p class=\"note\">המאמן מתאים את פסקאות הגוף למשימה. מציגים צדדים מנוגדים רק כשיש ניגוד אמיתי.</p>",
+      "kind": "",
+      "pair": "",
+      "tense": ""
+    },
+    {
+      "title": "בדיקה עצמית לפני סיום",
+      "body": "<div class=\"checklist\"><p>עניתי על הנושא והדוגמאות תומכות ברעיון?</p><p>יש ארבע פסקאות ו־120–140 מילים?</p><p>המבנים הדקדוקיים מתאימים למשמעות?</p><p>אני יכול להסביר מה תיקנתי ולמה?</p></div><p class=\"note\">זהו מבנה תרגול של הכיתה; המאמן אינו נותן ציון בגרות רשמי.</p>",
+      "kind": "",
+      "pair": "",
+      "tense": ""
+    },
+    {
+      "title": "עכשיו תורכם",
+      "body": "<p class=\"instruction\">פתחו את המאמן וכתבו:</p><p class=\"command\">מתחילים</p><p class=\"instruction\">כתבו פתיחה ועמדה. תקנו משפט אחד בעקבות המשוב.</p><p class=\"note\">בסיום: הסבירו במילים שלכם מה השתפר.</p><p class=\"note\">לתרגול בנושא חדש מקלידים ״נביא״ או ״נושא חדש״.</p>",
+      "kind": "",
+      "pair": "",
+      "tense": ""
+    }
+  ],
+  "essay": [
+    "Many teenagers consider getting a job while they are still at school. I claim that limited working hours can help students prepare for adult life.",
+    "On the one hand, working after school can leave teenagers tired. If they work every evening, they will have less time for homework. For example, a late shift may make preparing for a test difficult.",
+    "On the other hand, a small job can teach practical skills. Many students have learned to manage money through work. Saving part of their pay can also help them understand the difference between needs and wishes. In this way, they may become more independent.",
+    "In conclusion, an after-school job can be beneficial when school remains the main priority. Working hours should be limited during the school year."
+  ],
+  "count": 127
+}
