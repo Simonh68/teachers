@@ -1,7 +1,7 @@
 (()=>{'use strict';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const homeMode=new URLSearchParams(location.search).get('mode')==='home';const slides=homeMode?LESSON.slides.filter(s=>s.home):LESSON.slides;LESSON.sections=[...new Set(slides.map(s=>s.section))];const choices={},rateKey='teachers-read-alone-speed-v1',slideKey='teachers-unit1-reading-v1';let i=Math.max(0,Math.min(slides.length-1,(parseInt(location.hash.slice(1))||1)-1));let lastWheel=0,timer=0,frame=0,run=0,clip=null,activeWord=-1,tipWord=null;
-const audio=new Audio();audio.id='sentenceAudio';audio.preload='auto';document.body.append(audio);const audioAvailable=false;const audioData=Promise.resolve(null);audioData.catch(()=>{});
+const audio=new Audio();audio.id='sentenceAudio';audio.preload='auto';document.body.append(audio);const audioAvailable=true;const audioData=fetch('audio.json?v=unit-1-v2').then(r=>{if(!r.ok)throw new Error(`audio metadata ${r.status}`);return r.json();});audioData.catch(()=>{});
 let speed=.75;try{const n=Number(localStorage.getItem(rateKey));if([1,.75,.5,.35,.25].includes(n))speed=n;}catch(e){}$('#speed').value=String(speed);
 function clearHighlight(){document.querySelectorAll('.spoken').forEach(w=>w.classList.remove('spoken'));activeWord=-1;}
 function sync(){if(audio.paused||!clip)return clearHighlight();const n=clip.words.findIndex(w=>audio.currentTime>=w.start&&audio.currentTime<w.end);if(n===activeWord)return;clearHighlight();document.querySelector(`[data-word="${n}"]`)?.classList.add('spoken');activeWord=n;}
@@ -49,7 +49,7 @@ document.querySelectorAll('[data-copy-group]').forEach(b=>b.onclick=()=>copyGrou
 document.querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>{choices[i]=Number(b.dataset.choice);render();document.querySelector(`[data-choice="${b.dataset.choice}"]`)?.focus({preventScroll:true});});
 if($('#reviewStart'))$('#reviewStart').onclick=()=>go(slides.findIndex(x=>x.kind===(homeMode?'reading':'quiz')));
 if($('#readerReplay'))$('#readerReplay').onclick=()=>audio.paused?speak(s.ids[0],s.ids.at(-1)):stop();
-if($('#readerContinue'))$('#readerContinue').onclick=()=>go(i+1);
+if($('#readerContinue'))$('#readerContinue').onclick=()=>{const next=slides[i+1];go(i+1);if(next?.kind==='reader'&&next.title===s.title)timer=setTimeout(()=>speak(next.ids[0],next.ids.at(-1)),0);};
 document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>go(Number(b.dataset.tab)));
 if($('#check'))$('#check').onclick=()=>go(i+1);if($('#continue'))$('#continue').onclick=()=>go(i+1);if($('#retry'))$('#retry').onclick=()=>{delete choices[i-1];go(i-1);};if($('#presentSummary'))$('#presentSummary').onclick=()=>go(slides.findIndex(x=>x.kind==='summary'&&x.tense==='הווה'));if($('#start'))$('#start').onclick=()=>go(1);if($('#resume'))$('#resume').onclick=()=>{let n=1;try{n=Number(localStorage.getItem(slideKey))||1;}catch(e){}go(n);};
 if(['sentence','reader'].includes(s.kind)){document.querySelectorAll('.sentenceWord').forEach(w=>{w.onpointerenter=e=>{if(e.pointerType!=='touch')showTip(w);};w.onpointerleave=e=>{if(e.pointerType!=='touch')hideTip();};w.onfocus=()=>showTip(w);w.onblur=hideTip;w.onclick=()=>showTip(w);w.onkeydown=e=>{if(['Enter',' '].includes(e.key)){e.preventDefault();e.stopPropagation();showTip(w);}};});if(audioAvailable&&s.kind==='sentence')timer=setTimeout(()=>speak(s.n),2000);}}

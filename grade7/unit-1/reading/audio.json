@@ -1,0 +1,772 @@
+{
+  "audio": "assets/narration.mp3?v=unit-1-v2",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256": "2d8d534fcdc5c5a5a6dd5f21477d3bd45aaeda25b17a19882b34b213f1623cd5",
+  "sentences": [
+    {
+      "start": 0.0625,
+      "end": 2.2375,
+      "words": [
+        {
+          "word": "A",
+          "start": 0.0625,
+          "end": 0.125
+        },
+        {
+          "word": "message",
+          "start": 0.1375,
+          "end": 0.7
+        },
+        {
+          "word": "for",
+          "start": 0.7125,
+          "end": 0.9
+        },
+        {
+          "word": "Grade",
+          "start": 0.9125,
+          "end": 1.25
+        },
+        {
+          "word": "7",
+          "start": 1.2625,
+          "end": 1.5875
+        },
+        {
+          "word": "students.",
+          "start": 1.6,
+          "end": 2.2375
+        }
+      ]
+    },
+    {
+      "start": 2.6375,
+      "end": 6.3,
+      "words": [
+        {
+          "word": "On",
+          "start": 2.6375,
+          "end": 2.8
+        },
+        {
+          "word": "rainy",
+          "start": 2.8125,
+          "end": 3.0625
+        },
+        {
+          "word": "mornings,",
+          "start": 3.075,
+          "end": 3.6125
+        },
+        {
+          "word": "Room",
+          "start": 4.1375,
+          "end": 4.6075
+        },
+        {
+          "word": "4",
+          "start": 4.6075,
+          "end": 4.725
+        },
+        {
+          "word": "is",
+          "start": 4.7375,
+          "end": 5.0
+        },
+        {
+          "word": "open",
+          "start": 5.0125,
+          "end": 5.3125
+        },
+        {
+          "word": "from",
+          "start": 5.325,
+          "end": 5.5
+        },
+        {
+          "word": "7:30.",
+          "start": 5.5125,
+          "end": 6.3
+        }
+      ]
+    },
+    {
+      "start": 6.6875,
+      "end": 8.8125,
+      "words": [
+        {
+          "word": "There",
+          "start": 6.6875,
+          "end": 6.8125
+        },
+        {
+          "word": "are",
+          "start": 6.825,
+          "end": 6.925
+        },
+        {
+          "word": "chairs",
+          "start": 6.9375,
+          "end": 7.4625
+        },
+        {
+          "word": "and",
+          "start": 7.475,
+          "end": 7.625
+        },
+        {
+          "word": "tables",
+          "start": 7.6375,
+          "end": 8.1375
+        },
+        {
+          "word": "in",
+          "start": 8.15,
+          "end": 8.2875
+        },
+        {
+          "word": "the",
+          "start": 8.3,
+          "end": 8.3625
+        },
+        {
+          "word": "room.",
+          "start": 8.375,
+          "end": 8.8125
+        }
+      ]
+    },
+    {
+      "start": 9.1875,
+      "end": 11.8875,
+      "words": [
+        {
+          "word": "There",
+          "start": 9.1875,
+          "end": 9.3375
+        },
+        {
+          "word": "is",
+          "start": 9.35,
+          "end": 9.4625
+        },
+        {
+          "word": "a",
+          "start": 9.475,
+          "end": 9.55
+        },
+        {
+          "word": "place",
+          "start": 9.5625,
+          "end": 9.975
+        },
+        {
+          "word": "for",
+          "start": 9.9875,
+          "end": 10.2125
+        },
+        {
+          "word": "wet",
+          "start": 10.225,
+          "end": 10.4625
+        },
+        {
+          "word": "umbrellas",
+          "start": 10.475,
+          "end": 11.05
+        },
+        {
+          "word": "near",
+          "start": 11.0625,
+          "end": 11.3125
+        },
+        {
+          "word": "the",
+          "start": 11.325,
+          "end": 11.425
+        },
+        {
+          "word": "door.",
+          "start": 11.4375,
+          "end": 11.8875
+        }
+      ]
+    },
+    {
+      "start": 12.2625,
+      "end": 14.025,
+      "words": [
+        {
+          "word": "You",
+          "start": 12.2625,
+          "end": 12.35
+        },
+        {
+          "word": "can",
+          "start": 12.3625,
+          "end": 12.55
+        },
+        {
+          "word": "wait",
+          "start": 12.5625,
+          "end": 12.8
+        },
+        {
+          "word": "here",
+          "start": 12.8125,
+          "end": 13.1375
+        },
+        {
+          "word": "with",
+          "start": 13.15,
+          "end": 13.3
+        },
+        {
+          "word": "your",
+          "start": 13.3125,
+          "end": 13.4375
+        },
+        {
+          "word": "friends.",
+          "start": 13.45,
+          "end": 14.025
+        }
+      ]
+    },
+    {
+      "start": 14.4,
+      "end": 16.625,
+      "words": [
+        {
+          "word": "Please",
+          "start": 14.4,
+          "end": 14.725
+        },
+        {
+          "word": "put",
+          "start": 14.7375,
+          "end": 14.9625
+        },
+        {
+          "word": "your",
+          "start": 14.975,
+          "end": 15.125
+        },
+        {
+          "word": "bags",
+          "start": 15.1375,
+          "end": 15.6
+        },
+        {
+          "word": "under",
+          "start": 15.6125,
+          "end": 15.8875
+        },
+        {
+          "word": "the",
+          "start": 15.9,
+          "end": 15.9875
+        },
+        {
+          "word": "tables.",
+          "start": 16.0,
+          "end": 16.625
+        }
+      ]
+    },
+    {
+      "start": 17.025,
+      "end": 18.85,
+      "words": [
+        {
+          "word": "Lessons",
+          "start": 17.025,
+          "end": 17.4375
+        },
+        {
+          "word": "start",
+          "start": 17.45,
+          "end": 17.8875
+        },
+        {
+          "word": "at",
+          "start": 17.9,
+          "end": 18.0875
+        },
+        {
+          "word": "8:00.",
+          "start": 18.1,
+          "end": 18.85
+        }
+      ]
+    },
+    {
+      "start": 19.2375,
+      "end": 21.5125,
+      "words": [
+        {
+          "word": "Children",
+          "start": 19.2375,
+          "end": 19.7
+        },
+        {
+          "word": "get",
+          "start": 19.7125,
+          "end": 19.8875
+        },
+        {
+          "word": "to",
+          "start": 19.9,
+          "end": 19.9875
+        },
+        {
+          "word": "school",
+          "start": 20.0,
+          "end": 20.525
+        },
+        {
+          "word": "in",
+          "start": 20.5375,
+          "end": 20.7
+        },
+        {
+          "word": "different",
+          "start": 20.7125,
+          "end": 21.0375
+        },
+        {
+          "word": "ways.",
+          "start": 21.05,
+          "end": 21.5125
+        }
+      ]
+    },
+    {
+      "start": 21.9,
+      "end": 22.5375,
+      "words": [
+        {
+          "word": "Some",
+          "start": 21.9,
+          "end": 22.125
+        },
+        {
+          "word": "walk.",
+          "start": 22.1375,
+          "end": 22.5375
+        }
+      ]
+    },
+    {
+      "start": 22.9375,
+      "end": 24.5125,
+      "words": [
+        {
+          "word": "Some",
+          "start": 22.9375,
+          "end": 23.1625
+        },
+        {
+          "word": "take",
+          "start": 23.175,
+          "end": 23.375
+        },
+        {
+          "word": "a",
+          "start": 23.3875,
+          "end": 23.45
+        },
+        {
+          "word": "bus",
+          "start": 23.4625,
+          "end": 23.8125
+        },
+        {
+          "word": "or",
+          "start": 23.825,
+          "end": 24.0
+        },
+        {
+          "word": "a",
+          "start": 24.0125,
+          "end": 24.0625
+        },
+        {
+          "word": "train.",
+          "start": 24.075,
+          "end": 24.5125
+        }
+      ]
+    },
+    {
+      "start": 24.875,
+      "end": 27.2375,
+      "words": [
+        {
+          "word": "A",
+          "start": 24.875,
+          "end": 24.975
+        },
+        {
+          "word": "school",
+          "start": 24.9875,
+          "end": 25.3625
+        },
+        {
+          "word": "near",
+          "start": 25.375,
+          "end": 25.6
+        },
+        {
+          "word": "home",
+          "start": 25.6125,
+          "end": 25.9625
+        },
+        {
+          "word": "is",
+          "start": 25.9875,
+          "end": 26.1875
+        },
+        {
+          "word": "easy",
+          "start": 26.2125,
+          "end": 26.5625
+        },
+        {
+          "word": "to",
+          "start": 26.575,
+          "end": 26.6875
+        },
+        {
+          "word": "get",
+          "start": 26.7,
+          "end": 26.9375
+        },
+        {
+          "word": "to.",
+          "start": 26.95,
+          "end": 27.2375
+        }
+      ]
+    },
+    {
+      "start": 27.6375,
+      "end": 30.0625,
+      "words": [
+        {
+          "word": "But",
+          "start": 27.6375,
+          "end": 27.75
+        },
+        {
+          "word": "some",
+          "start": 27.7625,
+          "end": 28.025
+        },
+        {
+          "word": "children",
+          "start": 28.0375,
+          "end": 28.4375
+        },
+        {
+          "word": "choose",
+          "start": 28.45,
+          "end": 28.825
+        },
+        {
+          "word": "a",
+          "start": 28.8375,
+          "end": 28.9125
+        },
+        {
+          "word": "school",
+          "start": 28.925,
+          "end": 29.3125
+        },
+        {
+          "word": "far",
+          "start": 29.325,
+          "end": 29.6125
+        },
+        {
+          "word": "away.",
+          "start": 29.625,
+          "end": 30.0625
+        }
+      ]
+    },
+    {
+      "start": 30.45,
+      "end": 34.3,
+      "words": [
+        {
+          "word": "They",
+          "start": 30.45,
+          "end": 30.5375
+        },
+        {
+          "word": "want",
+          "start": 30.55,
+          "end": 30.725
+        },
+        {
+          "word": "to",
+          "start": 30.7375,
+          "end": 30.7875
+        },
+        {
+          "word": "study",
+          "start": 30.8,
+          "end": 31.1375
+        },
+        {
+          "word": "music,",
+          "start": 31.15,
+          "end": 31.675
+        },
+        {
+          "word": "science",
+          "start": 32.125,
+          "end": 32.7375
+        },
+        {
+          "word": "or",
+          "start": 32.75,
+          "end": 32.9375
+        },
+        {
+          "word": "another",
+          "start": 32.95,
+          "end": 33.2875
+        },
+        {
+          "word": "subject",
+          "start": 33.3,
+          "end": 33.75
+        },
+        {
+          "word": "they",
+          "start": 33.7625,
+          "end": 33.8875
+        },
+        {
+          "word": "like.",
+          "start": 33.9,
+          "end": 34.3
+        }
+      ]
+    },
+    {
+      "start": 34.675,
+      "end": 36.2375,
+      "words": [
+        {
+          "word": "A",
+          "start": 34.675,
+          "end": 34.7375
+        },
+        {
+          "word": "long",
+          "start": 34.75,
+          "end": 35.075
+        },
+        {
+          "word": "journey",
+          "start": 35.0875,
+          "end": 35.4625
+        },
+        {
+          "word": "takes",
+          "start": 35.475,
+          "end": 35.775
+        },
+        {
+          "word": "time.",
+          "start": 35.7875,
+          "end": 36.2375
+        }
+      ]
+    },
+    {
+      "start": 36.6125,
+      "end": 38.9,
+      "words": [
+        {
+          "word": "On",
+          "start": 36.6125,
+          "end": 36.775
+        },
+        {
+          "word": "rainy",
+          "start": 36.7875,
+          "end": 37.075
+        },
+        {
+          "word": "days,",
+          "start": 37.0875,
+          "end": 37.5
+        },
+        {
+          "word": "the",
+          "start": 37.525,
+          "end": 37.6375
+        },
+        {
+          "word": "journey",
+          "start": 37.65,
+          "end": 38.05
+        },
+        {
+          "word": "can",
+          "start": 38.0625,
+          "end": 38.2375
+        },
+        {
+          "word": "be",
+          "start": 38.25,
+          "end": 38.3625
+        },
+        {
+          "word": "harder.",
+          "start": 38.375,
+          "end": 38.9
+        }
+      ]
+    },
+    {
+      "start": 39.2625,
+      "end": 41.2875,
+      "words": [
+        {
+          "word": "Some",
+          "start": 39.2625,
+          "end": 39.6
+        },
+        {
+          "word": "children",
+          "start": 39.6125,
+          "end": 40.0125
+        },
+        {
+          "word": "travel",
+          "start": 40.025,
+          "end": 40.5
+        },
+        {
+          "word": "with",
+          "start": 40.5125,
+          "end": 40.675
+        },
+        {
+          "word": "friends.",
+          "start": 40.6875,
+          "end": 41.2875
+        }
+      ]
+    },
+    {
+      "start": 41.6625,
+      "end": 42.7625,
+      "words": [
+        {
+          "word": "They",
+          "start": 41.6625,
+          "end": 41.7625
+        },
+        {
+          "word": "talk",
+          "start": 41.775,
+          "end": 42.1125
+        },
+        {
+          "word": "on",
+          "start": 42.125,
+          "end": 42.2875
+        },
+        {
+          "word": "the",
+          "start": 42.3,
+          "end": 42.375
+        },
+        {
+          "word": "way.",
+          "start": 42.3875,
+          "end": 42.7625
+        }
+      ]
+    },
+    {
+      "start": 43.1375,
+      "end": 46.8125,
+      "words": [
+        {
+          "word": "They",
+          "start": 43.1375,
+          "end": 43.2375
+        },
+        {
+          "word": "are",
+          "start": 43.25,
+          "end": 43.3625
+        },
+        {
+          "word": "tired",
+          "start": 43.375,
+          "end": 43.875
+        },
+        {
+          "word": "when",
+          "start": 43.8875,
+          "end": 44.025
+        },
+        {
+          "word": "they",
+          "start": 44.0375,
+          "end": 44.15
+        },
+        {
+          "word": "arrive,",
+          "start": 44.1625,
+          "end": 44.7625
+        },
+        {
+          "word": "but",
+          "start": 45.1375,
+          "end": 45.35
+        },
+        {
+          "word": "they",
+          "start": 45.3625,
+          "end": 45.4875
+        },
+        {
+          "word": "are",
+          "start": 45.5,
+          "end": 45.6125
+        },
+        {
+          "word": "happy",
+          "start": 45.625,
+          "end": 45.975
+        },
+        {
+          "word": "to",
+          "start": 45.9875,
+          "end": 46.0875
+        },
+        {
+          "word": "be",
+          "start": 46.1,
+          "end": 46.2375
+        },
+        {
+          "word": "together.",
+          "start": 46.25,
+          "end": 46.8125
+        }
+      ]
+    }
+  ]
+}
