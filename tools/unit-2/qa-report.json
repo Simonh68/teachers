@@ -1,0 +1,27 @@
+{
+  "viewports": [
+    {
+      "width": 1366,
+      "height": 900,
+      "slidesChecked": 480
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "slidesChecked": 480
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "slidesChecked": 480
+    }
+  ],
+  "errors": [],
+  "checks": [
+    "all grammar slides",
+    "all vocabulary slides and reveal geometry",
+    "main pages horizontal overflow",
+    "four actual CDP touch directions on each deck",
+    "quiz feedback and subsequent keyboard navigation"
+  ]
+}

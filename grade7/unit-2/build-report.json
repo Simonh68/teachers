@@ -1,0 +1,23 @@
+{
+  "status": "teacher_review_draft",
+  "records": 165,
+  "groups": [
+    3,
+    4,
+    5
+  ],
+  "grammar_a_slides": 46,
+  "grammar_b_slides": 43,
+  "teacher_slides": 19,
+  "true_companion_texts": 5,
+  "main_words": 262,
+  "pending": [
+    "recorded audio",
+    "complete Read Alone players",
+    "vocabulary source corrections",
+    "full contextual coverage",
+    "listening task",
+    "final worksheet PDF",
+    "student publication"
+  ]
+}

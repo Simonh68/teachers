@@ -1,0 +1,265 @@
+{
+  "title": "School Years Around the World",
+  "status": "teacher_review_draft",
+  "groups": [
+    3,
+    4,
+    5
+  ],
+  "main": [
+    [
+      "One World, Different School Years",
+      "Does every school year start in September? No. School calendars are different. The country, the school and the season all matter.",
+      "האם כל שנת לימודים מתחילה בספטמבר? לא. לוחות הלימודים שונים. למדינה, לבית הספר ולעונה יש חשיבות."
+    ],
+    [
+      "Japan",
+      "In Japan, the school year starts in April, in spring. It ends in late March. Summer vacation is in the middle of the school year. At many schools, it lasts approximately six weeks, from late July to the end of August.",
+      "ביפן שנת הלימודים מתחילה באפריל, באביב, ומסתיימת בסוף מרץ. חופשת הקיץ נמצאת באמצע שנת הלימודים. בבתי ספר רבים היא נמשכת בערך שישה שבועות, מסוף יולי עד סוף אוגוסט."
+    ],
+    [
+      "Alaska and Florida",
+      "Even in one country, schools follow different calendars. In Anchorage, Alaska, Grade 7 starts on August 20 in 2026 and finishes on May 28 in 2027. Its next summer vacation is about eleven weeks. In Miami-Dade, Florida, school starts on August 13 in 2026 and ends on June 3 in 2027. For a summer example, the 2026 vacation is about ten weeks.",
+      "גם באותה מדינה בתי ספר פועלים לפי לוחות שונים. באנקורג׳ שבאלסקה כיתה ז׳ מתחילה ב־20 באוגוסט 2026 ומסיימת ב־28 במאי 2027. חופשת הקיץ שאחריה נמשכת כ־11 שבועות. במיאמי־דייד שבפלורידה הלימודים מתחילים ב־13 באוגוסט 2026 ומסתיימים ב־3 ביוני 2027. כדוגמה לחופשת קיץ, החופשה בשנת 2026 נמשכת כעשרה שבועות."
+    ],
+    [
+      "England",
+      "According to the Kent calendar, the 2026 school year starts in September and ends in July 2027. The summer holiday lasts almost six weeks. Individual schools also have days for teacher training.",
+      "לפי לוח מחוז קנט, שנת הלימודים מתחילה בספטמבר 2026 ומסתיימת ביולי 2027. חופשת הקיץ נמשכת כמעט שישה שבועות. לבתי ספר יש גם ימי הכשרת מורים."
+    ],
+    [
+      "The United Arab Emirates",
+      "In UAE public schools, the year starts on August 31 in 2026 and ends on July 2 in 2027. Summer vacation lasts a little more than eight weeks. Students return on August 30.",
+      "בבתי הספר הציבוריים באיחוד האמירויות השנה מתחילה ב־31 באוגוסט 2026 ומסתיימת ב־2 ביולי 2027. חופשת הקיץ נמשכת מעט יותר משמונה שבועות. התלמידים חוזרים ב־30 באוגוסט."
+    ],
+    [
+      "A Small Island",
+      "Jersey is a small island where English is the main language. Its 2026–27 calendar runs from September to July. The summer break is nearly seven weeks, before extra teacher-training days. A small island has its own school calendar, too.",
+      "ג׳רזי הוא אי קטן שבו אנגלית היא השפה העיקרית. לוח הלימודים שלו לשנת 2026–27 נמשך מספטמבר עד יולי. חופשת הקיץ היא כמעט שבעה שבועות, לפני ימי הכשרת צוות נוספים. גם לאי קטן יש לוח לימודים משלו."
+    ],
+    [
+      "Seasons and School",
+      "April brings a new school year in Japan. In the other examples, students begin in August or September. Summer vacation and the end of a school year are not always the same event.",
+      "אפריל מביא שנת לימודים חדשה ביפן. בדוגמאות האחרות מתחילים באוגוסט או בספטמבר. חופשת הקיץ וסיום שנת הלימודים לא תמיד חלים יחד."
+    ]
+  ],
+  "calendar": [
+    {
+      "place": "Japan",
+      "scope": "דפוס כללי בבתי ספר; התאריכים משתנים",
+      "start": "April",
+      "end": "Late March",
+      "summer": "About six weeks",
+      "detail": "בקירוב 20 ביולי–31 באוגוסט. חופשת הקיץ בתוך שנת הלימודים.",
+      "sources": [
+        "https://web-japan.org/kidsweb/explore/schools/q4.html",
+        "https://web-japan.org/kidsweb/explore/calendar/april/schoolyear.html"
+      ]
+    },
+    {
+      "place": "Alaska, USA",
+      "scope": "Anchorage, grades 7–8, 2026–27",
+      "start": "20 August 2026",
+      "end": "28 May 2027",
+      "summer": "76 days in 2027",
+      "detail": "29 במאי–12 באוגוסט; שנת 2027–28 מתחילה לכיתות 7–8 ב־13 באוגוסט. כ־11 שבועות; מחושב בין ימי הלימוד.",
+      "sources": [
+        "https://www.asdk12.org/calendar",
+        "https://resources.finalsite.net/images/v1775748418/asdk12org/zar08maexobk2er6upcg/27-28_Accessible.pdf"
+      ]
+    },
+    {
+      "place": "Florida, USA",
+      "scope": "Miami-Dade: school year 2026–27; summer example 2026",
+      "start": "13 August 2026",
+      "end": "3 June 2027",
+      "summer": "69 days in summer 2026",
+      "detail": "דוגמת חופשה מאומתת: 5 ביוני–12 באוגוסט 2026, בין 4 ביוני ל־13 באוגוסט. אין להציג נתון זה כאורך קיץ 2027.",
+      "sources": [
+        "https://api.dadeschools.net/WMSFiles/392/calendars/25-26/School-Calendars-2026-2027-Elementary.pdf",
+        "https://api.dadeschools.net/WMSFiles/392/calendars/26-25/School-Calendars-2025-2026-Elementary-Secondary.pdf"
+      ]
+    },
+    {
+      "place": "England",
+      "scope": "Kent council term calendar, 2026–27; INSET days vary",
+      "start": "1 September 2026",
+      "end": "21 July 2027",
+      "summer": "41 days in 2027",
+      "detail": "22 ביולי–31 באוגוסט: כמעט שישה שבועות. אלו מועדי הרשות; בית הספר עשוי להוסיף ימי הכשרת צוות.",
+      "sources": [
+        "https://www.kent.gov.uk/education-and-children/schools/term-dates"
+      ]
+    },
+    {
+      "place": "United Arab Emirates",
+      "scope": "בתי ספר ציבוריים לפי לוח משרד החינוך, 2026–27",
+      "start": "31 August 2026",
+      "end": "2 July 2027",
+      "summer": "58 days in 2027",
+      "detail": "3 ביולי–29 באוגוסט; חזרה ב־30 באוגוסט. מעט יותר משמונה שבועות.",
+      "sources": [
+        "https://moe.gov.ae/en/mediacenter/news/Pages/MOE-announces-the-academic-calendar-for-the-next-3-years.aspx"
+      ]
+    },
+    {
+      "place": "Jersey",
+      "scope": "דוגמת אי מוצעת; לוח ממשלתי 2026–27, לפני התאמות INSET",
+      "start": "7 September 2026",
+      "end": "20 July 2027",
+      "summer": "47 days in 2027",
+      "detail": "21 ביולי–5 בספטמבר, לפי תחילת סמסטר ב־6 בספטמבר. ימי INSET עשויים להאריך את חופשת התלמידים. אנגלית היא השפה העיקרית באי.",
+      "sources": [
+        "https://www.gov.je/Education/Schools/SchoolLife/pages/termdates.aspx",
+        "https://www.gov.je/Leisure/Jersey/pages/profile.aspx"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "A Snow Day, a Screen and a Shovel",
+      "place": "Anchorage, Alaska, USA",
+      "period": "9 November 2023; reported by KTUU on 10 November",
+      "mode": "school journey cancelled",
+      "en": "It is November 9, 2023. A snowstorm makes the roads in Anchorage dangerous. Kali cannot go to school today. Her teacher reads a story to the class online, from his couch. The book is about a snowy day! Kali misses school and finds online learning harder. She also goes outside to clear snow from the driveway. She wants to earn some money.",
+      "he": "9 בנובמבר 2023. סופת שלג הופכת את הכבישים באנקורג׳ למסוכנים. קאלי אינה יכולה להגיע היום לבית הספר. המורה שלה מקריא לכיתה סיפור באינטרנט, מהספה שלו. הספר עוסק ביום מושלג! קאלי מתגעגעת לבית הספר וקשה לה יותר ללמוד מרחוק. היא גם יוצאת החוצה לפנות שלג משביל הגישה. היא רוצה להרוויח קצת כסף.",
+      "source": "https://www.alaskasnewssource.com/2023/11/10/traditional-snow-day-is-now-remote-learning-day/",
+      "questions": [
+        [
+          "Why does Kali stay home?",
+          "The storm makes the roads dangerous."
+        ],
+        [
+          "Where does her teacher read?",
+          "On his couch, online."
+        ],
+        [
+          "Why does Kali clear the snow?",
+          "She wants to earn money."
+        ]
+      ],
+      "targets": [],
+      "note": "אירוע מתועד המסופר בהווה סיפורי. אין להסיק שקאלי בדרך כלל נוסעת באוטובוס או שכך פועלים כיום בכל יום שלג.",
+      "photo": {
+        "file": "assets/snow-report.jpg",
+        "alt": "תמרור בקרבת בית ספר ועצים מכוסים שלג, מתוך דיווח KTUU",
+        "caption": "צילום מתוך דיווח KTUU / Alaska’s News Source, נובמבר 2023. תמרור בשלג; קאלי אינה מופיעה בתמונה.",
+        "credit": "KTUU / Alaska’s News Source"
+      }
+    },
+    {
+      "title": "A Horse Before Class",
+      "place": "Argentina",
+      "period": "On the Way to School, documentary, 2013",
+      "mode": "horse",
+      "en": "Carlito lives in Patagonia, Argentina. His school is eighteen kilometres from home. Every school day, he rides a horse through the mountains. His little sister Micaela goes with him. Their horse is called Chiverito. The weather can make the journey difficult. Carlito wants to become a vet.",
+      "he": "קרליטו גר בפטגוניה שבארגנטינה. בית הספר שלו נמצא שמונה־עשר קילומטרים מהבית. בכל יום לימודים הוא רוכב על סוס דרך ההרים. אחותו הקטנה מיקאלה נוסעת איתו. לסוס שלהם קוראים צ׳יבריטו. מזג האוויר עלול להקשות על הדרך. קרליטו רוצה להיות וטרינר.",
+      "source": "https://medias.unifrance.org/medias/199/173/110023/presse/on-the-way-to-school-presskit-english.pdf",
+      "questions": [
+        [
+          "Who travels with Carlito?",
+          "His sister Micaela."
+        ],
+        [
+          "How far is his school?",
+          "Eighteen kilometres."
+        ],
+        [
+          "Which detail connects his journey with his dream?",
+          "He rides a horse and wants to become a vet."
+        ]
+      ],
+      "targets": [],
+      "note": "תיאור שגרת התיעוד, ללא דיאלוג או רגשות שהומצאו. הגילים מתייחסים למועד התיעוד; אין לטעון שהוא תלמיד כיום."
+    },
+    {
+      "title": "Four Kilometres Together",
+      "place": "India",
+      "period": "On the Way to School, documentary, 2013",
+      "mode": "wheelchair",
+      "en": "Samuel lives in India. He uses a wheelchair to get to school. His two younger brothers help him along the way. They push and pull the chair for four kilometres. The route includes sand, rivers and palm trees. A wheelchair journey is part of their school routine. Samuel and his brothers make this long journey together.",
+      "he": "סמואל גר בהודו. הוא משתמש בכיסא גלגלים כדי להגיע לבית הספר. שני אחיו הצעירים עוזרים לו בדרך. הם דוחפים ומושכים את הכיסא לאורך ארבעה קילומטרים. המסלול כולל חול, נהרות ועצי דקל. נסיעה בכיסא גלגלים היא חלק משגרת בית הספר שלהם. סמואל ואחיו עושים את הדרך הארוכה הזאת יחד.",
+      "source": "https://www.fondation-beatrice-schonberg.org/sur-le-chemin-de-l-ecole/",
+      "questions": [
+        [
+          "Who helps Samuel?",
+          "His two younger brothers."
+        ],
+        [
+          "Name one feature of the route.",
+          "Sand, rivers or palm trees."
+        ],
+        [
+          "Why is this journey a shared task?",
+          "His brothers help push and pull the chair."
+        ]
+      ],
+      "targets": [
+        "push",
+        "along"
+      ],
+      "note": "תיאור שגרת התיעוד. אין להוסיף פציעה, חילוץ או דיאלוג שלא תועדו. אין להסיק שזה מסלול אופייני לכל ילדי הודו."
+    },
+    {
+      "title": "The School Boat",
+      "place": "Bryher and Tresco, England",
+      "period": "BBC Teach, source copyright 2024",
+      "mode": "boat",
+      "en": "Zoe and Isaac live on Bryher, a small island. Their school is on nearby Tresco. Every morning, they meet the other children at the place where the boat stops. The boat journey takes only five minutes. Sometimes they see dolphins. After the boat arrives, they walk to school. For these children, going to class means crossing the sea.",
+      "he": "זואי ואייזק גרים בברייר, אי קטן. בית הספר שלהם נמצא בטרסקו הסמוך. בכל בוקר הם פוגשים את הילדים האחרים במקום שבו הסירה עוצרת. השיט נמשך רק חמש דקות. לפעמים הם רואים דולפינים. לאחר שהסירה מגיעה הם הולכים לבית הספר. עבור הילדים האלה, ההגעה לכיתה כוללת חציית ים.",
+      "source": "https://teach.files.bbci.co.uk/teach/geography/ks1_uk_locations/life_on_the_isles_of_scilly.pdf",
+      "questions": [
+        [
+          "Why do they need a boat?",
+          "Their school is on another island."
+        ],
+        [
+          "How long is the boat journey?",
+          "Five minutes."
+        ],
+        [
+          "Do they always see dolphins?",
+          "No. Sometimes."
+        ]
+      ],
+      "targets": [
+        "nearby"
+      ],
+      "note": "מקור BBC משלב מנחה בדיוני בדמות עכבר. העיבוד משתמש רק בפרטי השגרה של הילדים ובמקומות הממשיים, ומשמיט את עלילת המנחה."
+    },
+    {
+      "title": "A Bus Without a Bus",
+      "place": "Barcelona, Spain",
+      "period": "NPR report, 22 October 2021",
+      "mode": "bicycle",
+      "en": "On Fridays, some children in Barcelona ride to school together. Parents go with them. This group is called a bike bus. It has stops where more families join. The full ride takes approximately twenty-five minutes. Police help protect the group on the busy road. One mother rides with her five-year-old son. The regular Friday journey gives them company on the way to school.",
+      "he": "בימי שישי חלק מהילדים בברצלונה רוכבים יחד לבית הספר. ההורים מצטרפים. לקבוצה קוראים אוטובוס אופניים. יש לה תחנות שבהן מצטרפות משפחות נוספות. המסלול המלא נמשך בערך עשרים וחמש דקות. המשטרה עוזרת להגן על הקבוצה בכביש העמוס. אֵם אחת רוכבת עם בנה בן החמש. הדרך הקבועה ביום שישי מספקת להם חברה בדרך לבית הספר.",
+      "source": "https://www.gpb.org/news/2021/10/22/hundreds-of-kids-and-their-families-are-riding-bicycle-bus-school-in-barcelona",
+      "questions": [
+        [
+          "When does the group ride?",
+          "On Fridays."
+        ],
+        [
+          "Why does it have stops?",
+          "More families join there."
+        ],
+        [
+          "How does the group make the journey different?",
+          "Children travel with other families and police help protect them."
+        ]
+      ],
+      "targets": [
+        "approximately",
+        "protect"
+      ],
+      "note": "שגרת יום שישי שתועדה ב־2021, לא טענה שכל הילדים רוכבים כך בכל יום. שמו של הילד לא פורסם ואין להמציאו.",
+      "photo": {
+        "file": "assets/barcelona-bike-bus.jpg",
+        "alt": "ילדים רוכבים יחד ברחוב בברצלונה בדרך לבית הספר",
+        "caption": "ילדים באוטובוס האופניים ברובע אישמפלה, ברצלונה, 2021. צילום: Bicibús Eixample, פורסם ב־NPR / GPB. המקור אינו מזהה כל ילד בתמונה.",
+        "credit": "Bicibús Eixample, via NPR / Georgia Public Broadcasting"
+      }
+    }
+  ]
+}
