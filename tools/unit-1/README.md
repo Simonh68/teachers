@@ -7,10 +7,10 @@ Hub: grade7/unit-1/index.html. All existing resources keep their original URLs a
 - build_hub.py -> hub, teacher HTML presentation/data and grade7 index card. Teacher deck has 30 slides with the whole unit plan and keys.
 - reading/lesson.js and lesson.css are maintained source, adapted from the verified grammar engine. 94 complete-deck slides; ?mode=home selects the shorter independent route. Word translations, paired reveal geometry, folder tabs and four-direction navigation are supported.
 
-## Pending audio approval
-Automatic approval review rejected sending the two new, not-yet-public texts to Microsoft speech.platform.bing.com using edge-tts. Do not retry or use a workaround without new explicit approval. No speech request should be made by the student browser. The current UI honestly labels new narration as pending and disables its buttons; existing unit resources retain their original recordings.
+## Prerecorded audio
+The user explicitly approved sending only the 18 English sentences in the two new texts to Microsoft's speech service, without personal information. `build_audio.py` creates the prerecorded `en-US-BrianNeural` narration at `+10Hz` with engine WordBoundary cues. The student browser only downloads the checked-in MP3 and JSON; it never sends text to a speech service.
 
-After approval: build_audio.py creates en-US-BrianNeural +10Hz recordings and WordBoundary cues. Validate numeric-token alignment for times, every sentence and translation slide, reader boundaries, pause/continue, persisted speed, and cancellation before enabling audioAvailable in lesson.js. Replace the placeholder Promise.resolve(null) with the audio.json fetch and update UI pending labels in build_hub.py. Do not claim the new audio is complete before actual playback tests.
+The reader uses the shared `teachers-read-alone-speed-v1` preference with 0.75 as the fallback. Validate numeric-token alignment, every sentence and translation slide, reader boundaries, pause/continue, persisted speed, cancellation and public playback whenever the recording or player changes.
 
 ## QA performed
 94 slides at 1366x900, 1024x768, 390x844, 360x640; complete sentence-pair geometry; reader fit and all tooltips; every quiz right/wrong feedback, evidence and unrestricted forward navigation; genuine four-direction touch; hub links and clipboard; teacher deck navigation; two-page PDF rendering and exact served hash. Tests in /workspace/scratch/a8004f58ea11/qa-unit1.cjs.
