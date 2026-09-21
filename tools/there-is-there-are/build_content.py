@@ -106,6 +106,33 @@ quiz('בדיקת יציאה: יחיד בהווה','There ___ a pencil on the boo
 quiz('בדיקת יציאה: שלילה בעבר','Yesterday, there ___ any chairs.',['aren’t',"wasn't","weren't"],2,'chairs הם רבים ו־Yesterday מציין עבר. לכן weren’t.','עבר')
 quiz('בדיקת יציאה: שאלה','שאלו אם יש חלונות בחדר.',['Are there any windows in the room?','Is there any windows in the room?','Do there have windows in the room?'],0,'windows הם רבים. are עובר להתחלה ואין צורך ב־do.')
 add('finish','לפני שסוגרים',text='מי? → have / has / had\nמה נמצא? → there is / are / was / were',sub='אמרו משפט אחד חדש בלי להסתכל. אחר כך חזרו לסיכום ובדקו את הזמן, המספר וסדר המילים.')
+# Companion tasks share their exact wording with the printable PDFs.
+worksheets=json.loads((Path(__file__).parent/'worksheets.json').read_text())
+def writing(part,number):
+ w=worksheets[part][number-1]
+ return {**w,'kind':'worksheet','title':f'דף Part {part} · משימה {number}: '+w['title'],'section':'','part':part,'number':number}
+def review(part):
+ result=[dict(kind='collect',title=f'אוספים את דף Part {part}',section='',part=part,sub='הניחו את העט ומסרו את הדף למורה. רק אחרי האיסוף עוברים לפתרונות. אין צורך לשנות תשובות קודמות.')]
+ for number,w in enumerate(worksheets[part],1):
+  for n,item in enumerate(w['items'],1):
+   result.append(dict(kind='worksheetAnswer',title=f'דף Part {part} · פתרון {number}.{n}',section='',he=item['he'],answer=item['answer'],why=item['why']))
+ return result
+# Insertions retain all original slides in their original order; sentence audio is unchanged.
+anchors={('rule','שייכות או מה נמצא במקום?'):[writing('A',1)],
+ ('rule','שלילה בהווה'):[writing('A',2)],
+ ('rule','עוצרים ומחזירים מהזיכרון'):[writing('A',3)],
+ ('checkpoint','סיום Part A'):[writing('A',4),*review('A')],
+ ('restart','Part B · חוזרים בלי להציץ'):[writing('B',1)],
+ ('rule','שלילה בעבר'):[writing('B',2)],
+ ('rule','גם שייכות יכולה להיות בעבר'):[writing('B',3)],
+ ('finish','לפני שסוגרים'):[writing('B',4),*review('B')]}
+expanded=[]
+for sl in slides:
+ for extra in anchors.get((sl['kind'],sl['title']),[]):
+  extra['section']=sl['section'];expanded.append(extra)
+ expanded.append(sl)
+slides=expanded
+
 # Every displayed sentence token gets an individually accessible contextual Hebrew gloss.
 gloss={'i':'אני','have':'יש ל־; שייכות','has':'יש לו / לה; שייכות ביחיד','had':'היה ל־; שייכות בעבר','a':'פריט אחד, לא מיודע','blue':'כחול','bag':'תיק','there':'חלק ממבנה יש / היה; בשאלה האם יש / היה','is':'יש ביחיד, כחלק מ־there is','are':'יש ברבים, כחלק מ־there are','was':'היה / הייתה ביחיד','were':'היו ברבים','on':'על','the':'ה־','chair':'כיסא','daniel':'דניאל (שם)','two':'שניים / שתי','books':'ספרים','we':'אנחנו','one':'אחד / אחת','ball':'כדור','piano':'פסנתר','in':'ב־ / בתוך','classroom':'כיתה','windows':'חלונות','drawer':'מגירה','under':'מתחת ל־','table':'שולחן','not':'לא; יוצר שלילה','computer':'מחשב','this':'הזה / הזאת','room':'חדר',"isn't":'is not; אין ביחיד',"aren't":'are not; אין ברבים','any':'בשאלה: כלשהם; בשלילה: אין בכלל','bags':'תיקים','floor':'רצפה','yes':'כן','no':'לא','yesterday':'אתמול','three':'שלושה / שלוש',"wasn't":'was not; לא היה / הייתה',"weren't":'were not; לא היו','pencils':'עפרונות','our':'שלנו','today':'היום','shelf':'מדף','now':'עכשיו','some':'כמות כלשהי / מעט','water':'מים','bottle':'בקבוק'}
 gloss.update({'soccer':'כדורגל','history':'היסטוריה','bible':'התנ״ך; כתבי הקודש','short':'קצר / קצרה','break':'הפסקה; חופשה','after':'אחרי','exercise':'תרגיל; פעילות גופנית','an':'פריט אחד, לא מיודע','explanation':'הסבר','board':'לוח','mouse':'עכבר מחשב','next':'חלק מהביטוי next to: ליד','to':'חלק מהביטוי next to: ליד','lock':'מנעול'})

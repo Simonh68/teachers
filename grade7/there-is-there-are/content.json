@@ -1159,6 +1159,29 @@
       "sub": "מילים מקבוצות 01–02. מילה שעדיין לא פגשנו נלמד יחד לפני התרגול."
     },
     {
+      "title": "דף Part A · משימה 1: מתחילים",
+      "instruction": "הקיפו אפשרות אחת בכל משפט. אפשר לכתוב: עוד לא יודע.",
+      "vocab": "book = ספר · books = ספרים · on the table = על השולחן",
+      "items": [
+        {
+          "he": "לדניאל יש ספר.",
+          "en": "Daniel (has / is) a book.",
+          "answer": "Daniel has a book.",
+          "why": "מספרים מה יש לדניאל: has."
+        },
+        {
+          "he": "יש שני ספרים על השולחן.",
+          "en": "There (is / are) two books on the table.",
+          "answer": "There are two books on the table.",
+          "why": "שני ספרים הם רבים: are."
+        }
+      ],
+      "kind": "worksheet",
+      "section": "שייכות ומקום",
+      "part": "A",
+      "number": 1
+    },
+    {
       "kind": "rule",
       "title": "שייכות או מה נמצא במקום?",
       "section": "שייכות ומקום",
@@ -1528,6 +1551,35 @@
       "tense": "הווה",
       "context": "",
       "reveal": true
+    },
+    {
+      "title": "דף Part A · משימה 2: בחדר שלנו",
+      "instruction": "בחרו אפשרות אחת לפי המשמעות בעברית.",
+      "vocab": "chair = כיסא · bags = תיקים · in the room = בחדר · book = ספר",
+      "items": [
+        {
+          "he": "יש כיסא בחדר.",
+          "en": "There (is / are) a chair in the room.",
+          "answer": "There is a chair in the room.",
+          "why": "כיסא אחד: is."
+        },
+        {
+          "he": "יש שני תיקים בחדר.",
+          "en": "There (is / are) two bags in the room.",
+          "answer": "There are two bags in the room.",
+          "why": "שני תיקים: are."
+        },
+        {
+          "he": "לרינה יש ספר.",
+          "en": "Rina (has / are) a book.",
+          "answer": "Rina has a book.",
+          "why": "מספרים מה יש לרינה: has."
+        }
+      ],
+      "kind": "worksheet",
+      "section": "הווה: יש ואין",
+      "part": "A",
+      "number": 2
     },
     {
       "kind": "rule",
@@ -1987,6 +2039,29 @@
       "tense": "הווה"
     },
     {
+      "title": "דף Part A · משימה 3: אין? האם יש?",
+      "instruction": "סדרו את כל החלקים וכתבו משפט שלם.",
+      "vocab": "book = ספר · on the table = על השולחן · chair = כיסא · in the room = בחדר",
+      "items": [
+        {
+          "he": "אין ספר על השולחן.",
+          "en": "a book / There / on the table / isn't",
+          "answer": "There isn't a book on the table.",
+          "why": "בשלילה: There ואחריו isn’t."
+        },
+        {
+          "he": "האם יש כיסא בחדר?",
+          "en": "a chair / there / in the room / Is / ?",
+          "answer": "Is there a chair in the room?",
+          "why": "בשאלה: Is לפני there."
+        }
+      ],
+      "kind": "worksheet",
+      "section": "הווה: שאלות",
+      "part": "A",
+      "number": 3
+    },
+    {
       "kind": "rule",
       "title": "עוצרים ומחזירים מהזיכרון",
       "section": "הווה: שאלות",
@@ -2035,10 +2110,149 @@
       "image": "../../grade9/assets/petra.webp"
     },
     {
+      "title": "דף Part A · משימה 4: עוד מקום, עוד משפט",
+      "instruction": "עבדו לבד. בחרו אפשרות אחת בכל משפט.",
+      "vocab": "piano = פסנתר · bags = תיקים · bag = תיק · in the room = בחדר",
+      "items": [
+        {
+          "he": "לג׳ון יש תיק.",
+          "en": "John (has / is) a bag.",
+          "answer": "John has a bag.",
+          "why": "שייכות לג׳ון: has."
+        },
+        {
+          "he": "יש שני תיקים בחדר.",
+          "en": "There (is / are) two bags in the room.",
+          "answer": "There are two bags in the room.",
+          "why": "קיום של רבים: are."
+        },
+        {
+          "he": "האם יש פסנתר בחדר?",
+          "en": "(Is there / There is) a piano in the room?",
+          "answer": "Is there a piano in the room?",
+          "why": "שאלה מתחילה ב־Is there."
+        }
+      ],
+      "kind": "worksheet",
+      "section": "הווה: שאלות",
+      "part": "A",
+      "number": 4
+    },
+    {
+      "kind": "collect",
+      "title": "אוספים את דף Part A",
+      "section": "הווה: שאלות",
+      "part": "A",
+      "sub": "הניחו את העט ומסרו את הדף למורה. רק אחרי האיסוף עוברים לפתרונות. אין צורך לשנות תשובות קודמות."
+    },
+    {
+      "kind": "worksheetAnswer",
+      "title": "דף Part A · פתרון 1.1",
+      "section": "הווה: שאלות",
+      "he": "לדניאל יש ספר.",
+      "answer": "Daniel has a book.",
+      "why": "מספרים מה יש לדניאל: has."
+    },
+    {
+      "kind": "worksheetAnswer",
+      "title": "דף Part A · פתרון 1.2",
+      "section": "הווה: שאלות",
+      "he": "יש שני ספרים על השולחן.",
+      "answer": "There are two books on the table.",
+      "why": "שני ספרים הם רבים: are."
+    },
+    {
+      "kind": "worksheetAnswer",
+      "title": "דף Part A · פתרון 2.1",
+      "section": "הווה: שאלות",
+      "he": "יש כיסא בחדר.",
+      "answer": "There is a chair in the room.",
+      "why": "כיסא אחד: is."
+    },
+    {
+      "kind": "worksheetAnswer",
+      "title": "דף Part A · פתרון 2.2",
+      "section": "הווה: שאלות",
+      "he": "יש שני תיקים בחדר.",
+      "answer": "There are two bags in the room.",
+      "why": "שני תיקים: are."
+    },
+    {
+      "kind": "worksheetAnswer",
+      "title": "דף Part A · פתרון 2.3",
+      "section": "הווה: שאלות",
+      "he": "לרינה יש ספר.",
+      "answer": "Rina has a book.",
+      "why": "מספרים מה יש לרינה: has."
+    },
+    {
+      "kind": "worksheetAnswer",
+      "title": "דף Part A · פתרון 3.1",
+      "section": "הווה: שאלות",
+      "he": "אין ספר על השולחן.",
+      "answer": "There isn't a book on the table.",
+      "why": "בשלילה: There ואחריו isn’t."
+    },
+    {
+      "kind": "worksheetAnswer",
+      "title": "דף Part A · פתרון 3.2",
+      "section": "הווה: שאלות",
+      "he": "האם יש כיסא בחדר?",
+      "answer": "Is there a chair in the room?",
+      "why": "בשאלה: Is לפני there."
+    },
+    {
+      "kind": "worksheetAnswer",
+      "title": "דף Part A · פתרון 4.1",
+      "section": "הווה: שאלות",
+      "he": "לג׳ון יש תיק.",
+      "answer": "John has a bag.",
+      "why": "שייכות לג׳ון: has."
+    },
+    {
+      "kind": "worksheetAnswer",
+      "title": "דף Part A · פתרון 4.2",
+      "section": "הווה: שאלות",
+      "he": "יש שני תיקים בחדר.",
+      "answer": "There are two bags in the room.",
+      "why": "קיום של רבים: are."
+    },
+    {
+      "kind": "worksheetAnswer",
+      "title": "דף Part A · פתרון 4.3",
+      "section": "הווה: שאלות",
+      "he": "האם יש פסנתר בחדר?",
+      "answer": "Is there a piano in the room?",
+      "why": "שאלה מתחילה ב־Is there."
+    },
+    {
       "kind": "checkpoint",
       "title": "סיום Part A",
       "section": "הווה: שאלות",
       "sub": "אמרו משפט חיובי, משפט שלילי ושאלה על הכיתה. הסבירו למה there is אינו אומר למי החפץ שייך. אפשר לעצור כאן ולהמשיך במפגש הבא."
+    },
+    {
+      "title": "דף Part B · משימה 1: נזכרים בהווה",
+      "instruction": "הקיפו אפשרות אחת בכל משפט. אפשר לכתוב: עוד לא יודע.",
+      "vocab": "drawer = מגירה · books = ספרים · in the room = בחדר",
+      "items": [
+        {
+          "he": "יש מגירה בחדר.",
+          "en": "There (is / are) a drawer in the room.",
+          "answer": "There is a drawer in the room.",
+          "why": "יחיד בהווה: is."
+        },
+        {
+          "he": "לדניאל יש שני ספרים.",
+          "en": "Daniel (has / are) two books.",
+          "answer": "Daniel has two books.",
+          "why": "שייכות לדניאל: has, גם כשיש כמה ספרים."
+        }
+      ],
+      "kind": "worksheet",
+      "section": "עבר: היה והיו",
+      "part": "B",
+      "number": 1
     },
     {
       "kind": "restart",
@@ -2172,6 +2386,29 @@
       "tense": "עבר",
       "context": "",
       "reveal": true
+    },
+    {
+      "title": "דף Part B · משימה 2: מה היה אתמול?",
+      "instruction": "בחרו אפשרות אחת לפי המשמעות בעברית.",
+      "vocab": "yesterday = אתמול · drawer = מגירה · books = ספרים · in the room = בחדר",
+      "items": [
+        {
+          "he": "אתמול הייתה מגירה בחדר.",
+          "en": "There (was / were) a drawer in the room yesterday.",
+          "answer": "There was a drawer in the room yesterday.",
+          "why": "יחיד בעבר: was."
+        },
+        {
+          "he": "אתמול היו שני ספרים במגירה.",
+          "en": "There (was / were) two books in the drawer yesterday.",
+          "answer": "There were two books in the drawer yesterday.",
+          "why": "רבים בעבר: were."
+        }
+      ],
+      "kind": "worksheet",
+      "section": "עבר: היה והיו",
+      "part": "B",
+      "number": 2
     },
     {
       "kind": "rule",
@@ -2427,6 +2664,29 @@
           "No, there weren’t."
         ]
       ]
+    },
+    {
+      "title": "דף Part B · משימה 3: לא היו? האם היה?",
+      "instruction": "סדרו את כל החלקים וכתבו משפט שלם.",
+      "vocab": "books = ספרים · in the drawer = במגירה · a ball = כדור · any בשלילה = בכלל",
+      "items": [
+        {
+          "he": "לא היו ספרים במגירה.",
+          "en": "any books / There / in the drawer / weren't",
+          "answer": "There weren't any books in the drawer.",
+          "why": "שלילה ברבים בעבר: weren’t."
+        },
+        {
+          "he": "האם היה כדור במגירה?",
+          "en": "a ball / there / in the drawer / Was / ?",
+          "answer": "Was there a ball in the drawer?",
+          "why": "שאלה ביחיד בעבר: Was לפני there."
+        }
+      ],
+      "kind": "worksheet",
+      "section": "עבר: היה והיו",
+      "part": "B",
+      "number": 3
     },
     {
       "kind": "rule",
@@ -2884,6 +3144,114 @@
       "tense": "הווה",
       "context": "",
       "reveal": true
+    },
+    {
+      "title": "דף Part B · משימה 4: היום ואתמול",
+      "instruction": "עבדו לבד. בחרו אפשרות אחת בכל משפט.",
+      "vocab": "yesterday = אתמול · now = עכשיו · bag = תיק · books = ספרים · on the table = על השולחן",
+      "items": [
+        {
+          "he": "אתמול היה לג׳ון תיק.",
+          "en": "John (had / was) a bag yesterday.",
+          "answer": "John had a bag yesterday.",
+          "why": "שייכות בעבר: had."
+        },
+        {
+          "he": "אתמול היו שני ספרים על השולחן.",
+          "en": "There (was / were) two books on the table yesterday.",
+          "answer": "There were two books on the table yesterday.",
+          "why": "קיום של רבים בעבר: were."
+        },
+        {
+          "he": "עכשיו יש שני ספרים על השולחן.",
+          "en": "There (are / were) two books on the table now.",
+          "answer": "There are two books on the table now.",
+          "why": "now מציין הווה: are."
+        }
+      ],
+      "kind": "worksheet",
+      "section": "תרגול עצמאי",
+      "part": "B",
+      "number": 4
+    },
+    {
+      "kind": "collect",
+      "title": "אוספים את דף Part B",
+      "section": "תרגול עצמאי",
+      "part": "B",
+      "sub": "הניחו את העט ומסרו את הדף למורה. רק אחרי האיסוף עוברים לפתרונות. אין צורך לשנות תשובות קודמות."
+    },
+    {
+      "kind": "worksheetAnswer",
+      "title": "דף Part B · פתרון 1.1",
+      "section": "תרגול עצמאי",
+      "he": "יש מגירה בחדר.",
+      "answer": "There is a drawer in the room.",
+      "why": "יחיד בהווה: is."
+    },
+    {
+      "kind": "worksheetAnswer",
+      "title": "דף Part B · פתרון 1.2",
+      "section": "תרגול עצמאי",
+      "he": "לדניאל יש שני ספרים.",
+      "answer": "Daniel has two books.",
+      "why": "שייכות לדניאל: has, גם כשיש כמה ספרים."
+    },
+    {
+      "kind": "worksheetAnswer",
+      "title": "דף Part B · פתרון 2.1",
+      "section": "תרגול עצמאי",
+      "he": "אתמול הייתה מגירה בחדר.",
+      "answer": "There was a drawer in the room yesterday.",
+      "why": "יחיד בעבר: was."
+    },
+    {
+      "kind": "worksheetAnswer",
+      "title": "דף Part B · פתרון 2.2",
+      "section": "תרגול עצמאי",
+      "he": "אתמול היו שני ספרים במגירה.",
+      "answer": "There were two books in the drawer yesterday.",
+      "why": "רבים בעבר: were."
+    },
+    {
+      "kind": "worksheetAnswer",
+      "title": "דף Part B · פתרון 3.1",
+      "section": "תרגול עצמאי",
+      "he": "לא היו ספרים במגירה.",
+      "answer": "There weren't any books in the drawer.",
+      "why": "שלילה ברבים בעבר: weren’t."
+    },
+    {
+      "kind": "worksheetAnswer",
+      "title": "דף Part B · פתרון 3.2",
+      "section": "תרגול עצמאי",
+      "he": "האם היה כדור במגירה?",
+      "answer": "Was there a ball in the drawer?",
+      "why": "שאלה ביחיד בעבר: Was לפני there."
+    },
+    {
+      "kind": "worksheetAnswer",
+      "title": "דף Part B · פתרון 4.1",
+      "section": "תרגול עצמאי",
+      "he": "אתמול היה לג׳ון תיק.",
+      "answer": "John had a bag yesterday.",
+      "why": "שייכות בעבר: had."
+    },
+    {
+      "kind": "worksheetAnswer",
+      "title": "דף Part B · פתרון 4.2",
+      "section": "תרגול עצמאי",
+      "he": "אתמול היו שני ספרים על השולחן.",
+      "answer": "There were two books on the table yesterday.",
+      "why": "קיום של רבים בעבר: were."
+    },
+    {
+      "kind": "worksheetAnswer",
+      "title": "דף Part B · פתרון 4.3",
+      "section": "תרגול עצמאי",
+      "he": "עכשיו יש שני ספרים על השולחן.",
+      "answer": "There are two books on the table now.",
+      "why": "now מציין הווה: are."
     },
     {
       "kind": "finish",

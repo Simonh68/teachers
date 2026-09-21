@@ -1,0 +1,176 @@
+{
+  "A": [
+    {
+      "title": "מתחילים",
+      "instruction": "הקיפו אפשרות אחת בכל משפט. אפשר לכתוב: עוד לא יודע.",
+      "vocab": "book = ספר · books = ספרים · on the table = על השולחן",
+      "items": [
+        {
+          "he": "לדניאל יש ספר.",
+          "en": "Daniel (has / is) a book.",
+          "answer": "Daniel has a book.",
+          "why": "מספרים מה יש לדניאל: has."
+        },
+        {
+          "he": "יש שני ספרים על השולחן.",
+          "en": "There (is / are) two books on the table.",
+          "answer": "There are two books on the table.",
+          "why": "שני ספרים הם רבים: are."
+        }
+      ]
+    },
+    {
+      "title": "בחדר שלנו",
+      "instruction": "בחרו אפשרות אחת לפי המשמעות בעברית.",
+      "vocab": "chair = כיסא · bags = תיקים · in the room = בחדר · book = ספר",
+      "items": [
+        {
+          "he": "יש כיסא בחדר.",
+          "en": "There (is / are) a chair in the room.",
+          "answer": "There is a chair in the room.",
+          "why": "כיסא אחד: is."
+        },
+        {
+          "he": "יש שני תיקים בחדר.",
+          "en": "There (is / are) two bags in the room.",
+          "answer": "There are two bags in the room.",
+          "why": "שני תיקים: are."
+        },
+        {
+          "he": "לרינה יש ספר.",
+          "en": "Rina (has / are) a book.",
+          "answer": "Rina has a book.",
+          "why": "מספרים מה יש לרינה: has."
+        }
+      ]
+    },
+    {
+      "title": "אין? האם יש?",
+      "instruction": "סדרו את כל החלקים וכתבו משפט שלם.",
+      "vocab": "book = ספר · on the table = על השולחן · chair = כיסא · in the room = בחדר",
+      "items": [
+        {
+          "he": "אין ספר על השולחן.",
+          "en": "a book / There / on the table / isn't",
+          "answer": "There isn't a book on the table.",
+          "why": "בשלילה: There ואחריו isn’t."
+        },
+        {
+          "he": "האם יש כיסא בחדר?",
+          "en": "a chair / there / in the room / Is / ?",
+          "answer": "Is there a chair in the room?",
+          "why": "בשאלה: Is לפני there."
+        }
+      ]
+    },
+    {
+      "title": "עוד מקום, עוד משפט",
+      "instruction": "עבדו לבד. בחרו אפשרות אחת בכל משפט.",
+      "vocab": "piano = פסנתר · bags = תיקים · bag = תיק · in the room = בחדר",
+      "items": [
+        {
+          "he": "לג׳ון יש תיק.",
+          "en": "John (has / is) a bag.",
+          "answer": "John has a bag.",
+          "why": "שייכות לג׳ון: has."
+        },
+        {
+          "he": "יש שני תיקים בחדר.",
+          "en": "There (is / are) two bags in the room.",
+          "answer": "There are two bags in the room.",
+          "why": "קיום של רבים: are."
+        },
+        {
+          "he": "האם יש פסנתר בחדר?",
+          "en": "(Is there / There is) a piano in the room?",
+          "answer": "Is there a piano in the room?",
+          "why": "שאלה מתחילה ב־Is there."
+        }
+      ]
+    }
+  ],
+  "B": [
+    {
+      "title": "נזכרים בהווה",
+      "instruction": "הקיפו אפשרות אחת בכל משפט. אפשר לכתוב: עוד לא יודע.",
+      "vocab": "drawer = מגירה · books = ספרים · in the room = בחדר",
+      "items": [
+        {
+          "he": "יש מגירה בחדר.",
+          "en": "There (is / are) a drawer in the room.",
+          "answer": "There is a drawer in the room.",
+          "why": "יחיד בהווה: is."
+        },
+        {
+          "he": "לדניאל יש שני ספרים.",
+          "en": "Daniel (has / are) two books.",
+          "answer": "Daniel has two books.",
+          "why": "שייכות לדניאל: has, גם כשיש כמה ספרים."
+        }
+      ]
+    },
+    {
+      "title": "מה היה אתמול?",
+      "instruction": "בחרו אפשרות אחת לפי המשמעות בעברית.",
+      "vocab": "yesterday = אתמול · drawer = מגירה · books = ספרים · in the room = בחדר",
+      "items": [
+        {
+          "he": "אתמול הייתה מגירה בחדר.",
+          "en": "There (was / were) a drawer in the room yesterday.",
+          "answer": "There was a drawer in the room yesterday.",
+          "why": "יחיד בעבר: was."
+        },
+        {
+          "he": "אתמול היו שני ספרים במגירה.",
+          "en": "There (was / were) two books in the drawer yesterday.",
+          "answer": "There were two books in the drawer yesterday.",
+          "why": "רבים בעבר: were."
+        }
+      ]
+    },
+    {
+      "title": "לא היו? האם היה?",
+      "instruction": "סדרו את כל החלקים וכתבו משפט שלם.",
+      "vocab": "books = ספרים · in the drawer = במגירה · a ball = כדור · any בשלילה = בכלל",
+      "items": [
+        {
+          "he": "לא היו ספרים במגירה.",
+          "en": "any books / There / in the drawer / weren't",
+          "answer": "There weren't any books in the drawer.",
+          "why": "שלילה ברבים בעבר: weren’t."
+        },
+        {
+          "he": "האם היה כדור במגירה?",
+          "en": "a ball / there / in the drawer / Was / ?",
+          "answer": "Was there a ball in the drawer?",
+          "why": "שאלה ביחיד בעבר: Was לפני there."
+        }
+      ]
+    },
+    {
+      "title": "היום ואתמול",
+      "instruction": "עבדו לבד. בחרו אפשרות אחת בכל משפט.",
+      "vocab": "yesterday = אתמול · now = עכשיו · bag = תיק · books = ספרים · on the table = על השולחן",
+      "items": [
+        {
+          "he": "אתמול היה לג׳ון תיק.",
+          "en": "John (had / was) a bag yesterday.",
+          "answer": "John had a bag yesterday.",
+          "why": "שייכות בעבר: had."
+        },
+        {
+          "he": "אתמול היו שני ספרים על השולחן.",
+          "en": "There (was / were) two books on the table yesterday.",
+          "answer": "There were two books on the table yesterday.",
+          "why": "קיום של רבים בעבר: were."
+        },
+        {
+          "he": "עכשיו יש שני ספרים על השולחן.",
+          "en": "There (are / were) two books on the table now.",
+          "answer": "There are two books on the table now.",
+          "why": "now מציין הווה: are."
+        }
+      ]
+    }
+  ]
+}
