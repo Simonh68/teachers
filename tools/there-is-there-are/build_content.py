@@ -65,9 +65,9 @@ task('שאלות על הכיתה שלנו','בן זוג א׳ שואל על פס�
 rule('עוצרים ומחזירים מהזיכרון','יש → There …\nאין → There … not\nהאם יש? → … there?','בלי לחזור אחורה: אמרו מה משתנה בין יחיד לרבים ובין חיוב, שלילה ושאלה. לאחר מכן בדקו בשקף הסיכום.',tense='הווה')
 add('summary','הווה במבט אחד',tense='הווה',rows=[['חיוב','There is a book.','There are books.'],['שלילה','There isn’t a book.','There aren’t any books.'],['שאלה','Is there a book?','Are there any books?'],['כן','Yes, there is.','Yes, there are.'],['לא','No, there isn’t.','No, there aren’t.']])
 pause('Petra','../../grade9/assets/petra.webp')
-add('checkpoint','סיום מפגש 1',sub='אמרו משפט חיובי, משפט שלילי ושאלה על הכיתה. הסבירו למה there is אינו אומר למי החפץ שייך. אפשר לעצור כאן ולהמשיך במפגש הבא.')
+add('checkpoint','סיום Part A',sub='אמרו משפט חיובי, משפט שלילי ושאלה על הכיתה. הסבירו למה there is אינו אומר למי החפץ שייך. אפשר לעצור כאן ולהמשיך במפגש הבא.')
 section='עבר: היה והיו'
-add('restart','מפגש 2 · חוזרים בלי להציץ',sub='כתבו מהזיכרון משפט אחד עם There is, משפט עם There aren’t ושאלה עם Are there. בדקו בסיכום ההווה, ואז המשיכו.')
+add('restart','Part B · חוזרים בלי להציץ',sub='כתבו מהזיכרון משפט אחד עם There is, משפט עם There aren’t ושאלה עם Are there. בדקו בסיכום ההווה, ואז המשיכו.')
 quiz('חזרה קצרה: שייכות או מקום?','There is a piano in the room. מה אפשר להסיק?',['יש פסנתר בחדר.','הפסנתר שייך לי.','לדניאל יש פסנתר.'],0,'מיקום אינו שייכות. לשייכות נאמר I have או Daniel has. מבנה there נשאר הנושא המרכזי שלנו.')
 add('vocab','עוד מילה לפני הקריאה',entries=['g02-28'],sub='נשתמש ב־lock כדי לתאר מה היה ומה לא היה בחדר.')
 rule('אתמול: מחליפים רק את הפועל','is → was\nare → were','there נשאר. יחיד בעבר: was. רבים בעבר: were. חפשו רמזי זמן, למשל yesterday או last week.',tense='עבר')
