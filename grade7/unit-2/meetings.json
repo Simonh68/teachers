@@ -1,623 +1,1271 @@
 [
   {
+    "date": "2026-10-29",
     "title": "Seasons and school years",
-    "goal": "Find when a school year begins and ends.",
-    "prep": [
-      "Write the four seasons in English.",
-      "Think: When does your school year begin?"
+    "count": 42,
+    "skills": [
+      "Find facts in a text",
+      "Compare school calendars",
+      "Describe routines with he and she"
     ],
-    "activities": [
-      {
-        "key": "vocab",
-        "title": "Vocabulary · Group 03, entries 1–18",
-        "href": "vocabulary/full.html#slide-4",
-        "instruction": "Preview this batch. Choose three to five entries for active use; stop at the end of the stated range."
-      },
-      {
-        "key": "listen",
-        "title": "Read & Listen: the main text",
-        "href": "reading/?text=school-calendars",
-        "instruction": "Read the opening, Japan and the two US places. Listen again if you need help."
-      },
-      {
-        "key": "read",
-        "title": "Find the calendar details",
-        "href": "main-text.html",
-        "instruction": "Find the start, the end and the summer holiday length for Japan and the two US places."
-      },
-      {
-        "key": "workbook",
-        "title": "Workbook · page 1",
-        "href": "files/unit2-workbook.pdf#page=1",
-        "instruction": "Answer the two questions. Explain why Japan is different."
-      }
-    ],
-    "timing": [
+    "goal": "Compare school years and write two routine sentences.",
+    "reading": [
       [
-        5,
-        "Opening: name the seasons"
+        "School Years Around the World",
+        "main-text.html"
       ],
       [
-        12,
-        "Vocabulary preview and retrieval"
-      ],
-      [
-        20,
-        "Read Japan and the US examples"
-      ],
-      [
-        15,
-        "Find and compare calendar facts"
-      ],
-      [
-        15,
-        "Independent workbook answers"
-      ],
-      [
-        5,
-        "Exit check"
+        "Read & Listen",
+        "reading/?text=school-calendars"
       ]
     ],
-    "check": "Ask for a season, an end point and a holiday length. Check the fact before correcting the sentence.",
-    "support": "Model one comparison. Then let pairs find a second one without your model.",
-    "exit": "Say why Japan’s summer holiday does not end its school year.",
-    "id": "m1",
+    "reading_task": "Work in pairs: each pair reads one place and finds the start, end and summer holiday. Share the facts, then compare Japan with a US place.",
+    "grammar": [
+      "Present Simple A · slides 7–27",
+      "grammar-a/#7"
+    ],
+    "grammar_task": "Use I/they + verb and he/she + verb-s. Work on the rules and two question pairs; finish the remaining practice at home.",
+    "writing": [
+      [
+        "Workbook · page 1",
+        "files/unit2-workbook.pdf#page=1"
+      ]
+    ],
+    "writing_task": "Answer the two calendar questions and write two sentences with begins or ends. In the final four minutes, explain Japan’s summer break.",
+    "prep": [
+      "Bring your notebook and workbook.",
+      "Name the four seasons and think about your school year."
+    ],
+    "home": [
+      [
+        "Read the complete main text with audio. Check the facts collected in class.",
+        "reading/?text=school-calendars"
+      ],
+      [
+        "Practise the remaining affirmative examples and question pairs, slides 7–27.",
+        "grammar-a/#7"
+      ],
+      [
+        "Answer Part C on workbook page 3 and improve your two comparison sentences.",
+        "files/unit2-workbook.pdf#page=3"
+      ]
+    ],
+    "check": "Check the country fact and third-person ending separately. Japan’s summer break is inside its school year.",
+    "support": "Assign one place per pair before sharing the whole comparison. Use starts / ends / summer holiday as prompts.",
+    "exit": "Explain one calendar difference without copying a whole sentence.",
     "number": 1,
-    "group": 3,
-    "start": 1,
-    "end": 18,
-    "guideSlide": 1
-  },
-  {
-    "title": "Different holidays, different calendars",
-    "goal": "Compare holidays and the length of a school year.",
-    "prep": [
-      "Read your notes from Meeting 1.",
-      "Write one question about a school holiday."
+    "id": "d20261029",
+    "guideSlide": 1,
+    "vocabularyIds": [
+      "g03-01",
+      "g03-02",
+      "g03-03",
+      "g03-04",
+      "g03-05",
+      "g03-06",
+      "g03-07",
+      "g03-08",
+      "g03-09",
+      "g03-10",
+      "g03-11",
+      "g03-12",
+      "g03-13",
+      "g03-14",
+      "g03-15",
+      "g03-16",
+      "g03-17",
+      "g03-18",
+      "g03-19",
+      "g03-20",
+      "g03-21",
+      "g03-22",
+      "g03-23",
+      "g03-24",
+      "g03-25",
+      "g03-26",
+      "g03-27",
+      "g03-28",
+      "g03-29",
+      "g03-30",
+      "g03-31",
+      "g03-32",
+      "g03-33",
+      "g03-34",
+      "g03-35",
+      "g03-36",
+      "g03-37",
+      "g03-38",
+      "g03-39",
+      "g03-40",
+      "g03-41",
+      "g03-42"
+    ],
+    "ranges": [
+      {
+        "group": 3,
+        "start": 1,
+        "end": 42,
+        "href": "vocabulary/full.html#slide-4",
+        "title": "Group 03 · entries 1–42"
+      }
+    ],
+    "homeDue": "2026-11-01",
+    "timing": [
+      [
+        20,
+        "Vocabulary: recall, introduce the assigned batch and use four to six entries"
+      ],
+      [
+        18,
+        "Reading or listening: find evidence and compare"
+      ],
+      [
+        14,
+        "Grammar: model, try and check"
+      ],
+      [
+        8,
+        "Independent writing or speaking"
+      ],
+      [
+        4,
+        "Exit check and home-review plan"
+      ]
     ],
     "activities": [
       {
-        "key": "vocab",
-        "title": "Vocabulary · Group 03, entries 19–36",
-        "href": "vocabulary/full.html#slide-46",
-        "instruction": "Preview this batch. Choose three to five entries for active use; stop at the end of the stated range."
+        "id": "d20261029-vocab",
+        "title": "Vocabulary · 42 entries",
+        "minutes": 20,
+        "instruction": "Work through the stated ranges. Recall earlier words, then focus on four to six examples for active use. Review every assigned entry at home.",
+        "links": [
+          {
+            "title": "Group 03 · entries 1–42",
+            "href": "vocabulary/full.html#slide-4"
+          }
+        ]
       },
       {
-        "key": "read",
-        "title": "England, the UAE and Jersey",
-        "href": "main-text.html",
-        "instruction": "Read the remaining places. Find a season and a holiday length in each one."
+        "id": "d20261029-reading",
+        "title": "Read, listen and compare",
+        "minutes": 18,
+        "instruction": "Work in pairs: each pair reads one place and finds the start, end and summer holiday. Share the facts, then compare Japan with a US place.",
+        "links": [
+          {
+            "title": "School Years Around the World",
+            "href": "main-text.html"
+          },
+          {
+            "title": "Read & Listen",
+            "href": "reading/?text=school-calendars"
+          }
+        ]
       },
       {
-        "key": "listen",
-        "title": "Read & Listen: compare the places",
-        "href": "reading/?text=school-calendars",
-        "instruction": "Listen to the remaining sections. Read the final section about the length of a school year."
+        "id": "d20261029-grammar",
+        "title": "Grammar in use",
+        "minutes": 14,
+        "instruction": "Use I/they + verb and he/she + verb-s. Work on the rules and two question pairs; finish the remaining practice at home.",
+        "links": [
+          {
+            "title": "Present Simple A · slides 7–27",
+            "href": "grammar-a/#7"
+          }
+        ]
       },
       {
-        "key": "workbook",
-        "title": "Workbook · page 3, Part C",
-        "href": "files/unit2-workbook.pdf#page=3",
-        "instruction": "Answer the calendar questions. Use the text as evidence."
+        "id": "d20261029-writing",
+        "title": "Use it independently · includes exit check",
+        "minutes": 12,
+        "instruction": "Answer the two calendar questions and write two sentences with begins or ends. In the final four minutes, explain Japan’s summer break.",
+        "links": [
+          {
+            "title": "Workbook · page 1",
+            "href": "files/unit2-workbook.pdf#page=1"
+          }
+        ]
       }
     ],
-    "timing": [
-      [
-        7,
-        "Recall the earlier places"
-      ],
-      [
-        12,
-        "Vocabulary preview and retrieval"
-      ],
-      [
-        18,
-        "Read the remaining calendar sections"
-      ],
-      [
-        18,
-        "Compare dates, seasons and holiday lengths"
-      ],
-      [
-        12,
-        "Share and improve answers"
-      ],
-      [
-        5,
-        "Exit check"
-      ]
-    ],
-    "check": "Distinguish a whole school-year span from uninterrupted lessons. Accept about nine months in Anchorage and about eleven in Kent.",
-    "support": "Use a three-part prompt: starts / ends / summer holiday. Remove it for the final comparison.",
-    "exit": "Explain one difference between Anchorage and Miami-Dade.",
-    "id": "m2",
-    "number": 2,
-    "group": 3,
-    "start": 19,
-    "end": 36,
-    "guideSlide": 4
+    "homeActivities": [
+      {
+        "id": "d20261029-home-1",
+        "title": "Home round 1 · 14 entries",
+        "minutes": 15,
+        "instruction": "Review these 14 entries: listen, cover the meaning and recall it. Practise context items 1–14; stop at 14. Read the complete main text with audio. Check the facts collected in class.",
+        "links": [
+          {
+            "title": "Group 03 · entries 1–14",
+            "href": "vocabulary/full.html#slide-4"
+          },
+          {
+            "title": "Context practice · items 1–14",
+            "href": "vocabulary/practice.html?set=0&item=1&end=14"
+          },
+          {
+            "title": "Review task",
+            "href": "reading/?text=school-calendars"
+          }
+        ],
+        "vocabularyIds": [
+          "g03-01",
+          "g03-02",
+          "g03-03",
+          "g03-04",
+          "g03-05",
+          "g03-06",
+          "g03-07",
+          "g03-08",
+          "g03-09",
+          "g03-10",
+          "g03-11",
+          "g03-12",
+          "g03-13",
+          "g03-14"
+        ],
+        "firstItem": 1,
+        "lastItem": 14
+      },
+      {
+        "id": "d20261029-home-2",
+        "title": "Home round 2 · 14 entries",
+        "minutes": 15,
+        "instruction": "Review these 14 entries: listen, cover the meaning and recall it. Practise context items 15–28; stop at 28. Practise the remaining affirmative examples and question pairs, slides 7–27.",
+        "links": [
+          {
+            "title": "Group 03 · entries 15–28",
+            "href": "vocabulary/full.html#slide-36"
+          },
+          {
+            "title": "Context practice · items 15–28",
+            "href": "vocabulary/practice.html?set=0&item=15&end=28"
+          },
+          {
+            "title": "Review task",
+            "href": "grammar-a/#7"
+          }
+        ],
+        "vocabularyIds": [
+          "g03-15",
+          "g03-16",
+          "g03-17",
+          "g03-18",
+          "g03-19",
+          "g03-20",
+          "g03-21",
+          "g03-22",
+          "g03-23",
+          "g03-24",
+          "g03-25",
+          "g03-26",
+          "g03-27",
+          "g03-28"
+        ],
+        "firstItem": 15,
+        "lastItem": 28
+      },
+      {
+        "id": "d20261029-home-3",
+        "title": "Home round 3 · 14 entries",
+        "minutes": 15,
+        "instruction": "Review these 14 entries: listen, cover the meaning and recall it. Practise context items 29–42; stop at 42. Answer Part C on workbook page 3 and improve your two comparison sentences.",
+        "links": [
+          {
+            "title": "Group 03 · entries 29–42",
+            "href": "vocabulary/full.html#slide-69"
+          },
+          {
+            "title": "Context practice · items 29–42",
+            "href": "vocabulary/practice.html?set=1&item=29&end=42"
+          },
+          {
+            "title": "Review task",
+            "href": "files/unit2-workbook.pdf#page=3"
+          }
+        ],
+        "vocabularyIds": [
+          "g03-29",
+          "g03-30",
+          "g03-31",
+          "g03-32",
+          "g03-33",
+          "g03-34",
+          "g03-35",
+          "g03-36",
+          "g03-37",
+          "g03-38",
+          "g03-39",
+          "g03-40",
+          "g03-41",
+          "g03-42"
+        ],
+        "firstItem": 29,
+        "lastItem": 42
+      }
+    ]
   },
   {
+    "date": "2026-11-01",
     "title": "WhatsApp from Argentina: routines",
-    "goal": "Describe a routine with I and he.",
-    "prep": [
-      "Think about how you get to school.",
-      "Prepare one sentence beginning with I."
+    "count": 41,
+    "skills": [
+      "Find evidence in a message",
+      "Describe a school journey",
+      "Write negative sentences"
     ],
-    "activities": [
-      {
-        "key": "vocab",
-        "title": "Vocabulary · Group 03, entries 37–55",
-        "href": "vocabulary/full.html#slide-88",
-        "instruction": "Preview this batch. Choose three to five entries for active use; stop at the end of the stated range."
-      },
-      {
-        "key": "message",
-        "title": "A Horse Before Class · WhatsApp",
-        "href": "journey-horse.html",
-        "instruction": "Read Carlito’s message. Find who travels with him and how far they travel."
-      },
-      {
-        "key": "grammar",
-        "title": "Present Simple A · slides 1–27",
-        "href": "grammar-a/#1",
-        "instruction": "Work on routines and third-person forms. Stop after the first writing task."
-      },
-      {
-        "key": "workbook",
-        "title": "Workbook · page 2",
-        "href": "files/unit2-workbook.pdf#page=2",
-        "instruction": "Answer the reading questions and write two facts about Carlito."
-      }
-    ],
-    "timing": [
+    "goal": "Describe Carlito’s routine and explain what he does and does not do.",
+    "reading": [
       [
-        5,
-        "Opening diagnosis"
+        "A Horse Before Class · WhatsApp",
+        "journey-horse.html"
       ],
       [
-        10,
-        "Vocabulary preview and retrieval"
-      ],
-      [
-        12,
-        "Read the WhatsApp adaptation"
-      ],
-      [
-        18,
-        "Routines and third person: selected slides"
-      ],
-      [
-        17,
-        "Independent workbook writing"
-      ],
-      [
-        10,
-        "Collect, discuss and check"
+        "Read & Listen",
+        "reading/?text=horse"
       ]
     ],
-    "check": "Look for he rides and he wants. The factual content and the third-person ending are separate checks.",
-    "support": "Contrast I ride with he rides. Ask for a new sentence before showing the answer slide.",
-    "exit": "Answer Carlito’s question in one or two sentences.",
-    "id": "m3",
-    "number": 3,
-    "group": 3,
-    "start": 37,
-    "end": 55,
-    "guideSlide": 7
-  },
-  {
-    "title": "What we do and do not do",
-    "goal": "Write clear negative sentences about routines.",
-    "prep": [
-      "Bring the two sentences you wrote about Carlito.",
-      "Think of one thing you do not do on school mornings."
+    "reading_task": "Read Carlito’s message. Find who travels with him and how far they travel. Compare his journey with yours.",
+    "grammar": [
+      "Present Simple A · slides 28–46",
+      "grammar-a/#28"
     ],
-    "activities": [
+    "grammar_task": "Practise do not / does not + the base verb. Contrast an action with be. Try two question pairs before checking.",
+    "writing": [
+      [
+        "Workbook · page 2",
+        "files/unit2-workbook.pdf#page=2"
+      ],
+      [
+        "Writing sheet · Part A",
+        "worksheet.html"
+      ]
+    ],
+    "writing_task": "Answer the message questions orally. Write two facts about Carlito and one true negative about your journey. Use the final four minutes to check does not + base verb.",
+    "prep": [
+      "Bring your calendar answers and vocabulary notes.",
+      "Prepare one sentence about how you get to school."
+    ],
+    "home": [
+      [
+        "Replay the horse message. Answer the workbook page 2 questions in writing.",
+        "reading/?text=horse"
+      ],
+      [
+        "Finish the negative-sentence practice, slides 28–46.",
+        "grammar-a/#28"
+      ],
+      [
+        "Use Writing sheet Part A: write your routine, a friend’s routine and one negative.",
+        "worksheet.html"
+      ]
+    ],
+    "check": "Require the correct negative meaning and base verb; does not rides is not correct.",
+    "support": "Say I ride → he rides → he does not ride. Then ask for a different example.",
+    "exit": "Write one true does not sentence without a model.",
+    "number": 2,
+    "id": "d20261101",
+    "guideSlide": 4,
+    "vocabularyIds": [
+      "g03-43",
+      "g03-44",
+      "g03-45",
+      "g03-46",
+      "g03-47",
+      "g03-48",
+      "g03-49",
+      "g03-50",
+      "g03-51",
+      "g03-52",
+      "g03-53",
+      "g03-54",
+      "g03-55",
+      "g04-01",
+      "g04-02",
+      "g04-03",
+      "g04-04",
+      "g04-05",
+      "g04-06",
+      "g04-07",
+      "g04-08",
+      "g04-09",
+      "g04-10",
+      "g04-11",
+      "g04-12",
+      "g04-13",
+      "g04-14",
+      "g04-15",
+      "g04-16",
+      "g04-17",
+      "g04-18",
+      "g04-19",
+      "g04-20",
+      "g04-21",
+      "g04-22",
+      "g04-23",
+      "g04-24",
+      "g04-25",
+      "g04-26",
+      "g04-27",
+      "g04-28"
+    ],
+    "ranges": [
       {
-        "key": "vocab",
-        "title": "Vocabulary · Group 04, entries 1–18",
+        "group": 3,
+        "start": 43,
+        "end": 55,
+        "href": "vocabulary/full.html#slide-102",
+        "title": "Group 03 · entries 43–55"
+      },
+      {
+        "group": 4,
+        "start": 1,
+        "end": 28,
         "href": "vocabulary/full.html#slide-133",
-        "instruction": "Preview this batch. Choose three to five entries for active use; stop at the end of the stated range."
-      },
-      {
-        "key": "grammar",
-        "title": "Present Simple A · slides 28–46",
-        "href": "grammar-a/#28",
-        "instruction": "Practise do not and does not. Use the base verb after does not."
-      },
-      {
-        "key": "practice",
-        "title": "Words in Context · set 4",
-        "href": "vocabulary/practice.html?set=3",
-        "instruction": "Choose the meaning that fits. Write your own sentence at the writing stop."
-      },
-      {
-        "key": "writing",
-        "title": "Writing sheet · Part A",
-        "href": "worksheet.html",
-        "instruction": "In your notebook, write your routine, a friend’s routine and one negative sentence."
+        "title": "Group 04 · entries 1–28"
       }
     ],
+    "homeDue": "2026-11-05",
     "timing": [
-      [
-        7,
-        "Recall and diagnose"
-      ],
-      [
-        10,
-        "Vocabulary preview and retrieval"
-      ],
       [
         20,
-        "Negatives and base verbs"
-      ],
-      [
-        15,
-        "Context practice"
-      ],
-      [
-        15,
-        "Independent routine writing"
-      ],
-      [
-        5,
-        "Exit check"
-      ]
-    ],
-    "check": "A correct negative needs both the meaning and the base verb. Do not accept doesn’t walks.",
-    "support": "Keep the original meaning when correcting a sentence. Check be separately from action verbs.",
-    "exit": "Write one true sentence with does not about a friend.",
-    "id": "m4",
-    "number": 4,
-    "group": 4,
-    "start": 1,
-    "end": 18,
-    "guideSlide": 10
-  },
-  {
-    "title": "Email from India: questions and teamwork",
-    "goal": "Ask and answer questions about a journey.",
-    "prep": [
-      "Think: Who travels with you?",
-      "Write one question beginning with Do or Does."
-    ],
-    "activities": [
-      {
-        "key": "vocab",
-        "title": "Vocabulary · Group 04, entries 19–36",
-        "href": "vocabulary/full.html#slide-175",
-        "instruction": "Preview this batch. Choose three to five entries for active use; stop at the end of the stated range."
-      },
-      {
-        "key": "message",
-        "title": "Four Kilometres Together · email",
-        "href": "journey-wheelchair.html",
-        "instruction": "Read Samuel’s email. Find how his brothers help him."
-      },
-      {
-        "key": "grammar",
-        "title": "Present Simple B · slides 1–17",
-        "href": "grammar-b/#1",
-        "instruction": "Practise do/does questions and short answers."
-      },
-      {
-        "key": "workbook",
-        "title": "Workbook · page 4",
-        "href": "files/unit2-workbook.pdf#page=4",
-        "instruction": "Answer the reading questions and practise the question forms."
-      }
-    ],
-    "timing": [
-      [
-        5,
-        "Opening question"
-      ],
-      [
-        10,
-        "Vocabulary preview and retrieval"
-      ],
-      [
-        15,
-        "Read the email adaptation"
-      ],
-      [
-        20,
-        "Do/does and short answers"
-      ],
-      [
-        17,
-        "Workbook questions and answers"
-      ],
-      [
-        5,
-        "Exit check"
-      ]
-    ],
-    "check": "Require a detail from Samuel’s route. Ask who helps, how they help and how far they travel.",
-    "support": "Use a short answer first, then a full sentence. Keep the routine tied to the documentary period.",
-    "exit": "Ask a clear question about Samuel’s journey and answer it.",
-    "id": "m5",
-    "number": 5,
-    "group": 4,
-    "start": 19,
-    "end": 36,
-    "guideSlide": 13
-  },
-  {
-    "title": "Ask a partner about the journey",
-    "goal": "Use question words and frequency words in a conversation.",
-    "prep": [
-      "Prepare two questions about a journey to school.",
-      "Think of something you usually do and something you sometimes do."
-    ],
-    "activities": [
-      {
-        "key": "vocab",
-        "title": "Vocabulary · Group 04, entries 37–55",
-        "href": "vocabulary/full.html#slide-217",
-        "instruction": "Preview this batch. Choose three to five entries for active use; stop at the end of the stated range."
-      },
-      {
-        "key": "grammar",
-        "title": "Present Simple B · slides 18–43",
-        "href": "grammar-b/#18",
-        "instruction": "Practise question words, frequency words and the pair conversation."
-      },
-      {
-        "key": "speaking",
-        "title": "Writing sheet · Part B",
-        "href": "worksheet.html",
-        "instruction": "Ask a partner how they travel and what they do after school. Record the answers."
-      },
-      {
-        "key": "workbook",
-        "title": "Workbook · page 4, Your turn",
-        "href": "files/unit2-workbook.pdf#page=4",
-        "instruction": "Answer Samuel’s question. Compare your journey with his."
-      }
-    ],
-    "timing": [
-      [
-        7,
-        "Recall the email"
-      ],
-      [
-        10,
-        "Vocabulary preview and retrieval"
+        "Vocabulary: recall, introduce the assigned batch and use four to six entries"
       ],
       [
         18,
-        "Question words and frequency"
+        "Reading or listening: find evidence and compare"
       ],
       [
-        20,
-        "Partner interview"
+        14,
+        "Grammar: model, try and check"
       ],
       [
-        12,
-        "Report a partner’s routine"
+        8,
+        "Independent writing or speaking"
       ],
       [
-        5,
-        "Exit check"
+        4,
+        "Exit check and home-review plan"
       ]
-    ],
-    "check": "Who, where, when and how must match the information requested. A subject question such as Who helps Samuel? does not take does.",
-    "support": "Let students rehearse with prompts, then ask a new partner without the prompts.",
-    "exit": "Write one question and one sentence about your partner.",
-    "id": "m6",
-    "number": 6,
-    "group": 4,
-    "start": 37,
-    "end": 55,
-    "guideSlide": 16
-  },
-  {
-    "title": "Instagram from the islands: listen first",
-    "goal": "Find the main idea and details in a recording.",
-    "prep": [
-      "Bring headphones if you will listen on your own.",
-      "Think about travelling across water. Keep the boat text closed until you listen."
     ],
     "activities": [
       {
-        "key": "vocab",
-        "title": "Vocabulary · Group 05, entries 1–18",
+        "id": "d20261101-vocab",
+        "title": "Vocabulary · 41 entries",
+        "minutes": 20,
+        "instruction": "Work through the stated ranges. Recall earlier words, then focus on four to six examples for active use. Review every assigned entry at home.",
+        "links": [
+          {
+            "title": "Group 03 · entries 43–55",
+            "href": "vocabulary/full.html#slide-102"
+          },
+          {
+            "title": "Group 04 · entries 1–28",
+            "href": "vocabulary/full.html#slide-133"
+          }
+        ]
+      },
+      {
+        "id": "d20261101-reading",
+        "title": "Read, listen and compare",
+        "minutes": 18,
+        "instruction": "Read Carlito’s message. Find who travels with him and how far they travel. Compare his journey with yours.",
+        "links": [
+          {
+            "title": "A Horse Before Class · WhatsApp",
+            "href": "journey-horse.html"
+          },
+          {
+            "title": "Read & Listen",
+            "href": "reading/?text=horse"
+          }
+        ]
+      },
+      {
+        "id": "d20261101-grammar",
+        "title": "Grammar in use",
+        "minutes": 14,
+        "instruction": "Practise do not / does not + the base verb. Contrast an action with be. Try two question pairs before checking.",
+        "links": [
+          {
+            "title": "Present Simple A · slides 28–46",
+            "href": "grammar-a/#28"
+          }
+        ]
+      },
+      {
+        "id": "d20261101-writing",
+        "title": "Use it independently · includes exit check",
+        "minutes": 12,
+        "instruction": "Answer the message questions orally. Write two facts about Carlito and one true negative about your journey. Use the final four minutes to check does not + base verb.",
+        "links": [
+          {
+            "title": "Workbook · page 2",
+            "href": "files/unit2-workbook.pdf#page=2"
+          },
+          {
+            "title": "Writing sheet · Part A",
+            "href": "worksheet.html"
+          }
+        ]
+      }
+    ],
+    "homeActivities": [
+      {
+        "id": "d20261101-home-1",
+        "title": "Home round 1 · 14 entries",
+        "minutes": 15,
+        "instruction": "Review these 14 entries: listen, cover the meaning and recall it. Practise context items 43–56; stop at 56. Replay the horse message. Answer the workbook page 2 questions in writing.",
+        "links": [
+          {
+            "title": "Group 03 · entries 43–55",
+            "href": "vocabulary/full.html#slide-102"
+          },
+          {
+            "title": "Group 04 · entries 1–1",
+            "href": "vocabulary/full.html#slide-133"
+          },
+          {
+            "title": "Context practice · items 43–56",
+            "href": "vocabulary/practice.html?set=2&item=43&end=56"
+          },
+          {
+            "title": "Review task",
+            "href": "reading/?text=horse"
+          },
+          {
+            "title": "Workbook · page 2",
+            "href": "files/unit2-workbook.pdf#page=2"
+          }
+        ],
+        "vocabularyIds": [
+          "g03-43",
+          "g03-44",
+          "g03-45",
+          "g03-46",
+          "g03-47",
+          "g03-48",
+          "g03-49",
+          "g03-50",
+          "g03-51",
+          "g03-52",
+          "g03-53",
+          "g03-54",
+          "g03-55",
+          "g04-01"
+        ],
+        "firstItem": 43,
+        "lastItem": 56
+      },
+      {
+        "id": "d20261101-home-2",
+        "title": "Home round 2 · 14 entries",
+        "minutes": 15,
+        "instruction": "Review these 14 entries: listen, cover the meaning and recall it. Practise context items 57–70; stop at 70. Finish the negative-sentence practice, slides 28–46.",
+        "links": [
+          {
+            "title": "Group 04 · entries 2–15",
+            "href": "vocabulary/full.html#slide-135"
+          },
+          {
+            "title": "Context practice · items 57–70",
+            "href": "vocabulary/practice.html?set=3&item=57&end=70"
+          },
+          {
+            "title": "Review task",
+            "href": "grammar-a/#28"
+          }
+        ],
+        "vocabularyIds": [
+          "g04-02",
+          "g04-03",
+          "g04-04",
+          "g04-05",
+          "g04-06",
+          "g04-07",
+          "g04-08",
+          "g04-09",
+          "g04-10",
+          "g04-11",
+          "g04-12",
+          "g04-13",
+          "g04-14",
+          "g04-15"
+        ],
+        "firstItem": 57,
+        "lastItem": 70
+      },
+      {
+        "id": "d20261101-home-3",
+        "title": "Home round 3 · 13 entries",
+        "minutes": 15,
+        "instruction": "Review these 13 entries: listen, cover the meaning and recall it. Practise context items 71–83; stop at 83. Use Writing sheet Part A: write your routine, a friend’s routine and one negative.",
+        "links": [
+          {
+            "title": "Group 04 · entries 16–28",
+            "href": "vocabulary/full.html#slide-168"
+          },
+          {
+            "title": "Context practice · items 71–83",
+            "href": "vocabulary/practice.html?set=4&item=71&end=83"
+          },
+          {
+            "title": "Review task",
+            "href": "worksheet.html"
+          }
+        ],
+        "vocabularyIds": [
+          "g04-16",
+          "g04-17",
+          "g04-18",
+          "g04-19",
+          "g04-20",
+          "g04-21",
+          "g04-22",
+          "g04-23",
+          "g04-24",
+          "g04-25",
+          "g04-26",
+          "g04-27",
+          "g04-28"
+        ],
+        "firstItem": 71,
+        "lastItem": 83
+      }
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Email from India: questions and teamwork",
+    "count": 41,
+    "skills": [
+      "Explain details from a message",
+      "Ask do/does questions",
+      "Give short answers and report a partner’s answer"
+    ],
+    "goal": "Explain how Samuel travels and ask a partner about a routine.",
+    "reading": [
+      [
+        "Four Kilometres Together · email",
+        "journey-wheelchair.html"
+      ],
+      [
+        "Read & Listen",
+        "reading/?text=wheelchair"
+      ]
+    ],
+    "reading_task": "Read Samuel’s email. Find how his brothers help and how far they travel. Explain each answer using a detail from the message.",
+    "grammar": [
+      "Present Simple B · slides 1–17",
+      "grammar-b/#1"
+    ],
+    "grammar_task": "Build do/does questions and short answers. Reorder a question and ask it before checking the answer.",
+    "writing": [
+      [
+        "Workbook · page 4",
+        "files/unit2-workbook.pdf#page=4"
+      ],
+      [
+        "Writing sheet · Part B",
+        "worksheet.html"
+      ]
+    ],
+    "writing_task": "Write two questions for a partner and record the answers. Use the final four minutes to correct one question independently.",
+    "prep": [
+      "Bring your negative sentences and vocabulary notes.",
+      "Think of a question you want to ask about someone’s journey."
+    ],
+    "home": [
+      [
+        "Replay the email and finish the reading questions on workbook page 4.",
+        "reading/?text=wheelchair"
+      ],
+      [
+        "Finish the do/does practice and short answers, slides 1–17.",
+        "grammar-b/#1"
+      ],
+      [
+        "Write three questions and short answers in Writing sheet Part B.",
+        "worksheet.html"
+      ]
+    ],
+    "check": "Questions need the correct auxiliary and base verb. Check meaning before spelling.",
+    "support": "Rehearse a short answer orally, then write it. Refer to Samuel’s documented routine, not a claim about his life today.",
+    "exit": "Write and answer a new Does ...? question.",
+    "number": 3,
+    "id": "d20261105",
+    "guideSlide": 7,
+    "vocabularyIds": [
+      "g04-29",
+      "g04-30",
+      "g04-31",
+      "g04-32",
+      "g04-33",
+      "g04-34",
+      "g04-35",
+      "g04-36",
+      "g04-37",
+      "g04-38",
+      "g04-39",
+      "g04-40",
+      "g04-41",
+      "g04-42",
+      "g04-43",
+      "g04-44",
+      "g04-45",
+      "g04-46",
+      "g04-47",
+      "g04-48",
+      "g04-49",
+      "g04-50",
+      "g04-51",
+      "g04-52",
+      "g04-53",
+      "g04-54",
+      "g04-55",
+      "g05-01",
+      "g05-02",
+      "g05-03",
+      "g05-04",
+      "g05-05",
+      "g05-06",
+      "g05-07",
+      "g05-08",
+      "g05-09",
+      "g05-10",
+      "g05-11",
+      "g05-12",
+      "g05-13",
+      "g05-14"
+    ],
+    "ranges": [
+      {
+        "group": 4,
+        "start": 29,
+        "end": 55,
+        "href": "vocabulary/full.html#slide-198",
+        "title": "Group 04 · entries 29–55"
+      },
+      {
+        "group": 5,
+        "start": 1,
+        "end": 14,
         "href": "vocabulary/full.html#slide-262",
-        "instruction": "Preview this batch. Choose three to five entries for active use; stop at the end of the stated range."
-      },
-      {
-        "key": "listening",
-        "title": "Listen First · the school boat",
-        "href": "listening.html",
-        "instruction": "Listen once for the main idea, then for details. Answer before opening the transcript."
-      },
-      {
-        "key": "message",
-        "title": "The School Boat · Instagram",
-        "href": "journey-boat.html",
-        "instruction": "After listening, read Zoe and Isaac’s post and check your answers."
-      },
-      {
-        "key": "workbook",
-        "title": "Workbook · page 5",
-        "href": "files/unit2-workbook.pdf#page=5",
-        "instruction": "Take notes and compare the boat journey with an earlier message."
+        "title": "Group 05 · entries 1–14"
       }
     ],
+    "homeDue": "2026-11-08",
     "timing": [
       [
-        5,
-        "Predict the topic"
-      ],
-      [
-        10,
-        "Vocabulary preview and retrieval"
-      ],
-      [
-        12,
-        "Two listening passes and notes"
-      ],
-      [
-        15,
-        "Independent listening answers"
-      ],
-      [
         20,
-        "Read, check and compare"
+        "Vocabulary: recall, introduce the assigned batch and use four to six entries"
       ],
       [
-        10,
-        "Feedback and exit check"
+        18,
+        "Reading or listening: find evidence and compare"
+      ],
+      [
+        14,
+        "Grammar: model, try and check"
+      ],
+      [
+        8,
+        "Independent writing or speaking"
+      ],
+      [
+        4,
+        "Exit check and home-review plan"
       ]
-    ],
-    "check": "Look for another island, five minutes and walking after the boat trip. Sometimes does not mean always.",
-    "support": "Replay the relevant part at the selected speed. Open the transcript only after an independent attempt.",
-    "exit": "Give one similarity and one difference between two documented journeys.",
-    "id": "m7",
-    "number": 7,
-    "group": 5,
-    "start": 1,
-    "end": 18,
-    "guideSlide": 19
-  },
-  {
-    "title": "Write a reply",
-    "goal": "Write a relevant reply of 50–70 words.",
-    "prep": [
-      "Choose Carlito, Samuel, or Zoe and Isaac as your reader.",
-      "Plan an answer to the question at the end of that message."
     ],
     "activities": [
       {
-        "key": "vocab",
-        "title": "Vocabulary · Group 05, entries 19–36",
-        "href": "vocabulary/full.html#slide-304",
-        "instruction": "Preview this batch. Choose three to five entries for active use; stop at the end of the stated range."
+        "id": "d20261105-vocab",
+        "title": "Vocabulary · 41 entries",
+        "minutes": 20,
+        "instruction": "Work through the stated ranges. Recall earlier words, then focus on four to six examples for active use. Review every assigned entry at home.",
+        "links": [
+          {
+            "title": "Group 04 · entries 29–55",
+            "href": "vocabulary/full.html#slide-198"
+          },
+          {
+            "title": "Group 05 · entries 1–14",
+            "href": "vocabulary/full.html#slide-262"
+          }
+        ]
       },
       {
-        "key": "messages",
-        "title": "Choose a message to answer",
-        "href": "companion-stories.html",
-        "instruction": "Choose the WhatsApp message, email or Instagram post. Find the sender’s question."
+        "id": "d20261105-reading",
+        "title": "Read, listen and compare",
+        "minutes": 18,
+        "instruction": "Read Samuel’s email. Find how his brothers help and how far they travel. Explain each answer using a detail from the message.",
+        "links": [
+          {
+            "title": "Four Kilometres Together · email",
+            "href": "journey-wheelchair.html"
+          },
+          {
+            "title": "Read & Listen",
+            "href": "reading/?text=wheelchair"
+          }
+        ]
       },
       {
-        "key": "practice",
-        "title": "Words in Context · set 9",
-        "href": "vocabulary/practice.html?set=8",
-        "instruction": "Review meanings. Choose two suitable vocabulary entries for your reply."
+        "id": "d20261105-grammar",
+        "title": "Grammar in use",
+        "minutes": 14,
+        "instruction": "Build do/does questions and short answers. Reorder a question and ask it before checking the answer.",
+        "links": [
+          {
+            "title": "Present Simple B · slides 1–17",
+            "href": "grammar-b/#1"
+          }
+        ]
       },
       {
-        "key": "writing",
-        "title": "Workbook · page 6",
-        "href": "files/unit2-workbook.pdf#page=6",
-        "instruction": "Plan and write your reply. Include a negative, a frequency word and two vocabulary entries."
+        "id": "d20261105-writing",
+        "title": "Use it independently · includes exit check",
+        "minutes": 12,
+        "instruction": "Write two questions for a partner and record the answers. Use the final four minutes to correct one question independently.",
+        "links": [
+          {
+            "title": "Workbook · page 4",
+            "href": "files/unit2-workbook.pdf#page=4"
+          },
+          {
+            "title": "Writing sheet · Part B",
+            "href": "worksheet.html"
+          }
+        ]
       }
     ],
-    "timing": [
-      [
-        5,
-        "Choose the reader and purpose"
-      ],
-      [
-        10,
-        "Vocabulary preview and retrieval"
-      ],
-      [
-        10,
-        "Plan a relevant reply"
-      ],
-      [
-        25,
-        "Independent first draft"
-      ],
-      [
-        15,
-        "Feedback and revision"
-      ],
-      [
-        7,
-        "Exit check"
-      ]
-    ],
-    "check": "Assess whether the reply answers the sender’s question before checking grammar. Check meaning, detail, cohesion and independent use.",
-    "support": "Offer a planning prompt when needed. Avoid giving a full model before the student writes.",
-    "exit": "Improve two sentences after feedback and explain one change.",
-    "id": "m8",
-    "number": 8,
-    "group": 5,
-    "start": 19,
-    "end": 36,
-    "guideSlide": 22
+    "homeActivities": [
+      {
+        "id": "d20261105-home-1",
+        "title": "Home round 1 · 14 entries",
+        "minutes": 15,
+        "instruction": "Review these 14 entries: listen, cover the meaning and recall it. Practise context items 84–97; stop at 97. Replay the email and finish the reading questions on workbook page 4.",
+        "links": [
+          {
+            "title": "Group 04 · entries 29–42",
+            "href": "vocabulary/full.html#slide-198"
+          },
+          {
+            "title": "Context practice · items 84–97",
+            "href": "vocabulary/practice.html?set=5&item=84&end=97"
+          },
+          {
+            "title": "Review task",
+            "href": "reading/?text=wheelchair"
+          },
+          {
+            "title": "Workbook · page 4",
+            "href": "files/unit2-workbook.pdf#page=4"
+          }
+        ],
+        "vocabularyIds": [
+          "g04-29",
+          "g04-30",
+          "g04-31",
+          "g04-32",
+          "g04-33",
+          "g04-34",
+          "g04-35",
+          "g04-36",
+          "g04-37",
+          "g04-38",
+          "g04-39",
+          "g04-40",
+          "g04-41",
+          "g04-42"
+        ],
+        "firstItem": 84,
+        "lastItem": 97
+      },
+      {
+        "id": "d20261105-home-2",
+        "title": "Home round 2 · 14 entries",
+        "minutes": 15,
+        "instruction": "Review these 14 entries: listen, cover the meaning and recall it. Practise context items 98–111; stop at 111. Finish the do/does practice and short answers, slides 1–17.",
+        "links": [
+          {
+            "title": "Group 04 · entries 43–55",
+            "href": "vocabulary/full.html#slide-231"
+          },
+          {
+            "title": "Group 05 · entries 1–1",
+            "href": "vocabulary/full.html#slide-262"
+          },
+          {
+            "title": "Context practice · items 98–111",
+            "href": "vocabulary/practice.html?set=6&item=98&end=111"
+          },
+          {
+            "title": "Review task",
+            "href": "grammar-b/#1"
+          }
+        ],
+        "vocabularyIds": [
+          "g04-43",
+          "g04-44",
+          "g04-45",
+          "g04-46",
+          "g04-47",
+          "g04-48",
+          "g04-49",
+          "g04-50",
+          "g04-51",
+          "g04-52",
+          "g04-53",
+          "g04-54",
+          "g04-55",
+          "g05-01"
+        ],
+        "firstItem": 98,
+        "lastItem": 111
+      },
+      {
+        "id": "d20261105-home-3",
+        "title": "Home round 3 · 13 entries",
+        "minutes": 15,
+        "instruction": "Review these 13 entries: listen, cover the meaning and recall it. Practise context items 112–124; stop at 124. Write three questions and short answers in Writing sheet Part B.",
+        "links": [
+          {
+            "title": "Group 05 · entries 2–14",
+            "href": "vocabulary/full.html#slide-265"
+          },
+          {
+            "title": "Context practice · items 112–124",
+            "href": "vocabulary/practice.html?set=7&item=112&end=124"
+          },
+          {
+            "title": "Review task",
+            "href": "worksheet.html"
+          }
+        ],
+        "vocabularyIds": [
+          "g05-02",
+          "g05-03",
+          "g05-04",
+          "g05-05",
+          "g05-06",
+          "g05-07",
+          "g05-08",
+          "g05-09",
+          "g05-10",
+          "g05-11",
+          "g05-12",
+          "g05-13",
+          "g05-14"
+        ],
+        "firstItem": 112,
+        "lastItem": 124
+      }
+    ]
   },
   {
-    "title": "Review and use it independently",
-    "goal": "Use the unit language without a visible model.",
+    "date": "2026-11-08",
+    "title": "Instagram from the islands: listen and reply",
+    "count": 41,
+    "skills": [
+      "Listen for the main idea and details",
+      "Ask information questions",
+      "Use frequency words",
+      "Write a relevant reply"
+    ],
+    "goal": "Understand the boat journey and begin a reply to one of the three messages.",
+    "reading": [
+      [
+        "Listen First · the school boat",
+        "listening.html"
+      ],
+      [
+        "The School Boat · Instagram",
+        "journey-boat.html"
+      ]
+    ],
+    "reading_task": "Listen twice before opening the post. Answer the three listening questions, then read the message to check your evidence.",
+    "grammar": [
+      "Present Simple B · slides 18–43",
+      "grammar-b/#18"
+    ],
+    "grammar_task": "Use where/when/how and frequency words. Select one example per rule and two checks. Practise common stative verbs in the summary.",
+    "writing": [
+      [
+        "Workbook · page 6",
+        "files/unit2-workbook.pdf#page=6"
+      ]
+    ],
+    "writing_task": "Choose a sender, plan and start a 50–70-word reply. Answer the sender’s question. Use the final four minutes to check one question and one frequency sentence; finish the reply at home.",
     "prep": [
-      "Review your feedback from Meeting 8.",
-      "Choose three vocabulary entries you want to use without help."
+      "Bring your questions, answers and vocabulary notes.",
+      "Think about travelling by boat. Keep the Instagram message closed until after listening."
+    ],
+    "home": [
+      [
+        "Replay the boat recording and finish workbook page 5.",
+        "listening.html"
+      ],
+      [
+        "Finish the information-question and frequency practice, slides 18–43.",
+        "grammar-b/#18"
+      ],
+      [
+        "Finish and improve the 50–70-word reply on workbook page 6. Read it aloud and correct two sentences.",
+        "files/unit2-workbook.pdf#page=6"
+      ]
+    ],
+    "check": "Look for another island, five minutes and walking after the boat. A reply must address its reader’s question.",
+    "support": "Allow replay at the learner’s speed. Provide a writing plan, then let the learner draft independently.",
+    "exit": "Name one point to review before the exam on 12 November.",
+    "number": 4,
+    "id": "d20261108",
+    "guideSlide": 10,
+    "vocabularyIds": [
+      "g05-15",
+      "g05-16",
+      "g05-17",
+      "g05-18",
+      "g05-19",
+      "g05-20",
+      "g05-21",
+      "g05-22",
+      "g05-23",
+      "g05-24",
+      "g05-25",
+      "g05-26",
+      "g05-27",
+      "g05-28",
+      "g05-29",
+      "g05-30",
+      "g05-31",
+      "g05-32",
+      "g05-33",
+      "g05-34",
+      "g05-35",
+      "g05-36",
+      "g05-37",
+      "g05-38",
+      "g05-39",
+      "g05-40",
+      "g05-41",
+      "g05-42",
+      "g05-43",
+      "g05-44",
+      "g05-45",
+      "g05-46",
+      "g05-47",
+      "g05-48",
+      "g05-49",
+      "g05-50",
+      "g05-51",
+      "g05-52",
+      "g05-53",
+      "g05-54",
+      "g05-55"
+    ],
+    "ranges": [
+      {
+        "group": 5,
+        "start": 15,
+        "end": 55,
+        "href": "vocabulary/full.html#slide-295",
+        "title": "Group 05 · entries 15–55"
+      }
+    ],
+    "homeDue": "2026-11-12",
+    "timing": [
+      [
+        20,
+        "Vocabulary: recall, introduce the assigned batch and use four to six entries"
+      ],
+      [
+        18,
+        "Reading or listening: find evidence and compare"
+      ],
+      [
+        14,
+        "Grammar: model, try and check"
+      ],
+      [
+        8,
+        "Independent writing or speaking"
+      ],
+      [
+        4,
+        "Exit check and home-review plan"
+      ]
     ],
     "activities": [
       {
-        "key": "vocab",
-        "title": "Vocabulary · Group 05, entries 37–55",
-        "href": "vocabulary/full.html#slide-346",
-        "instruction": "Preview this batch. Choose three to five entries for active use; stop at the end of the stated range."
+        "id": "d20261108-vocab",
+        "title": "Vocabulary · 41 entries",
+        "minutes": 20,
+        "instruction": "Work through the stated ranges. Recall earlier words, then focus on four to six examples for active use. Review every assigned entry at home.",
+        "links": [
+          {
+            "title": "Group 05 · entries 15–55",
+            "href": "vocabulary/full.html#slide-295"
+          }
+        ]
       },
       {
-        "key": "practice",
-        "title": "Words in Context · set 11",
-        "href": "vocabulary/practice.html?set=10",
-        "instruction": "Review the final set. Explain your choices and write an original sentence."
+        "id": "d20261108-reading",
+        "title": "Read, listen and compare",
+        "minutes": 18,
+        "instruction": "Listen twice before opening the post. Answer the three listening questions, then read the message to check your evidence.",
+        "links": [
+          {
+            "title": "Listen First · the school boat",
+            "href": "listening.html"
+          },
+          {
+            "title": "The School Boat · Instagram",
+            "href": "journey-boat.html"
+          }
+        ]
       },
       {
-        "key": "compare",
-        "title": "Compare two messages from memory",
-        "href": "companion-stories.html",
-        "instruction": "Keep the texts closed while you write one similarity and one difference. Open them to check afterwards."
+        "id": "d20261108-grammar",
+        "title": "Grammar in use",
+        "minutes": 14,
+        "instruction": "Use where/when/how and frequency words. Select one example per rule and two checks. Practise common stative verbs in the summary.",
+        "links": [
+          {
+            "title": "Present Simple B · slides 18–43",
+            "href": "grammar-b/#18"
+          }
+        ]
       },
       {
-        "key": "writing",
-        "title": "Workbook · page 6, new reply",
-        "href": "files/unit2-workbook.pdf#page=6",
-        "instruction": "Choose a different reader and write a new reply in your notebook without copying your first draft."
+        "id": "d20261108-writing",
+        "title": "Use it independently · includes exit check",
+        "minutes": 12,
+        "instruction": "Choose a sender, plan and start a 50–70-word reply. Answer the sender’s question. Use the final four minutes to check one question and one frequency sentence; finish the reply at home.",
+        "links": [
+          {
+            "title": "Workbook · page 6",
+            "href": "files/unit2-workbook.pdf#page=6"
+          }
+        ]
       }
     ],
-    "timing": [
-      [
-        7,
-        "Recall without a model"
-      ],
-      [
-        10,
-        "Final vocabulary preview and retrieval"
-      ],
-      [
-        15,
-        "Independent comparison"
-      ],
-      [
-        20,
-        "New reply to a different reader"
-      ],
-      [
-        15,
-        "Feedback and targeted correction"
-      ],
-      [
-        5,
-        "Choose the next learning step"
-      ]
-    ],
-    "check": "Use the new reply and comparison as evidence. Completing a checklist or viewing 165 entries does not establish mastery.",
-    "support": "Record the specific difficulty. Use the reserve meeting for a short targeted task, then reassess.",
-    "exit": "Identify one skill you can now use and one you still need to practise.",
-    "id": "m9",
-    "number": 9,
-    "group": 5,
-    "start": 37,
-    "end": 55,
-    "guideSlide": 25
+    "homeActivities": [
+      {
+        "id": "d20261108-home-1",
+        "title": "Home round 1 · 14 entries",
+        "minutes": 15,
+        "instruction": "Review these 14 entries: listen, cover the meaning and recall it. Practise context items 125–138; stop at 138. Replay the boat recording and finish workbook page 5.",
+        "links": [
+          {
+            "title": "Group 05 · entries 15–28",
+            "href": "vocabulary/full.html#slide-295"
+          },
+          {
+            "title": "Context practice · items 125–138",
+            "href": "vocabulary/practice.html?set=8&item=125&end=138"
+          },
+          {
+            "title": "Review task",
+            "href": "listening.html"
+          },
+          {
+            "title": "Workbook · page 5",
+            "href": "files/unit2-workbook.pdf#page=5"
+          }
+        ],
+        "vocabularyIds": [
+          "g05-15",
+          "g05-16",
+          "g05-17",
+          "g05-18",
+          "g05-19",
+          "g05-20",
+          "g05-21",
+          "g05-22",
+          "g05-23",
+          "g05-24",
+          "g05-25",
+          "g05-26",
+          "g05-27",
+          "g05-28"
+        ],
+        "firstItem": 125,
+        "lastItem": 138
+      },
+      {
+        "id": "d20261108-home-2",
+        "title": "Home round 2 · 14 entries",
+        "minutes": 15,
+        "instruction": "Review these 14 entries: listen, cover the meaning and recall it. Practise context items 139–152; stop at 152. Finish the information-question and frequency practice, slides 18–43.",
+        "links": [
+          {
+            "title": "Group 05 · entries 29–42",
+            "href": "vocabulary/full.html#slide-328"
+          },
+          {
+            "title": "Context practice · items 139–152",
+            "href": "vocabulary/practice.html?set=9&item=139&end=152"
+          },
+          {
+            "title": "Review task",
+            "href": "grammar-b/#18"
+          }
+        ],
+        "vocabularyIds": [
+          "g05-29",
+          "g05-30",
+          "g05-31",
+          "g05-32",
+          "g05-33",
+          "g05-34",
+          "g05-35",
+          "g05-36",
+          "g05-37",
+          "g05-38",
+          "g05-39",
+          "g05-40",
+          "g05-41",
+          "g05-42"
+        ],
+        "firstItem": 139,
+        "lastItem": 152
+      },
+      {
+        "id": "d20261108-home-3",
+        "title": "Home round 3 · 13 entries",
+        "minutes": 15,
+        "instruction": "Review these 13 entries: listen, cover the meaning and recall it. Practise context items 153–165; stop at 165. Finish and improve the 50–70-word reply on workbook page 6. Read it aloud and correct two sentences.",
+        "links": [
+          {
+            "title": "Group 05 · entries 43–55",
+            "href": "vocabulary/full.html#slide-360"
+          },
+          {
+            "title": "Context practice · items 153–165",
+            "href": "vocabulary/practice.html?set=10&item=153&end=165"
+          },
+          {
+            "title": "Review task",
+            "href": "files/unit2-workbook.pdf#page=6"
+          }
+        ],
+        "vocabularyIds": [
+          "g05-43",
+          "g05-44",
+          "g05-45",
+          "g05-46",
+          "g05-47",
+          "g05-48",
+          "g05-49",
+          "g05-50",
+          "g05-51",
+          "g05-52",
+          "g05-53",
+          "g05-54",
+          "g05-55"
+        ],
+        "firstItem": 153,
+        "lastItem": 165
+      }
+    ]
   }
 ]
