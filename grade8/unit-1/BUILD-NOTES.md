@@ -1,5 +1,5 @@
 # Grade 8 Unit 1
 
-Approved: Group 01 (55 entries), Part One A–F (18 sentences), five meetings before 22 October 2026. No Part Two and no Group 02. Existing source and all existing MP3 recordings reused. Word timing is forced alignment against each actual recording, not estimated pacing. Translation and pupil progress stay in the browser; no personal data is collected by this unit.
+User update, 22 September 2026: Core II groups 21–22 only, 110 entries. Part One A–F and its 18 aligned audio recordings remain unchanged. Meetings: 5/10 entries 1–28; 8/10 entries 29–55; 12/10 entries 56–83; 15/10 entries 84–110; 19/10 cumulative review. Exam: 22/10. Retired lesson URLs redirect to current materials. Vocabulary audio is not available in the unit; no mismatched Core I audio is played.
 
-Build: tools/grade8-unit1/build.py. Source UI: tools/grade8-unit1/unit.html. Standards: PROJECT_CHARTER.md, Read Alone 1 and 2.
+Build: tools/grade8-unit1/build.py. UI: tools/grade8-unit1/unit.html.
