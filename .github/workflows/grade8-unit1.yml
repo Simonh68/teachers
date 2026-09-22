@@ -44,7 +44,9 @@ jobs:
           sudo apt-get install -y -qq ffmpeg
           python -m playwright install --with-deps chromium
       - name: Build approved unit and align all existing story recordings
-        run: python -u tools/grade8-unit1/build.py
+        run: |
+          python -u tools/grade8-unit1/build.py
+          python -u tools/grade8-unit1/refine.py
       - name: Verify all reading slides, mobile layouts and recorded playback
         run: python -u tools/grade8-unit1/verify.py
       - name: Save visual test results
