@@ -76,7 +76,7 @@ MEETINGS = [
 ]
 
 def shell(title, body, script=True):
-    return '<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+E(title)+' | Unit 2</title><link rel="stylesheet" href="unit.css"><link rel="stylesheet" href="meetings.css"></head><body><main><header class="unit-header"><a class="home" href="../" aria-label="Grade 7">⌂</a><a href="./">Unit 2 · Meetings</a></header>'+body+'</main>'+('<script src="meetings.js"></script>' if script else '')+'</body></html>'
+    return '<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+E(title)+' | Unit 2</title><link rel="stylesheet" href="unit.css"><link rel="stylesheet" href="meetings.css?v=20260922-history1"></head><body><main><header class="unit-header"><a class="home" href="../" aria-label="Grade 7">⌂</a><a href="./">Unit 2 · Meetings</a></header>'+body+'</main>'+('<script src="meetings.js?v=20260922-history1"></script>' if script else '')+'</body></html>'
 
 def open_link(label, href, identity, extra=''):
     return '<a class="activity-link '+extra+'" href="'+E(href,quote=True)+'" data-open-id="'+identity+'">'+E(label)+'</a><span class="opened-badge" data-open-status="'+identity+'" hidden>Opened</span>'
@@ -104,6 +104,7 @@ def build():
     body='<div data-meeting-index><p class="eyebrow">Grade 7 · Unit 2</p><h1>Meetings</h1><p class="unit-title">School Years Around the World</p><p>Nine meetings. Open an activity, then tick Completed when you have finished it.</p>'
     body+='<nav class="top-links" aria-label="Unit resources">'+open_link('Student preparation','student-preparation.html','unit-prep')+open_link('Teacher guide','meeting-guide.html','unit-guide')+'<a href="resources.html">All resources</a></nav>'
     body+='<section class="progress-panel" aria-label="My progress"><strong id="overall-progress">0 of 9 meetings completed</strong><progress id="overall-meter" max="9" value="0" aria-label="Completed meetings"></progress><button id="continue-meeting" type="button">Continue</button><p id="last-opened">No activity opened yet.</p></section>'
+    body+='<section class="history-controls" aria-label="Opened-link history"><div class="history-buttons"><button id="reset-history" type="button" aria-describedby="history-help" disabled>Reset history</button><button id="restore-history" type="button" aria-describedby="history-help" disabled>Restore history</button></div><p id="history-help">Clear or restore this unit’s Opened markers. Completed and Ready ticks stay saved.</p><p id="history-status" role="status">No cleared history to restore.</p></section>'
     body+='<p class="privacy-note">Your ticks and opened links stay only in this browser on this device. They are not sent to anyone or synced to another device. Clearing browser data removes them.</p><p id="save-status" class="save-status" role="status"></p><noscript><p>Links work without JavaScript. Turn on JavaScript to save your checkboxes on this device.</p></noscript>'
     body+='<div class="meeting-list">'
     for m in meetings:

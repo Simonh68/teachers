@@ -1,0 +1,35 @@
+{
+  "viewports": [
+    {
+      "width": 1366,
+      "height": 900,
+      "resetRestore": true,
+      "networkRequests": 0
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "resetRestore": true,
+      "networkRequests": 0
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "resetRestore": true,
+      "networkRequests": 0
+    }
+  ],
+  "checks": [
+    "legacy state retained",
+    "reset and restore, including native-history colour override",
+    "completion/readiness independent",
+    "merge visits across repeated resets",
+    "reload and browser-restart recovery",
+    "cross-page and cross-tab persistence",
+    "keyboard operation and mobile layout",
+    "no reset/restore network requests",
+    "blocked-storage fallback",
+    "separate-browser isolation"
+  ],
+  "errors": []
+}
