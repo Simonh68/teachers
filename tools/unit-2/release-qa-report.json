@@ -1,24 +1,24 @@
 {
-  "base": "http://127.0.0.1:44481/grade7/unit-2/",
+  "base": "http://127.0.0.1:36033/grade7/unit-2/",
   "assets": 174,
   "viewports": [
     {
       "width": 1366,
       "height": 900,
-      "components": 10
+      "components": 12
     },
     {
       "width": 390,
       "height": 844,
-      "components": 10
+      "components": 12
     },
     {
       "width": 360,
       "height": 640,
-      "components": 10
+      "components": 12
     }
   ],
-  "readingClipsPlayed": 8,
+  "readingClipsPlayed": 6,
   "clipboardLinks": 3,
   "errors": []
 }

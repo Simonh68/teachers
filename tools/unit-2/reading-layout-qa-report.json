@@ -6,7 +6,7 @@
       "errors": [],
       "pages": 23,
       "pairs": 51,
-      "targets": 361
+      "targets": 359
     },
     {
       "width": 390,
@@ -14,7 +14,7 @@
       "errors": [],
       "pages": 23,
       "pairs": 51,
-      "targets": 361
+      "targets": 359
     },
     {
       "width": 360,
@@ -22,9 +22,9 @@
       "errors": [],
       "pages": 23,
       "pairs": 51,
-      "targets": 361
+      "targets": 359
     }
   ],
-  "autoplay": 102,
+  "autoplay": 0,
   "errors": []
 }

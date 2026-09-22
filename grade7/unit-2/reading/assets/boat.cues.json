@@ -1,99 +1,104 @@
 {
-  "text": "Zoe and Isaac live on Bryher, a small island. Their school is on nearby Tresco. Every morning, they meet the other children at the place where the boat stops. The boat journey takes only five minutes. Sometimes they see dolphins. After the boat arrives, they walk to school. For these children, going to class means crossing the sea.",
+  "text": "Hi from Bryher! We are Zoe and Isaac. Our school is on Tresco, a nearby island. Every morning, we meet the other children where the boat stops. Our boat trip takes five minutes. Sometimes we see dolphins! Then we walk to school. Do you cross water on your way to school?",
   "voice": "en-US-BrianNeural",
   "pitch": "+10Hz",
   "synthetic": true,
-  "sha256Text": "06f9d40af4cf3592ef6abc336864c8a5eb730d3b0bf875914d028f7738490866",
-  "sha256": "b2fef6e8ba9b8004bf6aad06a2434bea78d7b1e71436954ddd8a59a37648e7c1",
+  "sha256Text": "ffe00bfd66076f435d751277d18eeec5c5cdc34112a760e94ef3ee136b3d0739",
+  "sha256": "a20e62a37e9736c970fc61ac8520b61eeb05df8cfb63e62b8eca1280d7f05e35",
   "words": [
     {
+      "word": "Hi",
+      "start": 0.0875,
+      "end": 0.325
+    },
+    {
+      "word": "from",
+      "start": 0.3375,
+      "end": 0.5875
+    },
+    {
+      "word": "Bryher!",
+      "start": 0.6,
+      "end": 1.1375
+    },
+    {
+      "word": "We",
+      "start": 1.525,
+      "end": 1.6625
+    },
+    {
+      "word": "are",
+      "start": 1.675,
+      "end": 1.8
+    },
+    {
       "word": "Zoe",
-      "start": 0.075,
-      "end": 0.55
+      "start": 1.8125,
+      "end": 2.2625
     },
     {
       "word": "and",
-      "start": 0.5625,
-      "end": 0.75
+      "start": 2.275,
+      "end": 2.4125
     },
     {
-      "word": "Isaac",
-      "start": 0.7625,
-      "end": 1.1125
+      "word": "Isaac.",
+      "start": 2.425,
+      "end": 3.0375
     },
     {
-      "word": "live",
-      "start": 1.125,
-      "end": 1.3625
-    },
-    {
-      "word": "on",
-      "start": 1.375,
-      "end": 1.5125
-    },
-    {
-      "word": "Bryher,",
-      "start": 1.525,
-      "end": 1.975
-    },
-    {
-      "word": "a",
-      "start": 2.5625,
-      "end": 2.6
-    },
-    {
-      "word": "small",
-      "start": 2.6125,
-      "end": 3.0625
-    },
-    {
-      "word": "island.",
-      "start": 3.075,
-      "end": 3.525
-    },
-    {
-      "word": "Their",
-      "start": 3.9125,
-      "end": 4.05
+      "word": "Our",
+      "start": 3.4125,
+      "end": 3.5375
     },
     {
       "word": "school",
-      "start": 4.0625,
-      "end": 4.525
+      "start": 3.55,
+      "end": 3.975
     },
     {
       "word": "is",
-      "start": 4.55,
-      "end": 4.75
+      "start": 3.9875,
+      "end": 4.1375
     },
     {
       "word": "on",
-      "start": 4.7625,
-      "end": 4.9625
+      "start": 4.15,
+      "end": 4.2625
     },
     {
-      "word": "nearby",
-      "start": 4.975,
+      "word": "Tresco,",
+      "start": 4.275,
+      "end": 4.875
+    },
+    {
+      "word": "a",
+      "start": 5.3,
       "end": 5.375
     },
     {
-      "word": "Tresco.",
+      "word": "nearby",
       "start": 5.3875,
-      "end": 6.0375
+      "end": 5.875
+    },
+    {
+      "word": "island.",
+      "start": 5.8875,
+      "end": 6.3875
     },
     {
       "word": "Every",
-      "start": 6.4375,
-      "end": 6.6875
+      "start": 6.7875,
+      "end": 7.0
     },
     {
       "word": "morning,",
-      "start": 6.7,
-      "end": 7.2875
+      "start": 7.0125,
+      "end": 7.5125
     },
     {
-      "word": "they",
-      "start": 7.5125,
+      "word": "we",
+      "start": 7.5375,
       "end": 7.7125
     },
     {
@@ -114,188 +119,148 @@
     {
       "word": "children",
       "start": 8.375,
-      "end": 8.875
-    },
-    {
-      "word": "at",
-      "start": 8.8875,
-      "end": 9.025
-    },
-    {
-      "word": "the",
-      "start": 9.0375,
-      "end": 9.125
-    },
-    {
-      "word": "place",
-      "start": 9.1375,
-      "end": 9.5375
+      "end": 8.8875
     },
     {
       "word": "where",
-      "start": 9.55,
-      "end": 9.725
+      "start": 8.9,
+      "end": 9.1
     },
     {
       "word": "the",
-      "start": 9.7375,
-      "end": 9.8375
+      "start": 9.1125,
+      "end": 9.2125
     },
     {
       "word": "boat",
-      "start": 9.85,
-      "end": 10.075
+      "start": 9.225,
+      "end": 9.45
     },
     {
       "word": "stops.",
-      "start": 10.0875,
-      "end": 10.65
+      "start": 9.4625,
+      "end": 10.0375
     },
     {
-      "word": "The",
-      "start": 11.0375,
-      "end": 11.1125
+      "word": "Our",
+      "start": 10.4,
+      "end": 10.5375
     },
     {
       "word": "boat",
-      "start": 11.125,
-      "end": 11.3625
+      "start": 10.55,
+      "end": 10.775
     },
     {
-      "word": "journey",
-      "start": 11.375,
-      "end": 11.7875
+      "word": "trip",
+      "start": 10.7875,
+      "end": 11.1375
     },
     {
       "word": "takes",
-      "start": 11.8,
-      "end": 12.125
-    },
-    {
-      "word": "only",
-      "start": 12.15,
-      "end": 12.4625
+      "start": 11.15,
+      "end": 11.45
     },
     {
       "word": "five",
-      "start": 12.475,
-      "end": 12.8125
+      "start": 11.4625,
+      "end": 11.7625
     },
     {
       "word": "minutes.",
-      "start": 12.825,
-      "end": 13.35
+      "start": 11.775,
+      "end": 12.2875
     },
     {
       "word": "Sometimes",
-      "start": 13.7125,
-      "end": 14.3125
+      "start": 12.675,
+      "end": 13.2375
     },
     {
-      "word": "they",
-      "start": 14.325,
-      "end": 14.475
+      "word": "we",
+      "start": 13.25,
+      "end": 13.375
     },
     {
       "word": "see",
-      "start": 14.4875,
-      "end": 14.725
+      "start": 13.3875,
+      "end": 13.6125
     },
     {
-      "word": "dolphins.",
-      "start": 14.7375,
-      "end": 15.4375
+      "word": "dolphins!",
+      "start": 13.625,
+      "end": 14.3125
     },
     {
-      "word": "After",
-      "start": 15.8125,
-      "end": 16.0625
+      "word": "Then",
+      "start": 14.6875,
+      "end": 14.875
     },
     {
-      "word": "the",
-      "start": 16.075,
-      "end": 16.175
-    },
-    {
-      "word": "boat",
-      "start": 16.1875,
-      "end": 16.4375
-    },
-    {
-      "word": "arrives,",
-      "start": 16.45,
-      "end": 17.025
-    },
-    {
-      "word": "they",
-      "start": 17.0375,
-      "end": 17.2
+      "word": "we",
+      "start": 14.8875,
+      "end": 15.0125
     },
     {
       "word": "walk",
-      "start": 17.2125,
-      "end": 17.5
+      "start": 15.025,
+      "end": 15.325
     },
     {
       "word": "to",
-      "start": 17.5125,
-      "end": 17.6
+      "start": 15.3375,
+      "end": 15.425
     },
     {
       "word": "school.",
-      "start": 17.6125,
-      "end": 18.125
+      "start": 15.4375,
+      "end": 15.9625
     },
     {
-      "word": "For",
-      "start": 18.525,
-      "end": 18.6625
+      "word": "Do",
+      "start": 16.3625,
+      "end": 16.4125
     },
     {
-      "word": "these",
-      "start": 18.675,
-      "end": 18.8875
+      "word": "you",
+      "start": 16.425,
+      "end": 16.525
     },
     {
-      "word": "children,",
-      "start": 18.9,
-      "end": 19.4375
+      "word": "cross",
+      "start": 16.5375,
+      "end": 16.8875
     },
     {
-      "word": "going",
-      "start": 19.4625,
-      "end": 19.65
+      "word": "water",
+      "start": 16.9,
+      "end": 17.35
+    },
+    {
+      "word": "on",
+      "start": 17.3625,
+      "end": 17.5
+    },
+    {
+      "word": "your",
+      "start": 17.5125,
+      "end": 17.6375
+    },
+    {
+      "word": "way",
+      "start": 17.65,
+      "end": 17.7875
     },
     {
       "word": "to",
-      "start": 19.6625,
-      "end": 19.725
+      "start": 17.8,
+      "end": 17.8625
     },
     {
-      "word": "class",
-      "start": 19.7375,
-      "end": 20.1375
-    },
-    {
-      "word": "means",
-      "start": 20.15,
-      "end": 20.475
-    },
-    {
-      "word": "crossing",
-      "start": 20.4875,
-      "end": 20.9875
-    },
-    {
-      "word": "the",
-      "start": 21.0,
-      "end": 21.075
-    },
-    {
-      "word": "sea.",
-      "start": 21.0875,
-      "end": 21.5125
+      "word": "school?",
+      "start": 17.875,
+      "end": 18.3125
     }
   ],
-  "bytes": 131328
+  "bytes": 112176
 }

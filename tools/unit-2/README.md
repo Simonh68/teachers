@@ -5,11 +5,11 @@ The approved `Grade7_Story_Plan_HE.md` and the user's subsequent instructions ar
 ## Included
 
 - A comparative main text: school-year starts and ends, summer holidays and seasons in Japan, Alaska, Florida, England, the UAE and Jersey.
-- Five documentary companion texts: an Anchorage snow day, a horse journey in Argentina, Samuel's wheelchair journey in India, a school boat in the Isles of Scilly, and Barcelona's bike bus. Each has an English source reference; the two press photographs have English captions and credits.
-- Read & Listen: six recordings, 63 sentences and 28 short parts; English/Hebrew sentence pairs, contextual word help, audio word highlighting, five speeds, sentence repeat, touch navigation and local progress.
+- Three classroom message adaptations based on documented journeys, distributed across three unit parts: a WhatsApp message from Argentina (South America), an email from India (Asia), and a Instagram post from the Isles of Scilly (Europe). Each has its own page, English source reference and clear adaptation label.
+- Read & Listen: four recordings, 51 sentences and 23 short parts; English/Hebrew sentence pairs, contextual word help, audio word highlighting, five speeds, sentence repeat, touch navigation and local progress.
 - Exactly 165 Core I records from groups 03–05, their recorded English words/examples, 165 context questions and independent sentence tasks. The coverage map distinguishes exposure from mastery.
 - Present Simple A and B: 46 and 43 slides, with independent responses before feedback.
-- A listening activity, a four-page student PDF, a workbook answer key and a 20-slide HTML teacher guide.
+- A listening activity, a six-page student PDF with messages on pages 2, 4 and 5, a workbook answer key and a 20-slide HTML teacher guide.
 
 ## Vocabulary correction
 
@@ -34,6 +34,6 @@ Audio builds reuse files only when their recorded text hashes match. The source 
 
 ## Verification and scope
 
-Run `qa_foundation.cjs`, `qa_reading.cjs` and `qa_activities.cjs` with Node and Playwright. `UNIT2_CHROMIUM` may specify an installed Chromium executable. Each writes its corresponding JSON report. The PDF is rendered and visually inspected separately.
+Run `verify_revision.py`, `qa_foundation.cjs`, `qa_reading.cjs` and `qa_activities.cjs` with Node and Playwright. `UNIT2_CHROMIUM` may specify an installed Chromium executable. Each writes its corresponding JSON report. The PDF is rendered and visually inspected separately.
 
-Jersey is the English-speaking island used in this edition. Florida's summer length is explicitly a summer 2026 example; other dated summer examples are 2027. Calendars are local examples, not universal country-wide dates. Documentary routines refer to their stated source dates; historical present does not imply current conditions. These scope choices remain visible in the source notes.
+Jersey is the English-speaking island used in this edition. The main text uses general seasonal patterns, rounded holiday lengths and supplemental dates, with no fixed calendar year. School-year spans include shorter holidays. The messages use first-person classroom adaptations, not original messages or direct quotations. See `sources/seasonal-calendar-review.md`.

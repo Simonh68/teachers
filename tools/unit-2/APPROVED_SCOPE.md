@@ -38,3 +38,11 @@ Reading and vocabulary recordings, Read & Listen, context practice, listening wo
 ## Publication authorization
 
 On 22 September 2026 the user explicitly instructed: “פרסם את היחידה השנייה.” This authorizes publishing the completed Unit 2 edition, including the current country choices and materials, to Teachers. Draft-only restrictions above are superseded for this release. E-Vocab software synchronization remains separately tracked in issue #5.
+
+## Current revision: seasons and three message formats
+
+The user asked to remove fixed calendar years from the main reading, put seasons and holiday lengths first, retain dates only as supplements, explain school-year length and US variation, and use easier language instead of “approximately” in the reading. The next instructions narrowed the companion material to three journeys in three different world regions, distributed through the unit. The user then requested personal messages and suggested WhatsApp, email and Instagram.
+
+This supersedes earlier five-story and snow-day arrangements. The current sequence is: Part 1, Carlito’s horse journey in Argentina as a WhatsApp classroom message; Part 2, Samuel’s wheelchair journey in India as an email; Part 3, Zoe and Isaac’s boat journey in the Isles of Scilly as a Instagram classroom post. Each is a separate, clearly labelled adaptation with factual source details. The workbook mirrors the distribution and ends with a reply-writing task. English-first content and source labels remain required; Hebrew provides learning support.
+
+The latest platform follow-up selects Instagram for the third message; the earlier Facebook suggestion is superseded.

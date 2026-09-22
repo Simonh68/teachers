@@ -1,0 +1,99 @@
+[
+  {
+    "id": "horse",
+    "title": "A Horse Before Class",
+    "sender": "Carlito",
+    "region": "South America",
+    "place": "Patagonia, Argentina",
+    "mode": "horse",
+    "period": "On the Way to School, documentary, 2013",
+    "format": "classroom-message",
+    "en": "Hi! I am Carlito from Patagonia, Argentina. My school is eighteen kilometres from home. On school days, my sister Micaela and I ride our horse, Chiverito, through the mountains. Bad weather can make the journey difficult. I want to be a vet. How do you get to school?",
+    "he": "שלום! אני קרליטו מפטגוניה שבארגנטינה. בית הספר שלי נמצא שמונה־עשר קילומטרים מהבית. בימי לימודים, אחותי מיקאלה ואני רוכבים על הסוס שלנו, צ׳יבריטו, דרך ההרים. מזג אוויר גרוע עלול להקשות על הדרך. אני רוצה להיות וטרינר. איך אתם מגיעים לבית הספר?",
+    "source": "https://medias.unifrance.org/medias/199/173/110023/presse/on-the-way-to-school-presskit-english.pdf",
+    "questions": [
+      [
+        "Who rides with Carlito?",
+        "His sister Micaela."
+      ],
+      [
+        "How far is his school?",
+        "Eighteen kilometres."
+      ],
+      [
+        "What does Carlito want to be?",
+        "A vet."
+      ]
+    ],
+    "targets": [],
+    "note": "First-person classroom adaptation of a documented routine. The greeting and reader question are written for this unit. This is not an actual message or a quotation from Carlito. The source describes his life at the time of the documentary.",
+    "messageStyle": "whatsapp",
+    "channel": "WhatsApp message"
+  },
+  {
+    "id": "wheelchair",
+    "title": "Four Kilometres Together",
+    "sender": "Samuel",
+    "region": "Asia",
+    "place": "India",
+    "mode": "wheelchair",
+    "period": "On the Way to School, documentary, 2013",
+    "format": "classroom-message",
+    "en": "Hello! I am Samuel from India. I go to school in a wheelchair. My two younger brothers come with me. They push and pull my chair for four kilometres. Our route includes sand, rivers and palm trees. We make this long journey together. Who goes to school with you?",
+    "he": "שלום! אני סמואל מהודו. אני מגיע לבית הספר בכיסא גלגלים. שני אחיי הצעירים באים איתי. הם דוחפים ומושכים את הכיסא שלי לאורך ארבעה קילומטרים. המסלול שלנו כולל חול, נהרות ועצי דקל. אנחנו עושים את הדרך הארוכה הזאת יחד. מי הולך לבית הספר איתכם?",
+    "source": "https://www.fondation-beatrice-schonberg.org/sur-le-chemin-de-l-ecole/",
+    "questions": [
+      [
+        "Who helps Samuel?",
+        "His two younger brothers."
+      ],
+      [
+        "Name one feature of the route.",
+        "Sand, rivers or palm trees."
+      ],
+      [
+        "How do his brothers help?",
+        "They push and pull his chair."
+      ]
+    ],
+    "targets": [
+      "push"
+    ],
+    "note": "First-person classroom adaptation of a documented routine. The greeting and reader question are written for this unit. This is not an actual message or a quotation from Samuel. No injury, rescue or feelings have been invented.",
+    "messageStyle": "email",
+    "channel": "Email"
+  },
+  {
+    "id": "boat",
+    "title": "The School Boat",
+    "sender": "Zoe and Isaac",
+    "region": "Europe",
+    "place": "Bryher and Tresco, Isles of Scilly, England",
+    "mode": "boat",
+    "period": "BBC Teach, source copyright 2024",
+    "format": "classroom-message",
+    "en": "Hi from Bryher! We are Zoe and Isaac. Our school is on Tresco, a nearby island. Every morning, we meet the other children where the boat stops. Our boat trip takes five minutes. Sometimes we see dolphins! Then we walk to school. Do you cross water on your way to school?",
+    "he": "שלום מברייר! אנחנו זואי ואייזק. בית הספר שלנו נמצא בטרסקו, אי סמוך. בכל בוקר אנחנו פוגשים את הילדים האחרים במקום שבו הסירה עוצרת. השיט שלנו נמשך חמש דקות. לפעמים אנחנו רואים דולפינים! אחר כך אנחנו הולכים לבית הספר. האם אתם חוצים מים בדרך שלכם לבית הספר?",
+    "source": "https://teach.files.bbci.co.uk/teach/geography/ks1_uk_locations/life_on_the_isles_of_scilly.pdf",
+    "questions": [
+      [
+        "Why do Zoe and Isaac need a boat?",
+        "Their school is on another island."
+      ],
+      [
+        "How long is the boat trip?",
+        "Five minutes."
+      ],
+      [
+        "Do they always see dolphins?",
+        "No. Sometimes."
+      ]
+    ],
+    "targets": [
+      "nearby"
+    ],
+    "note": "First-person classroom adaptation of the children’s documented routine. The greeting and reader question are written for this unit. This is not an actual message or a quotation. The BBC programme’s fictional mouse presenter is omitted.",
+    "messageStyle": "instagram",
+    "channel": "Instagram post"
+  }
+]

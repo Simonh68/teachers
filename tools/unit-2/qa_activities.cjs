@@ -42,7 +42,7 @@ const server=http.createServer((req,res)=>{
    await p.locator(`input[name="q${i}"][value="${right}"]`).check();await p.locator(`[data-check="${i}"]`).click();assert((await p.locator(`#feedback${i}`).innerText()).startsWith('Correct'),'Correct listening feedback');
   }
   await p.locator('#speed').selectOption('0.5');await p.evaluate(()=>document.querySelector('audio').play());await p.waitForFunction(()=>document.querySelector('audio').currentTime>.15);assert(await p.locator('audio').evaluate(a=>a.playbackRate)===.5,'Listening speed');
-  await p.goto(base+'reading/?text=snow-day');assert(await p.locator('#speed').inputValue()==='0.5','Shared speed');
+  await p.goto(base+'reading/?text=boat');assert(await p.locator('#speed').inputValue()==='0.5','Shared speed');
   await p.goto(base+'vocabulary/full.html');await p.waitForFunction(()=>!document.querySelector('#sound').disabled);
   for(const id of ['g03-48','g05-45','g05-54']){
    await p.evaluate(id=>TeachersDeck.show(TeachersDeck.slides.findIndex(s=>s.type==='word'&&s.word.id===id)),id);await p.locator('#replay').click();await p.waitForFunction(()=>TeachersDeck.audio.currentTime>.1);assert(await p.evaluate(()=>TeachersDeck.audio.error===null),`Playback ${id}`);

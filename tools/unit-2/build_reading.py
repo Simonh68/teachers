@@ -250,21 +250,75 @@ zoe|זואי'''
 gloss=dict(line.split('|',1) for line in GLOSS.splitlines())
 numbers={'13':'שלושה־עשר','2':'שניים','20':'עשרים','2023':'שנת 2023','2026':'שנת 2026','2026–27':'שנת הלימודים 2026–2027','2027':'שנת 2027','28':'עשרים ושמונה','3':'שלושה','30':'שלושים','31':'שלושים ואחד','7':'שבע','9':'תשעה'}
 gloss.update(numbers)
+gloss.update(dict(line.split('|',1) for line in '''1|אחד: היום הראשון בחודש
+am|פועל קישור עם I בהווה
+around|בסביבות; מסביב
+autumn|סתיו
+bad|גרוע
+be|להיות
+both|שניהם; שתיהן
+change|להשתנות
+come|באים
+comes|מגיעה; חלה
+cross|חוצים
+dates|תאריכים
+do|פועל עזר לשאלה בהווה
+during|במהלך
+early|בתחילת; מוקדם
+england|אנגליה
+everywhere|בכל מקום
+hello|שלום
+hi|שלום; היי
+holidays|חופשות
+how|איך
+i|אני
+include|כוללות
+lengths|אורכים
+let|תנו; כאן בביטוי בואו
+look|נביט; להסתכל
+me|אותי; לי
+months|חודשים
+nine|תשעה
+my|שלי
+near|ליד; קרוב ל־
+our|שלנו
+rules|כללים
+short|קצרות
+states|מדינות בארצות הברית
+then|אחר כך
+trip|נסיעה; כאן שיט
+us|ארצות הברית (US); או לנו (us)
+usa|ארצות הברית
+usually|בדרך כלל
+want|רוצה
+water|מים
+we|אנחנו
+who|מי
+world|עולם
+you|אתם; אתן
+your|שלכם; שלכן'''.splitlines()))
 PHRASES={
  'school year':'שנת לימודים','school calendars':'לוחות לימודים','school calendar':'לוח לימודים','summer vacation':'חופשת קיץ','summer holiday':'חופשת קיץ','summer break':'חופשת קיץ','in the middle of':'באמצע','according to':'לפי','a little more than':'מעט יותר מ־','teacher training':'הכשרת מורים','at many schools':'בבתי ספר רבים','the end of':'סוף','go to school':'ללכת לבית הספר','get to school':'להגיע לבית הספר','rides a horse':'רוכב על סוס','is called':'נקרא','along the way':'לאורך הדרך','palm trees':'עצי דקל','school routine':'שגרת בית הספר','make this long journey':'עושים את הדרך הארוכה הזאת','every morning':'בכל בוקר','on fridays':'בימי שישי','bike bus':'אוטובוס אופניים: קבוצה הרוכבת יחד','on the way to school':'בדרך לבית הספר','school day':'יום לימודים','online learning':'למידה מרחוק','at the place':'במקום','goes outside':'יוצאת החוצה','clear snow':'לפנות שלג','earn some money':'להרוויח קצת כסף','the other children':'הילדים האחרים','where english':'שבו אנגלית','grade 7':'כיתה ז׳'
 }
-# Context overrides use global sentence number and the normalized token.
+# Context help is tied to sentence text so revisions cannot shift a gloss to another sentence.
+PHRASES.update({'let us':'בואו', 'around the world':'סביב העולם', 'school years':'שנות לימודים', 'school days':'ימי לימודים', 'from school to school':'מבית ספר לבית ספר', 'late summer':'סוף הקיץ', 'late spring':'סוף האביב', 'early summer':'תחילת הקיץ', 'early autumn':'תחילת הסתיו', 'with me':'איתי', 'our boat trip':'השיט שלנו', 'on your way to school':'בדרך שלכם לבית הספר'})
 OVERRIDES={
- (3,'all'):'לכולם',(5,'it'):'היא: שנת הלימודים',(7,'it'):'היא: חופשת הקיץ',
- (10,'its'):'שלה: כיתה ז׳ באנקורג׳',(20,'its'):'שלו: האי ג׳רזי',
- (26,'it'):'כאן: ציון התאריך',(30,'about'):'על; בנושא',
- (32,'to'):'כדי, לפני הפועל לפנות',(33,'to'):'לפני earn: להרוויח',
- (37,'goes'):'נוסעת; מצטרפת לדרך',(39,'make'):'להפוך את הדרך לקשה',
- (40,'to'):'לפני become: להיות',(42,'to'):'ל־; לפני get: כדי להגיע',
- (44,'for'):'לאורך',(47,'make'):'עושים את הדרך',
- (49,'on'):'באי',(50,'stops'):'עוצרת',(51,'takes'):'נמשך',
- (54,'for'):'עבור',(58,'it'):'הוא: אוטובוס האופניים',(58,'stops'):'תחנות',
- (59,'ride'):'רכיבה',(60,'protect'):'מגינים',(61,'rides'):'רוכבת',(62,'company'):'חברה בדרך; אנשים הנוסעים יחד'
+ ('Let us look around the world.','us'):'כאן בביטוי let us: בואו',
+ ('In Japan, the year goes from one spring to the next, with holidays along the way.','goes'):'נמשכת',
+ ('It comes during the school year, from late July to the end of August.','it'):'היא: חופשת הקיץ',
+ ('It ends in late spring, in May.','it'):'הם: הלימודים',
+ ('It ends in early summer, in early June.','it'):'הם: הלימודים',
+ ('It ends in summer, in late July.','it'):'היא: שנת הלימודים',
+ ('It ends in summer, around July 1.','it'):'היא: שנת הלימודים',
+ ('It ends in summer, in July.','it'):'היא: שנת הלימודים',
+ ('In Kent, it runs for about eleven months.','it'):'היא: שנת הלימודים',
+ ('Bad weather can make the journey difficult.','make'):'להפוך את הדרך לקשה',
+ ('They push and pull my chair for four kilometres.','for'):'לאורך',
+ ('We make this long journey together.','make'):'עושים את הדרך',
+ ('Our school is on Tresco, a nearby island.','on'):'באי',
+ ('Every morning, we meet the other children where the boat stops.','stops'):'עוצרת',
+ ('Our boat trip takes five minutes.','takes'):'נמשך',
+ ('Who goes to school with you?','goes'):'הולך או הולכת'
 }
 def clean(s):return re.sub(r'^[^\w]+|[^\w]+$','',s).lower()
 def split(s):return [x.strip() for x in re.findall(r'.+?(?:[.!?](?=\s|$)|$)',s) if x.strip()]
@@ -272,27 +326,26 @@ sentences=[];texts=[]
 main_sections=[]
 for j,(title,en,he) in enumerate(D['main']):
     ens,hes=split(en),split(he)
-    if j==1:hes=['ביפן שנת הלימודים מתחילה באפריל, באביב.','היא מסתיימת בסוף מרץ.','חופשת הקיץ נמצאת באמצע שנת הלימודים.','בבתי ספר רבים היא נמשכת בערך שישה שבועות, מסוף יולי עד סוף אוגוסט.']
     assert len(ens)==len(hes),(title,len(ens),len(hes))
     main_sections.append((title,list(zip(ens,hes))))
-main=dict(id='school-calendars',title='School Years Around the World',period='Local calendar examples: 2026–27; Florida summer example: 2026',sources=list(dict.fromkeys(u for c in D['calendar'] for u in c['sources'])),sections=main_sections,questions=[
+main=dict(id='school-calendars',title='School Years Around the World',period='General seasonal patterns; local dates vary',sources=list(dict.fromkeys(u for c in D['calendar'] for u in c['sources'])),sections=main_sections,questions=[
  ['Why does Japan give a different example?','Its summer vacation is inside the school year.'],
  ['Do all schools in the USA follow one calendar?','No. Anchorage and Miami-Dade have different dates.'],
  ['Which example has a summer break of about eleven weeks?','Anchorage, Alaska.'],
- ['Why is a place name such as Kent useful?','It tells us which local calendar the information describes.']])
+ ['When does the school year usually start in Kent?','In early autumn, around September 1.']])
 alltexts=[main]
 for i,s in enumerate(D['stories']):
     ens,hes=split(s['en']),split(s['he']);assert len(ens)==len(hes)
-    alltexts.append(dict(id=['snow-day','horse','wheelchair','boat','bike-bus'][i],title=s['title'],period=s['place']+' · '+s['period'],sources=[s['source']],sections=[(s['title'],list(zip(ens,hes)))],questions=s['questions'],photo=s.get('photo')))
+    alltexts.append(dict(id=s['id'],title=s['channel']+': '+s['title'],period=s['channel']+' · '+s['sender']+' · '+s['region']+' · Classroom adaptation',sources=[s['source']],sections=[(s['title'],list(zip(ens,hes)))],questions=s['questions'],photo=s.get('photo'),messageStyle=s['messageStyle'],sourcePeriod=s['period']))
 for t in alltexts:
-    text=dict(id=t['id'],title=t['title'],period=t['period'],sources=t['sources'],questions=t['questions'],ids=[],pages=[],photo=t.get('photo'))
+    text=dict(id=t['id'],title=t['title'],period=t['period'],sources=t['sources'],questions=t['questions'],ids=[],pages=[],photo=t.get('photo'),messageStyle=t.get('messageStyle'),sourcePeriod=t.get('sourcePeriod'))
     for heading,pairs in t['sections']:
         page=[];wc=0
         for en,he in pairs:
             n=len(sentences);tokens=en.split();words=[]
             for token in tokens:
                 k=clean(token);assert k in gloss,(n,token)
-                words.append(dict(word=token,he=OVERRIDES.get((n,k),gloss[k])))
+                words.append(dict(word=token,he=OVERRIDES.get((en,k),gloss[k])))
             units=[];cursor=0
             while cursor<len(words):
                 match=None
@@ -314,7 +367,7 @@ for t in alltexts:
 old={}
 if (DEST/'content.json').exists():old=json.loads((DEST/'content.json').read_text())
 for s in sentences:
-    previous=next((o for o in old.get('sentences',[]) if o['id']==s['id'] and o['en']==s['en']),{})
+    previous=next((o for o in old.get('sentences',[]) if o['textId']==s['textId'] and o['en']==s['en']),{})
     for k in ['audio','start','end','timings']:
         if k in previous:s[k]=previous[k]
 for t in texts:
@@ -322,7 +375,7 @@ for t in texts:
     if all('audio' in sentences[i] for i in t['ids']):
         for k in ['audio','sha256']:
             if k in previous:t[k]=previous[k]
-data=dict(title='School Days Around the World',texts=texts,sentences=sentences,wordCount=sum(len(s['words']) for s in sentences),source='Unit 2 canonical main text and five documented companion stories')
+data=dict(title='School Days Around the World',texts=texts,sentences=sentences,wordCount=sum(len(s['words']) for s in sentences),source='Unit 2 canonical main text and three classroom messages based on documented journeys')
 (DEST/'content.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
 (DEST/'data.js').write_text('window.READING = '+json.dumps(data,ensure_ascii=False)+';\n')
 print(json.dumps(dict(texts=len(texts),sentences=len(sentences),words=data['wordCount'],pages=sum(len(t['pages']) for t in texts)),ensure_ascii=False))

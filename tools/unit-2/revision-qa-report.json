@@ -1,0 +1,17 @@
+{
+  "main_words": 258,
+  "messages": 3,
+  "regions": 3,
+  "formats": [
+    "WhatsApp",
+    "Email",
+    "Instagram"
+  ],
+  "reading_texts": 4,
+  "sentences": 51,
+  "reading_parts": 23,
+  "words": 406,
+  "matched_recordings": 4,
+  "workbook_pages": 6,
+  "errors": []
+}

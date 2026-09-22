@@ -27,7 +27,7 @@ const server=http.createServer((req,res)=>{let p=path.join(root,decodeURICompone
   await p.goto(base+'vocabulary/full.html');await p.waitForFunction(()=>window.TeachersDeck);await p.evaluate(()=>document.fonts.ready);
   const vocab=await p.evaluate(()=>{const d=TeachersDeck,errors=[];for(let n=0;n<d.slides.length;n++){d.show(n);const s=document.querySelector('#stage');if(s.scrollWidth>s.clientWidth+1)errors.push(n+1);if(d.slides[n].type==='word'&&!d.slides[n].reveal){const rect=()=>[...s.querySelectorAll('[data-original]')].map(a=>[a.offsetLeft,a.offsetTop,a.offsetWidth,a.offsetHeight]);const before=JSON.stringify(rect());d.show(n+1);if(before!==JSON.stringify(rect()))errors.push('pair '+n);}}return {words:d.words.length,slides:d.slides.length,errors};});
   assert(vocab.words===165,`vocab records ${vocab.words}`);assert(!vocab.errors.length,`vocabulary ${width}: ${vocab.errors}`);checked+=vocab.slides;
-  for(const file of ['','main-text.html','companion-stories.html','worksheet.html','teacher.html']){await p.goto(base+file);await p.evaluate(()=>document.fonts.ready);assert(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`${file} ${width}: page overflow`);}
+  for(const file of ['','main-text.html','companion-stories.html','journey-horse.html','journey-wheelchair.html','journey-boat.html','worksheet.html','teacher.html']){await p.goto(base+file);await p.evaluate(()=>document.fonts.ready);assert(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`${file} ${width}: page overflow`);}
   if(width===390){
    const cdp=await ctx.newCDPSession(p);async function swipe(x,y,dx,dy){await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x,y}]});for(let n=1;n<=6;n++)await cdp.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:x+dx*n/6,y:y+dy*n/6}]});await cdp.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});}
    for(const [file,id,next,prev] of [['grammar-a/','#stage','#counter',null],['grammar-b/','#stage','#counter',null],['teacher.html','main','#count',null],['vocabulary/full.html','#stage','#counter',null]]){
@@ -36,7 +36,7 @@ const server=http.createServer((req,res)=>{let p=path.join(root,decodeURICompone
     await swipe(x,y,-100,0);assert(await p.locator(next).innerText()!==before,`${file}: left swipe`);await swipe(x-100,y,100,0);assert(await p.locator(next).innerText()===before,`${file}: right swipe`);
     await p.locator(id).evaluate(e=>e.scrollTop=e.scrollHeight);await swipe(x,y,0,-70);assert(await p.locator(next).innerText()!==before,`${file}: up swipe`);await p.locator(id).evaluate(e=>e.scrollTop=0);await swipe(x,y,0,70);assert(await p.locator(next).innerText()===before,`${file}: down swipe`);
    }
-   await p.goto(base+'companion-stories.html');await p.evaluate(async()=>{for(const img of document.images){img.loading='eager';await img.decode();}});assert(await p.locator('img').count()===2,'Two source photographs expected');await p.screenshot({path:'/tmp/unit2-stories-mobile.png',fullPage:true});
+   await p.goto(base+'companion-stories.html');await p.evaluate(async()=>{for(const img of document.images){img.loading='eager';await img.decode();}});assert(await p.locator('.card').count()===3,'Three separate message links expected');await p.screenshot({path:'/tmp/unit2-stories-mobile.png',fullPage:true});
   }
   report.viewports.push({width,height,slidesChecked:checked});await ctx.close();
  }
