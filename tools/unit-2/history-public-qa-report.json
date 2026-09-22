@@ -1,0 +1,30 @@
+{
+  "url": "https://simonh68.github.io/teachers/grade7/unit-2/",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "files": [
+    {
+      "file": "index.html",
+      "sha256": "841641f6930687fe31d079695083c0cacc5e99faf76305576a64ac90b69f788e"
+    },
+    {
+      "file": "meetings.css",
+      "sha256": "fa631a8d6c34e1067e4d4a81071bfd19300bd06f711c423fd7d9fd7eed97e681"
+    },
+    {
+      "file": "meetings.js",
+      "sha256": "9c5c2472dffcdcaf2285bd88c4f867d1b34695023b8e1a06ca353ad39cc92cff"
+    },
+    {
+      "file": "student-preparation.html",
+      "sha256": "98fb8b833fd02d6202ec43a3a3c3ca98032f2d0a32ac12ce2cc2c0b7b2a8ac86"
+    }
+  ],
+  "reset": true,
+  "restore": true,
+  "reloadPersistence": true,
+  "completionPreserved": true,
+  "errors": []
+}
