@@ -5,10 +5,11 @@
   "added_translation_slides": 46,
   "full_deck_slides": 142,
   "sentence_reader_slides": 92,
-  "passages": 21,
+  "passages": 27,
   "sentences": 46,
   "words_with_translation_and_timing": 382,
   "meaning_units": 189,
   "audio_seconds": 143.88,
-  "audio_sha256": "1db89e55506683784bb97ae62f5eef020a8279633950f6aa270584467a9e661f"
+  "audio_sha256": "1db89e55506683784bb97ae62f5eef020a8279633950f6aa270584467a9e661f",
+  "translation_space": "reserved strip, does not cover English"
 }

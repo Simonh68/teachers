@@ -9,3 +9,5 @@ Audio: prerecorded Microsoft en-US-BrianNeural, pitch +10Hz; measured WordBounda
 Image is a static library illustration, not a depiction of the fictional story. Photo source: https://images.unsplash.com/photo-1507842217343-583bb7270b66
 
 Rebuild: python tools/grade9_read_alone_audio.py; python tools/grade9_complete_readalone.py. Browser checks: tools/grade9_readalone_qa.py.
+
+Final responsive and teacher-guide integration: python tools/grade9_readalone_finalize.py (after the main builder, before browser QA).

@@ -36,6 +36,7 @@ function finished() {
 }
 function watch(token) { if (token !== generation || audio.paused) return; if (repeatEnd !== null && audio.currentTime >= repeatEnd + .015) { audio.currentTime = repeatEnd; repeatEnd = null; stop(); status('סיום המשפט. לחצו להמשך הקטע.'); return; } if (clip && audio.currentTime >= clip.end + .015) { finished(); return; } sync(); frame = requestAnimationFrame(() => watch(token)); }
 async function play(reset = false) {
+ if(reset)repeatEnd=null;
  if (loading || !clip) { status('האודיו נטען. נסו שוב בעוד רגע.'); return; }
  stop(); const token = generation;
  if (document.hidden) return;
@@ -117,6 +118,7 @@ async function init() {
  standalone = !!$('#raApp'); deck = !!document.body.dataset.raDeck; if (!standalone && !deck) return;
  document.body.append(audio); const tip = document.createElement('div'); tip.id = 'raTip'; tip.dir = 'rtl'; tip.lang = 'he'; tip.role = 'tooltip'; tip.hidden = true; document.body.append(tip);
  const host = standalone ? $('#raControls') : document.body.appendChild(Object.assign(document.createElement('div'),{className:'ra-deck-controls'})); host.innerHTML = toolbar(); if (deck) host.hidden = true;
+ const meaningDock = standalone ? $('#raMeaningDock') : host.appendChild(Object.assign(document.createElement('div'),{id:'raMeaningDock',dir:'rtl'})); meaningDock.append($('#raTip'));
  bind(); status('טוען טקסט והקלטה…');
  try {
   [data,timing] = await Promise.all(['content.json','audio.json'].map(async name => { const r = await fetch(new URL(name + '?v=20260922-ra1',base)); if (!r.ok) throw new Error(name + ' ' + r.status); return r.json(); }));
@@ -137,7 +139,7 @@ async function init() {
    $('#raPanel').addEventListener('touchcancel',()=>touch=null,{passive:true}); render();
   } else {
    mode = 'sentences';
-   const update = () => { stop(); hideTip(); const s = $('.slide.active[data-ra-sentence]'); host.hidden = !s; if (!s) { clip=null; return; } range([Number(s.dataset.raSentence)]); status('הקראה לאחר שתי שניות · נגיעה במילה לפירוש'); auto(); };
+   const update = () => { stop(); hideTip(); const s = $('.slide.active[data-ra-sentence]'); host.hidden = !s; if (!s) { clip=null; return; } range([Number(s.dataset.raSentence)]); requestAnimationFrame(()=>{document.body.style.setProperty('--ra-toolbar-space',(host.offsetHeight+10)+'px');window.dispatchEvent(new Event('resize'));}); status('הקראה לאחר שתי שניות · נגיעה במילה לפירוש'); auto(); };
    document.addEventListener('teachers:slidechange',update); update();
    document.addEventListener('click',e=>{if(e.target.closest('.section-nav,[data-step],.home'))hideTip();},true);
   }
