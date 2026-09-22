@@ -1,0 +1,217 @@
+name: Grade 9 Unit 1 build and QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_grade9_unit1.py'
+      - '.github/workflows/grade9-unit1-build.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: grade9-unit1-build
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Read canonical vocabulary
+        uses: actions/checkout@v4
+        with:
+          repository: Simonh68/E-Vocab-Band-II
+          path: _vocab_source
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install test dependencies
+        run: |
+          python -m pip install beautifulsoup4 playwright
+          python -m playwright install --with-deps chromium
+      - name: Generate source-preserving unit
+        run: |
+          python -m py_compile scripts/build_grade9_unit1.py
+          python scripts/build_grade9_unit1.py
+          node --check grade9/unit-1/unit.js
+      - name: Browser QA
+        run: |
+          mkdir -p qa-output
+          python - <<'PY'
+          from pathlib import Path
+          import json, subprocess, time
+          from playwright.sync_api import sync_playwright
+          root=Path('grade9/unit-1')
+          report={'browser':'Chromium','viewports':[],'checks':[], 'errors':[]}
+          server=subprocess.Popen(['python','-m','http.server','8765'],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
+          base='http://127.0.0.1:8765/grade9/unit-1/'
+          try:
+            time.sleep(1)
+            with sync_playwright() as pw:
+              browser=pw.chromium.launch()
+              context=browser.new_context()
+              page=context.new_page()
+              page.on('pageerror',lambda e:report['errors'].append(str(e)))
+              pages=sorted(p.name for p in root.glob('*.html'))
+              for width,height in [(1366,768),(390,844),(360,640)]:
+                page.set_viewport_size({'width':width,'height':height})
+                checked=[]
+                for name in pages:
+                  page.goto(base+name,wait_until='domcontentloaded')
+                  if name=='vocabulary.html':page.wait_for_function("document.querySelector('#v-word').textContent.length>0")
+                  page.wait_for_timeout(150)
+                  assert page.evaluate('document.documentElement.scrollWidth <= innerWidth+1'),f'Horizontal overflow: {name} {width}'
+                  page.screenshot(path=f'qa-output/{width}-{name}.png',full_page=True)
+                  checked.append(name)
+                report['viewports'].append({'width':width,'height':height,'pages':checked,'horizontalOverflow':False})
+              page.set_viewport_size({'width':1366,'height':768})
+              page.goto(base)
+              assert '11.10.2026' in page.inner_text('body')
+              assert '21.10.2026' in page.inner_text('body')
+              assert 'רק אם הדחייה תאושר' in page.inner_text('body')
+              checkbox=page.locator('[data-save=m1t1]')
+              checkbox.check()
+              page.locator('a[data-track][href="reading.html"]').first.click()
+              page.goto(base)
+              assert page.locator('[data-save=m1t1]').is_checked()
+              assert page.locator('a.opened[href="reading.html"]').count()>0
+              page.click('#reset-history')
+              assert page.locator('a.opened[href="reading.html"]').count()==0
+              assert page.locator('[data-save=m1t1]').is_checked()
+              page.click('#restore-history')
+              assert page.locator('a.opened[href="reading.html"]').count()>0
+              report['checks']+=['date status remains conditional','separate completion and opened-link tracking','history reset and restore preserve completion']
+              page.goto(base+'practice.html')
+              page.fill('#q1','My own answer, before the model.')
+              page.reload()
+              assert page.input_value('#q1')=='My own answer, before the model.'
+              assert page.locator('.answer[open]').count()==0
+              report['checks']+=['answers persist locally','model answers are closed initially']
+              page.goto(base+'writing.html')
+              page.fill('#writing','One two three.\n\nFour five.')
+              assert page.inner_text('#word-count').startswith('5 /')
+              assert page.locator('#writing-preview p').count()==2
+              assert page.locator('#writing-preview p b').all_text_contents()==['3','2']
+              page.reload()
+              assert page.input_value('#writing')=='One two three.\n\nFour five.'
+              report['checks']+=['writing count and paragraph preview','draft persists locally']
+              page.goto(base+'vocabulary.html')
+              page.wait_for_function("document.querySelector('#v-word').textContent.length>0")
+              assert page.inner_text('#v-meaning')==''
+              word=page.inner_text('#v-word');position=page.locator('#v-word').bounding_box()
+              page.click('#v-next')
+              assert page.inner_text('#v-word')==word
+              assert page.inner_text('#v-meaning')!=''
+              position2=page.locator('#v-word').bounding_box()
+              assert abs(position['y']-position2['y'])<1
+              assert abs(position['height']-position2['height'])<1
+              page.select_option('#v-group','21')
+              page.wait_for_timeout(50)
+              assert 'Group 21' in page.inner_text('#v-source')
+              for _ in range(6):page.click('#v-next')
+              assert page.is_visible('#v-break')
+              assert page.locator('#v-break img').evaluate('(i)=>i.complete&&i.naturalWidth>0')
+              page.select_option('#v-group','all')
+              total=json.loads((root/'manifest.json').read_text())['vocabularyRecords']
+              assert str(total)+' ערכים' in page.inner_text('#vocab-status')
+              page.keyboard.press('ArrowRight')
+              assert page.inner_text('#v-meaning')!=''
+              report['checks']+=['all three canonical groups available','translation on next step only','English source remains fixed during reveal','break after three vocabulary entries','keyboard navigation']
+              page.goto(base+'teacher.html')
+              page.keyboard.press('ArrowRight')
+              assert page.inner_text('#deck-count')=='2 / 12'
+              page.keyboard.press('End')
+              assert page.inner_text('#deck-count')=='12 / 12'
+              page.keyboard.press('Home')
+              assert page.inner_text('#deck-count')=='1 / 12'
+              report['checks']+=['teacher guide slide navigation']
+              page.goto(base+'assessment.html')
+              page.locator('#keys summary').click()
+              page.emulate_media(media='print')
+              assert not page.locator('#keys').is_visible()
+              page.emulate_media(media='screen')
+              report['checks']+=['practice print output hides answer key']
+              page.goto('http://127.0.0.1:8765/#grade9')
+              assert page.locator('#grade9 a[href="grade9/unit-1/"]').count()==1
+              report['checks']+=['unit indexed under Grade 9 exactly once']
+              assert not report['errors'],report['errors']
+              browser.close()
+            report['passed']=True
+            (root/'qa-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
+            Path('qa-output/qa-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
+            print(json.dumps(report,ensure_ascii=False,indent=2))
+          finally:
+            server.terminate()
+          PY
+      - name: Commit generated unit without changing original lessons
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add grade9/unit-1 index.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish verified Grade 9 Unit 1 and QA report'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Prepare site artifact
+        run: |
+          mkdir -p _site
+          rsync -a --exclude='.git' --exclude='.github' --exclude='_vocab_source' --exclude='_site' --exclude='qa-output' ./ _site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: grade9-unit1-browser-qa
+          path: qa-output
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pages
+      cancel-in-progress: true
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - name: Deploy verified site
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Verify public unit and vocabulary links
+        run: |
+          python - <<'PY'
+          import json,time,urllib.request
+          base='https://simonh68.github.io/teachers/grade9/unit-1/'
+          def read(url):
+            req=urllib.request.Request(url,headers={'User-Agent':'Teachers-Unit1-QA/1.0'})
+            with urllib.request.urlopen(req,timeout=30) as r:
+              assert r.status==200
+              return r.read().decode('utf-8')
+          for attempt in range(8):
+            try:
+              manifest=json.loads(read(base+'manifest.json?v='+str(time.time_ns())))
+              assert manifest['version']=='20260922-g9u1-1'
+              report=json.loads(read(base+'qa-report.json?v='+str(time.time_ns())))
+              assert report['passed']
+              for name in ['index.html','student-preparation.html','resources.html','reading.html','vocabulary.html','practice.html','writing.html','assessment.html','teacher.html']:
+                text=read(base+name+'?qa=20260922')
+                assert 'unit.css?v=20260922-g9u1-1' in text,name
+              print('PUBLIC UNIT VERIFIED: nine pages, manifest, and successful browser QA report.')
+              print('Vocabulary records:',manifest['vocabularyRecords'])
+              break
+            except Exception:
+              if attempt==7:raise
+              time.sleep(5)
+          for group in (21,22,23):
+            text=read(f'https://englishfornoar.co.il/band-ii/groups/group-{group}.html')
+            assert 'Core II' in text
+            print('PUBLIC VOCABULARY LINK VERIFIED:',group)
+          PY
