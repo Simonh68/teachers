@@ -1,0 +1,56 @@
+{
+  "text": "land. Next week, he will land on the moon.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "e1cb2acdb0cbd5df8afce582adbc289984eaed452753f306dce6310bea41ab54",
+  "sha256": "1f3ed998522e2304ce2e104675e825ea8336c3f241459ef7bb578af354b8207c",
+  "words": [
+    {
+      "word": "land.",
+      "start": 0.05,
+      "end": 0.4375
+    },
+    {
+      "word": "Next",
+      "start": 0.8125,
+      "end": 1.1125
+    },
+    {
+      "word": "week,",
+      "start": 1.125,
+      "end": 1.4375
+    },
+    {
+      "word": "he",
+      "start": 1.4625,
+      "end": 1.675
+    },
+    {
+      "word": "will",
+      "start": 1.6875,
+      "end": 1.8625
+    },
+    {
+      "word": "land",
+      "start": 1.875,
+      "end": 2.275
+    },
+    {
+      "word": "on",
+      "start": 2.2875,
+      "end": 2.425
+    },
+    {
+      "word": "the",
+      "start": 2.4375,
+      "end": 2.5125
+    },
+    {
+      "word": "moon.",
+      "start": 2.525,
+      "end": 2.975
+    }
+  ],
+  "bytes": 20160
+}

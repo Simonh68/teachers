@@ -1,0 +1,41 @@
+{
+  "text": "tower. We can see the tower.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "925e1691e7ad801ad0df244c126b66b979b413b3552c0c7f98fbf6840079cea8",
+  "sha256": "04a3d152f30399c54c562563bce655853ecb119cba722fa434753803c421c114",
+  "words": [
+    {
+      "word": "tower.",
+      "start": 0.0625,
+      "end": 0.55
+    },
+    {
+      "word": "We",
+      "start": 0.9375,
+      "end": 1.025
+    },
+    {
+      "word": "can",
+      "start": 1.0375,
+      "end": 1.1875
+    },
+    {
+      "word": "see",
+      "start": 1.2,
+      "end": 1.45
+    },
+    {
+      "word": "the",
+      "start": 1.4625,
+      "end": 1.5625
+    },
+    {
+      "word": "tower.",
+      "start": 1.575,
+      "end": 2.125
+    }
+  ],
+  "bytes": 14976
+}

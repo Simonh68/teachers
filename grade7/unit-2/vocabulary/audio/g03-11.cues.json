@@ -1,0 +1,56 @@
+{
+  "text": "reduce. I need to reduce my expenses this month.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "867aeb64132d31260cf0c413ab1a649663f66276a116cbf9c8501655a7b2419a",
+  "sha256": "817a74756f1ae21ed5564555ad9477928d7c31cee8e304e023bb7a4ea227e115",
+  "words": [
+    {
+      "word": "reduce.",
+      "start": 0.0625,
+      "end": 0.5875
+    },
+    {
+      "word": "I",
+      "start": 0.975,
+      "end": 1.0375
+    },
+    {
+      "word": "need",
+      "start": 1.05,
+      "end": 1.275
+    },
+    {
+      "word": "to",
+      "start": 1.2875,
+      "end": 1.4
+    },
+    {
+      "word": "reduce",
+      "start": 1.4125,
+      "end": 1.9125
+    },
+    {
+      "word": "my",
+      "start": 1.925,
+      "end": 2.1125
+    },
+    {
+      "word": "expenses",
+      "start": 2.125,
+      "end": 2.7375
+    },
+    {
+      "word": "this",
+      "start": 2.75,
+      "end": 2.9625
+    },
+    {
+      "word": "month.",
+      "start": 2.975,
+      "end": 3.475
+    }
+  ],
+  "bytes": 23040
+}

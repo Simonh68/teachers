@@ -1,0 +1,51 @@
+{
+  "text": "look around. Look around. What can you see?",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "e169f9bb351e1c08e4ee48bb70047f0ef4f7a841a7b1aadc431d5156f7e9efb2",
+  "sha256": "f8cc5b418b6a53c3133a2506923500ca543d82c91b97af407fd02e18868e2af2",
+  "words": [
+    {
+      "word": "look",
+      "start": 0.0625,
+      "end": 0.25
+    },
+    {
+      "word": "around.",
+      "start": 0.2625,
+      "end": 0.825
+    },
+    {
+      "word": "Look",
+      "start": 1.2125,
+      "end": 1.3875
+    },
+    {
+      "word": "around.",
+      "start": 1.4,
+      "end": 1.95
+    },
+    {
+      "word": "What",
+      "start": 2.3375,
+      "end": 2.4625
+    },
+    {
+      "word": "can",
+      "start": 2.475,
+      "end": 2.6125
+    },
+    {
+      "word": "you",
+      "start": 2.625,
+      "end": 2.725
+    },
+    {
+      "word": "see?",
+      "start": 2.7375,
+      "end": 3.15
+    }
+  ],
+  "bytes": 21168
+}

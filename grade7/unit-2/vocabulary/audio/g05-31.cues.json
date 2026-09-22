@@ -1,0 +1,41 @@
+{
+  "text": "at. Water freezes at zero degrees.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "648bb48f846e92dc0a7b226c9b39fa9004da50eea3814e2dae71f92e79bd6ae7",
+  "sha256": "28fb49dc1da9ac424186b60b268759418d2da5136d71b1d184e655c008d96244",
+  "words": [
+    {
+      "word": "at.",
+      "start": 0.05,
+      "end": 0.175
+    },
+    {
+      "word": "Water",
+      "start": 0.575,
+      "end": 0.875
+    },
+    {
+      "word": "freezes",
+      "start": 0.8875,
+      "end": 1.475
+    },
+    {
+      "word": "at",
+      "start": 1.4875,
+      "end": 1.6875
+    },
+    {
+      "word": "zero",
+      "start": 1.7,
+      "end": 2.075
+    },
+    {
+      "word": "degrees.",
+      "start": 2.0875,
+      "end": 2.7
+    }
+  ],
+  "bytes": 18432
+}

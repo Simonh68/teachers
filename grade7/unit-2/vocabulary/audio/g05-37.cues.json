@@ -1,0 +1,41 @@
+{
+  "text": "involve. What exactly does it involve?",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "053e5691ff8cda0fa82cac1f8b2b5cf34b1914a58a8772aff16847f78c10b5e7",
+  "sha256": "56e4de3d52a39eed4b82a5cd546f1cb77a52fe7e75f4a9d5909923f050598280",
+  "words": [
+    {
+      "word": "involve.",
+      "start": 0.05,
+      "end": 0.7125
+    },
+    {
+      "word": "What",
+      "start": 1.0875,
+      "end": 1.2625
+    },
+    {
+      "word": "exactly",
+      "start": 1.275,
+      "end": 1.8875
+    },
+    {
+      "word": "does",
+      "start": 1.9,
+      "end": 2.1125
+    },
+    {
+      "word": "it",
+      "start": 2.125,
+      "end": 2.2375
+    },
+    {
+      "word": "involve?",
+      "start": 2.25,
+      "end": 2.9
+    }
+  ],
+  "bytes": 19584
+}

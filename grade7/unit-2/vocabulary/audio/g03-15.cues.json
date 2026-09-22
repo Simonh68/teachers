@@ -1,0 +1,46 @@
+{
+  "text": "instrument. The flute is my favorite instrument.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "7adc4784694177e7e855516384142e998939636903dd6491a24df8ce782f9707",
+  "sha256": "c4abd027168046b648164fae39c66470d7a5fde7fed1b7a614c0a2bdc5560635",
+  "words": [
+    {
+      "word": "instrument.",
+      "start": 0.0625,
+      "end": 0.775
+    },
+    {
+      "word": "The",
+      "start": 1.1625,
+      "end": 1.2375
+    },
+    {
+      "word": "flute",
+      "start": 1.25,
+      "end": 1.675
+    },
+    {
+      "word": "is",
+      "start": 1.7,
+      "end": 1.9125
+    },
+    {
+      "word": "my",
+      "start": 1.925,
+      "end": 2.125
+    },
+    {
+      "word": "favorite",
+      "start": 2.1375,
+      "end": 2.625
+    },
+    {
+      "word": "instrument.",
+      "start": 2.6375,
+      "end": 3.3125
+    }
+  ],
+  "bytes": 22176
+}

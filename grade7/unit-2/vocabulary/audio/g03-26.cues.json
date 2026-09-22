@@ -1,0 +1,46 @@
+{
+  "text": "suggest. May I please suggest another hotel?",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "2c0b63f88e33532abcdcd2cb4d3cd02f9c9de01d095e691809b474ff10f753c7",
+  "sha256": "21d0386b5183d9602b4561ee9987589f9f571a324d90485703b71014e7dd71c2",
+  "words": [
+    {
+      "word": "suggest.",
+      "start": 0.05,
+      "end": 0.7125
+    },
+    {
+      "word": "May",
+      "start": 1.0875,
+      "end": 1.2375
+    },
+    {
+      "word": "I",
+      "start": 1.25,
+      "end": 1.325
+    },
+    {
+      "word": "please",
+      "start": 1.3375,
+      "end": 1.65
+    },
+    {
+      "word": "suggest",
+      "start": 1.6625,
+      "end": 2.15
+    },
+    {
+      "word": "another",
+      "start": 2.1625,
+      "end": 2.4875
+    },
+    {
+      "word": "hotel?",
+      "start": 2.5,
+      "end": 3.05
+    }
+  ],
+  "bytes": 20592
+}

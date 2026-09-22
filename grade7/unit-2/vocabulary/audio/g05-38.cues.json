@@ -1,0 +1,51 @@
+{
+  "text": "hurt. I am not here to hurt you.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "fc73706722f57ea96f2b0c310a442292fd3eeb440ba448ed4debe0d2ee7c81b0",
+  "sha256": "6bd98c55ea9d193a47f19c960b0260d2021c3938cc0b4de007326cdc012feb0c",
+  "words": [
+    {
+      "word": "hurt.",
+      "start": 0.05,
+      "end": 0.2875
+    },
+    {
+      "word": "I",
+      "start": 0.6875,
+      "end": 0.75
+    },
+    {
+      "word": "am",
+      "start": 0.7625,
+      "end": 0.8625
+    },
+    {
+      "word": "not",
+      "start": 0.875,
+      "end": 1.1
+    },
+    {
+      "word": "here",
+      "start": 1.1125,
+      "end": 1.3625
+    },
+    {
+      "word": "to",
+      "start": 1.375,
+      "end": 1.4625
+    },
+    {
+      "word": "hurt",
+      "start": 1.475,
+      "end": 1.775
+    },
+    {
+      "word": "you.",
+      "start": 1.7875,
+      "end": 2.075
+    }
+  ],
+  "bytes": 14688
+}

@@ -1,0 +1,51 @@
+{
+  "text": "remain. I do not want to remain here.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "785d27d5e75606cf1756c3ca0c7a12f00b2d40832b8cca95bdef041f4d20775f",
+  "sha256": "57f451a74f370075719ab283219866457cd3b65103d2134764e1e91118dd7001",
+  "words": [
+    {
+      "word": "remain.",
+      "start": 0.075,
+      "end": 0.5625
+    },
+    {
+      "word": "I",
+      "start": 0.95,
+      "end": 1.025
+    },
+    {
+      "word": "do",
+      "start": 1.0375,
+      "end": 1.15
+    },
+    {
+      "word": "not",
+      "start": 1.1625,
+      "end": 1.4
+    },
+    {
+      "word": "want",
+      "start": 1.4125,
+      "end": 1.6125
+    },
+    {
+      "word": "to",
+      "start": 1.625,
+      "end": 1.7
+    },
+    {
+      "word": "remain",
+      "start": 1.7125,
+      "end": 2.0875
+    },
+    {
+      "word": "here.",
+      "start": 2.1,
+      "end": 2.525
+    }
+  ],
+  "bytes": 17424
+}

@@ -1,0 +1,326 @@
+{
+  "text": "On Fridays, some children in Barcelona ride to school together. Parents go with them. This group is called a bike bus. It has stops where more families join. The full ride takes approximately twenty-five minutes. Police help protect the group on the busy road. One mother rides with her five-year-old son. The regular Friday journey gives them company on the way to school.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "0958b9e5581140b86aa85736a95ae37be0fc07d257da51ed5979ec60fdeb6651",
+  "sha256": "2cdce617295b264ce80702dc509e77e4d0c5234267e9dd2e361d1598dc626b6f",
+  "words": [
+    {
+      "word": "On",
+      "start": 0.075,
+      "end": 0.2
+    },
+    {
+      "word": "Fridays,",
+      "start": 0.2125,
+      "end": 0.8
+    },
+    {
+      "word": "some",
+      "start": 0.8125,
+      "end": 1.1
+    },
+    {
+      "word": "children",
+      "start": 1.1125,
+      "end": 1.5375
+    },
+    {
+      "word": "in",
+      "start": 1.55,
+      "end": 1.6875
+    },
+    {
+      "word": "Barcelona",
+      "start": 1.7,
+      "end": 2.375
+    },
+    {
+      "word": "ride",
+      "start": 2.3875,
+      "end": 2.675
+    },
+    {
+      "word": "to",
+      "start": 2.6875,
+      "end": 2.7625
+    },
+    {
+      "word": "school",
+      "start": 2.775,
+      "end": 3.1125
+    },
+    {
+      "word": "together.",
+      "start": 3.125,
+      "end": 3.6625
+    },
+    {
+      "word": "Parents",
+      "start": 4.05,
+      "end": 4.4625
+    },
+    {
+      "word": "go",
+      "start": 4.475,
+      "end": 4.7
+    },
+    {
+      "word": "with",
+      "start": 4.7125,
+      "end": 4.8875
+    },
+    {
+      "word": "them.",
+      "start": 4.9,
+      "end": 5.25
+    },
+    {
+      "word": "This",
+      "start": 5.65,
+      "end": 5.8
+    },
+    {
+      "word": "group",
+      "start": 5.8125,
+      "end": 6.1375
+    },
+    {
+      "word": "is",
+      "start": 6.15,
+      "end": 6.2875
+    },
+    {
+      "word": "called",
+      "start": 6.3,
+      "end": 6.575
+    },
+    {
+      "word": "a",
+      "start": 6.5875,
+      "end": 6.6625
+    },
+    {
+      "word": "bike",
+      "start": 6.675,
+      "end": 6.9875
+    },
+    {
+      "word": "bus.",
+      "start": 7.0,
+      "end": 7.45
+    },
+    {
+      "word": "It",
+      "start": 7.8125,
+      "end": 7.925
+    },
+    {
+      "word": "has",
+      "start": 7.9375,
+      "end": 8.0875
+    },
+    {
+      "word": "stops",
+      "start": 8.1,
+      "end": 8.5875
+    },
+    {
+      "word": "where",
+      "start": 8.6,
+      "end": 8.8125
+    },
+    {
+      "word": "more",
+      "start": 8.825,
+      "end": 9.075
+    },
+    {
+      "word": "families",
+      "start": 9.0875,
+      "end": 9.55
+    },
+    {
+      "word": "join.",
+      "start": 9.5625,
+      "end": 10.025
+    },
+    {
+      "word": "The",
+      "start": 10.4125,
+      "end": 10.4875
+    },
+    {
+      "word": "full",
+      "start": 10.5,
+      "end": 10.8
+    },
+    {
+      "word": "ride",
+      "start": 10.8125,
+      "end": 11.2125
+    },
+    {
+      "word": "takes",
+      "start": 11.225,
+      "end": 11.525
+    },
+    {
+      "word": "approximately",
+      "start": 11.5375,
+      "end": 12.3125
+    },
+    {
+      "word": "twenty-five",
+      "start": 12.325,
+      "end": 12.9125
+    },
+    {
+      "word": "minutes.",
+      "start": 12.925,
+      "end": 13.4375
+    },
+    {
+      "word": "Police",
+      "start": 13.8125,
+      "end": 14.1875
+    },
+    {
+      "word": "help",
+      "start": 14.2,
+      "end": 14.5375
+    },
+    {
+      "word": "protect",
+      "start": 14.55,
+      "end": 15.0375
+    },
+    {
+      "word": "the",
+      "start": 15.05,
+      "end": 15.125
+    },
+    {
+      "word": "group",
+      "start": 15.1375,
+      "end": 15.5125
+    },
+    {
+      "word": "on",
+      "start": 15.5375,
+      "end": 15.7
+    },
+    {
+      "word": "the",
+      "start": 15.7125,
+      "end": 15.8
+    },
+    {
+      "word": "busy",
+      "start": 15.8125,
+      "end": 16.1
+    },
+    {
+      "word": "road.",
+      "start": 16.1125,
+      "end": 16.55
+    },
+    {
+      "word": "One",
+      "start": 16.9625,
+      "end": 17.225
+    },
+    {
+      "word": "mother",
+      "start": 17.2375,
+      "end": 17.55
+    },
+    {
+      "word": "rides",
+      "start": 17.5625,
+      "end": 18.025
+    },
+    {
+      "word": "with",
+      "start": 18.0375,
+      "end": 18.2
+    },
+    {
+      "word": "her",
+      "start": 18.2125,
+      "end": 18.375
+    },
+    {
+      "word": "five-year-old",
+      "start": 18.3875,
+      "end": 19.0375
+    },
+    {
+      "word": "son.",
+      "start": 19.05,
+      "end": 19.4875
+    },
+    {
+      "word": "The",
+      "start": 19.875,
+      "end": 19.95
+    },
+    {
+      "word": "regular",
+      "start": 19.9625,
+      "end": 20.375
+    },
+    {
+      "word": "Friday",
+      "start": 20.3875,
+      "end": 20.775
+    },
+    {
+      "word": "journey",
+      "start": 20.7875,
+      "end": 21.275
+    },
+    {
+      "word": "gives",
+      "start": 21.2875,
+      "end": 21.55
+    },
+    {
+      "word": "them",
+      "start": 21.5625,
+      "end": 21.7375
+    },
+    {
+      "word": "company",
+      "start": 21.75,
+      "end": 22.3
+    },
+    {
+      "word": "on",
+      "start": 22.3125,
+      "end": 22.475
+    },
+    {
+      "word": "the",
+      "start": 22.4875,
+      "end": 22.5625
+    },
+    {
+      "word": "way",
+      "start": 22.575,
+      "end": 22.7625
+    },
+    {
+      "word": "to",
+      "start": 22.775,
+      "end": 22.8625
+    },
+    {
+      "word": "school.",
+      "start": 22.875,
+      "end": 23.4125
+    }
+  ],
+  "bytes": 142704
+}

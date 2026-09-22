@@ -1,0 +1,41 @@
+{
+  "text": "toast. Let’s toast the happy couple.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "fa471b4d4b81aa40b8fada17809594d9148d014adc4847f2ff8887fd2a3a9f42",
+  "sha256": "7847838a232a67ecec2a770edc38a2c8d958e18ed430d549c16b4cbf7dfdd976",
+  "words": [
+    {
+      "word": "toast.",
+      "start": 0.05,
+      "end": 0.45
+    },
+    {
+      "word": "Let’s",
+      "start": 0.8375,
+      "end": 1.0875
+    },
+    {
+      "word": "toast",
+      "start": 1.1,
+      "end": 1.5375
+    },
+    {
+      "word": "the",
+      "start": 1.55,
+      "end": 1.65
+    },
+    {
+      "word": "happy",
+      "start": 1.6625,
+      "end": 2.0125
+    },
+    {
+      "word": "couple.",
+      "start": 2.025,
+      "end": 2.525
+    }
+  ],
+  "bytes": 17424
+}

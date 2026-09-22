@@ -1,0 +1,51 @@
+{
+  "text": "hand something out. Please hand out the papers.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "1a7f26d5215a086dbb3609bbb1eaeaef5fca33d39b6159e1cc1603e78d5be2b9",
+  "sha256": "291739c750af455bdbbac259069d5cf7f973d6ea81066358e057e1325b49fce4",
+  "words": [
+    {
+      "word": "hand",
+      "start": 0.075,
+      "end": 0.3125
+    },
+    {
+      "word": "something",
+      "start": 0.325,
+      "end": 0.725
+    },
+    {
+      "word": "out.",
+      "start": 0.7375,
+      "end": 1.075
+    },
+    {
+      "word": "Please",
+      "start": 1.45,
+      "end": 1.725
+    },
+    {
+      "word": "hand",
+      "start": 1.7375,
+      "end": 2.0875
+    },
+    {
+      "word": "out",
+      "start": 2.1,
+      "end": 2.325
+    },
+    {
+      "word": "the",
+      "start": 2.3375,
+      "end": 2.425
+    },
+    {
+      "word": "papers.",
+      "start": 2.4375,
+      "end": 3.0625
+    }
+  ],
+  "bytes": 20592
+}

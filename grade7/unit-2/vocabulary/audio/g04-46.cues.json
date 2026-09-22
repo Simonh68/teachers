@@ -1,0 +1,51 @@
+{
+  "text": "dependent. He is totally dependent on his parents.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "51503fe7c78e6de3726e6487476a5e22918adbc6143fb1f6ab2f58d9f2268937",
+  "sha256": "f3560da39670c7da058bee1410c6b8d4911d574a8c1a540ae30a5319277d3f21",
+  "words": [
+    {
+      "word": "dependent.",
+      "start": 0.05,
+      "end": 0.7125
+    },
+    {
+      "word": "He",
+      "start": 1.1,
+      "end": 1.2
+    },
+    {
+      "word": "is",
+      "start": 1.2125,
+      "end": 1.3875
+    },
+    {
+      "word": "totally",
+      "start": 1.4,
+      "end": 1.85
+    },
+    {
+      "word": "dependent",
+      "start": 1.8625,
+      "end": 2.425
+    },
+    {
+      "word": "on",
+      "start": 2.4375,
+      "end": 2.575
+    },
+    {
+      "word": "his",
+      "start": 2.5875,
+      "end": 2.7625
+    },
+    {
+      "word": "parents.",
+      "start": 2.775,
+      "end": 3.3875
+    }
+  ],
+  "bytes": 22608
+}

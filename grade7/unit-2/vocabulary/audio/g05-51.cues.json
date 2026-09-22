@@ -1,0 +1,51 @@
+{
+  "text": "the young. The young need time to learn.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "bc607bcb600d93991858e94dfd098369a1eb58a6c0171ec0622592d9d3dfd990",
+  "sha256": "4c425d8aca271dc96f90bc0b382b990779e63b74e19fcab875cbbf090acfcffd",
+  "words": [
+    {
+      "word": "the",
+      "start": 0.075,
+      "end": 0.1375
+    },
+    {
+      "word": "young.",
+      "start": 0.15,
+      "end": 0.5625
+    },
+    {
+      "word": "The",
+      "start": 0.9375,
+      "end": 1.0
+    },
+    {
+      "word": "young",
+      "start": 1.0125,
+      "end": 1.3375
+    },
+    {
+      "word": "need",
+      "start": 1.35,
+      "end": 1.5625
+    },
+    {
+      "word": "time",
+      "start": 1.575,
+      "end": 1.8875
+    },
+    {
+      "word": "to",
+      "start": 1.9,
+      "end": 2.025
+    },
+    {
+      "word": "learn.",
+      "start": 2.0375,
+      "end": 2.4875
+    }
+  ],
+  "bytes": 17136
+}

@@ -1,0 +1,46 @@
+{
+  "text": "shelf. The book is on this shelf.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "b5531ba660058fe58deb03554510f5ac246593b0dd51d2268cf7969c8da488dc",
+  "sha256": "53def27908bd8c13c266ed17d5bcb3b3d67d482317f1012d938508b3b0b49983",
+  "words": [
+    {
+      "word": "shelf.",
+      "start": 0.05,
+      "end": 0.5
+    },
+    {
+      "word": "The",
+      "start": 0.8875,
+      "end": 0.9875
+    },
+    {
+      "word": "book",
+      "start": 1.0,
+      "end": 1.2875
+    },
+    {
+      "word": "is",
+      "start": 1.3125,
+      "end": 1.525
+    },
+    {
+      "word": "on",
+      "start": 1.5375,
+      "end": 1.7375
+    },
+    {
+      "word": "this",
+      "start": 1.75,
+      "end": 1.875
+    },
+    {
+      "word": "shelf.",
+      "start": 1.8875,
+      "end": 2.475
+    }
+  ],
+  "bytes": 17136
+}

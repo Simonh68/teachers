@@ -1,0 +1,46 @@
+{
+  "text": "noticeboard. The message is on the noticeboard.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "e40e6f2e4d94e3ef1eb69cc73c1a99a13cdebfbadcd9e450821cbf3255c0a061",
+  "sha256": "9f013adfb09be51103ee031ac8f31949f683a55a94490dbefbdf31a6547a1171",
+  "words": [
+    {
+      "word": "noticeboard.",
+      "start": 0.0625,
+      "end": 0.8625
+    },
+    {
+      "word": "The",
+      "start": 1.2375,
+      "end": 1.3125
+    },
+    {
+      "word": "message",
+      "start": 1.325,
+      "end": 1.9
+    },
+    {
+      "word": "is",
+      "start": 1.925,
+      "end": 2.175
+    },
+    {
+      "word": "on",
+      "start": 2.1875,
+      "end": 2.4
+    },
+    {
+      "word": "the",
+      "start": 2.4125,
+      "end": 2.4875
+    },
+    {
+      "word": "noticeboard.",
+      "start": 2.5,
+      "end": 3.3375
+    }
+  ],
+  "bytes": 22320
+}

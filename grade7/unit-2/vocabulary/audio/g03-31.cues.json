@@ -1,0 +1,66 @@
+{
+  "text": "be used to doing something. I am used to waking early.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "55752b07545e292743444ad8c90fbb0d468fcf98c356e2097695f26b82faaca1",
+  "sha256": "ece058872e34e6febd2b748b64d4a312f927fb862efdc20852297f9302d90cde",
+  "words": [
+    {
+      "word": "be",
+      "start": 0.1,
+      "end": 0.225
+    },
+    {
+      "word": "used",
+      "start": 0.2375,
+      "end": 0.5375
+    },
+    {
+      "word": "to",
+      "start": 0.55,
+      "end": 0.6375
+    },
+    {
+      "word": "doing",
+      "start": 0.65,
+      "end": 0.9625
+    },
+    {
+      "word": "something.",
+      "start": 0.975,
+      "end": 1.5375
+    },
+    {
+      "word": "I",
+      "start": 1.9375,
+      "end": 2.0125
+    },
+    {
+      "word": "am",
+      "start": 2.025,
+      "end": 2.15
+    },
+    {
+      "word": "used",
+      "start": 2.1625,
+      "end": 2.4625
+    },
+    {
+      "word": "to",
+      "start": 2.475,
+      "end": 2.5625
+    },
+    {
+      "word": "waking",
+      "start": 2.575,
+      "end": 2.9625
+    },
+    {
+      "word": "early.",
+      "start": 2.975,
+      "end": 3.4625
+    }
+  ],
+  "bytes": 23040
+}

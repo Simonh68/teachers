@@ -1,0 +1,46 @@
+{
+  "text": "adventure. Children enjoy a good adventure story.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "61c132048117214911c1eb83876168296e7cd908968f681a7fa02e7bb1aeb9ce",
+  "sha256": "c15dd1586b655a8aefaa21a0e0b1c311199236468866f943ce870daea60c9720",
+  "words": [
+    {
+      "word": "adventure.",
+      "start": 0.05,
+      "end": 0.7375
+    },
+    {
+      "word": "Children",
+      "start": 1.1,
+      "end": 1.525
+    },
+    {
+      "word": "enjoy",
+      "start": 1.5375,
+      "end": 2.1125
+    },
+    {
+      "word": "a",
+      "start": 2.1375,
+      "end": 2.2625
+    },
+    {
+      "word": "good",
+      "start": 2.275,
+      "end": 2.525
+    },
+    {
+      "word": "adventure",
+      "start": 2.5375,
+      "end": 2.9875
+    },
+    {
+      "word": "story.",
+      "start": 3.0,
+      "end": 3.5375
+    }
+  ],
+  "bytes": 23472
+}

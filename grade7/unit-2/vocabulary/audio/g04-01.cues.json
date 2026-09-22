@@ -1,0 +1,46 @@
+{
+  "text": "position. Put the chair in this position.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "08ce29e5bde1ae303bba44e8e437a390bed53f3fc3701fd534988e4d190dea2b",
+  "sha256": "ed9b046f79817dfd1ed7f76f12961ca4fc80713d0538a1ce547254957557b1a6",
+  "words": [
+    {
+      "word": "position.",
+      "start": 0.0625,
+      "end": 0.6875
+    },
+    {
+      "word": "Put",
+      "start": 1.075,
+      "end": 1.2375
+    },
+    {
+      "word": "the",
+      "start": 1.25,
+      "end": 1.3375
+    },
+    {
+      "word": "chair",
+      "start": 1.35,
+      "end": 1.8
+    },
+    {
+      "word": "in",
+      "start": 1.8125,
+      "end": 1.9875
+    },
+    {
+      "word": "this",
+      "start": 2.0,
+      "end": 2.175
+    },
+    {
+      "word": "position.",
+      "start": 2.1875,
+      "end": 2.8125
+    }
+  ],
+  "bytes": 19152
+}

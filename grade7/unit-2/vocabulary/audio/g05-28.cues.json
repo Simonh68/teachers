@@ -1,0 +1,51 @@
+{
+  "text": "tidy something up. Please tidy up your room.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "9948e55da68e018710450aa86fa1c0692b8acc7c231c668318a15d6cf37a8e54",
+  "sha256": "03bab0e968cdc033b75348f5da0fd3b3a53acb43650e3cd85b45266dc19ee0e7",
+  "words": [
+    {
+      "word": "tidy",
+      "start": 0.05,
+      "end": 0.3625
+    },
+    {
+      "word": "something",
+      "start": 0.375,
+      "end": 0.8
+    },
+    {
+      "word": "up.",
+      "start": 0.8125,
+      "end": 1.15
+    },
+    {
+      "word": "Please",
+      "start": 1.525,
+      "end": 1.8
+    },
+    {
+      "word": "tidy",
+      "start": 1.8125,
+      "end": 2.2
+    },
+    {
+      "word": "up",
+      "start": 2.2125,
+      "end": 2.3625
+    },
+    {
+      "word": "your",
+      "start": 2.375,
+      "end": 2.525
+    },
+    {
+      "word": "room.",
+      "start": 2.5375,
+      "end": 2.925
+    }
+  ],
+  "bytes": 19728
+}

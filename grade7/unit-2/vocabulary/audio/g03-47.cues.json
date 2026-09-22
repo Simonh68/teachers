@@ -1,0 +1,51 @@
+{
+  "text": "imagine. Can you imagine what that is like?",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "4890fb956ed940813ab089c29a42d0ad2d13bfa26e4466026fd23956f3b54cd2",
+  "sha256": "e1e456e027ccaa07a08c54a0c41c3351413f8306c80a17fe6b89877d8b712e85",
+  "words": [
+    {
+      "word": "imagine.",
+      "start": 0.05,
+      "end": 0.6875
+    },
+    {
+      "word": "Can",
+      "start": 1.05,
+      "end": 1.1875
+    },
+    {
+      "word": "you",
+      "start": 1.2,
+      "end": 1.3375
+    },
+    {
+      "word": "imagine",
+      "start": 1.35,
+      "end": 1.925
+    },
+    {
+      "word": "what",
+      "start": 1.9375,
+      "end": 2.1375
+    },
+    {
+      "word": "that",
+      "start": 2.15,
+      "end": 2.375
+    },
+    {
+      "word": "is",
+      "start": 2.3875,
+      "end": 2.5625
+    },
+    {
+      "word": "like?",
+      "start": 2.575,
+      "end": 3.0625
+    }
+  ],
+  "bytes": 20592
+}

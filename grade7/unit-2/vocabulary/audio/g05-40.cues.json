@@ -1,0 +1,61 @@
+{
+  "text": "improve. My friends and I need to improve the odds.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "59bb9734ab1b8b9732de6db83abd562c46711dd358b08321b010039c5da89b1a",
+  "sha256": "4e4437d0f6a5b42691e9a1ea249971c2188358fa5ceb727db8a8ba17a8ff3dfc",
+  "words": [
+    {
+      "word": "improve.",
+      "start": 0.05,
+      "end": 0.6875
+    },
+    {
+      "word": "My",
+      "start": 1.0875,
+      "end": 1.2375
+    },
+    {
+      "word": "friends",
+      "start": 1.25,
+      "end": 1.775
+    },
+    {
+      "word": "and",
+      "start": 1.7875,
+      "end": 1.925
+    },
+    {
+      "word": "I",
+      "start": 1.9375,
+      "end": 2.025
+    },
+    {
+      "word": "need",
+      "start": 2.0375,
+      "end": 2.2625
+    },
+    {
+      "word": "to",
+      "start": 2.275,
+      "end": 2.425
+    },
+    {
+      "word": "improve",
+      "start": 2.4375,
+      "end": 2.9125
+    },
+    {
+      "word": "the",
+      "start": 2.925,
+      "end": 3.0
+    },
+    {
+      "word": "odds.",
+      "start": 3.0125,
+      "end": 3.5
+    }
+  ],
+  "bytes": 23184
+}

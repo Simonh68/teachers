@@ -1,0 +1,36 @@
+{
+  "text": "miss. You cannot miss it.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "25df181d06cc9b68eb65960d2cdd1e7e10c6354be1c71f88fd5cc4ac039d7884",
+  "sha256": "0d624974460ac8aad6d52b2a3f6d290fdfc25db57a300ec551343f55e4f289b0",
+  "words": [
+    {
+      "word": "miss.",
+      "start": 0.05,
+      "end": 0.325
+    },
+    {
+      "word": "You",
+      "start": 0.7,
+      "end": 0.775
+    },
+    {
+      "word": "cannot",
+      "start": 0.7875,
+      "end": 1.175
+    },
+    {
+      "word": "miss",
+      "start": 1.1875,
+      "end": 1.45
+    },
+    {
+      "word": "it.",
+      "start": 1.4625,
+      "end": 1.7375
+    }
+  ],
+  "bytes": 12672
+}

@@ -1,0 +1,46 @@
+{
+  "text": "Arab. He is an Arab from Jordan.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "90c76d7b896e0e64e071991bbc6f6df9f71aa4bd7d88d3af77db82cd32fb89bb",
+  "sha256": "b3ced94ef740ab60387a48c7ede9c1c3e45212e3d0519bb194e8fa07858736b2",
+  "words": [
+    {
+      "word": "Arab.",
+      "start": 0.05,
+      "end": 0.4625
+    },
+    {
+      "word": "He",
+      "start": 0.8375,
+      "end": 0.9375
+    },
+    {
+      "word": "is",
+      "start": 0.95,
+      "end": 1.075
+    },
+    {
+      "word": "an",
+      "start": 1.0875,
+      "end": 1.2125
+    },
+    {
+      "word": "Arab",
+      "start": 1.225,
+      "end": 1.5875
+    },
+    {
+      "word": "from",
+      "start": 1.6,
+      "end": 1.825
+    },
+    {
+      "word": "Jordan.",
+      "start": 1.8375,
+      "end": 2.3625
+    }
+  ],
+  "bytes": 16416
+}

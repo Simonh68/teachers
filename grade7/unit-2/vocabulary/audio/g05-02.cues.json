@@ -1,0 +1,41 @@
+{
+  "text": "Why not. Why not ask her?",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "d1a61b7bc56cc5e96db5f80515903a82badbfc831586d68659eb8a40b8bca697",
+  "sha256": "6c179d4974a828e644e7da769a2d3c8f3b764181c40fd3f026f21fe5a2756705",
+  "words": [
+    {
+      "word": "Why",
+      "start": 0.075,
+      "end": 0.2
+    },
+    {
+      "word": "not.",
+      "start": 0.2125,
+      "end": 0.575
+    },
+    {
+      "word": "Why",
+      "start": 0.9625,
+      "end": 1.0875
+    },
+    {
+      "word": "not",
+      "start": 1.1,
+      "end": 1.3375
+    },
+    {
+      "word": "ask",
+      "start": 1.35,
+      "end": 1.675
+    },
+    {
+      "word": "her?",
+      "start": 1.6875,
+      "end": 1.9625
+    }
+  ],
+  "bytes": 13968
+}

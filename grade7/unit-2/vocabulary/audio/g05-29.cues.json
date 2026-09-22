@@ -1,0 +1,51 @@
+{
+  "text": "stay. I just want to stay here too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "ff7463ad2766b332104b7924c509cac6f7e78b5bd986cd883d7a4a808f47e64a",
+  "sha256": "9decb6c65aa5143f98a6f6954761a67dffcbbe07df357d2659206e333e527b86",
+  "words": [
+    {
+      "word": "stay.",
+      "start": 0.05,
+      "end": 0.3875
+    },
+    {
+      "word": "I",
+      "start": 0.775,
+      "end": 0.825
+    },
+    {
+      "word": "just",
+      "start": 0.8375,
+      "end": 1.0375
+    },
+    {
+      "word": "want",
+      "start": 1.05,
+      "end": 1.2
+    },
+    {
+      "word": "to",
+      "start": 1.2125,
+      "end": 1.2625
+    },
+    {
+      "word": "stay",
+      "start": 1.275,
+      "end": 1.55
+    },
+    {
+      "word": "here",
+      "start": 1.5625,
+      "end": 1.8
+    },
+    {
+      "word": "too.",
+      "start": 1.8125,
+      "end": 2.1875
+    }
+  ],
+  "bytes": 15408
+}

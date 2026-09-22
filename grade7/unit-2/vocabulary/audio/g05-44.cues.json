@@ -1,0 +1,51 @@
+{
+  "text": "repair. They have to repair their car too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "bcad3f9b3eeada099929b482f53787aac73b1858b58379b7624087c35862b29c",
+  "sha256": "6c1d2cc12047601b96052621a11ccb0d70ba535830995f6c18e555d6e9654b58",
+  "words": [
+    {
+      "word": "repair.",
+      "start": 0.0625,
+      "end": 0.5374999999999999
+    },
+    {
+      "word": "They",
+      "start": 0.9125,
+      "end": 1.0
+    },
+    {
+      "word": "have",
+      "start": 1.0125,
+      "end": 1.1625
+    },
+    {
+      "word": "to",
+      "start": 1.175,
+      "end": 1.3
+    },
+    {
+      "word": "repair",
+      "start": 1.3125,
+      "end": 1.725
+    },
+    {
+      "word": "their",
+      "start": 1.7375,
+      "end": 1.9
+    },
+    {
+      "word": "car",
+      "start": 1.9125,
+      "end": 2.1875
+    },
+    {
+      "word": "too.",
+      "start": 2.2,
+      "end": 2.575
+    }
+  ],
+  "bytes": 17712
+}

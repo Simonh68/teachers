@@ -1,0 +1,46 @@
+{
+  "text": "really. I really want to learn more.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "a369fff4c10793ec10b72f38ed9b7f3f8d48d59abc6bef75bddd8c357bffa752",
+  "sha256": "14fcebc77ab8f678d82d40465216d58dc510a1f7361b7f41367f7f41e36c1c63",
+  "words": [
+    {
+      "word": "really.",
+      "start": 0.0625,
+      "end": 0.4625000000000001
+    },
+    {
+      "word": "I",
+      "start": 0.8625,
+      "end": 0.925
+    },
+    {
+      "word": "really",
+      "start": 0.9375,
+      "end": 1.2125
+    },
+    {
+      "word": "want",
+      "start": 1.225,
+      "end": 1.4375
+    },
+    {
+      "word": "to",
+      "start": 1.45,
+      "end": 1.5375
+    },
+    {
+      "word": "learn",
+      "start": 1.55,
+      "end": 1.825
+    },
+    {
+      "word": "more.",
+      "start": 1.8375,
+      "end": 2.3
+    }
+  ],
+  "bytes": 15984
+}

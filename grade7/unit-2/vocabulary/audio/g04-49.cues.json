@@ -1,0 +1,56 @@
+{
+  "text": "accompany. May we please accompany you on your walk?",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "cc3ecfc9da679d905c5899f8ee1ed60d49d28d2c9ed02da6ebc79dcb1ce39681",
+  "sha256": "f20335678d2d132e0bc6da02da3f476bf0279457e938201c7a66e397d70abf34",
+  "words": [
+    {
+      "word": "accompany.",
+      "start": 0.0625,
+      "end": 0.675
+    },
+    {
+      "word": "May",
+      "start": 1.0625,
+      "end": 1.225
+    },
+    {
+      "word": "we",
+      "start": 1.2375,
+      "end": 1.3625
+    },
+    {
+      "word": "please",
+      "start": 1.375,
+      "end": 1.65
+    },
+    {
+      "word": "accompany",
+      "start": 1.6625,
+      "end": 2.1375
+    },
+    {
+      "word": "you",
+      "start": 2.15,
+      "end": 2.3875
+    },
+    {
+      "word": "on",
+      "start": 2.4,
+      "end": 2.5625
+    },
+    {
+      "word": "your",
+      "start": 2.575,
+      "end": 2.7125
+    },
+    {
+      "word": "walk?",
+      "start": 2.725,
+      "end": 3.125
+    }
+  ],
+  "bytes": 21024
+}

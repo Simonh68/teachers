@@ -1,0 +1,36 @@
+{
+  "text": "toe. I hurt my toe.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "a7af62e8fae9c6fd2a32e246f806be1e52ea2a89825bea3d8b7c67f66de1632e",
+  "sha256": "798d52418b3703b4deced866ffce4a221f231cb25753189e7e9fef34e3824edd",
+  "words": [
+    {
+      "word": "toe.",
+      "start": 0.05,
+      "end": 0.3
+    },
+    {
+      "word": "I",
+      "start": 0.6625,
+      "end": 0.7375
+    },
+    {
+      "word": "hurt",
+      "start": 0.75,
+      "end": 0.975
+    },
+    {
+      "word": "my",
+      "start": 0.9875,
+      "end": 1.15
+    },
+    {
+      "word": "toe.",
+      "start": 1.1625,
+      "end": 1.5625
+    }
+  ],
+  "bytes": 11664
+}

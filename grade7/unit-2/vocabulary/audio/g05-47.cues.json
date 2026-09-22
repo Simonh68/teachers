@@ -1,0 +1,36 @@
+{
+  "text": "hurry. What exactly's your hurry?",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "d2bee380749eee3b5df2a90692df96ca58e4ec4b637125b58573698e7d003957",
+  "sha256": "2559d0d85198e14d5e042dc9514339c9d7788cc38a9284d562f9146d66560c09",
+  "words": [
+    {
+      "word": "hurry.",
+      "start": 0.0625,
+      "end": 0.425
+    },
+    {
+      "word": "What",
+      "start": 0.8125,
+      "end": 0.9625
+    },
+    {
+      "word": "exactly's",
+      "start": 0.975,
+      "end": 1.6625
+    },
+    {
+      "word": "your",
+      "start": 1.675,
+      "end": 1.8125
+    },
+    {
+      "word": "hurry?",
+      "start": 1.825,
+      "end": 2.275
+    }
+  ],
+  "bytes": 15840
+}

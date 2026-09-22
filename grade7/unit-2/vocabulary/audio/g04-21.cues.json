@@ -1,0 +1,51 @@
+{
+  "text": "moment. I was not here a moment ago.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "007e4629531a42a2ac6766aa3de34f5cf1190c4a72e1ec3ed5ffa9c9239ffe81",
+  "sha256": "e3006fa24ffadaf18e555544076c89a720dc5fd0f1cfbbe931935dacb3e2f60a",
+  "words": [
+    {
+      "word": "moment.",
+      "start": 0.05,
+      "end": 0.525
+    },
+    {
+      "word": "I",
+      "start": 0.9125,
+      "end": 0.975
+    },
+    {
+      "word": "was",
+      "start": 0.9875,
+      "end": 1.15
+    },
+    {
+      "word": "not",
+      "start": 1.1625,
+      "end": 1.4
+    },
+    {
+      "word": "here",
+      "start": 1.4125,
+      "end": 1.7125
+    },
+    {
+      "word": "a",
+      "start": 1.725,
+      "end": 1.775
+    },
+    {
+      "word": "moment",
+      "start": 1.7875,
+      "end": 2.1625
+    },
+    {
+      "word": "ago.",
+      "start": 2.175,
+      "end": 2.6
+    }
+  ],
+  "bytes": 17856
+}

@@ -1,3 +1,1327 @@
 {
-  "clips": {}
+  "voice": "en-US-BrianNeural",
+  "synthetic": true,
+  "browserSpeechSynthesis": false,
+  "files": {
+    "g03-01": {
+      "text": "along. We love walking along the river.",
+      "sha256Text": "0545db052c6fa980f789d52a736532cb1388ce19c8415304511c7e9394b2c5b2",
+      "sha256": "9599ec1c687405064483c56064206d49d8f9d5d06cd8b7158ecf0ae92a0a8852",
+      "bytes": 19152,
+      "src": "audio/g03-01.mp3",
+      "seconds": 2.8125
+    },
+    "g03-02": {
+      "text": "seem happy. The students seem happy today.",
+      "sha256Text": "304f692b3e58d6278cc0bc8f2737a2c7a7c95cd121fdb8d74b4ea26bc1367925",
+      "sha256": "63221e2e1c44f6e1ac0f7637e207a3fa239d4a6f86b608e9bc541ebb143a9a10",
+      "bytes": 19872,
+      "src": "audio/g03-02.mp3",
+      "seconds": 2.95
+    },
+    "g03-03": {
+      "text": "at the moment. I am busy at the moment.",
+      "sha256Text": "8a47105c8e861d61aaed12a1e4a265011f2e966014642154eacf3280d33d95bb",
+      "sha256": "ce08afbcf014d7f498b3d242b02fe10b098e06635c604e630b519688aa4fb57a",
+      "bytes": 18144,
+      "src": "audio/g03-03.mp3",
+      "seconds": 2.65
+    },
+    "g03-04": {
+      "text": "ship. The ship appeared on the horizon.",
+      "sha256Text": "4ba7acf5886a3ffcc8b26168541b1552c78c00a71d09b54358f0b79e4bebc40d",
+      "sha256": "7c21c75c2e3e729f534ab48ba58eece44db81af206ef3a97cacfde51a3886ec6",
+      "bytes": 18720,
+      "src": "audio/g03-04.mp3",
+      "seconds": 2.7375
+    },
+    "g03-05": {
+      "text": "shopping. We did the shopping after school.",
+      "sha256Text": "e689696150714d0a247557d873e9a902578e47df1deba341fa8bb57f51e5db9d",
+      "sha256": "ef19204bb6f6ebf1f58999c1babe1daad0e634727f5dc6568d323e73128113f5",
+      "bytes": 19008,
+      "src": "audio/g03-05.mp3",
+      "seconds": 2.7875
+    },
+    "g03-06": {
+      "text": "click. Did you really hear the click?",
+      "sha256Text": "c07e7f7e697569179456b154b941780eba9fa1a04865886caba885e9ad85a424",
+      "sha256": "0be29725a5e788fd302e9fb367fccc6b5d7aa812456f21d638553f5ec8034a3b",
+      "bytes": 16128,
+      "src": "audio/g03-06.mp3",
+      "seconds": 2.3125
+    },
+    "g03-07": {
+      "text": "opinion. I have got no opinion on that.",
+      "sha256Text": "e32373e9d90986ca8953c8324c2b10930c390708590133cdc9af98ffc8db6c81",
+      "sha256": "fc04632ec1001e45b6a499d74c0c3fe2ee913a6d588f9787f649bc84f4174dd2",
+      "bytes": 18000,
+      "src": "audio/g03-07.mp3",
+      "seconds": 2.6375
+    },
+    "g03-08": {
+      "text": "coin. My brother pulled a coin out of his pocket.",
+      "sha256Text": "feaf6ab9aba9c68fc81bf937cb3a87fcec03f93e66da542c823c0b4884e58edb",
+      "sha256": "0274a0ac5f2a549c0ada9c1dc6bcb656dc5ad345e5e68bef8a76a2bbfc9dd5df",
+      "bytes": 21168,
+      "src": "audio/g03-08.mp3",
+      "seconds": 3.15
+    },
+    "g03-09": {
+      "text": "vote. I plan to vote tomorrow.",
+      "sha256Text": "118b0160ad36bae880c7a38a34476ad16764757bedaa3f0a0509ceb428a2a909",
+      "sha256": "6fc80fce5c03e9fe3eda530de33f0507198ea33ab85eb0c01204ad74dbd3f3da",
+      "bytes": 15120,
+      "src": "audio/g03-09.mp3",
+      "seconds": 2.15
+    },
+    "g03-10": {
+      "text": "range. The shop has a wide range of shoes.",
+      "sha256Text": "806a9fdb8c426e958846d5ff47a60336edc7114972249a3e051f5d8d90a0b2ba",
+      "sha256": "9372e74b7c23f08711420723b4a4edad74a438a4a1acd37801d83cf08120fbfb",
+      "bytes": 19872,
+      "src": "audio/g03-10.mp3",
+      "seconds": 2.9375
+    },
+    "g03-11": {
+      "text": "reduce. I need to reduce my expenses this month.",
+      "sha256Text": "867aeb64132d31260cf0c413ab1a649663f66276a116cbf9c8501655a7b2419a",
+      "sha256": "817a74756f1ae21ed5564555ad9477928d7c31cee8e304e023bb7a4ea227e115",
+      "bytes": 23040,
+      "src": "audio/g03-11.mp3",
+      "seconds": 3.475
+    },
+    "g03-12": {
+      "text": "put somebody up. We can put you up tonight.",
+      "sha256Text": "f41496c1f76cc9954d9473e99bab32bfb9417ffe16f9181cdc378cd3c35e0c17",
+      "sha256": "1431d4fcdf9ddb658dab814b7a0c46617c5cd6f44e27ea7c735b4455f9c471e0",
+      "bytes": 19008,
+      "src": "audio/g03-12.mp3",
+      "seconds": 2.7875
+    },
+    "g03-16": {
+      "text": "brain. My brother has a good brain.",
+      "sha256Text": "40b878517b9d84bf51745e62a38ca349c954d48ed48df8cb5a64f62ab0d22a6f",
+      "sha256": "ae6c19f097211c026552d17aabc449197d6d1e05c84bf5bae73c67cbf85bac21",
+      "bytes": 16560,
+      "src": "audio/g03-16.mp3",
+      "seconds": 2.3875
+    },
+    "g03-13": {
+      "text": "refer to something. I refer to the dictionary during class.",
+      "sha256Text": "6c8096160d0581347396cfb572df32f9ee770e5d42614c5d4808b64a8b9a103f",
+      "sha256": "fdf4a7b4a9c1ea06f917ce2c5619d65d37dbed4fe86f4d0370ffcddcf46e968e",
+      "bytes": 25344,
+      "src": "audio/g03-13.mp3",
+      "seconds": 3.85
+    },
+    "g03-14": {
+      "text": "stomach ache. I have a stomach ache.",
+      "sha256Text": "d47f73844935f1f8e95b018d0b11f461a2c5ef913d2184c0cc7eca5126375d00",
+      "sha256": "3bbf4a5b31c4b79b5a28640ace76a642203a0be209198722628d285b4359eb0f",
+      "bytes": 16848,
+      "src": "audio/g03-14.mp3",
+      "seconds": 2.4375
+    },
+    "g03-15": {
+      "text": "instrument. The flute is my favorite instrument.",
+      "sha256Text": "7adc4784694177e7e855516384142e998939636903dd6491a24df8ce782f9707",
+      "sha256": "c4abd027168046b648164fae39c66470d7a5fde7fed1b7a614c0a2bdc5560635",
+      "bytes": 22176,
+      "src": "audio/g03-15.mp3",
+      "seconds": 3.3125
+    },
+    "g03-19": {
+      "text": "push. Please push the door open.",
+      "sha256Text": "2276818bc39df095c4fdb98b54f0d6a4c4001e3cfd300e8240477c8327885804",
+      "sha256": "990d9c98e1c416c65a487b76e1c1975837cffcd5a0ac552491ef79a0e6745c2c",
+      "bytes": 15840,
+      "src": "audio/g03-19.mp3",
+      "seconds": 2.275
+    },
+    "g03-17": {
+      "text": "desert. It is dangerous to cross the desert.",
+      "sha256Text": "851bea081acb7660c5746dd56215e7f47742d570a182337d1c2784fc7665491d",
+      "sha256": "a30655068b5b0d82684f7545f6984eeab1e09a9db0e73580a3e33b3bc267e9b4",
+      "bytes": 20160,
+      "src": "audio/g03-17.mp3",
+      "seconds": 2.9875
+    },
+    "g03-18": {
+      "text": "dish. Put the fruit in a large dish.",
+      "sha256Text": "f26861d3db5301acd1c24ac8a239e43039fc3f3634cdb9a91849a4320fe9fc1e",
+      "sha256": "23ab1c74d6b724914f888b1fbaa4403a9d48735b8411bae9c542928cf0aaaf15",
+      "bytes": 17136,
+      "src": "audio/g03-18.mp3",
+      "seconds": 2.4875
+    },
+    "g03-20": {
+      "text": "gold. I gave him a gold watch too.",
+      "sha256Text": "aab1eb01cbfb4ed7c1edf75dbe66b1075e5675a5810c9abf9d862ab9f16a822d",
+      "sha256": "666a0768a447aaf8bf759e808d9af1c2c4891eb87bda1c55de5b19b12980785f",
+      "bytes": 16848,
+      "src": "audio/g03-20.mp3",
+      "seconds": 2.425
+    },
+    "g03-21": {
+      "text": "baker. I am a baker.",
+      "sha256Text": "3ea9f2e35341e04cdba9310389b12b94d75406f683b35401f185ae1aa2990dc1",
+      "sha256": "e8a6649fb5924b48b807421a5f5c0897f90a2514d212848f78835b79a3783d47",
+      "bytes": 12672,
+      "src": "audio/g03-21.mp3",
+      "seconds": 1.7375
+    },
+    "g03-23": {
+      "text": "sense. There was a sense of fear too.",
+      "sha256Text": "c0cee220482f0141094b74a7094485d146a47e5b7388449518c4328e6d1d0ff1",
+      "sha256": "3edea7d85b552ab1e8132db63271d9ac2dec1613136b987d59c8692e813e80f8",
+      "bytes": 16992,
+      "src": "audio/g03-23.mp3",
+      "seconds": 2.45
+    },
+    "g03-22": {
+      "text": "café. Let’s meet at the café.",
+      "sha256Text": "776f2ff6b1fc7c49196f22d8c8de59b0a7833fee4ec99d4c9822921f812739bf",
+      "sha256": "1073fa3d62a17da713bd1364a96e63c5702937e5719f08d9b455be550d0bb3c9",
+      "bytes": 16272,
+      "src": "audio/g03-22.mp3",
+      "seconds": 2.3375
+    },
+    "g03-24": {
+      "text": "approximately. The bridge is approximately one kilometer long.",
+      "sha256Text": "2b0dc39636cd5b339346929420f527f93e1d55d28a8444abc33836591f3fe5cb",
+      "sha256": "a4086f60057cafbc0cb8019a141eb69c483298daad27d0487799808ae68c8748",
+      "bytes": 28080,
+      "src": "audio/g03-24.mp3",
+      "seconds": 4.3
+    },
+    "g03-26": {
+      "text": "suggest. May I please suggest another hotel?",
+      "sha256Text": "2c0b63f88e33532abcdcd2cb4d3cd02f9c9de01d095e691809b474ff10f753c7",
+      "sha256": "21d0386b5183d9602b4561ee9987589f9f571a324d90485703b71014e7dd71c2",
+      "bytes": 20592,
+      "src": "audio/g03-26.mp3",
+      "seconds": 3.05
+    },
+    "g03-27": {
+      "text": "warm. They gave us a warm welcome.",
+      "sha256Text": "18e2b57faf7b96d23f0a23cbaac47872357f3ea8e615f7dad28e3e87446e810a",
+      "sha256": "c0c7483fd31619f042a7df31fa7260681fb2ff5f2491468be82327592d78b3e8",
+      "bytes": 16272,
+      "src": "audio/g03-27.mp3",
+      "seconds": 2.3375
+    },
+    "g03-25": {
+      "text": "miss. You cannot miss it.",
+      "sha256Text": "25df181d06cc9b68eb65960d2cdd1e7e10c6354be1c71f88fd5cc4ac039d7884",
+      "sha256": "0d624974460ac8aad6d52b2a3f6d290fdfc25db57a300ec551343f55e4f289b0",
+      "bytes": 12672,
+      "src": "audio/g03-25.mp3",
+      "seconds": 1.7375
+    },
+    "g03-28": {
+      "text": "teenager. The boy is a normal teenager.",
+      "sha256Text": "bbd8cd4bb64a2cce0e8f9602e70a0a972142a28ad4cc4b23fea05a7b5fb8c7b7",
+      "sha256": "834f8bd0d28b4f7b8fd3184a508324f8f819c321e3a131bb22b0c6174356c27a",
+      "bytes": 20304,
+      "src": "audio/g03-28.mp3",
+      "seconds": 3.0125
+    },
+    "g03-32": {
+      "text": "bridge. There was a bridge there too.",
+      "sha256Text": "1d0947c6206eb3d7194189beb722bce46d7aca5539976426503f5af50baf47ef",
+      "sha256": "d703c0575adad0cc65aaf4990df4efc5f48ac10aa4cfd34913cb67f979cda323",
+      "bytes": 15552,
+      "src": "audio/g03-32.mp3",
+      "seconds": 2.2125
+    },
+    "g03-31": {
+      "text": "be used to doing something. I am used to waking early.",
+      "sha256Text": "55752b07545e292743444ad8c90fbb0d468fcf98c356e2097695f26b82faaca1",
+      "sha256": "ece058872e34e6febd2b748b64d4a312f927fb862efdc20852297f9302d90cde",
+      "bytes": 23040,
+      "src": "audio/g03-31.mp3",
+      "seconds": 3.4625
+    },
+    "g03-29": {
+      "text": "blanket. Can I please get a blanket?",
+      "sha256Text": "ecdb9d4839f62f824000b2974f58253428fab7a0bfd75fcef8f8f984030bf7da",
+      "sha256": "3cd02c75aa35a091d09127ac3e4d46e9e943e064c296647ee70bd418ea67005e",
+      "bytes": 17280,
+      "src": "audio/g03-29.mp3",
+      "seconds": 2.5125
+    },
+    "g03-30": {
+      "text": "experience. She has experience as a teacher.",
+      "sha256Text": "96ffcfd8fac0c6c8b53d228478500edebd8afe961bd7ae7d8322c9177b5328cc",
+      "sha256": "5b38896895d38a94cbe1450eb8546c7e2929b540d3526ad18446403dcb23f095",
+      "bytes": 22464,
+      "src": "audio/g03-30.mp3",
+      "seconds": 3.3625
+    },
+    "g03-33": {
+      "text": "convince. It is my job to convince you.",
+      "sha256Text": "fdd5033ca255676984c4a85a198d3ba1635b07a6bca386a60d0352ebdd080acb",
+      "sha256": "5b9357c048c6795f9df10836a09821285d977674a2bedb762055f8502ae56bf2",
+      "bytes": 19728,
+      "src": "audio/g03-33.mp3",
+      "seconds": 2.9125
+    },
+    "g03-35": {
+      "text": "backward. We took a backward step.",
+      "sha256Text": "ff0a9d75a0cfddddea1f518e345029412236ea48b9bb3043f6b74bfe15d09170",
+      "sha256": "b63f4835b0f4d1977223b124cf3fa3ab34aaaf46f6cb62bdd74b5eb10ee3e2ce",
+      "bytes": 16416,
+      "src": "audio/g03-35.mp3",
+      "seconds": 2.3625
+    },
+    "g03-34": {
+      "text": "introduce. I would like to introduce myself too.",
+      "sha256Text": "2dc2c0adac9940260f449698bc88bf10b5353457097298be52a9da513eb2a376",
+      "sha256": "0aeb645d7ad4757e338f7594ea8f2a435e45d408dbb688c7845f8c9b6c1209eb",
+      "bytes": 20880,
+      "src": "audio/g03-34.mp3",
+      "seconds": 3.1
+    },
+    "g03-36": {
+      "text": "check. Could we have the check, please?",
+      "sha256Text": "0988ccf9cc6f959b300573c5c0a844e67b4c6712ec87fa50594ecbcb43dc40a4",
+      "sha256": "d574cdff15dfd3c74848fe11e49dd58f48e0356820e8e8bdae44e01840508cb7",
+      "bytes": 16560,
+      "src": "audio/g03-36.mp3",
+      "seconds": 2.375
+    },
+    "g03-39": {
+      "text": "land. Next week, he will land on the moon.",
+      "sha256Text": "e1cb2acdb0cbd5df8afce582adbc289984eaed452753f306dce6310bea41ab54",
+      "sha256": "1f3ed998522e2304ce2e104675e825ea8336c3f241459ef7bb578af354b8207c",
+      "bytes": 20160,
+      "src": "audio/g03-39.mp3",
+      "seconds": 2.975
+    },
+    "g03-40": {
+      "text": "clap. Nobody clapped after the speech.",
+      "sha256Text": "4575c53438346d6a37ac94ba817d3028a0ec95c8649bd07049ee535009915350",
+      "sha256": "7bdd1fd2b29effe2c96e1cda690a1d1ad8cb755c7a8725f5cd4eaba34fb15775",
+      "bytes": 18144,
+      "src": "audio/g03-40.mp3",
+      "seconds": 2.6375
+    },
+    "g03-38": {
+      "text": "cannot stand something. I cannot stand this noise.",
+      "sha256Text": "6ff97a0e96b2da1e7c66a435f94e1daea93b3e7f4497befd82aba5007c96a09f",
+      "sha256": "1eeacbac13d9d30b37f43826be4e761240e72d139d79595083acba240ee2ff9e",
+      "bytes": 21600,
+      "src": "audio/g03-38.mp3",
+      "seconds": 3.2375
+    },
+    "g03-37": {
+      "text": "which. Which house is yours?",
+      "sha256Text": "9440bbeb61e185c96c861a53dd0e6b4e6170bd66cbf527501fb8ec935f995495",
+      "sha256": "0e6d775bc3a520f447322ab774be154aaf7cec9d35484d4466f533eebfa021af",
+      "bytes": 14544,
+      "src": "audio/g03-37.mp3",
+      "seconds": 2.05
+    },
+    "g03-41": {
+      "text": "included. Dinner will be included too.",
+      "sha256Text": "1ba09547ed71b20e249aefc00ee6dc7c6d47421f6de12d3e8592b22bdec84faf",
+      "sha256": "0afc7d59af1a95e58e683830923db01c82e595776b53556bdab6f110ea81a949",
+      "bytes": 18720,
+      "src": "audio/g03-41.mp3",
+      "seconds": 2.7375
+    },
+    "g03-44": {
+      "text": "toast. Let’s toast the happy couple.",
+      "sha256Text": "fa471b4d4b81aa40b8fada17809594d9148d014adc4847f2ff8887fd2a3a9f42",
+      "sha256": "7847838a232a67ecec2a770edc38a2c8d958e18ed430d549c16b4cbf7dfdd976",
+      "bytes": 17424,
+      "src": "audio/g03-44.mp3",
+      "seconds": 2.525
+    },
+    "g03-42": {
+      "text": "himself. He made it himself.",
+      "sha256Text": "bbf3bde50e8e94c1a2835267f466d4ef205e8dcc6a99888ee9a849ed8b350210",
+      "sha256": "2da91713c5f245f5543a852192ddd674b3c8d3fe7cf5c720037f345f20798d94",
+      "bytes": 15984,
+      "src": "audio/g03-42.mp3",
+      "seconds": 2.3
+    },
+    "g03-43": {
+      "text": "medicine. Modern medicine saves lives.",
+      "sha256Text": "a28b98a790cd8d858a7d78ac41f3cf92ab41e2953b42f47ff5d0ac5636e725f7",
+      "sha256": "3d916cfe82ffa0de3f43470e9894312f028f443e955651994a19b13ea03b5caa",
+      "bytes": 19872,
+      "src": "audio/g03-43.mp3",
+      "seconds": 2.95
+    },
+    "g03-47": {
+      "text": "imagine. Can you imagine what that is like?",
+      "sha256Text": "4890fb956ed940813ab089c29a42d0ad2d13bfa26e4466026fd23956f3b54cd2",
+      "sha256": "e1e456e027ccaa07a08c54a0c41c3351413f8306c80a17fe6b89877d8b712e85",
+      "bytes": 20592,
+      "src": "audio/g03-47.mp3",
+      "seconds": 3.0625
+    },
+    "g03-45": {
+      "text": "shelf. The book is on this shelf.",
+      "sha256Text": "b5531ba660058fe58deb03554510f5ac246593b0dd51d2268cf7969c8da488dc",
+      "sha256": "53def27908bd8c13c266ed17d5bcb3b3d67d482317f1012d938508b3b0b49983",
+      "bytes": 17136,
+      "src": "audio/g03-45.mp3",
+      "seconds": 2.475
+    },
+    "g03-48": {
+      "text": "thanks. We offer our thanks to the teacher.",
+      "sha256Text": "b3a2a70cda83053459a7f0a773132b065ffb295e1019f882e85927ac61a61ef8",
+      "sha256": "d66fbdace185f9ed10dd5d750d2ddce453e43ae9eebd7ebff2245c987a4fb158",
+      "bytes": 19008,
+      "src": "audio/g03-48.mp3",
+      "seconds": 2.8
+    },
+    "g03-46": {
+      "text": "widely. This novel was widely read.",
+      "sha256Text": "3bb61b999e1b82057b907e8ad1cfb40233eaa0e4027700e9c350fc5cc0ca958e",
+      "sha256": "e1ef0432cddb3f3a7df2005bafb3cce1db9960a42b293b902ce14a6972d5d18f",
+      "bytes": 18432,
+      "src": "audio/g03-46.mp3",
+      "seconds": 2.7
+    },
+    "g03-49": {
+      "text": "technology. Modern technology gives us many things too.",
+      "sha256Text": "c019182e2866382b17ff7216f4f94e6bb9335b236c1df059e11611c46fa0220b",
+      "sha256": "29bd7a7939435a4ea3c397bf6fbdc2d566770e57ee167c1c1f31de6c0cfaa831",
+      "bytes": 26208,
+      "src": "audio/g03-49.mp3",
+      "seconds": 4.0
+    },
+    "g03-50": {
+      "text": "on business. I am here on business too.",
+      "sha256Text": "a10f0be2657c26af94fb2bbc49a9862cf4b524890fb26f410817857e13f80686",
+      "sha256": "755f509f63fdf1428bdac78d0218f073f1eddf56fa5552a29212396b24ef4ed2",
+      "bytes": 18720,
+      "src": "audio/g03-50.mp3",
+      "seconds": 2.75
+    },
+    "g03-51": {
+      "text": "behave. The boy told the girl to behave herself.",
+      "sha256Text": "b1f12116d2203cb910f7ff3b03b155ae2db02f95a448fde41e0e09019bc833a0",
+      "sha256": "2dc288f666e9a599e8757d2ef7b195c7d2a4870b9fccb4e7ac28d67d812fac49",
+      "bytes": 22608,
+      "src": "audio/g03-51.mp3",
+      "seconds": 3.4
+    },
+    "g03-52": {
+      "text": "lose. She wants to lose weight.",
+      "sha256Text": "7436a9646b92568d0c537f56d03b0e65fd9af1f67641bb59fc1316f529dca77c",
+      "sha256": "2fc13ee5417acdcd724ea5b7a6d3dd92a987eead97be054b6754a6c0371bb22d",
+      "bytes": 15264,
+      "src": "audio/g03-52.mp3",
+      "seconds": 2.1625
+    },
+    "g03-53": {
+      "text": "in. She works in medicine.",
+      "sha256Text": "d07794bf7e38c2b44f6709c369d9b168a680d8fbe7e0d224da85e904fa5dc67b",
+      "sha256": "807357207234abb60c626b146f29dc3f46973097d434bdf5ce251f0a4705161c",
+      "bytes": 14544,
+      "src": "audio/g03-53.mp3",
+      "seconds": 2.0375
+    },
+    "g03-54": {
+      "text": "sex. The form asks for your sex.",
+      "sha256Text": "a01e7a9f13bb6984dbf17cc5b3150c4b97b989a8e07f372fffe84aa3bee67555",
+      "sha256": "883be07c3b2693506fe3f30abf6b792dd244220fb1fb6d161dfc4a8c2ebaeb20",
+      "bytes": 17856,
+      "src": "audio/g03-54.mp3",
+      "seconds": 2.6
+    },
+    "g04-01": {
+      "text": "position. Put the chair in this position.",
+      "sha256Text": "08ce29e5bde1ae303bba44e8e437a390bed53f3fc3701fd534988e4d190dea2b",
+      "sha256": "ed9b046f79817dfd1ed7f76f12961ca4fc80713d0538a1ce547254957557b1a6",
+      "bytes": 19152,
+      "src": "audio/g04-01.mp3",
+      "seconds": 2.8125
+    },
+    "g03-55": {
+      "text": "ache. I have a dull ache here too.",
+      "sha256Text": "698954ccbc58b6eef2e1ff98d0f3ba2ff3df28685daf0dc91be579bac1c087e5",
+      "sha256": "1cd3d48e59eefa8b4767dce0248c4c4ac3a38c642256296d0cad50491e4711b5",
+      "bytes": 14112,
+      "src": "audio/g03-55.mp3",
+      "seconds": 1.975
+    },
+    "g04-02": {
+      "text": "flat. The road is flat here.",
+      "sha256Text": "36a3a667bca5dcabe0bba37d1943f152c7ec40a51c4d3739741c44e345eea51b",
+      "sha256": "bdb963bf21e66e62d3078b1897adbb568327b4e8a454957c205581f62c2fa7de",
+      "bytes": 15264,
+      "src": "audio/g04-02.mp3",
+      "seconds": 2.1625
+    },
+    "g04-04": {
+      "text": "head back. We are heading back to school.",
+      "sha256Text": "139c35d240740f7a00c9b17a0d1e875ed1c310bb6486ce7357e76f301e59abd0",
+      "sha256": "f7aca0a9a7e5bc05b872a8885fbcd4a2e405207ac1702b93c3337bffb4e98037",
+      "bytes": 16992,
+      "src": "audio/g04-04.mp3",
+      "seconds": 2.45
+    },
+    "g04-03": {
+      "text": "gold. Gold is a valuable metal.",
+      "sha256Text": "3dd1f1c4a17701f849a9bb5d281e85cb5704f82e1fe4e1a803ed1ab10cf245ed",
+      "sha256": "6fc43af12f02b837d51473a9188f53faf21067e1ee9ae08cce489dd23a733f10",
+      "bytes": 17568,
+      "src": "audio/g04-03.mp3",
+      "seconds": 2.55
+    },
+    "g04-05": {
+      "text": "original. This is the original picture.",
+      "sha256Text": "eedf3c2bc3548bcc75b9589a3a9230732a356d1d4670966dc4909d290d8e1f2f",
+      "sha256": "2cf6275b123e7156c34f3d98b3750c40562d2f68bcd03a6dfaf505d838a7fb31",
+      "bytes": 18864,
+      "src": "audio/g04-05.mp3",
+      "seconds": 2.7625
+    },
+    "g04-08": {
+      "text": "largely. Our success was largely due to luck.",
+      "sha256Text": "86c41a10976676bff0a747aa90aaa692c53efd1f247acaf4f108e496ec3da83e",
+      "sha256": "c3905ad69a5084b783a508dc887e153a4f265abf62c9319e27ff3817f7104aa6",
+      "bytes": 22176,
+      "src": "audio/g04-08.mp3",
+      "seconds": 3.325
+    },
+    "g04-07": {
+      "text": "note. I left a short note on the table.",
+      "sha256Text": "564cd93ed4b97bec4761a16de6d7d12264d08603469689fe055b5e3d3f1a59c7",
+      "sha256": "f2b005c756304265c22023e68226bcccde44e32494de87bea53a4151fca2ef1c",
+      "bytes": 18432,
+      "src": "audio/g04-07.mp3",
+      "seconds": 2.6875
+    },
+    "g04-09": {
+      "text": "wild. This animal is wild.",
+      "sha256Text": "21405f197323aeebb2c67a2d50f0910da14bd5eb76220f409b600990852d12e4",
+      "sha256": "c7a121a254a7330fb1e72deb4add8f03cca1ce9c9d56b6a92dc933b10a4f3631",
+      "bytes": 15696,
+      "src": "audio/g04-09.mp3",
+      "seconds": 2.25
+    },
+    "g04-06": {
+      "text": "fresh. We bought fresh bread this morning.",
+      "sha256Text": "dca1e11125f89792862a4692bec0193d0547b47f2ff2cb4c1dc3948e5d59d89a",
+      "sha256": "9cd351b2a31eb5613e595fb880422e2470823287a64f28b90d24b38212abd7d0",
+      "bytes": 17712,
+      "src": "audio/g04-06.mp3",
+      "seconds": 2.575
+    },
+    "g04-10": {
+      "text": "well. She sings this song very well.",
+      "sha256Text": "4ae96a699ef3226cdad46d85adf2c8dc2c804dbcfdf6732b78637cb4fc653373",
+      "sha256": "9f722f1298a6c3d2bfac3fca807b89024be1c64b299810423567ee4b042702f2",
+      "bytes": 17136,
+      "src": "audio/g04-10.mp3",
+      "seconds": 2.4875
+    },
+    "g04-12": {
+      "text": "work. This machine works well.",
+      "sha256Text": "5802316a243d2b9ae6f7260e178ecf45a327b5a6cb8dd75b7688d415cbbf0bd4",
+      "sha256": "0b80956f447b81d6d7899ed6ca2d8cd16e96745cba9b8e621f5a22168e16d1cd",
+      "bytes": 15552,
+      "src": "audio/g04-12.mp3",
+      "seconds": 2.2125
+    },
+    "g04-11": {
+      "text": "roll. The ball rolled across the floor.",
+      "sha256Text": "eec88aab4980f9ed698d3d5d121b004b122fe7cca500e91c8bcc52e3c904a5fd",
+      "sha256": "96ee41ee695cfbcfdd8596daa34cc4a03a966883c5a5f4a56d887e322d6a938e",
+      "bytes": 17568,
+      "src": "audio/g04-11.mp3",
+      "seconds": 2.55
+    },
+    "g04-13": {
+      "text": "trust. Trust is important in friendship.",
+      "sha256Text": "9fe512d6f3277d43d1685c75125b1e2ef313fe300af634863313990f3e2432c5",
+      "sha256": "22e87896dcc6bba4a472b6bbae9c158361fb9bfd64dc8434ac7b672ffd1c5081",
+      "bytes": 20592,
+      "src": "audio/g04-13.mp3",
+      "seconds": 3.05
+    },
+    "g04-16": {
+      "text": "fish. They fish in the lake.",
+      "sha256Text": "e95e8aa0a0b0be64388fe08f4fa1e1f216d42692a5798c3c376e629d9b9be20c",
+      "sha256": "5e6d6c20ab982a0b77a4f4d01685ff981e77611cb043d552294aaf97e27721ba",
+      "bytes": 14112,
+      "src": "audio/g04-16.mp3",
+      "seconds": 1.9875
+    },
+    "g04-15": {
+      "text": "rock. I like rock music.",
+      "sha256Text": "4a5815b3e3e409804fce8cf3df17a6ac48701a23136ac1260838ada93cd8ecb2",
+      "sha256": "26dfd71dbe948926f7534b5920d4e850c6c090c12c4c72513a59c03dfda56da2",
+      "bytes": 14112,
+      "src": "audio/g04-15.mp3",
+      "seconds": 1.9875
+    },
+    "g04-14": {
+      "text": "dig. Dig a hole in the sand.",
+      "sha256Text": "be64743c0d79f2df3ed79b68f0c168caf62a904f638221642656a45b486c904e",
+      "sha256": "84a2f6ca801574dc4f79bb351fb499360a7d4503419d6dc5be603bb6c1049418",
+      "bytes": 14688,
+      "src": "audio/g04-14.mp3",
+      "seconds": 2.075
+    },
+    "g04-17": {
+      "text": "belief. I have a firm belief in his innocence too.",
+      "sha256Text": "7774cfb10c85aad143422b19e1ef402547eddb01497403d0fb89c4280daa1b16",
+      "sha256": "2b211e722c2d0d61654efd76c129ef2470e5b9e52b66023ef35a2f85c8318272",
+      "bytes": 22752,
+      "src": "audio/g04-17.mp3",
+      "seconds": 3.425
+    },
+    "g04-20": {
+      "text": "press. Press this button.",
+      "sha256Text": "3ff17a6730daf43a1463b817788ea7fb62120346b30fffb2428112b5f51421da",
+      "sha256": "6e444c4704666c9a3cae0a5ce799dec184c12e97183cafea986392ea034ecf1d",
+      "bytes": 12960,
+      "src": "audio/g04-20.mp3",
+      "seconds": 1.7875
+    },
+    "g04-19": {
+      "text": "Druze. Many Druze live in northern Israel.",
+      "sha256Text": "7e9afcf94207139b8c5263e509db215bfa6aefbd6544fa230ba232d5e1e0dabd",
+      "sha256": "e86b53feaa9bf343b777717dd8b22d6170b78899a70f243d4b8805c230a03af7",
+      "bytes": 21456,
+      "src": "audio/g04-19.mp3",
+      "seconds": 3.2
+    },
+    "g04-18": {
+      "text": "direct. The guide directed us to the entrance.",
+      "sha256Text": "7f74dde7ec90eff8112b0e7a1271dbbde15da38ba14ebd942103f089d9dc5a11",
+      "sha256": "b4cc06984b4bc0fcddb2481d51f961bbb82b8e6b5553d14865ed7be67e56363c",
+      "bytes": 21456,
+      "src": "audio/g04-18.mp3",
+      "seconds": 3.2125
+    },
+    "g04-21": {
+      "text": "moment. I was not here a moment ago.",
+      "sha256Text": "007e4629531a42a2ac6766aa3de34f5cf1190c4a72e1ec3ed5ffa9c9239ffe81",
+      "sha256": "e3006fa24ffadaf18e555544076c89a720dc5fd0f1cfbbe931935dacb3e2f60a",
+      "bytes": 17856,
+      "src": "audio/g04-21.mp3",
+      "seconds": 2.6
+    },
+    "g04-24": {
+      "text": "smart. Whoever did this was smart too.",
+      "sha256Text": "0fac5bb282150ea2d3f316dcfe8a3446444979f2417bae2097e6353cb2ab0ce0",
+      "sha256": "90b5ad9eaf72a880d81e7db7829c48b78142b1d41016d136c53aa95b5fa41d0e",
+      "bytes": 18432,
+      "src": "audio/g04-24.mp3",
+      "seconds": 2.6875
+    },
+    "g04-22": {
+      "text": "turning. Take the first turning on the right.",
+      "sha256Text": "754eca0c0a6683e83f5fdce84f48238c9bd19e56361f57ea844b22e526f25383",
+      "sha256": "871d608a3030dab357400ae36d06b39087cefb22aa3fdfb1211ac2f16fe488aa",
+      "bytes": 18720,
+      "src": "audio/g04-22.mp3",
+      "seconds": 2.7375
+    },
+    "g04-23": {
+      "text": "idea. Her idea may solve the problem.",
+      "sha256Text": "39fecaab00db08145863d76c926e5afbda2af495076fa01d5c3911fa3831d54d",
+      "sha256": "251b8b0e6124f51b683e76458b55b9b6d06a3f384541683a049966f64250911b",
+      "bytes": 19440,
+      "src": "audio/g04-23.mp3",
+      "seconds": 2.875
+    },
+    "g04-25": {
+      "text": "really. I really want to learn more.",
+      "sha256Text": "a369fff4c10793ec10b72f38ed9b7f3f8d48d59abc6bef75bddd8c357bffa752",
+      "sha256": "14fcebc77ab8f678d82d40465216d58dc510a1f7361b7f41367f7f41e36c1c63",
+      "bytes": 15984,
+      "src": "audio/g04-25.mp3",
+      "seconds": 2.3
+    },
+    "g04-26": {
+      "text": "open. The shop opens at nine.",
+      "sha256Text": "11f3799bca65a57a94621c668e8894eee0ad640bd40b898045a3ff640f13fed1",
+      "sha256": "a6631f71a2ac2a55051995caeddb6dd2995f3c34d429d30e1370f5b91ea55767",
+      "bytes": 16128,
+      "src": "audio/g04-26.mp3",
+      "seconds": 2.325
+    },
+    "g04-29": {
+      "text": "put somebody off. The bad smell put me off the food.",
+      "sha256Text": "c1afd43681fd3b80c669d98b7992b6e822cf73aaf68b992d9fc821a59bb40839",
+      "sha256": "7381e059e776aa93391a7dba9c7666eb497eeb6f0794c4d4865057a2754096c8",
+      "bytes": 22464,
+      "src": "audio/g04-29.mp3",
+      "seconds": 3.375
+    },
+    "g04-28": {
+      "text": "correct. Please correct this sentence.",
+      "sha256Text": "1a94654422a020650f1a564c356e31b95523183e0dc484d7a7393c923c05d934",
+      "sha256": "2e2a3cde3fcef878208273d4114eb4fdf8e7bf286af5a88a54e66342aee62aa9",
+      "bytes": 17280,
+      "src": "audio/g04-28.mp3",
+      "seconds": 2.5125
+    },
+    "g04-27": {
+      "text": "hand something out. Please hand out the papers.",
+      "sha256Text": "1a7f26d5215a086dbb3609bbb1eaeaef5fca33d39b6159e1cc1603e78d5be2b9",
+      "sha256": "291739c750af455bdbbac259069d5cf7f973d6ea81066358e057e1325b49fce4",
+      "bytes": 20592,
+      "src": "audio/g04-27.mp3",
+      "seconds": 3.0625
+    },
+    "g04-32": {
+      "text": "ask. She asked me to dinner.",
+      "sha256Text": "cc08efb9c911c626b056a816ded765fd4888b7f0def0038249e6435b1f48a2a2",
+      "sha256": "aa58e0796e9c6d9628f08207e5208cd0a6bfd770642afb7d2cfd758eaf188e03",
+      "bytes": 14544,
+      "src": "audio/g04-32.mp3",
+      "seconds": 2.05
+    },
+    "g04-30": {
+      "text": "ski. He bought a new ski.",
+      "sha256Text": "7ed2a29035a7bd4cc9018db24348d8a9d81fb24c39f78f5e2227761b34eee611",
+      "sha256": "41c77523d5346fa75ade0510e0fe819e3da3bc70955640db5bd3e9e63fa14da1",
+      "bytes": 13680,
+      "src": "audio/g04-30.mp3",
+      "seconds": 1.9
+    },
+    "g04-31": {
+      "text": "case. Put the glasses in their case.",
+      "sha256Text": "e5f6d905b4bdad464306d7753d934212b3601e775aa5a043af0f126e49540f5b",
+      "sha256": "790ac19b5eb083a33f7cf9e340ad0e8bb0ed91027524fbea5c220d2861d5cf99",
+      "bytes": 17712,
+      "src": "audio/g04-31.mp3",
+      "seconds": 2.575
+    },
+    "g04-33": {
+      "text": "watch out. Watch out! There is a small hole there.",
+      "sha256Text": "e8f32e0e18c9c5e13d58473552b78ca42cd736e431ddca8105f67f6c62b759cd",
+      "sha256": "8801981f3951442cacfff5dedab8c88d350e7fbd36cb85101310199ee63ef0fb",
+      "bytes": 22896,
+      "src": "audio/g04-33.mp3",
+      "seconds": 3.4375
+    },
+    "g04-34": {
+      "text": "adventure. Children enjoy a good adventure story.",
+      "sha256Text": "61c132048117214911c1eb83876168296e7cd908968f681a7fa02e7bb1aeb9ce",
+      "sha256": "c15dd1586b655a8aefaa21a0e0b1c311199236468866f943ce870daea60c9720",
+      "bytes": 23472,
+      "src": "audio/g04-34.mp3",
+      "seconds": 3.5375
+    },
+    "g04-35": {
+      "text": "worse. The weather could not be worse.",
+      "sha256Text": "7cf0810e8d36ba992f68477d2e045cf82b547d0e3e1b734fbfdfac1587bc759a",
+      "sha256": "43e911007c2a11630eab8c9fc057517a8d4d86d8109439949a161cb52cd5d77e",
+      "bytes": 17280,
+      "src": "audio/g04-35.mp3",
+      "seconds": 2.5
+    },
+    "g04-37": {
+      "text": "available. The car is not available tomorrow.",
+      "sha256Text": "a5093a29ffe638889353c3d0c40db51f3fd95f907c7bdae85f2da933556d07ca",
+      "sha256": "618b3f824229a215345dc5433c995abce5e2a06c8bf1f9542e09a8f7443b0f2e",
+      "bytes": 21456,
+      "src": "audio/g04-37.mp3",
+      "seconds": 3.2
+    },
+    "g04-36": {
+      "text": "gather. We need to gather information.",
+      "sha256Text": "bef57f0f6c2202ba0fb76a9d1e4211d531c8b012f9190cfc7d9ec852fa586e3c",
+      "sha256": "0e9f3f955b1bbaa8a2eb8558355db2173f8c313fa761e7245519ebc34db32fa7",
+      "bytes": 17712,
+      "src": "audio/g04-36.mp3",
+      "seconds": 2.575
+    },
+    "g04-40": {
+      "text": "teaching. My friends and I learn by teaching.",
+      "sha256Text": "fb12819e52f1ae6df4a77b48a02979deba0622254c2bce34a2c29e0f581b2a9f",
+      "sha256": "d3c57f9af80748435b5294e5d593d863dc70a45375da0f265a0b25a4a2ebec97",
+      "bytes": 20016,
+      "src": "audio/g04-40.mp3",
+      "seconds": 2.95
+    },
+    "g04-39": {
+      "text": "be located near something. The hotel is located near the beach.",
+      "sha256Text": "9de938a8eb0ec3d75b6f2ad52059a03aedbb0af70f9f0453e82977941b1d2f9a",
+      "sha256": "9ea4ec526ae82d3c825333e2a4ed11f94df47467459e67e9e79db9cf158a61b6",
+      "bytes": 28368,
+      "src": "audio/g04-39.mp3",
+      "seconds": 4.35
+    },
+    "g04-41": {
+      "text": "record. Are you going to record tomorrow's episode?",
+      "sha256Text": "1d62f4aebe61a353811ceb6e0e1b7985ccfb4e891ce4286a545a77eed6976e26",
+      "sha256": "5fae58dbbeaf659e837eb8c2b49f38135f253b0a46eaac118a22d7c8a76a9265",
+      "bytes": 21168,
+      "src": "audio/g04-41.mp3",
+      "seconds": 3.15
+    },
+    "g04-38": {
+      "text": "share. We each paid our share.",
+      "sha256Text": "eaad275459696505e797538cfa05f193c10b5d87d1287e8f29729070a321c434",
+      "sha256": "8cb2b37bf4dfcc04d62e7538924115df39e794c07720fb7542fb1a8bb97c3c2c",
+      "bytes": 14832,
+      "src": "audio/g04-38.mp3",
+      "seconds": 2.1
+    },
+    "g04-42": {
+      "text": "make a face. The child made a funny face.",
+      "sha256Text": "394008ac1426adf0d6dce3895b202bbc0d6087214f870e9a43893ed1b64021c5",
+      "sha256": "51f17493c9d6eeac944c2dbd0803c2ae0209545432cbf7d263befdc97784df0a",
+      "bytes": 19872,
+      "src": "audio/g04-42.mp3",
+      "seconds": 2.9375
+    },
+    "g04-44": {
+      "text": "necessary. Water is necessary for life.",
+      "sha256Text": "93833343e3cea9326e3738d15a5137169e1c3d6a3f06e423d0079127f6fa5d2d",
+      "sha256": "6d9cb7cb268f1c287746243249adacff9400f585fad58f3f368c5ef35c00beaf",
+      "bytes": 21744,
+      "src": "audio/g04-44.mp3",
+      "seconds": 3.2625
+    },
+    "g04-45": {
+      "text": "put something up. They put up a new sign.",
+      "sha256Text": "22eeb29dd567c9c9e4cd4e48dfaca0015857756c60dfff8567b7e5d74fd4e47a",
+      "sha256": "4c2439e6bf0ee1dde9e219bc4d46fabf3f39d1f4331ba8d955444fa4ec248d2d",
+      "bytes": 17712,
+      "src": "audio/g04-45.mp3",
+      "seconds": 2.5875
+    },
+    "g04-43": {
+      "text": "be made of. Our classroom table is made of wood.",
+      "sha256Text": "00fd792dfa34a64e14c7ae62b37d6098abfbc6c6708a4fe4a2e564c5eb0d7f87",
+      "sha256": "2cc17a7b6d20cfdfeacef088880a1e014486d1b72e8c75bdcb569f6a9e4d2fe8",
+      "bytes": 22320,
+      "src": "audio/g04-43.mp3",
+      "seconds": 3.3375
+    },
+    "g04-47": {
+      "text": "cousin. He is not my cousin.",
+      "sha256Text": "d63a1caebc5fb5f6206f5c221073d2aaf20b8215df73f3d6e75932296b4aa177",
+      "sha256": "82d68d050ac5635f0c37afc5fdee9c1d416ff531e4a9c5df5840a5b144f899aa",
+      "bytes": 15264,
+      "src": "audio/g04-47.mp3",
+      "seconds": 2.175
+    },
+    "g04-49": {
+      "text": "accompany. May we please accompany you on your walk?",
+      "sha256Text": "cc3ecfc9da679d905c5899f8ee1ed60d49d28d2c9ed02da6ebc79dcb1ce39681",
+      "sha256": "f20335678d2d132e0bc6da02da3f476bf0279457e938201c7a66e397d70abf34",
+      "bytes": 21024,
+      "src": "audio/g04-49.mp3",
+      "seconds": 3.125
+    },
+    "g04-46": {
+      "text": "dependent. He is totally dependent on his parents.",
+      "sha256Text": "51503fe7c78e6de3726e6487476a5e22918adbc6143fb1f6ab2f58d9f2268937",
+      "sha256": "f3560da39670c7da058bee1410c6b8d4911d574a8c1a540ae30a5319277d3f21",
+      "bytes": 22608,
+      "src": "audio/g04-46.mp3",
+      "seconds": 3.3875
+    },
+    "g04-48": {
+      "text": "teaspoon. Add one teaspoon of sugar.",
+      "sha256Text": "cb0aac85e0243bc3018d4674155894b42e98f33d0cacdd9a7aa256bee57dab44",
+      "sha256": "d34c1eb51dfcafddadf96bd9138a83449b208c00e356dadd1d93e297cad11c14",
+      "bytes": 18576,
+      "src": "audio/g04-48.mp3",
+      "seconds": 2.7125
+    },
+    "g04-53": {
+      "text": "toe. I hurt my toe.",
+      "sha256Text": "a7af62e8fae9c6fd2a32e246f806be1e52ea2a89825bea3d8b7c67f66de1632e",
+      "sha256": "798d52418b3703b4deced866ffce4a221f231cb25753189e7e9fef34e3824edd",
+      "bytes": 11664,
+      "src": "audio/g04-53.mp3",
+      "seconds": 1.5625
+    },
+    "g04-52": {
+      "text": "subject. I know this subject well.",
+      "sha256Text": "9e86b14dfb7a9810f03cc49c4e767a81585b5a7f3dae75b612564604b5cf2228",
+      "sha256": "ef163c256f4c9727e2865282f2e0eb1a79620ae0a453f290b7a84fc8190840ef",
+      "bytes": 17136,
+      "src": "audio/g04-52.mp3",
+      "seconds": 2.4875
+    },
+    "g04-50": {
+      "text": "carry. Can I please carry this on the plane?",
+      "sha256Text": "69b7e8c11090a2b9b0f85825b330013847a6cc15c61033bb274d246f273ec801",
+      "sha256": "38cb585ce32d3cdda78c9eaf6f9bc0472e5cf30f23307d6ededf7002eda0ac31",
+      "bytes": 18864,
+      "src": "audio/g04-50.mp3",
+      "seconds": 2.7625
+    },
+    "g04-51": {
+      "text": "locate. The boy could not locate the Danube on the map.",
+      "sha256Text": "4832f3b083484f52805a060c2559f1072f5757e583000ef2e10e9b478081b0c6",
+      "sha256": "a9d0f44463454cf94332f515c61e973ef7c9d1e48f67347a2c32a39a54eb6352",
+      "bytes": 24336,
+      "src": "audio/g04-51.mp3",
+      "seconds": 3.6875
+    },
+    "g05-02": {
+      "text": "Why not. Why not ask her?",
+      "sha256Text": "d1a61b7bc56cc5e96db5f80515903a82badbfc831586d68659eb8a40b8bca697",
+      "sha256": "6c179d4974a828e644e7da769a2d3c8f3b764181c40fd3f026f21fe5a2756705",
+      "bytes": 13968,
+      "src": "audio/g05-02.mp3",
+      "seconds": 1.9625
+    },
+    "g05-01": {
+      "text": "heart. She drew a heart on the card.",
+      "sha256Text": "3f486bd6986d22fe76c04011b6d55dea5e9673d6eb36faf54c962aefd63c299e",
+      "sha256": "e521f33c2849b656acdab9983408cedfd54be1721f102957d29ea272469540e5",
+      "bytes": 16848,
+      "src": "audio/g05-01.mp3",
+      "seconds": 2.425
+    },
+    "g04-54": {
+      "text": "look around. Look around. What can you see?",
+      "sha256Text": "e169f9bb351e1c08e4ee48bb70047f0ef4f7a841a7b1aadc431d5156f7e9efb2",
+      "sha256": "f8cc5b418b6a53c3133a2506923500ca543d82c91b97af407fd02e18868e2af2",
+      "bytes": 21168,
+      "src": "audio/g04-54.mp3",
+      "seconds": 3.15
+    },
+    "g04-55": {
+      "text": "Congratulations. I am told congratulations are in order.",
+      "sha256Text": "a6de9f90ba30d64f6469f4bd4f6b05e3dd538c3f2376df51c2bc134a51cf8c77",
+      "sha256": "556106ded32f4f240265af813d5f0ba03e42e2bb2038567c642f07197015b30e",
+      "bytes": 27216,
+      "src": "audio/g04-55.mp3",
+      "seconds": 4.1625
+    },
+    "g05-03": {
+      "text": "promise. She kept her promise.",
+      "sha256Text": "dc7fac9d794defef792e1816d18bff256f8634d197b693140e2afc51af12753e",
+      "sha256": "8d10d2fdf47b4439797a15ad0f1d8f86c3fb4f4fb842b5ba3ec144fdf1916ce7",
+      "bytes": 15264,
+      "src": "audio/g05-03.mp3",
+      "seconds": 2.175
+    },
+    "g05-04": {
+      "text": "be worth. The idea is worth a try.",
+      "sha256Text": "2a0495725c1ad779c4baf0382cceffeeae0671fcfb321372694c384097fab9e7",
+      "sha256": "21821fb1923d0a17597b28777b3e2e13f9c8003282353e055b2a09e0ac4e482a",
+      "bytes": 18144,
+      "src": "audio/g05-04.mp3",
+      "seconds": 2.65
+    },
+    "g05-05": {
+      "text": "somehow. I will make myself useful somehow.",
+      "sha256Text": "b6d0fb0cd1d01c8918e1a2b0511a1364ffb716e9b3a857428a71b7948d9d78ea",
+      "sha256": "46dc8c3d345cbd676a1c10d7d1e8377e027b311e15e9b46958e83e96cda39e98",
+      "bytes": 20160,
+      "src": "audio/g05-05.mp3",
+      "seconds": 2.9875
+    },
+    "g05-06": {
+      "text": "love. Music is his great love.",
+      "sha256Text": "bf1495020049cd74445edeffcdcbeb7b8b40fa20ac249d7d8be0cc6231b40daa",
+      "sha256": "dacde6141dd1b814b39b5b0257c6022c4d28f2919f24b67321a1b791347a9851",
+      "bytes": 17136,
+      "src": "audio/g05-06.mp3",
+      "seconds": 2.475
+    },
+    "g05-07": {
+      "text": "hero. The students consider him a hero.",
+      "sha256Text": "d4d0786a21b2a73815e1f835a315a3fbd0548d8577b3799d2df826780ed4587c",
+      "sha256": "f8b0acfaeae25a8fc0587b616881a62d872b10103c3808cc2aaa812735d0e643",
+      "bytes": 19296,
+      "src": "audio/g05-07.mp3",
+      "seconds": 2.8375
+    },
+    "g05-10": {
+      "text": "throat. I have a sore throat too.",
+      "sha256Text": "6b8d16efdff22423a038b9fe25723c8cf0579866d0f9a37c642616ee787fcd4b",
+      "sha256": "e7651d0d65b318f52dcf178bc9c3099909468775ed52bacbf980ad111d181941",
+      "bytes": 14976,
+      "src": "audio/g05-10.mp3",
+      "seconds": 2.125
+    },
+    "g05-09": {
+      "text": "champion. The boy is a former champion.",
+      "sha256Text": "defe705e78cd2bc54016431d19468a3dcd9190df7261313500c22584dd36e17b",
+      "sha256": "f563acd7c155f2ba3909ddccb1408cf973393a4ebb1f72bcbcb2adcf870e3034",
+      "bytes": 19584,
+      "src": "audio/g05-09.mp3",
+      "seconds": 2.8875
+    },
+    "g05-08": {
+      "text": "score. We want to score more goals.",
+      "sha256Text": "39ec8df04268c327b17e5048a66d48e601fd2b16e49d0f3d04bec15737fe5f9c",
+      "sha256": "45781e0f89d2af3d119ded7cf89982188af72584a240bbc6f813d480e4c41272",
+      "bytes": 16272,
+      "src": "audio/g05-08.mp3",
+      "seconds": 2.35
+    },
+    "g05-11": {
+      "text": "name. They named the dog Max.",
+      "sha256Text": "0b0f012238b85df8b32a9f9b63443b4d4b753c4243ca9121117a709b41ea3d54",
+      "sha256": "fd0123dfdb51a060d2bfcc9b0fd523d967ff2455f0d83cdfff5873a32fa5c78a",
+      "bytes": 15120,
+      "src": "audio/g05-11.mp3",
+      "seconds": 2.15
+    },
+    "g05-13": {
+      "text": "according to. According to her, he will not come.",
+      "sha256Text": "3170923799c9f75c2ffe18827f823173e8ffac5c41c1ab12e9217f74c8a4bb7f",
+      "sha256": "7ff1239154d57650fcbff7847fbb803ad43a56acd3c9744ad1fe2f0419f73c62",
+      "bytes": 20592,
+      "src": "audio/g05-13.mp3",
+      "seconds": 3.0625
+    },
+    "g05-14": {
+      "text": "get to know somebody. I hope to get to know my classmates.",
+      "sha256Text": "dc228dfb5fe70c5573b761a8f318d1fc63af4b2a2b9d8a685a6fd8b704413d7c",
+      "sha256": "78397515364762fd4390b0b5c014967df120bf07bb9d4d3a9b48f4597d0166db",
+      "bytes": 23040,
+      "src": "audio/g05-14.mp3",
+      "seconds": 3.4625
+    },
+    "g05-12": {
+      "text": "thumb. I pricked my thumb with a needle too.",
+      "sha256Text": "21090c8bbd71da68dfd8b40ee7e39f5926a11bfdb2d122f5924101081de77fac",
+      "sha256": "3dd78e958ab1cc5f37073ef1827dcfa8153a66d785d68c2f8235ce08ae972751",
+      "bytes": 18432,
+      "src": "audio/g05-12.mp3",
+      "seconds": 2.6875
+    },
+    "g05-17": {
+      "text": "Why don't you. Why don't you come with me?",
+      "sha256Text": "d57899ec81cb39499e0e5c1b3ba9de16a0b302f502e6da011b22f1d1f8dd0150",
+      "sha256": "fff08e32c8965b0ac9bf8efca241e4bb12a4905cf633484d6c08da806a44888c",
+      "bytes": 16272,
+      "src": "audio/g05-17.mp3",
+      "seconds": 2.3375
+    },
+    "g05-18": {
+      "text": "ring. The phone's ring woke me up.",
+      "sha256Text": "4a79252633eeab866ce4a4d99e3859f73531fbafb4b3c16d36e95178874a014c",
+      "sha256": "7826924ae8e68c7327dc2036419dde3b47c340ae189ebf31e4d8fcbe907a3def",
+      "bytes": 16416,
+      "src": "audio/g05-18.mp3",
+      "seconds": 2.3625
+    },
+    "g05-15": {
+      "text": "rich. This food is rich in iron.",
+      "sha256Text": "277fd26c07e7d19f350c9227c16e301f6b03ba0e374d9e035054799ba5d696fc",
+      "sha256": "b5c3fc7f5226777f299dced41d406464fac351506ef482883124e09194dab7c4",
+      "bytes": 16992,
+      "src": "audio/g05-15.mp3",
+      "seconds": 2.4625
+    },
+    "g05-16": {
+      "text": "put something on. Put on your coat before you go out.",
+      "sha256Text": "b0dd03bd64be87e5851b6f4757b198475f8e259aa4dfa8e4a27a6ff14ea3d091",
+      "sha256": "2b2c47cb2c49f67ab1220b81c605763618db41efb7a2c747e1daf2dc3ef42f59",
+      "bytes": 22032,
+      "src": "audio/g05-16.mp3",
+      "seconds": 3.3
+    },
+    "g05-19": {
+      "text": "inner. The bag has an inner pocket.",
+      "sha256Text": "83479de9fa150939983d0e680daf325397aa600bac3035b68ae82ef040a3e4ee",
+      "sha256": "eb5d195ccce517a3e862f587395f2430509e6a0d64e3db16cd0cdb329c0c4317",
+      "bytes": 17568,
+      "src": "audio/g05-19.mp3",
+      "seconds": 2.5625
+    },
+    "g05-20": {
+      "text": "geography. I like history more than geography.",
+      "sha256Text": "def4c5c65a1262944a61afd0f6836855690ad2ad40c3c467e488e5f1e96cba30",
+      "sha256": "6409c0478db77eceba087e9ea16af2cc05f4e120eef98359eec4d388099702c5",
+      "bytes": 22176,
+      "src": "audio/g05-20.mp3",
+      "seconds": 3.3125
+    },
+    "g05-21": {
+      "text": "on foot. I go to school on foot too.",
+      "sha256Text": "0139a85210565d60102c8e8e08d91bd32ace862fd6ff952c723b460485e94f3f",
+      "sha256": "925ed2d13465e7cfcb8ad1017c92e3aad7b692af7093706e4c201e5485d1fcee",
+      "bytes": 17280,
+      "src": "audio/g05-21.mp3",
+      "seconds": 2.5
+    },
+    "g05-22": {
+      "text": "demand. Is there really much demand for these goods?",
+      "sha256Text": "151b4d089a0abd24337c6322a988378488787176cfaf531cdaa921e0fb8c5c7e",
+      "sha256": "0058d4772e8d8baa0d900e66094b8896d098cc0a5e589923280144ad83a9fec7",
+      "bytes": 21888,
+      "src": "audio/g05-22.mp3",
+      "seconds": 3.275
+    },
+    "g05-26": {
+      "text": "fall. School starts in the fall.",
+      "sha256Text": "9d458d099994803a5ac8758f3e68db08b7fca425811982ec2851b99595e636f0",
+      "sha256": "d8e5e68c22f6192d22c674384b0ee4ea465084f4850a6c8dd502aab6ad8fc7dd",
+      "bytes": 16128,
+      "src": "audio/g05-26.mp3",
+      "seconds": 2.3125
+    },
+    "g05-23": {
+      "text": "drum. I hear the drum too.",
+      "sha256Text": "262f6720c25a25219ff83ff96e2c7846b8a2fc2535afb85b2ccc4470622de823",
+      "sha256": "eb06019767f474df650ddcbb8bf95040c40f8e94851de3781f55d873d6a33c8f",
+      "bytes": 13824,
+      "src": "audio/g05-23.mp3",
+      "seconds": 1.9375
+    },
+    "g05-24": {
+      "text": "confident. I was confident too.",
+      "sha256Text": "a172c111673afb8d8417adcca6222c6fc296f777f6e4621258cb482f00d71044",
+      "sha256": "37e6d8cd4e6707032873c6e9abacece9e550472c7f9062214e4db853d564b703",
+      "bytes": 16272,
+      "src": "audio/g05-24.mp3",
+      "seconds": 2.3375
+    },
+    "g05-25": {
+      "text": "strongly. I feel really strongly about it.",
+      "sha256Text": "40267d3516ee4f4ee0cd78f36a5e75d9aafa972155c8c3ed81bf422007ee3e5c",
+      "sha256": "37126742e2701d085e1107ddb5ff2b2f75c3fed9cbc50120fef3fec0122f92bb",
+      "bytes": 19440,
+      "src": "audio/g05-25.mp3",
+      "seconds": 2.875
+    },
+    "g05-30": {
+      "text": "nearby. The nearby station is open.",
+      "sha256Text": "98db3c56ec01db58d57a80dd29218055203c5cdc463fe285807acac0428ff154",
+      "sha256": "ae5656fdbdb843c27040c0e54fe60d5dbc21773bebfb3fe230f4e83884c56843",
+      "bytes": 18720,
+      "src": "audio/g05-30.mp3",
+      "seconds": 2.7375
+    },
+    "g05-27": {
+      "text": "hide. I had to hide my money too.",
+      "sha256Text": "8518e099eee4bbe812d79399a88a349d7303fd51b05e552e1e8a8efc4b3fe36c",
+      "sha256": "31d6d767aef42a1071824f1d12a101077594f920c72c54a3fcf048417aabb47e",
+      "bytes": 16128,
+      "src": "audio/g05-27.mp3",
+      "seconds": 2.3125
+    },
+    "g05-28": {
+      "text": "tidy something up. Please tidy up your room.",
+      "sha256Text": "9948e55da68e018710450aa86fa1c0692b8acc7c231c668318a15d6cf37a8e54",
+      "sha256": "03bab0e968cdc033b75348f5da0fd3b3a53acb43650e3cd85b45266dc19ee0e7",
+      "bytes": 19728,
+      "src": "audio/g05-28.mp3",
+      "seconds": 2.925
+    },
+    "g05-29": {
+      "text": "stay. I just want to stay here too.",
+      "sha256Text": "ff7463ad2766b332104b7924c509cac6f7e78b5bd986cd883d7a4a808f47e64a",
+      "sha256": "9decb6c65aa5143f98a6f6954761a67dffcbbe07df357d2659206e333e527b86",
+      "bytes": 15408,
+      "src": "audio/g05-29.mp3",
+      "seconds": 2.1875
+    },
+    "g05-34": {
+      "text": "remain. I do not want to remain here.",
+      "sha256Text": "785d27d5e75606cf1756c3ca0c7a12f00b2d40832b8cca95bdef041f4d20775f",
+      "sha256": "57f451a74f370075719ab283219866457cd3b65103d2134764e1e91118dd7001",
+      "bytes": 17424,
+      "src": "audio/g05-34.mp3",
+      "seconds": 2.525
+    },
+    "g05-31": {
+      "text": "at. Water freezes at zero degrees.",
+      "sha256Text": "648bb48f846e92dc0a7b226c9b39fa9004da50eea3814e2dae71f92e79bd6ae7",
+      "sha256": "28fb49dc1da9ac424186b60b268759418d2da5136d71b1d184e655c008d96244",
+      "bytes": 18432,
+      "src": "audio/g05-31.mp3",
+      "seconds": 2.7
+    },
+    "g05-32": {
+      "text": "season. Winter is the season I like best.",
+      "sha256Text": "6105a55510da730cbd4875204e7e8e9806ca56a130dd459f51006929a522adee",
+      "sha256": "1f1a88e61fd5d72dff4ba35c29976649fdd88417a698b6c7df4729ff98714302",
+      "bytes": 20592,
+      "src": "audio/g05-32.mp3",
+      "seconds": 3.0625
+    },
+    "g05-33": {
+      "text": "Attention. Attention, please; the lesson is starting.",
+      "sha256Text": "4a8b28f6c4eb61c253ec8ce64273c0426d981860297b5c2384c0f5f3f3b7aa43",
+      "sha256": "b798a05f0af2a818c1cc60e5d1071be3b982d99439f49fb948ea13a45086a3b8",
+      "bytes": 22032,
+      "src": "audio/g05-33.mp3",
+      "seconds": 3.2875
+    },
+    "g05-35": {
+      "text": "excited. We naturally got excited too.",
+      "sha256Text": "e6b641c7b7ffd4648ea7fa81cb2ca270260771a23798197606970c2e978f6015",
+      "sha256": "cfbafa7717744a74852acbbebfc9bc831c652ddeb25da7f4a336c6f78e68ba0d",
+      "bytes": 19440,
+      "src": "audio/g05-35.mp3",
+      "seconds": 2.8625
+    },
+    "g05-38": {
+      "text": "hurt. I am not here to hurt you.",
+      "sha256Text": "fc73706722f57ea96f2b0c310a442292fd3eeb440ba448ed4debe0d2ee7c81b0",
+      "sha256": "6bd98c55ea9d193a47f19c960b0260d2021c3938cc0b4de007326cdc012feb0c",
+      "bytes": 14688,
+      "src": "audio/g05-38.mp3",
+      "seconds": 2.075
+    },
+    "g05-37": {
+      "text": "involve. What exactly does it involve?",
+      "sha256Text": "053e5691ff8cda0fa82cac1f8b2b5cf34b1914a58a8772aff16847f78c10b5e7",
+      "sha256": "56e4de3d52a39eed4b82a5cd546f1cb77a52fe7e75f4a9d5909923f050598280",
+      "bytes": 19584,
+      "src": "audio/g05-37.mp3",
+      "seconds": 2.9
+    },
+    "g05-36": {
+      "text": "oh. Oh, I forgot my book!",
+      "sha256Text": "c651997483fcfcf16f3a1876233963fdd0423d451786320b5687d782e29314da",
+      "sha256": "f12c03b9688ba4499457e01706f5fb7b2bb2270d15bc55fe91f22cbbc7ad6020",
+      "bytes": 13680,
+      "src": "audio/g05-36.mp3",
+      "seconds": 1.9
+    },
+    "g05-41": {
+      "text": "Arab. He is an Arab from Jordan.",
+      "sha256Text": "90c76d7b896e0e64e071991bbc6f6df9f71aa4bd7d88d3af77db82cd32fb89bb",
+      "sha256": "b3ced94ef740ab60387a48c7ede9c1c3e45212e3d0519bb194e8fa07858736b2",
+      "bytes": 16416,
+      "src": "audio/g05-41.mp3",
+      "seconds": 2.3625
+    },
+    "g05-42": {
+      "text": "on fire. The kitchen is on fire.",
+      "sha256Text": "cd909dd03110b694113f6de87d3d7a56bbb7ec1710fe2c9b1201464a7733999e",
+      "sha256": "7fcb0bd117fd68000a027ebdab11480443e98cbf1127ea55374c9f9f37926caa",
+      "bytes": 18144,
+      "src": "audio/g05-42.mp3",
+      "seconds": 2.6375
+    },
+    "g05-39": {
+      "text": "sleep. I could use some sleep too.",
+      "sha256Text": "61b8eeef2d606df62c5bead084167a3682dbf66403dcac7c37d45f2c227c6977",
+      "sha256": "aae118ab4a04de76a6f019731a9c5e44c034f69b3d34c9c4d256a44a2d7e92a4",
+      "bytes": 15840,
+      "src": "audio/g05-39.mp3",
+      "seconds": 2.275
+    },
+    "g05-40": {
+      "text": "improve. My friends and I need to improve the odds.",
+      "sha256Text": "59bb9734ab1b8b9732de6db83abd562c46711dd358b08321b010039c5da89b1a",
+      "sha256": "4e4437d0f6a5b42691e9a1ea249971c2188358fa5ceb727db8a8ba17a8ff3dfc",
+      "bytes": 23184,
+      "src": "audio/g05-40.mp3",
+      "seconds": 3.5
+    },
+    "g05-46": {
+      "text": "give something back. Please give the book back tomorrow.",
+      "sha256Text": "87af8093743823af9a7f7adedd7f347dce864542550d4d72f1a56e3a4fd7226b",
+      "sha256": "193669103236d37f9affc2168088839b416be6b3f7d3d79db0abffe1347c2634",
+      "bytes": 22032,
+      "src": "audio/g05-46.mp3",
+      "seconds": 3.2875
+    },
+    "g05-43": {
+      "text": "noticeboard. The message is on the noticeboard.",
+      "sha256Text": "e40e6f2e4d94e3ef1eb69cc73c1a99a13cdebfbadcd9e450821cbf3255c0a061",
+      "sha256": "9f013adfb09be51103ee031ac8f31949f683a55a94490dbefbdf31a6547a1171",
+      "bytes": 22320,
+      "src": "audio/g05-43.mp3",
+      "seconds": 3.3375
+    },
+    "g05-45": {
+      "text": "leave. He promises never to leave his wife.",
+      "sha256Text": "c473ca4df4f5598bd0b23a6191a102702290c82e8774d3a1cfb569159ba7314c",
+      "sha256": "338c2a2ea273217ea95ca7133fb97566c049d7f7b270283961f001404bf8efdf",
+      "bytes": 20016,
+      "src": "audio/g05-45.mp3",
+      "seconds": 2.9625
+    },
+    "g05-44": {
+      "text": "repair. They have to repair their car too.",
+      "sha256Text": "bcad3f9b3eeada099929b482f53787aac73b1858b58379b7624087c35862b29c",
+      "sha256": "6c1d2cc12047601b96052621a11ccb0d70ba535830995f6c18e555d6e9654b58",
+      "bytes": 17712,
+      "src": "audio/g05-44.mp3",
+      "seconds": 2.575
+    },
+    "g05-47": {
+      "text": "hurry. What exactly's your hurry?",
+      "sha256Text": "d2bee380749eee3b5df2a90692df96ca58e4ec4b637125b58573698e7d003957",
+      "sha256": "2559d0d85198e14d5e042dc9514339c9d7788cc38a9284d562f9146d66560c09",
+      "bytes": 15840,
+      "src": "audio/g05-47.mp3",
+      "seconds": 2.275
+    },
+    "g05-49": {
+      "text": "protect. It is my job to protect you.",
+      "sha256Text": "a44d345f3e3a86f74985ce570c2bae704417f45fec5306368047b7a84871f4ae",
+      "sha256": "5532c6c5a9477b27f5fede9668e7ad7af2d087abfc1cae9b0d074ffc635b7ed0",
+      "bytes": 19008,
+      "src": "audio/g05-49.mp3",
+      "seconds": 2.8
+    },
+    "g05-48": {
+      "text": "tower. We can see the tower.",
+      "sha256Text": "925e1691e7ad801ad0df244c126b66b979b413b3552c0c7f98fbf6840079cea8",
+      "sha256": "04a3d152f30399c54c562563bce655853ecb119cba722fa434753803c421c114",
+      "bytes": 14976,
+      "src": "audio/g05-48.mp3",
+      "seconds": 2.125
+    },
+    "g05-50": {
+      "text": "for sale. His house is for sale too.",
+      "sha256Text": "38f775ea4462ccdcfdce6411ea832af00d6c47119fba8c0fbd487eceed034786",
+      "sha256": "1d5971ed54cc31d54dafb9ad308650152f98fa0fc6e0e7e061ca9678a269c923",
+      "bytes": 18144,
+      "src": "audio/g05-50.mp3",
+      "seconds": 2.6375
+    },
+    "g05-52": {
+      "text": "natural. It is quite natural for him to think so.",
+      "sha256Text": "8d5e9bd767285baec3c0f7ba047befddee23eb912e360fdd0d76de6e1548f52b",
+      "sha256": "637023d4e0166866786325e5c9a1122d3d136a6db6486e3eb9e92a25ce428003",
+      "bytes": 22320,
+      "src": "audio/g05-52.mp3",
+      "seconds": 3.35
+    },
+    "g05-53": {
+      "text": "myself. I consider myself one of you too.",
+      "sha256Text": "b68f7a6d333e4409f1aea2bbd67402b20ccb41f013cbf511bac34014958f5a7e",
+      "sha256": "82eb150e43aef18d6b99347921adc3adb30151a8a2b2f3f28a5bc2693e51ee00",
+      "bytes": 19584,
+      "src": "audio/g05-53.mp3",
+      "seconds": 2.9
+    },
+    "g05-54": {
+      "text": "star. She is a star on television.",
+      "sha256Text": "ad3a25d005e8066d2018ff15ab06c92c3ac0e838642ba13981a9d0f9fdd2cb13",
+      "sha256": "e32361e73f990efb50e07589876eec79ad855424b341c6a8d763016d19226bee",
+      "bytes": 18144,
+      "src": "audio/g05-54.mp3",
+      "seconds": 2.6625
+    },
+    "g05-51": {
+      "text": "the young. The young need time to learn.",
+      "sha256Text": "bc607bcb600d93991858e94dfd098369a1eb58a6c0171ec0622592d9d3dfd990",
+      "sha256": "4c425d8aca271dc96f90bc0b382b990779e63b74e19fcab875cbbf090acfcffd",
+      "bytes": 17136,
+      "src": "audio/g05-51.mp3",
+      "seconds": 2.4875
+    },
+    "g05-55": {
+      "text": "context. It depends on the context too.",
+      "sha256Text": "47238f45102e6d967c1a5cd3af138339d0679d79faca4ea73e54aeefd957f54c",
+      "sha256": "5ac956d721796a5e837ba4d9690279cc6a17f046cdd037e69efe4d6897a49222",
+      "bytes": 19584,
+      "src": "audio/g05-55.mp3",
+      "seconds": 2.8875
+    }
+  }
 }

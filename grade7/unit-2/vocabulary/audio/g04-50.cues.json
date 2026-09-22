@@ -1,0 +1,56 @@
+{
+  "text": "carry. Can I please carry this on the plane?",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "69b7e8c11090a2b9b0f85825b330013847a6cc15c61033bb274d246f273ec801",
+  "sha256": "38cb585ce32d3cdda78c9eaf6f9bc0472e5cf30f23307d6ededf7002eda0ac31",
+  "words": [
+    {
+      "word": "carry.",
+      "start": 0.05,
+      "end": 0.475
+    },
+    {
+      "word": "Can",
+      "start": 0.8375,
+      "end": 0.975
+    },
+    {
+      "word": "I",
+      "start": 0.9875,
+      "end": 1.075
+    },
+    {
+      "word": "please",
+      "start": 1.0875,
+      "end": 1.3875
+    },
+    {
+      "word": "carry",
+      "start": 1.4,
+      "end": 1.7375
+    },
+    {
+      "word": "this",
+      "start": 1.75,
+      "end": 2.0125
+    },
+    {
+      "word": "on",
+      "start": 2.025,
+      "end": 2.1875
+    },
+    {
+      "word": "the",
+      "start": 2.2,
+      "end": 2.275
+    },
+    {
+      "word": "plane?",
+      "start": 2.2875,
+      "end": 2.7625
+    }
+  ],
+  "bytes": 18864
+}

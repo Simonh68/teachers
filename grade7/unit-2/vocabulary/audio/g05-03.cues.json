@@ -1,0 +1,36 @@
+{
+  "text": "promise. She kept her promise.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "dc7fac9d794defef792e1816d18bff256f8634d197b693140e2afc51af12753e",
+  "sha256": "8d10d2fdf47b4439797a15ad0f1d8f86c3fb4f4fb842b5ba3ec144fdf1916ce7",
+  "words": [
+    {
+      "word": "promise.",
+      "start": 0.0625,
+      "end": 0.6125
+    },
+    {
+      "word": "She",
+      "start": 0.975,
+      "end": 1.125
+    },
+    {
+      "word": "kept",
+      "start": 1.1375,
+      "end": 1.375
+    },
+    {
+      "word": "her",
+      "start": 1.3875,
+      "end": 1.525
+    },
+    {
+      "word": "promise.",
+      "start": 1.5375,
+      "end": 2.175
+    }
+  ],
+  "bytes": 15264
+}

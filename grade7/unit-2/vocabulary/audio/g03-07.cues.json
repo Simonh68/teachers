@@ -1,0 +1,51 @@
+{
+  "text": "opinion. I have got no opinion on that.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "e32373e9d90986ca8953c8324c2b10930c390708590133cdc9af98ffc8db6c81",
+  "sha256": "fc04632ec1001e45b6a499d74c0c3fe2ee913a6d588f9787f649bc84f4174dd2",
+  "words": [
+    {
+      "word": "opinion.",
+      "start": 0.0625,
+      "end": 0.575
+    },
+    {
+      "word": "I",
+      "start": 0.95,
+      "end": 1.0
+    },
+    {
+      "word": "have",
+      "start": 1.0125,
+      "end": 1.1375
+    },
+    {
+      "word": "got",
+      "start": 1.15,
+      "end": 1.375
+    },
+    {
+      "word": "no",
+      "start": 1.3875,
+      "end": 1.5875
+    },
+    {
+      "word": "opinion",
+      "start": 1.6,
+      "end": 2.0625
+    },
+    {
+      "word": "on",
+      "start": 2.075,
+      "end": 2.25
+    },
+    {
+      "word": "that.",
+      "start": 2.2625,
+      "end": 2.6375
+    }
+  ],
+  "bytes": 18000
+}

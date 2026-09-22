@@ -1,0 +1,51 @@
+{
+  "text": "dish. Put the fruit in a large dish.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "f26861d3db5301acd1c24ac8a239e43039fc3f3634cdb9a91849a4320fe9fc1e",
+  "sha256": "23ab1c74d6b724914f888b1fbaa4403a9d48735b8411bae9c542928cf0aaaf15",
+  "words": [
+    {
+      "word": "dish.",
+      "start": 0.0625,
+      "end": 0.3375
+    },
+    {
+      "word": "Put",
+      "start": 0.725,
+      "end": 0.8875
+    },
+    {
+      "word": "the",
+      "start": 0.9,
+      "end": 0.9875
+    },
+    {
+      "word": "fruit",
+      "start": 1.0,
+      "end": 1.4
+    },
+    {
+      "word": "in",
+      "start": 1.4125,
+      "end": 1.5375
+    },
+    {
+      "word": "a",
+      "start": 1.55,
+      "end": 1.625
+    },
+    {
+      "word": "large",
+      "start": 1.6375,
+      "end": 2.0375
+    },
+    {
+      "word": "dish.",
+      "start": 2.05,
+      "end": 2.4875
+    }
+  ],
+  "bytes": 17136
+}

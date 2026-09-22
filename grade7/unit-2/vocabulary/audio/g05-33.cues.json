@@ -1,0 +1,46 @@
+{
+  "text": "Attention. Attention, please; the lesson is starting.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "4a8b28f6c4eb61c253ec8ce64273c0426d981860297b5c2384c0f5f3f3b7aa43",
+  "sha256": "b798a05f0af2a818c1cc60e5d1071be3b982d99439f49fb948ea13a45086a3b8",
+  "words": [
+    {
+      "word": "Attention.",
+      "start": 0.0625,
+      "end": 0.65
+    },
+    {
+      "word": "Attention,",
+      "start": 1.0125,
+      "end": 1.5875
+    },
+    {
+      "word": "please;",
+      "start": 1.6,
+      "end": 2.0625
+    },
+    {
+      "word": "the",
+      "start": 2.0875,
+      "end": 2.2125
+    },
+    {
+      "word": "lesson",
+      "start": 2.225,
+      "end": 2.6
+    },
+    {
+      "word": "is",
+      "start": 2.6125,
+      "end": 2.725
+    },
+    {
+      "word": "starting.",
+      "start": 2.7375,
+      "end": 3.2875
+    }
+  ],
+  "bytes": 22032
+}

@@ -1,0 +1,41 @@
+{
+  "text": "nearby. The nearby station is open.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "98db3c56ec01db58d57a80dd29218055203c5cdc463fe285807acac0428ff154",
+  "sha256": "ae5656fdbdb843c27040c0e54fe60d5dbc21773bebfb3fe230f4e83884c56843",
+  "words": [
+    {
+      "word": "nearby.",
+      "start": 0.0625,
+      "end": 0.6125
+    },
+    {
+      "word": "The",
+      "start": 1.0125,
+      "end": 1.075
+    },
+    {
+      "word": "nearby",
+      "start": 1.0875,
+      "end": 1.5125
+    },
+    {
+      "word": "station",
+      "start": 1.525,
+      "end": 2.0875
+    },
+    {
+      "word": "is",
+      "start": 2.1,
+      "end": 2.325
+    },
+    {
+      "word": "open.",
+      "start": 2.3375,
+      "end": 2.7375
+    }
+  ],
+  "bytes": 18720
+}

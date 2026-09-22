@@ -1,0 +1,51 @@
+{
+  "text": "head back. We are heading back to school.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "139c35d240740f7a00c9b17a0d1e875ed1c310bb6486ce7357e76f301e59abd0",
+  "sha256": "f7aca0a9a7e5bc05b872a8885fbcd4a2e405207ac1702b93c3337bffb4e98037",
+  "words": [
+    {
+      "word": "head",
+      "start": 0.075,
+      "end": 0.22500000000000003
+    },
+    {
+      "word": "back.",
+      "start": 0.2375,
+      "end": 0.625
+    },
+    {
+      "word": "We",
+      "start": 1.0125,
+      "end": 1.1125
+    },
+    {
+      "word": "are",
+      "start": 1.125,
+      "end": 1.2375
+    },
+    {
+      "word": "heading",
+      "start": 1.25,
+      "end": 1.5625
+    },
+    {
+      "word": "back",
+      "start": 1.575,
+      "end": 1.8
+    },
+    {
+      "word": "to",
+      "start": 1.8125,
+      "end": 1.9125
+    },
+    {
+      "word": "school.",
+      "start": 1.925,
+      "end": 2.45
+    }
+  ],
+  "bytes": 16992
+}

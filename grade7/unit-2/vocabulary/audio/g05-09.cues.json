@@ -1,0 +1,46 @@
+{
+  "text": "champion. The boy is a former champion.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "defe705e78cd2bc54016431d19468a3dcd9190df7261313500c22584dd36e17b",
+  "sha256": "f563acd7c155f2ba3909ddccb1408cf973393a4ebb1f72bcbcb2adcf870e3034",
+  "words": [
+    {
+      "word": "champion.",
+      "start": 0.05,
+      "end": 0.6875
+    },
+    {
+      "word": "The",
+      "start": 1.075,
+      "end": 1.175
+    },
+    {
+      "word": "boy",
+      "start": 1.1875,
+      "end": 1.525
+    },
+    {
+      "word": "is",
+      "start": 1.5375,
+      "end": 1.7625
+    },
+    {
+      "word": "a",
+      "start": 1.775,
+      "end": 1.85
+    },
+    {
+      "word": "former",
+      "start": 1.8625,
+      "end": 2.2375
+    },
+    {
+      "word": "champion.",
+      "start": 2.25,
+      "end": 2.8875
+    }
+  ],
+  "bytes": 19584
+}

@@ -1,0 +1,46 @@
+{
+  "text": "roll. The ball rolled across the floor.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "eec88aab4980f9ed698d3d5d121b004b122fe7cca500e91c8bcc52e3c904a5fd",
+  "sha256": "96ee41ee695cfbcfdd8596daa34cc4a03a966883c5a5f4a56d887e322d6a938e",
+  "words": [
+    {
+      "word": "roll.",
+      "start": 0.0625,
+      "end": 0.3625
+    },
+    {
+      "word": "The",
+      "start": 0.75,
+      "end": 0.8375
+    },
+    {
+      "word": "ball",
+      "start": 0.85,
+      "end": 1.175
+    },
+    {
+      "word": "rolled",
+      "start": 1.1875,
+      "end": 1.5125
+    },
+    {
+      "word": "across",
+      "start": 1.525,
+      "end": 1.9375
+    },
+    {
+      "word": "the",
+      "start": 1.95,
+      "end": 2.025
+    },
+    {
+      "word": "floor.",
+      "start": 2.0375,
+      "end": 2.55
+    }
+  ],
+  "bytes": 17568
+}

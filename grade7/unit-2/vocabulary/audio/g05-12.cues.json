@@ -1,0 +1,56 @@
+{
+  "text": "thumb. I pricked my thumb with a needle too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "21090c8bbd71da68dfd8b40ee7e39f5926a11bfdb2d122f5924101081de77fac",
+  "sha256": "3dd78e958ab1cc5f37073ef1827dcfa8153a66d785d68c2f8235ce08ae972751",
+  "words": [
+    {
+      "word": "thumb.",
+      "start": 0.075,
+      "end": 0.375
+    },
+    {
+      "word": "I",
+      "start": 0.7375,
+      "end": 0.8
+    },
+    {
+      "word": "pricked",
+      "start": 0.8125,
+      "end": 1.1125
+    },
+    {
+      "word": "my",
+      "start": 1.125,
+      "end": 1.3
+    },
+    {
+      "word": "thumb",
+      "start": 1.3125,
+      "end": 1.7
+    },
+    {
+      "word": "with",
+      "start": 1.7125,
+      "end": 1.8875
+    },
+    {
+      "word": "a",
+      "start": 1.9,
+      "end": 1.9375
+    },
+    {
+      "word": "needle",
+      "start": 1.95,
+      "end": 2.2875
+    },
+    {
+      "word": "too.",
+      "start": 2.3,
+      "end": 2.6875
+    }
+  ],
+  "bytes": 18432
+}

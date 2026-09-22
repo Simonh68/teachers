@@ -1,0 +1,46 @@
+{
+  "text": "stomach ache. I have a stomach ache.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "d47f73844935f1f8e95b018d0b11f461a2c5ef913d2184c0cc7eca5126375d00",
+  "sha256": "3bbf4a5b31c4b79b5a28640ace76a642203a0be209198722628d285b4359eb0f",
+  "words": [
+    {
+      "word": "stomach",
+      "start": 0.05,
+      "end": 0.475
+    },
+    {
+      "word": "ache.",
+      "start": 0.4875,
+      "end": 0.85
+    },
+    {
+      "word": "I",
+      "start": 1.2125,
+      "end": 1.2875
+    },
+    {
+      "word": "have",
+      "start": 1.3,
+      "end": 1.4625
+    },
+    {
+      "word": "a",
+      "start": 1.475,
+      "end": 1.525
+    },
+    {
+      "word": "stomach",
+      "start": 1.5375,
+      "end": 2.025
+    },
+    {
+      "word": "ache.",
+      "start": 2.0375,
+      "end": 2.4375
+    }
+  ],
+  "bytes": 16848
+}

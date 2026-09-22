@@ -1,0 +1,36 @@
+{
+  "text": "medicine. Modern medicine saves lives.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "a28b98a790cd8d858a7d78ac41f3cf92ab41e2953b42f47ff5d0ac5636e725f7",
+  "sha256": "3d916cfe82ffa0de3f43470e9894312f028f443e955651994a19b13ea03b5caa",
+  "words": [
+    {
+      "word": "medicine.",
+      "start": 0.05,
+      "end": 0.6875
+    },
+    {
+      "word": "Modern",
+      "start": 1.0625,
+      "end": 1.45
+    },
+    {
+      "word": "medicine",
+      "start": 1.4625,
+      "end": 1.95
+    },
+    {
+      "word": "saves",
+      "start": 1.9625,
+      "end": 2.3625
+    },
+    {
+      "word": "lives.",
+      "start": 2.375,
+      "end": 2.95
+    }
+  ],
+  "bytes": 19872
+}

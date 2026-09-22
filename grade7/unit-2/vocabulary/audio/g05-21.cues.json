@@ -1,0 +1,56 @@
+{
+  "text": "on foot. I go to school on foot too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "0139a85210565d60102c8e8e08d91bd32ace862fd6ff952c723b460485e94f3f",
+  "sha256": "925ed2d13465e7cfcb8ad1017c92e3aad7b692af7093706e4c201e5485d1fcee",
+  "words": [
+    {
+      "word": "on",
+      "start": 0.075,
+      "end": 0.21250000000000002
+    },
+    {
+      "word": "foot.",
+      "start": 0.225,
+      "end": 0.6
+    },
+    {
+      "word": "I",
+      "start": 0.9875,
+      "end": 1.05
+    },
+    {
+      "word": "go",
+      "start": 1.0625,
+      "end": 1.2
+    },
+    {
+      "word": "to",
+      "start": 1.2125,
+      "end": 1.2875
+    },
+    {
+      "word": "school",
+      "start": 1.3,
+      "end": 1.7
+    },
+    {
+      "word": "on",
+      "start": 1.7125,
+      "end": 1.875
+    },
+    {
+      "word": "foot",
+      "start": 1.8875,
+      "end": 2.125
+    },
+    {
+      "word": "too.",
+      "start": 2.1375,
+      "end": 2.5
+    }
+  ],
+  "bytes": 17280
+}

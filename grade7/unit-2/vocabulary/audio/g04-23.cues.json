@@ -1,0 +1,46 @@
+{
+  "text": "idea. Her idea may solve the problem.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "39fecaab00db08145863d76c926e5afbda2af495076fa01d5c3911fa3831d54d",
+  "sha256": "251b8b0e6124f51b683e76458b55b9b6d06a3f384541683a049966f64250911b",
+  "words": [
+    {
+      "word": "idea.",
+      "start": 0.075,
+      "end": 0.5625
+    },
+    {
+      "word": "Her",
+      "start": 0.9375,
+      "end": 1.1125
+    },
+    {
+      "word": "idea",
+      "start": 1.125,
+      "end": 1.55
+    },
+    {
+      "word": "may",
+      "start": 1.5625,
+      "end": 1.75
+    },
+    {
+      "word": "solve",
+      "start": 1.7625,
+      "end": 2.175
+    },
+    {
+      "word": "the",
+      "start": 2.1875,
+      "end": 2.275
+    },
+    {
+      "word": "problem.",
+      "start": 2.2875,
+      "end": 2.875
+    }
+  ],
+  "bytes": 19440
+}

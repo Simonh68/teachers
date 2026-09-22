@@ -1,0 +1,56 @@
+{
+  "text": "according to. According to her, he will not come.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "3170923799c9f75c2ffe18827f823173e8ffac5c41c1ab12e9217f74c8a4bb7f",
+  "sha256": "7ff1239154d57650fcbff7847fbb803ad43a56acd3c9744ad1fe2f0419f73c62",
+  "words": [
+    {
+      "word": "according",
+      "start": 0.0625,
+      "end": 0.45
+    },
+    {
+      "word": "to.",
+      "start": 0.4625,
+      "end": 0.775
+    },
+    {
+      "word": "According",
+      "start": 1.1375,
+      "end": 1.525
+    },
+    {
+      "word": "to",
+      "start": 1.5375,
+      "end": 1.6375
+    },
+    {
+      "word": "her,",
+      "start": 1.65,
+      "end": 1.95
+    },
+    {
+      "word": "he",
+      "start": 1.975,
+      "end": 2.2
+    },
+    {
+      "word": "will",
+      "start": 2.2125,
+      "end": 2.3625
+    },
+    {
+      "word": "not",
+      "start": 2.375,
+      "end": 2.65
+    },
+    {
+      "word": "come.",
+      "start": 2.6625,
+      "end": 3.0625
+    }
+  ],
+  "bytes": 20592
+}

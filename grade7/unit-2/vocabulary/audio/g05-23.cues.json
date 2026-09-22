@@ -1,0 +1,41 @@
+{
+  "text": "drum. I hear the drum too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "262f6720c25a25219ff83ff96e2c7846b8a2fc2535afb85b2ccc4470622de823",
+  "sha256": "eb06019767f474df650ddcbb8bf95040c40f8e94851de3781f55d873d6a33c8f",
+  "words": [
+    {
+      "word": "drum.",
+      "start": 0.075,
+      "end": 0.45
+    },
+    {
+      "word": "I",
+      "start": 0.8125,
+      "end": 0.8625
+    },
+    {
+      "word": "hear",
+      "start": 0.875,
+      "end": 1.125
+    },
+    {
+      "word": "the",
+      "start": 1.1375,
+      "end": 1.2375
+    },
+    {
+      "word": "drum",
+      "start": 1.25,
+      "end": 1.5625
+    },
+    {
+      "word": "too.",
+      "start": 1.575,
+      "end": 1.9375
+    }
+  ],
+  "bytes": 13824
+}

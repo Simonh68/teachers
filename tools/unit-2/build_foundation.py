@@ -25,10 +25,20 @@ for target, source, files in [
             shutil.copyfile(ROOT/source/name,dest/name)
 records_path = SOURCES / 'vocabulary-records.json'
 if not records_path.exists():
-    shutil.copyfile(TOOL/'rejected-draft/vocabulary-records.json', records_path)
+    raise FileNotFoundError('The approved immutable vocabulary snapshot is required.')
 records = json.loads(records_path.read_text())
 assert len(records) == 165
 assert all(sum(w['group']==g for w in records)==55 for g in (3,4,5))
+corrections_path=SOURCES/'vocabulary-corrections.json'
+corrections=json.loads(corrections_path.read_text()) if corrections_path.exists() else {}
+source_records=json.loads(records_path.read_text())
+for record in records:
+    correction=corrections.get(record['id'])
+    if correction:
+        record['editorial_correction']=correction['reason']
+        for key,value in correction.items():
+            if key!='reason':record[key]=value
+        if 'mean_he' in correction:record['record_sense_he']=correction['mean_he']
 
 def save(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -158,8 +168,8 @@ stories=[
  targets=['approximately','protect'],note='שגרת יום שישי שתועדה ב־2021, לא טענה שכל הילדים רוכבים כך בכל יום. שמו של הילד לא פורסם ואין להמציאו.'),
 ]
 photos={
- 'A Snow Day, a Screen and a Shovel':dict(file='assets/snow-report.jpg',alt='תמרור בקרבת בית ספר ועצים מכוסים שלג, מתוך דיווח KTUU',caption='צילום מתוך דיווח KTUU / Alaska’s News Source, נובמבר 2023. תמרור בשלג; קאלי אינה מופיעה בתמונה.',credit='KTUU / Alaska’s News Source'),
- 'A Bus Without a Bus':dict(file='assets/barcelona-bike-bus.jpg',alt='ילדים רוכבים יחד ברחוב בברצלונה בדרך לבית הספר',caption='ילדים באוטובוס האופניים ברובע אישמפלה, ברצלונה, 2021. צילום: Bicibús Eixample, פורסם ב־NPR / GPB. המקור אינו מזהה כל ילד בתמונה.',credit='Bicibús Eixample, via NPR / Georgia Public Broadcasting')
+ 'A Snow Day, a Screen and a Shovel':dict(file='assets/snow-report.jpg',alt='A snow-covered school-area sign in the KTUU report',caption='A school-area sign in the snow. Kali is not pictured. Source: KTUU / Alaska’s News Source, November 2023.',credit='KTUU / Alaska’s News Source'),
+ 'A Bus Without a Bus':dict(file='assets/barcelona-bike-bus.jpg',alt='Children cycle together to school in Barcelona',caption='The school bike bus in Eixample, Barcelona, 2021. Photo: Bicibús Eixample, via NPR / GPB. Individual riders are not identified by the source.',credit='Bicibús Eixample, via NPR / Georgia Public Broadcasting')
 }
 for story in stories:
     if story['title'] in photos:
@@ -210,30 +220,32 @@ for name in ['full.html','sequence.js','sequence.css']:
     elif name=='sequence.css':text=text.replace('../the-same-way/','../../the-same-way/')
     else:
         text=text.replace('קבוצות 01–02','קבוצות 03–05').replace('href="../"','href="../../"')
-        text=text.replace('קריינות AI מוקלטת מראש, באנגלית אמריקאית. רק המילה והמשפט באנגלית מוקראים.','טיוטה לעיון המורה. הקריינות לקבוצות 03–05 עדיין בהכנה.')
+        text=text.replace('קריינות AI מוקלטת מראש, באנגלית אמריקאית. רק המילה והמשפט באנגלית מוקראים.','Recorded American English audio. Only the English word and example are read.')
+    if name=='full.html':
+        for old,new in [('כיתה ז׳2 · אנגלית','Grade 7 · English'),('>תוכן<','>Contents<'),('>הנפשה<','>Motion<'),('>שמע<','>Audio<'),('>קבוצות 03–05<','>Groups 03–05<'),('בחירה ישירה של ערך. ההתקדמות נשמרת רק במכשיר הזה.','Choose an entry. Progress is saved on this device.'),('חיפוש מילה','Find a word')]:text=text.replace(old,new)
     (v/name).write_text(text)
 (v/'data.js').write_text('window.VOCABULARY = '+json.dumps(records,ensure_ascii=False)+';\n')
 save(v/'entries.json',records)
-save(v/'audio/manifest.json',{'clips':{}})
-save(v/'audio-manifest.json',{'clips':{}})
+if not (v/'audio/manifest.json').exists():save(v/'audio/manifest.json',{'clips':{}})
+if not (v/'audio-manifest.json').exists():save(v/'audio-manifest.json',{'clips':{}})
 
 # Reviewable main text, companion routines, teacher key and printable worksheets.
 esc=html.escape
 def page(title,body):
-    return '<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><link rel="stylesheet" href="unit.css"><style>.text-block{padding-block:18px;border-bottom:1px solid #365c73}.english{font-size:22px;line-height:1.7}summary{cursor:pointer;color:#dfff75}.answerline{height:35px;border-bottom:1px solid #889cab}.draft{color:#ffdc9b}table{width:100%;border-collapse:collapse}td,th{padding:12px;border-bottom:1px solid #537085;text-align:start}.scroll{overflow:auto}@media print{body{background:white;color:black}a{color:black}header,.no-print,details{display:none}main{padding:0;max-width:none}.text-block{break-inside:avoid}.english{font-size:13pt}h1{font-size:24pt;color:black}h2{font-size:18pt}p{font-size:12pt}.answerline{height:26px}@page{size:A4;margin:16mm}}</style></head><body><main><header><a class="home" href="./">⌂</a><p class="draft">Unit 2 · טיוטה לעיון המורה</p></header><h1>'+esc(title)+'</h1>'+body+'</main></body></html>'
+    return '<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><link rel="stylesheet" href="unit.css"><style>.text-block{padding-block:18px;border-bottom:1px solid #365c73}.english{font-size:22px;line-height:1.7}summary{cursor:pointer;color:#dfff75}.answerline{height:35px;border-bottom:1px solid #889cab}.draft{color:#ffdc9b}table{width:100%;border-collapse:collapse}td,th{padding:12px;border-bottom:1px solid #537085;text-align:start}.scroll{overflow:auto}@media print{body{background:white;color:black}a{color:black}header,.no-print,details{display:none}main{padding:0;max-width:none}.text-block{break-inside:avoid}.english{font-size:13pt}h1{font-size:24pt;color:black}h2{font-size:18pt}p{font-size:12pt}.answerline{height:26px}@page{size:A4;margin:16mm}}</style></head><body><main><header><a class="home" href="./">⌂</a><p class="draft">Unit 2 · Teacher review edition</p></header><h1>'+esc(title)+'</h1>'+body+'</main></body></html>'
 
-body='<p>טקסט מרכזי על לוחות לימודים, חופשות ועונות. דוגמת האי Jersey מוצעת לבדיקה. גרסת Read Alone והאודיו טרם הושלמו.</p>'
+body='<p class="english">When does school begin? When does it end? How long is the summer break?</p><p><a href="reading/?text=school-calendars">Read & Listen →</a></p>'
 for title,en,he in main_sections:
-    body+='<section class="text-block"><h2 dir="ltr">'+esc(title)+'</h2><p class="english">'+esc(en)+'</p><details><summary>תרגום לעיון</summary><p>'+esc(he)+'</p></details></section>'
-body+='<h2>נתונים ומקורות למורה</h2><p>כל אורך חופשה מחושב בימים קלנדריים, כולל שבתות וסופי שבוע. דוגמת פלורידה משתמשת בקיץ 2026; יתר דוגמאות התאריכים המדויקים בקיץ 2027. אין להציגן כלוח אחיד של אותה שנה.</p>'
+    body+='<section class="text-block"><h2 dir="ltr">'+esc(title)+'</h2><p class="english">'+esc(en)+'</p><details><summary>Hebrew support</summary><p lang="he" dir="rtl">'+esc(he)+'</p></details></section>'
+body+='<h2 dir="ltr">Calendar details & sources</h2><p class="english">Holiday lengths include weekends. Florida uses a summer 2026 example; the other dated summer examples refer to 2027. Local school calendars and teacher-training days can vary.</p>'
 for row in calendar:
-    body+='<section class="text-block"><h2>'+esc(row['place'])+'</h2><p>'+esc(row['scope'])+'</p><p class="english">Start: '+esc(row['start'])+'<br>End: '+esc(row['end'])+'<br>Summer: '+esc(row['summer'])+'</p><p>'+esc(row['detail'])+'</p>'+''.join('<p class="meta"><a href="'+esc(u)+'">מקור</a></p>' for u in row['sources'])+'</section>'
+    body+='<section class="text-block"><h2 dir="ltr">'+esc(row['place'])+'</h2><p class="english">Start: '+esc(row['start'])+'<br>End: '+esc(row['end'])+'<br>Summer: '+esc(row['summer'])+'</p><details><summary>Teacher note</summary><p lang="he" dir="rtl">'+esc(row['scope']+' · '+row['detail'])+'</p></details>'+''.join('<p class="meta" dir="ltr"><a href="'+esc(u)+'">Source: '+esc(u.split('/')[2])+'</a></p>' for u in row['sources'])+'</section>'
 (OUT/'main-text.html').write_text(page('School Years Around the World',body))
-body='<p>שגרת הדרך לבית הספר — ומה קורה כשהיא משתנה. הסיפורים מבוססים על תיעוד אמיתי. ההווה מתאר את השגרה או את האירוע במועד התיעוד; אין זו טענה על מצב הילדים כיום. הסיפורים מוסיפים מקומות מעבר למדינות שבטקסט המרכזי.</p>'
+body='<p class="english">Real children. Different journeys. Sometimes, a very different school day.</p><p class="meta english">Adapted from published reports and documentary sources. Events and routines refer to the dates shown.</p>'
 for s in stories:
     photo=s.get('photo')
-    figure=('<figure style="margin:20px 0"><a href="'+esc(s['source'])+'"><img src="'+esc(photo['file'])+'" alt="'+esc(photo['alt'])+'" loading="lazy" style="display:block;width:100%;max-width:720px;height:auto;border-radius:12px" '+('width="1200" height="600"' if 'snow-report' in photo['file'] else 'width="958" height="719"')+'></a><figcaption class="meta">'+esc(photo['caption'])+'</figcaption></figure>') if photo else ''
-    body+='<section class="text-block"><h2 dir="ltr">'+esc(s['title'])+'</h2><p class="meta">'+esc(s['place']+' · '+s['period'])+'</p><p class="english">'+esc(s['en'])+'</p>'+figure+'<details><summary>תרגום והערות למורה</summary><p>'+esc(s['he'])+'</p><p>'+esc(s['note'])+'</p></details><ol>'+''.join('<li><p class="english">'+esc(q)+'</p><details><summary>תשובה</summary><p class="english">'+esc(a)+'</p></details></li>' for q,a in s['questions'])+'</ol><p><a href="'+esc(s['source'])+'">מקור הסיפור</a></p></section>'
+    figure=('<figure style="margin:20px 0"><a href="'+esc(s['source'])+'"><img src="'+esc(photo['file'])+'" alt="'+esc(photo['alt'])+'" loading="lazy" style="display:block;width:100%;max-width:720px;height:auto;border-radius:12px" '+('width="1200" height="600"' if 'snow-report' in photo['file'] else 'width="958" height="719"')+'></a><figcaption class="meta" dir="ltr">'+esc(photo['caption'])+'</figcaption></figure>') if photo else ''
+    body+='<section class="text-block"><h2 dir="ltr">'+esc(s['title'])+'</h2><p class="meta" dir="ltr">'+esc(s['place']+' · '+s['period'])+'</p><p class="english">'+esc(s['en'])+'</p>'+figure+'<details><summary>Hebrew support & teacher notes</summary><p lang="he" dir="rtl">'+esc(s['he'])+'</p><p lang="he" dir="rtl">'+esc(s['note'])+'</p></details><ol>'+''.join('<li><p class="english">'+esc(q)+'</p><details><summary>Answer</summary><p class="english">'+esc(a)+'</p></details></li>' for q,a in s['questions'])+'</ol><p dir="ltr"><a href="'+esc(s['source'])+'">Read the original source</a></p></section>'
 (OUT/'companion-stories.html').write_text(page('Real Journeys to School',body))
 
 worksheet='<p class="no-print"><button onclick="window.print()">הדפסה</button></p><p>שם פרטי: __________ כיתה: ________</p>'
@@ -251,7 +263,7 @@ teacher=[
  ('פריסת עבודה מוצעת','<p>תשעה מפגשים כפולים ורזרבה, לפי הביצוע בפועל. עד 72 דקות פעילות מתוכננת בכל מפגש. זו הצעת הוראה מקומית.</p>'),
  ('מפגשים 1–3','<p>1: פתיחה ולוחות לימודים. 2: חופשות ועונות וחיבור מידע. 3: דקדוק Part A. בכל מפגש מנת מילים וחזרה.</p>'),
  ('מפגשים 4–6','<p>4: Part B לפי טעויות Part A. 5: שני סיפורי שגרה והשוואה. 6: שני סיפורים נוספים ומשימת מידע חסר בזוגות.</p>'),
- ('מפגשים 7–9','<p>7: האזנה עצמאית לאחר הפקת אודיו. 8: My School Routine ומשוב. 9: העברה לטקסט חדש וכתיבה ללא הדגם.</p>'),
+ ('מפגשים 7–9','<p>7: האזנה עצמאית לפני פתיחת התמליל. 8: My School Routine ומשוב. 9: העברה לטקסט חדש וכתיבה ללא הדגם.</p>'),
  ('אבחון לפני הקניה','<p>התלמיד עונה תחילה על שתי שאלות פתיחה. בהמשך כותב במשימות. מפרידים בין הבנת המסר, מבנה ואיות.</p>'),
  ('Part A · 72 דקות','<p>5 פתיחה; 14 שגרה; 13 גוף שלישי; 14 שלילה; 15 כתיבה; 5 איסוף; 6 משוב. אין לדחוס את Part B לאותו מפגש.</p>'),
  ('Part B · 72 דקות','<p>7 חזרה מאבחנת; 12 שאלות; 13 תשובות קצרות; 15 מילות שאלה; 10 תדירות; 8 שיחה; 7 משימת יציאה.</p>'),
@@ -261,18 +273,24 @@ teacher=[
  ('חיבור בין מקורות','<p>התלמיד מוצא דרך הגעה או סיבה להישאר בבית ופרט משפיע בכל טקסט, ואז כותב משפט דמיון ומשפט הבדל. דורשים ראיה מכל אחד משני הטקסטים. מה ידוע על השגרה, ומה השתנה באותו יום?</p>'),
  ('הסרת התמיכה','<p>תחילה מילון ומשפט פתיחה; בהמשך רק שאלות מנחות; במשימת הסיום טקסט חדש וכתיבה ללא דגם גלוי.</p>'),
  ('כתיבה ומשוב','<p>50–70 מילים. קודם תוכן ברור ורצף, אחר כך Present Simple ושלילה, ואז איות. התלמיד מתקן שני משפטים בעקבות המשוב.</p>'),
- ('מפת כיסוי','<p>כל 165 הרשומות במצגת נשמרות במלואן. הכיסוי ההקשרי עדיין חלקי. אין לספור subject כערך בית ספר או name כשם עצם בלי בדיקת המשמעות במקור.</p>'),
- ('בדיקת מקור אוצר המילים','<p>which תורגם במקור ״איזה ספר״; excited ו־included מופיעים עם פירוש שאינו מתאים לחלק הדיבור. דרוש תיקון מתועד לפני מסירה לתלמידים, תוך שימור מקור.</p>'),
- ('להשלמה לפני מסירה','<p>סקירת התוכן עם סיימון; קריאה מלווה מלאה; תרגום לפי מופע; קריינות מתוזמנת; משימת האזנה; PDF מעומד; בדיקה ציבורית. הטיוטה אינה יחידה גמורה.</p>'),
+ ('מפת כיסוי','<p>165 רשומות מוצגות עם דוגמה ומשימת שליפה בהקשר. מפת הכיסוי מפרידה בין הצגה, בחירה וכתיבה עצמאית. אין לספור subject כערך בית ספר או name כשם עצם. misses בסיפור קאלי אינו ערך miss במשמעות להחמיץ.</p>'),
+ ('בדיקת מקור אוצר המילים','<p>נשמר צילום המקור של כל הרשומות. 25 רשומות תוקנו גם בספר התיעוד המקורי; משימת סנכרון בתוכנה: E-Vocab #5. תיקוני העריכה מתועדים: חלק דיבור, משמעות או תרגום. דוגמאות: which, included, excited, the young ו־leave במשמעות סיום קשר.</p>'),
+ ('פתרונות חוברת העבודה','<p><a href="workbook-key.html">Workbook answer key</a></p><p>אוספים תשובות עצמאיות לפני חשיפת הפתרונות. כל ההפניות למקורות באנגלית.</p>'),
+ ('קריאה והאזנה','<p>שישה טקסטים, קטעים קצרים וקריאה משפט־משפט. בכל מילה אפשר לקבל פירוש. ברירת המחדל היא 0.75; בחירת המהירות נשמרת. במשימת ההאזנה מסתירים תחילה את התמליל.</p>'),
 ]
 (OUT/'teacher-data.js').write_text('const TEACHER = '+json.dumps([dict(title=t,body=b) for t,b in teacher],ensure_ascii=False)+';\n')
 for name in ['teacher.html','teacher.js','unit.css','hub.js']:
     text=(TEMPLATES/'unit'/name).read_text().replace('Unit 1','Unit 2').replace('unit1-1','unit2-draft1')
     (OUT/name).write_text(text)
 
-cards=[('אוצר מילים','165 רשומות · חשיפה מדורגת · אודיו בהכנה','vocabulary/full.html'),('דקדוק א׳','הרגלים, גוף שלישי ושלילה','grammar-a/'),('דקדוק ב׳','שאלות, תדירות ושיחה','grammar-b/'),('הטקסט המרכזי','שנים, חופשות ועונות · טיוטת תוכן','main-text.html'),('סיפורי שגרה אמיתיים','דרכים שונות לבית הספר — ויום שבו השלג משנה הכול','companion-stories.html'),('דף עבודה','כתיבה והעברת מידע · גרסה להדפסה','worksheet.html'),('מדריך למורה','מצגת HTML נפרדת','teacher.html')]
-body='<p>כיתה ז׳ · Band II, Core I · קבוצות 03–05</p><p class="draft">טיוטה לבדיקה. האודיו וגרסאות הקריאה המלווה עדיין בהכנה.</p><div class="grid">'+''.join('<section class="card"><h2>'+t+'</h2><p>'+d+'</p><a class="btn" href="'+u+'">פתיחה</a></section>' for t,d,u in cards)+'</div>'
-body+='<h2 style="margin-top:30px">תרגול קבוצות המילים</h2>'+''.join('<p><a href="https://englishfornoar.co.il/band-ii/groups/group-%02d.html">קבוצה %02d</a> <button data-copy="https://englishfornoar.co.il/band-ii/groups/group-%02d.html">העתקת קישור</button></p>'%(g,g,g) for g in (3,4,5))+'<p id="copyStatus" role="status"></p><script>document.addEventListener("click",async function(e){var b=e.target.closest("[data-copy]");if(!b)return;try{await navigator.clipboard.writeText(b.dataset.copy);document.getElementById("copyStatus").textContent="הקישור הועתק";}catch(err){document.getElementById("copyStatus").textContent=b.dataset.copy;}});</script>'
+cards=[('Read & Listen','Six texts · short parts · sentence practice','reading/'),('Vocabulary','165 entries · Groups 03–05 · recorded audio','vocabulary/full.html'),('Words in Context','Short practice sets · choose, check and write','vocabulary/practice.html'),('Present Simple A','Routines, third person and negatives','grammar-a/'),('Present Simple B','Questions, frequency and conversations','grammar-b/'),('School Calendars','School years, holidays and seasons','main-text.html'),('Real Journeys','Different journeys — and a day changed by snow','companion-stories.html'),('Listen First','Listen, take notes and check the evidence','listening.html'),('Worksheets','Reading, grammar and independent writing','files/unit2-workbook.pdf'),('Teacher Guide','Teaching sequence, timing and answer keys','teacher.html')]
+body='<p class="english">Grade 7 · Band II, Core I · Groups 03–05</p><p class="draft english">Teacher review edition</p><div class="grid">'+''.join('<section class="card" dir="ltr"><h2>'+t+'</h2><p>'+d+'</p><a class="btn" href="'+u+'">Open →</a></section>' for t,d,u in cards)+'</div>'
+body+='<h2 style="margin-top:30px">Vocabulary practice</h2><p>Use the corrected examples in <a href="vocabulary/practice.html">Words in Context</a>.</p>'
+
 (OUT/'index.html').write_text(page('Unit 2 · School Years Around the World',body))
-save(OUT/'build-report.json',dict(status='teacher_review_draft',records=len(records),groups=[3,4,5],grammar_a_slides=len(A),grammar_b_slides=len(B),teacher_slides=len(teacher),true_companion_texts=len(stories),main_words=sum(len(re.findall(r"\b[\w’'-]+\b",x[1])) for x in main_sections),pending=['recorded audio','complete Read Alone players','vocabulary source corrections','full contextual coverage','listening task','final worksheet PDF','student publication']))
+pending=[]
+for label,relative in [('recorded vocabulary audio','vocabulary/audio/g05-55.mp3'),('recorded reading audio','reading/assets/school-calendars.mp3'),('Read & Listen','reading/index.html'),('contextual practice','vocabulary/practice.html'),('listening task','listening.html'),('worksheet PDF','files/unit2-workbook.pdf')]:
+    if not (OUT/relative).is_file():pending.append(label)
+pending += ['teacher review of complete draft','student publication']
+save(OUT/'build-report.json',dict(status='teacher_review_draft',records=len(records),groups=[3,4,5],grammar_a_slides=len(A),grammar_b_slides=len(B),teacher_slides=len(teacher),true_companion_texts=len(stories),main_words=sum(len(re.findall(r"\b[\w’'-]+\b",x[1])) for x in main_sections),vocabulary_corrected_records=len(corrections),vocabulary_book='corrected: version 4',software_sync_task='https://github.com/Simonh68/E-Vocab-Band-II/issues/5',pending=pending))
 print(json.dumps(json.loads((OUT/'build-report.json').read_text()),ensure_ascii=False))

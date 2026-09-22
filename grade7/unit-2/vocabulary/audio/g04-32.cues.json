@@ -1,0 +1,41 @@
+{
+  "text": "ask. She asked me to dinner.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "cc08efb9c911c626b056a816ded765fd4888b7f0def0038249e6435b1f48a2a2",
+  "sha256": "aa58e0796e9c6d9628f08207e5208cd0a6bfd770642afb7d2cfd758eaf188e03",
+  "words": [
+    {
+      "word": "ask.",
+      "start": 0.05,
+      "end": 0.325
+    },
+    {
+      "word": "She",
+      "start": 0.6875,
+      "end": 0.925
+    },
+    {
+      "word": "asked",
+      "start": 0.9375,
+      "end": 1.2625
+    },
+    {
+      "word": "me",
+      "start": 1.275,
+      "end": 1.4
+    },
+    {
+      "word": "to",
+      "start": 1.4125,
+      "end": 1.55
+    },
+    {
+      "word": "dinner.",
+      "start": 1.5625,
+      "end": 2.05
+    }
+  ],
+  "bytes": 14544
+}

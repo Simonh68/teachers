@@ -1,0 +1,41 @@
+{
+  "text": "share. We each paid our share.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "eaad275459696505e797538cfa05f193c10b5d87d1287e8f29729070a321c434",
+  "sha256": "8cb2b37bf4dfcc04d62e7538924115df39e794c07720fb7542fb1a8bb97c3c2c",
+  "words": [
+    {
+      "word": "share.",
+      "start": 0.05,
+      "end": 0.4375
+    },
+    {
+      "word": "We",
+      "start": 0.825,
+      "end": 0.925
+    },
+    {
+      "word": "each",
+      "start": 0.9375,
+      "end": 1.175
+    },
+    {
+      "word": "paid",
+      "start": 1.1875,
+      "end": 1.4625
+    },
+    {
+      "word": "our",
+      "start": 1.475,
+      "end": 1.6125
+    },
+    {
+      "word": "share.",
+      "start": 1.625,
+      "end": 2.1
+    }
+  ],
+  "bytes": 14832
+}

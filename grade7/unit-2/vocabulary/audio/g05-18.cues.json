@@ -1,0 +1,46 @@
+{
+  "text": "ring. The phone's ring woke me up.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "4a79252633eeab866ce4a4d99e3859f73531fbafb4b3c16d36e95178874a014c",
+  "sha256": "7826924ae8e68c7327dc2036419dde3b47c340ae189ebf31e4d8fcbe907a3def",
+  "words": [
+    {
+      "word": "ring.",
+      "start": 0.0625,
+      "end": 0.375
+    },
+    {
+      "word": "The",
+      "start": 0.7625,
+      "end": 0.825
+    },
+    {
+      "word": "phone's",
+      "start": 0.8375,
+      "end": 1.25
+    },
+    {
+      "word": "ring",
+      "start": 1.2625,
+      "end": 1.5875
+    },
+    {
+      "word": "woke",
+      "start": 1.6,
+      "end": 1.875
+    },
+    {
+      "word": "me",
+      "start": 1.8875,
+      "end": 2.05
+    },
+    {
+      "word": "up.",
+      "start": 2.0625,
+      "end": 2.3625
+    }
+  ],
+  "bytes": 16416
+}

@@ -1,0 +1,36 @@
+{
+  "text": "work. This machine works well.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "5802316a243d2b9ae6f7260e178ecf45a327b5a6cb8dd75b7688d415cbbf0bd4",
+  "sha256": "0b80956f447b81d6d7899ed6ca2d8cd16e96745cba9b8e621f5a22168e16d1cd",
+  "words": [
+    {
+      "word": "work.",
+      "start": 0.075,
+      "end": 0.425
+    },
+    {
+      "word": "This",
+      "start": 0.8125,
+      "end": 0.9875
+    },
+    {
+      "word": "machine",
+      "start": 1.0,
+      "end": 1.4375
+    },
+    {
+      "word": "works",
+      "start": 1.45,
+      "end": 1.7875
+    },
+    {
+      "word": "well.",
+      "start": 1.8,
+      "end": 2.2125
+    }
+  ],
+  "bytes": 15552
+}

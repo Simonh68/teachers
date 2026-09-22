@@ -1,0 +1,41 @@
+{
+  "text": "café. Let’s meet at the café.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "776f2ff6b1fc7c49196f22d8c8de59b0a7833fee4ec99d4c9822921f812739bf",
+  "sha256": "1073fa3d62a17da713bd1364a96e63c5702937e5719f08d9b455be550d0bb3c9",
+  "words": [
+    {
+      "word": "café.",
+      "start": 0.05,
+      "end": 0.5125
+    },
+    {
+      "word": "Let’s",
+      "start": 0.8875,
+      "end": 1.125
+    },
+    {
+      "word": "meet",
+      "start": 1.1375,
+      "end": 1.475
+    },
+    {
+      "word": "at",
+      "start": 1.5,
+      "end": 1.625
+    },
+    {
+      "word": "the",
+      "start": 1.6375,
+      "end": 1.725
+    },
+    {
+      "word": "café.",
+      "start": 1.7375,
+      "end": 2.3375
+    }
+  ],
+  "bytes": 16272
+}

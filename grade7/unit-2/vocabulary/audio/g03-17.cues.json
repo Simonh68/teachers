@@ -1,0 +1,51 @@
+{
+  "text": "desert. It is dangerous to cross the desert.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "851bea081acb7660c5746dd56215e7f47742d570a182337d1c2784fc7665491d",
+  "sha256": "a30655068b5b0d82684f7545f6984eeab1e09a9db0e73580a3e33b3bc267e9b4",
+  "words": [
+    {
+      "word": "desert.",
+      "start": 0.0625,
+      "end": 0.55
+    },
+    {
+      "word": "It",
+      "start": 0.9125,
+      "end": 1.0125
+    },
+    {
+      "word": "is",
+      "start": 1.025,
+      "end": 1.1625
+    },
+    {
+      "word": "dangerous",
+      "start": 1.175,
+      "end": 1.75
+    },
+    {
+      "word": "to",
+      "start": 1.7625,
+      "end": 1.8875
+    },
+    {
+      "word": "cross",
+      "start": 1.9,
+      "end": 2.3125
+    },
+    {
+      "word": "the",
+      "start": 2.325,
+      "end": 2.425
+    },
+    {
+      "word": "desert.",
+      "start": 2.4375,
+      "end": 2.9875
+    }
+  ],
+  "bytes": 20160
+}

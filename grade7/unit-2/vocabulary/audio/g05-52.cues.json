@@ -1,0 +1,61 @@
+{
+  "text": "natural. It is quite natural for him to think so.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "8d5e9bd767285baec3c0f7ba047befddee23eb912e360fdd0d76de6e1548f52b",
+  "sha256": "637023d4e0166866786325e5c9a1122d3d136a6db6486e3eb9e92a25ce428003",
+  "words": [
+    {
+      "word": "natural.",
+      "start": 0.0625,
+      "end": 0.6625
+    },
+    {
+      "word": "It",
+      "start": 1.025,
+      "end": 1.175
+    },
+    {
+      "word": "is",
+      "start": 1.1875,
+      "end": 1.325
+    },
+    {
+      "word": "quite",
+      "start": 1.3375,
+      "end": 1.65
+    },
+    {
+      "word": "natural",
+      "start": 1.6625,
+      "end": 2.1625
+    },
+    {
+      "word": "for",
+      "start": 2.175,
+      "end": 2.325
+    },
+    {
+      "word": "him",
+      "start": 2.3375,
+      "end": 2.5625
+    },
+    {
+      "word": "to",
+      "start": 2.575,
+      "end": 2.6875
+    },
+    {
+      "word": "think",
+      "start": 2.7,
+      "end": 2.9625
+    },
+    {
+      "word": "so.",
+      "start": 2.975,
+      "end": 3.35
+    }
+  ],
+  "bytes": 22320
+}

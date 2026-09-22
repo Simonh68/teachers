@@ -23,3 +23,14 @@ The user emphasized routine and suggested children unable to reach school becaus
 
 ## Real names and documentary images
 The user explicitly permits the real published name of a child and original press photographs for documented cases. Preserve the published name, source, date and image credit. Do not identify an unnamed child in a photograph by resemblance or substitute an unrelated child's portrait. Original documentary photographs are not to be altered to satisfy illustration conventions. Kali's first name is retained; the Barcelona report does not publish the son's name. Two credited source photographs are included; the snow photograph shows the setting, not Kali.
+
+## English-first presentation
+The user requires source references to be in English only, professionally presented. Keep captions, credits, source labels and bibliographic details in English. Minimize Hebrew elsewhere; use it where learners need translation or an essential explanation. Hebrew must not appear by default as a parallel translation of reading text.
+
+## Mandatory original vocabulary-book correction
+
+The user requires every original-vocabulary correction to be documented in the vocabulary documentation book and saved as a mandatory task in the software-building project. On 22 September 2026, 35 fields in 25 records were corrected in the existing book, version 4. The before/after register and reasons are preserved. E-Vocab issue #5 tracks the remaining software synchronization: https://github.com/Simonh68/E-Vocab-Band-II/issues/5.
+
+## Implementation checkpoint
+
+Reading and vocabulary recordings, Read & Listen, context practice, listening work, the student PDF and answer key are now implemented. The unit remains marked for teacher review before student publication.

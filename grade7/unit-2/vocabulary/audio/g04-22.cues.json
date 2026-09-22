@@ -1,0 +1,51 @@
+{
+  "text": "turning. Take the first turning on the right.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "754eca0c0a6683e83f5fdce84f48238c9bd19e56361f57ea844b22e526f25383",
+  "sha256": "871d608a3030dab357400ae36d06b39087cefb22aa3fdfb1211ac2f16fe488aa",
+  "words": [
+    {
+      "word": "turning.",
+      "start": 0.05,
+      "end": 0.5375
+    },
+    {
+      "word": "Take",
+      "start": 0.9,
+      "end": 1.15
+    },
+    {
+      "word": "the",
+      "start": 1.1625,
+      "end": 1.2625
+    },
+    {
+      "word": "first",
+      "start": 1.275,
+      "end": 1.6375
+    },
+    {
+      "word": "turning",
+      "start": 1.65,
+      "end": 2.0
+    },
+    {
+      "word": "on",
+      "start": 2.0125,
+      "end": 2.175
+    },
+    {
+      "word": "the",
+      "start": 2.1875,
+      "end": 2.2625
+    },
+    {
+      "word": "right.",
+      "start": 2.275,
+      "end": 2.7375
+    }
+  ],
+  "bytes": 18720
+}

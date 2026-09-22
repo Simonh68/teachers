@@ -1,0 +1,51 @@
+{
+  "text": "sense. There was a sense of fear too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "c0cee220482f0141094b74a7094485d146a47e5b7388449518c4328e6d1d0ff1",
+  "sha256": "3edea7d85b552ab1e8132db63271d9ac2dec1613136b987d59c8692e813e80f8",
+  "words": [
+    {
+      "word": "sense.",
+      "start": 0.05,
+      "end": 0.5
+    },
+    {
+      "word": "There",
+      "start": 0.8875,
+      "end": 0.975
+    },
+    {
+      "word": "was",
+      "start": 0.9875,
+      "end": 1.125
+    },
+    {
+      "word": "a",
+      "start": 1.1375,
+      "end": 1.2
+    },
+    {
+      "word": "sense",
+      "start": 1.2125,
+      "end": 1.5625
+    },
+    {
+      "word": "of",
+      "start": 1.575,
+      "end": 1.7
+    },
+    {
+      "word": "fear",
+      "start": 1.7125,
+      "end": 2.05
+    },
+    {
+      "word": "too.",
+      "start": 2.0625,
+      "end": 2.45
+    }
+  ],
+  "bytes": 16992
+}

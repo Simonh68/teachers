@@ -1,0 +1,46 @@
+{
+  "text": "fresh. We bought fresh bread this morning.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "dca1e11125f89792862a4692bec0193d0547b47f2ff2cb4c1dc3948e5d59d89a",
+  "sha256": "9cd351b2a31eb5613e595fb880422e2470823287a64f28b90d24b38212abd7d0",
+  "words": [
+    {
+      "word": "fresh.",
+      "start": 0.0625,
+      "end": 0.425
+    },
+    {
+      "word": "We",
+      "start": 0.8125,
+      "end": 0.9125
+    },
+    {
+      "word": "bought",
+      "start": 0.925,
+      "end": 1.2125
+    },
+    {
+      "word": "fresh",
+      "start": 1.225,
+      "end": 1.575
+    },
+    {
+      "word": "bread",
+      "start": 1.5875,
+      "end": 1.8875
+    },
+    {
+      "word": "this",
+      "start": 1.9,
+      "end": 2.0875
+    },
+    {
+      "word": "morning.",
+      "start": 2.1,
+      "end": 2.575
+    }
+  ],
+  "bytes": 17712
+}

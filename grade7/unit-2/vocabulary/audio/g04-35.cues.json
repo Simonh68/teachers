@@ -1,0 +1,46 @@
+{
+  "text": "worse. The weather could not be worse.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "7cf0810e8d36ba992f68477d2e045cf82b547d0e3e1b734fbfdfac1587bc759a",
+  "sha256": "43e911007c2a11630eab8c9fc057517a8d4d86d8109439949a161cb52cd5d77e",
+  "words": [
+    {
+      "word": "worse.",
+      "start": 0.075,
+      "end": 0.475
+    },
+    {
+      "word": "The",
+      "start": 0.8625,
+      "end": 0.95
+    },
+    {
+      "word": "weather",
+      "start": 0.9625,
+      "end": 1.35
+    },
+    {
+      "word": "could",
+      "start": 1.3625,
+      "end": 1.5375
+    },
+    {
+      "word": "not",
+      "start": 1.55,
+      "end": 1.8
+    },
+    {
+      "word": "be",
+      "start": 1.8125,
+      "end": 1.95
+    },
+    {
+      "word": "worse.",
+      "start": 1.9625,
+      "end": 2.5
+    }
+  ],
+  "bytes": 17280
+}

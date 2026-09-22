@@ -1,0 +1,46 @@
+{
+  "text": "well. She sings this song very well.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "4ae96a699ef3226cdad46d85adf2c8dc2c804dbcfdf6732b78637cb4fc653373",
+  "sha256": "9f722f1298a6c3d2bfac3fca807b89024be1c64b299810423567ee4b042702f2",
+  "words": [
+    {
+      "word": "well.",
+      "start": 0.075,
+      "end": 0.35
+    },
+    {
+      "word": "She",
+      "start": 0.7125,
+      "end": 0.875
+    },
+    {
+      "word": "sings",
+      "start": 0.8875,
+      "end": 1.2625
+    },
+    {
+      "word": "this",
+      "start": 1.275,
+      "end": 1.425
+    },
+    {
+      "word": "song",
+      "start": 1.4375,
+      "end": 1.8125
+    },
+    {
+      "word": "very",
+      "start": 1.825,
+      "end": 2.075
+    },
+    {
+      "word": "well.",
+      "start": 2.0875,
+      "end": 2.4875
+    }
+  ],
+  "bytes": 17136
+}

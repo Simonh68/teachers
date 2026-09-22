@@ -1,0 +1,41 @@
+{
+  "text": "love. Music is his great love.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "bf1495020049cd74445edeffcdcbeb7b8b40fa20ac249d7d8be0cc6231b40daa",
+  "sha256": "dacde6141dd1b814b39b5b0257c6022c4d28f2919f24b67321a1b791347a9851",
+  "words": [
+    {
+      "word": "love.",
+      "start": 0.05,
+      "end": 0.4
+    },
+    {
+      "word": "Music",
+      "start": 0.775,
+      "end": 1.275
+    },
+    {
+      "word": "is",
+      "start": 1.2875,
+      "end": 1.4375
+    },
+    {
+      "word": "his",
+      "start": 1.45,
+      "end": 1.6375
+    },
+    {
+      "word": "great",
+      "start": 1.65,
+      "end": 2.0125
+    },
+    {
+      "word": "love.",
+      "start": 2.025,
+      "end": 2.475
+    }
+  ],
+  "bytes": 17136
+}

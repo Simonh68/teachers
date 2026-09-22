@@ -1,0 +1,56 @@
+{
+  "text": "range. The shop has a wide range of shoes.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "806a9fdb8c426e958846d5ff47a60336edc7114972249a3e051f5d8d90a0b2ba",
+  "sha256": "9372e74b7c23f08711420723b4a4edad74a438a4a1acd37801d83cf08120fbfb",
+  "words": [
+    {
+      "word": "range.",
+      "start": 0.0625,
+      "end": 0.4875
+    },
+    {
+      "word": "The",
+      "start": 0.875,
+      "end": 0.925
+    },
+    {
+      "word": "shop",
+      "start": 0.9375,
+      "end": 1.3125
+    },
+    {
+      "word": "has",
+      "start": 1.325,
+      "end": 1.5125
+    },
+    {
+      "word": "a",
+      "start": 1.525,
+      "end": 1.6125
+    },
+    {
+      "word": "wide",
+      "start": 1.625,
+      "end": 1.9625
+    },
+    {
+      "word": "range",
+      "start": 1.975,
+      "end": 2.3
+    },
+    {
+      "word": "of",
+      "start": 2.3125,
+      "end": 2.375
+    },
+    {
+      "word": "shoes.",
+      "start": 2.3875,
+      "end": 2.9375
+    }
+  ],
+  "bytes": 19872
+}

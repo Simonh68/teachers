@@ -1,0 +1,246 @@
+{
+  "text": "Carlito lives in Patagonia, Argentina. His school is eighteen kilometres from home. Every school day, he rides a horse through the mountains. His little sister Micaela goes with him. Their horse is called Chiverito. The weather can make the journey difficult. Carlito wants to become a vet.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "f91ec434ef8a99144dcbb6258051eff0b995a00ceafc4b811ee221cfb0789600",
+  "sha256": "f8362c92091791bd028e7c7f75b64f9a92b55e45eb0a3ae731d2b8d935350047",
+  "words": [
+    {
+      "word": "Carlito",
+      "start": 0.075,
+      "end": 0.6
+    },
+    {
+      "word": "lives",
+      "start": 0.6125,
+      "end": 1.0125
+    },
+    {
+      "word": "in",
+      "start": 1.025,
+      "end": 1.2125
+    },
+    {
+      "word": "Patagonia,",
+      "start": 1.225,
+      "end": 2.0375
+    },
+    {
+      "word": "Argentina.",
+      "start": 2.3375,
+      "end": 3.1125
+    },
+    {
+      "word": "His",
+      "start": 3.5125,
+      "end": 3.625
+    },
+    {
+      "word": "school",
+      "start": 3.6375,
+      "end": 4.075
+    },
+    {
+      "word": "is",
+      "start": 4.0875,
+      "end": 4.3125
+    },
+    {
+      "word": "eighteen",
+      "start": 4.325,
+      "end": 4.7375
+    },
+    {
+      "word": "kilometres",
+      "start": 4.75,
+      "end": 5.3875
+    },
+    {
+      "word": "from",
+      "start": 5.4,
+      "end": 5.575
+    },
+    {
+      "word": "home.",
+      "start": 5.5875,
+      "end": 6.0125
+    },
+    {
+      "word": "Every",
+      "start": 6.4125,
+      "end": 6.625
+    },
+    {
+      "word": "school",
+      "start": 6.6375,
+      "end": 6.9125
+    },
+    {
+      "word": "day,",
+      "start": 6.925,
+      "end": 7.2625
+    },
+    {
+      "word": "he",
+      "start": 7.2875,
+      "end": 7.4375
+    },
+    {
+      "word": "rides",
+      "start": 7.45,
+      "end": 7.8
+    },
+    {
+      "word": "a",
+      "start": 7.8125,
+      "end": 7.85
+    },
+    {
+      "word": "horse",
+      "start": 7.8625,
+      "end": 8.275
+    },
+    {
+      "word": "through",
+      "start": 8.2875,
+      "end": 8.45
+    },
+    {
+      "word": "the",
+      "start": 8.4625,
+      "end": 8.5375
+    },
+    {
+      "word": "mountains.",
+      "start": 8.55,
+      "end": 9.1375
+    },
+    {
+      "word": "His",
+      "start": 9.5375,
+      "end": 9.7125
+    },
+    {
+      "word": "little",
+      "start": 9.725,
+      "end": 9.9625
+    },
+    {
+      "word": "sister",
+      "start": 9.975,
+      "end": 10.375
+    },
+    {
+      "word": "Micaela",
+      "start": 10.3875,
+      "end": 10.925
+    },
+    {
+      "word": "goes",
+      "start": 10.9375,
+      "end": 11.2375
+    },
+    {
+      "word": "with",
+      "start": 11.25,
+      "end": 11.4
+    },
+    {
+      "word": "him.",
+      "start": 11.4125,
+      "end": 11.7625
+    },
+    {
+      "word": "Their",
+      "start": 12.15,
+      "end": 12.2875
+    },
+    {
+      "word": "horse",
+      "start": 12.3,
+      "end": 12.7
+    },
+    {
+      "word": "is",
+      "start": 12.7125,
+      "end": 12.8625
+    },
+    {
+      "word": "called",
+      "start": 12.875,
+      "end": 13.225
+    },
+    {
+      "word": "Chiverito.",
+      "start": 13.2375,
+      "end": 13.9875
+    },
+    {
+      "word": "The",
+      "start": 14.375,
+      "end": 14.4625
+    },
+    {
+      "word": "weather",
+      "start": 14.475,
+      "end": 14.8625
+    },
+    {
+      "word": "can",
+      "start": 14.875,
+      "end": 15.05
+    },
+    {
+      "word": "make",
+      "start": 15.0625,
+      "end": 15.325
+    },
+    {
+      "word": "the",
+      "start": 15.3375,
+      "end": 15.425
+    },
+    {
+      "word": "journey",
+      "start": 15.4375,
+      "end": 15.8
+    },
+    {
+      "word": "difficult.",
+      "start": 15.8125,
+      "end": 16.45
+    },
+    {
+      "word": "Carlito",
+      "start": 16.825,
+      "end": 17.3875
+    },
+    {
+      "word": "wants",
+      "start": 17.4,
+      "end": 17.7125
+    },
+    {
+      "word": "to",
+      "start": 17.725,
+      "end": 17.8375
+    },
+    {
+      "word": "become",
+      "start": 17.85,
+      "end": 18.2125
+    },
+    {
+      "word": "a",
+      "start": 18.225,
+      "end": 18.2875
+    },
+    {
+      "word": "vet.",
+      "start": 18.3,
+      "end": 18.75
+    }
+  ],
+  "bytes": 114768
+}

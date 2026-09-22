@@ -1,0 +1,51 @@
+{
+  "text": "Congratulations. I am told congratulations are in order.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "a6de9f90ba30d64f6469f4bd4f6b05e3dd538c3f2376df51c2bc134a51cf8c77",
+  "sha256": "556106ded32f4f240265af813d5f0ba03e42e2bb2038567c642f07197015b30e",
+  "words": [
+    {
+      "word": "Congratulations.",
+      "start": 0.0625,
+      "end": 1.2625
+    },
+    {
+      "word": "I",
+      "start": 1.6625,
+      "end": 1.7375
+    },
+    {
+      "word": "am",
+      "start": 1.75,
+      "end": 1.8875
+    },
+    {
+      "word": "told",
+      "start": 1.9,
+      "end": 2.2625
+    },
+    {
+      "word": "congratulations",
+      "start": 2.275,
+      "end": 3.2625
+    },
+    {
+      "word": "are",
+      "start": 3.275,
+      "end": 3.5125
+    },
+    {
+      "word": "in",
+      "start": 3.525,
+      "end": 3.7
+    },
+    {
+      "word": "order.",
+      "start": 3.7125,
+      "end": 4.1625
+    }
+  ],
+  "bytes": 27216
+}

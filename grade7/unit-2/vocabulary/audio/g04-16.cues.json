@@ -1,0 +1,41 @@
+{
+  "text": "fish. They fish in the lake.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "e95e8aa0a0b0be64388fe08f4fa1e1f216d42692a5798c3c376e629d9b9be20c",
+  "sha256": "5e6d6c20ab982a0b77a4f4d01685ff981e77611cb043d552294aaf97e27721ba",
+  "words": [
+    {
+      "word": "fish.",
+      "start": 0.075,
+      "end": 0.3875
+    },
+    {
+      "word": "They",
+      "start": 0.7625,
+      "end": 0.875
+    },
+    {
+      "word": "fish",
+      "start": 0.8875,
+      "end": 1.25
+    },
+    {
+      "word": "in",
+      "start": 1.2625,
+      "end": 1.4
+    },
+    {
+      "word": "the",
+      "start": 1.4125,
+      "end": 1.5125
+    },
+    {
+      "word": "lake.",
+      "start": 1.525,
+      "end": 1.9875
+    }
+  ],
+  "bytes": 14112
+}

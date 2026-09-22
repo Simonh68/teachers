@@ -1,0 +1,46 @@
+{
+  "text": "dig. Dig a hole in the sand.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "be64743c0d79f2df3ed79b68f0c168caf62a904f638221642656a45b486c904e",
+  "sha256": "84a2f6ca801574dc4f79bb351fb499360a7d4503419d6dc5be603bb6c1049418",
+  "words": [
+    {
+      "word": "dig.",
+      "start": 0.0625,
+      "end": 0.29999999999999993
+    },
+    {
+      "word": "Dig",
+      "start": 0.7,
+      "end": 0.875
+    },
+    {
+      "word": "a",
+      "start": 0.8875,
+      "end": 0.9375
+    },
+    {
+      "word": "hole",
+      "start": 0.95,
+      "end": 1.325
+    },
+    {
+      "word": "in",
+      "start": 1.3375,
+      "end": 1.4625
+    },
+    {
+      "word": "the",
+      "start": 1.475,
+      "end": 1.55
+    },
+    {
+      "word": "sand.",
+      "start": 1.5625,
+      "end": 2.075
+    }
+  ],
+  "bytes": 14688
+}

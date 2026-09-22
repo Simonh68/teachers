@@ -1,0 +1,46 @@
+{
+  "text": "available. The car is not available tomorrow.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "a5093a29ffe638889353c3d0c40db51f3fd95f907c7bdae85f2da933556d07ca",
+  "sha256": "618b3f824229a215345dc5433c995abce5e2a06c8bf1f9542e09a8f7443b0f2e",
+  "words": [
+    {
+      "word": "available.",
+      "start": 0.05,
+      "end": 0.8
+    },
+    {
+      "word": "The",
+      "start": 1.1875,
+      "end": 1.25
+    },
+    {
+      "word": "car",
+      "start": 1.2625,
+      "end": 1.6125
+    },
+    {
+      "word": "is",
+      "start": 1.625,
+      "end": 1.7875
+    },
+    {
+      "word": "not",
+      "start": 1.8,
+      "end": 2.0875
+    },
+    {
+      "word": "available",
+      "start": 2.1125,
+      "end": 2.6125
+    },
+    {
+      "word": "tomorrow.",
+      "start": 2.625,
+      "end": 3.2
+    }
+  ],
+  "bytes": 21456
+}

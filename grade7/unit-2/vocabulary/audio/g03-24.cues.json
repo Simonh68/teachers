@@ -1,0 +1,51 @@
+{
+  "text": "approximately. The bridge is approximately one kilometer long.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "2b0dc39636cd5b339346929420f527f93e1d55d28a8444abc33836591f3fe5cb",
+  "sha256": "a4086f60057cafbc0cb8019a141eb69c483298daad27d0487799808ae68c8748",
+  "words": [
+    {
+      "word": "approximately.",
+      "start": 0.0625,
+      "end": 0.9875
+    },
+    {
+      "word": "The",
+      "start": 1.375,
+      "end": 1.4625
+    },
+    {
+      "word": "bridge",
+      "start": 1.475,
+      "end": 1.9
+    },
+    {
+      "word": "is",
+      "start": 1.925,
+      "end": 2.1
+    },
+    {
+      "word": "approximately",
+      "start": 2.1125,
+      "end": 2.9375
+    },
+    {
+      "word": "one",
+      "start": 2.95,
+      "end": 3.3125
+    },
+    {
+      "word": "kilometer",
+      "start": 3.325,
+      "end": 3.8875
+    },
+    {
+      "word": "long.",
+      "start": 3.9,
+      "end": 4.3
+    }
+  ],
+  "bytes": 28080
+}

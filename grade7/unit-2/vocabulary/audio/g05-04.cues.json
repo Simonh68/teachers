@@ -1,0 +1,51 @@
+{
+  "text": "be worth. The idea is worth a try.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "2a0495725c1ad779c4baf0382cceffeeae0671fcfb321372694c384097fab9e7",
+  "sha256": "21821fb1923d0a17597b28777b3e2e13f9c8003282353e055b2a09e0ac4e482a",
+  "words": [
+    {
+      "word": "be",
+      "start": 0.075,
+      "end": 0.2
+    },
+    {
+      "word": "worth.",
+      "start": 0.2125,
+      "end": 0.7
+    },
+    {
+      "word": "The",
+      "start": 1.075,
+      "end": 1.1375
+    },
+    {
+      "word": "idea",
+      "start": 1.15,
+      "end": 1.575
+    },
+    {
+      "word": "is",
+      "start": 1.5875,
+      "end": 1.7625
+    },
+    {
+      "word": "worth",
+      "start": 1.775,
+      "end": 2.0625
+    },
+    {
+      "word": "a",
+      "start": 2.075,
+      "end": 2.125
+    },
+    {
+      "word": "try.",
+      "start": 2.1375,
+      "end": 2.65
+    }
+  ],
+  "bytes": 18144
+}

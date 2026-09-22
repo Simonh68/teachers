@@ -1,0 +1,41 @@
+{
+  "text": "fall. School starts in the fall.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "9d458d099994803a5ac8758f3e68db08b7fca425811982ec2851b99595e636f0",
+  "sha256": "d8e5e68c22f6192d22c674384b0ee4ea465084f4850a6c8dd502aab6ad8fc7dd",
+  "words": [
+    {
+      "word": "fall.",
+      "start": 0.075,
+      "end": 0.375
+    },
+    {
+      "word": "School",
+      "start": 0.7375,
+      "end": 1.1
+    },
+    {
+      "word": "starts",
+      "start": 1.1125,
+      "end": 1.6
+    },
+    {
+      "word": "in",
+      "start": 1.6125,
+      "end": 1.7375
+    },
+    {
+      "word": "the",
+      "start": 1.75,
+      "end": 1.8375
+    },
+    {
+      "word": "fall.",
+      "start": 1.85,
+      "end": 2.3125
+    }
+  ],
+  "bytes": 16128
+}

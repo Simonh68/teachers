@@ -1,0 +1,41 @@
+{
+  "text": "name. They named the dog Max.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "0b0f012238b85df8b32a9f9b63443b4d4b753c4243ca9121117a709b41ea3d54",
+  "sha256": "fd0123dfdb51a060d2bfcc9b0fd523d967ff2455f0d83cdfff5873a32fa5c78a",
+  "words": [
+    {
+      "word": "name.",
+      "start": 0.05,
+      "end": 0.3625
+    },
+    {
+      "word": "They",
+      "start": 0.7375,
+      "end": 0.8375
+    },
+    {
+      "word": "named",
+      "start": 0.85,
+      "end": 1.2375
+    },
+    {
+      "word": "the",
+      "start": 1.25,
+      "end": 1.35
+    },
+    {
+      "word": "dog",
+      "start": 1.3625,
+      "end": 1.6625
+    },
+    {
+      "word": "Max.",
+      "start": 1.675,
+      "end": 2.15
+    }
+  ],
+  "bytes": 15120
+}

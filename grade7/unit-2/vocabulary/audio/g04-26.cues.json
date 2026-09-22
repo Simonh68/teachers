@@ -1,0 +1,41 @@
+{
+  "text": "open. The shop opens at nine.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "11f3799bca65a57a94621c668e8894eee0ad640bd40b898045a3ff640f13fed1",
+  "sha256": "a6631f71a2ac2a55051995caeddb6dd2995f3c34d429d30e1370f5b91ea55767",
+  "words": [
+    {
+      "word": "open.",
+      "start": 0.05,
+      "end": 0.4625
+    },
+    {
+      "word": "The",
+      "start": 0.85,
+      "end": 0.9
+    },
+    {
+      "word": "shop",
+      "start": 0.9125,
+      "end": 1.275
+    },
+    {
+      "word": "opens",
+      "start": 1.3,
+      "end": 1.7125
+    },
+    {
+      "word": "at",
+      "start": 1.725,
+      "end": 1.85
+    },
+    {
+      "word": "nine.",
+      "start": 1.8625,
+      "end": 2.325
+    }
+  ],
+  "bytes": 16128
+}

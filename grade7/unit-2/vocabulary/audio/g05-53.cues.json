@@ -1,0 +1,51 @@
+{
+  "text": "myself. I consider myself one of you too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "b68f7a6d333e4409f1aea2bbd67402b20ccb41f013cbf511bac34014958f5a7e",
+  "sha256": "82eb150e43aef18d6b99347921adc3adb30151a8a2b2f3f28a5bc2693e51ee00",
+  "words": [
+    {
+      "word": "myself.",
+      "start": 0.0625,
+      "end": 0.65
+    },
+    {
+      "word": "I",
+      "start": 1.0125,
+      "end": 1.075
+    },
+    {
+      "word": "consider",
+      "start": 1.0875,
+      "end": 1.475
+    },
+    {
+      "word": "myself",
+      "start": 1.4875,
+      "end": 2.025
+    },
+    {
+      "word": "one",
+      "start": 2.0375,
+      "end": 2.225
+    },
+    {
+      "word": "of",
+      "start": 2.2375,
+      "end": 2.3125
+    },
+    {
+      "word": "you",
+      "start": 2.325,
+      "end": 2.475
+    },
+    {
+      "word": "too.",
+      "start": 2.4875,
+      "end": 2.9
+    }
+  ],
+  "bytes": 19584
+}

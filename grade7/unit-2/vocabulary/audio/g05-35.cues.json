@@ -1,0 +1,41 @@
+{
+  "text": "excited. We naturally got excited too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "e6b641c7b7ffd4648ea7fa81cb2ca270260771a23798197606970c2e978f6015",
+  "sha256": "cfbafa7717744a74852acbbebfc9bc831c652ddeb25da7f4a336c6f78e68ba0d",
+  "words": [
+    {
+      "word": "excited.",
+      "start": 0.05,
+      "end": 0.7375
+    },
+    {
+      "word": "We",
+      "start": 1.125,
+      "end": 1.2125
+    },
+    {
+      "word": "naturally",
+      "start": 1.225,
+      "end": 1.7
+    },
+    {
+      "word": "got",
+      "start": 1.7125,
+      "end": 1.95
+    },
+    {
+      "word": "excited",
+      "start": 1.9625,
+      "end": 2.4625
+    },
+    {
+      "word": "too.",
+      "start": 2.475,
+      "end": 2.8625
+    }
+  ],
+  "bytes": 19440
+}

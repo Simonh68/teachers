@@ -1,0 +1,30 @@
+{
+  "layout": [
+    {
+      "width": 1366,
+      "height": 900,
+      "errors": [],
+      "pages": 28,
+      "pairs": 63,
+      "targets": 485
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "errors": [],
+      "pages": 28,
+      "pairs": 63,
+      "targets": 485
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "errors": [],
+      "pages": 28,
+      "pairs": 63,
+      "targets": 485
+    }
+  ],
+  "autoplay": 126,
+  "errors": []
+}

@@ -1,0 +1,51 @@
+{
+  "text": "hide. I had to hide my money too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "8518e099eee4bbe812d79399a88a349d7303fd51b05e552e1e8a8efc4b3fe36c",
+  "sha256": "31d6d767aef42a1071824f1d12a101077594f920c72c54a3fcf048417aabb47e",
+  "words": [
+    {
+      "word": "hide.",
+      "start": 0.0875,
+      "end": 0.475
+    },
+    {
+      "word": "I",
+      "start": 0.85,
+      "end": 0.9
+    },
+    {
+      "word": "had",
+      "start": 0.9125,
+      "end": 1.0625
+    },
+    {
+      "word": "to",
+      "start": 1.075,
+      "end": 1.15
+    },
+    {
+      "word": "hide",
+      "start": 1.1625,
+      "end": 1.45
+    },
+    {
+      "word": "my",
+      "start": 1.4625,
+      "end": 1.6
+    },
+    {
+      "word": "money",
+      "start": 1.6125,
+      "end": 1.9125
+    },
+    {
+      "word": "too.",
+      "start": 1.925,
+      "end": 2.3125
+    }
+  ],
+  "bytes": 16128
+}

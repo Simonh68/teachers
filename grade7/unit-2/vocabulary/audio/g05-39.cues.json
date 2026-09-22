@@ -1,0 +1,46 @@
+{
+  "text": "sleep. I could use some sleep too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "61b8eeef2d606df62c5bead084167a3682dbf66403dcac7c37d45f2c227c6977",
+  "sha256": "aae118ab4a04de76a6f019731a9c5e44c034f69b3d34c9c4d256a44a2d7e92a4",
+  "words": [
+    {
+      "word": "sleep.",
+      "start": 0.05,
+      "end": 0.4875
+    },
+    {
+      "word": "I",
+      "start": 0.85,
+      "end": 0.9125
+    },
+    {
+      "word": "could",
+      "start": 0.925,
+      "end": 1.0625
+    },
+    {
+      "word": "use",
+      "start": 1.075,
+      "end": 1.3375
+    },
+    {
+      "word": "some",
+      "start": 1.35,
+      "end": 1.5375
+    },
+    {
+      "word": "sleep",
+      "start": 1.55,
+      "end": 1.9
+    },
+    {
+      "word": "too.",
+      "start": 1.9125,
+      "end": 2.275
+    }
+  ],
+  "bytes": 15840
+}

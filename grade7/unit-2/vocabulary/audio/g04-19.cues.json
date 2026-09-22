@@ -1,0 +1,46 @@
+{
+  "text": "Druze. Many Druze live in northern Israel.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "7e9afcf94207139b8c5263e509db215bfa6aefbd6544fa230ba232d5e1e0dabd",
+  "sha256": "e86b53feaa9bf343b777717dd8b22d6170b78899a70f243d4b8805c230a03af7",
+  "words": [
+    {
+      "word": "Druze.",
+      "start": 0.0875,
+      "end": 0.5375
+    },
+    {
+      "word": "Many",
+      "start": 0.9125,
+      "end": 1.1625
+    },
+    {
+      "word": "Druze",
+      "start": 1.175,
+      "end": 1.575
+    },
+    {
+      "word": "live",
+      "start": 1.5875,
+      "end": 1.9625
+    },
+    {
+      "word": "in",
+      "start": 1.9875,
+      "end": 2.15
+    },
+    {
+      "word": "northern",
+      "start": 2.1625,
+      "end": 2.5625
+    },
+    {
+      "word": "Israel.",
+      "start": 2.575,
+      "end": 3.2
+    }
+  ],
+  "bytes": 21456
+}

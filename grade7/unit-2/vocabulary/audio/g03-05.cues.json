@@ -1,0 +1,46 @@
+{
+  "text": "shopping. We did the shopping after school.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "e689696150714d0a247557d873e9a902578e47df1deba341fa8bb57f51e5db9d",
+  "sha256": "ef19204bb6f6ebf1f58999c1babe1daad0e634727f5dc6568d323e73128113f5",
+  "words": [
+    {
+      "word": "shopping.",
+      "start": 0.05,
+      "end": 0.6375
+    },
+    {
+      "word": "We",
+      "start": 1.025,
+      "end": 1.1375
+    },
+    {
+      "word": "did",
+      "start": 1.15,
+      "end": 1.375
+    },
+    {
+      "word": "the",
+      "start": 1.3875,
+      "end": 1.4625
+    },
+    {
+      "word": "shopping",
+      "start": 1.475,
+      "end": 1.9625
+    },
+    {
+      "word": "after",
+      "start": 1.975,
+      "end": 2.2625
+    },
+    {
+      "word": "school.",
+      "start": 2.275,
+      "end": 2.7875
+    }
+  ],
+  "bytes": 19008
+}

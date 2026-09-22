@@ -1,0 +1,41 @@
+{
+  "text": "widely. This novel was widely read.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "3bb61b999e1b82057b907e8ad1cfb40233eaa0e4027700e9c350fc5cc0ca958e",
+  "sha256": "e1ef0432cddb3f3a7df2005bafb3cce1db9960a42b293b902ce14a6972d5d18f",
+  "words": [
+    {
+      "word": "widely.",
+      "start": 0.075,
+      "end": 0.5625
+    },
+    {
+      "word": "This",
+      "start": 0.9375,
+      "end": 1.1125
+    },
+    {
+      "word": "novel",
+      "start": 1.125,
+      "end": 1.5875
+    },
+    {
+      "word": "was",
+      "start": 1.6,
+      "end": 1.7875
+    },
+    {
+      "word": "widely",
+      "start": 1.8,
+      "end": 2.2625
+    },
+    {
+      "word": "read.",
+      "start": 2.275,
+      "end": 2.7
+    }
+  ],
+  "bytes": 18432
+}

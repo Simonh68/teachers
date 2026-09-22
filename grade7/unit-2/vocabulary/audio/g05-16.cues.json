@@ -1,0 +1,66 @@
+{
+  "text": "put something on. Put on your coat before you go out.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "b0dd03bd64be87e5851b6f4757b198475f8e259aa4dfa8e4a27a6ff14ea3d091",
+  "sha256": "2b2c47cb2c49f67ab1220b81c605763618db41efb7a2c747e1daf2dc3ef42f59",
+  "words": [
+    {
+      "word": "put",
+      "start": 0.075,
+      "end": 0.2375
+    },
+    {
+      "word": "something",
+      "start": 0.25,
+      "end": 0.6375
+    },
+    {
+      "word": "on.",
+      "start": 0.65,
+      "end": 1.0375
+    },
+    {
+      "word": "Put",
+      "start": 1.4125,
+      "end": 1.5625
+    },
+    {
+      "word": "on",
+      "start": 1.575,
+      "end": 1.7125
+    },
+    {
+      "word": "your",
+      "start": 1.725,
+      "end": 1.875
+    },
+    {
+      "word": "coat",
+      "start": 1.8875,
+      "end": 2.2625
+    },
+    {
+      "word": "before",
+      "start": 2.275,
+      "end": 2.6125
+    },
+    {
+      "word": "you",
+      "start": 2.625,
+      "end": 2.725
+    },
+    {
+      "word": "go",
+      "start": 2.7375,
+      "end": 2.9375
+    },
+    {
+      "word": "out.",
+      "start": 2.95,
+      "end": 3.3
+    }
+  ],
+  "bytes": 22032
+}

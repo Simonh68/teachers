@@ -1,0 +1,51 @@
+{
+  "text": "introduce. I would like to introduce myself too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "2dc2c0adac9940260f449698bc88bf10b5353457097298be52a9da513eb2a376",
+  "sha256": "0aeb645d7ad4757e338f7594ea8f2a435e45d408dbb688c7845f8c9b6c1209eb",
+  "words": [
+    {
+      "word": "introduce.",
+      "start": 0.0625,
+      "end": 0.7625
+    },
+    {
+      "word": "I",
+      "start": 1.15,
+      "end": 1.2125
+    },
+    {
+      "word": "would",
+      "start": 1.225,
+      "end": 1.35
+    },
+    {
+      "word": "like",
+      "start": 1.3625,
+      "end": 1.575
+    },
+    {
+      "word": "to",
+      "start": 1.5875,
+      "end": 1.7
+    },
+    {
+      "word": "introduce",
+      "start": 1.7125,
+      "end": 2.225
+    },
+    {
+      "word": "myself",
+      "start": 2.2375,
+      "end": 2.7
+    },
+    {
+      "word": "too.",
+      "start": 2.7125,
+      "end": 3.1
+    }
+  ],
+  "bytes": 20880
+}

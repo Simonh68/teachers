@@ -1,0 +1,41 @@
+{
+  "text": "flat. The road is flat here.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "36a3a667bca5dcabe0bba37d1943f152c7ec40a51c4d3739741c44e345eea51b",
+  "sha256": "bdb963bf21e66e62d3078b1897adbb568327b4e8a454957c205581f62c2fa7de",
+  "words": [
+    {
+      "word": "flat.",
+      "start": 0.0625,
+      "end": 0.425
+    },
+    {
+      "word": "The",
+      "start": 0.8125,
+      "end": 0.9892857142857143
+    },
+    {
+      "word": "road",
+      "start": 0.9892857142857143,
+      "end": 1.225
+    },
+    {
+      "word": "is",
+      "start": 1.2375,
+      "end": 1.4
+    },
+    {
+      "word": "flat",
+      "start": 1.4125,
+      "end": 1.7375
+    },
+    {
+      "word": "here.",
+      "start": 1.75,
+      "end": 2.1625
+    }
+  ],
+  "bytes": 15264
+}

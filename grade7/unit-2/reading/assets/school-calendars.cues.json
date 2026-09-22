@@ -1,0 +1,1316 @@
+{
+  "text": "Does every school year start in September? No. School calendars are different. The country, the school and the season all matter. In Japan, the school year starts in April, in spring. It ends in late March. Summer vacation is in the middle of the school year. At many schools, it lasts approximately six weeks, from late July to the end of August. Even in one country, schools follow different calendars. In Anchorage, Alaska, Grade 7 starts on August 20 in 2026 and finishes on May 28 in 2027. Its next summer vacation is about eleven weeks. In Miami-Dade, Florida, school starts on August 13 in 2026 and ends on June 3 in 2027. For a summer example, the 2026 vacation is about ten weeks. According to the Kent calendar, the 2026 school year starts in September and ends in July 2027. The summer holiday lasts almost six weeks. Individual schools also have days for teacher training. In UAE public schools, the year starts on August 31 in 2026 and ends on July 2 in 2027. Summer vacation lasts a little more than eight weeks. Students return on August 30. Jersey is a small island where English is the main language. Its 2026–27 calendar runs from September to July. The summer break is nearly seven weeks, before extra teacher-training days. A small island has its own school calendar, too. April brings a new school year in Japan. In the other examples, students begin in August or September. Summer vacation and the end of a school year are not always the same event.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "82418cedb209d88357ee6252775486d190c1d8189e6526fbeae363d66380584c",
+  "sha256": "8989a743be500dc76c104fc64f8ae848f1678a5505a72fe96da2aaaa1ff507e9",
+  "words": [
+    {
+      "word": "Does",
+      "start": 0.075,
+      "end": 0.2625
+    },
+    {
+      "word": "every",
+      "start": 0.275,
+      "end": 0.5625
+    },
+    {
+      "word": "school",
+      "start": 0.575,
+      "end": 0.925
+    },
+    {
+      "word": "year",
+      "start": 0.9375,
+      "end": 1.175
+    },
+    {
+      "word": "start",
+      "start": 1.1875,
+      "end": 1.6125
+    },
+    {
+      "word": "in",
+      "start": 1.625,
+      "end": 1.7625
+    },
+    {
+      "word": "September?",
+      "start": 1.775,
+      "end": 2.4375
+    },
+    {
+      "word": "No.",
+      "start": 2.8,
+      "end": 3.0625
+    },
+    {
+      "word": "School",
+      "start": 3.425,
+      "end": 3.7625
+    },
+    {
+      "word": "calendars",
+      "start": 3.775,
+      "end": 4.4125
+    },
+    {
+      "word": "are",
+      "start": 4.425,
+      "end": 4.5875
+    },
+    {
+      "word": "different.",
+      "start": 4.6,
+      "end": 5.175
+    },
+    {
+      "word": "The",
+      "start": 5.5625,
+      "end": 5.6375
+    },
+    {
+      "word": "country,",
+      "start": 5.65,
+      "end": 6.2125
+    },
+    {
+      "word": "the",
+      "start": 6.2375,
+      "end": 6.3375
+    },
+    {
+      "word": "school",
+      "start": 6.35,
+      "end": 6.9
+    },
+    {
+      "word": "and",
+      "start": 6.9125,
+      "end": 7.0375
+    },
+    {
+      "word": "the",
+      "start": 7.05,
+      "end": 7.125
+    },
+    {
+      "word": "season",
+      "start": 7.1375,
+      "end": 7.5625
+    },
+    {
+      "word": "all",
+      "start": 7.575,
+      "end": 7.775
+    },
+    {
+      "word": "matter.",
+      "start": 7.7875,
+      "end": 8.275
+    },
+    {
+      "word": "In",
+      "start": 8.6375,
+      "end": 8.7875
+    },
+    {
+      "word": "Japan,",
+      "start": 8.8,
+      "end": 9.375
+    },
+    {
+      "word": "the",
+      "start": 9.4,
+      "end": 9.4875
+    },
+    {
+      "word": "school",
+      "start": 9.5,
+      "end": 9.85
+    },
+    {
+      "word": "year",
+      "start": 9.8625,
+      "end": 10.0875
+    },
+    {
+      "word": "starts",
+      "start": 10.1,
+      "end": 10.5
+    },
+    {
+      "word": "in",
+      "start": 10.5125,
+      "end": 10.6375
+    },
+    {
+      "word": "April,",
+      "start": 10.65,
+      "end": 11.15
+    },
+    {
+      "word": "in",
+      "start": 11.175,
+      "end": 11.325
+    },
+    {
+      "word": "spring.",
+      "start": 11.3375,
+      "end": 11.85
+    },
+    {
+      "word": "It",
+      "start": 12.2125,
+      "end": 12.35
+    },
+    {
+      "word": "ends",
+      "start": 12.3625,
+      "end": 12.6875
+    },
+    {
+      "word": "in",
+      "start": 12.7,
+      "end": 12.8625
+    },
+    {
+      "word": "late",
+      "start": 12.875,
+      "end": 13.1125
+    },
+    {
+      "word": "March.",
+      "start": 13.125,
+      "end": 13.675
+    },
+    {
+      "word": "Summer",
+      "start": 14.0375,
+      "end": 14.3625
+    },
+    {
+      "word": "vacation",
+      "start": 14.375,
+      "end": 15.0375
+    },
+    {
+      "word": "is",
+      "start": 15.05,
+      "end": 15.3375
+    },
+    {
+      "word": "in",
+      "start": 15.35,
+      "end": 15.55
+    },
+    {
+      "word": "the",
+      "start": 15.5625,
+      "end": 15.6375
+    },
+    {
+      "word": "middle",
+      "start": 15.65,
+      "end": 16.0375
+    },
+    {
+      "word": "of",
+      "start": 16.05,
+      "end": 16.15
+    },
+    {
+      "word": "the",
+      "start": 16.1625,
+      "end": 16.2375
+    },
+    {
+      "word": "school",
+      "start": 16.25,
+      "end": 16.5875
+    },
+    {
+      "word": "year.",
+      "start": 16.6,
+      "end": 16.975
+    },
+    {
+      "word": "At",
+      "start": 17.3375,
+      "end": 17.4625
+    },
+    {
+      "word": "many",
+      "start": 17.475,
+      "end": 17.7125
+    },
+    {
+      "word": "schools,",
+      "start": 17.725,
+      "end": 18.2875
+    },
+    {
+      "word": "it",
+      "start": 18.3125,
+      "end": 18.45
+    },
+    {
+      "word": "lasts",
+      "start": 18.4625,
+      "end": 18.85
+    },
+    {
+      "word": "approximately",
+      "start": 18.8625,
+      "end": 19.525
+    },
+    {
+      "word": "six",
+      "start": 19.5375,
+      "end": 19.85
+    },
+    {
+      "word": "weeks,",
+      "start": 19.8625,
+      "end": 20.3125
+    },
+    {
+      "word": "from",
+      "start": 20.725,
+      "end": 20.9875
+    },
+    {
+      "word": "late",
+      "start": 21.0,
+      "end": 21.2125
+    },
+    {
+      "word": "July",
+      "start": 21.225,
+      "end": 21.675
+    },
+    {
+      "word": "to",
+      "start": 21.6875,
+      "end": 21.825
+    },
+    {
+      "word": "the",
+      "start": 21.8375,
+      "end": 21.9
+    },
+    {
+      "word": "end",
+      "start": 21.9125,
+      "end": 22.1125
+    },
+    {
+      "word": "of",
+      "start": 22.125,
+      "end": 22.2125
+    },
+    {
+      "word": "August.",
+      "start": 22.225,
+      "end": 22.8
+    },
+    {
+      "word": "Even",
+      "start": 23.2,
+      "end": 23.4375
+    },
+    {
+      "word": "in",
+      "start": 23.45,
+      "end": 23.625
+    },
+    {
+      "word": "one",
+      "start": 23.6375,
+      "end": 23.8875
+    },
+    {
+      "word": "country,",
+      "start": 23.9,
+      "end": 24.425
+    },
+    {
+      "word": "schools",
+      "start": 24.4375,
+      "end": 24.95
+    },
+    {
+      "word": "follow",
+      "start": 24.9625,
+      "end": 25.325
+    },
+    {
+      "word": "different",
+      "start": 25.3375,
+      "end": 25.65
+    },
+    {
+      "word": "calendars.",
+      "start": 25.6625,
+      "end": 26.35
+    },
+    {
+      "word": "In",
+      "start": 26.75,
+      "end": 26.925
+    },
+    {
+      "word": "Anchorage,",
+      "start": 26.9375,
+      "end": 27.86
+    },
+    {
+      "word": "Alaska,",
+      "start": 27.86,
+      "end": 28.475
+    },
+    {
+      "word": "Grade",
+      "start": 29.0375,
+      "end": 29.3375
+    },
+    {
+      "word": "7",
+      "start": 29.35,
+      "end": 29.7125
+    },
+    {
+      "word": "starts",
+      "start": 29.725,
+      "end": 30.125
+    },
+    {
+      "word": "on",
+      "start": 30.1375,
+      "end": 30.3875
+    },
+    {
+      "word": "August",
+      "start": 30.4,
+      "end": 31.046875
+    },
+    {
+      "word": "20",
+      "start": 31.046875,
+      "end": 31.2625
+    },
+    {
+      "word": "in",
+      "start": 31.275,
+      "end": 31.654166666666665
+    },
+    {
+      "word": "2026",
+      "start": 31.654166666666665,
+      "end": 32.4125
+    },
+    {
+      "word": "and",
+      "start": 32.425,
+      "end": 32.5875
+    },
+    {
+      "word": "finishes",
+      "start": 32.6,
+      "end": 33.1625
+    },
+    {
+      "word": "on",
+      "start": 33.175,
+      "end": 33.35
+    },
+    {
+      "word": "May",
+      "start": 33.3625,
+      "end": 33.887499999999996
+    },
+    {
+      "word": "28",
+      "start": 33.887499999999996,
+      "end": 34.2375
+    },
+    {
+      "word": "in",
+      "start": 34.25,
+      "end": 34.6375
+    },
+    {
+      "word": "2027.",
+      "start": 34.6375,
+      "end": 35.4125
+    },
+    {
+      "word": "Its",
+      "start": 35.775,
+      "end": 35.9375
+    },
+    {
+      "word": "next",
+      "start": 35.95,
+      "end": 36.2375
+    },
+    {
+      "word": "summer",
+      "start": 36.25,
+      "end": 36.525
+    },
+    {
+      "word": "vacation",
+      "start": 36.5375,
+      "end": 37.2
+    },
+    {
+      "word": "is",
+      "start": 37.2125,
+      "end": 37.4
+    },
+    {
+      "word": "about",
+      "start": 37.4125,
+      "end": 37.8
+    },
+    {
+      "word": "eleven",
+      "start": 37.825,
+      "end": 38.275
+    },
+    {
+      "word": "weeks.",
+      "start": 38.2875,
+      "end": 38.775
+    },
+    {
+      "word": "In",
+      "start": 39.175,
+      "end": 39.2625
+    },
+    {
+      "word": "Miami-Dade,",
+      "start": 39.275,
+      "end": 39.9625
+    },
+    {
+      "word": "Florida,",
+      "start": 40.5375,
+      "end": 41.0
+    },
+    {
+      "word": "school",
+      "start": 41.5,
+      "end": 41.8125
+    },
+    {
+      "word": "starts",
+      "start": 41.825,
+      "end": 42.225
+    },
+    {
+      "word": "on",
+      "start": 42.2375,
+      "end": 42.45
+    },
+    {
+      "word": "August",
+      "start": 42.4625,
+      "end": 43.19375
+    },
+    {
+      "word": "13",
+      "start": 43.19375,
+      "end": 43.4375
+    },
+    {
+      "word": "in",
+      "start": 43.45,
+      "end": 43.829166666666666
+    },
+    {
+      "word": "2026",
+      "start": 43.829166666666666,
+      "end": 44.5875
+    },
+    {
+      "word": "and",
+      "start": 44.6,
+      "end": 44.8375
+    },
+    {
+      "word": "ends",
+      "start": 44.85,
+      "end": 45.0875
+    },
+    {
+      "word": "on",
+      "start": 45.1,
+      "end": 45.25
+    },
+    {
+      "word": "June",
+      "start": 45.2625,
+      "end": 45.7925
+    },
+    {
+      "word": "3",
+      "start": 45.7925,
+      "end": 45.925
+    },
+    {
+      "word": "in",
+      "start": 45.9375,
+      "end": 46.30416666666667
+    },
+    {
+      "word": "2027.",
+      "start": 46.30416666666667,
+      "end": 47.0375
+    },
+    {
+      "word": "For",
+      "start": 47.4375,
+      "end": 47.6125
+    },
+    {
+      "word": "a",
+      "start": 47.625,
+      "end": 47.6875
+    },
+    {
+      "word": "summer",
+      "start": 47.7,
+      "end": 48.0125
+    },
+    {
+      "word": "example,",
+      "start": 48.025,
+      "end": 48.6375
+    },
+    {
+      "word": "the",
+      "start": 48.6625,
+      "end": 48.775
+    },
+    {
+      "word": "2026",
+      "start": 48.7875,
+      "end": 49.65
+    },
+    {
+      "word": "vacation",
+      "start": 49.6625,
+      "end": 50.2875
+    },
+    {
+      "word": "is",
+      "start": 50.3,
+      "end": 50.475
+    },
+    {
+      "word": "about",
+      "start": 50.4875,
+      "end": 50.8
+    },
+    {
+      "word": "ten",
+      "start": 50.8125,
+      "end": 51.0625
+    },
+    {
+      "word": "weeks.",
+      "start": 51.075,
+      "end": 51.525
+    },
+    {
+      "word": "According",
+      "start": 51.925,
+      "end": 52.3125
+    },
+    {
+      "word": "to",
+      "start": 52.325,
+      "end": 52.4
+    },
+    {
+      "word": "the",
+      "start": 52.4125,
+      "end": 52.5125
+    },
+    {
+      "word": "Kent",
+      "start": 52.525,
+      "end": 52.75
+    },
+    {
+      "word": "calendar,",
+      "start": 52.7625,
+      "end": 53.275
+    },
+    {
+      "word": "the",
+      "start": 53.675,
+      "end": 53.775
+    },
+    {
+      "word": "2026",
+      "start": 53.7875,
+      "end": 54.6625
+    },
+    {
+      "word": "school",
+      "start": 54.675,
+      "end": 54.9875
+    },
+    {
+      "word": "year",
+      "start": 55.0,
+      "end": 55.2875
+    },
+    {
+      "word": "starts",
+      "start": 55.3,
+      "end": 55.7375
+    },
+    {
+      "word": "in",
+      "start": 55.75,
+      "end": 55.9
+    },
+    {
+      "word": "September",
+      "start": 55.9125,
+      "end": 56.5625
+    },
+    {
+      "word": "and",
+      "start": 56.925,
+      "end": 57.075
+    },
+    {
+      "word": "ends",
+      "start": 57.0875,
+      "end": 57.35
+    },
+    {
+      "word": "in",
+      "start": 57.3625,
+      "end": 57.45
+    },
+    {
+      "word": "July",
+      "start": 57.4625,
+      "end": 58.175
+    },
+    {
+      "word": "2027.",
+      "start": 58.175,
+      "end": 58.8875
+    },
+    {
+      "word": "The",
+      "start": 59.275,
+      "end": 59.3375
+    },
+    {
+      "word": "summer",
+      "start": 59.35,
+      "end": 59.6625
+    },
+    {
+      "word": "holiday",
+      "start": 59.675,
+      "end": 60.1
+    },
+    {
+      "word": "lasts",
+      "start": 60.1125,
+      "end": 60.6
+    },
+    {
+      "word": "almost",
+      "start": 60.6125,
+      "end": 61.025
+    },
+    {
+      "word": "six",
+      "start": 61.0375,
+      "end": 61.3125
+    },
+    {
+      "word": "weeks.",
+      "start": 61.325,
+      "end": 61.775
+    },
+    {
+      "word": "Individual",
+      "start": 62.175,
+      "end": 62.6875
+    },
+    {
+      "word": "schools",
+      "start": 62.7,
+      "end": 63.225
+    },
+    {
+      "word": "also",
+      "start": 63.25,
+      "end": 63.6375
+    },
+    {
+      "word": "have",
+      "start": 63.65,
+      "end": 63.9125
+    },
+    {
+      "word": "days",
+      "start": 63.925,
+      "end": 64.2875
+    },
+    {
+      "word": "for",
+      "start": 64.3,
+      "end": 64.475
+    },
+    {
+      "word": "teacher",
+      "start": 64.4875,
+      "end": 64.85
+    },
+    {
+      "word": "training.",
+      "start": 64.8625,
+      "end": 65.3625
+    },
+    {
+      "word": "In",
+      "start": 65.7625,
+      "end": 65.9125
+    },
+    {
+      "word": "UAE",
+      "start": 65.925,
+      "end": 66.525
+    },
+    {
+      "word": "public",
+      "start": 66.5375,
+      "end": 66.9125
+    },
+    {
+      "word": "schools,",
+      "start": 66.925,
+      "end": 67.4
+    },
+    {
+      "word": "the",
+      "start": 67.6125,
+      "end": 67.675
+    },
+    {
+      "word": "year",
+      "start": 67.6875,
+      "end": 67.95
+    },
+    {
+      "word": "starts",
+      "start": 67.9625,
+      "end": 68.3375
+    },
+    {
+      "word": "on",
+      "start": 68.35,
+      "end": 68.55
+    },
+    {
+      "word": "August",
+      "start": 68.5625,
+      "end": 69.37812500000001
+    },
+    {
+      "word": "31",
+      "start": 69.37812500000001,
+      "end": 69.65
+    },
+    {
+      "word": "in",
+      "start": 69.6625,
+      "end": 70.05416666666666
+    },
+    {
+      "word": "2026",
+      "start": 70.05416666666666,
+      "end": 70.8375
+    },
+    {
+      "word": "and",
+      "start": 70.85,
+      "end": 71.0875
+    },
+    {
+      "word": "ends",
+      "start": 71.1,
+      "end": 71.325
+    },
+    {
+      "word": "on",
+      "start": 71.3375,
+      "end": 71.4375
+    },
+    {
+      "word": "July",
+      "start": 71.45,
+      "end": 72.15
+    },
+    {
+      "word": "2",
+      "start": 72.15,
+      "end": 72.325
+    },
+    {
+      "word": "in",
+      "start": 72.3375,
+      "end": 72.72083333333333
+    },
+    {
+      "word": "2027.",
+      "start": 72.72083333333333,
+      "end": 73.4875
+    },
+    {
+      "word": "Summer",
+      "start": 73.875,
+      "end": 74.1625
+    },
+    {
+      "word": "vacation",
+      "start": 74.175,
+      "end": 74.775
+    },
+    {
+      "word": "lasts",
+      "start": 74.7875,
+      "end": 75.225
+    },
+    {
+      "word": "a",
+      "start": 75.2375,
+      "end": 75.325
+    },
+    {
+      "word": "little",
+      "start": 75.3375,
+      "end": 75.575
+    },
+    {
+      "word": "more",
+      "start": 75.5875,
+      "end": 75.8625
+    },
+    {
+      "word": "than",
+      "start": 75.875,
+      "end": 76.05
+    },
+    {
+      "word": "eight",
+      "start": 76.0625,
+      "end": 76.2625
+    },
+    {
+      "word": "weeks.",
+      "start": 76.275,
+      "end": 76.75
+    },
+    {
+      "word": "Students",
+      "start": 77.1125,
+      "end": 77.6625
+    },
+    {
+      "word": "return",
+      "start": 77.675,
+      "end": 78.1875
+    },
+    {
+      "word": "on",
+      "start": 78.2,
+      "end": 78.425
+    },
+    {
+      "word": "August",
+      "start": 78.4375,
+      "end": 79.25312500000001
+    },
+    {
+      "word": "30.",
+      "start": 79.25312500000001,
+      "end": 79.525
+    },
+    {
+      "word": "Jersey",
+      "start": 79.9375,
+      "end": 80.425
+    },
+    {
+      "word": "is",
+      "start": 80.4375,
+      "end": 80.5875
+    },
+    {
+      "word": "a",
+      "start": 80.6,
+      "end": 80.6625
+    },
+    {
+      "word": "small",
+      "start": 80.675,
+      "end": 81.1
+    },
+    {
+      "word": "island",
+      "start": 81.1125,
+      "end": 81.55
+    },
+    {
+      "word": "where",
+      "start": 81.5625,
+      "end": 81.775
+    },
+    {
+      "word": "English",
+      "start": 81.7875,
+      "end": 82.25
+    },
+    {
+      "word": "is",
+      "start": 82.275,
+      "end": 82.45
+    },
+    {
+      "word": "the",
+      "start": 82.4625,
+      "end": 82.55
+    },
+    {
+      "word": "main",
+      "start": 82.5625,
+      "end": 82.85
+    },
+    {
+      "word": "language.",
+      "start": 82.8625,
+      "end": 83.5
+    },
+    {
+      "word": "Its",
+      "start": 83.9,
+      "end": 84.0875
+    },
+    {
+      "word": "2026–27",
+      "start": 84.1,
+      "end": 85.9375
+    },
+    {
+      "word": "calendar",
+      "start": 85.95,
+      "end": 86.4375
+    },
+    {
+      "word": "runs",
+      "start": 86.45,
+      "end": 86.8375
+    },
+    {
+      "word": "from",
+      "start": 86.9625,
+      "end": 87.125
+    },
+    {
+      "word": "September",
+      "start": 87.1375,
+      "end": 87.7125
+    },
+    {
+      "word": "to",
+      "start": 87.725,
+      "end": 87.8375
+    },
+    {
+      "word": "July.",
+      "start": 87.85,
+      "end": 88.375
+    },
+    {
+      "word": "The",
+      "start": 88.7625,
+      "end": 88.825
+    },
+    {
+      "word": "summer",
+      "start": 88.8375,
+      "end": 89.175
+    },
+    {
+      "word": "break",
+      "start": 89.1875,
+      "end": 89.5
+    },
+    {
+      "word": "is",
+      "start": 89.5125,
+      "end": 89.675
+    },
+    {
+      "word": "nearly",
+      "start": 89.6875,
+      "end": 90.0375
+    },
+    {
+      "word": "seven",
+      "start": 90.05,
+      "end": 90.45
+    },
+    {
+      "word": "weeks,",
+      "start": 90.4625,
+      "end": 90.95
+    },
+    {
+      "word": "before",
+      "start": 91.2375,
+      "end": 91.7375
+    },
+    {
+      "word": "extra",
+      "start": 91.75,
+      "end": 92.0875
+    },
+    {
+      "word": "teacher-training",
+      "start": 92.1,
+      "end": 92.775
+    },
+    {
+      "word": "days.",
+      "start": 92.7875,
+      "end": 93.2
+    },
+    {
+      "word": "A",
+      "start": 93.5625,
+      "end": 93.625
+    },
+    {
+      "word": "small",
+      "start": 93.6375,
+      "end": 94.05
+    },
+    {
+      "word": "island",
+      "start": 94.0625,
+      "end": 94.4375
+    },
+    {
+      "word": "has",
+      "start": 94.45,
+      "end": 94.675
+    },
+    {
+      "word": "its",
+      "start": 94.6875,
+      "end": 94.8625
+    },
+    {
+      "word": "own",
+      "start": 94.8875,
+      "end": 95.125
+    },
+    {
+      "word": "school",
+      "start": 95.1375,
+      "end": 95.4625
+    },
+    {
+      "word": "calendar,",
+      "start": 95.475,
+      "end": 96.05
+    },
+    {
+      "word": "too.",
+      "start": 96.0625,
+      "end": 96.425
+    },
+    {
+      "word": "April",
+      "start": 96.7875,
+      "end": 97.1625
+    },
+    {
+      "word": "brings",
+      "start": 97.175,
+      "end": 97.525
+    },
+    {
+      "word": "a",
+      "start": 97.5375,
+      "end": 97.6
+    },
+    {
+      "word": "new",
+      "start": 97.6125,
+      "end": 97.825
+    },
+    {
+      "word": "school",
+      "start": 97.8375,
+      "end": 98.175
+    },
+    {
+      "word": "year",
+      "start": 98.1875,
+      "end": 98.5
+    },
+    {
+      "word": "in",
+      "start": 98.5125,
+      "end": 98.6625
+    },
+    {
+      "word": "Japan.",
+      "start": 98.675,
+      "end": 99.2125
+    },
+    {
+      "word": "In",
+      "start": 99.6125,
+      "end": 99.7
+    },
+    {
+      "word": "the",
+      "start": 99.7125,
+      "end": 99.7875
+    },
+    {
+      "word": "other",
+      "start": 99.8,
+      "end": 100.0375
+    },
+    {
+      "word": "examples,",
+      "start": 100.05,
+      "end": 100.725
+    },
+    {
+      "word": "students",
+      "start": 100.75,
+      "end": 101.325
+    },
+    {
+      "word": "begin",
+      "start": 101.3375,
+      "end": 101.7125
+    },
+    {
+      "word": "in",
+      "start": 101.725,
+      "end": 101.9125
+    },
+    {
+      "word": "August",
+      "start": 101.925,
+      "end": 102.4625
+    },
+    {
+      "word": "or",
+      "start": 102.475,
+      "end": 102.6
+    },
+    {
+      "word": "September.",
+      "start": 102.6125,
+      "end": 103.2625
+    },
+    {
+      "word": "Summer",
+      "start": 103.6625,
+      "end": 103.9875
+    },
+    {
+      "word": "vacation",
+      "start": 104.0,
+      "end": 104.7125
+    },
+    {
+      "word": "and",
+      "start": 104.725,
+      "end": 104.8875
+    },
+    {
+      "word": "the",
+      "start": 104.9,
+      "end": 104.9625
+    },
+    {
+      "word": "end",
+      "start": 104.975,
+      "end": 105.2125
+    },
+    {
+      "word": "of",
+      "start": 105.225,
+      "end": 105.3
+    },
+    {
+      "word": "a",
+      "start": 105.3125,
+      "end": 105.3625
+    },
+    {
+      "word": "school",
+      "start": 105.375,
+      "end": 105.725
+    },
+    {
+      "word": "year",
+      "start": 105.7375,
+      "end": 106.1
+    },
+    {
+      "word": "are",
+      "start": 106.125,
+      "end": 106.2625
+    },
+    {
+      "word": "not",
+      "start": 106.275,
+      "end": 106.5375
+    },
+    {
+      "word": "always",
+      "start": 106.55,
+      "end": 106.925
+    },
+    {
+      "word": "the",
+      "start": 106.9375,
+      "end": 107.025
+    },
+    {
+      "word": "same",
+      "start": 107.0375,
+      "end": 107.3
+    },
+    {
+      "word": "event.",
+      "start": 107.3125,
+      "end": 107.75
+    }
+  ],
+  "bytes": 648864
+}

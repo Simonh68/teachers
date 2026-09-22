@@ -1,0 +1,46 @@
+{
+  "text": "rich. This food is rich in iron.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "277fd26c07e7d19f350c9227c16e301f6b03ba0e374d9e035054799ba5d696fc",
+  "sha256": "b5c3fc7f5226777f299dced41d406464fac351506ef482883124e09194dab7c4",
+  "words": [
+    {
+      "word": "rich.",
+      "start": 0.0625,
+      "end": 0.3625
+    },
+    {
+      "word": "This",
+      "start": 0.7375,
+      "end": 0.925
+    },
+    {
+      "word": "food",
+      "start": 0.9375,
+      "end": 1.2875
+    },
+    {
+      "word": "is",
+      "start": 1.3,
+      "end": 1.5
+    },
+    {
+      "word": "rich",
+      "start": 1.5125,
+      "end": 1.8
+    },
+    {
+      "word": "in",
+      "start": 1.8125,
+      "end": 1.9625
+    },
+    {
+      "word": "iron.",
+      "start": 1.975,
+      "end": 2.4625
+    }
+  ],
+  "bytes": 16992
+}

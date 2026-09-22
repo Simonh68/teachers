@@ -1,0 +1,66 @@
+{
+  "text": "locate. The boy could not locate the Danube on the map.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "4832f3b083484f52805a060c2559f1072f5757e583000ef2e10e9b478081b0c6",
+  "sha256": "a9d0f44463454cf94332f515c61e973ef7c9d1e48f67347a2c32a39a54eb6352",
+  "words": [
+    {
+      "word": "locate.",
+      "start": 0.05,
+      "end": 0.5625
+    },
+    {
+      "word": "The",
+      "start": 0.95,
+      "end": 1.0375
+    },
+    {
+      "word": "boy",
+      "start": 1.05,
+      "end": 1.3625
+    },
+    {
+      "word": "could",
+      "start": 1.375,
+      "end": 1.55
+    },
+    {
+      "word": "not",
+      "start": 1.5625,
+      "end": 1.85
+    },
+    {
+      "word": "locate",
+      "start": 1.8625,
+      "end": 2.3625
+    },
+    {
+      "word": "the",
+      "start": 2.375,
+      "end": 2.4875
+    },
+    {
+      "word": "Danube",
+      "start": 2.5,
+      "end": 2.975
+    },
+    {
+      "word": "on",
+      "start": 2.9875,
+      "end": 3.125
+    },
+    {
+      "word": "the",
+      "start": 3.1375,
+      "end": 3.2125
+    },
+    {
+      "word": "map.",
+      "start": 3.225,
+      "end": 3.6875
+    }
+  ],
+  "bytes": 24336
+}

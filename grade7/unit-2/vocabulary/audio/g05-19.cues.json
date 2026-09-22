@@ -1,0 +1,46 @@
+{
+  "text": "inner. The bag has an inner pocket.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "83479de9fa150939983d0e680daf325397aa600bac3035b68ae82ef040a3e4ee",
+  "sha256": "eb5d195ccce517a3e862f587395f2430509e6a0d64e3db16cd0cdb329c0c4317",
+  "words": [
+    {
+      "word": "inner.",
+      "start": 0.05,
+      "end": 0.475
+    },
+    {
+      "word": "The",
+      "start": 0.8625,
+      "end": 0.95
+    },
+    {
+      "word": "bag",
+      "start": 0.9625,
+      "end": 1.3125
+    },
+    {
+      "word": "has",
+      "start": 1.325,
+      "end": 1.5875
+    },
+    {
+      "word": "an",
+      "start": 1.6,
+      "end": 1.7
+    },
+    {
+      "word": "inner",
+      "start": 1.7125,
+      "end": 1.9875
+    },
+    {
+      "word": "pocket.",
+      "start": 2.0,
+      "end": 2.5625
+    }
+  ],
+  "bytes": 17568
+}

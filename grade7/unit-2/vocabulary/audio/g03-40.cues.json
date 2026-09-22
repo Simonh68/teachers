@@ -1,0 +1,41 @@
+{
+  "text": "clap. Nobody clapped after the speech.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "4575c53438346d6a37ac94ba817d3028a0ec95c8649bd07049ee535009915350",
+  "sha256": "7bdd1fd2b29effe2c96e1cda690a1d1ad8cb755c7a8725f5cd4eaba34fb15775",
+  "words": [
+    {
+      "word": "clap.",
+      "start": 0.0625,
+      "end": 0.4125
+    },
+    {
+      "word": "Nobody",
+      "start": 0.7875,
+      "end": 1.175
+    },
+    {
+      "word": "clapped",
+      "start": 1.1875,
+      "end": 1.625
+    },
+    {
+      "word": "after",
+      "start": 1.65,
+      "end": 1.95
+    },
+    {
+      "word": "the",
+      "start": 1.9625,
+      "end": 2.0375
+    },
+    {
+      "word": "speech.",
+      "start": 2.05,
+      "end": 2.6375
+    }
+  ],
+  "bytes": 18144
+}

@@ -1,0 +1,321 @@
+{
+  "text": "It is November 9, 2023. A snowstorm makes the roads in Anchorage dangerous. Kali cannot go to school today. Her teacher reads a story to the class online, from his couch. The book is about a snowy day! Kali misses school and finds online learning harder. She also goes outside to clear snow from the driveway. She wants to earn some money.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "a9fcb58b0a9c8cb753476a7decccdcdd0daf921556141f28bb7efe328c5b2b02",
+  "sha256": "33cf0ebf27288c74d877ee275ed03e70627c61d83fac4db3761843c80f9d03aa",
+  "words": [
+    {
+      "word": "It",
+      "start": 0.0875,
+      "end": 0.1625
+    },
+    {
+      "word": "is",
+      "start": 0.175,
+      "end": 0.3
+    },
+    {
+      "word": "November",
+      "start": 0.3125,
+      "end": 1.5586538461538462
+    },
+    {
+      "word": "9,",
+      "start": 1.5586538461538462,
+      "end": 1.7144230769230768
+    },
+    {
+      "word": "2023.",
+      "start": 1.7144230769230768,
+      "end": 2.3375
+    },
+    {
+      "word": "A",
+      "start": 2.725,
+      "end": 2.775
+    },
+    {
+      "word": "snowstorm",
+      "start": 2.7875,
+      "end": 3.5
+    },
+    {
+      "word": "makes",
+      "start": 3.5125,
+      "end": 3.7875
+    },
+    {
+      "word": "the",
+      "start": 3.8,
+      "end": 3.875
+    },
+    {
+      "word": "roads",
+      "start": 3.8875,
+      "end": 4.3875
+    },
+    {
+      "word": "in",
+      "start": 4.4,
+      "end": 4.625
+    },
+    {
+      "word": "Anchorage",
+      "start": 4.6375,
+      "end": 5.1125
+    },
+    {
+      "word": "dangerous.",
+      "start": 5.125,
+      "end": 5.7625
+    },
+    {
+      "word": "Kali",
+      "start": 6.125,
+      "end": 6.475
+    },
+    {
+      "word": "cannot",
+      "start": 6.4875,
+      "end": 6.8625
+    },
+    {
+      "word": "go",
+      "start": 6.875,
+      "end": 7.025
+    },
+    {
+      "word": "to",
+      "start": 7.0375,
+      "end": 7.125
+    },
+    {
+      "word": "school",
+      "start": 7.1375,
+      "end": 7.4875
+    },
+    {
+      "word": "today.",
+      "start": 7.5,
+      "end": 7.975
+    },
+    {
+      "word": "Her",
+      "start": 8.3875,
+      "end": 8.525
+    },
+    {
+      "word": "teacher",
+      "start": 8.5375,
+      "end": 9.0125
+    },
+    {
+      "word": "reads",
+      "start": 9.025,
+      "end": 9.3125
+    },
+    {
+      "word": "a",
+      "start": 9.325,
+      "end": 9.3875
+    },
+    {
+      "word": "story",
+      "start": 9.4,
+      "end": 9.8875
+    },
+    {
+      "word": "to",
+      "start": 9.9,
+      "end": 10.025
+    },
+    {
+      "word": "the",
+      "start": 10.0375,
+      "end": 10.125
+    },
+    {
+      "word": "class",
+      "start": 10.1375,
+      "end": 10.5125
+    },
+    {
+      "word": "online,",
+      "start": 10.525,
+      "end": 11.0875
+    },
+    {
+      "word": "from",
+      "start": 11.1,
+      "end": 11.2875
+    },
+    {
+      "word": "his",
+      "start": 11.3,
+      "end": 11.45
+    },
+    {
+      "word": "couch.",
+      "start": 11.4625,
+      "end": 12.0125
+    },
+    {
+      "word": "The",
+      "start": 12.4125,
+      "end": 12.5
+    },
+    {
+      "word": "book",
+      "start": 12.5125,
+      "end": 12.7875
+    },
+    {
+      "word": "is",
+      "start": 12.8125,
+      "end": 12.95
+    },
+    {
+      "word": "about",
+      "start": 12.9625,
+      "end": 13.2625
+    },
+    {
+      "word": "a",
+      "start": 13.275,
+      "end": 13.325
+    },
+    {
+      "word": "snowy",
+      "start": 13.3375,
+      "end": 13.7875
+    },
+    {
+      "word": "day!",
+      "start": 13.8,
+      "end": 14.175
+    },
+    {
+      "word": "Kali",
+      "start": 14.5625,
+      "end": 14.8625
+    },
+    {
+      "word": "misses",
+      "start": 14.875,
+      "end": 15.1375
+    },
+    {
+      "word": "school",
+      "start": 15.15,
+      "end": 15.6625
+    },
+    {
+      "word": "and",
+      "start": 15.6875,
+      "end": 15.825
+    },
+    {
+      "word": "finds",
+      "start": 15.8375,
+      "end": 16.25
+    },
+    {
+      "word": "online",
+      "start": 16.2625,
+      "end": 16.8125
+    },
+    {
+      "word": "learning",
+      "start": 16.825,
+      "end": 17.125
+    },
+    {
+      "word": "harder.",
+      "start": 17.1375,
+      "end": 17.625
+    },
+    {
+      "word": "She",
+      "start": 17.9875,
+      "end": 18.175
+    },
+    {
+      "word": "also",
+      "start": 18.1875,
+      "end": 18.5125
+    },
+    {
+      "word": "goes",
+      "start": 18.525,
+      "end": 18.7875
+    },
+    {
+      "word": "outside",
+      "start": 18.8,
+      "end": 19.3375
+    },
+    {
+      "word": "to",
+      "start": 19.35,
+      "end": 19.45
+    },
+    {
+      "word": "clear",
+      "start": 19.4625,
+      "end": 19.7625
+    },
+    {
+      "word": "snow",
+      "start": 19.775,
+      "end": 20.1875
+    },
+    {
+      "word": "from",
+      "start": 20.2,
+      "end": 20.4
+    },
+    {
+      "word": "the",
+      "start": 20.4125,
+      "end": 20.4875
+    },
+    {
+      "word": "driveway.",
+      "start": 20.5,
+      "end": 21.15
+    },
+    {
+      "word": "She",
+      "start": 21.5125,
+      "end": 21.6875
+    },
+    {
+      "word": "wants",
+      "start": 21.7,
+      "end": 21.9625
+    },
+    {
+      "word": "to",
+      "start": 21.975,
+      "end": 22.0625
+    },
+    {
+      "word": "earn",
+      "start": 22.075,
+      "end": 22.3375
+    },
+    {
+      "word": "some",
+      "start": 22.35,
+      "end": 22.575
+    },
+    {
+      "word": "money.",
+      "start": 22.5875,
+      "end": 23.0
+    }
+  ],
+  "bytes": 140256
+}

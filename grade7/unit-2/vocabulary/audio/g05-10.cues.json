@@ -1,0 +1,46 @@
+{
+  "text": "throat. I have a sore throat too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "6b8d16efdff22423a038b9fe25723c8cf0579866d0f9a37c642616ee787fcd4b",
+  "sha256": "e7651d0d65b318f52dcf178bc9c3099909468775ed52bacbf980ad111d181941",
+  "words": [
+    {
+      "word": "throat.",
+      "start": 0.0625,
+      "end": 0.425
+    },
+    {
+      "word": "I",
+      "start": 0.8,
+      "end": 0.85
+    },
+    {
+      "word": "have",
+      "start": 0.8625,
+      "end": 1.0
+    },
+    {
+      "word": "a",
+      "start": 1.0125,
+      "end": 1.0625
+    },
+    {
+      "word": "sore",
+      "start": 1.075,
+      "end": 1.4125
+    },
+    {
+      "word": "throat",
+      "start": 1.425,
+      "end": 1.75
+    },
+    {
+      "word": "too.",
+      "start": 1.7625,
+      "end": 2.125
+    }
+  ],
+  "bytes": 14976
+}

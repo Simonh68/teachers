@@ -1,0 +1,41 @@
+{
+  "text": "subject. I know this subject well.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "9e86b14dfb7a9810f03cc49c4e767a81585b5a7f3dae75b612564604b5cf2228",
+  "sha256": "ef163c256f4c9727e2865282f2e0eb1a79620ae0a453f290b7a84fc8190840ef",
+  "words": [
+    {
+      "word": "subject.",
+      "start": 0.05,
+      "end": 0.6875
+    },
+    {
+      "word": "I",
+      "start": 1.0875,
+      "end": 1.15
+    },
+    {
+      "word": "know",
+      "start": 1.1625,
+      "end": 1.4125
+    },
+    {
+      "word": "this",
+      "start": 1.425,
+      "end": 1.575
+    },
+    {
+      "word": "subject",
+      "start": 1.5875,
+      "end": 2.0875
+    },
+    {
+      "word": "well.",
+      "start": 2.1,
+      "end": 2.4875
+    }
+  ],
+  "bytes": 17136
+}

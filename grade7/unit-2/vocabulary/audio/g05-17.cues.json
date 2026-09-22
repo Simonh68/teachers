@@ -1,0 +1,56 @@
+{
+  "text": "Why don't you. Why don't you come with me?",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "d57899ec81cb39499e0e5c1b3ba9de16a0b302f502e6da011b22f1d1f8dd0150",
+  "sha256": "fff08e32c8965b0ac9bf8efca241e4bb12a4905cf633484d6c08da806a44888c",
+  "words": [
+    {
+      "word": "Why",
+      "start": 0.075,
+      "end": 0.21250000000000002
+    },
+    {
+      "word": "don't",
+      "start": 0.225,
+      "end": 0.4625
+    },
+    {
+      "word": "you.",
+      "start": 0.475,
+      "end": 0.7625
+    },
+    {
+      "word": "Why",
+      "start": 1.15,
+      "end": 1.275
+    },
+    {
+      "word": "don't",
+      "start": 1.2875,
+      "end": 1.4625
+    },
+    {
+      "word": "you",
+      "start": 1.475,
+      "end": 1.5625
+    },
+    {
+      "word": "come",
+      "start": 1.575,
+      "end": 1.825
+    },
+    {
+      "word": "with",
+      "start": 1.8375,
+      "end": 2.0125
+    },
+    {
+      "word": "me?",
+      "start": 2.025,
+      "end": 2.3375
+    }
+  ],
+  "bytes": 16272
+}

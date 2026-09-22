@@ -1,0 +1,51 @@
+{
+  "text": "protect. It is my job to protect you.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "a44d345f3e3a86f74985ce570c2bae704417f45fec5306368047b7a84871f4ae",
+  "sha256": "5532c6c5a9477b27f5fede9668e7ad7af2d087abfc1cae9b0d074ffc635b7ed0",
+  "words": [
+    {
+      "word": "protect.",
+      "start": 0.0625,
+      "end": 0.675
+    },
+    {
+      "word": "It",
+      "start": 1.0375,
+      "end": 1.1625
+    },
+    {
+      "word": "is",
+      "start": 1.175,
+      "end": 1.3125
+    },
+    {
+      "word": "my",
+      "start": 1.325,
+      "end": 1.5125
+    },
+    {
+      "word": "job",
+      "start": 1.525,
+      "end": 1.9375
+    },
+    {
+      "word": "to",
+      "start": 1.95,
+      "end": 2.0625
+    },
+    {
+      "word": "protect",
+      "start": 2.075,
+      "end": 2.525
+    },
+    {
+      "word": "you.",
+      "start": 2.5375,
+      "end": 2.8
+    }
+  ],
+  "bytes": 19008
+}

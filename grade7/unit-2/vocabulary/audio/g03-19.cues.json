@@ -1,0 +1,41 @@
+{
+  "text": "push. Please push the door open.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "2276818bc39df095c4fdb98b54f0d6a4c4001e3cfd300e8240477c8327885804",
+  "sha256": "990d9c98e1c416c65a487b76e1c1975837cffcd5a0ac552491ef79a0e6745c2c",
+  "words": [
+    {
+      "word": "push.",
+      "start": 0.075,
+      "end": 0.4125
+    },
+    {
+      "word": "Please",
+      "start": 0.7875,
+      "end": 1.1
+    },
+    {
+      "word": "push",
+      "start": 1.1125,
+      "end": 1.4
+    },
+    {
+      "word": "the",
+      "start": 1.4125,
+      "end": 1.5125
+    },
+    {
+      "word": "door",
+      "start": 1.525,
+      "end": 1.8125
+    },
+    {
+      "word": "open.",
+      "start": 1.825,
+      "end": 2.275
+    }
+  ],
+  "bytes": 15840
+}

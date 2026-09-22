@@ -1,0 +1,51 @@
+{
+  "text": "heart. She drew a heart on the card.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "3f486bd6986d22fe76c04011b6d55dea5e9673d6eb36faf54c962aefd63c299e",
+  "sha256": "e521f33c2849b656acdab9983408cedfd54be1721f102957d29ea272469540e5",
+  "words": [
+    {
+      "word": "heart.",
+      "start": 0.0625,
+      "end": 0.4
+    },
+    {
+      "word": "She",
+      "start": 0.7625,
+      "end": 0.95
+    },
+    {
+      "word": "drew",
+      "start": 0.9625,
+      "end": 1.225
+    },
+    {
+      "word": "a",
+      "start": 1.2375,
+      "end": 1.2875
+    },
+    {
+      "word": "heart",
+      "start": 1.3,
+      "end": 1.675
+    },
+    {
+      "word": "on",
+      "start": 1.7,
+      "end": 1.8375
+    },
+    {
+      "word": "the",
+      "start": 1.85,
+      "end": 1.925
+    },
+    {
+      "word": "card.",
+      "start": 1.9375,
+      "end": 2.425
+    }
+  ],
+  "bytes": 16848
+}

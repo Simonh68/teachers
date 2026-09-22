@@ -8,16 +8,14 @@
   ],
   "grammar_a_slides": 46,
   "grammar_b_slides": 43,
-  "teacher_slides": 19,
+  "teacher_slides": 20,
   "true_companion_texts": 5,
   "main_words": 262,
+  "vocabulary_corrected_records": 25,
+  "vocabulary_book": "corrected: version 4",
+  "software_sync_task": "https://github.com/Simonh68/E-Vocab-Band-II/issues/5",
   "pending": [
-    "recorded audio",
-    "complete Read Alone players",
-    "vocabulary source corrections",
-    "full contextual coverage",
-    "listening task",
-    "final worksheet PDF",
+    "teacher review of complete draft",
     "student publication"
   ]
 }

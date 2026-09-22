@@ -1,0 +1,41 @@
+{
+  "text": "necessary. Water is necessary for life.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "93833343e3cea9326e3738d15a5137169e1c3d6a3f06e423d0079127f6fa5d2d",
+  "sha256": "6d9cb7cb268f1c287746243249adacff9400f585fad58f3f368c5ef35c00beaf",
+  "words": [
+    {
+      "word": "necessary.",
+      "start": 0.0625,
+      "end": 0.8375
+    },
+    {
+      "word": "Water",
+      "start": 1.2375,
+      "end": 1.6625
+    },
+    {
+      "word": "is",
+      "start": 1.675,
+      "end": 1.8625
+    },
+    {
+      "word": "necessary",
+      "start": 1.875,
+      "end": 2.525
+    },
+    {
+      "word": "for",
+      "start": 2.5375,
+      "end": 2.7375
+    },
+    {
+      "word": "life.",
+      "start": 2.75,
+      "end": 3.2625
+    }
+  ],
+  "bytes": 21744
+}

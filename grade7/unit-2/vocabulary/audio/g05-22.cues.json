@@ -1,0 +1,56 @@
+{
+  "text": "demand. Is there really much demand for these goods?",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "151b4d089a0abd24337c6322a988378488787176cfaf531cdaa921e0fb8c5c7e",
+  "sha256": "0058d4772e8d8baa0d900e66094b8896d098cc0a5e589923280144ad83a9fec7",
+  "words": [
+    {
+      "word": "demand.",
+      "start": 0.0625,
+      "end": 0.6
+    },
+    {
+      "word": "Is",
+      "start": 0.9625,
+      "end": 1.0875
+    },
+    {
+      "word": "there",
+      "start": 1.1,
+      "end": 1.3
+    },
+    {
+      "word": "really",
+      "start": 1.3125,
+      "end": 1.575
+    },
+    {
+      "word": "much",
+      "start": 1.5875,
+      "end": 1.8625
+    },
+    {
+      "word": "demand",
+      "start": 1.875,
+      "end": 2.375
+    },
+    {
+      "word": "for",
+      "start": 2.3875,
+      "end": 2.5375
+    },
+    {
+      "word": "these",
+      "start": 2.55,
+      "end": 2.775
+    },
+    {
+      "word": "goods?",
+      "start": 2.7875,
+      "end": 3.275
+    }
+  ],
+  "bytes": 21888
+}

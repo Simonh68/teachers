@@ -1,0 +1,46 @@
+{
+  "text": "ship. The ship appeared on the horizon.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "4ba7acf5886a3ffcc8b26168541b1552c78c00a71d09b54358f0b79e4bebc40d",
+  "sha256": "7c21c75c2e3e729f534ab48ba58eece44db81af206ef3a97cacfde51a3886ec6",
+  "words": [
+    {
+      "word": "ship.",
+      "start": 0.05,
+      "end": 0.4125
+    },
+    {
+      "word": "The",
+      "start": 0.8,
+      "end": 0.8625
+    },
+    {
+      "word": "ship",
+      "start": 0.875,
+      "end": 1.225
+    },
+    {
+      "word": "appeared",
+      "start": 1.25,
+      "end": 1.8
+    },
+    {
+      "word": "on",
+      "start": 1.825,
+      "end": 1.975
+    },
+    {
+      "word": "the",
+      "start": 1.9875,
+      "end": 2.05
+    },
+    {
+      "word": "horizon.",
+      "start": 2.0625,
+      "end": 2.7375
+    }
+  ],
+  "bytes": 18720
+}

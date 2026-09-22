@@ -1,0 +1,21 @@
+{
+  "viewports": [
+    {
+      "width": 1366,
+      "height": 900,
+      "contextQuestions": 165
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "contextQuestions": 165
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "contextQuestions": 165
+    }
+  ],
+  "audioFiles": 165,
+  "errors": []
+}

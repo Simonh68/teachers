@@ -1,0 +1,46 @@
+{
+  "text": "brain. My brother has a good brain.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "40b878517b9d84bf51745e62a38ca349c954d48ed48df8cb5a64f62ab0d22a6f",
+  "sha256": "ae6c19f097211c026552d17aabc449197d6d1e05c84bf5bae73c67cbf85bac21",
+  "words": [
+    {
+      "word": "brain.",
+      "start": 0.0875,
+      "end": 0.4625
+    },
+    {
+      "word": "My",
+      "start": 0.8375,
+      "end": 0.975
+    },
+    {
+      "word": "brother",
+      "start": 0.9875,
+      "end": 1.3625
+    },
+    {
+      "word": "has",
+      "start": 1.375,
+      "end": 1.5875
+    },
+    {
+      "word": "a",
+      "start": 1.6,
+      "end": 1.675
+    },
+    {
+      "word": "good",
+      "start": 1.6875,
+      "end": 1.9
+    },
+    {
+      "word": "brain.",
+      "start": 1.9125,
+      "end": 2.3875
+    }
+  ],
+  "bytes": 16560
+}

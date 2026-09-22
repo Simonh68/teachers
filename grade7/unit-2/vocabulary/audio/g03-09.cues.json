@@ -1,0 +1,41 @@
+{
+  "text": "vote. I plan to vote tomorrow.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "118b0160ad36bae880c7a38a34476ad16764757bedaa3f0a0509ceb428a2a909",
+  "sha256": "6fc80fce5c03e9fe3eda530de33f0507198ea33ab85eb0c01204ad74dbd3f3da",
+  "words": [
+    {
+      "word": "vote.",
+      "start": 0.05,
+      "end": 0.325
+    },
+    {
+      "word": "I",
+      "start": 0.6875,
+      "end": 0.75
+    },
+    {
+      "word": "plan",
+      "start": 0.7625,
+      "end": 1.125
+    },
+    {
+      "word": "to",
+      "start": 1.1375,
+      "end": 1.25
+    },
+    {
+      "word": "vote",
+      "start": 1.2625,
+      "end": 1.5625
+    },
+    {
+      "word": "tomorrow.",
+      "start": 1.575,
+      "end": 2.15
+    }
+  ],
+  "bytes": 15120
+}

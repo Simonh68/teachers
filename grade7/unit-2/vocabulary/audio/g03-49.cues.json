@@ -1,0 +1,51 @@
+{
+  "text": "technology. Modern technology gives us many things too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "c019182e2866382b17ff7216f4f94e6bb9335b236c1df059e11611c46fa0220b",
+  "sha256": "29bd7a7939435a4ea3c397bf6fbdc2d566770e57ee167c1c1f31de6c0cfaa831",
+  "words": [
+    {
+      "word": "technology.",
+      "start": 0.05,
+      "end": 0.875
+    },
+    {
+      "word": "Modern",
+      "start": 1.275,
+      "end": 1.675
+    },
+    {
+      "word": "technology",
+      "start": 1.6875,
+      "end": 2.4625
+    },
+    {
+      "word": "gives",
+      "start": 2.475,
+      "end": 2.7375
+    },
+    {
+      "word": "us",
+      "start": 2.75,
+      "end": 2.9375
+    },
+    {
+      "word": "many",
+      "start": 2.95,
+      "end": 3.2625
+    },
+    {
+      "word": "things",
+      "start": 3.275,
+      "end": 3.6125
+    },
+    {
+      "word": "too.",
+      "start": 3.625,
+      "end": 4.0
+    }
+  ],
+  "bytes": 26208
+}

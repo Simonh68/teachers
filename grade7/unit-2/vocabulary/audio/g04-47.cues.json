@@ -1,0 +1,41 @@
+{
+  "text": "cousin. He is not my cousin.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "d63a1caebc5fb5f6206f5c221073d2aaf20b8215df73f3d6e75932296b4aa177",
+  "sha256": "82d68d050ac5635f0c37afc5fdee9c1d416ff531e4a9c5df5840a5b144f899aa",
+  "words": [
+    {
+      "word": "cousin.",
+      "start": 0.05,
+      "end": 0.525
+    },
+    {
+      "word": "He",
+      "start": 0.9125,
+      "end": 1.0
+    },
+    {
+      "word": "is",
+      "start": 1.0125,
+      "end": 1.1375
+    },
+    {
+      "word": "not",
+      "start": 1.15,
+      "end": 1.4375
+    },
+    {
+      "word": "my",
+      "start": 1.45,
+      "end": 1.625
+    },
+    {
+      "word": "cousin.",
+      "start": 1.6375,
+      "end": 2.175
+    }
+  ],
+  "bytes": 15264
+}

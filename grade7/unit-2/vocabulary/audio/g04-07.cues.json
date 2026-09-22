@@ -1,0 +1,56 @@
+{
+  "text": "note. I left a short note on the table.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "564cd93ed4b97bec4761a16de6d7d12264d08603469689fe055b5e3d3f1a59c7",
+  "sha256": "f2b005c756304265c22023e68226bcccde44e32494de87bea53a4151fca2ef1c",
+  "words": [
+    {
+      "word": "note.",
+      "start": 0.05,
+      "end": 0.325
+    },
+    {
+      "word": "I",
+      "start": 0.7,
+      "end": 0.7875
+    },
+    {
+      "word": "left",
+      "start": 0.8,
+      "end": 1.0875
+    },
+    {
+      "word": "a",
+      "start": 1.1,
+      "end": 1.1375
+    },
+    {
+      "word": "short",
+      "start": 1.15,
+      "end": 1.525
+    },
+    {
+      "word": "note",
+      "start": 1.5375,
+      "end": 1.8875
+    },
+    {
+      "word": "on",
+      "start": 1.9125,
+      "end": 2.0625
+    },
+    {
+      "word": "the",
+      "start": 2.075,
+      "end": 2.15
+    },
+    {
+      "word": "table.",
+      "start": 2.1625,
+      "end": 2.6875
+    }
+  ],
+  "bytes": 18432
+}

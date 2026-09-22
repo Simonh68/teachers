@@ -1,0 +1,46 @@
+{
+  "text": "geography. I like history more than geography.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "def4c5c65a1262944a61afd0f6836855690ad2ad40c3c467e488e5f1e96cba30",
+  "sha256": "6409c0478db77eceba087e9ea16af2cc05f4e120eef98359eec4d388099702c5",
+  "words": [
+    {
+      "word": "geography.",
+      "start": 0.0875,
+      "end": 0.8625
+    },
+    {
+      "word": "I",
+      "start": 1.25,
+      "end": 1.3125
+    },
+    {
+      "word": "like",
+      "start": 1.325,
+      "end": 1.55
+    },
+    {
+      "word": "history",
+      "start": 1.5625,
+      "end": 2.05
+    },
+    {
+      "word": "more",
+      "start": 2.0625,
+      "end": 2.3625
+    },
+    {
+      "word": "than",
+      "start": 2.375,
+      "end": 2.5375
+    },
+    {
+      "word": "geography.",
+      "start": 2.55,
+      "end": 3.3125
+    }
+  ],
+  "bytes": 22176
+}

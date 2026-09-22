@@ -1,0 +1,46 @@
+{
+  "text": "strongly. I feel really strongly about it.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "40267d3516ee4f4ee0cd78f36a5e75d9aafa972155c8c3ed81bf422007ee3e5c",
+  "sha256": "37126742e2701d085e1107ddb5ff2b2f75c3fed9cbc50120fef3fec0122f92bb",
+  "words": [
+    {
+      "word": "strongly.",
+      "start": 0.05,
+      "end": 0.7
+    },
+    {
+      "word": "I",
+      "start": 1.0625,
+      "end": 1.1375
+    },
+    {
+      "word": "feel",
+      "start": 1.15,
+      "end": 1.3875
+    },
+    {
+      "word": "really",
+      "start": 1.4,
+      "end": 1.6625
+    },
+    {
+      "word": "strongly",
+      "start": 1.675,
+      "end": 2.275
+    },
+    {
+      "word": "about",
+      "start": 2.2875,
+      "end": 2.6125
+    },
+    {
+      "word": "it.",
+      "start": 2.625,
+      "end": 2.875
+    }
+  ],
+  "bytes": 19440
+}

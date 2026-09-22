@@ -289,13 +289,13 @@
     "serial": 907,
     "en": "stomach ache",
     "pos": "Noun",
-    "mean_he": "כאב הבטן",
+    "mean_he": "כאב בטן",
     "synonyms": [],
     "ex_en": "I have a stomach ache.",
     "ex_he": "כואבת לי הבטן.",
     "family_members": [],
     "record_sense_en": "",
-    "record_sense_he": "כאב הבטן",
+    "record_sense_he": "כאב בטן",
     "repeated_entry": false,
     "same_entry_record_ids": [],
     "sense_evidence": "Hebrew gloss and example; no explicit source definition",
@@ -304,19 +304,20 @@
     "group": 3,
     "number": 14,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-03.html",
-    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959"
+    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959",
+    "editorial_correction": "Remove an unintended definite article from the dictionary gloss."
   },
   {
     "serial": 512,
     "en": "instrument",
     "pos": "Noun",
-    "mean_he": "כלי",
+    "mean_he": "כלי נגינה",
     "synonyms": [],
     "ex_en": "The flute is my favorite instrument.",
     "ex_he": "החליל הוא כלי הנגינה האהוב עליי.",
     "family_members": [],
     "record_sense_en": "",
-    "record_sense_he": "כלי",
+    "record_sense_he": "כלי נגינה",
     "repeated_entry": false,
     "same_entry_record_ids": [],
     "sense_evidence": "Hebrew gloss and example; no explicit source definition",
@@ -325,7 +326,8 @@
     "group": 3,
     "number": 15,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-03.html",
-    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959"
+    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959",
+    "editorial_correction": "The source example specifies a musical instrument."
   },
   {
     "serial": 127,
@@ -403,7 +405,7 @@
       "press"
     ],
     "ex_en": "Please push the door open.",
-    "ex_he": "בבקשה, דחוף את הדלת לפתיחה.",
+    "ex_he": "בבקשה, דחוף את הדלת כדי לפתוח אותה.",
     "family_members": [],
     "record_sense_en": "press",
     "record_sense_he": "לדחוף",
@@ -415,7 +417,8 @@
     "group": 3,
     "number": 19,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-03.html",
-    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959"
+    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959",
+    "editorial_correction": "Natural Hebrew translation; English source unchanged."
   },
   {
     "serial": 412,
@@ -623,7 +626,7 @@
     "mean_he": "נער",
     "synonyms": [],
     "ex_en": "The boy is a normal teenager.",
-    "ex_he": "דן נער רגיל.",
+    "ex_he": "הילד הוא נער רגיל.",
     "family_members": [
       {
         "word": "teenage",
@@ -640,7 +643,8 @@
     "group": 3,
     "number": 28,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-03.html",
-    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959"
+    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959",
+    "editorial_correction": "Remove the name Dan, which is absent from the English sentence."
   },
   {
     "serial": 113,
@@ -835,7 +839,7 @@
     "serial": 1062,
     "en": "which",
     "pos": "Determiner",
-    "mean_he": "איזה ספר",
+    "mean_he": "איזה; איזו; אילו",
     "synonyms": [
       "referring to something"
     ],
@@ -843,7 +847,7 @@
     "ex_he": "איזה בית הוא שלך?",
     "family_members": [],
     "record_sense_en": "referring to something",
-    "record_sense_he": "איזה ספר",
+    "record_sense_he": "איזה; איזו; אילו",
     "repeated_entry": true,
     "same_entry_record_ids": [
       1063,
@@ -856,7 +860,8 @@
     "group": 3,
     "number": 37,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-03.html",
-    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959"
+    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959",
+    "editorial_correction": "Which is a determiner; book is not part of its meaning."
   },
   {
     "serial": 151,
@@ -934,7 +939,7 @@
     "serial": 502,
     "en": "included",
     "pos": "Adjective",
-    "mean_he": "להיכלל",
+    "mean_he": "כלול",
     "synonyms": [],
     "ex_en": "Dinner will be included too.",
     "ex_he": "גם ארוחת ערב תהיה כלולה.",
@@ -945,7 +950,7 @@
       }
     ],
     "record_sense_en": "",
-    "record_sense_he": "להיכלל",
+    "record_sense_he": "כלול",
     "repeated_entry": false,
     "same_entry_record_ids": [],
     "sense_evidence": "Hebrew gloss and example; no explicit source definition",
@@ -954,19 +959,20 @@
     "group": 3,
     "number": 41,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-03.html",
-    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959"
+    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959",
+    "editorial_correction": "Match the source part of speech: adjective."
   },
   {
     "serial": 455,
     "en": "himself",
     "pos": "Pronoun",
-    "mean_he": "את עצמו",
+    "mean_he": "עצמו; בעצמו",
     "synonyms": [],
     "ex_en": "He made it himself.",
     "ex_he": "הוא הכין את זה בעצמו.",
     "family_members": [],
     "record_sense_en": "",
-    "record_sense_he": "את עצמו",
+    "record_sense_he": "עצמו; בעצמו",
     "repeated_entry": false,
     "same_entry_record_ids": [],
     "sense_evidence": "Hebrew gloss and example; no explicit source definition",
@@ -975,7 +981,8 @@
     "group": 3,
     "number": 42,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-03.html",
-    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959"
+    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959",
+    "editorial_correction": "Include the emphatic use in the source example."
   },
   {
     "serial": 614,
@@ -1103,8 +1110,8 @@
     "pos": "Noun",
     "mean_he": "תודות",
     "synonyms": [],
-    "ex_en": "My brother became famous thanks to his mother.",
-    "ex_he": "אחי התפרסם תודות לאמו.",
+    "ex_en": "We offer our thanks to the teacher.",
+    "ex_he": "אנחנו מביעים את תודתנו למורה.",
     "family_members": [],
     "record_sense_en": "",
     "record_sense_he": "תודות",
@@ -1116,7 +1123,8 @@
     "group": 3,
     "number": 48,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-03.html",
-    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959"
+    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959",
+    "editorial_correction": "Demonstrate the noun thanks, rather than the separate expression thanks to."
   },
   {
     "serial": 942,
@@ -1148,13 +1156,13 @@
     "serial": 674,
     "en": "on business",
     "pos": "Phrase",
-    "mean_he": "על עסקים",
+    "mean_he": "בענייני עסקים",
     "synonyms": [],
     "ex_en": "I am here on business too.",
     "ex_he": "גם אני כאן לצורך עסקים.",
     "family_members": [],
     "record_sense_en": "",
-    "record_sense_he": "על עסקים",
+    "record_sense_he": "בענייני עסקים",
     "repeated_entry": false,
     "same_entry_record_ids": [],
     "sense_evidence": "Hebrew gloss and example; no explicit source definition",
@@ -1163,7 +1171,8 @@
     "group": 3,
     "number": 50,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-03.html",
-    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959"
+    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959",
+    "editorial_correction": "Translate the established phrase naturally."
   },
   {
     "serial": 105,
@@ -1172,7 +1181,7 @@
     "mean_he": "להתנהג",
     "synonyms": [],
     "ex_en": "The boy told the girl to behave herself.",
-    "ex_he": "דן אמר למרי להתנהג כראוי.",
+    "ex_he": "הילד אמר לילדה להתנהג כראוי.",
     "family_members": [],
     "record_sense_en": "",
     "record_sense_he": "להתנהג",
@@ -1184,7 +1193,8 @@
     "group": 3,
     "number": 51,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-03.html",
-    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959"
+    "source_sha256": "1369f8818df84c240dfb371e8cec326654716c48cbba222bd944a96aa6f13959",
+    "editorial_correction": "Remove names absent from the English source."
   },
   {
     "serial": 588,
@@ -1671,7 +1681,7 @@
     "mean_he": "אמונה",
     "synonyms": [],
     "ex_en": "I have a firm belief in his innocence too.",
-    "ex_he": "גם לי יש אמון חזק בחפותו.",
+    "ex_he": "גם לי יש אמונה חזקה בחפותו.",
     "family_members": [],
     "record_sense_en": "",
     "record_sense_he": "אמונה",
@@ -1683,7 +1693,8 @@
     "group": 4,
     "number": 17,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-04.html",
-    "source_sha256": "f0196c615afb074c8bb7ef0377965754da6d1c31d3ef71316a3ffff28a972006"
+    "source_sha256": "f0196c615afb074c8bb7ef0377965754da6d1c31d3ef71316a3ffff28a972006",
+    "editorial_correction": "Faithfully express belief in innocence."
   },
   {
     "serial": 283,
@@ -1973,7 +1984,7 @@
     "serial": 875,
     "en": "ski",
     "pos": "Noun",
-    "mean_he": "סקי; מגלש",
+    "mean_he": "מגלש",
     "synonyms": [],
     "ex_en": "He bought a new ski.",
     "ex_he": "הוא קנה מגלש חדש.",
@@ -1984,7 +1995,7 @@
       }
     ],
     "record_sense_en": "",
-    "record_sense_he": "סקי; מגלש",
+    "record_sense_he": "מגלש",
     "repeated_entry": true,
     "same_entry_record_ids": [
       876
@@ -1995,7 +2006,8 @@
     "group": 4,
     "number": 30,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-04.html",
-    "source_sha256": "f0196c615afb074c8bb7ef0377965754da6d1c31d3ef71316a3ffff28a972006"
+    "source_sha256": "f0196c615afb074c8bb7ef0377965754da6d1c31d3ef71316a3ffff28a972006",
+    "editorial_correction": "This record is the count noun ski, not the sport or verb."
   },
   {
     "serial": 164,
@@ -2052,8 +2064,8 @@
     "pos": "Idiom",
     "mean_he": "היזהרו",
     "synonyms": [],
-    "ex_en": "Watch out! there is a small hole there.",
-    "ex_he": "תזהר! יש שם חור קטן.",
+    "ex_en": "Watch out! There is a small hole there.",
+    "ex_he": "היזהר! יש שם חור קטן.",
     "family_members": [],
     "record_sense_en": "",
     "record_sense_he": "היזהרו",
@@ -2065,7 +2077,8 @@
     "group": 4,
     "number": 33,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-04.html",
-    "source_sha256": "f0196c615afb074c8bb7ef0377965754da6d1c31d3ef71316a3ffff28a972006"
+    "source_sha256": "f0196c615afb074c8bb7ef0377965754da6d1c31d3ef71316a3ffff28a972006",
+    "editorial_correction": "Correct sentence capitalization and Hebrew spelling."
   },
   {
     "serial": 22,
@@ -2350,13 +2363,13 @@
     "serial": 269,
     "en": "dependent",
     "pos": "Adjective",
-    "mean_he": "תלויים",
+    "mean_he": "תלוי",
     "synonyms": [],
     "ex_en": "He is totally dependent on his parents.",
     "ex_he": "הוא לחלוטין תלוי בהוריו.",
     "family_members": [],
     "record_sense_en": "",
-    "record_sense_he": "תלויים",
+    "record_sense_he": "תלוי",
     "repeated_entry": false,
     "same_entry_record_ids": [],
     "sense_evidence": "Hebrew gloss and example; no explicit source definition",
@@ -2365,7 +2378,8 @@
     "group": 4,
     "number": 46,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-04.html",
-    "source_sha256": "f0196c615afb074c8bb7ef0377965754da6d1c31d3ef71316a3ffff28a972006"
+    "source_sha256": "f0196c615afb074c8bb7ef0377965754da6d1c31d3ef71316a3ffff28a972006",
+    "editorial_correction": "Use the base adjective form in the gloss."
   },
   {
     "serial": 240,
@@ -2462,7 +2476,7 @@
     "mean_he": "לאתר",
     "synonyms": [],
     "ex_en": "The boy could not locate the Danube on the map.",
-    "ex_he": "טום לא הצליח לאתר את נהר הדנובה על המפה.",
+    "ex_he": "הילד לא הצליח לאתר את נהר הדנובה על המפה.",
     "family_members": [
       {
         "word": "location",
@@ -2479,7 +2493,8 @@
     "group": 4,
     "number": 51,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-04.html",
-    "source_sha256": "f0196c615afb074c8bb7ef0377965754da6d1c31d3ef71316a3ffff28a972006"
+    "source_sha256": "f0196c615afb074c8bb7ef0377965754da6d1c31d3ef71316a3ffff28a972006",
+    "editorial_correction": "Remove Tom, which is absent from the English sentence."
   },
   {
     "serial": 918,
@@ -2760,10 +2775,10 @@
     "serial": 176,
     "en": "champion",
     "pos": "Noun",
-    "mean_he": "אלופה",
+    "mean_he": "אלוף; אלופה",
     "synonyms": [],
     "ex_en": "The boy is a former champion.",
-    "ex_he": "דן אלוף לשעבר.",
+    "ex_he": "הילד הוא אלוף לשעבר.",
     "family_members": [
       {
         "word": "championship",
@@ -2771,7 +2786,7 @@
       }
     ],
     "record_sense_en": "",
-    "record_sense_he": "אלופה",
+    "record_sense_he": "אלוף; אלופה",
     "repeated_entry": false,
     "same_entry_record_ids": [],
     "sense_evidence": "Hebrew gloss and example; no explicit source definition",
@@ -2780,7 +2795,8 @@
     "group": 5,
     "number": 9,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-05.html",
-    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d"
+    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d",
+    "editorial_correction": "Include the masculine form and remove an invented name."
   },
   {
     "serial": 977,
@@ -2854,7 +2870,7 @@
     "mean_he": "לפי",
     "synonyms": [],
     "ex_en": "According to her, he will not come.",
-    "ex_he": "לפי דעתה, הוא לא מעוניין להגיע.",
+    "ex_he": "לדבריה, הוא לא יבוא.",
     "family_members": [],
     "record_sense_en": "",
     "record_sense_he": "לפי",
@@ -2866,7 +2882,8 @@
     "group": 5,
     "number": 13,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-05.html",
-    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d"
+    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d",
+    "editorial_correction": "The English states that he will not come, not that he lacks interest."
   },
   {
     "serial": 402,
@@ -3054,7 +3071,7 @@
     "serial": 266,
     "en": "demand",
     "pos": "Noun",
-    "mean_he": "דרישה",
+    "mean_he": "ביקוש",
     "synonyms": [],
     "ex_en": "Is there really much demand for these goods?",
     "ex_he": "האם באמת לסחורה הזו יש ביקוש?",
@@ -3065,7 +3082,7 @@
       }
     ],
     "record_sense_en": "",
-    "record_sense_he": "דרישה",
+    "record_sense_he": "ביקוש",
     "repeated_entry": true,
     "same_entry_record_ids": [
       265
@@ -3076,7 +3093,8 @@
     "group": 5,
     "number": 22,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-05.html",
-    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d"
+    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d",
+    "editorial_correction": "Use the economic sense demonstrated by this record's example."
   },
   {
     "serial": 301,
@@ -3246,13 +3264,13 @@
     "serial": 649,
     "en": "nearby",
     "pos": "Adjective",
-    "mean_he": "בקרבת מקום",
+    "mean_he": "סמוך; קרוב",
     "synonyms": [],
-    "ex_en": "The train station is nearby too.",
-    "ex_he": "גם תחנת הרכבת נמצאת בקרבת מקום.",
+    "ex_en": "The nearby station is open.",
+    "ex_he": "התחנה הסמוכה פתוחה.",
     "family_members": [],
     "record_sense_en": "",
-    "record_sense_he": "בקרבת מקום",
+    "record_sense_he": "סמוך; קרוב",
     "repeated_entry": true,
     "same_entry_record_ids": [
       648
@@ -3263,7 +3281,8 @@
     "group": 5,
     "number": 30,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-05.html",
-    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d"
+    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d",
+    "editorial_correction": "Make the adjective use explicit, distinct from adverbial nearby."
   },
   {
     "serial": 63,
@@ -3362,7 +3381,7 @@
     "serial": 333,
     "en": "excited",
     "pos": "Adjective",
-    "mean_he": "להתרגש",
+    "mean_he": "נרגש; מתרגש",
     "synonyms": [],
     "ex_en": "We naturally got excited too.",
     "ex_he": "גם כמובן שהתרגשנו.",
@@ -3373,7 +3392,7 @@
       }
     ],
     "record_sense_en": "",
-    "record_sense_he": "להתרגש",
+    "record_sense_he": "נרגש; מתרגש",
     "repeated_entry": false,
     "same_entry_record_ids": [],
     "sense_evidence": "Hebrew gloss and example; no explicit source definition",
@@ -3382,7 +3401,8 @@
     "group": 5,
     "number": 35,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-05.html",
-    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d"
+    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d",
+    "editorial_correction": "Match the source part of speech: adjective, not infinitive."
   },
   {
     "serial": 672,
@@ -3409,13 +3429,13 @@
     "serial": 519,
     "en": "involve",
     "pos": "Verb",
-    "mean_he": "לערב",
+    "mean_he": "לכלול; להיות כרוך ב־; לערב",
     "synonyms": [],
     "ex_en": "What exactly does it involve?",
     "ex_he": "בדיוק במה זה כרוך?",
     "family_members": [],
     "record_sense_en": "",
-    "record_sense_he": "לערב",
+    "record_sense_he": "לכלול; להיות כרוך ב־; לערב",
     "repeated_entry": false,
     "same_entry_record_ids": [],
     "sense_evidence": "Hebrew gloss and example; no explicit source definition",
@@ -3424,7 +3444,8 @@
     "group": 5,
     "number": 37,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-05.html",
-    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d"
+    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d",
+    "editorial_correction": "Include the sense demonstrated by What does it involve?"
   },
   {
     "serial": 473,
@@ -3528,13 +3549,13 @@
     "serial": 675,
     "en": "on fire",
     "pos": "Phrase",
-    "mean_he": "על האש",
+    "mean_he": "עולה באש",
     "synonyms": [],
     "ex_en": "The kitchen is on fire.",
     "ex_he": "המטבח עולה באש.",
     "family_members": [],
     "record_sense_en": "",
-    "record_sense_he": "על האש",
+    "record_sense_he": "עולה באש",
     "repeated_entry": false,
     "same_entry_record_ids": [],
     "sense_evidence": "Hebrew gloss and example; no explicit source definition",
@@ -3543,7 +3564,8 @@
     "group": 5,
     "number": 42,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-05.html",
-    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d"
+    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d",
+    "editorial_correction": "On fire describes burning, not cooking on a grill."
   },
   {
     "serial": 659,
@@ -3593,15 +3615,15 @@
     "serial": 557,
     "en": "leave",
     "pos": "Verb",
-    "mean_he": "לעזוב",
+    "mean_he": "לעזוב בן או בת זוג",
     "synonyms": [
       "end relationship"
     ],
-    "ex_en": "I never want to leave this place.",
-    "ex_he": "אני אף פעם לא רוצה לעזוב את המקום הזה.",
+    "ex_en": "He promises never to leave his wife.",
+    "ex_he": "הוא מבטיח לעולם לא לעזוב את אשתו.",
     "family_members": [],
     "record_sense_en": "end relationship",
-    "record_sense_he": "לעזוב",
+    "record_sense_he": "לעזוב בן או בת זוג",
     "repeated_entry": true,
     "same_entry_record_ids": [
       558,
@@ -3613,7 +3635,8 @@
     "group": 5,
     "number": 45,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-05.html",
-    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d"
+    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d",
+    "editorial_correction": "The source explicitly restricts this record to end relationship; the original place-departure example conflicts with that sense."
   },
   {
     "serial": 405,
@@ -3733,8 +3756,8 @@
     "pos": "Noun",
     "mean_he": "צעירים",
     "synonyms": [],
-    "ex_en": "The young man is a doctor too.",
-    "ex_he": "גם הבחור הצעיר הוא רופא.",
+    "ex_en": "The young need time to learn.",
+    "ex_he": "הצעירים זקוקים לזמן כדי ללמוד.",
     "family_members": [],
     "record_sense_en": "",
     "record_sense_he": "צעירים",
@@ -3746,7 +3769,8 @@
     "group": 5,
     "number": 51,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-05.html",
-    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d"
+    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d",
+    "editorial_correction": "Demonstrate the collective noun the young, not the adjective in young man."
   },
   {
     "serial": 645,
@@ -3794,15 +3818,15 @@
     "serial": 900,
     "en": "star",
     "pos": "Noun",
-    "mean_he": "כוכב",
+    "mean_he": "כוכב בתחום הבידור",
     "synonyms": [
       "performer"
     ],
-    "ex_en": "My sister made me a star.",
-    "ex_he": "אחותי עשתה ממני כוכב.",
+    "ex_en": "She is a star on television.",
+    "ex_he": "היא כוכבת בטלוויזיה.",
     "family_members": [],
     "record_sense_en": "performer",
-    "record_sense_he": "כוכב",
+    "record_sense_he": "כוכב בתחום הבידור",
     "repeated_entry": true,
     "same_entry_record_ids": [
       901
@@ -3813,7 +3837,8 @@
     "group": 5,
     "number": 54,
     "source_url": "https://englishfornoar.co.il/band-ii/groups/group-05.html",
-    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d"
+    "source_sha256": "2140c2c7ad4d8c4c0a5516f22f44f303a6e027f69ec3cfeac8ec4fcf4efb818d",
+    "editorial_correction": "Make the source's performer sense explicit rather than the astronomical or shape sense."
   },
   {
     "serial": 224,

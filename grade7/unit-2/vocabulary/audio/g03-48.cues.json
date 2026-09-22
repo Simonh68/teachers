@@ -1,0 +1,51 @@
+{
+  "text": "thanks. We offer our thanks to the teacher.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "b3a2a70cda83053459a7f0a773132b065ffb295e1019f882e85927ac61a61ef8",
+  "sha256": "d66fbdace185f9ed10dd5d750d2ddce453e43ae9eebd7ebff2245c987a4fb158",
+  "words": [
+    {
+      "word": "thanks.",
+      "start": 0.0875,
+      "end": 0.5125
+    },
+    {
+      "word": "We",
+      "start": 0.9,
+      "end": 1.025
+    },
+    {
+      "word": "offer",
+      "start": 1.0375,
+      "end": 1.4375
+    },
+    {
+      "word": "our",
+      "start": 1.45,
+      "end": 1.5875
+    },
+    {
+      "word": "thanks",
+      "start": 1.6,
+      "end": 2.0
+    },
+    {
+      "word": "to",
+      "start": 2.0125,
+      "end": 2.125
+    },
+    {
+      "word": "the",
+      "start": 2.1375,
+      "end": 2.2375
+    },
+    {
+      "word": "teacher.",
+      "start": 2.25,
+      "end": 2.8
+    }
+  ],
+  "bytes": 19008
+}

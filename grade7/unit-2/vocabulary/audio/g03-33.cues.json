@@ -1,0 +1,51 @@
+{
+  "text": "convince. It is my job to convince you.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "fdd5033ca255676984c4a85a198d3ba1635b07a6bca386a60d0352ebdd080acb",
+  "sha256": "5b9357c048c6795f9df10836a09821285d977674a2bedb762055f8502ae56bf2",
+  "words": [
+    {
+      "word": "convince.",
+      "start": 0.05,
+      "end": 0.75
+    },
+    {
+      "word": "It",
+      "start": 1.1125,
+      "end": 1.2375
+    },
+    {
+      "word": "is",
+      "start": 1.25,
+      "end": 1.3875
+    },
+    {
+      "word": "my",
+      "start": 1.4,
+      "end": 1.5875
+    },
+    {
+      "word": "job",
+      "start": 1.6,
+      "end": 2.0125
+    },
+    {
+      "word": "to",
+      "start": 2.025,
+      "end": 2.15
+    },
+    {
+      "word": "convince",
+      "start": 2.1625,
+      "end": 2.625
+    },
+    {
+      "word": "you.",
+      "start": 2.6375,
+      "end": 2.9125
+    }
+  ],
+  "bytes": 19728
+}

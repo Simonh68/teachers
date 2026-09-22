@@ -1,0 +1,61 @@
+{
+  "text": "belief. I have a firm belief in his innocence too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "7774cfb10c85aad143422b19e1ef402547eddb01497403d0fb89c4280daa1b16",
+  "sha256": "2b211e722c2d0d61654efd76c129ef2470e5b9e52b66023ef35a2f85c8318272",
+  "words": [
+    {
+      "word": "belief.",
+      "start": 0.075,
+      "end": 0.575
+    },
+    {
+      "word": "I",
+      "start": 0.95,
+      "end": 1.025
+    },
+    {
+      "word": "have",
+      "start": 1.0375,
+      "end": 1.2
+    },
+    {
+      "word": "a",
+      "start": 1.2125,
+      "end": 1.2875
+    },
+    {
+      "word": "firm",
+      "start": 1.3,
+      "end": 1.675
+    },
+    {
+      "word": "belief",
+      "start": 1.6875,
+      "end": 2.1625
+    },
+    {
+      "word": "in",
+      "start": 2.1875,
+      "end": 2.3125
+    },
+    {
+      "word": "his",
+      "start": 2.325,
+      "end": 2.5125
+    },
+    {
+      "word": "innocence",
+      "start": 2.525,
+      "end": 3.0625
+    },
+    {
+      "word": "too.",
+      "start": 3.075,
+      "end": 3.425
+    }
+  ],
+  "bytes": 22752
+}

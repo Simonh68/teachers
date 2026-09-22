@@ -1,0 +1,41 @@
+{
+  "text": "teaspoon. Add one teaspoon of sugar.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "cb0aac85e0243bc3018d4674155894b42e98f33d0cacdd9a7aa256bee57dab44",
+  "sha256": "d34c1eb51dfcafddadf96bd9138a83449b208c00e356dadd1d93e297cad11c14",
+  "words": [
+    {
+      "word": "teaspoon.",
+      "start": 0.05,
+      "end": 0.65
+    },
+    {
+      "word": "Add",
+      "start": 1.05,
+      "end": 1.2625
+    },
+    {
+      "word": "one",
+      "start": 1.275,
+      "end": 1.5625
+    },
+    {
+      "word": "teaspoon",
+      "start": 1.575,
+      "end": 2.0875
+    },
+    {
+      "word": "of",
+      "start": 2.1,
+      "end": 2.175
+    },
+    {
+      "word": "sugar.",
+      "start": 2.1875,
+      "end": 2.7125
+    }
+  ],
+  "bytes": 18576
+}

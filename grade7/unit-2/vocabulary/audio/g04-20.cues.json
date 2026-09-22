@@ -1,0 +1,31 @@
+{
+  "text": "press. Press this button.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "3ff17a6730daf43a1463b817788ea7fb62120346b30fffb2428112b5f51421da",
+  "sha256": "6e444c4704666c9a3cae0a5ce799dec184c12e97183cafea986392ea034ecf1d",
+  "words": [
+    {
+      "word": "press.",
+      "start": 0.0625,
+      "end": 0.425
+    },
+    {
+      "word": "Press",
+      "start": 0.8,
+      "end": 1.0875
+    },
+    {
+      "word": "this",
+      "start": 1.1,
+      "end": 1.3
+    },
+    {
+      "word": "button.",
+      "start": 1.3125,
+      "end": 1.7875
+    }
+  ],
+  "bytes": 12960
+}

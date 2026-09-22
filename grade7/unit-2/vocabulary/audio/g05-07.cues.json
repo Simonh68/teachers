@@ -1,0 +1,46 @@
+{
+  "text": "hero. The students consider him a hero.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "d4d0786a21b2a73815e1f835a315a3fbd0548d8577b3799d2df826780ed4587c",
+  "sha256": "f8b0acfaeae25a8fc0587b616881a62d872b10103c3808cc2aaa812735d0e643",
+  "words": [
+    {
+      "word": "hero.",
+      "start": 0.0625,
+      "end": 0.4375
+    },
+    {
+      "word": "The",
+      "start": 0.825,
+      "end": 0.8875
+    },
+    {
+      "word": "students",
+      "start": 0.9,
+      "end": 1.45
+    },
+    {
+      "word": "consider",
+      "start": 1.4625,
+      "end": 1.9125
+    },
+    {
+      "word": "him",
+      "start": 1.925,
+      "end": 2.1875
+    },
+    {
+      "word": "a",
+      "start": 2.2125,
+      "end": 2.275
+    },
+    {
+      "word": "hero.",
+      "start": 2.2875,
+      "end": 2.8375
+    }
+  ],
+  "bytes": 19296
+}

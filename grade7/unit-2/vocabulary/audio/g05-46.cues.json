@@ -1,0 +1,56 @@
+{
+  "text": "give something back. Please give the book back tomorrow.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "87af8093743823af9a7f7adedd7f347dce864542550d4d72f1a56e3a4fd7226b",
+  "sha256": "193669103236d37f9affc2168088839b416be6b3f7d3d79db0abffe1347c2634",
+  "words": [
+    {
+      "word": "give",
+      "start": 0.0875,
+      "end": 0.275
+    },
+    {
+      "word": "something",
+      "start": 0.2875,
+      "end": 0.7
+    },
+    {
+      "word": "back.",
+      "start": 0.7125,
+      "end": 1.175
+    },
+    {
+      "word": "Please",
+      "start": 1.55,
+      "end": 1.825
+    },
+    {
+      "word": "give",
+      "start": 1.8375,
+      "end": 2.0625
+    },
+    {
+      "word": "the",
+      "start": 2.075,
+      "end": 2.1875
+    },
+    {
+      "word": "book",
+      "start": 2.2,
+      "end": 2.45
+    },
+    {
+      "word": "back",
+      "start": 2.4625,
+      "end": 2.7
+    },
+    {
+      "word": "tomorrow.",
+      "start": 2.7125,
+      "end": 3.2875
+    }
+  ],
+  "bytes": 22032
+}

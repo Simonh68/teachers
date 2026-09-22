@@ -1,0 +1,46 @@
+{
+  "text": "blanket. Can I please get a blanket?",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "ecdb9d4839f62f824000b2974f58253428fab7a0bfd75fcef8f8f984030bf7da",
+  "sha256": "3cd02c75aa35a091d09127ac3e4d46e9e943e064c296647ee70bd418ea67005e",
+  "words": [
+    {
+      "word": "blanket.",
+      "start": 0.075,
+      "end": 0.6375
+    },
+    {
+      "word": "Can",
+      "start": 1.025,
+      "end": 1.15
+    },
+    {
+      "word": "I",
+      "start": 1.1625,
+      "end": 1.2625
+    },
+    {
+      "word": "please",
+      "start": 1.275,
+      "end": 1.6125
+    },
+    {
+      "word": "get",
+      "start": 1.625,
+      "end": 1.8125
+    },
+    {
+      "word": "a",
+      "start": 1.825,
+      "end": 1.9
+    },
+    {
+      "word": "blanket?",
+      "start": 1.9125,
+      "end": 2.5125
+    }
+  ],
+  "bytes": 17280
+}

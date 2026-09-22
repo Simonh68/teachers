@@ -1,0 +1,41 @@
+{
+  "text": "gather. We need to gather information.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "bef57f0f6c2202ba0fb76a9d1e4211d531c8b012f9190cfc7d9ec852fa586e3c",
+  "sha256": "0e9f3f955b1bbaa8a2eb8558355db2173f8c313fa761e7245519ebc34db32fa7",
+  "words": [
+    {
+      "word": "gather.",
+      "start": 0.0625,
+      "end": 0.5125
+    },
+    {
+      "word": "We",
+      "start": 0.9,
+      "end": 0.9875
+    },
+    {
+      "word": "need",
+      "start": 1.0,
+      "end": 1.25
+    },
+    {
+      "word": "to",
+      "start": 1.2625,
+      "end": 1.3875
+    },
+    {
+      "word": "gather",
+      "start": 1.4,
+      "end": 1.775
+    },
+    {
+      "word": "information.",
+      "start": 1.7875,
+      "end": 2.575
+    }
+  ],
+  "bytes": 17712
+}

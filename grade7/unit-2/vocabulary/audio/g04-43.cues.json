@@ -1,0 +1,61 @@
+{
+  "text": "be made of. Our classroom table is made of wood.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "00fd792dfa34a64e14c7ae62b37d6098abfbc6c6708a4fe4a2e564c5eb0d7f87",
+  "sha256": "2cc17a7b6d20cfdfeacef088880a1e014486d1b72e8c75bdcb569f6a9e4d2fe8",
+  "words": [
+    {
+      "word": "be",
+      "start": 0.075,
+      "end": 0.2
+    },
+    {
+      "word": "made",
+      "start": 0.2125,
+      "end": 0.48750000000000004
+    },
+    {
+      "word": "of.",
+      "start": 0.5,
+      "end": 0.8125
+    },
+    {
+      "word": "Our",
+      "start": 1.175,
+      "end": 1.3
+    },
+    {
+      "word": "classroom",
+      "start": 1.3125,
+      "end": 1.825
+    },
+    {
+      "word": "table",
+      "start": 1.8375,
+      "end": 2.3125
+    },
+    {
+      "word": "is",
+      "start": 2.3375,
+      "end": 2.5375
+    },
+    {
+      "word": "made",
+      "start": 2.55,
+      "end": 2.7875
+    },
+    {
+      "word": "of",
+      "start": 2.8,
+      "end": 2.9375
+    },
+    {
+      "word": "wood.",
+      "start": 2.95,
+      "end": 3.3375
+    }
+  ],
+  "bytes": 22320
+}

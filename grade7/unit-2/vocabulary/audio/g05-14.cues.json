@@ -1,0 +1,71 @@
+{
+  "text": "get to know somebody. I hope to get to know my classmates.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "dc228dfb5fe70c5573b761a8f318d1fc63af4b2a2b9d8a685a6fd8b704413d7c",
+  "sha256": "78397515364762fd4390b0b5c014967df120bf07bb9d4d3a9b48f4597d0166db",
+  "words": [
+    {
+      "word": "get",
+      "start": 0.0875,
+      "end": 0.2375
+    },
+    {
+      "word": "to",
+      "start": 0.25,
+      "end": 0.35
+    },
+    {
+      "word": "know",
+      "start": 0.3625,
+      "end": 0.5875
+    },
+    {
+      "word": "somebody.",
+      "start": 0.6,
+      "end": 1.225
+    },
+    {
+      "word": "I",
+      "start": 1.5875,
+      "end": 1.65
+    },
+    {
+      "word": "hope",
+      "start": 1.6625,
+      "end": 1.9125
+    },
+    {
+      "word": "to",
+      "start": 1.925,
+      "end": 2.0125
+    },
+    {
+      "word": "get",
+      "start": 2.025,
+      "end": 2.2
+    },
+    {
+      "word": "to",
+      "start": 2.2125,
+      "end": 2.3
+    },
+    {
+      "word": "know",
+      "start": 2.3125,
+      "end": 2.4875
+    },
+    {
+      "word": "my",
+      "start": 2.5,
+      "end": 2.65
+    },
+    {
+      "word": "classmates.",
+      "start": 2.6625,
+      "end": 3.4625
+    }
+  ],
+  "bytes": 23040
+}

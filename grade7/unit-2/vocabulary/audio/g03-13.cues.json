@@ -1,0 +1,61 @@
+{
+  "text": "refer to something. I refer to the dictionary during class.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "6c8096160d0581347396cfb572df32f9ee770e5d42614c5d4808b64a8b9a103f",
+  "sha256": "fdf4a7b4a9c1ea06f917ce2c5619d65d37dbed4fe86f4d0370ffcddcf46e968e",
+  "words": [
+    {
+      "word": "refer",
+      "start": 0.075,
+      "end": 0.4875
+    },
+    {
+      "word": "to",
+      "start": 0.5,
+      "end": 0.625
+    },
+    {
+      "word": "something.",
+      "start": 0.6375,
+      "end": 1.225
+    },
+    {
+      "word": "I",
+      "start": 1.625,
+      "end": 1.7125
+    },
+    {
+      "word": "refer",
+      "start": 1.725,
+      "end": 2.175
+    },
+    {
+      "word": "to",
+      "start": 2.1875,
+      "end": 2.325
+    },
+    {
+      "word": "the",
+      "start": 2.3375,
+      "end": 2.4625
+    },
+    {
+      "word": "dictionary",
+      "start": 2.475,
+      "end": 3.025
+    },
+    {
+      "word": "during",
+      "start": 3.0375,
+      "end": 3.2875
+    },
+    {
+      "word": "class.",
+      "start": 3.3,
+      "end": 3.85
+    }
+  ],
+  "bytes": 25344
+}

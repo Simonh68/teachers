@@ -1,0 +1,51 @@
+{
+  "text": "for sale. His house is for sale too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "38f775ea4462ccdcfdce6411ea832af00d6c47119fba8c0fbd487eceed034786",
+  "sha256": "1d5971ed54cc31d54dafb9ad308650152f98fa0fc6e0e7e061ca9678a269c923",
+  "words": [
+    {
+      "word": "for",
+      "start": 0.0875,
+      "end": 0.2125
+    },
+    {
+      "word": "sale.",
+      "start": 0.225,
+      "end": 0.6625
+    },
+    {
+      "word": "His",
+      "start": 1.05,
+      "end": 1.1625
+    },
+    {
+      "word": "house",
+      "start": 1.175,
+      "end": 1.5375
+    },
+    {
+      "word": "is",
+      "start": 1.55,
+      "end": 1.7375
+    },
+    {
+      "word": "for",
+      "start": 1.75,
+      "end": 1.9125
+    },
+    {
+      "word": "sale",
+      "start": 1.925,
+      "end": 2.25
+    },
+    {
+      "word": "too.",
+      "start": 2.2625,
+      "end": 2.6375
+    }
+  ],
+  "bytes": 18144
+}

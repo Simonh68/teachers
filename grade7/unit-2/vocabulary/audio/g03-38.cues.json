@@ -1,0 +1,51 @@
+{
+  "text": "cannot stand something. I cannot stand this noise.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "6ff97a0e96b2da1e7c66a435f94e1daea93b3e7f4497befd82aba5007c96a09f",
+  "sha256": "1eeacbac13d9d30b37f43826be4e761240e72d139d79595083acba240ee2ff9e",
+  "words": [
+    {
+      "word": "cannot",
+      "start": 0.05,
+      "end": 0.38750000000000007
+    },
+    {
+      "word": "stand",
+      "start": 0.4,
+      "end": 0.7875
+    },
+    {
+      "word": "something.",
+      "start": 0.8,
+      "end": 1.3375
+    },
+    {
+      "word": "I",
+      "start": 1.7,
+      "end": 1.7625
+    },
+    {
+      "word": "cannot",
+      "start": 1.775,
+      "end": 2.0875
+    },
+    {
+      "word": "stand",
+      "start": 2.1,
+      "end": 2.5125
+    },
+    {
+      "word": "this",
+      "start": 2.525,
+      "end": 2.7125
+    },
+    {
+      "word": "noise.",
+      "start": 2.725,
+      "end": 3.2375
+    }
+  ],
+  "bytes": 21600
+}

@@ -1,0 +1,51 @@
+{
+  "text": "largely. Our success was largely due to luck.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "86c41a10976676bff0a747aa90aaa692c53efd1f247acaf4f108e496ec3da83e",
+  "sha256": "c3905ad69a5084b783a508dc887e153a4f265abf62c9319e27ff3817f7104aa6",
+  "words": [
+    {
+      "word": "largely.",
+      "start": 0.05,
+      "end": 0.6374999999999998
+    },
+    {
+      "word": "Our",
+      "start": 1.0125,
+      "end": 1.1375
+    },
+    {
+      "word": "success",
+      "start": 1.15,
+      "end": 1.6875
+    },
+    {
+      "word": "was",
+      "start": 1.7,
+      "end": 1.95
+    },
+    {
+      "word": "largely",
+      "start": 1.9625,
+      "end": 2.4625
+    },
+    {
+      "word": "due",
+      "start": 2.475,
+      "end": 2.6625
+    },
+    {
+      "word": "to",
+      "start": 2.675,
+      "end": 2.8
+    },
+    {
+      "word": "luck.",
+      "start": 2.8125,
+      "end": 3.325
+    }
+  ],
+  "bytes": 22176
+}

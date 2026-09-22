@@ -1,0 +1,51 @@
+{
+  "text": "direct. The guide directed us to the entrance.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "7f74dde7ec90eff8112b0e7a1271dbbde15da38ba14ebd942103f089d9dc5a11",
+  "sha256": "b4cc06984b4bc0fcddb2481d51f961bbb82b8e6b5553d14865ed7be67e56363c",
+  "words": [
+    {
+      "word": "direct.",
+      "start": 0.075,
+      "end": 0.625
+    },
+    {
+      "word": "The",
+      "start": 1.0125,
+      "end": 1.0875
+    },
+    {
+      "word": "guide",
+      "start": 1.1,
+      "end": 1.5375
+    },
+    {
+      "word": "directed",
+      "start": 1.55,
+      "end": 2.0375
+    },
+    {
+      "word": "us",
+      "start": 2.05,
+      "end": 2.275
+    },
+    {
+      "word": "to",
+      "start": 2.2875,
+      "end": 2.425
+    },
+    {
+      "word": "the",
+      "start": 2.4375,
+      "end": 2.5125
+    },
+    {
+      "word": "entrance.",
+      "start": 2.525,
+      "end": 3.2125
+    }
+  ],
+  "bytes": 21456
+}

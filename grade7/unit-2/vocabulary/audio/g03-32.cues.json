@@ -1,0 +1,46 @@
+{
+  "text": "bridge. There was a bridge there too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "1d0947c6206eb3d7194189beb722bce46d7aca5539976426503f5af50baf47ef",
+  "sha256": "d703c0575adad0cc65aaf4990df4efc5f48ac10aa4cfd34913cb67f979cda323",
+  "words": [
+    {
+      "word": "bridge.",
+      "start": 0.075,
+      "end": 0.48749999999999993
+    },
+    {
+      "word": "There",
+      "start": 0.875,
+      "end": 0.9625
+    },
+    {
+      "word": "was",
+      "start": 0.975,
+      "end": 1.125
+    },
+    {
+      "word": "a",
+      "start": 1.1375,
+      "end": 1.225
+    },
+    {
+      "word": "bridge",
+      "start": 1.2375,
+      "end": 1.6125
+    },
+    {
+      "word": "there",
+      "start": 1.625,
+      "end": 1.8125
+    },
+    {
+      "word": "too.",
+      "start": 1.825,
+      "end": 2.2125
+    }
+  ],
+  "bytes": 15552
+}

@@ -1,0 +1,51 @@
+{
+  "text": "leave. He promises never to leave his wife.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "c473ca4df4f5598bd0b23a6191a102702290c82e8774d3a1cfb569159ba7314c",
+  "sha256": "338c2a2ea273217ea95ca7133fb97566c049d7f7b270283961f001404bf8efdf",
+  "words": [
+    {
+      "word": "leave.",
+      "start": 0.05,
+      "end": 0.4
+    },
+    {
+      "word": "He",
+      "start": 0.7875,
+      "end": 0.8625
+    },
+    {
+      "word": "promises",
+      "start": 0.875,
+      "end": 1.5
+    },
+    {
+      "word": "never",
+      "start": 1.5125,
+      "end": 1.8375
+    },
+    {
+      "word": "to",
+      "start": 1.85,
+      "end": 1.9875
+    },
+    {
+      "word": "leave",
+      "start": 2.0,
+      "end": 2.25
+    },
+    {
+      "word": "his",
+      "start": 2.2625,
+      "end": 2.45
+    },
+    {
+      "word": "wife.",
+      "start": 2.4625,
+      "end": 2.9625
+    }
+  ],
+  "bytes": 20016
+}

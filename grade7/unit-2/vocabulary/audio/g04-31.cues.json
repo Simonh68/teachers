@@ -1,0 +1,46 @@
+{
+  "text": "case. Put the glasses in their case.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "e5f6d905b4bdad464306d7753d934212b3601e775aa5a043af0f126e49540f5b",
+  "sha256": "790ac19b5eb083a33f7cf9e340ad0e8bb0ed91027524fbea5c220d2861d5cf99",
+  "words": [
+    {
+      "word": "case.",
+      "start": 0.05,
+      "end": 0.4
+    },
+    {
+      "word": "Put",
+      "start": 0.8,
+      "end": 1.0
+    },
+    {
+      "word": "the",
+      "start": 1.0125,
+      "end": 1.1
+    },
+    {
+      "word": "glasses",
+      "start": 1.1125,
+      "end": 1.7125
+    },
+    {
+      "word": "in",
+      "start": 1.725,
+      "end": 1.875
+    },
+    {
+      "word": "their",
+      "start": 1.8875,
+      "end": 2.0625
+    },
+    {
+      "word": "case.",
+      "start": 2.075,
+      "end": 2.575
+    }
+  ],
+  "bytes": 17712
+}

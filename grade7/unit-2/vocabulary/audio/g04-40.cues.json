@@ -1,0 +1,51 @@
+{
+  "text": "teaching. My friends and I learn by teaching.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "fb12819e52f1ae6df4a77b48a02979deba0622254c2bce34a2c29e0f581b2a9f",
+  "sha256": "d3c57f9af80748435b5294e5d593d863dc70a45375da0f265a0b25a4a2ebec97",
+  "words": [
+    {
+      "word": "teaching.",
+      "start": 0.0625,
+      "end": 0.5625
+    },
+    {
+      "word": "My",
+      "start": 0.95,
+      "end": 1.075
+    },
+    {
+      "word": "friends",
+      "start": 1.0875,
+      "end": 1.6125
+    },
+    {
+      "word": "and",
+      "start": 1.625,
+      "end": 1.7625
+    },
+    {
+      "word": "I",
+      "start": 1.775,
+      "end": 1.875
+    },
+    {
+      "word": "learn",
+      "start": 1.8875,
+      "end": 2.1875
+    },
+    {
+      "word": "by",
+      "start": 2.2,
+      "end": 2.35
+    },
+    {
+      "word": "teaching.",
+      "start": 2.3625,
+      "end": 2.95
+    }
+  ],
+  "bytes": 20016
+}

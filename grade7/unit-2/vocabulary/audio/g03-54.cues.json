@@ -1,0 +1,46 @@
+{
+  "text": "sex. The form asks for your sex.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "a01e7a9f13bb6984dbf17cc5b3150c4b97b989a8e07f372fffe84aa3bee67555",
+  "sha256": "883be07c3b2693506fe3f30abf6b792dd244220fb1fb6d161dfc4a8c2ebaeb20",
+  "words": [
+    {
+      "word": "sex.",
+      "start": 0.05,
+      "end": 0.5
+    },
+    {
+      "word": "The",
+      "start": 0.8875,
+      "end": 0.9625
+    },
+    {
+      "word": "form",
+      "start": 0.975,
+      "end": 1.3375
+    },
+    {
+      "word": "asks",
+      "start": 1.35,
+      "end": 1.775
+    },
+    {
+      "word": "for",
+      "start": 1.7875,
+      "end": 1.9125
+    },
+    {
+      "word": "your",
+      "start": 1.925,
+      "end": 2.0625
+    },
+    {
+      "word": "sex.",
+      "start": 2.075,
+      "end": 2.6
+    }
+  ],
+  "bytes": 17856
+}

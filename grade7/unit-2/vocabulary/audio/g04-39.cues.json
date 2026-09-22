@@ -1,0 +1,66 @@
+{
+  "text": "be located near something. The hotel is located near the beach.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "9de938a8eb0ec3d75b6f2ad52059a03aedbb0af70f9f0453e82977941b1d2f9a",
+  "sha256": "9ea4ec526ae82d3c825333e2a4ed11f94df47467459e67e9e79db9cf158a61b6",
+  "words": [
+    {
+      "word": "be",
+      "start": 0.075,
+      "end": 0.2
+    },
+    {
+      "word": "located",
+      "start": 0.2125,
+      "end": 0.8375
+    },
+    {
+      "word": "near",
+      "start": 0.85,
+      "end": 1.1
+    },
+    {
+      "word": "something.",
+      "start": 1.1125,
+      "end": 1.675
+    },
+    {
+      "word": "The",
+      "start": 2.075,
+      "end": 2.125
+    },
+    {
+      "word": "hotel",
+      "start": 2.1375,
+      "end": 2.6625
+    },
+    {
+      "word": "is",
+      "start": 2.675,
+      "end": 2.875
+    },
+    {
+      "word": "located",
+      "start": 2.8875,
+      "end": 3.4875
+    },
+    {
+      "word": "near",
+      "start": 3.5,
+      "end": 3.7375
+    },
+    {
+      "word": "the",
+      "start": 3.75,
+      "end": 3.85
+    },
+    {
+      "word": "beach.",
+      "start": 3.8625,
+      "end": 4.35
+    }
+  ],
+  "bytes": 28368
+}

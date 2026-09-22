@@ -1,0 +1,36 @@
+{
+  "text": "rock. I like rock music.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "4a5815b3e3e409804fce8cf3df17a6ac48701a23136ac1260838ada93cd8ecb2",
+  "sha256": "26dfd71dbe948926f7534b5920d4e850c6c090c12c4c72513a59c03dfda56da2",
+  "words": [
+    {
+      "word": "rock.",
+      "start": 0.0625,
+      "end": 0.3625
+    },
+    {
+      "word": "I",
+      "start": 0.7375,
+      "end": 0.8
+    },
+    {
+      "word": "like",
+      "start": 0.8125,
+      "end": 1.05
+    },
+    {
+      "word": "rock",
+      "start": 1.0625,
+      "end": 1.375
+    },
+    {
+      "word": "music.",
+      "start": 1.3875,
+      "end": 1.9875
+    }
+  ],
+  "bytes": 14112
+}

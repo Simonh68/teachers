@@ -1,0 +1,61 @@
+{
+  "text": "watch out. Watch out! There is a small hole there.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "e8f32e0e18c9c5e13d58473552b78ca42cd736e431ddca8105f67f6c62b759cd",
+  "sha256": "8801981f3951442cacfff5dedab8c88d350e7fbd36cb85101310199ee63ef0fb",
+  "words": [
+    {
+      "word": "watch",
+      "start": 0.0875,
+      "end": 0.35
+    },
+    {
+      "word": "out.",
+      "start": 0.3625,
+      "end": 0.6625
+    },
+    {
+      "word": "Watch",
+      "start": 1.0625,
+      "end": 1.3375
+    },
+    {
+      "word": "out!",
+      "start": 1.35,
+      "end": 1.65
+    },
+    {
+      "word": "There",
+      "start": 2.0375,
+      "end": 2.175
+    },
+    {
+      "word": "is",
+      "start": 2.1875,
+      "end": 2.3
+    },
+    {
+      "word": "a",
+      "start": 2.3125,
+      "end": 2.375
+    },
+    {
+      "word": "small",
+      "start": 2.3875,
+      "end": 2.7625
+    },
+    {
+      "word": "hole",
+      "start": 2.775,
+      "end": 3.05
+    },
+    {
+      "word": "there.",
+      "start": 3.0625,
+      "end": 3.4375
+    }
+  ],
+  "bytes": 22896
+}

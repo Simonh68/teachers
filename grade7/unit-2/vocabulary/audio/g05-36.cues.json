@@ -1,0 +1,41 @@
+{
+  "text": "oh. Oh, I forgot my book!",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "c651997483fcfcf16f3a1876233963fdd0423d451786320b5687d782e29314da",
+  "sha256": "f12c03b9688ba4499457e01706f5fb7b2bb2270d15bc55fe91f22cbbc7ad6020",
+  "words": [
+    {
+      "word": "oh.",
+      "start": 0.05,
+      "end": 0.21249999999999997
+    },
+    {
+      "word": "Oh,",
+      "start": 0.6125,
+      "end": 0.9
+    },
+    {
+      "word": "I",
+      "start": 0.9125,
+      "end": 1.025
+    },
+    {
+      "word": "forgot",
+      "start": 1.0375,
+      "end": 1.35
+    },
+    {
+      "word": "my",
+      "start": 1.3625,
+      "end": 1.4875
+    },
+    {
+      "word": "book!",
+      "start": 1.5,
+      "end": 1.9
+    }
+  ],
+  "bytes": 13680
+}

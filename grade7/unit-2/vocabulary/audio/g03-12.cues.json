@@ -1,0 +1,56 @@
+{
+  "text": "put somebody up. We can put you up tonight.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "f41496c1f76cc9954d9473e99bab32bfb9417ffe16f9181cdc378cd3c35e0c17",
+  "sha256": "1431d4fcdf9ddb658dab814b7a0c46617c5cd6f44e27ea7c735b4455f9c471e0",
+  "words": [
+    {
+      "word": "put",
+      "start": 0.075,
+      "end": 0.2375
+    },
+    {
+      "word": "somebody",
+      "start": 0.25,
+      "end": 0.725
+    },
+    {
+      "word": "up.",
+      "start": 0.7375,
+      "end": 1.0625
+    },
+    {
+      "word": "We",
+      "start": 1.45,
+      "end": 1.525
+    },
+    {
+      "word": "can",
+      "start": 1.5375,
+      "end": 1.7
+    },
+    {
+      "word": "put",
+      "start": 1.7125,
+      "end": 1.9125
+    },
+    {
+      "word": "you",
+      "start": 1.925,
+      "end": 2.0875
+    },
+    {
+      "word": "up",
+      "start": 2.1,
+      "end": 2.25
+    },
+    {
+      "word": "tonight.",
+      "start": 2.2625,
+      "end": 2.7875
+    }
+  ],
+  "bytes": 19008
+}

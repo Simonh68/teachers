@@ -1,0 +1,51 @@
+{
+  "text": "record. Are you going to record tomorrow's episode?",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "1d62f4aebe61a353811ceb6e0e1b7985ccfb4e891ce4286a545a77eed6976e26",
+  "sha256": "5fae58dbbeaf659e837eb8c2b49f38135f253b0a46eaac118a22d7c8a76a9265",
+  "words": [
+    {
+      "word": "record.",
+      "start": 0.075,
+      "end": 0.5875
+    },
+    {
+      "word": "Are",
+      "start": 0.9625,
+      "end": 1.0625
+    },
+    {
+      "word": "you",
+      "start": 1.075,
+      "end": 1.1625
+    },
+    {
+      "word": "going",
+      "start": 1.175,
+      "end": 1.325
+    },
+    {
+      "word": "to",
+      "start": 1.3375,
+      "end": 1.4375
+    },
+    {
+      "word": "record",
+      "start": 1.45,
+      "end": 1.975
+    },
+    {
+      "word": "tomorrow's",
+      "start": 1.9875,
+      "end": 2.5125
+    },
+    {
+      "word": "episode?",
+      "start": 2.525,
+      "end": 3.15
+    }
+  ],
+  "bytes": 21168
+}

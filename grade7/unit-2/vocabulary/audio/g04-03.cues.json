@@ -1,0 +1,41 @@
+{
+  "text": "gold. Gold is a valuable metal.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "3dd1f1c4a17701f849a9bb5d281e85cb5704f82e1fe4e1a803ed1ab10cf245ed",
+  "sha256": "6fc43af12f02b837d51473a9188f53faf21067e1ee9ae08cce489dd23a733f10",
+  "words": [
+    {
+      "word": "gold.",
+      "start": 0.075,
+      "end": 0.45
+    },
+    {
+      "word": "Gold",
+      "start": 0.85,
+      "end": 1.2375
+    },
+    {
+      "word": "is",
+      "start": 1.2625,
+      "end": 1.45
+    },
+    {
+      "word": "a",
+      "start": 1.4625,
+      "end": 1.525
+    },
+    {
+      "word": "valuable",
+      "start": 1.5375,
+      "end": 2.075
+    },
+    {
+      "word": "metal.",
+      "start": 2.0875,
+      "end": 2.55
+    }
+  ],
+  "bytes": 17568
+}

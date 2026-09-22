@@ -1,0 +1,36 @@
+{
+  "text": "himself. He made it himself.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "bbf3bde50e8e94c1a2835267f466d4ef205e8dcc6a99888ee9a849ed8b350210",
+  "sha256": "2da91713c5f245f5543a852192ddd674b3c8d3fe7cf5c720037f345f20798d94",
+  "words": [
+    {
+      "word": "himself.",
+      "start": 0.075,
+      "end": 0.7125
+    },
+    {
+      "word": "He",
+      "start": 1.0875,
+      "end": 1.1875
+    },
+    {
+      "word": "made",
+      "start": 1.2,
+      "end": 1.45
+    },
+    {
+      "word": "it",
+      "start": 1.4625,
+      "end": 1.5625
+    },
+    {
+      "word": "himself.",
+      "start": 1.575,
+      "end": 2.3
+    }
+  ],
+  "bytes": 15984
+}

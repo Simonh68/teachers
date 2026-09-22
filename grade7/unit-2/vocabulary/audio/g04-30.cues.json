@@ -1,0 +1,41 @@
+{
+  "text": "ski. He bought a new ski.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "7ed2a29035a7bd4cc9018db24348d8a9d81fb24c39f78f5e2227761b34eee611",
+  "sha256": "41c77523d5346fa75ade0510e0fe819e3da3bc70955640db5bd3e9e63fa14da1",
+  "words": [
+    {
+      "word": "ski.",
+      "start": 0.05,
+      "end": 0.4125
+    },
+    {
+      "word": "He",
+      "start": 0.8,
+      "end": 0.875
+    },
+    {
+      "word": "bought",
+      "start": 0.8875,
+      "end": 1.15
+    },
+    {
+      "word": "a",
+      "start": 1.1625,
+      "end": 1.2125
+    },
+    {
+      "word": "new",
+      "start": 1.225,
+      "end": 1.4
+    },
+    {
+      "word": "ski.",
+      "start": 1.4125,
+      "end": 1.9
+    }
+  ],
+  "bytes": 13680
+}

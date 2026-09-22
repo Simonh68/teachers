@@ -1,0 +1,66 @@
+{
+  "text": "put somebody off. The bad smell put me off the food.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "c1afd43681fd3b80c669d98b7992b6e822cf73aaf68b992d9fc821a59bb40839",
+  "sha256": "7381e059e776aa93391a7dba9c7666eb497eeb6f0794c4d4865057a2754096c8",
+  "words": [
+    {
+      "word": "put",
+      "start": 0.075,
+      "end": 0.22500000000000003
+    },
+    {
+      "word": "somebody",
+      "start": 0.2375,
+      "end": 0.675
+    },
+    {
+      "word": "off.",
+      "start": 0.6875,
+      "end": 1.1125
+    },
+    {
+      "word": "The",
+      "start": 1.5,
+      "end": 1.575
+    },
+    {
+      "word": "bad",
+      "start": 1.5875,
+      "end": 1.825
+    },
+    {
+      "word": "smell",
+      "start": 1.8375,
+      "end": 2.2375
+    },
+    {
+      "word": "put",
+      "start": 2.25,
+      "end": 2.4375
+    },
+    {
+      "word": "me",
+      "start": 2.45,
+      "end": 2.5875
+    },
+    {
+      "word": "off",
+      "start": 2.6,
+      "end": 2.8
+    },
+    {
+      "word": "the",
+      "start": 2.8125,
+      "end": 2.9
+    },
+    {
+      "word": "food.",
+      "start": 2.9125,
+      "end": 3.375
+    }
+  ],
+  "bytes": 22464
+}

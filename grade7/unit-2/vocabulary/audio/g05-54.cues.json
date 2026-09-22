@@ -1,0 +1,46 @@
+{
+  "text": "star. She is a star on television.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "ad3a25d005e8066d2018ff15ab06c92c3ac0e838642ba13981a9d0f9fdd2cb13",
+  "sha256": "e32361e73f990efb50e07589876eec79ad855424b341c6a8d763016d19226bee",
+  "words": [
+    {
+      "word": "star.",
+      "start": 0.05,
+      "end": 0.475
+    },
+    {
+      "word": "She",
+      "start": 0.8375,
+      "end": 1.075
+    },
+    {
+      "word": "is",
+      "start": 1.0875,
+      "end": 1.225
+    },
+    {
+      "word": "a",
+      "start": 1.2375,
+      "end": 1.3
+    },
+    {
+      "word": "star",
+      "start": 1.3125,
+      "end": 1.775
+    },
+    {
+      "word": "on",
+      "start": 1.7875,
+      "end": 1.95
+    },
+    {
+      "word": "television.",
+      "start": 1.9625,
+      "end": 2.6625
+    }
+  ],
+  "bytes": 18144
+}

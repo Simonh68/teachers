@@ -1,0 +1,51 @@
+{
+  "text": "on business. I am here on business too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "a10f0be2657c26af94fb2bbc49a9862cf4b524890fb26f410817857e13f80686",
+  "sha256": "755f509f63fdf1428bdac78d0218f073f1eddf56fa5552a29212396b24ef4ed2",
+  "words": [
+    {
+      "word": "on",
+      "start": 0.0875,
+      "end": 0.2375
+    },
+    {
+      "word": "business.",
+      "start": 0.25,
+      "end": 0.8625
+    },
+    {
+      "word": "I",
+      "start": 1.2625,
+      "end": 1.3375
+    },
+    {
+      "word": "am",
+      "start": 1.35,
+      "end": 1.475
+    },
+    {
+      "word": "here",
+      "start": 1.4875,
+      "end": 1.7625
+    },
+    {
+      "word": "on",
+      "start": 1.775,
+      "end": 1.95
+    },
+    {
+      "word": "business",
+      "start": 1.9625,
+      "end": 2.375
+    },
+    {
+      "word": "too.",
+      "start": 2.3875,
+      "end": 2.75
+    }
+  ],
+  "bytes": 18720
+}

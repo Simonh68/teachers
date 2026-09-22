@@ -1,0 +1,46 @@
+{
+  "text": "check. Could we have the check, please?",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "0988ccf9cc6f959b300573c5c0a844e67b4c6712ec87fa50594ecbcb43dc40a4",
+  "sha256": "d574cdff15dfd3c74848fe11e49dd58f48e0356820e8e8bdae44e01840508cb7",
+  "words": [
+    {
+      "word": "check.",
+      "start": 0.05,
+      "end": 0.4
+    },
+    {
+      "word": "Could",
+      "start": 0.775,
+      "end": 0.9
+    },
+    {
+      "word": "we",
+      "start": 0.9125,
+      "end": 1.0125
+    },
+    {
+      "word": "have",
+      "start": 1.025,
+      "end": 1.225
+    },
+    {
+      "word": "the",
+      "start": 1.2375,
+      "end": 1.3125
+    },
+    {
+      "word": "check,",
+      "start": 1.325,
+      "end": 1.775
+    },
+    {
+      "word": "please?",
+      "start": 1.9,
+      "end": 2.375
+    }
+  ],
+  "bytes": 16560
+}

@@ -1,0 +1,36 @@
+{
+  "text": "baker. I am a baker.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "3ea9f2e35341e04cdba9310389b12b94d75406f683b35401f185ae1aa2990dc1",
+  "sha256": "e8a6649fb5924b48b807421a5f5c0897f90a2514d212848f78835b79a3783d47",
+  "words": [
+    {
+      "word": "baker.",
+      "start": 0.075,
+      "end": 0.5499999999999999
+    },
+    {
+      "word": "I",
+      "start": 0.95,
+      "end": 1.0125
+    },
+    {
+      "word": "am",
+      "start": 1.025,
+      "end": 1.1375
+    },
+    {
+      "word": "a",
+      "start": 1.15,
+      "end": 1.2375
+    },
+    {
+      "word": "baker.",
+      "start": 1.25,
+      "end": 1.7375
+    }
+  ],
+  "bytes": 12672
+}

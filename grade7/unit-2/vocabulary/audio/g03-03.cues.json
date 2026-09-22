@@ -1,0 +1,56 @@
+{
+  "text": "at the moment. I am busy at the moment.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "8a47105c8e861d61aaed12a1e4a265011f2e966014642154eacf3280d33d95bb",
+  "sha256": "ce08afbcf014d7f498b3d242b02fe10b098e06635c604e630b519688aa4fb57a",
+  "words": [
+    {
+      "word": "at",
+      "start": 0.05,
+      "end": 0.1625
+    },
+    {
+      "word": "the",
+      "start": 0.175,
+      "end": 0.25
+    },
+    {
+      "word": "moment.",
+      "start": 0.2625,
+      "end": 0.8
+    },
+    {
+      "word": "I",
+      "start": 1.2,
+      "end": 1.275
+    },
+    {
+      "word": "am",
+      "start": 1.2875,
+      "end": 1.4375
+    },
+    {
+      "word": "busy",
+      "start": 1.45,
+      "end": 1.8875
+    },
+    {
+      "word": "at",
+      "start": 1.9,
+      "end": 2.0375
+    },
+    {
+      "word": "the",
+      "start": 2.05,
+      "end": 2.125
+    },
+    {
+      "word": "moment.",
+      "start": 2.1375,
+      "end": 2.65
+    }
+  ],
+  "bytes": 18144
+}

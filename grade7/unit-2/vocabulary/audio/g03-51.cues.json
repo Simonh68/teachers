@@ -1,0 +1,56 @@
+{
+  "text": "behave. The boy told the girl to behave herself.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "b1f12116d2203cb910f7ff3b03b155ae2db02f95a448fde41e0e09019bc833a0",
+  "sha256": "2dc288f666e9a599e8757d2ef7b195c7d2a4870b9fccb4e7ac28d67d812fac49",
+  "words": [
+    {
+      "word": "behave.",
+      "start": 0.0625,
+      "end": 0.6
+    },
+    {
+      "word": "The",
+      "start": 0.9875,
+      "end": 1.0875
+    },
+    {
+      "word": "boy",
+      "start": 1.1,
+      "end": 1.4125
+    },
+    {
+      "word": "told",
+      "start": 1.425,
+      "end": 1.7625
+    },
+    {
+      "word": "the",
+      "start": 1.775,
+      "end": 1.85
+    },
+    {
+      "word": "girl",
+      "start": 1.8625,
+      "end": 2.225
+    },
+    {
+      "word": "to",
+      "start": 2.2375,
+      "end": 2.375
+    },
+    {
+      "word": "behave",
+      "start": 2.3875,
+      "end": 2.7375
+    },
+    {
+      "word": "herself.",
+      "start": 2.75,
+      "end": 3.4
+    }
+  ],
+  "bytes": 22608
+}

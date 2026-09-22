@@ -1,0 +1,41 @@
+{
+  "text": "original. This is the original picture.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "eedf3c2bc3548bcc75b9589a3a9230732a356d1d4670966dc4909d290d8e1f2f",
+  "sha256": "2cf6275b123e7156c34f3d98b3750c40562d2f68bcd03a6dfaf505d838a7fb31",
+  "words": [
+    {
+      "word": "original.",
+      "start": 0.0625,
+      "end": 0.725
+    },
+    {
+      "word": "This",
+      "start": 1.1,
+      "end": 1.3
+    },
+    {
+      "word": "is",
+      "start": 1.3125,
+      "end": 1.4875
+    },
+    {
+      "word": "the",
+      "start": 1.5,
+      "end": 1.65
+    },
+    {
+      "word": "original",
+      "start": 1.6625,
+      "end": 2.1875
+    },
+    {
+      "word": "picture.",
+      "start": 2.2,
+      "end": 2.7625
+    }
+  ],
+  "bytes": 18864
+}

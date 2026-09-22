@@ -1,0 +1,41 @@
+{
+  "text": "backward. We took a backward step.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "ff0a9d75a0cfddddea1f518e345029412236ea48b9bb3043f6b74bfe15d09170",
+  "sha256": "b63f4835b0f4d1977223b124cf3fa3ab34aaaf46f6cb62bdd74b5eb10ee3e2ce",
+  "words": [
+    {
+      "word": "backward.",
+      "start": 0.0875,
+      "end": 0.575
+    },
+    {
+      "word": "We",
+      "start": 0.9625,
+      "end": 1.0375
+    },
+    {
+      "word": "took",
+      "start": 1.05,
+      "end": 1.2625
+    },
+    {
+      "word": "a",
+      "start": 1.275,
+      "end": 1.35
+    },
+    {
+      "word": "backward",
+      "start": 1.3625,
+      "end": 1.825
+    },
+    {
+      "word": "step.",
+      "start": 1.8375,
+      "end": 2.3625
+    }
+  ],
+  "bytes": 16416
+}

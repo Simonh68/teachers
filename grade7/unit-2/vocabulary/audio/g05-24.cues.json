@@ -1,0 +1,36 @@
+{
+  "text": "confident. I was confident too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "a172c111673afb8d8417adcca6222c6fc296f777f6e4621258cb482f00d71044",
+  "sha256": "37e6d8cd4e6707032873c6e9abacece9e550472c7f9062214e4db853d564b703",
+  "words": [
+    {
+      "word": "confident.",
+      "start": 0.05,
+      "end": 0.75
+    },
+    {
+      "word": "I",
+      "start": 1.125,
+      "end": 1.1875
+    },
+    {
+      "word": "was",
+      "start": 1.2,
+      "end": 1.3625
+    },
+    {
+      "word": "confident",
+      "start": 1.375,
+      "end": 1.9375
+    },
+    {
+      "word": "too.",
+      "start": 1.95,
+      "end": 2.3375
+    }
+  ],
+  "bytes": 16272
+}

@@ -1,0 +1,51 @@
+{
+  "text": "season. Winter is the season I like best.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "6105a55510da730cbd4875204e7e8e9806ca56a130dd459f51006929a522adee",
+  "sha256": "1f1a88e61fd5d72dff4ba35c29976649fdd88417a698b6c7df4729ff98714302",
+  "words": [
+    {
+      "word": "season.",
+      "start": 0.05,
+      "end": 0.5875
+    },
+    {
+      "word": "Winter",
+      "start": 0.9625,
+      "end": 1.3875
+    },
+    {
+      "word": "is",
+      "start": 1.4,
+      "end": 1.5875
+    },
+    {
+      "word": "the",
+      "start": 1.6,
+      "end": 1.6875
+    },
+    {
+      "word": "season",
+      "start": 1.7,
+      "end": 2.15
+    },
+    {
+      "word": "I",
+      "start": 2.1625,
+      "end": 2.275
+    },
+    {
+      "word": "like",
+      "start": 2.2875,
+      "end": 2.55
+    },
+    {
+      "word": "best.",
+      "start": 2.5625,
+      "end": 3.0625
+    }
+  ],
+  "bytes": 20592
+}

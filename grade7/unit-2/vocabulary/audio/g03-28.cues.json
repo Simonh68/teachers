@@ -1,0 +1,46 @@
+{
+  "text": "teenager. The boy is a normal teenager.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "bbd8cd4bb64a2cce0e8f9602e70a0a972142a28ad4cc4b23fea05a7b5fb8c7b7",
+  "sha256": "834f8bd0d28b4f7b8fd3184a508324f8f819c321e3a131bb22b0c6174356c27a",
+  "words": [
+    {
+      "word": "teenager.",
+      "start": 0.05,
+      "end": 0.7125
+    },
+    {
+      "word": "The",
+      "start": 1.1,
+      "end": 1.2
+    },
+    {
+      "word": "boy",
+      "start": 1.2125,
+      "end": 1.55
+    },
+    {
+      "word": "is",
+      "start": 1.5625,
+      "end": 1.7875
+    },
+    {
+      "word": "a",
+      "start": 1.8,
+      "end": 1.875
+    },
+    {
+      "word": "normal",
+      "start": 1.8875,
+      "end": 2.3
+    },
+    {
+      "word": "teenager.",
+      "start": 2.3125,
+      "end": 3.0125
+    }
+  ],
+  "bytes": 20304
+}

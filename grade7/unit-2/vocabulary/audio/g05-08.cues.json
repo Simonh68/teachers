@@ -1,0 +1,46 @@
+{
+  "text": "score. We want to score more goals.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "39ec8df04268c327b17e5048a66d48e601fd2b16e49d0f3d04bec15737fe5f9c",
+  "sha256": "45781e0f89d2af3d119ded7cf89982188af72584a240bbc6f813d480e4c41272",
+  "words": [
+    {
+      "word": "score.",
+      "start": 0.05,
+      "end": 0.4375
+    },
+    {
+      "word": "We",
+      "start": 0.825,
+      "end": 0.9
+    },
+    {
+      "word": "want",
+      "start": 0.9125,
+      "end": 1.1125
+    },
+    {
+      "word": "to",
+      "start": 1.125,
+      "end": 1.175
+    },
+    {
+      "word": "score",
+      "start": 1.1875,
+      "end": 1.575
+    },
+    {
+      "word": "more",
+      "start": 1.5875,
+      "end": 1.8
+    },
+    {
+      "word": "goals.",
+      "start": 1.8125,
+      "end": 2.35
+    }
+  ],
+  "bytes": 16272
+}

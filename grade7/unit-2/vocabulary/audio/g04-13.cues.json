@@ -1,0 +1,41 @@
+{
+  "text": "trust. Trust is important in friendship.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "9fe512d6f3277d43d1685c75125b1e2ef313fe300af634863313990f3e2432c5",
+  "sha256": "22e87896dcc6bba4a472b6bbae9c158361fb9bfd64dc8434ac7b672ffd1c5081",
+  "words": [
+    {
+      "word": "trust.",
+      "start": 0.0625,
+      "end": 0.525
+    },
+    {
+      "word": "Trust",
+      "start": 0.925,
+      "end": 1.375
+    },
+    {
+      "word": "is",
+      "start": 1.4,
+      "end": 1.5875
+    },
+    {
+      "word": "important",
+      "start": 1.6,
+      "end": 2.1625
+    },
+    {
+      "word": "in",
+      "start": 2.175,
+      "end": 2.3125
+    },
+    {
+      "word": "friendship.",
+      "start": 2.325,
+      "end": 3.05
+    }
+  ],
+  "bytes": 20592
+}

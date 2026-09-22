@@ -1,0 +1,41 @@
+{
+  "text": "included. Dinner will be included too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "1ba09547ed71b20e249aefc00ee6dc7c6d47421f6de12d3e8592b22bdec84faf",
+  "sha256": "0afc7d59af1a95e58e683830923db01c82e595776b53556bdab6f110ea81a949",
+  "words": [
+    {
+      "word": "included.",
+      "start": 0.05,
+      "end": 0.7
+    },
+    {
+      "word": "Dinner",
+      "start": 1.1,
+      "end": 1.4625
+    },
+    {
+      "word": "will",
+      "start": 1.475,
+      "end": 1.65
+    },
+    {
+      "word": "be",
+      "start": 1.6625,
+      "end": 1.825
+    },
+    {
+      "word": "included",
+      "start": 1.8375,
+      "end": 2.35
+    },
+    {
+      "word": "too.",
+      "start": 2.3625,
+      "end": 2.7375
+    }
+  ],
+  "bytes": 18720
+}

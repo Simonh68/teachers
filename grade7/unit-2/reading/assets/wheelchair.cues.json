@@ -1,0 +1,291 @@
+{
+  "text": "Samuel lives in India. He uses a wheelchair to get to school. His two younger brothers help him along the way. They push and pull the chair for four kilometres. The route includes sand, rivers and palm trees. A wheelchair journey is part of their school routine. Samuel and his brothers make this long journey together.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "b3f7b4625ebc37f85166510c2d306c2e3b2ee406856089a8d87c3d48b51fd220",
+  "sha256": "e3f6c5717e6c3beee1c213033a03e22f704999b7f3ad0ba54b54cdcedfce78fc",
+  "words": [
+    {
+      "word": "Samuel",
+      "start": 0.05,
+      "end": 0.5875
+    },
+    {
+      "word": "lives",
+      "start": 0.6,
+      "end": 0.95
+    },
+    {
+      "word": "in",
+      "start": 0.9625,
+      "end": 1.1375
+    },
+    {
+      "word": "India.",
+      "start": 1.15,
+      "end": 1.7
+    },
+    {
+      "word": "He",
+      "start": 2.1,
+      "end": 2.2
+    },
+    {
+      "word": "uses",
+      "start": 2.2125,
+      "end": 2.6
+    },
+    {
+      "word": "a",
+      "start": 2.6125,
+      "end": 2.7125
+    },
+    {
+      "word": "wheelchair",
+      "start": 2.725,
+      "end": 3.3375
+    },
+    {
+      "word": "to",
+      "start": 3.35,
+      "end": 3.4625
+    },
+    {
+      "word": "get",
+      "start": 3.475,
+      "end": 3.675
+    },
+    {
+      "word": "to",
+      "start": 3.6875,
+      "end": 3.775
+    },
+    {
+      "word": "school.",
+      "start": 3.7875,
+      "end": 4.3125
+    },
+    {
+      "word": "His",
+      "start": 4.7,
+      "end": 4.8875
+    },
+    {
+      "word": "two",
+      "start": 4.9,
+      "end": 5.0875
+    },
+    {
+      "word": "younger",
+      "start": 5.1,
+      "end": 5.45
+    },
+    {
+      "word": "brothers",
+      "start": 5.4625,
+      "end": 5.9375
+    },
+    {
+      "word": "help",
+      "start": 5.95,
+      "end": 6.225
+    },
+    {
+      "word": "him",
+      "start": 6.2375,
+      "end": 6.4625
+    },
+    {
+      "word": "along",
+      "start": 6.4875,
+      "end": 6.875
+    },
+    {
+      "word": "the",
+      "start": 6.8875,
+      "end": 6.975
+    },
+    {
+      "word": "way.",
+      "start": 6.9875,
+      "end": 7.3625
+    },
+    {
+      "word": "They",
+      "start": 7.7375,
+      "end": 7.8625
+    },
+    {
+      "word": "push",
+      "start": 7.875,
+      "end": 8.275
+    },
+    {
+      "word": "and",
+      "start": 8.2875,
+      "end": 8.4625
+    },
+    {
+      "word": "pull",
+      "start": 8.475,
+      "end": 8.725
+    },
+    {
+      "word": "the",
+      "start": 8.7375,
+      "end": 8.825
+    },
+    {
+      "word": "chair",
+      "start": 8.8375,
+      "end": 9.25
+    },
+    {
+      "word": "for",
+      "start": 9.2625,
+      "end": 9.45
+    },
+    {
+      "word": "four",
+      "start": 9.4625,
+      "end": 9.7125
+    },
+    {
+      "word": "kilometres.",
+      "start": 9.725,
+      "end": 10.475
+    },
+    {
+      "word": "The",
+      "start": 10.875,
+      "end": 10.9375
+    },
+    {
+      "word": "route",
+      "start": 10.95,
+      "end": 11.275
+    },
+    {
+      "word": "includes",
+      "start": 11.2875,
+      "end": 11.75
+    },
+    {
+      "word": "sand,",
+      "start": 11.7625,
+      "end": 12.2125
+    },
+    {
+      "word": "rivers",
+      "start": 12.7625,
+      "end": 13.2125
+    },
+    {
+      "word": "and",
+      "start": 13.225,
+      "end": 13.3875
+    },
+    {
+      "word": "palm",
+      "start": 13.4,
+      "end": 13.675
+    },
+    {
+      "word": "trees.",
+      "start": 13.6875,
+      "end": 14.175
+    },
+    {
+      "word": "A",
+      "start": 14.575,
+      "end": 14.65
+    },
+    {
+      "word": "wheelchair",
+      "start": 14.6625,
+      "end": 15.1125
+    },
+    {
+      "word": "journey",
+      "start": 15.125,
+      "end": 15.575
+    },
+    {
+      "word": "is",
+      "start": 15.5875,
+      "end": 15.7875
+    },
+    {
+      "word": "part",
+      "start": 15.8,
+      "end": 16.1
+    },
+    {
+      "word": "of",
+      "start": 16.1125,
+      "end": 16.2125
+    },
+    {
+      "word": "their",
+      "start": 16.225,
+      "end": 16.375
+    },
+    {
+      "word": "school",
+      "start": 16.3875,
+      "end": 16.725
+    },
+    {
+      "word": "routine.",
+      "start": 16.7375,
+      "end": 17.3
+    },
+    {
+      "word": "Samuel",
+      "start": 17.7,
+      "end": 18.375
+    },
+    {
+      "word": "and",
+      "start": 18.3875,
+      "end": 18.5
+    },
+    {
+      "word": "his",
+      "start": 18.5125,
+      "end": 18.7
+    },
+    {
+      "word": "brothers",
+      "start": 18.7125,
+      "end": 19.225
+    },
+    {
+      "word": "make",
+      "start": 19.2375,
+      "end": 19.5
+    },
+    {
+      "word": "this",
+      "start": 19.5125,
+      "end": 19.7375
+    },
+    {
+      "word": "long",
+      "start": 19.75,
+      "end": 20.075
+    },
+    {
+      "word": "journey",
+      "start": 20.0875,
+      "end": 20.425
+    },
+    {
+      "word": "together.",
+      "start": 20.4375,
+      "end": 21.0125
+    }
+  ],
+  "bytes": 128304
+}

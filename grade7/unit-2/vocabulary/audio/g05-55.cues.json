@@ -1,0 +1,46 @@
+{
+  "text": "context. It depends on the context too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "47238f45102e6d967c1a5cd3af138339d0679d79faca4ea73e54aeefd957f54c",
+  "sha256": "5ac956d721796a5e837ba4d9690279cc6a17f046cdd037e69efe4d6897a49222",
+  "words": [
+    {
+      "word": "context.",
+      "start": 0.05,
+      "end": 0.775
+    },
+    {
+      "word": "It",
+      "start": 1.1375,
+      "end": 1.2625
+    },
+    {
+      "word": "depends",
+      "start": 1.275,
+      "end": 1.7125
+    },
+    {
+      "word": "on",
+      "start": 1.725,
+      "end": 1.85
+    },
+    {
+      "word": "the",
+      "start": 1.8625,
+      "end": 1.9375
+    },
+    {
+      "word": "context",
+      "start": 1.95,
+      "end": 2.5375
+    },
+    {
+      "word": "too.",
+      "start": 2.55,
+      "end": 2.8875
+    }
+  ],
+  "bytes": 19584
+}

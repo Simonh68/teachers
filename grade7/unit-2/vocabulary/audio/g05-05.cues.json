@@ -1,0 +1,46 @@
+{
+  "text": "somehow. I will make myself useful somehow.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "b6d0fb0cd1d01c8918e1a2b0511a1364ffb716e9b3a857428a71b7948d9d78ea",
+  "sha256": "46dc8c3d345cbd676a1c10d7d1e8377e027b311e15e9b46958e83e96cda39e98",
+  "words": [
+    {
+      "word": "somehow.",
+      "start": 0.05,
+      "end": 0.575
+    },
+    {
+      "word": "I",
+      "start": 0.975,
+      "end": 1.0625
+    },
+    {
+      "word": "will",
+      "start": 1.075,
+      "end": 1.2375
+    },
+    {
+      "word": "make",
+      "start": 1.25,
+      "end": 1.4875
+    },
+    {
+      "word": "myself",
+      "start": 1.5,
+      "end": 1.975
+    },
+    {
+      "word": "useful",
+      "start": 1.9875,
+      "end": 2.425
+    },
+    {
+      "word": "somehow.",
+      "start": 2.4375,
+      "end": 2.9875
+    }
+  ],
+  "bytes": 20160
+}

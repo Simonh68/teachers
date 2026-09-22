@@ -1,0 +1,46 @@
+{
+  "text": "smart. Whoever did this was smart too.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "0fac5bb282150ea2d3f316dcfe8a3446444979f2417bae2097e6353cb2ab0ce0",
+  "sha256": "90b5ad9eaf72a880d81e7db7829c48b78142b1d41016d136c53aa95b5fa41d0e",
+  "words": [
+    {
+      "word": "smart.",
+      "start": 0.05,
+      "end": 0.5625
+    },
+    {
+      "word": "Whoever",
+      "start": 0.95,
+      "end": 1.325
+    },
+    {
+      "word": "did",
+      "start": 1.3375,
+      "end": 1.55
+    },
+    {
+      "word": "this",
+      "start": 1.5625,
+      "end": 1.7625
+    },
+    {
+      "word": "was",
+      "start": 1.775,
+      "end": 1.925
+    },
+    {
+      "word": "smart",
+      "start": 1.9375,
+      "end": 2.3125
+    },
+    {
+      "word": "too.",
+      "start": 2.325,
+      "end": 2.6875
+    }
+  ],
+  "bytes": 18432
+}

@@ -1,19 +1,39 @@
 # Unit 2 — School Years Around the World
 
-The current Grade7_Story_Plan_HE.md was successfully read. APPROVED_SCOPE.md records the source and the user's subsequent directions. Earlier connection failures no longer block work.
+The approved `Grade7_Story_Plan_HE.md` and the user's subsequent instructions are recorded in `APPROVED_SCOPE.md`. The unit remains a complete teacher-review draft; student publication is a separate step. Unit 1 is not modified.
 
-Run `python3 tools/unit-2/build_foundation.py` from the repository root. This builds the review draft at `grade7/unit-2/` using Unit 1's HTML engines and the exact 165 vocabulary records in groups 03–05. No Unit 1 files are changed.
+## Included
 
-The committed `templates/` snapshot pins the engines from revision `ee4ad42`, so later Unit 1 audio work cannot silently enable unbuilt Unit 2 audio when regenerating this draft.
+- A comparative main text: school-year starts and ends, summer holidays and seasons in Japan, Alaska, Florida, England, the UAE and Jersey.
+- Five documentary companion texts: an Anchorage snow day, a horse journey in Argentina, Samuel's wheelchair journey in India, a school boat in the Isles of Scilly, and Barcelona's bike bus. Each has an English source reference; the two press photographs have English captions and credits.
+- Read & Listen: six recordings, 63 sentences and 28 short parts; English/Hebrew sentence pairs, contextual word help, audio word highlighting, five speeds, sentence repeat, touch navigation and local progress.
+- Exactly 165 Core I records from groups 03–05, their recorded English words/examples, 165 context questions and independent sentence tasks. The coverage map distinguishes exposure from mastery.
+- Present Simple A and B: 46 and 43 slides, with independent responses before feedback.
+- A listening activity, a four-page student PDF, a workbook answer key and a 20-slide HTML teacher guide.
 
-The draft contains two Present Simple decks, the vocabulary deck, a main comparative text with scoped school calendars, five sourced companion texts, printable exercises, and an HTML teacher presentation. The latest companion text follows a real school day disrupted by snow in Anchorage. English present tense sometimes narrates a dated historical event; source notes distinguish this from current routine.
+## Vocabulary correction
 
-The main text covers school-year start and end, summer-holiday length and seasons. Jersey is a proposed English-speaking island. Florida's holiday length is explicitly a summer 2026 example; other exact summer examples are 2027. These are local calendars, not country-wide universal dates.
+The raw source snapshot, serial IDs, grouping, order, POS and source English definitions remain unchanged. `sources/vocabulary-corrections.json` documents 35 field corrections in 25 records; the builder also keeps each corrected Hebrew sense aligned with its gloss.
 
-This is a teacher review draft, not a finished student unit. Remaining gates are tracked in `grade7/unit-2/build-report.json`: recorded audio, full Read Alone support, documented vocabulary corrections, contextual vocabulary coverage, listening work, final worksheet PDF and student publication.
+The original documentation book `E-Vocab-Band-II-Traceability-and-QA.xlsx` was corrected in place to version 4, with dated before/after notes and reasons. All 2,181 formulas and unrelated content were preserved. Software synchronization remains tracked in [E-Vocab issue #5](https://github.com/Simonh68/E-Vocab-Band-II/issues/5). See `sources/vocabulary-correction-log.md`. Do not close the software task merely because Unit 2 and the book are corrected.
 
-The old poster-story draft is retired and is not imported. Source vocabulary fields are preserved; identified source errors must be corrected through a documented transformation before student delivery.
+## Rebuild
 
-Two inspected source photographs have credits in `grade7/unit-2/assets/CREDITS.md`. Real published names are retained. The snow photograph shows the setting, not Kali; the Barcelona photo does not identify each rider.
+Run from the repository root:
 
-Draft browser QA is reproducible with `node tools/unit-2/qa_foundation.cjs` and Playwright. Set `UNIT2_CHROMIUM` to an installed Chromium executable if required. Results are in `qa-report.json`. These checks do not substitute for the remaining audio and Read Alone acceptance gates.
+```sh
+python3 tools/unit-2/build_foundation.py
+python3 tools/unit-2/build_reading.py
+python3 tools/unit-2/build_audio.py --reading
+python3 tools/unit-2/build_audio.py --vocabulary
+python3 tools/unit-2/build_activities.py
+python3 tools/unit-2/build_workbook.py
+```
+
+Audio builds reuse files only when their recorded text hashes match. The source audio is pre-recorded; browser speech synthesis is not used. Grammar template engines are pinned under `templates/` from revision `ee4ad42` so later Unit 1 work cannot silently change this unit. The retired poster story is not a build input.
+
+## Verification and remaining review
+
+Run `qa_foundation.cjs`, `qa_reading.cjs` and `qa_activities.cjs` with Node and Playwright. `UNIT2_CHROMIUM` may specify an installed Chromium executable. Each writes its corresponding JSON report. The PDF is rendered and visually inspected separately.
+
+Jersey is the proposed English-speaking island. Florida's summer length is explicitly a summer 2026 example; other dated summer examples are 2027. Calendars are local examples, not universal country-wide dates. Documentary routines refer to their stated source dates; historical present does not imply current conditions. These scope choices remain visible for teacher review.

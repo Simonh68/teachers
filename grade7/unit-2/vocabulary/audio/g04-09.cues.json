@@ -1,0 +1,36 @@
+{
+  "text": "wild. This animal is wild.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "21405f197323aeebb2c67a2d50f0910da14bd5eb76220f409b600990852d12e4",
+  "sha256": "c7a121a254a7330fb1e72deb4add8f03cca1ce9c9d56b6a92dc933b10a4f3631",
+  "words": [
+    {
+      "word": "wild.",
+      "start": 0.0625,
+      "end": 0.4375
+    },
+    {
+      "word": "This",
+      "start": 0.8125,
+      "end": 1.0
+    },
+    {
+      "word": "animal",
+      "start": 1.0125,
+      "end": 1.475
+    },
+    {
+      "word": "is",
+      "start": 1.4875,
+      "end": 1.6375
+    },
+    {
+      "word": "wild.",
+      "start": 1.65,
+      "end": 2.25
+    }
+  ],
+  "bytes": 15696
+}

@@ -1,0 +1,46 @@
+{
+  "text": "seem happy. The students seem happy today.",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "sha256Text": "304f692b3e58d6278cc0bc8f2737a2c7a7c95cd121fdb8d74b4ea26bc1367925",
+  "sha256": "63221e2e1c44f6e1ac0f7637e207a3fa239d4a6f86b608e9bc541ebb143a9a10",
+  "words": [
+    {
+      "word": "seem",
+      "start": 0.0875,
+      "end": 0.36250000000000004
+    },
+    {
+      "word": "happy.",
+      "start": 0.375,
+      "end": 0.825
+    },
+    {
+      "word": "The",
+      "start": 1.2125,
+      "end": 1.275
+    },
+    {
+      "word": "students",
+      "start": 1.2875,
+      "end": 1.775
+    },
+    {
+      "word": "seem",
+      "start": 1.7875,
+      "end": 2.0875
+    },
+    {
+      "word": "happy",
+      "start": 2.1,
+      "end": 2.4625
+    },
+    {
+      "word": "today.",
+      "start": 2.475,
+      "end": 2.95
+    }
+  ],
+  "bytes": 19872
+}
