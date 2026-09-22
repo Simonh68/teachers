@@ -35,6 +35,47 @@ jobs:
         run: |
           python -m pip install beautifulsoup4 playwright
           python -m playwright install --with-deps chromium
+      - name: Apply source-level visual refinement
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('scripts/build_grade9_unit1.py')
+          code=p.read_text()
+          code=code.replace("VERSION = '20260922-g9u1-1'", "VERSION = '20260922-g9u1-2'")
+          marker='/* G9U1 compact vocabulary layout */'
+          css='''/* G9U1 compact vocabulary layout */
+          @media screen{
+          body:has(#vocab) .wrap{padding:12px 16px 24px}
+          body:has(#vocab) .top{padding-bottom:8px;gap:5px;font-size:13px}
+          body:has(#vocab) .top .brand{font-size:12px}
+          body:has(#vocab) .tabs{display:none}
+          body:has(#vocab) #status:empty{display:none}
+          body:has(#vocab) .hero{padding:10px 0 8px}
+          body:has(#vocab) .hero .eyebrow{font-size:11px;margin:5px 0}
+          body:has(#vocab) .hero h1{font-size:26px;margin:0}
+          body:has(#vocab) .hero>p:not(.eyebrow){display:none}
+          body:has(#vocab) .vocab-tools{font-size:15px;margin-bottom:6px}
+          body:has(#vocab) .vocab-tools select{min-height:38px;padding:5px 12px}
+          #vocab{max-width:850px;margin:auto}
+          #vocab .vocab-frame{padding:10px 16px;margin:10px auto}
+          #vocab .vocab-frame p{margin:6px 0}
+          #v-source{font-size:12px;line-height:1.4}
+          #vocab .vword{min-height:54px;font-size:clamp(28px,4.5vw,48px)}
+          #vocab .vexample{min-height:80px;font-size:22px;line-height:1.45}
+          #vocab .translation-slot{min-height:138px;padding-top:10px}
+          #vocab .vmeaning{font-size:23px;line-height:1.4}
+          #vocab .vtranslation{font-size:19px;line-height:1.5}
+          #vocab .deck-controls{position:relative;bottom:auto;margin:0;padding:8px 0}
+          #v-hint{font-size:14px;margin:7px 0}
+          #vocab-status{font-size:13px;line-height:1.4}
+          }
+          '''
+          if marker not in code:
+            target="(OUT/'unit.css').write_text(CSS)"
+            assert target in code
+            code=code.replace(target,'CSS += '+repr(css)+'\n'+target,1)
+          p.write_text(code)
+          PY
       - name: Generate source-preserving unit
         run: |
           python -m py_compile scripts/build_grade9_unit1.py
@@ -48,7 +89,7 @@ jobs:
           import json, subprocess, time
           from playwright.sync_api import sync_playwright
           root=Path('grade9/unit-1')
-          report={'browser':'Chromium','viewports':[],'checks':[], 'errors':[]}
+          report={'browser':'Chromium','version':'20260922-g9u1-2','viewports':[],'checks':[], 'errors':[]}
           server=subprocess.Popen(['python','-m','http.server','8765'],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
           base='http://127.0.0.1:8765/grade9/unit-1/'
           try:
@@ -64,7 +105,11 @@ jobs:
                 checked=[]
                 for name in pages:
                   page.goto(base+name,wait_until='domcontentloaded')
-                  if name=='vocabulary.html':page.wait_for_function("document.querySelector('#v-word').textContent.length>0")
+                  if name=='vocabulary.html':
+                    page.wait_for_function("document.querySelector('#v-word').textContent.length>0")
+                    card=page.locator('#v-card').bounding_box()
+                    nav=page.locator('#vocab .deck-controls').bounding_box()
+                    assert nav['y']>=card['y']+card['height'],f'Navigation overlaps vocabulary: {width}'
                   page.wait_for_timeout(150)
                   assert page.evaluate('document.documentElement.scrollWidth <= innerWidth+1'),f'Horizontal overflow: {name} {width}'
                   page.screenshot(path=f'qa-output/{width}-{name}.png',full_page=True)
@@ -75,8 +120,7 @@ jobs:
               assert '11.10.2026' in page.inner_text('body')
               assert '21.10.2026' in page.inner_text('body')
               assert 'רק אם הדחייה תאושר' in page.inner_text('body')
-              checkbox=page.locator('[data-save=m1t1]')
-              checkbox.check()
+              page.locator('[data-save=m1t1]').check()
               page.locator('a[data-track][href="reading.html"]').first.click()
               page.goto(base)
               assert page.locator('[data-save=m1t1]').is_checked()
@@ -122,7 +166,7 @@ jobs:
               assert str(total)+' ערכים' in page.inner_text('#vocab-status')
               page.keyboard.press('ArrowRight')
               assert page.inner_text('#v-meaning')!=''
-              report['checks']+=['all three canonical groups available','translation on next step only','English source remains fixed during reveal','break after three vocabulary entries','keyboard navigation']
+              report['checks']+=['all three canonical groups available','translation on next step only','English source remains fixed during reveal','break after three vocabulary entries','keyboard navigation','mobile vocabulary controls do not overlap content']
               page.goto(base+'teacher.html')
               page.keyboard.press('ArrowRight')
               assert page.inner_text('#deck-count')=='2 / 12'
@@ -153,9 +197,9 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add grade9/unit-1 index.html
+          git add scripts/build_grade9_unit1.py grade9/unit-1 index.html
           if ! git diff --cached --quiet; then
-            git commit -m 'Publish verified Grade 9 Unit 1 and QA report'
+            git commit -m 'Publish visually refined Grade 9 Unit 1 and QA report'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
@@ -198,12 +242,12 @@ jobs:
           for attempt in range(8):
             try:
               manifest=json.loads(read(base+'manifest.json?v='+str(time.time_ns())))
-              assert manifest['version']=='20260922-g9u1-1'
+              assert manifest['version']=='20260922-g9u1-2'
               report=json.loads(read(base+'qa-report.json?v='+str(time.time_ns())))
               assert report['passed']
               for name in ['index.html','student-preparation.html','resources.html','reading.html','vocabulary.html','practice.html','writing.html','assessment.html','teacher.html']:
-                text=read(base+name+'?qa=20260922')
-                assert 'unit.css?v=20260922-g9u1-1' in text,name
+                text=read(base+name+'?qa=20260922-refined')
+                assert 'unit.css?v=20260922-g9u1-2' in text,name
               print('PUBLIC UNIT VERIFIED: nine pages, manifest, and successful browser QA report.')
               print('Vocabulary records:',manifest['vocabularyRecords'])
               break
