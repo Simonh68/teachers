@@ -6,6 +6,11 @@ s=p.read_text()
 s=s.replace("if(e.key==='Escape'){hideTip();stop();return}","if(e.key==='Escape'){if(!$('#tip').hidden)hideTip();else stop();return}")
 # A tooltip contains text only: it must never intercept the next reading gesture.
 s=s.replace('pointer-events:auto}#tip','pointer-events:none}#tip')
+# Updating completion must not detach the checkbox while its click is processing.
+old="if(e.target.dataset.tick.endsWith('-done')){let open=$$('.meeting[open]').map(x=>x.id);home();open.forEach(id=>{let el=document.getElementById(id);if(el)el.open=true})}"
+new="if(e.target.dataset.tick.endsWith('-done')){const count=M.filter((_,i)=>state.ticks['m'+i+'-done']).length;const bar=$('#home progress');if(bar){bar.value=count;bar.previousElementSibling.textContent=count+' מתוך 5 מפגשים סומנו כבוצעו'}}"
+assert old in s, 'Completion handler changed; review patch before publishing'
+s=s.replace(old,new)
 # Explicit touch-action avoids native browser cancellation before touchend.
 # Long pages retain ordinary vertical scrolling and pinch zoom.
 s=s.replace("$('#stage').innerHTML=html;remember();", "$('#stage').innerHTML=html;syncTouchMode();remember();")
@@ -45,4 +50,4 @@ stage.addEventListener('touchcancel',()=>{touch=null},{passive:true});
 """+s[end:]
 p.write_text(s)
 p=root/'grade8/index.html';s=p.read_text().replace('8.10.2026','22.10.2026').replace('כ״ז בתשרי תשפ״ז','י״א בחשוון תשפ״ז');p.write_text(s)
-print('Refined tooltip hit-testing, explicit touch-action and touchend fallback',flush=True)
+print('Refined stable progress controls, tooltip hit-testing and mobile touch navigation',flush=True)
