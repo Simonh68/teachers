@@ -1,0 +1,40 @@
+{
+  "viewports": [
+    {
+      "width": 1366,
+      "height": 900,
+      "meetings": 4,
+      "classActivities": 16,
+      "homeRounds": 12,
+      "guideSlides": 12
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "meetings": 4,
+      "classActivities": 16,
+      "homeRounds": 12,
+      "guideSlides": 12
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "meetings": 4,
+      "classActivities": 16,
+      "homeRounds": 12,
+      "guideSlides": 12
+    }
+  ],
+  "checks": [
+    "exact dates and equal 64-minute class/45-minute home budgets",
+    "110 records in order, exact class/home coverage",
+    "all vocabulary deep links",
+    "four-direction teacher-guide swipes",
+    "separate class/home/Ready progress",
+    "repeated history reset/restore and cross-tab updates",
+    "browser restart and isolation",
+    "blocked-storage fallback",
+    "exact clipboard group link"
+  ],
+  "errors": []
+}
