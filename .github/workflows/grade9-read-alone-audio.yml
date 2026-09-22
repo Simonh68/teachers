@@ -22,8 +22,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install recorded speech dependencies
-        run: python -m pip install edge-tts==7.2.8 beautifulsoup4==4.13.4
+      - name: Install recorded speech dependencies and audio validation
+        run: |
+          python -m pip install edge-tts==7.2.8 beautifulsoup4==4.13.4
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
       - name: Generate entire story with real engine word boundaries
         run: python -u tools/grade9_read_alone_audio.py
       - name: Commit only verified narration and timings
