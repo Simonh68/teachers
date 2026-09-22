@@ -3,3 +3,29 @@
 @media(max-width:700px){.grid,.grid3{grid-template-columns:1fr}.panel,.meeting{padding:18px}.top{font-size:15px}.wrap{padding-bottom:40px}.story{font-size:21px}.vword{min-height:86px}.vexample{min-height:130px}.translation-slot{min-height:195px}.deck-controls{gap:7px}.deck-controls button{padding:9px 13px}.vocab-tools select{max-width:100%}h1{overflow-wrap:anywhere}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{body{background:white;color:#111;font-size:12pt}.wrap{max-width:none;padding:0}.top,.tabs,.actions,.deck-controls,.no-print,#status,.footer{display:none!important}.panel,.meeting,.work{background:white;color:#111;border:1px solid #ccc;box-shadow:none}.muted,small,.skill,.sid{color:#444}h1{font-size:28pt}h2{font-size:20pt}.story{font-size:13pt;line-height:1.7}a{color:#111}.grid,.grid3{display:block}.deck-slide{display:block;break-after:page;min-height:80vh}.answer{display:none}.writing-zone textarea{min-height:280px;color:#111;background:white}.work textarea{min-height:75px}.en{font-family:Arial,sans-serif}#print-note{display:block}.panel,.work{break-inside:avoid}summary{display:block}.handout .model-answer{display:none!important}}
+/* G9U1 compact vocabulary layout */
+@media screen{
+body:has(#vocab) .wrap{padding:12px 16px 24px}
+body:has(#vocab) .top{padding-bottom:8px;gap:5px;font-size:13px}
+body:has(#vocab) .top .brand{font-size:12px}
+body:has(#vocab) .tabs{display:none}
+body:has(#vocab) #status:empty{display:none}
+body:has(#vocab) .hero{padding:10px 0 8px}
+body:has(#vocab) .hero .eyebrow{font-size:11px;margin:5px 0}
+body:has(#vocab) .hero h1{font-size:26px;margin:0}
+body:has(#vocab) .hero>p:not(.eyebrow){display:none}
+body:has(#vocab) .vocab-tools{font-size:15px;margin-bottom:6px}
+body:has(#vocab) .vocab-tools select{min-height:38px;padding:5px 12px}
+#vocab{max-width:850px;margin:auto}
+#vocab .vocab-frame{padding:10px 16px;margin:10px auto}
+#vocab .vocab-frame p{margin:6px 0}
+#v-source{font-size:12px;line-height:1.4}
+#vocab .vword{min-height:54px;font-size:clamp(28px,4.5vw,48px)}
+#vocab .vexample{min-height:80px;font-size:22px;line-height:1.45}
+#vocab .translation-slot{min-height:138px;padding-top:10px}
+#vocab .vmeaning{font-size:23px;line-height:1.4}
+#vocab .vtranslation{font-size:19px;line-height:1.5}
+#vocab .deck-controls{position:relative;bottom:auto;margin:0;padding:8px 0}
+#v-hint{font-size:14px;margin:7px 0}
+#vocab-status{font-size:13px;line-height:1.4}
+}

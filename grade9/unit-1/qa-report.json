@@ -1,5 +1,6 @@
 {
   "browser": "Chromium",
+  "version": "20260922-g9u1-2",
   "viewports": [
     {
       "width": 1366,
@@ -63,6 +64,7 @@
     "English source remains fixed during reveal",
     "break after three vocabulary entries",
     "keyboard navigation",
+    "mobile vocabulary controls do not overlap content",
     "teacher guide slide navigation",
     "practice print output hides answer key",
     "unit indexed under Grade 9 exactly once"
