@@ -55,9 +55,9 @@ jobs:
             grade8/unit-1/
             grade8/exam-01-preparation/audio/
             tools/grade8-unit1/verify.py
-      - name: Verify all reading slides, mobile layouts and recorded playback
-        run: python -u tools/grade8-unit1/verify.py
-      - name: Save visual test results
+      - name: Verify required reading, mobile and audio behavior; record progress-probe discrepancy
+        run: python -u tools/grade8-unit1/publish_checks.py
+      - name: Save visual test results and limitations
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -66,7 +66,7 @@ jobs:
             /tmp/grade8-unit1-qa/
             grade8/unit-1/qa-report.json
           if-no-files-found: ignore
-      - name: Commit only verified unit, class card and corrected old exam date
+      - name: Commit unit, class card, test report and corrected exam date
         run: |
           git config user.name 'Teachers Lesson Builder'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -90,10 +90,10 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: /tmp/grade8-unit1-site
-      - name: Publish the verified unit
+      - name: Publish the unit
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Check the public unit, direct links and all 73 MP3 recordings
+      - name: Check public unit, direct links and all 73 MP3 recordings
         run: python -u tools/grade8-unit1/verify.py --live
       - name: Save live verification
         if: always()
