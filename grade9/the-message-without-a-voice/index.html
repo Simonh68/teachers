@@ -168,7 +168,7 @@ button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:poin
   }
   function show(index, updateHash = true) {
     index = Math.max(0, Math.min(slides.length - 1, index));
-    if (current >= 0) { slides[current].classList.remove('active'); slides[current].hidden = true; }
+    slides.forEach(s => { s.classList.remove('active'); s.hidden = true; });
     current = index;
     const slide = slides[current];
     slide.hidden = false; slide.classList.add('active'); slide.scrollTop = 0;

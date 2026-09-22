@@ -11,5 +11,6 @@
   "meaning_units": 189,
   "audio_seconds": 143.88,
   "audio_sha256": "1db89e55506683784bb97ae62f5eef020a8279633950f6aa270584467a9e661f",
-  "translation_space": "reserved strip, does not cover English"
+  "translation_space": "reserved strip, does not cover English",
+  "direct_slide_links": "single active slide; original IDs preserved"
 }
