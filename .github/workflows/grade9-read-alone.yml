@@ -1,0 +1,91 @@
+name: Complete Grade 9 Read Alone 1 and 2
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/grade9-readalone/**'
+      - '.github/workflows/grade9-read-alone.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: grade9-read-alone-completion
+  cancel-in-progress: false
+jobs:
+  complete:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install speech and browser dependencies
+        run: |
+          python -m pip install edge-tts==7.2.8 beautifulsoup4==4.13.4 Pillow==11.3.0 playwright==1.55.0
+          if ! command -v ffprobe >/dev/null; then sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg; fi
+          python -m playwright install --with-deps chromium
+      - name: Validate implementation sources
+        run: |
+          python -m py_compile tools/grade9-readalone/build.py tools/grade9-readalone/check.py
+          node --check tools/grade9-readalone/player.js
+      - name: Generate complete prerecorded narration and both reading standards
+        run: python -u tools/grade9-readalone/build.py
+      - name: Test every reading page and original presentation
+        run: python -u tools/grade9-readalone/check.py
+      - name: Commit verified unit changes only
+        run: |
+          git config user.name 'Teachers Read Alone builder'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add grade9/unit-1 grade9/the-message-without-a-voice/index.html tools/grade9-readalone/source-original.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Complete Grade 9 Read Alone: full narration, both standards and verified mobile layouts'
+            pushed=0
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then pushed=1; break; fi
+              sleep 3
+            done
+            test "$pushed" = 1
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Deploy complete verified site
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Verify actual public site playback and navigation
+        run: |
+          passed=0
+          for attempt in 1 2 3; do
+            if python -u tools/grade9-readalone/check.py --live; then passed=1; break; fi
+            sleep 12
+          done
+          test "$passed" = 1
+      - name: Preserve public verification
+        if: success()
+        run: |
+          git add grade9/unit-1/read-alone/public-qa-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record public Grade 9 Read Alone playback and full presentation verification'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: grade9-read-alone-verification
+          path: |
+            read-alone-qa/
+            grade9/unit-1/read-alone/completion-report.json
+            grade9/unit-1/read-alone/qa-report.json
+            grade9/unit-1/read-alone/public-qa-report.json
+          if-no-files-found: warn
