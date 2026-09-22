@@ -11,15 +11,16 @@ const readStore = (key, fallback) => { try { const value = localStorage.getItem(
 const store = (key, value) => { try { localStorage.setItem(key, JSON.stringify(value)); } catch (_) {} };
 let speed = Number(readStore(RATE_KEY, .75)); if (!rates.some(r => r[0] === speed)) speed = .75;
 let data, timing, clip = null, timer = 0, frame = 0, generation = 0, spoken = -1, mode = 'text', page = 0, sentenceSlide = 0, tipTarget = null, tipPinned = false, touch = null;
-let standalone = false, deck = false, loading = true;
+let interacted = false; document.addEventListener('pointerdown',()=>interacted=true,{once:true}); document.addEventListener('keydown',()=>interacted=true,{once:true}); let standalone = false, deck = false, loading = true, repeatEnd = null; const tabId = Math.random().toString(36).slice(2); let broadcast; try { broadcast = new BroadcastChannel('teachers-read-alone-audio-v1'); broadcast.onmessage = e => { if(e.data !== tabId) stop(); }; } catch (_) {}
 let completed = readStore(DONE_KEY, []); if (!Array.isArray(completed)) completed = [];
 completed = new Set(completed.filter(n => Number.isInteger(n) && n >= 0));
 const audio = new Audio(); audio.id = 'raAudio'; audio.preload = 'auto'; audio.preservesPitch = true;
+function bindSwipes(zone,move){let gesture=null,ignoreUntil=0;function canScroll(target,dy){for(let el=target;el;el=el.parentElement){const overflow=getComputedStyle(el).overflowY;if((el===document.scrollingElement||/auto|scroll/.test(overflow))&&el.scrollHeight>el.clientHeight+2){if(dy<0&&el.scrollTop+el.clientHeight<el.scrollHeight-2||dy>0&&el.scrollTop>2)return true;}}return false;}zone.addEventListener('touchstart',e=>{gesture=null;if(e.touches.length!==1||e.target.closest('button,a,input,textarea,select,[role=button]:not(.ra-hit)'))return;gesture={x:e.touches[0].clientX,y:e.touches[0].clientY,target:e.target,done:false};},{passive:true});zone.addEventListener('touchmove',e=>{if(!gesture||gesture.done||e.touches.length!==1)return;const dx=e.touches[0].clientX-gesture.x,dy=e.touches[0].clientY-gesture.y;if(Math.max(Math.abs(dx),Math.abs(dy))<55)return;gesture.done=true;const vertical=Math.abs(dy)>Math.abs(dx);if(vertical&&canScroll(gesture.target,dy))return;e.preventDefault();ignoreUntil=Date.now()+450;move((vertical?dy:dx)<0?1:-1);},{passive:false});zone.addEventListener('touchend',()=>gesture=null,{passive:true});zone.addEventListener('touchcancel',()=>gesture=null,{passive:true});zone.addEventListener('click',e=>{if(Date.now()<ignoreUntil){e.preventDefault();e.stopImmediatePropagation();}},true);}
 function status(text) { const el = $('#raStatus'); if (el) el.textContent = text; }
 function clearWord() { $$('.ra-word.ra-spoken').forEach(e => e.classList.remove('ra-spoken')); spoken = -1; }
 function hideTip() { if (tipTarget) tipTarget.removeAttribute('aria-describedby'); tipTarget = null; tipPinned = false; const el = $('#raTip'); if (el) el.hidden = true; }
-function stop() { generation++; clearTimeout(timer); cancelAnimationFrame(frame); audio.pause(); clearWord(); const b = $('[data-ra-play]'); if (b) b.textContent = '▶ הקראה'; }
-function range(ids) { stop(); hideTip(); clip = {ids, start: timing.sentences[ids[0]].start, end: timing.sentences[ids.at(-1)].end, words: ids.flatMap(n => timing.sentences[n].words)}; audio.currentTime = Math.max(0, clip.start - .015); const seek = $('#raSeek'); if (seek) { seek.value = '0'; seek.max = String(clip.end - clip.start); } const next = $('#raNext'); if (next) next.classList.remove('ra-finished'); }
+function stop() { generation++; clearTimeout(timer); timer = 0; cancelAnimationFrame(frame); audio.pause(); clearWord(); const b = $('[data-ra-play]'); if (b) b.textContent = '▶ הקראה'; }
+function range(ids) { repeatEnd = null; stop(); hideTip(); clip = {ids, start: timing.sentences[ids[0]].start, end: timing.sentences[ids.at(-1)].end, words: ids.flatMap(n => timing.sentences[n].words)}; audio.currentTime = Math.max(0, clip.start - .015); const seek = $('#raSeek'); if (seek) { seek.value = '0'; seek.max = String(clip.end - clip.start); } const next = $('#raNext'); if (next) next.classList.remove('ra-finished'); }
 function visibleRoot() { return standalone ? $('#raPanel') : $('.slide.active'); }
 function sync() {
  if (!clip) return;
@@ -34,17 +35,18 @@ function finished() {
  if (standalone && mode === 'text') { completed.add(page); store(DONE_KEY, [...completed]); $(`[data-ra-tab="${page}"]`)?.classList.add('ra-done'); $('#raNext')?.classList.add('ra-finished'); }
  status(standalone && mode === 'text' ? 'סיום הקטע. ממשיכים בלחיצה.' : 'סיום המשפט. המעבר לשקף הבא ידני.');
 }
-function watch(token) { if (token !== generation || audio.paused) return; if (clip && audio.currentTime >= clip.end + .015) { finished(); return; } sync(); frame = requestAnimationFrame(() => watch(token)); }
+function watch(token) { if (token !== generation || audio.paused) return; if (repeatEnd !== null && audio.currentTime >= repeatEnd + .015) { audio.currentTime = repeatEnd; repeatEnd = null; stop(); status('סיום המשפט. לחצו להמשך הקטע.'); return; } if (clip && audio.currentTime >= clip.end + .015) { finished(); return; } sync(); frame = requestAnimationFrame(() => watch(token)); }
 async function play(reset = false) {
+ if(reset)repeatEnd=null;
  if (loading || !clip) { status('האודיו נטען. נסו שוב בעוד רגע.'); return; }
  stop(); const token = generation;
  if (document.hidden) return;
  if (reset || audio.currentTime < clip.start - .025 || audio.currentTime >= clip.end - .025) audio.currentTime = Math.max(0, clip.start - .015);
  audio.playbackRate = speed; audio.preservesPitch = true;
- try { await audio.play(); if (token !== generation || document.hidden) { audio.pause(); return; } $('[data-ra-play]').textContent = '❚❚ השהיה'; status(''); watch(token); }
+ try { broadcast?.postMessage(tabId); await audio.play(); if (token !== generation || document.hidden) { audio.pause(); return; } $('[data-ra-play]').textContent = '❚❚ השהיה'; status(''); watch(token); }
  catch (_) { if (token === generation) status('לחצו על ▶ הקראה להפעלת האודיו.'); }
 }
-function auto() { const token = generation; timer = setTimeout(() => { if (token === generation && !document.hidden) play(true); }, 2000); }
+function auto() { if(!interacted)return; const token = generation; timer = setTimeout(() => { if (token === generation && !document.hidden) play(true); }, 2000); }
 function showTip(el, pinned = false) {
  hideTip(); tipTarget = el; tipPinned = pinned;
  const tip = $('#raTip'); tip.textContent = el.dataset.he; tip.hidden = false; el.setAttribute('aria-describedby', 'raTip');
@@ -60,6 +62,7 @@ function sentenceHTML(n, units) {
  } else out = s.words.map(w => esc(w.prefix) + wordHTML(w, true)).join('');
  return out + esc(s.suffix);
 }
+function fitReading(){if(!standalone)return;const panel=$('#raPanel'), text=$('#raText');if(!panel||!text)return;let size=mode==='text'?(innerWidth<760?25:36):(innerWidth<760?29:49);text.style.fontSize=size+'px';while(panel.scrollHeight>panel.clientHeight+2&&size>20){size--;text.style.fontSize=size+'px';}} window.addEventListener('resize',fitReading);
 function savePosition() { store(POS_KEY, {page, sentenceSlide}); }
 function render(autoplay = false) {
  if (!standalone || !data) return;
@@ -86,7 +89,7 @@ function render(autoplay = false) {
   $('#raPrev').disabled = sentenceSlide === 0; $('#raNext').textContent = sentenceSlide === data.sentences.length * 2 - 1 ? 'לשאלות ההבנה ←' : reveal ? 'למשפט הבא ←' : 'חשיפת תרגום ←';
   $('#raProgress').value = (sentenceSlide + 1) / (data.sentences.length * 2); $('#raReveal').hidden = true; $('#raFullTranslation').hidden = true;
  }
- range(ids); savePosition(); status(mode === 'text' ? 'נגיעה בביטוי מציגה פירוש. ההקראה נעצרת בסוף כל קטע.' : 'נגיעה במילה מציגה פירוש. ההקראה מתחילה לאחר שתי שניות.');
+ range(ids); savePosition(); fitReading(); requestAnimationFrame(fitReading); status(mode === 'text' ? 'נגיעה בביטוי מציגה פירוש. ההקראה נעצרת בסוף כל קטע.' : 'נגיעה במילה מציגה פירוש. ההקראה מתחילה לאחר שתי שניות.');
  if (mode === 'sentences') auto(); else if (autoplay) play(true);
 }
 function next(delta, fromTab = false) {
@@ -97,9 +100,9 @@ function toolbar() { return `<div id="raToolbar" class="ra-toolbar" aria-label="
 function bind() {
  $('[data-ra-play]').onclick = () => { if (!audio.paused) { stop(); status('מושהה. לחיצה על הקראה ממשיכה מאותה נקודה.'); } else play(); };
  $('[data-ra-restart]').onclick = () => play(true);
- $('[data-ra-repeat]').onclick = () => { if (!clip) return; const id = clip.ids.find(n => audio.currentTime >= timing.sentences[n].start && audio.currentTime <= timing.sentences[n].end + .15) ?? clip.ids.findLast(n => timing.sentences[n].start <= audio.currentTime) ?? clip.ids[0]; audio.currentTime = Math.max(0,timing.sentences[id].start - .015); play(); };
+ $('[data-ra-repeat]').onclick = () => { if (!clip) return; const id = clip.ids.find(n => audio.currentTime >= timing.sentences[n].start && audio.currentTime <= timing.sentences[n].end + .15) ?? clip.ids.findLast(n => timing.sentences[n].start <= audio.currentTime) ?? clip.ids[0]; repeatEnd = timing.sentences[id].end; audio.currentTime = Math.max(0,timing.sentences[id].start - .015); play(); };
  $('#raSpeed').onchange = e => { speed = Number(e.target.value); audio.playbackRate = speed; store(RATE_KEY, speed); };
- $('#raSeek').oninput = e => { if (clip) { audio.currentTime = Math.min(clip.end, clip.start + Number(e.target.value)); clearWord(); sync(); } };
+ $('#raSeek').oninput = e => { clearTimeout(timer); timer = 0; repeatEnd = null; if (clip) { audio.currentTime = Math.min(clip.end, clip.start + Number(e.target.value)); clearWord(); sync(); } };
  document.addEventListener('click', e => { const hit = e.target.closest('.ra-hit'); if (hit) { e.preventDefault(); showTip(hit,true); } else if (!e.target.closest('#raTip')) hideTip(); });
  document.addEventListener('pointerover', e => { const hit = e.target.closest('.ra-hit'); if (hit && e.pointerType !== 'touch') showTip(hit); });
  document.addEventListener('pointerout', e => { if (!tipPinned && tipTarget && !tipTarget.contains(e.relatedTarget)) hideTip(); });
@@ -116,6 +119,7 @@ async function init() {
  standalone = !!$('#raApp'); deck = !!document.body.dataset.raDeck; if (!standalone && !deck) return;
  document.body.append(audio); const tip = document.createElement('div'); tip.id = 'raTip'; tip.dir = 'rtl'; tip.lang = 'he'; tip.role = 'tooltip'; tip.hidden = true; document.body.append(tip);
  const host = standalone ? $('#raControls') : document.body.appendChild(Object.assign(document.createElement('div'),{className:'ra-deck-controls'})); host.innerHTML = toolbar(); if (deck) host.hidden = true;
+ const meaningDock = standalone ? $('#raMeaningDock') : host.appendChild(Object.assign(document.createElement('div'),{id:'raMeaningDock',dir:'rtl'})); meaningDock.append($('#raTip'));
  bind(); status('טוען טקסט והקלטה…');
  try {
   [data,timing] = await Promise.all(['content.json','audio.json'].map(async name => { const r = await fetch(new URL(name + '?v=20260922-ra1',base)); if (!r.ok) throw new Error(name + ' ' + r.status); return r.json(); }));
@@ -130,18 +134,16 @@ async function init() {
    $('#raTabs').onclick = e => { const b = e.target.closest('[data-ra-tab]'); if (b) { page = Number(b.dataset.raTab); render(); } };
    $('#raTabs').onkeydown = e => { if (!['ArrowLeft','ArrowRight','Home','End'].includes(e.key)) return; e.preventDefault(); e.stopPropagation(); page = e.key === 'Home' ? 0 : e.key === 'End' ? data.pages.length-1 : Math.max(0,Math.min(data.pages.length-1,page+(e.key==='ArrowRight'?-1:1))); render(); $(`[data-ra-tab="${page}"]`).focus(); };
    $('#raReveal').onclick = () => { const el = $('#raFullTranslation'); el.hidden = !el.hidden; $('#raReveal').textContent = el.hidden ? 'תרגום הקטע' : 'הסתרת התרגום'; };
-   document.addEventListener('keydown', e => { if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey || e.target.closest('input,select,textarea,.ra-hit,[role=tab]')) return; if (['ArrowRight','ArrowDown','PageDown'].includes(e.key)) { e.preventDefault(); next(1); } else if (['ArrowLeft','ArrowUp','PageUp'].includes(e.key)) { e.preventDefault(); next(-1,true); } });
-   $('#raPanel').addEventListener('touchstart', e => { if (e.touches.length === 1) touch = {x:e.touches[0].clientX,y:e.touches[0].clientY}; },{passive:true});
-   $('#raPanel').addEventListener('touchend', e => { if (!touch) return; const t=e.changedTouches[0],dx=t.clientX-touch.x,dy=t.clientY-touch.y; touch=null; if(Math.abs(dx)>55 && Math.abs(dx)>Math.abs(dy)*1.25) next(dx<0?1:-1,true); },{passive:true});
-   $('#raPanel').addEventListener('touchcancel',()=>touch=null,{passive:true}); render();
+   document.addEventListener('keydown', e => { if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey || e.target.closest('input,select,textarea,.ra-hit,[role=tab]')) return; if (['ArrowLeft','ArrowUp','PageDown'].includes(e.key)) { e.preventDefault(); next(1); } else if (['ArrowRight','ArrowDown','PageUp'].includes(e.key)) { e.preventDefault(); next(-1,true); } });
+   bindSwipes($('#raPanel'),d=>next(d,true)); render();
   } else {
    mode = 'sentences';
-   const update = () => { stop(); hideTip(); const s = $('.slide.active[data-ra-sentence]'); host.hidden = !s; if (!s) { clip=null; return; } range([Number(s.dataset.raSentence)]); status('הקראה לאחר שתי שניות · נגיעה במילה לפירוש'); auto(); };
+   const update = () => { stop(); hideTip(); const s = $('.slide.active[data-ra-sentence]'); host.hidden = !s; if (!s) { clip=null; return; } range([Number(s.dataset.raSentence)]); requestAnimationFrame(()=>{document.body.style.setProperty('--ra-toolbar-space',(host.offsetHeight+10)+'px');window.dispatchEvent(new Event('resize'));}); status('הקראה לאחר שתי שניות · נגיעה במילה לפירוש'); auto(); };
    document.addEventListener('teachers:slidechange',update); update();
    document.addEventListener('click',e=>{if(e.target.closest('.section-nav,[data-step],.home'))hideTip();},true);
   }
  } catch (err) { loading = true; stop(); status('לא ניתן לטעון את הקריאה. רעננו את הדף.'); console.error('Read Alone loading:',err); }
 }
-window.TeachersReadAlone = {stop, get audio(){return audio;}, get data(){return data;}, get timing(){return timing;}, get clip(){return clip;}};
+window.TeachersReadAlone = {stop, setPage(n,m='text'){mode=m;if(m==='text')page=n;else sentenceSlide=n;render();}, get mode(){return mode;}, get page(){return page;}, get sentenceSlide(){return sentenceSlide;}, get audio(){return audio;}, get data(){return data;}, get timing(){return timing;}, get clip(){return clip;}};
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded',init,{once:true}); else init();
 })();
