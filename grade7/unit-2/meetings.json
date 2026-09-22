@@ -1,0 +1,623 @@
+[
+  {
+    "title": "Seasons and school years",
+    "goal": "Find when a school year begins and ends.",
+    "prep": [
+      "Write the four seasons in English.",
+      "Think: When does your school year begin?"
+    ],
+    "activities": [
+      {
+        "key": "vocab",
+        "title": "Vocabulary · Group 03, entries 1–18",
+        "href": "vocabulary/full.html#slide-4",
+        "instruction": "Preview this batch. Choose three to five entries for active use; stop at the end of the stated range."
+      },
+      {
+        "key": "listen",
+        "title": "Read & Listen: the main text",
+        "href": "reading/?text=school-calendars",
+        "instruction": "Read the opening, Japan and the two US places. Listen again if you need help."
+      },
+      {
+        "key": "read",
+        "title": "Find the calendar details",
+        "href": "main-text.html",
+        "instruction": "Find the start, the end and the summer holiday length for Japan and the two US places."
+      },
+      {
+        "key": "workbook",
+        "title": "Workbook · page 1",
+        "href": "files/unit2-workbook.pdf#page=1",
+        "instruction": "Answer the two questions. Explain why Japan is different."
+      }
+    ],
+    "timing": [
+      [
+        5,
+        "Opening: name the seasons"
+      ],
+      [
+        12,
+        "Vocabulary preview and retrieval"
+      ],
+      [
+        20,
+        "Read Japan and the US examples"
+      ],
+      [
+        15,
+        "Find and compare calendar facts"
+      ],
+      [
+        15,
+        "Independent workbook answers"
+      ],
+      [
+        5,
+        "Exit check"
+      ]
+    ],
+    "check": "Ask for a season, an end point and a holiday length. Check the fact before correcting the sentence.",
+    "support": "Model one comparison. Then let pairs find a second one without your model.",
+    "exit": "Say why Japan’s summer holiday does not end its school year.",
+    "id": "m1",
+    "number": 1,
+    "group": 3,
+    "start": 1,
+    "end": 18,
+    "guideSlide": 1
+  },
+  {
+    "title": "Different holidays, different calendars",
+    "goal": "Compare holidays and the length of a school year.",
+    "prep": [
+      "Read your notes from Meeting 1.",
+      "Write one question about a school holiday."
+    ],
+    "activities": [
+      {
+        "key": "vocab",
+        "title": "Vocabulary · Group 03, entries 19–36",
+        "href": "vocabulary/full.html#slide-46",
+        "instruction": "Preview this batch. Choose three to five entries for active use; stop at the end of the stated range."
+      },
+      {
+        "key": "read",
+        "title": "England, the UAE and Jersey",
+        "href": "main-text.html",
+        "instruction": "Read the remaining places. Find a season and a holiday length in each one."
+      },
+      {
+        "key": "listen",
+        "title": "Read & Listen: compare the places",
+        "href": "reading/?text=school-calendars",
+        "instruction": "Listen to the remaining sections. Read the final section about the length of a school year."
+      },
+      {
+        "key": "workbook",
+        "title": "Workbook · page 3, Part C",
+        "href": "files/unit2-workbook.pdf#page=3",
+        "instruction": "Answer the calendar questions. Use the text as evidence."
+      }
+    ],
+    "timing": [
+      [
+        7,
+        "Recall the earlier places"
+      ],
+      [
+        12,
+        "Vocabulary preview and retrieval"
+      ],
+      [
+        18,
+        "Read the remaining calendar sections"
+      ],
+      [
+        18,
+        "Compare dates, seasons and holiday lengths"
+      ],
+      [
+        12,
+        "Share and improve answers"
+      ],
+      [
+        5,
+        "Exit check"
+      ]
+    ],
+    "check": "Distinguish a whole school-year span from uninterrupted lessons. Accept about nine months in Anchorage and about eleven in Kent.",
+    "support": "Use a three-part prompt: starts / ends / summer holiday. Remove it for the final comparison.",
+    "exit": "Explain one difference between Anchorage and Miami-Dade.",
+    "id": "m2",
+    "number": 2,
+    "group": 3,
+    "start": 19,
+    "end": 36,
+    "guideSlide": 4
+  },
+  {
+    "title": "WhatsApp from Argentina: routines",
+    "goal": "Describe a routine with I and he.",
+    "prep": [
+      "Think about how you get to school.",
+      "Prepare one sentence beginning with I."
+    ],
+    "activities": [
+      {
+        "key": "vocab",
+        "title": "Vocabulary · Group 03, entries 37–55",
+        "href": "vocabulary/full.html#slide-88",
+        "instruction": "Preview this batch. Choose three to five entries for active use; stop at the end of the stated range."
+      },
+      {
+        "key": "message",
+        "title": "A Horse Before Class · WhatsApp",
+        "href": "journey-horse.html",
+        "instruction": "Read Carlito’s message. Find who travels with him and how far they travel."
+      },
+      {
+        "key": "grammar",
+        "title": "Present Simple A · slides 1–27",
+        "href": "grammar-a/#1",
+        "instruction": "Work on routines and third-person forms. Stop after the first writing task."
+      },
+      {
+        "key": "workbook",
+        "title": "Workbook · page 2",
+        "href": "files/unit2-workbook.pdf#page=2",
+        "instruction": "Answer the reading questions and write two facts about Carlito."
+      }
+    ],
+    "timing": [
+      [
+        5,
+        "Opening diagnosis"
+      ],
+      [
+        10,
+        "Vocabulary preview and retrieval"
+      ],
+      [
+        12,
+        "Read the WhatsApp adaptation"
+      ],
+      [
+        18,
+        "Routines and third person: selected slides"
+      ],
+      [
+        17,
+        "Independent workbook writing"
+      ],
+      [
+        10,
+        "Collect, discuss and check"
+      ]
+    ],
+    "check": "Look for he rides and he wants. The factual content and the third-person ending are separate checks.",
+    "support": "Contrast I ride with he rides. Ask for a new sentence before showing the answer slide.",
+    "exit": "Answer Carlito’s question in one or two sentences.",
+    "id": "m3",
+    "number": 3,
+    "group": 3,
+    "start": 37,
+    "end": 55,
+    "guideSlide": 7
+  },
+  {
+    "title": "What we do and do not do",
+    "goal": "Write clear negative sentences about routines.",
+    "prep": [
+      "Bring the two sentences you wrote about Carlito.",
+      "Think of one thing you do not do on school mornings."
+    ],
+    "activities": [
+      {
+        "key": "vocab",
+        "title": "Vocabulary · Group 04, entries 1–18",
+        "href": "vocabulary/full.html#slide-133",
+        "instruction": "Preview this batch. Choose three to five entries for active use; stop at the end of the stated range."
+      },
+      {
+        "key": "grammar",
+        "title": "Present Simple A · slides 28–46",
+        "href": "grammar-a/#28",
+        "instruction": "Practise do not and does not. Use the base verb after does not."
+      },
+      {
+        "key": "practice",
+        "title": "Words in Context · set 4",
+        "href": "vocabulary/practice.html?set=3",
+        "instruction": "Choose the meaning that fits. Write your own sentence at the writing stop."
+      },
+      {
+        "key": "writing",
+        "title": "Writing sheet · Part A",
+        "href": "worksheet.html",
+        "instruction": "In your notebook, write your routine, a friend’s routine and one negative sentence."
+      }
+    ],
+    "timing": [
+      [
+        7,
+        "Recall and diagnose"
+      ],
+      [
+        10,
+        "Vocabulary preview and retrieval"
+      ],
+      [
+        20,
+        "Negatives and base verbs"
+      ],
+      [
+        15,
+        "Context practice"
+      ],
+      [
+        15,
+        "Independent routine writing"
+      ],
+      [
+        5,
+        "Exit check"
+      ]
+    ],
+    "check": "A correct negative needs both the meaning and the base verb. Do not accept doesn’t walks.",
+    "support": "Keep the original meaning when correcting a sentence. Check be separately from action verbs.",
+    "exit": "Write one true sentence with does not about a friend.",
+    "id": "m4",
+    "number": 4,
+    "group": 4,
+    "start": 1,
+    "end": 18,
+    "guideSlide": 10
+  },
+  {
+    "title": "Email from India: questions and teamwork",
+    "goal": "Ask and answer questions about a journey.",
+    "prep": [
+      "Think: Who travels with you?",
+      "Write one question beginning with Do or Does."
+    ],
+    "activities": [
+      {
+        "key": "vocab",
+        "title": "Vocabulary · Group 04, entries 19–36",
+        "href": "vocabulary/full.html#slide-175",
+        "instruction": "Preview this batch. Choose three to five entries for active use; stop at the end of the stated range."
+      },
+      {
+        "key": "message",
+        "title": "Four Kilometres Together · email",
+        "href": "journey-wheelchair.html",
+        "instruction": "Read Samuel’s email. Find how his brothers help him."
+      },
+      {
+        "key": "grammar",
+        "title": "Present Simple B · slides 1–17",
+        "href": "grammar-b/#1",
+        "instruction": "Practise do/does questions and short answers."
+      },
+      {
+        "key": "workbook",
+        "title": "Workbook · page 4",
+        "href": "files/unit2-workbook.pdf#page=4",
+        "instruction": "Answer the reading questions and practise the question forms."
+      }
+    ],
+    "timing": [
+      [
+        5,
+        "Opening question"
+      ],
+      [
+        10,
+        "Vocabulary preview and retrieval"
+      ],
+      [
+        15,
+        "Read the email adaptation"
+      ],
+      [
+        20,
+        "Do/does and short answers"
+      ],
+      [
+        17,
+        "Workbook questions and answers"
+      ],
+      [
+        5,
+        "Exit check"
+      ]
+    ],
+    "check": "Require a detail from Samuel’s route. Ask who helps, how they help and how far they travel.",
+    "support": "Use a short answer first, then a full sentence. Keep the routine tied to the documentary period.",
+    "exit": "Ask a clear question about Samuel’s journey and answer it.",
+    "id": "m5",
+    "number": 5,
+    "group": 4,
+    "start": 19,
+    "end": 36,
+    "guideSlide": 13
+  },
+  {
+    "title": "Ask a partner about the journey",
+    "goal": "Use question words and frequency words in a conversation.",
+    "prep": [
+      "Prepare two questions about a journey to school.",
+      "Think of something you usually do and something you sometimes do."
+    ],
+    "activities": [
+      {
+        "key": "vocab",
+        "title": "Vocabulary · Group 04, entries 37–55",
+        "href": "vocabulary/full.html#slide-217",
+        "instruction": "Preview this batch. Choose three to five entries for active use; stop at the end of the stated range."
+      },
+      {
+        "key": "grammar",
+        "title": "Present Simple B · slides 18–43",
+        "href": "grammar-b/#18",
+        "instruction": "Practise question words, frequency words and the pair conversation."
+      },
+      {
+        "key": "speaking",
+        "title": "Writing sheet · Part B",
+        "href": "worksheet.html",
+        "instruction": "Ask a partner how they travel and what they do after school. Record the answers."
+      },
+      {
+        "key": "workbook",
+        "title": "Workbook · page 4, Your turn",
+        "href": "files/unit2-workbook.pdf#page=4",
+        "instruction": "Answer Samuel’s question. Compare your journey with his."
+      }
+    ],
+    "timing": [
+      [
+        7,
+        "Recall the email"
+      ],
+      [
+        10,
+        "Vocabulary preview and retrieval"
+      ],
+      [
+        18,
+        "Question words and frequency"
+      ],
+      [
+        20,
+        "Partner interview"
+      ],
+      [
+        12,
+        "Report a partner’s routine"
+      ],
+      [
+        5,
+        "Exit check"
+      ]
+    ],
+    "check": "Who, where, when and how must match the information requested. A subject question such as Who helps Samuel? does not take does.",
+    "support": "Let students rehearse with prompts, then ask a new partner without the prompts.",
+    "exit": "Write one question and one sentence about your partner.",
+    "id": "m6",
+    "number": 6,
+    "group": 4,
+    "start": 37,
+    "end": 55,
+    "guideSlide": 16
+  },
+  {
+    "title": "Instagram from the islands: listen first",
+    "goal": "Find the main idea and details in a recording.",
+    "prep": [
+      "Bring headphones if you will listen on your own.",
+      "Think about travelling across water. Keep the boat text closed until you listen."
+    ],
+    "activities": [
+      {
+        "key": "vocab",
+        "title": "Vocabulary · Group 05, entries 1–18",
+        "href": "vocabulary/full.html#slide-262",
+        "instruction": "Preview this batch. Choose three to five entries for active use; stop at the end of the stated range."
+      },
+      {
+        "key": "listening",
+        "title": "Listen First · the school boat",
+        "href": "listening.html",
+        "instruction": "Listen once for the main idea, then for details. Answer before opening the transcript."
+      },
+      {
+        "key": "message",
+        "title": "The School Boat · Instagram",
+        "href": "journey-boat.html",
+        "instruction": "After listening, read Zoe and Isaac’s post and check your answers."
+      },
+      {
+        "key": "workbook",
+        "title": "Workbook · page 5",
+        "href": "files/unit2-workbook.pdf#page=5",
+        "instruction": "Take notes and compare the boat journey with an earlier message."
+      }
+    ],
+    "timing": [
+      [
+        5,
+        "Predict the topic"
+      ],
+      [
+        10,
+        "Vocabulary preview and retrieval"
+      ],
+      [
+        12,
+        "Two listening passes and notes"
+      ],
+      [
+        15,
+        "Independent listening answers"
+      ],
+      [
+        20,
+        "Read, check and compare"
+      ],
+      [
+        10,
+        "Feedback and exit check"
+      ]
+    ],
+    "check": "Look for another island, five minutes and walking after the boat trip. Sometimes does not mean always.",
+    "support": "Replay the relevant part at the selected speed. Open the transcript only after an independent attempt.",
+    "exit": "Give one similarity and one difference between two documented journeys.",
+    "id": "m7",
+    "number": 7,
+    "group": 5,
+    "start": 1,
+    "end": 18,
+    "guideSlide": 19
+  },
+  {
+    "title": "Write a reply",
+    "goal": "Write a relevant reply of 50–70 words.",
+    "prep": [
+      "Choose Carlito, Samuel, or Zoe and Isaac as your reader.",
+      "Plan an answer to the question at the end of that message."
+    ],
+    "activities": [
+      {
+        "key": "vocab",
+        "title": "Vocabulary · Group 05, entries 19–36",
+        "href": "vocabulary/full.html#slide-304",
+        "instruction": "Preview this batch. Choose three to five entries for active use; stop at the end of the stated range."
+      },
+      {
+        "key": "messages",
+        "title": "Choose a message to answer",
+        "href": "companion-stories.html",
+        "instruction": "Choose the WhatsApp message, email or Instagram post. Find the sender’s question."
+      },
+      {
+        "key": "practice",
+        "title": "Words in Context · set 9",
+        "href": "vocabulary/practice.html?set=8",
+        "instruction": "Review meanings. Choose two suitable vocabulary entries for your reply."
+      },
+      {
+        "key": "writing",
+        "title": "Workbook · page 6",
+        "href": "files/unit2-workbook.pdf#page=6",
+        "instruction": "Plan and write your reply. Include a negative, a frequency word and two vocabulary entries."
+      }
+    ],
+    "timing": [
+      [
+        5,
+        "Choose the reader and purpose"
+      ],
+      [
+        10,
+        "Vocabulary preview and retrieval"
+      ],
+      [
+        10,
+        "Plan a relevant reply"
+      ],
+      [
+        25,
+        "Independent first draft"
+      ],
+      [
+        15,
+        "Feedback and revision"
+      ],
+      [
+        7,
+        "Exit check"
+      ]
+    ],
+    "check": "Assess whether the reply answers the sender’s question before checking grammar. Check meaning, detail, cohesion and independent use.",
+    "support": "Offer a planning prompt when needed. Avoid giving a full model before the student writes.",
+    "exit": "Improve two sentences after feedback and explain one change.",
+    "id": "m8",
+    "number": 8,
+    "group": 5,
+    "start": 19,
+    "end": 36,
+    "guideSlide": 22
+  },
+  {
+    "title": "Review and use it independently",
+    "goal": "Use the unit language without a visible model.",
+    "prep": [
+      "Review your feedback from Meeting 8.",
+      "Choose three vocabulary entries you want to use without help."
+    ],
+    "activities": [
+      {
+        "key": "vocab",
+        "title": "Vocabulary · Group 05, entries 37–55",
+        "href": "vocabulary/full.html#slide-346",
+        "instruction": "Preview this batch. Choose three to five entries for active use; stop at the end of the stated range."
+      },
+      {
+        "key": "practice",
+        "title": "Words in Context · set 11",
+        "href": "vocabulary/practice.html?set=10",
+        "instruction": "Review the final set. Explain your choices and write an original sentence."
+      },
+      {
+        "key": "compare",
+        "title": "Compare two messages from memory",
+        "href": "companion-stories.html",
+        "instruction": "Keep the texts closed while you write one similarity and one difference. Open them to check afterwards."
+      },
+      {
+        "key": "writing",
+        "title": "Workbook · page 6, new reply",
+        "href": "files/unit2-workbook.pdf#page=6",
+        "instruction": "Choose a different reader and write a new reply in your notebook without copying your first draft."
+      }
+    ],
+    "timing": [
+      [
+        7,
+        "Recall without a model"
+      ],
+      [
+        10,
+        "Final vocabulary preview and retrieval"
+      ],
+      [
+        15,
+        "Independent comparison"
+      ],
+      [
+        20,
+        "New reply to a different reader"
+      ],
+      [
+        15,
+        "Feedback and targeted correction"
+      ],
+      [
+        5,
+        "Choose the next learning step"
+      ]
+    ],
+    "check": "Use the new reply and comparison as evidence. Completing a checklist or viewing 165 entries does not establish mastery.",
+    "support": "Record the specific difficulty. Use the reserve meeting for a short targeted task, then reassess.",
+    "exit": "Identify one skill you can now use and one you still need to practise.",
+    "id": "m9",
+    "number": 9,
+    "group": 5,
+    "start": 37,
+    "end": 55,
+    "guideSlide": 25
+  }
+]

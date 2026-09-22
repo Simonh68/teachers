@@ -260,6 +260,10 @@ for title,cards in groups:
     body+='<section class="unit-part"><h2 style="margin-top:32px">'+title+'</h2><div class="grid">'+''.join('<section class="card" dir="ltr"><h2>'+t+'</h2><p>'+d+'</p><a class="btn" href="'+u+'">Open →</a></section>' for t,d,u in cards)+'</div></section>'
 
 (OUT/'index.html').write_text(page('Unit 2 · School Years Around the World',body).replace('class="home" href="./"','class="home" href="../"'))
+# Keep the meeting index and its linked preparation/guide in every rebuild.
+from build_sessions import build as build_meetings
+build_meetings()
+
 pending=[]
 for label,relative in [('recorded vocabulary audio','vocabulary/audio/g05-55.mp3'),('recorded reading audio','reading/assets/school-calendars.mp3'),('Read & Listen','reading/index.html'),('contextual practice','vocabulary/practice.html'),('listening task','listening.html'),('worksheet PDF','files/unit2-workbook.pdf')]:
     if not (OUT/relative).is_file():pending.append(label)

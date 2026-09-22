@@ -34,7 +34,7 @@ class Page(HTMLParser):
         if tag=='a':self.anchor=None
     def handle_data(self, text):
         if self.anchor is not None:self.anchor['text']+=text
-hub = Page((OUT/'index.html').read_text())
+hub = Page((OUT/'resources.html' if (OUT/'resources.html').exists() else OUT/'index.html').read_text())
 assert len(hub.parts) == 3
 for part, (identity, region, style) in zip(hub.parts, expected):
     assert part == ['journey-'+identity+'.html']

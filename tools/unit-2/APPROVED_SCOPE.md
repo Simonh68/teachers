@@ -46,3 +46,7 @@ The user asked to remove fixed calendar years from the main reading, put seasons
 This supersedes earlier five-story and snow-day arrangements. The current sequence is: Part 1, Carlito’s horse journey in Argentina as a WhatsApp classroom message; Part 2, Samuel’s wheelchair journey in India as an email; Part 3, Zoe and Isaac’s boat journey in the Isles of Scilly as a Instagram classroom post. Each is a separate, clearly labelled adaptation with factual source details. The workbook mirrors the distribution and ends with a reply-writing task. English-first content and source labels remain required; Hebrew provides learning support.
 
 The latest platform follow-up selects Instagram for the third message; the earlier Facebook suggestion is superseded.
+
+## Meeting organization and private tracking
+
+The user requested a contents page organized by meetings, clear indication of opened links, native checkboxes for completed activities/meetings, and persistence only on their own phone/browser. They also requested a student preparation sheet and a teacher guide. The existing suggested nine-meeting sequence now forms the index. Both preparation and teaching guidance follow those same meetings. Basic HTML links and checkboxes are enhanced with localStorage; no progress is sent to a server or another user.

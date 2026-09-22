@@ -1,0 +1,33 @@
+{
+  "viewports": [
+    {
+      "width": 1366,
+      "height": 900,
+      "guideSlides": 27,
+      "activities": 36,
+      "privacyRequests": 0
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "guideSlides": 27,
+      "activities": 36,
+      "privacyRequests": 0
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "guideSlides": 27,
+      "activities": 36,
+      "privacyRequests": 0
+    }
+  ],
+  "checks": [
+    "separate-browser isolation",
+    "unavailable-storage fallback",
+    "malformed-state recovery",
+    "all nine vocabulary start positions",
+    "browser-restart persistence"
+  ],
+  "errors": []
+}

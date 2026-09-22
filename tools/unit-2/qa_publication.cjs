@@ -24,6 +24,7 @@ const server=http.createServer((req,res)=>{let file=path.join(root,decodeURIComp
   await visit(new URL('../',base).href);assert(await p.locator('a.card').first().getAttribute('href')==='unit-2/','Unit 2 is first on Grade 7 page');
   assert(await p.locator('a[href="unit-1/"]').count()===1,'Unit 1 link retained');await p.locator('a.card').first().click();
   assert(await p.locator('a.home').getAttribute('href')==='../','Unit hub returns to Grade 7');
+  assert(await p.locator('[data-meeting]').count()===9,'Nine meeting sections');await visit(new URL('resources.html',base).href);
   const links=await p.locator('.card a').evaluateAll(els=>els.map(e=>e.getAttribute('href')));assert(links.length===12,'Twelve unit components in three parts');
   for(const f of [...links.filter(f=>!f.endsWith('.pdf')),'workbook-key.html']){
    await visit(new URL(f,base).href);await p.evaluate(()=>document.fonts.ready);

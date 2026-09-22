@@ -37,3 +37,13 @@ Audio builds reuse files only when their recorded text hashes match. The source 
 Run `verify_revision.py`, `qa_foundation.cjs`, `qa_reading.cjs` and `qa_activities.cjs` with Node and Playwright. `UNIT2_CHROMIUM` may specify an installed Chromium executable. Each writes its corresponding JSON report. The PDF is rendered and visually inspected separately.
 
 Jersey is the English-speaking island used in this edition. The main text uses general seasonal patterns, rounded holiday lengths and supplemental dates, with no fixed calendar year. School-year spans include shorter holidays. The messages use first-person classroom adaptations, not original messages or direct quotations. See `sources/seasonal-calendar-review.md`.
+
+## Meeting index and local checklist
+
+The main unit page now organizes the materials into nine double meetings. Each meeting links to student preparation, the corresponding slides in the 27-slide HTML meeting guide, and four lesson activities. The existing twelve-component resource catalogue is retained at `resources.html`. The printable student preparation sheet is `student-preparation.html`; teacher guidance is `meeting-guide.html`.
+
+Native HTML checkboxes mark activities or whole meetings as completed. Link colour and an Opened badge separately show links opened from the index; opening a link never completes an activity. State is stored only under `teachers-unit2-meetings-v1` in localStorage. No checklist data is transmitted or synced between devices. Clearing browser data removes it. Blocked storage gets an explicit warning and an in-memory fallback. Student readiness ticks are separate from completed lesson activities.
+
+`build_sessions.py` builds the index, preparation sheet and meeting guide without rewriting the texts, recordings or workbook. `build_foundation.py` also calls it to preserve the organization on future rebuilds. The nine vocabulary links open the first unrevealed slide of the specified entry range. Three batches cover each of groups 03–05 without changing any source record.
+
+`qa_meetings.cjs` checks desktop and two mobile sizes, all 27 teacher-guide slides, four-direction touch navigation, link/checkbox independence, reload and browser-restart persistence, separate-browser isolation, blocked/corrupt storage, exact vocabulary start positions and zero network traffic when ticking a box.
