@@ -1,0 +1,2292 @@
+{
+  "version": "g9-read-alone-20260922",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "timing": "Microsoft WordBoundary with normalized character alignment for compound boundaries; not evenly timed",
+  "source_sha256": "bc3c6c57177f4ffc2a53f73b1f09535259ca4722337d0272e59e2377b58d218c",
+  "sha256": "1db89e55506683784bb97ae62f5eef020a8279633950f6aa270584467a9e661f",
+  "duration": 143.88,
+  "audio": "assets/story.mp3?v=bc3c6c57177f",
+  "word_count": 382,
+  "sentences": [
+    {
+      "id": 1,
+      "en": "On Monday evening, Noam opened the school website on his family's computer.",
+      "start": 0.0875,
+      "end": 4.5875,
+      "words": [
+        {
+          "word": "On",
+          "start": 0.0875,
+          "end": 0.2125
+        },
+        {
+          "word": "Monday",
+          "start": 0.225,
+          "end": 0.55
+        },
+        {
+          "word": "evening",
+          "start": 0.5625,
+          "end": 1.0125
+        },
+        {
+          "word": "Noam",
+          "start": 1.575,
+          "end": 1.9125
+        },
+        {
+          "word": "opened",
+          "start": 2.0,
+          "end": 2.3
+        },
+        {
+          "word": "the",
+          "start": 2.3125,
+          "end": 2.375
+        },
+        {
+          "word": "school",
+          "start": 2.3875,
+          "end": 2.7375
+        },
+        {
+          "word": "website",
+          "start": 2.75,
+          "end": 3.3
+        },
+        {
+          "word": "on",
+          "start": 3.3125,
+          "end": 3.425
+        },
+        {
+          "word": "his",
+          "start": 3.4375,
+          "end": 3.6
+        },
+        {
+          "word": "family's",
+          "start": 3.6125,
+          "end": 4.0625
+        },
+        {
+          "word": "computer",
+          "start": 4.075,
+          "end": 4.5875
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "en": "His class was preparing a book sale for a community library.",
+      "start": 4.9875,
+      "end": 8.475,
+      "words": [
+        {
+          "word": "His",
+          "start": 4.9875,
+          "end": 5.1375
+        },
+        {
+          "word": "class",
+          "start": 5.15,
+          "end": 5.575
+        },
+        {
+          "word": "was",
+          "start": 5.5875,
+          "end": 5.775
+        },
+        {
+          "word": "preparing",
+          "start": 5.7875,
+          "end": 6.3125
+        },
+        {
+          "word": "a",
+          "start": 6.325,
+          "end": 6.4375
+        },
+        {
+          "word": "book",
+          "start": 6.45,
+          "end": 6.6625
+        },
+        {
+          "word": "sale",
+          "start": 6.675,
+          "end": 7.0875
+        },
+        {
+          "word": "for",
+          "start": 7.1,
+          "end": 7.3375
+        },
+        {
+          "word": "a",
+          "start": 7.35,
+          "end": 7.4125
+        },
+        {
+          "word": "community",
+          "start": 7.425,
+          "end": 7.825
+        },
+        {
+          "word": "library",
+          "start": 7.8375,
+          "end": 8.475
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "en": "He wanted to make friends with Eitan , the new boy, so he asked him to help with the display .",
+      "start": 8.85,
+      "end": 13.55,
+      "words": [
+        {
+          "word": "He",
+          "start": 8.85,
+          "end": 8.95
+        },
+        {
+          "word": "wanted",
+          "start": 8.9625,
+          "end": 9.2
+        },
+        {
+          "word": "to",
+          "start": 9.2125,
+          "end": 9.2875
+        },
+        {
+          "word": "make",
+          "start": 9.3,
+          "end": 9.5
+        },
+        {
+          "word": "friends",
+          "start": 9.5125,
+          "end": 9.85
+        },
+        {
+          "word": "with",
+          "start": 9.8625,
+          "end": 10.0375
+        },
+        {
+          "word": "Eitan",
+          "start": 10.0625,
+          "end": 10.65
+        },
+        {
+          "word": "the",
+          "start": 10.8625,
+          "end": 10.975
+        },
+        {
+          "word": "new",
+          "start": 10.9875,
+          "end": 11.175
+        },
+        {
+          "word": "boy",
+          "start": 11.1875,
+          "end": 11.5125
+        },
+        {
+          "word": "so",
+          "start": 11.5375,
+          "end": 11.7125
+        },
+        {
+          "word": "he",
+          "start": 11.725,
+          "end": 11.9
+        },
+        {
+          "word": "asked",
+          "start": 11.9125,
+          "end": 12.175
+        },
+        {
+          "word": "him",
+          "start": 12.1875,
+          "end": 12.325
+        },
+        {
+          "word": "to",
+          "start": 12.3375,
+          "end": 12.425
+        },
+        {
+          "word": "help",
+          "start": 12.4375,
+          "end": 12.725
+        },
+        {
+          "word": "with",
+          "start": 12.7375,
+          "end": 12.8375
+        },
+        {
+          "word": "the",
+          "start": 12.85,
+          "end": 12.95
+        },
+        {
+          "word": "display",
+          "start": 12.9625,
+          "end": 13.55
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "en": "Eitan's answer appeared a minute later: “Do it yourself.”",
+      "start": 13.95,
+      "end": 17.5625,
+      "words": [
+        {
+          "word": "Eitan's",
+          "start": 13.95,
+          "end": 14.4
+        },
+        {
+          "word": "answer",
+          "start": 14.4125,
+          "end": 14.825
+        },
+        {
+          "word": "appeared",
+          "start": 14.8375,
+          "end": 15.25
+        },
+        {
+          "word": "a",
+          "start": 15.2625,
+          "end": 15.3
+        },
+        {
+          "word": "minute",
+          "start": 15.3125,
+          "end": 15.625
+        },
+        {
+          "word": "later",
+          "start": 15.6375,
+          "end": 16.0
+        },
+        {
+          "word": "Do",
+          "start": 16.65,
+          "end": 16.7875
+        },
+        {
+          "word": "it",
+          "start": 16.8,
+          "end": 16.8875
+        },
+        {
+          "word": "yourself",
+          "start": 16.9,
+          "end": 17.5625
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "en": "Noam read the three words again.",
+      "start": 17.9375,
+      "end": 19.7375,
+      "words": [
+        {
+          "word": "Noam",
+          "start": 17.9375,
+          "end": 18.275
+        },
+        {
+          "word": "read",
+          "start": 18.2875,
+          "end": 18.5625
+        },
+        {
+          "word": "the",
+          "start": 18.575,
+          "end": 18.675
+        },
+        {
+          "word": "three",
+          "start": 18.6875,
+          "end": 18.9375
+        },
+        {
+          "word": "words",
+          "start": 18.95,
+          "end": 19.275
+        },
+        {
+          "word": "again",
+          "start": 19.2875,
+          "end": 19.7375
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "en": "They sounded like an order.",
+      "start": 20.1125,
+      "end": 21.4625,
+      "words": [
+        {
+          "word": "They",
+          "start": 20.1125,
+          "end": 20.2
+        },
+        {
+          "word": "sounded",
+          "start": 20.2125,
+          "end": 20.65
+        },
+        {
+          "word": "like",
+          "start": 20.6625,
+          "end": 20.8625
+        },
+        {
+          "word": "an",
+          "start": 20.875,
+          "end": 20.975
+        },
+        {
+          "word": "order",
+          "start": 20.9875,
+          "end": 21.4625
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "en": "“He thinks he is better than me,” Noam told his brother.",
+      "start": 22.0875,
+      "end": 25.7375,
+      "words": [
+        {
+          "word": "He",
+          "start": 22.0875,
+          "end": 22.4375
+        },
+        {
+          "word": "thinks",
+          "start": 22.5125,
+          "end": 22.8
+        },
+        {
+          "word": "he",
+          "start": 22.8125,
+          "end": 22.925
+        },
+        {
+          "word": "is",
+          "start": 22.9375,
+          "end": 23.0875
+        },
+        {
+          "word": "better",
+          "start": 23.1,
+          "end": 23.3875
+        },
+        {
+          "word": "than",
+          "start": 23.4,
+          "end": 23.5625
+        },
+        {
+          "word": "me",
+          "start": 23.575,
+          "end": 23.95
+        },
+        {
+          "word": "Noam",
+          "start": 24.4625,
+          "end": 24.8375
+        },
+        {
+          "word": "told",
+          "start": 24.85,
+          "end": 25.1125
+        },
+        {
+          "word": "his",
+          "start": 25.125,
+          "end": 25.2875
+        },
+        {
+          "word": "brother",
+          "start": 25.3,
+          "end": 25.7375
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "en": "He felt his face grow hot.",
+      "start": 26.125,
+      "end": 27.6875,
+      "words": [
+        {
+          "word": "He",
+          "start": 26.125,
+          "end": 26.2
+        },
+        {
+          "word": "felt",
+          "start": 26.2125,
+          "end": 26.4625
+        },
+        {
+          "word": "his",
+          "start": 26.475,
+          "end": 26.65
+        },
+        {
+          "word": "face",
+          "start": 26.6625,
+          "end": 26.9875
+        },
+        {
+          "word": "grow",
+          "start": 27.0,
+          "end": 27.25
+        },
+        {
+          "word": "hot",
+          "start": 27.2625,
+          "end": 27.6875
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "en": "He started writing an angry answer, then stopped.",
+      "start": 28.0875,
+      "end": 31.1375,
+      "words": [
+        {
+          "word": "He",
+          "start": 28.0875,
+          "end": 28.2
+        },
+        {
+          "word": "started",
+          "start": 28.2125,
+          "end": 28.625
+        },
+        {
+          "word": "writing",
+          "start": 28.6375,
+          "end": 29.025
+        },
+        {
+          "word": "an",
+          "start": 29.0375,
+          "end": 29.15
+        },
+        {
+          "word": "angry",
+          "start": 29.1625,
+          "end": 29.5625
+        },
+        {
+          "word": "answer",
+          "start": 29.575,
+          "end": 30.125
+        },
+        {
+          "word": "then",
+          "start": 30.275,
+          "end": 30.5
+        },
+        {
+          "word": "stopped",
+          "start": 30.5125,
+          "end": 31.1375
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "en": "Tomorrow, he decided, he would cancel their work together.",
+      "start": 31.5375,
+      "end": 34.625,
+      "words": [
+        {
+          "word": "Tomorrow",
+          "start": 31.5375,
+          "end": 32.05
+        },
+        {
+          "word": "he",
+          "start": 32.075,
+          "end": 32.25
+        },
+        {
+          "word": "decided",
+          "start": 32.2625,
+          "end": 32.85
+        },
+        {
+          "word": "he",
+          "start": 32.875,
+          "end": 33.075
+        },
+        {
+          "word": "would",
+          "start": 33.0875,
+          "end": 33.25
+        },
+        {
+          "word": "cancel",
+          "start": 33.2625,
+          "end": 33.6625
+        },
+        {
+          "word": "their",
+          "start": 33.675,
+          "end": 33.8375
+        },
+        {
+          "word": "work",
+          "start": 33.85,
+          "end": 34.0875
+        },
+        {
+          "word": "together",
+          "start": 34.1,
+          "end": 34.625
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "en": "The next morning, Noam put the books on the table alone.",
+      "start": 35.0125,
+      "end": 38.1375,
+      "words": [
+        {
+          "word": "The",
+          "start": 35.0125,
+          "end": 35.075
+        },
+        {
+          "word": "next",
+          "start": 35.0875,
+          "end": 35.375
+        },
+        {
+          "word": "morning",
+          "start": 35.3875,
+          "end": 35.85
+        },
+        {
+          "word": "Noam",
+          "start": 35.875,
+          "end": 36.2875
+        },
+        {
+          "word": "put",
+          "start": 36.3,
+          "end": 36.4875
+        },
+        {
+          "word": "the",
+          "start": 36.5,
+          "end": 36.6
+        },
+        {
+          "word": "books",
+          "start": 36.6125,
+          "end": 36.975
+        },
+        {
+          "word": "on",
+          "start": 36.9875,
+          "end": 37.125
+        },
+        {
+          "word": "the",
+          "start": 37.1375,
+          "end": 37.2125
+        },
+        {
+          "word": "table",
+          "start": 37.225,
+          "end": 37.6125
+        },
+        {
+          "word": "alone",
+          "start": 37.625,
+          "end": 38.1375
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "en": "His main concern was the welcome sign.",
+      "start": 38.5375,
+      "end": 40.725,
+      "words": [
+        {
+          "word": "His",
+          "start": 38.5375,
+          "end": 38.675
+        },
+        {
+          "word": "main",
+          "start": 38.6875,
+          "end": 38.95
+        },
+        {
+          "word": "concern",
+          "start": 38.9625,
+          "end": 39.525
+        },
+        {
+          "word": "was",
+          "start": 39.5375,
+          "end": 39.7625
+        },
+        {
+          "word": "the",
+          "start": 39.775,
+          "end": 39.875
+        },
+        {
+          "word": "welcome",
+          "start": 39.8875,
+          "end": 40.25
+        },
+        {
+          "word": "sign",
+          "start": 40.2625,
+          "end": 40.725
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "en": "The letters were uneven, and the table looked empty.",
+      "start": 41.125,
+      "end": 44.475,
+      "words": [
+        {
+          "word": "The",
+          "start": 41.125,
+          "end": 41.225
+        },
+        {
+          "word": "letters",
+          "start": 41.2375,
+          "end": 41.65
+        },
+        {
+          "word": "were",
+          "start": 41.6625,
+          "end": 41.8875
+        },
+        {
+          "word": "uneven",
+          "start": 41.9,
+          "end": 42.5125
+        },
+        {
+          "word": "and",
+          "start": 42.9625,
+          "end": 43.1125
+        },
+        {
+          "word": "the",
+          "start": 43.125,
+          "end": 43.2125
+        },
+        {
+          "word": "table",
+          "start": 43.225,
+          "end": 43.6875
+        },
+        {
+          "word": "looked",
+          "start": 43.7,
+          "end": 43.975
+        },
+        {
+          "word": "empty",
+          "start": 43.9875,
+          "end": 44.475
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "en": "When Eitan approached him with a large blue bag, Noam turned away.",
+      "start": 44.875,
+      "end": 48.925,
+      "words": [
+        {
+          "word": "When",
+          "start": 44.875,
+          "end": 45.0
+        },
+        {
+          "word": "Eitan",
+          "start": 45.0125,
+          "end": 45.375
+        },
+        {
+          "word": "approached",
+          "start": 45.3875,
+          "end": 45.85
+        },
+        {
+          "word": "him",
+          "start": 45.8625,
+          "end": 46.075
+        },
+        {
+          "word": "with",
+          "start": 46.0875,
+          "end": 46.225
+        },
+        {
+          "word": "a",
+          "start": 46.2375,
+          "end": 46.2625
+        },
+        {
+          "word": "large",
+          "start": 46.275,
+          "end": 46.7
+        },
+        {
+          "word": "blue",
+          "start": 46.7125,
+          "end": 46.9
+        },
+        {
+          "word": "bag",
+          "start": 46.9125,
+          "end": 47.35
+        },
+        {
+          "word": "Noam",
+          "start": 47.85,
+          "end": 48.225
+        },
+        {
+          "word": "turned",
+          "start": 48.2375,
+          "end": 48.5
+        },
+        {
+          "word": "away",
+          "start": 48.5125,
+          "end": 48.925
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "en": "“You don't need to help,” he said.",
+      "start": 49.4,
+      "end": 51.225,
+      "words": [
+        {
+          "word": "You",
+          "start": 49.4,
+          "end": 49.4375
+        },
+        {
+          "word": "don't",
+          "start": 49.5125,
+          "end": 49.7625
+        },
+        {
+          "word": "need",
+          "start": 49.775,
+          "end": 49.975
+        },
+        {
+          "word": "to",
+          "start": 49.9875,
+          "end": 50.0625
+        },
+        {
+          "word": "help",
+          "start": 50.075,
+          "end": 50.5375
+        },
+        {
+          "word": "he",
+          "start": 50.575,
+          "end": 50.85
+        },
+        {
+          "word": "said",
+          "start": 50.8625,
+          "end": 51.225
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "en": "“I can see that you don't want to.”",
+      "start": 51.7,
+      "end": 53.4,
+      "words": [
+        {
+          "word": "I",
+          "start": 51.7,
+          "end": 51.725
+        },
+        {
+          "word": "can",
+          "start": 51.8,
+          "end": 51.9625
+        },
+        {
+          "word": "see",
+          "start": 51.975,
+          "end": 52.275
+        },
+        {
+          "word": "that",
+          "start": 52.2875,
+          "end": 52.4625
+        },
+        {
+          "word": "you",
+          "start": 52.475,
+          "end": 52.5875
+        },
+        {
+          "word": "don't",
+          "start": 52.6,
+          "end": 52.8375
+        },
+        {
+          "word": "want",
+          "start": 52.85,
+          "end": 53.1125
+        },
+        {
+          "word": "to",
+          "start": 53.125,
+          "end": 53.4
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "en": "Eitan put down the bag.",
+      "start": 53.775,
+      "end": 55.2625,
+      "words": [
+        {
+          "word": "Eitan",
+          "start": 53.775,
+          "end": 54.225
+        },
+        {
+          "word": "put",
+          "start": 54.2375,
+          "end": 54.4375
+        },
+        {
+          "word": "down",
+          "start": 54.45,
+          "end": 54.7
+        },
+        {
+          "word": "the",
+          "start": 54.7125,
+          "end": 54.8
+        },
+        {
+          "word": "bag",
+          "start": 54.8125,
+          "end": 55.2625
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "en": "“ What about the rest of my message?” he asked.",
+      "start": 55.7375,
+      "end": 58.3,
+      "words": [
+        {
+          "word": "What",
+          "start": 55.7375,
+          "end": 55.7625
+        },
+        {
+          "word": "about",
+          "start": 55.8375,
+          "end": 56.1
+        },
+        {
+          "word": "the",
+          "start": 56.1125,
+          "end": 56.2
+        },
+        {
+          "word": "rest",
+          "start": 56.2125,
+          "end": 56.5125
+        },
+        {
+          "word": "of",
+          "start": 56.525,
+          "end": 56.575
+        },
+        {
+          "word": "my",
+          "start": 56.5875,
+          "end": 56.7125
+        },
+        {
+          "word": "message",
+          "start": 56.725,
+          "end": 57.35
+        },
+        {
+          "word": "he",
+          "start": 57.7375,
+          "end": 57.875
+        },
+        {
+          "word": "asked",
+          "start": 57.8875,
+          "end": 58.3
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "en": "Noam showed him the screen.",
+      "start": 58.6875,
+      "end": 60.175,
+      "words": [
+        {
+          "word": "Noam",
+          "start": 58.6875,
+          "end": 58.9625
+        },
+        {
+          "word": "showed",
+          "start": 58.975,
+          "end": 59.2875
+        },
+        {
+          "word": "him",
+          "start": 59.3,
+          "end": 59.4875
+        },
+        {
+          "word": "the",
+          "start": 59.5,
+          "end": 59.575
+        },
+        {
+          "word": "screen",
+          "start": 59.5875,
+          "end": 60.175
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "en": "Eitan looked surprised.",
+      "start": 60.5375,
+      "end": 61.975,
+      "words": [
+        {
+          "word": "Eitan",
+          "start": 60.5375,
+          "end": 60.9375
+        },
+        {
+          "word": "looked",
+          "start": 60.95,
+          "end": 61.175
+        },
+        {
+          "word": "surprised",
+          "start": 61.1875,
+          "end": 61.975
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "en": "“The second part is missing !",
+      "start": 62.4625,
+      "end": 64.0,
+      "words": [
+        {
+          "word": "The",
+          "start": 62.4625,
+          "end": 62.5
+        },
+        {
+          "word": "second",
+          "start": 62.5,
+          "end": 62.9125
+        },
+        {
+          "word": "part",
+          "start": 62.925,
+          "end": 63.25
+        },
+        {
+          "word": "is",
+          "start": 63.2625,
+          "end": 63.45
+        },
+        {
+          "word": "missing",
+          "start": 63.4625,
+          "end": 64.0
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "en": "I wrote, ‘Do it yourself for now.",
+      "start": 64.3625,
+      "end": 66.6375,
+      "words": [
+        {
+          "word": "I",
+          "start": 64.3625,
+          "end": 64.45
+        },
+        {
+          "word": "wrote",
+          "start": 64.4625,
+          "end": 64.8875
+        },
+        {
+          "word": "Do",
+          "start": 65.3625,
+          "end": 65.5625
+        },
+        {
+          "word": "it",
+          "start": 65.575,
+          "end": 65.675
+        },
+        {
+          "word": "yourself",
+          "start": 65.6875,
+          "end": 66.1125
+        },
+        {
+          "word": "for",
+          "start": 66.125,
+          "end": 66.25
+        },
+        {
+          "word": "now",
+          "start": 66.2625,
+          "end": 66.6375
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "en": "My little brother needs help.",
+      "start": 67.0125,
+      "end": 68.6125,
+      "words": [
+        {
+          "word": "My",
+          "start": 67.0125,
+          "end": 67.15
+        },
+        {
+          "word": "little",
+          "start": 67.1625,
+          "end": 67.425
+        },
+        {
+          "word": "brother",
+          "start": 67.4375,
+          "end": 67.775
+        },
+        {
+          "word": "needs",
+          "start": 67.7875,
+          "end": 68.1
+        },
+        {
+          "word": "help",
+          "start": 68.1125,
+          "end": 68.6125
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "en": "I can bring the stand tomorrow.’”",
+      "start": 69.0125,
+      "end": 70.875,
+      "words": [
+        {
+          "word": "I",
+          "start": 69.0125,
+          "end": 69.175
+        },
+        {
+          "word": "can",
+          "start": 69.1875,
+          "end": 69.3875
+        },
+        {
+          "word": "bring",
+          "start": 69.4,
+          "end": 69.675
+        },
+        {
+          "word": "the",
+          "start": 69.6875,
+          "end": 69.7625
+        },
+        {
+          "word": "stand",
+          "start": 69.775,
+          "end": 70.275
+        },
+        {
+          "word": "tomorrow",
+          "start": 70.2875,
+          "end": 70.875
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "en": "From his bag, Eitan took out a wooden stand.",
+      "start": 71.3,
+      "end": 74.4375,
+      "words": [
+        {
+          "word": "From",
+          "start": 71.3,
+          "end": 71.4375
+        },
+        {
+          "word": "his",
+          "start": 71.45,
+          "end": 71.6125
+        },
+        {
+          "word": "bag",
+          "start": 71.625,
+          "end": 72.0875
+        },
+        {
+          "word": "Eitan",
+          "start": 72.625,
+          "end": 73.0875
+        },
+        {
+          "word": "took",
+          "start": 73.1,
+          "end": 73.3125
+        },
+        {
+          "word": "out",
+          "start": 73.325,
+          "end": 73.4875
+        },
+        {
+          "word": "a",
+          "start": 73.5,
+          "end": 73.5875
+        },
+        {
+          "word": "wooden",
+          "start": 73.6,
+          "end": 73.8875
+        },
+        {
+          "word": "stand",
+          "start": 73.9,
+          "end": 74.4375
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "en": "There was blue paint on his fingers.",
+      "start": 74.825,
+      "end": 76.8,
+      "words": [
+        {
+          "word": "There",
+          "start": 74.825,
+          "end": 74.9375
+        },
+        {
+          "word": "was",
+          "start": 74.95,
+          "end": 75.125
+        },
+        {
+          "word": "blue",
+          "start": 75.1375,
+          "end": 75.4
+        },
+        {
+          "word": "paint",
+          "start": 75.4125,
+          "end": 75.8375
+        },
+        {
+          "word": "on",
+          "start": 75.8625,
+          "end": 76.0
+        },
+        {
+          "word": "his",
+          "start": 76.0125,
+          "end": 76.1875
+        },
+        {
+          "word": "fingers",
+          "start": 76.2,
+          "end": 76.8
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "en": "He and his father finished it late the night before.",
+      "start": 77.2125,
+      "end": 80.125,
+      "words": [
+        {
+          "word": "He",
+          "start": 77.2125,
+          "end": 77.525
+        },
+        {
+          "word": "and",
+          "start": 77.5375,
+          "end": 77.65
+        },
+        {
+          "word": "his",
+          "start": 77.6625,
+          "end": 77.8375
+        },
+        {
+          "word": "father",
+          "start": 77.85,
+          "end": 78.2375
+        },
+        {
+          "word": "finished",
+          "start": 78.25,
+          "end": 78.6875
+        },
+        {
+          "word": "it",
+          "start": 78.7,
+          "end": 78.8375
+        },
+        {
+          "word": "late",
+          "start": 78.85,
+          "end": 79.15
+        },
+        {
+          "word": "the",
+          "start": 79.1625,
+          "end": 79.25
+        },
+        {
+          "word": "night",
+          "start": 79.2625,
+          "end": 79.5625
+        },
+        {
+          "word": "before",
+          "start": 79.575,
+          "end": 80.125
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "en": "Suddenly, Noam understood why Eitan answered so quickly.",
+      "start": 80.4875,
+      "end": 83.95,
+      "words": [
+        {
+          "word": "Suddenly",
+          "start": 80.4875,
+          "end": 81.0875
+        },
+        {
+          "word": "Noam",
+          "start": 81.1125,
+          "end": 81.475
+        },
+        {
+          "word": "understood",
+          "start": 81.4875,
+          "end": 82.0625
+        },
+        {
+          "word": "why",
+          "start": 82.075,
+          "end": 82.3375
+        },
+        {
+          "word": "Eitan",
+          "start": 82.35,
+          "end": 82.775
+        },
+        {
+          "word": "answered",
+          "start": 82.7875,
+          "end": 83.2
+        },
+        {
+          "word": "so",
+          "start": 83.2125,
+          "end": 83.4125
+        },
+        {
+          "word": "quickly",
+          "start": 83.425,
+          "end": 83.95
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "en": "“I assumed you were angry,” Noam said.",
+      "start": 84.425,
+      "end": 86.9125,
+      "words": [
+        {
+          "word": "I",
+          "start": 84.425,
+          "end": 84.4375
+        },
+        {
+          "word": "assumed",
+          "start": 84.5125,
+          "end": 85.0125
+        },
+        {
+          "word": "you",
+          "start": 85.025,
+          "end": 85.1375
+        },
+        {
+          "word": "were",
+          "start": 85.15,
+          "end": 85.3625
+        },
+        {
+          "word": "angry",
+          "start": 85.375,
+          "end": 85.9375
+        },
+        {
+          "word": "Noam",
+          "start": 86.25,
+          "end": 86.5375
+        },
+        {
+          "word": "said",
+          "start": 86.55,
+          "end": 86.9125
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "en": "“But I didn't know for sure .”",
+      "start": 87.4125,
+      "end": 88.825,
+      "words": [
+        {
+          "word": "But",
+          "start": 87.4125,
+          "end": 87.45
+        },
+        {
+          "word": "I",
+          "start": 87.525,
+          "end": 87.6375
+        },
+        {
+          "word": "didn't",
+          "start": 87.65,
+          "end": 87.9375
+        },
+        {
+          "word": "know",
+          "start": 87.95,
+          "end": 88.15
+        },
+        {
+          "word": "for",
+          "start": 88.1625,
+          "end": 88.3125
+        },
+        {
+          "word": "sure",
+          "start": 88.325,
+          "end": 88.825
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "en": "“My first words were unfriendly,” Eitan replied.",
+      "start": 89.3,
+      "end": 92.5875,
+      "words": [
+        {
+          "word": "My",
+          "start": 89.3,
+          "end": 89.35
+        },
+        {
+          "word": "first",
+          "start": 89.425,
+          "end": 89.7875
+        },
+        {
+          "word": "words",
+          "start": 89.8,
+          "end": 90.1375
+        },
+        {
+          "word": "were",
+          "start": 90.15,
+          "end": 90.3625
+        },
+        {
+          "word": "unfriendly",
+          "start": 90.375,
+          "end": 91.1125
+        },
+        {
+          "word": "Eitan",
+          "start": 91.6625,
+          "end": 92.0625
+        },
+        {
+          "word": "replied",
+          "start": 92.075,
+          "end": 92.5875
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "en": "“I agree .",
+      "start": 93.0625,
+      "end": 93.65,
+      "words": [
+        {
+          "word": "I",
+          "start": 93.0625,
+          "end": 93.075
+        },
+        {
+          "word": "agree",
+          "start": 93.15,
+          "end": 93.65
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "en": "I should explain things more clearly.”",
+      "start": 94.05,
+      "end": 96.0875,
+      "words": [
+        {
+          "word": "I",
+          "start": 94.05,
+          "end": 94.1375
+        },
+        {
+          "word": "should",
+          "start": 94.15,
+          "end": 94.3375
+        },
+        {
+          "word": "explain",
+          "start": 94.35,
+          "end": 94.8875
+        },
+        {
+          "word": "things",
+          "start": 94.9,
+          "end": 95.2625
+        },
+        {
+          "word": "more",
+          "start": 95.275,
+          "end": 95.5
+        },
+        {
+          "word": "clearly",
+          "start": 95.5125,
+          "end": 96.0875
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "en": "For a moment, neither boy spoke.",
+      "start": 96.4875,
+      "end": 98.4875,
+      "words": [
+        {
+          "word": "For",
+          "start": 96.4875,
+          "end": 96.6
+        },
+        {
+          "word": "a",
+          "start": 96.6125,
+          "end": 96.65
+        },
+        {
+          "word": "moment",
+          "start": 96.6625,
+          "end": 97.15
+        },
+        {
+          "word": "neither",
+          "start": 97.325,
+          "end": 97.675
+        },
+        {
+          "word": "boy",
+          "start": 97.6875,
+          "end": 97.9
+        },
+        {
+          "word": "spoke",
+          "start": 97.9125,
+          "end": 98.4875
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "en": "Then Noam moved the books, and Eitan placed the stand in the middle.",
+      "start": 98.875,
+      "end": 103.0,
+      "words": [
+        {
+          "word": "Then",
+          "start": 98.875,
+          "end": 99.0375
+        },
+        {
+          "word": "Noam",
+          "start": 99.05,
+          "end": 99.4
+        },
+        {
+          "word": "moved",
+          "start": 99.4125,
+          "end": 99.75
+        },
+        {
+          "word": "the",
+          "start": 99.7625,
+          "end": 99.85
+        },
+        {
+          "word": "books",
+          "start": 99.8625,
+          "end": 100.375
+        },
+        {
+          "word": "and",
+          "start": 100.7125,
+          "end": 100.95
+        },
+        {
+          "word": "Eitan",
+          "start": 100.975,
+          "end": 101.4375
+        },
+        {
+          "word": "placed",
+          "start": 101.45,
+          "end": 101.825
+        },
+        {
+          "word": "the",
+          "start": 101.8375,
+          "end": 101.9
+        },
+        {
+          "word": "stand",
+          "start": 101.9125,
+          "end": 102.3625
+        },
+        {
+          "word": "in",
+          "start": 102.375,
+          "end": 102.5
+        },
+        {
+          "word": "the",
+          "start": 102.5125,
+          "end": 102.5875
+        },
+        {
+          "word": "middle",
+          "start": 102.6,
+          "end": 103.0
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "en": "The welcome sign fitted perfectly .",
+      "start": 103.3875,
+      "end": 105.3875,
+      "words": [
+        {
+          "word": "The",
+          "start": 103.3875,
+          "end": 103.475
+        },
+        {
+          "word": "welcome",
+          "start": 103.4875,
+          "end": 103.8625
+        },
+        {
+          "word": "sign",
+          "start": 103.875,
+          "end": 104.2875
+        },
+        {
+          "word": "fitted",
+          "start": 104.3,
+          "end": 104.6875
+        },
+        {
+          "word": "perfectly",
+          "start": 104.7,
+          "end": 105.3875
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "en": "Noam still remembered the hurt he felt.",
+      "start": 105.7875,
+      "end": 108.0,
+      "words": [
+        {
+          "word": "Noam",
+          "start": 105.7875,
+          "end": 106.0875
+        },
+        {
+          "word": "still",
+          "start": 106.1,
+          "end": 106.45
+        },
+        {
+          "word": "remembered",
+          "start": 106.4625,
+          "end": 106.9125
+        },
+        {
+          "word": "the",
+          "start": 106.925,
+          "end": 107.0125
+        },
+        {
+          "word": "hurt",
+          "start": 107.025,
+          "end": 107.325
+        },
+        {
+          "word": "he",
+          "start": 107.3375,
+          "end": 107.5125
+        },
+        {
+          "word": "felt",
+          "start": 107.525,
+          "end": 108.0
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "en": "A missing sentence did not immediately make that feeling disappear.",
+      "start": 108.3875,
+      "end": 112.025,
+      "words": [
+        {
+          "word": "A",
+          "start": 108.3875,
+          "end": 108.45
+        },
+        {
+          "word": "missing",
+          "start": 108.4625,
+          "end": 108.8
+        },
+        {
+          "word": "sentence",
+          "start": 108.8125,
+          "end": 109.375
+        },
+        {
+          "word": "did",
+          "start": 109.3875,
+          "end": 109.5625
+        },
+        {
+          "word": "not",
+          "start": 109.575,
+          "end": 109.8625
+        },
+        {
+          "word": "immediately",
+          "start": 109.8875,
+          "end": 110.4625
+        },
+        {
+          "word": "make",
+          "start": 110.475,
+          "end": 110.7375
+        },
+        {
+          "word": "that",
+          "start": 110.75,
+          "end": 110.95
+        },
+        {
+          "word": "feeling",
+          "start": 110.9625,
+          "end": 111.35
+        },
+        {
+          "word": "disappear",
+          "start": 111.3625,
+          "end": 112.025
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "en": "However, the stand was evidence that Eitan cared about their project.",
+      "start": 112.425,
+      "end": 116.5625,
+      "words": [
+        {
+          "word": "However",
+          "start": 112.425,
+          "end": 113.075
+        },
+        {
+          "word": "the",
+          "start": 113.1,
+          "end": 113.2
+        },
+        {
+          "word": "stand",
+          "start": 113.2125,
+          "end": 113.675
+        },
+        {
+          "word": "was",
+          "start": 113.6875,
+          "end": 113.925
+        },
+        {
+          "word": "evidence",
+          "start": 113.95,
+          "end": 114.45
+        },
+        {
+          "word": "that",
+          "start": 114.4625,
+          "end": 114.7
+        },
+        {
+          "word": "Eitan",
+          "start": 114.725,
+          "end": 115.125
+        },
+        {
+          "word": "cared",
+          "start": 115.1375,
+          "end": 115.475
+        },
+        {
+          "word": "about",
+          "start": 115.4875,
+          "end": 115.7625
+        },
+        {
+          "word": "their",
+          "start": 115.775,
+          "end": 115.9125
+        },
+        {
+          "word": "project",
+          "start": 115.925,
+          "end": 116.5625
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "en": "Noam thanked him and asked about his brother.",
+      "start": 116.925,
+      "end": 119.4,
+      "words": [
+        {
+          "word": "Noam",
+          "start": 116.925,
+          "end": 117.25
+        },
+        {
+          "word": "thanked",
+          "start": 117.2625,
+          "end": 117.6125
+        },
+        {
+          "word": "him",
+          "start": 117.625,
+          "end": 117.925
+        },
+        {
+          "word": "and",
+          "start": 117.95,
+          "end": 118.125
+        },
+        {
+          "word": "asked",
+          "start": 118.1375,
+          "end": 118.475
+        },
+        {
+          "word": "about",
+          "start": 118.4875,
+          "end": 118.725
+        },
+        {
+          "word": "his",
+          "start": 118.7375,
+          "end": 118.9
+        },
+        {
+          "word": "brother",
+          "start": 118.9125,
+          "end": 119.4
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "en": "That afternoon, they wrote a short rule for their next project: “If a message sounds strange, ask before you assume .”",
+      "start": 119.8,
+      "end": 126.9875,
+      "words": [
+        {
+          "word": "That",
+          "start": 119.8,
+          "end": 119.9625
+        },
+        {
+          "word": "afternoon",
+          "start": 119.975,
+          "end": 120.5375
+        },
+        {
+          "word": "they",
+          "start": 120.9375,
+          "end": 121.05
+        },
+        {
+          "word": "wrote",
+          "start": 121.0625,
+          "end": 121.275
+        },
+        {
+          "word": "a",
+          "start": 121.2875,
+          "end": 121.3125
+        },
+        {
+          "word": "short",
+          "start": 121.325,
+          "end": 121.7
+        },
+        {
+          "word": "rule",
+          "start": 121.7125,
+          "end": 121.9875
+        },
+        {
+          "word": "for",
+          "start": 122.0,
+          "end": 122.125
+        },
+        {
+          "word": "their",
+          "start": 122.1375,
+          "end": 122.2625
+        },
+        {
+          "word": "next",
+          "start": 122.275,
+          "end": 122.5625
+        },
+        {
+          "word": "project",
+          "start": 122.575,
+          "end": 123.1
+        },
+        {
+          "word": "If",
+          "start": 123.75,
+          "end": 123.8375
+        },
+        {
+          "word": "a",
+          "start": 123.85,
+          "end": 123.9
+        },
+        {
+          "word": "message",
+          "start": 123.9125,
+          "end": 124.35
+        },
+        {
+          "word": "sounds",
+          "start": 124.3625,
+          "end": 124.6625
+        },
+        {
+          "word": "strange",
+          "start": 124.675,
+          "end": 125.1875
+        },
+        {
+          "word": "ask",
+          "start": 125.725,
+          "end": 126.025
+        },
+        {
+          "word": "before",
+          "start": 126.0375,
+          "end": 126.375
+        },
+        {
+          "word": "you",
+          "start": 126.3875,
+          "end": 126.5
+        },
+        {
+          "word": "assume",
+          "start": 126.5125,
+          "end": 126.9875
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "en": "In other words , three words do not always tell the whole story.",
+      "start": 127.4,
+      "end": 130.625,
+      "words": [
+        {
+          "word": "In",
+          "start": 127.4,
+          "end": 127.5
+        },
+        {
+          "word": "other",
+          "start": 127.5125,
+          "end": 127.6875
+        },
+        {
+          "word": "words",
+          "start": 127.7,
+          "end": 128.1
+        },
+        {
+          "word": "three",
+          "start": 128.125,
+          "end": 128.4125
+        },
+        {
+          "word": "words",
+          "start": 128.425,
+          "end": 128.8
+        },
+        {
+          "word": "do",
+          "start": 128.8125,
+          "end": 128.925
+        },
+        {
+          "word": "not",
+          "start": 128.9375,
+          "end": 129.1875
+        },
+        {
+          "word": "always",
+          "start": 129.2,
+          "end": 129.5375
+        },
+        {
+          "word": "tell",
+          "start": 129.55,
+          "end": 129.7625
+        },
+        {
+          "word": "the",
+          "start": 129.775,
+          "end": 129.8375
+        },
+        {
+          "word": "whole",
+          "start": 129.85,
+          "end": 130.05
+        },
+        {
+          "word": "story",
+          "start": 130.0625,
+          "end": 130.625
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "en": "As the first visitors arrived, Eitan stood behind the table.",
+      "start": 131.0125,
+      "end": 135.1,
+      "words": [
+        {
+          "word": "As",
+          "start": 131.0125,
+          "end": 131.1375
+        },
+        {
+          "word": "the",
+          "start": 131.15,
+          "end": 131.25
+        },
+        {
+          "word": "first",
+          "start": 131.2625,
+          "end": 131.5875
+        },
+        {
+          "word": "visitors",
+          "start": 131.6,
+          "end": 132.0875
+        },
+        {
+          "word": "arrived",
+          "start": 132.1,
+          "end": 132.7375
+        },
+        {
+          "word": "Eitan",
+          "start": 133.275,
+          "end": 133.7125
+        },
+        {
+          "word": "stood",
+          "start": 133.725,
+          "end": 134.1125
+        },
+        {
+          "word": "behind",
+          "start": 134.125,
+          "end": 134.4875
+        },
+        {
+          "word": "the",
+          "start": 134.5,
+          "end": 134.5625
+        },
+        {
+          "word": "table",
+          "start": 134.575,
+          "end": 135.1
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "en": "Noam moved his own chair beside him.",
+      "start": 135.5,
+      "end": 137.65,
+      "words": [
+        {
+          "word": "Noam",
+          "start": 135.5,
+          "end": 135.8375
+        },
+        {
+          "word": "moved",
+          "start": 135.85,
+          "end": 136.1875
+        },
+        {
+          "word": "his",
+          "start": 136.2,
+          "end": 136.375
+        },
+        {
+          "word": "own",
+          "start": 136.3875,
+          "end": 136.5875
+        },
+        {
+          "word": "chair",
+          "start": 136.6,
+          "end": 136.9375
+        },
+        {
+          "word": "beside",
+          "start": 136.95,
+          "end": 137.3375
+        },
+        {
+          "word": "him",
+          "start": 137.35,
+          "end": 137.65
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "en": "“This one is yours,” he said.",
+      "start": 138.1375,
+      "end": 139.9875,
+      "words": [
+        {
+          "word": "This",
+          "start": 138.1375,
+          "end": 138.225
+        },
+        {
+          "word": "one",
+          "start": 138.3,
+          "end": 138.5375
+        },
+        {
+          "word": "is",
+          "start": 138.55,
+          "end": 138.7125
+        },
+        {
+          "word": "yours",
+          "start": 138.725,
+          "end": 139.325
+        },
+        {
+          "word": "he",
+          "start": 139.35,
+          "end": 139.625
+        },
+        {
+          "word": "said",
+          "start": 139.6375,
+          "end": 139.9875
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "en": "Eitan sat down, and they opened the first box together.",
+      "start": 140.35,
+      "end": 143.475,
+      "words": [
+        {
+          "word": "Eitan",
+          "start": 140.35,
+          "end": 140.75
+        },
+        {
+          "word": "sat",
+          "start": 140.7625,
+          "end": 141.05
+        },
+        {
+          "word": "down",
+          "start": 141.0625,
+          "end": 141.4875
+        },
+        {
+          "word": "and",
+          "start": 141.5125,
+          "end": 141.675
+        },
+        {
+          "word": "they",
+          "start": 141.6875,
+          "end": 141.8625
+        },
+        {
+          "word": "opened",
+          "start": 141.875,
+          "end": 142.1875
+        },
+        {
+          "word": "the",
+          "start": 142.2,
+          "end": 142.275
+        },
+        {
+          "word": "first",
+          "start": 142.2875,
+          "end": 142.6125
+        },
+        {
+          "word": "box",
+          "start": 142.625,
+          "end": 142.9375
+        },
+        {
+          "word": "together",
+          "start": 142.95,
+          "end": 143.475
+        }
+      ]
+    }
+  ]
+}
