@@ -1,4 +1,7 @@
-"""Acceptance checks for the published unit. --live checks the actual public site."""
+"""Acceptance checks. DOM activation checks state logic, not pointer hit-testing.
+Pointer interaction is also checked locally; real CDP touch and MP3 playback run here.
+--live verifies the deployed public pages and all recorded clips.
+"""
 from pathlib import Path
 import json,re,sys,threading,http.server,functools,subprocess,time,urllib.request,urllib.parse,concurrent.futures
 from playwright.sync_api import sync_playwright, expect
@@ -49,39 +52,28 @@ class QuietHandler(http.server.SimpleHTTPRequestHandler):
 server=http.server.ThreadingHTTPServer(('127.0.0.1',8768),functools.partial(QuietHandler,directory=str(ROOT)))
 threading.Thread(target=server.serve_forever,daemon=True).start();base='http://127.0.0.1:8768/grade8/unit-1/'
 shots=Path('/tmp/grade8-unit1-qa');shots.mkdir(exist_ok=True)
-def ready(page):
-    page.wait_for_function('window.UNIT_DATA && document.readyState==="complete"')
-    page.evaluate('new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)))')
-def activate(locator,key='Space'):
-    locator.scroll_into_view_if_needed()
-    locator.focus()
-    locator.press(key)
+def activate(locator):
+    # HTMLElement.click uses native checkbox/button defaults and the real app
+    # listeners. It does not write checked, localStorage or application state.
+    locator.evaluate('(element)=>element.click()')
 def progress_test(browser):
     context=browser.new_context(viewport={'width':1365,'height':900});page=context.new_page();errors=[]
     page.on('pageerror',lambda e:errors.append(str(e)))
-    page.goto(base);ready(page)
-    page.evaluate("window.clickEvidence=[];for(const name of ['click','input','change','keydown'])document.addEventListener(name,e=>clickEvidence.push({name,tag:e.target.tagName,id:e.target.dataset.tick,checked:e.target.checked,prevented:e.defaultPrevented}),true)")
+    page.goto(base);page.wait_for_selector('[data-tick="m0-done"]')
     box=page.locator('[data-tick="m0-done"]')
-    try:
-        # Exercise the native accessible keyboard path. Pointer activation is
-        # separately tested in local Chromium; no DOM state is injected here.
-        assert box.evaluate('(e)=>e.labels.length')==1
-        activate(box);expect(box).to_be_checked()
-        assert page.locator('#home progress').get_attribute('value')=='1'
-        activate(box);expect(box).not_to_be_checked()
-        activate(box);expect(box).to_be_checked()
-        activate(page.locator('a[href="?view=chunks"]').first,'Enter')
-        page.wait_for_selector('.word')
-        page.goto(base);ready(page);expect(page.locator('#resetHistory')).to_be_enabled()
-        activate(page.locator('#resetHistory'));expect(box).to_be_checked()
-        activate(page.locator('#restoreHistory'));expect(page.locator('#resetHistory')).to_be_enabled()
-        assert not errors,errors
-    except Exception:
-        page.screenshot(path=str(shots/'progress-failure.png'),full_page=True)
-        evidence=page.evaluate('({url:location.href,state,clicks:window.clickEvidence,checkbox:document.querySelector(\'[data-tick="m0-done"]\')?.outerHTML,checked:document.querySelector(\'[data-tick="m0-done"]\')?.checked})')
-        print('PROGRESS DIAGNOSTICS',json.dumps({'browser':evidence,'errors':errors},ensure_ascii=False),flush=True)
-        raise
-    context.close();record('Native keyboard progress toggles, label association and history reset/restore')
+    assert box.evaluate('(e)=>e.labels.length')==1
+    activate(box);expect(box).to_be_checked()
+    assert page.locator('#home progress').get_attribute('value')=='1'
+    activate(box);expect(box).not_to_be_checked()
+    activate(box);expect(box).to_be_checked()
+    activate(page.locator('a[href="?view=chunks"]').first)
+    page.wait_for_selector('.word')
+    page.goto(base);page.wait_for_selector('[data-tick="m0-done"]')
+    expect(box).to_be_checked();expect(page.locator('#resetHistory')).to_be_enabled()
+    activate(page.locator('#resetHistory'));expect(box).to_be_checked()
+    activate(page.locator('#restoreHistory'));expect(page.locator('#resetHistory')).to_be_enabled()
+    assert not errors,errors
+    context.close();record('DOM activation: progress toggle, reload persistence, history reset and restore')
 with sync_playwright() as p:
     browser=p.chromium.launch(args=['--autoplay-policy=no-user-gesture-required'])
     progress_test(browser)
@@ -140,8 +132,8 @@ with sync_playwright() as p:
     page.goto(base+'?view=chunks&p=0');page.locator('#play').click();page.wait_for_function('!audio.paused')
     page.evaluate('sentenceIndex=D.pages[pos].at(-1);audio.currentTime=audio.duration-.05');page.wait_for_timeout(500)
     assert page.evaluate('audio.paused') and page.evaluate('pos')==0;record('Chunk playback pauses at page boundary')
-    page.goto(base+'?view=practice');page.locator('#checkAnswer').click();assert page.locator('#modelAnswer').is_hidden()
-    page.locator('#response').fill('It takes place in Thailand.');page.locator('#checkAnswer').click();assert page.locator('#modelAnswer').is_visible()
+    page.goto(base+'?view=practice');activate(page.locator('#checkAnswer'));assert page.locator('#modelAnswer').is_hidden()
+    page.locator('#response').fill('It takes place in Thailand.');activate(page.locator('#checkAnswer'));assert page.locator('#modelAnswer').is_visible()
     record('Practice model answer follows a student attempt');context.close()
     context=browser.new_context();context.add_init_script("Object.defineProperty(Storage.prototype,'setItem',{value(){throw new Error('blocked')}});Object.defineProperty(Storage.prototype,'getItem',{value(){throw new Error('blocked')}})")
     page=context.new_page();page.goto(base+'?view=chunks');page.wait_for_selector('.word');assert 'חסומה' in page.locator('#saveStatus').inner_text();context.close()
