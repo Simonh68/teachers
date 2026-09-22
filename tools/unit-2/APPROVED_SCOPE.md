@@ -34,3 +34,7 @@ The user requires every original-vocabulary correction to be documented in the v
 ## Implementation checkpoint
 
 Reading and vocabulary recordings, Read & Listen, context practice, listening work, the student PDF and answer key are now implemented. The unit remains marked for teacher review before student publication.
+
+## Publication authorization
+
+On 22 September 2026 the user explicitly instructed: “פרסם את היחידה השנייה.” This authorizes publishing the completed Unit 2 edition, including the current country choices and materials, to Teachers. Draft-only restrictions above are superseded for this release. E-Vocab software synchronization remains separately tracked in issue #5.

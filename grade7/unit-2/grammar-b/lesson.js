@@ -21,7 +21,7 @@ if(copied){status.textContent='✓ הקישור הועתק';}else{status.textCon
 function render(){stop();hideTip();const s=slides[i];document.body.classList.toggle('past',s.tense==='עבר');$('#stage').scrollTop=0;const title=`<p class="eyebrow">${esc(s.title)}</p>`,tense=`<p class="tense">${esc(s.tense||'')}</p>`;let c='';
 $('#meaningLens').textContent=homeMode?'חזרה בבית · קראו, נסו ובדקו':'Unit 2 · '+LESSON.subtitle;
 $('.brand').textContent='כיתה ז׳ · Unit 2';
-if(s.kind==='cover')c=title+'<h1>'+esc(s.title)+'</h1><p class="sub">'+esc(s.sub)+'</p><p class="created">טיוטה לעיון המורה · Core I · קבוצות 03–05</p><div class="actions"><button id="start">מתחילים</button><a href="../index.html">כל היחידה</a></div>';
+if(s.kind==='cover')c=title+'<h1>'+esc(s.title)+'</h1><p class="sub">'+esc(s.sub)+'</p><p class="created">Core I · Groups 03–05</p><div class="actions"><button id="start">מתחילים</button><a href="../index.html">כל היחידה</a></div>';
 else if(s.kind==='example')c=title+tense+'<p class="hero english">'+esc(s.en)+'</p><p class="translation '+(s.reveal?'':'hidden')+'" '+(s.reveal?'':'aria-hidden="true"')+'>'+esc(s.he)+'</p>';
 else if(s.kind==='plan')c=`<h2>${esc(s.title)}</h2><ol class="stepList">${s.steps.map(t=>`<li>${esc(t)}</li>`).join('')}</ol>`;
 else if(s.kind==='sentence'){const words=LESSON.sentences[s.n].words;c=`${title}${tense}<p class="hero english"><span class="sentenceWords">${words.map((w,n)=>`<span class="sentenceWord" data-word="${n}" data-he="${esc(w.he)}" tabindex="0" role="button" aria-label="${esc(w.word)} — פירוש">${esc(w.word)}</span>`).join(' ')}</span></p><p class="translation ${s.reveal?'':'hidden'}" ${s.reveal?'':'aria-hidden="true"'}>${esc(s.he)}</p>`;}

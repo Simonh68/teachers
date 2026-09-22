@@ -1,5 +1,6 @@
 {
-  "status": "teacher_review_draft",
+  "status": "published",
+  "published": "2026-09-22",
   "records": 165,
   "groups": [
     3,
@@ -14,8 +15,5 @@
   "vocabulary_corrected_records": 25,
   "vocabulary_book": "corrected: version 4",
   "software_sync_task": "https://github.com/Simonh68/E-Vocab-Band-II/issues/5",
-  "pending": [
-    "teacher review of complete draft",
-    "student publication"
-  ]
+  "pending": []
 }

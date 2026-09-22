@@ -1,6 +1,6 @@
 # Unit 2 — School Years Around the World
 
-The approved `Grade7_Story_Plan_HE.md` and the user's subsequent instructions are recorded in `APPROVED_SCOPE.md`. The unit remains a complete teacher-review draft; student publication is a separate step. Unit 1 is not modified.
+The approved `Grade7_Story_Plan_HE.md` and the user's subsequent instructions are recorded in `APPROVED_SCOPE.md`. The user explicitly authorized publication on 22 September 2026. The unit is published at https://simonh68.github.io/teachers/grade7/unit-2/ and linked first on the Grade 7 page. Unit 1 is not modified.
 
 ## Included
 
@@ -32,8 +32,8 @@ python3 tools/unit-2/build_workbook.py
 
 Audio builds reuse files only when their recorded text hashes match. The source audio is pre-recorded; browser speech synthesis is not used. Grammar template engines are pinned under `templates/` from revision `ee4ad42` so later Unit 1 work cannot silently change this unit. The retired poster story is not a build input.
 
-## Verification and remaining review
+## Verification and scope
 
 Run `qa_foundation.cjs`, `qa_reading.cjs` and `qa_activities.cjs` with Node and Playwright. `UNIT2_CHROMIUM` may specify an installed Chromium executable. Each writes its corresponding JSON report. The PDF is rendered and visually inspected separately.
 
-Jersey is the proposed English-speaking island. Florida's summer length is explicitly a summer 2026 example; other dated summer examples are 2027. Calendars are local examples, not universal country-wide dates. Documentary routines refer to their stated source dates; historical present does not imply current conditions. These scope choices remain visible for teacher review.
+Jersey is the English-speaking island used in this edition. Florida's summer length is explicitly a summer 2026 example; other dated summer examples are 2027. Calendars are local examples, not universal country-wide dates. Documentary routines refer to their stated source dates; historical present does not imply current conditions. These scope choices remain visible in the source notes.

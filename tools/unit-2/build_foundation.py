@@ -1,8 +1,4 @@
-"""Build the review draft from approved scope and exact Core I records.
-
-The rejected poster story is never imported. Recorded audio and complete
-Read Alone playback remain separate completion gates, explicitly labelled.
-"""
+"""Build the published unit from approved scope and exact Core I records."""
 from pathlib import Path
 import json, re, shutil, html
 
@@ -174,7 +170,7 @@ photos={
 for story in stories:
     if story['title'] in photos:
         story['photo']=photos[story['title']]
-save(OUT/'content.json',dict(title='School Years Around the World',status='teacher_review_draft',groups=[3,4,5],main=main_sections,calendar=calendar,stories=stories))
+save(OUT/'content.json',dict(title='School Years Around the World',status='published',published='2026-09-22',groups=[3,4,5],main=main_sections,calendar=calendar,stories=stories))
 
 # Reuse Unit 1's tested navigation and feedback implementation.
 base_js=(TEMPLATES/'grammar/lesson.js').read_text()
@@ -183,7 +179,7 @@ base_js=base_js.replace("'Unit 1 · קוראים וכותבים'","'Unit 2 · '+
 base_js=base_js.replace("'כיתה ז׳ · Unit 1'","'כיתה ז׳ · Unit 2'")
 start=base_js.index("if(s.kind==='cover')")
 end=base_js.index("else if(s.kind==='plan')",start)
-base_js=base_js[:start]+'''if(s.kind==='cover')c=title+'<h1>'+esc(s.title)+'</h1><p class="sub">'+esc(s.sub)+'</p><p class="created">טיוטה לעיון המורה · Core I · קבוצות 03–05</p><div class="actions"><button id="start">מתחילים</button><a href="../index.html">כל היחידה</a></div>';
+base_js=base_js[:start]+'''if(s.kind==='cover')c=title+'<h1>'+esc(s.title)+'</h1><p class="sub">'+esc(s.sub)+'</p><p class="created">Core I · Groups 03–05</p><div class="actions"><button id="start">מתחילים</button><a href="../index.html">כל היחידה</a></div>';
 else if(s.kind==='example')c=title+tense+'<p class="hero english">'+esc(s.en)+'</p><p class="translation '+(s.reveal?'':'hidden')+'" '+(s.reveal?'':'aria-hidden="true"')+'>'+esc(s.he)+'</p>';
 '''+base_js[end:]
 base_js=base_js.replace('<p class="sub">Part A: הווה · Part B: עבר ותרגול משולב</p>','')
@@ -207,7 +203,7 @@ original=TEMPLATES/'vocabulary'
 for name in ['full.html','sequence.js','sequence.css']:
     text=(original/name).read_text()
     if name=='sequence.js':
-        text=text.replace('110','165').replace('Groups 01–02','Groups 03–05').replace('שתי קבוצות','שלוש קבוצות').replace('שתי הקבוצות','שלוש הקבוצות')
+        text=text.replace('מקור העובדה','Source').replace('110','165').replace('Groups 01–02','Groups 03–05').replace('שתי קבוצות','שלוש קבוצות').replace('שתי הקבוצות','שלוש הקבוצות')
         text=text.replace('teachers-grade7-band2-current','teachers-grade7-unit2-band2-current')
         text=text.replace('group-01.html','group-03.html').replace('group-02.html','group-04.html').replace('קבוצה 01','קבוצה 03').replace('קבוצה 02','קבוצה 04')
         needle='תרגול קבוצה 04</a>'
@@ -232,7 +228,7 @@ if not (v/'audio-manifest.json').exists():save(v/'audio-manifest.json',{'clips':
 # Reviewable main text, companion routines, teacher key and printable worksheets.
 esc=html.escape
 def page(title,body):
-    return '<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><link rel="stylesheet" href="unit.css"><style>.text-block{padding-block:18px;border-bottom:1px solid #365c73}.english{font-size:22px;line-height:1.7}summary{cursor:pointer;color:#dfff75}.answerline{height:35px;border-bottom:1px solid #889cab}.draft{color:#ffdc9b}table{width:100%;border-collapse:collapse}td,th{padding:12px;border-bottom:1px solid #537085;text-align:start}.scroll{overflow:auto}@media print{body{background:white;color:black}a{color:black}header,.no-print,details{display:none}main{padding:0;max-width:none}.text-block{break-inside:avoid}.english{font-size:13pt}h1{font-size:24pt;color:black}h2{font-size:18pt}p{font-size:12pt}.answerline{height:26px}@page{size:A4;margin:16mm}}</style></head><body><main><header><a class="home" href="./">⌂</a><p class="draft">Unit 2 · Teacher review edition</p></header><h1>'+esc(title)+'</h1>'+body+'</main></body></html>'
+    return '<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><link rel="stylesheet" href="unit.css"><style>.text-block{padding-block:18px;border-bottom:1px solid #365c73}.english{font-size:22px;line-height:1.7}summary{cursor:pointer;color:#dfff75}.answerline{height:35px;border-bottom:1px solid #889cab}.draft{color:#ffdc9b}table{width:100%;border-collapse:collapse}td,th{padding:12px;border-bottom:1px solid #537085;text-align:start}.scroll{overflow:auto}@media print{body{background:white;color:black}a{color:black}header,.no-print,details{display:none}main{padding:0;max-width:none}.text-block{break-inside:avoid}.english{font-size:13pt}h1{font-size:24pt;color:black}h2{font-size:18pt}p{font-size:12pt}.answerline{height:26px}@page{size:A4;margin:16mm}}</style></head><body><main><header><a class="home" href="./">⌂</a><p class="draft">Unit 2 · Grade 7</p></header><h1>'+esc(title)+'</h1>'+body+'</main></body></html>'
 
 body='<p class="english">When does school begin? When does it end? How long is the summer break?</p><p><a href="reading/?text=school-calendars">Read & Listen →</a></p>'
 for title,en,he in main_sections:
@@ -284,13 +280,12 @@ for name in ['teacher.html','teacher.js','unit.css','hub.js']:
     (OUT/name).write_text(text)
 
 cards=[('Read & Listen','Six texts · short parts · sentence practice','reading/'),('Vocabulary','165 entries · Groups 03–05 · recorded audio','vocabulary/full.html'),('Words in Context','Short practice sets · choose, check and write','vocabulary/practice.html'),('Present Simple A','Routines, third person and negatives','grammar-a/'),('Present Simple B','Questions, frequency and conversations','grammar-b/'),('School Calendars','School years, holidays and seasons','main-text.html'),('Real Journeys','Different journeys — and a day changed by snow','companion-stories.html'),('Listen First','Listen, take notes and check the evidence','listening.html'),('Worksheets','Reading, grammar and independent writing','files/unit2-workbook.pdf'),('Teacher Guide','Teaching sequence, timing and answer keys','teacher.html')]
-body='<p class="english">Grade 7 · Band II, Core I · Groups 03–05</p><p class="draft english">Teacher review edition</p><div class="grid">'+''.join('<section class="card" dir="ltr"><h2>'+t+'</h2><p>'+d+'</p><a class="btn" href="'+u+'">Open →</a></section>' for t,d,u in cards)+'</div>'
+body='<p class="english">Grade 7 · Band II, Core I · Groups 03–05</p><div class="grid">'+''.join('<section class="card" dir="ltr"><h2>'+t+'</h2><p>'+d+'</p><a class="btn" href="'+u+'">Open →</a></section>' for t,d,u in cards)+'</div>'
 body+='<h2 style="margin-top:30px">Vocabulary practice</h2><p>Use the corrected examples in <a href="vocabulary/practice.html">Words in Context</a>.</p>'
 
-(OUT/'index.html').write_text(page('Unit 2 · School Years Around the World',body))
+(OUT/'index.html').write_text(page('Unit 2 · School Years Around the World',body).replace('class="home" href="./"','class="home" href="../"'))
 pending=[]
 for label,relative in [('recorded vocabulary audio','vocabulary/audio/g05-55.mp3'),('recorded reading audio','reading/assets/school-calendars.mp3'),('Read & Listen','reading/index.html'),('contextual practice','vocabulary/practice.html'),('listening task','listening.html'),('worksheet PDF','files/unit2-workbook.pdf')]:
     if not (OUT/relative).is_file():pending.append(label)
-pending += ['teacher review of complete draft','student publication']
-save(OUT/'build-report.json',dict(status='teacher_review_draft',records=len(records),groups=[3,4,5],grammar_a_slides=len(A),grammar_b_slides=len(B),teacher_slides=len(teacher),true_companion_texts=len(stories),main_words=sum(len(re.findall(r"\b[\w’'-]+\b",x[1])) for x in main_sections),vocabulary_corrected_records=len(corrections),vocabulary_book='corrected: version 4',software_sync_task='https://github.com/Simonh68/E-Vocab-Band-II/issues/5',pending=pending))
+save(OUT/'build-report.json',dict(status='published',published='2026-09-22',records=len(records),groups=[3,4,5],grammar_a_slides=len(A),grammar_b_slides=len(B),teacher_slides=len(teacher),true_companion_texts=len(stories),main_words=sum(len(re.findall(r"\b[\w’'-]+\b",x[1])) for x in main_sections),vocabulary_corrected_records=len(corrections),vocabulary_book='corrected: version 4',software_sync_task='https://github.com/Simonh68/E-Vocab-Band-II/issues/5',pending=pending))
 print(json.dumps(json.loads((OUT/'build-report.json').read_text()),ensure_ascii=False))

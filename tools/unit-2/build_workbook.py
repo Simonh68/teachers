@@ -38,7 +38,7 @@ def page(canvas, doc):
     w,h=A4; canvas.saveState(); canvas.setStrokeColor(ACCENT); canvas.setLineWidth(1)
     canvas.line(46,h-35,w-46,h-35)
     canvas.setFont('UnitNunito',8); canvas.setFillColor(INK)
-    canvas.drawString(46,25,'UNIT 2  /  School Years Around the World  /  Teacher review edition')
+    canvas.drawString(46,25,'UNIT 2  /  School Years Around the World  /  Student workbook')
     canvas.drawRightString(w-46,25,str(doc.page)); canvas.restoreState()
 
 title('Reading / 01', 'One World, Different School Years')
