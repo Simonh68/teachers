@@ -25,6 +25,17 @@ def main():
   js=js.replace('async function play(reset = false) {', 'async function play(reset = false) {\n if(reset)repeatEnd=null;')
   js=js.replace('range([Number(s.dataset.raSentence)]); status', "range([Number(s.dataset.raSentence)]); requestAnimationFrame(()=>{document.body.style.setProperty('--ra-toolbar-space',(host.offsetHeight+10)+'px');window.dispatchEvent(new Event('resize'));}); status")
  (O/'player.js').write_text(js)
+ # The source deck starts with a visible cover while current is -1. A deep link
+ # must clear that initial state too, not just hide the previously visited slide.
+ # Normalize every slide before activating the requested one; preserve all IDs.
+ deck_path=R/'grade9/the-message-without-a-voice/index.html'
+ deck_html=deck_path.read_text()
+ old="if (current >= 0) { slides[current].classList.remove('active'); slides[current].hidden = true; }"
+ fixed="slides.forEach(s => { s.classList.remove('active'); s.hidden = true; });"
+ assert old in deck_html or fixed in deck_html, 'Presentation navigation changed: review normalization'
+ deck_html=deck_html.replace(old,fixed)
+ assert "document.dispatchEvent(new CustomEvent('teachers:slidechange'))" in deck_html
+ deck_path.write_text(deck_html)
  css='''
 /* A reserved meaning strip prevents translations from obscuring or moving English. */
 #raMeaningDock{flex:none;min-height:43px;height:43px;max-height:43px;margin-top:5px;border:1px solid #486b83;border-radius:8px;background:#0e2233;padding:5px 9px;overflow:auto;text-align:right;direction:rtl;font:15px/1.4 Arial,sans-serif;color:#d3ef9b}
@@ -50,7 +61,7 @@ body[data-ra-deck] .slide.reading{padding-bottom:calc(var(--nav-height) + var(--
 }
 '''
  if 'A reserved meaning strip' not in (O/'reader.css').read_text():(O/'reader.css').write_text((O/'reader.css').read_text()+css)
- report=json.loads((O/'build-report.json').read_text());report['passages']=len(pages);report['translation_space']='reserved strip, does not cover English';save(O/'build-report.json',report)
+ report=json.loads((O/'build-report.json').read_text());report['passages']=len(pages);report['translation_space']='reserved strip, does not cover English';report['direct_slide_links']='single active slide; original IDs preserved';save(O/'build-report.json',report)
  teacher=R/'grade9/unit-1/teacher.html';doc=BeautifulSoup(teacher.read_text(),'html.parser')
  if not doc.select_one('#read-alone-teacher-text'):
   fragment=BeautifulSoup('''<section class="deck-slide" id="read-alone-teacher-text"><h1>Read Alone Text · קריאה בקטעים</h1><p>אותו סיפור, בשלמותו. לשוניות קצרות, הקראה מוקלטת והדגשת המילה הנשמעת.</p><p>נגיעה או ריחוף על ביטוי מציגים פירוש בעברית ברצועה נפרדת. בסוף כל קטע ההקראה נעצרת; התלמיד ממשיך בלחיצה.</p><p>בכיתה: קריאה, עצירה ושאלת הבנה לפני ההמשך. בבית: חזרה על הקטעים שנלמדו, ללא צורך להאזין לכול שוב.</p><a class="button primary" href="read-alone/">פתיחת הקריאה בקטעים</a></section><section class="deck-slide" id="read-alone-teacher-words"><h1>Read Alone מילה־במילה</h1><p>משפט אחד בכל שקף; בשקף הבא אותו משפט עם תרגום לעברית. בכל שקף אפשר לקבל פירוש נפרד לכל מילה.</p><p>לאחר הפעלת האודיו הראשונה, ההקראה מתחילה לאחר שתי שניות במעבר לשקף. גם שקף התרגום מקריא את האנגלית.</p><p>ברירת המחדל: איטית. אפשר להאט עד רבע מהמהירות; הבחירה נשמרת בין שני המצבים ובמצגת המקורית. פתיחה חדשה אינה מפעילה אודיו מעצמה.</p><a class="button primary" href="read-alone/?mode=sentences">פתיחת משפט־משפט</a></section>''','html.parser')
@@ -58,5 +69,5 @@ body[data-ra-deck] .slide.reading{padding-bottom:calc(var(--nav-height) + var(--
  teacher.write_text(str(doc))
  readme=O/'README.md';extra='\nFinal responsive and teacher-guide integration: python tools/grade9_readalone_finalize.py (after the main builder, before browser QA).\n'
  if extra not in readme.read_text():readme.write_text(readme.read_text()+extra)
- print('Finalized',len(pages),'passages; reserved Hebrew dock; small-screen controls; teacher guide.',flush=True)
+ print('Finalized',len(pages),'passages; reserved Hebrew dock; small-screen controls; teacher guide; single active slide on direct links.',flush=True)
 if __name__=='__main__':main()
