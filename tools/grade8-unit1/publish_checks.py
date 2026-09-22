@@ -1,38 +1,46 @@
-"""Run publication checks without misreporting a failed optional probe.
+"""Run every publication check without suppressing failures.
 
-Reading, recorded audio, mobile navigation, translations, scope, and errors
-remain blocking. The hosted checkbox-activation assertion has disagreed with
-separate local Chromium pointer tests. Preserve that disagreement in the report
-instead of changing the learning interface or claiming every check passed.
+The legacy boundary probe sought before media metadata had loaded and changed
+sentenceIndex without loading that sentence's recording. Replace that probe
+with real playback of each clip on every page, waiting for finite duration
+before seeking near the end. The app's own ended handler must advance between
+clips and stop at the page boundary. All other acceptance checks stay blocking.
 """
 from pathlib import Path
-import json
 
 source = Path(__file__).with_name('verify.py')
 text = source.read_text()
-needle = '    progress_test(browser)\n'
-assert text.count(needle) == 1, 'Review changed acceptance runner before publication'
-replacement = '''    progress_probe_failure = None
-    try:
-        progress_test(browser)
-    except AssertionError as error:
-        progress_probe_failure = str(error)
-        record('Hosted progress-control activation probe', {
-            'status': 'failed',
-            'detail': progress_probe_failure,
-            'separate_evidence': 'Local Chromium pointer checks at 360, 1280 and 1365 px, and local persistence/history tests, passed on the generated interface.'
-        })
-'''
-text = text.replace(needle, replacement)
+old = """    page.goto(base+'?view=chunks&p=0');page.locator('#play').click();page.wait_for_function('!audio.paused')
+    page.evaluate('sentenceIndex=D.pages[pos].at(-1);audio.currentTime=audio.duration-.05');page.wait_for_timeout(500)
+    assert page.evaluate('audio.paused') and page.evaluate('pos')==0;record('Chunk playback pauses at page boundary')
+"""
+new = """    for page_index, ids in enumerate(data['pages']):
+        page.goto(base+'?view=chunks&p='+str(page_index))
+        page.locator('#play').click()
+        for idx in ids:
+            page.wait_for_function(
+                'idx => sentenceIndex === idx && !audio.paused && !audio.seeking '
+                '&& audio.readyState >= 2 && Number.isFinite(audio.duration) '
+                '&& audio.duration > 0 && audio.currentTime > 0 '
+                '&& audio.currentSrc === new URL(D.story[idx].audio,location.href).href',
+                arg=idx, timeout=15000)
+            page.evaluate('audio.currentTime=Math.max(0,audio.duration-.10)')
+        page.wait_for_function(
+            'i => audio.ended && audio.paused && !chain && pos === i',
+            arg=page_index, timeout=10000)
+        assert page.evaluate('sentenceIndex') == ids[-1]
+        assert page.locator('.word.playing').count() == 0
+    record('All 10 reading pages play their actual clips and stop at the page boundary')
+"""
+assert text.count(old) == 1, 'Audio test changed; review before publication'
+text = text.replace(old, new)
+# The actual pointer must operate the controls; do not write app or browser state.
+old_activation = "    locator.evaluate('(element)=>element.click()')"
+assert text.count(old_activation) == 1, 'Activation helper changed; review before publication'
+text = text.replace(old_activation, '    locator.click()')
+text = text.replace(
+    "record('DOM activation: progress toggle, reload persistence, history reset and restore')",
+    "record('Pointer activation: progress toggle, reload persistence, history reset and restore')")
 namespace = {'__file__': str(source), '__name__': '__main__'}
 exec(compile(text, str(source), 'exec'), namespace)
-report_path = source.resolve().parents[2] / 'grade8/unit-1/qa-report.json'
-report = json.loads(report_path.read_text())
-failure = namespace.get('progress_probe_failure')
-report['core_learning_checks_passed'] = True
-report['passed'] = not bool(failure)
-report['publication_limitations'] = ([
-    'The hosted progress-control activation probe failed; local Chromium pointer and state-persistence checks passed. This discrepancy is not represented as a successful hosted test.'
-] if failure else [])
-report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
-print('Mandatory learning checks passed. Hosted progress probe: ' + ('unresolved discrepancy' if failure else 'passed'), flush=True)
+print('Every publication check passed; no failed checks were suppressed.', flush=True)
