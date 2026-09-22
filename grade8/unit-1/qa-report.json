@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "JavaScript syntax",
+      "result": true
+    },
+    {
+      "check": "Approved scope and complete contextual translations",
+      "result": 228
+    },
+    {
+      "check": "Pointer activation: progress toggle, reload persistence, history reset and restore",
+      "result": true
+    },
+    {
+      "check": "All 10 reading pages and 36 sentence/translation slides fit at 360x640",
+      "result": true
+    },
+    {
+      "check": "Speed persists across standards and reload at 360",
+      "result": true
+    },
+    {
+      "check": "Touch navigation and independent word tooltips at 360",
+      "result": true
+    },
+    {
+      "check": "All 10 reading pages and 36 sentence/translation slides fit at 390x844",
+      "result": true
+    },
+    {
+      "check": "Speed persists across standards and reload at 390",
+      "result": true
+    },
+    {
+      "check": "Touch navigation and independent word tooltips at 390",
+      "result": true
+    },
+    {
+      "check": "All 10 reading pages and 36 sentence/translation slides fit at 1365x900",
+      "result": true
+    },
+    {
+      "check": "Speed persists across standards and reload at 1365",
+      "result": true
+    },
+    {
+      "check": "Touch navigation and independent word tooltips at 1365",
+      "result": true
+    },
+    {
+      "check": "Actual recorded audio starts on all 36 sentence and translation slides after the delay",
+      "result": true
+    },
+    {
+      "check": "Rapid navigation cancels the previous audio timer",
+      "result": true
+    },
+    {
+      "check": "All 10 reading pages play their actual clips and stop at the page boundary",
+      "result": true
+    },
+    {
+      "check": "Practice model answer follows a student attempt",
+      "result": true
+    },
+    {
+      "check": "Blocked browser storage does not break learning",
+      "result": true
+    }
+  ]
+}
