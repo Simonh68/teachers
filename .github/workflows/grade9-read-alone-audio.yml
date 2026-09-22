@@ -1,0 +1,42 @@
+name: Grade 9 Read Alone recorded audio
+on:
+  push:
+    branches: [main]
+    paths:
+      - tools/grade9_read_alone_audio.py
+      - .github/workflows/grade9-read-alone-audio.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: grade9-read-alone-audio
+  cancel-in-progress: false
+jobs:
+  audio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install recorded speech dependencies
+        run: python -m pip install edge-tts==7.2.8 beautifulsoup4==4.13.4
+      - name: Generate entire story with real engine word boundaries
+        run: python -u tools/grade9_read_alone_audio.py
+      - name: Commit only verified narration and timings
+        run: |
+          git config user.name 'Teachers Read Alone builder'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add grade9/unit-1/read-alone/audio.json grade9/unit-1/read-alone/assets/story.mp3
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record all 46 Grade 9 story sentences with word timings'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then exit 0; fi
+              sleep 3
+            done
+            exit 1
+          fi
