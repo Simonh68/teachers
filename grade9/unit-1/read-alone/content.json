@@ -1,0 +1,4754 @@
+{
+  "version": "20260922-ra1",
+  "title": "The Message Without a Voice",
+  "sentences": [
+    {
+      "id": 1,
+      "en": "On Monday evening, Noam opened the school website on his family's computer.",
+      "he": "ביום שני בערב נועם פתח את אתר בית הספר במחשב המשפחתי.",
+      "words": [
+        {
+          "word": "On",
+          "he": "ביום",
+          "prefix": "",
+          "index": 0,
+          "start": 0.0875,
+          "end": 0.2125
+        },
+        {
+          "word": "Monday",
+          "he": "שני",
+          "prefix": " ",
+          "index": 1,
+          "start": 0.225,
+          "end": 0.55
+        },
+        {
+          "word": "evening",
+          "he": "בערב",
+          "prefix": " ",
+          "index": 2,
+          "start": 0.5625,
+          "end": 1.0125
+        },
+        {
+          "word": "Noam",
+          "he": "נועם",
+          "prefix": ", ",
+          "index": 3,
+          "start": 1.575,
+          "end": 1.9125
+        },
+        {
+          "word": "opened",
+          "he": "פתח",
+          "prefix": " ",
+          "index": 4,
+          "start": 2.0,
+          "end": 2.3
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 5,
+          "start": 2.3125,
+          "end": 2.375
+        },
+        {
+          "word": "school",
+          "he": "בית הספר",
+          "prefix": " ",
+          "index": 6,
+          "start": 2.3875,
+          "end": 2.7375
+        },
+        {
+          "word": "website",
+          "he": "אתר",
+          "prefix": " ",
+          "index": 7,
+          "start": 2.75,
+          "end": 3.3
+        },
+        {
+          "word": "on",
+          "he": "ב־",
+          "prefix": " ",
+          "index": 8,
+          "start": 3.3125,
+          "end": 3.425
+        },
+        {
+          "word": "his",
+          "he": "שלו",
+          "prefix": " ",
+          "index": 9,
+          "start": 3.4375,
+          "end": 3.6
+        },
+        {
+          "word": "family's",
+          "he": "של המשפחה",
+          "prefix": " ",
+          "index": 10,
+          "start": 3.6125,
+          "end": 4.0625
+        },
+        {
+          "word": "computer",
+          "he": "מחשב",
+          "prefix": " ",
+          "index": 11,
+          "start": 4.075,
+          "end": 4.5875
+        }
+      ],
+      "units": [
+        {
+          "en": "On Monday evening",
+          "he": "ביום שני בערב",
+          "first": 0,
+          "last": 2
+        },
+        {
+          "en": "Noam",
+          "he": "נועם",
+          "first": 3,
+          "last": 3
+        },
+        {
+          "en": "opened",
+          "he": "פתח",
+          "first": 4,
+          "last": 4
+        },
+        {
+          "en": "the school website",
+          "he": "אתר בית הספר",
+          "first": 5,
+          "last": 7
+        },
+        {
+          "en": "on",
+          "he": "ב־",
+          "first": 8,
+          "last": 8
+        },
+        {
+          "en": "his family's computer",
+          "he": "המחשב של משפחתו",
+          "first": 9,
+          "last": 11
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 2,
+      "en": "His class was preparing a book sale for a community library.",
+      "he": "הכיתה שלו התכוננה למכירת ספרים למען ספרייה קהילתית.",
+      "words": [
+        {
+          "word": "His",
+          "he": "שלו",
+          "prefix": "",
+          "index": 12,
+          "start": 4.9875,
+          "end": 5.1375
+        },
+        {
+          "word": "class",
+          "he": "כיתה",
+          "prefix": " ",
+          "index": 13,
+          "start": 5.15,
+          "end": 5.575
+        },
+        {
+          "word": "was",
+          "he": "הייתה — חלק ממבנה העבר הממושך",
+          "prefix": " ",
+          "index": 14,
+          "start": 5.5875,
+          "end": 5.775
+        },
+        {
+          "word": "preparing",
+          "he": "מתכוננת",
+          "prefix": " ",
+          "index": 15,
+          "start": 5.7875,
+          "end": 6.3125
+        },
+        {
+          "word": "a",
+          "he": "מילת יידוע לא־מיודעת",
+          "prefix": " ",
+          "index": 16,
+          "start": 6.325,
+          "end": 6.4375
+        },
+        {
+          "word": "book",
+          "he": "ספרים",
+          "prefix": " ",
+          "index": 17,
+          "start": 6.45,
+          "end": 6.6625
+        },
+        {
+          "word": "sale",
+          "he": "מכירה",
+          "prefix": " ",
+          "index": 18,
+          "start": 6.675,
+          "end": 7.0875
+        },
+        {
+          "word": "for",
+          "he": "למען",
+          "prefix": " ",
+          "index": 19,
+          "start": 7.1,
+          "end": 7.3375
+        },
+        {
+          "word": "a",
+          "he": "מילת יידוע לא־מיודעת",
+          "prefix": " ",
+          "index": 20,
+          "start": 7.35,
+          "end": 7.4125
+        },
+        {
+          "word": "community",
+          "he": "קהילתית",
+          "prefix": " ",
+          "index": 21,
+          "start": 7.425,
+          "end": 7.825
+        },
+        {
+          "word": "library",
+          "he": "ספרייה",
+          "prefix": " ",
+          "index": 22,
+          "start": 7.8375,
+          "end": 8.475
+        }
+      ],
+      "units": [
+        {
+          "en": "His class",
+          "he": "הכיתה שלו",
+          "first": 0,
+          "last": 1
+        },
+        {
+          "en": "was preparing",
+          "he": "התכוננה",
+          "first": 2,
+          "last": 3
+        },
+        {
+          "en": "a book sale",
+          "he": "מכירת ספרים",
+          "first": 4,
+          "last": 6
+        },
+        {
+          "en": "for",
+          "he": "למען",
+          "first": 7,
+          "last": 7
+        },
+        {
+          "en": "a community library",
+          "he": "ספרייה קהילתית",
+          "first": 8,
+          "last": 10
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 3,
+      "en": "He wanted to make friends with Eitan , the new boy, so he asked him to help with the display .",
+      "he": "הוא רצה להתיידד עם איתן, הילד החדש, ולכן ביקש ממנו לעזור בתצוגה.",
+      "words": [
+        {
+          "word": "He",
+          "he": "הוא",
+          "prefix": "",
+          "index": 23,
+          "start": 8.85,
+          "end": 8.95
+        },
+        {
+          "word": "wanted",
+          "he": "רצה",
+          "prefix": " ",
+          "index": 24,
+          "start": 8.9625,
+          "end": 9.2
+        },
+        {
+          "word": "to",
+          "he": "ל־",
+          "prefix": " ",
+          "index": 25,
+          "start": 9.2125,
+          "end": 9.2875
+        },
+        {
+          "word": "make",
+          "he": "ליצור — בצירוף make friends",
+          "prefix": " ",
+          "index": 26,
+          "start": 9.3,
+          "end": 9.5
+        },
+        {
+          "word": "friends",
+          "he": "חברים — בצירוף make friends",
+          "prefix": " ",
+          "index": 27,
+          "start": 9.5125,
+          "end": 9.85
+        },
+        {
+          "word": "with",
+          "he": "עם",
+          "prefix": " ",
+          "index": 28,
+          "start": 9.8625,
+          "end": 10.0375
+        },
+        {
+          "word": "Eitan",
+          "he": "איתן",
+          "prefix": " ",
+          "index": 29,
+          "start": 10.0625,
+          "end": 10.65
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " , ",
+          "index": 30,
+          "start": 10.8625,
+          "end": 10.975
+        },
+        {
+          "word": "new",
+          "he": "חדש",
+          "prefix": " ",
+          "index": 31,
+          "start": 10.9875,
+          "end": 11.175
+        },
+        {
+          "word": "boy",
+          "he": "ילד",
+          "prefix": " ",
+          "index": 32,
+          "start": 11.1875,
+          "end": 11.5125
+        },
+        {
+          "word": "so",
+          "he": "ולכן",
+          "prefix": ", ",
+          "index": 33,
+          "start": 11.5375,
+          "end": 11.7125
+        },
+        {
+          "word": "he",
+          "he": "הוא",
+          "prefix": " ",
+          "index": 34,
+          "start": 11.725,
+          "end": 11.9
+        },
+        {
+          "word": "asked",
+          "he": "ביקש",
+          "prefix": " ",
+          "index": 35,
+          "start": 11.9125,
+          "end": 12.175
+        },
+        {
+          "word": "him",
+          "he": "ממנו",
+          "prefix": " ",
+          "index": 36,
+          "start": 12.1875,
+          "end": 12.325
+        },
+        {
+          "word": "to",
+          "he": "ל־",
+          "prefix": " ",
+          "index": 37,
+          "start": 12.3375,
+          "end": 12.425
+        },
+        {
+          "word": "help",
+          "he": "לעזור",
+          "prefix": " ",
+          "index": 38,
+          "start": 12.4375,
+          "end": 12.725
+        },
+        {
+          "word": "with",
+          "he": "ב־",
+          "prefix": " ",
+          "index": 39,
+          "start": 12.7375,
+          "end": 12.8375
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 40,
+          "start": 12.85,
+          "end": 12.95
+        },
+        {
+          "word": "display",
+          "he": "תצוגה",
+          "prefix": " ",
+          "index": 41,
+          "start": 12.9625,
+          "end": 13.55
+        }
+      ],
+      "units": [
+        {
+          "en": "He",
+          "he": "הוא",
+          "first": 0,
+          "last": 0
+        },
+        {
+          "en": "wanted",
+          "he": "רצה",
+          "first": 1,
+          "last": 1
+        },
+        {
+          "en": "to make friends",
+          "he": "להתיידד",
+          "first": 2,
+          "last": 4
+        },
+        {
+          "en": "with Eitan",
+          "he": "עם איתן",
+          "first": 5,
+          "last": 6
+        },
+        {
+          "en": "the new boy",
+          "he": "הילד החדש",
+          "first": 7,
+          "last": 9
+        },
+        {
+          "en": "so",
+          "he": "ולכן",
+          "first": 10,
+          "last": 10
+        },
+        {
+          "en": "he asked him",
+          "he": "הוא ביקש ממנו",
+          "first": 11,
+          "last": 13
+        },
+        {
+          "en": "to help",
+          "he": "לעזור",
+          "first": 14,
+          "last": 15
+        },
+        {
+          "en": "with the display",
+          "he": "בתצוגה",
+          "first": 16,
+          "last": 18
+        }
+      ],
+      "suffix": " ."
+    },
+    {
+      "id": 4,
+      "en": "Eitan's answer appeared a minute later: “Do it yourself.”",
+      "he": "התשובה של איתן הופיעה כעבור דקה: ״תעשה את זה בעצמך.״",
+      "words": [
+        {
+          "word": "Eitan's",
+          "he": "של איתן",
+          "prefix": "",
+          "index": 42,
+          "start": 13.95,
+          "end": 14.4
+        },
+        {
+          "word": "answer",
+          "he": "תשובה",
+          "prefix": " ",
+          "index": 43,
+          "start": 14.4125,
+          "end": 14.825
+        },
+        {
+          "word": "appeared",
+          "he": "הופיעה",
+          "prefix": " ",
+          "index": 44,
+          "start": 14.8375,
+          "end": 15.25
+        },
+        {
+          "word": "a",
+          "he": "מילת יידוע לא־מיודעת",
+          "prefix": " ",
+          "index": 45,
+          "start": 15.2625,
+          "end": 15.3
+        },
+        {
+          "word": "minute",
+          "he": "דקה",
+          "prefix": " ",
+          "index": 46,
+          "start": 15.3125,
+          "end": 15.625
+        },
+        {
+          "word": "later",
+          "he": "מאוחר יותר",
+          "prefix": " ",
+          "index": 47,
+          "start": 15.6375,
+          "end": 16.0
+        },
+        {
+          "word": "Do",
+          "he": "תעשה",
+          "prefix": ": “",
+          "index": 48,
+          "start": 16.65,
+          "end": 16.7875
+        },
+        {
+          "word": "it",
+          "he": "את זה",
+          "prefix": " ",
+          "index": 49,
+          "start": 16.8,
+          "end": 16.8875
+        },
+        {
+          "word": "yourself",
+          "he": "בעצמך",
+          "prefix": " ",
+          "index": 50,
+          "start": 16.9,
+          "end": 17.5625
+        }
+      ],
+      "units": [
+        {
+          "en": "Eitan's answer",
+          "he": "התשובה של איתן",
+          "first": 0,
+          "last": 1
+        },
+        {
+          "en": "appeared",
+          "he": "הופיעה",
+          "first": 2,
+          "last": 2
+        },
+        {
+          "en": "a minute later",
+          "he": "כעבור דקה",
+          "first": 3,
+          "last": 5
+        },
+        {
+          "en": "Do it yourself",
+          "he": "תעשה את זה בעצמך",
+          "first": 6,
+          "last": 8
+        }
+      ],
+      "suffix": ".”"
+    },
+    {
+      "id": 5,
+      "en": "Noam read the three words again.",
+      "he": "נועם קרא שוב את שלוש המילים.",
+      "words": [
+        {
+          "word": "Noam",
+          "he": "נועם",
+          "prefix": "",
+          "index": 51,
+          "start": 17.9375,
+          "end": 18.275
+        },
+        {
+          "word": "read",
+          "he": "קרא — בזמן עבר",
+          "prefix": " ",
+          "index": 52,
+          "start": 18.2875,
+          "end": 18.5625
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 53,
+          "start": 18.575,
+          "end": 18.675
+        },
+        {
+          "word": "three",
+          "he": "שלוש",
+          "prefix": " ",
+          "index": 54,
+          "start": 18.6875,
+          "end": 18.9375
+        },
+        {
+          "word": "words",
+          "he": "מילים",
+          "prefix": " ",
+          "index": 55,
+          "start": 18.95,
+          "end": 19.275
+        },
+        {
+          "word": "again",
+          "he": "שוב",
+          "prefix": " ",
+          "index": 56,
+          "start": 19.2875,
+          "end": 19.7375
+        }
+      ],
+      "units": [
+        {
+          "en": "Noam",
+          "he": "נועם",
+          "first": 0,
+          "last": 0
+        },
+        {
+          "en": "read",
+          "he": "קרא — בזמן עבר",
+          "first": 1,
+          "last": 1
+        },
+        {
+          "en": "the three words",
+          "he": "את שלוש המילים",
+          "first": 2,
+          "last": 4
+        },
+        {
+          "en": "again",
+          "he": "שוב",
+          "first": 5,
+          "last": 5
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 6,
+      "en": "They sounded like an order.",
+      "he": "הן נשמעו כמו פקודה.",
+      "words": [
+        {
+          "word": "They",
+          "he": "הן — המילים",
+          "prefix": "",
+          "index": 57,
+          "start": 20.1125,
+          "end": 20.2
+        },
+        {
+          "word": "sounded",
+          "he": "נשמעו",
+          "prefix": " ",
+          "index": 58,
+          "start": 20.2125,
+          "end": 20.65
+        },
+        {
+          "word": "like",
+          "he": "כמו",
+          "prefix": " ",
+          "index": 59,
+          "start": 20.6625,
+          "end": 20.8625
+        },
+        {
+          "word": "an",
+          "he": "מילת יידוע לא־מיודעת",
+          "prefix": " ",
+          "index": 60,
+          "start": 20.875,
+          "end": 20.975
+        },
+        {
+          "word": "order",
+          "he": "פקודה",
+          "prefix": " ",
+          "index": 61,
+          "start": 20.9875,
+          "end": 21.4625
+        }
+      ],
+      "units": [
+        {
+          "en": "They",
+          "he": "הן — המילים",
+          "first": 0,
+          "last": 0
+        },
+        {
+          "en": "sounded",
+          "he": "נשמעו",
+          "first": 1,
+          "last": 1
+        },
+        {
+          "en": "like an order",
+          "he": "כמו פקודה",
+          "first": 2,
+          "last": 4
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 7,
+      "en": "“He thinks he is better than me,” Noam told his brother.",
+      "he": "״הוא חושב שהוא יותר טוב ממני,״ אמר נועם לאחיו.",
+      "words": [
+        {
+          "word": "He",
+          "he": "הוא",
+          "prefix": "“",
+          "index": 62,
+          "start": 22.0875,
+          "end": 22.4375
+        },
+        {
+          "word": "thinks",
+          "he": "חושב",
+          "prefix": " ",
+          "index": 63,
+          "start": 22.5125,
+          "end": 22.8
+        },
+        {
+          "word": "he",
+          "he": "הוא",
+          "prefix": " ",
+          "index": 64,
+          "start": 22.8125,
+          "end": 22.925
+        },
+        {
+          "word": "is",
+          "he": "פועל קישור — הוא",
+          "prefix": " ",
+          "index": 65,
+          "start": 22.9375,
+          "end": 23.0875
+        },
+        {
+          "word": "better",
+          "he": "טוב יותר",
+          "prefix": " ",
+          "index": 66,
+          "start": 23.1,
+          "end": 23.3875
+        },
+        {
+          "word": "than",
+          "he": "מאשר",
+          "prefix": " ",
+          "index": 67,
+          "start": 23.4,
+          "end": 23.5625
+        },
+        {
+          "word": "me",
+          "he": "אני — כאן: ממני",
+          "prefix": " ",
+          "index": 68,
+          "start": 23.575,
+          "end": 23.95
+        },
+        {
+          "word": "Noam",
+          "he": "נועם",
+          "prefix": ",” ",
+          "index": 69,
+          "start": 24.4625,
+          "end": 24.8375
+        },
+        {
+          "word": "told",
+          "he": "אמר ל־",
+          "prefix": " ",
+          "index": 70,
+          "start": 24.85,
+          "end": 25.1125
+        },
+        {
+          "word": "his",
+          "he": "שלו",
+          "prefix": " ",
+          "index": 71,
+          "start": 25.125,
+          "end": 25.2875
+        },
+        {
+          "word": "brother",
+          "he": "אח",
+          "prefix": " ",
+          "index": 72,
+          "start": 25.3,
+          "end": 25.7375
+        }
+      ],
+      "units": [
+        {
+          "en": "He thinks",
+          "he": "הוא חושב",
+          "first": 0,
+          "last": 1
+        },
+        {
+          "en": "he is",
+          "he": "שהוא",
+          "first": 2,
+          "last": 3
+        },
+        {
+          "en": "better than me",
+          "he": "יותר טוב ממני",
+          "first": 4,
+          "last": 6
+        },
+        {
+          "en": "Noam",
+          "he": "נועם",
+          "first": 7,
+          "last": 7
+        },
+        {
+          "en": "told his brother",
+          "he": "אמר לאחיו",
+          "first": 8,
+          "last": 10
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 8,
+      "en": "He felt his face grow hot.",
+      "he": "הוא הרגיש שפניו מתחממות.",
+      "words": [
+        {
+          "word": "He",
+          "he": "הוא",
+          "prefix": "",
+          "index": 73,
+          "start": 26.125,
+          "end": 26.2
+        },
+        {
+          "word": "felt",
+          "he": "הרגיש",
+          "prefix": " ",
+          "index": 74,
+          "start": 26.2125,
+          "end": 26.4625
+        },
+        {
+          "word": "his",
+          "he": "שלו",
+          "prefix": " ",
+          "index": 75,
+          "start": 26.475,
+          "end": 26.65
+        },
+        {
+          "word": "face",
+          "he": "פנים",
+          "prefix": " ",
+          "index": 76,
+          "start": 26.6625,
+          "end": 26.9875
+        },
+        {
+          "word": "grow",
+          "he": "נעשות — grow hot",
+          "prefix": " ",
+          "index": 77,
+          "start": 27.0,
+          "end": 27.25
+        },
+        {
+          "word": "hot",
+          "he": "חמות",
+          "prefix": " ",
+          "index": 78,
+          "start": 27.2625,
+          "end": 27.6875
+        }
+      ],
+      "units": [
+        {
+          "en": "He felt",
+          "he": "הוא הרגיש",
+          "first": 0,
+          "last": 1
+        },
+        {
+          "en": "his face",
+          "he": "פניו",
+          "first": 2,
+          "last": 3
+        },
+        {
+          "en": "grow hot",
+          "he": "מתחממות",
+          "first": 4,
+          "last": 5
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 9,
+      "en": "He started writing an angry answer, then stopped.",
+      "he": "הוא התחיל לכתוב תשובה כועסת ואז עצר.",
+      "words": [
+        {
+          "word": "He",
+          "he": "הוא",
+          "prefix": "",
+          "index": 79,
+          "start": 28.0875,
+          "end": 28.2
+        },
+        {
+          "word": "started",
+          "he": "התחיל",
+          "prefix": " ",
+          "index": 80,
+          "start": 28.2125,
+          "end": 28.625
+        },
+        {
+          "word": "writing",
+          "he": "לכתוב",
+          "prefix": " ",
+          "index": 81,
+          "start": 28.6375,
+          "end": 29.025
+        },
+        {
+          "word": "an",
+          "he": "מילת יידוע לא־מיודעת",
+          "prefix": " ",
+          "index": 82,
+          "start": 29.0375,
+          "end": 29.15
+        },
+        {
+          "word": "angry",
+          "he": "כועסת",
+          "prefix": " ",
+          "index": 83,
+          "start": 29.1625,
+          "end": 29.5625
+        },
+        {
+          "word": "answer",
+          "he": "תשובה",
+          "prefix": " ",
+          "index": 84,
+          "start": 29.575,
+          "end": 30.125
+        },
+        {
+          "word": "then",
+          "he": "ואז",
+          "prefix": ", ",
+          "index": 85,
+          "start": 30.275,
+          "end": 30.5
+        },
+        {
+          "word": "stopped",
+          "he": "עצר",
+          "prefix": " ",
+          "index": 86,
+          "start": 30.5125,
+          "end": 31.1375
+        }
+      ],
+      "units": [
+        {
+          "en": "He started writing",
+          "he": "הוא התחיל לכתוב",
+          "first": 0,
+          "last": 2
+        },
+        {
+          "en": "an angry answer",
+          "he": "תשובה כועסת",
+          "first": 3,
+          "last": 5
+        },
+        {
+          "en": "then",
+          "he": "ואז",
+          "first": 6,
+          "last": 6
+        },
+        {
+          "en": "stopped",
+          "he": "עצר",
+          "first": 7,
+          "last": 7
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 10,
+      "en": "Tomorrow, he decided, he would cancel their work together.",
+      "he": "הוא החליט שלמחרת יבטל את העבודה המשותפת שלהם.",
+      "words": [
+        {
+          "word": "Tomorrow",
+          "he": "מחר — מנקודת המבט של נועם",
+          "prefix": "",
+          "index": 87,
+          "start": 31.5375,
+          "end": 32.05
+        },
+        {
+          "word": "he",
+          "he": "הוא",
+          "prefix": ", ",
+          "index": 88,
+          "start": 32.075,
+          "end": 32.25
+        },
+        {
+          "word": "decided",
+          "he": "החליט",
+          "prefix": " ",
+          "index": 89,
+          "start": 32.2625,
+          "end": 32.85
+        },
+        {
+          "word": "he",
+          "he": "הוא",
+          "prefix": ", ",
+          "index": 90,
+          "start": 32.875,
+          "end": 33.075
+        },
+        {
+          "word": "would",
+          "he": "סימון עתיד מתוך העבר",
+          "prefix": " ",
+          "index": 91,
+          "start": 33.0875,
+          "end": 33.25
+        },
+        {
+          "word": "cancel",
+          "he": "יבטל",
+          "prefix": " ",
+          "index": 92,
+          "start": 33.2625,
+          "end": 33.6625
+        },
+        {
+          "word": "their",
+          "he": "שלהם",
+          "prefix": " ",
+          "index": 93,
+          "start": 33.675,
+          "end": 33.8375
+        },
+        {
+          "word": "work",
+          "he": "עבודה",
+          "prefix": " ",
+          "index": 94,
+          "start": 33.85,
+          "end": 34.0875
+        },
+        {
+          "word": "together",
+          "he": "ביחד",
+          "prefix": " ",
+          "index": 95,
+          "start": 34.1,
+          "end": 34.625
+        }
+      ],
+      "units": [
+        {
+          "en": "Tomorrow",
+          "he": "מחר — מנקודת המבט של נועם",
+          "first": 0,
+          "last": 0
+        },
+        {
+          "en": "he decided",
+          "he": "הוא החליט",
+          "first": 1,
+          "last": 2
+        },
+        {
+          "en": "he would cancel",
+          "he": "הוא יבטל — עתיד מתוך העבר",
+          "first": 3,
+          "last": 5
+        },
+        {
+          "en": "their work together",
+          "he": "את העבודה המשותפת שלהם",
+          "first": 6,
+          "last": 8
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 11,
+      "en": "The next morning, Noam put the books on the table alone.",
+      "he": "למחרת בבוקר נועם הניח לבדו את הספרים על השולחן.",
+      "words": [
+        {
+          "word": "The",
+          "he": "ה־",
+          "prefix": "",
+          "index": 96,
+          "start": 35.0125,
+          "end": 35.075
+        },
+        {
+          "word": "next",
+          "he": "הבא",
+          "prefix": " ",
+          "index": 97,
+          "start": 35.0875,
+          "end": 35.375
+        },
+        {
+          "word": "morning",
+          "he": "בוקר",
+          "prefix": " ",
+          "index": 98,
+          "start": 35.3875,
+          "end": 35.85
+        },
+        {
+          "word": "Noam",
+          "he": "נועם",
+          "prefix": ", ",
+          "index": 99,
+          "start": 35.875,
+          "end": 36.2875
+        },
+        {
+          "word": "put",
+          "he": "הניח",
+          "prefix": " ",
+          "index": 100,
+          "start": 36.3,
+          "end": 36.4875
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 101,
+          "start": 36.5,
+          "end": 36.6
+        },
+        {
+          "word": "books",
+          "he": "ספרים",
+          "prefix": " ",
+          "index": 102,
+          "start": 36.6125,
+          "end": 36.975
+        },
+        {
+          "word": "on",
+          "he": "על",
+          "prefix": " ",
+          "index": 103,
+          "start": 36.9875,
+          "end": 37.125
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 104,
+          "start": 37.1375,
+          "end": 37.2125
+        },
+        {
+          "word": "table",
+          "he": "שולחן",
+          "prefix": " ",
+          "index": 105,
+          "start": 37.225,
+          "end": 37.6125
+        },
+        {
+          "word": "alone",
+          "he": "לבדו",
+          "prefix": " ",
+          "index": 106,
+          "start": 37.625,
+          "end": 38.1375
+        }
+      ],
+      "units": [
+        {
+          "en": "The next morning",
+          "he": "למחרת בבוקר",
+          "first": 0,
+          "last": 2
+        },
+        {
+          "en": "Noam",
+          "he": "נועם",
+          "first": 3,
+          "last": 3
+        },
+        {
+          "en": "put",
+          "he": "הניח",
+          "first": 4,
+          "last": 4
+        },
+        {
+          "en": "the books",
+          "he": "את הספרים",
+          "first": 5,
+          "last": 6
+        },
+        {
+          "en": "on the table",
+          "he": "על השולחן",
+          "first": 7,
+          "last": 9
+        },
+        {
+          "en": "alone",
+          "he": "לבדו",
+          "first": 10,
+          "last": 10
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 12,
+      "en": "His main concern was the welcome sign.",
+      "he": "הדאגה העיקרית שלו הייתה שלט קבלת הפנים.",
+      "words": [
+        {
+          "word": "His",
+          "he": "שלו",
+          "prefix": "",
+          "index": 107,
+          "start": 38.5375,
+          "end": 38.675
+        },
+        {
+          "word": "main",
+          "he": "עיקרית",
+          "prefix": " ",
+          "index": 108,
+          "start": 38.6875,
+          "end": 38.95
+        },
+        {
+          "word": "concern",
+          "he": "דאגה",
+          "prefix": " ",
+          "index": 109,
+          "start": 38.9625,
+          "end": 39.525
+        },
+        {
+          "word": "was",
+          "he": "הייתה",
+          "prefix": " ",
+          "index": 110,
+          "start": 39.5375,
+          "end": 39.7625
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 111,
+          "start": 39.775,
+          "end": 39.875
+        },
+        {
+          "word": "welcome",
+          "he": "קבלת פנים",
+          "prefix": " ",
+          "index": 112,
+          "start": 39.8875,
+          "end": 40.25
+        },
+        {
+          "word": "sign",
+          "he": "שלט",
+          "prefix": " ",
+          "index": 113,
+          "start": 40.2625,
+          "end": 40.725
+        }
+      ],
+      "units": [
+        {
+          "en": "His main concern",
+          "he": "הדאגה העיקרית שלו",
+          "first": 0,
+          "last": 2
+        },
+        {
+          "en": "was",
+          "he": "הייתה",
+          "first": 3,
+          "last": 3
+        },
+        {
+          "en": "the welcome sign",
+          "he": "שלט קבלת הפנים",
+          "first": 4,
+          "last": 6
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 13,
+      "en": "The letters were uneven, and the table looked empty.",
+      "he": "האותיות לא היו אחידות והשולחן נראה ריק.",
+      "words": [
+        {
+          "word": "The",
+          "he": "ה־",
+          "prefix": "",
+          "index": 114,
+          "start": 41.125,
+          "end": 41.225
+        },
+        {
+          "word": "letters",
+          "he": "אותיות",
+          "prefix": " ",
+          "index": 115,
+          "start": 41.2375,
+          "end": 41.65
+        },
+        {
+          "word": "were",
+          "he": "היו",
+          "prefix": " ",
+          "index": 116,
+          "start": 41.6625,
+          "end": 41.8875
+        },
+        {
+          "word": "uneven",
+          "he": "לא אחידות",
+          "prefix": " ",
+          "index": 117,
+          "start": 41.9,
+          "end": 42.5125
+        },
+        {
+          "word": "and",
+          "he": "ו־",
+          "prefix": ", ",
+          "index": 118,
+          "start": 42.9625,
+          "end": 43.1125
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 119,
+          "start": 43.125,
+          "end": 43.2125
+        },
+        {
+          "word": "table",
+          "he": "שולחן",
+          "prefix": " ",
+          "index": 120,
+          "start": 43.225,
+          "end": 43.6875
+        },
+        {
+          "word": "looked",
+          "he": "נראה",
+          "prefix": " ",
+          "index": 121,
+          "start": 43.7,
+          "end": 43.975
+        },
+        {
+          "word": "empty",
+          "he": "ריק",
+          "prefix": " ",
+          "index": 122,
+          "start": 43.9875,
+          "end": 44.475
+        }
+      ],
+      "units": [
+        {
+          "en": "The letters",
+          "he": "האותיות",
+          "first": 0,
+          "last": 1
+        },
+        {
+          "en": "were uneven",
+          "he": "לא היו אחידות",
+          "first": 2,
+          "last": 3
+        },
+        {
+          "en": "and",
+          "he": "ו־",
+          "first": 4,
+          "last": 4
+        },
+        {
+          "en": "the table",
+          "he": "השולחן",
+          "first": 5,
+          "last": 6
+        },
+        {
+          "en": "looked empty",
+          "he": "נראה ריק",
+          "first": 7,
+          "last": 8
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 14,
+      "en": "When Eitan approached him with a large blue bag, Noam turned away.",
+      "he": "כאשר איתן התקרב אליו עם תיק כחול גדול, נועם הפנה את פניו.",
+      "words": [
+        {
+          "word": "When",
+          "he": "כאשר",
+          "prefix": "",
+          "index": 123,
+          "start": 44.875,
+          "end": 45.0
+        },
+        {
+          "word": "Eitan",
+          "he": "איתן",
+          "prefix": " ",
+          "index": 124,
+          "start": 45.0125,
+          "end": 45.375
+        },
+        {
+          "word": "approached",
+          "he": "התקרב",
+          "prefix": " ",
+          "index": 125,
+          "start": 45.3875,
+          "end": 45.85
+        },
+        {
+          "word": "him",
+          "he": "אליו",
+          "prefix": " ",
+          "index": 126,
+          "start": 45.8625,
+          "end": 46.075
+        },
+        {
+          "word": "with",
+          "he": "עם",
+          "prefix": " ",
+          "index": 127,
+          "start": 46.0875,
+          "end": 46.225
+        },
+        {
+          "word": "a",
+          "he": "מילת יידוע לא־מיודעת",
+          "prefix": " ",
+          "index": 128,
+          "start": 46.2375,
+          "end": 46.2625
+        },
+        {
+          "word": "large",
+          "he": "גדול",
+          "prefix": " ",
+          "index": 129,
+          "start": 46.275,
+          "end": 46.7
+        },
+        {
+          "word": "blue",
+          "he": "כחול",
+          "prefix": " ",
+          "index": 130,
+          "start": 46.7125,
+          "end": 46.9
+        },
+        {
+          "word": "bag",
+          "he": "תיק",
+          "prefix": " ",
+          "index": 131,
+          "start": 46.9125,
+          "end": 47.35
+        },
+        {
+          "word": "Noam",
+          "he": "נועם",
+          "prefix": ", ",
+          "index": 132,
+          "start": 47.85,
+          "end": 48.225
+        },
+        {
+          "word": "turned",
+          "he": "פנה",
+          "prefix": " ",
+          "index": 133,
+          "start": 48.2375,
+          "end": 48.5
+        },
+        {
+          "word": "away",
+          "he": "הצדה — turned away",
+          "prefix": " ",
+          "index": 134,
+          "start": 48.5125,
+          "end": 48.925
+        }
+      ],
+      "units": [
+        {
+          "en": "When",
+          "he": "כאשר",
+          "first": 0,
+          "last": 0
+        },
+        {
+          "en": "Eitan",
+          "he": "איתן",
+          "first": 1,
+          "last": 1
+        },
+        {
+          "en": "approached him",
+          "he": "התקרב אליו",
+          "first": 2,
+          "last": 3
+        },
+        {
+          "en": "with",
+          "he": "עם",
+          "first": 4,
+          "last": 4
+        },
+        {
+          "en": "a large blue bag",
+          "he": "תיק כחול גדול",
+          "first": 5,
+          "last": 8
+        },
+        {
+          "en": "Noam",
+          "he": "נועם",
+          "first": 9,
+          "last": 9
+        },
+        {
+          "en": "turned away",
+          "he": "הפנה את פניו",
+          "first": 10,
+          "last": 11
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 15,
+      "en": "“You don't need to help,” he said.",
+      "he": "״אתה לא צריך לעזור,״ הוא אמר.",
+      "words": [
+        {
+          "word": "You",
+          "he": "אתה",
+          "prefix": "“",
+          "index": 135,
+          "start": 49.4,
+          "end": 49.4375
+        },
+        {
+          "word": "don't",
+          "he": "לא — do not",
+          "prefix": " ",
+          "index": 136,
+          "start": 49.5125,
+          "end": 49.7625
+        },
+        {
+          "word": "need",
+          "he": "צריך",
+          "prefix": " ",
+          "index": 137,
+          "start": 49.775,
+          "end": 49.975
+        },
+        {
+          "word": "to",
+          "he": "ל־",
+          "prefix": " ",
+          "index": 138,
+          "start": 49.9875,
+          "end": 50.0625
+        },
+        {
+          "word": "help",
+          "he": "לעזור",
+          "prefix": " ",
+          "index": 139,
+          "start": 50.075,
+          "end": 50.5375
+        },
+        {
+          "word": "he",
+          "he": "הוא",
+          "prefix": ",” ",
+          "index": 140,
+          "start": 50.575,
+          "end": 50.85
+        },
+        {
+          "word": "said",
+          "he": "אמר",
+          "prefix": " ",
+          "index": 141,
+          "start": 50.8625,
+          "end": 51.225
+        }
+      ],
+      "units": [
+        {
+          "en": "You don't need",
+          "he": "אתה לא צריך",
+          "first": 0,
+          "last": 2
+        },
+        {
+          "en": "to help",
+          "he": "לעזור",
+          "first": 3,
+          "last": 4
+        },
+        {
+          "en": "he said",
+          "he": "הוא אמר",
+          "first": 5,
+          "last": 6
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 16,
+      "en": "“I can see that you don't want to.”",
+      "he": "״אני מבין שאתה לא רוצה.״",
+      "words": [
+        {
+          "word": "I",
+          "he": "אני",
+          "prefix": "“",
+          "index": 142,
+          "start": 51.7,
+          "end": 51.725
+        },
+        {
+          "word": "can",
+          "he": "יכול — כאן חלק מהביטוי can see",
+          "prefix": " ",
+          "index": 143,
+          "start": 51.8,
+          "end": 51.9625
+        },
+        {
+          "word": "see",
+          "he": "מבין",
+          "prefix": " ",
+          "index": 144,
+          "start": 51.975,
+          "end": 52.275
+        },
+        {
+          "word": "that",
+          "he": "ש־",
+          "prefix": " ",
+          "index": 145,
+          "start": 52.2875,
+          "end": 52.4625
+        },
+        {
+          "word": "you",
+          "he": "אתה",
+          "prefix": " ",
+          "index": 146,
+          "start": 52.475,
+          "end": 52.5875
+        },
+        {
+          "word": "don't",
+          "he": "לא — do not",
+          "prefix": " ",
+          "index": 147,
+          "start": 52.6,
+          "end": 52.8375
+        },
+        {
+          "word": "want",
+          "he": "רוצה",
+          "prefix": " ",
+          "index": 148,
+          "start": 52.85,
+          "end": 53.1125
+        },
+        {
+          "word": "to",
+          "he": "לעשות זאת — מתייחס לעזרה",
+          "prefix": " ",
+          "index": 149,
+          "start": 53.125,
+          "end": 53.4
+        }
+      ],
+      "units": [
+        {
+          "en": "I can see",
+          "he": "אני מבין",
+          "first": 0,
+          "last": 2
+        },
+        {
+          "en": "that",
+          "he": "ש־",
+          "first": 3,
+          "last": 3
+        },
+        {
+          "en": "you don't want to",
+          "he": "אתה לא רוצה",
+          "first": 4,
+          "last": 7
+        }
+      ],
+      "suffix": ".”"
+    },
+    {
+      "id": 17,
+      "en": "Eitan put down the bag.",
+      "he": "איתן הניח את התיק.",
+      "words": [
+        {
+          "word": "Eitan",
+          "he": "איתן",
+          "prefix": "",
+          "index": 150,
+          "start": 53.775,
+          "end": 54.225
+        },
+        {
+          "word": "put",
+          "he": "הניח",
+          "prefix": " ",
+          "index": 151,
+          "start": 54.2375,
+          "end": 54.4375
+        },
+        {
+          "word": "down",
+          "he": "חלק מהפועל put down — הניח",
+          "prefix": " ",
+          "index": 152,
+          "start": 54.45,
+          "end": 54.7
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 153,
+          "start": 54.7125,
+          "end": 54.8
+        },
+        {
+          "word": "bag",
+          "he": "תיק",
+          "prefix": " ",
+          "index": 154,
+          "start": 54.8125,
+          "end": 55.2625
+        }
+      ],
+      "units": [
+        {
+          "en": "Eitan",
+          "he": "איתן",
+          "first": 0,
+          "last": 0
+        },
+        {
+          "en": "put down",
+          "he": "הניח",
+          "first": 1,
+          "last": 2
+        },
+        {
+          "en": "the bag",
+          "he": "את התיק",
+          "first": 3,
+          "last": 4
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 18,
+      "en": "“ What about the rest of my message?” he asked.",
+      "he": "״ומה לגבי שאר ההודעה שלי?״ הוא שאל.",
+      "words": [
+        {
+          "word": "What",
+          "he": "מה",
+          "prefix": "“ ",
+          "index": 155,
+          "start": 55.7375,
+          "end": 55.7625
+        },
+        {
+          "word": "about",
+          "he": "לגבי",
+          "prefix": " ",
+          "index": 156,
+          "start": 55.8375,
+          "end": 56.1
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 157,
+          "start": 56.1125,
+          "end": 56.2
+        },
+        {
+          "word": "rest",
+          "he": "שאר",
+          "prefix": " ",
+          "index": 158,
+          "start": 56.2125,
+          "end": 56.5125
+        },
+        {
+          "word": "of",
+          "he": "של",
+          "prefix": " ",
+          "index": 159,
+          "start": 56.525,
+          "end": 56.575
+        },
+        {
+          "word": "my",
+          "he": "שלי",
+          "prefix": " ",
+          "index": 160,
+          "start": 56.5875,
+          "end": 56.7125
+        },
+        {
+          "word": "message",
+          "he": "הודעה",
+          "prefix": " ",
+          "index": 161,
+          "start": 56.725,
+          "end": 57.35
+        },
+        {
+          "word": "he",
+          "he": "הוא",
+          "prefix": "?” ",
+          "index": 162,
+          "start": 57.7375,
+          "end": 57.875
+        },
+        {
+          "word": "asked",
+          "he": "שאל",
+          "prefix": " ",
+          "index": 163,
+          "start": 57.8875,
+          "end": 58.3
+        }
+      ],
+      "units": [
+        {
+          "en": "What about",
+          "he": "מה לגבי",
+          "first": 0,
+          "last": 1
+        },
+        {
+          "en": "the rest",
+          "he": "השאר",
+          "first": 2,
+          "last": 3
+        },
+        {
+          "en": "of my message",
+          "he": "של ההודעה שלי",
+          "first": 4,
+          "last": 6
+        },
+        {
+          "en": "he asked",
+          "he": "הוא שאל",
+          "first": 7,
+          "last": 8
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 19,
+      "en": "Noam showed him the screen.",
+      "he": "נועם הראה לו את המסך.",
+      "words": [
+        {
+          "word": "Noam",
+          "he": "נועם",
+          "prefix": "",
+          "index": 164,
+          "start": 58.6875,
+          "end": 58.9625
+        },
+        {
+          "word": "showed",
+          "he": "הראה",
+          "prefix": " ",
+          "index": 165,
+          "start": 58.975,
+          "end": 59.2875
+        },
+        {
+          "word": "him",
+          "he": "לו",
+          "prefix": " ",
+          "index": 166,
+          "start": 59.3,
+          "end": 59.4875
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 167,
+          "start": 59.5,
+          "end": 59.575
+        },
+        {
+          "word": "screen",
+          "he": "מסך",
+          "prefix": " ",
+          "index": 168,
+          "start": 59.5875,
+          "end": 60.175
+        }
+      ],
+      "units": [
+        {
+          "en": "Noam",
+          "he": "נועם",
+          "first": 0,
+          "last": 0
+        },
+        {
+          "en": "showed him",
+          "he": "הראה לו",
+          "first": 1,
+          "last": 2
+        },
+        {
+          "en": "the screen",
+          "he": "את המסך",
+          "first": 3,
+          "last": 4
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 20,
+      "en": "Eitan looked surprised.",
+      "he": "איתן נראה מופתע.",
+      "words": [
+        {
+          "word": "Eitan",
+          "he": "איתן",
+          "prefix": "",
+          "index": 169,
+          "start": 60.5375,
+          "end": 60.9375
+        },
+        {
+          "word": "looked",
+          "he": "נראה",
+          "prefix": " ",
+          "index": 170,
+          "start": 60.95,
+          "end": 61.175
+        },
+        {
+          "word": "surprised",
+          "he": "מופתע",
+          "prefix": " ",
+          "index": 171,
+          "start": 61.1875,
+          "end": 61.975
+        }
+      ],
+      "units": [
+        {
+          "en": "Eitan",
+          "he": "איתן",
+          "first": 0,
+          "last": 0
+        },
+        {
+          "en": "looked surprised",
+          "he": "נראה מופתע",
+          "first": 1,
+          "last": 2
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 21,
+      "en": "“The second part is missing !",
+      "he": "״החלק השני חסר!",
+      "words": [
+        {
+          "word": "The",
+          "he": "ה־",
+          "prefix": "“",
+          "index": 172,
+          "start": 62.4625,
+          "end": 62.5
+        },
+        {
+          "word": "second",
+          "he": "שני",
+          "prefix": " ",
+          "index": 173,
+          "start": 62.5,
+          "end": 62.9125
+        },
+        {
+          "word": "part",
+          "he": "חלק",
+          "prefix": " ",
+          "index": 174,
+          "start": 62.925,
+          "end": 63.25
+        },
+        {
+          "word": "is",
+          "he": "פועל קישור בהווה",
+          "prefix": " ",
+          "index": 175,
+          "start": 63.2625,
+          "end": 63.45
+        },
+        {
+          "word": "missing",
+          "he": "חסר",
+          "prefix": " ",
+          "index": 176,
+          "start": 63.4625,
+          "end": 64.0
+        }
+      ],
+      "units": [
+        {
+          "en": "The second part",
+          "he": "החלק השני",
+          "first": 0,
+          "last": 2
+        },
+        {
+          "en": "is missing",
+          "he": "חסר",
+          "first": 3,
+          "last": 4
+        }
+      ],
+      "suffix": " !"
+    },
+    {
+      "id": 22,
+      "en": "I wrote, ‘Do it yourself for now.",
+      "he": "כתבתי: ׳תעשה את זה בעצמך בינתיים.",
+      "words": [
+        {
+          "word": "I",
+          "he": "אני",
+          "prefix": "",
+          "index": 177,
+          "start": 64.3625,
+          "end": 64.45
+        },
+        {
+          "word": "wrote",
+          "he": "כתבתי",
+          "prefix": " ",
+          "index": 178,
+          "start": 64.4625,
+          "end": 64.8875
+        },
+        {
+          "word": "Do",
+          "he": "תעשה",
+          "prefix": ", ‘",
+          "index": 179,
+          "start": 65.3625,
+          "end": 65.5625
+        },
+        {
+          "word": "it",
+          "he": "את זה",
+          "prefix": " ",
+          "index": 180,
+          "start": 65.575,
+          "end": 65.675
+        },
+        {
+          "word": "yourself",
+          "he": "בעצמך",
+          "prefix": " ",
+          "index": 181,
+          "start": 65.6875,
+          "end": 66.1125
+        },
+        {
+          "word": "for",
+          "he": "חלק מהביטוי for now",
+          "prefix": " ",
+          "index": 182,
+          "start": 66.125,
+          "end": 66.25
+        },
+        {
+          "word": "now",
+          "he": "עכשיו — בצירוף: בינתיים",
+          "prefix": " ",
+          "index": 183,
+          "start": 66.2625,
+          "end": 66.6375
+        }
+      ],
+      "units": [
+        {
+          "en": "I wrote",
+          "he": "כתבתי",
+          "first": 0,
+          "last": 1
+        },
+        {
+          "en": "Do it yourself",
+          "he": "תעשה את זה בעצמך",
+          "first": 2,
+          "last": 4
+        },
+        {
+          "en": "for now",
+          "he": "בינתיים",
+          "first": 5,
+          "last": 6
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 23,
+      "en": "My little brother needs help.",
+      "he": "אחי הקטן צריך עזרה.",
+      "words": [
+        {
+          "word": "My",
+          "he": "שלי",
+          "prefix": "",
+          "index": 184,
+          "start": 67.0125,
+          "end": 67.15
+        },
+        {
+          "word": "little",
+          "he": "קטן",
+          "prefix": " ",
+          "index": 185,
+          "start": 67.1625,
+          "end": 67.425
+        },
+        {
+          "word": "brother",
+          "he": "אח",
+          "prefix": " ",
+          "index": 186,
+          "start": 67.4375,
+          "end": 67.775
+        },
+        {
+          "word": "needs",
+          "he": "צריך",
+          "prefix": " ",
+          "index": 187,
+          "start": 67.7875,
+          "end": 68.1
+        },
+        {
+          "word": "help",
+          "he": "עזרה",
+          "prefix": " ",
+          "index": 188,
+          "start": 68.1125,
+          "end": 68.6125
+        }
+      ],
+      "units": [
+        {
+          "en": "My little brother",
+          "he": "אחי הקטן",
+          "first": 0,
+          "last": 2
+        },
+        {
+          "en": "needs help",
+          "he": "צריך עזרה",
+          "first": 3,
+          "last": 4
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 24,
+      "en": "I can bring the stand tomorrow.’”",
+      "he": "אוכל להביא את המעמד מחר.׳״",
+      "words": [
+        {
+          "word": "I",
+          "he": "אני",
+          "prefix": "",
+          "index": 189,
+          "start": 69.0125,
+          "end": 69.175
+        },
+        {
+          "word": "can",
+          "he": "יכול",
+          "prefix": " ",
+          "index": 190,
+          "start": 69.1875,
+          "end": 69.3875
+        },
+        {
+          "word": "bring",
+          "he": "להביא",
+          "prefix": " ",
+          "index": 191,
+          "start": 69.4,
+          "end": 69.675
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 192,
+          "start": 69.6875,
+          "end": 69.7625
+        },
+        {
+          "word": "stand",
+          "he": "מעמד",
+          "prefix": " ",
+          "index": 193,
+          "start": 69.775,
+          "end": 70.275
+        },
+        {
+          "word": "tomorrow",
+          "he": "מחר",
+          "prefix": " ",
+          "index": 194,
+          "start": 70.2875,
+          "end": 70.875
+        }
+      ],
+      "units": [
+        {
+          "en": "I can bring",
+          "he": "אוכל להביא",
+          "first": 0,
+          "last": 2
+        },
+        {
+          "en": "the stand",
+          "he": "את המעמד",
+          "first": 3,
+          "last": 4
+        },
+        {
+          "en": "tomorrow",
+          "he": "מחר",
+          "first": 5,
+          "last": 5
+        }
+      ],
+      "suffix": ".’”"
+    },
+    {
+      "id": 25,
+      "en": "From his bag, Eitan took out a wooden stand.",
+      "he": "איתן הוציא מתיקו מעמד מעץ.",
+      "words": [
+        {
+          "word": "From",
+          "he": "מ־",
+          "prefix": "",
+          "index": 195,
+          "start": 71.3,
+          "end": 71.4375
+        },
+        {
+          "word": "his",
+          "he": "שלו",
+          "prefix": " ",
+          "index": 196,
+          "start": 71.45,
+          "end": 71.6125
+        },
+        {
+          "word": "bag",
+          "he": "תיק",
+          "prefix": " ",
+          "index": 197,
+          "start": 71.625,
+          "end": 72.0875
+        },
+        {
+          "word": "Eitan",
+          "he": "איתן",
+          "prefix": ", ",
+          "index": 198,
+          "start": 72.625,
+          "end": 73.0875
+        },
+        {
+          "word": "took",
+          "he": "הוציא — took out",
+          "prefix": " ",
+          "index": 199,
+          "start": 73.1,
+          "end": 73.3125
+        },
+        {
+          "word": "out",
+          "he": "חלק מהפועל took out — הוציא",
+          "prefix": " ",
+          "index": 200,
+          "start": 73.325,
+          "end": 73.4875
+        },
+        {
+          "word": "a",
+          "he": "מילת יידוע לא־מיודעת",
+          "prefix": " ",
+          "index": 201,
+          "start": 73.5,
+          "end": 73.5875
+        },
+        {
+          "word": "wooden",
+          "he": "מעץ",
+          "prefix": " ",
+          "index": 202,
+          "start": 73.6,
+          "end": 73.8875
+        },
+        {
+          "word": "stand",
+          "he": "מעמד",
+          "prefix": " ",
+          "index": 203,
+          "start": 73.9,
+          "end": 74.4375
+        }
+      ],
+      "units": [
+        {
+          "en": "From his bag",
+          "he": "מתיקו",
+          "first": 0,
+          "last": 2
+        },
+        {
+          "en": "Eitan",
+          "he": "איתן",
+          "first": 3,
+          "last": 3
+        },
+        {
+          "en": "took out",
+          "he": "הוציא",
+          "first": 4,
+          "last": 5
+        },
+        {
+          "en": "a wooden stand",
+          "he": "מעמד מעץ",
+          "first": 6,
+          "last": 8
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 26,
+      "en": "There was blue paint on his fingers.",
+      "he": "היה צבע כחול על אצבעותיו.",
+      "words": [
+        {
+          "word": "There",
+          "he": "חלק מהמבנה there was — היה",
+          "prefix": "",
+          "index": 204,
+          "start": 74.825,
+          "end": 74.9375
+        },
+        {
+          "word": "was",
+          "he": "היה",
+          "prefix": " ",
+          "index": 205,
+          "start": 74.95,
+          "end": 75.125
+        },
+        {
+          "word": "blue",
+          "he": "כחול",
+          "prefix": " ",
+          "index": 206,
+          "start": 75.1375,
+          "end": 75.4
+        },
+        {
+          "word": "paint",
+          "he": "צבע",
+          "prefix": " ",
+          "index": 207,
+          "start": 75.4125,
+          "end": 75.8375
+        },
+        {
+          "word": "on",
+          "he": "על",
+          "prefix": " ",
+          "index": 208,
+          "start": 75.8625,
+          "end": 76.0
+        },
+        {
+          "word": "his",
+          "he": "שלו",
+          "prefix": " ",
+          "index": 209,
+          "start": 76.0125,
+          "end": 76.1875
+        },
+        {
+          "word": "fingers",
+          "he": "אצבעות",
+          "prefix": " ",
+          "index": 210,
+          "start": 76.2,
+          "end": 76.8
+        }
+      ],
+      "units": [
+        {
+          "en": "There was",
+          "he": "היה",
+          "first": 0,
+          "last": 1
+        },
+        {
+          "en": "blue paint",
+          "he": "צבע כחול",
+          "first": 2,
+          "last": 3
+        },
+        {
+          "en": "on his fingers",
+          "he": "על אצבעותיו",
+          "first": 4,
+          "last": 6
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 27,
+      "en": "He and his father finished it late the night before.",
+      "he": "הוא ואביו סיימו להכין אותו בשעה מאוחרת בלילה הקודם.",
+      "words": [
+        {
+          "word": "He",
+          "he": "הוא",
+          "prefix": "",
+          "index": 211,
+          "start": 77.2125,
+          "end": 77.525
+        },
+        {
+          "word": "and",
+          "he": "ו־",
+          "prefix": " ",
+          "index": 212,
+          "start": 77.5375,
+          "end": 77.65
+        },
+        {
+          "word": "his",
+          "he": "שלו",
+          "prefix": " ",
+          "index": 213,
+          "start": 77.6625,
+          "end": 77.8375
+        },
+        {
+          "word": "father",
+          "he": "אב",
+          "prefix": " ",
+          "index": 214,
+          "start": 77.85,
+          "end": 78.2375
+        },
+        {
+          "word": "finished",
+          "he": "סיימו",
+          "prefix": " ",
+          "index": 215,
+          "start": 78.25,
+          "end": 78.6875
+        },
+        {
+          "word": "it",
+          "he": "אותו",
+          "prefix": " ",
+          "index": 216,
+          "start": 78.7,
+          "end": 78.8375
+        },
+        {
+          "word": "late",
+          "he": "בשעה מאוחרת",
+          "prefix": " ",
+          "index": 217,
+          "start": 78.85,
+          "end": 79.15
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 218,
+          "start": 79.1625,
+          "end": 79.25
+        },
+        {
+          "word": "night",
+          "he": "לילה",
+          "prefix": " ",
+          "index": 219,
+          "start": 79.2625,
+          "end": 79.5625
+        },
+        {
+          "word": "before",
+          "he": "קודם",
+          "prefix": " ",
+          "index": 220,
+          "start": 79.575,
+          "end": 80.125
+        }
+      ],
+      "units": [
+        {
+          "en": "He and his father",
+          "he": "הוא ואביו",
+          "first": 0,
+          "last": 3
+        },
+        {
+          "en": "finished it",
+          "he": "סיימו אותו",
+          "first": 4,
+          "last": 5
+        },
+        {
+          "en": "late",
+          "he": "בשעה מאוחרת",
+          "first": 6,
+          "last": 6
+        },
+        {
+          "en": "the night before",
+          "he": "בלילה הקודם",
+          "first": 7,
+          "last": 9
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 28,
+      "en": "Suddenly, Noam understood why Eitan answered so quickly.",
+      "he": "פתאום נועם הבין מדוע איתן ענה מהר כל כך.",
+      "words": [
+        {
+          "word": "Suddenly",
+          "he": "פתאום",
+          "prefix": "",
+          "index": 221,
+          "start": 80.4875,
+          "end": 81.0875
+        },
+        {
+          "word": "Noam",
+          "he": "נועם",
+          "prefix": ", ",
+          "index": 222,
+          "start": 81.1125,
+          "end": 81.475
+        },
+        {
+          "word": "understood",
+          "he": "הבין",
+          "prefix": " ",
+          "index": 223,
+          "start": 81.4875,
+          "end": 82.0625
+        },
+        {
+          "word": "why",
+          "he": "מדוע",
+          "prefix": " ",
+          "index": 224,
+          "start": 82.075,
+          "end": 82.3375
+        },
+        {
+          "word": "Eitan",
+          "he": "איתן",
+          "prefix": " ",
+          "index": 225,
+          "start": 82.35,
+          "end": 82.775
+        },
+        {
+          "word": "answered",
+          "he": "ענה",
+          "prefix": " ",
+          "index": 226,
+          "start": 82.7875,
+          "end": 83.2
+        },
+        {
+          "word": "so",
+          "he": "כל כך",
+          "prefix": " ",
+          "index": 227,
+          "start": 83.2125,
+          "end": 83.4125
+        },
+        {
+          "word": "quickly",
+          "he": "במהירות",
+          "prefix": " ",
+          "index": 228,
+          "start": 83.425,
+          "end": 83.95
+        }
+      ],
+      "units": [
+        {
+          "en": "Suddenly",
+          "he": "פתאום",
+          "first": 0,
+          "last": 0
+        },
+        {
+          "en": "Noam",
+          "he": "נועם",
+          "first": 1,
+          "last": 1
+        },
+        {
+          "en": "understood why",
+          "he": "הבין מדוע",
+          "first": 2,
+          "last": 3
+        },
+        {
+          "en": "Eitan",
+          "he": "איתן",
+          "first": 4,
+          "last": 4
+        },
+        {
+          "en": "answered",
+          "he": "ענה",
+          "first": 5,
+          "last": 5
+        },
+        {
+          "en": "so quickly",
+          "he": "מהר כל כך",
+          "first": 6,
+          "last": 7
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 29,
+      "en": "“I assumed you were angry,” Noam said.",
+      "he": "״הנחתי שאתה כועס,״ אמר נועם.",
+      "words": [
+        {
+          "word": "I",
+          "he": "אני",
+          "prefix": "“",
+          "index": 229,
+          "start": 84.425,
+          "end": 84.4375
+        },
+        {
+          "word": "assumed",
+          "he": "הנחתי",
+          "prefix": " ",
+          "index": 230,
+          "start": 84.5125,
+          "end": 85.0125
+        },
+        {
+          "word": "you",
+          "he": "אתה",
+          "prefix": " ",
+          "index": 231,
+          "start": 85.025,
+          "end": 85.1375
+        },
+        {
+          "word": "were",
+          "he": "היית",
+          "prefix": " ",
+          "index": 232,
+          "start": 85.15,
+          "end": 85.3625
+        },
+        {
+          "word": "angry",
+          "he": "כועס",
+          "prefix": " ",
+          "index": 233,
+          "start": 85.375,
+          "end": 85.9375
+        },
+        {
+          "word": "Noam",
+          "he": "נועם",
+          "prefix": ",” ",
+          "index": 234,
+          "start": 86.25,
+          "end": 86.5375
+        },
+        {
+          "word": "said",
+          "he": "אמר",
+          "prefix": " ",
+          "index": 235,
+          "start": 86.55,
+          "end": 86.9125
+        }
+      ],
+      "units": [
+        {
+          "en": "I assumed",
+          "he": "הנחתי",
+          "first": 0,
+          "last": 1
+        },
+        {
+          "en": "you were angry",
+          "he": "שאתה כועס",
+          "first": 2,
+          "last": 4
+        },
+        {
+          "en": "Noam said",
+          "he": "אמר נועם",
+          "first": 5,
+          "last": 6
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 30,
+      "en": "“But I didn't know for sure .”",
+      "he": "״אבל לא ידעתי בוודאות.״",
+      "words": [
+        {
+          "word": "But",
+          "he": "אבל",
+          "prefix": "“",
+          "index": 236,
+          "start": 87.4125,
+          "end": 87.45
+        },
+        {
+          "word": "I",
+          "he": "אני",
+          "prefix": " ",
+          "index": 237,
+          "start": 87.525,
+          "end": 87.6375
+        },
+        {
+          "word": "didn't",
+          "he": "לא — did not",
+          "prefix": " ",
+          "index": 238,
+          "start": 87.65,
+          "end": 87.9375
+        },
+        {
+          "word": "know",
+          "he": "ידעתי",
+          "prefix": " ",
+          "index": 239,
+          "start": 87.95,
+          "end": 88.15
+        },
+        {
+          "word": "for",
+          "he": "חלק מהביטוי for sure — בוודאות",
+          "prefix": " ",
+          "index": 240,
+          "start": 88.1625,
+          "end": 88.3125
+        },
+        {
+          "word": "sure",
+          "he": "בוודאות",
+          "prefix": " ",
+          "index": 241,
+          "start": 88.325,
+          "end": 88.825
+        }
+      ],
+      "units": [
+        {
+          "en": "But",
+          "he": "אבל",
+          "first": 0,
+          "last": 0
+        },
+        {
+          "en": "I didn't know",
+          "he": "לא ידעתי",
+          "first": 1,
+          "last": 3
+        },
+        {
+          "en": "for sure",
+          "he": "בוודאות",
+          "first": 4,
+          "last": 5
+        }
+      ],
+      "suffix": " .”"
+    },
+    {
+      "id": 31,
+      "en": "“My first words were unfriendly,” Eitan replied.",
+      "he": "״המילים הראשונות שלי לא היו ידידותיות,״ השיב איתן.",
+      "words": [
+        {
+          "word": "My",
+          "he": "שלי",
+          "prefix": "“",
+          "index": 242,
+          "start": 89.3,
+          "end": 89.35
+        },
+        {
+          "word": "first",
+          "he": "ראשונות",
+          "prefix": " ",
+          "index": 243,
+          "start": 89.425,
+          "end": 89.7875
+        },
+        {
+          "word": "words",
+          "he": "מילים",
+          "prefix": " ",
+          "index": 244,
+          "start": 89.8,
+          "end": 90.1375
+        },
+        {
+          "word": "were",
+          "he": "היו",
+          "prefix": " ",
+          "index": 245,
+          "start": 90.15,
+          "end": 90.3625
+        },
+        {
+          "word": "unfriendly",
+          "he": "לא ידידותיות",
+          "prefix": " ",
+          "index": 246,
+          "start": 90.375,
+          "end": 91.1125
+        },
+        {
+          "word": "Eitan",
+          "he": "איתן",
+          "prefix": ",” ",
+          "index": 247,
+          "start": 91.6625,
+          "end": 92.0625
+        },
+        {
+          "word": "replied",
+          "he": "השיב",
+          "prefix": " ",
+          "index": 248,
+          "start": 92.075,
+          "end": 92.5875
+        }
+      ],
+      "units": [
+        {
+          "en": "My first words",
+          "he": "המילים הראשונות שלי",
+          "first": 0,
+          "last": 2
+        },
+        {
+          "en": "were unfriendly",
+          "he": "לא היו ידידותיות",
+          "first": 3,
+          "last": 4
+        },
+        {
+          "en": "Eitan replied",
+          "he": "השיב איתן",
+          "first": 5,
+          "last": 6
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 32,
+      "en": "“I agree .",
+      "he": "״אני מסכים.",
+      "words": [
+        {
+          "word": "I",
+          "he": "אני",
+          "prefix": "“",
+          "index": 249,
+          "start": 93.0625,
+          "end": 93.075
+        },
+        {
+          "word": "agree",
+          "he": "מסכים",
+          "prefix": " ",
+          "index": 250,
+          "start": 93.15,
+          "end": 93.65
+        }
+      ],
+      "units": [
+        {
+          "en": "I agree",
+          "he": "אני מסכים",
+          "first": 0,
+          "last": 1
+        }
+      ],
+      "suffix": " ."
+    },
+    {
+      "id": 33,
+      "en": "I should explain things more clearly.”",
+      "he": "אני צריך להסביר דברים בצורה ברורה יותר.״",
+      "words": [
+        {
+          "word": "I",
+          "he": "אני",
+          "prefix": "",
+          "index": 251,
+          "start": 94.05,
+          "end": 94.1375
+        },
+        {
+          "word": "should",
+          "he": "צריך",
+          "prefix": " ",
+          "index": 252,
+          "start": 94.15,
+          "end": 94.3375
+        },
+        {
+          "word": "explain",
+          "he": "להסביר",
+          "prefix": " ",
+          "index": 253,
+          "start": 94.35,
+          "end": 94.8875
+        },
+        {
+          "word": "things",
+          "he": "דברים",
+          "prefix": " ",
+          "index": 254,
+          "start": 94.9,
+          "end": 95.2625
+        },
+        {
+          "word": "more",
+          "he": "יותר",
+          "prefix": " ",
+          "index": 255,
+          "start": 95.275,
+          "end": 95.5
+        },
+        {
+          "word": "clearly",
+          "he": "בבירור",
+          "prefix": " ",
+          "index": 256,
+          "start": 95.5125,
+          "end": 96.0875
+        }
+      ],
+      "units": [
+        {
+          "en": "I should explain",
+          "he": "אני צריך להסביר",
+          "first": 0,
+          "last": 2
+        },
+        {
+          "en": "things",
+          "he": "דברים",
+          "first": 3,
+          "last": 3
+        },
+        {
+          "en": "more clearly",
+          "he": "בצורה ברורה יותר",
+          "first": 4,
+          "last": 5
+        }
+      ],
+      "suffix": ".”"
+    },
+    {
+      "id": 34,
+      "en": "For a moment, neither boy spoke.",
+      "he": "לרגע, אף אחד משני הילדים לא דיבר.",
+      "words": [
+        {
+          "word": "For",
+          "he": "למשך",
+          "prefix": "",
+          "index": 257,
+          "start": 96.4875,
+          "end": 96.6
+        },
+        {
+          "word": "a",
+          "he": "מילת יידוע לא־מיודעת",
+          "prefix": " ",
+          "index": 258,
+          "start": 96.6125,
+          "end": 96.65
+        },
+        {
+          "word": "moment",
+          "he": "רגע",
+          "prefix": " ",
+          "index": 259,
+          "start": 96.6625,
+          "end": 97.15
+        },
+        {
+          "word": "neither",
+          "he": "אף אחד מן השניים",
+          "prefix": ", ",
+          "index": 260,
+          "start": 97.325,
+          "end": 97.675
+        },
+        {
+          "word": "boy",
+          "he": "ילד",
+          "prefix": " ",
+          "index": 261,
+          "start": 97.6875,
+          "end": 97.9
+        },
+        {
+          "word": "spoke",
+          "he": "דיבר",
+          "prefix": " ",
+          "index": 262,
+          "start": 97.9125,
+          "end": 98.4875
+        }
+      ],
+      "units": [
+        {
+          "en": "For a moment",
+          "he": "לרגע",
+          "first": 0,
+          "last": 2
+        },
+        {
+          "en": "neither boy",
+          "he": "אף אחד משני הילדים",
+          "first": 3,
+          "last": 4
+        },
+        {
+          "en": "spoke",
+          "he": "דיבר",
+          "first": 5,
+          "last": 5
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 35,
+      "en": "Then Noam moved the books, and Eitan placed the stand in the middle.",
+      "he": "אז נועם הזיז את הספרים ואיתן הציב את המעמד באמצע.",
+      "words": [
+        {
+          "word": "Then",
+          "he": "אז",
+          "prefix": "",
+          "index": 263,
+          "start": 98.875,
+          "end": 99.0375
+        },
+        {
+          "word": "Noam",
+          "he": "נועם",
+          "prefix": " ",
+          "index": 264,
+          "start": 99.05,
+          "end": 99.4
+        },
+        {
+          "word": "moved",
+          "he": "הזיז",
+          "prefix": " ",
+          "index": 265,
+          "start": 99.4125,
+          "end": 99.75
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 266,
+          "start": 99.7625,
+          "end": 99.85
+        },
+        {
+          "word": "books",
+          "he": "ספרים",
+          "prefix": " ",
+          "index": 267,
+          "start": 99.8625,
+          "end": 100.375
+        },
+        {
+          "word": "and",
+          "he": "ו־",
+          "prefix": ", ",
+          "index": 268,
+          "start": 100.7125,
+          "end": 100.95
+        },
+        {
+          "word": "Eitan",
+          "he": "איתן",
+          "prefix": " ",
+          "index": 269,
+          "start": 100.975,
+          "end": 101.4375
+        },
+        {
+          "word": "placed",
+          "he": "הציב",
+          "prefix": " ",
+          "index": 270,
+          "start": 101.45,
+          "end": 101.825
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 271,
+          "start": 101.8375,
+          "end": 101.9
+        },
+        {
+          "word": "stand",
+          "he": "מעמד",
+          "prefix": " ",
+          "index": 272,
+          "start": 101.9125,
+          "end": 102.3625
+        },
+        {
+          "word": "in",
+          "he": "ב־",
+          "prefix": " ",
+          "index": 273,
+          "start": 102.375,
+          "end": 102.5
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 274,
+          "start": 102.5125,
+          "end": 102.5875
+        },
+        {
+          "word": "middle",
+          "he": "אמצע",
+          "prefix": " ",
+          "index": 275,
+          "start": 102.6,
+          "end": 103.0
+        }
+      ],
+      "units": [
+        {
+          "en": "Then",
+          "he": "אז",
+          "first": 0,
+          "last": 0
+        },
+        {
+          "en": "Noam",
+          "he": "נועם",
+          "first": 1,
+          "last": 1
+        },
+        {
+          "en": "moved the books",
+          "he": "הזיז את הספרים",
+          "first": 2,
+          "last": 4
+        },
+        {
+          "en": "and",
+          "he": "ו־",
+          "first": 5,
+          "last": 5
+        },
+        {
+          "en": "Eitan",
+          "he": "איתן",
+          "first": 6,
+          "last": 6
+        },
+        {
+          "en": "placed the stand",
+          "he": "הציב את המעמד",
+          "first": 7,
+          "last": 9
+        },
+        {
+          "en": "in the middle",
+          "he": "באמצע",
+          "first": 10,
+          "last": 12
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 36,
+      "en": "The welcome sign fitted perfectly .",
+      "he": "שלט קבלת הפנים התאים בדיוק.",
+      "words": [
+        {
+          "word": "The",
+          "he": "ה־",
+          "prefix": "",
+          "index": 276,
+          "start": 103.3875,
+          "end": 103.475
+        },
+        {
+          "word": "welcome",
+          "he": "קבלת פנים",
+          "prefix": " ",
+          "index": 277,
+          "start": 103.4875,
+          "end": 103.8625
+        },
+        {
+          "word": "sign",
+          "he": "שלט",
+          "prefix": " ",
+          "index": 278,
+          "start": 103.875,
+          "end": 104.2875
+        },
+        {
+          "word": "fitted",
+          "he": "התאים",
+          "prefix": " ",
+          "index": 279,
+          "start": 104.3,
+          "end": 104.6875
+        },
+        {
+          "word": "perfectly",
+          "he": "בדיוק",
+          "prefix": " ",
+          "index": 280,
+          "start": 104.7,
+          "end": 105.3875
+        }
+      ],
+      "units": [
+        {
+          "en": "The welcome sign",
+          "he": "שלט קבלת הפנים",
+          "first": 0,
+          "last": 2
+        },
+        {
+          "en": "fitted perfectly",
+          "he": "התאים בדיוק",
+          "first": 3,
+          "last": 4
+        }
+      ],
+      "suffix": " ."
+    },
+    {
+      "id": 37,
+      "en": "Noam still remembered the hurt he felt.",
+      "he": "נועם עדיין זכר את הפגיעה שהרגיש.",
+      "words": [
+        {
+          "word": "Noam",
+          "he": "נועם",
+          "prefix": "",
+          "index": 281,
+          "start": 105.7875,
+          "end": 106.0875
+        },
+        {
+          "word": "still",
+          "he": "עדיין",
+          "prefix": " ",
+          "index": 282,
+          "start": 106.1,
+          "end": 106.45
+        },
+        {
+          "word": "remembered",
+          "he": "זכר",
+          "prefix": " ",
+          "index": 283,
+          "start": 106.4625,
+          "end": 106.9125
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 284,
+          "start": 106.925,
+          "end": 107.0125
+        },
+        {
+          "word": "hurt",
+          "he": "פגיעה",
+          "prefix": " ",
+          "index": 285,
+          "start": 107.025,
+          "end": 107.325
+        },
+        {
+          "word": "he",
+          "he": "הוא",
+          "prefix": " ",
+          "index": 286,
+          "start": 107.3375,
+          "end": 107.5125
+        },
+        {
+          "word": "felt",
+          "he": "הרגיש",
+          "prefix": " ",
+          "index": 287,
+          "start": 107.525,
+          "end": 108.0
+        }
+      ],
+      "units": [
+        {
+          "en": "Noam",
+          "he": "נועם",
+          "first": 0,
+          "last": 0
+        },
+        {
+          "en": "still remembered",
+          "he": "עדיין זכר",
+          "first": 1,
+          "last": 2
+        },
+        {
+          "en": "the hurt",
+          "he": "את הפגיעה",
+          "first": 3,
+          "last": 4
+        },
+        {
+          "en": "he felt",
+          "he": "שהרגיש",
+          "first": 5,
+          "last": 6
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 38,
+      "en": "A missing sentence did not immediately make that feeling disappear.",
+      "he": "משפט חסר לא העלים מיד את התחושה הזאת.",
+      "words": [
+        {
+          "word": "A",
+          "he": "מילת יידוע לא־מיודעת",
+          "prefix": "",
+          "index": 288,
+          "start": 108.3875,
+          "end": 108.45
+        },
+        {
+          "word": "missing",
+          "he": "חסר",
+          "prefix": " ",
+          "index": 289,
+          "start": 108.4625,
+          "end": 108.8
+        },
+        {
+          "word": "sentence",
+          "he": "משפט",
+          "prefix": " ",
+          "index": 290,
+          "start": 108.8125,
+          "end": 109.375
+        },
+        {
+          "word": "did",
+          "he": "פועל עזר לשלילה בעבר",
+          "prefix": " ",
+          "index": 291,
+          "start": 109.3875,
+          "end": 109.5625
+        },
+        {
+          "word": "not",
+          "he": "לא",
+          "prefix": " ",
+          "index": 292,
+          "start": 109.575,
+          "end": 109.8625
+        },
+        {
+          "word": "immediately",
+          "he": "מיד",
+          "prefix": " ",
+          "index": 293,
+          "start": 109.8875,
+          "end": 110.4625
+        },
+        {
+          "word": "make",
+          "he": "לגרום ל־",
+          "prefix": " ",
+          "index": 294,
+          "start": 110.475,
+          "end": 110.7375
+        },
+        {
+          "word": "that",
+          "he": "הזאת",
+          "prefix": " ",
+          "index": 295,
+          "start": 110.75,
+          "end": 110.95
+        },
+        {
+          "word": "feeling",
+          "he": "תחושה",
+          "prefix": " ",
+          "index": 296,
+          "start": 110.9625,
+          "end": 111.35
+        },
+        {
+          "word": "disappear",
+          "he": "להיעלם",
+          "prefix": " ",
+          "index": 297,
+          "start": 111.3625,
+          "end": 112.025
+        }
+      ],
+      "units": [
+        {
+          "en": "A missing sentence",
+          "he": "משפט חסר",
+          "first": 0,
+          "last": 2
+        },
+        {
+          "en": "did not",
+          "he": "לא — שלילה בעבר",
+          "first": 3,
+          "last": 4
+        },
+        {
+          "en": "immediately",
+          "he": "מיד",
+          "first": 5,
+          "last": 5
+        },
+        {
+          "en": "make that feeling disappear",
+          "he": "לגרום לתחושה הזאת להיעלם",
+          "first": 6,
+          "last": 9
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 39,
+      "en": "However, the stand was evidence that Eitan cared about their project.",
+      "he": "עם זאת, המעמד היה ראיה לכך שלאיתן אכפת מהמיזם שלהם.",
+      "words": [
+        {
+          "word": "However",
+          "he": "עם זאת",
+          "prefix": "",
+          "index": 298,
+          "start": 112.425,
+          "end": 113.075
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": ", ",
+          "index": 299,
+          "start": 113.1,
+          "end": 113.2
+        },
+        {
+          "word": "stand",
+          "he": "מעמד",
+          "prefix": " ",
+          "index": 300,
+          "start": 113.2125,
+          "end": 113.675
+        },
+        {
+          "word": "was",
+          "he": "היה",
+          "prefix": " ",
+          "index": 301,
+          "start": 113.6875,
+          "end": 113.925
+        },
+        {
+          "word": "evidence",
+          "he": "ראיה",
+          "prefix": " ",
+          "index": 302,
+          "start": 113.95,
+          "end": 114.45
+        },
+        {
+          "word": "that",
+          "he": "ש־",
+          "prefix": " ",
+          "index": 303,
+          "start": 114.4625,
+          "end": 114.7
+        },
+        {
+          "word": "Eitan",
+          "he": "איתן",
+          "prefix": " ",
+          "index": 304,
+          "start": 114.725,
+          "end": 115.125
+        },
+        {
+          "word": "cared",
+          "he": "היה אכפת לו",
+          "prefix": " ",
+          "index": 305,
+          "start": 115.1375,
+          "end": 115.475
+        },
+        {
+          "word": "about",
+          "he": "לגבי — cared about",
+          "prefix": " ",
+          "index": 306,
+          "start": 115.4875,
+          "end": 115.7625
+        },
+        {
+          "word": "their",
+          "he": "שלהם",
+          "prefix": " ",
+          "index": 307,
+          "start": 115.775,
+          "end": 115.9125
+        },
+        {
+          "word": "project",
+          "he": "מיזם",
+          "prefix": " ",
+          "index": 308,
+          "start": 115.925,
+          "end": 116.5625
+        }
+      ],
+      "units": [
+        {
+          "en": "However",
+          "he": "עם זאת",
+          "first": 0,
+          "last": 0
+        },
+        {
+          "en": "the stand",
+          "he": "המעמד",
+          "first": 1,
+          "last": 2
+        },
+        {
+          "en": "was evidence",
+          "he": "היה ראיה",
+          "first": 3,
+          "last": 4
+        },
+        {
+          "en": "that",
+          "he": "ש־",
+          "first": 5,
+          "last": 5
+        },
+        {
+          "en": "Eitan",
+          "he": "איתן",
+          "first": 6,
+          "last": 6
+        },
+        {
+          "en": "cared about",
+          "he": "היה אכפת לו מ־",
+          "first": 7,
+          "last": 8
+        },
+        {
+          "en": "their project",
+          "he": "המיזם שלהם",
+          "first": 9,
+          "last": 10
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 40,
+      "en": "Noam thanked him and asked about his brother.",
+      "he": "נועם הודה לו ושאל על אחיו.",
+      "words": [
+        {
+          "word": "Noam",
+          "he": "נועם",
+          "prefix": "",
+          "index": 309,
+          "start": 116.925,
+          "end": 117.25
+        },
+        {
+          "word": "thanked",
+          "he": "הודה",
+          "prefix": " ",
+          "index": 310,
+          "start": 117.2625,
+          "end": 117.6125
+        },
+        {
+          "word": "him",
+          "he": "לו",
+          "prefix": " ",
+          "index": 311,
+          "start": 117.625,
+          "end": 117.925
+        },
+        {
+          "word": "and",
+          "he": "ו־",
+          "prefix": " ",
+          "index": 312,
+          "start": 117.95,
+          "end": 118.125
+        },
+        {
+          "word": "asked",
+          "he": "שאל",
+          "prefix": " ",
+          "index": 313,
+          "start": 118.1375,
+          "end": 118.475
+        },
+        {
+          "word": "about",
+          "he": "על",
+          "prefix": " ",
+          "index": 314,
+          "start": 118.4875,
+          "end": 118.725
+        },
+        {
+          "word": "his",
+          "he": "שלו",
+          "prefix": " ",
+          "index": 315,
+          "start": 118.7375,
+          "end": 118.9
+        },
+        {
+          "word": "brother",
+          "he": "אח",
+          "prefix": " ",
+          "index": 316,
+          "start": 118.9125,
+          "end": 119.4
+        }
+      ],
+      "units": [
+        {
+          "en": "Noam",
+          "he": "נועם",
+          "first": 0,
+          "last": 0
+        },
+        {
+          "en": "thanked him",
+          "he": "הודה לו",
+          "first": 1,
+          "last": 2
+        },
+        {
+          "en": "and asked",
+          "he": "ושאל",
+          "first": 3,
+          "last": 4
+        },
+        {
+          "en": "about his brother",
+          "he": "על אחיו",
+          "first": 5,
+          "last": 7
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 41,
+      "en": "That afternoon, they wrote a short rule for their next project: “If a message sounds strange, ask before you assume .”",
+      "he": "באותו אחר צהריים הם כתבו כלל קצר למיזם הבא שלהם: ״אם הודעה נשמעת מוזרה, שאל לפני שאתה מניח הנחות.״",
+      "words": [
+        {
+          "word": "That",
+          "he": "באותו",
+          "prefix": "",
+          "index": 317,
+          "start": 119.8,
+          "end": 119.9625
+        },
+        {
+          "word": "afternoon",
+          "he": "אחר צהריים",
+          "prefix": " ",
+          "index": 318,
+          "start": 119.975,
+          "end": 120.5375
+        },
+        {
+          "word": "they",
+          "he": "הם",
+          "prefix": ", ",
+          "index": 319,
+          "start": 120.9375,
+          "end": 121.05
+        },
+        {
+          "word": "wrote",
+          "he": "כתבו",
+          "prefix": " ",
+          "index": 320,
+          "start": 121.0625,
+          "end": 121.275
+        },
+        {
+          "word": "a",
+          "he": "מילת יידוע לא־מיודעת",
+          "prefix": " ",
+          "index": 321,
+          "start": 121.2875,
+          "end": 121.3125
+        },
+        {
+          "word": "short",
+          "he": "קצר",
+          "prefix": " ",
+          "index": 322,
+          "start": 121.325,
+          "end": 121.7
+        },
+        {
+          "word": "rule",
+          "he": "כלל",
+          "prefix": " ",
+          "index": 323,
+          "start": 121.7125,
+          "end": 121.9875
+        },
+        {
+          "word": "for",
+          "he": "ל־",
+          "prefix": " ",
+          "index": 324,
+          "start": 122.0,
+          "end": 122.125
+        },
+        {
+          "word": "their",
+          "he": "שלהם",
+          "prefix": " ",
+          "index": 325,
+          "start": 122.1375,
+          "end": 122.2625
+        },
+        {
+          "word": "next",
+          "he": "הבא",
+          "prefix": " ",
+          "index": 326,
+          "start": 122.275,
+          "end": 122.5625
+        },
+        {
+          "word": "project",
+          "he": "מיזם",
+          "prefix": " ",
+          "index": 327,
+          "start": 122.575,
+          "end": 123.1
+        },
+        {
+          "word": "If",
+          "he": "אם",
+          "prefix": ": “",
+          "index": 328,
+          "start": 123.75,
+          "end": 123.8375
+        },
+        {
+          "word": "a",
+          "he": "מילת יידוע לא־מיודעת",
+          "prefix": " ",
+          "index": 329,
+          "start": 123.85,
+          "end": 123.9
+        },
+        {
+          "word": "message",
+          "he": "הודעה",
+          "prefix": " ",
+          "index": 330,
+          "start": 123.9125,
+          "end": 124.35
+        },
+        {
+          "word": "sounds",
+          "he": "נשמעת",
+          "prefix": " ",
+          "index": 331,
+          "start": 124.3625,
+          "end": 124.6625
+        },
+        {
+          "word": "strange",
+          "he": "מוזרה",
+          "prefix": " ",
+          "index": 332,
+          "start": 124.675,
+          "end": 125.1875
+        },
+        {
+          "word": "ask",
+          "he": "שאל",
+          "prefix": ", ",
+          "index": 333,
+          "start": 125.725,
+          "end": 126.025
+        },
+        {
+          "word": "before",
+          "he": "לפני",
+          "prefix": " ",
+          "index": 334,
+          "start": 126.0375,
+          "end": 126.375
+        },
+        {
+          "word": "you",
+          "he": "אתה",
+          "prefix": " ",
+          "index": 335,
+          "start": 126.3875,
+          "end": 126.5
+        },
+        {
+          "word": "assume",
+          "he": "מניח הנחות",
+          "prefix": " ",
+          "index": 336,
+          "start": 126.5125,
+          "end": 126.9875
+        }
+      ],
+      "units": [
+        {
+          "en": "That afternoon",
+          "he": "באותו אחר צהריים",
+          "first": 0,
+          "last": 1
+        },
+        {
+          "en": "they wrote",
+          "he": "הם כתבו",
+          "first": 2,
+          "last": 3
+        },
+        {
+          "en": "a short rule",
+          "he": "כלל קצר",
+          "first": 4,
+          "last": 6
+        },
+        {
+          "en": "for their next project",
+          "he": "למיזם הבא שלהם",
+          "first": 7,
+          "last": 10
+        },
+        {
+          "en": "If",
+          "he": "אם",
+          "first": 11,
+          "last": 11
+        },
+        {
+          "en": "a message",
+          "he": "הודעה",
+          "first": 12,
+          "last": 13
+        },
+        {
+          "en": "sounds strange",
+          "he": "נשמעת מוזרה",
+          "first": 14,
+          "last": 15
+        },
+        {
+          "en": "ask",
+          "he": "שאל",
+          "first": 16,
+          "last": 16
+        },
+        {
+          "en": "before you assume",
+          "he": "לפני שאתה מניח הנחות",
+          "first": 17,
+          "last": 19
+        }
+      ],
+      "suffix": " .”"
+    },
+    {
+      "id": 42,
+      "en": "In other words , three words do not always tell the whole story.",
+      "he": "במילים אחרות, שלוש מילים לא תמיד מספרות את הסיפור כולו.",
+      "words": [
+        {
+          "word": "In",
+          "he": "ב־",
+          "prefix": "",
+          "index": 337,
+          "start": 127.4,
+          "end": 127.5
+        },
+        {
+          "word": "other",
+          "he": "אחרות",
+          "prefix": " ",
+          "index": 338,
+          "start": 127.5125,
+          "end": 127.6875
+        },
+        {
+          "word": "words",
+          "he": "מילים",
+          "prefix": " ",
+          "index": 339,
+          "start": 127.7,
+          "end": 128.1
+        },
+        {
+          "word": "three",
+          "he": "שלוש",
+          "prefix": " , ",
+          "index": 340,
+          "start": 128.125,
+          "end": 128.4125
+        },
+        {
+          "word": "words",
+          "he": "מילים",
+          "prefix": " ",
+          "index": 341,
+          "start": 128.425,
+          "end": 128.8
+        },
+        {
+          "word": "do",
+          "he": "פועל עזר לשלילה בהווה",
+          "prefix": " ",
+          "index": 342,
+          "start": 128.8125,
+          "end": 128.925
+        },
+        {
+          "word": "not",
+          "he": "לא",
+          "prefix": " ",
+          "index": 343,
+          "start": 128.9375,
+          "end": 129.1875
+        },
+        {
+          "word": "always",
+          "he": "תמיד",
+          "prefix": " ",
+          "index": 344,
+          "start": 129.2,
+          "end": 129.5375
+        },
+        {
+          "word": "tell",
+          "he": "מספרות",
+          "prefix": " ",
+          "index": 345,
+          "start": 129.55,
+          "end": 129.7625
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 346,
+          "start": 129.775,
+          "end": 129.8375
+        },
+        {
+          "word": "whole",
+          "he": "כולו",
+          "prefix": " ",
+          "index": 347,
+          "start": 129.85,
+          "end": 130.05
+        },
+        {
+          "word": "story",
+          "he": "סיפור",
+          "prefix": " ",
+          "index": 348,
+          "start": 130.0625,
+          "end": 130.625
+        }
+      ],
+      "units": [
+        {
+          "en": "In other words",
+          "he": "במילים אחרות",
+          "first": 0,
+          "last": 2
+        },
+        {
+          "en": "three words",
+          "he": "שלוש מילים",
+          "first": 3,
+          "last": 4
+        },
+        {
+          "en": "do not always tell",
+          "he": "לא תמיד מספרות",
+          "first": 5,
+          "last": 8
+        },
+        {
+          "en": "the whole story",
+          "he": "את הסיפור כולו",
+          "first": 9,
+          "last": 11
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 43,
+      "en": "As the first visitors arrived, Eitan stood behind the table.",
+      "he": "כשהמבקרים הראשונים הגיעו, איתן עמד מאחורי השולחן.",
+      "words": [
+        {
+          "word": "As",
+          "he": "כאשר",
+          "prefix": "",
+          "index": 349,
+          "start": 131.0125,
+          "end": 131.1375
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 350,
+          "start": 131.15,
+          "end": 131.25
+        },
+        {
+          "word": "first",
+          "he": "ראשונים",
+          "prefix": " ",
+          "index": 351,
+          "start": 131.2625,
+          "end": 131.5875
+        },
+        {
+          "word": "visitors",
+          "he": "מבקרים",
+          "prefix": " ",
+          "index": 352,
+          "start": 131.6,
+          "end": 132.0875
+        },
+        {
+          "word": "arrived",
+          "he": "הגיעו",
+          "prefix": " ",
+          "index": 353,
+          "start": 132.1,
+          "end": 132.7375
+        },
+        {
+          "word": "Eitan",
+          "he": "איתן",
+          "prefix": ", ",
+          "index": 354,
+          "start": 133.275,
+          "end": 133.7125
+        },
+        {
+          "word": "stood",
+          "he": "עמד",
+          "prefix": " ",
+          "index": 355,
+          "start": 133.725,
+          "end": 134.1125
+        },
+        {
+          "word": "behind",
+          "he": "מאחורי",
+          "prefix": " ",
+          "index": 356,
+          "start": 134.125,
+          "end": 134.4875
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 357,
+          "start": 134.5,
+          "end": 134.5625
+        },
+        {
+          "word": "table",
+          "he": "שולחן",
+          "prefix": " ",
+          "index": 358,
+          "start": 134.575,
+          "end": 135.1
+        }
+      ],
+      "units": [
+        {
+          "en": "As",
+          "he": "כאשר",
+          "first": 0,
+          "last": 0
+        },
+        {
+          "en": "the first visitors",
+          "he": "המבקרים הראשונים",
+          "first": 1,
+          "last": 3
+        },
+        {
+          "en": "arrived",
+          "he": "הגיעו",
+          "first": 4,
+          "last": 4
+        },
+        {
+          "en": "Eitan",
+          "he": "איתן",
+          "first": 5,
+          "last": 5
+        },
+        {
+          "en": "stood",
+          "he": "עמד",
+          "first": 6,
+          "last": 6
+        },
+        {
+          "en": "behind the table",
+          "he": "מאחורי השולחן",
+          "first": 7,
+          "last": 9
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 44,
+      "en": "Noam moved his own chair beside him.",
+      "he": "נועם הזיז את הכיסא שלו לידו.",
+      "words": [
+        {
+          "word": "Noam",
+          "he": "נועם",
+          "prefix": "",
+          "index": 359,
+          "start": 135.5,
+          "end": 135.8375
+        },
+        {
+          "word": "moved",
+          "he": "הזיז",
+          "prefix": " ",
+          "index": 360,
+          "start": 135.85,
+          "end": 136.1875
+        },
+        {
+          "word": "his",
+          "he": "שלו",
+          "prefix": " ",
+          "index": 361,
+          "start": 136.2,
+          "end": 136.375
+        },
+        {
+          "word": "own",
+          "he": "שלו עצמו",
+          "prefix": " ",
+          "index": 362,
+          "start": 136.3875,
+          "end": 136.5875
+        },
+        {
+          "word": "chair",
+          "he": "כיסא",
+          "prefix": " ",
+          "index": 363,
+          "start": 136.6,
+          "end": 136.9375
+        },
+        {
+          "word": "beside",
+          "he": "ליד",
+          "prefix": " ",
+          "index": 364,
+          "start": 136.95,
+          "end": 137.3375
+        },
+        {
+          "word": "him",
+          "he": "אותו — כאן: לידו",
+          "prefix": " ",
+          "index": 365,
+          "start": 137.35,
+          "end": 137.65
+        }
+      ],
+      "units": [
+        {
+          "en": "Noam",
+          "he": "נועם",
+          "first": 0,
+          "last": 0
+        },
+        {
+          "en": "moved",
+          "he": "הזיז",
+          "first": 1,
+          "last": 1
+        },
+        {
+          "en": "his own chair",
+          "he": "את הכיסא שלו",
+          "first": 2,
+          "last": 4
+        },
+        {
+          "en": "beside him",
+          "he": "לידו",
+          "first": 5,
+          "last": 6
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 45,
+      "en": "“This one is yours,” he said.",
+      "he": "״זה שלך,״ הוא אמר.",
+      "words": [
+        {
+          "word": "This",
+          "he": "הזה",
+          "prefix": "“",
+          "index": 366,
+          "start": 138.1375,
+          "end": 138.225
+        },
+        {
+          "word": "one",
+          "he": "האחד — כאן: הכיסא",
+          "prefix": " ",
+          "index": 367,
+          "start": 138.3,
+          "end": 138.5375
+        },
+        {
+          "word": "is",
+          "he": "פועל קישור בהווה",
+          "prefix": " ",
+          "index": 368,
+          "start": 138.55,
+          "end": 138.7125
+        },
+        {
+          "word": "yours",
+          "he": "שלך",
+          "prefix": " ",
+          "index": 369,
+          "start": 138.725,
+          "end": 139.325
+        },
+        {
+          "word": "he",
+          "he": "הוא",
+          "prefix": ",” ",
+          "index": 370,
+          "start": 139.35,
+          "end": 139.625
+        },
+        {
+          "word": "said",
+          "he": "אמר",
+          "prefix": " ",
+          "index": 371,
+          "start": 139.6375,
+          "end": 139.9875
+        }
+      ],
+      "units": [
+        {
+          "en": "This one",
+          "he": "זה",
+          "first": 0,
+          "last": 1
+        },
+        {
+          "en": "is yours",
+          "he": "שלך",
+          "first": 2,
+          "last": 3
+        },
+        {
+          "en": "he said",
+          "he": "הוא אמר",
+          "first": 4,
+          "last": 5
+        }
+      ],
+      "suffix": "."
+    },
+    {
+      "id": 46,
+      "en": "Eitan sat down, and they opened the first box together.",
+      "he": "איתן התיישב והם פתחו יחד את הארגז הראשון.",
+      "words": [
+        {
+          "word": "Eitan",
+          "he": "איתן",
+          "prefix": "",
+          "index": 372,
+          "start": 140.35,
+          "end": 140.75
+        },
+        {
+          "word": "sat",
+          "he": "ישב — sat down",
+          "prefix": " ",
+          "index": 373,
+          "start": 140.7625,
+          "end": 141.05
+        },
+        {
+          "word": "down",
+          "he": "חלק מהפועל sat down — התיישב",
+          "prefix": " ",
+          "index": 374,
+          "start": 141.0625,
+          "end": 141.4875
+        },
+        {
+          "word": "and",
+          "he": "ו־",
+          "prefix": ", ",
+          "index": 375,
+          "start": 141.5125,
+          "end": 141.675
+        },
+        {
+          "word": "they",
+          "he": "הם",
+          "prefix": " ",
+          "index": 376,
+          "start": 141.6875,
+          "end": 141.8625
+        },
+        {
+          "word": "opened",
+          "he": "פתחו",
+          "prefix": " ",
+          "index": 377,
+          "start": 141.875,
+          "end": 142.1875
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "prefix": " ",
+          "index": 378,
+          "start": 142.2,
+          "end": 142.275
+        },
+        {
+          "word": "first",
+          "he": "ראשון",
+          "prefix": " ",
+          "index": 379,
+          "start": 142.2875,
+          "end": 142.6125
+        },
+        {
+          "word": "box",
+          "he": "ארגז",
+          "prefix": " ",
+          "index": 380,
+          "start": 142.625,
+          "end": 142.9375
+        },
+        {
+          "word": "together",
+          "he": "יחד",
+          "prefix": " ",
+          "index": 381,
+          "start": 142.95,
+          "end": 143.475
+        }
+      ],
+      "units": [
+        {
+          "en": "Eitan",
+          "he": "איתן",
+          "first": 0,
+          "last": 0
+        },
+        {
+          "en": "sat down",
+          "he": "התיישב",
+          "first": 1,
+          "last": 2
+        },
+        {
+          "en": "and",
+          "he": "ו־",
+          "first": 3,
+          "last": 3
+        },
+        {
+          "en": "they opened",
+          "he": "הם פתחו",
+          "first": 4,
+          "last": 5
+        },
+        {
+          "en": "the first box",
+          "he": "את הארגז הראשון",
+          "first": 6,
+          "last": 8
+        },
+        {
+          "en": "together",
+          "he": "יחד",
+          "first": 9,
+          "last": 9
+        }
+      ],
+      "suffix": "."
+    }
+  ],
+  "pages": [
+    [
+      0,
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ],
+    [
+      6,
+      7,
+      8
+    ],
+    [
+      9
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      14,
+      15,
+      16
+    ],
+    [
+      17,
+      18,
+      19
+    ],
+    [
+      20,
+      21,
+      22
+    ],
+    [
+      23
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      26,
+      27,
+      28
+    ],
+    [
+      29,
+      30,
+      31
+    ],
+    [
+      32,
+      33,
+      34
+    ],
+    [
+      35
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      40
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      43,
+      44,
+      45
+    ]
+  ],
+  "image": "assets/library.webp",
+  "imageCredit": {
+    "source": "https://unsplash.com/photos/a-book-shelf-filled-with-lots-of-books-sfL_QOnmy00",
+    "file": "https://images.unsplash.com/photo-1507842217343-583bb7270b66",
+    "description": "Static library illustration, not a photograph of the fictional characters."
+  },
+  "wordCount": 382,
+  "source_sha256": "bc3c6c57177f4ffc2a53f73b1f09535259ca4722337d0272e59e2377b58d218c"
+}

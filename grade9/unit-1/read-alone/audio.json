@@ -19,62 +19,74 @@
         {
           "word": "On",
           "start": 0.0875,
-          "end": 0.2125
+          "end": 0.2125,
+          "index": 0
         },
         {
           "word": "Monday",
           "start": 0.225,
-          "end": 0.55
+          "end": 0.55,
+          "index": 1
         },
         {
           "word": "evening",
           "start": 0.5625,
-          "end": 1.0125
+          "end": 1.0125,
+          "index": 2
         },
         {
           "word": "Noam",
           "start": 1.575,
-          "end": 1.9125
+          "end": 1.9125,
+          "index": 3
         },
         {
           "word": "opened",
           "start": 2.0,
-          "end": 2.3
+          "end": 2.3,
+          "index": 4
         },
         {
           "word": "the",
           "start": 2.3125,
-          "end": 2.375
+          "end": 2.375,
+          "index": 5
         },
         {
           "word": "school",
           "start": 2.3875,
-          "end": 2.7375
+          "end": 2.7375,
+          "index": 6
         },
         {
           "word": "website",
           "start": 2.75,
-          "end": 3.3
+          "end": 3.3,
+          "index": 7
         },
         {
           "word": "on",
           "start": 3.3125,
-          "end": 3.425
+          "end": 3.425,
+          "index": 8
         },
         {
           "word": "his",
           "start": 3.4375,
-          "end": 3.6
+          "end": 3.6,
+          "index": 9
         },
         {
           "word": "family's",
           "start": 3.6125,
-          "end": 4.0625
+          "end": 4.0625,
+          "index": 10
         },
         {
           "word": "computer",
           "start": 4.075,
-          "end": 4.5875
+          "end": 4.5875,
+          "index": 11
         }
       ]
     },
@@ -87,57 +99,68 @@
         {
           "word": "His",
           "start": 4.9875,
-          "end": 5.1375
+          "end": 5.1375,
+          "index": 12
         },
         {
           "word": "class",
           "start": 5.15,
-          "end": 5.575
+          "end": 5.575,
+          "index": 13
         },
         {
           "word": "was",
           "start": 5.5875,
-          "end": 5.775
+          "end": 5.775,
+          "index": 14
         },
         {
           "word": "preparing",
           "start": 5.7875,
-          "end": 6.3125
+          "end": 6.3125,
+          "index": 15
         },
         {
           "word": "a",
           "start": 6.325,
-          "end": 6.4375
+          "end": 6.4375,
+          "index": 16
         },
         {
           "word": "book",
           "start": 6.45,
-          "end": 6.6625
+          "end": 6.6625,
+          "index": 17
         },
         {
           "word": "sale",
           "start": 6.675,
-          "end": 7.0875
+          "end": 7.0875,
+          "index": 18
         },
         {
           "word": "for",
           "start": 7.1,
-          "end": 7.3375
+          "end": 7.3375,
+          "index": 19
         },
         {
           "word": "a",
           "start": 7.35,
-          "end": 7.4125
+          "end": 7.4125,
+          "index": 20
         },
         {
           "word": "community",
           "start": 7.425,
-          "end": 7.825
+          "end": 7.825,
+          "index": 21
         },
         {
           "word": "library",
           "start": 7.8375,
-          "end": 8.475
+          "end": 8.475,
+          "index": 22
         }
       ]
     },
@@ -150,97 +173,116 @@
         {
           "word": "He",
           "start": 8.85,
-          "end": 8.95
+          "end": 8.95,
+          "index": 23
         },
         {
           "word": "wanted",
           "start": 8.9625,
-          "end": 9.2
+          "end": 9.2,
+          "index": 24
         },
         {
           "word": "to",
           "start": 9.2125,
-          "end": 9.2875
+          "end": 9.2875,
+          "index": 25
         },
         {
           "word": "make",
           "start": 9.3,
-          "end": 9.5
+          "end": 9.5,
+          "index": 26
         },
         {
           "word": "friends",
           "start": 9.5125,
-          "end": 9.85
+          "end": 9.85,
+          "index": 27
         },
         {
           "word": "with",
           "start": 9.8625,
-          "end": 10.0375
+          "end": 10.0375,
+          "index": 28
         },
         {
           "word": "Eitan",
           "start": 10.0625,
-          "end": 10.65
+          "end": 10.65,
+          "index": 29
         },
         {
           "word": "the",
           "start": 10.8625,
-          "end": 10.975
+          "end": 10.975,
+          "index": 30
         },
         {
           "word": "new",
           "start": 10.9875,
-          "end": 11.175
+          "end": 11.175,
+          "index": 31
         },
         {
           "word": "boy",
           "start": 11.1875,
-          "end": 11.5125
+          "end": 11.5125,
+          "index": 32
         },
         {
           "word": "so",
           "start": 11.5375,
-          "end": 11.7125
+          "end": 11.7125,
+          "index": 33
         },
         {
           "word": "he",
           "start": 11.725,
-          "end": 11.9
+          "end": 11.9,
+          "index": 34
         },
         {
           "word": "asked",
           "start": 11.9125,
-          "end": 12.175
+          "end": 12.175,
+          "index": 35
         },
         {
           "word": "him",
           "start": 12.1875,
-          "end": 12.325
+          "end": 12.325,
+          "index": 36
         },
         {
           "word": "to",
           "start": 12.3375,
-          "end": 12.425
+          "end": 12.425,
+          "index": 37
         },
         {
           "word": "help",
           "start": 12.4375,
-          "end": 12.725
+          "end": 12.725,
+          "index": 38
         },
         {
           "word": "with",
           "start": 12.7375,
-          "end": 12.8375
+          "end": 12.8375,
+          "index": 39
         },
         {
           "word": "the",
           "start": 12.85,
-          "end": 12.95
+          "end": 12.95,
+          "index": 40
         },
         {
           "word": "display",
           "start": 12.9625,
-          "end": 13.55
+          "end": 13.55,
+          "index": 41
         }
       ]
     },
@@ -253,47 +295,56 @@
         {
           "word": "Eitan's",
           "start": 13.95,
-          "end": 14.4
+          "end": 14.4,
+          "index": 42
         },
         {
           "word": "answer",
           "start": 14.4125,
-          "end": 14.825
+          "end": 14.825,
+          "index": 43
         },
         {
           "word": "appeared",
           "start": 14.8375,
-          "end": 15.25
+          "end": 15.25,
+          "index": 44
         },
         {
           "word": "a",
           "start": 15.2625,
-          "end": 15.3
+          "end": 15.3,
+          "index": 45
         },
         {
           "word": "minute",
           "start": 15.3125,
-          "end": 15.625
+          "end": 15.625,
+          "index": 46
         },
         {
           "word": "later",
           "start": 15.6375,
-          "end": 16.0
+          "end": 16.0,
+          "index": 47
         },
         {
           "word": "Do",
           "start": 16.65,
-          "end": 16.7875
+          "end": 16.7875,
+          "index": 48
         },
         {
           "word": "it",
           "start": 16.8,
-          "end": 16.8875
+          "end": 16.8875,
+          "index": 49
         },
         {
           "word": "yourself",
           "start": 16.9,
-          "end": 17.5625
+          "end": 17.5625,
+          "index": 50
         }
       ]
     },
@@ -306,32 +357,38 @@
         {
           "word": "Noam",
           "start": 17.9375,
-          "end": 18.275
+          "end": 18.275,
+          "index": 51
         },
         {
           "word": "read",
           "start": 18.2875,
-          "end": 18.5625
+          "end": 18.5625,
+          "index": 52
         },
         {
           "word": "the",
           "start": 18.575,
-          "end": 18.675
+          "end": 18.675,
+          "index": 53
         },
         {
           "word": "three",
           "start": 18.6875,
-          "end": 18.9375
+          "end": 18.9375,
+          "index": 54
         },
         {
           "word": "words",
           "start": 18.95,
-          "end": 19.275
+          "end": 19.275,
+          "index": 55
         },
         {
           "word": "again",
           "start": 19.2875,
-          "end": 19.7375
+          "end": 19.7375,
+          "index": 56
         }
       ]
     },
@@ -344,27 +401,32 @@
         {
           "word": "They",
           "start": 20.1125,
-          "end": 20.2
+          "end": 20.2,
+          "index": 57
         },
         {
           "word": "sounded",
           "start": 20.2125,
-          "end": 20.65
+          "end": 20.65,
+          "index": 58
         },
         {
           "word": "like",
           "start": 20.6625,
-          "end": 20.8625
+          "end": 20.8625,
+          "index": 59
         },
         {
           "word": "an",
           "start": 20.875,
-          "end": 20.975
+          "end": 20.975,
+          "index": 60
         },
         {
           "word": "order",
           "start": 20.9875,
-          "end": 21.4625
+          "end": 21.4625,
+          "index": 61
         }
       ]
     },
@@ -377,57 +439,68 @@
         {
           "word": "He",
           "start": 22.0875,
-          "end": 22.4375
+          "end": 22.4375,
+          "index": 62
         },
         {
           "word": "thinks",
           "start": 22.5125,
-          "end": 22.8
+          "end": 22.8,
+          "index": 63
         },
         {
           "word": "he",
           "start": 22.8125,
-          "end": 22.925
+          "end": 22.925,
+          "index": 64
         },
         {
           "word": "is",
           "start": 22.9375,
-          "end": 23.0875
+          "end": 23.0875,
+          "index": 65
         },
         {
           "word": "better",
           "start": 23.1,
-          "end": 23.3875
+          "end": 23.3875,
+          "index": 66
         },
         {
           "word": "than",
           "start": 23.4,
-          "end": 23.5625
+          "end": 23.5625,
+          "index": 67
         },
         {
           "word": "me",
           "start": 23.575,
-          "end": 23.95
+          "end": 23.95,
+          "index": 68
         },
         {
           "word": "Noam",
           "start": 24.4625,
-          "end": 24.8375
+          "end": 24.8375,
+          "index": 69
         },
         {
           "word": "told",
           "start": 24.85,
-          "end": 25.1125
+          "end": 25.1125,
+          "index": 70
         },
         {
           "word": "his",
           "start": 25.125,
-          "end": 25.2875
+          "end": 25.2875,
+          "index": 71
         },
         {
           "word": "brother",
           "start": 25.3,
-          "end": 25.7375
+          "end": 25.7375,
+          "index": 72
         }
       ]
     },
@@ -440,32 +513,38 @@
         {
           "word": "He",
           "start": 26.125,
-          "end": 26.2
+          "end": 26.2,
+          "index": 73
         },
         {
           "word": "felt",
           "start": 26.2125,
-          "end": 26.4625
+          "end": 26.4625,
+          "index": 74
         },
         {
           "word": "his",
           "start": 26.475,
-          "end": 26.65
+          "end": 26.65,
+          "index": 75
         },
         {
           "word": "face",
           "start": 26.6625,
-          "end": 26.9875
+          "end": 26.9875,
+          "index": 76
         },
         {
           "word": "grow",
           "start": 27.0,
-          "end": 27.25
+          "end": 27.25,
+          "index": 77
         },
         {
           "word": "hot",
           "start": 27.2625,
-          "end": 27.6875
+          "end": 27.6875,
+          "index": 78
         }
       ]
     },
@@ -478,42 +557,50 @@
         {
           "word": "He",
           "start": 28.0875,
-          "end": 28.2
+          "end": 28.2,
+          "index": 79
         },
         {
           "word": "started",
           "start": 28.2125,
-          "end": 28.625
+          "end": 28.625,
+          "index": 80
         },
         {
           "word": "writing",
           "start": 28.6375,
-          "end": 29.025
+          "end": 29.025,
+          "index": 81
         },
         {
           "word": "an",
           "start": 29.0375,
-          "end": 29.15
+          "end": 29.15,
+          "index": 82
         },
         {
           "word": "angry",
           "start": 29.1625,
-          "end": 29.5625
+          "end": 29.5625,
+          "index": 83
         },
         {
           "word": "answer",
           "start": 29.575,
-          "end": 30.125
+          "end": 30.125,
+          "index": 84
         },
         {
           "word": "then",
           "start": 30.275,
-          "end": 30.5
+          "end": 30.5,
+          "index": 85
         },
         {
           "word": "stopped",
           "start": 30.5125,
-          "end": 31.1375
+          "end": 31.1375,
+          "index": 86
         }
       ]
     },
@@ -526,47 +613,56 @@
         {
           "word": "Tomorrow",
           "start": 31.5375,
-          "end": 32.05
+          "end": 32.05,
+          "index": 87
         },
         {
           "word": "he",
           "start": 32.075,
-          "end": 32.25
+          "end": 32.25,
+          "index": 88
         },
         {
           "word": "decided",
           "start": 32.2625,
-          "end": 32.85
+          "end": 32.85,
+          "index": 89
         },
         {
           "word": "he",
           "start": 32.875,
-          "end": 33.075
+          "end": 33.075,
+          "index": 90
         },
         {
           "word": "would",
           "start": 33.0875,
-          "end": 33.25
+          "end": 33.25,
+          "index": 91
         },
         {
           "word": "cancel",
           "start": 33.2625,
-          "end": 33.6625
+          "end": 33.6625,
+          "index": 92
         },
         {
           "word": "their",
           "start": 33.675,
-          "end": 33.8375
+          "end": 33.8375,
+          "index": 93
         },
         {
           "word": "work",
           "start": 33.85,
-          "end": 34.0875
+          "end": 34.0875,
+          "index": 94
         },
         {
           "word": "together",
           "start": 34.1,
-          "end": 34.625
+          "end": 34.625,
+          "index": 95
         }
       ]
     },
@@ -579,57 +675,68 @@
         {
           "word": "The",
           "start": 35.0125,
-          "end": 35.075
+          "end": 35.075,
+          "index": 96
         },
         {
           "word": "next",
           "start": 35.0875,
-          "end": 35.375
+          "end": 35.375,
+          "index": 97
         },
         {
           "word": "morning",
           "start": 35.3875,
-          "end": 35.85
+          "end": 35.85,
+          "index": 98
         },
         {
           "word": "Noam",
           "start": 35.875,
-          "end": 36.2875
+          "end": 36.2875,
+          "index": 99
         },
         {
           "word": "put",
           "start": 36.3,
-          "end": 36.4875
+          "end": 36.4875,
+          "index": 100
         },
         {
           "word": "the",
           "start": 36.5,
-          "end": 36.6
+          "end": 36.6,
+          "index": 101
         },
         {
           "word": "books",
           "start": 36.6125,
-          "end": 36.975
+          "end": 36.975,
+          "index": 102
         },
         {
           "word": "on",
           "start": 36.9875,
-          "end": 37.125
+          "end": 37.125,
+          "index": 103
         },
         {
           "word": "the",
           "start": 37.1375,
-          "end": 37.2125
+          "end": 37.2125,
+          "index": 104
         },
         {
           "word": "table",
           "start": 37.225,
-          "end": 37.6125
+          "end": 37.6125,
+          "index": 105
         },
         {
           "word": "alone",
           "start": 37.625,
-          "end": 38.1375
+          "end": 38.1375,
+          "index": 106
         }
       ]
     },
@@ -642,37 +749,44 @@
         {
           "word": "His",
           "start": 38.5375,
-          "end": 38.675
+          "end": 38.675,
+          "index": 107
         },
         {
           "word": "main",
           "start": 38.6875,
-          "end": 38.95
+          "end": 38.95,
+          "index": 108
         },
         {
           "word": "concern",
           "start": 38.9625,
-          "end": 39.525
+          "end": 39.525,
+          "index": 109
         },
         {
           "word": "was",
           "start": 39.5375,
-          "end": 39.7625
+          "end": 39.7625,
+          "index": 110
         },
         {
           "word": "the",
           "start": 39.775,
-          "end": 39.875
+          "end": 39.875,
+          "index": 111
         },
         {
           "word": "welcome",
           "start": 39.8875,
-          "end": 40.25
+          "end": 40.25,
+          "index": 112
         },
         {
           "word": "sign",
           "start": 40.2625,
-          "end": 40.725
+          "end": 40.725,
+          "index": 113
         }
       ]
     },
@@ -685,47 +799,56 @@
         {
           "word": "The",
           "start": 41.125,
-          "end": 41.225
+          "end": 41.225,
+          "index": 114
         },
         {
           "word": "letters",
           "start": 41.2375,
-          "end": 41.65
+          "end": 41.65,
+          "index": 115
         },
         {
           "word": "were",
           "start": 41.6625,
-          "end": 41.8875
+          "end": 41.8875,
+          "index": 116
         },
         {
           "word": "uneven",
           "start": 41.9,
-          "end": 42.5125
+          "end": 42.5125,
+          "index": 117
         },
         {
           "word": "and",
           "start": 42.9625,
-          "end": 43.1125
+          "end": 43.1125,
+          "index": 118
         },
         {
           "word": "the",
           "start": 43.125,
-          "end": 43.2125
+          "end": 43.2125,
+          "index": 119
         },
         {
           "word": "table",
           "start": 43.225,
-          "end": 43.6875
+          "end": 43.6875,
+          "index": 120
         },
         {
           "word": "looked",
           "start": 43.7,
-          "end": 43.975
+          "end": 43.975,
+          "index": 121
         },
         {
           "word": "empty",
           "start": 43.9875,
-          "end": 44.475
+          "end": 44.475,
+          "index": 122
         }
       ]
     },
@@ -738,62 +861,74 @@
         {
           "word": "When",
           "start": 44.875,
-          "end": 45.0
+          "end": 45.0,
+          "index": 123
         },
         {
           "word": "Eitan",
           "start": 45.0125,
-          "end": 45.375
+          "end": 45.375,
+          "index": 124
         },
         {
           "word": "approached",
           "start": 45.3875,
-          "end": 45.85
+          "end": 45.85,
+          "index": 125
         },
         {
           "word": "him",
           "start": 45.8625,
-          "end": 46.075
+          "end": 46.075,
+          "index": 126
         },
         {
           "word": "with",
           "start": 46.0875,
-          "end": 46.225
+          "end": 46.225,
+          "index": 127
         },
         {
           "word": "a",
           "start": 46.2375,
-          "end": 46.2625
+          "end": 46.2625,
+          "index": 128
         },
         {
           "word": "large",
           "start": 46.275,
-          "end": 46.7
+          "end": 46.7,
+          "index": 129
         },
         {
           "word": "blue",
           "start": 46.7125,
-          "end": 46.9
+          "end": 46.9,
+          "index": 130
         },
         {
           "word": "bag",
           "start": 46.9125,
-          "end": 47.35
+          "end": 47.35,
+          "index": 131
         },
         {
           "word": "Noam",
           "start": 47.85,
-          "end": 48.225
+          "end": 48.225,
+          "index": 132
         },
         {
           "word": "turned",
           "start": 48.2375,
-          "end": 48.5
+          "end": 48.5,
+          "index": 133
         },
         {
           "word": "away",
           "start": 48.5125,
-          "end": 48.925
+          "end": 48.925,
+          "index": 134
         }
       ]
     },
@@ -806,37 +941,44 @@
         {
           "word": "You",
           "start": 49.4,
-          "end": 49.4375
+          "end": 49.4375,
+          "index": 135
         },
         {
           "word": "don't",
           "start": 49.5125,
-          "end": 49.7625
+          "end": 49.7625,
+          "index": 136
         },
         {
           "word": "need",
           "start": 49.775,
-          "end": 49.975
+          "end": 49.975,
+          "index": 137
         },
         {
           "word": "to",
           "start": 49.9875,
-          "end": 50.0625
+          "end": 50.0625,
+          "index": 138
         },
         {
           "word": "help",
           "start": 50.075,
-          "end": 50.5375
+          "end": 50.5375,
+          "index": 139
         },
         {
           "word": "he",
           "start": 50.575,
-          "end": 50.85
+          "end": 50.85,
+          "index": 140
         },
         {
           "word": "said",
           "start": 50.8625,
-          "end": 51.225
+          "end": 51.225,
+          "index": 141
         }
       ]
     },
@@ -849,42 +991,50 @@
         {
           "word": "I",
           "start": 51.7,
-          "end": 51.725
+          "end": 51.725,
+          "index": 142
         },
         {
           "word": "can",
           "start": 51.8,
-          "end": 51.9625
+          "end": 51.9625,
+          "index": 143
         },
         {
           "word": "see",
           "start": 51.975,
-          "end": 52.275
+          "end": 52.275,
+          "index": 144
         },
         {
           "word": "that",
           "start": 52.2875,
-          "end": 52.4625
+          "end": 52.4625,
+          "index": 145
         },
         {
           "word": "you",
           "start": 52.475,
-          "end": 52.5875
+          "end": 52.5875,
+          "index": 146
         },
         {
           "word": "don't",
           "start": 52.6,
-          "end": 52.8375
+          "end": 52.8375,
+          "index": 147
         },
         {
           "word": "want",
           "start": 52.85,
-          "end": 53.1125
+          "end": 53.1125,
+          "index": 148
         },
         {
           "word": "to",
           "start": 53.125,
-          "end": 53.4
+          "end": 53.4,
+          "index": 149
         }
       ]
     },
@@ -897,27 +1047,32 @@
         {
           "word": "Eitan",
           "start": 53.775,
-          "end": 54.225
+          "end": 54.225,
+          "index": 150
         },
         {
           "word": "put",
           "start": 54.2375,
-          "end": 54.4375
+          "end": 54.4375,
+          "index": 151
         },
         {
           "word": "down",
           "start": 54.45,
-          "end": 54.7
+          "end": 54.7,
+          "index": 152
         },
         {
           "word": "the",
           "start": 54.7125,
-          "end": 54.8
+          "end": 54.8,
+          "index": 153
         },
         {
           "word": "bag",
           "start": 54.8125,
-          "end": 55.2625
+          "end": 55.2625,
+          "index": 154
         }
       ]
     },
@@ -930,47 +1085,56 @@
         {
           "word": "What",
           "start": 55.7375,
-          "end": 55.7625
+          "end": 55.7625,
+          "index": 155
         },
         {
           "word": "about",
           "start": 55.8375,
-          "end": 56.1
+          "end": 56.1,
+          "index": 156
         },
         {
           "word": "the",
           "start": 56.1125,
-          "end": 56.2
+          "end": 56.2,
+          "index": 157
         },
         {
           "word": "rest",
           "start": 56.2125,
-          "end": 56.5125
+          "end": 56.5125,
+          "index": 158
         },
         {
           "word": "of",
           "start": 56.525,
-          "end": 56.575
+          "end": 56.575,
+          "index": 159
         },
         {
           "word": "my",
           "start": 56.5875,
-          "end": 56.7125
+          "end": 56.7125,
+          "index": 160
         },
         {
           "word": "message",
           "start": 56.725,
-          "end": 57.35
+          "end": 57.35,
+          "index": 161
         },
         {
           "word": "he",
           "start": 57.7375,
-          "end": 57.875
+          "end": 57.875,
+          "index": 162
         },
         {
           "word": "asked",
           "start": 57.8875,
-          "end": 58.3
+          "end": 58.3,
+          "index": 163
         }
       ]
     },
@@ -983,27 +1147,32 @@
         {
           "word": "Noam",
           "start": 58.6875,
-          "end": 58.9625
+          "end": 58.9625,
+          "index": 164
         },
         {
           "word": "showed",
           "start": 58.975,
-          "end": 59.2875
+          "end": 59.2875,
+          "index": 165
         },
         {
           "word": "him",
           "start": 59.3,
-          "end": 59.4875
+          "end": 59.4875,
+          "index": 166
         },
         {
           "word": "the",
           "start": 59.5,
-          "end": 59.575
+          "end": 59.575,
+          "index": 167
         },
         {
           "word": "screen",
           "start": 59.5875,
-          "end": 60.175
+          "end": 60.175,
+          "index": 168
         }
       ]
     },
@@ -1016,17 +1185,20 @@
         {
           "word": "Eitan",
           "start": 60.5375,
-          "end": 60.9375
+          "end": 60.9375,
+          "index": 169
         },
         {
           "word": "looked",
           "start": 60.95,
-          "end": 61.175
+          "end": 61.175,
+          "index": 170
         },
         {
           "word": "surprised",
           "start": 61.1875,
-          "end": 61.975
+          "end": 61.975,
+          "index": 171
         }
       ]
     },
@@ -1039,27 +1211,32 @@
         {
           "word": "The",
           "start": 62.4625,
-          "end": 62.5
+          "end": 62.5,
+          "index": 172
         },
         {
           "word": "second",
           "start": 62.5,
-          "end": 62.9125
+          "end": 62.9125,
+          "index": 173
         },
         {
           "word": "part",
           "start": 62.925,
-          "end": 63.25
+          "end": 63.25,
+          "index": 174
         },
         {
           "word": "is",
           "start": 63.2625,
-          "end": 63.45
+          "end": 63.45,
+          "index": 175
         },
         {
           "word": "missing",
           "start": 63.4625,
-          "end": 64.0
+          "end": 64.0,
+          "index": 176
         }
       ]
     },
@@ -1072,37 +1249,44 @@
         {
           "word": "I",
           "start": 64.3625,
-          "end": 64.45
+          "end": 64.45,
+          "index": 177
         },
         {
           "word": "wrote",
           "start": 64.4625,
-          "end": 64.8875
+          "end": 64.8875,
+          "index": 178
         },
         {
           "word": "Do",
           "start": 65.3625,
-          "end": 65.5625
+          "end": 65.5625,
+          "index": 179
         },
         {
           "word": "it",
           "start": 65.575,
-          "end": 65.675
+          "end": 65.675,
+          "index": 180
         },
         {
           "word": "yourself",
           "start": 65.6875,
-          "end": 66.1125
+          "end": 66.1125,
+          "index": 181
         },
         {
           "word": "for",
           "start": 66.125,
-          "end": 66.25
+          "end": 66.25,
+          "index": 182
         },
         {
           "word": "now",
           "start": 66.2625,
-          "end": 66.6375
+          "end": 66.6375,
+          "index": 183
         }
       ]
     },
@@ -1115,27 +1299,32 @@
         {
           "word": "My",
           "start": 67.0125,
-          "end": 67.15
+          "end": 67.15,
+          "index": 184
         },
         {
           "word": "little",
           "start": 67.1625,
-          "end": 67.425
+          "end": 67.425,
+          "index": 185
         },
         {
           "word": "brother",
           "start": 67.4375,
-          "end": 67.775
+          "end": 67.775,
+          "index": 186
         },
         {
           "word": "needs",
           "start": 67.7875,
-          "end": 68.1
+          "end": 68.1,
+          "index": 187
         },
         {
           "word": "help",
           "start": 68.1125,
-          "end": 68.6125
+          "end": 68.6125,
+          "index": 188
         }
       ]
     },
@@ -1148,32 +1337,38 @@
         {
           "word": "I",
           "start": 69.0125,
-          "end": 69.175
+          "end": 69.175,
+          "index": 189
         },
         {
           "word": "can",
           "start": 69.1875,
-          "end": 69.3875
+          "end": 69.3875,
+          "index": 190
         },
         {
           "word": "bring",
           "start": 69.4,
-          "end": 69.675
+          "end": 69.675,
+          "index": 191
         },
         {
           "word": "the",
           "start": 69.6875,
-          "end": 69.7625
+          "end": 69.7625,
+          "index": 192
         },
         {
           "word": "stand",
           "start": 69.775,
-          "end": 70.275
+          "end": 70.275,
+          "index": 193
         },
         {
           "word": "tomorrow",
           "start": 70.2875,
-          "end": 70.875
+          "end": 70.875,
+          "index": 194
         }
       ]
     },
@@ -1186,47 +1381,56 @@
         {
           "word": "From",
           "start": 71.3,
-          "end": 71.4375
+          "end": 71.4375,
+          "index": 195
         },
         {
           "word": "his",
           "start": 71.45,
-          "end": 71.6125
+          "end": 71.6125,
+          "index": 196
         },
         {
           "word": "bag",
           "start": 71.625,
-          "end": 72.0875
+          "end": 72.0875,
+          "index": 197
         },
         {
           "word": "Eitan",
           "start": 72.625,
-          "end": 73.0875
+          "end": 73.0875,
+          "index": 198
         },
         {
           "word": "took",
           "start": 73.1,
-          "end": 73.3125
+          "end": 73.3125,
+          "index": 199
         },
         {
           "word": "out",
           "start": 73.325,
-          "end": 73.4875
+          "end": 73.4875,
+          "index": 200
         },
         {
           "word": "a",
           "start": 73.5,
-          "end": 73.5875
+          "end": 73.5875,
+          "index": 201
         },
         {
           "word": "wooden",
           "start": 73.6,
-          "end": 73.8875
+          "end": 73.8875,
+          "index": 202
         },
         {
           "word": "stand",
           "start": 73.9,
-          "end": 74.4375
+          "end": 74.4375,
+          "index": 203
         }
       ]
     },
@@ -1239,37 +1443,44 @@
         {
           "word": "There",
           "start": 74.825,
-          "end": 74.9375
+          "end": 74.9375,
+          "index": 204
         },
         {
           "word": "was",
           "start": 74.95,
-          "end": 75.125
+          "end": 75.125,
+          "index": 205
         },
         {
           "word": "blue",
           "start": 75.1375,
-          "end": 75.4
+          "end": 75.4,
+          "index": 206
         },
         {
           "word": "paint",
           "start": 75.4125,
-          "end": 75.8375
+          "end": 75.8375,
+          "index": 207
         },
         {
           "word": "on",
           "start": 75.8625,
-          "end": 76.0
+          "end": 76.0,
+          "index": 208
         },
         {
           "word": "his",
           "start": 76.0125,
-          "end": 76.1875
+          "end": 76.1875,
+          "index": 209
         },
         {
           "word": "fingers",
           "start": 76.2,
-          "end": 76.8
+          "end": 76.8,
+          "index": 210
         }
       ]
     },
@@ -1282,52 +1493,62 @@
         {
           "word": "He",
           "start": 77.2125,
-          "end": 77.525
+          "end": 77.525,
+          "index": 211
         },
         {
           "word": "and",
           "start": 77.5375,
-          "end": 77.65
+          "end": 77.65,
+          "index": 212
         },
         {
           "word": "his",
           "start": 77.6625,
-          "end": 77.8375
+          "end": 77.8375,
+          "index": 213
         },
         {
           "word": "father",
           "start": 77.85,
-          "end": 78.2375
+          "end": 78.2375,
+          "index": 214
         },
         {
           "word": "finished",
           "start": 78.25,
-          "end": 78.6875
+          "end": 78.6875,
+          "index": 215
         },
         {
           "word": "it",
           "start": 78.7,
-          "end": 78.8375
+          "end": 78.8375,
+          "index": 216
         },
         {
           "word": "late",
           "start": 78.85,
-          "end": 79.15
+          "end": 79.15,
+          "index": 217
         },
         {
           "word": "the",
           "start": 79.1625,
-          "end": 79.25
+          "end": 79.25,
+          "index": 218
         },
         {
           "word": "night",
           "start": 79.2625,
-          "end": 79.5625
+          "end": 79.5625,
+          "index": 219
         },
         {
           "word": "before",
           "start": 79.575,
-          "end": 80.125
+          "end": 80.125,
+          "index": 220
         }
       ]
     },
@@ -1340,42 +1561,50 @@
         {
           "word": "Suddenly",
           "start": 80.4875,
-          "end": 81.0875
+          "end": 81.0875,
+          "index": 221
         },
         {
           "word": "Noam",
           "start": 81.1125,
-          "end": 81.475
+          "end": 81.475,
+          "index": 222
         },
         {
           "word": "understood",
           "start": 81.4875,
-          "end": 82.0625
+          "end": 82.0625,
+          "index": 223
         },
         {
           "word": "why",
           "start": 82.075,
-          "end": 82.3375
+          "end": 82.3375,
+          "index": 224
         },
         {
           "word": "Eitan",
           "start": 82.35,
-          "end": 82.775
+          "end": 82.775,
+          "index": 225
         },
         {
           "word": "answered",
           "start": 82.7875,
-          "end": 83.2
+          "end": 83.2,
+          "index": 226
         },
         {
           "word": "so",
           "start": 83.2125,
-          "end": 83.4125
+          "end": 83.4125,
+          "index": 227
         },
         {
           "word": "quickly",
           "start": 83.425,
-          "end": 83.95
+          "end": 83.95,
+          "index": 228
         }
       ]
     },
@@ -1388,37 +1617,44 @@
         {
           "word": "I",
           "start": 84.425,
-          "end": 84.4375
+          "end": 84.4375,
+          "index": 229
         },
         {
           "word": "assumed",
           "start": 84.5125,
-          "end": 85.0125
+          "end": 85.0125,
+          "index": 230
         },
         {
           "word": "you",
           "start": 85.025,
-          "end": 85.1375
+          "end": 85.1375,
+          "index": 231
         },
         {
           "word": "were",
           "start": 85.15,
-          "end": 85.3625
+          "end": 85.3625,
+          "index": 232
         },
         {
           "word": "angry",
           "start": 85.375,
-          "end": 85.9375
+          "end": 85.9375,
+          "index": 233
         },
         {
           "word": "Noam",
           "start": 86.25,
-          "end": 86.5375
+          "end": 86.5375,
+          "index": 234
         },
         {
           "word": "said",
           "start": 86.55,
-          "end": 86.9125
+          "end": 86.9125,
+          "index": 235
         }
       ]
     },
@@ -1431,32 +1667,38 @@
         {
           "word": "But",
           "start": 87.4125,
-          "end": 87.45
+          "end": 87.45,
+          "index": 236
         },
         {
           "word": "I",
           "start": 87.525,
-          "end": 87.6375
+          "end": 87.6375,
+          "index": 237
         },
         {
           "word": "didn't",
           "start": 87.65,
-          "end": 87.9375
+          "end": 87.9375,
+          "index": 238
         },
         {
           "word": "know",
           "start": 87.95,
-          "end": 88.15
+          "end": 88.15,
+          "index": 239
         },
         {
           "word": "for",
           "start": 88.1625,
-          "end": 88.3125
+          "end": 88.3125,
+          "index": 240
         },
         {
           "word": "sure",
           "start": 88.325,
-          "end": 88.825
+          "end": 88.825,
+          "index": 241
         }
       ]
     },
@@ -1469,37 +1711,44 @@
         {
           "word": "My",
           "start": 89.3,
-          "end": 89.35
+          "end": 89.35,
+          "index": 242
         },
         {
           "word": "first",
           "start": 89.425,
-          "end": 89.7875
+          "end": 89.7875,
+          "index": 243
         },
         {
           "word": "words",
           "start": 89.8,
-          "end": 90.1375
+          "end": 90.1375,
+          "index": 244
         },
         {
           "word": "were",
           "start": 90.15,
-          "end": 90.3625
+          "end": 90.3625,
+          "index": 245
         },
         {
           "word": "unfriendly",
           "start": 90.375,
-          "end": 91.1125
+          "end": 91.1125,
+          "index": 246
         },
         {
           "word": "Eitan",
           "start": 91.6625,
-          "end": 92.0625
+          "end": 92.0625,
+          "index": 247
         },
         {
           "word": "replied",
           "start": 92.075,
-          "end": 92.5875
+          "end": 92.5875,
+          "index": 248
         }
       ]
     },
@@ -1512,12 +1761,14 @@
         {
           "word": "I",
           "start": 93.0625,
-          "end": 93.075
+          "end": 93.075,
+          "index": 249
         },
         {
           "word": "agree",
           "start": 93.15,
-          "end": 93.65
+          "end": 93.65,
+          "index": 250
         }
       ]
     },
@@ -1530,32 +1781,38 @@
         {
           "word": "I",
           "start": 94.05,
-          "end": 94.1375
+          "end": 94.1375,
+          "index": 251
         },
         {
           "word": "should",
           "start": 94.15,
-          "end": 94.3375
+          "end": 94.3375,
+          "index": 252
         },
         {
           "word": "explain",
           "start": 94.35,
-          "end": 94.8875
+          "end": 94.8875,
+          "index": 253
         },
         {
           "word": "things",
           "start": 94.9,
-          "end": 95.2625
+          "end": 95.2625,
+          "index": 254
         },
         {
           "word": "more",
           "start": 95.275,
-          "end": 95.5
+          "end": 95.5,
+          "index": 255
         },
         {
           "word": "clearly",
           "start": 95.5125,
-          "end": 96.0875
+          "end": 96.0875,
+          "index": 256
         }
       ]
     },
@@ -1568,32 +1825,38 @@
         {
           "word": "For",
           "start": 96.4875,
-          "end": 96.6
+          "end": 96.6,
+          "index": 257
         },
         {
           "word": "a",
           "start": 96.6125,
-          "end": 96.65
+          "end": 96.65,
+          "index": 258
         },
         {
           "word": "moment",
           "start": 96.6625,
-          "end": 97.15
+          "end": 97.15,
+          "index": 259
         },
         {
           "word": "neither",
           "start": 97.325,
-          "end": 97.675
+          "end": 97.675,
+          "index": 260
         },
         {
           "word": "boy",
           "start": 97.6875,
-          "end": 97.9
+          "end": 97.9,
+          "index": 261
         },
         {
           "word": "spoke",
           "start": 97.9125,
-          "end": 98.4875
+          "end": 98.4875,
+          "index": 262
         }
       ]
     },
@@ -1606,67 +1869,80 @@
         {
           "word": "Then",
           "start": 98.875,
-          "end": 99.0375
+          "end": 99.0375,
+          "index": 263
         },
         {
           "word": "Noam",
           "start": 99.05,
-          "end": 99.4
+          "end": 99.4,
+          "index": 264
         },
         {
           "word": "moved",
           "start": 99.4125,
-          "end": 99.75
+          "end": 99.75,
+          "index": 265
         },
         {
           "word": "the",
           "start": 99.7625,
-          "end": 99.85
+          "end": 99.85,
+          "index": 266
         },
         {
           "word": "books",
           "start": 99.8625,
-          "end": 100.375
+          "end": 100.375,
+          "index": 267
         },
         {
           "word": "and",
           "start": 100.7125,
-          "end": 100.95
+          "end": 100.95,
+          "index": 268
         },
         {
           "word": "Eitan",
           "start": 100.975,
-          "end": 101.4375
+          "end": 101.4375,
+          "index": 269
         },
         {
           "word": "placed",
           "start": 101.45,
-          "end": 101.825
+          "end": 101.825,
+          "index": 270
         },
         {
           "word": "the",
           "start": 101.8375,
-          "end": 101.9
+          "end": 101.9,
+          "index": 271
         },
         {
           "word": "stand",
           "start": 101.9125,
-          "end": 102.3625
+          "end": 102.3625,
+          "index": 272
         },
         {
           "word": "in",
           "start": 102.375,
-          "end": 102.5
+          "end": 102.5,
+          "index": 273
         },
         {
           "word": "the",
           "start": 102.5125,
-          "end": 102.5875
+          "end": 102.5875,
+          "index": 274
         },
         {
           "word": "middle",
           "start": 102.6,
-          "end": 103.0
+          "end": 103.0,
+          "index": 275
         }
       ]
     },
@@ -1679,27 +1955,32 @@
         {
           "word": "The",
           "start": 103.3875,
-          "end": 103.475
+          "end": 103.475,
+          "index": 276
         },
         {
           "word": "welcome",
           "start": 103.4875,
-          "end": 103.8625
+          "end": 103.8625,
+          "index": 277
         },
         {
           "word": "sign",
           "start": 103.875,
-          "end": 104.2875
+          "end": 104.2875,
+          "index": 278
         },
         {
           "word": "fitted",
           "start": 104.3,
-          "end": 104.6875
+          "end": 104.6875,
+          "index": 279
         },
         {
           "word": "perfectly",
           "start": 104.7,
-          "end": 105.3875
+          "end": 105.3875,
+          "index": 280
         }
       ]
     },
@@ -1712,37 +1993,44 @@
         {
           "word": "Noam",
           "start": 105.7875,
-          "end": 106.0875
+          "end": 106.0875,
+          "index": 281
         },
         {
           "word": "still",
           "start": 106.1,
-          "end": 106.45
+          "end": 106.45,
+          "index": 282
         },
         {
           "word": "remembered",
           "start": 106.4625,
-          "end": 106.9125
+          "end": 106.9125,
+          "index": 283
         },
         {
           "word": "the",
           "start": 106.925,
-          "end": 107.0125
+          "end": 107.0125,
+          "index": 284
         },
         {
           "word": "hurt",
           "start": 107.025,
-          "end": 107.325
+          "end": 107.325,
+          "index": 285
         },
         {
           "word": "he",
           "start": 107.3375,
-          "end": 107.5125
+          "end": 107.5125,
+          "index": 286
         },
         {
           "word": "felt",
           "start": 107.525,
-          "end": 108.0
+          "end": 108.0,
+          "index": 287
         }
       ]
     },
@@ -1755,52 +2043,62 @@
         {
           "word": "A",
           "start": 108.3875,
-          "end": 108.45
+          "end": 108.45,
+          "index": 288
         },
         {
           "word": "missing",
           "start": 108.4625,
-          "end": 108.8
+          "end": 108.8,
+          "index": 289
         },
         {
           "word": "sentence",
           "start": 108.8125,
-          "end": 109.375
+          "end": 109.375,
+          "index": 290
         },
         {
           "word": "did",
           "start": 109.3875,
-          "end": 109.5625
+          "end": 109.5625,
+          "index": 291
         },
         {
           "word": "not",
           "start": 109.575,
-          "end": 109.8625
+          "end": 109.8625,
+          "index": 292
         },
         {
           "word": "immediately",
           "start": 109.8875,
-          "end": 110.4625
+          "end": 110.4625,
+          "index": 293
         },
         {
           "word": "make",
           "start": 110.475,
-          "end": 110.7375
+          "end": 110.7375,
+          "index": 294
         },
         {
           "word": "that",
           "start": 110.75,
-          "end": 110.95
+          "end": 110.95,
+          "index": 295
         },
         {
           "word": "feeling",
           "start": 110.9625,
-          "end": 111.35
+          "end": 111.35,
+          "index": 296
         },
         {
           "word": "disappear",
           "start": 111.3625,
-          "end": 112.025
+          "end": 112.025,
+          "index": 297
         }
       ]
     },
@@ -1813,57 +2111,68 @@
         {
           "word": "However",
           "start": 112.425,
-          "end": 113.075
+          "end": 113.075,
+          "index": 298
         },
         {
           "word": "the",
           "start": 113.1,
-          "end": 113.2
+          "end": 113.2,
+          "index": 299
         },
         {
           "word": "stand",
           "start": 113.2125,
-          "end": 113.675
+          "end": 113.675,
+          "index": 300
         },
         {
           "word": "was",
           "start": 113.6875,
-          "end": 113.925
+          "end": 113.925,
+          "index": 301
         },
         {
           "word": "evidence",
           "start": 113.95,
-          "end": 114.45
+          "end": 114.45,
+          "index": 302
         },
         {
           "word": "that",
           "start": 114.4625,
-          "end": 114.7
+          "end": 114.7,
+          "index": 303
         },
         {
           "word": "Eitan",
           "start": 114.725,
-          "end": 115.125
+          "end": 115.125,
+          "index": 304
         },
         {
           "word": "cared",
           "start": 115.1375,
-          "end": 115.475
+          "end": 115.475,
+          "index": 305
         },
         {
           "word": "about",
           "start": 115.4875,
-          "end": 115.7625
+          "end": 115.7625,
+          "index": 306
         },
         {
           "word": "their",
           "start": 115.775,
-          "end": 115.9125
+          "end": 115.9125,
+          "index": 307
         },
         {
           "word": "project",
           "start": 115.925,
-          "end": 116.5625
+          "end": 116.5625,
+          "index": 308
         }
       ]
     },
@@ -1876,42 +2185,50 @@
         {
           "word": "Noam",
           "start": 116.925,
-          "end": 117.25
+          "end": 117.25,
+          "index": 309
         },
         {
           "word": "thanked",
           "start": 117.2625,
-          "end": 117.6125
+          "end": 117.6125,
+          "index": 310
         },
         {
           "word": "him",
           "start": 117.625,
-          "end": 117.925
+          "end": 117.925,
+          "index": 311
         },
         {
           "word": "and",
           "start": 117.95,
-          "end": 118.125
+          "end": 118.125,
+          "index": 312
         },
         {
           "word": "asked",
           "start": 118.1375,
-          "end": 118.475
+          "end": 118.475,
+          "index": 313
         },
         {
           "word": "about",
           "start": 118.4875,
-          "end": 118.725
+          "end": 118.725,
+          "index": 314
         },
         {
           "word": "his",
           "start": 118.7375,
-          "end": 118.9
+          "end": 118.9,
+          "index": 315
         },
         {
           "word": "brother",
           "start": 118.9125,
-          "end": 119.4
+          "end": 119.4,
+          "index": 316
         }
       ]
     },
@@ -1924,102 +2241,122 @@
         {
           "word": "That",
           "start": 119.8,
-          "end": 119.9625
+          "end": 119.9625,
+          "index": 317
         },
         {
           "word": "afternoon",
           "start": 119.975,
-          "end": 120.5375
+          "end": 120.5375,
+          "index": 318
         },
         {
           "word": "they",
           "start": 120.9375,
-          "end": 121.05
+          "end": 121.05,
+          "index": 319
         },
         {
           "word": "wrote",
           "start": 121.0625,
-          "end": 121.275
+          "end": 121.275,
+          "index": 320
         },
         {
           "word": "a",
           "start": 121.2875,
-          "end": 121.3125
+          "end": 121.3125,
+          "index": 321
         },
         {
           "word": "short",
           "start": 121.325,
-          "end": 121.7
+          "end": 121.7,
+          "index": 322
         },
         {
           "word": "rule",
           "start": 121.7125,
-          "end": 121.9875
+          "end": 121.9875,
+          "index": 323
         },
         {
           "word": "for",
           "start": 122.0,
-          "end": 122.125
+          "end": 122.125,
+          "index": 324
         },
         {
           "word": "their",
           "start": 122.1375,
-          "end": 122.2625
+          "end": 122.2625,
+          "index": 325
         },
         {
           "word": "next",
           "start": 122.275,
-          "end": 122.5625
+          "end": 122.5625,
+          "index": 326
         },
         {
           "word": "project",
           "start": 122.575,
-          "end": 123.1
+          "end": 123.1,
+          "index": 327
         },
         {
           "word": "If",
           "start": 123.75,
-          "end": 123.8375
+          "end": 123.8375,
+          "index": 328
         },
         {
           "word": "a",
           "start": 123.85,
-          "end": 123.9
+          "end": 123.9,
+          "index": 329
         },
         {
           "word": "message",
           "start": 123.9125,
-          "end": 124.35
+          "end": 124.35,
+          "index": 330
         },
         {
           "word": "sounds",
           "start": 124.3625,
-          "end": 124.6625
+          "end": 124.6625,
+          "index": 331
         },
         {
           "word": "strange",
           "start": 124.675,
-          "end": 125.1875
+          "end": 125.1875,
+          "index": 332
         },
         {
           "word": "ask",
           "start": 125.725,
-          "end": 126.025
+          "end": 126.025,
+          "index": 333
         },
         {
           "word": "before",
           "start": 126.0375,
-          "end": 126.375
+          "end": 126.375,
+          "index": 334
         },
         {
           "word": "you",
           "start": 126.3875,
-          "end": 126.5
+          "end": 126.5,
+          "index": 335
         },
         {
           "word": "assume",
           "start": 126.5125,
-          "end": 126.9875
+          "end": 126.9875,
+          "index": 336
         }
       ]
     },
@@ -2032,62 +2369,74 @@
         {
           "word": "In",
           "start": 127.4,
-          "end": 127.5
+          "end": 127.5,
+          "index": 337
         },
         {
           "word": "other",
           "start": 127.5125,
-          "end": 127.6875
+          "end": 127.6875,
+          "index": 338
         },
         {
           "word": "words",
           "start": 127.7,
-          "end": 128.1
+          "end": 128.1,
+          "index": 339
         },
         {
           "word": "three",
           "start": 128.125,
-          "end": 128.4125
+          "end": 128.4125,
+          "index": 340
         },
         {
           "word": "words",
           "start": 128.425,
-          "end": 128.8
+          "end": 128.8,
+          "index": 341
         },
         {
           "word": "do",
           "start": 128.8125,
-          "end": 128.925
+          "end": 128.925,
+          "index": 342
         },
         {
           "word": "not",
           "start": 128.9375,
-          "end": 129.1875
+          "end": 129.1875,
+          "index": 343
         },
         {
           "word": "always",
           "start": 129.2,
-          "end": 129.5375
+          "end": 129.5375,
+          "index": 344
         },
         {
           "word": "tell",
           "start": 129.55,
-          "end": 129.7625
+          "end": 129.7625,
+          "index": 345
         },
         {
           "word": "the",
           "start": 129.775,
-          "end": 129.8375
+          "end": 129.8375,
+          "index": 346
         },
         {
           "word": "whole",
           "start": 129.85,
-          "end": 130.05
+          "end": 130.05,
+          "index": 347
         },
         {
           "word": "story",
           "start": 130.0625,
-          "end": 130.625
+          "end": 130.625,
+          "index": 348
         }
       ]
     },
@@ -2100,52 +2449,62 @@
         {
           "word": "As",
           "start": 131.0125,
-          "end": 131.1375
+          "end": 131.1375,
+          "index": 349
         },
         {
           "word": "the",
           "start": 131.15,
-          "end": 131.25
+          "end": 131.25,
+          "index": 350
         },
         {
           "word": "first",
           "start": 131.2625,
-          "end": 131.5875
+          "end": 131.5875,
+          "index": 351
         },
         {
           "word": "visitors",
           "start": 131.6,
-          "end": 132.0875
+          "end": 132.0875,
+          "index": 352
         },
         {
           "word": "arrived",
           "start": 132.1,
-          "end": 132.7375
+          "end": 132.7375,
+          "index": 353
         },
         {
           "word": "Eitan",
           "start": 133.275,
-          "end": 133.7125
+          "end": 133.7125,
+          "index": 354
         },
         {
           "word": "stood",
           "start": 133.725,
-          "end": 134.1125
+          "end": 134.1125,
+          "index": 355
         },
         {
           "word": "behind",
           "start": 134.125,
-          "end": 134.4875
+          "end": 134.4875,
+          "index": 356
         },
         {
           "word": "the",
           "start": 134.5,
-          "end": 134.5625
+          "end": 134.5625,
+          "index": 357
         },
         {
           "word": "table",
           "start": 134.575,
-          "end": 135.1
+          "end": 135.1,
+          "index": 358
         }
       ]
     },
@@ -2158,37 +2517,44 @@
         {
           "word": "Noam",
           "start": 135.5,
-          "end": 135.8375
+          "end": 135.8375,
+          "index": 359
         },
         {
           "word": "moved",
           "start": 135.85,
-          "end": 136.1875
+          "end": 136.1875,
+          "index": 360
         },
         {
           "word": "his",
           "start": 136.2,
-          "end": 136.375
+          "end": 136.375,
+          "index": 361
         },
         {
           "word": "own",
           "start": 136.3875,
-          "end": 136.5875
+          "end": 136.5875,
+          "index": 362
         },
         {
           "word": "chair",
           "start": 136.6,
-          "end": 136.9375
+          "end": 136.9375,
+          "index": 363
         },
         {
           "word": "beside",
           "start": 136.95,
-          "end": 137.3375
+          "end": 137.3375,
+          "index": 364
         },
         {
           "word": "him",
           "start": 137.35,
-          "end": 137.65
+          "end": 137.65,
+          "index": 365
         }
       ]
     },
@@ -2201,32 +2567,38 @@
         {
           "word": "This",
           "start": 138.1375,
-          "end": 138.225
+          "end": 138.225,
+          "index": 366
         },
         {
           "word": "one",
           "start": 138.3,
-          "end": 138.5375
+          "end": 138.5375,
+          "index": 367
         },
         {
           "word": "is",
           "start": 138.55,
-          "end": 138.7125
+          "end": 138.7125,
+          "index": 368
         },
         {
           "word": "yours",
           "start": 138.725,
-          "end": 139.325
+          "end": 139.325,
+          "index": 369
         },
         {
           "word": "he",
           "start": 139.35,
-          "end": 139.625
+          "end": 139.625,
+          "index": 370
         },
         {
           "word": "said",
           "start": 139.6375,
-          "end": 139.9875
+          "end": 139.9875,
+          "index": 371
         }
       ]
     },
@@ -2239,52 +2611,62 @@
         {
           "word": "Eitan",
           "start": 140.35,
-          "end": 140.75
+          "end": 140.75,
+          "index": 372
         },
         {
           "word": "sat",
           "start": 140.7625,
-          "end": 141.05
+          "end": 141.05,
+          "index": 373
         },
         {
           "word": "down",
           "start": 141.0625,
-          "end": 141.4875
+          "end": 141.4875,
+          "index": 374
         },
         {
           "word": "and",
           "start": 141.5125,
-          "end": 141.675
+          "end": 141.675,
+          "index": 375
         },
         {
           "word": "they",
           "start": 141.6875,
-          "end": 141.8625
+          "end": 141.8625,
+          "index": 376
         },
         {
           "word": "opened",
           "start": 141.875,
-          "end": 142.1875
+          "end": 142.1875,
+          "index": 377
         },
         {
           "word": "the",
           "start": 142.2,
-          "end": 142.275
+          "end": 142.275,
+          "index": 378
         },
         {
           "word": "first",
           "start": 142.2875,
-          "end": 142.6125
+          "end": 142.6125,
+          "index": 379
         },
         {
           "word": "box",
           "start": 142.625,
-          "end": 142.9375
+          "end": 142.9375,
+          "index": 380
         },
         {
           "word": "together",
           "start": 142.95,
-          "end": 143.475
+          "end": 143.475,
+          "index": 381
         }
       ]
     }
