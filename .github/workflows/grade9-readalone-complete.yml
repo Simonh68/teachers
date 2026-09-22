@@ -1,0 +1,119 @@
+name: Complete and verify Grade 9 Read Alone
+on:
+  push:
+    branches: [main]
+    paths:
+      - tools/grade9_complete_readalone.py
+      - tools/grade9_readalone_qa.py
+      - tools/grade9-readalone/player.js
+      - tools/grade9-readalone/reader.css
+      - tools/grade9-readalone/translations.json
+      - .github/workflows/grade9-readalone-complete.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: grade9-readalone-completion
+  cancel-in-progress: false
+jobs:
+  complete:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install production and browser validation dependencies
+        run: |
+          python -m pip install beautifulsoup4==4.13.4 Pillow==11.3.0 playwright==1.55.0 edge-tts==7.2.8
+          python -m playwright install --with-deps chromium
+          sudo apt-get install -y -qq ffmpeg
+      - name: Reuse verified narration and build both readers
+        run: |
+          python -m py_compile tools/grade9_complete_readalone.py tools/grade9_readalone_qa.py
+          python -u tools/grade9_read_alone_audio.py
+          python -u tools/grade9_complete_readalone.py
+          node --check grade9/unit-1/read-alone/player.js
+      - name: Verify all passages all sentence slides and real playback
+        run: python -u tools/grade9_readalone_qa.py
+      - name: Commit only completed tested materials
+        run: |
+          git config user.name 'Teachers Read Alone builder'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add grade9/unit-1/read-alone grade9/unit-1/index.html grade9/unit-1/reading.html grade9/unit-1/resources.html grade9/unit-1/student-preparation.html grade9/the-message-without-a-voice/index.html tools/grade9-readalone/original-deck.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Complete both Grade 9 Read Alone modes with verified full story audio'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then break; fi
+              if [ "$attempt" = '3' ]; then exit 1; fi
+              sleep 3
+            done
+          fi
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload tested site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Publish tested site
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Verify the public site and recorded audio in a browser
+        run: |
+          python - <<'PY'
+          import json,time,urllib.request,hashlib
+          from pathlib import Path
+          from playwright.sync_api import sync_playwright
+          root='https://simonh68.github.io/teachers/'
+          expected=json.loads(Path('grade9/unit-1/read-alone/build-report.json').read_text())
+          for attempt in range(15):
+              try:
+                  remote=json.load(urllib.request.urlopen(root+'grade9/unit-1/read-alone/build-report.json?check='+str(time.time()),timeout=25))
+                  if remote['audio_sha256']==expected['audio_sha256'] and remote['full_deck_slides']==142:break
+              except Exception: pass
+              time.sleep(4)
+          else: raise AssertionError('New reader not visible on public site')
+          with sync_playwright() as p:
+              browser=p.chromium.launch(headless=True)
+              context=browser.new_context(viewport={'width':390,'height':844})
+              page=context.new_page(); errors=[]; page.on('pageerror',lambda e:errors.append(str(e)))
+              for mode in ['text','sentences']:
+                  page.goto(root+'grade9/unit-1/read-alone/?mode='+mode,wait_until='networkidle')
+                  page.wait_for_function('window.TeachersReadAlone?.data && window.TeachersReadAlone?.clip',timeout=45000)
+                  assert page.evaluate('TeachersReadAlone.data.sentences.length')==46
+                  assert page.locator('#raText').inner_text()
+                  page.locator('[data-ra-play]').click()
+                  page.wait_for_function('!TeachersReadAlone.audio.paused && TeachersReadAlone.audio.currentTime > TeachersReadAlone.clip.start + .1',timeout=20000)
+                  page.wait_for_function('document.querySelector(".ra-spoken")',timeout=10000)
+                  page.locator('#raSpeed').select_option('0.25')
+                  assert page.evaluate('TeachersReadAlone.audio.playbackRate')==.25
+                  page.screenshot(path='grade9-ra-qa/public-'+mode+'.png')
+                  page.evaluate('TeachersReadAlone.stop()')
+              page.goto(root+'grade9/unit-1/',wait_until='networkidle')
+              assert page.locator('#read-alone-links a').count()>=2
+              page.goto(root+'grade9/the-message-without-a-voice/#slide-36',wait_until='networkidle')
+              page.wait_for_function('window.TeachersReadAlone?.data')
+              assert page.locator('.slide').count()==142
+              assert page.locator('.slide.active').get_attribute('id')=='slide-36'
+              assert not errors,errors
+              browser.close()
+          report={'public_url':root+'grade9/unit-1/read-alone/','public_modes':['text','sentences'],'real_audio_playback':True,'quarter_speed':True,'word_highlight':True,'unit_navigation':True,'original_slide_36_anchor':True,'passed':True,'audio_sha256':expected['audio_sha256']}
+          Path('grade9-ra-qa/public-report.json').write_text(json.dumps(report,indent=2))
+          print(json.dumps(report),flush=True)
+          PY
+      - name: Preserve screenshots and verification reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: grade9-readalone-browser-qa
+          path: grade9-ra-qa/
+          retention-days: 30
