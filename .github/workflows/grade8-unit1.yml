@@ -12,7 +12,7 @@ permissions:
   id-token: write
 concurrency:
   group: grade8-unit1
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -47,6 +47,14 @@ jobs:
         run: |
           python -u tools/grade8-unit1/build.py
           python -u tools/grade8-unit1/refine.py
+      - name: Retain reproducible browser build
+        uses: actions/upload-artifact@v4
+        with:
+          name: grade8-unit1-browser-build
+          path: |
+            grade8/unit-1/
+            grade8/exam-01-preparation/audio/
+            tools/grade8-unit1/verify.py
       - name: Verify all reading slides, mobile layouts and recorded playback
         run: python -u tools/grade8-unit1/verify.py
       - name: Save visual test results
