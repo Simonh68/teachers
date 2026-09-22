@@ -1,5 +1,5 @@
 {
-  "version": "20260922-g9u1-2",
+  "version": "20260922-g9u1-3",
   "created": "2026-09-22",
   "theme": "Communication & Human Connection",
   "groups": [
@@ -8,9 +8,6 @@
     23
   ],
   "core": "II",
-  "recordedExam": "2026-10-11",
-  "proposedExam": "2026-10-21",
-  "postponementApproved": false,
   "storyResumeSlide": 36,
   "connectorsResumeSlide": 121,
   "sources": [
@@ -35,5 +32,35 @@
   ],
   "vocabularyRecords": 165,
   "storySha256": "b468fd40aa295c41bd0b1a9c859ac95def524ce4d3355990abc97a318dc188d0",
-  "storySentences": 46
+  "storySentences": 46,
+  "meetings": [
+    {
+      "date": "7.10.2026",
+      "activeMinutes": 64,
+      "vocabularyStart": 1,
+      "vocabularyEnd": 42,
+      "homeMinutes": 45
+    },
+    {
+      "date": "11.10.2026",
+      "activeMinutes": 72,
+      "vocabularyStart": 43,
+      "vocabularyEnd": 83,
+      "homeMinutes": 45
+    },
+    {
+      "date": "14.10.2026",
+      "activeMinutes": 64,
+      "vocabularyStart": 84,
+      "vocabularyEnd": 124,
+      "homeMinutes": 45
+    },
+    {
+      "date": "18.10.2026",
+      "activeMinutes": 72,
+      "vocabularyStart": 125,
+      "vocabularyEnd": 165,
+      "homeMinutes": 45
+    }
+  ]
 }
