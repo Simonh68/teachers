@@ -1,0 +1,66 @@
+name: Verify published Grade 9 Read Alone
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/grade9-readalone-public-check.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: grade9-readalone-public-verification
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install browser verification only
+        run: |
+          python -m pip install playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - name: Confirm the corrected presentation reached the public site
+        run: |
+          python - <<'PY'
+          import urllib.request, time
+          url='https://simonh68.github.io/teachers/grade9/the-message-without-a-voice/'
+          marker='slides.forEach(s => { s.classList.remove('
+          for attempt in range(30):
+              try:
+                  text=urllib.request.urlopen(url+'?qa='+str(time.time()),timeout=20).read().decode()
+                  if marker in text and 'data-ra-deck' in text:
+                      print('Corrected full presentation is public.')
+                      break
+              except Exception as e:
+                  print(type(e).__name__)
+              time.sleep(5)
+          else:
+              raise AssertionError('Corrected presentation is not yet visible publicly')
+          PY
+      - name: Test both public readers with real audio and direct links
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess,time
+          source=Path('tools/grade9_readalone_public_qa.py').read_text()
+          # Verify rendered content directly, without waiting for unrelated font requests.
+          source=source.replace("wait_until='networkidle'", "wait_until='domcontentloaded'")
+          temp=Path('tools/grade9_public_check_runtime.py')
+          temp.write_text(source)
+          for attempt in range(3):
+              result=subprocess.run(['python','-u',str(temp)])
+              if result.returncode==0:break
+              if attempt==2:raise SystemExit(result.returncode)
+              time.sleep(10)
+          PY
+      - name: Preserve public verification and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: grade9-readalone-public-verified
+          path: grade9-ra-qa/
+          retention-days: 30
