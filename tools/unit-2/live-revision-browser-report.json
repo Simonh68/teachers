@@ -1,0 +1,34 @@
+{
+  "url": "https://simonh68.github.io/teachers/grade7/unit-2/reading/?text=boat",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "texts": [
+    {
+      "id": "school-calendars",
+      "style": null
+    },
+    {
+      "id": "horse",
+      "style": "whatsapp"
+    },
+    {
+      "id": "wheelchair",
+      "style": "email"
+    },
+    {
+      "id": "boat",
+      "style": "instagram"
+    }
+  ],
+  "title": "Instagram post · Zoe and Isaac · Europe · Classroom adaptation",
+  "overflow": false,
+  "playback": {
+    "time": 0.203413,
+    "speed": 0.75,
+    "error": null
+  },
+  "menuPaused": true,
+  "errors": []
+}

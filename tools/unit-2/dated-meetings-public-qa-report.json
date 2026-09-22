@@ -1,0 +1,80 @@
+{
+  "url": "https://simonh68.github.io/teachers/grade7/unit-2/",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "dates": [
+    "2026-10-29",
+    "2026-11-01",
+    "2026-11-05",
+    "2026-11-08"
+  ],
+  "files": [
+    {
+      "file": "earlier-guide-data.js",
+      "sha256": "dd03808ebb45145c5c5248ec1c1bed74cec0ad4b52b8fbaf478cc56ae10d5a28"
+    },
+    {
+      "file": "earlier-guide.html",
+      "sha256": "c05ad1e8b988eb20821e1a0e89303f6e41f21541e1afcb6a7c146c90e40802d7"
+    },
+    {
+      "file": "earlier-guide.js",
+      "sha256": "a1806990e27adaa79d0dfafd83e7be855f4bd4a378fbad7bd09e74134ccbf547"
+    },
+    {
+      "file": "earlier-meetings.html",
+      "sha256": "cc2932174ca0ae44608ae081c6d4ab104faed4301a2ee6cce68cf6a5f5df4a64"
+    },
+    {
+      "file": "earlier-preparation.html",
+      "sha256": "4565edb20e8c565942e1ffe6783aeabda54fa6f0041fb5d99dec38323acca7da"
+    },
+    {
+      "file": "index.html",
+      "sha256": "8cd54f5f0c262fc43c71eb10042239c79700770928505a85d7086ee8f608d86e"
+    },
+    {
+      "file": "meeting-guide-data.js",
+      "sha256": "a4dd1664e6a4dbb4e6bf694c426f088f21a8b9f0a7d1e54699b55c914bf25150"
+    },
+    {
+      "file": "meeting-guide.html",
+      "sha256": "3158d2a65a3cb35be27f7bd74331ac3fc8dec30b402b8551796159e9daf15c1b"
+    },
+    {
+      "file": "meetings.css",
+      "sha256": "fa56a51de3831b10fc7bf98a9fdda7a29ff83c79e0b8a72187d51f58ae86c33a"
+    },
+    {
+      "file": "meetings.js",
+      "sha256": "b4e86423be774ae7a5c66d9129dd1b6ecb45245b7bc840184fe4272883f2ce19"
+    },
+    {
+      "file": "meetings.json",
+      "sha256": "9fdce90d46cfb3e5a4463fae92cdded9fe1d883f4e12b810efbbe72194408ce9"
+    },
+    {
+      "file": "student-preparation.html",
+      "sha256": "6e8d98f896d313e94675a70788756d4bf2907040f74967388ed148b69fa77167"
+    },
+    {
+      "file": "vocabulary/practice.html",
+      "sha256": "f56598e865ce84d1a2ed837095567f796650b0b0a019b4dd436a7c83dc92c79f"
+    },
+    {
+      "file": "vocabulary/practice.js",
+      "sha256": "4e59d1ee3274a2051a34c0f37f99445a241c731d8238288c242ae11a5b735762"
+    }
+  ],
+  "guideDate": "2026-11-05",
+  "teacherSlides": 12,
+  "practiceRange": [
+    84,
+    97
+  ],
+  "classAndHomeSaved": true,
+  "historyResetRestore": true,
+  "errors": []
+}
