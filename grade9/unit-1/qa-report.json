@@ -1,0 +1,72 @@
+{
+  "browser": "Chromium",
+  "viewports": [
+    {
+      "width": 1366,
+      "height": 768,
+      "pages": [
+        "assessment.html",
+        "index.html",
+        "practice.html",
+        "reading.html",
+        "resources.html",
+        "student-preparation.html",
+        "teacher.html",
+        "vocabulary.html",
+        "writing.html"
+      ],
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "pages": [
+        "assessment.html",
+        "index.html",
+        "practice.html",
+        "reading.html",
+        "resources.html",
+        "student-preparation.html",
+        "teacher.html",
+        "vocabulary.html",
+        "writing.html"
+      ],
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "pages": [
+        "assessment.html",
+        "index.html",
+        "practice.html",
+        "reading.html",
+        "resources.html",
+        "student-preparation.html",
+        "teacher.html",
+        "vocabulary.html",
+        "writing.html"
+      ],
+      "horizontalOverflow": false
+    }
+  ],
+  "checks": [
+    "date status remains conditional",
+    "separate completion and opened-link tracking",
+    "history reset and restore preserve completion",
+    "answers persist locally",
+    "model answers are closed initially",
+    "writing count and paragraph preview",
+    "draft persists locally",
+    "all three canonical groups available",
+    "translation on next step only",
+    "English source remains fixed during reveal",
+    "break after three vocabulary entries",
+    "keyboard navigation",
+    "teacher guide slide navigation",
+    "practice print output hides answer key",
+    "unit indexed under Grade 9 exactly once"
+  ],
+  "errors": [],
+  "passed": true
+}

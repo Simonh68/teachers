@@ -1,0 +1,61 @@
+{
+  "generatedPages": [
+    "assessment.html",
+    "index.html",
+    "practice.html",
+    "reading.html",
+    "resources.html",
+    "student-preparation.html",
+    "teacher.html",
+    "vocabulary.html",
+    "writing.html"
+  ],
+  "vocabularyCount": 165,
+  "groups": [
+    {
+      "group": 21,
+      "count": 55,
+      "sha256": "b4622313562f2c0c4fd6369d3519e5325b456df8f14582eb10f765ed6929b107",
+      "repositoryPath": "groups/group-21.html"
+    },
+    {
+      "group": 22,
+      "count": 55,
+      "sha256": "4bd0343410abc44f75188b2f48d568acb8c411d4be5f39bf5f6d7e844ffefc56",
+      "repositoryPath": "groups/group-22.html"
+    },
+    {
+      "group": 23,
+      "count": 55,
+      "sha256": "f241c1cfb95a366086f226ad5b0405fde6877751ac1ffb3a4ebb57bef82933be",
+      "repositoryPath": "groups/group-23.html"
+    }
+  ],
+  "focusCount": 16,
+  "storySentences": 46,
+  "modelWordCount": 85,
+  "meetingMinutes": [
+    {
+      "n": 1,
+      "dur": 80,
+      "active": 64
+    },
+    {
+      "n": 2,
+      "dur": 90,
+      "active": 72
+    },
+    {
+      "n": 3,
+      "dur": 80,
+      "active": 64
+    },
+    {
+      "n": 4,
+      "dur": 90,
+      "active": 72
+    }
+  ],
+  "dateStatus": "postponement not approved",
+  "originalStoryUnchanged": true
+}

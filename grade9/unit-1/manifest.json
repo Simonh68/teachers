@@ -1,0 +1,39 @@
+{
+  "version": "20260922-g9u1-1",
+  "created": "2026-09-22",
+  "theme": "Communication & Human Connection",
+  "groups": [
+    21,
+    22,
+    23
+  ],
+  "core": "II",
+  "recordedExam": "2026-10-11",
+  "proposedExam": "2026-10-21",
+  "postponementApproved": false,
+  "storyResumeSlide": 36,
+  "connectorsResumeSlide": 121,
+  "sources": [
+    {
+      "group": 21,
+      "count": 55,
+      "sha256": "b4622313562f2c0c4fd6369d3519e5325b456df8f14582eb10f765ed6929b107",
+      "repositoryPath": "groups/group-21.html"
+    },
+    {
+      "group": 22,
+      "count": 55,
+      "sha256": "4bd0343410abc44f75188b2f48d568acb8c411d4be5f39bf5f6d7e844ffefc56",
+      "repositoryPath": "groups/group-22.html"
+    },
+    {
+      "group": 23,
+      "count": 55,
+      "sha256": "f241c1cfb95a366086f226ad5b0405fde6877751ac1ffb3a4ebb57bef82933be",
+      "repositoryPath": "groups/group-23.html"
+    }
+  ],
+  "vocabularyRecords": 165,
+  "storySha256": "b468fd40aa295c41bd0b1a9c859ac95def524ce4d3355990abc97a318dc188d0",
+  "storySentences": 46
+}
