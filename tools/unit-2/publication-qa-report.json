@@ -1,0 +1,65 @@
+{
+  "published_commit": "916221300a58e3e37087b687769326577dcb43b5",
+  "date": "2026-09-22",
+  "deployment": "success",
+  "deployment_run": "https://github.com/Simonh68/teachers/actions/runs/35675524395",
+  "prepublication": {
+    "base": "http://127.0.0.1:44481/grade7/unit-2/",
+    "assets": 174,
+    "viewports": [
+      {
+        "width": 1366,
+        "height": 900,
+        "components": 10
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "components": 10
+      },
+      {
+        "width": 360,
+        "height": 640,
+        "components": 10
+      }
+    ],
+    "readingClipsPlayed": 8,
+    "clipboardLinks": 3,
+    "errors": []
+  },
+  "public_pages": {
+    "pages": 13,
+    "errors": [],
+    "files": [
+      "grade7/index.html",
+      "grade7/unit-2/listening.html",
+      "grade7/unit-2/index.html",
+      "grade7/unit-2/teacher.html",
+      "grade7/unit-2/workbook-key.html",
+      "grade7/unit-2/main-text.html",
+      "grade7/unit-2/companion-stories.html",
+      "grade7/unit-2/worksheet.html",
+      "grade7/unit-2/reading/index.html",
+      "grade7/unit-2/vocabulary/full.html",
+      "grade7/unit-2/vocabulary/practice.html",
+      "grade7/unit-2/grammar-b/index.html",
+      "grade7/unit-2/grammar-a/index.html"
+    ]
+  },
+  "public_media": {
+    "base": "https://simonh68.github.io/teachers/grade7/unit-2/",
+    "assets": 174,
+    "audio": 171,
+    "errors": [],
+    "seconds": 179.3
+  },
+  "public_mobile_playback": {
+    "url": "https://simonh68.github.io/teachers/grade7/unit-2/reading/?text=snow-day",
+    "status": 200,
+    "title": "A Snow Day, a Screen and a Shovel",
+    "playback": true,
+    "menuPauses": true,
+    "errors": []
+  },
+  "verification_note": "Full functional and layout checks passed locally. Public HTML and media match the checked local files byte for byte. Targeted live mobile playback and menu pause passed. The full public browser run was interrupted by runtime proxy certificate trust and external-font loading; it is not claimed as a completed check."
+}
