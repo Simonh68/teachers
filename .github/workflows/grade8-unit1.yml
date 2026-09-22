@@ -1,0 +1,94 @@
+name: Grade 8 Unit 1 - aligned Read Alone and dated plan
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/grade8-unit1/**'
+      - '.github/workflows/grade8-unit1.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: grade8-unit1
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      OMP_NUM_THREADS: '2'
+      MKL_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/torch/hub/checkpoints
+            .cache/grade8-unit1
+          key: grade8-unit1-wav2vec2-alignment-v1
+      - name: Install fixed alignment and browser dependencies
+        run: |
+          python -m pip install torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install 'numpy<2' soundfile==0.13.1 playwright==1.55.0
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m playwright install --with-deps chromium
+      - name: Build approved unit and align all existing story recordings
+        run: python -u tools/grade8-unit1/build.py
+      - name: Verify all reading slides, mobile layouts and recorded playback
+        run: python -u tools/grade8-unit1/verify.py
+      - name: Save visual test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: grade8-unit1-visual-qa
+          path: |
+            /tmp/grade8-unit1-qa/
+            grade8/unit-1/qa-report.json
+          if-no-files-found: ignore
+      - name: Commit only verified unit, class card and corrected old exam date
+        run: |
+          git config user.name 'Teachers Lesson Builder'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add grade8/unit-1 grade8/index.html grade8/exam-01-preparation/lesson.json grade8/exam-01-preparation/index.html grade8/exam-01-preparation/teacher.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish Grade 8 Unit 1: five meetings, both Read Alone modes, 228 aligned words'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then break; fi
+              if [ "$attempt" = 3 ]; then exit 1; fi
+              sleep 3
+            done
+          fi
+      - name: Stage the latest tracked site without the model cache
+        run: |
+          mkdir -p /tmp/grade8-unit1-site
+          git archive HEAD | tar -x -C /tmp/grade8-unit1-site
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: /tmp/grade8-unit1-site
+      - name: Publish the verified unit
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Check the public unit, direct links and all 73 MP3 recordings
+        run: python -u tools/grade8-unit1/verify.py --live
+      - name: Save live verification
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: grade8-unit1-live-qa
+          path: grade8/unit-1/live-check.json
+          if-no-files-found: ignore
