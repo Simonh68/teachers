@@ -5,25 +5,25 @@
       "width": 360,
       "height": 640,
       "pairs": 22,
-      "maxScroll": 462
+      "maxScroll": 495
     },
     {
       "width": 390,
       "height": 844,
       "pairs": 22,
-      "maxScroll": 268
+      "maxScroll": 300
     },
     {
       "width": 1024,
       "height": 640,
       "pairs": 22,
-      "maxScroll": 185
+      "maxScroll": 191
     },
     {
       "width": 844,
       "height": 390,
       "pairs": 22,
-      "maxScroll": 325
+      "maxScroll": 335
     }
   ],
   "touch": [
@@ -39,85 +39,85 @@
   "audio": [
     {
       "key": "s1-response-1",
-      "time": 0.267898,
+      "time": 0.264713,
       "duration": 1.872,
       "paused": false
     },
     {
       "key": "s1-response-2",
-      "time": 0.257277,
+      "time": 0.252899,
       "duration": 2.208,
       "paused": false
     },
     {
       "key": "s1-response-3",
-      "time": 0.248784,
+      "time": 0.273898,
       "duration": 2.928,
       "paused": false
     },
     {
       "key": "s1-response-4",
-      "time": 0.255374,
+      "time": 0.250851,
       "duration": 2.136,
       "paused": false
     },
     {
       "key": "s1-response-5",
-      "time": 0.271697,
+      "time": 0.257795,
       "duration": 2.592,
       "paused": false
     },
     {
       "key": "s1-passage-1",
-      "time": 0.248855,
+      "time": 0.247937,
       "duration": 11.448,
       "paused": false
     },
     {
       "key": "s1-passage-2",
-      "time": 0.255595,
+      "time": 0.256249,
       "duration": 11.568,
       "paused": false
     },
     {
       "key": "s2-response-1",
-      "time": 0.246151,
+      "time": 0.245788,
       "duration": 2.544,
       "paused": false
     },
     {
       "key": "s2-response-2",
-      "time": 0.251709,
+      "time": 0.272539,
       "duration": 2.568,
       "paused": false
     },
     {
       "key": "s2-response-3",
-      "time": 0.245996,
+      "time": 0.249088,
       "duration": 2.232,
       "paused": false
     },
     {
       "key": "s2-response-4",
-      "time": 0.252887,
+      "time": 0.255197,
       "duration": 2.808,
       "paused": false
     },
     {
       "key": "s2-response-5",
-      "time": 0.244314,
+      "time": 0.246985,
       "duration": 2.424,
       "paused": false
     },
     {
       "key": "s2-passage-1",
-      "time": 0.250796,
+      "time": 0.253937,
       "duration": 11.112,
       "paused": false
     },
     {
       "key": "s2-passage-2",
-      "time": 0.256916,
+      "time": 0.245562,
       "duration": 12.264,
       "paused": false
     }

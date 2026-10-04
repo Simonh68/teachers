@@ -15,3 +15,5 @@ Build: python tools/boost-simulation/build.py; audio: python tools/boost-simulat
 Public paths: grade6/boost-simulation/ and teacher.html. Created 2026-10-04 after sunset in Israel (24 Tishrei 5787).
 
 Speaker correction 2026-10-04: speaker-plan.json is produced before synthesis. Content-addressed MP3 filenames include text, voice and version, and the runtime reads audio-manifest.json. Unknown ages/genders are recorded rather than asserted. Charter now requires speaker-context review before every new recording.
+
+Practice labels 2026-10-04: all 101 slides explicitly show Hebrew practice (first/second), current part out of four, and slide number out of 101. Opening/setup slides belong to practice 1/part 1; each practice cover belongs to its part 1; breaks retain the preceding part except the story transition, which belongs to part 4; the final recap is practice 2/part 4.

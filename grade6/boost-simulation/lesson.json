@@ -3,26 +3,38 @@
     "kind": "cover",
     "title": "Boost Simulation",
     "text": "כיתה ו׳",
-    "he": "תרגול דיבור והאזנה באנגלית"
+    "he": "תרגול דיבור והאזנה באנגלית",
+    "practice": 1,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "intro",
     "title": "שני סטים של תרגול",
     "he": "בכל סט ארבעה חלקים: תגובות למצבים, הבנת הנשמע, דיבור על עצמכם וסיפור בתמונות. תחילה עונים, ורק בשקף הבא רואים תשובה והסבר.",
     "text": "A2 · BOOST practice",
-    "note": "חומר תרגול מקורי לפי הדגם שסופק. אינו שאלון רשמי."
+    "note": "חומר תרגול מקורי לפי הדגם שסופק. אינו שאלון רשמי.",
+    "practice": 1,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "cover",
     "title": "Set 1",
     "text": "Boost Simulation",
-    "he": "ארבעה חלקים · שאלה ואחריה תשובה"
+    "he": "ארבעה חלקים · שאלה ואחריה תשובה",
+    "practice": 1,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "intro",
     "title": "Part 1 · Situation Responses",
     "he": "האזינו למשפט ובחרו תגובה מתאימה מתוך שלוש אפשרויות. בכל פעם מוצגת שאלה אחת. עברו לשקף הבא רק אחרי שבחרתם.",
-    "text": "Listen and choose the best response."
+    "text": "Listen and choose the best response.",
+    "practice": 1,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -36,7 +48,10 @@
     "correct": 1,
     "explain": "מציעים עזרה. No, thank you היא דרך מנומסת לסרב. Congratulations מברך על הצלחה, ו־Pleasant dreams מתאים לפני השינה.",
     "reveal": false,
-    "audio": "s1-response-1"
+    "audio": "s1-response-1",
+    "practice": 1,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -50,7 +65,10 @@
     "correct": 1,
     "explain": "מציעים עזרה. No, thank you היא דרך מנומסת לסרב. Congratulations מברך על הצלחה, ו־Pleasant dreams מתאים לפני השינה.",
     "reveal": true,
-    "audio": "s1-response-1"
+    "audio": "s1-response-1",
+    "practice": 1,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -64,7 +82,10 @@
     "correct": 0,
     "explain": "שואלים לשלומכם. Pretty good פירושו די טוב. See you later היא פרידה, ו־It’s my mistake מציין טעות.",
     "reveal": false,
-    "audio": "s1-response-2"
+    "audio": "s1-response-2",
+    "practice": 1,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -78,7 +99,10 @@
     "correct": 0,
     "explain": "שואלים לשלומכם. Pretty good פירושו די טוב. See you later היא פרידה, ו־It’s my mistake מציין טעות.",
     "reveal": true,
-    "audio": "s1-response-2"
+    "audio": "s1-response-2",
+    "practice": 1,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -92,7 +116,10 @@
     "correct": 1,
     "explain": "Where שואל על מקום. next to פירושו ליד. שעה אינה מקום, ו־Yes, I do אינו עונה לשאלה היכן.",
     "reveal": false,
-    "audio": "s1-response-3"
+    "audio": "s1-response-3",
+    "practice": 1,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -106,7 +133,10 @@
     "correct": 1,
     "explain": "Where שואל על מקום. next to פירושו ליד. שעה אינה מקום, ו־Yes, I do אינו עונה לשאלה היכן.",
     "reveal": true,
-    "audio": "s1-response-3"
+    "audio": "s1-response-3",
+    "practice": 1,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -120,7 +150,10 @@
     "correct": 0,
     "explain": "מאחלים לכם סוף שבוע נעים. You too מחזיר את האיחול: גם לך!",
     "reveal": false,
-    "audio": "s1-response-4"
+    "audio": "s1-response-4",
+    "practice": 1,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -134,7 +167,10 @@
     "correct": 0,
     "explain": "מאחלים לכם סוף שבוע נעים. You too מחזיר את האיחול: גם לך!",
     "reveal": true,
-    "audio": "s1-response-4"
+    "audio": "s1-response-4",
+    "practice": 1,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -148,7 +184,10 @@
     "correct": 0,
     "explain": "מציעים משקה. Yes, please מקבל את ההצעה בנימוס. Not at all אינו תשובה טבעית כאן.",
     "reveal": false,
-    "audio": "s1-response-5"
+    "audio": "s1-response-5",
+    "practice": 1,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -162,26 +201,38 @@
     "correct": 0,
     "explain": "מציעים משקה. Yes, please מקבל את ההצעה בנימוס. Not at all אינו תשובה טבעית כאן.",
     "reveal": true,
-    "audio": "s1-response-5"
+    "audio": "s1-response-5",
+    "practice": 1,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "break",
     "title": "הפוגה קצרה",
     "text": "Can I help you? — No, thank you.",
-    "he": "אמרו לבן הזוג משפט מהחלק הקודם. הוא יענה בלי להסתכל. אחר כך החליפו תפקידים."
+    "he": "אמרו לבן הזוג משפט מהחלק הקודם. הוא יענה בלי להסתכל. אחר כך החליפו תפקידים.",
+    "practice": 1,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "intro",
     "title": "Part 2 · Listening Comprehension",
     "he": "האזינו לקטע קצר, ואז ענו על שלוש שאלות. אפשר להאזין שוב. הטקסט המלא נמצא במדריך למורה, כדי שלא יגלה את התשובות מראש.",
-    "text": "Listen for people, places, times and feelings."
+    "text": "Listen for people, places, times and feelings.",
+    "practice": 1,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "listen",
     "title": "Set 1 · Passage 1",
     "audio": "s1-passage-1",
     "he": "האזינו בלי לקרוא תמליל. נסו לזכור מי מדבר, מה הוא עושה, היכן ומתי.",
-    "text": "Listen to the short passage."
+    "text": "Listen to the short passage.",
+    "practice": 1,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -195,7 +246,10 @@
     "correct": 1,
     "explain": "Sarah אומרת: visit my grandparents. היא נוסעת לבקר את סבא וסבתא שלה.",
     "reveal": false,
-    "audio": "s1-passage-1"
+    "audio": "s1-passage-1",
+    "practice": 1,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -209,7 +263,10 @@
     "correct": 1,
     "explain": "Sarah אומרת: visit my grandparents. היא נוסעת לבקר את סבא וסבתא שלה.",
     "reveal": true,
-    "audio": "s1-passage-1"
+    "audio": "s1-passage-1",
+    "practice": 1,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -223,7 +280,10 @@
     "correct": 0,
     "explain": "הביטוי near the park מציין שהדירה החדשה ליד הפארק. הם גרים בעיר.",
     "reveal": false,
-    "audio": "s1-passage-1"
+    "audio": "s1-passage-1",
+    "practice": 1,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -237,7 +297,10 @@
     "correct": 0,
     "explain": "הביטוי near the park מציין שהדירה החדשה ליד הפארק. הם גרים בעיר.",
     "reveal": true,
-    "audio": "s1-passage-1"
+    "audio": "s1-passage-1",
+    "practice": 1,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -251,7 +314,10 @@
     "correct": 2,
     "explain": "Sarah אומרת I’m really excited: אני ממש מתרגשת. שאלה עם How does ... feel מבקשת לזהות רגש.",
     "reveal": false,
-    "audio": "s1-passage-1"
+    "audio": "s1-passage-1",
+    "practice": 1,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -265,14 +331,20 @@
     "correct": 2,
     "explain": "Sarah אומרת I’m really excited: אני ממש מתרגשת. שאלה עם How does ... feel מבקשת לזהות רגש.",
     "reveal": true,
-    "audio": "s1-passage-1"
+    "audio": "s1-passage-1",
+    "practice": 1,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "listen",
     "title": "Set 1 · Passage 2",
     "audio": "s1-passage-2",
     "he": "האזינו בלי לקרוא תמליל. נסו לזכור מי מדבר, מה הוא עושה, היכן ומתי.",
-    "text": "Listen to the short passage."
+    "text": "Listen to the short passage.",
+    "practice": 1,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -286,7 +358,10 @@
     "correct": 1,
     "explain": "When שואל מתי. David אומר Every Tuesday afternoon: בכל יום שלישי אחר הצהריים.",
     "reveal": false,
-    "audio": "s1-passage-2"
+    "audio": "s1-passage-2",
+    "practice": 1,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -300,7 +375,10 @@
     "correct": 1,
     "explain": "When שואל מתי. David אומר Every Tuesday afternoon: בכל יום שלישי אחר הצהריים.",
     "reveal": true,
-    "audio": "s1-passage-2"
+    "audio": "s1-passage-2",
+    "practice": 1,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -314,7 +392,10 @@
     "correct": 2,
     "explain": "Where שואל היכן. community center הוא מרכז קהילתי.",
     "reveal": false,
-    "audio": "s1-passage-2"
+    "audio": "s1-passage-2",
+    "practice": 1,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -328,7 +409,10 @@
     "correct": 2,
     "explain": "Where שואל היכן. community center הוא מרכז קהילתי.",
     "reveal": true,
-    "audio": "s1-passage-2"
+    "audio": "s1-passage-2",
+    "practice": 1,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -342,7 +426,10 @@
     "correct": 1,
     "explain": "and then פירושו ואז. אחרי המשחק הם אוכלים פיצה יחד.",
     "reveal": false,
-    "audio": "s1-passage-2"
+    "audio": "s1-passage-2",
+    "practice": 1,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -356,85 +443,124 @@
     "correct": 1,
     "explain": "and then פירושו ואז. אחרי המשחק הם אוכלים פיצה יחד.",
     "reveal": true,
-    "audio": "s1-passage-2"
+    "audio": "s1-passage-2",
+    "practice": 1,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "intro",
     "title": "Part 3 · Talking About Yourself",
     "text": "Choose one topic. Speak for at least one minute.",
-    "he": "בחרו אחת משתי האפשרויות ותרגלו דיבור במשך דקה לפחות. אמרו מה בחרתם, למה, והוסיפו פרטים ודוגמה אישית. אין תשובה נכונה אחת."
+    "he": "בחרו אחת משתי האפשרויות ותרגלו דיבור במשך דקה לפחות. אמרו מה בחרתם, למה, והוסיפו פרטים ודוגמה אישית. אין תשובה נכונה אחת.",
+    "practice": 1,
+    "part": 3,
+    "partCount": 4
   },
   {
     "kind": "speak",
     "title": "Set 1 · Option 1",
     "q": "Tell us about a person that you like very much. Explain why you like this person.",
-    "he": "ענו בעצמכם תחילה. בשקפים הבאים תופיע תשובה אפשרית בשלושה חלקים. לדקת תרגול חברו את כל החלקים והתאימו אותם לחיים שלכם."
+    "he": "ענו בעצמכם תחילה. בשקפים הבאים תופיע תשובה אפשרית בשלושה חלקים. לדקת תרגול חברו את כל החלקים והתאימו אותם לחיים שלכם.",
+    "practice": 1,
+    "part": 3,
+    "partCount": 4
   },
   {
     "kind": "model",
     "title": "Option 1 · Model 1/3",
     "q": "Tell us about a person that you like very much. Explain why you like this person.",
     "text": "A person I like very much is my older brother. His name is Daniel. He is eighteen years old. He is kind and funny. We live in the same house, so I see him every day.",
-    "he": "פותחים בזיהוי האדם ובכמה פרטים פשוטים: שם, גיל והקשר אליכם. התשובה כאן היא דוגמה; התאימו את הפרטים לעצמכם."
+    "he": "פותחים בזיהוי האדם ובכמה פרטים פשוטים: שם, גיל והקשר אליכם. התשובה כאן היא דוגמה; התאימו את הפרטים לעצמכם.",
+    "practice": 1,
+    "part": 3,
+    "partCount": 4
   },
   {
     "kind": "model",
     "title": "Option 1 · Model 2/3",
     "q": "Tell us about a person that you like very much. Explain why you like this person.",
     "text": "We often play basketball together in the afternoon. Sometimes we watch a film or make dinner. When I have a problem with my homework, he helps me. He listens to me and explains things slowly.",
-    "he": "מוסיפים פעילויות משותפות ודוגמה לעזרה. משפטים פשוטים וברורים מאפשרים להמשיך לדבר."
+    "he": "מוסיפים פעילויות משותפות ודוגמה לעזרה. משפטים פשוטים וברורים מאפשרים להמשיך לדבר.",
+    "practice": 1,
+    "part": 3,
+    "partCount": 4
   },
   {
     "kind": "model",
     "title": "Option 1 · Model 3/3",
     "q": "Tell us about a person that you like very much. Explain why you like this person.",
     "text": "I like him because I can talk to him about anything. Last week, I was worried about a test. He helped me study and made me feel better. I want to be kind and helpful like him.",
-    "he": "because מציג סיבה. דוגמה מהשבוע האחרון מוסיפה פרטים. מסיימים במחשבה אישית."
+    "he": "because מציג סיבה. דוגמה מהשבוע האחרון מוסיפה פרטים. מסיימים במחשבה אישית.",
+    "practice": 1,
+    "part": 3,
+    "partCount": 4
   },
   {
     "kind": "speak",
     "title": "Set 1 · Option 2",
     "q": "Tell us about a subject that you like to study at school and explain why you like to study it.",
-    "he": "ענו בעצמכם תחילה. בשקפים הבאים תופיע תשובה אפשרית בשלושה חלקים. לדקת תרגול חברו את כל החלקים והתאימו אותם לחיים שלכם."
+    "he": "ענו בעצמכם תחילה. בשקפים הבאים תופיע תשובה אפשרית בשלושה חלקים. לדקת תרגול חברו את כל החלקים והתאימו אותם לחיים שלכם.",
+    "practice": 1,
+    "part": 3,
+    "partCount": 4
   },
   {
     "kind": "model",
     "title": "Option 2 · Model 1/3",
     "q": "Tell us about a subject that you like to study at school and explain why you like to study it.",
     "text": "My favorite subject at school is English. We study English several times a week. In class, we read short stories, learn new words, and practice speaking. I especially enjoy speaking activities with a partner.",
-    "he": "מציינים את המקצוע ומתארים מה עושים בשיעור. אין צורך להשתמש בשפה גבוהה."
+    "he": "מציינים את המקצוע ומתארים מה עושים בשיעור. אין צורך להשתמש בשפה גבוהה.",
+    "practice": 1,
+    "part": 3,
+    "partCount": 4
   },
   {
     "kind": "model",
     "title": "Option 2 · Model 2/3",
     "q": "Tell us about a subject that you like to study at school and explain why you like to study it.",
     "text": "I like English because it helps me understand songs and films. I also want to speak to people from other countries. Last month, we read a story about a boy and his dog. I enjoyed it very much.",
-    "he": "מסבירים למה אוהבים את המקצוע ומוסיפים דוגמה משיעור. because = מפני ש־."
+    "he": "מסבירים למה אוהבים את המקצוע ומוסיפים דוגמה משיעור. because = מפני ש־.",
+    "practice": 1,
+    "part": 3,
+    "partCount": 4
   },
   {
     "kind": "model",
     "title": "Option 2 · Model 3/3",
     "q": "Tell us about a subject that you like to study at school and explain why you like to study it.",
     "text": "Some words are difficult for me, but I practice at home. I listen to short texts and say the words aloud. My goal is to speak more clearly. I feel happy when I understand something new.",
-    "he": "אפשר לתאר קושי, דרך לתרגול ומטרה אישית. קראו את כל שלושת החלקים ברצף ותזמנו את הדיבור."
+    "he": "אפשר לתאר קושי, דרך לתרגול ומטרה אישית. קראו את כל שלושת החלקים ברצף ותזמנו את הדיבור.",
+    "practice": 1,
+    "part": 3,
+    "partCount": 4
   },
   {
     "kind": "break",
     "title": "לפני הסיפור בתמונות",
     "text": "First · Next · Then · Finally",
-    "he": "המילים האלה יעזרו לחבר את התמונות לסיפור. אמרו אותן בסדר הנכון בלי להסתכל."
+    "he": "המילים האלה יעזרו לחבר את התמונות לסיפור. אמרו אותן בסדר הנכון בלי להסתכל.",
+    "practice": 1,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "intro",
     "title": "Part 4 · Picture Story",
     "text": "Describe the four pictures as one story.",
-    "he": "התבוננו בכל ארבע התמונות לפי המספרים. תארו את הפעולות וחברו אותן לסיפור. אחר כך בדקו דוגמה אפשרית לכל תמונה."
+    "he": "התבוננו בכל ארבע התמונות לפי המספרים. תארו את הפעולות וחברו אותן לסיפור. אחר כך בדקו דוגמה אפשרית לכל תמונה.",
+    "practice": 1,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "story",
     "title": "Set 1 · Picture Story",
     "row": 0,
-    "he": "ספרו את הסיפור כולו לפני החשיפה. התחילו בתמונה 1 וסיימו בתמונה 4."
+    "he": "ספרו את הסיפור כולו לפני החשיפה. התחילו בתמונה 1 וסיימו בתמונה 4.",
+    "practice": 1,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "picture",
@@ -443,7 +569,10 @@
     "col": 0,
     "text": "A boy is packing his backpack. He is getting ready for a walk.",
     "he": "הילד אורז את תיק הגב ומתכונן לטיול. is packing מתאר פעולה שמתרחשת בתמונה.",
-    "reveal": false
+    "reveal": false,
+    "practice": 1,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "picture",
@@ -452,7 +581,10 @@
     "col": 0,
     "text": "A boy is packing his backpack. He is getting ready for a walk.",
     "he": "הילד אורז את תיק הגב ומתכונן לטיול. is packing מתאר פעולה שמתרחשת בתמונה.",
-    "reveal": true
+    "reveal": true,
+    "practice": 1,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "picture",
@@ -461,7 +593,10 @@
     "col": 1,
     "text": "Next, he is walking into the forest. He is carrying his backpack.",
     "he": "Next = אחר כך. מוסיפים פרט שנראה בתמונה: הוא נושא את התיק.",
-    "reveal": false
+    "reveal": false,
+    "practice": 1,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "picture",
@@ -470,7 +605,10 @@
     "col": 1,
     "text": "Next, he is walking into the forest. He is carrying his backpack.",
     "he": "Next = אחר כך. מוסיפים פרט שנראה בתמונה: הוא נושא את התיק.",
-    "reveal": true
+    "reveal": true,
+    "practice": 1,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "picture",
@@ -479,7 +617,10 @@
     "col": 2,
     "text": "Then, he is looking at a map. He looks lost and worried.",
     "he": "Then = ואז. looking at = מסתכל על. looks lost = נראה אבוד. אפשר להסיק רגש, בלי להמציא פרטים רחוקים מהתמונה.",
-    "reveal": false
+    "reveal": false,
+    "practice": 1,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "picture",
@@ -488,7 +629,10 @@
     "col": 2,
     "text": "Then, he is looking at a map. He looks lost and worried.",
     "he": "Then = ואז. looking at = מסתכל על. looks lost = נראה אבוד. אפשר להסיק רגש, בלי להמציא פרטים רחוקים מהתמונה.",
-    "reveal": true
+    "reveal": true,
+    "practice": 1,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "picture",
@@ -497,7 +641,10 @@
     "col": 3,
     "text": "Finally, he finds a path and smiles. He can continue his walk.",
     "he": "Finally = לבסוף. סוף הסיפור פותר את הבעיה: הוא מוצא שביל ומחייך.",
-    "reveal": false
+    "reveal": false,
+    "practice": 1,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "picture",
@@ -506,26 +653,38 @@
     "col": 3,
     "text": "Finally, he finds a path and smiles. He can continue his walk.",
     "he": "Finally = לבסוף. סוף הסיפור פותר את הבעיה: הוא מוצא שביל ומחייך.",
-    "reveal": true
+    "reveal": true,
+    "practice": 1,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "storymodel",
     "title": "Set 1 · A complete story",
     "row": 0,
     "text": "A boy is packing his backpack. He is getting ready for a walk. Next, he is walking into the forest. He is carrying his backpack. Then, he is looking at a map. He looks lost and worried. Finally, he finds a path and smiles. He can continue his walk.",
-    "he": "זו דוגמה אפשרית. גם תיאור אחר יכול להתאים אם הוא ברור, נכון לתמונות ומחובר ברצף."
+    "he": "זו דוגמה אפשרית. גם תיאור אחר יכול להתאים אם הוא ברור, נכון לתמונות ומחובר ברצף.",
+    "practice": 1,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "cover",
     "title": "Set 2",
     "text": "Boost Simulation",
-    "he": "ארבעה חלקים · שאלה ואחריה תשובה"
+    "he": "ארבעה חלקים · שאלה ואחריה תשובה",
+    "practice": 2,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "intro",
     "title": "Part 1 · Situation Responses",
     "he": "האזינו למשפט ובחרו תגובה מתאימה מתוך שלוש אפשרויות. בכל פעם מוצגת שאלה אחת. עברו לשקף הבא רק אחרי שבחרתם.",
-    "text": "Listen and choose the best response."
+    "text": "Listen and choose the best response.",
+    "practice": 2,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -539,7 +698,10 @@
     "correct": 0,
     "explain": "מודים לכם על עזרה. You’re welcome פירושו בבקשה, בתגובה לתודה.",
     "reveal": false,
-    "audio": "s2-response-1"
+    "audio": "s2-response-1",
+    "practice": 2,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -553,7 +715,10 @@
     "correct": 0,
     "explain": "מודים לכם על עזרה. You’re welcome פירושו בבקשה, בתגובה לתודה.",
     "reveal": true,
-    "audio": "s2-response-1"
+    "audio": "s2-response-1",
+    "practice": 2,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -567,7 +732,10 @@
     "correct": 1,
     "explain": "What time שואל באיזו שעה. At 7:00 PM פירושו בשבע בערב. On the table מציין מקום.",
     "reveal": false,
-    "audio": "s2-response-2"
+    "audio": "s2-response-2",
+    "practice": 2,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -581,7 +749,10 @@
     "correct": 1,
     "explain": "What time שואל באיזו שעה. At 7:00 PM פירושו בשבע בערב. On the table מציין מקום.",
     "reveal": true,
-    "audio": "s2-response-2"
+    "audio": "s2-response-2",
+    "practice": 2,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -595,7 +766,10 @@
     "correct": 0,
     "explain": "הדובר מתנצל על איחור. Never mind מרגיע: לא נורא. See you later היא פרידה.",
     "reveal": false,
-    "audio": "s2-response-3"
+    "audio": "s2-response-3",
+    "practice": 2,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -609,7 +783,10 @@
     "correct": 0,
     "explain": "הדובר מתנצל על איחור. Never mind מרגיע: לא נורא. See you later היא פרידה.",
     "reveal": true,
-    "audio": "s2-response-3"
+    "audio": "s2-response-3",
+    "practice": 2,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -623,7 +800,10 @@
     "correct": 0,
     "explain": "מבקשים להעביר מלח. Of course, here you go פירושו כמובן, בבקשה.",
     "reveal": false,
-    "audio": "s2-response-4"
+    "audio": "s2-response-4",
+    "practice": 2,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -637,7 +817,10 @@
     "correct": 0,
     "explain": "מבקשים להעביר מלח. Of course, here you go פירושו כמובן, בבקשה.",
     "reveal": true,
-    "audio": "s2-response-4"
+    "audio": "s2-response-4",
+    "practice": 2,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -651,7 +834,10 @@
     "correct": 0,
     "explain": "שואלים איך היה המבחן. It was easy מתאר את המבחן בעבר: הוא היה קל. זו אינה שאלת כן או לא.",
     "reveal": false,
-    "audio": "s2-response-5"
+    "audio": "s2-response-5",
+    "practice": 2,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -665,26 +851,38 @@
     "correct": 0,
     "explain": "שואלים איך היה המבחן. It was easy מתאר את המבחן בעבר: הוא היה קל. זו אינה שאלת כן או לא.",
     "reveal": true,
-    "audio": "s2-response-5"
+    "audio": "s2-response-5",
+    "practice": 2,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "break",
     "title": "הפוגה קצרה",
     "text": "Can I help you? — No, thank you.",
-    "he": "אמרו לבן הזוג משפט מהחלק הקודם. הוא יענה בלי להסתכל. אחר כך החליפו תפקידים."
+    "he": "אמרו לבן הזוג משפט מהחלק הקודם. הוא יענה בלי להסתכל. אחר כך החליפו תפקידים.",
+    "practice": 2,
+    "part": 1,
+    "partCount": 4
   },
   {
     "kind": "intro",
     "title": "Part 2 · Listening Comprehension",
     "he": "האזינו לקטע קצר, ואז ענו על שלוש שאלות. אפשר להאזין שוב. הטקסט המלא נמצא במדריך למורה, כדי שלא יגלה את התשובות מראש.",
-    "text": "Listen for people, places, times and feelings."
+    "text": "Listen for people, places, times and feelings.",
+    "practice": 2,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "listen",
     "title": "Set 2 · Passage 1",
     "audio": "s2-passage-1",
     "he": "האזינו בלי לקרוא תמליל. נסו לזכור מי מדבר, מה הוא עושה, היכן ומתי.",
-    "text": "Listen to the short passage."
+    "text": "Listen to the short passage.",
+    "practice": 2,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -698,7 +896,10 @@
     "correct": 2,
     "explain": "הדובר או הדוברת אומרים my mother’s birthday: יום ההולדת של אמא שלי. מין הדובר אינו מצוין בקטע.",
     "reveal": false,
-    "audio": "s2-passage-1"
+    "audio": "s2-passage-1",
+    "practice": 2,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -712,7 +913,10 @@
     "correct": 2,
     "explain": "הדובר או הדוברת אומרים my mother’s birthday: יום ההולדת של אמא שלי. מין הדובר אינו מצוין בקטע.",
     "reveal": true,
-    "audio": "s2-passage-1"
+    "audio": "s2-passage-1",
+    "practice": 2,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -726,7 +930,10 @@
     "correct": 1,
     "explain": "bought הוא העבר של buy. bouquet of red roses פירושו זר ורדים אדומים. card הוא כרטיס ברכה.",
     "reveal": false,
-    "audio": "s2-passage-1"
+    "audio": "s2-passage-1",
+    "practice": 2,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -740,7 +947,10 @@
     "correct": 1,
     "explain": "bought הוא העבר של buy. bouquet of red roses פירושו זר ורדים אדומים. card הוא כרטיס ברכה.",
     "reveal": true,
-    "audio": "s2-passage-1"
+    "audio": "s2-passage-1",
+    "practice": 2,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -754,7 +964,10 @@
     "correct": 1,
     "explain": "In the evening מציין בערב. are going to מציין תוכנית: לאכול ארוחה מיוחדת במסעדה.",
     "reveal": false,
-    "audio": "s2-passage-1"
+    "audio": "s2-passage-1",
+    "practice": 2,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -768,14 +981,20 @@
     "correct": 1,
     "explain": "In the evening מציין בערב. are going to מציין תוכנית: לאכול ארוחה מיוחדת במסעדה.",
     "reveal": true,
-    "audio": "s2-passage-1"
+    "audio": "s2-passage-1",
+    "practice": 2,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "listen",
     "title": "Set 2 · Passage 2",
     "audio": "s2-passage-2",
     "he": "האזינו בלי לקרוא תמליל. נסו לזכור מי מדבר, מה הוא עושה, היכן ומתי.",
-    "text": "Listen to the short passage."
+    "text": "Listen to the short passage.",
+    "practice": 2,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -789,7 +1008,10 @@
     "correct": 1,
     "explain": "הקטע נפתח ב־My dog, Max: לכלב קוראים Max.",
     "reveal": false,
-    "audio": "s2-passage-2"
+    "audio": "s2-passage-2",
+    "practice": 2,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -803,7 +1025,10 @@
     "correct": 1,
     "explain": "הקטע נפתח ב־My dog, Max: לכלב קוראים Max.",
     "reveal": true,
-    "audio": "s2-passage-2"
+    "audio": "s2-passage-2",
+    "practice": 2,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -817,7 +1042,10 @@
     "correct": 0,
     "explain": "Every morning before school פירושו בכל בוקר לפני בית הספר. before פירושו לפני.",
     "reveal": false,
-    "audio": "s2-passage-2"
+    "audio": "s2-passage-2",
+    "practice": 2,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -831,7 +1059,10 @@
     "correct": 0,
     "explain": "Every morning before school פירושו בכל בוקר לפני בית הספר. before פירושו לפני.",
     "reveal": true,
-    "audio": "s2-passage-2"
+    "audio": "s2-passage-2",
+    "practice": 2,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -845,7 +1076,10 @@
     "correct": 2,
     "explain": "הדובר זורק כדור והכלב מחזיר אותו. throw = לזרוק, brings it back = מחזיר אותו.",
     "reveal": false,
-    "audio": "s2-passage-2"
+    "audio": "s2-passage-2",
+    "practice": 2,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "mcq",
@@ -859,85 +1093,124 @@
     "correct": 2,
     "explain": "הדובר זורק כדור והכלב מחזיר אותו. throw = לזרוק, brings it back = מחזיר אותו.",
     "reveal": true,
-    "audio": "s2-passage-2"
+    "audio": "s2-passage-2",
+    "practice": 2,
+    "part": 2,
+    "partCount": 4
   },
   {
     "kind": "intro",
     "title": "Part 3 · Talking About Yourself",
     "text": "Choose one topic. Speak for at least one minute.",
-    "he": "בחרו אחת משתי האפשרויות ותרגלו דיבור במשך דקה לפחות. אמרו מה בחרתם, למה, והוסיפו פרטים ודוגמה אישית. אין תשובה נכונה אחת."
+    "he": "בחרו אחת משתי האפשרויות ותרגלו דיבור במשך דקה לפחות. אמרו מה בחרתם, למה, והוסיפו פרטים ודוגמה אישית. אין תשובה נכונה אחת.",
+    "practice": 2,
+    "part": 3,
+    "partCount": 4
   },
   {
     "kind": "speak",
     "title": "Set 2 · Option 1",
     "q": "Tell us about a favorite hobby or activity that you like to do in your free time.",
-    "he": "ענו בעצמכם תחילה. בשקפים הבאים תופיע תשובה אפשרית בשלושה חלקים. לדקת תרגול חברו את כל החלקים והתאימו אותם לחיים שלכם."
+    "he": "ענו בעצמכם תחילה. בשקפים הבאים תופיע תשובה אפשרית בשלושה חלקים. לדקת תרגול חברו את כל החלקים והתאימו אותם לחיים שלכם.",
+    "practice": 2,
+    "part": 3,
+    "partCount": 4
   },
   {
     "kind": "model",
     "title": "Option 1 · Model 1/3",
     "q": "Tell us about a favorite hobby or activity that you like to do in your free time.",
     "text": "My favorite hobby is playing basketball. I usually play after school with my friends. We meet at a court near my home. I play two or three times a week. We do not need much equipment, just a ball.",
-    "he": "מציינים תחביב, מקום, תדירות ועם מי עוסקים בו. usually = בדרך כלל."
+    "he": "מציינים תחביב, מקום, תדירות ועם מי עוסקים בו. usually = בדרך כלל.",
+    "practice": 2,
+    "part": 3,
+    "partCount": 4
   },
   {
     "kind": "model",
     "title": "Option 1 · Model 2/3",
     "q": "Tell us about a favorite hobby or activity that you like to do in your free time.",
     "text": "I like basketball because it is fun and it keeps me active. I enjoy working with a team. My friends and I help each other and try to improve. Sometimes we play a short match against another team.",
-    "he": "מסבירים למה אוהבים את הפעילות. הוסיפו פרטים על מה שקורה בזמן הפעילות."
+    "he": "מסבירים למה אוהבים את הפעילות. הוסיפו פרטים על מה שקורה בזמן הפעילות.",
+    "practice": 2,
+    "part": 3,
+    "partCount": 4
   },
   {
     "kind": "model",
     "title": "Option 1 · Model 3/3",
     "q": "Tell us about a favorite hobby or activity that you like to do in your free time.",
     "text": "Last week, our team won a game. I scored a basket near the end, and I felt very happy. I am not the best player, but I practice often. In the future, I want to play better.",
-    "he": "סיפור קצר מהעבר נותן דוגמה אישית. מסיימים במטרה לעתיד. התאימו את התשובה לתחביב שלכם."
+    "he": "סיפור קצר מהעבר נותן דוגמה אישית. מסיימים במטרה לעתיד. התאימו את התשובה לתחביב שלכם.",
+    "practice": 2,
+    "part": 3,
+    "partCount": 4
   },
   {
     "kind": "speak",
     "title": "Set 2 · Option 2",
     "q": "Tell us about a meal you really like to eat and explain why it is your favorite.",
-    "he": "ענו בעצמכם תחילה. בשקפים הבאים תופיע תשובה אפשרית בשלושה חלקים. לדקת תרגול חברו את כל החלקים והתאימו אותם לחיים שלכם."
+    "he": "ענו בעצמכם תחילה. בשקפים הבאים תופיע תשובה אפשרית בשלושה חלקים. לדקת תרגול חברו את כל החלקים והתאימו אותם לחיים שלכם.",
+    "practice": 2,
+    "part": 3,
+    "partCount": 4
   },
   {
     "kind": "model",
     "title": "Option 2 · Model 1/3",
     "q": "Tell us about a meal you really like to eat and explain why it is your favorite.",
     "text": "My favorite meal is chicken with rice and a salad. We usually eat this meal at home on Friday evening. My mother makes the chicken, and I sometimes help her prepare the salad. I wash and cut the vegetables.",
-    "he": "מציינים את המאכל ומתי ואיפה אוכלים אותו. אפשר גם להסביר מי מכין אותו."
+    "he": "מציינים את המאכל ומתי ואיפה אוכלים אותו. אפשר גם להסביר מי מכין אותו.",
+    "practice": 2,
+    "part": 3,
+    "partCount": 4
   },
   {
     "kind": "model",
     "title": "Option 2 · Model 2/3",
     "q": "Tell us about a meal you really like to eat and explain why it is your favorite.",
     "text": "I like this meal because it tastes good and it reminds me of my family. The chicken is warm, and the salad is fresh. We sit around the table and talk about our week. This makes the meal special.",
-    "he": "מסבירים למה אוהבים את הארוחה. tastes good = טעים. אפשר להזכיר טעם, משפחה או זיכרון."
+    "he": "מסבירים למה אוהבים את הארוחה. tastes good = טעים. אפשר להזכיר טעם, משפחה או זיכרון.",
+    "practice": 2,
+    "part": 3,
+    "partCount": 4
   },
   {
     "kind": "model",
     "title": "Option 2 · Model 3/3",
     "q": "Tell us about a meal you really like to eat and explain why it is your favorite.",
     "text": "Last Friday, I helped cook the rice for the first time. It was easy, and everyone liked it. I felt proud. I would like to learn how to make the whole meal by myself one day.",
-    "he": "מוסיפים אירוע מסוים ומחשבה אישית. זו תשובה אפשרית, ולא טקסט שחייבים לשנן."
+    "he": "מוסיפים אירוע מסוים ומחשבה אישית. זו תשובה אפשרית, ולא טקסט שחייבים לשנן.",
+    "practice": 2,
+    "part": 3,
+    "partCount": 4
   },
   {
     "kind": "break",
     "title": "לפני הסיפור בתמונות",
     "text": "First · Next · Then · Finally",
-    "he": "המילים האלה יעזרו לחבר את התמונות לסיפור. אמרו אותן בסדר הנכון בלי להסתכל."
+    "he": "המילים האלה יעזרו לחבר את התמונות לסיפור. אמרו אותן בסדר הנכון בלי להסתכל.",
+    "practice": 2,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "intro",
     "title": "Part 4 · Picture Story",
     "text": "Describe the four pictures as one story.",
-    "he": "התבוננו בכל ארבע התמונות לפי המספרים. תארו את הפעולות וחברו אותן לסיפור. אחר כך בדקו דוגמה אפשרית לכל תמונה."
+    "he": "התבוננו בכל ארבע התמונות לפי המספרים. תארו את הפעולות וחברו אותן לסיפור. אחר כך בדקו דוגמה אפשרית לכל תמונה.",
+    "practice": 2,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "story",
     "title": "Set 2 · Picture Story",
     "row": 1,
-    "he": "ספרו את הסיפור כולו לפני החשיפה. התחילו בתמונה 1 וסיימו בתמונה 4."
+    "he": "ספרו את הסיפור כולו לפני החשיפה. התחילו בתמונה 1 וסיימו בתמונה 4.",
+    "practice": 2,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "picture",
@@ -946,7 +1219,10 @@
     "col": 0,
     "text": "A girl is making a cake in the kitchen. She is mixing the ingredients.",
     "he": "הילדה מכינה עוגה במטבח. is mixing = מערבבת. מתחילים בתיאור הפעולה הראשונה.",
-    "reveal": false
+    "reveal": false,
+    "practice": 2,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "picture",
@@ -955,7 +1231,10 @@
     "col": 0,
     "text": "A girl is making a cake in the kitchen. She is mixing the ingredients.",
     "he": "הילדה מכינה עוגה במטבח. is mixing = מערבבת. מתחילים בתיאור הפעולה הראשונה.",
-    "reveal": true
+    "reveal": true,
+    "practice": 2,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "picture",
@@ -964,7 +1243,10 @@
     "col": 1,
     "text": "Next, she is taking the cake out of the oven. The cake looks good.",
     "he": "Next = אחר כך. taking ... out of = מוציאה מתוך. מתארים מה רואים בתמונה.",
-    "reveal": false
+    "reveal": false,
+    "practice": 2,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "picture",
@@ -973,7 +1255,10 @@
     "col": 1,
     "text": "Next, she is taking the cake out of the oven. The cake looks good.",
     "he": "Next = אחר כך. taking ... out of = מוציאה מתוך. מתארים מה רואים בתמונה.",
-    "reveal": true
+    "reveal": true,
+    "practice": 2,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "picture",
@@ -982,7 +1267,10 @@
     "col": 2,
     "text": "Then, she is setting the table. She puts plates and forks on it.",
     "he": "setting the table = עורכת את השולחן. Then מחבר את האירוע לשלבים הקודמים.",
-    "reveal": false
+    "reveal": false,
+    "practice": 2,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "picture",
@@ -991,7 +1279,10 @@
     "col": 2,
     "text": "Then, she is setting the table. She puts plates and forks on it.",
     "he": "setting the table = עורכת את השולחן. Then מחבר את האירוע לשלבים הקודמים.",
-    "reveal": true
+    "reveal": true,
+    "practice": 2,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "picture",
@@ -1000,7 +1291,10 @@
     "col": 3,
     "text": "Finally, the family is sitting around the table. They are eating the cake together.",
     "he": "לבסוף המשפחה יושבת ואוכלת יחד. are eating מתאר פעולה של כמה אנשים.",
-    "reveal": false
+    "reveal": false,
+    "practice": 2,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "picture",
@@ -1009,19 +1303,28 @@
     "col": 3,
     "text": "Finally, the family is sitting around the table. They are eating the cake together.",
     "he": "לבסוף המשפחה יושבת ואוכלת יחד. are eating מתאר פעולה של כמה אנשים.",
-    "reveal": true
+    "reveal": true,
+    "practice": 2,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "storymodel",
     "title": "Set 2 · A complete story",
     "row": 1,
     "text": "A girl is making a cake in the kitchen. She is mixing the ingredients. Next, she is taking the cake out of the oven. The cake looks good. Then, she is setting the table. She puts plates and forks on it. Finally, the family is sitting around the table. They are eating the cake together.",
-    "he": "זו דוגמה אפשרית. גם תיאור אחר יכול להתאים אם הוא ברור, נכון לתמונות ומחובר ברצף."
+    "he": "זו דוגמה אפשרית. גם תיאור אחר יכול להתאים אם הוא ברור, נכון לתמונות ומחובר ברצף.",
+    "practice": 2,
+    "part": 4,
+    "partCount": 4
   },
   {
     "kind": "intro",
     "title": "סיום התרגול",
     "text": "Listen. Choose. Speak. Tell a story.",
-    "he": "חזרו לשאלות שבהן טעיתם וענו שוב לפני החשיפה. בחלקי הדיבור השתמשו בפרטים שלכם. אפשר לחזור לכל חלק באמצעות רשימת השקפים."
+    "he": "חזרו לשאלות שבהן טעיתם וענו שוב לפני החשיפה. בחלקי הדיבור השתמשו בפרטים שלכם. אפשר לחזור לכל חלק באמצעות רשימת השקפים.",
+    "practice": 2,
+    "part": 4,
+    "partCount": 4
   }
 ]

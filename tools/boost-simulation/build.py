@@ -74,6 +74,14 @@ for si in range(2):
   for rev in [False,True]:add('picture',f'Set {s} · Picture {pi+1}/4',row=si,col=pi,text=p,he=h,reveal=rev)
  add('storymodel',f'Set {s} · A complete story',row=si,text=' '.join(p for p,h in stories[si]),he='זו דוגמה אפשרית. גם תיאור אחר יכול להתאים אם הוא ברור, נכון לתמונות ומחובר ברצף.')
 add('intro','סיום התרגול',text='Listen. Choose. Speak. Tell a story.',he='חזרו לשאלות שבהן טעיתם וענו שוב לפני החשיפה. בחלקי הדיבור השתמשו בפרטים שלכם. אפשר לחזור לכל חלק באמצעות רשימת השקפים.')
+# Every slide carries an explicit practice number and one of the four parts.
+practice=1;part=1
+for slide in slides:
+ if slide['kind']=='cover' and slide['title'] in ['Set 1','Set 2']:
+  practice=int(slide['title'][-1]);part=1
+ if slide['title'].startswith('Part '):part=int(slide['title'][5])
+ if slide['title']=='לפני הסיפור בתמונות':part=4
+ slide['practice']=practice;slide['part']=part;slide['partCount']=4
 (OUT/'lesson.json').write_text(json.dumps(slides,ensure_ascii=False,indent=2))
 (OUT/'audio-texts.json').write_text(json.dumps(clips,ensure_ascii=False,indent=2))
 sections=[]
