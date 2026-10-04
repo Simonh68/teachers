@@ -1,0 +1,91 @@
+{
+  "voice": "en-US-BrianNeural",
+  "synthetic": true,
+  "browserTTS": false,
+  "files": {
+    "s1-response-1": {
+      "src": "assets/s1-response-1.mp3",
+      "text": "Can I help you?",
+      "bytes": 11232,
+      "sha256": "a14ff24d6785949a80761de7ae07e6fb6560c1f06ffe8158c9d797e8f91f7ee6"
+    },
+    "s1-response-3": {
+      "src": "assets/s1-response-3.mp3",
+      "text": "Excuse me, where is the library?",
+      "bytes": 14400,
+      "sha256": "21fbbbe4456defe4c3c79b7b363901a798dbc61c423336040e363399ddc20f16"
+    },
+    "s1-response-2": {
+      "src": "assets/s1-response-2.mp3",
+      "text": "How are you doing today?",
+      "bytes": 11232,
+      "sha256": "56f054968b97e7b61c5b4fb941e39eb4005138b073d838500adca457548e7a0e"
+    },
+    "s1-response-4": {
+      "src": "assets/s1-response-4.mp3",
+      "text": "Have a nice weekend!",
+      "bytes": 11232,
+      "sha256": "ae4b87475a381dd5037ae0e6e6271f28f4ab086f311caf078955d229c6781024"
+    },
+    "s1-response-5": {
+      "src": "assets/s1-response-5.mp3",
+      "text": "Would you like some coffee or tea?",
+      "bytes": 13104,
+      "sha256": "93f86281a4f04da11e65fcd0e81f3a4dde56e72b930309e28eba3ed5e2a92232"
+    },
+    "s1-passage-1": {
+      "src": "assets/s1-passage-1.mp3",
+      "text": "Hi, I'm Sarah. This weekend, I’m planning to visit my grandparents in the city. They just moved into a new apartment near the park, so I’m really excited to see it.",
+      "bytes": 65520,
+      "sha256": "ed1437a83bf97dd6642f14fecc3400c7c419f5d77fbc0aec2c3288d9bbab9ffb"
+    },
+    "s2-response-2": {
+      "src": "assets/s2-response-2.mp3",
+      "text": "What time does the movie start?",
+      "bytes": 12528,
+      "sha256": "11194204d90248ddd1e8f15a665ddec927a5f6efd5cfc1ce3f64016952618098"
+    },
+    "s2-response-1": {
+      "src": "assets/s2-response-1.mp3",
+      "text": "Thank you so much for your help!",
+      "bytes": 12240,
+      "sha256": "cb713b6d0b6a1725c87ceb0f1a26fbb1ab5453bb8d8bf1db347293f516cf1c13"
+    },
+    "s1-passage-2": {
+      "src": "assets/s1-passage-2.mp3",
+      "text": "My name is David. Every Tuesday afternoon, I go to the community center to play basketball with my friends. We usually play for an hour, and then we have pizza together.",
+      "bytes": 66528,
+      "sha256": "7cda12d5aea945fb9b573d9c56964649acedcbbe1fa610e22f1611de276b64c4"
+    },
+    "s2-response-3": {
+      "src": "assets/s2-response-3.mp3",
+      "text": "I’m sorry I am late.",
+      "bytes": 11232,
+      "sha256": "735e5f94c313b850a34d53b9c6be7a3adbd60d3e738e9b723c3f301b0d1d53a6"
+    },
+    "s2-response-4": {
+      "src": "assets/s2-response-4.mp3",
+      "text": "Can you pass me the salt, please?",
+      "bytes": 12960,
+      "sha256": "a488e2e7106e02b27e1a2517743eadd9dd276d3ba584be48508f707458d5dde7"
+    },
+    "s2-response-5": {
+      "src": "assets/s2-response-5.mp3",
+      "text": "How was your English exam?",
+      "bytes": 11664,
+      "sha256": "f3d5c5b84a52c99580267cddde6140401b60386b46a4a122df68d30cb4b2c401"
+    },
+    "s2-passage-1": {
+      "src": "assets/s2-passage-1.mp3",
+      "text": "Tomorrow is my mother's birthday. I bought her a beautiful bouquet of red roses and a card. In the evening, we are going to have a special dinner at a fancy restaurant.",
+      "bytes": 61776,
+      "sha256": "56d8155a17d29c1cfda1d1e1075e1be00a4ea0e18eed5e0503b9d05302404565"
+    },
+    "s2-passage-2": {
+      "src": "assets/s2-passage-2.mp3",
+      "text": "My dog, Max, loves to run in the backyard. Every morning before school, I throw a ball and he brings it back. He is a very energetic dog.",
+      "bytes": 62208,
+      "sha256": "9aa5b81c7fe0fd3af8b9abedfcd0bfe6f89fe9fc18797aa8ce13a512d57bab0d"
+    }
+  }
+}

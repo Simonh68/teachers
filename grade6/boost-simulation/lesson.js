@@ -1,0 +1,38 @@
+/* Teachers question/reveal deck. Audio is prerecorded, never browser TTS. */
+const deck=document.getElementById('deck'),jump=document.getElementById('jump'),prev=document.getElementById('prev'),next=document.getElementById('next');
+let slides=[],at=0,player=null,timerId=null;
+const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const panel=(row,col)=>`<div class="panel" style="--row:${row};--col:${col}" role="img" aria-label="${esc(row===0?['ילד אורז תיק','ילד נכנס ליער','ילד מסתכל במפה ונראה אבוד','ילד מוצא שביל ומחייך'][col]:['ילדה מערבבת עוגה','ילדה מוציאה עוגה מהתנור','ילדה עורכת שולחן','משפחה אוכלת עוגה'][col])}"><img src="assets/story-panels.webp" alt=""><span class="number">${col+1}</span></div>`;
+const pictures=row=>`<div class="pictures">${[0,1,2,3].map(c=>panel(row,c)).join('')}</div>`;
+const audioBox=key=>`<div class="audio-box"><button data-audio="${esc(key)}" aria-label="הפעלת הקלטה באנגלית">▶ האזנה</button><select class="speed" aria-label="מהירות הקלטה"><option value="0.75" selected>0.75×</option><option value="1">1×</option><option value="1.25">1.25×</option></select></div><div class="audio-message" role="status"></div>`;
+function render(s,i){
+ let body='';const heading=`<div class="heading"><p class="eyebrow">Boost Simulation · כיתה ו׳</p><h2 dir="${/^Set|^Part|^Option/.test(s.title)?'ltr':'rtl'}">${esc(s.title)}</h2></div>`;
+ if(s.kind==='cover')body=`<div class="cover"><p class="eyebrow">TEACHERS · כיתה ו׳</p><h1 dir="ltr">${esc(s.title)}</h1><p class="cover-he">${esc(s.text)}</p><p class="classes">${esc(s.he)}</p></div>`;
+ else if(s.kind==='mcq')body=heading+`<h3 class="q" dir="ltr" lang="en">${esc(s.q)}</h3>${s.audio?audioBox(s.audio):''}<div class="options">${s.options.map((o,j)=>`<div class="option ${s.reveal&&j===s.correct?'correct':''}">${'ABC'[j]}) ${esc(o)}</div>`).join('')}</div><p class="explain ${s.reveal?'':'concealed'}" aria-hidden="${!s.reveal}">${esc(s.explain)}</p>`;
+ else if(s.kind==='listen')body=heading+`<p class="intro-text" dir="ltr">${esc(s.text)}</p>${audioBox(s.audio)}<p class="intro-he">${esc(s.he)}</p>`;
+ else if(s.kind==='speak')body=heading+`<h3 class="q" dir="ltr">${esc(s.q)}</h3><p class="intro-he">${esc(s.he)}</p><button class="timer" aria-label="התחלת דקת תרגול">◷ דקת תרגול</button><p class="hint timer-status" role="status"></p>`;
+ else if(s.kind==='model')body=heading+`<p class="q" dir="ltr">${esc(s.q)}</p><p class="model-text" dir="ltr">${esc(s.text)}</p><p class="explain">${esc(s.he)}</p>`;
+ else if(s.kind==='story')body=heading+pictures(s.row)+`<p class="intro-he">${esc(s.he)}</p>`;
+ else if(s.kind==='picture')body=heading+`<div class="picture-layout">${panel(s.row,s.col)}<div><p class="model-text ${s.reveal?'':'concealed'}" dir="ltr" aria-hidden="${!s.reveal}">${esc(s.text)}</p><p class="explain ${s.reveal?'':'concealed'}" aria-hidden="${!s.reveal}">${esc(s.he)}</p></div></div><p class="hint">${s.reveal?'תשובה אפשרית · אפשר לתאר במילים אחרות':'What is happening in this picture?'}</p>`;
+ else if(s.kind==='storymodel')body=heading+pictures(s.row)+`<p class="model-text" dir="ltr">${esc(s.text)}</p><p class="explain">${esc(s.he)}</p>`;
+ else body=heading+`<p class="intro-text" dir="ltr">${esc(s.text||'')}</p><p class="intro-he">${esc(s.he||'')}</p>${s.note?`<p class="hint">${esc(s.note)}</p>`:''}`;
+ return `<section class="slide ${s.kind}" data-index="${i}" ${i?'hidden':''}><div class="content">${body}</div></section>`;
+}
+function stop(){if(player){player.pause();player=null;}clearInterval(timerId);timerId=null;deck.querySelectorAll('[data-audio]').forEach(b=>b.textContent='▶ האזנה');}
+function show(n,write=true){stop();at=Math.max(0,Math.min(slides.length-1,Number.isFinite(n)?n:0));[...deck.children].forEach((el,i)=>el.hidden=i!==at);deck.children[at].scrollTop=0;jump.value=at;prev.disabled=at===0;next.disabled=at===slides.length-1;document.getElementById('progress').style.width=((at+1)/slides.length*100)+'%';if(write)history.replaceState(null,'','#'+(at+1));}
+prev.onclick=()=>show(at-1);next.onclick=()=>show(at+1);jump.onchange=()=>show(Number(jump.value));
+document.addEventListener('keydown',e=>{if(e.target.matches('select,input,textarea,button,a'))return;let n;if(['ArrowRight','ArrowDown','PageDown',' '].includes(e.key))n=at+1;if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key))n=at-1;if(e.key==='Home')n=0;if(e.key==='End')n=slides.length-1;if(n!==undefined){e.preventDefault();show(n);}});
+window.addEventListener('hashchange',()=>show(parseInt(location.hash.slice(1),10)-1,false));
+let lastWheel=0,wheel=0;
+const canScroll=(el,d)=>d>0?el.scrollTop+el.clientHeight<el.scrollHeight-2:el.scrollTop>2;
+document.addEventListener('wheel',e=>{if(e.target.closest('select'))return;const el=deck.children[at];if(canScroll(el,e.deltaY))return;e.preventDefault();if(Date.now()-lastWheel<600)return;wheel+=e.deltaY;if(Math.abs(wheel)>45){show(at+Math.sign(wheel));wheel=0;lastWheel=Date.now();}},{passive:false});
+let touch=null,moved=false;
+deck.addEventListener('touchstart',e=>{moved=false;touch=e.touches.length===1?{x:e.touches[0].clientX,y:e.touches[0].clientY,scroll:deck.children[at].scrollTop}:null;},{passive:true});
+deck.addEventListener('touchmove',e=>{if(touch&&e.touches.length===1&&Math.max(Math.abs(e.touches[0].clientX-touch.x),Math.abs(e.touches[0].clientY-touch.y))>20)moved=true;},{passive:true});
+deck.addEventListener('touchend',e=>{if(!touch||!e.changedTouches.length)return;const p=touch;touch=null;setTimeout(()=>moved=false,300);const dx=e.changedTouches[0].clientX-p.x,dy=e.changedTouches[0].clientY-p.y;if(Math.max(Math.abs(dx),Math.abs(dy))<48)return;const vertical=Math.abs(dy)>Math.abs(dx);if(vertical&&(Math.abs(deck.children[at].scrollTop-p.scroll)>3||canScroll(deck.children[at],-dy)))return;show(at+(vertical?(dy<0?1:-1):(dx<0?1:-1)));},{passive:true});
+deck.addEventListener('touchcancel',()=>touch=null,{passive:true});
+deck.addEventListener('click',async e=>{if(moved){e.preventDefault();return;}const b=e.target.closest('[data-audio]');if(b){if(player&&!player.paused){stop();return;}stop();const message=b.closest('.content').querySelector('.audio-message');message.textContent='';player=new Audio(`assets/${b.dataset.audio}.mp3`);player.playbackRate=Number(b.parentElement.querySelector('.speed').value);player.onended=()=>{b.textContent='▶ האזנה';};b.textContent='■ עצירה';try{await player.play();}catch{b.textContent='▶ האזנה';message.textContent='ההקלטה לא נטענה. נסו שוב.';}return;}const t=e.target.closest('.timer');if(t){clearInterval(timerId);let seconds=60;const status=t.parentElement.querySelector('.timer-status');status.textContent='60 שניות';timerId=setInterval(()=>{seconds--;status.textContent=seconds>0?`${seconds} שניות`:'הדקה הסתיימה. אפשר להמשיך לדבר.';if(seconds<=0){clearInterval(timerId);timerId=null;}},1000);}});
+deck.addEventListener('change',e=>{if(e.target.matches('.speed')&&player)player.playbackRate=Number(e.target.value);});
+document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});
+document.getElementById('full').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();}catch{}};
+fetch('lesson.json').then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{slides=data;deck.innerHTML=slides.map(render).join('');jump.innerHTML=slides.map((s,i)=>`<option value="${i}">${i+1}/${slides.length} · ${esc(s.title)}${s.kind==='mcq'||s.kind==='picture'?s.reveal?' · תשובה':' · שאלה':''}</option>`).join('');show(parseInt(location.hash.slice(1),10)-1,false);}).catch(()=>{deck.innerHTML='<section class="slide"><p>המצגת לא נטענה. רעננו את הדף.</p></section>';});
