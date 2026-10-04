@@ -39,86 +39,86 @@
   "audio": [
     {
       "key": "s1-response-1",
-      "time": 0.267572,
+      "time": 0.267898,
       "duration": 1.872,
       "paused": false
     },
     {
       "key": "s1-response-2",
-      "time": 0.259244,
-      "duration": 1.872,
+      "time": 0.257277,
+      "duration": 2.208,
       "paused": false
     },
     {
       "key": "s1-response-3",
-      "time": 0.249236,
-      "duration": 2.4,
+      "time": 0.248784,
+      "duration": 2.928,
       "paused": false
     },
     {
       "key": "s1-response-4",
-      "time": 0.256125,
-      "duration": 1.872,
+      "time": 0.255374,
+      "duration": 2.136,
       "paused": false
     },
     {
       "key": "s1-response-5",
-      "time": 0.247712,
-      "duration": 2.184,
+      "time": 0.271697,
+      "duration": 2.592,
       "paused": false
     },
     {
       "key": "s1-passage-1",
-      "time": 0.273287,
-      "duration": 10.92,
+      "time": 0.248855,
+      "duration": 11.448,
       "paused": false
     },
     {
       "key": "s1-passage-2",
-      "time": 0.250286,
-      "duration": 11.088,
+      "time": 0.255595,
+      "duration": 11.568,
       "paused": false
     },
     {
       "key": "s2-response-1",
-      "time": 0.256346,
-      "duration": 2.04,
+      "time": 0.246151,
+      "duration": 2.544,
       "paused": false
     },
     {
       "key": "s2-response-2",
-      "time": 0.248501,
-      "duration": 2.088,
+      "time": 0.251709,
+      "duration": 2.568,
       "paused": false
     },
     {
       "key": "s2-response-3",
-      "time": 0.255548,
-      "duration": 1.872,
+      "time": 0.245996,
+      "duration": 2.232,
       "paused": false
     },
     {
       "key": "s2-response-4",
-      "time": 0.245759,
-      "duration": 2.16,
+      "time": 0.252887,
+      "duration": 2.808,
       "paused": false
     },
     {
       "key": "s2-response-5",
-      "time": 0.253097,
-      "duration": 1.944,
+      "time": 0.244314,
+      "duration": 2.424,
       "paused": false
     },
     {
       "key": "s2-passage-1",
-      "time": 0.273218,
-      "duration": 10.296,
+      "time": 0.250796,
+      "duration": 11.112,
       "paused": false
     },
     {
       "key": "s2-passage-2",
-      "time": 0.25,
-      "duration": 10.368,
+      "time": 0.256916,
+      "duration": 12.264,
       "paused": false
     }
   ],

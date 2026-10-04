@@ -1,0 +1,106 @@
+{
+  "clips": 14,
+  "textPreserved": true,
+  "allFilesDecoded": true,
+  "beforeProductionPlan": "speaker-plan.json",
+  "review": [
+    {
+      "clip": "s1-response-3",
+      "voice": "en-US-JennyNeural",
+      "category": "adult woman",
+      "uncertainty": "unspecified",
+      "sha256": "bc3e00f1858b023eee0b06b764991afb2835331495d5ee0192bfeb54d9b5ee8c"
+    },
+    {
+      "clip": "s1-response-1",
+      "voice": "en-US-JennyNeural",
+      "category": "adult woman",
+      "uncertainty": "unspecified",
+      "sha256": "3a6d66685e54803622e2c8c688518ae6ef55515899838e03592ce31d7965e77b"
+    },
+    {
+      "clip": "s1-response-2",
+      "voice": "en-US-GuyNeural",
+      "category": "adult man",
+      "uncertainty": "unspecified",
+      "sha256": "a537f70de4e55ab7539f5b1ea0dddc05b754ae2bff428f70d1b4d4881013b6dc"
+    },
+    {
+      "clip": "s1-response-4",
+      "voice": "en-US-GuyNeural",
+      "category": "adult man",
+      "uncertainty": "unspecified",
+      "sha256": "4d88a7af2a130cd1a1e45d8ac9d715679dcf89d782d6c864b1112dd673f334bb"
+    },
+    {
+      "clip": "s1-passage-1",
+      "voice": "en-US-JennyNeural",
+      "category": "woman",
+      "uncertainty": "gender confirmed by user; exact age unspecified",
+      "sha256": "f9417b1b5f058f0fcae4a5469e5567589715f5af785141e24fe33c6335a0267e"
+    },
+    {
+      "clip": "s1-response-5",
+      "voice": "en-US-JennyNeural",
+      "category": "adult woman",
+      "uncertainty": "unspecified",
+      "sha256": "226ce7e0a86c605946dd125a3287d3803711a8551c9b6ff6c8c89f836c34712a"
+    },
+    {
+      "clip": "s2-response-2",
+      "voice": "en-US-GuyNeural",
+      "category": "adult man",
+      "uncertainty": "unspecified",
+      "sha256": "d1c87d0d4fc9e1c066342bcbe7e268c0607276597abef3b53a9aefb9253c3c74"
+    },
+    {
+      "clip": "s2-response-1",
+      "voice": "en-US-JennyNeural",
+      "category": "adult woman",
+      "uncertainty": "unspecified",
+      "sha256": "327e98af82130ed54d08128de0cc29d0048a49b9ba8b22cec3ffe460744347f9"
+    },
+    {
+      "clip": "s1-passage-2",
+      "voice": "en-US-GuyNeural",
+      "category": "male",
+      "uncertainty": "male name; age unspecified",
+      "sha256": "7186f5c72fdc19acebd1580038bc9ce140518b6639da3bf139bbcfff9edc86e2"
+    },
+    {
+      "clip": "s2-response-3",
+      "voice": "en-US-JennyNeural",
+      "category": "adult woman",
+      "uncertainty": "unspecified",
+      "sha256": "7345b5cb53f0239b82c1a350bc60488cda78c69033993b6acbc967c520b63b24"
+    },
+    {
+      "clip": "s2-response-4",
+      "voice": "en-US-GuyNeural",
+      "category": "adult man",
+      "uncertainty": "unspecified",
+      "sha256": "99fa70af99e9233b7e7867e29a3d7ecfbfd6113e14f7943e695fcdf206bb3090"
+    },
+    {
+      "clip": "s2-response-5",
+      "voice": "en-US-JennyNeural",
+      "category": "adult woman",
+      "uncertainty": "unspecified",
+      "sha256": "e7a7765413d6128f9a8603671519692d92149a7c2916af84ab69a82f1c334d00"
+    },
+    {
+      "clip": "s2-passage-1",
+      "voice": "en-US-JennyNeural",
+      "category": "woman",
+      "uncertainty": "unspecified",
+      "sha256": "8f1c3f755ad400ed6a59a51894e2f108e1bdd2bb8864e6b220711626316bcab3"
+    },
+    {
+      "clip": "s2-passage-2",
+      "voice": "en-US-AnaNeural",
+      "category": "school-age girl",
+      "uncertainty": "school context; gender and exact age unspecified",
+      "sha256": "7378a7a214aa17dafc8c69f0fd0ae00a566a9152a6cef0bb04dd1615f8fd9446"
+    }
+  ]
+}

@@ -1,91 +1,203 @@
 {
-  "voice": "en-US-BrianNeural",
+  "version": "speaker-v2",
   "synthetic": true,
   "browserTTS": false,
   "files": {
-    "s1-response-1": {
-      "src": "assets/s1-response-1.mp3",
-      "text": "Can I help you?",
-      "bytes": 11232,
-      "sha256": "a14ff24d6785949a80761de7ae07e6fb6560c1f06ffe8158c9d797e8f91f7ee6"
-    },
     "s1-response-3": {
-      "src": "assets/s1-response-3.mp3",
+      "src": "assets/s1-response-3-480e30130ed8.mp3",
       "text": "Excuse me, where is the library?",
-      "bytes": 14400,
-      "sha256": "21fbbbe4456defe4c3c79b7b363901a798dbc61c423336040e363399ddc20f16"
+      "voice": "en-US-JennyNeural",
+      "speaker": {
+        "voice": "en-US-JennyNeural",
+        "category": "adult woman",
+        "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+        "certainty": "unspecified",
+        "text": "Excuse me, where is the library?"
+      },
+      "bytes": 17568,
+      "sha256": "bc3e00f1858b023eee0b06b764991afb2835331495d5ee0192bfeb54d9b5ee8c"
+    },
+    "s1-response-1": {
+      "src": "assets/s1-response-1-8348ef34fc1b.mp3",
+      "text": "Can I help you?",
+      "voice": "en-US-JennyNeural",
+      "speaker": {
+        "voice": "en-US-JennyNeural",
+        "category": "adult woman",
+        "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+        "certainty": "unspecified",
+        "text": "Can I help you?"
+      },
+      "bytes": 11232,
+      "sha256": "3a6d66685e54803622e2c8c688518ae6ef55515899838e03592ce31d7965e77b"
     },
     "s1-response-2": {
-      "src": "assets/s1-response-2.mp3",
+      "src": "assets/s1-response-2-7742b586416b.mp3",
       "text": "How are you doing today?",
-      "bytes": 11232,
-      "sha256": "56f054968b97e7b61c5b4fb941e39eb4005138b073d838500adca457548e7a0e"
+      "voice": "en-US-GuyNeural",
+      "speaker": {
+        "voice": "en-US-GuyNeural",
+        "category": "adult man",
+        "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+        "certainty": "unspecified",
+        "text": "How are you doing today?"
+      },
+      "bytes": 13248,
+      "sha256": "a537f70de4e55ab7539f5b1ea0dddc05b754ae2bff428f70d1b4d4881013b6dc"
     },
     "s1-response-4": {
-      "src": "assets/s1-response-4.mp3",
+      "src": "assets/s1-response-4-240897baa4b5.mp3",
       "text": "Have a nice weekend!",
-      "bytes": 11232,
-      "sha256": "ae4b87475a381dd5037ae0e6e6271f28f4ab086f311caf078955d229c6781024"
-    },
-    "s1-response-5": {
-      "src": "assets/s1-response-5.mp3",
-      "text": "Would you like some coffee or tea?",
-      "bytes": 13104,
-      "sha256": "93f86281a4f04da11e65fcd0e81f3a4dde56e72b930309e28eba3ed5e2a92232"
+      "voice": "en-US-GuyNeural",
+      "speaker": {
+        "voice": "en-US-GuyNeural",
+        "category": "adult man",
+        "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+        "certainty": "unspecified",
+        "text": "Have a nice weekend!"
+      },
+      "bytes": 12816,
+      "sha256": "4d88a7af2a130cd1a1e45d8ac9d715679dcf89d782d6c864b1112dd673f334bb"
     },
     "s1-passage-1": {
-      "src": "assets/s1-passage-1.mp3",
+      "src": "assets/s1-passage-1-4b0df0fac4ae.mp3",
       "text": "Hi, I'm Sarah. This weekend, I’m planning to visit my grandparents in the city. They just moved into a new apartment near the park, so I’m really excited to see it.",
-      "bytes": 65520,
-      "sha256": "ed1437a83bf97dd6642f14fecc3400c7c419f5d77fbc0aec2c3288d9bbab9ffb"
+      "voice": "en-US-JennyNeural",
+      "speaker": {
+        "voice": "en-US-JennyNeural",
+        "category": "woman",
+        "evidence": "The narrator introduces herself as Sarah. The user explicitly identifies Sarah as a woman. The script does not specify an age.",
+        "certainty": "gender confirmed by user; exact age unspecified",
+        "text": "Hi, I'm Sarah. This weekend, I’m planning to visit my grandparents in the city. They just moved into a new apartment near the park, so I’m really excited to see it."
+      },
+      "bytes": 68688,
+      "sha256": "f9417b1b5f058f0fcae4a5469e5567589715f5af785141e24fe33c6335a0267e"
+    },
+    "s1-response-5": {
+      "src": "assets/s1-response-5-a92b54a0afda.mp3",
+      "text": "Would you like some coffee or tea?",
+      "voice": "en-US-JennyNeural",
+      "speaker": {
+        "voice": "en-US-JennyNeural",
+        "category": "adult woman",
+        "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+        "certainty": "unspecified",
+        "text": "Would you like some coffee or tea?"
+      },
+      "bytes": 15552,
+      "sha256": "226ce7e0a86c605946dd125a3287d3803711a8551c9b6ff6c8c89f836c34712a"
     },
     "s2-response-2": {
-      "src": "assets/s2-response-2.mp3",
+      "src": "assets/s2-response-2-f16a02e1ad66.mp3",
       "text": "What time does the movie start?",
-      "bytes": 12528,
-      "sha256": "11194204d90248ddd1e8f15a665ddec927a5f6efd5cfc1ce3f64016952618098"
+      "voice": "en-US-GuyNeural",
+      "speaker": {
+        "voice": "en-US-GuyNeural",
+        "category": "adult man",
+        "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+        "certainty": "unspecified",
+        "text": "What time does the movie start?"
+      },
+      "bytes": 15408,
+      "sha256": "d1c87d0d4fc9e1c066342bcbe7e268c0607276597abef3b53a9aefb9253c3c74"
     },
     "s2-response-1": {
-      "src": "assets/s2-response-1.mp3",
+      "src": "assets/s2-response-1-db84e214ae6c.mp3",
       "text": "Thank you so much for your help!",
-      "bytes": 12240,
-      "sha256": "cb713b6d0b6a1725c87ceb0f1a26fbb1ab5453bb8d8bf1db347293f516cf1c13"
+      "voice": "en-US-JennyNeural",
+      "speaker": {
+        "voice": "en-US-JennyNeural",
+        "category": "adult woman",
+        "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+        "certainty": "unspecified",
+        "text": "Thank you so much for your help!"
+      },
+      "bytes": 15264,
+      "sha256": "327e98af82130ed54d08128de0cc29d0048a49b9ba8b22cec3ffe460744347f9"
     },
     "s1-passage-2": {
-      "src": "assets/s1-passage-2.mp3",
+      "src": "assets/s1-passage-2-9ad864b06cf5.mp3",
       "text": "My name is David. Every Tuesday afternoon, I go to the community center to play basketball with my friends. We usually play for an hour, and then we have pizza together.",
-      "bytes": 66528,
-      "sha256": "7cda12d5aea945fb9b573d9c56964649acedcbbe1fa610e22f1611de276b64c4"
+      "voice": "en-US-GuyNeural",
+      "speaker": {
+        "voice": "en-US-GuyNeural",
+        "category": "male",
+        "evidence": "The narrator introduces himself as David. Exact age is not given; a male voice is used without claiming a specific age.",
+        "certainty": "male name; age unspecified",
+        "text": "My name is David. Every Tuesday afternoon, I go to the community center to play basketball with my friends. We usually play for an hour, and then we have pizza together."
+      },
+      "bytes": 69408,
+      "sha256": "7186f5c72fdc19acebd1580038bc9ce140518b6639da3bf139bbcfff9edc86e2"
     },
     "s2-response-3": {
-      "src": "assets/s2-response-3.mp3",
+      "src": "assets/s2-response-3-580971434d52.mp3",
       "text": "I’m sorry I am late.",
-      "bytes": 11232,
-      "sha256": "735e5f94c313b850a34d53b9c6be7a3adbd60d3e738e9b723c3f301b0d1d53a6"
+      "voice": "en-US-JennyNeural",
+      "speaker": {
+        "voice": "en-US-JennyNeural",
+        "category": "adult woman",
+        "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+        "certainty": "unspecified",
+        "text": "I’m sorry I am late."
+      },
+      "bytes": 13392,
+      "sha256": "7345b5cb53f0239b82c1a350bc60488cda78c69033993b6acbc967c520b63b24"
     },
     "s2-response-4": {
-      "src": "assets/s2-response-4.mp3",
+      "src": "assets/s2-response-4-47307aa42d5e.mp3",
       "text": "Can you pass me the salt, please?",
-      "bytes": 12960,
-      "sha256": "a488e2e7106e02b27e1a2517743eadd9dd276d3ba584be48508f707458d5dde7"
+      "voice": "en-US-GuyNeural",
+      "speaker": {
+        "voice": "en-US-GuyNeural",
+        "category": "adult man",
+        "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+        "certainty": "unspecified",
+        "text": "Can you pass me the salt, please?"
+      },
+      "bytes": 16848,
+      "sha256": "99fa70af99e9233b7e7867e29a3d7ecfbfd6113e14f7943e695fcdf206bb3090"
     },
     "s2-response-5": {
-      "src": "assets/s2-response-5.mp3",
+      "src": "assets/s2-response-5-663e00ca4a6f.mp3",
       "text": "How was your English exam?",
-      "bytes": 11664,
-      "sha256": "f3d5c5b84a52c99580267cddde6140401b60386b46a4a122df68d30cb4b2c401"
+      "voice": "en-US-JennyNeural",
+      "speaker": {
+        "voice": "en-US-JennyNeural",
+        "category": "adult woman",
+        "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+        "certainty": "unspecified",
+        "text": "How was your English exam?"
+      },
+      "bytes": 14544,
+      "sha256": "e7a7765413d6128f9a8603671519692d92149a7c2916af84ab69a82f1c334d00"
     },
     "s2-passage-1": {
-      "src": "assets/s2-passage-1.mp3",
+      "src": "assets/s2-passage-1-f869383fcf51.mp3",
       "text": "Tomorrow is my mother's birthday. I bought her a beautiful bouquet of red roses and a card. In the evening, we are going to have a special dinner at a fancy restaurant.",
-      "bytes": 61776,
-      "sha256": "56d8155a17d29c1cfda1d1e1075e1be00a4ea0e18eed5e0503b9d05302404565"
+      "voice": "en-US-JennyNeural",
+      "speaker": {
+        "voice": "en-US-JennyNeural",
+        "category": "woman",
+        "evidence": "Birthday of the speaker’s mother. No name, gender or age is supplied. A female adult narrator is an editorial choice.",
+        "certainty": "unspecified",
+        "text": "Tomorrow is my mother's birthday. I bought her a beautiful bouquet of red roses and a card. In the evening, we are going to have a special dinner at a fancy restaurant."
+      },
+      "bytes": 66672,
+      "sha256": "8f1c3f755ad400ed6a59a51894e2f108e1bdd2bb8864e6b220711626316bcab3"
     },
     "s2-passage-2": {
-      "src": "assets/s2-passage-2.mp3",
+      "src": "assets/s2-passage-2-20d0b8e24c5e.mp3",
       "text": "My dog, Max, loves to run in the backyard. Every morning before school, I throw a ball and he brings it back. He is a very energetic dog.",
-      "bytes": 62208,
-      "sha256": "9aa5b81c7fe0fd3af8b9abedfcd0bfe6f89fe9fc18797aa8ce13a512d57bab0d"
+      "voice": "en-US-AnaNeural",
+      "speaker": {
+        "voice": "en-US-AnaNeural",
+        "category": "school-age girl",
+        "evidence": "The speaker plays with Max every morning before school. A child voice fits the school context. Female gender is an editorial choice because the script does not specify it. Exact age is not given.",
+        "certainty": "school context; gender and exact age unspecified",
+        "text": "My dog, Max, loves to run in the backyard. Every morning before school, I throw a ball and he brings it back. He is a very energetic dog."
+      },
+      "bytes": 73584,
+      "sha256": "7378a7a214aa17dafc8c69f0fd0ae00a566a9152a6cef0bb04dd1615f8fd9446"
     }
   }
 }

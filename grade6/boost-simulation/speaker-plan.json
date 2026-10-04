@@ -1,0 +1,104 @@
+{
+  "version": "speaker-v2",
+  "policy": "Review gender, age cues and context before voice selection. Record uncertainty; do not infer gender or exact age when absent. Voice cache includes text, voice and settings.",
+  "clips": {
+    "s1-response-1": {
+      "voice": "en-US-JennyNeural",
+      "category": "adult woman",
+      "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+      "certainty": "unspecified",
+      "text": "Can I help you?"
+    },
+    "s1-response-2": {
+      "voice": "en-US-GuyNeural",
+      "category": "adult man",
+      "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+      "certainty": "unspecified",
+      "text": "How are you doing today?"
+    },
+    "s1-response-3": {
+      "voice": "en-US-JennyNeural",
+      "category": "adult woman",
+      "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+      "certainty": "unspecified",
+      "text": "Excuse me, where is the library?"
+    },
+    "s1-response-4": {
+      "voice": "en-US-GuyNeural",
+      "category": "adult man",
+      "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+      "certainty": "unspecified",
+      "text": "Have a nice weekend!"
+    },
+    "s1-response-5": {
+      "voice": "en-US-JennyNeural",
+      "category": "adult woman",
+      "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+      "certainty": "unspecified",
+      "text": "Would you like some coffee or tea?"
+    },
+    "s1-passage-1": {
+      "voice": "en-US-JennyNeural",
+      "category": "woman",
+      "evidence": "The narrator introduces herself as Sarah. The user explicitly identifies Sarah as a woman. The script does not specify an age.",
+      "certainty": "gender confirmed by user; exact age unspecified",
+      "text": "Hi, I'm Sarah. This weekend, I’m planning to visit my grandparents in the city. They just moved into a new apartment near the park, so I’m really excited to see it."
+    },
+    "s1-passage-2": {
+      "voice": "en-US-GuyNeural",
+      "category": "male",
+      "evidence": "The narrator introduces himself as David. Exact age is not given; a male voice is used without claiming a specific age.",
+      "certainty": "male name; age unspecified",
+      "text": "My name is David. Every Tuesday afternoon, I go to the community center to play basketball with my friends. We usually play for an hour, and then we have pizza together."
+    },
+    "s2-response-1": {
+      "voice": "en-US-JennyNeural",
+      "category": "adult woman",
+      "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+      "certainty": "unspecified",
+      "text": "Thank you so much for your help!"
+    },
+    "s2-response-2": {
+      "voice": "en-US-GuyNeural",
+      "category": "adult man",
+      "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+      "certainty": "unspecified",
+      "text": "What time does the movie start?"
+    },
+    "s2-response-3": {
+      "voice": "en-US-JennyNeural",
+      "category": "adult woman",
+      "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+      "certainty": "unspecified",
+      "text": "I’m sorry I am late."
+    },
+    "s2-response-4": {
+      "voice": "en-US-GuyNeural",
+      "category": "adult man",
+      "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+      "certainty": "unspecified",
+      "text": "Can you pass me the salt, please?"
+    },
+    "s2-response-5": {
+      "voice": "en-US-JennyNeural",
+      "category": "adult woman",
+      "evidence": "A short everyday situation. The script specifies neither gender nor age; voice is an editorial choice, not a fact about the speaker.",
+      "certainty": "unspecified",
+      "text": "How was your English exam?"
+    },
+    "s2-passage-1": {
+      "voice": "en-US-JennyNeural",
+      "category": "woman",
+      "evidence": "Birthday of the speaker’s mother. No name, gender or age is supplied. A female adult narrator is an editorial choice.",
+      "certainty": "unspecified",
+      "text": "Tomorrow is my mother's birthday. I bought her a beautiful bouquet of red roses and a card. In the evening, we are going to have a special dinner at a fancy restaurant."
+    },
+    "s2-passage-2": {
+      "voice": "en-US-AnaNeural",
+      "category": "school-age girl",
+      "evidence": "The speaker plays with Max every morning before school. A child voice fits the school context. Female gender is an editorial choice because the script does not specify it. Exact age is not given.",
+      "certainty": "school context; gender and exact age unspecified",
+      "text": "My dog, Max, loves to run in the backyard. Every morning before school, I throw a ball and he brings it back. He is a very energetic dog."
+    }
+  }
+}
