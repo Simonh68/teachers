@@ -49,7 +49,7 @@ stories=[
  [('A boy is packing his backpack. He is getting ready for a walk.','הילד אורז את תיק הגב ומתכונן לטיול. is packing מתאר פעולה שמתרחשת בתמונה.'),('Next, he is walking into the forest. He is carrying his backpack.','Next = אחר כך. מוסיפים פרט שנראה בתמונה: הוא נושא את התיק.'),('Then, he is looking at a map. He looks lost and worried.','Then = ואז. looking at = מסתכל על. looks lost = נראה אבוד. אפשר להסיק רגש, בלי להמציא פרטים רחוקים מהתמונה.'),('Finally, he finds a path and smiles. He can continue his walk.','Finally = לבסוף. סוף הסיפור פותר את הבעיה: הוא מוצא שביל ומחייך.')],
  [('A girl is making a cake in the kitchen. She is mixing the ingredients.','הילדה מכינה עוגה במטבח. is mixing = מערבבת. מתחילים בתיאור הפעולה הראשונה.'),('Next, she is taking the cake out of the oven. The cake looks good.','Next = אחר כך. taking ... out of = מוציאה מתוך. מתארים מה רואים בתמונה.'),('Then, she is setting the table. She puts plates and forks on it.','setting the table = עורכת את השולחן. Then מחבר את האירוע לשלבים הקודמים.'),('Finally, the family is sitting around the table. They are eating the cake together.','לבסוף המשפחה יושבת ואוכלת יחד. are eating מתאר פעולה של כמה אנשים.')]
 ]
-add('cover','Boost Simulation',text='כיתה ו׳',he='תרגול דיבור והאזנה באנגלית')
+add('cover','Boost Simulation',text='',he='תרגול דיבור והאזנה באנגלית')
 add('intro','שני סטים של תרגול',he='בכל סט ארבעה חלקים: תגובות למצבים, הבנת הנשמע, דיבור על עצמכם וסיפור בתמונות. תחילה עונים, ורק בשקף הבא רואים תשובה והסבר.',text='A2 · BOOST practice',note='חומר תרגול מקורי לפי הדגם שסופק. אינו שאלון רשמי.')
 for si in range(2):
  s=si+1
