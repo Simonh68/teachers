@@ -1,0 +1,51 @@
+name: Mayaan Read Along assets
+on:
+  push:
+    branches: [main]
+    paths:
+      - mayaan/**/content.json
+      - tools/mayaan_read_alongs_audio.py
+      - .github/workflows/mayaan-read-alongs.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: mayaan-read-alongs
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          python -m pip install edge-tts==7.2.8
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+      - name: Download real images into repository
+        run: |
+          mkdir -p mayaan/lee-birron/assets mayaan/greenhouse/assets mayaan/mekif-milano/assets
+          curl -L --fail --retry 3 -A "Mozilla/5.0" "https://upload.wikimedia.org/wikipedia/commons/9/90/LeeBiran.jpg" -o mayaan/lee-birron/assets/lee-birron-1.jpg
+          curl -L --fail --retry 3 -A "Mozilla/5.0" "https://img.mako.co.il/2023/08/17/m613_170823_LeeBiran_3_autoOrient_w.jpg" -o mayaan/lee-birron/assets/lee-birron-2.jpg
+          curl -L --fail --retry 3 -A "Mozilla/5.0" "https://m.media-amazon.com/images/M/MV5BMTk1NTc3MTc2NV5BMl5BanBnXkFtZTgwNDA5NTczMzI@._V1_.jpg" -o mayaan/greenhouse/assets/greenhouse-1.jpg
+          curl -L --fail --retry 3 -A "Mozilla/5.0" "https://www.seret.co.il/images/series/thegreenhouse/thegreenhouse_Cover.jpg" -o mayaan/greenhouse/assets/greenhouse-2.jpg
+          curl -L --fail --retry 3 -A "Mozilla/5.0" "https://m.media-amazon.com/images/M/MV5BOWRkZDFmYjItMjQzMC00Zjk4LThiNjgtZTIzYzRlMzZhOGU5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" -o mayaan/mekif-milano/assets/mekif-milano-1.jpg
+          curl -L --fail --retry 3 -A "Mozilla/5.0" "https://www.edb.co.il/photos/161222020_posterwide02.full.jpg" -o mayaan/mekif-milano/assets/mekif-milano-2.jpg
+      - name: Generate narration
+        run: python -u tools/mayaan_read_alongs_audio.py
+      - name: Commit generated assets
+        run: |
+          git config user.name 'Mayaan Read Along builder'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add mayaan/*/audio.json mayaan/*/assets/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Build Mayaan Read Along audio and local images'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
