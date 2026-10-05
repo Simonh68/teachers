@@ -4,7 +4,7 @@ from pathlib import Path
 import edge_tts
 
 ROOT=Path(__file__).resolve().parents[1]
-DECKS=['lee-birron','greenhouse','mekif-milano']
+DECKS=['lee-birron','greenhouse','mekif-milano','marvel','horror-movies','disney-movies']
 WORD=re.compile(r"[A-Za-z]+(?:['’][A-Za-z]+)*|[0-9]+")
 def norm(x): return re.sub('[^a-z0-9]','',html.unescape(x).lower())
 
