@@ -1,0 +1,62 @@
+{
+  "standard": "grade8-bilingual-v1",
+  "approvedSample": "grade8/unit-1-reading-pilot/bilingual-sample/",
+  "sourceUnit": "grade8/unit-1/unit-data.js",
+  "sourceSHA256": "110f704bb73044ab3a1bd46e996bdb4a0e3d13b983d8bc569d7d266553090943",
+  "sourcePilotSHA256": "ae69c53d6091fc70afc9e59d683abcf1c14d8b23eec55547e6062a7ac66dc459",
+  "sourceSampleSHA256": "ad522615cd429e8599282621b668996bbeb1155f4e5ce043ae188803db27ee86",
+  "sentences": 18,
+  "englishTokens": 228,
+  "semanticHebrewUnits": 150,
+  "audioParts": 33,
+  "pauseMs": 1500,
+  "sourcePages": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      10
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      13
+    ],
+    [
+      14
+    ],
+    [
+      15,
+      16,
+      17
+    ]
+  ],
+  "routes": [
+    "grade8/unit-1/?view=chunks",
+    "grade8/unit-1/?view=sentences",
+    "grade8/unit-1-reading-pilot/?view=chunks",
+    "grade8/unit-1-reading-pilot/?view=sentences"
+  ],
+  "curriculumPreserved": true,
+  "samplePreserved": true,
+  "detachedPilotPreserved": true
+}

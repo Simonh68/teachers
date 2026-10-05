@@ -1,0 +1,370 @@
+{
+  "passed": true,
+  "standard": "grade8-bilingual-v1",
+  "sentences": 18,
+  "englishTokens": 228,
+  "hebrewSemanticUnits": 150,
+  "recordedAudioParts": 33,
+  "layout": [
+    {
+      "folder": "unit-1",
+      "mode": "sentences",
+      "viewport": "1366x768",
+      "pages": 36,
+      "stationaryPairs": 18,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1",
+      "mode": "sentences",
+      "viewport": "1024x600",
+      "pages": 36,
+      "stationaryPairs": 18,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1",
+      "mode": "sentences",
+      "viewport": "390x844",
+      "pages": 36,
+      "stationaryPairs": 18,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1",
+      "mode": "sentences",
+      "viewport": "360x640",
+      "pages": 36,
+      "stationaryPairs": 18,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1",
+      "mode": "sentences",
+      "viewport": "844x390",
+      "pages": 36,
+      "stationaryPairs": 18,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1",
+      "mode": "sentences",
+      "viewport": "740x360",
+      "pages": 36,
+      "stationaryPairs": 18,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1",
+      "mode": "chunks",
+      "viewport": "1366x768",
+      "pages": 32,
+      "stationaryPairs": 16,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1",
+      "mode": "chunks",
+      "viewport": "1024x600",
+      "pages": 32,
+      "stationaryPairs": 16,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1",
+      "mode": "chunks",
+      "viewport": "390x844",
+      "pages": 28,
+      "stationaryPairs": 14,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1",
+      "mode": "chunks",
+      "viewport": "360x640",
+      "pages": 34,
+      "stationaryPairs": 17,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1",
+      "mode": "chunks",
+      "viewport": "844x390",
+      "pages": 30,
+      "stationaryPairs": 15,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1",
+      "mode": "chunks",
+      "viewport": "740x360",
+      "pages": 36,
+      "stationaryPairs": 18,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1-reading-pilot",
+      "mode": "sentences",
+      "viewport": "1366x768",
+      "pages": 36,
+      "stationaryPairs": 18,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1-reading-pilot",
+      "mode": "sentences",
+      "viewport": "1024x600",
+      "pages": 36,
+      "stationaryPairs": 18,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1-reading-pilot",
+      "mode": "sentences",
+      "viewport": "390x844",
+      "pages": 36,
+      "stationaryPairs": 18,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1-reading-pilot",
+      "mode": "sentences",
+      "viewport": "360x640",
+      "pages": 36,
+      "stationaryPairs": 18,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1-reading-pilot",
+      "mode": "sentences",
+      "viewport": "844x390",
+      "pages": 36,
+      "stationaryPairs": 18,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1-reading-pilot",
+      "mode": "sentences",
+      "viewport": "740x360",
+      "pages": 36,
+      "stationaryPairs": 18,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1-reading-pilot",
+      "mode": "chunks",
+      "viewport": "1366x768",
+      "pages": 32,
+      "stationaryPairs": 16,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1-reading-pilot",
+      "mode": "chunks",
+      "viewport": "1024x600",
+      "pages": 32,
+      "stationaryPairs": 16,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1-reading-pilot",
+      "mode": "chunks",
+      "viewport": "390x844",
+      "pages": 28,
+      "stationaryPairs": 14,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1-reading-pilot",
+      "mode": "chunks",
+      "viewport": "360x640",
+      "pages": 34,
+      "stationaryPairs": 17,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1-reading-pilot",
+      "mode": "chunks",
+      "viewport": "844x390",
+      "pages": 30,
+      "stationaryPairs": 15,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    },
+    {
+      "folder": "unit-1-reading-pilot",
+      "mode": "chunks",
+      "viewport": "740x360",
+      "pages": 36,
+      "stationaryPairs": 18,
+      "alignedTokenChecks": 228,
+      "clipping": false,
+      "realTouchFourDirections": true,
+      "keyboard": true,
+      "wheel": true,
+      "contents": true
+    }
+  ],
+  "audio": [
+    {
+      "speed": "0.5",
+      "sentence": 11,
+      "gaps": [
+        {
+          "timerMs": 1500.4,
+          "audibleGapMs": 1506.7
+        },
+        {
+          "timerMs": 1500.2,
+          "audibleGapMs": 1504.5
+        },
+        {
+          "timerMs": 1500.2,
+          "audibleGapMs": 1506.3
+        }
+      ]
+    },
+    {
+      "speed": "1.25",
+      "sentence": 11,
+      "gaps": [
+        {
+          "timerMs": 1500.2,
+          "audibleGapMs": 1504.8
+        },
+        {
+          "timerMs": 1500.2,
+          "audibleGapMs": 1504.4
+        },
+        {
+          "timerMs": 1500.2,
+          "audibleGapMs": 1505.1
+        }
+      ]
+    }
+  ],
+  "legacyViewsPreserved": true,
+  "aliasesPreserved": true,
+  "all36SentenceSlidesPlay": true,
+  "twoSecondDelayBothStates": true,
+  "pauseResume": true,
+  "stopOnNavigationAndMenu": true,
+  "speedPersistence": true,
+  "chunkStopsWithoutAdvance": true,
+  "blockedStorage": true,
+  "checkedAtUTC": "2026-10-05T14:44:52Z"
+}
