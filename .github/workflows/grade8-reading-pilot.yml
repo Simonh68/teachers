@@ -1,0 +1,80 @@
+name: Build unlisted Grade 8 reading pilot
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/grade8-reading-pilot/**'
+      - '.github/workflows/grade8-reading-pilot.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: grade8-reading-pilot
+  cancel-in-progress: false
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install audio slicing and browser verification tools
+        run: |
+          python -m pip install playwright==1.55.0
+          if ! command -v ffmpeg >/dev/null; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq ffmpeg
+          fi
+          python -m playwright install --with-deps chromium
+      - name: Copy current unit and split original narration losslessly
+        run: python -u tools/grade8-reading-pilot/build.py
+      - name: Verify code, every reading view, real pauses and source isolation
+        run: |
+          node --check grade8/unit-1-reading-pilot/phrase-player.js
+          node --check grade8/unit-1-reading-pilot/reading-pilot.js
+          python -u tools/grade8-reading-pilot/verify.py
+      - name: Preserve browser screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: grade8-reading-pilot-qa
+          path: /tmp/grade8-reading-pilot-qa/
+          if-no-files-found: ignore
+      - name: Commit only the verified detached copy
+        run: |
+          git config user.name 'Teachers Lesson Builder'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add grade8/unit-1-reading-pilot
+          if ! git diff --cached --quiet; then
+            git commit -m 'Add unlisted Grade 8 Unit 1 copy with 1.5-second phrase pauses'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then break; fi
+              if [ "$attempt" = 3 ]; then exit 1; fi
+              sleep 3
+            done
+          fi
+      - name: Stage tracked site only
+        run: |
+          mkdir -p /tmp/teachers-reading-pilot-site
+          git archive HEAD | tar -x -C /tmp/teachers-reading-pilot-site
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: /tmp/teachers-reading-pilot-site
+      - name: Publish verified detached copy
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Verify public files, recordings and unlisted navigation
+        run: python -u tools/grade8-reading-pilot/verify.py --live
