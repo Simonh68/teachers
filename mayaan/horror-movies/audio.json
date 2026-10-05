@@ -1,0 +1,1055 @@
+{
+  "version": "20261005-mayaan-v1",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "source_sha256": "c437e24bfd0a59c6c519bbc5e2c348e3ea71caefb43c40de7f998154cf763802",
+  "sha256": "e480c76c747926ecc7b5a76814d6321d98dfe9e7e2f6b93f0b219c403843ef0e",
+  "audio": "assets/story.mp3?v=c437e24bfd0a",
+  "word_count": 183,
+  "sentences": [
+    {
+      "id": 1,
+      "en": "Horror movies are made to create fear, tension, and surprise.",
+      "start": 0.0875,
+      "end": 4.475,
+      "words": [
+        {
+          "word": "Horror",
+          "start": 0.0875,
+          "end": 0.3875
+        },
+        {
+          "word": "movies",
+          "start": 0.4,
+          "end": 0.8125
+        },
+        {
+          "word": "are",
+          "start": 0.825,
+          "end": 0.95
+        },
+        {
+          "word": "made",
+          "start": 0.9625,
+          "end": 1.225
+        },
+        {
+          "word": "to",
+          "start": 1.2375,
+          "end": 1.325
+        },
+        {
+          "word": "create",
+          "start": 1.3375,
+          "end": 1.6875
+        },
+        {
+          "word": "fear",
+          "start": 1.7,
+          "end": 2.1375
+        },
+        {
+          "word": "tension",
+          "start": 2.675,
+          "end": 3.2125
+        },
+        {
+          "word": "and",
+          "start": 3.6375,
+          "end": 3.75
+        },
+        {
+          "word": "surprise",
+          "start": 3.7625,
+          "end": 4.475
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "en": "Some people think that sounds unpleasant, but many teenagers enjoy the feeling.",
+      "start": 4.8375,
+      "end": 9.6125,
+      "words": [
+        {
+          "word": "Some",
+          "start": 4.8375,
+          "end": 5.0625
+        },
+        {
+          "word": "people",
+          "start": 5.075,
+          "end": 5.35
+        },
+        {
+          "word": "think",
+          "start": 5.3625,
+          "end": 5.65
+        },
+        {
+          "word": "that",
+          "start": 5.6625,
+          "end": 5.8125
+        },
+        {
+          "word": "sounds",
+          "start": 5.825,
+          "end": 6.1875
+        },
+        {
+          "word": "unpleasant",
+          "start": 6.2,
+          "end": 6.9125
+        },
+        {
+          "word": "but",
+          "start": 7.35,
+          "end": 7.6
+        },
+        {
+          "word": "many",
+          "start": 7.6125,
+          "end": 7.8875
+        },
+        {
+          "word": "teenagers",
+          "start": 7.9,
+          "end": 8.5625
+        },
+        {
+          "word": "enjoy",
+          "start": 8.575,
+          "end": 8.9875
+        },
+        {
+          "word": "the",
+          "start": 9.0,
+          "end": 9.0875
+        },
+        {
+          "word": "feeling",
+          "start": 9.1,
+          "end": 9.6125
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "en": "A horror movie can make your heart beat faster while you still know that you are safe.",
+      "start": 9.9875,
+      "end": 14.0875,
+      "words": [
+        {
+          "word": "A",
+          "start": 9.9875,
+          "end": 10.025
+        },
+        {
+          "word": "horror",
+          "start": 10.0375,
+          "end": 10.375
+        },
+        {
+          "word": "movie",
+          "start": 10.3875,
+          "end": 10.725
+        },
+        {
+          "word": "can",
+          "start": 10.7375,
+          "end": 10.8875
+        },
+        {
+          "word": "make",
+          "start": 10.9,
+          "end": 11.0875
+        },
+        {
+          "word": "your",
+          "start": 11.1,
+          "end": 11.2125
+        },
+        {
+          "word": "heart",
+          "start": 11.225,
+          "end": 11.5375
+        },
+        {
+          "word": "beat",
+          "start": 11.55,
+          "end": 11.7375
+        },
+        {
+          "word": "faster",
+          "start": 11.75,
+          "end": 12.3125
+        },
+        {
+          "word": "while",
+          "start": 12.325,
+          "end": 12.5125
+        },
+        {
+          "word": "you",
+          "start": 12.525,
+          "end": 12.6125
+        },
+        {
+          "word": "still",
+          "start": 12.625,
+          "end": 12.9125
+        },
+        {
+          "word": "know",
+          "start": 12.925,
+          "end": 13.1625
+        },
+        {
+          "word": "that",
+          "start": 13.175,
+          "end": 13.3125
+        },
+        {
+          "word": "you",
+          "start": 13.325,
+          "end": 13.4375
+        },
+        {
+          "word": "are",
+          "start": 13.45,
+          "end": 13.5625
+        },
+        {
+          "word": "safe",
+          "start": 13.575,
+          "end": 14.0875
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "en": "Different horror films use different kinds of fear.",
+      "start": 14.5,
+      "end": 17.3,
+      "words": [
+        {
+          "word": "Different",
+          "start": 14.5,
+          "end": 14.8375
+        },
+        {
+          "word": "horror",
+          "start": 14.85,
+          "end": 15.25
+        },
+        {
+          "word": "films",
+          "start": 15.2625,
+          "end": 15.75
+        },
+        {
+          "word": "use",
+          "start": 15.7625,
+          "end": 16.0375
+        },
+        {
+          "word": "different",
+          "start": 16.05,
+          "end": 16.425
+        },
+        {
+          "word": "kinds",
+          "start": 16.4375,
+          "end": 16.7375
+        },
+        {
+          "word": "of",
+          "start": 16.75,
+          "end": 16.8375
+        },
+        {
+          "word": "fear",
+          "start": 16.85,
+          "end": 17.3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "en": "Some use ghosts, monsters, or dangerous killers.",
+      "start": 17.6625,
+      "end": 21.0,
+      "words": [
+        {
+          "word": "Some",
+          "start": 17.6625,
+          "end": 17.9375
+        },
+        {
+          "word": "use",
+          "start": 17.95,
+          "end": 18.225
+        },
+        {
+          "word": "ghosts",
+          "start": 18.2375,
+          "end": 18.8375
+        },
+        {
+          "word": "monsters",
+          "start": 19.05,
+          "end": 19.7625
+        },
+        {
+          "word": "or",
+          "start": 19.7875,
+          "end": 19.9625
+        },
+        {
+          "word": "dangerous",
+          "start": 19.975,
+          "end": 20.4625
+        },
+        {
+          "word": "killers",
+          "start": 20.475,
+          "end": 21.0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "en": "Others use silence, dark rooms, strange sounds, or the feeling that something is wrong.",
+      "start": 21.4,
+      "end": 26.5875,
+      "words": [
+        {
+          "word": "Others",
+          "start": 21.4,
+          "end": 21.7125
+        },
+        {
+          "word": "use",
+          "start": 21.725,
+          "end": 21.9125
+        },
+        {
+          "word": "silence",
+          "start": 21.925,
+          "end": 22.5625
+        },
+        {
+          "word": "dark",
+          "start": 22.575,
+          "end": 22.9
+        },
+        {
+          "word": "rooms",
+          "start": 22.9125,
+          "end": 23.3875
+        },
+        {
+          "word": "strange",
+          "start": 23.5125,
+          "end": 24.0
+        },
+        {
+          "word": "sounds",
+          "start": 24.0125,
+          "end": 24.55
+        },
+        {
+          "word": "or",
+          "start": 24.8125,
+          "end": 24.9875
+        },
+        {
+          "word": "the",
+          "start": 25.0,
+          "end": 25.0875
+        },
+        {
+          "word": "feeling",
+          "start": 25.1,
+          "end": 25.525
+        },
+        {
+          "word": "that",
+          "start": 25.5375,
+          "end": 25.675
+        },
+        {
+          "word": "something",
+          "start": 25.6875,
+          "end": 26.0125
+        },
+        {
+          "word": "is",
+          "start": 26.025,
+          "end": 26.1625
+        },
+        {
+          "word": "wrong",
+          "start": 26.175,
+          "end": 26.5875
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "en": "Good horror does not need to show violence all the time.",
+      "start": 26.9875,
+      "end": 29.9625,
+      "words": [
+        {
+          "word": "Good",
+          "start": 26.9875,
+          "end": 27.1125
+        },
+        {
+          "word": "horror",
+          "start": 27.125,
+          "end": 27.575
+        },
+        {
+          "word": "does",
+          "start": 27.5875,
+          "end": 27.7625
+        },
+        {
+          "word": "not",
+          "start": 27.775,
+          "end": 28.0375
+        },
+        {
+          "word": "need",
+          "start": 28.05,
+          "end": 28.275
+        },
+        {
+          "word": "to",
+          "start": 28.2875,
+          "end": 28.375
+        },
+        {
+          "word": "show",
+          "start": 28.3875,
+          "end": 28.65
+        },
+        {
+          "word": "violence",
+          "start": 28.6625,
+          "end": 29.2
+        },
+        {
+          "word": "all",
+          "start": 29.2125,
+          "end": 29.4
+        },
+        {
+          "word": "the",
+          "start": 29.4125,
+          "end": 29.4875
+        },
+        {
+          "word": "time",
+          "start": 29.5,
+          "end": 29.9625
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "en": "Sometimes what you do not see is more frightening than what you see.",
+      "start": 30.35,
+      "end": 33.9375,
+      "words": [
+        {
+          "word": "Sometimes",
+          "start": 30.35,
+          "end": 30.9
+        },
+        {
+          "word": "what",
+          "start": 30.9125,
+          "end": 31.1
+        },
+        {
+          "word": "you",
+          "start": 31.1125,
+          "end": 31.2375
+        },
+        {
+          "word": "do",
+          "start": 31.25,
+          "end": 31.3875
+        },
+        {
+          "word": "not",
+          "start": 31.4,
+          "end": 31.625
+        },
+        {
+          "word": "see",
+          "start": 31.6375,
+          "end": 32.0
+        },
+        {
+          "word": "is",
+          "start": 32.0125,
+          "end": 32.2
+        },
+        {
+          "word": "more",
+          "start": 32.2125,
+          "end": 32.4625
+        },
+        {
+          "word": "frightening",
+          "start": 32.475,
+          "end": 33.0375
+        },
+        {
+          "word": "than",
+          "start": 33.05,
+          "end": 33.2
+        },
+        {
+          "word": "what",
+          "start": 33.2125,
+          "end": 33.3875
+        },
+        {
+          "word": "you",
+          "start": 33.4,
+          "end": 33.4875
+        },
+        {
+          "word": "see",
+          "start": 33.5,
+          "end": 33.9375
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "en": "Music is also important.",
+      "start": 34.3125,
+      "end": 36.0625,
+      "words": [
+        {
+          "word": "Music",
+          "start": 34.3125,
+          "end": 34.7875
+        },
+        {
+          "word": "is",
+          "start": 34.8,
+          "end": 34.975
+        },
+        {
+          "word": "also",
+          "start": 34.9875,
+          "end": 35.3875
+        },
+        {
+          "word": "important",
+          "start": 35.4,
+          "end": 36.0625
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "en": "A quiet scene can suddenly feel dangerous because of one sound.",
+      "start": 36.425,
+      "end": 40.0125,
+      "words": [
+        {
+          "word": "A",
+          "start": 36.425,
+          "end": 36.525
+        },
+        {
+          "word": "quiet",
+          "start": 36.5375,
+          "end": 36.9375
+        },
+        {
+          "word": "scene",
+          "start": 36.95,
+          "end": 37.375
+        },
+        {
+          "word": "can",
+          "start": 37.3875,
+          "end": 37.5375
+        },
+        {
+          "word": "suddenly",
+          "start": 37.55,
+          "end": 37.9375
+        },
+        {
+          "word": "feel",
+          "start": 37.95,
+          "end": 38.225
+        },
+        {
+          "word": "dangerous",
+          "start": 38.2375,
+          "end": 38.8375
+        },
+        {
+          "word": "because",
+          "start": 38.85,
+          "end": 39.1375
+        },
+        {
+          "word": "of",
+          "start": 39.15,
+          "end": 39.2625
+        },
+        {
+          "word": "one",
+          "start": 39.275,
+          "end": 39.4875
+        },
+        {
+          "word": "sound",
+          "start": 39.5,
+          "end": 40.0125
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "en": "Horror movies are often fun to watch with friends because everyone reacts together.",
+      "start": 40.4125,
+      "end": 44.95,
+      "words": [
+        {
+          "word": "Horror",
+          "start": 40.4125,
+          "end": 40.725
+        },
+        {
+          "word": "movies",
+          "start": 40.7375,
+          "end": 41.2
+        },
+        {
+          "word": "are",
+          "start": 41.2125,
+          "end": 41.4
+        },
+        {
+          "word": "often",
+          "start": 41.4125,
+          "end": 41.75
+        },
+        {
+          "word": "fun",
+          "start": 41.7625,
+          "end": 42.075
+        },
+        {
+          "word": "to",
+          "start": 42.0875,
+          "end": 42.2
+        },
+        {
+          "word": "watch",
+          "start": 42.2125,
+          "end": 42.5625
+        },
+        {
+          "word": "with",
+          "start": 42.575,
+          "end": 42.6875
+        },
+        {
+          "word": "friends",
+          "start": 42.7,
+          "end": 43.2125
+        },
+        {
+          "word": "because",
+          "start": 43.225,
+          "end": 43.5875
+        },
+        {
+          "word": "everyone",
+          "start": 43.6,
+          "end": 44.0
+        },
+        {
+          "word": "reacts",
+          "start": 44.0125,
+          "end": 44.4125
+        },
+        {
+          "word": "together",
+          "start": 44.425,
+          "end": 44.95
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "en": "People laugh, jump, hide their eyes, and talk after the film.",
+      "start": 45.325,
+      "end": 49.4625,
+      "words": [
+        {
+          "word": "People",
+          "start": 45.325,
+          "end": 45.6
+        },
+        {
+          "word": "laugh",
+          "start": 45.6125,
+          "end": 46.0625
+        },
+        {
+          "word": "jump",
+          "start": 46.45,
+          "end": 46.875
+        },
+        {
+          "word": "hide",
+          "start": 47.4125,
+          "end": 47.7
+        },
+        {
+          "word": "their",
+          "start": 47.7125,
+          "end": 47.9
+        },
+        {
+          "word": "eyes",
+          "start": 47.9125,
+          "end": 48.2625
+        },
+        {
+          "word": "and",
+          "start": 48.2875,
+          "end": 48.4
+        },
+        {
+          "word": "talk",
+          "start": 48.4125,
+          "end": 48.6875
+        },
+        {
+          "word": "after",
+          "start": 48.7,
+          "end": 48.9375
+        },
+        {
+          "word": "the",
+          "start": 48.95,
+          "end": 49.0375
+        },
+        {
+          "word": "film",
+          "start": 49.05,
+          "end": 49.4625
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "en": "Some horror stories also ask serious questions about family, trust, fear, or society.",
+      "start": 49.8625,
+      "end": 55.4875,
+      "words": [
+        {
+          "word": "Some",
+          "start": 49.8625,
+          "end": 50.075
+        },
+        {
+          "word": "horror",
+          "start": 50.0875,
+          "end": 50.425
+        },
+        {
+          "word": "stories",
+          "start": 50.4375,
+          "end": 50.9
+        },
+        {
+          "word": "also",
+          "start": 50.9125,
+          "end": 51.3125
+        },
+        {
+          "word": "ask",
+          "start": 51.325,
+          "end": 51.6125
+        },
+        {
+          "word": "serious",
+          "start": 51.625,
+          "end": 52.0375
+        },
+        {
+          "word": "questions",
+          "start": 52.05,
+          "end": 52.5
+        },
+        {
+          "word": "about",
+          "start": 52.5125,
+          "end": 52.7875
+        },
+        {
+          "word": "family",
+          "start": 52.8,
+          "end": 53.275
+        },
+        {
+          "word": "trust",
+          "start": 53.3,
+          "end": 53.8625
+        },
+        {
+          "word": "fear",
+          "start": 54.1125,
+          "end": 54.6125
+        },
+        {
+          "word": "or",
+          "start": 54.6375,
+          "end": 54.8125
+        },
+        {
+          "word": "society",
+          "start": 54.825,
+          "end": 55.4875
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "en": "The best ones are not only scary.",
+      "start": 55.875,
+      "end": 57.9125,
+      "words": [
+        {
+          "word": "The",
+          "start": 55.875,
+          "end": 55.9625
+        },
+        {
+          "word": "best",
+          "start": 55.975,
+          "end": 56.2875
+        },
+        {
+          "word": "ones",
+          "start": 56.3,
+          "end": 56.6375
+        },
+        {
+          "word": "are",
+          "start": 56.65,
+          "end": 56.775
+        },
+        {
+          "word": "not",
+          "start": 56.7875,
+          "end": 57.05
+        },
+        {
+          "word": "only",
+          "start": 57.0625,
+          "end": 57.3
+        },
+        {
+          "word": "scary",
+          "start": 57.3125,
+          "end": 57.9125
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "en": "They create a strong mood, memorable scenes, and ideas that stay in your mind after the movie ends.",
+      "start": 58.3,
+      "end": 64.3125,
+      "words": [
+        {
+          "word": "They",
+          "start": 58.3,
+          "end": 58.3875
+        },
+        {
+          "word": "create",
+          "start": 58.4,
+          "end": 58.7
+        },
+        {
+          "word": "a",
+          "start": 58.7125,
+          "end": 58.75
+        },
+        {
+          "word": "strong",
+          "start": 58.7625,
+          "end": 59.1875
+        },
+        {
+          "word": "mood",
+          "start": 59.2,
+          "end": 59.5
+        },
+        {
+          "word": "memorable",
+          "start": 60.0625,
+          "end": 60.4875
+        },
+        {
+          "word": "scenes",
+          "start": 60.5,
+          "end": 61.05
+        },
+        {
+          "word": "and",
+          "start": 61.4875,
+          "end": 61.6125
+        },
+        {
+          "word": "ideas",
+          "start": 61.625,
+          "end": 62.0625
+        },
+        {
+          "word": "that",
+          "start": 62.075,
+          "end": 62.2125
+        },
+        {
+          "word": "stay",
+          "start": 62.225,
+          "end": 62.55
+        },
+        {
+          "word": "in",
+          "start": 62.5625,
+          "end": 62.65
+        },
+        {
+          "word": "your",
+          "start": 62.6625,
+          "end": 62.7625
+        },
+        {
+          "word": "mind",
+          "start": 62.775,
+          "end": 63.2125
+        },
+        {
+          "word": "after",
+          "start": 63.225,
+          "end": 63.475
+        },
+        {
+          "word": "the",
+          "start": 63.4875,
+          "end": 63.55
+        },
+        {
+          "word": "movie",
+          "start": 63.5625,
+          "end": 63.8625
+        },
+        {
+          "word": "ends",
+          "start": 63.875,
+          "end": 64.3125
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "en": "That is why a simple scary movie can become a shared memory with friends.",
+      "start": 64.7125,
+      "end": 68.9125,
+      "words": [
+        {
+          "word": "That",
+          "start": 64.7125,
+          "end": 64.8875
+        },
+        {
+          "word": "is",
+          "start": 64.9,
+          "end": 65.0375
+        },
+        {
+          "word": "why",
+          "start": 65.05,
+          "end": 65.35
+        },
+        {
+          "word": "a",
+          "start": 65.3625,
+          "end": 65.4375
+        },
+        {
+          "word": "simple",
+          "start": 65.45,
+          "end": 65.8125
+        },
+        {
+          "word": "scary",
+          "start": 65.825,
+          "end": 66.2125
+        },
+        {
+          "word": "movie",
+          "start": 66.225,
+          "end": 66.625
+        },
+        {
+          "word": "can",
+          "start": 66.6375,
+          "end": 66.8125
+        },
+        {
+          "word": "become",
+          "start": 66.825,
+          "end": 67.1875
+        },
+        {
+          "word": "a",
+          "start": 67.2,
+          "end": 67.25
+        },
+        {
+          "word": "shared",
+          "start": 67.2625,
+          "end": 67.7
+        },
+        {
+          "word": "memory",
+          "start": 67.7125,
+          "end": 68.1375
+        },
+        {
+          "word": "with",
+          "start": 68.15,
+          "end": 68.3125
+        },
+        {
+          "word": "friends",
+          "start": 68.325,
+          "end": 68.9125
+        }
+      ]
+    }
+  ]
+}

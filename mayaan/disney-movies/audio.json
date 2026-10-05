@@ -1,0 +1,1027 @@
+{
+  "version": "20261005-mayaan-v1",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "source_sha256": "ac67d038aa5572afcf985e6e42753d12923e8988b6594cda193e79e64133774b",
+  "sha256": "d5ae77b854ed4575bafa5d62c27ace56a9beec9077b6b3ada04b3044237d074f",
+  "audio": "assets/story.mp3?v=ac67d038aa55",
+  "word_count": 179,
+  "sentences": [
+    {
+      "id": 1,
+      "en": "Disney movies have been part of popular culture for many years.",
+      "start": 0.0875,
+      "end": 3.5875,
+      "words": [
+        {
+          "word": "Disney",
+          "start": 0.0875,
+          "end": 0.3875
+        },
+        {
+          "word": "movies",
+          "start": 0.4,
+          "end": 0.875
+        },
+        {
+          "word": "have",
+          "start": 0.8875,
+          "end": 1.075
+        },
+        {
+          "word": "been",
+          "start": 1.0875,
+          "end": 1.275
+        },
+        {
+          "word": "part",
+          "start": 1.2875,
+          "end": 1.5875
+        },
+        {
+          "word": "of",
+          "start": 1.6,
+          "end": 1.7125
+        },
+        {
+          "word": "popular",
+          "start": 1.725,
+          "end": 2.175
+        },
+        {
+          "word": "culture",
+          "start": 2.1875,
+          "end": 2.675
+        },
+        {
+          "word": "for",
+          "start": 2.6875,
+          "end": 2.85
+        },
+        {
+          "word": "many",
+          "start": 2.8625,
+          "end": 3.1125
+        },
+        {
+          "word": "years",
+          "start": 3.125,
+          "end": 3.5875
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "en": "Some are animated, while others use live actors.",
+      "start": 3.975,
+      "end": 6.9125,
+      "words": [
+        {
+          "word": "Some",
+          "start": 3.975,
+          "end": 4.225
+        },
+        {
+          "word": "are",
+          "start": 4.2375,
+          "end": 4.425
+        },
+        {
+          "word": "animated",
+          "start": 4.4375,
+          "end": 5.0625
+        },
+        {
+          "word": "while",
+          "start": 5.0875,
+          "end": 5.3875
+        },
+        {
+          "word": "others",
+          "start": 5.4125,
+          "end": 5.775
+        },
+        {
+          "word": "use",
+          "start": 5.7875,
+          "end": 6.0125
+        },
+        {
+          "word": "live",
+          "start": 6.025,
+          "end": 6.3125
+        },
+        {
+          "word": "actors",
+          "start": 6.325,
+          "end": 6.9125
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "en": "Many Disney films are easy to recognize because they mix strong characters, music, humor, adventure, and emotional moments.",
+      "start": 7.3,
+      "end": 15.775,
+      "words": [
+        {
+          "word": "Many",
+          "start": 7.3,
+          "end": 7.5625
+        },
+        {
+          "word": "Disney",
+          "start": 7.575,
+          "end": 7.85
+        },
+        {
+          "word": "films",
+          "start": 7.8625,
+          "end": 8.225
+        },
+        {
+          "word": "are",
+          "start": 8.2375,
+          "end": 8.35
+        },
+        {
+          "word": "easy",
+          "start": 8.4375,
+          "end": 8.6875
+        },
+        {
+          "word": "to",
+          "start": 8.7,
+          "end": 8.8
+        },
+        {
+          "word": "recognize",
+          "start": 8.8125,
+          "end": 9.4125
+        },
+        {
+          "word": "because",
+          "start": 9.425,
+          "end": 9.675
+        },
+        {
+          "word": "they",
+          "start": 9.6875,
+          "end": 9.7875
+        },
+        {
+          "word": "mix",
+          "start": 9.8,
+          "end": 10.075
+        },
+        {
+          "word": "strong",
+          "start": 10.0875,
+          "end": 10.4
+        },
+        {
+          "word": "characters",
+          "start": 10.4125,
+          "end": 11.0125
+        },
+        {
+          "word": "music",
+          "start": 11.5875,
+          "end": 12.075
+        },
+        {
+          "word": "humor",
+          "start": 12.6,
+          "end": 13.025
+        },
+        {
+          "word": "adventure",
+          "start": 13.5875,
+          "end": 14.2
+        },
+        {
+          "word": "and",
+          "start": 14.6,
+          "end": 14.6875
+        },
+        {
+          "word": "emotional",
+          "start": 14.7,
+          "end": 15.225
+        },
+        {
+          "word": "moments",
+          "start": 15.2375,
+          "end": 15.775
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "en": "Older films such as The Lion King, Aladdin, and Beauty and the Beast are still popular.",
+      "start": 16.175,
+      "end": 21.4,
+      "words": [
+        {
+          "word": "Older",
+          "start": 16.175,
+          "end": 16.45
+        },
+        {
+          "word": "films",
+          "start": 16.4625,
+          "end": 16.8625
+        },
+        {
+          "word": "such",
+          "start": 16.875,
+          "end": 17.125
+        },
+        {
+          "word": "as",
+          "start": 17.1375,
+          "end": 17.25
+        },
+        {
+          "word": "The",
+          "start": 17.2625,
+          "end": 17.375
+        },
+        {
+          "word": "Lion",
+          "start": 17.3875,
+          "end": 17.725
+        },
+        {
+          "word": "King",
+          "start": 17.7375,
+          "end": 18.175
+        },
+        {
+          "word": "Aladdin",
+          "start": 18.4875,
+          "end": 19.0875
+        },
+        {
+          "word": "and",
+          "start": 19.1125,
+          "end": 19.2875
+        },
+        {
+          "word": "Beauty",
+          "start": 19.3,
+          "end": 19.75
+        },
+        {
+          "word": "and",
+          "start": 19.7625,
+          "end": 19.875
+        },
+        {
+          "word": "the",
+          "start": 19.8875,
+          "end": 19.9875
+        },
+        {
+          "word": "Beast",
+          "start": 20.0,
+          "end": 20.375
+        },
+        {
+          "word": "are",
+          "start": 20.3875,
+          "end": 20.5
+        },
+        {
+          "word": "still",
+          "start": 20.5125,
+          "end": 20.7875
+        },
+        {
+          "word": "popular",
+          "start": 20.8,
+          "end": 21.4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "en": "Newer films introduce different worlds and heroes.",
+      "start": 21.8,
+      "end": 24.85,
+      "words": [
+        {
+          "word": "Newer",
+          "start": 21.8,
+          "end": 22.125
+        },
+        {
+          "word": "films",
+          "start": 22.1375,
+          "end": 22.625
+        },
+        {
+          "word": "introduce",
+          "start": 22.6375,
+          "end": 23.25
+        },
+        {
+          "word": "different",
+          "start": 23.2625,
+          "end": 23.6375
+        },
+        {
+          "word": "worlds",
+          "start": 23.65,
+          "end": 24.1125
+        },
+        {
+          "word": "and",
+          "start": 24.125,
+          "end": 24.225
+        },
+        {
+          "word": "heroes",
+          "start": 24.2375,
+          "end": 24.85
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "en": "Disney stories often begin with a character who wants something more from life.",
+      "start": 25.25,
+      "end": 29.7,
+      "words": [
+        {
+          "word": "Disney",
+          "start": 25.25,
+          "end": 25.6
+        },
+        {
+          "word": "stories",
+          "start": 25.6125,
+          "end": 26.1875
+        },
+        {
+          "word": "often",
+          "start": 26.2,
+          "end": 26.5875
+        },
+        {
+          "word": "begin",
+          "start": 26.6,
+          "end": 27.025
+        },
+        {
+          "word": "with",
+          "start": 27.0375,
+          "end": 27.2
+        },
+        {
+          "word": "a",
+          "start": 27.2125,
+          "end": 27.2625
+        },
+        {
+          "word": "character",
+          "start": 27.275,
+          "end": 27.8625
+        },
+        {
+          "word": "who",
+          "start": 27.875,
+          "end": 28.0625
+        },
+        {
+          "word": "wants",
+          "start": 28.075,
+          "end": 28.3625
+        },
+        {
+          "word": "something",
+          "start": 28.375,
+          "end": 28.7375
+        },
+        {
+          "word": "more",
+          "start": 28.75,
+          "end": 29.0125
+        },
+        {
+          "word": "from",
+          "start": 29.025,
+          "end": 29.2375
+        },
+        {
+          "word": "life",
+          "start": 29.25,
+          "end": 29.7
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "en": "The character may leave home, face a problem, meet new people, and learn something important.",
+      "start": 30.1,
+      "end": 36.0375,
+      "words": [
+        {
+          "word": "The",
+          "start": 30.1,
+          "end": 30.175
+        },
+        {
+          "word": "character",
+          "start": 30.1875,
+          "end": 30.6
+        },
+        {
+          "word": "may",
+          "start": 30.6125,
+          "end": 30.7375
+        },
+        {
+          "word": "leave",
+          "start": 30.75,
+          "end": 30.9875
+        },
+        {
+          "word": "home",
+          "start": 31.0,
+          "end": 31.3875
+        },
+        {
+          "word": "face",
+          "start": 31.9125,
+          "end": 32.1625
+        },
+        {
+          "word": "a",
+          "start": 32.175,
+          "end": 32.2375
+        },
+        {
+          "word": "problem",
+          "start": 32.25,
+          "end": 32.75
+        },
+        {
+          "word": "meet",
+          "start": 33.35,
+          "end": 33.5625
+        },
+        {
+          "word": "new",
+          "start": 33.575,
+          "end": 33.7375
+        },
+        {
+          "word": "people",
+          "start": 33.75,
+          "end": 34.2375
+        },
+        {
+          "word": "and",
+          "start": 34.6875,
+          "end": 34.8125
+        },
+        {
+          "word": "learn",
+          "start": 34.825,
+          "end": 35.0625
+        },
+        {
+          "word": "something",
+          "start": 35.075,
+          "end": 35.45
+        },
+        {
+          "word": "important",
+          "start": 35.4625,
+          "end": 36.0375
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "en": "Friendship and family are common themes.",
+      "start": 36.4375,
+      "end": 38.75,
+      "words": [
+        {
+          "word": "Friendship",
+          "start": 36.4375,
+          "end": 36.9625
+        },
+        {
+          "word": "and",
+          "start": 36.975,
+          "end": 37.0875
+        },
+        {
+          "word": "family",
+          "start": 37.1,
+          "end": 37.6125
+        },
+        {
+          "word": "are",
+          "start": 37.625,
+          "end": 37.8
+        },
+        {
+          "word": "common",
+          "start": 37.8125,
+          "end": 38.1875
+        },
+        {
+          "word": "themes",
+          "start": 38.2,
+          "end": 38.75
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "en": "The stories can also explore courage, identity, responsibility, and growing up.",
+      "start": 39.15,
+      "end": 45.0,
+      "words": [
+        {
+          "word": "The",
+          "start": 39.15,
+          "end": 39.2125
+        },
+        {
+          "word": "stories",
+          "start": 39.225,
+          "end": 39.7125
+        },
+        {
+          "word": "can",
+          "start": 39.725,
+          "end": 39.8875
+        },
+        {
+          "word": "also",
+          "start": 39.9,
+          "end": 40.2
+        },
+        {
+          "word": "explore",
+          "start": 40.2125,
+          "end": 40.6875
+        },
+        {
+          "word": "courage",
+          "start": 40.7,
+          "end": 41.2
+        },
+        {
+          "word": "identity",
+          "start": 41.8,
+          "end": 42.3625
+        },
+        {
+          "word": "responsibility",
+          "start": 42.9125,
+          "end": 43.85
+        },
+        {
+          "word": "and",
+          "start": 44.2125,
+          "end": 44.35
+        },
+        {
+          "word": "growing",
+          "start": 44.3625,
+          "end": 44.75
+        },
+        {
+          "word": "up",
+          "start": 44.7625,
+          "end": 45.0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "en": "For teenagers, Disney can feel both familiar and different.",
+      "start": 45.375,
+      "end": 49.05,
+      "words": [
+        {
+          "word": "For",
+          "start": 45.375,
+          "end": 45.475
+        },
+        {
+          "word": "teenagers",
+          "start": 45.4875,
+          "end": 46.3
+        },
+        {
+          "word": "Disney",
+          "start": 46.7,
+          "end": 47.05
+        },
+        {
+          "word": "can",
+          "start": 47.0625,
+          "end": 47.2125
+        },
+        {
+          "word": "feel",
+          "start": 47.225,
+          "end": 47.5
+        },
+        {
+          "word": "both",
+          "start": 47.5125,
+          "end": 47.7875
+        },
+        {
+          "word": "familiar",
+          "start": 47.8,
+          "end": 48.4
+        },
+        {
+          "word": "and",
+          "start": 48.4125,
+          "end": 48.525
+        },
+        {
+          "word": "different",
+          "start": 48.5375,
+          "end": 49.05
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "en": "A movie that seemed simple when you were younger may have a deeper meaning when you watch it again.",
+      "start": 49.45,
+      "end": 54.2375,
+      "words": [
+        {
+          "word": "A",
+          "start": 49.45,
+          "end": 49.5125
+        },
+        {
+          "word": "movie",
+          "start": 49.525,
+          "end": 49.925
+        },
+        {
+          "word": "that",
+          "start": 49.9375,
+          "end": 50.0875
+        },
+        {
+          "word": "seemed",
+          "start": 50.1,
+          "end": 50.4
+        },
+        {
+          "word": "simple",
+          "start": 50.4125,
+          "end": 50.9875
+        },
+        {
+          "word": "when",
+          "start": 51.0125,
+          "end": 51.175
+        },
+        {
+          "word": "you",
+          "start": 51.1875,
+          "end": 51.2875
+        },
+        {
+          "word": "were",
+          "start": 51.3,
+          "end": 51.4
+        },
+        {
+          "word": "younger",
+          "start": 51.4125,
+          "end": 51.9
+        },
+        {
+          "word": "may",
+          "start": 51.9125,
+          "end": 52.0875
+        },
+        {
+          "word": "have",
+          "start": 52.1,
+          "end": 52.2625
+        },
+        {
+          "word": "a",
+          "start": 52.275,
+          "end": 52.3625
+        },
+        {
+          "word": "deeper",
+          "start": 52.375,
+          "end": 52.7
+        },
+        {
+          "word": "meaning",
+          "start": 52.7125,
+          "end": 53.125
+        },
+        {
+          "word": "when",
+          "start": 53.1375,
+          "end": 53.2875
+        },
+        {
+          "word": "you",
+          "start": 53.3,
+          "end": 53.4125
+        },
+        {
+          "word": "watch",
+          "start": 53.425,
+          "end": 53.7125
+        },
+        {
+          "word": "it",
+          "start": 53.725,
+          "end": 53.7875
+        },
+        {
+          "word": "again",
+          "start": 53.8,
+          "end": 54.2375
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "en": "Music is another big part of the experience.",
+      "start": 54.6125,
+      "end": 57.4375,
+      "words": [
+        {
+          "word": "Music",
+          "start": 54.6125,
+          "end": 55.1125
+        },
+        {
+          "word": "is",
+          "start": 55.125,
+          "end": 55.3
+        },
+        {
+          "word": "another",
+          "start": 55.3125,
+          "end": 55.75
+        },
+        {
+          "word": "big",
+          "start": 55.7625,
+          "end": 56.0125
+        },
+        {
+          "word": "part",
+          "start": 56.025,
+          "end": 56.375
+        },
+        {
+          "word": "of",
+          "start": 56.3875,
+          "end": 56.525
+        },
+        {
+          "word": "the",
+          "start": 56.5375,
+          "end": 56.6
+        },
+        {
+          "word": "experience",
+          "start": 56.6125,
+          "end": 57.4375
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "en": "Many songs become popular far beyond the films.",
+      "start": 57.8375,
+      "end": 60.8625,
+      "words": [
+        {
+          "word": "Many",
+          "start": 57.8375,
+          "end": 58.1
+        },
+        {
+          "word": "songs",
+          "start": 58.1125,
+          "end": 58.5875
+        },
+        {
+          "word": "become",
+          "start": 58.6,
+          "end": 58.975
+        },
+        {
+          "word": "popular",
+          "start": 58.9875,
+          "end": 59.5
+        },
+        {
+          "word": "far",
+          "start": 59.5125,
+          "end": 59.85
+        },
+        {
+          "word": "beyond",
+          "start": 59.8625,
+          "end": 60.225
+        },
+        {
+          "word": "the",
+          "start": 60.2375,
+          "end": 60.3125
+        },
+        {
+          "word": "films",
+          "start": 60.325,
+          "end": 60.8625
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "en": "Disney movies are not all the same, but they often mix entertainment with a clear emotional story.",
+      "start": 61.2625,
+      "end": 66.8375,
+      "words": [
+        {
+          "word": "Disney",
+          "start": 61.2625,
+          "end": 61.55
+        },
+        {
+          "word": "movies",
+          "start": 61.5625,
+          "end": 61.9875
+        },
+        {
+          "word": "are",
+          "start": 62.0,
+          "end": 62.1125
+        },
+        {
+          "word": "not",
+          "start": 62.125,
+          "end": 62.375
+        },
+        {
+          "word": "all",
+          "start": 62.3875,
+          "end": 62.5625
+        },
+        {
+          "word": "the",
+          "start": 62.575,
+          "end": 62.6625
+        },
+        {
+          "word": "same",
+          "start": 62.675,
+          "end": 63.1875
+        },
+        {
+          "word": "but",
+          "start": 63.5,
+          "end": 63.7
+        },
+        {
+          "word": "they",
+          "start": 63.7125,
+          "end": 63.8625
+        },
+        {
+          "word": "often",
+          "start": 63.875,
+          "end": 64.2375
+        },
+        {
+          "word": "mix",
+          "start": 64.25,
+          "end": 64.5125
+        },
+        {
+          "word": "entertainment",
+          "start": 64.525,
+          "end": 65.2
+        },
+        {
+          "word": "with",
+          "start": 65.2125,
+          "end": 65.3625
+        },
+        {
+          "word": "a",
+          "start": 65.375,
+          "end": 65.425
+        },
+        {
+          "word": "clear",
+          "start": 65.4375,
+          "end": 65.8125
+        },
+        {
+          "word": "emotional",
+          "start": 65.825,
+          "end": 66.3
+        },
+        {
+          "word": "story",
+          "start": 66.3125,
+          "end": 66.8375
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "en": "That is why many people return to them even when they are older.",
+      "start": 67.2375,
+      "end": 70.75,
+      "words": [
+        {
+          "word": "That",
+          "start": 67.2375,
+          "end": 67.425
+        },
+        {
+          "word": "is",
+          "start": 67.4375,
+          "end": 67.5875
+        },
+        {
+          "word": "why",
+          "start": 67.6,
+          "end": 67.875
+        },
+        {
+          "word": "many",
+          "start": 67.8875,
+          "end": 68.175
+        },
+        {
+          "word": "people",
+          "start": 68.1875,
+          "end": 68.5375
+        },
+        {
+          "word": "return",
+          "start": 68.55,
+          "end": 68.9375
+        },
+        {
+          "word": "to",
+          "start": 68.95,
+          "end": 69.075
+        },
+        {
+          "word": "them",
+          "start": 69.0875,
+          "end": 69.375
+        },
+        {
+          "word": "even",
+          "start": 69.4125,
+          "end": 69.7625
+        },
+        {
+          "word": "when",
+          "start": 69.775,
+          "end": 69.95
+        },
+        {
+          "word": "they",
+          "start": 69.9625,
+          "end": 70.075
+        },
+        {
+          "word": "are",
+          "start": 70.0875,
+          "end": 70.25
+        },
+        {
+          "word": "older",
+          "start": 70.2625,
+          "end": 70.75
+        }
+      ]
+    }
+  ]
+}
