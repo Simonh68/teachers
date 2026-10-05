@@ -2,7 +2,8 @@
 (()=>{'use strict';
 const cfg=window.READALONG8_CONFIG||{}, $=id=>document.getElementById(id), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const rates=[.25,.5,.75,1,1.25], pauseMs=1500;
-let story=[], sourcePages=[], audioMeta=null, audioUrl='', view=new URLSearchParams(location.search).get('view')==='sentences'?'sentences':'chunks';
+const initialQuery=new URLSearchParams(location.search);
+let story=[], sourcePages=[], audioMeta=null, audioUrl='', view=(initialQuery.get('view')==='sentences'||initialQuery.get('mode')==='sentences')?'sentences':'chunks';
 let pages=[],page=0,reveal=false,playing=false,paused=false,queue=[],qpos=0,timer=0,raf=0,activeWord=-1,auto=false,ignoreClick=0,tipNode=null;
 let state={read:{},position:{}};try{const x=JSON.parse(localStorage.getItem(cfg.store)||'null');if(x&&typeof x==='object')state={...state,...x};}catch(_){}
 if(!state.read||typeof state.read!=='object')state.read={};if(!state.position||typeof state.position!=='object')state.position={};
@@ -27,7 +28,7 @@ function normalizeGrade9(data){
  story=data.sentences.map((s,i)=>({number:s.id||i+1,paragraph:String.fromCharCode(65+Math.min(25,Math.floor(i/10))),plain:s.en,he:s.he,words:s.words.map(w=>({text:w.word,he:w.he,start:w.start,end:w.end}))}));
  sourcePages=Array.isArray(data.pages)&&data.pages.length?data.pages.map(x=>x.slice()):Array.from({length:Math.ceil(story.length/8)},(_,p)=>story.map((_,i)=>i).slice(p*8,p*8+8));
 }
-function englishHTML(i){const s=story[i], parts=s.plain.match(/\S+|\s+/g)||[];let wi=0;return parts.map(x=>/\s+/.test(x)?x:`<span data-en="${i}:${wi}" role="button" tabindex="0" aria-label="${esc((s.words[wi]?.text||x)+': '+(s.words[wi]?.he||''))}">${esc(x)}</span>${wi++&&''}`).join('');}
+function englishHTML(i){const s=story[i], parts=s.plain.match(/\S+|\s+/g)||[];let wi=0;return parts.map(x=>{if(/\s+/.test(x))return x;const n=wi++;return `<span data-en="${i}:${n}" role="button" tabindex="0" aria-label="${esc((s.words[n]?.text||x)+': '+(s.words[n]?.he||''))}">${esc(x)}</span>`;}).join('');}
 function hebrewHTML(i){const toks=(story[i].he.match(/\S+|\s+/g)||[]);let hi=0;return toks.map(x=>/\s+/.test(x)?x:`<span data-he="${i}:${hi++}">${esc(x)}</span>`).join('');}
 function setText(ids){$('english').innerHTML=ids.map(i=>`<span class="paragraph-line" data-sentence="${i}">${englishHTML(i)}</span>`).join(' ');$('hebrew').innerHTML=ids.map(i=>`<span class="paragraph-line" data-translation="${i}">${hebrewHTML(i)}</span>`).join(' ');}
 function fit(){for(const id of ['english','hebrew']){const e=$(id),slot=e.parentElement;e.style.fontSize='';let px=parseFloat(getComputedStyle(e).fontSize);while((e.scrollHeight>slot.clientHeight-5||e.scrollWidth>slot.clientWidth+1)&&px>17){px-=.5;e.style.fontSize=px+'px';}}}
@@ -38,7 +39,7 @@ function makePages(){
 }
 function current(){return pages[page]||{ids:[0],source:0,sub:0};}
 function refreshTabs(){const src=current().source;$('reading-tabs').innerHTML=sourcePages.map((ids,p)=>`<button role="tab" aria-selected="${p===src}" id="reading-tab-${p}" class="${state.read['page'+p]?'done':''}" data-source="${p}">${story[ids[0]]?.paragraph||''} · ${p+1}</button>`).join('');}
-function syncURL(){const q=new URLSearchParams(location.search);q.set('view',view);if(view==='sentences'){q.set('p',String(page*2+Number(reveal)));q.delete('sub');q.delete('reveal');}else{q.set('p',String(current().source));q.set('sub',String(current().sub));q.set('reveal',String(Number(reveal)));}history.replaceState(null,'','?'+q);state.position[view]={sentence:current().ids[0],reveal};save();}
+function syncURL(){const q=new URLSearchParams(location.search);q.set('view',view);q.delete('mode');if(view==='sentences'){q.set('p',String(page*2+Number(reveal)));q.delete('sub');q.delete('reveal');}else{q.set('p',String(current().source));q.set('sub',String(current().sub));q.set('reveal',String(Number(reveal)));}history.replaceState(null,'','?'+q);state.position[view]={sentence:current().ids[0],reveal};save();}
 function clearMarker(){document.querySelectorAll('.marker').forEach(x=>x.classList.remove('marker'));activeWord=-1;}
 function stop(reset=false){clearTimeout(timer);cancelAnimationFrame(raf);timer=0;raf=0;audio.pause();playing=false;if(reset){paused=false;queue=[];qpos=0;}clearMarker();$('play')&&($('play').textContent=paused?'▶ המשך':'▶ הקראה');$('play')?.setAttribute('aria-pressed','false');}
 function mapHe(si,wi){const h=[...document.querySelectorAll(`[data-he^="${si}:"]`)];if(!h.length)return null;const n=Math.max(0,story[si].words.length-1),k=n?Math.round(wi/n*(h.length-1)):0;return h[k];}
