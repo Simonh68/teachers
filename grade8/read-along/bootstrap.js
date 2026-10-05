@@ -14,6 +14,9 @@ if(!['chunks','sentences'].includes(view)){
  const pilot=location.pathname.includes('/unit-1-reading-pilot/');
  document.querySelectorAll('style,link[rel="stylesheet"]').forEach(s=>s.remove());
  const css=document.createElement('link');css.rel='stylesheet';css.href=new URL('reader.css?v=20261005-bilingual1',base).href;const cssReady=new Promise((resolve,reject)=>{css.onload=resolve;css.onerror=()=>reject(Error('Cannot load reader styling'));});document.head.append(css);
+ // Give every token the same (transparent) decoration geometry before highlighting.
+ // Only paint changes; the browser must not choose new line breaks when a marker appears.
+ const stable=document.createElement('style');stable.textContent='.reading [data-en],.reading [data-he]{border-radius:4px;box-shadow:0 0 0 2px transparent;-webkit-box-decoration-break:clone;box-decoration-break:clone}.reading{ text-wrap:wrap }';document.head.append(stable);
  document.body.className='grade8-bilingual';document.body.dataset.readingStandard='grade8-bilingual-v1';
  document.title='Read Along · The Monkey Festival · ח׳2';
  document.body.innerHTML=`<header class="toolbar"><a class="home" href="../" aria-label="חזרה לכיתה ח׳">⌂</a><div class="brand">כיתה ח׳</div><button id="contents" aria-haspopup="dialog">תוכן</button><div class="audio-controls"><button id="play" disabled aria-pressed="false">טוען שמע…</button><button id="replay" disabled aria-label="הקראה מחדש" title="הקראה מחדש">↺</button><label for="speed">מהירות</label><select id="speed" dir="ltr" aria-label="מהירות ההקראה"><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="0.75" selected>0.75×</option><option value="1">1×</option><option value="1.25">1.25×</option></select></div></header>
