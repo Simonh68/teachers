@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "sourceUnchanged": true,
+  "navigationUnchanged": true,
+  "storageIsolated": true,
+  "curriculum": "Current Core II groups 21–22; unchanged",
+  "sentences": 18,
+  "parts": 33,
+  "pauseMs": 1500,
+  "screens": [
+    {
+      "viewport": "1366x768",
+      "stationarySentencePairs": 18,
+      "chunkPages": 10,
+      "scrollableChunks": 0,
+      "fourDirectionSwipe": true,
+      "audioPlayback": true,
+      "noTranslationAutoplay": true
+    },
+    {
+      "viewport": "1024x600",
+      "stationarySentencePairs": 18,
+      "chunkPages": 10,
+      "scrollableChunks": 3,
+      "fourDirectionSwipe": true,
+      "audioPlayback": true,
+      "noTranslationAutoplay": true
+    },
+    {
+      "viewport": "390x844",
+      "stationarySentencePairs": 18,
+      "chunkPages": 10,
+      "scrollableChunks": 0,
+      "fourDirectionSwipe": true,
+      "audioPlayback": true,
+      "noTranslationAutoplay": true
+    },
+    {
+      "viewport": "360x640",
+      "stationarySentencePairs": 18,
+      "chunkPages": 10,
+      "scrollableChunks": 5,
+      "fourDirectionSwipe": true,
+      "audioPlayback": true,
+      "noTranslationAutoplay": true
+    },
+    {
+      "viewport": "844x390",
+      "stationarySentencePairs": 18,
+      "chunkPages": 10,
+      "scrollableChunks": 7,
+      "fourDirectionSwipe": true,
+      "audioPlayback": true,
+      "noTranslationAutoplay": true
+    }
+  ],
+  "gapChecks": [
+    {
+      "timerMs": 1500.3999999999942,
+      "audibleMs": 1509.8999999999942,
+      "rate": 1.25
+    },
+    {
+      "timerMs": 1500.2999999999884,
+      "audibleMs": 1505.5,
+      "rate": 0.5
+    }
+  ],
+  "pauseResume": true,
+  "seekWhilePaused": true,
+  "stopAtTabEnd": true,
+  "cancelPendingAudio": true,
+  "checkedAtUTC": "2026-10-05T09:17:23Z"
+}
