@@ -25,7 +25,7 @@ function normalizeGrade7(){
  sourcePages=LESSON.texts.map(t=>t.ids.slice());
 }
 function normalizeGrade9(data){
- story=data.sentences.map((s,i)=>({number:s.id||i+1,paragraph:s.paragraph||String.fromCharCode(65+Math.min(25,Math.floor(i/10))),plain:s.en,he:s.he,image:s.image||null,imageAlt:s.imageAlt||'',imageCredit:s.imageCredit||'',words:s.words.map(w=>({text:w.word,he:w.he,start:w.start,end:w.end}))}));
+ story=data.sentences.map((s,i)=>({number:s.id||i+1,paragraph:s.paragraph||String.fromCharCode(65+Math.min(25,Math.floor(i/10))),plain:s.en,he:s.he,image:s.image||null,imageAlt:s.imageAlt||'',imageCredit:s.imageCredit||'',words:s.words.map((w,j)=>({text:w.word,he:w.he,start:audioMeta?.sentences?.[i]?.words?.[j]?.start??w.start??0,end:audioMeta?.sentences?.[i]?.words?.[j]?.end??w.end??0}))}));
  sourcePages=Array.isArray(data.pages)&&data.pages.length?data.pages.map(x=>x.slice()):Array.from({length:Math.ceil(story.length/8)},(_,p)=>story.map((_,i)=>i).slice(p*8,p*8+8));
 }
 function englishHTML(i){const s=story[i], parts=s.plain.match(/\S+|\s+/g)||[];let wi=0;return parts.map(x=>{if(/\s+/.test(x))return x;const n=wi++;return `<span data-en="${i}:${n}" role="button" tabindex="0" aria-label="${esc((s.words[n]?.text||x)+': '+(s.words[n]?.he||''))}">${esc(x)}</span>`;}).join('');}
