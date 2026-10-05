@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#071526">
+<title>ח׳ · דוגמת קריאה עם מרקר דו־לשוני | Teachers</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500;600;700;800&family=Nunito:wght@700;800;900&display=swap');
+:root{color-scheme:dark;--bg:#071526;--ink:#f4f9ff;--muted:#b4c9da;--cyan:#65e5ff;--marker:#ffe270;--top:68px;--bottom:82px}
+*{box-sizing:border-box}html,body{height:100%;width:100%;margin:0;overflow:hidden;background:var(--bg);color:var(--ink);font-family:Heebo,Arial,sans-serif}body{background:radial-gradient(ellipse at 90% 8%,#1a5a7755,transparent 50%),radial-gradient(ellipse at 7% 93%,#423c8340,transparent 45%),var(--bg)}button,select,a{touch-action:manipulation;-webkit-tap-highlight-color:transparent}button,select{font:700 16px Heebo,Arial,sans-serif;color:var(--ink);background:#122c44;border:1px solid #41647b;border-radius:12px;padding:8px 14px;cursor:pointer}button:disabled{opacity:.4;cursor:default}button:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid var(--marker);outline-offset:3px}a{color:var(--cyan)}
+.toolbar{position:fixed;inset:0 0 auto;z-index:5;height:var(--top);display:flex;align-items:center;gap:14px;padding:12px 22px;direction:ltr;background:#071526ec;border-bottom:1px solid #ffffff18}.home{text-decoration:none;font-size:27px;line-height:1}.brand{direction:rtl;font-size:16px;font-weight:800}.brand small{color:var(--muted);font-size:12px;font-weight:500;margin-right:10px}.audio-controls{margin-left:auto;display:flex;align-items:center;gap:8px;direction:rtl}.audio-controls label{font-size:12px;color:var(--muted)}#play{min-width:124px;background:#174256;border-color:#5d98ac}#play[aria-pressed=true]{border-color:var(--marker);color:var(--marker)}#speed{font:800 14px Nunito,Arial,sans-serif;padding:9px 7px}
+#stage{position:fixed;inset:var(--top) 4vw var(--bottom);padding:18px 0;touch-action:pinch-zoom;user-select:none;-webkit-user-select:none}.sheet{height:100%;max-width:1280px;margin:auto;border:1px solid #36566e;border-radius:26px;padding:24px 5%;background:linear-gradient(120deg,#122d43ed,#0c1d33f2);box-shadow:0 22px 60px #0004;display:grid;grid-template-rows:40px minmax(0,1.1fr) minmax(0,1fr) 30px;gap:12px}.meta{display:flex;justify-content:space-between;align-items:center;gap:12px;direction:ltr;color:var(--cyan);font:900 13px Nunito,Heebo,Arial,sans-serif;letter-spacing:.06em}.meta span:last-child{direction:rtl;font:700 13px Heebo,Arial,sans-serif;letter-spacing:0;color:var(--muted)}.text-slot{min-height:0;display:flex;align-items:center;overflow:hidden}.english-slot{direction:ltr}.hebrew-slot{direction:rtl;visibility:hidden}.with-translation .hebrew-slot{visibility:visible}.reading{margin:0;width:100%;font-weight:800;line-height:1.55;text-wrap:pretty;overflow-wrap:normal;word-break:normal}.reading.en{direction:ltr;text-align:left;font-family:Nunito,Arial,sans-serif;font-size:clamp(28px,3.65vw,51px)}.reading.he{direction:rtl;text-align:right;font-family:Heebo,Arial,sans-serif;font-size:clamp(25px,3vw,40px);font-weight:600;color:#edf4fb}.reading span{display:inline;padding:0;margin:0;border:0;outline:0;box-shadow:none;text-decoration:none;background:none}.reading span.marker{color:#101d2b;background:var(--marker);border-radius:4px;box-shadow:0 0 0 2px var(--marker);-webkit-box-decoration-break:clone;box-decoration-break:clone}/* No phrase borders, added separators, pseudo-elements or segmentation labels. */
+#hint{font-size:13px;color:var(--muted);margin:0;align-self:end;text-align:center}.footer{position:fixed;inset:auto 0 0;height:var(--bottom);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;padding:8px;background:#071526ec;border-top:1px solid #ffffff18}.navigation{display:flex;gap:9px;align-items:center;direction:ltr}.navigation button{width:47px;height:38px;font:800 23px Nunito,sans-serif;padding:0}#counter{width:80px;text-align:center;font:800 16px Nunito,sans-serif;color:var(--muted)}#status{margin:0;height:20px;font-size:12px;color:var(--muted);text-align:center}.footer[data-phase=gap] #status{color:var(--marker)}.progress{position:fixed;bottom:0;left:0;width:100%;height:3px;direction:ltr;background:#1b3448}#progress{height:100%;width:0;background:var(--cyan)}.loading{font-size:22px;text-align:center;align-self:center;grid-row:2}
+@media(max-width:650px){:root{--top:62px;--bottom:82px}.toolbar{padding:9px 11px;gap:10px}.brand{font-size:13px}.brand small{display:none}.audio-controls{gap:5px}.audio-controls label{display:none}.audio-controls button{padding:8px 10px;font-size:13px}#play{min-width:105px}#speed{font-size:12px;padding:8px 3px}#stage{left:9px;right:9px;padding:9px 0}.sheet{padding:15px 6%;border-radius:20px;grid-template-rows:28px minmax(0,1.1fr) minmax(0,1fr) 24px;gap:10px}.reading.en{font-size:30px;line-height:1.5}.reading.he{font-size:26px;line-height:1.55}.meta{font-size:10px}.meta span:last-child{font-size:11px}#hint{font-size:11px}}
+@media(max-height:520px){:root{--top:48px;--bottom:66px}.toolbar{padding:5px 14px}.brand small{display:none}.audio-controls button{padding:5px 10px;font-size:13px}#play{min-width:110px}#speed{padding:6px;font-size:12px}#stage{padding:5px 0}.sheet{padding:8px 4%;border-radius:17px;grid-template-rows:20px minmax(0,1.1fr) minmax(0,1fr) 18px;gap:5px}.reading.en{font-size:28px;line-height:1.45}.reading.he{font-size:23px;line-height:1.4}.meta{font-size:10px}.meta span:last-child{font-size:10px}#hint{font-size:10px}.footer{gap:3px;padding:5px}.navigation button{height:31px}#status{font-size:10px;height:16px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="toolbar"><a class="home" href="../" aria-label="חזרה לעותק היחידה">⌂</a><div class="brand">כיתה ח׳<small>דוגמה לאישור</small></div><div class="audio-controls"><button id="play" disabled aria-pressed="false">טוען שמע…</button><button id="replay" disabled aria-label="הקראה מחדש מתחילת המשפט" title="הקראה מחדש">↺</button><label for="speed">מהירות</label><select id="speed" dir="ltr" aria-label="מהירות ההקראה"><option value="0.5">0.5×</option><option value="0.75" selected>0.75×</option><option value="1">1×</option><option value="1.25">1.25×</option></select></div></header>
+<main id="stage" aria-label="דוגמת קריאה — שתי שקופיות"><article class="sheet" id="sheet"><div class="meta"><span lang="en">THE MONKEY FESTIVAL · D</span><span id="step-label">אנגלית</span></div><div class="text-slot english-slot"><p id="english" class="reading en" lang="en" dir="ltr"></p></div><div class="text-slot hebrew-slot" id="translation-slot" aria-hidden="true"><p id="hebrew" class="reading he" lang="he" dir="rtl"></p></div><p id="hint">בשקופית הבאה מתווסף התרגום.</p></article></main>
+<footer class="footer" id="footer"><nav class="navigation" aria-label="מעבר שקופיות"><button data-step="-1" aria-label="לשקופית הקודמת">←</button><button data-step="-1" aria-label="לשקופית הקודמת">↑</button><output id="counter" aria-live="polite">1 / 2</output><button data-step="1" aria-label="לשקופית עם התרגום">↓</button><button data-step="1" aria-label="לשקופית עם התרגום">→</button></nav><p id="status" role="status">ההפסקות בשמע בלבד — 1.5 שניות.</p></footer><div class="progress"><div id="progress"></div></div>
+<script src="../unit-data.js"></script><script src="../phrase-data.js"></script><script src="../phrase-player.js"></script>
+<script>
+/* One existing sentence, two slide states. All changes stay in this sample. */
+(()=>{'use strict';
+const $=id=>document.getElementById(id),stage=$('stage');
+let slide=0,ready=false,narrator=null,scheduled=null,lastEn=null,lastHe=null,lastStatus='',auto=false;
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function status(text){if(lastStatus!==text){lastStatus=text;$('status').textContent=text;}}
+function clearMarker(){lastEn?.classList.remove('marker');lastHe?.classList.remove('marker');lastEn=null;lastHe=null;}
+function fit(){for(const id of ['english','hebrew']){const e=$(id),slot=e.parentElement;e.style.fontSize='';let px=parseFloat(getComputedStyle(e).fontSize);while((e.scrollHeight>slot.clientHeight-5||e.scrollWidth>slot.clientWidth+1)&&px>17){px-=.5;e.style.fontSize=px+'px';}}}
+try{
+ const sentence=window.UNIT_DATA?.story?.find(s=>s.number===11),originalRecord=window.PILOT_PHRASES?.sentences?.find(s=>s.number===11);
+ if(!sentence||!originalRecord||!window.TeacherPhrasePlayer)throw Error('Missing existing reading/audio source');
+ const record=JSON.parse(JSON.stringify(originalRecord));
+ record.parts.forEach(p=>p.src=new URL('../'+p.src,document.baseURI).href);
+ if(record.parts.length!==4)throw Error('The selected source sentence changed');
+ // These semantic units allow natural Hebrew word order: valuable things = דברים יקרי ערך.
+ const units=[[[0],'הם'],[[1],'אוהבים'],[[2,3],'לקחת'],[[4],'דברים'],[[5,6],'מאנשים'],[[7],'במיוחד'],[[8],'אוכל'],[[9,10],'ומשקאות'],[[11,12],'ואפילו'],[[13,14],'דברים יקרי ערך'],[[15],'כמו'],[[16],'תיקים'],[[17,18],'ומשקפי שמש']];
+ let cursor=0,html='',heMap={},semantic=true;
+ for(let u=0;u<units.length;u++){const [ids,text]=units[u],at=sentence.he.indexOf(text,cursor);if(at<0){semantic=false;break;}html+=esc(sentence.he.slice(cursor,at))+`<span data-he="${u}">${esc(sentence.he.slice(at,at+text.length))}</span>`;ids.forEach(i=>heMap[i]=u);cursor=at+text.length;}
+ if(semantic&&sentence.tokens.length===19){html+=esc(sentence.he.slice(cursor));}else{
+  // A changed wording is aligned by matching whole clauses, never by guessed word order.
+  const clauses=sentence.he.match(/[^,]+(?:,|$)/g)||[];
+  if(clauses.length!==record.parts.length)throw Error('Hebrew alignment needs review; source is not modified');
+  html=clauses.map((text,u)=>`<span data-he="${u}">${esc(text)}</span>`).join('');heMap={};semantic=false;
+  record.parts.forEach((p,u)=>{for(let i=p.firstToken;i<=p.lastToken;i++)heMap[i]=u;});
+ }
+ $('hebrew').innerHTML=html;
+ cursor=0;html='';sentence.tokens.forEach((t,i)=>{html+=esc(sentence.plain.slice(cursor,t.startChar))+`<span data-en="${i}">${esc(sentence.plain.slice(t.startChar,t.endChar))}</span>`;cursor=t.endChar;});html+=esc(sentence.plain.slice(cursor));$('english').innerHTML=html;
+ if($('english').textContent!==sentence.plain||$('hebrew').textContent!==sentence.he)throw Error('The original text must remain exact');
+ const enNodes=[...document.querySelectorAll('[data-en]')],heNodes=[...document.querySelectorAll('[data-he]')];
+ function mark(i){const en=enNodes[i],he=heNodes[heMap[i]];if(en!==lastEn){lastEn?.classList.remove('marker');en?.classList.add('marker');lastEn=en;}if(he!==lastHe){lastHe?.classList.remove('marker');he?.classList.add('marker');lastHe=he;}}
+ function paint(p){
+  $('footer').dataset.phase=p.phase;
+  $('play').setAttribute('aria-pressed',String(p.isActive));
+  if(ready)$('play').textContent=p.isActive?'❚❚ השהיה':['paused','pausedGap'].includes(p.phase)?'▶ המשך':'▶ הקראה';
+  if(p.phase==='idle'){clearMarker();$('progress').style.width='0%';return;}
+  if(p.phase==='loading'){status('טוען הקלטה…');return;}
+  if(p.phase==='error'){status('ההקלטה לא נטענה. לחצו על הקראה לניסיון נוסף.');return;}
+  const part=p.segment,time=p.sourceTime;
+  let i=-1;
+  if(['gap','pausedGap','ended'].includes(p.phase))i=part.lastToken;
+  else{
+   i=sentence.tokens.findIndex((t,n)=>n>=part.firstToken&&n<=part.lastToken&&time>=t.start&&time<t.end);
+   if(i<0){for(let n=part.firstToken;n<=part.lastToken;n++)if(time>=sentence.tokens[n].start)i=n;}
+  }
+  if(i>=0)mark(i);
+  $('progress').style.width=Math.min(100,time/record.duration*100)+'%';
+  status(p.phase==='gap'?'הפסקה של 1.5 שניות…':p.phase==='pausedGap'||p.phase==='paused'?'ההקראה מושהית — לחצו על המשך.':p.phase==='ended'?'סוף המשפט. אפשר להשמיע שוב.':slide?'המרקר עוקב באנגלית ובעברית.':'הקראה באנגלית.');
+ }
+ narrator=new TeacherPhrasePlayer([record],{pauseMs:1500,onUpdate:paint});narrator.setRate(.75);
+ function cancelScheduled(){clearTimeout(scheduled);scheduled=null;}
+ function show(value){cancelScheduled();narrator.stop();slide=Math.max(0,Math.min(1,value));$('sheet').classList.toggle('with-translation',slide===1);$('translation-slot').setAttribute('aria-hidden',String(slide===0));$('step-label').textContent=slide?'אנגלית + עברית':'אנגלית';$('counter').textContent=(slide+1)+' / 2';$('hint').textContent=slide?'התרגום נשאר גלוי לאורך כל ההקראה.':'בשקופית הבאה מתווסף התרגום.';document.querySelectorAll('[data-step]').forEach(b=>b.disabled=Number(b.dataset.step)<0?slide===0:slide===1);history.replaceState(null,'','#slide-'+(slide+1));status(slide?'לחצו על הקראה לעקיבה בשתי השפות.':'ההפסקות בשמע בלבד — 1.5 שניות.');if(auto&&ready)scheduled=setTimeout(()=>{scheduled=null;if(!document.hidden)narrator.playFrom(0,0,[0]);},2000);}
+ const step=d=>{const next=Math.max(0,Math.min(1,slide+d));if(next!==slide)show(next);};
+ document.querySelectorAll('[data-step]').forEach(b=>b.onclick=()=>step(Number(b.dataset.step)));
+ $('play').onclick=()=>{cancelScheduled();auto=true;if(narrator.isActive)narrator.pause();else if(['paused','pausedGap'].includes(narrator.phase))narrator.resume();else narrator.playFrom(0,0,[0]);};
+ $('replay').onclick=()=>{cancelScheduled();auto=true;narrator.playFrom(0,0,[0]);};
+ $('speed').onchange=()=>narrator.setRate(Number($('speed').value));
+ document.addEventListener('keydown',e=>{if(e.target.closest('button,select,input,textarea')||e.altKey||e.ctrlKey||e.metaKey)return;let d=['ArrowRight','ArrowDown','PageDown',' '].includes(e.key)?1:['ArrowLeft','ArrowUp','PageUp'].includes(e.key)?-1:0;if(d){e.preventDefault();step(d);}else if(e.key==='Home')show(0);else if(e.key==='End')show(1);});
+ let g=null,touches=new Set();stage.addEventListener('pointerdown',e=>{touches.add(e.pointerId);if(touches.size>1){g=null;return;}if(e.pointerType==='mouse'&&e.button!==0)return;if(e.target.closest('a,button,select')||(window.visualViewport?.scale||1)>1)return;g={id:e.pointerId,x:e.clientX,y:e.clientY,t:performance.now()};try{stage.setPointerCapture(e.pointerId);}catch(_){}});
+ stage.addEventListener('pointerup',e=>{const old=g;touches.delete(e.pointerId);g=null;if(!old||old.id!==e.pointerId||touches.size)return;const dx=e.clientX-old.x,dy=e.clientY-old.y;if(Math.max(Math.abs(dx),Math.abs(dy))>=44&&performance.now()-old.t<1800)step((Math.abs(dx)>Math.abs(dy)?dx:dy)<0?1:-1);});stage.addEventListener('pointercancel',e=>{touches.delete(e.pointerId);g=null;});
+ let total=0,lock=0,previous=0;stage.addEventListener('wheel',e=>{if(e.ctrlKey||e.metaKey)return;e.preventDefault();const now=performance.now();if(now<lock)return;if(now-previous>160)total=0;previous=now;total+=(Math.abs(e.deltaY)>=Math.abs(e.deltaX)?e.deltaY:e.deltaX)*(e.deltaMode===1?16:e.deltaMode===2?500:1);if(Math.abs(total)>55){step(total>0?1:-1);total=0;lock=now+500;}},{passive:false});
+ const stop=()=>{cancelScheduled();narrator.stop();};window.addEventListener('pagehide',stop);window.addEventListener('blur',()=>{if(narrator.isActive||scheduled)stop();});document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});document.querySelector('.home').addEventListener('click',stop);
+ window.addEventListener('resize',()=>{g=null;fit();});document.fonts?.ready.then(fit);
+ window.__bilingualSample={sentence,record,heMap,semantic,player:narrator,show,step,get slide(){return slide;},get ready(){return ready;},get marker(){return{en:lastEn?Number(lastEn.dataset.en):null,he:lastHe?Number(lastHe.dataset.he):null};},stop};
+ show(location.hash==='#slide-2'?1:0);fit();
+ Promise.all(record.parts.map((_,p)=>narrator.prepare(0,p))).then(()=>{ready=true;$('play').disabled=false;$('replay').disabled=false;$('play').textContent='▶ הקראה';}).catch(()=>{ready=true;$('play').disabled=false;$('replay').disabled=false;$('play').textContent='▶ הקראה';status('חלק מהשמע לא נטען מראש; לחצו לניסיון נוסף.');});
+}catch(e){$('english').textContent='לא ניתן לטעון את הדוגמה כרגע.';$('hint').textContent='יש לרענן את הדף.';status(e.message);console.error(e);}
+})();
+</script>
+</body></html>
