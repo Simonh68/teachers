@@ -4,7 +4,7 @@
   "pitch": "+10Hz",
   "synthetic": true,
   "source_sha256": "c437e24bfd0a59c6c519bbc5e2c348e3ea71caefb43c40de7f998154cf763802",
-  "sha256": "e480c76c747926ecc7b5a76814d6321d98dfe9e7e2f6b93f0b219c403843ef0e",
+  "sha256": "39b9bc7e26dc9f2bbc8199e005de298be0761915db1a17b5269fa4a7424f8d9e",
   "audio": "assets/story.mp3?v=c437e24bfd0a",
   "word_count": 183,
   "sentences": [
