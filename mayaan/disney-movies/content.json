@@ -1,5 +1,5 @@
 {
-  "version": "20261005-eliya-mayaan-a2-v1",
+  "version": "20261005-eliya-mayaan-a2-v1-wordtips1",
   "title": "Disney Movies",
   "level": "A2",
   "sentences": [
@@ -14,67 +14,67 @@
       "words": [
         {
           "word": "Disney",
-          "he": "",
+          "he": "דיסני",
           "start": 0,
           "end": 0
         },
         {
           "word": "movies",
-          "he": "",
+          "he": "סרטים",
           "start": 0,
           "end": 0
         },
         {
           "word": "have",
-          "he": "",
+          "he": "יש / לקבל",
           "start": 0,
           "end": 0
         },
         {
           "word": "been",
-          "he": "",
+          "he": "היה",
           "start": 0,
           "end": 0
         },
         {
           "word": "part",
-          "he": "",
+          "he": "חלק",
           "start": 0,
           "end": 0
         },
         {
           "word": "of",
-          "he": "",
+          "he": "של",
           "start": 0,
           "end": 0
         },
         {
           "word": "popular",
-          "he": "",
+          "he": "פופולרי",
           "start": 0,
           "end": 0
         },
         {
           "word": "culture",
-          "he": "",
+          "he": "תרבות",
           "start": 0,
           "end": 0
         },
         {
           "word": "for",
-          "he": "",
+          "he": "עבור / בשביל",
           "start": 0,
           "end": 0
         },
         {
           "word": "many",
-          "he": "",
+          "he": "רבים",
           "start": 0,
           "end": 0
         },
         {
           "word": "years",
-          "he": "",
+          "he": "שנים",
           "start": 0,
           "end": 0
         }
@@ -91,49 +91,49 @@
       "words": [
         {
           "word": "Some",
-          "he": "",
+          "he": "חלק / כמה",
           "start": 0,
           "end": 0
         },
         {
           "word": "are",
-          "he": "",
+          "he": "הם / נמצאים",
           "start": 0,
           "end": 0
         },
         {
           "word": "animated",
-          "he": "",
+          "he": "מצויר / מונפש",
           "start": 0,
           "end": 0
         },
         {
           "word": "while",
-          "he": "",
+          "he": "בזמן ש־",
           "start": 0,
           "end": 0
         },
         {
           "word": "others",
-          "he": "",
+          "he": "אחרים",
           "start": 0,
           "end": 0
         },
         {
           "word": "use",
-          "he": "",
+          "he": "משתמשים",
           "start": 0,
           "end": 0
         },
         {
           "word": "live",
-          "he": "",
+          "he": "גרים / חיים",
           "start": 0,
           "end": 0
         },
         {
           "word": "actors",
-          "he": "",
+          "he": "שחקנים",
           "start": 0,
           "end": 0
         }
@@ -150,109 +150,109 @@
       "words": [
         {
           "word": "Many",
-          "he": "",
+          "he": "רבים",
           "start": 0,
           "end": 0
         },
         {
           "word": "Disney",
-          "he": "",
+          "he": "דיסני",
           "start": 0,
           "end": 0
         },
         {
           "word": "films",
-          "he": "",
+          "he": "סרטים",
           "start": 0,
           "end": 0
         },
         {
           "word": "are",
-          "he": "",
+          "he": "הם / נמצאים",
           "start": 0,
           "end": 0
         },
         {
           "word": "easy",
-          "he": "",
+          "he": "קל",
           "start": 0,
           "end": 0
         },
         {
           "word": "to",
-          "he": "",
+          "he": "ל־",
           "start": 0,
           "end": 0
         },
         {
           "word": "recognize",
-          "he": "",
+          "he": "לזהות",
           "start": 0,
           "end": 0
         },
         {
           "word": "because",
-          "he": "",
+          "he": "כי",
           "start": 0,
           "end": 0
         },
         {
           "word": "they",
-          "he": "",
+          "he": "הם",
           "start": 0,
           "end": 0
         },
         {
           "word": "mix",
-          "he": "",
+          "he": "משלבים",
           "start": 0,
           "end": 0
         },
         {
           "word": "strong",
-          "he": "",
+          "he": "חזק",
           "start": 0,
           "end": 0
         },
         {
           "word": "characters",
-          "he": "",
+          "he": "דמויות",
           "start": 0,
           "end": 0
         },
         {
           "word": "music",
-          "he": "",
+          "he": "מוזיקה",
           "start": 0,
           "end": 0
         },
         {
           "word": "humor",
-          "he": "",
+          "he": "הומור",
           "start": 0,
           "end": 0
         },
         {
           "word": "adventure",
-          "he": "",
+          "he": "הרפתקה",
           "start": 0,
           "end": 0
         },
         {
           "word": "and",
-          "he": "",
+          "he": "ו־",
           "start": 0,
           "end": 0
         },
         {
           "word": "emotional",
-          "he": "",
+          "he": "רגשי",
           "start": 0,
           "end": 0
         },
         {
           "word": "moments",
-          "he": "",
+          "he": "רגעים",
           "start": 0,
           "end": 0
         }
@@ -269,97 +269,97 @@
       "words": [
         {
           "word": "Older",
-          "he": "",
+          "he": "מבוגרים יותר",
           "start": 0,
           "end": 0
         },
         {
           "word": "films",
-          "he": "",
+          "he": "סרטים",
           "start": 0,
           "end": 0
         },
         {
           "word": "such",
-          "he": "",
+          "he": "כאלה",
           "start": 0,
           "end": 0
         },
         {
           "word": "as",
-          "he": "",
+          "he": "כמו / בתור",
           "start": 0,
           "end": 0
         },
         {
           "word": "The",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "Lion",
-          "he": "",
+          "he": "אריה",
           "start": 0,
           "end": 0
         },
         {
           "word": "King",
-          "he": "",
+          "he": "מלך",
           "start": 0,
           "end": 0
         },
         {
           "word": "Aladdin",
-          "he": "",
+          "he": "אלאדין",
           "start": 0,
           "end": 0
         },
         {
           "word": "and",
-          "he": "",
+          "he": "ו־",
           "start": 0,
           "end": 0
         },
         {
           "word": "Beauty",
-          "he": "",
+          "he": "היפה",
           "start": 0,
           "end": 0
         },
         {
           "word": "and",
-          "he": "",
+          "he": "ו־",
           "start": 0,
           "end": 0
         },
         {
           "word": "the",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "Beast",
-          "he": "",
+          "he": "החיה",
           "start": 0,
           "end": 0
         },
         {
           "word": "are",
-          "he": "",
+          "he": "הם / נמצאים",
           "start": 0,
           "end": 0
         },
         {
           "word": "still",
-          "he": "",
+          "he": "עדיין",
           "start": 0,
           "end": 0
         },
         {
           "word": "popular",
-          "he": "",
+          "he": "פופולרי",
           "start": 0,
           "end": 0
         }
@@ -376,43 +376,43 @@
       "words": [
         {
           "word": "Newer",
-          "he": "",
+          "he": "חדשים יותר",
           "start": 0,
           "end": 0
         },
         {
           "word": "films",
-          "he": "",
+          "he": "סרטים",
           "start": 0,
           "end": 0
         },
         {
           "word": "introduce",
-          "he": "",
+          "he": "מציגים",
           "start": 0,
           "end": 0
         },
         {
           "word": "different",
-          "he": "",
+          "he": "שונה / שונים",
           "start": 0,
           "end": 0
         },
         {
           "word": "worlds",
-          "he": "",
+          "he": "עולמות",
           "start": 0,
           "end": 0
         },
         {
           "word": "and",
-          "he": "",
+          "he": "ו־",
           "start": 0,
           "end": 0
         },
         {
           "word": "heroes",
-          "he": "",
+          "he": "גיבורים",
           "start": 0,
           "end": 0
         }
@@ -429,79 +429,79 @@
       "words": [
         {
           "word": "Disney",
-          "he": "",
+          "he": "דיסני",
           "start": 0,
           "end": 0
         },
         {
           "word": "stories",
-          "he": "",
+          "he": "סיפורים",
           "start": 0,
           "end": 0
         },
         {
           "word": "often",
-          "he": "",
+          "he": "לעיתים קרובות",
           "start": 0,
           "end": 0
         },
         {
           "word": "begin",
-          "he": "",
+          "he": "מתחילים",
           "start": 0,
           "end": 0
         },
         {
           "word": "with",
-          "he": "",
+          "he": "עם",
           "start": 0,
           "end": 0
         },
         {
           "word": "a",
-          "he": "",
+          "he": "אחד / צורת יידוע",
           "start": 0,
           "end": 0
         },
         {
           "word": "character",
-          "he": "",
+          "he": "דמות",
           "start": 0,
           "end": 0
         },
         {
           "word": "who",
-          "he": "",
+          "he": "ש־ / מי",
           "start": 0,
           "end": 0
         },
         {
           "word": "wants",
-          "he": "",
+          "he": "רוצה",
           "start": 0,
           "end": 0
         },
         {
           "word": "something",
-          "he": "",
+          "he": "משהו",
           "start": 0,
           "end": 0
         },
         {
           "word": "more",
-          "he": "",
+          "he": "יותר",
           "start": 0,
           "end": 0
         },
         {
           "word": "from",
-          "he": "",
+          "he": "מ־",
           "start": 0,
           "end": 0
         },
         {
           "word": "life",
-          "he": "",
+          "he": "חיים",
           "start": 0,
           "end": 0
         }
@@ -518,91 +518,91 @@
       "words": [
         {
           "word": "The",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "character",
-          "he": "",
+          "he": "דמות",
           "start": 0,
           "end": 0
         },
         {
           "word": "may",
-          "he": "",
+          "he": "עשוי / יכול",
           "start": 0,
           "end": 0
         },
         {
           "word": "leave",
-          "he": "",
+          "he": "לעזוב",
           "start": 0,
           "end": 0
         },
         {
           "word": "home",
-          "he": "",
+          "he": "בית",
           "start": 0,
           "end": 0
         },
         {
           "word": "face",
-          "he": "",
+          "he": "להתמודד עם",
           "start": 0,
           "end": 0
         },
         {
           "word": "a",
-          "he": "",
+          "he": "אחד / צורת יידוע",
           "start": 0,
           "end": 0
         },
         {
           "word": "problem",
-          "he": "",
+          "he": "בעיה",
           "start": 0,
           "end": 0
         },
         {
           "word": "meet",
-          "he": "",
+          "he": "לפגוש",
           "start": 0,
           "end": 0
         },
         {
           "word": "new",
-          "he": "",
+          "he": "חדש / חדשים",
           "start": 0,
           "end": 0
         },
         {
           "word": "people",
-          "he": "",
+          "he": "אנשים",
           "start": 0,
           "end": 0
         },
         {
           "word": "and",
-          "he": "",
+          "he": "ו־",
           "start": 0,
           "end": 0
         },
         {
           "word": "learn",
-          "he": "",
+          "he": "ללמוד",
           "start": 0,
           "end": 0
         },
         {
           "word": "something",
-          "he": "",
+          "he": "משהו",
           "start": 0,
           "end": 0
         },
         {
           "word": "important",
-          "he": "",
+          "he": "חשוב",
           "start": 0,
           "end": 0
         }
@@ -619,37 +619,37 @@
       "words": [
         {
           "word": "Friendship",
-          "he": "",
+          "he": "חברות",
           "start": 0,
           "end": 0
         },
         {
           "word": "and",
-          "he": "",
+          "he": "ו־",
           "start": 0,
           "end": 0
         },
         {
           "word": "family",
-          "he": "",
+          "he": "משפחה",
           "start": 0,
           "end": 0
         },
         {
           "word": "are",
-          "he": "",
+          "he": "הם / נמצאים",
           "start": 0,
           "end": 0
         },
         {
           "word": "common",
-          "he": "",
+          "he": "נפוצים",
           "start": 0,
           "end": 0
         },
         {
           "word": "themes",
-          "he": "",
+          "he": "נושאים",
           "start": 0,
           "end": 0
         }
@@ -666,67 +666,67 @@
       "words": [
         {
           "word": "The",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "stories",
-          "he": "",
+          "he": "סיפורים",
           "start": 0,
           "end": 0
         },
         {
           "word": "can",
-          "he": "",
+          "he": "יכול / יכולים",
           "start": 0,
           "end": 0
         },
         {
           "word": "also",
-          "he": "",
+          "he": "גם",
           "start": 0,
           "end": 0
         },
         {
           "word": "explore",
-          "he": "",
+          "he": "לעסוק / לחקור",
           "start": 0,
           "end": 0
         },
         {
           "word": "courage",
-          "he": "",
+          "he": "אומץ",
           "start": 0,
           "end": 0
         },
         {
           "word": "identity",
-          "he": "",
+          "he": "זהות",
           "start": 0,
           "end": 0
         },
         {
           "word": "responsibility",
-          "he": "",
+          "he": "אחריות",
           "start": 0,
           "end": 0
         },
         {
           "word": "and",
-          "he": "",
+          "he": "ו־",
           "start": 0,
           "end": 0
         },
         {
           "word": "growing",
-          "he": "",
+          "he": "התבגרות / גדילה",
           "start": 0,
           "end": 0
         },
         {
           "word": "up",
-          "he": "",
+          "he": "למעלה / התבגרות",
           "start": 0,
           "end": 0
         }
@@ -743,55 +743,55 @@
       "words": [
         {
           "word": "For",
-          "he": "",
+          "he": "עבור / בשביל",
           "start": 0,
           "end": 0
         },
         {
           "word": "teenagers",
-          "he": "",
+          "he": "בני נוער",
           "start": 0,
           "end": 0
         },
         {
           "word": "Disney",
-          "he": "",
+          "he": "דיסני",
           "start": 0,
           "end": 0
         },
         {
           "word": "can",
-          "he": "",
+          "he": "יכול / יכולים",
           "start": 0,
           "end": 0
         },
         {
           "word": "feel",
-          "he": "",
+          "he": "להרגיש",
           "start": 0,
           "end": 0
         },
         {
           "word": "both",
-          "he": "",
+          "he": "שניהם / גם וגם",
           "start": 0,
           "end": 0
         },
         {
           "word": "familiar",
-          "he": "",
+          "he": "מוכר",
           "start": 0,
           "end": 0
         },
         {
           "word": "and",
-          "he": "",
+          "he": "ו־",
           "start": 0,
           "end": 0
         },
         {
           "word": "different",
-          "he": "",
+          "he": "שונה / שונים",
           "start": 0,
           "end": 0
         }
@@ -808,115 +808,115 @@
       "words": [
         {
           "word": "A",
-          "he": "",
+          "he": "אחד / צורת יידוע",
           "start": 0,
           "end": 0
         },
         {
           "word": "movie",
-          "he": "",
+          "he": "סרט",
           "start": 0,
           "end": 0
         },
         {
           "word": "that",
-          "he": "",
+          "he": "ש־ / זה",
           "start": 0,
           "end": 0
         },
         {
           "word": "seemed",
-          "he": "",
+          "he": "נראה",
           "start": 0,
           "end": 0
         },
         {
           "word": "simple",
-          "he": "",
+          "he": "פשוט",
           "start": 0,
           "end": 0
         },
         {
           "word": "when",
-          "he": "",
+          "he": "כאשר",
           "start": 0,
           "end": 0
         },
         {
           "word": "you",
-          "he": "",
+          "he": "אתם / אתה",
           "start": 0,
           "end": 0
         },
         {
           "word": "were",
-          "he": "",
+          "he": "היו",
           "start": 0,
           "end": 0
         },
         {
           "word": "younger",
-          "he": "",
+          "he": "צעירים יותר",
           "start": 0,
           "end": 0
         },
         {
           "word": "may",
-          "he": "",
+          "he": "עשוי / יכול",
           "start": 0,
           "end": 0
         },
         {
           "word": "have",
-          "he": "",
+          "he": "יש / לקבל",
           "start": 0,
           "end": 0
         },
         {
           "word": "a",
-          "he": "",
+          "he": "אחד / צורת יידוע",
           "start": 0,
           "end": 0
         },
         {
           "word": "deeper",
-          "he": "",
+          "he": "עמוק יותר",
           "start": 0,
           "end": 0
         },
         {
           "word": "meaning",
-          "he": "",
+          "he": "משמעות",
           "start": 0,
           "end": 0
         },
         {
           "word": "when",
-          "he": "",
+          "he": "כאשר",
           "start": 0,
           "end": 0
         },
         {
           "word": "you",
-          "he": "",
+          "he": "אתם / אתה",
           "start": 0,
           "end": 0
         },
         {
           "word": "watch",
-          "he": "",
+          "he": "לצפות",
           "start": 0,
           "end": 0
         },
         {
           "word": "it",
-          "he": "",
+          "he": "זה / אותו",
           "start": 0,
           "end": 0
         },
         {
           "word": "again",
-          "he": "",
+          "he": "שוב",
           "start": 0,
           "end": 0
         }
@@ -933,49 +933,49 @@
       "words": [
         {
           "word": "Music",
-          "he": "",
+          "he": "מוזיקה",
           "start": 0,
           "end": 0
         },
         {
           "word": "is",
-          "he": "",
+          "he": "הוא / היא",
           "start": 0,
           "end": 0
         },
         {
           "word": "another",
-          "he": "",
+          "he": "נוסף",
           "start": 0,
           "end": 0
         },
         {
           "word": "big",
-          "he": "",
+          "he": "גדול",
           "start": 0,
           "end": 0
         },
         {
           "word": "part",
-          "he": "",
+          "he": "חלק",
           "start": 0,
           "end": 0
         },
         {
           "word": "of",
-          "he": "",
+          "he": "של",
           "start": 0,
           "end": 0
         },
         {
           "word": "the",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "experience",
-          "he": "",
+          "he": "חוויה",
           "start": 0,
           "end": 0
         }
@@ -992,49 +992,49 @@
       "words": [
         {
           "word": "Many",
-          "he": "",
+          "he": "רבים",
           "start": 0,
           "end": 0
         },
         {
           "word": "songs",
-          "he": "",
+          "he": "שירים",
           "start": 0,
           "end": 0
         },
         {
           "word": "become",
-          "he": "",
+          "he": "להפוך",
           "start": 0,
           "end": 0
         },
         {
           "word": "popular",
-          "he": "",
+          "he": "פופולרי",
           "start": 0,
           "end": 0
         },
         {
           "word": "far",
-          "he": "",
+          "he": "הרחק",
           "start": 0,
           "end": 0
         },
         {
           "word": "beyond",
-          "he": "",
+          "he": "מעבר ל־",
           "start": 0,
           "end": 0
         },
         {
           "word": "the",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "films",
-          "he": "",
+          "he": "סרטים",
           "start": 0,
           "end": 0
         }
@@ -1051,103 +1051,103 @@
       "words": [
         {
           "word": "Disney",
-          "he": "",
+          "he": "דיסני",
           "start": 0,
           "end": 0
         },
         {
           "word": "movies",
-          "he": "",
+          "he": "סרטים",
           "start": 0,
           "end": 0
         },
         {
           "word": "are",
-          "he": "",
+          "he": "הם / נמצאים",
           "start": 0,
           "end": 0
         },
         {
           "word": "not",
-          "he": "",
+          "he": "לא",
           "start": 0,
           "end": 0
         },
         {
           "word": "all",
-          "he": "",
+          "he": "כולם / כל",
           "start": 0,
           "end": 0
         },
         {
           "word": "the",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "same",
-          "he": "",
+          "he": "אותו / זהה",
           "start": 0,
           "end": 0
         },
         {
           "word": "but",
-          "he": "",
+          "he": "אבל",
           "start": 0,
           "end": 0
         },
         {
           "word": "they",
-          "he": "",
+          "he": "הם",
           "start": 0,
           "end": 0
         },
         {
           "word": "often",
-          "he": "",
+          "he": "לעיתים קרובות",
           "start": 0,
           "end": 0
         },
         {
           "word": "mix",
-          "he": "",
+          "he": "משלבים",
           "start": 0,
           "end": 0
         },
         {
           "word": "entertainment",
-          "he": "",
+          "he": "בידור",
           "start": 0,
           "end": 0
         },
         {
           "word": "with",
-          "he": "",
+          "he": "עם",
           "start": 0,
           "end": 0
         },
         {
           "word": "a",
-          "he": "",
+          "he": "אחד / צורת יידוע",
           "start": 0,
           "end": 0
         },
         {
           "word": "clear",
-          "he": "",
+          "he": "ברור",
           "start": 0,
           "end": 0
         },
         {
           "word": "emotional",
-          "he": "",
+          "he": "רגשי",
           "start": 0,
           "end": 0
         },
         {
           "word": "story",
-          "he": "",
+          "he": "סיפור",
           "start": 0,
           "end": 0
         }
@@ -1164,79 +1164,79 @@
       "words": [
         {
           "word": "That",
-          "he": "",
+          "he": "ש־ / זה",
           "start": 0,
           "end": 0
         },
         {
           "word": "is",
-          "he": "",
+          "he": "הוא / היא",
           "start": 0,
           "end": 0
         },
         {
           "word": "why",
-          "he": "",
+          "he": "למה",
           "start": 0,
           "end": 0
         },
         {
           "word": "many",
-          "he": "",
+          "he": "רבים",
           "start": 0,
           "end": 0
         },
         {
           "word": "people",
-          "he": "",
+          "he": "אנשים",
           "start": 0,
           "end": 0
         },
         {
           "word": "return",
-          "he": "",
+          "he": "חוזרים",
           "start": 0,
           "end": 0
         },
         {
           "word": "to",
-          "he": "",
+          "he": "ל־",
           "start": 0,
           "end": 0
         },
         {
           "word": "them",
-          "he": "",
+          "he": "אותם / להם",
           "start": 0,
           "end": 0
         },
         {
           "word": "even",
-          "he": "",
+          "he": "אפילו / גם",
           "start": 0,
           "end": 0
         },
         {
           "word": "when",
-          "he": "",
+          "he": "כאשר",
           "start": 0,
           "end": 0
         },
         {
           "word": "they",
-          "he": "",
+          "he": "הם",
           "start": 0,
           "end": 0
         },
         {
           "word": "are",
-          "he": "",
+          "he": "הם / נמצאים",
           "start": 0,
           "end": 0
         },
         {
           "word": "older",
-          "he": "",
+          "he": "מבוגרים יותר",
           "start": 0,
           "end": 0
         }
