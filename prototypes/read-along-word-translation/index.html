@@ -42,7 +42,7 @@ main{padding:18px 12px 34px}
   <article class="sheet">
     <div class="kicker">READ ALONG · WORD TRANSLATION TEST</div>
     <p id="reading" class="reading" lang="en"></p>
-    <p class="note"><b>הרעיון לבדיקה:</b> רק המילה שנקראת כרגע נצבעת בצהוב, ורק מעליה מופיע התרגום העברי. כשהמרקר מתקדם, התרגום עובר יחד איתו.</p>
+    <p class="note"><b>הרעיון לבדיקה:</b> המילה שנקראת כרגע נצבעת בצהוב. התרגום העברי שמעליה נשאר גלוי עוד כ־3 שניות אחרי שהמרקר עובר למילה הבאה, ואז מתפוגג בהדרגה.</p>
     <div class="legend"><span class="chip">ללא שינוי בטקסט העברי המלא</span><span class="chip">מתאים למובייל</span><span class="chip">התרגום כבר קיים ב־content.json</span></div>
   </article>
 </main>
@@ -53,10 +53,22 @@ const words=[
 const box=document.getElementById('reading');
 box.innerHTML=words.map((w,i)=>'<span class="word" data-i="'+i+'">'+w[0]+'<span class="gloss">'+(w[1]||'—')+'</span></span>').join(' ');
 let i=0,playing=true,timer;
+const fadeTimers=new Map();
 function paint(){
- document.querySelectorAll('.word').forEach(x=>x.classList.remove('active'));
+ const prev=document.querySelector('.word.active');
+ if(prev){
+   prev.classList.remove('active');
+   prev.classList.add('recent');
+   clearTimeout(fadeTimers.get(prev));
+   fadeTimers.set(prev,setTimeout(()=>{prev.classList.remove('recent');fadeTimers.delete(prev);},3000));
+ }
  const el=document.querySelector('.word[data-i="'+i+'"]');
- if(el){el.classList.add('active');el.scrollIntoView({block:'nearest',inline:'nearest'});}
+ if(el){
+   clearTimeout(fadeTimers.get(el));fadeTimers.delete(el);
+   el.classList.remove('recent');
+   el.classList.add('active');
+   el.scrollIntoView({block:'nearest',inline:'nearest'});
+ }
 }
 function tick(){if(!playing)return;i=(i+1)%words.length;paint();}
 function start(){clearInterval(timer);timer=setInterval(tick,820);}
@@ -64,7 +76,7 @@ document.getElementById('play').onclick=()=>{
  playing=!playing;
  document.getElementById('play').textContent=playing?'❚❚ השהיה':'▶ המשך';
 };
-document.getElementById('reset').onclick=()=>{i=0;playing=true;document.getElementById('play').textContent='❚❚ השהיה';paint();};
+document.getElementById('reset').onclick=()=>{fadeTimers.forEach(t=>clearTimeout(t));fadeTimers.clear();document.querySelectorAll('.word').forEach(x=>x.classList.remove('active','recent'));i=0;playing=true;document.getElementById('play').textContent='❚❚ השהיה';paint();};
 paint();start();
 </script>
 </body>
