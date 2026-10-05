@@ -1,0 +1,1293 @@
+{
+  "version": "20261005-eliya-mayaan-a2-v1",
+  "title": "Disney Movies",
+  "level": "A2",
+  "sentences": [
+    {
+      "id": 1,
+      "paragraph": "A",
+      "en": "Disney movies have been part of popular culture for many years.",
+      "he": "סרטי דיסני הם חלק מהתרבות הפופולרית כבר שנים רבות.",
+      "image": "assets/disney-1.jpg",
+      "imageAlt": "Sleeping Beauty Castle at Disneyland",
+      "imageCredit": "Cd637 / Wikimedia Commons · CC BY-SA 3.0",
+      "words": [
+        {
+          "word": "Disney",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "movies",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "have",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "been",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "part",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "popular",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "culture",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "for",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "many",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "years",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "B",
+      "en": "Some are animated, while others use live actors.",
+      "he": "חלקם מצוירים, ואחרים משתמשים בשחקנים אמיתיים.",
+      "image": "assets/disney-2.jpg",
+      "imageAlt": "Sleeping Beauty Castle at Disneyland",
+      "imageCredit": "Arnold C / Wikimedia Commons",
+      "words": [
+        {
+          "word": "Some",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "are",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "animated",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "while",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "others",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "use",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "live",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "actors",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "C",
+      "en": "Many Disney films are easy to recognize because they mix strong characters, music, humor, adventure, and emotional moments.",
+      "he": "קל לזהות סרטי דיסני רבים כי הם משלבים דמויות חזקות, מוזיקה, הומור, הרפתקה ורגעים רגשיים.",
+      "image": "assets/disney-1.jpg",
+      "imageAlt": "Sleeping Beauty Castle at Disneyland",
+      "imageCredit": "Cd637 / Wikimedia Commons · CC BY-SA 3.0",
+      "words": [
+        {
+          "word": "Many",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Disney",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "films",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "are",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "easy",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "recognize",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "because",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "they",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "mix",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "strong",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "characters",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "music",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "humor",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "adventure",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "emotional",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "moments",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "D",
+      "en": "Older films such as The Lion King, Aladdin, and Beauty and the Beast are still popular.",
+      "he": "סרטים ותיקים כמו מלך האריות, אלאדין והיפה והחיה עדיין פופולריים.",
+      "image": "assets/disney-2.jpg",
+      "imageAlt": "Sleeping Beauty Castle at Disneyland",
+      "imageCredit": "Arnold C / Wikimedia Commons",
+      "words": [
+        {
+          "word": "Older",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "films",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "such",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "as",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "The",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lion",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "King",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Aladdin",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Beauty",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Beast",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "are",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "still",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "popular",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "E",
+      "en": "Newer films introduce different worlds and heroes.",
+      "he": "סרטים חדשים יותר מציגים עולמות וגיבורים שונים.",
+      "image": "assets/disney-1.jpg",
+      "imageAlt": "Sleeping Beauty Castle at Disneyland",
+      "imageCredit": "Cd637 / Wikimedia Commons · CC BY-SA 3.0",
+      "words": [
+        {
+          "word": "Newer",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "films",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "introduce",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "different",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "worlds",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "heroes",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "F",
+      "en": "Disney stories often begin with a character who wants something more from life.",
+      "he": "סיפורי דיסני מתחילים לעיתים קרובות בדמות שרוצה משהו נוסף מהחיים.",
+      "image": "assets/disney-2.jpg",
+      "imageAlt": "Sleeping Beauty Castle at Disneyland",
+      "imageCredit": "Arnold C / Wikimedia Commons",
+      "words": [
+        {
+          "word": "Disney",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "stories",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "often",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "begin",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "character",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "who",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "wants",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "something",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "more",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "from",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "life",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "G",
+      "en": "The character may leave home, face a problem, meet new people, and learn something important.",
+      "he": "הדמות עשויה לעזוב את הבית, להתמודד עם בעיה, לפגוש אנשים חדשים וללמוד משהו חשוב.",
+      "image": "assets/disney-1.jpg",
+      "imageAlt": "Sleeping Beauty Castle at Disneyland",
+      "imageCredit": "Cd637 / Wikimedia Commons · CC BY-SA 3.0",
+      "words": [
+        {
+          "word": "The",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "character",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "may",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "leave",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "home",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "face",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "problem",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "meet",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "new",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "people",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "learn",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "something",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "important",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "H",
+      "en": "Friendship and family are common themes.",
+      "he": "חברות ומשפחה הן נושאים נפוצים.",
+      "image": "assets/disney-2.jpg",
+      "imageAlt": "Sleeping Beauty Castle at Disneyland",
+      "imageCredit": "Arnold C / Wikimedia Commons",
+      "words": [
+        {
+          "word": "Friendship",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "family",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "are",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "common",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "themes",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "I",
+      "en": "The stories can also explore courage, identity, responsibility, and growing up.",
+      "he": "הסיפורים יכולים לעסוק גם באומץ, זהות, אחריות והתבגרות.",
+      "image": "assets/disney-1.jpg",
+      "imageAlt": "Sleeping Beauty Castle at Disneyland",
+      "imageCredit": "Cd637 / Wikimedia Commons · CC BY-SA 3.0",
+      "words": [
+        {
+          "word": "The",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "stories",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "can",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "also",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "explore",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "courage",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "identity",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "responsibility",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "growing",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "up",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "J",
+      "en": "For teenagers, Disney can feel both familiar and different.",
+      "he": "עבור בני נוער, דיסני יכול להרגיש גם מוכר וגם שונה.",
+      "image": "assets/disney-2.jpg",
+      "imageAlt": "Sleeping Beauty Castle at Disneyland",
+      "imageCredit": "Arnold C / Wikimedia Commons",
+      "words": [
+        {
+          "word": "For",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "teenagers",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Disney",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "can",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "feel",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "both",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "familiar",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "different",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "K",
+      "en": "A movie that seemed simple when you were younger may have a deeper meaning when you watch it again.",
+      "he": "סרט שנראה פשוט כשהייתם צעירים יותר יכול לקבל משמעות עמוקה יותר בצפייה נוספת.",
+      "image": "assets/disney-1.jpg",
+      "imageAlt": "Sleeping Beauty Castle at Disneyland",
+      "imageCredit": "Cd637 / Wikimedia Commons · CC BY-SA 3.0",
+      "words": [
+        {
+          "word": "A",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "movie",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "seemed",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "simple",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "when",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "were",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "younger",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "may",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "have",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "deeper",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "meaning",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "when",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "watch",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "it",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "again",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "L",
+      "en": "Music is another big part of the experience.",
+      "he": "המוזיקה היא חלק גדול נוסף מהחוויה.",
+      "image": "assets/disney-2.jpg",
+      "imageAlt": "Sleeping Beauty Castle at Disneyland",
+      "imageCredit": "Arnold C / Wikimedia Commons",
+      "words": [
+        {
+          "word": "Music",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "another",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "big",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "part",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "experience",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "M",
+      "en": "Many songs become popular far beyond the films.",
+      "he": "שירים רבים הופכים לפופולריים גם מחוץ לסרטים.",
+      "image": "assets/disney-1.jpg",
+      "imageAlt": "Sleeping Beauty Castle at Disneyland",
+      "imageCredit": "Cd637 / Wikimedia Commons · CC BY-SA 3.0",
+      "words": [
+        {
+          "word": "Many",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "songs",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "become",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "popular",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "far",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "beyond",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "films",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "N",
+      "en": "Disney movies are not all the same, but they often mix entertainment with a clear emotional story.",
+      "he": "סרטי דיסני אינם כולם אותו דבר, אבל לעיתים קרובות הם משלבים בידור עם סיפור רגשי ברור.",
+      "image": "assets/disney-2.jpg",
+      "imageAlt": "Sleeping Beauty Castle at Disneyland",
+      "imageCredit": "Arnold C / Wikimedia Commons",
+      "words": [
+        {
+          "word": "Disney",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "movies",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "are",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "not",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "all",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "same",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "but",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "they",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "often",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "mix",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "entertainment",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "clear",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "emotional",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "story",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "O",
+      "en": "That is why many people return to them even when they are older.",
+      "he": "לכן אנשים רבים חוזרים אליהם גם כשהם מבוגרים יותר.",
+      "image": "assets/disney-1.jpg",
+      "imageAlt": "Sleeping Beauty Castle at Disneyland",
+      "imageCredit": "Cd637 / Wikimedia Commons · CC BY-SA 3.0",
+      "words": [
+        {
+          "word": "That",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "why",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "many",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "people",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "return",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "them",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "even",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "when",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "they",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "are",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "older",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    }
+  ],
+  "pages": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ],
+    [
+      5
+    ],
+    [
+      6
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [
+      9
+    ],
+    [
+      10
+    ],
+    [
+      11
+    ],
+    [
+      12
+    ],
+    [
+      13
+    ],
+    [
+      14
+    ]
+  ]
+}
