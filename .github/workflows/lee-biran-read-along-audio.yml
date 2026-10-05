@@ -1,0 +1,39 @@
+name: Lee Biran standalone Read Along audio
+on:
+  push:
+    branches: [main]
+    paths:
+      - standalone/lee-biran-read-along/content.json
+      - tools/lee_biran_read_along_audio.py
+      - .github/workflows/lee-biran-read-along-audio.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: lee-biran-read-along-audio
+  cancel-in-progress: false
+jobs:
+  audio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: |
+          python -m pip install edge-tts==7.2.8
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+      - run: python -u tools/lee_biran_read_along_audio.py
+      - run: |
+          git config user.name 'Teachers Read Along builder'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add standalone/lee-biran-read-along/audio.json standalone/lee-biran-read-along/assets/story.mp3
+          if ! git diff --cached --quiet; then
+            git commit -m 'Generate Lee Biran Read Along narration'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
