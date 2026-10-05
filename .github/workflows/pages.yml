@@ -1,15 +1,13 @@
-name: Deploy GitHub Pages
+name: Manual GitHub Pages deploy
 on:
-  push:
-    branches: ["main"]
   workflow_dispatch:
 permissions:
   contents: read
   pages: write
   id-token: write
 concurrency:
-  group: pages
-  cancel-in-progress: true
+  group: pages-manual
+  cancel-in-progress: false
 jobs:
   deploy:
     environment:
