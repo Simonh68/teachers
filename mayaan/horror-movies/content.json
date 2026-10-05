@@ -1,0 +1,1331 @@
+{
+  "version": "20261005-eliya-mayaan-a2-v1",
+  "title": "Horror Movies",
+  "level": "A2",
+  "sentences": [
+    {
+      "id": 1,
+      "paragraph": "A",
+      "en": "Horror movies are made to create fear, tension, and surprise.",
+      "he": "סרטי אימה נועדו ליצור פחד, מתח והפתעה.",
+      "image": "assets/horror-1.jpg",
+      "imageAlt": "Audience at a horror film festival",
+      "imageCredit": "Dontoblerone / Wikimedia Commons · CC BY 4.0",
+      "words": [
+        {
+          "word": "Horror",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "movies",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "are",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "made",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "create",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fear",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "tension",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "surprise",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "B",
+      "en": "Some people think that sounds unpleasant, but many teenagers enjoy the feeling.",
+      "he": "יש אנשים שחושבים שזה נשמע לא נעים, אבל בני נוער רבים נהנים מהתחושה.",
+      "image": "assets/horror-2.svg",
+      "imageAlt": "Movie theater audience illustration",
+      "imageCredit": "Open Clip Art / Wikimedia Commons · CC0",
+      "words": [
+        {
+          "word": "Some",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "people",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "think",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sounds",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "unpleasant",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "but",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "many",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "teenagers",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "enjoy",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "feeling",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "C",
+      "en": "A horror movie can make your heart beat faster while you still know that you are safe.",
+      "he": "סרט אימה יכול לגרום ללב לפעום מהר יותר בזמן שאתם עדיין יודעים שאתם בטוחים.",
+      "image": "assets/horror-1.jpg",
+      "imageAlt": "Audience at a horror film festival",
+      "imageCredit": "Dontoblerone / Wikimedia Commons · CC BY 4.0",
+      "words": [
+        {
+          "word": "A",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "horror",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "movie",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "can",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "make",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "your",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "heart",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "beat",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "faster",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "while",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "still",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "know",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "are",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "safe",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "D",
+      "en": "Different horror films use different kinds of fear.",
+      "he": "סרטי אימה שונים משתמשים בסוגים שונים של פחד.",
+      "image": "assets/horror-2.svg",
+      "imageAlt": "Movie theater audience illustration",
+      "imageCredit": "Open Clip Art / Wikimedia Commons · CC0",
+      "words": [
+        {
+          "word": "Different",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "horror",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "films",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "use",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "different",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "kinds",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fear",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "E",
+      "en": "Some use ghosts, monsters, or dangerous killers.",
+      "he": "חלק משתמשים ברוחות, מפלצות או רוצחים מסוכנים.",
+      "image": "assets/horror-1.jpg",
+      "imageAlt": "Audience at a horror film festival",
+      "imageCredit": "Dontoblerone / Wikimedia Commons · CC BY 4.0",
+      "words": [
+        {
+          "word": "Some",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "use",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "ghosts",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "monsters",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "or",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "dangerous",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "killers",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "F",
+      "en": "Others use silence, dark rooms, strange sounds, or the feeling that something is wrong.",
+      "he": "אחרים משתמשים בשקט, חדרים חשוכים, קולות מוזרים או בתחושה שמשהו לא בסדר.",
+      "image": "assets/horror-2.svg",
+      "imageAlt": "Movie theater audience illustration",
+      "imageCredit": "Open Clip Art / Wikimedia Commons · CC0",
+      "words": [
+        {
+          "word": "Others",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "use",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "silence",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "dark",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "rooms",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "strange",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sounds",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "or",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "feeling",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "something",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "wrong",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "G",
+      "en": "Good horror does not need to show violence all the time.",
+      "he": "אימה טובה לא חייבת להראות אלימות כל הזמן.",
+      "image": "assets/horror-1.jpg",
+      "imageAlt": "Audience at a horror film festival",
+      "imageCredit": "Dontoblerone / Wikimedia Commons · CC BY 4.0",
+      "words": [
+        {
+          "word": "Good",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "horror",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "does",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "not",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "need",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "show",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "violence",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "all",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "time",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "H",
+      "en": "Sometimes what you do not see is more frightening than what you see.",
+      "he": "לפעמים מה שלא רואים מפחיד יותר ממה שרואים.",
+      "image": "assets/horror-2.svg",
+      "imageAlt": "Movie theater audience illustration",
+      "imageCredit": "Open Clip Art / Wikimedia Commons · CC0",
+      "words": [
+        {
+          "word": "Sometimes",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "what",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "do",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "not",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "see",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "more",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "frightening",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "than",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "what",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "see",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "I",
+      "en": "Music is also important.",
+      "he": "גם המוזיקה חשובה.",
+      "image": "assets/horror-1.jpg",
+      "imageAlt": "Audience at a horror film festival",
+      "imageCredit": "Dontoblerone / Wikimedia Commons · CC BY 4.0",
+      "words": [
+        {
+          "word": "Music",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "also",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "important",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "J",
+      "en": "A quiet scene can suddenly feel dangerous because of one sound.",
+      "he": "סצנה שקטה יכולה פתאום להרגיש מסוכנת בגלל צליל אחד.",
+      "image": "assets/horror-2.svg",
+      "imageAlt": "Movie theater audience illustration",
+      "imageCredit": "Open Clip Art / Wikimedia Commons · CC0",
+      "words": [
+        {
+          "word": "A",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "quiet",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "scene",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "can",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "suddenly",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "feel",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "dangerous",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "because",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "one",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sound",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "K",
+      "en": "Horror movies are often fun to watch with friends because everyone reacts together.",
+      "he": "לעיתים כיף לראות סרטי אימה עם חברים כי כולם מגיבים יחד.",
+      "image": "assets/horror-1.jpg",
+      "imageAlt": "Audience at a horror film festival",
+      "imageCredit": "Dontoblerone / Wikimedia Commons · CC BY 4.0",
+      "words": [
+        {
+          "word": "Horror",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "movies",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "are",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "often",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fun",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "watch",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "friends",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "because",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "everyone",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "reacts",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "together",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "L",
+      "en": "People laugh, jump, hide their eyes, and talk after the film.",
+      "he": "אנשים צוחקים, קופצים, מכסים את העיניים ומדברים אחרי הסרט.",
+      "image": "assets/horror-2.svg",
+      "imageAlt": "Movie theater audience illustration",
+      "imageCredit": "Open Clip Art / Wikimedia Commons · CC0",
+      "words": [
+        {
+          "word": "People",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "laugh",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "jump",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "hide",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "their",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "eyes",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "talk",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "after",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "film",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "M",
+      "en": "Some horror stories also ask serious questions about family, trust, fear, or society.",
+      "he": "חלק מסיפורי האימה שואלים גם שאלות רציניות על משפחה, אמון, פחד או החברה.",
+      "image": "assets/horror-1.jpg",
+      "imageAlt": "Audience at a horror film festival",
+      "imageCredit": "Dontoblerone / Wikimedia Commons · CC BY 4.0",
+      "words": [
+        {
+          "word": "Some",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "horror",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "stories",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "also",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "ask",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "serious",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "questions",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "about",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "family",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "trust",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fear",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "or",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "society",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "N",
+      "en": "The best ones are not only scary.",
+      "he": "הסרטים הטובים ביותר אינם רק מפחידים.",
+      "image": "assets/horror-2.svg",
+      "imageAlt": "Movie theater audience illustration",
+      "imageCredit": "Open Clip Art / Wikimedia Commons · CC0",
+      "words": [
+        {
+          "word": "The",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "best",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "ones",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "are",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "not",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "only",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "scary",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "paragraph": "O",
+      "en": "They create a strong mood, memorable scenes, and ideas that stay in your mind after the movie ends.",
+      "he": "הם יוצרים אווירה חזקה, סצנות זכירות ורעיונות שנשארים בראש אחרי שהסרט נגמר.",
+      "image": "assets/horror-1.jpg",
+      "imageAlt": "Audience at a horror film festival",
+      "imageCredit": "Dontoblerone / Wikimedia Commons · CC BY 4.0",
+      "words": [
+        {
+          "word": "They",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "create",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "strong",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "mood",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "memorable",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "scenes",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "ideas",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "stay",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "your",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "mind",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "after",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "movie",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "ends",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "paragraph": "P",
+      "en": "That is why a simple scary movie can become a shared memory with friends.",
+      "he": "לכן סרט מפחיד פשוט יכול להפוך לזיכרון משותף עם חברים.",
+      "image": "assets/horror-2.svg",
+      "imageAlt": "Movie theater audience illustration",
+      "imageCredit": "Open Clip Art / Wikimedia Commons · CC0",
+      "words": [
+        {
+          "word": "That",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "why",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "simple",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "scary",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "movie",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "can",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "become",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shared",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "memory",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "friends",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    }
+  ],
+  "pages": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ],
+    [
+      5
+    ],
+    [
+      6
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [
+      9
+    ],
+    [
+      10
+    ],
+    [
+      11
+    ],
+    [
+      12
+    ],
+    [
+      13
+    ],
+    [
+      14
+    ],
+    [
+      15
+    ]
+  ]
+}
