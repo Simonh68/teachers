@@ -1,0 +1,726 @@
+{
+  "version": "20261005-mayaan-v1",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "source_sha256": "8604502587dbbb8d618974450bfdfbed09e5842b9d8f988f73ad2b7f39f344df",
+  "sha256": "2532745fced375cec138bda4e8cab2f235443f444868328e64e9b9a0b6d2fb35",
+  "audio": "assets/story.mp3?v=8604502587db",
+  "word_count": 122,
+  "sentences": [
+    {
+      "id": 1,
+      "en": "The Greenhouse is an Israeli television series for young people.",
+      "start": 0.075,
+      "end": 3.725,
+      "words": [
+        {
+          "word": "The",
+          "start": 0.075,
+          "end": 0.1375
+        },
+        {
+          "word": "Greenhouse",
+          "start": 0.15,
+          "end": 0.8125
+        },
+        {
+          "word": "is",
+          "start": 0.8375,
+          "end": 1.025
+        },
+        {
+          "word": "an",
+          "start": 1.0375,
+          "end": 1.1375
+        },
+        {
+          "word": "Israeli",
+          "start": 1.15,
+          "end": 1.7
+        },
+        {
+          "word": "television",
+          "start": 1.7125,
+          "end": 2.2625
+        },
+        {
+          "word": "series",
+          "start": 2.275,
+          "end": 2.7625
+        },
+        {
+          "word": "for",
+          "start": 2.775,
+          "end": 2.95
+        },
+        {
+          "word": "young",
+          "start": 2.9625,
+          "end": 3.225
+        },
+        {
+          "word": "people",
+          "start": 3.2375,
+          "end": 3.725
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "en": "It was created by Giora Chamizer.",
+      "start": 4.0875,
+      "end": 6.15,
+      "words": [
+        {
+          "word": "It",
+          "start": 4.0875,
+          "end": 4.175
+        },
+        {
+          "word": "was",
+          "start": 4.1875,
+          "end": 4.325
+        },
+        {
+          "word": "created",
+          "start": 4.3375,
+          "end": 4.8125
+        },
+        {
+          "word": "by",
+          "start": 4.825,
+          "end": 5.0375
+        },
+        {
+          "word": "Giora",
+          "start": 5.05,
+          "end": 5.5375
+        },
+        {
+          "word": "Chamizer",
+          "start": 5.55,
+          "end": 6.15
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "en": "The story takes place at a special school called The Greenhouse.",
+      "start": 6.55,
+      "end": 9.7125,
+      "words": [
+        {
+          "word": "The",
+          "start": 6.55,
+          "end": 6.6125
+        },
+        {
+          "word": "story",
+          "start": 6.625,
+          "end": 6.9625
+        },
+        {
+          "word": "takes",
+          "start": 6.975,
+          "end": 7.25
+        },
+        {
+          "word": "place",
+          "start": 7.2625,
+          "end": 7.6625
+        },
+        {
+          "word": "at",
+          "start": 7.675,
+          "end": 7.7875
+        },
+        {
+          "word": "a",
+          "start": 7.8,
+          "end": 7.8375
+        },
+        {
+          "word": "special",
+          "start": 7.85,
+          "end": 8.25
+        },
+        {
+          "word": "school",
+          "start": 8.2625,
+          "end": 8.65
+        },
+        {
+          "word": "called",
+          "start": 8.6625,
+          "end": 8.925
+        },
+        {
+          "word": "The",
+          "start": 8.9375,
+          "end": 9.0
+        },
+        {
+          "word": "Greenhouse",
+          "start": 9.0125,
+          "end": 9.7125
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "en": "The students live and study there.",
+      "start": 10.1,
+      "end": 12.05,
+      "words": [
+        {
+          "word": "The",
+          "start": 10.1,
+          "end": 10.1625
+        },
+        {
+          "word": "students",
+          "start": 10.175,
+          "end": 10.7
+        },
+        {
+          "word": "live",
+          "start": 10.7125,
+          "end": 11.0875
+        },
+        {
+          "word": "and",
+          "start": 11.1125,
+          "end": 11.25
+        },
+        {
+          "word": "study",
+          "start": 11.2625,
+          "end": 11.65
+        },
+        {
+          "word": "there",
+          "start": 11.6625,
+          "end": 12.05
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "en": "They are divided into two groups, the Eagles and the Ravens.",
+      "start": 12.425,
+      "end": 15.675,
+      "words": [
+        {
+          "word": "They",
+          "start": 12.425,
+          "end": 12.525
+        },
+        {
+          "word": "are",
+          "start": 12.5375,
+          "end": 12.6375
+        },
+        {
+          "word": "divided",
+          "start": 12.65,
+          "end": 13.125
+        },
+        {
+          "word": "into",
+          "start": 13.1375,
+          "end": 13.425
+        },
+        {
+          "word": "two",
+          "start": 13.4375,
+          "end": 13.65
+        },
+        {
+          "word": "groups",
+          "start": 13.6625,
+          "end": 14.1625
+        },
+        {
+          "word": "the",
+          "start": 14.1875,
+          "end": 14.2625
+        },
+        {
+          "word": "Eagles",
+          "start": 14.275,
+          "end": 14.825
+        },
+        {
+          "word": "and",
+          "start": 14.8375,
+          "end": 14.975
+        },
+        {
+          "word": "the",
+          "start": 14.9875,
+          "end": 15.0625
+        },
+        {
+          "word": "Ravens",
+          "start": 15.075,
+          "end": 15.675
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "en": "At first, the groups compete with each other in school challenges.",
+      "start": 16.075,
+      "end": 19.625,
+      "words": [
+        {
+          "word": "At",
+          "start": 16.075,
+          "end": 16.1875
+        },
+        {
+          "word": "first",
+          "start": 16.2,
+          "end": 16.7625
+        },
+        {
+          "word": "the",
+          "start": 16.7875,
+          "end": 16.9
+        },
+        {
+          "word": "groups",
+          "start": 16.9125,
+          "end": 17.3
+        },
+        {
+          "word": "compete",
+          "start": 17.3125,
+          "end": 17.7625
+        },
+        {
+          "word": "with",
+          "start": 17.775,
+          "end": 17.9375
+        },
+        {
+          "word": "each",
+          "start": 17.95,
+          "end": 18.1375
+        },
+        {
+          "word": "other",
+          "start": 18.15,
+          "end": 18.4375
+        },
+        {
+          "word": "in",
+          "start": 18.45,
+          "end": 18.5875
+        },
+        {
+          "word": "school",
+          "start": 18.6,
+          "end": 18.9125
+        },
+        {
+          "word": "challenges",
+          "start": 18.925,
+          "end": 19.625
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "en": "Soon, the students discover secrets and dangerous plans around them.",
+      "start": 20.025,
+      "end": 24.2375,
+      "words": [
+        {
+          "word": "Soon",
+          "start": 20.025,
+          "end": 20.575
+        },
+        {
+          "word": "the",
+          "start": 20.8,
+          "end": 20.925
+        },
+        {
+          "word": "students",
+          "start": 20.9375,
+          "end": 21.4375
+        },
+        {
+          "word": "discover",
+          "start": 21.45,
+          "end": 21.9
+        },
+        {
+          "word": "secrets",
+          "start": 21.9125,
+          "end": 22.5125
+        },
+        {
+          "word": "and",
+          "start": 22.525,
+          "end": 22.7
+        },
+        {
+          "word": "dangerous",
+          "start": 22.7125,
+          "end": 23.1875
+        },
+        {
+          "word": "plans",
+          "start": 23.2,
+          "end": 23.6
+        },
+        {
+          "word": "around",
+          "start": 23.6125,
+          "end": 23.975
+        },
+        {
+          "word": "them",
+          "start": 23.9875,
+          "end": 24.2375
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "en": "Ella-Lee and her brother Alfie are important characters in the story.",
+      "start": 24.6375,
+      "end": 28.3375,
+      "words": [
+        {
+          "word": "Ella",
+          "start": 24.6375,
+          "end": 24.95893
+        },
+        {
+          "word": "Lee",
+          "start": 24.95893,
+          "end": 25.2
+        },
+        {
+          "word": "and",
+          "start": 25.2125,
+          "end": 25.3375
+        },
+        {
+          "word": "her",
+          "start": 25.35,
+          "end": 25.4875
+        },
+        {
+          "word": "brother",
+          "start": 25.5,
+          "end": 25.8375
+        },
+        {
+          "word": "Alfie",
+          "start": 25.85,
+          "end": 26.35
+        },
+        {
+          "word": "are",
+          "start": 26.3625,
+          "end": 26.525
+        },
+        {
+          "word": "important",
+          "start": 26.5375,
+          "end": 26.9875
+        },
+        {
+          "word": "characters",
+          "start": 27.0,
+          "end": 27.5625
+        },
+        {
+          "word": "in",
+          "start": 27.575,
+          "end": 27.7125
+        },
+        {
+          "word": "the",
+          "start": 27.725,
+          "end": 27.8
+        },
+        {
+          "word": "story",
+          "start": 27.8125,
+          "end": 28.3375
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "en": "Yiftach, played by Lee Birron, is the captain of the Ravens.",
+      "start": 28.7375,
+      "end": 32.9125,
+      "words": [
+        {
+          "word": "Yiftach",
+          "start": 28.7375,
+          "end": 29.3
+        },
+        {
+          "word": "played",
+          "start": 29.7125,
+          "end": 29.975
+        },
+        {
+          "word": "by",
+          "start": 29.9875,
+          "end": 30.125
+        },
+        {
+          "word": "Lee",
+          "start": 30.1375,
+          "end": 30.375
+        },
+        {
+          "word": "Birron",
+          "start": 30.3875,
+          "end": 30.85
+        },
+        {
+          "word": "is",
+          "start": 31.4125,
+          "end": 31.4875
+        },
+        {
+          "word": "the",
+          "start": 31.5,
+          "end": 31.5875
+        },
+        {
+          "word": "captain",
+          "start": 31.6,
+          "end": 32.1375
+        },
+        {
+          "word": "of",
+          "start": 32.15,
+          "end": 32.2625
+        },
+        {
+          "word": "the",
+          "start": 32.275,
+          "end": 32.3625
+        },
+        {
+          "word": "Ravens",
+          "start": 32.375,
+          "end": 32.9125
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "en": "The students learn about friendship, trust, courage, and teamwork.",
+      "start": 33.3125,
+      "end": 37.9375,
+      "words": [
+        {
+          "word": "The",
+          "start": 33.3125,
+          "end": 33.375
+        },
+        {
+          "word": "students",
+          "start": 33.3875,
+          "end": 33.8125
+        },
+        {
+          "word": "learn",
+          "start": 33.825,
+          "end": 34.1
+        },
+        {
+          "word": "about",
+          "start": 34.1125,
+          "end": 34.35
+        },
+        {
+          "word": "friendship",
+          "start": 34.3625,
+          "end": 34.9125
+        },
+        {
+          "word": "trust",
+          "start": 35.3875,
+          "end": 35.875
+        },
+        {
+          "word": "courage",
+          "start": 36.375,
+          "end": 36.85
+        },
+        {
+          "word": "and",
+          "start": 37.2375,
+          "end": 37.35
+        },
+        {
+          "word": "teamwork",
+          "start": 37.3625,
+          "end": 37.9375
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "en": "The series mixes school life, romance, sport, mystery, and adventure.",
+      "start": 38.3375,
+      "end": 43.625,
+      "words": [
+        {
+          "word": "The",
+          "start": 38.3375,
+          "end": 38.4
+        },
+        {
+          "word": "series",
+          "start": 38.4125,
+          "end": 38.825
+        },
+        {
+          "word": "mixes",
+          "start": 38.8375,
+          "end": 39.175
+        },
+        {
+          "word": "school",
+          "start": 39.1875,
+          "end": 39.475
+        },
+        {
+          "word": "life",
+          "start": 39.4875,
+          "end": 39.85
+        },
+        {
+          "word": "romance",
+          "start": 40.3375,
+          "end": 40.925
+        },
+        {
+          "word": "sport",
+          "start": 41.3375,
+          "end": 41.8
+        },
+        {
+          "word": "mystery",
+          "start": 42.3125,
+          "end": 42.9
+        },
+        {
+          "word": "and",
+          "start": 42.9125,
+          "end": 43.0625
+        },
+        {
+          "word": "adventure",
+          "start": 43.075,
+          "end": 43.625
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "en": "The Greenhouse became very popular with Israeli children and teenagers.",
+      "start": 44.0125,
+      "end": 48.15,
+      "words": [
+        {
+          "word": "The",
+          "start": 44.0125,
+          "end": 44.0875
+        },
+        {
+          "word": "Greenhouse",
+          "start": 44.1,
+          "end": 44.75
+        },
+        {
+          "word": "became",
+          "start": 44.7625,
+          "end": 45.15
+        },
+        {
+          "word": "very",
+          "start": 45.1625,
+          "end": 45.425
+        },
+        {
+          "word": "popular",
+          "start": 45.4375,
+          "end": 46.0125
+        },
+        {
+          "word": "with",
+          "start": 46.025,
+          "end": 46.2625
+        },
+        {
+          "word": "Israeli",
+          "start": 46.2875,
+          "end": 46.8
+        },
+        {
+          "word": "children",
+          "start": 46.8125,
+          "end": 47.2875
+        },
+        {
+          "word": "and",
+          "start": 47.3,
+          "end": 47.4125
+        },
+        {
+          "word": "teenagers",
+          "start": 47.425,
+          "end": 48.15
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "en": "It has many exciting moments.",
+      "start": 48.5125,
+      "end": 50.3125,
+      "words": [
+        {
+          "word": "It",
+          "start": 48.5125,
+          "end": 48.625
+        },
+        {
+          "word": "has",
+          "start": 48.6375,
+          "end": 48.8375
+        },
+        {
+          "word": "many",
+          "start": 48.85,
+          "end": 49.175
+        },
+        {
+          "word": "exciting",
+          "start": 49.1875,
+          "end": 49.7
+        },
+        {
+          "word": "moments",
+          "start": 49.7125,
+          "end": 50.3125
+        }
+      ]
+    }
+  ]
+}

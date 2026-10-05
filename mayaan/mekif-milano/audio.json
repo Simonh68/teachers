@@ -1,0 +1,708 @@
+{
+  "version": "20261005-mayaan-v1",
+  "voice": "en-US-BrianNeural",
+  "pitch": "+10Hz",
+  "synthetic": true,
+  "source_sha256": "d9dd5cdec9d5c0ccfde3e67f7850dbd0cbc5232e8672d8dcea04d7f4a03bcd43",
+  "sha256": "8e9a3dd452d020015f9a01b70c54063cd88102a8a9c89632b11bf74651be8a9c",
+  "audio": "assets/story.mp3?v=d9dd5cdec9d5",
+  "word_count": 120,
+  "sentences": [
+    {
+      "id": 1,
+      "en": "Mekif Milano is an Israeli teen television series.",
+      "start": 0.075,
+      "end": 3.3875,
+      "words": [
+        {
+          "word": "Mekif",
+          "start": 0.075,
+          "end": 0.475
+        },
+        {
+          "word": "Milano",
+          "start": 0.4875,
+          "end": 1.0625
+        },
+        {
+          "word": "is",
+          "start": 1.075,
+          "end": 1.2625
+        },
+        {
+          "word": "an",
+          "start": 1.275,
+          "end": 1.375
+        },
+        {
+          "word": "Israeli",
+          "start": 1.3875,
+          "end": 1.95
+        },
+        {
+          "word": "teen",
+          "start": 1.9625,
+          "end": 2.2625
+        },
+        {
+          "word": "television",
+          "start": 2.275,
+          "end": 2.825
+        },
+        {
+          "word": "series",
+          "start": 2.8375,
+          "end": 3.3875
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "en": "The story happens in a high school called Mekif Milano.",
+      "start": 3.775,
+      "end": 7.0125,
+      "words": [
+        {
+          "word": "The",
+          "start": 3.775,
+          "end": 3.8375
+        },
+        {
+          "word": "story",
+          "start": 3.85,
+          "end": 4.25
+        },
+        {
+          "word": "happens",
+          "start": 4.2625,
+          "end": 4.775
+        },
+        {
+          "word": "in",
+          "start": 4.7875,
+          "end": 4.925
+        },
+        {
+          "word": "a",
+          "start": 4.9375,
+          "end": 4.975
+        },
+        {
+          "word": "high",
+          "start": 4.9875,
+          "end": 5.2
+        },
+        {
+          "word": "school",
+          "start": 5.2125,
+          "end": 5.6125
+        },
+        {
+          "word": "called",
+          "start": 5.625,
+          "end": 5.9875
+        },
+        {
+          "word": "Mekif",
+          "start": 6.0,
+          "end": 6.425
+        },
+        {
+          "word": "Milano",
+          "start": 6.4375,
+          "end": 7.0125
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "en": "At the school, some students study car mechanics.",
+      "start": 7.375,
+      "end": 10.175,
+      "words": [
+        {
+          "word": "At",
+          "start": 7.375,
+          "end": 7.525
+        },
+        {
+          "word": "the",
+          "start": 7.5375,
+          "end": 7.6125
+        },
+        {
+          "word": "school",
+          "start": 7.625,
+          "end": 8.15
+        },
+        {
+          "word": "some",
+          "start": 8.1625,
+          "end": 8.425
+        },
+        {
+          "word": "students",
+          "start": 8.4375,
+          "end": 8.8875
+        },
+        {
+          "word": "study",
+          "start": 8.9,
+          "end": 9.2125
+        },
+        {
+          "word": "car",
+          "start": 9.225,
+          "end": 9.475
+        },
+        {
+          "word": "mechanics",
+          "start": 9.4875,
+          "end": 10.175
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "en": "A fashion program from another arts school joins them.",
+      "start": 10.5375,
+      "end": 13.65,
+      "words": [
+        {
+          "word": "A",
+          "start": 10.5375,
+          "end": 10.625
+        },
+        {
+          "word": "fashion",
+          "start": 10.6375,
+          "end": 11.0625
+        },
+        {
+          "word": "program",
+          "start": 11.075,
+          "end": 11.6375
+        },
+        {
+          "word": "from",
+          "start": 11.65,
+          "end": 11.9
+        },
+        {
+          "word": "another",
+          "start": 11.9125,
+          "end": 12.2875
+        },
+        {
+          "word": "arts",
+          "start": 12.3,
+          "end": 12.525
+        },
+        {
+          "word": "school",
+          "start": 12.5375,
+          "end": 12.8875
+        },
+        {
+          "word": "joins",
+          "start": 12.9,
+          "end": 13.3125
+        },
+        {
+          "word": "them",
+          "start": 13.325,
+          "end": 13.65
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "en": "The two groups are very different, and this creates funny and difficult situations.",
+      "start": 14.05,
+      "end": 18.8375,
+      "words": [
+        {
+          "word": "The",
+          "start": 14.05,
+          "end": 14.125
+        },
+        {
+          "word": "two",
+          "start": 14.1375,
+          "end": 14.3375
+        },
+        {
+          "word": "groups",
+          "start": 14.35,
+          "end": 14.6875
+        },
+        {
+          "word": "are",
+          "start": 14.7,
+          "end": 14.8875
+        },
+        {
+          "word": "very",
+          "start": 14.9,
+          "end": 15.2625
+        },
+        {
+          "word": "different",
+          "start": 15.275,
+          "end": 15.7125
+        },
+        {
+          "word": "and",
+          "start": 16.2625,
+          "end": 16.3375
+        },
+        {
+          "word": "this",
+          "start": 16.35,
+          "end": 16.5
+        },
+        {
+          "word": "creates",
+          "start": 16.5125,
+          "end": 16.8875
+        },
+        {
+          "word": "funny",
+          "start": 16.9,
+          "end": 17.375
+        },
+        {
+          "word": "and",
+          "start": 17.3875,
+          "end": 17.5375
+        },
+        {
+          "word": "difficult",
+          "start": 17.55,
+          "end": 18.0
+        },
+        {
+          "word": "situations",
+          "start": 18.0125,
+          "end": 18.8375
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "en": "The students compete, argue, make friends, and sometimes fall in love.",
+      "start": 19.2375,
+      "end": 23.9375,
+      "words": [
+        {
+          "word": "The",
+          "start": 19.2375,
+          "end": 19.3
+        },
+        {
+          "word": "students",
+          "start": 19.3125,
+          "end": 19.7125
+        },
+        {
+          "word": "compete",
+          "start": 19.725,
+          "end": 20.2
+        },
+        {
+          "word": "argue",
+          "start": 20.825,
+          "end": 21.25
+        },
+        {
+          "word": "make",
+          "start": 21.7625,
+          "end": 21.9375
+        },
+        {
+          "word": "friends",
+          "start": 21.95,
+          "end": 22.4875
+        },
+        {
+          "word": "and",
+          "start": 22.5125,
+          "end": 22.6375
+        },
+        {
+          "word": "sometimes",
+          "start": 22.65,
+          "end": 23.1625
+        },
+        {
+          "word": "fall",
+          "start": 23.175,
+          "end": 23.4
+        },
+        {
+          "word": "in",
+          "start": 23.4125,
+          "end": 23.525
+        },
+        {
+          "word": "love",
+          "start": 23.5375,
+          "end": 23.9375
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "en": "Omer is one of the main students in the story.",
+      "start": 24.3375,
+      "end": 27.0,
+      "words": [
+        {
+          "word": "Omer",
+          "start": 24.3375,
+          "end": 24.7125
+        },
+        {
+          "word": "is",
+          "start": 24.725,
+          "end": 24.9375
+        },
+        {
+          "word": "one",
+          "start": 24.95,
+          "end": 25.125
+        },
+        {
+          "word": "of",
+          "start": 25.1375,
+          "end": 25.2125
+        },
+        {
+          "word": "the",
+          "start": 25.225,
+          "end": 25.3125
+        },
+        {
+          "word": "main",
+          "start": 25.325,
+          "end": 25.6
+        },
+        {
+          "word": "students",
+          "start": 25.6125,
+          "end": 26.1625
+        },
+        {
+          "word": "in",
+          "start": 26.175,
+          "end": 26.325
+        },
+        {
+          "word": "the",
+          "start": 26.3375,
+          "end": 26.4125
+        },
+        {
+          "word": "story",
+          "start": 26.425,
+          "end": 27.0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "en": "Nori, his childhood friend, returns and changes his life.",
+      "start": 27.3875,
+      "end": 31.3875,
+      "words": [
+        {
+          "word": "Nori",
+          "start": 27.3875,
+          "end": 27.85
+        },
+        {
+          "word": "his",
+          "start": 27.8625,
+          "end": 28.0625
+        },
+        {
+          "word": "childhood",
+          "start": 28.075,
+          "end": 28.5625
+        },
+        {
+          "word": "friend",
+          "start": 28.575,
+          "end": 29.0375
+        },
+        {
+          "word": "returns",
+          "start": 29.55,
+          "end": 30.175
+        },
+        {
+          "word": "and",
+          "start": 30.1875,
+          "end": 30.3375
+        },
+        {
+          "word": "changes",
+          "start": 30.35,
+          "end": 30.7625
+        },
+        {
+          "word": "his",
+          "start": 30.775,
+          "end": 30.95
+        },
+        {
+          "word": "life",
+          "start": 30.9625,
+          "end": 31.3875
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "en": "Other students have their own dreams and problems.",
+      "start": 31.7875,
+      "end": 34.6,
+      "words": [
+        {
+          "word": "Other",
+          "start": 31.7875,
+          "end": 32.0
+        },
+        {
+          "word": "students",
+          "start": 32.0125,
+          "end": 32.5125
+        },
+        {
+          "word": "have",
+          "start": 32.525,
+          "end": 32.775
+        },
+        {
+          "word": "their",
+          "start": 32.7875,
+          "end": 32.975
+        },
+        {
+          "word": "own",
+          "start": 32.9875,
+          "end": 33.225
+        },
+        {
+          "word": "dreams",
+          "start": 33.2375,
+          "end": 33.75
+        },
+        {
+          "word": "and",
+          "start": 33.7625,
+          "end": 33.9
+        },
+        {
+          "word": "problems",
+          "start": 33.9125,
+          "end": 34.6
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "en": "Fashion, cars, friendship, family, and school are important parts of the series.",
+      "start": 35.0,
+      "end": 40.5125,
+      "words": [
+        {
+          "word": "Fashion",
+          "start": 35.0,
+          "end": 35.575
+        },
+        {
+          "word": "cars",
+          "start": 35.725,
+          "end": 36.2875
+        },
+        {
+          "word": "friendship",
+          "start": 36.4875,
+          "end": 37.1375
+        },
+        {
+          "word": "family",
+          "start": 37.425,
+          "end": 38.025
+        },
+        {
+          "word": "and",
+          "start": 38.2375,
+          "end": 38.4
+        },
+        {
+          "word": "school",
+          "start": 38.4125,
+          "end": 38.8625
+        },
+        {
+          "word": "are",
+          "start": 38.875,
+          "end": 39.025
+        },
+        {
+          "word": "important",
+          "start": 39.0375,
+          "end": 39.475
+        },
+        {
+          "word": "parts",
+          "start": 39.4875,
+          "end": 39.775
+        },
+        {
+          "word": "of",
+          "start": 39.7875,
+          "end": 39.85
+        },
+        {
+          "word": "the",
+          "start": 39.8625,
+          "end": 39.9375
+        },
+        {
+          "word": "series",
+          "start": 39.95,
+          "end": 40.5125
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "en": "The students also dream about reaching Milan in Italy.",
+      "start": 40.9,
+      "end": 44.1125,
+      "words": [
+        {
+          "word": "The",
+          "start": 40.9,
+          "end": 40.9625
+        },
+        {
+          "word": "students",
+          "start": 40.975,
+          "end": 41.45
+        },
+        {
+          "word": "also",
+          "start": 41.4625,
+          "end": 41.825
+        },
+        {
+          "word": "dream",
+          "start": 41.8375,
+          "end": 42.2875
+        },
+        {
+          "word": "about",
+          "start": 42.3125,
+          "end": 42.6875
+        },
+        {
+          "word": "reaching",
+          "start": 42.7,
+          "end": 43.0375
+        },
+        {
+          "word": "Milan",
+          "start": 43.05,
+          "end": 43.45
+        },
+        {
+          "word": "in",
+          "start": 43.4625,
+          "end": 43.6125
+        },
+        {
+          "word": "Italy",
+          "start": 43.625,
+          "end": 44.1125
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "en": "Mekif Milano shows teenagers trying to understand themselves and find their place too.",
+      "start": 44.5,
+      "end": 49.2375,
+      "words": [
+        {
+          "word": "Mekif",
+          "start": 44.5,
+          "end": 44.8875
+        },
+        {
+          "word": "Milano",
+          "start": 44.9,
+          "end": 45.3375
+        },
+        {
+          "word": "shows",
+          "start": 45.35,
+          "end": 45.7125
+        },
+        {
+          "word": "teenagers",
+          "start": 45.725,
+          "end": 46.375
+        },
+        {
+          "word": "trying",
+          "start": 46.3875,
+          "end": 46.7
+        },
+        {
+          "word": "to",
+          "start": 46.7125,
+          "end": 46.8
+        },
+        {
+          "word": "understand",
+          "start": 46.8125,
+          "end": 47.35
+        },
+        {
+          "word": "themselves",
+          "start": 47.3625,
+          "end": 47.95
+        },
+        {
+          "word": "and",
+          "start": 47.9625,
+          "end": 48.125
+        },
+        {
+          "word": "find",
+          "start": 48.1375,
+          "end": 48.4375
+        },
+        {
+          "word": "their",
+          "start": 48.45,
+          "end": 48.575
+        },
+        {
+          "word": "place",
+          "start": 48.5875,
+          "end": 48.9
+        },
+        {
+          "word": "too",
+          "start": 48.9125,
+          "end": 49.2375
+        }
+      ]
+    }
+  ]
+}
