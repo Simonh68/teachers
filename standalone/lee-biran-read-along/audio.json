@@ -3,16 +3,16 @@
   "voice": "en-US-BrianNeural",
   "pitch": "+10Hz",
   "synthetic": true,
-  "source_sha256": "52233b19a8ecddb08f84bc2fbb153e6928046c598d13e8649d9aadafcfaeae14",
-  "sha256": "d0c40ac72774f2f54c1a3e53f669255d1ac62d0c73752e0c3505ad1aa5158984",
-  "audio": "assets/story.mp3?v=52233b19a8ec",
+  "source_sha256": "89fb7f387fe9a3864c6ea0b72be431d1f9060d2befb54532b2e31f76855bb493",
+  "sha256": "6926741e432fb6a9f770488d5a5a47cb257951e3c39c683fb0167b3d82dbed26",
+  "audio": "assets/story.mp3?v=89fb7f387fe9",
   "word_count": 55,
   "sentences": [
     {
       "id": 1,
-      "en": "Lee Biran is an Israeli singer, actor, and songwriter.",
+      "en": "Lee Birron is an Israeli singer, actor, and songwriter.",
       "start": 0.0875,
-      "end": 4.3375,
+      "end": 4.3875,
       "words": [
         {
           "word": "Lee",
@@ -20,306 +20,306 @@
           "end": 0.275
         },
         {
-          "word": "Biran",
+          "word": "Birron",
           "start": 0.2875,
-          "end": 0.7625
+          "end": 0.7875
         },
         {
           "word": "is",
-          "start": 0.775,
-          "end": 0.925
+          "start": 0.8,
+          "end": 0.9625
         },
         {
           "word": "an",
-          "start": 0.9375,
-          "end": 1.025
+          "start": 0.975,
+          "end": 1.0625
         },
         {
           "word": "Israeli",
-          "start": 1.0375,
-          "end": 1.525
+          "start": 1.075,
+          "end": 1.5625
         },
         {
           "word": "singer",
-          "start": 1.5375,
-          "end": 2.0375
+          "start": 1.575,
+          "end": 2.1
         },
         {
           "word": "actor",
-          "start": 2.625,
-          "end": 3.1125
+          "start": 2.6375,
+          "end": 3.15
         },
         {
           "word": "and",
-          "start": 3.4875,
-          "end": 3.6125
+          "start": 3.475,
+          "end": 3.625
         },
         {
           "word": "songwriter",
-          "start": 3.625,
-          "end": 4.3375
+          "start": 3.6375,
+          "end": 4.3875
         }
       ]
     },
     {
       "id": 2,
       "en": "He was born in Kfar Saba, Israel, in 1989.",
-      "start": 4.7375,
-      "end": 8.65,
+      "start": 4.7875,
+      "end": 8.7,
       "words": [
         {
           "word": "He",
-          "start": 4.7375,
-          "end": 4.825
+          "start": 4.7875,
+          "end": 4.875
         },
         {
           "word": "was",
-          "start": 4.8375,
-          "end": 5.0
+          "start": 4.8875,
+          "end": 5.05
         },
         {
           "word": "born",
-          "start": 5.0125,
-          "end": 5.35
+          "start": 5.0625,
+          "end": 5.4
         },
         {
           "word": "in",
-          "start": 5.3625,
-          "end": 5.5125
+          "start": 5.4125,
+          "end": 5.5625
         },
         {
           "word": "Kfar",
-          "start": 5.525,
-          "end": 5.85
+          "start": 5.575,
+          "end": 5.9
         },
         {
           "word": "Saba",
-          "start": 5.8625,
-          "end": 6.3625
+          "start": 5.9125,
+          "end": 6.4125
         },
         {
           "word": "Israel",
-          "start": 6.9125,
-          "end": 7.4625
+          "start": 6.9625,
+          "end": 7.5125
         },
         {
           "word": "in",
-          "start": 7.4875,
-          "end": 7.875
+          "start": 7.5375,
+          "end": 7.925
         },
         {
           "word": "1989",
-          "start": 7.875,
-          "end": 8.65
+          "start": 7.925,
+          "end": 8.7
         }
       ]
     },
     {
       "id": 3,
       "en": "He became famous on the TV show Kochav Nolad when he was young.",
-      "start": 9.05,
-      "end": 12.8,
+      "start": 9.1,
+      "end": 12.85,
       "words": [
         {
           "word": "He",
-          "start": 9.05,
-          "end": 9.1625
+          "start": 9.1,
+          "end": 9.2125
         },
         {
           "word": "became",
-          "start": 9.175,
-          "end": 9.55
+          "start": 9.225,
+          "end": 9.6
         },
         {
           "word": "famous",
-          "start": 9.5625,
-          "end": 10.1125
+          "start": 9.6125,
+          "end": 10.1625
         },
         {
           "word": "on",
-          "start": 10.1375,
-          "end": 10.3
+          "start": 10.1875,
+          "end": 10.35
         },
         {
           "word": "the",
-          "start": 10.3125,
-          "end": 10.4
+          "start": 10.3625,
+          "end": 10.45
         },
         {
           "word": "TV",
-          "start": 10.4125,
-          "end": 10.7125
+          "start": 10.4625,
+          "end": 10.7625
         },
         {
           "word": "show",
-          "start": 10.725,
-          "end": 10.9625
+          "start": 10.775,
+          "end": 11.0125
         },
         {
           "word": "Kochav",
-          "start": 10.975,
-          "end": 11.4375
+          "start": 11.025,
+          "end": 11.4875
         },
         {
           "word": "Nolad",
-          "start": 11.45,
-          "end": 11.95
+          "start": 11.5,
+          "end": 12.0
         },
         {
           "word": "when",
-          "start": 11.9625,
-          "end": 12.0875
+          "start": 12.0125,
+          "end": 12.1375
         },
         {
           "word": "he",
-          "start": 12.1,
-          "end": 12.2125
+          "start": 12.15,
+          "end": 12.2625
         },
         {
           "word": "was",
-          "start": 12.225,
-          "end": 12.3875
+          "start": 12.275,
+          "end": 12.4375
         },
         {
           "word": "young",
-          "start": 12.4,
-          "end": 12.8
+          "start": 12.45,
+          "end": 12.85
         }
       ]
     },
     {
       "id": 4,
       "en": "Lee writes songs and also works on television and on stage.",
-      "start": 13.2,
-      "end": 16.8875,
+      "start": 13.25,
+      "end": 16.9375,
       "words": [
         {
           "word": "Lee",
-          "start": 13.2,
-          "end": 13.3875
+          "start": 13.25,
+          "end": 13.4375
         },
         {
           "word": "writes",
-          "start": 13.4,
-          "end": 13.7
+          "start": 13.45,
+          "end": 13.75
         },
         {
           "word": "songs",
-          "start": 13.7125,
-          "end": 14.2375
+          "start": 13.7625,
+          "end": 14.2875
         },
         {
           "word": "and",
-          "start": 14.25,
-          "end": 14.4
+          "start": 14.3,
+          "end": 14.45
         },
         {
           "word": "also",
-          "start": 14.4125,
-          "end": 14.7625
+          "start": 14.4625,
+          "end": 14.8125
         },
         {
           "word": "works",
-          "start": 14.775,
-          "end": 15.1
+          "start": 14.825,
+          "end": 15.15
         },
         {
           "word": "on",
-          "start": 15.1125,
-          "end": 15.25
+          "start": 15.1625,
+          "end": 15.3
         },
         {
           "word": "television",
-          "start": 15.2625,
-          "end": 15.9375
+          "start": 15.3125,
+          "end": 15.9875
         },
         {
           "word": "and",
-          "start": 15.95,
-          "end": 16.125
+          "start": 16.0,
+          "end": 16.175
         },
         {
           "word": "on",
-          "start": 16.1375,
-          "end": 16.275
+          "start": 16.1875,
+          "end": 16.325
         },
         {
           "word": "stage",
-          "start": 16.2875,
-          "end": 16.8875
+          "start": 16.3375,
+          "end": 16.9375
         }
       ]
     },
     {
       "id": 5,
       "en": "He prays at a Yemenite synagogue, and religion is important in his life.",
-      "start": 17.2625,
-      "end": 21.8375,
+      "start": 17.3125,
+      "end": 21.8875,
       "words": [
         {
           "word": "He",
-          "start": 17.2625,
-          "end": 17.375
+          "start": 17.3125,
+          "end": 17.425
         },
         {
           "word": "prays",
-          "start": 17.3875,
-          "end": 17.8625
+          "start": 17.4375,
+          "end": 17.9125
         },
         {
           "word": "at",
-          "start": 17.875,
-          "end": 18.0125
+          "start": 17.925,
+          "end": 18.0625
         },
         {
           "word": "a",
-          "start": 18.025,
-          "end": 18.075
+          "start": 18.075,
+          "end": 18.125
         },
         {
           "word": "Yemenite",
-          "start": 18.0875,
-          "end": 18.5875
+          "start": 18.1375,
+          "end": 18.6375
         },
         {
           "word": "synagogue",
-          "start": 18.6,
-          "end": 19.2625
+          "start": 18.65,
+          "end": 19.3125
         },
         {
           "word": "and",
-          "start": 19.55,
-          "end": 19.7875
+          "start": 19.6,
+          "end": 19.8375
         },
         {
           "word": "religion",
-          "start": 19.8,
-          "end": 20.2875
+          "start": 19.85,
+          "end": 20.3375
         },
         {
           "word": "is",
-          "start": 20.3,
-          "end": 20.475
+          "start": 20.35,
+          "end": 20.525
         },
         {
           "word": "important",
-          "start": 20.4875,
-          "end": 21.0375
+          "start": 20.5375,
+          "end": 21.0875
         },
         {
           "word": "in",
-          "start": 21.05,
-          "end": 21.1625
+          "start": 21.1,
+          "end": 21.2125
         },
         {
           "word": "his",
-          "start": 21.175,
-          "end": 21.3625
+          "start": 21.225,
+          "end": 21.4125
         },
         {
           "word": "life",
-          "start": 21.375,
-          "end": 21.8375
+          "start": 21.425,
+          "end": 21.8875
         }
       ]
     }
