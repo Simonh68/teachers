@@ -56,13 +56,13 @@
   ],
   "gapChecks": [
     {
-      "timerMs": 1500.3999999999942,
-      "audibleMs": 1509.8999999999942,
+      "timerMs": 1500.4000000000233,
+      "audibleMs": 1508.4000000000233,
       "rate": 1.25
     },
     {
       "timerMs": 1500.2999999999884,
-      "audibleMs": 1505.5,
+      "audibleMs": 1505.7999999999884,
       "rate": 0.5
     }
   ],
@@ -70,5 +70,5 @@
   "seekWhilePaused": true,
   "stopAtTabEnd": true,
   "cancelPendingAudio": true,
-  "checkedAtUTC": "2026-10-05T09:17:23Z"
+  "checkedAtUTC": "2026-10-05T09:19:40Z"
 }
