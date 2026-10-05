@@ -30,13 +30,19 @@ jobs:
           sudo apt-get install -y -qq ffmpeg
       - name: Download real images into repository
         run: |
-          mkdir -p mayaan/lee-birron/assets mayaan/greenhouse/assets mayaan/mekif-milano/assets
+          mkdir -p mayaan/lee-birron/assets mayaan/greenhouse/assets mayaan/mekif-milano/assets mayaan/marvel/assets mayaan/horror-movies/assets mayaan/disney-movies/assets
           curl -L --fail --retry 3 -A "Mozilla/5.0" "https://upload.wikimedia.org/wikipedia/commons/9/90/LeeBiran.jpg" -o mayaan/lee-birron/assets/lee-birron-1.jpg
           curl -L --fail --retry 3 -A "Mozilla/5.0" "https://img.mako.co.il/2023/08/17/m613_170823_LeeBiran_3_autoOrient_w.jpg" -o mayaan/lee-birron/assets/lee-birron-2.jpg
           curl -L --fail --retry 3 -A "Mozilla/5.0" "https://m.media-amazon.com/images/M/MV5BMTk1NTc3MTc2NV5BMl5BanBnXkFtZTgwNDA5NTczMzI@._V1_.jpg" -o mayaan/greenhouse/assets/greenhouse-1.jpg
           curl -L --fail --retry 3 -A "Mozilla/5.0" "https://www.seret.co.il/images/series/thegreenhouse/thegreenhouse_Cover.jpg" -o mayaan/greenhouse/assets/greenhouse-2.jpg
           curl -L --fail --retry 3 -A "Mozilla/5.0" "https://m.media-amazon.com/images/M/MV5BOWRkZDFmYjItMjQzMC00Zjk4LThiNjgtZTIzYzRlMzZhOGU5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" -o mayaan/mekif-milano/assets/mekif-milano-1.jpg
           curl -L --fail --retry 3 -A "Mozilla/5.0" "https://www.edb.co.il/photos/161222020_posterwide02.full.jpg" -o mayaan/mekif-milano/assets/mekif-milano-2.jpg
+          curl -L --fail --retry 3 -A "Mozilla/5.0" "https://commons.wikimedia.org/wiki/Special:Redirect/file/Chris%20Hemsworth%202019.png" -o mayaan/marvel/assets/marvel-1.png
+          curl -L --fail --retry 3 -A "Mozilla/5.0" "https://commons.wikimedia.org/wiki/Special:Redirect/file/Scarlett%20Johansson%202019.png" -o mayaan/marvel/assets/marvel-2.png
+          curl -L --fail --retry 3 -A "Mozilla/5.0" "https://commons.wikimedia.org/wiki/Special:Redirect/file/Its_alive_movie_screening.jpg" -o mayaan/horror-movies/assets/horror-1.jpg
+          curl -L --fail --retry 3 -A "Mozilla/5.0" "https://commons.wikimedia.org/wiki/Special:Redirect/file/Movie_theater_with_an_audience.svg" -o mayaan/horror-movies/assets/horror-2.svg
+          curl -L --fail --retry 3 -A "Mozilla/5.0" "https://commons.wikimedia.org/wiki/Special:Redirect/file/SleepingBeautyCastle.JPG" -o mayaan/disney-movies/assets/disney-1.jpg
+          curl -L --fail --retry 3 -A "Mozilla/5.0" "https://commons.wikimedia.org/wiki/Special:Redirect/file/Disneylandcastle.jpg" -o mayaan/disney-movies/assets/disney-2.jpg
       - name: Generate narration
         run: python -u tools/mayaan_read_alongs_audio.py
       - name: Commit generated assets
