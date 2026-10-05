@@ -72,7 +72,7 @@
 
 
 /* Bilingual V6 translation trail: shown only when the engine is in reveal mode. */
-#gloss-layer{position:fixed;inset:0;pointer-events:none;z-index:30;overflow:visible}
+#gloss-layer{position:absolute;inset:0;pointer-events:none;z-index:30;overflow:visible}
 .trail-gloss{
  position:absolute;
  transform:translate(-50%,-100%);
@@ -94,3 +94,6 @@
 .trail-gloss.fade2{opacity:.38}
 .trail-gloss.fade3{opacity:.15}
 @media(max-width:650px){.trail-gloss{font-size:13px;padding:3px 5px}}
+
+/* Mobile-safe bilingual overlay: keep prototype geometry and allow glosses to float without viewport-fixed drift. */
+.sheet.with-translation{overflow:visible}
