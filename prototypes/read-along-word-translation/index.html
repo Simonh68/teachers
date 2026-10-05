@@ -42,7 +42,7 @@ main{padding:18px 12px 34px}
   <article class="sheet">
     <div class="kicker">READ ALONG · WORD TRANSLATION TEST</div>
     <p id="reading" class="reading" lang="en"></p>
-    <p class="note"><b>הרעיון לבדיקה:</b> המילה שנקראת כרגע נצבעת בצהוב. התרגום העברי שמעליה נשאר גלוי עוד כ־3 שניות אחרי שהמרקר עובר למילה הבאה, ואז מתפוגג בהדרגה.</p>
+    <p class="note"><b>הרעיון לבדיקה:</b> המילה שנקראת כרגע נצבעת בצהוב. כשהמרקר עובר הלאה, הצהוב נעלם מיד אבל התרגום שמעל המילה הקודמת מתחיל מיד להתפוגג — הטקסט, הרקע והמסגרת נחלשים בהדרגה במשך כ־4.5 שניות עד לשקיפות מלאה.</p>
     <div class="legend"><span class="chip">ללא שינוי בטקסט העברי המלא</span><span class="chip">מתאים למובייל</span><span class="chip">התרגום כבר קיים ב־content.json</span></div>
   </article>
 </main>
@@ -60,7 +60,7 @@ function paint(){
    prev.classList.remove('active');
    prev.classList.add('recent');
    clearTimeout(fadeTimers.get(prev));
-   fadeTimers.set(prev,setTimeout(()=>{prev.classList.remove('recent');fadeTimers.delete(prev);},3000));
+   fadeTimers.set(prev,setTimeout(()=>{prev.classList.remove('recent');fadeTimers.delete(prev);},4600));
  }
  const el=document.querySelector('.word[data-i="'+i+'"]');
  if(el){
