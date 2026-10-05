@@ -8,3 +8,5 @@ This standalone activity is intentionally not linked from the Teachers navigatio
 
 ## Runtime
 Uses the central Read Along standard under /shared/read-along/.
+
+Deployment refresh after narration generation.
