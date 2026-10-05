@@ -15,7 +15,7 @@ function ui(){
  const css=document.createElement('link');css.rel='stylesheet';css.href=cfg.css;document.head.append(css);
  document.body.className='grade8-bilingual';document.body.dataset.readingStandard='grade8-bilingual-v1';document.title='Read Along · '+cfg.title+' · '+cfg.grade;
  document.body.innerHTML=`<header class="toolbar"><a class="home" href="${cfg.home}" aria-label="חזרה">⌂</a><div class="brand">${cfg.grade}</div><button id="contents" aria-haspopup="dialog">תוכן</button><div class="audio-controls"><button id="play" disabled aria-pressed="false">טוען שמע…</button><button id="replay" disabled aria-label="הקראה מחדש" title="הקראה מחדש">↺</button><label for="speed">מהירות</label><select id="speed" dir="ltr"><option value=".25">0.25×</option><option value=".5">0.5×</option><option value=".75">0.75×</option><option value="1">1×</option><option value="1.25">1.25×</option></select></div></header>
- <main id="stage"><article class="sheet" id="sheet" role="tabpanel"><div class="meta"><nav id="reading-tabs" class="tabstrip" role="tablist"></nav><span id="step-label" class="step-label"></span></div><div class="text-slot english-slot" id="english-slot"><p id="english" class="reading en" lang="en" dir="ltr"></p><div id="gloss-layer" aria-hidden="true"></div></div><div class="text-slot hebrew-slot" id="translation-slot" aria-hidden="true"><p id="hebrew" class="reading he" lang="he" dir="rtl"></p></div><p id="hint"></p></article></main>
+ <main id="stage"><article class="sheet" id="sheet" role="tabpanel"><div class="meta"><nav id="reading-tabs" class="tabstrip" role="tablist"></nav><span id="step-label" class="step-label"></span></div><div class="text-slot english-slot" id="english-slot"><p id="english" class="reading en" lang="en" dir="ltr"></p></div><div class="text-slot hebrew-slot" id="translation-slot" aria-hidden="true"><p id="hebrew" class="reading he" lang="he" dir="rtl"></p></div><p id="hint"></p></article><div id="gloss-layer" aria-hidden="true"></div></main>
  <footer class="footer" id="footer"><nav class="navigation"><button data-step="-1">←</button><button data-step="-1">↑</button><output id="counter"></output><button data-step="1">↓</button><button data-step="1">→</button></nav><p id="status" role="status">ההפסקות בשמע בלבד — 1.5 שניות.</p></footer><div class="progress"><div id="progress"></div></div>
  <dialog id="reading-menu"><div class="menu-heading"><h2>קריאה · ${cfg.title}</h2><button id="close-menu">×</button></div><nav class="menu-modes"><a href="?view=chunks" data-mode="chunks">קריאה בקטעים</a><a href="?view=sentences" data-mode="sentences">משפט בשקף</a><a href="${cfg.home}">מפגשי היחידה</a></nav><div class="jump-row"><button id="start-over">מההתחלה</button><button id="resume-reading">המשך הקריאה</button></div><p class="menu-note">אנגלית תחילה; בשקופית הבאה התרגום נשאר גלוי והמרקר עוקב בשתי השפות. ההקראה באנגלית בלבד.</p><div id="sentence-list"></div></dialog><div id="reading-tip" role="tooltip" hidden></div>`;
  $('speed').value=String(rate);
@@ -62,7 +62,7 @@ function renderGlossTrail(){
  const layer=$('gloss-layer');if(!layer)return;
  layer.innerHTML='';
  if(!reveal||activeSentence<0||activeWord<0)return;
- const host=$('english-slot'),hostRect=host.getBoundingClientRect(),states=new Map();
+ const host=$('stage'),hostRect=host.getBoundingClientRect(),states=new Map();
  const completed=wordTrail.slice(-6),full=completed.slice(-3),fading=completed.slice(0,Math.max(0,completed.length-3));
  full.forEach(k=>states.set(k,'full'));
  if(fading.length>=1)states.set(fading.at(-1),'fade1');
