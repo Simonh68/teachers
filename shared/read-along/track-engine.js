@@ -25,12 +25,23 @@ function normalizeGrade7(){
  sourcePages=LESSON.texts.map(t=>t.ids.slice());
 }
 function normalizeGrade9(data){
- story=data.sentences.map((s,i)=>({number:s.id||i+1,paragraph:String.fromCharCode(65+Math.min(25,Math.floor(i/10))),plain:s.en,he:s.he,words:s.words.map(w=>({text:w.word,he:w.he,start:w.start,end:w.end}))}));
+ story=data.sentences.map((s,i)=>({number:s.id||i+1,paragraph:s.paragraph||String.fromCharCode(65+Math.min(25,Math.floor(i/10))),plain:s.en,he:s.he,image:s.image||null,imageAlt:s.imageAlt||'',imageCredit:s.imageCredit||'',words:s.words.map(w=>({text:w.word,he:w.he,start:w.start,end:w.end}))}));
  sourcePages=Array.isArray(data.pages)&&data.pages.length?data.pages.map(x=>x.slice()):Array.from({length:Math.ceil(story.length/8)},(_,p)=>story.map((_,i)=>i).slice(p*8,p*8+8));
 }
 function englishHTML(i){const s=story[i], parts=s.plain.match(/\S+|\s+/g)||[];let wi=0;return parts.map(x=>{if(/\s+/.test(x))return x;const n=wi++;return `<span data-en="${i}:${n}" role="button" tabindex="0" aria-label="${esc((s.words[n]?.text||x)+': '+(s.words[n]?.he||''))}">${esc(x)}</span>`;}).join('');}
 function hebrewHTML(i){const toks=(story[i].he.match(/\S+|\s+/g)||[]);let hi=0;return toks.map(x=>/\s+/.test(x)?x:`<span data-he="${i}:${hi++}">${esc(x)}</span>`).join('');}
-function setText(ids){$('english').innerHTML=ids.map(i=>`<span class="paragraph-line" data-sentence="${i}">${englishHTML(i)}</span>`).join(' ');$('hebrew').innerHTML=ids.map(i=>`<span class="paragraph-line" data-translation="${i}">${hebrewHTML(i)}</span>`).join(' ');}
+function setText(ids){
+ $('english').innerHTML=ids.map(i=>`<span class="paragraph-line" data-sentence="${i}">${englishHTML(i)}</span>`).join(' ');
+ $('hebrew').innerHTML=ids.map(i=>`<span class="paragraph-line" data-translation="${i}">${hebrewHTML(i)}</span>`).join(' ');
+ const existing=$('reading-photo');if(existing)existing.remove();
+ const item=story[ids[0]];
+ if(ids.length===1&&item?.image){
+   const figure=document.createElement('figure');figure.id='reading-photo';figure.className='reading-photo';
+   figure.innerHTML=`<img src="${esc(item.image)}" alt="${esc(item.imageAlt||'')}" loading="eager" referrerpolicy="no-referrer"><figcaption>${esc(item.imageCredit||'')}</figcaption>`;
+   $('sheet').append(figure);
+ }else $('sheet').classList.remove('with-photo');
+ $('sheet').classList.toggle('with-photo',!!(ids.length===1&&item?.image));
+}
 function fit(){for(const id of ['english','hebrew']){const e=$(id),slot=e.parentElement;e.style.fontSize='';let px=parseFloat(getComputedStyle(e).fontSize);while((e.scrollHeight>slot.clientHeight-5||e.scrollWidth>slot.clientWidth+1)&&px>17){px-=.5;e.style.fontSize=px+'px';}}}
 function makePages(){
  pages=[];
