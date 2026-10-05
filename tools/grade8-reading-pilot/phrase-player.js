@@ -26,7 +26,7 @@ class TeacherPhrasePlayer{
   this.sentence=s;this.part=p;this.offset=offset;this.phase='loading';this.intent=true;this.gap=null;this.update();
   try{const url=await this.prepare(s,p);if(version!==this.generation||!this.intent)return;
    this.audio.src=url;this.audio.playbackRate=this.rate;this.audio.preservesPitch=true;this.audio.currentTime=Math.max(0,Math.min(offset,this.segment.duration-.01));
-   await this.audio.play();if(version!==this.generation||!this.intent){this.audio.pause();return;}
+   await this.audio.play();if(version!==this.generation)return;if(!this.intent){this.audio.pause();return;}
    this.phase='playing';this.log('part:playing');this.update();this.prefetch();this.tick();
   }catch(error){if(version!==this.generation)return;this.intent=false;this.phase='error';this.log('audio:error',{message:error.message});this.update();}
  }
