@@ -90,6 +90,14 @@ async function init(){
  const qs=new URLSearchParams(location.search),old=Math.max(0,Number(qs.get('p'))||0),sub=Math.max(0,Number(qs.get('sub'))||0);let start=0,r=false;
  if(view==='sentences'){start=Math.floor(old/2);r=!!(old%2);}else{start=pages.findIndex(p=>p.source===Math.min(old,sourcePages.length-1)&&p.sub===sub);r=qs.get('reveal')==='1';}
  show(Math.max(0,start),r,{persist:false,schedule:false});
+ if(cfg.autoStart){
+   const delayMs=Number.isFinite(Number(cfg.autoStartDelayMs))?Number(cfg.autoStartDelayMs):2000;
+   timer=setTimeout(async()=>{
+     if(document.hidden||$('reading-menu')?.open)return;
+     try{await startQueue(true);}
+     catch(_){$('status').textContent='לחצו על ▶ הקראה להפעלת האודיו.';}
+   },Math.max(0,delayMs));
+ }
 }
 init().catch(e=>{console.error(e);document.body.innerHTML='<main style="padding:25px;font:20px Arial;direction:rtl"><h1>לא ניתן לטעון את הקריאה כרגע.</h1><p>רעננו את העמוד.</p></main>';});
 })();
