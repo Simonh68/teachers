@@ -21,7 +21,7 @@
       "viewport": "1024x600",
       "stationarySentencePairs": 18,
       "chunkPages": 10,
-      "scrollableChunks": 3,
+      "scrollableChunks": 0,
       "fourDirectionSwipe": true,
       "audioPlayback": true,
       "noTranslationAutoplay": true
@@ -39,7 +39,7 @@
       "viewport": "360x640",
       "stationarySentencePairs": 18,
       "chunkPages": 10,
-      "scrollableChunks": 5,
+      "scrollableChunks": 0,
       "fourDirectionSwipe": true,
       "audioPlayback": true,
       "noTranslationAutoplay": true
@@ -48,7 +48,7 @@
       "viewport": "844x390",
       "stationarySentencePairs": 18,
       "chunkPages": 10,
-      "scrollableChunks": 7,
+      "scrollableChunks": 0,
       "fourDirectionSwipe": true,
       "audioPlayback": true,
       "noTranslationAutoplay": true
@@ -56,13 +56,13 @@
   ],
   "gapChecks": [
     {
-      "timerMs": 1500.4000000000233,
-      "audibleMs": 1508.4000000000233,
+      "timerMs": 1500.199999999997,
+      "audibleMs": 1508.199999999997,
       "rate": 1.25
     },
     {
-      "timerMs": 1500.2999999999884,
-      "audibleMs": 1505.7999999999884,
+      "timerMs": 1500.2000000000116,
+      "audibleMs": 1506,
       "rate": 0.5
     }
   ],
@@ -70,5 +70,5 @@
   "seekWhilePaused": true,
   "stopAtTabEnd": true,
   "cancelPendingAudio": true,
-  "checkedAtUTC": "2026-10-05T09:19:40Z"
+  "checkedAtUTC": "2026-10-05T09:24:57Z"
 }
