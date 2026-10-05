@@ -1,0 +1,408 @@
+{
+  "version": "20261005-lee-biran-ra1",
+  "title": "Lee Biran",
+  "sentences": [
+    {
+      "id": 1,
+      "paragraph": "A",
+      "en": "Lee Biran is an Israeli singer, actor, and songwriter.",
+      "he": "לי בירן הוא זמר, שחקן וכותב שירים ישראלי.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/LeeBiran.jpg/1280px-LeeBiran.jpg",
+      "imageAlt": "Lee Biran portrait",
+      "imageCredit": "Photo: Meir Cohen / Wikimedia Commons · CC BY-SA 4.0",
+      "words": [
+        {
+          "word": "Lee",
+          "he": "לי",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Biran",
+          "he": "בירן",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "he": "הוא",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "an",
+          "he": "אחד / צורת יידוע",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Israeli",
+          "he": "ישראלי",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "singer",
+          "he": "זמר",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "actor",
+          "he": "שחקן",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "ו־",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "songwriter",
+          "he": "כותב שירים",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "B",
+      "en": "He was born in Kfar Saba, Israel, in 1989.",
+      "he": "הוא נולד בכפר סבא, ישראל, בשנת 1989.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/LeeBiran.jpg/1280px-LeeBiran.jpg",
+      "imageAlt": "Lee Biran portrait",
+      "imageCredit": "Photo: Meir Cohen / Wikimedia Commons · CC BY-SA 4.0",
+      "words": [
+        {
+          "word": "He",
+          "he": "הוא",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "was",
+          "he": "היה / פועל עזר בעבר",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "born",
+          "he": "נולד",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "he": "ב־",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Kfar",
+          "he": "כפר",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Saba",
+          "he": "סבא",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Israel",
+          "he": "ישראל",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "he": "ב־",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "1989",
+          "he": "1989",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "C",
+      "en": "He became famous on the TV show Kochav Nolad when he was young.",
+      "he": "הוא התפרסם בתוכנית הטלוויזיה כוכב נולד כשהיה צעיר.",
+      "image": "https://images.squarespace-cdn.com/content/v1/5e8b6d6a99f8fa3aecc2b2ed/1720519519317-SC4T91QCBR4UCTAZOAJN/Lee%2BBiran%2BIsrael%2BHayom3.jpg",
+      "imageAlt": "Lee Biran with a guitar",
+      "imageCredit": "Photo: Shai Franco · published in Israel Hayom",
+      "words": [
+        {
+          "word": "He",
+          "he": "הוא",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "became",
+          "he": "נעשה / הפך ל־",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "famous",
+          "he": "מפורסם",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "he": "ב־",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "ה־",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "TV",
+          "he": "טלוויזיה",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "show",
+          "he": "תוכנית",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Kochav",
+          "he": "כוכב",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Nolad",
+          "he": "נולד",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "when",
+          "he": "כאשר",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "he",
+          "he": "הוא",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "was",
+          "he": "היה",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "young",
+          "he": "צעיר",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "D",
+      "en": "Lee writes songs and also works on television and on stage.",
+      "he": "לי כותב שירים וגם עובד בטלוויזיה ועל הבמה.",
+      "image": "https://img.mako.co.il/2023/08/17/m613_170823_LeeBiran_3_autoOrient_w.jpg",
+      "imageAlt": "Lee Biran smiling outdoors",
+      "imageCredit": "Photo published by mako",
+      "words": [
+        {
+          "word": "Lee",
+          "he": "לי",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "writes",
+          "he": "כותב",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "songs",
+          "he": "שירים",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "ו־",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "also",
+          "he": "גם",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "works",
+          "he": "עובד",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "he": "ב־",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "television",
+          "he": "טלוויזיה",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "ו־",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "he": "על",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "stage",
+          "he": "במה",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "E",
+      "en": "He prays at a Yemenite synagogue, and religion is important in his life.",
+      "he": "הוא מתפלל בבית כנסת תימני, והדת חשובה בחייו.",
+      "image": "https://img.mako.co.il/2023/08/17/m613_170823_LeeBiran_9_autoOrient_g.jpg",
+      "imageAlt": "Lee Biran outdoors",
+      "imageCredit": "Photo published by mako",
+      "words": [
+        {
+          "word": "He",
+          "he": "הוא",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "prays",
+          "he": "מתפלל",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "at",
+          "he": "ב־",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "he": "אחד / צורת יידוע",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Yemenite",
+          "he": "תימני",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "synagogue",
+          "he": "בית כנסת",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "ו־",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "religion",
+          "he": "דת",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "he": "היא",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "important",
+          "he": "חשובה",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "he": "ב־",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "his",
+          "he": "שלו",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "life",
+          "he": "חיים",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    }
+  ],
+  "pages": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ]
+  ]
+}
