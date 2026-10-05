@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071526">
+<title>Read Along — Word Trail V3</title>
+<style>
+:root{color-scheme:dark;--bg:#071526;--ink:#f4f9ff;--muted:#b4c9da;--cyan:#65e5ff;--marker:#ffe270}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 90% 8%,#1a5a7755,transparent 50%),radial-gradient(ellipse at 7% 93%,#423c8340,transparent 45%),var(--bg);color:var(--ink);font-family:Arial,sans-serif}
+.toolbar{height:66px;display:flex;align-items:center;gap:12px;padding:10px 18px;background:#071526ec;border-bottom:1px solid #ffffff18;direction:ltr}
+.toolbar strong{font-size:15px}.toolbar small{color:var(--muted)}
+button{font:700 15px Arial,sans-serif;color:var(--ink);background:#122c44;border:1px solid #41647b;border-radius:12px;padding:9px 14px;cursor:pointer}
+#play{margin-left:auto;background:#174256;border-color:#5d98ac}
+main{padding:18px 12px 34px}
+.sheet{max-width:1000px;margin:auto;border:1px solid #36566e;border-radius:26px;padding:26px 5%;background:linear-gradient(120deg,#122d43ed,#0c1d33f2);box-shadow:0 22px 60px #0004}
+.kicker{font-size:12px;color:var(--cyan);font-weight:700;direction:ltr;text-align:left;margin-bottom:28px}
+.reading{direction:ltr;text-align:left;font-size:clamp(30px,5vw,52px);font-weight:800;line-height:2.05;margin:0;overflow-wrap:normal;word-break:normal}
+.word{position:relative;display:inline-block;padding:0 .02em;margin:0 .025em;border-radius:5px;transition:background .12s,color .12s}
+.word.active{color:#101d2b;background:var(--marker);box-shadow:0 0 0 2px var(--marker)}
+.gloss{position:absolute;left:50%;bottom:calc(100% + 4px);transform:translateX(-50%);direction:rtl;white-space:nowrap;font-size:.36em;line-height:1;font-family:Arial,sans-serif;font-weight:700;color:#ffe270;background:#071526;border:1px solid #ffe27066;border-radius:7px;padding:4px 7px;opacity:0;pointer-events:none;transition:opacity .12s}
+.word.active .gloss{opacity:1}
+.note{margin:28px 0 0;color:var(--muted);font-size:14px;line-height:1.55}
+.note b{color:var(--ink)}
+.legend{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.chip{font-size:13px;border:1px solid #41647b;border-radius:999px;padding:6px 9px;color:var(--muted)}
+@media(max-width:600px){
+ .toolbar{padding:8px 10px}.toolbar small{display:none}
+ main{padding:10px 8px}.sheet{padding:22px 17px;border-radius:20px}
+ .reading{font-size:clamp(27px,7.4vw,34px);line-height:2.15}
+ .gloss{font-size:.42em;padding:3px 5px}
+}
+</style>
+</head>
+<body>
+<header class="toolbar">
+  <div><strong>אב־טיפוס V3</strong><br><small>לא מחובר למנוע המרכזי</small></div>
+  <button id="reset">↺ התחלה</button>
+  <button id="play">❚❚ השהיה</button>
+</header>
+<main>
+  <article class="sheet">
+    <div class="kicker">READ ALONG · WORD TRAIL V3</div>
+    <p id="reading" class="reading" lang="en"></p>
+    <p class="note"><b>V3 לבדיקה:</b> הצהוב נמצא רק על המילה הפעילה. ברגע שהמרקר עובר למילה הבאה, התרגום הקודם מתחיל אנימציית דעיכה עצמאית של 4.5 שניות ונשאר במקומו עד שהוא נעלם לחלוטין.</p>
+    <div class="legend"><span class="chip">ללא שינוי בטקסט העברי המלא</span><span class="chip">מתאים למובייל</span><span class="chip">התרגום כבר קיים ב־content.json</span></div>
+  </article>
+</main>
+<script>
+const words=[
+ ['The','ה'],['Greenhouse','החממה'],['is','היא'],['a',''],['popular','פופולרית'],['Israeli','ישראלית'],['television','טלוויזיה'],['series','סדרה'],['about','על'],['teenagers','בני נוער'],['who','ש'],['study','לומדים'],['at','ב'],['a',''],['special','מיוחד'],['school.','בית ספר']
+];
+const box=document.getElementById('reading');
+box.innerHTML=words.map((w,i)=>'<span class="word" data-i="'+i+'">'+w[0]+'<span class="gloss">'+(w[1]||'—')+'</span></span>').join(' ');
+let i=0,playing=true,timer;
+const fadeTimers=new Map();
+function paint(){
+ const prev=document.querySelector('.word.active');
+ if(prev){
+   prev.classList.remove('active');
+   prev.classList.remove('fading');
+   void prev.offsetWidth;
+   prev.classList.add('fading');
+   clearTimeout(fadeTimers.get(prev));
+   fadeTimers.set(prev,setTimeout(()=>{
+     prev.classList.remove('fading');
+     fadeTimers.delete(prev);
+   },4600));
+ }
+ const el=document.querySelector('.word[data-i="'+i+'"]');
+ if(el){
+   clearTimeout(fadeTimers.get(el));
+   fadeTimers.delete(el);
+   el.classList.remove('fading');
+   el.classList.add('active');
+   el.scrollIntoView({block:'nearest',inline:'nearest'});
+ }
+}
+function tick(){if(!playing)return;i=(i+1)%words.length;paint();}
+function start(){clearInterval(timer);timer=setInterval(tick,820);}
+document.getElementById('play').onclick=()=>{
+ playing=!playing;
+ document.getElementById('play').textContent=playing?'❚❚ השהיה':'▶ המשך';
+};
+document.getElementById('reset').onclick=()=>{fadeTimers.forEach(t=>clearTimeout(t));fadeTimers.clear();document.querySelectorAll('.word').forEach(x=>x.classList.remove('active','fading'));i=0;playing=true;document.getElementById('play').textContent='❚❚ השהיה';paint();};
+paint();start();
+</script>
+</body>
+</html>
