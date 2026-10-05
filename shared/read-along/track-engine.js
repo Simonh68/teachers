@@ -75,8 +75,8 @@ function renderGlossTrail(){
   const word=document.querySelector(`[data-en="${si}:${wi}"]`);if(!word)continue;
   const r=word.getBoundingClientRect(),g=document.createElement('div');
   g.className='trail-gloss '+cls;g.textContent=he;
-  g.style.left=(r.left-sheetRect.left+r.width/2)+'px';
-  g.style.top=(r.top-sheetRect.top-2)+'px';
+  g.style.left=(r.left-hostRect.left+r.width/2)+'px';
+  g.style.top=(r.top-hostRect.top-2)+'px';
   layer.appendChild(g);
  }
 }
