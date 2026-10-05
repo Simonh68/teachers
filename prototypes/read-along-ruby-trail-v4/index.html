@@ -19,7 +19,7 @@ main{padding:18px 12px 34px}
 .reading{direction:ltr;text-align:left;font-size:clamp(30px,5vw,52px);font-weight:800;line-height:2.2;margin:0;overflow-wrap:normal;word-break:normal}
 ruby.word{ruby-position:over;ruby-align:center;white-space:nowrap}
 rb{display:inline-block;padding:0 .04em;border-radius:5px}
-ruby.word.active rb{color:#101d2b;background:var(--marker);box-shadow:0 0 0 2px var(--marker)}
+ruby.word.active rb{color:var(--marker);background:transparent;box-shadow:none;text-shadow:0 0 10px rgba(255,226,112,.18)}
 rt.gloss{
  direction:rtl;
  font-family:Arial,sans-serif;
@@ -56,7 +56,7 @@ ruby.word.active rt.gloss{opacity:1}
   <article class="sheet">
     <div class="kicker">READ ALONG · RUBY TRAIL V4</div>
     <p id="reading" class="reading" lang="en"></p>
-    <p class="note"><b>V4:</b> התרגום יושב בשטח בין־שורי אמיתי מעל המילה ולכן לא אמור לדרוס שורה אחרת. כשהמרקר מתקדם, התרגום הקודם מתחיל מיד להתפוגג במשך 4.5 שניות באנימציית JavaScript עצמאית.</p>
+    <p class="note"><b>V4:</b> המילה הפעילה מסומנת בעדינות באמצעות אותיות צהובות בלבד, בלי בלוק רקע. התרגום יושב בשטח בין־שורי אמיתי מעל המילה, וכשהמרקר מתקדם הוא דועך במשך 4.5 שניות.</p>
     <div class="legend"><span class="chip">Ruby אמיתי</span><span class="chip">אין absolute positioning</span><span class="chip">Fade 4.5s ב־Web Animations API</span></div>
   </article>
 </main>
