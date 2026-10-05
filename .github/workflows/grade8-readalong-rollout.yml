@@ -1,45 +1,75 @@
 name: Grade 8 approved bilingual Read Along
 on:
   push:
-    branches: [codex/grade8-bilingual-readalong-20261005]
-    paths: [.github/workflows/grade8-readalong-rollout.yml]
+    branches: [main, codex/grade8-bilingual-readalong-20261005]
+    paths:
+      - '.github/workflows/grade8-readalong-rollout.yml'
+      - 'tools/grade8-readalong/**'
+      - 'grade8/read-along/bootstrap.js'
+      - 'grade8/read-along/reader.js'
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: grade8-readalong-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
-  inspect:
+  verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      - name: Capture existing sources and audio for regression testing
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply approved sample and preserve curriculum
+        if: github.ref != 'refs/heads/main'
+        run: python -u tools/grade8-readalong/build.py
+      - name: Check syntax
+        run: |
+          node --check grade8/read-along/bootstrap.js
+          node --check grade8/read-along/reader.js
+          node --check grade8/read-along/phrase-player.js
+          python -m py_compile tools/grade8-readalong/*.py
+      - name: Install browser test tools
+        run: |
+          python -m pip install --quiet playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - name: Verify every bilingual page, touch navigation, source preservation and real audio
+        run: python -u tools/grade8-readalong/verify.py
+      - name: Preserve verified output on isolated branch only
+        if: github.ref != 'refs/heads/main'
+        env:
+          TARGET_BRANCH: ${{ github.ref_name }}
+        run: |
+          git config user.name 'Teachers Lesson Builder'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add grade8/read-along grade8/unit-1/index.html grade8/unit-1-reading-pilot/index.html PROJECT_CHARTER.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Apply approved Grade 8 bilingual Read Along after full source, mobile, marker and audio QA'
+            git pull --rebase origin "$TARGET_BRANCH"
+            git push origin "HEAD:$TARGET_BRANCH"
+          fi
+      - name: Verify actual public deployment and every narration part
+        if: github.ref == 'refs/heads/main'
+        run: python -u tools/grade8-readalong/live.py
+      - name: Preserve screenshots and test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: grade8-bilingual-readalong-qa
+          path: /tmp/grade8-readalong-qa/
+          if-no-files-found: warn
+      - name: Summarize test results
+        if: always()
         run: |
           python - <<'PY'
+          import os
           from pathlib import Path
-          import json,re,shutil,hashlib,subprocess
-          root=Path.cwd();out=Path('/tmp/grade8-readalong-source');out.mkdir()
-          paths=[Path('PROJECT_CHARTER.md'),Path('VOCABULARY_STANDARDS.md'),Path('index.html')]
-          for folder in ['grade8','tools/grade8-exam','.github/workflows']:
-              paths += [p for p in Path(folder).rglob('*') if p.is_file() and p.suffix in ['.js','.html','.css','.json','.md','.py','.yml']]
-          paths += list(Path('grade8/unit-1-reading-pilot/audio').glob('*.wav'))
-          hashes={}
-          for p in paths:
-              target=out/p;target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(p,target)
-              hashes[str(p)]=hashlib.sha256(p.read_bytes()).hexdigest()
-          (out/'source-hashes.json').write_text(json.dumps(hashes,indent=2))
-          (out/'SOURCE_COMMIT.txt').write_text(subprocess.check_output(['git','rev-parse','HEAD'],text=True))
-          inventory=[]
-          for p in Path('grade8').rglob('*.html'):
-              text=p.read_text()
-              if re.search(r'read[ -]?(along|alone)|view=chunks|view=sentences',text,re.I):inventory.append(str(p))
-          (out/'reading-inventory.json').write_text(json.dumps(inventory,indent=2))
-          print('READING INVENTORY',json.dumps(inventory))
-          d=json.JSONDecoder().raw_decode(Path('grade8/unit-1/unit-data.js').read_text().split('=',1)[1].lstrip())[0]
-          for s in d['story']:print(s['number'],s['plain'],'|',s['he'])
-          print('PAGES',d.get('pages'))
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+              for name in ['qa-report.json','live-report.json']:
+                  p=Path('/tmp/grade8-readalong-qa')/name
+                  if p.exists():f.write('## '+name+'\n```json\n'+p.read_text()+'\n```\n')
           PY
-      - uses: actions/upload-artifact@v4
-        with:
-          name: grade8-readalong-source
-          path: /tmp/grade8-readalong-source/
-          include-hidden-files: true
