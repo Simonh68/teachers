@@ -69,3 +69,15 @@
  .with-photo .reading-photo{height:108px}
  .with-photo .reading-photo img{height:88px}
 }
+
+/* Active-word Hebrew gloss: follows the existing yellow Read Along marker. */
+.reading [data-en]{position:relative;display:inline-block}
+.reading [data-en] .active-gloss{
+ position:absolute;left:50%;bottom:calc(100% + 4px);transform:translateX(-50%);
+ direction:rtl;white-space:nowrap;z-index:4;pointer-events:none;
+ font-family:Heebo,Arial,sans-serif;font-size:.36em;font-weight:700;line-height:1;
+ color:var(--marker);background:var(--bg);border:1px solid #ffe27066;border-radius:7px;
+ padding:4px 7px;opacity:0;
+}
+.reading [data-en].marker .active-gloss{opacity:1}
+@media(max-width:650px){.reading [data-en] .active-gloss{font-size:.42em;padding:3px 5px}}
