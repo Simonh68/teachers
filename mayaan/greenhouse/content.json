@@ -1,5 +1,5 @@
 {
-  "version": "20261005-mayaan-v1",
+  "version": "20261005-mayaan-v1-wordtips1",
   "title": "The Greenhouse",
   "sentences": [
     {
@@ -13,61 +13,61 @@
       "words": [
         {
           "word": "The",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "Greenhouse",
-          "he": "",
+          "he": "החממה",
           "start": 0,
           "end": 0
         },
         {
           "word": "is",
-          "he": "",
+          "he": "הוא / היא",
           "start": 0,
           "end": 0
         },
         {
           "word": "an",
-          "he": "",
+          "he": "אחד / צורת יידוע",
           "start": 0,
           "end": 0
         },
         {
           "word": "Israeli",
-          "he": "",
+          "he": "ישראלי",
           "start": 0,
           "end": 0
         },
         {
           "word": "television",
-          "he": "",
+          "he": "טלוויזיה",
           "start": 0,
           "end": 0
         },
         {
           "word": "series",
-          "he": "",
+          "he": "סדרה",
           "start": 0,
           "end": 0
         },
         {
           "word": "for",
-          "he": "",
+          "he": "עבור / בשביל",
           "start": 0,
           "end": 0
         },
         {
           "word": "young",
-          "he": "",
+          "he": "צעיר / צעירים",
           "start": 0,
           "end": 0
         },
         {
           "word": "people",
-          "he": "",
+          "he": "אנשים",
           "start": 0,
           "end": 0
         }
@@ -84,37 +84,37 @@
       "words": [
         {
           "word": "It",
-          "he": "",
+          "he": "זה / אותו",
           "start": 0,
           "end": 0
         },
         {
           "word": "was",
-          "he": "",
+          "he": "היה / הייתה",
           "start": 0,
           "end": 0
         },
         {
           "word": "created",
-          "he": "",
+          "he": "נוצר / יצר",
           "start": 0,
           "end": 0
         },
         {
           "word": "by",
-          "he": "",
+          "he": "על ידי",
           "start": 0,
           "end": 0
         },
         {
           "word": "Giora",
-          "he": "",
+          "he": "גיורא",
           "start": 0,
           "end": 0
         },
         {
           "word": "Chamizer",
-          "he": "",
+          "he": "חמיצר",
           "start": 0,
           "end": 0
         }
@@ -131,67 +131,67 @@
       "words": [
         {
           "word": "The",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "story",
-          "he": "",
+          "he": "סיפור",
           "start": 0,
           "end": 0
         },
         {
           "word": "takes",
-          "he": "",
+          "he": "מתרחש / לוקח",
           "start": 0,
           "end": 0
         },
         {
           "word": "place",
-          "he": "",
+          "he": "מקום",
           "start": 0,
           "end": 0
         },
         {
           "word": "at",
-          "he": "",
+          "he": "ב־ / אצל",
           "start": 0,
           "end": 0
         },
         {
           "word": "a",
-          "he": "",
+          "he": "אחד / צורת יידוע",
           "start": 0,
           "end": 0
         },
         {
           "word": "special",
-          "he": "",
+          "he": "מיוחד",
           "start": 0,
           "end": 0
         },
         {
           "word": "school",
-          "he": "",
+          "he": "בית ספר",
           "start": 0,
           "end": 0
         },
         {
           "word": "called",
-          "he": "",
+          "he": "שנקרא",
           "start": 0,
           "end": 0
         },
         {
           "word": "The",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "Greenhouse",
-          "he": "",
+          "he": "החממה",
           "start": 0,
           "end": 0
         }
@@ -208,37 +208,37 @@
       "words": [
         {
           "word": "The",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "students",
-          "he": "",
+          "he": "תלמידים",
           "start": 0,
           "end": 0
         },
         {
           "word": "live",
-          "he": "",
+          "he": "גרים / חיים",
           "start": 0,
           "end": 0
         },
         {
           "word": "and",
-          "he": "",
+          "he": "ו־",
           "start": 0,
           "end": 0
         },
         {
           "word": "study",
-          "he": "",
+          "he": "לומדים",
           "start": 0,
           "end": 0
         },
         {
           "word": "there",
-          "he": "",
+          "he": "שם",
           "start": 0,
           "end": 0
         }
@@ -255,67 +255,67 @@
       "words": [
         {
           "word": "They",
-          "he": "",
+          "he": "הם",
           "start": 0,
           "end": 0
         },
         {
           "word": "are",
-          "he": "",
+          "he": "הם / נמצאים",
           "start": 0,
           "end": 0
         },
         {
           "word": "divided",
-          "he": "",
+          "he": "מחולקים",
           "start": 0,
           "end": 0
         },
         {
           "word": "into",
-          "he": "",
+          "he": "לתוך",
           "start": 0,
           "end": 0
         },
         {
           "word": "two",
-          "he": "",
+          "he": "שתי / שני",
           "start": 0,
           "end": 0
         },
         {
           "word": "groups",
-          "he": "",
+          "he": "קבוצות",
           "start": 0,
           "end": 0
         },
         {
           "word": "the",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "Eagles",
-          "he": "",
+          "he": "הנשרים",
           "start": 0,
           "end": 0
         },
         {
           "word": "and",
-          "he": "",
+          "he": "ו־",
           "start": 0,
           "end": 0
         },
         {
           "word": "the",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "Ravens",
-          "he": "",
+          "he": "העורבים",
           "start": 0,
           "end": 0
         }
@@ -332,67 +332,67 @@
       "words": [
         {
           "word": "At",
-          "he": "",
+          "he": "ב־ / אצל",
           "start": 0,
           "end": 0
         },
         {
           "word": "first",
-          "he": "",
+          "he": "ראשון",
           "start": 0,
           "end": 0
         },
         {
           "word": "the",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "groups",
-          "he": "",
+          "he": "קבוצות",
           "start": 0,
           "end": 0
         },
         {
           "word": "compete",
-          "he": "",
+          "he": "מתחרים",
           "start": 0,
           "end": 0
         },
         {
           "word": "with",
-          "he": "",
+          "he": "עם",
           "start": 0,
           "end": 0
         },
         {
           "word": "each",
-          "he": "",
+          "he": "כל אחד",
           "start": 0,
           "end": 0
         },
         {
           "word": "other",
-          "he": "",
+          "he": "אחר",
           "start": 0,
           "end": 0
         },
         {
           "word": "in",
-          "he": "",
+          "he": "ב־",
           "start": 0,
           "end": 0
         },
         {
           "word": "school",
-          "he": "",
+          "he": "בית ספר",
           "start": 0,
           "end": 0
         },
         {
           "word": "challenges",
-          "he": "",
+          "he": "אתגרים",
           "start": 0,
           "end": 0
         }
@@ -409,61 +409,61 @@
       "words": [
         {
           "word": "Soon",
-          "he": "",
+          "he": "במהרה",
           "start": 0,
           "end": 0
         },
         {
           "word": "the",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "students",
-          "he": "",
+          "he": "תלמידים",
           "start": 0,
           "end": 0
         },
         {
           "word": "discover",
-          "he": "",
+          "he": "מגלים",
           "start": 0,
           "end": 0
         },
         {
           "word": "secrets",
-          "he": "",
+          "he": "סודות",
           "start": 0,
           "end": 0
         },
         {
           "word": "and",
-          "he": "",
+          "he": "ו־",
           "start": 0,
           "end": 0
         },
         {
           "word": "dangerous",
-          "he": "",
+          "he": "מסוכן",
           "start": 0,
           "end": 0
         },
         {
           "word": "plans",
-          "he": "",
+          "he": "תוכניות",
           "start": 0,
           "end": 0
         },
         {
           "word": "around",
-          "he": "",
+          "he": "מסביב",
           "start": 0,
           "end": 0
         },
         {
           "word": "them",
-          "he": "",
+          "he": "אותם / להם",
           "start": 0,
           "end": 0
         }
@@ -480,67 +480,67 @@
       "words": [
         {
           "word": "Ella-Lee",
-          "he": "",
+          "he": "אלה-לי",
           "start": 0,
           "end": 0
         },
         {
           "word": "and",
-          "he": "",
+          "he": "ו־",
           "start": 0,
           "end": 0
         },
         {
           "word": "her",
-          "he": "",
+          "he": "שלה",
           "start": 0,
           "end": 0
         },
         {
           "word": "brother",
-          "he": "",
+          "he": "אח",
           "start": 0,
           "end": 0
         },
         {
           "word": "Alfie",
-          "he": "",
+          "he": "אלפי",
           "start": 0,
           "end": 0
         },
         {
           "word": "are",
-          "he": "",
+          "he": "הם / נמצאים",
           "start": 0,
           "end": 0
         },
         {
           "word": "important",
-          "he": "",
+          "he": "חשוב",
           "start": 0,
           "end": 0
         },
         {
           "word": "characters",
-          "he": "",
+          "he": "דמויות",
           "start": 0,
           "end": 0
         },
         {
           "word": "in",
-          "he": "",
+          "he": "ב־",
           "start": 0,
           "end": 0
         },
         {
           "word": "the",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "story",
-          "he": "",
+          "he": "סיפור",
           "start": 0,
           "end": 0
         }
@@ -557,67 +557,67 @@
       "words": [
         {
           "word": "Yiftach",
-          "he": "",
+          "he": "יפתח",
           "start": 0,
           "end": 0
         },
         {
           "word": "played",
-          "he": "",
+          "he": "שיחק",
           "start": 0,
           "end": 0
         },
         {
           "word": "by",
-          "he": "",
+          "he": "על ידי",
           "start": 0,
           "end": 0
         },
         {
           "word": "Lee",
-          "he": "",
+          "he": "לי",
           "start": 0,
           "end": 0
         },
         {
           "word": "Birron",
-          "he": "",
+          "he": "בירון",
           "start": 0,
           "end": 0
         },
         {
           "word": "is",
-          "he": "",
+          "he": "הוא / היא",
           "start": 0,
           "end": 0
         },
         {
           "word": "the",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "captain",
-          "he": "",
+          "he": "קפטן",
           "start": 0,
           "end": 0
         },
         {
           "word": "of",
-          "he": "",
+          "he": "של",
           "start": 0,
           "end": 0
         },
         {
           "word": "the",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "Ravens",
-          "he": "",
+          "he": "העורבים",
           "start": 0,
           "end": 0
         }
@@ -634,55 +634,55 @@
       "words": [
         {
           "word": "The",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "students",
-          "he": "",
+          "he": "תלמידים",
           "start": 0,
           "end": 0
         },
         {
           "word": "learn",
-          "he": "",
+          "he": "ללמוד",
           "start": 0,
           "end": 0
         },
         {
           "word": "about",
-          "he": "",
+          "he": "על / אודות",
           "start": 0,
           "end": 0
         },
         {
           "word": "friendship",
-          "he": "",
+          "he": "חברות",
           "start": 0,
           "end": 0
         },
         {
           "word": "trust",
-          "he": "",
+          "he": "אמון",
           "start": 0,
           "end": 0
         },
         {
           "word": "courage",
-          "he": "",
+          "he": "אומץ",
           "start": 0,
           "end": 0
         },
         {
           "word": "and",
-          "he": "",
+          "he": "ו־",
           "start": 0,
           "end": 0
         },
         {
           "word": "teamwork",
-          "he": "",
+          "he": "עבודת צוות",
           "start": 0,
           "end": 0
         }
@@ -699,61 +699,61 @@
       "words": [
         {
           "word": "The",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "series",
-          "he": "",
+          "he": "סדרה",
           "start": 0,
           "end": 0
         },
         {
           "word": "mixes",
-          "he": "",
+          "he": "משלבת",
           "start": 0,
           "end": 0
         },
         {
           "word": "school",
-          "he": "",
+          "he": "בית ספר",
           "start": 0,
           "end": 0
         },
         {
           "word": "life",
-          "he": "",
+          "he": "חיים",
           "start": 0,
           "end": 0
         },
         {
           "word": "romance",
-          "he": "",
+          "he": "אהבה / רומנטיקה",
           "start": 0,
           "end": 0
         },
         {
           "word": "sport",
-          "he": "",
+          "he": "ספורט",
           "start": 0,
           "end": 0
         },
         {
           "word": "mystery",
-          "he": "",
+          "he": "מסתורין",
           "start": 0,
           "end": 0
         },
         {
           "word": "and",
-          "he": "",
+          "he": "ו־",
           "start": 0,
           "end": 0
         },
         {
           "word": "adventure",
-          "he": "",
+          "he": "הרפתקה",
           "start": 0,
           "end": 0
         }
@@ -770,61 +770,61 @@
       "words": [
         {
           "word": "The",
-          "he": "",
+          "he": "ה־",
           "start": 0,
           "end": 0
         },
         {
           "word": "Greenhouse",
-          "he": "",
+          "he": "החממה",
           "start": 0,
           "end": 0
         },
         {
           "word": "became",
-          "he": "",
+          "he": "הפך / נעשה",
           "start": 0,
           "end": 0
         },
         {
           "word": "very",
-          "he": "",
+          "he": "מאוד",
           "start": 0,
           "end": 0
         },
         {
           "word": "popular",
-          "he": "",
+          "he": "פופולרי",
           "start": 0,
           "end": 0
         },
         {
           "word": "with",
-          "he": "",
+          "he": "עם",
           "start": 0,
           "end": 0
         },
         {
           "word": "Israeli",
-          "he": "",
+          "he": "ישראלי",
           "start": 0,
           "end": 0
         },
         {
           "word": "children",
-          "he": "",
+          "he": "ילדים",
           "start": 0,
           "end": 0
         },
         {
           "word": "and",
-          "he": "",
+          "he": "ו־",
           "start": 0,
           "end": 0
         },
         {
           "word": "teenagers",
-          "he": "",
+          "he": "בני נוער",
           "start": 0,
           "end": 0
         }
@@ -841,31 +841,31 @@
       "words": [
         {
           "word": "It",
-          "he": "",
+          "he": "זה / אותו",
           "start": 0,
           "end": 0
         },
         {
           "word": "has",
-          "he": "",
+          "he": "יש לו / עשה",
           "start": 0,
           "end": 0
         },
         {
           "word": "many",
-          "he": "",
+          "he": "רבים",
           "start": 0,
           "end": 0
         },
         {
           "word": "exciting",
-          "he": "",
+          "he": "מרגש",
           "start": 0,
           "end": 0
         },
         {
           "word": "moments",
-          "he": "",
+          "he": "רגעים",
           "start": 0,
           "end": 0
         }
