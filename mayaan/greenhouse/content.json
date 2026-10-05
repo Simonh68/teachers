@@ -1,0 +1,916 @@
+{
+  "version": "20261005-mayaan-v1",
+  "title": "The Greenhouse",
+  "sentences": [
+    {
+      "id": 1,
+      "paragraph": "A",
+      "en": "The Greenhouse is an Israeli television series for young people.",
+      "he": "החממה היא סדרת טלוויזיה ישראלית לצעירים.",
+      "image": "assets/greenhouse-1.jpg",
+      "imageAlt": "The Greenhouse cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "The",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Greenhouse",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "an",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Israeli",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "television",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "series",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "for",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "young",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "people",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "B",
+      "en": "It was created by Giora Chamizer.",
+      "he": "היא נוצרה על ידי גיורא חמיצר.",
+      "image": "assets/greenhouse-2.jpg",
+      "imageAlt": "The Greenhouse cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "It",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "was",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "created",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "by",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Giora",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Chamizer",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "C",
+      "en": "The story takes place at a special school called The Greenhouse.",
+      "he": "הסיפור מתרחש בבית ספר מיוחד שנקרא החממה.",
+      "image": "assets/greenhouse-1.jpg",
+      "imageAlt": "The Greenhouse cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "The",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "story",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "takes",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "place",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "at",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "special",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "school",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "called",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "The",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Greenhouse",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "D",
+      "en": "The students live and study there.",
+      "he": "התלמידים גרים ולומדים שם.",
+      "image": "assets/greenhouse-2.jpg",
+      "imageAlt": "The Greenhouse cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "The",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "students",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "live",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "study",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "there",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "E",
+      "en": "They are divided into two groups, the Eagles and the Ravens.",
+      "he": "הם מחולקים לשתי קבוצות, הנשרים והעורבים.",
+      "image": "assets/greenhouse-1.jpg",
+      "imageAlt": "The Greenhouse cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "They",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "are",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "divided",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "into",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "two",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "groups",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Eagles",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Ravens",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "F",
+      "en": "At first, the groups compete with each other in school challenges.",
+      "he": "בהתחלה הקבוצות מתחרות זו בזו באתגרים של בית הספר.",
+      "image": "assets/greenhouse-2.jpg",
+      "imageAlt": "The Greenhouse cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "At",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "first",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "groups",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "compete",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "each",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "other",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "school",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "challenges",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "G",
+      "en": "Soon, the students discover secrets and dangerous plans around them.",
+      "he": "במהרה התלמידים מגלים סודות ותוכניות מסוכנות סביבם.",
+      "image": "assets/greenhouse-1.jpg",
+      "imageAlt": "The Greenhouse cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "Soon",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "students",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "discover",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "secrets",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "dangerous",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "plans",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "around",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "them",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "H",
+      "en": "Ella-Lee and her brother Alfie are important characters in the story.",
+      "he": "אלה-לי ואחיה אלפי הם דמויות חשובות בסיפור.",
+      "image": "assets/greenhouse-2.jpg",
+      "imageAlt": "The Greenhouse cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "Ella-Lee",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "her",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "brother",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Alfie",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "are",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "important",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "characters",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "story",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "I",
+      "en": "Yiftach, played by Lee Birron, is the captain of the Ravens.",
+      "he": "יפתח, שאותו משחק לי בירון, הוא קפטן העורבים.",
+      "image": "assets/greenhouse-1.jpg",
+      "imageAlt": "The Greenhouse cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "Yiftach",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "played",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "by",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lee",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Birron",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "captain",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Ravens",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "J",
+      "en": "The students learn about friendship, trust, courage, and teamwork.",
+      "he": "התלמידים לומדים על חברות, אמון, אומץ ועבודת צוות.",
+      "image": "assets/greenhouse-2.jpg",
+      "imageAlt": "The Greenhouse cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "The",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "students",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "learn",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "about",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "friendship",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "trust",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "courage",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "teamwork",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "K",
+      "en": "The series mixes school life, romance, sport, mystery, and adventure.",
+      "he": "הסדרה משלבת חיי בית ספר, אהבה, ספורט, מסתורין והרפתקאות.",
+      "image": "assets/greenhouse-1.jpg",
+      "imageAlt": "The Greenhouse cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "The",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "series",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "mixes",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "school",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "life",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "romance",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sport",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "mystery",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "adventure",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "L",
+      "en": "The Greenhouse became very popular with Israeli children and teenagers.",
+      "he": "החממה הפכה לפופולרית מאוד בקרב ילדים ובני נוער בישראל.",
+      "image": "assets/greenhouse-2.jpg",
+      "imageAlt": "The Greenhouse cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "The",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Greenhouse",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "became",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "very",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "popular",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Israeli",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "children",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "teenagers",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "M",
+      "en": "It has many exciting moments.",
+      "he": "יש בה רגעים מרגשים רבים.",
+      "image": "assets/greenhouse-1.jpg",
+      "imageAlt": "The Greenhouse cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "It",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "has",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "many",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "exciting",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "moments",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    }
+  ],
+  "pages": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ],
+    [
+      5
+    ],
+    [
+      6
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [
+      9
+    ],
+    [
+      10
+    ],
+    [
+      11
+    ],
+    [
+      12
+    ]
+  ]
+}
