@@ -1,0 +1,45 @@
+name: Grade 8 approved bilingual Read Along
+on:
+  push:
+    branches: [codex/grade8-bilingual-readalong-20261005]
+    paths: [.github/workflows/grade8-readalong-rollout.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Capture existing sources and audio for regression testing
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,re,shutil,hashlib,subprocess
+          root=Path.cwd();out=Path('/tmp/grade8-readalong-source');out.mkdir()
+          paths=[Path('PROJECT_CHARTER.md'),Path('VOCABULARY_STANDARDS.md'),Path('index.html')]
+          for folder in ['grade8','tools/grade8-exam','.github/workflows']:
+              paths += [p for p in Path(folder).rglob('*') if p.is_file() and p.suffix in ['.js','.html','.css','.json','.md','.py','.yml']]
+          paths += list(Path('grade8/unit-1-reading-pilot/audio').glob('*.wav'))
+          hashes={}
+          for p in paths:
+              target=out/p;target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(p,target)
+              hashes[str(p)]=hashlib.sha256(p.read_bytes()).hexdigest()
+          (out/'source-hashes.json').write_text(json.dumps(hashes,indent=2))
+          (out/'SOURCE_COMMIT.txt').write_text(subprocess.check_output(['git','rev-parse','HEAD'],text=True))
+          inventory=[]
+          for p in Path('grade8').rglob('*.html'):
+              text=p.read_text()
+              if re.search(r'read[ -]?(along|alone)|view=chunks|view=sentences',text,re.I):inventory.append(str(p))
+          (out/'reading-inventory.json').write_text(json.dumps(inventory,indent=2))
+          print('READING INVENTORY',json.dumps(inventory))
+          d=json.JSONDecoder().raw_decode(Path('grade8/unit-1/unit-data.js').read_text().split('=',1)[1].lstrip())[0]
+          for s in d['story']:print(s['number'],s['plain'],'|',s['he'])
+          print('PAGES',d.get('pages'))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: grade8-readalong-source
+          path: /tmp/grade8-readalong-source/
+          include-hidden-files: true
