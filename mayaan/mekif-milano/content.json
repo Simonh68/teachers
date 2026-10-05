@@ -1,0 +1,896 @@
+{
+  "version": "20261005-mayaan-v1",
+  "title": "Mekif Milano",
+  "sentences": [
+    {
+      "id": 1,
+      "paragraph": "A",
+      "en": "Mekif Milano is an Israeli teen television series.",
+      "he": "מקיף מילאנו היא סדרת טלוויזיה ישראלית לבני נוער.",
+      "image": "assets/mekif-milano-1.jpg",
+      "imageAlt": "Mekif Milano cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "Mekif",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Milano",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "an",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Israeli",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "teen",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "television",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "series",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "B",
+      "en": "The story happens in a high school called Mekif Milano.",
+      "he": "הסיפור מתרחש בבית ספר תיכון שנקרא מקיף מילאנו.",
+      "image": "assets/mekif-milano-2.jpg",
+      "imageAlt": "Mekif Milano cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "The",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "story",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "happens",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "high",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "school",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "called",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Mekif",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Milano",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "C",
+      "en": "At the school, some students study car mechanics.",
+      "he": "בבית הספר חלק מהתלמידים לומדים מכונאות רכב.",
+      "image": "assets/mekif-milano-1.jpg",
+      "imageAlt": "Mekif Milano cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "At",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "school",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "some",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "students",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "study",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "car",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "mechanics",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "D",
+      "en": "A fashion program from another arts school joins them.",
+      "he": "מגמת אופנה מבית ספר אחר לאמנויות מצטרפת אליהם.",
+      "image": "assets/mekif-milano-2.jpg",
+      "imageAlt": "Mekif Milano cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "A",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fashion",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "program",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "from",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "another",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "arts",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "school",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "joins",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "them",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "E",
+      "en": "The two groups are very different, and this creates funny and difficult situations.",
+      "he": "שתי הקבוצות שונות מאוד, וזה יוצר מצבים מצחיקים וקשים.",
+      "image": "assets/mekif-milano-1.jpg",
+      "imageAlt": "Mekif Milano cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "The",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "two",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "groups",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "are",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "very",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "different",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "this",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "creates",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "funny",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "difficult",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "situations",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "F",
+      "en": "The students compete, argue, make friends, and sometimes fall in love.",
+      "he": "התלמידים מתחרים, מתווכחים, מתחברים ולפעמים גם מתאהבים.",
+      "image": "assets/mekif-milano-2.jpg",
+      "imageAlt": "Mekif Milano cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "The",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "students",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "compete",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "argue",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "make",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "friends",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sometimes",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fall",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "love",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "G",
+      "en": "Omer is one of the main students in the story.",
+      "he": "עומר הוא אחד התלמידים המרכזיים בסיפור.",
+      "image": "assets/mekif-milano-1.jpg",
+      "imageAlt": "Mekif Milano cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "Omer",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "one",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "main",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "students",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "story",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "H",
+      "en": "Nori, his childhood friend, returns and changes his life.",
+      "he": "נורי, חברת הילדות שלו, חוזרת ומשנה את חייו.",
+      "image": "assets/mekif-milano-2.jpg",
+      "imageAlt": "Mekif Milano cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "Nori",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "his",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "childhood",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "friend",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "returns",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "changes",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "his",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "life",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "I",
+      "en": "Other students have their own dreams and problems.",
+      "he": "לתלמידים אחרים יש חלומות ובעיות משלהם.",
+      "image": "assets/mekif-milano-1.jpg",
+      "imageAlt": "Mekif Milano cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "Other",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "students",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "have",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "their",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "own",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "dreams",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "problems",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "J",
+      "en": "Fashion, cars, friendship, family, and school are important parts of the series.",
+      "he": "אופנה, מכוניות, חברות, משפחה ובית ספר הם חלקים חשובים בסדרה.",
+      "image": "assets/mekif-milano-2.jpg",
+      "imageAlt": "Mekif Milano cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "Fashion",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "cars",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "friendship",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "family",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "school",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "are",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "important",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "parts",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "series",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "K",
+      "en": "The students also dream about reaching Milan in Italy.",
+      "he": "התלמידים גם חולמים להגיע למילאנו שבאיטליה.",
+      "image": "assets/mekif-milano-1.jpg",
+      "imageAlt": "Mekif Milano cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "The",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "students",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "also",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "dream",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "about",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "reaching",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Milan",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Italy",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "L",
+      "en": "Mekif Milano shows teenagers trying to understand themselves and find their place too.",
+      "he": "מקיף מילאנו מציגה בני נוער שמנסים להבין את עצמם ולמצוא את מקומם.",
+      "image": "assets/mekif-milano-2.jpg",
+      "imageAlt": "Mekif Milano cast",
+      "imageCredit": "Promotional cast image",
+      "words": [
+        {
+          "word": "Mekif",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Milano",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shows",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "teenagers",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "trying",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "understand",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "themselves",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "find",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "their",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "place",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "too",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    }
+  ],
+  "pages": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ],
+    [
+      5
+    ],
+    [
+      6
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [
+      9
+    ],
+    [
+      10
+    ],
+    [
+      11
+    ]
+  ]
+}
