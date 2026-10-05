@@ -11,7 +11,8 @@ def norm(x): return re.sub('[^a-z0-9]','',html.unescape(x).lower())
 async def main():
     data=json.loads((OUT/'content.json').read_text())
     sentences=[s['en'] for s in data['sentences']]
-    text=' '.join(sentences)
+    spoken_sentences=[s.replace('Lee Birron','Lee Biran').replace('Birron','Biran') for s in sentences]
+    text=' '.join(spoken_sentences)
     source_hash=hashlib.sha256(text.encode()).hexdigest()
     (OUT/'assets').mkdir(parents=True,exist_ok=True)
     dest=OUT/'assets/story.mp3'; meta=OUT/'audio.json'; tmp=OUT/'assets/story.tmp.mp3'
@@ -23,13 +24,15 @@ async def main():
             elif c['type']=='WordBoundary':
                 cues.append({'word':html.unescape(c['text']),'start':c['offset']/1e7,'end':(c['offset']+c['duration'])/1e7})
     tokens=[m.group() for s in sentences for m in WORD.finditer(s)]
-    assert ''.join(map(norm,tokens))==''.join(norm(c['word']) for c in cues)
+    spoken_tokens=[m.group() for s in spoken_sentences for m in WORD.finditer(s)]
+    assert len(tokens)==len(spoken_tokens), 'Display/spoken token count mismatch'
+    assert ''.join(map(norm,spoken_tokens))==''.join(norm(c['word']) for c in cues)
     spans=[];p=0
     for c in cues:
         n=len(norm(c['word']));spans.append((p,p+n,c));p+=n
     aligned=[];p=0
-    for word in tokens:
-        a=p;b=p+len(norm(word));p=b;matches=[]
+    for word,spoken_word in zip(tokens,spoken_tokens):
+        a=p;b=p+len(norm(spoken_word));p=b;matches=[]
         for x,y,c in spans:
             l=max(a,x);r=min(b,y)
             if l<r:
