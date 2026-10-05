@@ -85,7 +85,7 @@ function bind(){
 async function init(){
  ui();let data=null;
  if(cfg.kind==='grade7'){audioMeta=await fetch('audio.json?v=20261005-g8standard1').then(r=>r.json());normalizeGrade7();}
- else{[data,audioMeta]=await Promise.all(['content.json','audio.json'].map(x=>fetch(x+'?v=20261005-g8standard1').then(r=>r.json())));normalizeGrade9(data);}
+ else{const assetVersion=encodeURIComponent(cfg.assetVersion||'20261005-g8standard1');[data,audioMeta]=await Promise.all(['content.json','audio.json'].map(async x=>{const r=await fetch(x+'?v='+assetVersion,{cache:'no-store'});if(!r.ok)throw new Error(x+' HTTP '+r.status);return r.json();}));normalizeGrade9(data);}
  audioUrl=new URL(audioMeta.audio,location.href).href;audio.src=audioUrl;audio.playbackRate=rate;makePages();bind();$('play').disabled=false;$('replay').disabled=false;$('play').textContent='▶ הקראה';
  const qs=new URLSearchParams(location.search),old=Math.max(0,Number(qs.get('p'))||0),sub=Math.max(0,Number(qs.get('sub'))||0);let start=0,r=false;
  if(view==='sentences'){start=Math.floor(old/2);r=!!(old%2);}else{start=pages.findIndex(p=>p.source===Math.min(old,sourcePages.length-1)&&p.sub===sub);r=qs.get('reveal')==='1';}
