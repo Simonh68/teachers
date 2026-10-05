@@ -1,4 +1,4 @@
-"""Generate prerecorded narration + word timings for the standalone Lee Biran Read Along."""
+"""Generate prerecorded narration + word timings for the standalone Lee Birron Read Along."""
 import asyncio, hashlib, html, json, re, subprocess
 from pathlib import Path
 import edge_tts
