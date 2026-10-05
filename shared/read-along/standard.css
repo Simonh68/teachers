@@ -95,5 +95,9 @@
 .trail-gloss.fade3{opacity:.15}
 @media(max-width:650px){.trail-gloss{font-size:13px;padding:3px 5px}}
 
-/* Mobile-safe bilingual overlay: keep prototype geometry and allow glosses to float without viewport-fixed drift. */
-.sheet.with-translation{overflow:visible}
+/* Mobile-safe overlay host */
+.english-slot{position:relative;overflow:visible}
+.hebrew-slot{overflow:hidden}
+
+/* Final marker override: text only, no yellow block. */
+.reading.en span.marker,.reading.he span.marker{color:var(--marker)!important;background:transparent!important;box-shadow:none!important;border-radius:0!important;font-weight:900!important;text-shadow:0 0 10px rgba(255,226,112,.28)!important}
