@@ -1,0 +1,1285 @@
+{
+  "version": "20261005-eliya-mayaan-a2-v1",
+  "title": "Marvel Cinematic Universe",
+  "level": "A2",
+  "sentences": [
+    {
+      "id": 1,
+      "paragraph": "A",
+      "en": "The Marvel Cinematic Universe, or MCU, is a huge world of connected superhero movies and shows.",
+      "he": "היקום הקולנועי של מארוול, או MCU, הוא עולם גדול של סרטי וסדרות גיבורי־על שמחוברים זה לזה.",
+      "image": "assets/marvel-1.png",
+      "imageAlt": "Marvel actor at an Avengers event",
+      "imageCredit": "MTV International / Wikimedia Commons · CC BY 3.0",
+      "words": [
+        {
+          "word": "The",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Marvel",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Cinematic",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Universe",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "or",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "MCU",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "huge",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "world",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "connected",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "superhero",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "movies",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shows",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": "B",
+      "en": "It started with Iron Man in 2008.",
+      "he": "הוא התחיל עם איירון מן בשנת 2008.",
+      "image": "assets/marvel-2.png",
+      "imageAlt": "Marvel actor at an Avengers event",
+      "imageCredit": "MTV International / Wikimedia Commons · CC BY 3.0",
+      "words": [
+        {
+          "word": "It",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "started",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Iron",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Man",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "2008",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": "C",
+      "en": "Since then, many heroes have joined the story, including Captain America, Thor, Black Widow, Spider-Man, Doctor Strange, and Black Panther.",
+      "he": "מאז הצטרפו לסיפור גיבורים רבים, ובהם קפטן אמריקה, תור, האלמנה השחורה, ספיידרמן, דוקטור סטריינג' והפנתר השחור.",
+      "image": "assets/marvel-1.png",
+      "imageAlt": "Marvel actor at an Avengers event",
+      "imageCredit": "MTV International / Wikimedia Commons · CC BY 3.0",
+      "words": [
+        {
+          "word": "Since",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "then",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "many",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "heroes",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "have",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "joined",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "story",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "including",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Captain",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "America",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Thor",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Black",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Widow",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Spider-Man",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Doctor",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Strange",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Black",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Panther",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": "D",
+      "en": "One reason fans enjoy Marvel is that the movies connect to each other.",
+      "he": "אחת הסיבות שמעריצים אוהבים את מארוול היא שהסרטים מתחברים זה לזה.",
+      "image": "assets/marvel-2.png",
+      "imageAlt": "Marvel actor at an Avengers event",
+      "imageCredit": "MTV International / Wikimedia Commons · CC BY 3.0",
+      "words": [
+        {
+          "word": "One",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "reason",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fans",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "enjoy",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Marvel",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "movies",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "connect",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "each",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "other",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": "E",
+      "en": "A small event in one film can become important later.",
+      "he": "אירוע קטן בסרט אחד יכול להפוך לחשוב בהמשך.",
+      "image": "assets/marvel-1.png",
+      "imageAlt": "Marvel actor at an Avengers event",
+      "imageCredit": "MTV International / Wikimedia Commons · CC BY 3.0",
+      "words": [
+        {
+          "word": "A",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "small",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "event",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "one",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "film",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "can",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "become",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "important",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "later",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": "F",
+      "en": "The Avengers movies bring many heroes together, so the stories feel bigger and more exciting.",
+      "he": "סרטי הנוקמים מחברים גיבורים רבים, ולכן הסיפורים מרגישים גדולים ומרגשים יותר.",
+      "image": "assets/marvel-2.png",
+      "imageAlt": "Marvel actor at an Avengers event",
+      "imageCredit": "MTV International / Wikimedia Commons · CC BY 3.0",
+      "words": [
+        {
+          "word": "The",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Avengers",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "movies",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "bring",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "many",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "heroes",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "together",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "so",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "stories",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "feel",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "bigger",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "more",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "exciting",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": "G",
+      "en": "Marvel also mixes action with humor, friendship, family, and difficult choices.",
+      "he": "מארוול משלבת גם פעולה עם הומור, חברות, משפחה ובחירות קשות.",
+      "image": "assets/marvel-1.png",
+      "imageAlt": "Marvel actor at an Avengers event",
+      "imageCredit": "MTV International / Wikimedia Commons · CC BY 3.0",
+      "words": [
+        {
+          "word": "Marvel",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "also",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "mixes",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "action",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "humor",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "friendship",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "family",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "difficult",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "choices",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": "H",
+      "en": "The heroes do not always agree, and sometimes they make serious mistakes.",
+      "he": "הגיבורים לא תמיד מסכימים, ולפעמים הם עושים טעויות רציניות.",
+      "image": "assets/marvel-2.png",
+      "imageAlt": "Marvel actor at an Avengers event",
+      "imageCredit": "MTV International / Wikimedia Commons · CC BY 3.0",
+      "words": [
+        {
+          "word": "The",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "heroes",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "do",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "not",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "always",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "agree",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sometimes",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "they",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "make",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "serious",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "mistakes",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": "I",
+      "en": "That makes them feel more human.",
+      "he": "זה גורם להם להרגיש אנושיים יותר.",
+      "image": "assets/marvel-1.png",
+      "imageAlt": "Marvel actor at an Avengers event",
+      "imageCredit": "MTV International / Wikimedia Commons · CC BY 3.0",
+      "words": [
+        {
+          "word": "That",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "makes",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "them",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "feel",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "more",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "human",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": "J",
+      "en": "For many teenagers, Marvel is also a social experience.",
+      "he": "עבור בני נוער רבים, מארוול היא גם חוויה חברתית.",
+      "image": "assets/marvel-2.png",
+      "imageAlt": "Marvel actor at an Avengers event",
+      "imageCredit": "MTV International / Wikimedia Commons · CC BY 3.0",
+      "words": [
+        {
+          "word": "For",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "many",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "teenagers",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Marvel",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "also",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "social",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "experience",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": "K",
+      "en": "Friends watch new movies together, talk about theories, choose favorite characters, and debate which hero is strongest.",
+      "he": "חברים רואים יחד סרטים חדשים, מדברים על תאוריות, בוחרים דמויות אהובות ומתווכחים מי הגיבור החזק ביותר.",
+      "image": "assets/marvel-1.png",
+      "imageAlt": "Marvel actor at an Avengers event",
+      "imageCredit": "MTV International / Wikimedia Commons · CC BY 3.0",
+      "words": [
+        {
+          "word": "Friends",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "watch",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "new",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "movies",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "together",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "talk",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "about",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "theories",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "choose",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "favorite",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "characters",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "debate",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "which",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "hero",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "strongest",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": "L",
+      "en": "The MCU has changed over time, but its main idea stays simple.",
+      "he": "ה־MCU השתנה עם הזמן, אבל הרעיון המרכזי שלו נשאר פשוט.",
+      "image": "assets/marvel-2.png",
+      "imageAlt": "Marvel actor at an Avengers event",
+      "imageCredit": "MTV International / Wikimedia Commons · CC BY 3.0",
+      "words": [
+        {
+          "word": "The",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "MCU",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "has",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "changed",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "over",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "time",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "but",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "its",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "main",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "idea",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "stays",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "simple",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "paragraph": "M",
+      "en": "Different people can work together, face danger, and become stronger through teamwork.",
+      "he": "אנשים שונים יכולים לעבוד יחד, להתמודד עם סכנה ולהתחזק באמצעות עבודת צוות.",
+      "image": "assets/marvel-1.png",
+      "imageAlt": "Marvel actor at an Avengers event",
+      "imageCredit": "MTV International / Wikimedia Commons · CC BY 3.0",
+      "words": [
+        {
+          "word": "Different",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "people",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "can",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "work",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "together",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "face",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "danger",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "become",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "stronger",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "through",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "teamwork",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "paragraph": "N",
+      "en": "Fans also enjoy scenes after the credits because these short moments often give clues about the next story or character.",
+      "he": "המעריצים אוהבים גם את הסצנות שאחרי הכתוביות, כי הן נותנות לעיתים רמזים לסיפור או לדמות הבאים.",
+      "image": "assets/marvel-2.png",
+      "imageAlt": "Marvel actor at an Avengers event",
+      "imageCredit": "MTV International / Wikimedia Commons · CC BY 3.0",
+      "words": [
+        {
+          "word": "Fans",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "also",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "enjoy",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "scenes",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "after",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "credits",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "because",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "these",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "short",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "moments",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "often",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "give",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "clues",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "about",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "next",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "story",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "or",
+          "he": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "character",
+          "he": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    }
+  ],
+  "pages": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ],
+    [
+      5
+    ],
+    [
+      6
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [
+      9
+    ],
+    [
+      10
+    ],
+    [
+      11
+    ],
+    [
+      12
+    ],
+    [
+      13
+    ]
+  ]
+}
