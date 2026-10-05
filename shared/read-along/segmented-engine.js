@@ -9,7 +9,7 @@ records.forEach(r=>r.parts.forEach(p=>p.src=new URL(p.src,base).href));
 let state={read:{},last:null};try{const s=JSON.parse(localStorage.getItem(store)||'null');if(s&&typeof s==='object')state={...state,...s};}catch(_){}
 if(!state.read||typeof state.read!=='object')state.read={};
 const save=()=>{try{localStorage.setItem(store,JSON.stringify(state));}catch(_){}};
-let rate=.75;try{const x=Number(localStorage.getItem(speedStore));if([.25,.5,.75,1,1.25].includes(x))rate=x;}catch(_){}
+const STANDARD=window.TEACHERS_READALONG_STANDARD||{pauseMs:1500,defaultSpeed:.75,speeds:[.25,.5,.75,1,1.25],speedStore:'teachers-read-alone-speed-v1'};let rate=STANDARD.defaultSpeed;try{const x=Number(localStorage.getItem(speedStore||STANDARD.speedStore));if(STANDARD.speeds.includes(x))rate=x;}catch(_){}
 $('speed').value=String(rate);
 let pages=[],page=0,reveal=false,pairKey='',auto=false,scheduled=null,narrator=null,lastEn=null,lastHe=null,lastStatus='',ready=false,resizeTimer=null;
 let enNodes={},heNodes={},savedLocation=state.bilingualPosition?.[view]||null;
@@ -66,9 +66,9 @@ function paint(p){
  $('progress').style.width=Math.min(100,(before+time)/total*100)+'%';
  status(p.phase==='gap'?'הפסקה של 1.5 שניות…':['paused','pausedGap'].includes(p.phase)?'ההקראה מושהית — לחצו על המשך.':p.phase==='ended'?'סוף '+(queue.length===1?'המשפט':'הקטע')+'. ממשיכים כשמוכנים.':reveal?'המרקר עוקב באנגלית ובעברית.':'הקראה באנגלית.');
 }
-narrator=new TeacherPhrasePlayer(records,{pauseMs:1500,onUpdate:paint,onComplete:()=>{narrator.queue.forEach(i=>state.read['sentence-'+i]=true);D.pages.forEach((ids,p)=>{if(ids.every(i=>state.read['sentence-'+i]))state.read['page'+p]=true;});save();refreshTabs();}});narrator.setRate(rate);
+narrator=new TeacherPhrasePlayer(records,{pauseMs:STANDARD.pauseMs,onUpdate:paint,onComplete:()=>{narrator.queue.forEach(i=>state.read['sentence-'+i]=true);D.pages.forEach((ids,p)=>{if(ids.every(i=>state.read['sentence-'+i]))state.read['page'+p]=true;});save();refreshTabs();}});narrator.setRate(rate);
 function play(restart=false){clearTimeout(scheduled);scheduled=null;auto=true;hideTip();if(!restart&&narrator.isActive)narrator.pause();else if(!restart&&['paused','pausedGap'].includes(narrator.phase))narrator.resume();else{const ids=pages[page].ids;narrator.playFrom(ids[0],0,ids);}}
-$('play').onclick=()=>play();$('replay').onclick=()=>play(true);$('speed').onchange=()=>{rate=Number($('speed').value);narrator.setRate(rate);try{localStorage.setItem(speedStore,String(rate));}catch(_){}};
+$('play').onclick=()=>play();$('replay').onclick=()=>play(true);$('speed').onchange=()=>{rate=Number($('speed').value);narrator.setRate(rate);try{localStorage.setItem(speedStore||STANDARD.speedStore,String(rate));}catch(_){}};
 $('contents').onclick=()=>{stop();menu.showModal();};$('close-menu').onclick=()=>menu.close();
 menu.querySelector(`[data-mode="${view}"]`).setAttribute('aria-current','page');
 $('sentence-list').innerHTML=D.story.map((s,i)=>`<button data-jump="${i}"><small>${s.paragraph} · ${s.number}</small>${esc(s.plain)}</button>`).join('');
