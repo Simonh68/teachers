@@ -1,24 +1,33 @@
 <!doctype html>
 <html lang="he" dir="rtl">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#f8efe8"><title>מעיין · קוראים באנגלית</title>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fbf6f9"><title>אליה ומעיין — הילדים הכי מקסימים שלי</title>
 <style>
-:root{font-family:Arial,Helvetica,sans-serif;color:#2d2530;background:#fffaf7}*{box-sizing:border-box}
-body{margin:0;min-height:100vh;background:linear-gradient(180deg,#fff8f2,#f6eef9)}
-main{max-width:900px;margin:auto;padding:32px 18px 50px}.hero{text-align:center;padding:26px 12px 20px}
-h1{font-size:clamp(42px,10vw,72px);margin:0;color:#7f4f67}.subtitle{font-size:20px;margin:8px 0 0;color:#6b5a66}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:28px}
-.card{display:block;text-decoration:none;color:inherit;background:white;border-radius:24px;padding:24px;min-height:190px;box-shadow:0 8px 30px #6e526020;border:2px solid #eadde5;transition:.15s}
-.card:hover,.card:focus{transform:translateY(-3px);box-shadow:0 12px 34px #6e52602e;outline:none;border-color:#c984a6}
-.icon{font-size:42px}.card h2{font-size:28px;margin:12px 0 8px}.card p{margin:0;color:#715f6c;line-height:1.5}
-.note{text-align:center;margin-top:28px;color:#786a73;font-size:14px}
+:root{font-family:Arial,Helvetica,sans-serif;color:#2c2730;background:#fbf7fa}*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:linear-gradient(180deg,#fffafc,#f5f0f7)}
+main{max-width:920px;margin:auto;padding:28px 16px 60px}
+.hero{text-align:center;padding:18px 8px 22px}.hero .mark{font-size:38px}.hero h1{font-size:clamp(31px,7vw,52px);margin:4px 0 8px;color:#764c66;line-height:1.15}.hero p{margin:0;color:#786a73;font-size:17px}
+.tools{position:sticky;top:0;z-index:2;padding:10px 0 16px;background:linear-gradient(#fbf7fa 80%,transparent)}
+.search{width:100%;border:1px solid #decfd8;border-radius:18px;padding:14px 16px;font-size:17px;background:white;box-shadow:0 5px 18px #76566a12}
+.list{display:grid;gap:12px}.item{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:14px;background:white;text-decoration:none;color:inherit;border:1px solid #eadfe6;border-radius:20px;padding:16px 17px;box-shadow:0 6px 20px #6e526012}
+.item:hover,.item:focus{outline:none;border-color:#b9789b;box-shadow:0 9px 26px #6e526025}.icon{font-size:32px;width:44px;text-align:center}
+.item h2{font-size:21px;margin:0 0 4px}.meta{display:flex;gap:7px;flex-wrap:wrap;color:#756772;font-size:13px}.tag{background:#f4eaf0;border-radius:999px;padding:4px 8px}.arrow{font-size:24px;color:#a46d8a}
+.section-title{font-size:15px;color:#8b7582;margin:26px 3px 10px;font-weight:700}
+@media(max-width:520px){main{padding:20px 12px 45px}.hero{padding-top:10px}.item{grid-template-columns:40px 1fr 22px;padding:14px 13px}.item h2{font-size:19px}.icon{font-size:28px;width:38px}}
 </style></head>
 <body><main>
-<section class="hero"><div style="font-size:44px">🌸</div><h1>מעיין</h1><p class="subtitle">קוראים אנגלית יחד</p></section>
-<section class="cards" aria-label="מצגות קריאה">
-<a class="card" href="./lee-birron/"><div class="icon">🎤</div><h2>לי בירון</h2><p>כ־120 מילים · Read Along</p></a>
-<a class="card" href="./greenhouse/"><div class="icon">🌿</div><h2>החממה</h2><p>כ־120 מילים · Read Along</p></a>
-<a class="card" href="./mekif-milano/"><div class="icon">🎬</div><h2>מקיף מילאנו</h2><p>כ־120 מילים · Read Along</p></a>
-</section><p class="note">דף הקריאה של מעיין</p>
-</main></body></html>
+<section class="hero"><div class="mark">🌸</div><h1>אליה ומעיין</h1><p>הילדים הכי מקסימים שלי · Read Along באנגלית</p></section>
+<div class="tools"><input id="q" class="search" type="search" placeholder="חיפוש נושא…" aria-label="חיפוש נושא"></div>
+<div id="list" class="list">
+<a class="item" href="./lee-birron/" data-key="לי בירון music actor singer"><div class="icon">🎤</div><div><h2>לי בירון</h2><div class="meta"><span class="tag">A2</span><span class="tag">כ־120 מילים</span><span>מוזיקה וטלוויזיה</span></div></div><div class="arrow">←</div></a>
+<a class="item" href="./greenhouse/" data-key="החממה greenhouse television"><div class="icon">🌿</div><div><h2>החממה</h2><div class="meta"><span class="tag">A2</span><span class="tag">כ־120 מילים</span><span>סדרת טלוויזיה</span></div></div><div class="arrow">←</div></a>
+<a class="item" href="./mekif-milano/" data-key="מקיף מילאנו milano television"><div class="icon">🎬</div><div><h2>מקיף מילאנו</h2><div class="meta"><span class="tag">A2</span><span class="tag">כ־120 מילים</span><span>סדרת טלוויזיה</span></div></div><div class="arrow">←</div></a>
+<a class="item" href="./marvel/" data-key="marvel cinematic universe מארוול גיבורי על"><div class="icon">⚡</div><div><h2>Marvel Cinematic Universe</h2><div class="meta"><span class="tag">A2</span><span class="tag">כ־180 מילים</span><span>סרטים וגיבורי־על</span></div></div><div class="arrow">←</div></a>
+<a class="item" href="./horror-movies/" data-key="horror movies סרטי אימה פחד מתח"><div class="icon">👻</div><div><h2>Horror Movies</h2><div class="meta"><span class="tag">A2</span><span class="tag">כ־180 מילים</span><span>קולנוע ומתח</span></div></div><div class="arrow">←</div></a>
+<a class="item" href="./disney-movies/" data-key="disney movies דיסני סרטים"><div class="icon">🏰</div><div><h2>Disney Movies</h2><div class="meta"><span class="tag">A2</span><span class="tag">כ־180 מילים</span><span>קולנוע ומוזיקה</span></div></div><div class="arrow">←</div></a>
+</div>
+</main>
+<script>
+const q=document.getElementById('q'),items=[...document.querySelectorAll('.item')];
+q.addEventListener('input',()=>{const s=q.value.trim().toLowerCase();items.forEach(x=>x.hidden=s&&!((x.dataset.key+' '+x.textContent).toLowerCase().includes(s)));});
+</script></body></html>
