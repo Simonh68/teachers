@@ -4,7 +4,7 @@ class TeacherPhrasePlayer{
  constructor(records,{pauseMs=1500,onUpdate=()=>{},onComplete=()=>{}}={}){
   this.records=records;this.pauseMs=pauseMs;this.onUpdate=onUpdate;this.onComplete=onComplete;
   this.audio=new Audio();this.audio.preload='auto';this.audio.preservesPitch=true;
-  this.rate=.75;this.sentence=0;this.part=0;this.offset=0;this.queue=[];this.phase='idle';this.intent=false;this.unlocked=false;
+  this.rate=(window.TEACHERS_READALONG_STANDARD?.defaultSpeed??.75);this.sentence=0;this.part=0;this.offset=0;this.queue=[];this.phase='idle';this.intent=false;this.unlocked=false;
   this.generation=0;this.timer=null;this.raf=null;this.gap=null;this.cache=new Map();this.events=[];
   this.audio.onended=()=>{if(!this.intent||this.phase!=='playing')return;this.log('part:end');cancelAnimationFrame(this.raf);const next=this.next();if(next){this.gap={...next,remaining:this.pauseMs};this.scheduleGap();}else{this.intent=false;this.phase='ended';this.gap=null;this.update();this.log('page:end');this.onComplete(this.sentence);}};
   this.audio.onerror=()=>{if(this.intent){this.intent=false;this.phase='error';this.clearTimers();this.log('audio:error');this.update();}};
@@ -57,7 +57,7 @@ class TeacherPhrasePlayer{
   this.stop();this.sentence=s;this.part=p;this.offset=offset;this.queue=q;this.log('user:seek',{sourceTime:target});
   if(wasActive)this.loadAndPlay(s,p,offset);else{this.phase='paused';this.update();}
  }
- setRate(value){if(![.25,.5,.75,1,1.25].includes(Number(value)))return;this.rate=Number(value);this.audio.playbackRate=this.rate;this.audio.preservesPitch=true;this.update();}
+ setRate(value){if(!(window.TEACHERS_READALONG_STANDARD?.speeds||[.25,.5,.75,1,1.25]).includes(Number(value)))return;this.rate=Number(value);this.audio.playbackRate=this.rate;this.audio.preservesPitch=true;this.update();}
 }
 window.TeacherPhrasePlayer=TeacherPhrasePlayer;
 })();
