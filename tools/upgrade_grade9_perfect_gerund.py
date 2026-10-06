@@ -99,7 +99,6 @@ def main():
  path=R/'grade9/the-message-without-a-voice/index.html';soup=BeautifulSoup(path.read_text(),'html.parser')
  for node in soup.select('[data-ra-sentence]'):
   sid=int(node['data-ra-sentence'])+1
-  if sid not in changes:continue
   target=node.select_one('.story-sentence')
   if target:
    target.clear()
@@ -107,7 +106,7 @@ def main():
    markup=''.join(html.escape(w['prefix'])+'<span class="ra-word ra-hit" role="button" tabindex="0" data-w="'+str(w['index'])+'" data-he="'+html.escape(w['he'],quote=True)+'">'+html.escape(w['word'])+'</span>' for w in row['words'])+html.escape(row['suffix'])
    target.append(BeautifulSoup(markup,'html.parser'))
   tr=node.select_one('.translation')
-  if tr:tr.string=changes[sid][1]
+  if tr:tr.string=data['sentences'][sid-1]['he']
  path.write_text(str(soup))
  path=O/'index.html';s=path.read_text();s=re.sub(r'kind:"grade9",(?:assetVersion:"[^"]*",)*','kind:"grade9",assetVersion:"20261006-perfect-gerund",',s);path.write_text(s)
  assert hashlib.sha256((O/'assets/story.mp3').read_bytes()).hexdigest()==audio['sha256']
