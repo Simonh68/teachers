@@ -5,7 +5,7 @@
   "synthetic": true,
   "timing": "Measured WordBoundary timings per sentence; concatenated PCM sample offsets",
   "source_sha256": "9655e042b5001e4acd9d030bc3f0e1f5f681f20722dc89bb1e1388468c1a2c2a",
-  "sha256": "1dd6f94d3cb2cd9c3b07b3c5f1a969af2e3bbc443fe962ad5410349078f82bdd",
+  "sha256": "aaceab4ed90371310d26c6e3a15f4b2e3ac8d960850fedb849b2f807c09b2852",
   "duration": 155.88000000000002,
   "audio": "assets/story.mp3?v=9655e042b500",
   "word_count": 404,
