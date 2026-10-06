@@ -50,7 +50,7 @@ async def narrate(data):
       if l<r:hits.append((c['start']+(c['end']-c['start'])*(l-x)/(y-x),c['start']+(c['end']-c['start'])*(r-x)/(y-x)))
      assert hits
      words.append(dict(word=w['word'],start=hits[0][0],end=hits[-1][1]))
-    assert duration>=words[-1]['end']-.15 and all(w['end']>w['start'] for w in words)
+    assert duration>=words[-1]['end']-.15 and all(w['end']>w['start'] for w in words),(i+1,duration,words)
     print('Verified sentence',i+1,flush=True)
     return duration,words
   pieces=await asyncio.gather(*(one(i,r) for i,r in enumerate(data['sentences'])))
