@@ -50,6 +50,11 @@ async def narrate(data):
       if l<r:hits.append((c['start']+(c['end']-c['start'])*(l-x)/(y-x),c['start']+(c['end']-c['start'])*(r-x)/(y-x)))
      assert hits
      words.append(dict(word=w['word'],start=hits[0][0],end=hits[-1][1]))
+    # The service occasionally emits a zero duration for a short pronoun.
+    # Bound that word by the next measured onset, rather than distributing timings.
+    for j,w in enumerate(words):
+     if w['end']==w['start']:
+      w['end']=words[j+1]['start'] if j+1<len(words) else duration
     assert duration>=words[-1]['end']-.15 and all(w['end']>w['start'] for w in words),(i+1,duration,words)
     print('Verified sentence',i+1,flush=True)
     return duration,words
