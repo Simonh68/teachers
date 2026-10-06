@@ -130,6 +130,7 @@ for(const region of regions){const text=region.textContent;pattern.lastIndex=0;c
 const [opts,role]=map.get(m[0]);const a=locate(region,m.index),z=locate(region,m.index+m[0].length);if(!a||!z)continue;
 const range=document.createRange();range.setStart(...a);range.setEnd(...z);const b=document.createElement('button');b.type='button';b.className='word-switch';b.textContent=opts[0];let index=0;
 b.setAttribute('aria-label',opts[0]+' — '+role+' — לחצו לניסוח חלופי');b.title=role+' · '+opts.length+' ניסוחים';
+const fragment=range.cloneContents();const highlight=fragment.querySelector('mark');const inheritedMark=a[0].parentElement.closest('mark');const marker=highlight||inheritedMark;if(marker)b.classList.add(...marker.classList);
 range.deleteContents();range.insertNode(b);
 b.addEventListener('click',()=>{index=(index+1)%opts.length;b.textContent=opts[index];b.setAttribute('aria-label',opts[index]+' — '+role+' — לחצו לניסוח הבא');note.textContent=role+' · '+(index+1)+' / '+opts.length;b.classList.remove('changing');void b.offsetWidth;b.classList.add('changing');counts(region);window.dispatchEvent(new Event('resize'));});
 }}
