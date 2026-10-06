@@ -1,5 +1,5 @@
 """Upgrade the existing 46-sentence story and regenerate aligned narration."""
-import json, re, subprocess, hashlib, html
+import json, re, subprocess, hashlib, html, asyncio, tempfile
 from pathlib import Path
 from bs4 import BeautifulSoup
 R = Path(__file__).resolve().parents[1]
@@ -13,6 +13,60 @@ changes = {
  33: ("I have learned that explaining things clearly matters.”", "למדתי שחשוב להסביר דברים בצורה ברורה.״", "אני|עם learned לציון לקח התקף עכשיו|למדתי|ש־|להסביר|דברים|בבירור|חשוב"),
  40: ("“Helping your brother was important, and I appreciate your coming today,” Noam said.", "״העזרה לאחיך הייתה חשובה, ואני מעריך את זה שבאת היום,״ אמר נועם.", "לעזור|שלך|אח|הייתה|חשובה|ו־|אני|מעריך|שלך|ההגעה|היום|נועם|אמר"),
 }
+async def narrate(data):
+ import edge_tts
+ sem=asyncio.Semaphore(4)
+ norm=lambda s:re.sub('[^a-z0-9]','',html.unescape(s).lower())
+ with tempfile.TemporaryDirectory() as tmp:
+  folder=Path(tmp)
+  async def one(i,row):
+   async with sem:
+    p=folder/f'{i:02}.mp3';cues=[]
+    for attempt in range(3):
+     try:
+      cues=[]
+      with p.open('wb') as f:
+       async for c in edge_tts.Communicate(row['en'],voice='en-US-BrianNeural',pitch='+10Hz',boundary='WordBoundary').stream():
+        if c['type']=='audio':f.write(c['data'])
+        elif c['type']=='WordBoundary':cues.append(dict(word=html.unescape(c['text']),start=c['offset']/1e7,end=(c['offset']+c['duration'])/1e7))
+      assert cues
+      break
+     except Exception:
+      if attempt==2:raise
+      await asyncio.sleep(2)
+    assert ''.join(norm(w['word']) for w in row['words'])==''.join(norm(c['word']) for c in cues)
+    wav=folder/f'{i:02}.wav'
+    subprocess.run(['ffmpeg','-v','error','-y','-i',str(p),'-ar','24000','-ac','1',str(wav)],check=True)
+    import wave
+    with wave.open(str(wav)) as w:duration=w.getnframes()/w.getframerate()
+    spans=[];pos=0
+    for c in cues:
+     n=len(norm(c['word']));spans.append((pos,pos+n,c));pos+=n
+    words=[];pos=0
+    for w in row['words']:
+     a=pos;b=a+len(norm(w['word']));pos=b;hits=[]
+     for x,y,c in spans:
+      l=max(a,x);r=min(b,y)
+      if l<r:hits.append((c['start']+(c['end']-c['start'])*(l-x)/(y-x),c['start']+(c['end']-c['start'])*(r-x)/(y-x)))
+     assert hits
+     words.append(dict(word=w['word'],start=hits[0][0],end=hits[-1][1]))
+    assert duration>=words[-1]['end']-.15 and all(w['end']>w['start'] for w in words)
+    print('Verified sentence',i+1,flush=True)
+    return duration,words
+  pieces=await asyncio.gather(*(one(i,r) for i,r in enumerate(data['sentences'])))
+  import wave
+  with wave.open(str(folder/'all.wav'),'wb') as out:
+   out.setparams((1,2,24000,0,'NONE','not compressed'))
+   for i in range(46):
+    with wave.open(str(folder/f'{i:02}.wav')) as w:out.writeframes(w.readframes(w.getnframes()))
+  dest=O/'assets/story.mp3'
+  subprocess.run(['ffmpeg','-v','error','-y','-i',str(folder/'all.wav'),'-codec:a','libmp3lame','-b:a','96k',str(dest)],check=True)
+  rows=[];offset=0
+  for row,(duration,words) in zip(data['sentences'],pieces):
+   for w in words:w.update(start=round(w['start']+offset,5),end=round(w['end']+offset,5))
+   rows.append(dict(id=row['id'],en=row['en'],start=words[0]['start'],end=words[-1]['end'],words=words));offset+=duration
+  source_hash=hashlib.sha256(' '.join(r['en'] for r in data['sentences']).encode()).hexdigest()
+  return dict(version='20261006-perfect-gerund',voice='en-US-BrianNeural',pitch='+10Hz',synthetic=True,timing='Measured WordBoundary timings per sentence; concatenated PCM sample offsets',source_sha256=source_hash,sha256=hashlib.sha256(dest.read_bytes()).hexdigest(),duration=offset,audio='assets/story.mp3?v='+source_hash[:12],word_count=sum(len(r['words']) for r in rows),sentences=rows)
 def main():
  data=json.loads((O/'content.json').read_text())
  assert len(data['sentences'])==46
@@ -32,8 +86,7 @@ def main():
  for sid,(en,_,_) in changes.items():
   n=nodes[sid-1]; label=n.select_one('.sid').extract(); n.clear(); n.append(label);n.append(en)
  path.write_text(str(soup))
- subprocess.run(['python','-u',str(R/'tools/grade9_read_alone_audio.py')],check=True)
- audio=json.loads((O/'audio.json').read_text());idx=0
+ audio=asyncio.run(narrate(data));idx=0
  for row,a in zip(data['sentences'],audio['sentences']):
   assert row['en']==a['en'] and len(row['words'])==len(a['words'])
   for w,t in zip(row['words'],a['words']):
