@@ -1,0 +1,23 @@
+{
+  "version": "20261006-perfect-gerund",
+  "sentences": 46,
+  "updatedSentenceIds": [
+    2,
+    9,
+    27,
+    28,
+    29,
+    33,
+    40
+  ],
+  "words": 404,
+  "audioSeconds": 155.88000000000002,
+  "audioMatchesText": true,
+  "grammar": [
+    "Past Perfect",
+    "Present Perfect",
+    "gerund after preposition",
+    "gerund as subject",
+    "gerund after finish/appreciate"
+  ]
+}
