@@ -1,0 +1,64 @@
+name: Upgrade Grade 9 grammar and recorded narration
+on:
+  push:
+    branches: [main]
+    paths:
+      - tools/upgrade_grade9_perfect_gerund.py
+      - .github/workflows/grade9-grammar-upgrade.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: grade9-grammar-upgrade
+  cancel-in-progress: false
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: |
+          pip install beautifulsoup4==4.13.4 edge-tts==7.2.8
+          sudo apt-get install -y -qq ffmpeg
+          python -u tools/upgrade_grade9_perfect_gerund.py
+          node --check shared/read-along/track-engine.js
+      - name: Commit verified text translations and narration together
+        run: |
+          git config user.name 'Teachers materials builder'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add grade9/unit-1/read-alone/content.json grade9/unit-1/read-alone/audio.json grade9/unit-1/read-alone/assets/story.mp3 grade9/unit-1/read-alone/index.html grade9/unit-1/read-alone/grammar-upgrade-report.json grade9/unit-1/reading.html grade9/the-message-without-a-voice/index.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Raise Grade 9 story level with perfect tenses and gerunds; align Hebrew and audio'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - uses: actions/deploy-pages@v4
+        id: deployment
+      - name: Verify published revision
+        run: |
+          python - <<'PY'
+          import urllib.request,json,time
+          url='https://simonh68.github.io/teachers/grade9/unit-1/read-alone/content.json?v=20261006-perfect-gerund'
+          for attempt in range(12):
+            d=json.load(urllib.request.urlopen(url))
+            if d.get('version')=='20261006-perfect-gerund':break
+            time.sleep(5)
+          assert d['version']=='20261006-perfect-gerund'
+          assert 'had already planned' in d['sentences'][1]['en']
+          assert 'Instead of asking' in d['sentences'][8]['en']
+          print('Public story revision verified')
+          PY
