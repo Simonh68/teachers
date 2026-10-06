@@ -1,0 +1,437 @@
+﻿דירוג,ערך,רשימה,קושי בהקניה עצמית 1–5,נבחר,נימוק,חלקי דיבור במקור,משמעויות הרשומות באנגלית,מזהי רשומות
+1,make up,B,5,כן,צירוף לא מילולי; משמעויות שונות מאוד; בלבול עם שם העצם makeup.,Phrase,invent something or form part of a whole,B2-034
+2,as,A,5,כן,"מילת תפקוד אחת מחברת זמן, סיבה והשוואה; תרגום תלוי בהיגיון המשפט.",Conjunction,"used to connect two events, reasons or comparisons",A3-075
+3,would,A,5,כן,אין מקבילה עברית קבועה לפועל העזר; תפקידו תלוי במבנה.,Verb,used for the past form of ’will’ or to speak politely,A3-071
+4,do,A,5,כן,פועל עזר ללא תרגום מילולי; ההדגשה נשמעת אך לא מתגלה במילון בסיסי.,Auxiliary verb,used before another verb to make a statement stronger,A1-061
+5,must,A,5,כן,חובה מול מסקנה; בלבול מסוכן בין איסור להיעדר חובה.,Verb,have to do something or show that something is very likely,A3-018
+6,can,A,5,כן,פועל עזר של יכולת ואפשרות ללא תרגום אחד שמתאים לכל ההקשרים.,Verb,be able to do something or show that something is possible,A2-042
+7,mean,A,5,כן,ריבוי משמעויות והבדל משמעות בעקבות צורת הפועל המשלים.,Verb,have a particular meaning or purpose,A1-041
+8,set,B,5,כן,"פועל שכיח מאוד עם צירופים רבים, בלי פועל עברי יחיד.",Verb,put in a place; decide or fix a time or level,B1-055
+9,run,B,5,כן,המובן המוכר לרוץ מסתיר שימושים מופשטים ושימושי ניהול.,Verb,move quickly on foot; manage or operate,B3-035
+10,still,A,5,כן,משמעות של זמן ומשמעות לוגית שונות; המיקום משפיע על הקריאה.,Adverb,continuing until now; even so,A2-068
+11,once,A,5,כן,התלמיד מכיר פעם אחת ועלול לפספס את תפקיד מילת הקישור.,Conjunction,as soon as something has happened,A2-055
+12,otherwise,A,5,כן,תנאי סמוי ומשמעות נוספת; אחרת בעברית אינה תמיד מספיקה.,Adverb; Conjunction,used to show a different result if something is not done | used to show what happens if something is not done,A2-007; A2-036
+13,even if,A,5,כן,הבחנה בין אפשרות לעובדה חשובה יותר משינון התרגום.,Phrase,whether or not something happens,A1-022
+14,even though,A,5,כן,בלבול עם even if ועם despite; מעבר בין פסוקית לצירוף.,Phrase,although something is true,A1-016
+15,little,A,5,כן,שינוי קטן במבנה משנה את עמדת הדובר; ספירות שונה מעברית.,Adjective,small in size or amount,A1-008
+16,not until,B,5,כן,שלילה עם until עלולה להתפרש כהיפוך שגוי של סדר האירועים.,Phrase,only after a particular time or event,B1-007
+17,besides,A,5,כן,בלבול בין הוספה להחרגה ובין beside ל־besides.,Adverb; Preposition,used to add another reason or fact | apart from or in addition to someone or something,A1-054; A2-014
+18,necessarily,A,5,כן,מילת הסתייגות לוגית; תרגום לפי necessary עלול להיות שגוי.,Adverb,as a necessary result; always,A2-033
+19,supposed,A,5,כן,מבנה של ציפייה מול ספק; אין תרגום עברי יחיד.,Adjective,believed or expected to be true,A3-051
+20,take advantage of,A,5,כן,ניצול חיובי וניצול לרעה נראים זהים בתרגום קצר.,Phrase,use an opportunity in a helpful way,A1-006
+21,look forward to,B,5,כן,ביטוי לא מילולי; to + ing; הבדל רגשי שלא נראה בצופה בלבד.,Phrase,feel pleased and excited about something in the future,B2-023
+22,concern,A,5,כן,הבחנה בין רגש לנושא; משפחת מילים משנה מבנה.,Verb,worry someone; be about something,A1-065
+23,issue,B,5,כן,סוגיה מול גיליון; המילה אינה תמיד בעיה.,Noun,an important subject or problem,B1-036
+24,sense,A,5,כן,ריבוי משמעויות מופשטות וצירוף שאינו מתורגם מילה במילה.,Noun,good judgment; a feeling or meaning,A2-020
+25,point,B,5,כן,"הפירוש נקודה אינו מסביר טענה, טעם או שימוש כפועל.",Noun; Verb,"show a direction with a finger or object | an idea, purpose, score or exact place",B1-042; B3-021
+26,account,B,5,כן,חשבון מול תיאור; ביטויים קבועים יוצרים משמעויות נוספות.,Noun,a written or spoken report; a bank arrangement,B3-071
+27,present,B,5,כן,"אותו כתיב, חלקי דיבור ומשמעויות שונות וגם שינוי הטעמה.",Verb,"show, give or formally introduce something",B1-072
+28,conduct,A,5,כן,תרגום לפי צירוף; פועל ושם עצם בהטעמה שונה.,Verb,organize and carry out,A1-013
+29,record,B,5,כן,תיעוד לעומת הקלטה ושיא; שינוי הטעמה עם חלק הדיבור.,Noun; Verb,"stored information; the best result achieved | store sound, pictures or information",B2-077; B3-038
+30,figure,A,5,כן,מספר ואיור; המשמעות המוכרת מצירוף אחר עלולה להטעות.,Noun,"a number, shape or picture",A3-059
+31,means,A,5,כן,מראית עין של פועל או רבים בלבד; צורת יחיד ורבים זהה.,Noun,a method or way,A3-041
+32,regard,A,5,כן,פועל של תפיסה מול שם עצם של הערכה וצירופים לא מילוליים.,Noun; Verb,consider or think of in a certain way | respect or attention,A3-042; A3-072
+33,degree,B,5,כן,"מעלות, מידה ותואר דורשים מילים עבריות שונות.",Noun,an amount or level; a university qualification,B3-012
+34,position,B,5,כן,"מיקום פיזי, עמדה מחשבתית ומשרה באותו שם עצם.",Noun,"a place, job or opinion",B3-068
+35,volume,A,5,כן,שלוש משמעויות שכיחות עם תרגומים שונים לגמרי.,Noun,amount; level of sound; one book in a series,A3-046
+36,nature,A,5,כן,המובן המוכר עולם הטבע מסתיר משמעות מופשטת מרכזית.,Noun,the basic character or type of something,A3-016
+37,domestic,B,5,כן,ניגודים שונים לפי ההקשר; התרגום ביתי אינו כללי.,Adjective,connected with one country or with the home,B1-060
+38,reflect,B,5,כן,השתקפות פיזית ומחשבה; מילת יחס משנה מבנה.,Verb,show an image; show or think deeply about something,B1-068
+39,bring up,B,5,כן,צירוף לא מילולי; נושא לדיון מול גידול ילדים.,Phrase,mention a subject or raise a child,B3-006
+40,give away,B,5,כן,נתינת חפץ מול גילוי מידע; משמעות אינה סכום המרכיבים.,Phrase,give something for free or reveal a secret,B2-012
+41,room,B,5,כן,המובן המוכר חדר מסתיר שם בלתי ספיר של מקום פנוי.,Noun,a part of a building; available space,B1-032
+42,keep,B,5,כן,"שימור, המשך וקיום הבטחה דורשים תרגומים ומבנים שונים.",Verb,"continue to have, stay in a condition or follow a rule",B3-055
+43,claim,A,5,כן,טענה מול הוכחה ודרישת זכאות; תרגום חלקי מטעה.,Verb,say that something is true,A3-070
+44,approach,A,5,כן,גישה מופשטת והתקרבות פיזית; שם ופועל במבנים שונים.,Noun; Verb,a way of doing or thinking about something | move closer; begin to deal with,A2-051; A3-035
+45,treatment,A,5,כן,טיפול מול יחס; המובן הרפואי עלול להשתלט על כל הופעה.,Noun,medical care; the way someone is dealt with,A2-052
+46,miss,A,5,כן,החמצה וגעגוע; אין פועל עברי אחד ומבנה זהה.,Verb,"fail to do, see or reach something",A1-076
+47,anxious,B,5,כן,שני כיוונים רגשיים; המבנה וההקשר חיוניים.,Adjective,worried or nervous,B1-024
+48,right,B,5,כן,"נכון, ימין וזכות באותו כתיב; חלק הדיבור משנה משמעות.",Adjective,"correct, suitable or on the side opposite left",B2-045
+49,spoil,B,5,כן,קלקול ופינוק יתר; בעברית נשמעות פעולות בעלות מטען שונה.,Verb,damage or ruin; give someone too much,B2-005
+50,objective,A,5,כן,היכרות עם אובייקטיבי בעברית עלולה להסתיר את משמעות שם העצם.,Noun,an aim or purpose,A2-047
+51,advance,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,movement forward; progress,A1-002
+52,age,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,the number of years someone has lived,B1-035
+53,altogether,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adverb,completely; in total,B3-002
+54,apparent,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,easy to notice or understand,B3-049
+55,appear,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,come into view; seem,A2-032
+56,atmosphere,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,the air around a planet; the feeling in a place,B2-010
+57,average,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,ordinary; not especially high or low,A1-012
+58,be responsible for,A,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Phrase,have the duty to do or care for something,A2-004
+59,behind,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adverb,at the back or making less progress than others,B3-026
+60,brilliant,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,"very clever, bright or excellent",B2-018
+61,challenge,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,question or disagree with something,A1-072
+62,chance,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,an opportunity or a possibility,A2-063
+63,change,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,become different; make something different,A1-017
+64,common,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,usual; shared by many,A2-070
+65,conditions,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,the situation in which people or things exist,A3-032
+66,contemporary,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,belonging to the present time,B2-063
+67,current,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,happening or existing now,A2-031
+68,cut down,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Phrase,reduce an amount or make a tree fall,B3-008
+69,deliver,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,take something to a person or place; give a speech,B1-071
+70,demonstrate,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,show clearly; protest in public,A2-024
+71,design,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,a plan for how something will look or work,A3-024
+72,determine,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,discover or decide something,B3-033
+73,development,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,"growth, change or a new event",A1-039
+74,differ,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,be unlike or have another opinion,B2-022
+75,done,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,finished or completed,B2-061
+76,double,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adverb; Verb,twice as much or as many | make or become twice as much,B2-029; B3-076
+77,drop,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun; Verb,fall; let something fall | a small amount of liquid; a fall,A2-005; A2-048
+78,economical,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,"using little money, fuel or time",B2-026
+79,element,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,a basic or important part,B1-063
+80,except that,A,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Phrase,but with one difference,A3-054
+81,expression,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,a phrase; a way of showing a feeling or idea,B2-065
+82,extend,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,make longer or larger; reach out,B2-048
+83,farther/further,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective; Adverb,to a greater distance or degree | more distant or additional,B3-007; B3-040
+84,feature,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,an important or noticeable part,A3-034
+85,fetch,B,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Verb,go to get someone or something and bring them back,B1-045
+86,final,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,"the last game, test or stage in a series",B1-048
+87,fit,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,healthy; suitable for a purpose,B1-021
+88,fresh,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,"new, recent or not spoiled",A2-025
+89,gain,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun; Verb,an increase or benefit | get or increase,A2-013; A3-001
+90,genuine,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,"real, honest or truly felt",B1-038
+91,go out,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Phrase,leave home for an activity or stop giving light,B2-030
+92,image,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,a picture or the idea people have of something,A2-019
+93,impression,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,an idea or feeling formed about someone or something,B1-025
+94,in,A,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Preposition,"inside a place, during a time or showing a particular state",A1-034
+95,in terms of,A,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Phrase,when considering a particular part of something,A3-006
+96,input,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,"ideas, information or effort put into something",B2-020
+97,instruction,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,information that tells someone what to do,A3-077
+98,intelligence,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,the ability to learn and understand,A1-058
+99,interest,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun; Verb,make someone curious | curiosity; an activity someone enjoys,A3-009; A3-057
+100,interpret,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,explain the meaning of something; translate speech,B3-024
+101,jam,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,a situation where movement is blocked; sweet fruit spread,B1-028
+102,judgment,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,an opinion or decision after careful thought,B1-062
+103,just about,A,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Phrase,"almost, but not completely",A3-044
+104,keen,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,"very interested, eager or sharp",B3-059
+105,kind of,A,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Phrase,a little or in some way,A1-027
+106,learn,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,gain knowledge or skill,B2-056
+107,lecture,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun; Verb,give a formal educational talk | a formal educational talk,B1-041; B3-019
+108,light,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,make something begin to burn or become bright,B3-023
+109,likely,A,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Adjective; Adverb,probable | probably,A1-074; A3-012
+110,living,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,money earned for basic needs; a way of life,B2-074
+111,low,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adverb,"at a small height, amount or level",A2-018
+112,lower,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,move down or make less,B3-005
+113,material,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,"information, documents or a substance used to make things",A2-071
+114,measure,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,an action taken to achieve something,A2-038
+115,mend,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,repair something that is broken or damaged,B3-060
+116,more or less,A,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Phrase,almost or approximately,A3-040
+117,name,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,give a title to or identify,B2-037
+118,native,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,connected with the place where someone was born,B2-035
+119,naturally,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adverb,as expected; in a normal way,A1-003
+120,neither ... nor,B,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Phrase,not the first choice and not the second choice,B2-066
+121,not ... a word,B,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Phrase,"used to say that nothing was heard, said or understood",B2-049
+122,not only,A,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Phrase,used to add another important fact,A3-073
+123,notice,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,a written message or advance warning,A1-019
+124,occupation,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,a job; the act of using or controlling a place,B2-008
+125,occupy,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,"use, fill or take control of a space or time",B2-060
+126,oil,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,"a thick liquid used as fuel, food or machine protection",B3-062
+127,on the whole,B,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Phrase,when considering everything together,B2-028
+128,operate,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,control a machine; perform medical treatment,B3-069
+129,organ,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,a body part with a special job; a large musical instrument,B2-009
+130,others,A,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Pronoun,other people or things that were not already named,A2-067
+131,outstanding,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,extremely good; not yet completed or paid,B3-014
+132,particular,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,specific; special,A1-042
+133,patient,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,able to wait calmly,B1-053
+134,peculiar,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,strange or unusual,B2-046
+135,perform,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,do an action or entertain an audience,A1-052
+136,personally,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adverb,in your own opinion; by yourself,A3-069
+137,place,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,"a particular area, position or point",B1-018
+138,plant,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,put a seed or young tree in the ground,A1-026
+139,policy,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,an official plan or rule,A2-030
+140,potential,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,the ability to develop or succeed in the future,B3-047
+141,prevent,A,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Verb,stop something from happening,A3-017
+142,prime,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,main or most important,B1-026
+143,principal,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective; Noun,main or most important | the head of a school,B2-079; B3-036
+144,produce,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,make or create,A2-043
+145,promote,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,"support, advertise or move someone to a higher job",B1-006
+146,provided that,A,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Phrase,only if a particular condition is met,A3-060
+147,public,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,open to everyone; connected with government,A1-045
+148,put up with,B,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Phrase,accept an unpleasant situation without complaining,B2-002
+149,quality,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,how good something is; a feature,A1-069
+150,question,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun; Verb,ask someone for information; doubt | something asked; a problem to discuss,A1-018; A3-013
+151,reach,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun; Verb,arrive at or stretch far enough to touch | the distance that someone can touch or influence,B2-033; B3-043
+152,reason,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,a cause or explanation for an action or event,B1-010
+153,reasonable,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,"fair, sensible or not too expensive",A1-028
+154,register,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun; Verb,put a name or information on an official list | an official list of names or information,B1-031; B2-054
+155,regret,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun; Verb,feel sorry about something | sadness about something done or missed,B2-051; B3-072
+156,regular,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,normal; happening at fixed times,A3-052
+157,relate,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,connect things; understand someone’s experience,B2-016
+158,remote,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,far away; controlled from a distance,B2-069
+159,respect,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun; Verb,admiration or polite treatment | admire or treat someone well,B3-015; B3-020
+160,retire,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,stop working because of age or after a long career,B1-061
+161,review,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun; Verb,an examination or written opinion | examine again; give an opinion,A2-026; A2-057
+162,revise,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,study again or make changes,A1-033
+163,role,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,"a function, duty or acting part",B1-008
+164,rough,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,not smooth; difficult or violent,B1-043
+165,rule,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun; Verb,an official instruction about what is allowed | control or govern a country or group,B1-056; B1-079
+166,rush,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun; Verb,a sudden quick movement or very busy period | move or act very quickly,B2-019; B3-025
+167,sample,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,a small part used to represent the whole,A2-075
+168,satisfy,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,meet a need or make someone pleased,B2-011
+169,scale,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,a set of levels; a device for measuring weight,B2-047
+170,scene,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,a part of a play or film; the place of an event,B1-037
+171,schedule,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,a plan showing times for activities,B3-031
+172,sensitive,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective,easily affected; needing careful treatment,B2-013
+173,service,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,work or help provided for people,B1-050
+174,setting,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,the place and time of an event or story,B3-075
+175,shortly,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adverb,soon; in a few words,B3-079
+176,so-called,B,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Phrase,used for a name that may not be correct,B3-051
+177,society,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,people living together in an organized community,B1-046
+178,speech,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,a formal talk; the ability to speak,B3-034
+179,study,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun; Verb,learning or a piece of research | learn about or examine carefully,A2-050; A2-056
+180,support,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun; Verb,"help, agree with or hold up | help, agreement or something that holds an object",B1-059; B2-031
+181,surface,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,the outside or top layer,A2-009
+182,take into account,B,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Phrase,consider a fact when making a decision,B3-042
+183,take place,B,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Phrase,happen at a particular time or place,B3-029
+184,thanks to,A,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Phrase,because of someone or something helpful,A1-064
+185,theme,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,the main subject or idea,B2-036
+186,to,B,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Preposition,"used for direction, a receiver or the end of a range",B3-017
+187,transport,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun; Verb,carry people or goods to another place | a system for moving people or goods,A1-024; A2-065
+188,turn,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,a change of direction; a person’s time to act,B1-030
+189,undo,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Verb,reverse an action; open something tied or fastened,B2-070
+190,unlike,A,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Preposition,different from another person or thing,A3-053
+191,view,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,an opinion; what can be seen,A3-043
+192,vision,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,the ability to see; an idea for the future,A1-035
+193,waste,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective; Verb,use badly or use more than needed | not wanted and left after use,B2-062; B3-011
+194,wealth,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Noun,"a large amount of money, property or useful things",B2-038
+195,welcome,B,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adjective; Verb,greet someone with pleasure | wanted and giving pleasure,B1-070; B2-064
+196,whom,A,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Pronoun,used instead of ’who’ as the object of a verb or preposition,A3-005
+197,within,A,4,לא,משמעויות נוספות או צירופים שכיחים עלולים להטעות; יש להבחין בחלק הדיבור ובהקשר.,Adverb; Preposition,"inside a place or before a limit is reached | inside a place, time or limit",A1-057; A3-011
+198,worthwhile,A,4,לא,"מבנה דקדוקי, מילת תפקוד או צירוף שהתרגום הקצר אינו מסביר את שימושו.",Adjective,valuable enough to be worth the time or effort,A1-078
+199,acquire,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Verb,get or learn something,B1-020
+200,addition,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,an extra thing or part,A3-050
+201,advanced,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,at a high or modern level,A2-016
+202,all of a sudden,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,very suddenly and without warning,B2-017
+203,among other things,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,including some other things,A2-029
+204,analysis,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,careful study of parts or information,A3-038
+205,appropriate,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,right or suitable for a situation,B1-074
+206,at least,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,not less than a number or amount,A2-058
+207,be in charge,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,have control or responsibility for something,B3-066
+208,be situated in/on/by,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,be in a particular place,B1-065
+209,before,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Preposition,earlier than a time or event,A2-074
+210,believe in,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,"think that someone or something is good, true or real",B3-064
+211,blame,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,responsibility for a mistake or harmful event,B3-078
+212,block,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Verb,stop movement or prevent progress,B1-019
+213,characteristic,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,a usual or special quality,A3-048
+214,come after/first/last,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,"be in a later, first or last position",A1-070
+215,competitive,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,wanting to win; involving people trying to win,B1-069
+216,consequence,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,a result of an action or event,A3-007
+217,considerable,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,large or important,A3-014
+218,cope,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Verb,deal successfully with something difficult,A1-036
+219,criterion,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,a standard used to make a decision,B2-040
+220,critic,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,a person who judges or gives opinions,A3-058
+221,declare,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Verb,announce something clearly or officially,B1-057
+222,deliberately,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adverb,on purpose,A1-029
+223,demanding,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,"needing a lot of time, effort or skill",B1-064
+224,detect,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Verb,notice or discover something difficult to see,B2-073
+225,disagreement,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,a situation in which people have different opinions,A3-067
+226,efficient,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,working well without wasting time or energy,A3-068
+227,either way,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,used when the result is the same in both cases,B2-068
+228,emerge,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Verb,come out or become known,B2-053
+229,emphasis,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,special attention or importance,A2-023
+230,essentially,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adverb,in the most important way; basically,A1-040
+231,exactly,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adverb,completely correctly; in full agreement,A2-022
+232,exception,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,a person or thing not included in a general rule,B1-009
+233,exchange,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Verb,give one thing and receive another,B1-078
+234,expense,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,money needed or spent,B1-027
+235,fed up,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,tired and annoyed because something continued too long,B3-009
+236,feedback,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,comments that help someone improve,A2-059
+237,finding/findings,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,a result learned from research,A2-066
+238,flexible,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,able to change easily when needed,A3-004
+239,focus on/upon,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,give special attention to someone or something,A3-003
+240,get rid of,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,remove something that is not wanted,B2-024
+241,get worse,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,"become more difficult, painful or serious",B3-056
+242,get wrong,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,understand or answer something incorrectly,B2-039
+243,guidance,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,advice that helps someone decide what to do,A3-020
+244,highlight,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Verb,make something seem especially important,B2-059
+245,historic,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,important in the story of the past,B3-050
+246,hopefully,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Adverb,used to say that you hope something will happen,A3-056
+247,ideal,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,perfect or most suitable,A3-028
+248,illustrate,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Verb,explain by using a picture or example,A2-077
+249,immigration,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,the movement of people into another country to live,B1-034
+250,impress,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Verb,make someone admire or notice something,B3-053
+251,in actual fact,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,used to show what is really true,A2-062
+252,in connection with,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,"related to a person, event or subject",A3-025
+253,in that case,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,used to say what should happen if that is true,A2-054
+254,in the meantime,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,during the time before something else happens,A3-064
+255,incredible,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,very hard to believe; extremely good,B2-071
+256,initial,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,first,A2-017
+257,interaction,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,communication or activity between people or things,B1-040
+258,interrupt,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Verb,stop someone briefly while they are speaking or working,B1-015
+259,introduce,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Verb,present someone or something for the first time,A1-046
+260,invest,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Verb,"put in money, time or effort for a future benefit",A1-059
+261,involvement,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,the act of taking part in something,B1-001
+262,it looks like/as if/as though,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,used to say how a situation seems,B1-066
+263,just as ... as,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,equal to someone or something in a particular way,B2-004
+264,justice,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,fair treatment according to law or moral rules,B1-076
+265,keep on doing,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,continue to do the same action,A2-028
+266,lack,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Verb,not have enough of something,A1-021
+267,limited,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,small in amount or number,A3-031
+268,look at,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,direct your eyes or attention toward something,A3-030
+269,make sense,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,be easy to understand or reasonable,B2-055
+270,make up your mind,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,make a decision after thinking,B2-067
+271,mention,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun; Verb,a short reference to someone or something | speak or write about briefly,A2-041; A3-015
+272,misunderstand,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Verb,understand incorrectly,A1-049
+273,nevertheless,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adverb,despite what was just said,A3-029
+274,not at all,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,in no way or by no amount,A3-022
+275,occasional,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,happening sometimes but not often,A1-007
+276,official,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,approved by a person or organization in authority,A2-035
+277,on the one hand ... on the other hand,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,used to compare two different sides of a situation,A1-050
+278,out of date,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,too old to be useful or correct,A2-015
+279,part-time,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,for fewer hours than a full working week,B3-037
+280,point of view,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,a way of thinking about or seeing something,A2-037
+281,priority,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,something more important than other things,A1-037
+282,private,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,not public; belonging to one person or company,A3-039
+283,probable,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,likely to be true or happen,A3-063
+284,proof,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,information showing that something is true,A1-001
+285,proposed,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,suggested for people to consider,A3-036
+286,purpose,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,the reason for doing something,A1-023
+287,recommend,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Verb,say that something is good or suitable,A1-010
+288,relevant,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,connected with the subject,A1-048
+289,reliable,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,able to be trusted or depended on,A1-063
+290,rely on/upon,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,depend on or trust someone or something,A2-027
+291,replace,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Verb,put one person or thing instead of another,B1-080
+292,request,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun; Verb,ask for something politely or officially | a polite or official ask for something,A1-062; A3-065
+293,research,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun; Verb,study carefully to discover facts | careful study to discover facts,A1-071; A2-011
+294,result,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,what happens because of an action or event,A3-010
+295,risk,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun; Verb,a chance that something harmful may happen | do something that may cause harm or loss,A1-025; A3-008
+296,run out of,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,use all of something so that none remains,A1-005
+297,set up,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,start or arrange something for use,A1-014
+298,shut down,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,close a place or stop a machine from working,B3-001
+299,significant,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,important or large enough to notice,A2-006
+300,similarity,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,a way in which people or things are alike,B3-003
+301,slight,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,small and not serious,A1-073
+302,slow down/up,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,make someone or something move less or more quickly,B3-028
+303,sooner or later,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,"at some time in the future, even if the time is unknown",B3-058
+304,specific,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,clear and exact; particular,A2-034
+305,start off,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,begin an activity or journey in a particular way,B2-052
+306,structure,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,the way parts are arranged,A1-032
+307,sum up,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,state the main ideas in a short form,B3-013
+308,summary,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Noun,a short statement of the main points,B3-054
+309,take part,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,join and be involved in an activity,B1-003
+310,take seriously,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,treat someone or something as important and real,B2-003
+311,take the opportunity,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,use a suitable chance to do something,B2-006
+312,take/accept/claim responsibility,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,accept that you have a duty or caused something,B3-016
+313,the headlines,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,the titles of the most important news stories,B3-052
+314,the heart of,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,the central or most important part of something,B1-016
+315,the main thing,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,"the most important fact, idea or goal",B1-023
+316,the reality of,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,the situation as it really is,B2-076
+317,throw away/out,A,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,get rid of something that is not wanted,A2-053
+318,to start with,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,used to introduce the first point or situation,B3-046
+319,uncomfortable,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,"not relaxed, pleasant or physically easy",B3-070
+320,underneath,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Adverb; Preposition,in or to a lower position | directly below someone or something,B1-011; B1-077
+321,unique,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,the only one of its kind; very unusual,A1-011
+322,united,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,joined together for the same purpose,A3-062
+323,unlikely,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Adjective,not expected to happen or be true,A1-060
+324,up-to-date,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,containing the newest information,B2-021
+325,use up,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Phrase,use all of something so that none remains,B1-039
+326,vary,A,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Verb,be different or change,A2-046
+327,virtual reality,B,3,לא,"משמעות מופשטת, הבחנה סמנטית או צירוף מקובל; תרגום אחד מועיל אך אינו מספיק לשימוש פעיל.",Phrase,a computer-made world that seems real,B3-030
+328,wherever,B,3,לא,"צירוף או מילת קישור: ההקניה דורשת דוגמה ותשומת לב למבנה, אך המשמעות המרכזית ניתנת ללמידה עצמית.",Adverb,in or to any place,B2-072
+329,above,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Adjective,written or mentioned earlier on the page,B1-012
+330,advertising,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,messages that try to sell products,A1-047
+331,agriculture,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,the work of growing crops and raising animals,B2-014
+332,automatically,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Adverb,"by itself, without a person controlling it",B2-032
+333,clothing,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,things people wear,B2-027
+334,complicated,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Adjective,difficult to understand or deal with,A2-008
+335,contest,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,an event in which people try to win,B2-075
+336,continent,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,one of the world’s main large land areas,B3-057
+337,decrease,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun; Verb,"become or make smaller | a reduction in size, number or amount",A1-068; A2-069
+338,delayed,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Adjective,happening later than planned,A2-073
+339,destruction,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,very serious damage,A1-004
+340,disaster,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,an event that causes great harm,A3-023
+341,discovery,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,something found or learned for the first time,A2-072
+342,divide,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Verb,separate into parts or groups,B3-010
+343,doubt,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Verb,feel unsure that something is true,A1-079
+344,editor,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,"a person who prepares text, film or sound for publication",B3-039
+345,educate,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Verb,teach and help someone learn,A2-064
+346,emotion,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,"a strong feeling such as joy, fear or anger",B2-042
+347,event,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,something that happens; an organized activity,A3-079
+348,expected,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Adjective,believed or planned to happen,B3-018
+349,expedition,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,an organized journey for a special purpose,B1-014
+350,export,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun; Verb,goods sent to another country for sale | send goods to another country for sale,B2-025; B3-041
+351,extraordinary,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Adjective,very unusual or special,A3-047
+352,extreme,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Adjective,"very great, serious or far from normal",B3-077
+353,financial,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Adjective,connected with money,A3-002
+354,flood,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun; Verb,water covering land that is usually dry | cover a place with too much water,A1-080; A2-002
+355,focus,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,the main point of attention,A1-056
+356,frequent,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Adjective,happening often,A1-075
+357,from,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Preposition,"used to show a starting place, time or source",A3-026
+358,generate,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Verb,produce or create,A1-031
+359,generation,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,people born at about the same time,B2-043
+360,historian,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,a person who studies and writes about the past,B3-044
+361,import,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun; Verb,bring goods into a country for sale | goods brought into a country for sale,B1-002; B1-051
+362,indoors,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Adjective; Adverb,inside a building | happening or used inside a building,B1-013; B3-045
+363,infection,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,an illness caused by harmful organisms,B1-054
+364,investigate,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Verb,try to discover the facts,A3-021
+365,journalist,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,a person who reports news,B1-004
+366,knowledge,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,information and understanding,A2-003
+367,landscape,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,the visible features of an area of land,A1-077
+368,logical,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Adjective,based on clear and sensible thinking,B3-032
+369,mixture,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,a combination of different things,B3-061
+370,mystery,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,something difficult or impossible to explain,B1-073
+371,nonsense,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,words or ideas with no meaning or truth,B3-022
+372,open,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Verb,make something no longer closed; begin operating,B1-044
+373,organization,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,an official group; the act of arranging things,B3-027
+374,participate,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Verb,take part,A2-040
+375,past,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Adjective,belonging to an earlier time,A3-055
+376,personality,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,the qualities that make a person behave in a certain way,A2-010
+377,planning,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,the activity of deciding how to do something,A1-066
+378,pollution,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,"harmful material in air, water or land",A3-061
+379,popular,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Adjective,liked by many people; common,A1-020
+380,preference,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,a greater liking for one choice,B1-058
+381,pressure,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,force; worry caused by demands,B2-007
+382,profession,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,a job that needs special training,A2-076
+383,professor,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,a senior teacher at a university,A3-049
+384,protest,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun; Verb,show strong disagreement | a public show of strong disagreement,A1-067; A2-079
+385,psychology,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,the study of the mind and behavior,A2-039
+386,questionnaire,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,a written set of questions,A1-051
+387,react,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Verb,respond to something,A3-066
+388,recycle,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Verb,process used material so it can be used again,A3-078
+389,region,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,a large area of a country or the world,A1-043
+390,remark,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun; Verb,a spoken or written comment | say or write a comment,B1-017; B1-047
+391,rescue,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun; Verb,an act of saving someone from danger | save someone from danger,B1-049; B1-075
+392,rural,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Adjective,connected with the countryside,A3-027
+393,seldom,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Adverb,not often,A2-012
+394,skilled,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Adjective,having training and ability,A1-030
+395,specialist,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,a person with expert knowledge in one area,A1-053
+396,spectacular,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Adjective,very impressive or beautiful,B2-001
+397,style,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,"a particular way of doing, writing or designing",B2-080
+398,survive,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Verb,continue to live or exist after danger,B1-052
+399,theory,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,an idea that explains how or why something happens,A2-045
+400,treasure,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,valuable objects or something greatly loved,B2-050
+401,try,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,an attempt to do something,B1-005
+402,universe,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,"all space, matter and energy",A3-033
+403,urban,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Adjective,connected with a city,A3-037
+404,vowel,B,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,"a speech sound represented by letters such as a, e, i, o or u",B3-063
+405,wildlife,A,2,לא,"משמעות המקור ניתנת ללמידה עצמית בעזרת דוגמה; נדרשת חזרה על הצורה או על ההקשר, ללא מכשול מרכזי המצדיק מקום ב־50 הראשונים.",Noun,animals and plants living in nature,A1-009
+406,bad,B,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Adjective,not good; unpleasant or harmful,B2-057
+407,calculate,B,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Verb,find an amount by using numbers,B3-067
+408,copy,B,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Noun,something made to be the same as another,B1-029
+409,decade,B,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Noun,a period of ten years,B3-004
+410,disappointed,B,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Adjective,sad because something was not as good as hoped,B2-041
+411,dislike,A,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Noun; Verb,not like | a feeling of not liking someone or something,A1-038; A1-055
+412,enjoyable,A,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Adjective,pleasant and fun,A2-001
+413,essay,A,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Noun,a short piece of writing about a subject,A1-044
+414,exist,A,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Verb,be real or present,A2-044
+415,flu,A,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Noun,an illness like a bad cold,A2-049
+416,frighten,A,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Verb,make someone feel afraid,A1-015
+417,hidden,B,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Adjective,kept where it cannot easily be seen,B3-048
+418,identical,B,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Adjective,exactly the same,B3-073
+419,illness,A,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Noun,a condition of being sick,A3-074
+420,inside,B,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Adverb,in or into an inner part,B2-044
+421,kit,B,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Noun,a set of tools or equipment for a purpose,B2-058
+422,monthly,B,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Adjective,happening or produced once a month,B2-078
+423,nightmare,B,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Noun,a frightening dream or very unpleasant situation,B3-074
+424,planet,A,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Noun,a large round object moving around a star,A2-061
+425,population,A,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Noun,all the people living in an area,A2-078
+426,relax,B,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Verb,rest and become less worried,B1-022
+427,salary,A,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Noun,money paid regularly for work,A3-076
+428,trash,A,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Noun,things that are thrown away,A2-060
+429,understand,B,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Verb,know the meaning or reason,B1-067
+430,unemployed,B,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Adjective,without a paid job,B2-015
+431,unexpected,B,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Adjective,not planned or believed likely to happen,B1-033
+432,unfortunately,A,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Adverb,used to say that something is sad or disappointing,A3-019
+433,unhealthy,A,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Adjective,not good for the body or mind,A2-021
+434,unknown,A,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Adjective,not known,A2-080
+435,urgent,B,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Adjective,needing immediate attention,B3-065
+436,visible,A,1,לא,"משמעות המקור ישירה יחסית, עם מקבילה עברית זמינה; עדיפות נמוכה להקניה מיוחדת בכיתה.",Adjective,able to be seen,A3-045
