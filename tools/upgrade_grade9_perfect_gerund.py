@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 R = Path(__file__).resolve().parents[1]
 O = R/'grade9/unit-1/read-alone'
 changes = {
- 2: ("His class had already planned a book sale for a community library.", "כיתתו כבר תכננה מכירת ספרים למען ספרייה קהילתית.", "כיתתו|כיתה|כבר — עם had לציון עבר מושלם|כבר|תכננה|מכירת|ספרים|מכירה|למען|ספרייה|קהילתית|ספרייה"),
- 9: ("Instead of asking for an explanation, he started writing an angry answer, then stopped.", "במקום לבקש הסבר, הוא התחיל לכתוב תשובה כועסת, ואז עצר.", "במקום|של — בצירוף instead of|לבקש|ל־|הסבר|הסבר|הוא|התחיל|לכתוב|תשובה|כועסת|תשובה|אז|עצר"),
+ 2: ("His class had already planned a book sale for a community library.", "כיתתו כבר תכננה מכירת ספרים למען ספרייה קהילתית.", "שלו|כיתה|עם planned לציון פעולה קודמת בעבר|כבר|תכננה|ה־|ספרים|מכירה|למען|ה־|קהילתית|ספרייה"),
+ 9: ("Instead of asking for an explanation, he started writing an angry answer, then stopped.", "במקום לבקש הסבר, הוא התחיל לכתוב תשובה כועסת, ואז עצר.", "במקום|של — בצירוף instead of|לבקש|ל־|ה־|הסבר|הוא|התחיל|לכתוב|תשובה|כועסת|תשובה|אז|עצר"),
  27: ("He and his father had finished making it late the night before.", "הוא ואביו סיימו להכין אותו בשעה מאוחרת בלילה הקודם.", "הוא|ו־|שלו|אבא|כבר — עם finished לציון עבר מושלם|סיימו|להכין|אותו|מאוחר|ה־|לילה|הקודם"),
  28: ("Suddenly, Noam understood why Eitan had answered so quickly.", "פתאום נועם הבין מדוע איתן ענה מהר כל כך קודם לכן.", "פתאום|נועם|הבין|מדוע|איתן|כבר — עם answered לציון עבר מושלם|ענה|כל כך|במהירות"),
  29: ("“I have never felt so embarrassed about assuming the worst,” Noam said.", "״מעולם לא הרגשתי נבוך כל כך בגלל ההנחה שהכול לרעה,״ אמר נועם.", "אני|עם felt לציון ניסיון עד עכשיו|מעולם לא|הרגשתי|כל כך|נבוך|בגלל|הנחת|ה־|הגרוע ביותר|נועם|אמר"),
