@@ -1,5 +1,5 @@
 """Upgrade the existing 46-sentence story and regenerate aligned narration."""
-import json, re, subprocess, hashlib
+import json, re, subprocess, hashlib, html
 from pathlib import Path
 from bs4 import BeautifulSoup
 R = Path(__file__).resolve().parents[1]
@@ -49,11 +49,14 @@ def main():
   if sid not in changes:continue
   target=node.select_one('.story-sentence')
   if target:
-   target.clear();target.append(changes[sid][0])
+   target.clear()
+   row=data['sentences'][sid-1]
+   markup=''.join(html.escape(w['prefix'])+'<span class="ra-word ra-hit" role="button" tabindex="0" data-w="'+str(w['index'])+'" data-he="'+html.escape(w['he'],quote=True)+'">'+html.escape(w['word'])+'</span>' for w in row['words'])+html.escape(row['suffix'])
+   target.append(BeautifulSoup(markup,'html.parser'))
   tr=node.select_one('.translation')
   if tr:tr.string=changes[sid][1]
  path.write_text(str(soup))
- path=O/'index.html';s=path.read_text();s=s.replace('kind:"grade9",','kind:"grade9",assetVersion:"20261006-perfect-gerund",');path.write_text(s)
+ path=O/'index.html';s=path.read_text();s=re.sub(r'kind:"grade9",(?:assetVersion:"[^"]*",)*','kind:"grade9",assetVersion:"20261006-perfect-gerund",',s);path.write_text(s)
  assert hashlib.sha256((O/'assets/story.mp3').read_bytes()).hexdigest()==audio['sha256']
  report={'version':data['version'],'sentences':46,'updatedSentenceIds':list(changes),'words':idx,'audioSeconds':audio['duration'],'audioMatchesText':True,'grammar':['Past Perfect','Present Perfect','gerund after preposition','gerund as subject','gerund after finish/appreciate']}
  (O/'grammar-upgrade-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
