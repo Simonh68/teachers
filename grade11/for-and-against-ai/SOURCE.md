@@ -1,0 +1,4 @@
+# For and Against — AI in Schools
+Created 2026-10-06 for Grade 11, 5 units. Source: the approved Advanced Grammar in an Essay lesson at ../grammar-in-an-essay/overview.html and the original September 16–19 conversation standards retrieved via Personal Context. No conversation URL was returned; no automatic conversation linkage is claimed.
+45 slides, 126-word essay, four paragraphs. Ten short/expanded pairs; additions and wording substitutions marked; Hebrew meaning on following slide. No breaks or timers. Final two slides mark conditional/perfect and ING/passive. “protecting” after while is a reduced clause, distinguished from gerunds after avoid/prepositions.
+Navigation and base CSS copied from shared/deck/standard.js and standard.css at teachers main 0c097387da5482a9cfd8fcbe97b148defcaf35d6. Embedded Heebo/Nunito fonts reused from the original lesson. Standalone HTML. No data collection. Practice prompt, not an official examination question.
