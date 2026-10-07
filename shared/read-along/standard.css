@@ -107,3 +107,14 @@
 .reading.en [data-en],.reading.en [data-en].marker{font-weight:800!important;}
 .reading.he [data-he],.reading.he [data-he].marker{font-weight:600!important;}
 .reading span.marker{text-shadow:none!important;}
+
+
+/* Android TTS marker visibility hardening */
+.reading.en [data-en].marker,
+.reading.he [data-he].marker{
+  color:#111!important;
+  background:var(--marker)!important;
+  border-radius:5px!important;
+  padding:0 .08em!important;
+  box-shadow:0 0 0 2px rgba(255,226,112,.22)!important;
+}
