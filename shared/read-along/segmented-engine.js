@@ -120,8 +120,21 @@ function tip(node){if(!node)return;const [s,i]=node.dataset.en.split(':').map(Nu
 let ignoreClick=0;stage.addEventListener('click',e=>{if(performance.now()<ignoreClick){e.preventDefault();return;}const n=e.target.closest('[data-en]');if(n)tip(n);else hideTip();});stage.addEventListener('pointerover',e=>{if(e.pointerType==='mouse')tip(e.target.closest('[data-en]'));});stage.addEventListener('pointerout',e=>{if(e.pointerType==='mouse')hideTip();});stage.addEventListener('focusin',e=>tip(e.target.closest('[data-en]')));
 document.addEventListener('click',e=>{if(e.target.closest('a'))stop();});
 window.addEventListener('keydown',e=>{if(menu.open||e.altKey||e.ctrlKey||e.metaKey||e.target.closest('select,input,textarea'))return;if(e.key==='Escape'){hideTip();if(narrator.isActive)narrator.pause();return;}if((e.key==='Enter'||e.key===' ')&&e.target.matches('[data-en]')){e.preventDefault();tip(e.target);return;}if(['ArrowDown','ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();step(1);}else if(['ArrowUp','ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();step(-1);}else if(e.key==='Home'){e.preventDefault();show(0,false);}else if(e.key==='End'){e.preventDefault();show(pages.length-1,true);}});
-let gesture=null,touches=new Set();stage.addEventListener('pointerdown',e=>{touches.add(e.pointerId);if(touches.size>1){gesture=null;return;}if(e.pointerType==='mouse'&&e.button!==0)return;if(e.target.closest('button,a,select')||(window.visualViewport?.scale||1)>1)return;gesture={id:e.pointerId,x:e.clientX,y:e.clientY,t:performance.now()};try{stage.setPointerCapture(e.pointerId);}catch(_){}});
-stage.addEventListener('pointerup',e=>{const g=gesture;gesture=null;touches.delete(e.pointerId);if(!g||g.id!==e.pointerId||touches.size)return;const dx=e.clientX-g.x,dy=e.clientY-g.y;if(Math.max(Math.abs(dx),Math.abs(dy))>=44&&performance.now()-g.t<1800){ignoreClick=performance.now()+500;hideTip();step((Math.abs(dx)>Math.abs(dy)?dx:dy)<0?1:-1);}});stage.addEventListener('pointercancel',e=>{touches.delete(e.pointerId);gesture=null;});
+let gesture=null,touches=new Set(),touchGesture=null,lastSwipeAt=0;
+function swipeTargetBlocked(target){return !!target.closest?.('button,a,select,input,textarea,[data-en]');}
+function runSwipe(dx,dy,startedAt){
+ const now=performance.now();if(now-lastSwipeAt<350)return false;
+ if(Math.max(Math.abs(dx),Math.abs(dy))<44||now-startedAt>=1800)return false;
+ lastSwipeAt=now;ignoreClick=now+500;hideTip();
+ step((Math.abs(dx)>Math.abs(dy)?dx:dy)<0?1:-1);return true;
+}
+stage.addEventListener('pointerdown',e=>{touches.add(e.pointerId);if(touches.size>1){gesture=null;return;}if(e.pointerType==='mouse'&&e.button!==0)return;if(swipeTargetBlocked(e.target)||(window.visualViewport?.scale||1)>1)return;gesture={id:e.pointerId,x:e.clientX,y:e.clientY,t:performance.now()};try{stage.setPointerCapture(e.pointerId);}catch(_){}});
+stage.addEventListener('pointerup',e=>{const g=gesture;gesture=null;touches.delete(e.pointerId);if(!g||g.id!==e.pointerId||touches.size)return;runSwipe(e.clientX-g.x,e.clientY-g.y,g.t);});
+stage.addEventListener('pointercancel',e=>{touches.delete(e.pointerId);gesture=null;});
+/* Touch fallback keeps swipe navigation available during native deck/interlude slides too. */
+stage.addEventListener('touchstart',e=>{if(e.touches.length!==1||swipeTargetBlocked(e.target)||(window.visualViewport?.scale||1)>1){touchGesture=null;return;}const t=e.touches[0];touchGesture={x:t.clientX,y:t.clientY,t:performance.now()};},{passive:true});
+stage.addEventListener('touchend',e=>{const g=touchGesture;touchGesture=null;if(!g||e.changedTouches.length!==1)return;const t=e.changedTouches[0];runSwipe(t.clientX-g.x,t.clientY-g.y,g.t);},{passive:true});
+stage.addEventListener('touchcancel',()=>{touchGesture=null;},{passive:true});
 let totalWheel=0,lock=0,previous=0;stage.addEventListener('wheel',e=>{if(e.ctrlKey||e.metaKey||menu.open||e.target.closest('.tabstrip'))return;e.preventDefault();const now=performance.now();if(now<lock)return;if(now-previous>160)totalWheel=0;previous=now;totalWheel+=(Math.abs(e.deltaY)>=Math.abs(e.deltaX)?e.deltaY:e.deltaX)*(e.deltaMode===1?16:e.deltaMode===2?500:1);if(Math.abs(totalWheel)>55){step(totalWheel>0?1:-1);totalWheel=0;lock=now+500;}},{passive:false});
 window.addEventListener('pagehide',stop);window.addEventListener('blur',()=>{if(narrator.isActive||scheduled)stop();});document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});
 window.addEventListener('resize',()=>{gesture=null;clearTimeout(resizeTimer);const sentence=pages[page]?.ids[0]||0,r=reveal;resizeTimer=setTimeout(()=>{stop();makePages();show(Math.max(0,pages.findIndex(p=>p.ids.includes(sentence))),r,{schedule:false});},120);});
