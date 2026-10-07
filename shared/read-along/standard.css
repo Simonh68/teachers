@@ -217,3 +217,24 @@ body.readalong-break .deck-progress-track{display:block}
   letter-spacing:inherit!important;
   word-spacing:inherit!important;
 }
+
+/* Read Along Classic — force Hebrew sentence visual order to true RTL. */
+.hebrew-slot{
+  direction:rtl!important;
+  text-align:right!important;
+  unicode-bidi:isolate!important;
+}
+.reading.he{
+  direction:rtl!important;
+  text-align:right!important;
+  unicode-bidi:isolate-override!important;
+}
+.reading.he .paragraph-line{
+  display:inline!important;
+  direction:rtl!important;
+  unicode-bidi:isolate-override!important;
+}
+.reading.he [data-he]{
+  direction:rtl!important;
+  unicode-bidi:isolate!important;
+}
