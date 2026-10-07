@@ -14,7 +14,7 @@ if(!['chunks','sentences'].includes(view)){
  const D=window.UNIT_DATA;if(!D?.story?.length)throw Error('Missing unit reading data');
  const pilot=location.pathname.includes('/unit-1-reading-pilot/');
  document.querySelectorAll('style,link[rel="stylesheet"]').forEach(s=>s.remove());
- const css=document.createElement('link');css.rel='stylesheet';css.href=new URL('standard.css?v=2',shared).href;const cssReady=new Promise((resolve,reject)=>{css.onload=resolve;css.onerror=()=>reject(Error('Cannot load reader styling'));});document.head.append(css);
+ const css=document.createElement('link');css.rel='stylesheet';css.href=new URL('standard.css?v=20261007-deck6',shared).href;const cssReady=new Promise((resolve,reject)=>{css.onload=resolve;css.onerror=()=>reject(Error('Cannot load reader styling'));});document.head.append(css);
  // Give every token the same (transparent) decoration geometry before highlighting.
  // Only paint changes; the browser must not choose new line breaks when a marker appears.
  const stable=document.createElement('style');stable.textContent='.reading [data-en],.reading [data-he]{border-radius:4px;box-shadow:0 0 0 2px transparent;-webkit-box-decoration-break:clone;box-decoration-break:clone}.reading{ text-wrap:wrap }';document.head.append(stable);
@@ -27,7 +27,7 @@ if(!['chunks','sentences'].includes(view)){
  if(pilot){const home=document.querySelector('.home');home.href='./';home.setAttribute('aria-label','חזרה לעותק היחידה');}
  for(const path of ['phrase-data.js?v=20261005-bilingual1','alignment.js?v=20261005-bilingual1'])await load(path);
  if(deckName){if(!/^[a-z0-9-]+$/i.test(deckName))throw Error('Invalid deck name');if(!window.READALONG_DECKS?.[deckName])await loadURL(new URL('./decks/'+deckName+'.js?v=2',location.href).href);}
- for(const url of [new URL('standard-config.js?v=1',shared),new URL('phrase-player.js?v=1',shared),new URL('segmented-engine.js?v=2',shared)])await new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=url.href;s.onload=resolve;s.onerror=reject;document.head.append(s);});
+ for(const url of [new URL('standard-config.js?v=1',shared),new URL('phrase-player.js?v=20261007-deck6',shared),new URL('segmented-engine.js?v=20261007-deck6',shared)])await new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=url.href;s.onload=resolve;s.onerror=reject;document.head.append(s);});
  await cssReady;
  await window.initGrade8Bilingual({D,base,view,store:pilot?'teachers-grade8-unit1-reading-pilot-v1':'teachers-grade8-unit1-v1',speedStore:pilot?'teachers-read-alone-pilot-speed-v1':'teachers-read-alone-speed-v1',deck:deckName?(window.READALONG_DECKS?.[deckName]||null):null});
 })().catch(e=>{console.error(e);document.body.innerHTML='<main style="padding:25px;font:20px Arial,sans-serif;direction:rtl"><h1>לא ניתן לטעון את הקריאה כרגע.</h1><p>רעננו את העמוד כשהחיבור זמין.</p><a href="./">חזרה למפגשי היחידה</a></main>';});
