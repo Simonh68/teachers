@@ -12,7 +12,7 @@ let rate=STANDARD.defaultSpeed;try{const x=Number(localStorage.getItem(cfg.speed
 const audio=new Audio();audio.preload='auto';audio.preservesPitch=true;document.body.append(audio);
 function ui(){
  document.querySelectorAll('style,link[rel="stylesheet"]').forEach(n=>n.remove());
- const css=document.createElement('link');css.rel='stylesheet';css.href=cfg.css;document.head.append(css);
+ const css=document.createElement('link');css.rel='stylesheet';css.href=cfg.css+(cfg.css.includes('?')?'&':'?')+'layout=20261007-stable';document.head.append(css);
  document.body.className='grade8-bilingual';document.body.dataset.readingStandard='grade8-bilingual-v1';document.title='Read Along · '+cfg.title+' · '+cfg.grade;
  document.body.innerHTML=`<header class="toolbar"><a class="home" href="${cfg.home}" aria-label="חזרה">⌂</a><div class="brand">${cfg.grade}</div><button id="contents" aria-haspopup="dialog">תוכן</button><div class="audio-controls"><button id="play" disabled aria-pressed="false">טוען שמע…</button><button id="replay" disabled aria-label="הקראה מחדש" title="הקראה מחדש">↺</button><label for="speed">מהירות</label><select id="speed" dir="ltr"><option value=".25">0.25×</option><option value=".5">0.5×</option><option value=".75">0.75×</option><option value="1">1×</option><option value="1.25">1.25×</option></select></div></header>
  <main id="stage"><article class="sheet" id="sheet" role="tabpanel"><div class="meta"><nav id="reading-tabs" class="tabstrip" role="tablist"></nav><span id="step-label" class="step-label"></span></div><div class="text-slot english-slot" id="english-slot"><p id="english" class="reading en" lang="en" dir="ltr"></p></div><div class="text-slot hebrew-slot" id="translation-slot" aria-hidden="true"><p id="hebrew" class="reading he" lang="he" dir="rtl"></p></div><p id="hint"></p></article><div id="gloss-layer" aria-hidden="true"></div></main>
@@ -30,7 +30,11 @@ function normalizeGrade9(data){
 }
 function englishHTML(i){const s=story[i], parts=s.plain.match(/\S+|\s+/g)||[];let wi=0;return parts.map(x=>{if(/\s+/.test(x))return x;const n=wi++,he=s.words[n]?.he||'';return `<span data-en="${i}:${n}" role="button" tabindex="0" aria-label="${esc((s.words[n]?.text||x)+': '+he)}">${esc(x)}</span>`;}).join('');}
 function hebrewHTML(i){const toks=(story[i].he.match(/\S+|\s+/g)||[]);let hi=0;return toks.map(x=>/\s+/.test(x)?x:`<span data-he="${i}:${hi++}">${esc(x)}</span>`).join('');}
+let renderedIds='';
 function setText(ids){
+ const key=ids.join(',');
+ if(key===renderedIds)return;
+ renderedIds=key;
  $('english').innerHTML=ids.map(i=>`<span class="paragraph-line" data-sentence="${i}">${englishHTML(i)}</span>`).join(' ');
  $('hebrew').innerHTML=ids.map(i=>`<span class="paragraph-line" data-translation="${i}">${hebrewHTML(i)}</span>`).join(' ');
  const existing=$('reading-photo');if(existing)existing.remove();
@@ -123,6 +127,7 @@ async function init(){
  const qs=new URLSearchParams(location.search),old=Math.max(0,Number(qs.get('p'))||0),sub=Math.max(0,Number(qs.get('sub'))||0);let start=0,r=false;
  if(view==='sentences'){start=Math.floor(old/2);r=!!(old%2);}else{start=pages.findIndex(p=>p.source===Math.min(old,sourcePages.length-1)&&p.sub===sub);r=qs.get('reveal')==='1';}
  show(Math.max(0,start),r,{persist:false,schedule:false});
+ if(document.fonts?.ready)document.fonts.ready.then(()=>{fit();renderGlossTrail();});
  if(cfg.autoStart){
    const delayMs=Number.isFinite(Number(cfg.autoStartDelayMs))?Number(cfg.autoStartDelayMs):2000;
    timer=setTimeout(async()=>{
