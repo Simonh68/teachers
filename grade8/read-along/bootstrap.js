@@ -14,7 +14,7 @@ if(!['chunks','sentences'].includes(view)){
  const D=window.UNIT_DATA;if(!D?.story?.length)throw Error('Missing unit reading data');
  const pilot=location.pathname.includes('/unit-1-reading-pilot/');
  document.querySelectorAll('style,link[rel="stylesheet"]').forEach(s=>s.remove());
- const css=document.createElement('link');css.rel='stylesheet';css.href=new URL('standard.css?v=20261007-readaloneplus1',shared).href;const cssReady=new Promise((resolve,reject)=>{css.onload=resolve;css.onerror=()=>reject(Error('Cannot load reader styling'));});document.head.append(css);
+ const css=document.createElement('link');css.rel='stylesheet';css.href=new URL('standard.css?v=20261007-rtl9',shared).href;const cssReady=new Promise((resolve,reject)=>{css.onload=resolve;css.onerror=()=>reject(Error('Cannot load reader styling'));});document.head.append(css);
  // Give every token the same (transparent) decoration geometry before highlighting.
  // Only paint changes; the browser must not choose new line breaks when a marker appears.
  const stable=document.createElement('style');stable.textContent='.reading [data-en],.reading [data-he]{border-radius:4px;box-shadow:0 0 0 2px transparent;-webkit-box-decoration-break:clone;box-decoration-break:clone}.reading{ text-wrap:wrap }';document.head.append(stable);
