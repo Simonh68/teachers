@@ -91,5 +91,5 @@ stage.addEventListener('touchend',e=>{
 stage.addEventListener('touchcancel',()=>{touch=null},{passive:true});
 let wheelAt=0;stage.addEventListener('wheel',e=>{if(e.ctrlKey||Math.abs(e.deltaY)<20)return;let can=e.deltaY>0?stage.scrollTop+stage.clientHeight<stage.scrollHeight-4:stage.scrollTop>4;if(can)return;if(Date.now()-wheelAt<500){e.preventDefault();return}wheelAt=Date.now();e.preventDefault();move(e.deltaY>0?1:-1)},{passive:false});
 if(view==='home'){home();if(location.hash){const el=document.querySelector(location.hash);if(el){el.open=true;el.scrollIntoView()}}}else{document.body.classList.add('study');makeDeck();render()}save();
-</script><script src="../read-along/bootstrap.js?v=20261007-deck5"></script></body></html>
+</script><script src="../read-along/bootstrap.js?v=20261007-deck6"></script></body></html>
 
