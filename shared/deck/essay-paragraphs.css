@@ -1,0 +1,15 @@
+/* Paragraph structure teaching, scoped to these essay decks. */
+.paragraph-tracker{display:flex;direction:ltr;justify-content:center;gap:12px;margin:10px auto 20px}
+.paragraph-square{display:flex;flex-direction:column;align-items:center;justify-content:center;width:76px;min-height:66px;border:2px solid #8493aa;border-radius:5px;background:#152238;color:#d5dfed;font-size:14px;line-height:1.2;gap:4px}
+.paragraph-square b{font-size:24px}.paragraph-square.current{background:#c8fa73;color:#10200b;border-color:#e4ffb6;box-shadow:0 0 18px #c8fa7355}.paragraph-square.current::after{content:attr(data-now);font-size:12px;font-weight:800}
+.slide .en.main-copy,.slide .en.short,.slide .en.question,.slide .essay.en,.slide .essay.en p{direction:ltr;text-align:left!important}
+.slide .essay.en p.essay-paragraph{position:relative;display:block;margin:0;padding:30px 0 30px;border-top:2px solid #81dabd;border-bottom:2px solid #81dabd;line-height:1.55}
+.slide .essay.en p.essay-paragraph::before,.slide .essay.en p.essay-paragraph::after{position:absolute;left:0;font-size:14px;line-height:20px;font-weight:800;color:#a9f1d8;letter-spacing:.02em}
+.slide .essay.en p.essay-paragraph::before{content:attr(data-start);top:3px}.slide .essay.en p.essay-paragraph::after{content:attr(data-end);bottom:3px}
+.slide .essay.en p.essay-paragraph~p.essay-paragraph{margin-top:4.65em}
+.slide .essay.en p:empty{display:none}
+.slide.essay,.slide.paragraph-layout{overflow-y:auto!important;align-items:flex-start!important}
+.slide.essay .frame,.slide.paragraph-layout .frame{zoom:1!important;padding-bottom:110px}
+.paragraph-layout h2{font-size:clamp(32px,4vw,58px);line-height:1.15;margin:10px 0 20px}.paragraph-layout .essay{font-size:clamp(21px,2.4vw,29px)}
+.paragraph-gap-caption{text-align:center;font-size:19px;color:#c8fa73;margin:16px 0}
+@media(max-width:600px){.paragraph-tracker{gap:6px}.paragraph-square{width:58px;min-height:61px;font-size:12px}.slide .essay.en p.essay-paragraph{padding-top:29px;padding-bottom:29px}.slide .essay.en p.essay-paragraph~p.essay-paragraph{margin-top:4.65em}}

@@ -1,0 +1,39 @@
+name: Verify and publish essay paragraph layout
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'grade11/grammar-in-an-essay/*.html'
+      - 'grade11/for-and-against-ai/index.html'
+      - 'grade11/for-and-against-parks/index.html'
+      - 'shared/deck/essay-paragraphs.*'
+      - 'tools/essay-paragraphs-qa.cjs'
+      - '.github/workflows/essay-paragraphs.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages-manual
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save playwright@1.61.0
+      - run: npx playwright install --with-deps chromium
+      - run: node tools/essay-paragraphs-qa.cjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - uses: actions/deploy-pages@v4
+        id: deployment
