@@ -29,6 +29,19 @@ function hasRoom(){return ['english','hebrew'].every(id=>{const e=$(id);return e
 function resetSize(){for(const id of ['english','hebrew'])$(id).style.fontSize='';}
 function fit(){resetSize();for(const id of ['english','hebrew']){const e=$(id),slot=e.parentElement;let px=parseFloat(getComputedStyle(e).fontSize);while((e.scrollHeight>slot.clientHeight-6||e.scrollWidth>slot.clientWidth+1)&&px>17){px-=.5;e.style.fontSize=px+'px';}}}
 function deckSlidesFor(sentenceIndex){return deck?.after?.[String(sentenceIndex+1)]||deck?.after?.[sentenceIndex+1]||[];}
+function deckTotalSlides(){
+ if(!(view==='sentences'&&deck))return pages.length*2;
+ let total=0;for(let s=0;s<pages.length;s++)total+=2+deckSlidesFor(pages[s]?.ids?.[0]??s).length;return total;
+}
+function deckAbsoluteIndex(){
+ if(!(view==='sentences'&&deck))return page*2+Number(reveal);
+ let n=0;for(let s=0;s<page;s++)n+=2+deckSlidesFor(pages[s]?.ids?.[0]??s).length;
+ if(breakIndex>=0)return n+2+breakIndex;
+ return n+Number(reveal);
+}
+function updateDeckCounter(){
+ if(view==='sentences'&&deck)$('counter').textContent=(deckAbsoluteIndex()+1)+' / '+deckTotalSlides();
+}
 function renderDeckSlide(slide,sentenceIndex,idx){
  stop();breakIndex=idx;sheet.hidden=true;deckSheet.hidden=false;document.body.classList.add('readalong-break');$('play').disabled=true;$('replay').disabled=true;
  const q=esc(slide.q||''),a=esc(slide.a||''),why=esc(slide.why||''),formula=esc(slide.formula||''),ex=esc(slide.ex||''),pq=esc(slide.pq||'');
@@ -40,9 +53,9 @@ function renderDeckSlide(slide,sentenceIndex,idx){
  else body=`<div class="deck-card"><p class="deck-note">${esc(slide.text||'')}</p></div>`;
  deckSheet.innerHTML=`<div class="deck-meta"><span>${esc(deck?.title||'')}</span><span>שקף ${idx+1} / ${deckSlidesFor(sentenceIndex).length}</span></div><div class="deck-body">${body}</div>`;
  deckSheet.querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>{const good=b.dataset.choice===String(slide.good||'');b.classList.add(good?'good':'bad');const fb=$('deck-feedback');if(fb)fb.hidden=false;});
- $('counter').textContent='משפט '+(sentenceIndex+1)+' · דקדוק '+(idx+1)+'/'+deckSlidesFor(sentenceIndex).length;
+ updateDeckCounter();
  $('status').textContent='שקף רגיל · ממשיכים בחיצים או בהחלקה.';
- $('progress').style.width='0%';
+ $('progress').style.width=(view==='sentences'&&deck?Math.min(100,(deckAbsoluteIndex()+1)/deckTotalSlides()*100):0)+'%';
 }
 function leaveDeck(){breakIndex=-1;deckSheet.hidden=true;sheet.hidden=false;document.body.classList.remove('readalong-break');if(ready){$('play').disabled=false;$('replay').disabled=false;}}
 function makePages(){
@@ -58,9 +71,10 @@ function show(n,r=false,{persist=true,schedule=true}={}){
  if(pairKey!==key){setText(ids);pairKey=key;enNodes=Object.fromEntries([...stage.querySelectorAll('[data-en]')].map(e=>[e.dataset.en,e]));heNodes=Object.fromEntries([...stage.querySelectorAll('[data-he]')].map(e=>[e.dataset.he,e]));fit();}
  sheet.classList.toggle('with-translation',reveal);$('translation-slot').setAttribute('aria-hidden',String(!reveal));$('step-label').textContent=reveal?'אנגלית + עברית':'אנגלית';
  const numbered=ids.map(i=>D.story[i].number),loc=numbered.length===1?'משפט '+numbered[0]:'משפטים '+numbered[0]+'–'+numbered.at(-1);
- $('hint').textContent=loc+' · '+(reveal?'התרגום נשאר גלוי לאורך כל ההקראה.':'בשקופית הבאה מתווסף התרגום.');
- $('counter').textContent=(page*2+Number(reveal)+1)+' / '+pages.length*2;
+ $('hint').textContent=loc+' · '+(reveal?(view==='sentences'&&deck?'אחרי שקף זה עוברים לשאלות ולדקדוק.':'התרגום נשאר גלוי לאורך כל ההקראה.'):'בשקופית הבאה מתווסף התרגום.');
+ if(view==='sentences'&&deck)updateDeckCounter();else $('counter').textContent=(page*2+Number(reveal)+1)+' / '+pages.length*2;
  document.querySelectorAll('[data-step]').forEach(b=>b.disabled=Number(b.dataset.step)<0?page===0&&!reveal:page===pages.length-1&&reveal);
+ if(view==='sentences'&&deck)$('progress').style.width=Math.min(100,(deckAbsoluteIndex()+1)/deckTotalSlides()*100)+'%';
  refreshTabs();if(persist)syncURL();
  narrator.sentence=ids[0];narrator.part=0;narrator.offset=0;narrator.queue=[...ids];
  status(reveal?'לחצו על הקראה לעקיבה בשתי השפות.':'ההפסקות בשמע בלבד — 1.5 שניות.');
