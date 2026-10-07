@@ -19,6 +19,7 @@ function ui(){
  <footer class="footer" id="footer"><nav class="navigation"><button data-step="-1">←</button><button data-step="-1">↑</button><output id="counter"></output><button data-step="1">↓</button><button data-step="1">→</button></nav><p id="status" role="status">ההפסקות בשמע בלבד — 1.5 שניות.</p></footer><div class="progress"><div id="progress"></div></div>
  <dialog id="reading-menu"><div class="menu-heading"><h2>קריאה · ${cfg.title}</h2><button id="close-menu">×</button></div><nav class="menu-modes"><a href="?view=chunks" data-mode="chunks">קריאה בקטעים</a><a href="?view=sentences" data-mode="sentences">משפט בשקף</a><a href="${cfg.home}">מפגשי היחידה</a></nav><div class="jump-row"><button id="start-over">מההתחלה</button><button id="resume-reading">המשך הקריאה</button></div><p class="menu-note">אנגלית תחילה; בשקופית הבאה התרגום נשאר גלוי והמרקר עוקב בשתי השפות. ההקראה באנגלית בלבד.</p><div id="sentence-list"></div></dialog><div id="reading-tip" role="tooltip" hidden></div>`;
  $('speed').value=String(rate);
+ if(Array.isArray(cfg.textLinks)){const nav=$('reading-menu').querySelector('.menu-modes');cfg.textLinks.forEach(t=>{const a=document.createElement('a');a.href=t.href;a.textContent=t.title;nav.append(a);});}
 }
 function normalizeGrade7(){
  story=LESSON.sentences.map((s,i)=>({number:i+1,paragraph:i<7?'A':'B',plain:s.en,he:s.he,words:s.words.map((w,j)=>({text:w.word.replace(/[.,!?;:“”"]+$/,''),he:w.he,start:audioMeta.sentences[i].words[j]?.start??audioMeta.sentences[i].start,end:audioMeta.sentences[i].words[j]?.end??audioMeta.sentences[i].end}))}));
@@ -121,7 +122,8 @@ function bind(){
 }
 async function init(){
  ui();let data=null;
- if(cfg.kind==='grade7'){audioMeta=await fetch('audio.json?v=20261005-g8standard1').then(r=>r.json());normalizeGrade7();}
+ if(cfg.inlineData){audioMeta=cfg.inlineAudio;normalizeGrade9(cfg.inlineData);}
+ else if(cfg.kind==='grade7'){audioMeta=await fetch('audio.json?v=20261005-g8standard1').then(r=>r.json());normalizeGrade7();}
  else{const assetVersion=encodeURIComponent(cfg.assetVersion||'20261005-g8standard1');[data,audioMeta]=await Promise.all(['content.json','audio.json'].map(async x=>{const r=await fetch(x+'?v='+assetVersion,{cache:'no-store'});if(!r.ok)throw new Error(x+' HTTP '+r.status);return r.json();}));normalizeGrade9(data);}
  audioUrl=new URL(audioMeta.audio,location.href).href;audio.src=audioUrl;audio.playbackRate=rate;makePages();bind();$('play').disabled=false;$('replay').disabled=false;$('play').textContent='▶ הקראה';
  const qs=new URLSearchParams(location.search),old=Math.max(0,Number(qs.get('p'))||0),sub=Math.max(0,Number(qs.get('sub'))||0);let start=0,r=false;
