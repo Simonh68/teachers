@@ -171,13 +171,15 @@ function startBrowserQueue(restart=true){
    const u=new SpeechSynthesisUtterance(s.plain);browserUtterance=u;u.lang='en-US';u.rate=Math.max(.25,Math.min(1.25,rate));
    const voices=speechSynthesis.getVoices?.()||[];
    u.voice=voices.find(v=>/^en(-|_)?US/i.test(v.lang))||voices.find(v=>/^en/i.test(v.lang))||null;
-   u.onstart=()=>{playing=true;$('footer').dataset.phase='playing';$('play').textContent='❚❚ השהיה';$('play').setAttribute('aria-pressed','true');$('status').textContent=reveal?'המרקר עוקב באנגלית ובעברית.':'הקראה באנגלית.';scheduleBrowserMarkers(si,s);};
-   u.onboundary=e=>{if(e.name==='word'||typeof e.charIndex==='number'){browserWordTimers.forEach(clearTimeout);browserWordTimers=[];paintBrowserWord(si,browserWordAt(s.plain,e.charIndex||0));}};
+   u.onstart=()=>{playing=true;$('footer').dataset.phase='playing';$('play').textContent='❚❚ השהיה';$('play').setAttribute('aria-pressed','true');$('status').textContent=reveal?'המרקר עוקב באנגלית ובעברית.':'הקראה באנגלית.';};
+   u.onboundary=e=>{if(e.name==='word'||typeof e.charIndex==='number'){paintBrowserWord(si,browserWordAt(s.plain,e.charIndex||0));}};
    u.onerror=()=>{browserWordTimers.forEach(clearTimeout);browserWordTimers=[];playing=false;paused=false;clearMarker();$('play').textContent='▶ הקראה';$('play').setAttribute('aria-pressed','false');$('status').textContent='לא ניתן להפעיל הקראה בדפדפן הזה. נסו Chrome.';};
    u.onend=()=>{browserWordTimers.forEach(clearTimeout);browserWordTimers=[];clearMarker();if(qpos<queue.length-1){playing=false;$('footer').dataset.phase='gap';$('status').textContent='הפסקה של 1.5 שניות…';browserTimer=setTimeout(()=>{qpos++;speakCurrent();},pauseMs);return;}playing=false;paused=false;$('play').textContent='▶ הקראה';$('play').setAttribute('aria-pressed','false');$('status').textContent='סוף '+(queue.length===1?'המשפט':'הקטע')+'. ממשיכים כשמוכנים.';queue.forEach(i=>state.read['sentence-'+i]=true);sourcePages.forEach((ids,p)=>{if(ids.every(i=>state.read['sentence-'+i]))state.read['page'+p]=true;});save();refreshTabs();};
    try{
      speechSynthesis.cancel();
      speechSynthesis.resume();
+     paintBrowserWord(si,0);
+     scheduleBrowserMarkers(si,s);
      speechSynthesis.speak(u);
      setTimeout(()=>{if(!playing&&!speechSynthesis.speaking){$('status').innerHTML='לא הצלחתי להפעיל את קול המכשיר כאן. <a href="'+location.href+'" target="_blank" rel="noopener">פתחו ב-Chrome</a>.';}},900);
    }catch(_){
