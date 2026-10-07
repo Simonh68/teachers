@@ -27,7 +27,7 @@ if(!['chunks','sentences'].includes(view)){
  if(pilot){const home=document.querySelector('.home');home.href='./';home.setAttribute('aria-label','חזרה לעותק היחידה');}
  for(const path of ['phrase-data.js?v=20261005-bilingual1','alignment.js?v=20261005-bilingual1'])await load(path);
  if(deckName){if(!/^[a-z0-9-]+$/i.test(deckName))throw Error('Invalid deck name');if(!window.READALONG_DECKS?.[deckName])await loadURL(new URL('./decks/'+deckName+'.js?v=2',location.href).href);}
- for(const url of [new URL('standard-config.js?v=1',shared),new URL('phrase-player.js?v=20261007-deck6',shared),new URL('segmented-engine.js?v=20261007-shell7',shared)])await new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=url.href;s.onload=resolve;s.onerror=reject;document.head.append(s);});
+ for(const url of [new URL('standard-config.js?v=1',shared),new URL('phrase-player.js?v=20261007-deck6',shared),new URL('segmented-engine.js?v=20261007-rtl8',shared)])await new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=url.href;s.onload=resolve;s.onerror=reject;document.head.append(s);});
  await cssReady;
  await window.initGrade8Bilingual({D,base,view,store:pilot?'teachers-grade8-unit1-reading-pilot-v1':'teachers-grade8-unit1-v1',speedStore:pilot?'teachers-read-alone-pilot-speed-v1':'teachers-read-alone-speed-v1',deck:deckName?(window.READALONG_DECKS?.[deckName]||null):null});
 })().catch(e=>{console.error(e);document.body.innerHTML='<main style="padding:25px;font:20px Arial,sans-serif;direction:rtl"><h1>לא ניתן לטעון את הקריאה כרגע.</h1><p>רעננו את העמוד כשהחיבור זמין.</p><a href="./">חזרה למפגשי היחידה</a></main>';});
