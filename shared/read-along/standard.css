@@ -188,3 +188,32 @@ body.readalong-break .deck-progress-track{display:block}
  .deck-choices{margin-top:12px}.deck-choice{font-size:22px;padding:9px 12px}
  .deck-nav{bottom:12px}.deck-nav button{width:42px;height:42px}
 }
+
+/* Read Alone Plus — stable word tracking. Paint only; never change geometry. */
+.reading.en [data-en],.reading.he [data-he]{
+  padding:0!important;
+  margin:0!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  outline:0!important;
+  text-shadow:none!important;
+  background:transparent!important;
+  font-weight:inherit!important;
+  letter-spacing:inherit!important;
+  word-spacing:inherit!important;
+}
+.reading.en [data-en].marker,.reading.he [data-he].marker{
+  color:var(--marker)!important;
+  background:transparent!important;
+  padding:0!important;
+  margin:0!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  outline:0!important;
+  text-shadow:none!important;
+  font-weight:inherit!important;
+  letter-spacing:inherit!important;
+  word-spacing:inherit!important;
+}
