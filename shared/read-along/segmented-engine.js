@@ -14,7 +14,7 @@ $('speed').value=String(rate);
 let pages=[],page=0,reveal=false,breakIndex=-1,pairKey='',auto=false,scheduled=null,narrator=null,lastEn=null,lastHe=null,lastStatus='',ready=false,resizeTimer=null;
 let enNodes={},heNodes={},savedLocation=state.bilingualPosition?.[view]||null;
 function status(t){if(t!==lastStatus){lastStatus=t;$('status').textContent=t;}}
-function clearMarker(){lastEn?.classList.remove('marker');lastHe?.classList.remove('marker');lastEn=null;lastHe=null;}
+function clearMarker(){lastEn?.classList.remove('marker');lastHe?.classList.remove('marker');lastEn=null;lastHe=null;lastHeUnitBySentence={};}
 function hideTip(){$('reading-tip').hidden=true;}
 function stop(){clearTimeout(scheduled);scheduled=null;narrator?.stop();clearMarker();hideTip();}
 const enHTML=[],heHTML=[];
@@ -106,7 +106,18 @@ function step(d){
  }
  const index=page*2+Number(reveal),next=Math.max(0,Math.min(pages.length*2-1,index+d));if(next===index)return;show(Math.floor(next/2),!!(next%2));
 }
-function mark(s,i){const a=A[D.story[s].number],en=enNodes[`${s}:${i}`],he=heNodes[`${s}:${a.map[i]}`];if(en!==lastEn){lastEn?.classList.remove('marker');en?.classList.add('marker');lastEn=en;}if(he!==lastHe){lastHe?.classList.remove('marker');he?.classList.add('marker');lastHe=he;}}
+let lastHeUnitBySentence={};
+function mark(s,i){
+ const a=A[D.story[s].number],en=enNodes[`${s}:${i}`];
+ let mapped=a.map[i],prev=lastHeUnitBySentence[s];
+ // In bilingual reveal mode, keep Hebrew highlighting visually progressive RTL.
+ // Translation word order may differ from English, so never jump back to an earlier Hebrew unit.
+ if(reveal&&Number.isInteger(prev)&&mapped<prev)mapped=prev;
+ if(reveal)lastHeUnitBySentence[s]=mapped;
+ const he=heNodes[`${s}:${mapped}`];
+ if(en!==lastEn){lastEn?.classList.remove('marker');en?.classList.add('marker');lastEn=en;}
+ if(he!==lastHe){lastHe?.classList.remove('marker');he?.classList.add('marker');lastHe=he;}
+}
 function paint(p){
  $('footer').dataset.phase=p.phase;$('play').setAttribute('aria-pressed',String(p.isActive));
  if(ready)$('play').textContent=p.isActive?'❚❚ השהיה':['paused','pausedGap'].includes(p.phase)?'▶ המשך':'▶ הקראה';
