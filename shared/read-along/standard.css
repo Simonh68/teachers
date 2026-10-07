@@ -119,23 +119,72 @@
   box-shadow:0 0 0 2px rgba(255,226,112,.22)!important;
 }
 
-/* Native Read Along deck/interlude mode */
-.deck-sheet{grid-template-rows:42px 1fr!important;overflow:auto}
+
+/* Native Read Along interlude: switch completely to the Teachers deck shell. */
 .deck-sheet[hidden]{display:none!important}
-.deck-meta{display:flex;justify-content:space-between;gap:12px;align-items:center;color:var(--cyan);font:900 13px Nunito,Heebo,Arial,sans-serif;border-bottom:1px solid #ffffff16;padding-bottom:10px}
-.deck-body{display:grid;align-content:center;min-height:0;padding:clamp(10px,2vw,22px) 0}
-.deck-kicker{color:var(--cyan);font:900 13px Nunito,Heebo,Arial,sans-serif;letter-spacing:.08em}
-.deck-title{font-size:clamp(34px,5vw,68px);line-height:1.05;margin:.2em 0 .35em}
-.deck-question{direction:ltr;text-align:left;font:900 clamp(28px,4vw,52px)/1.25 Nunito,Arial,sans-serif}
-.deck-card{background:#102842;border:1px solid #36566e;border-radius:20px;padding:22px}
-.deck-answer{direction:ltr;text-align:left;color:#dfff5b;font:900 clamp(21px,2.6vw,32px) Nunito,Arial,sans-serif}
-.deck-note{font-size:clamp(18px,2.1vw,27px);line-height:1.55;color:var(--muted);font-weight:700}
-.deck-formula{direction:ltr;text-align:center;font:900 clamp(24px,3.6vw,46px) Nunito,Arial,sans-serif;background:#06101d;border:1px solid #ffffff12;padding:18px;border-radius:18px;margin:18px 0}
-.deck-example{direction:ltr;text-align:left;font:900 clamp(22px,3vw,38px) Nunito,Arial,sans-serif;color:var(--cyan);margin-bottom:22px}
-.deck-choices{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.deck-choice{background:#10253d;color:var(--ink);border:1px solid #41647b;border-radius:16px;padding:18px;font:900 24px Nunito,Arial,sans-serif}
-.deck-choice.good{border-color:#dfff5b;background:#163d27}.deck-choice.bad{border-color:#ff8b8b;background:#421d28}
-.readalong-break .audio-controls{visibility:hidden}
-.readalong-break #reading-tabs{visibility:hidden}
-.readalong-break #step-label{visibility:hidden}
-@media(max-width:650px){.deck-sheet{padding:18px}.deck-title{font-size:40px}.deck-question{font-size:31px}.deck-choices{grid-template-columns:1fr}.deck-choice{font-size:20px}}
+body.readalong-break{
+ --deck-bg:#07111f;--deck-paper:#f7f7f2;--deck-lime:#dfff5b;--deck-cyan:#4ee5ff;--deck-violet:#a98cff;--deck-amber:#ffc857;--deck-muted:#a9bdd2;
+ background:var(--deck-bg);color:var(--deck-paper);
+}
+body.readalong-break:before,body.readalong-break:after{content:"";position:fixed;width:65vw;height:65vw;border-radius:50%;filter:blur(90px);opacity:.16;pointer-events:none;z-index:0}
+body.readalong-break:before{background:var(--deck-cyan);top:-32vw;right:-22vw}
+body.readalong-break:after{background:var(--deck-violet);bottom:-38vw;left:-20vw}
+body.readalong-break .toolbar,
+body.readalong-break .footer,
+body.readalong-break > .progress,
+body.readalong-break #reading-menu,
+body.readalong-break #reading-tip{display:none!important}
+body.readalong-break #stage{
+ position:fixed;inset:0!important;padding:0!important;z-index:2;touch-action:pan-y pinch-zoom;user-select:none;-webkit-user-select:none;
+ background:linear-gradient(#ffffff07 1px,transparent 1px),linear-gradient(90deg,#ffffff07 1px,transparent 1px);
+ background-size:54px 54px;
+}
+body.readalong-break #stage:before{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,transparent,#07111f55 20%,#07111f55 78%,transparent);pointer-events:none}
+body.readalong-break #sheet{display:none!important}
+body.readalong-break #deck-sheet{
+ position:absolute;inset:0;display:flex!important;align-items:center;justify-content:center;overflow:auto;overscroll-behavior:contain;
+ max-width:none;margin:0;border:0;border-radius:0;padding:78px clamp(24px,7vw,110px) 84px;background:transparent;box-shadow:none;
+ z-index:2;
+}
+.deck-meta{position:fixed;top:18px;right:22px;left:76px;display:flex;justify-content:flex-end;gap:10px;align-items:center;z-index:12;pointer-events:none}
+.deck-meta span{border:1px solid #ffffff25;border-radius:999px;background:#0c1a2aee;padding:8px 13px;color:var(--deck-muted);font:800 13px Heebo,Arial,sans-serif}
+.deck-meta span:first-child{color:var(--deck-cyan)}
+.deck-body{position:relative;width:min(1180px,100%);z-index:2;text-align:center;display:grid;align-content:center;min-height:calc(100dvh - 162px)}
+.deck-kicker{font:900 clamp(13px,1.25vw,18px)/1.4 Nunito,Heebo,Arial,sans-serif;letter-spacing:.08em;color:var(--deck-cyan);margin-bottom:clamp(16px,3vh,30px)}
+.deck-title{font-size:clamp(36px,6vw,80px);font-weight:900;line-height:1.15;text-align:center;text-wrap:balance;color:var(--deck-lime);margin:0 0 22px}
+.deck-question{direction:ltr;text-align:center;font:900 clamp(27px,3.2vw,44px)/1.32 Nunito,Arial,sans-serif;text-wrap:balance;margin:0}
+.deck-card{margin-top:22px;min-height:170px;padding:20px 0 0;border-top:1px solid #ffffff25;background:transparent;border-radius:0}
+.deck-answer{direction:ltr;text-align:center;font:900 clamp(23px,2.4vw,32px)/1.43 Nunito,Arial,sans-serif;color:var(--deck-lime);text-wrap:pretty;margin:0}
+.deck-note{font-size:clamp(20px,2.1vw,28px);line-height:1.5;color:var(--deck-muted);font-weight:700;max-width:1000px;margin:22px auto 0;text-wrap:balance}
+.deck-formula{direction:ltr;text-align:center;font:900 clamp(28px,4vw,52px)/1.3 Nunito,Arial,sans-serif;color:var(--deck-lime);background:#0c1a2a99;border:1px solid #ffffff25;border-radius:18px;padding:18px 24px;margin:0 auto;max-width:1050px}
+.deck-example{direction:ltr;text-align:center;font:900 clamp(24px,3vw,40px)/1.35 Nunito,Arial,sans-serif;color:var(--deck-cyan);margin:0 0 24px}
+.deck-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;max-width:900px;margin:22px auto 0}
+.deck-choice{border:2px solid #ffffff30;background:#0c1a2a99;border-radius:13px;padding:14px 18px;color:var(--deck-paper);font:800 clamp(22px,2.3vw,30px)/1.35 Nunito,Arial,sans-serif}
+.deck-choice.good{border-color:var(--deck-lime);background:#dfff5b13;color:var(--deck-lime)}
+.deck-choice.bad{border-color:#ff7163;background:#ff716314;color:#ffb4ae}
+body.readalong-break .deck-nav{display:flex!important}
+.deck-nav{display:none;position:fixed;left:22px;right:22px;bottom:max(16px,env(safe-area-inset-bottom));justify-content:space-between;align-items:center;z-index:20;direction:ltr;gap:12px}
+.deck-nav .nav-group{display:flex;gap:9px}
+.deck-nav button{width:50px;height:50px;border:1px solid #ffffff26;background:#0c1a2aee;color:#fff;border-radius:50%;font:800 24px Nunito,Arial,sans-serif;backdrop-filter:blur(12px);padding:0}
+.deck-nav .deck-progress{font:800 14px Nunito,Arial,sans-serif;min-width:78px;text-align:center;background:#0c1a2aee;border:1px solid #ffffff25;border-radius:999px;padding:9px 12px;white-space:nowrap;color:var(--deck-paper)}
+body.readalong-break .deck-progress-track{display:block}
+.deck-progress-track{display:none;position:fixed;bottom:0;height:3px;left:0;right:0;background:#ffffff10;z-index:22}
+.deck-progress-fill{height:100%;width:0;background:linear-gradient(90deg,var(--deck-violet),var(--deck-cyan),var(--deck-lime))}
+@media(max-width:760px){
+ body.readalong-break #deck-sheet{padding:78px 24px 88px}
+ .deck-meta{right:14px;left:64px;top:16px}.deck-meta span{font-size:11px;padding:8px 10px}
+ .deck-body{min-height:calc(100dvh - 166px)}.deck-title{font-size:clamp(38px,10vw,60px)}
+ .deck-question{font-size:clamp(25px,6.6vw,35px)}.deck-answer{font-size:clamp(22px,5.8vw,29px)}
+ .deck-note{font-size:22px}.deck-formula{font-size:clamp(24px,6vw,34px)}.deck-example{font-size:clamp(23px,6vw,34px)}
+ .deck-choices{grid-template-columns:1fr;gap:10px}.deck-choice{font-size:23px;padding:10px 14px}
+ .deck-nav{left:14px;right:14px}.deck-nav button{width:44px;height:44px}
+}
+@media(max-height:570px){
+ body.readalong-break #deck-sheet{padding-top:66px;padding-bottom:72px}
+ .deck-kicker{margin-bottom:10px}.deck-title{font-size:clamp(32px,5vw,56px);margin-bottom:12px}
+ .deck-question{font-size:clamp(22px,3vw,32px)}.deck-card{min-height:90px;padding-top:10px;margin-top:12px}
+ .deck-answer{font-size:clamp(19px,2.4vw,26px)}.deck-note{font-size:21px;margin-top:10px}
+ .deck-formula{font-size:clamp(24px,3.5vw,38px);padding:12px 18px}.deck-example{font-size:clamp(21px,3vw,30px);margin-bottom:12px}
+ .deck-choices{margin-top:12px}.deck-choice{font-size:22px;padding:9px 12px}
+ .deck-nav{bottom:12px}.deck-nav button{width:42px;height:42px}
+}
