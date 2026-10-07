@@ -1,7 +1,7 @@
 /* Approved Grade 8 reading standard. Text, punctuation and timing are source data. */
 'use strict';
-window.initGrade8Bilingual=async({D,base,view,store,speedStore})=>{
-const $=id=>document.getElementById(id),stage=$('stage'),sheet=$('sheet'),menu=$('reading-menu');
+window.initGrade8Bilingual=async({D,base,view,store,speedStore,deck=null})=>{
+const $=id=>document.getElementById(id),stage=$('stage'),sheet=$('sheet'),deckSheet=$('deck-sheet'),menu=$('reading-menu');
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const A=window.GRADE8_ALIGNMENT,records=JSON.parse(JSON.stringify(window.GRADE8_PHRASES.sentences));
 if(D.story.length!==records.length||D.story.length!==Object.keys(A).length)throw Error('Incomplete reading coverage');
@@ -11,7 +11,7 @@ if(!state.read||typeof state.read!=='object')state.read={};
 const save=()=>{try{localStorage.setItem(store,JSON.stringify(state));}catch(_){}};
 const STANDARD=window.TEACHERS_READALONG_STANDARD||{pauseMs:1500,defaultSpeed:.75,speeds:[.25,.5,.75,1,1.25],speedStore:'teachers-read-alone-speed-v1'};let rate=STANDARD.defaultSpeed;try{const x=Number(localStorage.getItem(speedStore||STANDARD.speedStore));if(STANDARD.speeds.includes(x))rate=x;}catch(_){}
 $('speed').value=String(rate);
-let pages=[],page=0,reveal=false,pairKey='',auto=false,scheduled=null,narrator=null,lastEn=null,lastHe=null,lastStatus='',ready=false,resizeTimer=null;
+let pages=[],page=0,reveal=false,breakIndex=-1,pairKey='',auto=false,scheduled=null,narrator=null,lastEn=null,lastHe=null,lastStatus='',ready=false,resizeTimer=null;
 let enNodes={},heNodes={},savedLocation=state.bilingualPosition?.[view]||null;
 function status(t){if(t!==lastStatus){lastStatus=t;$('status').textContent=t;}}
 function clearMarker(){lastEn?.classList.remove('marker');lastHe?.classList.remove('marker');lastEn=null;lastHe=null;}
@@ -28,15 +28,32 @@ function setText(ids){$('english').innerHTML=ids.map(i=>enHTML[i]).join(' ');$('
 function hasRoom(){return ['english','hebrew'].every(id=>{const e=$(id);return e.scrollHeight<=e.parentElement.clientHeight-6&&e.scrollWidth<=e.clientWidth+1;});}
 function resetSize(){for(const id of ['english','hebrew'])$(id).style.fontSize='';}
 function fit(){resetSize();for(const id of ['english','hebrew']){const e=$(id),slot=e.parentElement;let px=parseFloat(getComputedStyle(e).fontSize);while((e.scrollHeight>slot.clientHeight-6||e.scrollWidth>slot.clientWidth+1)&&px>17){px-=.5;e.style.fontSize=px+'px';}}}
+function deckSlidesFor(sentenceIndex){return deck?.after?.[String(sentenceIndex+1)]||deck?.after?.[sentenceIndex+1]||[];}
+function renderDeckSlide(slide,sentenceIndex,idx){
+ stop();breakIndex=idx;sheet.hidden=true;deckSheet.hidden=false;document.body.classList.add('readalong-break');$('play').disabled=true;$('replay').disabled=true;
+ const q=esc(slide.q||''),a=esc(slide.a||''),why=esc(slide.why||''),formula=esc(slide.formula||''),ex=esc(slide.ex||''),pq=esc(slide.pq||'');
+ let body='';
+ if(slide.type==='question')body=`<div class="deck-kicker">SENTENCE ${sentenceIndex+1} · QUESTION</div><h1 class="deck-title">שאלה על המשפט</h1><p class="deck-question en">${q}</p>`;
+ else if(slide.type==='answer')body=`<div class="deck-kicker">SENTENCE ${sentenceIndex+1} · ANSWER</div><p class="deck-question en">${q}</p><div class="deck-card"><p class="deck-answer en">${a}</p><p class="deck-note">${why}</p></div>`;
+ else if(slide.type==='grammar')body=`<div class="deck-kicker">SENTENCE ${sentenceIndex+1} · GRAMMAR</div><h1 class="deck-title">איך בנינו את השאלה?</h1><div class="deck-formula en">${formula}</div><p class="deck-note">${why}</p>`;
+ else if(slide.type==='practice'){const choices=(slide.choices||[]).map(x=>`<button class="deck-choice en" data-choice="${esc(x)}">${esc(x)}</button>`).join('');body=`<div class="deck-kicker">SENTENCE ${sentenceIndex+1} · PRACTICE</div><p class="deck-example en">${ex}</p><p class="deck-question en">${pq}</p><div class="deck-choices">${choices}</div><p class="deck-note" id="deck-feedback" hidden>התשובה: <b class="en">${esc(slide.good||'')}</b></p>`;}
+ else body=`<div class="deck-card"><p class="deck-note">${esc(slide.text||'')}</p></div>`;
+ deckSheet.innerHTML=`<div class="deck-meta"><span>${esc(deck?.title||'')}</span><span>שקף ${idx+1} / ${deckSlidesFor(sentenceIndex).length}</span></div><div class="deck-body">${body}</div>`;
+ deckSheet.querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>{const good=b.dataset.choice===String(slide.good||'');b.classList.add(good?'good':'bad');const fb=$('deck-feedback');if(fb)fb.hidden=false;});
+ $('counter').textContent='משפט '+(sentenceIndex+1)+' · דקדוק '+(idx+1)+'/'+deckSlidesFor(sentenceIndex).length;
+ $('status').textContent='שקף רגיל · ממשיכים בחיצים או בהחלקה.';
+ $('progress').style.width='0%';
+}
+function leaveDeck(){breakIndex=-1;deckSheet.hidden=true;sheet.hidden=false;document.body.classList.remove('readalong-break');if(ready){$('play').disabled=false;$('replay').disabled=false;}}
 function makePages(){
  pages=[];pairKey='';
  if(view==='sentences'){D.story.forEach((s,i)=>pages.push({ids:[i],source:D.pages.findIndex(ids=>ids.includes(i)),sub:0}));return;}
  D.pages.forEach((ids,source)=>{let group=[],sub=0;for(const i of ids){const candidate=[...group,i];setText(candidate);resetSize();if(group.length&&!hasRoom()){pages.push({ids:group,source,sub:sub++});group=[i];}else group=candidate;}if(group.length)pages.push({ids:group,source,sub});});
 }
 function refreshTabs(){const source=pages[page].source;$('reading-tabs').innerHTML=D.pages.map((ids,p)=>`<button role="tab" aria-selected="${p===source}" aria-controls="sheet" id="reading-tab-${p}" class="${state.read['page'+p]?'done':''}" data-source="${p}" title="פסקה ${D.story[ids[0]].paragraph} · קטע ${p+1}">${D.story[ids[0]].paragraph} · ${p+1}</button>`).join('');sheet.setAttribute('aria-labelledby','reading-tab-'+source);}
-function syncURL(){const p=new URLSearchParams(location.search);p.set('view',view);if(view==='sentences'){p.set('p',String(page*2+Number(reveal)));p.delete('sub');p.delete('reveal');}else{p.set('p',String(pages[page].source));p.set('sub',String(pages[page].sub));p.set('reveal',String(Number(reveal)));}history.replaceState(null,'','?'+p+location.hash);state.last='?'+p;state.bilingualPosition={...state.bilingualPosition,[view]:{sentence:pages[page].ids[0],reveal}};save();}
+function syncURL(){const p=new URLSearchParams(location.search);p.set('view',view);p.delete('break');if(view==='sentences'){p.set('p',String(page*2+Number(reveal)));p.delete('sub');p.delete('reveal');}else{p.set('p',String(pages[page].source));p.set('sub',String(pages[page].sub));p.set('reveal',String(Number(reveal)));}history.replaceState(null,'','?'+p+location.hash);state.last='?'+p;state.bilingualPosition={...state.bilingualPosition,[view]:{sentence:pages[page].ids[0],reveal}};save();}
 function show(n,r=false,{persist=true,schedule=true}={}){
- stop();page=Math.max(0,Math.min(pages.length-1,n));reveal=!!r;
+ stop();leaveDeck();page=Math.max(0,Math.min(pages.length-1,n));reveal=!!r;
  const ids=pages[page].ids,key=ids.join(',');
  if(pairKey!==key){setText(ids);pairKey=key;enNodes=Object.fromEntries([...stage.querySelectorAll('[data-en]')].map(e=>[e.dataset.en,e]));heNodes=Object.fromEntries([...stage.querySelectorAll('[data-he]')].map(e=>[e.dataset.he,e]));fit();}
  sheet.classList.toggle('with-translation',reveal);$('translation-slot').setAttribute('aria-hidden',String(!reveal));$('step-label').textContent=reveal?'אנגלית + עברית':'אנגלית';
@@ -50,7 +67,29 @@ function show(n,r=false,{persist=true,schedule=true}={}){
  ids.forEach(i=>records[i].parts.forEach((_,p)=>narrator.prepare(i,p).catch(()=>{})));
  if(auto&&schedule)scheduled=setTimeout(()=>{scheduled=null;if(!document.hidden&&!menu.open)narrator.playFrom(ids[0],0,ids);},2000);
 }
-function step(d){if(menu.open)return;const index=page*2+Number(reveal),next=Math.max(0,Math.min(pages.length*2-1,index+d));if(next===index)return;show(Math.floor(next/2),!!(next%2));}
+function step(d){
+ if(menu.open)return;
+ const sentenceIndex=pages[page]?.ids?.[0]??0,breaks=deckSlidesFor(sentenceIndex);
+ if(breakIndex>=0){
+  const nextBreak=breakIndex+d;
+  if(nextBreak>=0&&nextBreak<breaks.length){renderDeckSlide(breaks[nextBreak],sentenceIndex,nextBreak);return;}
+  if(d<0){show(page,true);return;}
+  if(page<pages.length-1){show(page+1,false);return;}
+  return;
+ }
+ if(view==='sentences'&&deck){
+  if(d>0){
+   if(!reveal){show(page,true);return;}
+   if(breaks.length){renderDeckSlide(breaks[0],sentenceIndex,0);return;}
+   if(page<pages.length-1)show(page+1,false);
+   return;
+  }
+  if(reveal){show(page,false);return;}
+  if(page>0){const prev=page-1,prevSentence=pages[prev]?.ids?.[0]??0,prevBreaks=deckSlidesFor(prevSentence);if(prevBreaks.length){page=prev;renderDeckSlide(prevBreaks.at(-1),prevSentence,prevBreaks.length-1);}else show(prev,true);}
+  return;
+ }
+ const index=page*2+Number(reveal),next=Math.max(0,Math.min(pages.length*2-1,index+d));if(next===index)return;show(Math.floor(next/2),!!(next%2));
+}
 function mark(s,i){const a=A[D.story[s].number],en=enNodes[`${s}:${i}`],he=heNodes[`${s}:${a.map[i]}`];if(en!==lastEn){lastEn?.classList.remove('marker');en?.classList.add('marker');lastEn=en;}if(he!==lastHe){lastHe?.classList.remove('marker');he?.classList.add('marker');lastHe=he;}}
 function paint(p){
  $('footer').dataset.phase=p.phase;$('play').setAttribute('aria-pressed',String(p.isActive));
@@ -91,5 +130,5 @@ makePages();const qs=new URLSearchParams(location.search),old=Math.max(0,Number(
 const start=view==='sentences'?Math.floor(old/2):pages.findIndex(p=>p.source===Math.min(old,D.pages.length-1)&&p.sub===sub);
 show(Math.max(0,start),view==='sentences'?!!(old%2):qs.get('reveal')==='1',{persist:false,schedule:false});
 ready=true;$('play').disabled=false;$('replay').disabled=false;$('play').textContent='▶ הקראה';
-window.__grade8Bilingual={D,records,alignment:A,player:narrator,view,show,step,stop,get pages(){return pages;},get page(){return page;},get reveal(){return reveal;},get ready(){return ready;},get marker(){return{en:lastEn?.dataset.en||null,he:lastHe?.dataset.he||null};},get auto(){return auto;}};
+window.__grade8Bilingual={D,records,alignment:A,player:narrator,view,deck,show,step,stop,get pages(){return pages;},get page(){return page;},get reveal(){return reveal;},get breakIndex(){return breakIndex;},get ready(){return ready;},get marker(){return{en:lastEn?.dataset.en||null,he:lastHe?.dataset.he||null};},get auto(){return auto;}};
 };
