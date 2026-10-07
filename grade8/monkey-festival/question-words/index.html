@@ -9,13 +9,13 @@
 :root{--bg:#071526;--ink:#f4f9ff;--muted:#b4c9da;--cyan:#65e5ff;--lime:#dfff5b;--line:#36566e;--bad:#ff8b8b}
 *{box-sizing:border-box}html,body{height:100%;margin:0;overflow:hidden;background:var(--bg);color:var(--ink);font-family:Heebo,Arial,sans-serif}
 body.read-mode .regular{display:none}body:not(.read-mode) .readerWrap{display:none}
-.readerWrap{position:fixed;inset:0;background:var(--bg)}
-.readerFrame{position:absolute;inset:0;width:100%;height:100%;border:0;background:var(--bg)}
-.readerNext,.readerPrev{position:fixed;z-index:30;bottom:88px;border:1px solid #5d98ac;background:#174256;color:#fff;border-radius:14px;padding:10px 14px;font:800 14px Heebo,Arial,sans-serif;box-shadow:0 8px 24px #0007}
-.readerNext{right:10px}.readerPrev{left:10px}.readerLabel{position:fixed;z-index:30;left:50%;transform:translateX(-50%);bottom:91px;padding:7px 12px;border-radius:999px;background:#071526e8;border:1px solid #ffffff18;color:var(--muted);font:700 12px Heebo,Arial,sans-serif;pointer-events:none}
+.readerWrap{position:fixed;inset:0;background:var(--bg);overflow:hidden}
+.readerFrame{position:fixed;inset:0;width:100vw;height:100dvh;border:0;background:var(--bg);display:block}
+.readerNext,.readerPrev{position:fixed;z-index:30;top:50%;transform:translateY(-50%);width:34px;height:72px;border:1px solid #5d98ac;background:#071526cc;color:#fff;border-radius:12px;padding:0;font:800 18px Heebo,Arial,sans-serif;box-shadow:0 8px 24px #0007;opacity:.72}
+.readerNext{right:3px}.readerPrev{left:3px}.readerLabel{display:none}
 .regular{height:100dvh;display:grid;grid-template-rows:66px 3px 1fr 72px}
 .top{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 18px;border-bottom:1px solid #ffffff18}.home{color:var(--ink);text-decoration:none;border:1px solid #41647b;border-radius:999px;padding:7px 11px}.brand{font-weight:900}.counter{direction:ltr;color:var(--muted);font-weight:800}.progress{background:#1b3448}.bar{height:100%;background:var(--cyan);width:0}.stage{min-height:0;max-width:1280px;width:100%;margin:auto;padding:8px 14px}.slide{height:100%;overflow:auto;border:1px solid var(--line);border-radius:24px;padding:clamp(20px,4vw,48px);background:linear-gradient(145deg,#0d1d31,#07101d);display:grid;align-content:center}.k{font:900 13px Nunito,Arial,sans-serif;color:var(--cyan);letter-spacing:.13em}.title{font-size:clamp(36px,6vw,76px);line-height:1.05;margin:.18em 0}.sub{font-size:clamp(19px,2.5vw,30px);color:var(--muted);font-weight:700}.card{background:#122842;border:1px solid var(--line);border-radius:20px;padding:22px}.q{direction:ltr;text-align:left;font:900 clamp(28px,4vw,52px)/1.25 Nunito,Arial,sans-serif}.a{direction:ltr;text-align:left;color:var(--lime);font:900 clamp(21px,2.6vw,32px) Nunito,Arial,sans-serif}.formula{direction:ltr;text-align:center;font:900 clamp(24px,3.6vw,46px) Nunito,Arial,sans-serif;background:#06101d;padding:18px;border-radius:18px;margin:18px 0}.note{font-size:clamp(19px,2.2vw,28px);line-height:1.55;color:var(--muted);font-weight:700}.choices{display:grid;grid-template-columns:1fr 1fr;gap:16px}.choices button{background:#10253d;color:var(--ink);border:1px solid var(--line);border-radius:16px;padding:18px;font:900 24px Nunito,Arial,sans-serif}.choices button.good{border-color:var(--lime);background:#163d27}.choices button.bad{border-color:var(--bad);background:#421d28}.example{direction:ltr;text-align:left;font:900 clamp(22px,3vw,38px) Nunito,Arial,sans-serif;color:var(--cyan);margin-bottom:22px}.footer{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 18px;background:#071526ec;border-top:1px solid #ffffff18}.footer button{background:#122c44;border:1px solid #41647b;color:var(--ink);border-radius:12px;padding:10px 16px;font-weight:800}
-@media(max-width:650px){.stage{padding:8px 10px}.slide{padding:18px;border-radius:18px}.q{font-size:31px}.title{font-size:40px}.choices{grid-template-columns:1fr}.readerNext,.readerPrev{bottom:86px;padding:8px 11px;font-size:12px}.readerLabel{bottom:89px;font-size:11px}}
+@media(max-width:650px){.stage{padding:8px 10px}.slide{padding:18px;border-radius:18px}.q{font-size:31px}.title{font-size:40px}.choices{grid-template-columns:1fr}.readerNext,.readerPrev{top:50%;bottom:auto;width:28px;height:60px;font-size:14px}.readerLabel{display:none}}
 </style>
 </head>
 <body>
@@ -39,7 +39,7 @@ const E=s=>String(s??"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"
 function isRead(s){return s&&["readEn","readHe"].includes(s.type)}
 function centralReaderUrl(s){
   const p=(s.n-1)*2+(s.type==="readHe"?1:0);
-  return "../../unit-1/?view=sentences&p="+p+"&deck=oct8";
+  return "../../unit-1/?view=sentences&p="+p+"&deck=oct8&embed=1&v=20261007-fullscreen1";
 }
 function renderRead(s){
   document.body.classList.add("read-mode");
