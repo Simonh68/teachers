@@ -36,6 +36,40 @@ const S=[{"type":"cover","k":"THE MONKEY FESTIVAL · PART ONE A–F","t":"18 sen
 let i=0;
 const stage=document.getElementById("stage"),counter=document.getElementById("counter"),bar=document.getElementById("bar"),frame=document.getElementById("readerFrame"),label=document.getElementById("readerLabel");
 const E=s=>String(s??"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+function lockEmbeddedReaderNavigation(){
+  try{
+    const w=frame.contentWindow,d=frame.contentDocument;
+    if(!d||!w)return;
+    let st=d.getElementById("oct8-embed-lock");
+    if(!st){
+      st=d.createElement("style");st.id="oct8-embed-lock";
+      st.textContent='.navigation{display:none!important}.footer{pointer-events:none!important}.footer #status{pointer-events:none!important}.progress{bottom:0!important}';
+      d.head.appendChild(st);
+    }
+    // Prevent the central reader from changing its own sentence via swipe/keys.
+    const stage=d.getElementById("stage");
+    if(stage&&!stage.dataset.oct8Locked){
+      stage.dataset.oct8Locked="1";
+      const stopGesture=e=>{
+        if(e.target.closest&&e.target.closest('button,a,select,[data-en]'))return;
+        e.stopImmediatePropagation();
+      };
+      stage.addEventListener("pointerdown",stopGesture,true);
+      stage.addEventListener("pointerup",stopGesture,true);
+      stage.addEventListener("pointercancel",stopGesture,true);
+    }
+    if(!d.documentElement.dataset.oct8KeyLocked){
+      d.documentElement.dataset.oct8KeyLocked="1";
+      d.addEventListener("keydown",e=>{
+        if(e.target.closest&&e.target.closest('button,select,input,textarea,[data-en]'))return;
+        if(["ArrowDown","ArrowRight","ArrowUp","ArrowLeft","PageDown","PageUp"," ","Home","End"].includes(e.key)){
+          e.stopImmediatePropagation();e.preventDefault();
+        }
+      },true);
+    }
+  }catch(_){}
+}
+frame.addEventListener("load",()=>setTimeout(lockEmbeddedReaderNavigation,0));
 function isRead(s){return s&&["readEn","readHe"].includes(s.type)}
 function centralReaderUrl(s){
   const p=(s.n-1)*2+(s.type==="readHe"?1:0);
@@ -44,7 +78,7 @@ function centralReaderUrl(s){
 function renderRead(s){
   document.body.classList.add("read-mode");
   const url=centralReaderUrl(s);
-  if(frame.dataset.src!==url){frame.src=url;frame.dataset.src=url}
+  if(frame.dataset.src!==url){frame.src=url;frame.dataset.src=url}else{setTimeout(lockEmbeddedReaderNavigation,0)}
   label.textContent="משפט "+s.n+" / 18 · "+(s.type==="readHe"?"אנגלית + עברית":"אנגלית");
 }
 function renderRegular(s){
