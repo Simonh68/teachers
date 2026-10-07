@@ -53,6 +53,8 @@ function renderDeckSlide(slide,sentenceIndex,idx){
  else body=`<div class="deck-card"><p class="deck-note">${esc(slide.text||'')}</p></div>`;
  deckSheet.innerHTML=`<div class="deck-meta"><span>${esc(deck?.title||'')}</span><span>שקף ${idx+1} / ${deckSlidesFor(sentenceIndex).length}</span></div><div class="deck-body">${body}</div>`;
  deckSheet.querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>{const good=b.dataset.choice===String(slide.good||'');b.classList.add(good?'good':'bad');const fb=$('deck-feedback');if(fb)fb.hidden=false;});
+ if($('deck-count'))$('deck-count').textContent=(deckAbsoluteIndex()+1)+' / '+deckTotalSlides();
+ if($('deck-progress-fill'))$('deck-progress-fill').style.width=Math.min(100,(deckAbsoluteIndex()+1)/deckTotalSlides()*100)+'%';
  updateDeckCounter();
  $('status').textContent='שקף רגיל · ממשיכים בחיצים או בהחלקה.';
  $('progress').style.width=(view==='sentences'&&deck?Math.min(100,(deckAbsoluteIndex()+1)/deckTotalSlides()*100):0)+'%';
@@ -122,6 +124,10 @@ function paint(p){
 narrator=new TeacherPhrasePlayer(records,{pauseMs:STANDARD.pauseMs,onUpdate:paint,onComplete:()=>{narrator.queue.forEach(i=>state.read['sentence-'+i]=true);D.pages.forEach((ids,p)=>{if(ids.every(i=>state.read['sentence-'+i]))state.read['page'+p]=true;});save();refreshTabs();}});narrator.setRate(rate);
 function play(restart=false){clearTimeout(scheduled);scheduled=null;auto=true;hideTip();if(!restart&&narrator.isActive)narrator.pause();else if(!restart&&['paused','pausedGap'].includes(narrator.phase))narrator.resume();else{const ids=pages[page].ids;narrator.playFrom(ids[0],0,ids);}}
 $('play').onclick=()=>play();$('replay').onclick=()=>play(true);$('speed').onchange=()=>{rate=Number($('speed').value);narrator.setRate(rate);try{localStorage.setItem(speedStore||STANDARD.speedStore,String(rate));}catch(_){}};
+if($('deck-next'))$('deck-next').onclick=()=>step(1);
+if($('deck-down'))$('deck-down').onclick=()=>step(1);
+if($('deck-prev'))$('deck-prev').onclick=()=>step(-1);
+if($('deck-up'))$('deck-up').onclick=()=>step(-1);
 $('contents').onclick=()=>{stop();menu.showModal();};$('close-menu').onclick=()=>menu.close();
 menu.querySelector(`[data-mode="${view}"]`).setAttribute('aria-current','page');
 $('sentence-list').innerHTML=D.story.map((s,i)=>`<button data-jump="${i}"><small>${s.paragraph} · ${s.number}</small>${esc(s.plain)}</button>`).join('');
