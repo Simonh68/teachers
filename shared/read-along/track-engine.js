@@ -137,7 +137,12 @@ function paintBrowserWord(si,wi){
  renderGlossTrail();
 }
 function startBrowserQueue(restart=true){
- if(!('speechSynthesis' in window)){playing=false;$('status').textContent='הדפדפן הזה אינו תומך בהקראה. נסו לפתוח ב-Chrome.';return;}
+ $('status').textContent='מפעיל הקראה…';
+ if(!('speechSynthesis' in window)||typeof SpeechSynthesisUtterance==='undefined'){
+   playing=false;
+   $('status').innerHTML='הדפדפן הפנימי לא תומך בהקראה. <a href="'+location.href+'" target="_blank" rel="noopener">פתחו ב-Chrome</a>.';
+   return;
+ }
  clearTimeout(browserTimer);
  if(restart||!queue.length){queue=[...current().ids];qpos=0;}
  if(paused&&!restart){speechSynthesis.resume();playing=true;paused=false;$('play').textContent='❚❚ השהיה';$('play').setAttribute('aria-pressed','true');$('status').textContent='הקראה באנגלית.';return;}
@@ -145,11 +150,21 @@ function startBrowserQueue(restart=true){
  const speakCurrent=()=>{
    const si=queue[qpos],s=story[si];if(!s)return;
    const u=new SpeechSynthesisUtterance(s.plain);browserUtterance=u;u.lang='en-US';u.rate=Math.max(.25,Math.min(1.25,rate));
+   const voices=speechSynthesis.getVoices?.()||[];
+   u.voice=voices.find(v=>/^en(-|_)?US/i.test(v.lang))||voices.find(v=>/^en/i.test(v.lang))||null;
    u.onstart=()=>{playing=true;$('footer').dataset.phase='playing';$('play').textContent='❚❚ השהיה';$('play').setAttribute('aria-pressed','true');$('status').textContent=reveal?'המרקר עוקב באנגלית ובעברית.':'הקראה באנגלית.';};
    u.onboundary=e=>{if(e.name==='word'||typeof e.charIndex==='number')paintBrowserWord(si,browserWordAt(s.plain,e.charIndex||0));};
    u.onerror=()=>{playing=false;paused=false;clearMarker();$('play').textContent='▶ הקראה';$('play').setAttribute('aria-pressed','false');$('status').textContent='לא ניתן להפעיל הקראה בדפדפן הזה. נסו Chrome.';};
    u.onend=()=>{clearMarker();if(qpos<queue.length-1){playing=false;$('footer').dataset.phase='gap';$('status').textContent='הפסקה של 1.5 שניות…';browserTimer=setTimeout(()=>{qpos++;speakCurrent();},pauseMs);return;}playing=false;paused=false;$('play').textContent='▶ הקראה';$('play').setAttribute('aria-pressed','false');$('status').textContent='סוף '+(queue.length===1?'המשפט':'הקטע')+'. ממשיכים כשמוכנים.';queue.forEach(i=>state.read['sentence-'+i]=true);sourcePages.forEach((ids,p)=>{if(ids.every(i=>state.read['sentence-'+i]))state.read['page'+p]=true;});save();refreshTabs();};
-   speechSynthesis.speak(u);
+   try{
+     speechSynthesis.cancel();
+     speechSynthesis.resume();
+     speechSynthesis.speak(u);
+     setTimeout(()=>{if(!playing&&!speechSynthesis.speaking){$('status').innerHTML='לא הצלחתי להפעיל את קול המכשיר כאן. <a href="'+location.href+'" target="_blank" rel="noopener">פתחו ב-Chrome</a>.';}},900);
+   }catch(_){
+     playing=false;
+     $('status').innerHTML='לא הצלחתי להפעיל את קול המכשיר כאן. <a href="'+location.href+'" target="_blank" rel="noopener">פתחו ב-Chrome</a>.';
+   }
  };
  speakCurrent();
 }
@@ -183,7 +198,7 @@ async function init(){
  if(view==='sentences'){start=Math.floor(old/2);r=!!(old%2);}else{start=pages.findIndex(p=>p.source===Math.min(old,sourcePages.length-1)&&p.sub===sub);r=qs.get('reveal')==='1';}
  show(Math.max(0,start),r,{persist:false,schedule:false});
  layoutReady=(async()=>{const css=document.querySelector('link[rel="stylesheet"]');if(css&&!css.sheet)await new Promise(resolve=>{css.addEventListener('load',resolve,{once:true});css.addEventListener('error',resolve,{once:true});});if(document.fonts?.ready)await document.fonts.ready;fitKey='';fit();renderGlossTrail();})();
- if(cfg.audioUnavailable)$('status').textContent=('speechSynthesis' in window)?'לחצו על ▶ הקראה — הקריאה תושמע בקול הדפדפן.':'הדפדפן הזה אינו תומך בהקראה.';
+ if(cfg.audioUnavailable)$('status').textContent='לחצו על ▶ הקראה. אם הדפדפן הפנימי לא תומך בקול, יוצג קישור לפתיחה ב-Chrome.';
  if(cfg.autoStart&&!cfg.audioUnavailable){
    const delayMs=Number.isFinite(Number(cfg.autoStartDelayMs))?Number(cfg.autoStartDelayMs):2000;
    timer=setTimeout(async()=>{
