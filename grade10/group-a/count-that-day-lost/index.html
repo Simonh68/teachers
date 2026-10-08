@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="../../../assets/lesson-decks/deck.css?v=20260910f">
 <style>
 .ra{max-width:980px;margin:auto;text-align:left;direction:ltr}.ra-text{font-size:clamp(28px,4.2vw,54px);line-height:1.55;font-weight:700}.ra-text.compact{font-size:clamp(18px,2.35vw,30px);line-height:1.48}
-.w{display:inline;border-radius:.2em;padding:.02em .03em;transition:background .08s}.w.on{background:#ffe66d;color:#07111f}.play{margin-top:24px;font-size:20px;box-shadow:0 0 0 3px #53e4ff22;border:1px solid #53e4ff;border-radius:999px;background:#0d1c2d;color:#f5f8ff;padding:12px 22px;font:800 17px inherit;cursor:pointer}.poem-all{columns:2;column-gap:48px;font-size:clamp(15px,1.65vw,22px);line-height:1.5;text-align:left;white-space:pre-line}.hint{font-size:clamp(22px,3vw,36px);line-height:1.45;text-align:left}.mini{font-size:clamp(18px,2.3vw,28px);line-height:1.5;text-align:left}.slide-meta{direction:ltr}.home{direction:rtl}
+.w{display:inline;border-radius:.2em;padding:.02em .03em;transition:background .08s}.w.on{background:#ffe66d;color:#07111f}.read-controls{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:24px}.speed{display:flex;gap:6px}.speed button{border:1px solid #ffffff33;border-radius:999px;background:#07111f;color:#fff;padding:9px 12px;font-weight:800}.speed button.active{border-color:#dfff5b;color:#dfff5b}.play{margin-top:0;font-size:20px;box-shadow:0 0 0 3px #53e4ff22;border:1px solid #53e4ff;border-radius:999px;background:#0d1c2d;color:#f5f8ff;padding:12px 22px;font:800 17px inherit;cursor:pointer}.poem-all{columns:2;column-gap:48px;font-size:clamp(15px,1.65vw,22px);line-height:1.5;text-align:left;white-space:pre-line}.hint{font-size:clamp(22px,3vw,36px);line-height:1.45;text-align:left}.mini{font-size:clamp(18px,2.3vw,28px);line-height:1.5;text-align:left}.slide-meta{direction:ltr}.home{direction:rtl}
 @media(max-width:720px){.poem-all{columns:1;font-size:14px;line-height:1.35}.ra-text.compact{font-size:17px}.section-nav{display:none}}
 </style></head><body>
 <a class="home" href="../" aria-label="Back to Grade 10">⌂</a>
@@ -25,7 +25,7 @@ function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g
 function words(s){return s.split(/(\s+)/).map(x=>/^\s+$/.test(x)?x:'<span class="w">'+esc(x)+'</span>').join('')}
 function meta(label){return '<div class="slide-meta"><p class="eyebrow">'+label+'</p><p class="tense"></p></div>'}
 function add(section,cls,body){slides.push({section,cls,body})}
-function raBlock(text,compact=false){return '<div class="ra"><p class="ra-text '+(compact?'compact':'')+'" data-read="'+esc(text)+'">'+words(text)+'</p><button class="play" aria-label="Play clear Read Along">🔊 Play & highlight</button></div>'}
+function raBlock(text,compact=false){return '<div class="ra"><p class="ra-text '+(compact?'compact':'')+'" data-read="'+esc(text)+'">'+words(text)+'</p><div class="read-controls"><button class="play" aria-label="Play clear Read Along">🔊 Play & highlight</button><div class="speed" aria-label="Reading speed"><button data-rate=".68">0.7×</button><button class="active" data-rate=".82">0.8×</button><button data-rate="1">1.0×</button></div></div></div>'}
 add("prepare","cover",'<div class="frame">'+meta("GRADE 10 · 5 POINTS · LITERATURE")+'<h1 class="cover-title en">Count That<br>Day Lost</h1><p class="cover-sub en">George Eliot</p><p class="level en">B1 · prepare · read · understand</p></div>');
 bg.forEach((x,i)=>add("prepare","reading",'<div class="frame">'+meta("Meet George Eliot · "+(i+1)+"/4")+'<div class="ra"><p class="ra-text" data-read="'+esc(x)+'">'+words(x)+'</p><button class="play">▶ Read Along</button></div></div>'));
 add("prepare","qa",`<div class="frame">`+meta("Before reading")+raBlock("What makes a day a good day? Think of one small action that can make another person feel better.")+`</div>`);
@@ -45,11 +45,30 @@ add("finish","reading",`<div class="frame">`+meta("Exit ticket")+raBlock("Comple
 const stage=document.getElementById("stage");
 stage.innerHTML=slides.map((s,i)=>'<section id="slide-'+(i+1)+'" class="slide '+s.cls+(i===0?' active':'')+'" data-section="'+s.section+'" role="group" aria-label="'+(i+1)+' of '+slides.length+'" '+(i?'hidden':'')+'>'+s.body+'</section>').join("");
 let idx=0; const els=[...document.querySelectorAll(".slide")], counter=document.getElementById("counter"),fill=document.querySelector(".progress-fill");
-function show(n){speechSynthesis.cancel();idx=Math.max(0,Math.min(els.length-1,n));els.forEach((e,j)=>{e.hidden=j!==idx;e.classList.toggle("active",j===idx)});counter.textContent=(idx+1)+" / "+els.length;fill.style.width=((idx+1)/els.length*100)+"%"}
+function show(n){clearRead();idx=Math.max(0,Math.min(els.length-1,n));els.forEach((e,j)=>{e.hidden=j!==idx;e.classList.toggle("active",j===idx)});counter.textContent=(idx+1)+" / "+els.length;fill.style.width=((idx+1)/els.length*100)+"%"}
 document.querySelectorAll("[data-step]").forEach(b=>b.onclick=()=>show(idx+Number(b.dataset.step)));
 document.querySelectorAll("[data-jump]").forEach(b=>b.onclick=()=>show(els.findIndex(x=>x.dataset.section===b.dataset.jump)));
 let sx=0,sy=0;addEventListener("touchstart",e=>{sx=e.changedTouches[0].clientX;sy=e.changedTouches[0].clientY},{passive:true});addEventListener("touchend",e=>{let dx=e.changedTouches[0].clientX-sx,dy=e.changedTouches[0].clientY-sy;if(Math.max(Math.abs(dx),Math.abs(dy))>45)show(idx+((dx<0||dy<0)?1:-1))},{passive:true});
 addEventListener("keydown",e=>{if(["ArrowRight","ArrowDown","PageDown"].includes(e.key))show(idx+1);if(["ArrowLeft","ArrowUp","PageUp"].includes(e.key))show(idx-1)});
-document.querySelectorAll(".play").forEach(btn=>btn.onclick=()=>{speechSynthesis.cancel();let p=btn.previousElementSibling,txt=p.dataset.read,ws=[...p.querySelectorAll(".w")];ws.forEach(w=>w.classList.remove("on"));let u=new SpeechSynthesisUtterance(txt);u.lang="en-US";u.rate=.78;u.volume=1;u.pitch=1;let voices=speechSynthesis.getVoices();let preferred=voices.find(v=>/Google US English|Samantha|Microsoft Aria|English United States/i.test(v.name))||voices.find(v=>/^en-US/i.test(v.lang))||voices.find(v=>/^en/i.test(v.lang));if(preferred)u.voice=preferred;let starts=[],pos=0;ws.forEach(w=>{let raw=w.textContent;let q=txt.indexOf(raw,pos);starts.push(q);pos=q+raw.length});u.onboundary=e=>{if(e.name!=="word")return;let k=0;for(let j=0;j<starts.length;j++)if(starts[j]<=e.charIndex)k=j;ws.forEach((w,j)=>w.classList.toggle("on",j===k))};u.onend=()=>ws.forEach(w=>w.classList.remove("on"));speechSynthesis.speak(u)});
+let activeTimers=[];
+function clearRead(){speechSynthesis.cancel();activeTimers.forEach(clearTimeout);activeTimers=[];document.querySelectorAll(".w").forEach(w=>w.classList.remove("on"))}
+document.querySelectorAll(".speed button").forEach(b=>b.onclick=()=>{let box=b.closest(".speed");box.querySelectorAll("button").forEach(x=>x.classList.remove("active"));b.classList.add("active")});
+document.querySelectorAll(".play").forEach(btn=>btn.onclick=()=>{
+ clearRead();
+ let ra=btn.closest(".ra"),p=ra.querySelector("[data-read]"),txt=p.dataset.read,ws=[...p.querySelectorAll(".w")];
+ let rate=Number(ra.querySelector(".speed .active")?.dataset.rate||.82);
+ let voices=speechSynthesis.getVoices(),preferred=voices.find(v=>/Google US English|Samantha|Microsoft Aria|English United States/i.test(v.name))||voices.find(v=>/^en-US/i.test(v.lang))||voices.find(v=>/^en/i.test(v.lang));
+ let units=[]; ws.forEach((w,i)=>{let t=w.textContent;let pause=/[.!?]$/.test(t)?520:/[,;:]$/.test(t)?260:/[—–-]$/.test(t)?340:0;units.push({w,t,pause,i})});
+ let i=0;
+ function next(){
+   if(i>=units.length){ws.forEach(w=>w.classList.remove("on"));return}
+   ws.forEach((w,j)=>w.classList.toggle("on",j===i));
+   let item=units[i],u=new SpeechSynthesisUtterance(item.t.replace(/[—–]/g,""));u.lang="en-US";u.rate=rate;u.volume=1;u.pitch=1;if(preferred)u.voice=preferred;
+   u.onend=()=>{let wait=item.pause/rate;activeTimers.push(setTimeout(()=>{i++;next()},wait))};
+   u.onerror=()=>{activeTimers.push(setTimeout(()=>{i++;next()},110/rate))};
+   speechSynthesis.speak(u)
+ }
+ next()
+});
 show(0);
 </script></body></html>
