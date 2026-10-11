@@ -12,28 +12,56 @@
 (()=>{function count(slide){const regions=[...slide.querySelectorAll('.essay.en p,.main-copy.en')];const total=regions.reduce((n,p)=>n+(p.textContent.match(/[A-Za-z0-9]+(?:[’'-][A-Za-z0-9]+)*/g)||[]).length,0);const target=slide.querySelector('.count');if(target)target.textContent=total+' words';}
 document.querySelectorAll('.word-switch[data-options]').forEach(b=>{b.addEventListener('click',()=>{const options=JSON.parse(b.dataset.options);const next=(Number(b.dataset.choice)+1)%options.length;b.dataset.choice=String(next);b.textContent=options[next];b.setAttribute('aria-label',options[next]+' — לחצו לניסוח אחר');count(b.closest('.slide'));window.dispatchEvent(new Event('resize'));});});
 document.querySelectorAll('.slide').forEach(count);
-})();</script><style>.stage{touch-action:pan-x pinch-zoom}</style><script>
+})();</script><style>
+.stage,.slide{touch-action:pan-y pinch-zoom}
+.slide{overscroll-behavior-y:contain;scroll-behavior:auto}
+.slide.essay .frame{zoom:1!important;padding-bottom:30px}
+.slide .essay.en p{border:0!important;padding:0!important;margin:0 0 1.5em!important}
+.slide .essay.en p:last-child{margin-bottom:0!important}
+.slide .essay.en p::before,.slide .essay.en p::after{display:none!important}
+.word-switch{border-bottom-width:1px}
+@media(prefers-reduced-motion:no-preference){.slide.active .frame{animation:none}}
+</style><script>
 (() => {
-  const stage = document.querySelector('.stage');
-  let start = null;
-  stage.addEventListener('touchstart', e => {
-    start = e.touches.length === 1 ? {x:e.touches[0].clientX,y:e.touches[0].clientY} : null;
-  }, {passive:true,capture:true});
-  stage.addEventListener('touchmove', e => {
-    if (!start || e.touches.length !== 1) {start=null;return;}
-    const dx=e.touches[0].clientX-start.x, dy=e.touches[0].clientY-start.y;
-    if (Math.abs(dy)>Math.abs(dx) && Math.abs(dy)>10 && e.cancelable) e.preventDefault();
-  }, {passive:false,capture:true});
-  stage.addEventListener('touchend', e => {
-    if (!start || !e.changedTouches.length) return;
-    const dx=e.changedTouches[0].clientX-start.x, dy=e.changedTouches[0].clientY-start.y;
-    start=null;
-    if (Math.abs(dy)>=55 && Math.abs(dy)>Math.abs(dx)) {
-      e.stopImmediatePropagation();
-      const button=document.querySelector('[data-step="'+(dy<0?'1':'-1')+'"]');
-      if (button && !button.disabled) button.click();
-    }
-  }, {passive:true,capture:true});
+  const stage=document.querySelector('.stage');
+  let start=null;
+  function bounds(slide){
+    return {scrollable:slide.scrollHeight>slide.clientHeight+2,
+      top:slide.scrollTop<=2,
+      bottom:slide.scrollTop+slide.clientHeight>=slide.scrollHeight-2};
+  }
+  stage.addEventListener('touchstart',e=>{
+    const slide=document.querySelector('.slide.active');
+    start=e.touches.length===1&&slide?{
+      x:e.touches[0].clientX,y:e.touches[0].clientY,slide,...bounds(slide)
+    }:null;
+  },{passive:true,capture:true});
+  stage.addEventListener('touchmove',e=>{
+    if(!start||e.touches.length!==1){start=null;return;}
+    const dx=e.touches[0].clientX-start.x,dy=e.touches[0].clientY-start.y;
+    const navigate=!start.scrollable||(dy<0&&start.bottom)||(dy>0&&start.top);
+    if(navigate&&Math.abs(dy)>Math.abs(dx)&&Math.abs(dy)>10&&e.cancelable)e.preventDefault();
+  },{passive:false,capture:true});
+  stage.addEventListener('touchend',e=>{
+    if(!start||!e.changedTouches.length)return;
+    const began=start;start=null;
+    const dx=e.changedTouches[0].clientX-began.x,dy=e.changedTouches[0].clientY-began.y;
+    if(Math.abs(dy)<=Math.abs(dx))return;
+    // Suppress the shared swipe handler: reaching an edge during this gesture
+    // must never turn a reading scroll into navigation.
+    e.stopImmediatePropagation();
+    if(Math.abs(dy)<55)return;
+    const navigate=!began.scrollable||(dy<0&&began.bottom)||(dy>0&&began.top);
+    if(!navigate)return;
+    const b=document.querySelector('[data-step="'+(dy<0?'1':'-1')+'"]');
+    if(b&&!b.disabled)b.click();
+  },{passive:true,capture:true});
   stage.addEventListener('touchcancel',()=>{start=null;},{passive:true,capture:true});
+  // Wheel scrolling on long slides stays inside the slide, including its edges.
+  stage.addEventListener('wheel',e=>{
+    if(e.ctrlKey)return;
+    const slide=document.querySelector('.slide.active');
+    if(slide&&bounds(slide).scrollable)e.stopImmediatePropagation();
+  },{passive:true,capture:true});
 })();
 </script></body></html>
