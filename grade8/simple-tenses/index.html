@@ -5,7 +5,15 @@ const sets=[['John','help','helps','helped','the community','Who'],['David','dis
 function triple(lines,heading,note,sub){for(let n=1;n<=3;n++)slides.push({title:heading,sub:sub+' · שלב '+n+' מתוך 3',lines:lines.slice(0,n),note})}
 function quizSlide(q,title){slides.push({title,sub:'בחרו תשובה אחת · משוב מיידי',lines:[],note:q.reason,quiz:q})}
 function simpleCycle([s,b,t,p,o,w],i){const all=[[s+' '+t+' '+o+'.',s+' '+p+' '+o+'.',s+' will '+b+' '+o+'.'],[s+' does not '+b+' '+o+'.',s+' did not '+b+' '+o+'.',s+' will not '+b+' '+o+'.'],['Does '+s+' '+b+' '+o+'?','Did '+s+' '+b+' '+o+'?','Will '+s+' '+b+' '+o+'?'],[w+' does '+s+' '+b+'?',w+' did '+s+' '+b+'?',w+' will '+s+' '+b+'?']];all.forEach((x,j)=>triple(x,'מחזור '+(i+1)+' · '+kinds[j],'אחרי does / did / will משתמשים בפועל הבסיסי.','Simple Tenses'))}
-sets.forEach((set,i)=>{simpleCycle(set,i);if(i===1){quizSlide({q:'David ___ the evidence every day.',choices:['display','displays'],correct:1,reason:'David = he, ולכן displays.'},'אחרי מחזור 2 · הווה פשוט');quizSlide({q:'Did David ___ the evidence?',choices:['display','displayed'],correct:0,reason:'אחרי Did משתמשים בצורת הבסיס.'},'אחרי מחזור 2 · עבר');quizSlide({q:'David will ___ the evidence tomorrow.',choices:['display','displays'],correct:0,reason:'אחרי will משתמשים בפועל בסיס.'},'אחרי מחזור 2 · עתיד')}if(i===0){quizSlide({q:'John ___ the community every week.',choices:['help','helps'],correct:1,reason:'John = he: בהווה פשוט נוסיף s.'},'בין המחזורים · הווה פשוט');quizSlide({q:'Did John ___ the community yesterday?',choices:['help','helped'],correct:0,reason:'אחרי Did משתמשים ב־help ולא helped.'},'בין המחזורים · שאלת עבר');quizSlide({q:'John ___ help tomorrow.',choices:['will','did'],correct:0,reason:'Tomorrow → will + base verb.'},'בין המחזורים · עתיד')}}); 
+sets.forEach((set,i)=>simpleCycle(set,i));
+[
+{q:'John ___ the community every week.',choices:['help','helps'],correct:1,reason:'John = he: בהווה פשוט מוסיפים s.'},
+{q:'Did John ___ the community yesterday?',choices:['help','helped'],correct:0,reason:'אחרי Did הפועל בצורת בסיס.'},
+{q:'David ___ the evidence every day.',choices:['display','displays'],correct:1,reason:'David = he, לכן displays.'},
+{q:'Did David ___ the evidence?',choices:['display','displayed'],correct:0,reason:'אחרי Did משתמשים בצורת הבסיס.'},
+{q:'David will ___ the evidence tomorrow.',choices:['display','displays'],correct:0,reason:'אחרי will משתמשים בפועל בסיס.'},
+{q:'John ___ help tomorrow.',choices:['will','did'],correct:0,reason:'Tomorrow → will + base verb.'}
+].forEach((q,i)=>quizSlide(q,'מחזור שאלות בלבד · Simple Tenses · '+(i+1)+'/6'));
 // Contractions appear immediately after the three simple-tense cycles.
 const contractions=[
 {title:'שלילה בהווה · do not → don’t',lines:['They do not agree.','They don’t agree.'],note:'עם I / you / we / they משתמשים ב־do not או בקיצור don’t. שתי הצורות נכונות; בדיבור הקיצור שכיח.'},
@@ -43,7 +51,20 @@ const quiz2=[
 {q:'We ___ lunch right now.',choices:['have','are having'],correct:1,reason:'ארוחה שאנחנו אוכלים כרגע: are having.'}
 ];quiz2.forEach((q,i)=>slides.push({title:'אתגר · Simple or Continuous?',sub:'בחרו את המשפט המתאים להקשר',lines:[],note:q.reason,quiz:q}));
 const progressive=[['John','prepare','preparing','a school project','What','when the teacher called','at seven tomorrow'],['David','read','reading','the article','What','when the bell rang','at eight tomorrow']];
-progressive.forEach(([s,b,ing,o,w,pastTime,futureTime],i)=>{let a=[s+' is '+ing+' '+o+' now.',s+' was '+ing+' '+o+' '+pastTime+'.',s+' will be '+ing+' '+o+' '+futureTime+'.'];let neg=[s+' is not '+ing+' '+o+' now.',s+' was not '+ing+' '+o+' '+pastTime+'.',s+' will not be '+ing+' '+o+' '+futureTime+'.'];let c=['Is '+s+' '+ing+' '+o+' now?','Was '+s+' '+ing+' '+o+' '+pastTime+'?','Will '+s+' be '+ing+' '+o+' '+futureTime+'?'];let d=[w+' is '+s+' '+ing+' now?',w+' was '+s+' '+ing+' '+pastTime+'?',w+' will '+s+' be '+ing+' '+futureTime+'?'];[a,neg,c,d].forEach((x,j)=>triple(x,'Continuous · מחזור '+(i+1)+' · '+kinds[j],'Present: am/is/are + ing · Past: was/were + ing · Future: will be + ing','Continuous Tenses'));if(i===1){quizSlide({q:'David ___ the article now.',choices:['is reading','was reading'],correct:0,reason:'Now מציין הווה מתמשך.'},'אחרי מחזור מתמשך 2 · הווה');quizSlide({q:'Yesterday at eight, David ___ the article.',choices:['will be reading','was reading'],correct:1,reason:'Yesterday at eight מציין עבר מתמשך.'},'אחרי מחזור מתמשך 2 · עבר');quizSlide({q:'Tomorrow at eight, David ___ the article.',choices:['will be reading','was reading'],correct:0,reason:'Tomorrow at eight מציין עתיד מתמשך.'},'אחרי מחזור מתמשך 2 · עתיד')}if(i===0){quizSlide({q:'John ___ a project right now.',choices:['is preparing','was preparing'],correct:0,reason:'Right now → is preparing.'},'בין המחזורים · הווה מתמשך');quizSlide({q:'Yesterday at seven, John ___ a project.',choices:['was preparing','will be preparing'],correct:0,reason:'Yesterday at seven → was preparing.'},'בין המחזורים · עבר מתמשך')}}); 
+progressive.forEach(([subject,base,ing,obj,wh,pastTime,futureTime],i)=>{
+ const pos=[subject+' is '+ing+' '+obj+' now.',subject+' was '+ing+' '+obj+' '+pastTime+'.',subject+' will be '+ing+' '+obj+' '+futureTime+'.'];
+ const neg=[subject+' is not '+ing+' '+obj+' now.',subject+' was not '+ing+' '+obj+' '+pastTime+'.',subject+' will not be '+ing+' '+obj+' '+futureTime+'.'];
+ const yes=['Is '+subject+' '+ing+' '+obj+' now?','Was '+subject+' '+ing+' '+obj+' '+pastTime+'?','Will '+subject+' be '+ing+' '+obj+' '+futureTime+'?'];
+ const whq=[wh+' is '+subject+' '+ing+' now?',wh+' was '+subject+' '+ing+' '+pastTime+'?',wh+' will '+subject+' be '+ing+' '+futureTime+'?'];
+ [pos,neg,yes,whq].forEach((x,j)=>triple(x,'Continuous · מחזור '+(i+1)+' · '+kinds[j],'Present: am/is/are + ing · Past: was/were + ing · Future: will be + ing','Continuous Tenses'));
+});
+[
+{q:'John ___ a project right now.',choices:['is preparing','was preparing'],correct:0,reason:'Right now → is preparing.'},
+{q:'Yesterday at seven, John ___ a project.',choices:['was preparing','will be preparing'],correct:0,reason:'Yesterday at seven → was preparing.'},
+{q:'David ___ the article now.',choices:['is reading','was reading'],correct:0,reason:'Now → Present Continuous.'},
+{q:'Yesterday at eight, David ___ the article.',choices:['will be reading','was reading'],correct:1,reason:'Yesterday at eight → Past Continuous.'},
+{q:'Tomorrow at eight, David ___ the article.',choices:['will be reading','was reading'],correct:0,reason:'Tomorrow at eight → Future Continuous.'}
+].forEach((q,i)=>quizSlide(q,'מחזור שאלות בלבד · Continuous · '+(i+1)+'/5'));
 const quiz3=[
 {q:'At eight yesterday, Daniel ___ his friend.',choices:['was helping','is helping'],correct:0,reason:'At eight yesterday → Past Continuous.'},
 {q:'At eight tomorrow, David ___ the article.',choices:['was reading','will be reading'],correct:1,reason:'At eight tomorrow → Future Continuous.'}
