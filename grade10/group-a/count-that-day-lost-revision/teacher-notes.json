@@ -1,0 +1,322 @@
+[
+  {
+    "slide": 5,
+    "question": 1,
+    "type": "question",
+    "prompt": "When should we look back at our actions?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 6,
+    "question": 1,
+    "type": "answer",
+    "prompt": "When should we look back at our actions?",
+    "model": "We should look back at sunset. The phrase “set of sun” means the end of the day. At this time, we can think about our actions and their effect on others.",
+    "teacher_note": "set of sun = שקיעה; השאלה עוסקת בפעולות שכבר נעשו."
+  },
+  {
+    "slide": 7,
+    "question": 2,
+    "type": "question",
+    "prompt": "What makes a day well spent?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 8,
+    "question": 2,
+    "type": "answer",
+    "prompt": "What makes a day well spent?",
+    "model": "A day is well spent when we help another person. For example, a kind word can make someone feel better. The poem values kindness, rather than the number of tasks we finish.",
+    "teacher_note": "בקשו דוגמה מן השיר, ולא רק אמירה כללית על יום מוצלח."
+  },
+  {
+    "slide": 9,
+    "question": 3,
+    "type": "question",
+    "prompt": "What is a self-denying deed?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 10,
+    "question": 3,
+    "type": "answer",
+    "prompt": "What is a self-denying deed?",
+    "model": "A self-denying deed is an action in which we put someone else first. For example, we may give up some free time to help a friend. We do this because the friend needs our help.",
+    "teacher_note": "self-denying אינו הכחשת עובדות; מדובר בוויתור למען הזולת."
+  },
+  {
+    "slide": 11,
+    "question": 4,
+    "type": "question",
+    "prompt": "How can one word ease another person’s heart?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 12,
+    "question": 4,
+    "type": "answer",
+    "prompt": "How can one word ease another person’s heart?",
+    "model": "A kind word can comfort someone. For example, telling a worried friend “I am here for you” may help the friend feel less alone. It does not solve every problem, but it can still make a difference.",
+    "teacher_note": "הבחינו בין עזרה רגשית לבין הבטחה לפתור הכול."
+  },
+  {
+    "slide": 14,
+    "question": 5,
+    "type": "question",
+    "prompt": "Name two examples of kindness in stanza 1.",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 15,
+    "question": 5,
+    "type": "answer",
+    "prompt": "Name two examples of kindness in stanza 1.",
+    "model": "The speaker mentions a self-denying deed and a kind glance. She also mentions a word that comforts someone. These examples show that kindness can be an action, a word, or even a look.",
+    "teacher_note": "יש שלוש דוגמאות: מעשה, מילה, מבט. בקשו שתיים בלבד."
+  },
+  {
+    "slide": 16,
+    "question": 6,
+    "type": "question",
+    "prompt": "Must a helpful action cost money?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 17,
+    "question": 6,
+    "type": "answer",
+    "prompt": "Must a helpful action cost money?",
+    "model": "No, a helpful action does not have to cost money. The poem mentions an act that “nothing cost.” For example, we can listen to a lonely classmate. Therefore, everyone can show kindness.",
+    "teacher_note": "money אינו תנאי; אל תסיקו שכל מעשה טוב חייב להיות ללא עלות."
+  },
+  {
+    "slide": 18,
+    "question": 7,
+    "type": "question",
+    "prompt": "How are the two stanzas different?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 19,
+    "question": 7,
+    "type": "answer",
+    "prompt": "How are the two stanzas different?",
+    "model": "The first stanza describes a day when we help others. However, the second describes a day when we do not help anyone. This contrast makes the poem’s message clear: kindness gives a day value.",
+    "teacher_note": "השוו על אותו ציר: נוכחות מעשה טוב לעומת היעדרו."
+  },
+  {
+    "slide": 20,
+    "question": 8,
+    "type": "question",
+    "prompt": "Why is a day without kindness “worse than lost”?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 21,
+    "question": 8,
+    "type": "answer",
+    "prompt": "Why is a day without kindness “worse than lost”?",
+    "model": "A day without kindness is worse than lost because we miss a chance to help another person. Even a small action could make someone feel better. The poem does not say that we must have actively hurt anyone.",
+    "teacher_note": "היעדר עזרה אינו בהכרח פגיעה מכוונת; זה מסיח חשוב."
+  },
+  {
+    "slide": 22,
+    "question": 9,
+    "type": "question",
+    "prompt": "What does the comparison to sunshine suggest?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 23,
+    "question": 9,
+    "type": "answer",
+    "prompt": "What does the comparison to sunshine suggest?",
+    "model": "The speaker compares a kind glance to sunshine. Like sunshine, kindness can bring warmth and happiness. This comparison helps us understand how a small act can change another person’s feelings.",
+    "teacher_note": "like sunshine הוא דימוי; לא מדובר בשינוי מזג האוויר."
+  },
+  {
+    "slide": 25,
+    "question": 10,
+    "type": "question",
+    "prompt": "Which device appears in “fell like sunshine”?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 26,
+    "question": 10,
+    "type": "answer",
+    "prompt": "Which device appears in “fell like sunshine”?",
+    "model": "This is a simile because it compares a kind glance to sunshine using “like.” Both can bring a feeling of warmth. The comparison makes the effect of kindness easy to imagine.",
+    "teacher_note": "הסבירו את תרומת האמצעי למסר, לא רק את שמו."
+  },
+  {
+    "slide": 27,
+    "question": 11,
+    "type": "question",
+    "prompt": "Why does the speaker repeat “one” in stanza 1?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 28,
+    "question": 11,
+    "type": "answer",
+    "prompt": "Why does the speaker repeat “one” in stanza 1?",
+    "model": "The repetition of “one” shows that even a single kind action matters. The speaker gives different examples of kindness. Therefore, we do not need a great achievement to make a day well spent.",
+    "teacher_note": "one מציין שגם אחד מספיק; הוא אינו מגביל לאחד."
+  },
+  {
+    "slide": 29,
+    "question": 12,
+    "type": "question",
+    "prompt": "What does the title ask us to do?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 30,
+    "question": 12,
+    "type": "answer",
+    "prompt": "What does the title ask us to do?",
+    "model": "The title asks us to think about the value of a day. If we have done nothing kind for anyone, we should count that day as lost. In this way, the title points to the poem’s moral message.",
+    "teacher_note": "הקשר בין כותרת למסר חייב להיות מפורש."
+  },
+  {
+    "slide": 31,
+    "question": 13,
+    "type": "question",
+    "prompt": "Choose the linking word: A kind word matters ___ it can comfort someone.",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 32,
+    "question": 13,
+    "type": "answer",
+    "prompt": "Choose the linking word: A kind word matters ___ it can comfort someone.",
+    "model": "A kind word matters because it can comfort someone. “Because” introduces the reason. In an exam answer, give the idea first and then explain why it is true.",
+    "teacher_note": "because = סיבה; although = ניגוד/ויתור. בקשו לקרוא משפט מלא."
+  },
+  {
+    "slide": 33,
+    "question": 14,
+    "type": "question",
+    "prompt": "Choose the linking phrase: Kindness can be simple. ___, we can listen to a friend.",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 34,
+    "question": 14,
+    "type": "answer",
+    "prompt": "Choose the linking phrase: Kindness can be simple. ___, we can listen to a friend.",
+    "model": "Kindness can be simple. For example, we can listen to a friend. “For example” introduces a specific action that supports the general idea.",
+    "teacher_note": "לא כל משפט שני הוא תוצאה; כאן זו דוגמה."
+  },
+  {
+    "slide": 36,
+    "question": 15,
+    "type": "question",
+    "prompt": "Choose the linking word: The act is small. ___, it can make someone feel better.",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 37,
+    "question": 15,
+    "type": "answer",
+    "prompt": "Choose the linking word: The act is small. ___, it can make someone feel better.",
+    "model": "The act is small. However, it can make someone feel better. “However” shows a contrast between the small size of the action and its important effect.",
+    "teacher_note": "However, בתחילת משפט חדש; because/therefore אינן חלופות אוטומטיות."
+  },
+  {
+    "slide": 38,
+    "question": 16,
+    "type": "question",
+    "prompt": "Which answer better explains the message of the poem?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 39,
+    "question": 16,
+    "type": "answer",
+    "prompt": "Which answer better explains the message of the poem?",
+    "model": "The poem teaches us to help other people. Small acts matter because they can comfort someone. For example, a kind word can ease a worried person’s heart. Therefore, kindness gives our day value.",
+    "teacher_note": "בתשובה החזקה יש מסר, הסבר ודוגמה מדויקת; לא חזרה על אותה אמירה."
+  },
+  {
+    "slide": 40,
+    "question": 17,
+    "type": "question",
+    "prompt": "Bridging: “We should think about how our actions affect others.” How does this idea connect to the poem?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 41,
+    "question": 17,
+    "type": "answer",
+    "prompt": "Bridging: “We should think about how our actions affect others.” How does this idea connect to the poem?",
+    "model": "This idea connects to the poem because the speaker asks us to review our actions at sunset. We should ask whether a deed, a word, or a glance helped someone. Therefore, the poem encourages care and responsibility toward others.",
+    "teacher_note": "זהו משפט נתון לתרגול, לא ציטוט מיוחס לאדם היסטורי. קשרו מידע → שיר → דוגמה."
+  },
+  {
+    "slide": 42,
+    "question": 18,
+    "type": "question",
+    "prompt": "Personal response: Can a small act make a big difference? Which answer is better supported?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 43,
+    "question": 18,
+    "type": "answer",
+    "prompt": "Personal response: Can a small act make a big difference? Which answer is better supported?",
+    "model": "I think a small act can make a big difference. For example, listening to a lonely classmate can help them feel included. This connects to the poem because a kind word or glance can comfort another person.",
+    "teacher_note": "אין דעה אישית אחת נכונה; בוחרים כאן בתשובה הנתמכת בדוגמה וקשר לשיר."
+  },
+  {
+    "slide": 44,
+    "question": 19,
+    "type": "question",
+    "prompt": "How does this poem connect to The Road Not Taken?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 45,
+    "question": 19,
+    "type": "answer",
+    "prompt": "How does this poem connect to The Road Not Taken?",
+    "model": "Both poems discuss choices and their effects. However, Count That Day Lost focuses on our choice to help others. The Road Not Taken explores a choice between paths and how the speaker may later describe it.",
+    "teacher_note": "משווים וגם מבדילים; אין להלביש מסר אחד על שני השירים."
+  },
+  {
+    "slide": 46,
+    "question": 20,
+    "type": "question",
+    "prompt": "Extended answer: How do the two stanzas develop the message? Which plan is stronger?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 47,
+    "question": 20,
+    "type": "answer",
+    "prompt": "Extended answer: How do the two stanzas develop the message? Which plan is stronger?",
+    "model": "The two stanzas present opposite kinds of days. In the first, even one kind action makes a day well spent. However, the second shows a day without help for anyone. This contrast supports the message that we should judge our day by the kindness we show.",
+    "teacher_note": "תשובה של 4 משפטים: טענה, ראיה, ניגוד, מסר. זהו מודל אפשרי ולא נוסח לשינון."
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "slide": 5,
+    "question": 1,
+    "type": "question",
+    "prompt": "Where is the speaker, and what must he do?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 6,
+    "question": 1,
+    "type": "answer",
+    "prompt": "Where is the speaker, and what must he do?",
+    "model": "The speaker is in a yellow wood where two roads divide. He must choose one road because he cannot travel both at the same time. This situation creates the central problem of the poem.",
+    "teacher_note": "הבחינו בין סצנת הבחירה לבין הסיפור העתידי עליה."
+  },
+  {
+    "slide": 7,
+    "question": 2,
+    "type": "question",
+    "prompt": "Why is the speaker sorry at the start?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 8,
+    "question": 2,
+    "type": "answer",
+    "prompt": "Why is the speaker sorry at the start?",
+    "model": "The speaker is sorry because he cannot travel both roads. He wants to explore both possibilities, but he must choose one. He does not yet know where either road will lead.",
+    "teacher_note": "אין הוכחה שהבחירה שגויה; sorry כאן נוגע למגבלת הבחירה."
+  },
+  {
+    "slide": 9,
+    "question": 3,
+    "type": "question",
+    "prompt": "Why does he look down one road for a long time?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 10,
+    "question": 3,
+    "type": "answer",
+    "prompt": "Why does he look down one road for a long time?",
+    "model": "He looks down one road because he wants to know more before choosing. However, the road bends, so he cannot see all of it. This suggests that we cannot know every result of a life choice.",
+    "teacher_note": "ראיה פיזית → משמעות סמלית; לא ידיעה מלאה של העתיד."
+  },
+  {
+    "slide": 11,
+    "question": 4,
+    "type": "question",
+    "prompt": "How does the second road first seem to him?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 12,
+    "question": 4,
+    "type": "answer",
+    "prompt": "How does the second road first seem to him?",
+    "model": "The second road seems just as fair as the first. It may have a better claim because it is grassy. However, the speaker then says that both roads were worn about the same.",
+    "teacher_note": "perhaps מביעה חוסר ודאות; בהמשך הוא מסייג את הרושם הראשוני."
+  },
+  {
+    "slide": 14,
+    "question": 5,
+    "type": "question",
+    "prompt": "How were the roads actually worn?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 15,
+    "question": 5,
+    "type": "answer",
+    "prompt": "How were the roads actually worn?",
+    "model": "The roads were worn about the same. Although the speaker first thinks one may be less used, he corrects this idea. Therefore, the poem does not show a clear difference in popularity at the moment of choice.",
+    "teacher_note": "זו ראיה מרכזית. אין להסתפק בביטוי less traveled מן הסיום."
+  },
+  {
+    "slide": 16,
+    "question": 6,
+    "type": "question",
+    "prompt": "What does stanza 3 say about the leaves?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 17,
+    "question": 6,
+    "type": "answer",
+    "prompt": "What does stanza 3 say about the leaves?",
+    "model": "Both roads lay in fresh leaves that morning. No step had turned the leaves black. This detail supports the idea that the roads looked similar when the speaker made his choice.",
+    "teacher_note": "both ו-equally הן מילות ראיה חשובות."
+  },
+  {
+    "slide": 18,
+    "question": 7,
+    "type": "question",
+    "prompt": "Will the speaker definitely return to the first road?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 19,
+    "question": 7,
+    "type": "answer",
+    "prompt": "Will the speaker definitely return to the first road?",
+    "model": "The speaker says he keeps the first road for another day. However, he doubts that he will return because one way leads to another. In life, one choice may lead to more choices and make it hard to go back.",
+    "teacher_note": "התקווה אינה הבטחה; doubted מסייג את החזרה."
+  },
+  {
+    "slide": 20,
+    "question": 8,
+    "type": "question",
+    "prompt": "What do the two roads symbolize?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 21,
+    "question": 8,
+    "type": "answer",
+    "prompt": "What do the two roads symbolize?",
+    "model": "The roads symbolize choices in life. Like a traveler, a person must sometimes choose one direction without knowing every result. The poem does not label one road good and the other bad.",
+    "teacher_note": "סמל אינו בהכרח טוב מול רע; שני המסלולים מתוארים כהוגנים."
+  },
+  {
+    "slide": 22,
+    "question": 9,
+    "type": "question",
+    "prompt": "What does the bend in the road help us understand?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 23,
+    "question": 9,
+    "type": "answer",
+    "prompt": "What does the bend in the road help us understand?",
+    "model": "The bend stops the speaker from seeing the full road. Similarly, we cannot see all the results of a life choice. Therefore, the image helps us understand the uncertainty involved in making decisions.",
+    "teacher_note": "קשרו פרט מוחשי לרעיון; אין להבטיח חיזוי."
+  },
+  {
+    "slide": 25,
+    "question": 10,
+    "type": "question",
+    "prompt": "What happens in the last stanza?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 26,
+    "question": 10,
+    "type": "answer",
+    "prompt": "What happens in the last stanza?",
+    "model": "In the last stanza, the speaker imagines telling this story far in the future. He says he will describe one road as less traveled. This is an imagined future account, rather than proof of what has already happened.",
+    "teacher_note": "I shall be telling הוא עתיד מדומיין, לא דיווח על הצלחה שהתרחשה."
+  },
+  {
+    "slide": 27,
+    "question": 11,
+    "type": "question",
+    "prompt": "What can the “sigh” mean?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 28,
+    "question": 11,
+    "type": "answer",
+    "prompt": "What can the “sigh” mean?",
+    "model": "The sigh may suggest regret, relief, or mixed feelings. The poem does not give one certain meaning. I think it may show regret because the speaker still thinks about the road he did not take, but another reading is possible.",
+    "teacher_note": "אפשר להציע פרשנות, אך לסמן אותה כדעה ולבסס. אין משמעות מוכרחת אחת."
+  },
+  {
+    "slide": 29,
+    "question": 12,
+    "type": "question",
+    "prompt": "Does “all the difference” clearly mean a better life?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 30,
+    "question": 12,
+    "type": "answer",
+    "prompt": "Does “all the difference” clearly mean a better life?",
+    "model": "No, the phrase does not clearly mean a better life. It suggests that the choice mattered. However, the speaker does not tell us whether the difference was good or bad, so we should not add a result the poem does not give.",
+    "teacher_note": "difference אינו שקול ל-success. הימנעו מהבטחה להצלחה."
+  },
+  {
+    "slide": 31,
+    "question": 13,
+    "type": "question",
+    "prompt": "Choose the linking word: The speaker waits ___ he wants to think before choosing.",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 32,
+    "question": 13,
+    "type": "answer",
+    "prompt": "Choose the linking word: The speaker waits ___ he wants to think before choosing.",
+    "model": "The speaker waits because he wants to think before choosing. “Because” introduces his reason. This sentence explains his behavior instead of only describing it.",
+    "teacher_note": "because = סיבה. הקריאו עם שני חלקי המשפט."
+  },
+  {
+    "slide": 33,
+    "question": 14,
+    "type": "question",
+    "prompt": "Choose the linking word: ___ he hopes to return, he doubts he will come back.",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 34,
+    "question": 14,
+    "type": "answer",
+    "prompt": "Choose the linking word: ___ he hopes to return, he doubts he will come back.",
+    "model": "Although he hopes to return, he doubts he will come back. “Although” introduces a contrast between his hope and his doubt. We do not add “but” to the same sentence.",
+    "teacher_note": "Although + פסוקית, פסוקית ראשית; לא Although...but."
+  },
+  {
+    "slide": 36,
+    "question": 15,
+    "type": "question",
+    "prompt": "Choose the linking phrase: One way leads to another. ___, returning may be difficult.",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 37,
+    "question": 15,
+    "type": "answer",
+    "prompt": "Choose the linking phrase: One way leads to another. ___, returning may be difficult.",
+    "model": "One way leads to another. As a result, returning may be difficult. “As a result” introduces a consequence. It connects the speaker’s doubt to the reason behind it.",
+    "teacher_note": "המשפט השני הוא תוצאה, לא דוגמה."
+  },
+  {
+    "slide": 38,
+    "question": 16,
+    "type": "question",
+    "prompt": "Which answer better explains the title?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 39,
+    "question": 16,
+    "type": "answer",
+    "prompt": "Which answer better explains the title?",
+    "model": "The title focuses on the road the speaker does not take. It reminds us that every choice leaves another possibility behind. Therefore, the poem is also about what we cannot explore, not only the path we choose.",
+    "teacher_note": "Not Taken מחזיר תשומת לב לאפשרות שנשארה מאחור."
+  },
+  {
+    "slide": 40,
+    "question": 17,
+    "type": "question",
+    "prompt": "Bridging: “One decision can lead to other decisions.” How does this idea connect to the poem?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 41,
+    "question": 17,
+    "type": "answer",
+    "prompt": "Bridging: “One decision can lead to other decisions.” How does this idea connect to the poem?",
+    "model": "This idea connects to “way leads on to way.” After the speaker chooses a road, it may lead to more paths. Similarly, one life decision can lead to others. As a result, going back to the first option may become difficult.",
+    "teacher_note": "משפט נתון לתרגול, ללא ייחוס חיצוני; הדגימו קישור מפורש לראיה."
+  },
+  {
+    "slide": 42,
+    "question": 18,
+    "type": "question",
+    "prompt": "Personal response: What can we learn from the speaker? Which answer is better supported?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 43,
+    "question": 18,
+    "type": "answer",
+    "prompt": "Personal response: What can we learn from the speaker? Which answer is better supported?",
+    "model": "I think we should consider our choices carefully. The speaker looks down a road before deciding, but he cannot see all of it. Similarly, we can gather information while accepting that the future is uncertain.",
+    "teacher_note": "בחירה בתשובה מבוססת; אפשר לנסח לקח אישי אחר עם ראיה."
+  },
+  {
+    "slide": 44,
+    "question": 19,
+    "type": "question",
+    "prompt": "How does this poem differ from Count That Day Lost?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 45,
+    "question": 19,
+    "type": "answer",
+    "prompt": "How does this poem differ from Count That Day Lost?",
+    "model": "Both poems explore choices. However, Count That Day Lost gives a clear standard: helping others makes a day well spent. The Road Not Taken leaves more uncertainty about the speaker’s choice and its results.",
+    "teacher_note": "ציר השוואה: בהירות המסקנה; הוסיפו גם משותף וגם הבדל."
+  },
+  {
+    "slide": 46,
+    "question": 20,
+    "type": "question",
+    "prompt": "Extended answer: How does the poem show uncertainty? Which plan is stronger?",
+    "model": null,
+    "teacher_note": "אפשרו חשיבה עצמאית, הצבעה כיתתית והסבר של שתי האפשרויות. לאחר מכן עברו לשקף הבא."
+  },
+  {
+    "slide": 47,
+    "question": 20,
+    "type": "answer",
+    "prompt": "Extended answer: How does the poem show uncertainty? Which plan is stronger?",
+    "model": "The poem shows uncertainty in several ways. First, the speaker cannot see beyond the bend. Also, the roads are worn about the same, so neither is clearly different. Finally, he doubts that he will return. These details show that he must choose without knowing every result.",
+    "teacher_note": "המודל מצרף שלוש ראיות עם First, Also, Finally. לא חובה להעתיק אותו."
+  }
+]
