@@ -78,4 +78,17 @@ document.querySelectorAll('.slide').forEach(count);
     if(slide&&bounds(slide).scrollable)e.stopImmediatePropagation();
   },{passive:true,capture:true});
 })();
+</script><style>.punctuation-group{white-space:nowrap;display:inline}.punctuation-group>.word-switch{white-space:normal}.en{direction:ltr;unicode-bidi:plaintext}</style><script>
+(()=>{
+document.querySelectorAll('.word-switch[data-options]').forEach(button=>{
+ const node=button.nextSibling;
+ if(!node||node.nodeType!==Node.TEXT_NODE)return;
+ const match=node.textContent.match(/^([.,;:!?]+)/);
+ if(!match)return;
+ const group=document.createElement('span');group.className='punctuation-group';
+ button.before(group);group.append(button,document.createTextNode(match[1]));
+ node.textContent=node.textContent.slice(match[1].length);
+});
+window.dispatchEvent(new Event('resize'));
+})();
 </script></body></html>
