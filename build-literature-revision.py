@@ -65,8 +65,16 @@ QUIZ='''
 (() => {
  const pairs=new Map();
  document.querySelectorAll('[data-pair]').forEach(s=>{let a=pairs.get(s.dataset.pair)||[];a.push(s);pairs.set(s.dataset.pair,a)});
+ // Balance A/B across the whole lesson, then shuffle; avoid long same-letter runs.
+ const randomIndex=n=>{const limit=256-256%n;let x;do{x=crypto.getRandomValues(new Uint8Array(1))[0]}while(x>=limit);return x%n};
+ let positions;
+ do {
+   positions=Array.from({length:pairs.size},(_,i)=>i<Math.ceil(pairs.size/2)?0:1);
+   for(let i=positions.length-1;i>0;i--){const j=randomIndex(i+1);[positions[i],positions[j]]=[positions[j],positions[i]];}
+ } while(positions.some((x,i)=>i>=2&&x===positions[i-1]&&x===positions[i-2]));
+ let questionIndex=0;
  pairs.forEach(members=>{
-   const flip=crypto.getRandomValues(new Uint8Array(1))[0]%2;
+   const flip=positions[questionIndex++];
    members.forEach(slide=>{const box=slide.querySelector('.choices');if(flip)box.append(box.firstElementChild);[...box.children].forEach((b,i)=>b.querySelector('.letter').textContent=i?'B':'A')});
    const question=members.find(s=>!s.classList.contains('reveal'));
    question.querySelectorAll('.choice').forEach(button=>button.addEventListener('click',()=>{
@@ -116,7 +124,7 @@ def build(slug,title,author,items,kind):
     add(meta('EXIT TICKET')+'<h2 class="question">Now write your own answer.</h2><p class="instruction">'+('Explain how one small act can make a day well spent.' if kind=='count' else 'Explain why the speaker cannot be sure about his choice.')+'</p><p class="instruction">Use one detail from the poem and two suitable linking words. Aim for 3–5 clear sentences.</p><p class="prompt-he">בדקו: עניתי לשאלה? הבאתי ראיה? הסברתי? מילות הקישור מתאימות?</p>'+f'<div class="resource-links"><a href="../{original}/">Open the original poem lesson</a></div>','Write','finish')
     assert len(slides)==48
     nav=''.join(f'<button data-jump="{x}">{x}</button>' for x in ['Review','Understand','Explain','Write'])
-    page=f'''<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title} · Interactive Revision · Grade 10</title><meta name="theme-color" content="#07111f"><link rel="stylesheet" href="../../../shared/deck/standard.css?v=20261005"><style>{STYLE}</style></head><body class="revision"><a class="home" href="../library/" aria-label="Back to Grade 10">⌂</a><nav class="section-nav" aria-label="Lesson sections">{nav}</nav><main class="stage">{''.join(slides)}</main><nav class="nav" aria-label="Slide navigation"><div class="nav-group"><button data-step="-1" aria-label="Previous slide">←</button><button data-step="1" aria-label="Next slide">→</button></div><output id="counter" class="progress"></output></nav><div class="progress-track"><div class="progress-fill"></div></div><script src="activity.js"></script><script src="../../../shared/deck/standard.js?v=20261005"></script></body></html>'''
+    page=f'''<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title} · Interactive Revision · Grade 10</title><meta name="theme-color" content="#07111f"><link rel="stylesheet" href="../../../shared/deck/standard.css?v=20261005"><style>{STYLE}</style></head><body class="revision"><a class="home" href="../library/" aria-label="Back to Grade 10">⌂</a><nav class="section-nav" aria-label="Lesson sections">{nav}</nav><main class="stage">{''.join(slides)}</main><nav class="nav" aria-label="Slide navigation"><div class="nav-group"><button data-step="-1" aria-label="Previous slide">←</button><button data-step="1" aria-label="Next slide">→</button></div><output id="counter" class="progress"></output></nav><div class="progress-track"><div class="progress-fill"></div></div><script src="activity.js?v=20261011-balanced"></script><script src="../../../shared/deck/standard.js?v=20261005"></script></body></html>'''
     (out/'index.html').write_text(page)
     (out/'activity.js').write_text(QUIZ)
     (out/'teacher-notes.json').write_text(json.dumps(notes,ensure_ascii=False,indent=2))

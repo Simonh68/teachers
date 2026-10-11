@@ -27,6 +27,6 @@ for slug,title in decks:
     text=text.replace(f'href="../{original}/"',f'href="https://simonh68.github.io/teachers/grade10/group-a/{original}/"')
     image=base64.b64encode((folder/'assets/pause.svg').read_bytes()).decode()
     text=text.replace('src="assets/pause.svg"',f'src="data:image/svg+xml;base64,{image}"')
-    text=text.replace('<script src="activity.js"></script>','<script>'+(folder/'activity.js').read_text()+'</script>')
+    text=text.replace('<script src="activity.js?v=20261011-balanced"></script>','<script>'+(folder/'activity.js').read_text()+'</script>')
     (out/(slug+'.html')).write_text(text)
 print('Prepared 2 decks, 3 class entry points, and 2 portable downloads.')
