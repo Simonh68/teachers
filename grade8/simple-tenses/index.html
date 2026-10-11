@@ -48,6 +48,21 @@ const quiz3=[
 {q:'At eight yesterday, Daniel ___ his friend.',choices:['was helping','is helping'],correct:0,reason:'At eight yesterday → Past Continuous.'},
 {q:'At eight tomorrow, David ___ the article.',choices:['was reading','will be reading'],correct:1,reason:'At eight tomorrow → Future Continuous.'}
 ];quiz3.forEach((q,i)=>slides.push({title:'אתגר מסכם · '+(i+1)+'/2',sub:'בחרו את הזמן הנכון',lines:[],note:q.reason,quiz:q}));
+const finalComparisons=[
+['דיוויד קורא ספר בכל ערב.','David reads a book every evening.','David is reading a book every evening.',0,'Every evening מציין הרגל קבוע → Present Simple.'],
+['ג׳ון קורא ספר ממש עכשיו.','John reads a book right now.','John is reading a book right now.',1,'Right now מציין פעולה שקורית עכשיו → Present Progressive.'],
+['דניאל בדרך כלל משחק כדורגל אחרי הלימודים.','Daniel usually plays football after school.','Daniel is usually playing football after school.',0,'Usually מציין הרגל → Present Simple.'],
+['תראו! דיוויד רץ לתחנת האוטובוס.','Look! David runs to the bus stop.','Look! David is running to the bus stop.',1,'Look! מצביע על אירוע שקורה כרגע.'],
+['ג׳ון גר בחיפה.','John lives in Haifa.','John is living in Haifa.',0,'כשמתארים מקום מגורים קבוע ללא רמז לזמניות, Present Simple הוא הבחירה הרגילה.'],
+['השבוע דניאל מתארח אצל סבא שלו.','Daniel stays with his grandfather this week.','Daniel is staying with his grandfather this week.',1,'This week מדגיש מצב זמני → Present Progressive.'],
+['דיוויד אוהב את השיר הזה.','David likes this song.','David is liking this song.',0,'Like במשמעות של העדפה הוא בדרך כלל פועל סטטי.'],
+['תסתכלו! ג׳ון אוכל ארוחת צהריים.','Look! John has lunch.','Look! John is having lunch.',1,'Having lunch היא פעילות שמתרחשת עכשיו.'],
+['בית הספר שלנו מתחיל בשמונה בכל יום.','Our school starts at eight every day.','Our school is starting at eight every day.',0,'לוח זמנים קבוע: Present Simple.'],
+['הקשיבו! דניאל מדבר בטלפון עכשיו.','Listen! Daniel talks on the phone now.','Listen! Daniel is talking on the phone now.',1,'Listen! ו־now מציינים פעולה שמתרחשת עכשיו.'],
+['מה דיוויד עושה בכל שבת?','What does David do every Saturday?','What is David doing every Saturday?',0,'Every Saturday = הרגל; שואלים עם does.'],
+['מה ג׳ון עושה כרגע?','What does John do right now?','What is John doing right now?',1,'Right now = פעולה ברגע זה; שואלים עם is + ing.']
+];
+finalComparisons.forEach((x,i)=>{const swap=Math.random()<.5;const options=swap?[x[2],x[1]]:[x[1],x[2]];const correct=swap?1-x[3]:x[3];quizSlide({q:x[0],choices:options,correct,reason:x[4]},'סיכום · Simple או Progressive? · '+(i+1)+'/12')});
 let index=0;const $=x=>document.getElementById(x);function show(){const slide=slides[index];$('count').textContent=(index+1)+' / '+slides.length;$('title').textContent=slide.title;$('sub').textContent=slide.sub;$('hint').textContent=slide.note;$('hint').classList.remove('show');
 if(slide.quiz){const q=slide.quiz;$('lines').className='quiz';$('lines').innerHTML='<div class="quizQuestion" dir="ltr">'+q.q+'</div><div class="choices">'+q.choices.map((x,i)=>'<button class="choice" data-choice="'+i+'">'+x+'</button>').join('')+'</div><div class="feedback" id="feedback" aria-live="polite"></div>';document.querySelectorAll('.choice').forEach(btn=>btn.onclick=()=>{const good=Number(btn.dataset.choice)===q.correct;btn.classList.add(good?'correct':'wrong');if(good){document.querySelectorAll('.choice').forEach(b=>b.disabled=true)}$('feedback').textContent=(good?'✅ נכון! ':'❌ נסו שוב. ')+q.reason;});}
 else{$('lines').className='lines';$('lines').innerHTML=Array.from({length:3},(_,i)=>i<slide.lines.length?'<div class="line '+(slide.stative?(i===0?'correct':'wrong'):'')+'"><span class="tag">'+(slide.stative?(i===0?'✅ שימוש רגיל':'⚠️ שימוש חריג'):slide.contraction?(i===0?'צורה מלאה':i===1?'צורה מקוצרת':'צורה נוספת'):slide.category?'דוגמה '+(i+1):slide.lines.length===3?'['+['הווה','עבר','עתיד'][i]+']':i===0?'דוגמה ראשונה':'דוגמה שנייה')+'</span><span class="sentence">'+slide.lines[i]+'</span></div>':'<div class="line placeholder" aria-hidden="true"></div>').join('');}
