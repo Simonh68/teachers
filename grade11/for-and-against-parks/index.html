@@ -121,4 +121,20 @@ b.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefau
  });
  update();
 })();
+</script><style>
+.magic-essay-popup{position:fixed;bottom:100px;left:50%;transform:translateX(-50%);width:min(440px,calc(100vw - 40px));z-index:50;background:#ffe47a;color:#30260b;padding:20px 22px;border-radius:16px;box-shadow:0 12px 36px #0008;direction:rtl;text-align:right;font:600 17px/1.6 Heebo,Arial,sans-serif}
+.magic-essay-popup[hidden]{display:none!important}
+.magic-essay-popup p{margin:8px 0!important;color:#30260b!important}
+.magic-essay-popup button{background:#30260b;color:#fff;border:0;border-radius:8px;padding:7px 16px;font:700 15px Heebo,Arial,sans-serif}
+</style><script>
+(()=>{
+const popup=document.createElement('aside');popup.className='magic-essay-popup';popup.hidden=true;popup.setAttribute('role','status');popup.setAttribute('aria-live','polite');
+popup.innerHTML='<strong>✨ תוספת אופציונלית ולגיטימית</strong><p>המשפט הזה אינו נחוץ לחיבור. אפשר להוסיף אותו כדי להגדיל את מספר המילים — זו תוספת לגיטימית של 8 מילים, אבל היא אינה מחליפה נימוקים ודוגמאות.</p><button type="button" aria-label="סגירת ההסבר">הבנתי</button>';
+document.body.append(popup);
+popup.querySelector('button').addEventListener('click',()=>{popup.hidden=true;});
+document.querySelectorAll('.magic-essay-hint').forEach(p=>p.hidden=true);
+document.querySelectorAll('.magic-essay-control').forEach(b=>b.addEventListener('click',()=>{popup.hidden=b.getAttribute('aria-pressed')!=='true';}));
+document.addEventListener('keydown',e=>{if(e.key==='Escape')popup.hidden=true;});
+window.addEventListener('hashchange',()=>{popup.hidden=true;});
+})();
 </script></body></html>
