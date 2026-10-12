@@ -1,0 +1,786 @@
+[
+  {
+    "skill": "Evidence in the text",
+    "text": "The school installed water stations near the gym. Students can now refill their bottles without leaving the building.",
+    "question": "Why did the stations make refilling easier?",
+    "options": [
+      {
+        "text": "Students can refill inside the building.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "The water is healthier.",
+        "correct": false,
+        "reason": "Health benefits are not stated."
+      },
+      {
+        "text": "All students exercise daily.",
+        "correct": false,
+        "reason": "Daily exercise is not stated."
+      },
+      {
+        "text": "Plastic bottles are banned.",
+        "correct": false,
+        "reason": "No ban is mentioned."
+      }
+    ],
+    "evidence": "without leaving the building"
+  },
+  {
+    "skill": "Evidence in the text",
+    "text": "A library lends tools to local residents. Last month, thirty residents borrowed a drill. The report does not say how often they used it.",
+    "question": "What does the report establish?",
+    "options": [
+      {
+        "text": "The library sold thirty drills.",
+        "correct": false,
+        "reason": "The tools were lent, not sold."
+      },
+      {
+        "text": "Thirty residents borrowed a drill.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "Thirty residents repaired their homes.",
+        "correct": false,
+        "reason": "Borrowing does not prove a repair occurred."
+      },
+      {
+        "text": "Every borrower used the drill daily.",
+        "correct": false,
+        "reason": "Use frequency is explicitly unknown."
+      }
+    ],
+    "evidence": "thirty residents borrowed a drill"
+  },
+  {
+    "skill": "Evidence in the text",
+    "text": "The new app reminds users to take breaks. Its designers have not yet tested whether these reminders reduce stress.",
+    "question": "What can we conclude?",
+    "options": [
+      {
+        "text": "The app is dangerous because screens cause stress.",
+        "correct": false,
+        "reason": "The emotional claim adds outside information."
+      },
+      {
+        "text": "The effect on stress is still untested.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "The app certainly reduces stress.",
+        "correct": false,
+        "reason": "A plausible benefit is not a tested result."
+      },
+      {
+        "text": "Users feel happier after every reminder.",
+        "correct": false,
+        "reason": "Happiness is not reported."
+      }
+    ],
+    "evidence": "have not yet tested whether these reminders reduce stress"
+  },
+  {
+    "skill": "Evidence in the text",
+    "text": "The community garden received an award for involving teenagers in planning. Its vegetables were sold at a local market.",
+    "question": "Why did the garden receive the award?",
+    "options": [
+      {
+        "text": "It was the biggest garden in the city.",
+        "correct": false,
+        "reason": "No size comparison is given."
+      },
+      {
+        "text": "Teenagers helped plan the garden.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "Its vegetables tasted wonderful.",
+        "correct": false,
+        "reason": "Wonderful is attractive but unsupported."
+      },
+      {
+        "text": "The market donated all its profits.",
+        "correct": false,
+        "reason": "No donation is mentioned."
+      }
+    ],
+    "evidence": "for involving teenagers in planning"
+  },
+  {
+    "skill": "Read the exact task",
+    "text": "[1] Solar panels supply electricity to the museum. [2] Workshops teach visitors how to repair old clothes.",
+    "question": "According to paragraph [2], what do visitors learn?",
+    "options": [
+      {
+        "text": "How to design a museum.",
+        "correct": false,
+        "reason": "Museum design is not mentioned."
+      },
+      {
+        "text": "How to repair old clothes.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "How the museum generates electricity.",
+        "correct": false,
+        "reason": "This belongs to paragraph 1."
+      },
+      {
+        "text": "How to install solar panels.",
+        "correct": false,
+        "reason": "Installation is not taught in either paragraph."
+      }
+    ],
+    "evidence": "Workshops teach visitors how to repair old clothes"
+  },
+  {
+    "skill": "Read the exact task",
+    "text": "The article explains how city libraries are changing. It describes tool lending, study rooms and classes for adults. One class teaches bicycle repair.",
+    "question": "What is the main topic?",
+    "options": [
+      {
+        "text": "A step-by-step guide to repairing bicycles.",
+        "correct": false,
+        "reason": "One example is narrower than the overall topic."
+      },
+      {
+        "text": "The cost of building study rooms.",
+        "correct": false,
+        "reason": "Construction cost is not discussed."
+      },
+      {
+        "text": "Why adults dislike reading.",
+        "correct": false,
+        "reason": "Dislike of reading is not stated."
+      },
+      {
+        "text": "The changing services of city libraries.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      }
+    ],
+    "evidence": "tool lending, study rooms and classes for adults"
+  },
+  {
+    "skill": "Read the exact task",
+    "text": "The club offers free lessons to new members. Experienced members pay a small fee. All members may borrow equipment.",
+    "question": "Who receives free lessons?",
+    "options": [
+      {
+        "text": "New members.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "All members.",
+        "correct": false,
+        "reason": "All broadens the group beyond the evidence."
+      },
+      {
+        "text": "Only experienced members.",
+        "correct": false,
+        "reason": "This reverses the groups."
+      },
+      {
+        "text": "People who borrow equipment.",
+        "correct": false,
+        "reason": "Borrowing does not determine lesson fees."
+      }
+    ],
+    "evidence": "free lessons to new members"
+  },
+  {
+    "skill": "Read the exact task",
+    "text": "The center lends cameras, offers editing lessons and displays student photos. It does not sell equipment.",
+    "question": "Which service is NOT offered?",
+    "options": [
+      {
+        "text": "Selling equipment.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "Lending cameras.",
+        "correct": false,
+        "reason": "This service is explicitly offered."
+      },
+      {
+        "text": "Teaching photo editing.",
+        "correct": false,
+        "reason": "This service is explicitly offered."
+      },
+      {
+        "text": "Displaying student photos.",
+        "correct": false,
+        "reason": "This service is explicitly offered."
+      }
+    ],
+    "evidence": "It does not sell equipment"
+  },
+  {
+    "skill": "Precision and strength",
+    "text": "Some students said the shorter lessons helped them concentrate. Others noticed no difference.",
+    "question": "What did students report?",
+    "options": [
+      {
+        "text": "No student noticed any change.",
+        "correct": false,
+        "reason": "Some reported improvement, so no is false."
+      },
+      {
+        "text": "Shorter lessons always prevent tiredness.",
+        "correct": false,
+        "reason": "Always and tiredness add stronger, different claims."
+      },
+      {
+        "text": "Shorter lessons helped some students concentrate.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "Every student concentrated better.",
+        "correct": false,
+        "reason": "Every replaces some."
+      }
+    ],
+    "evidence": "Some students said the shorter lessons helped them concentrate"
+  },
+  {
+    "skill": "Precision and strength",
+    "text": "The tickets are free only for children under twelve. Older visitors pay five dollars.",
+    "question": "Who can enter without paying?",
+    "options": [
+      {
+        "text": "Children younger than twelve.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "All children, including sixteen-year-olds.",
+        "correct": false,
+        "reason": "The age limit excludes older children."
+      },
+      {
+        "text": "All visitors on weekends.",
+        "correct": false,
+        "reason": "No weekend exception is mentioned."
+      },
+      {
+        "text": "Children aged twelve and above.",
+        "correct": false,
+        "reason": "Under twelve excludes twelve itself."
+      }
+    ],
+    "evidence": "only for children under twelve"
+  },
+  {
+    "skill": "Precision and strength",
+    "text": "The new route may reduce travel time when traffic is light. During busy hours, it is often slower.",
+    "question": "Which statement preserves the claim?",
+    "options": [
+      {
+        "text": "The route can be faster in light traffic.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "The route will always be faster.",
+        "correct": false,
+        "reason": "May becomes will and the condition disappears."
+      },
+      {
+        "text": "The route is never slower.",
+        "correct": false,
+        "reason": "The text says it is often slower at busy times."
+      },
+      {
+        "text": "The route removes traffic from the city.",
+        "correct": false,
+        "reason": "Removing traffic is a different claim."
+      }
+    ],
+    "evidence": "may reduce travel time when traffic is light"
+  },
+  {
+    "skill": "Precision and strength",
+    "text": "The survey found that most participants preferred online booking, but a few wanted to book by phone.",
+    "question": "Which paraphrase is accurate?",
+    "options": [
+      {
+        "text": "Online booking was required for participation.",
+        "correct": false,
+        "reason": "Preference is not a requirement."
+      },
+      {
+        "text": "A majority preferred booking online.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "Almost nobody preferred online booking.",
+        "correct": false,
+        "reason": "Almost nobody reverses most."
+      },
+      {
+        "text": "Everyone rejected phone booking.",
+        "correct": false,
+        "reason": "A few still wanted phone booking."
+      }
+    ],
+    "evidence": "most participants preferred online booking"
+  },
+  {
+    "skill": "Cause and effect",
+    "text": "Heavy rain damaged the road, so the bus company changed its route.",
+    "question": "Why was the route changed?",
+    "options": [
+      {
+        "text": "The route change caused heavy rain.",
+        "correct": false,
+        "reason": "This reverses cause and effect."
+      },
+      {
+        "text": "Passengers demanded cheaper tickets.",
+        "correct": false,
+        "reason": "Ticket demands are not mentioned."
+      },
+      {
+        "text": "The buses had become smaller.",
+        "correct": false,
+        "reason": "Bus size is not mentioned."
+      },
+      {
+        "text": "Rain had damaged the road.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      }
+    ],
+    "evidence": "Heavy rain damaged the road, so the bus company changed its route"
+  },
+  {
+    "skill": "Cause and effect",
+    "text": "The school opened a quiet room to help students study. A later survey found that many students used it to read.",
+    "question": "What was the purpose of opening the room?",
+    "options": [
+      {
+        "text": "To conduct a survey.",
+        "correct": false,
+        "reason": "The later survey is not the original purpose."
+      },
+      {
+        "text": "To make all students read novels.",
+        "correct": false,
+        "reason": "All and novels add unsupported details."
+      },
+      {
+        "text": "To reduce the number of teachers.",
+        "correct": false,
+        "reason": "Staff reductions are not mentioned."
+      },
+      {
+        "text": "To help students study.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      }
+    ],
+    "evidence": "to help students study"
+  },
+  {
+    "skill": "Cause and effect",
+    "text": "When the factory reduced waste, its disposal costs fell. Managers then used the savings to train workers.",
+    "question": "What directly lowered disposal costs?",
+    "options": [
+      {
+        "text": "Reducing waste.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "Training workers with the savings.",
+        "correct": false,
+        "reason": "Training follows the savings."
+      },
+      {
+        "text": "Raising workers’ salaries.",
+        "correct": false,
+        "reason": "Salary increases are not stated."
+      },
+      {
+        "text": "The lower costs created more waste.",
+        "correct": false,
+        "reason": "This reverses the direction and changes the result."
+      }
+    ],
+    "evidence": "When the factory reduced waste, its disposal costs fell"
+  },
+  {
+    "skill": "Cause and effect",
+    "text": "Residents requested better lighting because the path was hard to see at night. The council installed lamps, but has not measured accident rates.",
+    "question": "Why did residents request lighting?",
+    "options": [
+      {
+        "text": "The path was difficult to see at night.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "Accident rates had already fallen.",
+        "correct": false,
+        "reason": "No accident-rate finding exists."
+      },
+      {
+        "text": "New lamps made the path hard to see.",
+        "correct": false,
+        "reason": "The visibility problem preceded the lamps."
+      },
+      {
+        "text": "The council wanted more night markets.",
+        "correct": false,
+        "reason": "Markets are not mentioned."
+      }
+    ],
+    "evidence": "because the path was hard to see at night"
+  },
+  {
+    "skill": "References",
+    "text": "The teachers gave the students tablets. The students used them to record interviews.",
+    "question": "What does “them” refer to?",
+    "options": [
+      {
+        "text": "The students.",
+        "correct": false,
+        "reason": "The students are the users."
+      },
+      {
+        "text": "The interviews.",
+        "correct": false,
+        "reason": "Interviews are what they recorded."
+      },
+      {
+        "text": "The tablets.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "The teachers.",
+        "correct": false,
+        "reason": "Teachers were not used as recording equipment."
+      }
+    ],
+    "evidence": "used them to record interviews"
+  },
+  {
+    "skill": "References",
+    "text": "The garden attracted birds and insects. These animals helped pollinate the flowers.",
+    "question": "What does “These animals” refer to?",
+    "options": [
+      {
+        "text": "Only birds.",
+        "correct": false,
+        "reason": "Only birds leaves out insects."
+      },
+      {
+        "text": "Only insects.",
+        "correct": false,
+        "reason": "Only insects leaves out birds."
+      },
+      {
+        "text": "The flowers.",
+        "correct": false,
+        "reason": "Flowers are plants, not the animals described."
+      },
+      {
+        "text": "Birds and insects.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      }
+    ],
+    "evidence": "The garden attracted birds and insects. These animals"
+  },
+  {
+    "skill": "References",
+    "text": "The researchers tested two batteries. The smaller one lasted longer, although it cost more.",
+    "question": "What cost more?",
+    "options": [
+      {
+        "text": "The researchers’ work.",
+        "correct": false,
+        "reason": "The work is not the referent."
+      },
+      {
+        "text": "The smaller battery.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "The larger battery.",
+        "correct": false,
+        "reason": "It continues to refer to the smaller battery."
+      },
+      {
+        "text": "The testing equipment.",
+        "correct": false,
+        "reason": "No equipment cost is discussed."
+      }
+    ],
+    "evidence": "The smaller one lasted longer, although it cost more"
+  },
+  {
+    "skill": "References",
+    "text": "Maya proposed a reading club. The principal supported the idea, but said it would need a volunteer leader.",
+    "question": "What would need a volunteer leader?",
+    "options": [
+      {
+        "text": "Every activity at the school.",
+        "correct": false,
+        "reason": "Every activity broadens the reference."
+      },
+      {
+        "text": "The proposed reading club.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "The principal.",
+        "correct": false,
+        "reason": "It refers to the idea of a club."
+      },
+      {
+        "text": "Maya’s school bag.",
+        "correct": false,
+        "reason": "A school bag is not mentioned."
+      }
+    ],
+    "evidence": "The principal supported the idea, but said it would need a volunteer leader."
+  },
+  {
+    "skill": "Time and sequence",
+    "text": "The museum first trained volunteers. It then opened the exhibition to the public.",
+    "question": "What happened before the exhibition opened?",
+    "options": [
+      {
+        "text": "The public visited the exhibition.",
+        "correct": false,
+        "reason": "Public opening came afterward."
+      },
+      {
+        "text": "The exhibition closed permanently.",
+        "correct": false,
+        "reason": "A closure is not mentioned."
+      },
+      {
+        "text": "Visitors trained the volunteers afterward.",
+        "correct": false,
+        "reason": "Afterward changes the order."
+      },
+      {
+        "text": "Volunteers received training.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      }
+    ],
+    "evidence": "first trained volunteers. It then opened the exhibition"
+  },
+  {
+    "skill": "Time and sequence",
+    "text": "The app currently works offline. Next year, the team plans to add online sharing.",
+    "question": "Which feature is already available?",
+    "options": [
+      {
+        "text": "Online sharing.",
+        "correct": false,
+        "reason": "Online sharing is a future plan."
+      },
+      {
+        "text": "Automatic translation.",
+        "correct": false,
+        "reason": "Translation is not mentioned."
+      },
+      {
+        "text": "Video calls.",
+        "correct": false,
+        "reason": "Video calls are not mentioned."
+      },
+      {
+        "text": "Offline use.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      }
+    ],
+    "evidence": "currently works offline"
+  },
+  {
+    "skill": "Time and sequence",
+    "text": "The shop used to close at six. Since September, it has stayed open until eight.",
+    "question": "When does the shop close now?",
+    "options": [
+      {
+        "text": "At September.",
+        "correct": false,
+        "reason": "September is the start date, not the time of day."
+      },
+      {
+        "text": "It has stopped closing.",
+        "correct": false,
+        "reason": "Staying open later does not mean never closing."
+      },
+      {
+        "text": "At eight.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "At six.",
+        "correct": false,
+        "reason": "Six was the former closing time."
+      }
+    ],
+    "evidence": "Since September, it has stayed open until eight"
+  },
+  {
+    "skill": "Time and sequence",
+    "text": "If the trial succeeds, the city will expand the service. The trial has just started.",
+    "question": "What is the current situation?",
+    "options": [
+      {
+        "text": "The trial has definitely failed.",
+        "correct": false,
+        "reason": "The trial has just started, so failure is not established."
+      },
+      {
+        "text": "Expansion will happen regardless of results.",
+        "correct": false,
+        "reason": "If makes success a condition."
+      },
+      {
+        "text": "Expansion depends on the trial’s success.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "The city has already expanded the service.",
+        "correct": false,
+        "reason": "A conditional plan is not a completed action."
+      }
+    ],
+    "evidence": "If the trial succeeds, the city will expand the service"
+  },
+  {
+    "skill": "Complete the meaning",
+    "text": "The library extended its hours because working parents could not visit during the day.",
+    "question": "Complete: The library extended its hours so that working parents could ___.",
+    "options": [
+      {
+        "text": "work longer at their jobs.",
+        "correct": false,
+        "reason": "The purpose concerns visits, not work hours."
+      },
+      {
+        "text": "pay more for library membership.",
+        "correct": false,
+        "reason": "Membership fees are not mentioned."
+      },
+      {
+        "text": "visit outside daytime hours.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "avoid reading with their children.",
+        "correct": false,
+        "reason": "Grammatical, but the text gives no wish to avoid reading."
+      }
+    ],
+    "evidence": "working parents could not visit during the day"
+  },
+  {
+    "skill": "Complete the meaning",
+    "text": "The reusable cups cost more at first, but replacing disposable cups reduced spending over time.",
+    "question": "Complete: Over time, reusable cups helped the café ___.",
+    "options": [
+      {
+        "text": "increase its spending on cups.",
+        "correct": false,
+        "reason": "This contradicts reduced spending."
+      },
+      {
+        "text": "stop serving hot drinks.",
+        "correct": false,
+        "reason": "Drink service is not discussed."
+      },
+      {
+        "text": "spend less on cups.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "attract every customer in town.",
+        "correct": false,
+        "reason": "Attracting customers is not stated."
+      }
+    ],
+    "evidence": "reduced spending over time"
+  },
+  {
+    "skill": "Complete the meaning",
+    "text": "Although the robot could sort small packages quickly, workers still handled large packages.",
+    "question": "Complete: Workers were still needed to ___.",
+    "options": [
+      {
+        "text": "repair every robot daily.",
+        "correct": false,
+        "reason": "Repairs and frequency are not mentioned."
+      },
+      {
+        "text": "replace all delivery drivers.",
+        "correct": false,
+        "reason": "Drivers are not mentioned."
+      },
+      {
+        "text": "handle large packages.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      },
+      {
+        "text": "sort all small packages by hand.",
+        "correct": false,
+        "reason": "All ignores the robot’s stated role."
+      }
+    ],
+    "evidence": "workers still handled large packages"
+  },
+  {
+    "skill": "Complete the meaning",
+    "text": "The students could join the trip only after returning a signed permission form.",
+    "question": "Complete: Before joining the trip, students had to ___.",
+    "options": [
+      {
+        "text": "sign a form after the trip.",
+        "correct": false,
+        "reason": "After the trip reverses the requirement."
+      },
+      {
+        "text": "buy new sports shoes.",
+        "correct": false,
+        "reason": "Shoes are not a stated condition."
+      },
+      {
+        "text": "promise to organize the next trip.",
+        "correct": false,
+        "reason": "Organizing another trip is not a stated condition."
+      },
+      {
+        "text": "return a signed permission form.",
+        "correct": true,
+        "reason": "This preserves the evidence."
+      }
+    ],
+    "evidence": "only after returning a signed permission form"
+  }
+]
