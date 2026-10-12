@@ -43,3 +43,6 @@ Applies to future English essay presentations, especially Grade 11 Module G. The
 - For every publication response include BOTH the presentation URL and the latest commit status URL:
   https://github.com/Simonh68/teachers/commit/<sha>/checks
 - Describe verification/deployment state accurately; a committed change is not proof that deployment finished.
+
+## Required shared display stylesheet
+All teaching presentations for English essays must load shared/deck/essay-clean.css as the final stylesheet in the head. Do not load essay-paragraphs.css: it contains obsolete paragraph borders and labels. This standard also removes the decorative background grid, which can look like separation lines. Paragraphs use whitespace alone; clickable text remains inline with no underlines, boxes, borders or pseudo-element markers. Keep only the four navigation squares and necessary navigation controls visually outlined. Preserve the documented stable reading-scroll behavior. Include this shared stylesheet in new decks and keep it when editing existing ones.
