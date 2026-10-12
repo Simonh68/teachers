@@ -88,4 +88,37 @@ document.querySelectorAll('.slide').forEach(count);
 document.querySelectorAll('.word-switch[role="button"]').forEach(b=>{
 b.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();e.stopPropagation();b.click();}});
 });
+</script><style>
+.magic-essay-control{display:block;margin:18px 0 8px;padding:10px 16px;border:1px solid #4ee5ff55;border-radius:12px;background:#4ee5ff12;color:var(--paper);font:700 16px Heebo,Arial,sans-serif;cursor:pointer}
+.magic-essay-control:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+.magic-essay-hint{font-size:14px!important;margin:0 0 12px!important;color:var(--muted);direction:rtl;text-align:right!important}
+.magic-essay-sentence[hidden]{display:none!important}
+</style><script>
+(()=>{
+ const extra='In this essay, I will explain my opinion.';
+ const places=[];
+ document.querySelectorAll('.slide.essay').forEach(slide=>{
+  const paragraphs=[...slide.querySelectorAll('.essay.en > p')];
+  const opening=slide.querySelector('.paragraph-square.current b')?.textContent.trim()==='1';
+  if(!paragraphs.length||(!opening&&paragraphs.length!==4))return;
+  const sentence=document.createElement('span');sentence.className='magic-essay-sentence';sentence.hidden=true;sentence.textContent=' '+extra;paragraphs[0].append(sentence);
+  const button=document.createElement('button');button.type='button';button.className='magic-essay-control';button.setAttribute('aria-pressed','false');
+  const hint=document.createElement('p');hint.className='magic-essay-hint';hint.textContent='משפט מעבר אופציונלי, שמוסיף 8 מילים. הוא אינו מחליף נימוקים ודוגמאות.';
+  slide.querySelector('.frame').append(button,hint);
+  places.push({slide,paragraphs,sentence,button});
+ });
+ let enabled=false;
+ function update(){
+  places.forEach(({slide,paragraphs,sentence,button})=>{
+   sentence.hidden=!enabled;button.setAttribute('aria-pressed',String(enabled));button.textContent=enabled?'✨ הסירו את משפט המעבר (−8 מילים)':'✨ הוסיפו משפט מעבר (+8 מילים)';
+   let total=paragraphs.reduce((n,p)=>{const clone=p.cloneNode(true);clone.querySelectorAll('[hidden]').forEach(el=>el.remove());return n+(clone.textContent.match(/[A-Za-z0-9]+(?:[’'-][A-Za-z0-9]+)*/g)||[]).length;},0);
+   const count=slide.querySelector('.count');if(count)count.textContent=total+' words';
+  });
+ }
+ places.forEach(({button,slide})=>{
+  button.addEventListener('click',()=>{enabled=!enabled;update();window.dispatchEvent(new Event('resize'));});
+  slide.querySelectorAll('.word-switch').forEach(b=>b.addEventListener('click',update));
+ });
+ update();
+})();
 </script></body></html>
