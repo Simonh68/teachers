@@ -49,3 +49,5 @@ All teaching presentations for English essays must load shared/deck/essay-clean.
 
 ## Optional transition toggle
 On the opening paragraph and full-essay slides, offer a hidden-by-default optional transition: "In this essay, I will explain my opinion." A clearly labeled magic button adds/removes this sentence (8 words) at the end of the opening paragraph. Synchronize visibility across both displays. Recalculate word counts from visible essay text after toggling or changing paraphrases; hidden text must not be counted. Explain briefly that the sentence is optional and does not replace supporting details. Preserve the two-sentence base opening. Treat 125 words as Simon's teaching target; current Module G task instructions ask for 120–140 words and the printed exam instructions take precedence.
+
+When the optional transition is added, show a dismissible yellow popup explaining in Hebrew that the sentence is unnecessary but optional, is a legitimate eight-word addition, and does not replace reasons/examples. Keep it hidden initially; close on dismissal, removal or slide navigation.
