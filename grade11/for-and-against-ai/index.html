@@ -89,52 +89,33 @@ document.querySelectorAll('.word-switch[role="button"]').forEach(b=>{
 b.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();e.stopPropagation();b.click();}});
 });
 </script><style>
-.magic-essay-control{display:block;margin:18px 0 8px;padding:10px 16px;border:1px solid #4ee5ff55;border-radius:12px;background:#4ee5ff12;color:var(--paper);font:700 16px Heebo,Arial,sans-serif;cursor:pointer}
-.magic-essay-control:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
-.magic-essay-hint{font-size:14px!important;margin:0 0 12px!important;color:var(--muted);direction:rtl;text-align:right!important}
+.magic-essay-control{display:inline-block;margin:0 0 0 .3em;padding:0 .15em;border:0;background:transparent;color:#ffe47a;font:inherit;cursor:pointer;vertical-align:baseline}
+.magic-essay-sentence{color:#ffe47a!important;display:inline;cursor:pointer}
 .magic-essay-sentence[hidden]{display:none!important}
+.magic-essay-control:focus-visible,.magic-essay-sentence:focus-visible{outline:2px solid #ffe47a;outline-offset:3px}
 </style><script>
 (()=>{
- const extra='In this essay, I will explain my opinion.';
- const places=[];
+ const options=['In this essay, I will explain my opinion.','I will explain my opinion.','I will expand on my opinion.','In the following essay, I will explain my opinion.','In the following essay, I will expand on my opinion.','This will be my answer.'];
+ const places=[];let enabled=false,index=0;
+ function update(){
+  places.forEach(({slide,paragraphs,sentence,button})=>{
+   sentence.hidden=!enabled;sentence.textContent=' '+options[index];button.setAttribute('aria-pressed',String(enabled));
+   const total=paragraphs.reduce((n,p)=>{const clone=p.cloneNode(true);clone.querySelectorAll('[hidden],.magic-essay-control').forEach(el=>el.remove());return n+(clone.textContent.match(/[A-Za-z0-9]+(?:[’'-][A-Za-z0-9]+)*/g)||[]).length;},0);
+   const count=slide.querySelector('.count');if(count)count.textContent=total+' words';
+  });
+ }
  document.querySelectorAll('.slide.essay').forEach(slide=>{
   const paragraphs=[...slide.querySelectorAll('.essay.en > p')];
   const opening=slide.querySelector('.paragraph-square.current b')?.textContent.trim()==='1';
   if(!paragraphs.length||(!opening&&paragraphs.length!==4))return;
-  const sentence=document.createElement('span');sentence.className='magic-essay-sentence';sentence.hidden=true;sentence.textContent=' '+extra;paragraphs[0].append(sentence);
-  const button=document.createElement('button');button.type='button';button.className='magic-essay-control';button.setAttribute('aria-pressed','false');
-  const hint=document.createElement('p');hint.className='magic-essay-hint';hint.textContent='משפט מעבר אופציונלי, שמוסיף 8 מילים. הוא אינו מחליף נימוקים ודוגמאות.';
-  slide.querySelector('.frame').append(button,hint);
-  places.push({slide,paragraphs,sentence,button});
- });
- let enabled=false;
- function update(){
-  places.forEach(({slide,paragraphs,sentence,button})=>{
-   sentence.hidden=!enabled;button.setAttribute('aria-pressed',String(enabled));button.textContent=enabled?'✨ הסירו את משפט המעבר (−8 מילים)':'✨ הוסיפו משפט מעבר (+8 מילים)';
-   let total=paragraphs.reduce((n,p)=>{const clone=p.cloneNode(true);clone.querySelectorAll('[hidden]').forEach(el=>el.remove());return n+(clone.textContent.match(/[A-Za-z0-9]+(?:[’'-][A-Za-z0-9]+)*/g)||[]).length;},0);
-   const count=slide.querySelector('.count');if(count)count.textContent=total+' words';
-  });
- }
- places.forEach(({button,slide})=>{
+  const sentence=document.createElement('span');sentence.className='magic-essay-sentence';sentence.hidden=true;sentence.tabIndex=0;sentence.setAttribute('role','button');sentence.title='לחצו לניסוח אחר';sentence.setAttribute('aria-label','משפט אופציונלי — לחצו לניסוח אחר');
+  const button=document.createElement('button');button.type='button';button.className='magic-essay-control';button.textContent='✨';button.title='משפט אופציונלי';button.setAttribute('aria-label','משפט אופציונלי');button.setAttribute('aria-pressed','false');
+  paragraphs[0].append(sentence,button);places.push({slide,paragraphs,sentence,button});
   button.addEventListener('click',()=>{enabled=!enabled;update();window.dispatchEvent(new Event('resize'));});
+  sentence.addEventListener('click',()=>{index=(index+1)%options.length;update();window.dispatchEvent(new Event('resize'));});
+  sentence.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();e.stopPropagation();sentence.click();}});
   slide.querySelectorAll('.word-switch').forEach(b=>b.addEventListener('click',update));
  });
  update();
-})();
-</script><style>
-.magic-essay-popup{position:fixed;bottom:100px;left:50%;transform:translateX(-50%);width:min(440px,calc(100vw - 40px));z-index:50;background:#ffe47a;color:#30260b;padding:20px 22px;border-radius:16px;box-shadow:0 12px 36px #0008;direction:rtl;text-align:right;font:600 17px/1.6 Heebo,Arial,sans-serif}
-.magic-essay-popup[hidden]{display:none!important}
-.magic-essay-popup p{margin:8px 0!important;color:#30260b!important}
-.magic-essay-popup button{background:#30260b;color:#fff;border:0;border-radius:8px;padding:7px 16px;font:700 15px Heebo,Arial,sans-serif}
-</style><script>
-(()=>{
-const popup=document.createElement('aside');popup.className='magic-essay-popup';popup.hidden=true;popup.setAttribute('role','status');popup.setAttribute('aria-live','polite');
-popup.innerHTML='<strong>✨ תוספת אופציונלית ולגיטימית</strong><p>המשפט הזה אינו נחוץ לחיבור. אפשר להוסיף אותו כדי להגדיל את מספר המילים — זו תוספת לגיטימית של 8 מילים, אבל היא אינה מחליפה נימוקים ודוגמאות.</p><button type="button" aria-label="סגירת ההסבר">הבנתי</button>';
-document.body.append(popup);
-popup.querySelector('button').addEventListener('click',()=>{popup.hidden=true;});
-document.querySelectorAll('.magic-essay-hint').forEach(p=>p.hidden=true);
-document.querySelectorAll('.magic-essay-control').forEach(b=>b.addEventListener('click',()=>{popup.hidden=b.getAttribute('aria-pressed')!=='true';}));
-document.addEventListener('keydown',e=>{if(e.key==='Escape')popup.hidden=true;});
-window.addEventListener('hashchange',()=>{popup.hidden=true;});
 })();
 </script></body></html>
