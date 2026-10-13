@@ -1,0 +1,303 @@
+{
+  "id": "C-PILOT-01",
+  "level": "C",
+  "bank_version": "0.5.0-pilot",
+  "title": "A Library of Tools",
+  "text_type": "informational_article",
+  "fictional_setting": true,
+  "word_count": 307,
+  "paragraphs": [
+    {
+      "id": "C-PILOT-01-P1",
+      "number": 1,
+      "text": "Many people buy a tool for a small job and then leave it in a cupboard for years. A tool library offers a different choice. Members can borrow things such as drills and garden tools, use them at home and bring them back. This service is especially useful for people who need a tool only once or twice a year. They do not have to buy an expensive tool or find a place to keep it."
+    },
+    {
+      "id": "C-PILOT-01-P2",
+      "number": 2,
+      "text": "A tool library works much like a book library. Before borrowing anything, a new member fills in a form and pays a small yearly fee. A volunteer explains how to use the tool safely. Members must return borrowed tools after a week so that other people can use them. If a tool does not work properly, members should tell a volunteer instead of trying to repair it themselves. The volunteers check every tool before lending it again."
+    },
+    {
+      "id": "C-PILOT-01-P3",
+      "number": 3,
+      "text": "However, not everyone feels ready to borrow a tool. Some people have never used a drill and are worried that they might hurt themselves. To help them, the library offers short lessons on Saturday mornings. During these lessons, volunteers show people how to do simple jobs, such as putting up a shelf. The learners then practise with the tools while a volunteer watches. People can attend a lesson even if they are not library members."
+    },
+    {
+      "id": "C-PILOT-01-P4",
+      "number": 4,
+      "text": "The library also brings neighbours together. People often share advice when they come to borrow tools. Some members help older neighbours with jobs in their homes. However, the library cannot meet every need. A member who needs the same tool every day may prefer to buy one. For people who need tools only occasionally, borrowing is a useful way to save money and space. The library hopes to offer more lessons, but it first needs to find more volunteers."
+    }
+  ],
+  "questions": [
+    {
+      "id": "C-PILOT-01-Q01",
+      "number": 1,
+      "scope": "paragraph",
+      "paragraph_id": "C-PILOT-01-P1",
+      "type": "multiple_select",
+      "stem": "What do we learn from paragraph I? Choose TWO correct answers.",
+      "required_answers": 2,
+      "scoring_units": 2,
+      "points": 14,
+      "evidence": [
+        {
+          "paragraph_id": "C-PILOT-01-P1",
+          "quote": "Many people buy a tool for a small job and then leave it in a cupboard for years. A tool library offers a different choice. Members can borrow things such as drills and garden tools, use them at home and bring them back. This service is especially useful for people who need a tool only once or twice a year. They do not have to buy an expensive tool or find a place to keep it."
+        }
+      ],
+      "skill": "task",
+      "feedback_en": "Check what the indicated paragraph actually says.",
+      "options": {
+        "A": "Why people sometimes buy tools they rarely use.",
+        "B": "Where the first tool library opened.",
+        "C": "How borrowing a tool can help people.",
+        "D": "Who repairs the tools in the library.",
+        "E": "How many tools each member can borrow.",
+        "F": "Why garden tools are more expensive than drills."
+      },
+      "correct_options": [
+        "A",
+        "C"
+      ],
+      "distractors": {
+        "B": {
+          "error_description_en": "Paragraph I gives no place or history of the first tool library."
+        },
+        "D": {
+          "error_description_en": "Paragraph I does not explain who repairs tools."
+        },
+        "E": {
+          "error_description_en": "The paragraph does not give a limit on the number of tools."
+        },
+        "F": {
+          "error_description_en": "Both types are examples. Their prices are not compared."
+        }
+      }
+    },
+    {
+      "id": "C-PILOT-01-Q02",
+      "number": 2,
+      "scope": "paragraph",
+      "paragraph_id": "C-PILOT-01-P2",
+      "type": "multiple_choice",
+      "stem": "Why must members return tools after a week? (paragraph II)",
+      "required_answers": 1,
+      "scoring_units": 1,
+      "points": 8,
+      "evidence": [
+        {
+          "paragraph_id": "C-PILOT-01-P2",
+          "quote": "A tool library works much like a book library. Before borrowing anything, a new member fills in a form and pays a small yearly fee. A volunteer explains how to use the tool safely. Members must return borrowed tools after a week so that other people can use them. If a tool does not work properly, members should tell a volunteer instead of trying to repair it themselves. The volunteers check every tool before lending it again."
+        }
+      ],
+      "skill": "cause",
+      "feedback_en": "Check what the indicated paragraph actually says.",
+      "options": {
+        "A": "Because all tools stop working after a week.",
+        "B": "Because they must pay the yearly fee again.",
+        "C": "Because members are not allowed to use tools at home.",
+        "D": "Because other people need to borrow them."
+      },
+      "correct_option": "D",
+      "distractors": {
+        "A": {
+          "error_description_en": "The time limit allows others to borrow tools; it is not about tools breaking."
+        },
+        "B": {
+          "error_description_en": "The fee is yearly. Returning a tool does not require paying it again."
+        },
+        "C": {
+          "error_description_en": "Members do use borrowed tools at home."
+        }
+      }
+    },
+    {
+      "id": "C-PILOT-01-Q03",
+      "number": 3,
+      "scope": "paragraph",
+      "paragraph_id": "C-PILOT-01-P2",
+      "type": "sentence_completion",
+      "stem": "Complete the answer. What should members do if a borrowed tool does not work properly?\nThey should _____.",
+      "required_answers": 1,
+      "scoring_units": 1,
+      "points": 8,
+      "evidence": [
+        {
+          "paragraph_id": "C-PILOT-01-P2",
+          "quote": "A tool library works much like a book library. Before borrowing anything, a new member fills in a form and pays a small yearly fee. A volunteer explains how to use the tool safely. Members must return borrowed tools after a week so that other people can use them. If a tool does not work properly, members should tell a volunteer instead of trying to repair it themselves. The volunteers check every tool before lending it again."
+        }
+      ],
+      "skill": "precision",
+      "feedback_en": "Check what the indicated paragraph actually says.",
+      "answer_key": [
+        "tell a volunteer"
+      ],
+      "acceptable_answer_variants": [
+        "tell a volunteer",
+        "inform a volunteer",
+        "report the problem to a volunteer"
+      ],
+      "grading": {
+        "accept_equivalent_phrasing": true,
+        "ignore_minor_spelling_or_grammar_if_meaning_clear": true,
+        "meaning_required": [
+          "tell a volunteer"
+        ],
+        "mode": "semantic_against_stored_key"
+      }
+    },
+    {
+      "id": "C-PILOT-01-Q04",
+      "number": 4,
+      "scope": "paragraph",
+      "paragraph_id": "C-PILOT-01-P3",
+      "type": "short_answer",
+      "stem": "Why are some people worried about using a drill? Give ONE answer from paragraph III.",
+      "required_answers": 1,
+      "scoring_units": 1,
+      "points": 8,
+      "evidence": [
+        {
+          "paragraph_id": "C-PILOT-01-P3",
+          "quote": "However, not everyone feels ready to borrow a tool. Some people have never used a drill and are worried that they might hurt themselves. To help them, the library offers short lessons on Saturday mornings. During these lessons, volunteers show people how to do simple jobs, such as putting up a shelf. The learners then practise with the tools while a volunteer watches. People can attend a lesson even if they are not library members."
+        }
+      ],
+      "skill": "cause",
+      "feedback_en": "Check what the indicated paragraph actually says.",
+      "answer_key": [
+        "They are worried that they might hurt themselves."
+      ],
+      "acceptable_answer_variants": [
+        "They are worried that they might hurt themselves.",
+        "They might hurt themselves.",
+        "They are afraid of hurting themselves."
+      ],
+      "grading": {
+        "accept_equivalent_phrasing": true,
+        "ignore_minor_spelling_or_grammar_if_meaning_clear": true,
+        "meaning_required": [
+          "They are worried that they might hurt themselves."
+        ],
+        "mode": "semantic_against_stored_key"
+      }
+    },
+    {
+      "id": "C-PILOT-01-Q05",
+      "number": 5,
+      "scope": "paragraph",
+      "paragraph_id": "C-PILOT-01-P3",
+      "type": "short_answer",
+      "stem": "When does the library offer lessons? Give ONE answer from paragraph III.",
+      "required_answers": 1,
+      "scoring_units": 1,
+      "points": 8,
+      "evidence": [
+        {
+          "paragraph_id": "C-PILOT-01-P3",
+          "quote": "However, not everyone feels ready to borrow a tool. Some people have never used a drill and are worried that they might hurt themselves. To help them, the library offers short lessons on Saturday mornings. During these lessons, volunteers show people how to do simple jobs, such as putting up a shelf. The learners then practise with the tools while a volunteer watches. People can attend a lesson even if they are not library members."
+        }
+      ],
+      "skill": "detail",
+      "feedback_en": "Check what the indicated paragraph actually says.",
+      "answer_key": [
+        "On Saturday mornings."
+      ],
+      "acceptable_answer_variants": [
+        "On Saturday mornings.",
+        "Saturday mornings.",
+        "On Saturday morning."
+      ],
+      "grading": {
+        "accept_equivalent_phrasing": true,
+        "ignore_minor_spelling_or_grammar_if_meaning_clear": true,
+        "meaning_required": [
+          "On Saturday mornings."
+        ],
+        "mode": "semantic_against_stored_key"
+      }
+    },
+    {
+      "id": "C-PILOT-01-Q06",
+      "number": 6,
+      "scope": "paragraph",
+      "paragraph_id": "C-PILOT-01-P4",
+      "type": "sentence_completion",
+      "stem": "Complete the answers. What TWO things can people save by borrowing tools? (paragraph IV)\nThey can save _____ and _____.",
+      "required_answers": 2,
+      "scoring_units": 2,
+      "points": 16,
+      "evidence": [
+        {
+          "paragraph_id": "C-PILOT-01-P4",
+          "quote": "The library also brings neighbours together. People often share advice when they come to borrow tools. Some members help older neighbours with jobs in their homes. However, the library cannot meet every need. A member who needs the same tool every day may prefer to buy one. For people who need tools only occasionally, borrowing is a useful way to save money and space. The library hopes to offer more lessons, but it first needs to find more volunteers."
+        }
+      ],
+      "skill": "detail",
+      "feedback_en": "Check what the indicated paragraph actually says.",
+      "answer_key": [
+        "money",
+        "space"
+      ],
+      "acceptable_answer_variants": [
+        "money",
+        "space"
+      ],
+      "grading": {
+        "accept_equivalent_phrasing": true,
+        "ignore_minor_spelling_or_grammar_if_meaning_clear": true,
+        "meaning_required": [
+          "money",
+          "space"
+        ],
+        "mode": "two_distinct_stored_meanings"
+      }
+    },
+    {
+      "id": "C-PILOT-01-Q07",
+      "number": 7,
+      "scope": "paragraph",
+      "paragraph_id": "C-PILOT-01-P4",
+      "type": "multiple_choice",
+      "stem": "Why does the library need more volunteers? (paragraph IV)",
+      "required_answers": 1,
+      "scoring_units": 1,
+      "points": 8,
+      "evidence": [
+        {
+          "paragraph_id": "C-PILOT-01-P4",
+          "quote": "The library also brings neighbours together. People often share advice when they come to borrow tools. Some members help older neighbours with jobs in their homes. However, the library cannot meet every need. A member who needs the same tool every day may prefer to buy one. For people who need tools only occasionally, borrowing is a useful way to save money and space. The library hopes to offer more lessons, but it first needs to find more volunteers."
+        }
+      ],
+      "skill": "cause",
+      "feedback_en": "Check what the indicated paragraph actually says.",
+      "options": {
+        "A": "To make every member buy a new tool.",
+        "B": "To offer more lessons.",
+        "C": "To stop members from sharing advice.",
+        "D": "To make people return tools every day."
+      },
+      "correct_option": "B",
+      "distractors": {
+        "A": {
+          "error_description_en": "The library lends tools. It does not plan to make every member buy one."
+        },
+        "C": {
+          "error_description_en": "Sharing advice is a benefit; the library does not want to stop it."
+        },
+        "D": {
+          "error_description_en": "The return period is a week. The paragraph gives no plan for daily returns."
+        }
+      }
+    }
+  ],
+  "review": {
+    "status": "pilot_for_teacher_tuning",
+    "reference_exams": [
+      "C-2025-SUMMER-A",
+      "C-2025-SUMMER-B"
+    ],
+    "scope": "reading section only, 70 points; writing is not included",
+    "calibration": "qualitative comparison, pending classroom tuning",
+    "changes": "Original informational article; first pilot replacing narrative C bank; other 19 sets not replaced."
+  }
+}
