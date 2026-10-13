@@ -1,0 +1,119 @@
+{
+  "lines": [
+    {
+      "number": 1,
+      "paragraph": 1,
+      "text": "On Monday evening, Noam opened the school website on his family's"
+    },
+    {
+      "number": 2,
+      "paragraph": 1,
+      "text": "computer. His class had already planned a book sale for a community"
+    },
+    {
+      "number": 3,
+      "paragraph": 1,
+      "text": "library. He wanted to make friends with Eitan, the new boy, so he"
+    },
+    {
+      "number": 4,
+      "paragraph": 1,
+      "text": "asked him to help with the display. Eitan's answer appeared a minute"
+    },
+    {
+      "number": 5,
+      "paragraph": 1,
+      "text": "later: \u201cDo it yourself.\u201d Noam read the three words again. They"
+    },
+    {
+      "number": 6,
+      "paragraph": 1,
+      "text": "sounded like an order. \u201cHe thinks he is better than me,\u201d Noam told"
+    },
+    {
+      "number": 7,
+      "paragraph": 1,
+      "text": "his brother. He felt his face grow hot. Instead of asking for an"
+    },
+    {
+      "number": 8,
+      "paragraph": 1,
+      "text": "explanation, he started writing an angry answer, then stopped."
+    },
+    {
+      "number": 9,
+      "paragraph": 1,
+      "text": "Tomorrow, he decided, he would cancel their work together."
+    },
+    {
+      "number": 10,
+      "paragraph": 2,
+      "text": "The next morning, Noam put the books on the table alone. His main"
+    },
+    {
+      "number": 11,
+      "paragraph": 2,
+      "text": "concern was the welcome sign. The letters were uneven, and the"
+    },
+    {
+      "number": 12,
+      "paragraph": 2,
+      "text": "table looked empty. When Eitan approached him with a large blue"
+    },
+    {
+      "number": 13,
+      "paragraph": 2,
+      "text": "bag, Noam turned away. \u201cYou don't need to help,\u201d he said. \u201cI can see"
+    },
+    {
+      "number": 14,
+      "paragraph": 2,
+      "text": "that you don't want to.\u201d Eitan put down the bag. \u201cWhat about the rest"
+    },
+    {
+      "number": 15,
+      "paragraph": 2,
+      "text": "of my message?\u201d he asked. Noam showed him the screen. Eitan"
+    },
+    {
+      "number": 16,
+      "paragraph": 2,
+      "text": "looked surprised. \u201cThe second part is missing! I wrote, \u2018Do it yourself"
+    },
+    {
+      "number": 17,
+      "paragraph": 2,
+      "text": "for now. My little brother needs help. I can bring the stand"
+    },
+    {
+      "number": 18,
+      "paragraph": 2,
+      "text": "tomorrow.\u2019\u201d"
+    }
+  ],
+  "paragraph_ranges": {
+    "1": [
+      1,
+      9
+    ],
+    "2": [
+      10,
+      18
+    ]
+  },
+  "question_references": {
+    "1": "paragraph I, lines 1-9",
+    "2": "paragraph II, lines 10-18",
+    "3": "paragraph I, lines 7-8",
+    "4": "paragraph I, lines 3-4",
+    "5": "paragraph I, line 9",
+    "6": "paragraph II, line 17",
+    "7": "all of Part A, lines 1-18"
+  },
+  "printed_line_numbers": [
+    5,
+    10,
+    15
+  ],
+  "question_bottom_y": 58.8897637795277
+}

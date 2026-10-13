@@ -1,0 +1,124 @@
+{
+  "lines": [
+    {
+      "number": 1,
+      "paragraph": 1,
+      "text": "From his bag, Eitan took out a wooden stand. There was blue paint on"
+    },
+    {
+      "number": 2,
+      "paragraph": 1,
+      "text": "his fingers. He and his father had finished making it late the night"
+    },
+    {
+      "number": 3,
+      "paragraph": 1,
+      "text": "before. Suddenly, Noam understood why Eitan had answered so"
+    },
+    {
+      "number": 4,
+      "paragraph": 1,
+      "text": "quickly. \u201cI have never felt so embarrassed about assuming the worst,\u201d"
+    },
+    {
+      "number": 5,
+      "paragraph": 1,
+      "text": "Noam said. \u201cBut I didn't know for sure.\u201d \u201cMy first words were"
+    },
+    {
+      "number": 6,
+      "paragraph": 1,
+      "text": "unfriendly,\u201d Eitan replied. \u201cI agree. I have learned that explaining"
+    },
+    {
+      "number": 7,
+      "paragraph": 1,
+      "text": "things clearly matters.\u201d For a moment, neither boy spoke. Then Noam"
+    },
+    {
+      "number": 8,
+      "paragraph": 1,
+      "text": "moved the books, and Eitan placed the stand in the middle. The"
+    },
+    {
+      "number": 9,
+      "paragraph": 1,
+      "text": "welcome sign fitted perfectly."
+    },
+    {
+      "number": 10,
+      "paragraph": 2,
+      "text": "Noam still remembered the hurt he felt. A missing sentence did not"
+    },
+    {
+      "number": 11,
+      "paragraph": 2,
+      "text": "immediately make that feeling disappear. However, the stand was"
+    },
+    {
+      "number": 12,
+      "paragraph": 2,
+      "text": "evidence that Eitan cared about their project. \u201cHelping your brother"
+    },
+    {
+      "number": 13,
+      "paragraph": 2,
+      "text": "was important, and I appreciate your coming today,\u201d Noam said. That"
+    },
+    {
+      "number": 14,
+      "paragraph": 2,
+      "text": "afternoon, they wrote a short rule for their next project: \u201cIf a message"
+    },
+    {
+      "number": 15,
+      "paragraph": 2,
+      "text": "sounds strange, ask before you assume.\u201d In other words, three words"
+    },
+    {
+      "number": 16,
+      "paragraph": 2,
+      "text": "do not always tell the whole story. As the first visitors arrived, Eitan"
+    },
+    {
+      "number": 17,
+      "paragraph": 2,
+      "text": "stood behind the table. Noam moved his own chair beside him. \u201cThis"
+    },
+    {
+      "number": 18,
+      "paragraph": 2,
+      "text": "one is yours,\u201d he said. Eitan sat down, and they opened the first box"
+    },
+    {
+      "number": 19,
+      "paragraph": 2,
+      "text": "together."
+    }
+  ],
+  "paragraph_ranges": {
+    "1": [
+      1,
+      9
+    ],
+    "2": [
+      10,
+      19
+    ]
+  },
+  "question_references": {
+    "1": "paragraph I, line 1",
+    "2": "paragraph I, lines 7-8",
+    "3": "paragraph I, line 4",
+    "4": "paragraph II, line 17",
+    "5": "paragraph I, lines 2-3",
+    "6": "paragraph II, lines 10-11",
+    "7": "all of Part B, lines 1-19"
+  },
+  "printed_line_numbers": [
+    5,
+    10,
+    15
+  ],
+  "question_bottom_y": 86.8897637795277
+}
