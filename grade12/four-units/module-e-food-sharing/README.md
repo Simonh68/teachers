@@ -21,3 +21,6 @@ Stored alternative answers and distinct-meaning groups allow positive local feed
 ## Verification
 
 JavaScript syntax, seven-question progression, five-paragraph coverage, 70-point allocation, positive equivalent-answer handling, duplicate rejection, final-only summary, export and DOM references passed. Simulated speech checks passed for segment utterances, word boundaries, 1500ms gaps and cancellation. Highlight CSS changes paint only. Actual browser sound/perceptual quality remains unverified; no claim of listening validation. Browser speech uses English-US with segment highlighting fallback where word boundaries are unsupported.
+
+## Recorded audio repair — 2026-10-14
+Replaced browser speech with an English US Aria recording for all five paragraphs and seven question stems. audio.js stores word timings aligned to the unchanged displayed text. Playback preserves speed selection, word highlights, phrase pauses, pause/resume and cancellation on navigation. Regenerate with tools/build_module_e_food_audio.py (edge-tts 7.3.1 and ffmpeg). MP3 decoding and 12-section timing alignment verified; mocked media lifecycle checks cover pause/resume, phrase gaps and cancellation. Actual speaker output must be checked on the learner device.

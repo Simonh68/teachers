@@ -11,30 +11,37 @@ function updatePlaybackButtons(){
   b.setAttribute('aria-pressed',String(!!selected&&!playback.paused));
  }
 }
-function stop(){serial++;clearTimeout(timer);timer=null;playback=null;if('speechSynthesis'in window){window.speechSynthesis.cancel();window.speechSynthesis.resume();}document.querySelectorAll('.active').forEach(e=>e.classList.remove('active'));active=null;updatePlaybackButtons();}
+function stop(){serial++;clearTimeout(timer);timer=null;playback?.stopAudio?.();playback=null;document.querySelectorAll('.active').forEach(e=>e.classList.remove('active'));active=null;updatePlaybackButtons();}
 function tokenize(text){return text.replace(/\S+/g,m=>`<span class="word">${esc(m)}</span>`);}
 function togglePlayback(element,button){
- if(playback?.element!==element){speak(element,button);return;}
+ if(playback?.element!==element){playRecording(element,button);return;}
  const p=playback;
- if(p.paused){p.paused=false;updatePlaybackButtons();if(p.phase==='gap')p.armGap(p.gapRemaining);else{speechSynthesis.resume();$('status').textContent='ממשיך מאותה נקודה…';}}
- else{p.paused=true;if(p.phase==='gap'){p.gapRemaining=Math.max(0,p.gapDeadline-Date.now());clearTimeout(timer);timer=null;}else speechSynthesis.pause();updatePlaybackButtons();$('status').textContent='הקריאה מושהית — לחצו על המשך.';}
+ if(p.paused){p.paused=false;updatePlaybackButtons();if(p.phase==='gap')p.armGap(p.gapRemaining);else{p.resumeAudio();$('status').textContent='ממשיך מאותה נקודה…';}}
+ else{p.paused=true;if(p.phase==='gap'){p.gapRemaining=Math.max(0,p.gapDeadline-Date.now());clearTimeout(timer);timer=null;}else p.pauseAudio();updatePlaybackButtons();$('status').textContent='הקריאה מושהית — לחצו על המשך.';}
 }
-function speak(element,button){stop();if(!('speechSynthesis'in window)){$('status').textContent='הדפדפן הזה אינו תומך בהקראה.';return;}
- const id=serial,words=[...element.querySelectorAll('.word')],segments=[];let part=[];
- words.forEach((w,i)=>{part.push(w);if(/[.,;:!?]$/.test(w.textContent)||i===words.length-1){segments.push(part);part=[];}});
- const p=playback={element,button,paused:false,phase:'speech',gapRemaining:0,gapDeadline:0,next:null,armGap:null};updatePlaybackButtons();
- const voices=speechSynthesis.getVoices(),voice=voices.find(v=>v.lang==='en-US')||voices.find(v=>v.lang.startsWith('en'));
- function mark(w){element.querySelectorAll('.word').forEach(x=>x.classList.remove('active'));active=w;w?.classList.add('active');}
- function finish(message){mark(null);playback=null;updatePlaybackButtons();$('status').textContent=message;}
+const recording=new Audio(window.E_AUDIO.src);recording.preload='auto';
+function tokenizeTimed(text,words){let i=0;return text.replace(/\S+/g,m=>{const w=words[i++];return `<span class="word" data-start="${w.start}" data-end="${w.end}">${esc(m)}</span>`;});}
+function playRecording(element,button){
+ stop();
+ const id=serial,segments=[];let part=[],raf=null,loadGeneration=0,loadTimer=null;
+ const nodes=[...element.querySelectorAll('.word')];
+ nodes.forEach((w,i)=>{part.push(w);if(/[.,;:!?][”’"]?$/.test(w.textContent)||i===nodes.length-1){segments.push(part);part=[];}});
+ const bounds=segments.map((ws,i)=>({start:Math.max(0,Number(ws[0].dataset.start)-.05,i?Number(segments[i-1].at(-1).dataset.end)+.005:0),end:Math.min(Number(ws.at(-1).dataset.end)+.07,i+1<segments.length?Number(segments[i+1][0].dataset.start)-.005:Infinity)}));
+ const p=playback={element,button,paused:false,recorded:true,phase:'speech',gapRemaining:0,gapDeadline:0,next:null,segmentIndex:0,started:false,armGap:null,pauseAudio:null,resumeAudio:null,stopAudio:null};
+ updatePlaybackButtons();
+ function mark(w){if(w===active)return;active?.classList.remove('active');active=w;w?.classList.add('active');}
+ function clear(){nodes.forEach(w=>w.classList.remove('active'));active=null;}
+ function finish(message){serial++;clearTimeout(timer);timer=null;p.stopAudio();clear();playback=null;updatePlaybackButtons();$('status').textContent=message;}
+ p.stopAudio=()=>{recording.pause();cancelAnimationFrame(raf);clearTimeout(loadTimer);recording.onended=null;recording.onerror=null;};
+ p.pauseAudio=()=>{recording.pause();cancelAnimationFrame(raf);clearTimeout(loadTimer);};
  p.armGap=ms=>{if(id!==serial||p.paused)return;p.phase='gap';p.gapRemaining=ms;p.gapDeadline=Date.now()+ms;$('status').textContent='הפסקה בין מקטעים…';timer=setTimeout(()=>{timer=null;if(id===serial&&!p.paused)run(p.next);},ms);};
- function run(n){if(id!==serial)return;if(n===segments.length){finish('הקריאה הסתיימה.');return;}if(p.paused)return;p.phase='speech';
- const ws=segments[n],text=ws.map(w=>w.textContent).join(' '),u=new SpeechSynthesisUtterance(text);u.lang='en-US';if(voice)u.voice=voice;u.rate=Number($('speed').value);let boundaries=[],pos=0;ws.forEach(w=>{boundaries.push(pos);pos+=w.textContent.length+1;});
- u.onstart=()=>{if(id!==serial)return;ws.forEach(w=>w.classList.add('active'));if(p.paused){speechSynthesis.pause();return;}$('status').textContent='קורא מקטע '+(n+1)+' מתוך '+segments.length;};
- u.onboundary=e=>{if(id!==serial||p.paused||e.name==='sentence')return;let j=0;boundaries.forEach((pos,i)=>{if(pos<=e.charIndex)j=i;});mark(ws[j]);};
- u.onend=()=>{if(id!==serial)return;mark(null);if(n+1===segments.length){finish('הקריאה הסתיימה.');return;}p.next=n+1;p.phase='gap';p.gapRemaining=Number($('gap').value);if(!p.paused)p.armGap(p.gapRemaining);};
- u.onerror=()=>{if(id!==serial)return;finish('הקריאה נעצרה. אפשר ללחוץ שוב על השמעה.');};speechSynthesis.speak(u);}
- run(0);
+ function advance(){if(id!==serial||p.phase!=='speech')return;recording.pause();cancelAnimationFrame(raf);clear();if(p.segmentIndex+1>=segments.length){finish('הקריאה הסתיימה.');return;}p.next=p.segmentIndex+1;p.phase='gap';p.gapRemaining=Number($('gap').value);if(!p.paused)p.armGap(p.gapRemaining);}
+ function tick(){if(id!==serial||p.paused||p.phase!=='speech')return;const ws=segments[p.segmentIndex],t=recording.currentTime,end=bounds[p.segmentIndex].end;if(t>=end){advance();return;}let w=ws[0];for(const n of ws)if(Number(n.dataset.start)<=t)w=n;mark(w);raf=requestAnimationFrame(tick);}
+ async function run(n){if(id!==serial)return;const generation=++loadGeneration;p.segmentIndex=n;p.phase='speech';p.started=false;$('status').textContent='טוען הקלטה…';try{clearTimeout(loadTimer);loadTimer=setTimeout(()=>{if(id===serial)finish('טעינת השמע התעכבה. בדקו את החיבור ולחצו שוב על השמעה.');},15000);recording.currentTime=bounds[n].start;recording.playbackRate=Number($('speed').value);recording.preservesPitch=true;if(p.paused)return;await recording.play();if(id!==serial||generation!==loadGeneration)return;if(p.paused){recording.pause();return;}clearTimeout(loadTimer);p.started=true;$('status').textContent='קורא מקטע '+(n+1)+' מתוך '+segments.length;tick();}catch(e){if(id===serial&&generation===loadGeneration&&!p.paused)finish('ההקלטה לא נטענה. לחצו שוב על השמעה לניסיון נוסף.');}}
+ p.resumeAudio=async()=>{if(!p.started){run(p.segmentIndex);return;}try{await recording.play();if(id===serial&&!p.paused)tick();}catch(e){if(id===serial)finish('לא ניתן להמשיך את ההקלטה. לחצו שוב על השמעה.');}};
+ recording.onended=()=>{if(id===serial)advance();};recording.onerror=()=>{if(id===serial)finish('ההקלטה לא נטענה. לחצו שוב על השמעה.');};run(0);
 }
+
 function matchOpen(q,a){const vals=a.map(norm);if(q.answer_groups){return vals.every(Boolean)&&q.answer_groups.every(group=>vals.some(v=>group.map(norm).includes(v)))&&new Set(vals).size===q.required_answers;}const keys=q.answer_key.map(norm);if(q.required_answers===1)return vals[0]&&(q.acceptable_answer_variants||q.answer_key).map(norm).includes(vals[0]);return vals.every(Boolean)&&keys.every(k=>vals.includes(k));}
 function result(i){const q=D.questions[i],a=answers[i];if(q.options){let count=a.filter(k=>correct(q).includes(k)).length;return{ok:a.length===correct(q).length&&count===a.length,units:count,points:count*(q.points/q.scoring_units),complete:a.length===q.required_answers};}return{ok:matchOpen(q,a),units:matchOpen(q,a)?q.scoring_units:0,points:matchOpen(q,a)?q.points:0,pending:!matchOpen(q,a)};}
 function keyHTML(q){return q.options?correct(q).map(k=>`<p class="en">${esc(q.options[k])}</p>`).join(''):[...q.answer_key,...(q.alternative_answers||[])].map(k=>`<p class="en">${esc(k)}</p>`).join('');}
@@ -46,7 +53,7 @@ function paintFeedback(){const q=D.questions[page],r=result(page);$('feedback').
  if(q.options)document.querySelectorAll('[data-option]').forEach(b=>{const k=b.dataset.option,selected=answers[page].includes(k);b.classList.toggle('good',selected&&correct(q).includes(k));b.classList.toggle('bad',selected&&!correct(q).includes(k));const mark=b.querySelector('.mark');mark.textContent=selected?(correct(q).includes(k)?'✓':'✗'):'○';});
 }
 function show(n){stop();page=Math.max(0,Math.min(7,n));$('pdfDownload').hidden=page!==0;$('slide').hidden=page===7;$('summary').hidden=page!==7;$('counter').textContent=page===7?'סיכום':'שאלה '+(page+1)+' מתוך 7';$('progress').value=page+1;$('prev').disabled=page===0;$('next').hidden=page>=6;$('finish').hidden=page!==6;$('next').textContent='השאלה הבאה ('+(page+2)+' מתוך 7) ←';if(page===7){renderSummary();return;}
- const q=D.questions[page],ps=q.scope==='whole_text'?D.paragraphs:D.paragraphs.filter(p=>p.id===q.paragraph_id);$('scope').textContent=q.scope==='whole_text'?'כל הטקסט':'פסקה '+['I','II','III','IV','V'][ps[0].number-1];$('paragraph').innerHTML=ps.map(p=>'<p>'+tokenize(p.text)+'</p>').join('');$('paragraph').classList.remove('concealed');$('textToggle').setAttribute('aria-pressed','true');$('question').innerHTML=tokenize(q.stem);$('instruction').textContent=q.required_answers===2?'יש לתת שתי תשובות.':q.options?'בחרו תשובה אחת.':'כתבו תשובה באנגלית.';
+ const q=D.questions[page],ps=q.scope==='whole_text'?D.paragraphs:D.paragraphs.filter(p=>p.id===q.paragraph_id);$('scope').textContent=q.scope==='whole_text'?'כל הטקסט':'פסקה '+['I','II','III','IV','V'][ps[0].number-1];$('paragraph').innerHTML=ps.map(p=>'<p>'+tokenizeTimed(p.text,window.E_AUDIO.paragraphs[D.paragraphs.indexOf(p)])+'</p>').join('');$('paragraph').classList.remove('concealed');$('textToggle').setAttribute('aria-pressed','true');$('question').innerHTML=tokenizeTimed(q.stem,window.E_AUDIO.questions[page]);$('instruction').textContent=q.required_answers===2?'יש לתת שתי תשובות.':q.options?'בחרו תשובה אחת.':'כתבו תשובה באנגלית.';
  $('response').innerHTML=q.options?'<div class="choices en">'+orders[page].map(k=>`<button class="choice" data-option="${k}" aria-pressed="${answers[page].includes(k)}"><span class="mark">${answers[page].includes(k)?'●':'○'}</span><span>${esc(q.options[k])}</span></button>`).join('')+'</div>':answers[page].map((v,i)=>`<textarea data-answer="${i}" aria-label="תשובה ${i+1}" placeholder="Your answer ${q.required_answers>1?i+1:''}">${esc(v)}</textarea>`).join('');
  document.querySelectorAll('[data-option]').forEach(b=>b.onclick=()=>{const k=b.dataset.option,a=answers[page];if(q.required_answers===1)answers[page]=[k];else if(a.includes(k))answers[page]=a.filter(x=>x!==k);else if(a.length<q.required_answers)a.push(k);else{$('feedback').textContent='בחרתם שתי תשובות; בטלו אחת כדי לשנות.';return;}checked.delete(page);show(page);});
  document.querySelectorAll('[data-answer]').forEach(t=>t.oninput=()=>{answers[page][Number(t.dataset.answer)]=t.value;checked.delete(page);paintFeedback();});$('key').innerHTML=keyHTML(q);$('key').hidden=true;paintFeedback();$('status').textContent='';}
