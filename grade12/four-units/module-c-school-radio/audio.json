@@ -1,0 +1,2266 @@
+{
+  "voice": "en-US-AriaNeural",
+  "kind": "prerecorded",
+  "paragraphs": [
+    {
+      "paragraph": 1,
+      "src": "audio/paragraph-1.mp3",
+      "sha256": "9f14b3ea6b5d5c40d9a99286a1fd096f9a6e0de5a79f55fab71aa4f04aec810e",
+      "duration": 27.552,
+      "words": [
+        {
+          "id": 0,
+          "text": "Every",
+          "start": 0.1,
+          "end": 0.4375
+        },
+        {
+          "id": 1,
+          "text": "Friday,",
+          "start": 0.45,
+          "end": 0.925
+        },
+        {
+          "id": 2,
+          "text": "pupils",
+          "start": 1.225,
+          "end": 1.675
+        },
+        {
+          "id": 3,
+          "text": "at",
+          "start": 1.6875,
+          "end": 1.775
+        },
+        {
+          "id": 4,
+          "text": "Green",
+          "start": 1.7875,
+          "end": 2.0625
+        },
+        {
+          "id": 5,
+          "text": "Hill",
+          "start": 2.075,
+          "end": 2.25
+        },
+        {
+          "id": 6,
+          "text": "School",
+          "start": 2.2625,
+          "end": 2.625
+        },
+        {
+          "id": 7,
+          "text": "hear",
+          "start": 2.6375,
+          "end": 2.875
+        },
+        {
+          "id": 8,
+          "text": "familiar",
+          "start": 2.8875,
+          "end": 3.3625
+        },
+        {
+          "id": 9,
+          "text": "voices",
+          "start": 3.375,
+          "end": 3.85
+        },
+        {
+          "id": 10,
+          "text": "during",
+          "start": 3.8625,
+          "end": 4.1125
+        },
+        {
+          "id": 11,
+          "text": "the",
+          "start": 4.125,
+          "end": 4.2
+        },
+        {
+          "id": 12,
+          "text": "morning",
+          "start": 4.2125,
+          "end": 4.55
+        },
+        {
+          "id": 13,
+          "text": "break.",
+          "start": 4.5625,
+          "end": 5.025
+        },
+        {
+          "id": 14,
+          "text": "The",
+          "start": 5.8875,
+          "end": 6.0625
+        },
+        {
+          "id": 15,
+          "text": "voices",
+          "start": 6.075,
+          "end": 6.5375
+        },
+        {
+          "id": 16,
+          "text": "come",
+          "start": 6.55,
+          "end": 6.7875
+        },
+        {
+          "id": 17,
+          "text": "from",
+          "start": 6.8,
+          "end": 6.95
+        },
+        {
+          "id": 18,
+          "text": "a",
+          "start": 6.9625,
+          "end": 7.025
+        },
+        {
+          "id": 19,
+          "text": "small",
+          "start": 7.0375,
+          "end": 7.4375
+        },
+        {
+          "id": 20,
+          "text": "room",
+          "start": 7.45,
+          "end": 7.7
+        },
+        {
+          "id": 21,
+          "text": "next",
+          "start": 7.7125,
+          "end": 7.9875
+        },
+        {
+          "id": 22,
+          "text": "to",
+          "start": 8.0,
+          "end": 8.0625
+        },
+        {
+          "id": 23,
+          "text": "the",
+          "start": 8.075,
+          "end": 8.1875
+        },
+        {
+          "id": 24,
+          "text": "library,",
+          "start": 8.2,
+          "end": 8.7875
+        },
+        {
+          "id": 25,
+          "text": "where",
+          "start": 9.15,
+          "end": 9.3125
+        },
+        {
+          "id": 26,
+          "text": "a",
+          "start": 9.325,
+          "end": 9.375
+        },
+        {
+          "id": 27,
+          "text": "group",
+          "start": 9.3875,
+          "end": 9.625
+        },
+        {
+          "id": 28,
+          "text": "of",
+          "start": 9.6375,
+          "end": 9.7375
+        },
+        {
+          "id": 29,
+          "text": "pupils",
+          "start": 9.75,
+          "end": 10.2125
+        },
+        {
+          "id": 30,
+          "text": "makes",
+          "start": 10.225,
+          "end": 10.4625
+        },
+        {
+          "id": 31,
+          "text": "a",
+          "start": 10.475,
+          "end": 10.5375
+        },
+        {
+          "id": 32,
+          "text": "radio",
+          "start": 10.55,
+          "end": 10.9125
+        },
+        {
+          "id": 33,
+          "text": "programme.",
+          "start": 10.925,
+          "end": 11.5375
+        },
+        {
+          "id": 34,
+          "text": "The",
+          "start": 12.4,
+          "end": 12.575
+        },
+        {
+          "id": 35,
+          "text": "programme",
+          "start": 12.5875,
+          "end": 13.075
+        },
+        {
+          "id": 36,
+          "text": "includes",
+          "start": 13.0875,
+          "end": 13.525
+        },
+        {
+          "id": 37,
+          "text": "school",
+          "start": 13.5375,
+          "end": 13.8375
+        },
+        {
+          "id": 38,
+          "text": "news,",
+          "start": 13.85,
+          "end": 14.2625
+        },
+        {
+          "id": 39,
+          "text": "short",
+          "start": 14.475,
+          "end": 14.7625
+        },
+        {
+          "id": 40,
+          "text": "interviews",
+          "start": 14.775,
+          "end": 15.4125
+        },
+        {
+          "id": 41,
+          "text": "and",
+          "start": 15.5125,
+          "end": 15.6875
+        },
+        {
+          "id": 42,
+          "text": "music.",
+          "start": 15.7,
+          "end": 16.2625
+        },
+        {
+          "id": 43,
+          "text": "It",
+          "start": 17.1375,
+          "end": 17.3
+        },
+        {
+          "id": 44,
+          "text": "began",
+          "start": 17.3125,
+          "end": 17.725
+        },
+        {
+          "id": 45,
+          "text": "when",
+          "start": 17.7375,
+          "end": 17.8625
+        },
+        {
+          "id": 46,
+          "text": "an",
+          "start": 17.875,
+          "end": 18.025
+        },
+        {
+          "id": 47,
+          "text": "English",
+          "start": 18.0375,
+          "end": 18.3875
+        },
+        {
+          "id": 48,
+          "text": "teacher",
+          "start": 18.4,
+          "end": 18.7625
+        },
+        {
+          "id": 49,
+          "text": "noticed",
+          "start": 18.775,
+          "end": 19.25
+        },
+        {
+          "id": 50,
+          "text": "that",
+          "start": 19.2625,
+          "end": 19.4125
+        },
+        {
+          "id": 51,
+          "text": "some",
+          "start": 19.425,
+          "end": 19.6875
+        },
+        {
+          "id": 52,
+          "text": "quiet",
+          "start": 19.7,
+          "end": 20.125
+        },
+        {
+          "id": 53,
+          "text": "pupils",
+          "start": 20.1375,
+          "end": 20.575
+        },
+        {
+          "id": 54,
+          "text": "had",
+          "start": 20.5875,
+          "end": 20.75
+        },
+        {
+          "id": 55,
+          "text": "interesting",
+          "start": 20.7625,
+          "end": 21.325
+        },
+        {
+          "id": 56,
+          "text": "ideas",
+          "start": 21.3375,
+          "end": 21.8375
+        },
+        {
+          "id": 57,
+          "text": "but",
+          "start": 21.85,
+          "end": 22.075
+        },
+        {
+          "id": 58,
+          "text": "rarely",
+          "start": 22.0875,
+          "end": 22.4
+        },
+        {
+          "id": 59,
+          "text": "shared",
+          "start": 22.4125,
+          "end": 22.7375
+        },
+        {
+          "id": 60,
+          "text": "them",
+          "start": 22.75,
+          "end": 22.8625
+        },
+        {
+          "id": 61,
+          "text": "in",
+          "start": 22.875,
+          "end": 22.975
+        },
+        {
+          "id": 62,
+          "text": "class.",
+          "start": 22.9875,
+          "end": 23.55
+        },
+        {
+          "id": 63,
+          "text": "She",
+          "start": 24.4125,
+          "end": 24.65
+        },
+        {
+          "id": 64,
+          "text": "wanted",
+          "start": 24.6625,
+          "end": 24.9875
+        },
+        {
+          "id": 65,
+          "text": "to",
+          "start": 25.0,
+          "end": 25.1
+        },
+        {
+          "id": 66,
+          "text": "give",
+          "start": 25.1125,
+          "end": 25.325
+        },
+        {
+          "id": 67,
+          "text": "them",
+          "start": 25.3375,
+          "end": 25.4625
+        },
+        {
+          "id": 68,
+          "text": "another",
+          "start": 25.475,
+          "end": 25.8125
+        },
+        {
+          "id": 69,
+          "text": "way",
+          "start": 25.825,
+          "end": 26.0
+        },
+        {
+          "id": 70,
+          "text": "to",
+          "start": 26.0125,
+          "end": 26.1125
+        },
+        {
+          "id": 71,
+          "text": "be",
+          "start": 26.125,
+          "end": 26.25
+        },
+        {
+          "id": 72,
+          "text": "heard.",
+          "start": 26.2625,
+          "end": 26.6875
+        }
+      ],
+      "phrases": [
+        {
+          "paragraph": 1,
+          "sentence": 1,
+          "text": "Every Friday,",
+          "first": 0,
+          "last": 1,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 1,
+          "sentence": 1,
+          "text": "pupils at Green Hill School hear familiar voices",
+          "first": 2,
+          "last": 9,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 1,
+          "sentence": 1,
+          "text": "during the morning break.",
+          "first": 10,
+          "last": 13,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 1,
+          "sentence": 2,
+          "text": "The voices come from a small room next to the library,",
+          "first": 14,
+          "last": 24,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 1,
+          "sentence": 2,
+          "text": "where a group of pupils makes a radio programme.",
+          "first": 25,
+          "last": 33,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 1,
+          "sentence": 3,
+          "text": "The programme includes school news,",
+          "first": 34,
+          "last": 38,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 1,
+          "sentence": 3,
+          "text": "short interviews and music.",
+          "first": 39,
+          "last": 42,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 1,
+          "sentence": 4,
+          "text": "It began when an English teacher noticed",
+          "first": 43,
+          "last": 49,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 1,
+          "sentence": 4,
+          "text": "that some quiet pupils had interesting ideas",
+          "first": 50,
+          "last": 56,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 1,
+          "sentence": 4,
+          "text": "but rarely shared them in class.",
+          "first": 57,
+          "last": 62,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 1,
+          "sentence": 5,
+          "text": "She wanted to give them another way",
+          "first": 63,
+          "last": 69,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 1,
+          "sentence": 5,
+          "text": "to be heard.",
+          "first": 70,
+          "last": 72,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        }
+      ]
+    },
+    {
+      "paragraph": 2,
+      "src": "audio/paragraph-2.mp3",
+      "sha256": "eeb0ae805ee9999ac9a8c5aed2de38b1e56f9809a5fc0d7ce3768bded4ebe95a",
+      "duration": 28.584,
+      "words": [
+        {
+          "id": 73,
+          "text": "At",
+          "start": 0.1,
+          "end": 0.3125
+        },
+        {
+          "id": 74,
+          "text": "first,",
+          "start": 0.325,
+          "end": 0.7375
+        },
+        {
+          "id": 75,
+          "text": "only",
+          "start": 0.9125,
+          "end": 1.15
+        },
+        {
+          "id": 76,
+          "text": "six",
+          "start": 1.1625,
+          "end": 1.4625
+        },
+        {
+          "id": 77,
+          "text": "pupils",
+          "start": 1.475,
+          "end": 1.925
+        },
+        {
+          "id": 78,
+          "text": "joined",
+          "start": 1.9375,
+          "end": 2.275
+        },
+        {
+          "id": 79,
+          "text": "the",
+          "start": 2.2875,
+          "end": 2.375
+        },
+        {
+          "id": 80,
+          "text": "radio",
+          "start": 2.3875,
+          "end": 2.75
+        },
+        {
+          "id": 81,
+          "text": "team.",
+          "start": 2.7625,
+          "end": 3.1875
+        },
+        {
+          "id": 82,
+          "text": "They",
+          "start": 4.05,
+          "end": 4.225
+        },
+        {
+          "id": 83,
+          "text": "used",
+          "start": 4.2375,
+          "end": 4.5625
+        },
+        {
+          "id": 84,
+          "text": "an",
+          "start": 4.575,
+          "end": 4.675
+        },
+        {
+          "id": 85,
+          "text": "old",
+          "start": 4.6875,
+          "end": 4.9
+        },
+        {
+          "id": 86,
+          "text": "computer",
+          "start": 4.9125,
+          "end": 5.375
+        },
+        {
+          "id": 87,
+          "text": "and",
+          "start": 5.3875,
+          "end": 5.5
+        },
+        {
+          "id": 88,
+          "text": "a",
+          "start": 5.5125,
+          "end": 5.55
+        },
+        {
+          "id": 89,
+          "text": "microphone",
+          "start": 5.5625,
+          "end": 6.2
+        },
+        {
+          "id": 90,
+          "text": "that",
+          "start": 6.2125,
+          "end": 6.3375
+        },
+        {
+          "id": 91,
+          "text": "the",
+          "start": 6.35,
+          "end": 6.4375
+        },
+        {
+          "id": 92,
+          "text": "school",
+          "start": 6.45,
+          "end": 6.8375
+        },
+        {
+          "id": 93,
+          "text": "already",
+          "start": 6.85,
+          "end": 7.2125
+        },
+        {
+          "id": 94,
+          "text": "owned.",
+          "start": 7.225,
+          "end": 7.65
+        },
+        {
+          "id": 95,
+          "text": "Before",
+          "start": 8.5125,
+          "end": 8.9
+        },
+        {
+          "id": 96,
+          "text": "their",
+          "start": 8.9125,
+          "end": 9.0625
+        },
+        {
+          "id": 97,
+          "text": "first",
+          "start": 9.075,
+          "end": 9.4
+        },
+        {
+          "id": 98,
+          "text": "programme,",
+          "start": 9.4125,
+          "end": 9.9375
+        },
+        {
+          "id": 99,
+          "text": "they",
+          "start": 10.175,
+          "end": 10.2875
+        },
+        {
+          "id": 100,
+          "text": "asked",
+          "start": 10.3,
+          "end": 10.65
+        },
+        {
+          "id": 101,
+          "text": "classmates",
+          "start": 10.6625,
+          "end": 11.3
+        },
+        {
+          "id": 102,
+          "text": "what",
+          "start": 11.3125,
+          "end": 11.4375
+        },
+        {
+          "id": 103,
+          "text": "they",
+          "start": 11.45,
+          "end": 11.5625
+        },
+        {
+          "id": 104,
+          "text": "wanted",
+          "start": 11.575,
+          "end": 11.9
+        },
+        {
+          "id": 105,
+          "text": "to",
+          "start": 11.9125,
+          "end": 11.9875
+        },
+        {
+          "id": 106,
+          "text": "hear.",
+          "start": 12.0,
+          "end": 12.425
+        },
+        {
+          "id": 107,
+          "text": "Most",
+          "start": 13.2875,
+          "end": 13.7
+        },
+        {
+          "id": 108,
+          "text": "asked",
+          "start": 13.7125,
+          "end": 14.0125
+        },
+        {
+          "id": 109,
+          "text": "for",
+          "start": 14.025,
+          "end": 14.15
+        },
+        {
+          "id": 110,
+          "text": "music,",
+          "start": 14.1625,
+          "end": 14.65
+        },
+        {
+          "id": 111,
+          "text": "but",
+          "start": 14.8625,
+          "end": 15.025
+        },
+        {
+          "id": 112,
+          "text": "some",
+          "start": 15.0375,
+          "end": 15.2875
+        },
+        {
+          "id": 113,
+          "text": "wanted",
+          "start": 15.3,
+          "end": 15.575
+        },
+        {
+          "id": 114,
+          "text": "advice",
+          "start": 15.5875,
+          "end": 16.0125
+        },
+        {
+          "id": 115,
+          "text": "about",
+          "start": 16.025,
+          "end": 16.275
+        },
+        {
+          "id": 116,
+          "text": "school",
+          "start": 16.2875,
+          "end": 16.5625
+        },
+        {
+          "id": 117,
+          "text": "life.",
+          "start": 16.575,
+          "end": 17.025
+        },
+        {
+          "id": 118,
+          "text": "The",
+          "start": 17.8875,
+          "end": 18.0625
+        },
+        {
+          "id": 119,
+          "text": "team",
+          "start": 18.075,
+          "end": 18.3375
+        },
+        {
+          "id": 120,
+          "text": "decided",
+          "start": 18.35,
+          "end": 18.825
+        },
+        {
+          "id": 121,
+          "text": "to",
+          "start": 18.8375,
+          "end": 18.9375
+        },
+        {
+          "id": 122,
+          "text": "include",
+          "start": 18.95,
+          "end": 19.3875
+        },
+        {
+          "id": 123,
+          "text": "both.",
+          "start": 19.4,
+          "end": 19.8875
+        },
+        {
+          "id": 124,
+          "text": "Pupils",
+          "start": 20.7625,
+          "end": 21.225
+        },
+        {
+          "id": 125,
+          "text": "who",
+          "start": 21.2375,
+          "end": 21.325
+        },
+        {
+          "id": 126,
+          "text": "did",
+          "start": 21.3375,
+          "end": 21.4875
+        },
+        {
+          "id": 127,
+          "text": "not",
+          "start": 21.5,
+          "end": 21.7125
+        },
+        {
+          "id": 128,
+          "text": "want",
+          "start": 21.725,
+          "end": 21.9
+        },
+        {
+          "id": 129,
+          "text": "to",
+          "start": 21.9125,
+          "end": 21.975
+        },
+        {
+          "id": 130,
+          "text": "speak",
+          "start": 21.9875,
+          "end": 22.3125
+        },
+        {
+          "id": 131,
+          "text": "could",
+          "start": 22.325,
+          "end": 22.5125
+        },
+        {
+          "id": 132,
+          "text": "choose",
+          "start": 22.525,
+          "end": 22.8125
+        },
+        {
+          "id": 133,
+          "text": "music",
+          "start": 22.825,
+          "end": 23.275
+        },
+        {
+          "id": 134,
+          "text": "or",
+          "start": 23.2875,
+          "end": 23.4625
+        },
+        {
+          "id": 135,
+          "text": "write",
+          "start": 23.475,
+          "end": 23.7
+        },
+        {
+          "id": 136,
+          "text": "questions",
+          "start": 23.7125,
+          "end": 24.25
+        },
+        {
+          "id": 137,
+          "text": "for",
+          "start": 24.2625,
+          "end": 24.375
+        },
+        {
+          "id": 138,
+          "text": "interviews.",
+          "start": 24.3875,
+          "end": 25.1375
+        },
+        {
+          "id": 139,
+          "text": "Everyone",
+          "start": 26.0125,
+          "end": 26.5375
+        },
+        {
+          "id": 140,
+          "text": "had",
+          "start": 26.55,
+          "end": 26.725
+        },
+        {
+          "id": 141,
+          "text": "a",
+          "start": 26.7375,
+          "end": 26.7625
+        },
+        {
+          "id": 142,
+          "text": "useful",
+          "start": 26.775,
+          "end": 27.225
+        },
+        {
+          "id": 143,
+          "text": "job.",
+          "start": 27.2375,
+          "end": 27.7
+        }
+      ],
+      "phrases": [
+        {
+          "paragraph": 2,
+          "sentence": 6,
+          "text": "At first,",
+          "first": 73,
+          "last": 74,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 2,
+          "sentence": 6,
+          "text": "only six pupils joined the radio team.",
+          "first": 75,
+          "last": 81,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 2,
+          "sentence": 7,
+          "text": "They used an old computer and a microphone",
+          "first": 82,
+          "last": 89,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 2,
+          "sentence": 7,
+          "text": "that the school already owned.",
+          "first": 90,
+          "last": 94,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 2,
+          "sentence": 8,
+          "text": "Before their first programme,",
+          "first": 95,
+          "last": 98,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 2,
+          "sentence": 8,
+          "text": "they asked classmates what they wanted to hear.",
+          "first": 99,
+          "last": 106,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 2,
+          "sentence": 9,
+          "text": "Most asked for music,",
+          "first": 107,
+          "last": 110,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 2,
+          "sentence": 9,
+          "text": "but some wanted advice about school life.",
+          "first": 111,
+          "last": 117,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 2,
+          "sentence": 10,
+          "text": "The team decided to include both.",
+          "first": 118,
+          "last": 123,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 2,
+          "sentence": 11,
+          "text": "Pupils who did not want to speak",
+          "first": 124,
+          "last": 130,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 2,
+          "sentence": 11,
+          "text": "could choose music",
+          "first": 131,
+          "last": 133,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 2,
+          "sentence": 11,
+          "text": "or write questions for interviews.",
+          "first": 134,
+          "last": 138,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 2,
+          "sentence": 12,
+          "text": "Everyone had a useful job.",
+          "first": 139,
+          "last": 143,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        }
+      ]
+    },
+    {
+      "paragraph": 3,
+      "src": "audio/paragraph-3.mp3",
+      "sha256": "734bcd6f7dbf24112334226a315b7c43c3e55491361971c3cc0292257b977cc3",
+      "duration": 28.2,
+      "words": [
+        {
+          "id": 144,
+          "text": "Making",
+          "start": 0.1,
+          "end": 0.5125
+        },
+        {
+          "id": 145,
+          "text": "a",
+          "start": 0.525,
+          "end": 0.5875
+        },
+        {
+          "id": 146,
+          "text": "programme",
+          "start": 0.6,
+          "end": 1.0875
+        },
+        {
+          "id": 147,
+          "text": "was",
+          "start": 1.1,
+          "end": 1.225
+        },
+        {
+          "id": 148,
+          "text": "harder",
+          "start": 1.2375,
+          "end": 1.6
+        },
+        {
+          "id": 149,
+          "text": "than",
+          "start": 1.6125,
+          "end": 1.725
+        },
+        {
+          "id": 150,
+          "text": "the",
+          "start": 1.7375,
+          "end": 1.825
+        },
+        {
+          "id": 151,
+          "text": "team",
+          "start": 1.8375,
+          "end": 2.1125
+        },
+        {
+          "id": 152,
+          "text": "expected.",
+          "start": 2.125,
+          "end": 2.8375
+        },
+        {
+          "id": 153,
+          "text": "During",
+          "start": 3.7,
+          "end": 4.0625
+        },
+        {
+          "id": 154,
+          "text": "their",
+          "start": 4.075,
+          "end": 4.2125
+        },
+        {
+          "id": 155,
+          "text": "first",
+          "start": 4.225,
+          "end": 4.5375
+        },
+        {
+          "id": 156,
+          "text": "interview,",
+          "start": 4.55,
+          "end": 5.0375
+        },
+        {
+          "id": 157,
+          "text": "two",
+          "start": 5.3375,
+          "end": 5.5375
+        },
+        {
+          "id": 158,
+          "text": "pupils",
+          "start": 5.55,
+          "end": 5.9875
+        },
+        {
+          "id": 159,
+          "text": "spoke",
+          "start": 6.0,
+          "end": 6.2875
+        },
+        {
+          "id": 160,
+          "text": "at",
+          "start": 6.3,
+          "end": 6.35
+        },
+        {
+          "id": 161,
+          "text": "the",
+          "start": 6.3625,
+          "end": 6.45
+        },
+        {
+          "id": 162,
+          "text": "same",
+          "start": 6.4625,
+          "end": 6.725
+        },
+        {
+          "id": 163,
+          "text": "time,",
+          "start": 6.7375,
+          "end": 7.1625
+        },
+        {
+          "id": 164,
+          "text": "so",
+          "start": 7.4875,
+          "end": 7.625
+        },
+        {
+          "id": 165,
+          "text": "listeners",
+          "start": 7.6375,
+          "end": 8.175
+        },
+        {
+          "id": 166,
+          "text": "could",
+          "start": 8.1875,
+          "end": 8.325
+        },
+        {
+          "id": 167,
+          "text": "not",
+          "start": 8.3375,
+          "end": 8.575
+        },
+        {
+          "id": 168,
+          "text": "understand",
+          "start": 8.5875,
+          "end": 9.2
+        },
+        {
+          "id": 169,
+          "text": "the",
+          "start": 9.2125,
+          "end": 9.275
+        },
+        {
+          "id": 170,
+          "text": "guest's",
+          "start": 9.2875,
+          "end": 9.65
+        },
+        {
+          "id": 171,
+          "text": "answer.",
+          "start": 9.6625,
+          "end": 10.225
+        },
+        {
+          "id": 172,
+          "text": "After",
+          "start": 11.0875,
+          "end": 11.4625
+        },
+        {
+          "id": 173,
+          "text": "that,",
+          "start": 11.475,
+          "end": 11.8125
+        },
+        {
+          "id": 174,
+          "text": "the",
+          "start": 12.1125,
+          "end": 12.225
+        },
+        {
+          "id": 175,
+          "text": "team",
+          "start": 12.2375,
+          "end": 12.5
+        },
+        {
+          "id": 176,
+          "text": "began",
+          "start": 12.5125,
+          "end": 12.875
+        },
+        {
+          "id": 177,
+          "text": "practising",
+          "start": 12.8875,
+          "end": 13.5
+        },
+        {
+          "id": 178,
+          "text": "interviews",
+          "start": 13.5125,
+          "end": 14.025
+        },
+        {
+          "id": 179,
+          "text": "before",
+          "start": 14.0375,
+          "end": 14.4
+        },
+        {
+          "id": 180,
+          "text": "recording",
+          "start": 14.4125,
+          "end": 14.8625
+        },
+        {
+          "id": 181,
+          "text": "them.",
+          "start": 14.875,
+          "end": 15.2
+        },
+        {
+          "id": 182,
+          "text": "They",
+          "start": 16.0625,
+          "end": 16.25
+        },
+        {
+          "id": 183,
+          "text": "also",
+          "start": 16.2625,
+          "end": 16.5875
+        },
+        {
+          "id": 184,
+          "text": "learnt",
+          "start": 16.6,
+          "end": 16.8625
+        },
+        {
+          "id": 185,
+          "text": "to",
+          "start": 16.875,
+          "end": 16.95
+        },
+        {
+          "id": 186,
+          "text": "ask",
+          "start": 16.9625,
+          "end": 17.2875
+        },
+        {
+          "id": 187,
+          "text": "short",
+          "start": 17.3,
+          "end": 17.5625
+        },
+        {
+          "id": 188,
+          "text": "questions",
+          "start": 17.575,
+          "end": 18.1625
+        },
+        {
+          "id": 189,
+          "text": "and",
+          "start": 18.175,
+          "end": 18.325
+        },
+        {
+          "id": 190,
+          "text": "wait",
+          "start": 18.3375,
+          "end": 18.575
+        },
+        {
+          "id": 191,
+          "text": "for",
+          "start": 18.5875,
+          "end": 18.6875
+        },
+        {
+          "id": 192,
+          "text": "the",
+          "start": 18.7,
+          "end": 18.7875
+        },
+        {
+          "id": 193,
+          "text": "answers.",
+          "start": 18.8,
+          "end": 19.45
+        },
+        {
+          "id": 194,
+          "text": "Now",
+          "start": 20.325,
+          "end": 20.65
+        },
+        {
+          "id": 195,
+          "text": "a",
+          "start": 20.6625,
+          "end": 20.7125
+        },
+        {
+          "id": 196,
+          "text": "teacher",
+          "start": 20.725,
+          "end": 21.1
+        },
+        {
+          "id": 197,
+          "text": "checks",
+          "start": 21.1125,
+          "end": 21.4625
+        },
+        {
+          "id": 198,
+          "text": "each",
+          "start": 21.475,
+          "end": 21.725
+        },
+        {
+          "id": 199,
+          "text": "programme",
+          "start": 21.7375,
+          "end": 22.1875
+        },
+        {
+          "id": 200,
+          "text": "before",
+          "start": 22.2,
+          "end": 22.5125
+        },
+        {
+          "id": 201,
+          "text": "it",
+          "start": 22.525,
+          "end": 22.5875
+        },
+        {
+          "id": 202,
+          "text": "is",
+          "start": 22.6,
+          "end": 22.7125
+        },
+        {
+          "id": 203,
+          "text": "played.",
+          "start": 22.725,
+          "end": 23.225
+        },
+        {
+          "id": 204,
+          "text": "However,",
+          "start": 24.1,
+          "end": 24.6625
+        },
+        {
+          "id": 205,
+          "text": "the",
+          "start": 24.8875,
+          "end": 24.9875
+        },
+        {
+          "id": 206,
+          "text": "pupils",
+          "start": 25.0,
+          "end": 25.45
+        },
+        {
+          "id": 207,
+          "text": "still",
+          "start": 25.4625,
+          "end": 25.7375
+        },
+        {
+          "id": 208,
+          "text": "choose",
+          "start": 25.75,
+          "end": 26.05
+        },
+        {
+          "id": 209,
+          "text": "the",
+          "start": 26.0625,
+          "end": 26.15
+        },
+        {
+          "id": 210,
+          "text": "topics",
+          "start": 26.1625,
+          "end": 26.6125
+        },
+        {
+          "id": 211,
+          "text": "themselves.",
+          "start": 26.625,
+          "end": 27.3125
+        }
+      ],
+      "phrases": [
+        {
+          "paragraph": 3,
+          "sentence": 13,
+          "text": "Making a programme was harder",
+          "first": 144,
+          "last": 148,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 3,
+          "sentence": 13,
+          "text": "than the team expected.",
+          "first": 149,
+          "last": 152,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 3,
+          "sentence": 14,
+          "text": "During their first interview,",
+          "first": 153,
+          "last": 156,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 3,
+          "sentence": 14,
+          "text": "two pupils spoke at the same time,",
+          "first": 157,
+          "last": 163,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 3,
+          "sentence": 14,
+          "text": "so listeners could not understand the guest's answer.",
+          "first": 164,
+          "last": 171,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 3,
+          "sentence": 15,
+          "text": "After that,",
+          "first": 172,
+          "last": 173,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 3,
+          "sentence": 15,
+          "text": "the team began practising interviews",
+          "first": 174,
+          "last": 178,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 3,
+          "sentence": 15,
+          "text": "before recording them.",
+          "first": 179,
+          "last": 181,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 3,
+          "sentence": 16,
+          "text": "They also learnt to ask short questions",
+          "first": 182,
+          "last": 188,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 3,
+          "sentence": 16,
+          "text": "and wait for the answers.",
+          "first": 189,
+          "last": 193,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 3,
+          "sentence": 17,
+          "text": "Now a teacher checks each programme",
+          "first": 194,
+          "last": 199,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 3,
+          "sentence": 17,
+          "text": "before it is played.",
+          "first": 200,
+          "last": 203,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 3,
+          "sentence": 18,
+          "text": "However,",
+          "first": 204,
+          "last": 204,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 3,
+          "sentence": 18,
+          "text": "the pupils still choose the topics themselves.",
+          "first": 205,
+          "last": 211,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        }
+      ]
+    },
+    {
+      "paragraph": 4,
+      "src": "audio/paragraph-4.mp3",
+      "sha256": "fd5daf2221b38f31f8f8d5b11dae9e0582727de8b1c4e7dbd569ad2467aa6c3c",
+      "duration": 28.368,
+      "words": [
+        {
+          "id": 212,
+          "text": "After",
+          "start": 0.1,
+          "end": 0.475
+        },
+        {
+          "id": 213,
+          "text": "three",
+          "start": 0.4875,
+          "end": 0.7125
+        },
+        {
+          "id": 214,
+          "text": "months,",
+          "start": 0.725,
+          "end": 1.15
+        },
+        {
+          "id": 215,
+          "text": "more",
+          "start": 1.375,
+          "end": 1.5875
+        },
+        {
+          "id": 216,
+          "text": "pupils",
+          "start": 1.6,
+          "end": 2.05
+        },
+        {
+          "id": 217,
+          "text": "wanted",
+          "start": 2.0625,
+          "end": 2.3875
+        },
+        {
+          "id": 218,
+          "text": "to",
+          "start": 2.4,
+          "end": 2.4875
+        },
+        {
+          "id": 219,
+          "text": "join",
+          "start": 2.5,
+          "end": 2.8
+        },
+        {
+          "id": 220,
+          "text": "the",
+          "start": 2.8125,
+          "end": 2.9
+        },
+        {
+          "id": 221,
+          "text": "team.",
+          "start": 2.9125,
+          "end": 3.35
+        },
+        {
+          "id": 222,
+          "text": "One",
+          "start": 4.2125,
+          "end": 4.475
+        },
+        {
+          "id": 223,
+          "text": "of",
+          "start": 4.4875,
+          "end": 4.5875
+        },
+        {
+          "id": 224,
+          "text": "them",
+          "start": 4.6,
+          "end": 4.75
+        },
+        {
+          "id": 225,
+          "text": "was",
+          "start": 4.7625,
+          "end": 4.9
+        },
+        {
+          "id": 226,
+          "text": "Maya,",
+          "start": 4.9125,
+          "end": 5.325
+        },
+        {
+          "id": 227,
+          "text": "who",
+          "start": 5.65,
+          "end": 5.7375
+        },
+        {
+          "id": 228,
+          "text": "had",
+          "start": 5.75,
+          "end": 5.875
+        },
+        {
+          "id": 229,
+          "text": "been",
+          "start": 5.8875,
+          "end": 6.0125
+        },
+        {
+          "id": 230,
+          "text": "afraid",
+          "start": 6.025,
+          "end": 6.4
+        },
+        {
+          "id": 231,
+          "text": "to",
+          "start": 6.4125,
+          "end": 6.475
+        },
+        {
+          "id": 232,
+          "text": "speak",
+          "start": 6.4875,
+          "end": 6.8125
+        },
+        {
+          "id": 233,
+          "text": "in",
+          "start": 6.825,
+          "end": 6.9375
+        },
+        {
+          "id": 234,
+          "text": "front",
+          "start": 6.95,
+          "end": 7.2
+        },
+        {
+          "id": 235,
+          "text": "of",
+          "start": 7.2125,
+          "end": 7.2625
+        },
+        {
+          "id": 236,
+          "text": "her",
+          "start": 7.275,
+          "end": 7.4
+        },
+        {
+          "id": 237,
+          "text": "class.",
+          "start": 7.4125,
+          "end": 7.9875
+        },
+        {
+          "id": 238,
+          "text": "She",
+          "start": 8.85,
+          "end": 9.075
+        },
+        {
+          "id": 239,
+          "text": "started",
+          "start": 9.0875,
+          "end": 9.5
+        },
+        {
+          "id": 240,
+          "text": "by",
+          "start": 9.5125,
+          "end": 9.65
+        },
+        {
+          "id": 241,
+          "text": "writing",
+          "start": 9.6625,
+          "end": 10.0125
+        },
+        {
+          "id": 242,
+          "text": "the",
+          "start": 10.025,
+          "end": 10.1125
+        },
+        {
+          "id": 243,
+          "text": "news",
+          "start": 10.125,
+          "end": 10.525
+        },
+        {
+          "id": 244,
+          "text": "and",
+          "start": 10.5375,
+          "end": 10.7
+        },
+        {
+          "id": 245,
+          "text": "later",
+          "start": 10.7125,
+          "end": 11.0375
+        },
+        {
+          "id": 246,
+          "text": "agreed",
+          "start": 11.05,
+          "end": 11.3875
+        },
+        {
+          "id": 247,
+          "text": "to",
+          "start": 11.4,
+          "end": 11.5125
+        },
+        {
+          "id": 248,
+          "text": "read",
+          "start": 11.525,
+          "end": 11.725
+        },
+        {
+          "id": 249,
+          "text": "it",
+          "start": 11.7375,
+          "end": 11.8375
+        },
+        {
+          "id": 250,
+          "text": "with",
+          "start": 11.85,
+          "end": 11.975
+        },
+        {
+          "id": 251,
+          "text": "a",
+          "start": 11.9875,
+          "end": 12.05
+        },
+        {
+          "id": 252,
+          "text": "friend.",
+          "start": 12.0625,
+          "end": 12.5625
+        },
+        {
+          "id": 253,
+          "text": "She",
+          "start": 13.425,
+          "end": 13.6625
+        },
+        {
+          "id": 254,
+          "text": "still",
+          "start": 13.675,
+          "end": 13.9625
+        },
+        {
+          "id": 255,
+          "text": "feels",
+          "start": 13.975,
+          "end": 14.3
+        },
+        {
+          "id": 256,
+          "text": "nervous",
+          "start": 14.3125,
+          "end": 14.7125
+        },
+        {
+          "id": 257,
+          "text": "before",
+          "start": 14.725,
+          "end": 15.0625
+        },
+        {
+          "id": 258,
+          "text": "a",
+          "start": 15.075,
+          "end": 15.125
+        },
+        {
+          "id": 259,
+          "text": "programme,",
+          "start": 15.1375,
+          "end": 15.6625
+        },
+        {
+          "id": 260,
+          "text": "but",
+          "start": 15.95,
+          "end": 16.0875
+        },
+        {
+          "id": 261,
+          "text": "she",
+          "start": 16.1,
+          "end": 16.25
+        },
+        {
+          "id": 262,
+          "text": "no",
+          "start": 16.2625,
+          "end": 16.45
+        },
+        {
+          "id": 263,
+          "text": "longer",
+          "start": 16.4625,
+          "end": 16.85
+        },
+        {
+          "id": 264,
+          "text": "avoids",
+          "start": 16.8625,
+          "end": 17.3
+        },
+        {
+          "id": 265,
+          "text": "speaking.",
+          "start": 17.3125,
+          "end": 17.8375
+        },
+        {
+          "id": 266,
+          "text": "The",
+          "start": 18.7,
+          "end": 18.8625
+        },
+        {
+          "id": 267,
+          "text": "team",
+          "start": 18.875,
+          "end": 19.1375
+        },
+        {
+          "id": 268,
+          "text": "now",
+          "start": 19.15,
+          "end": 19.35
+        },
+        {
+          "id": 269,
+          "text": "hopes",
+          "start": 19.3625,
+          "end": 19.6875
+        },
+        {
+          "id": 270,
+          "text": "to",
+          "start": 19.7,
+          "end": 19.8125
+        },
+        {
+          "id": 271,
+          "text": "interview",
+          "start": 19.825,
+          "end": 20.275
+        },
+        {
+          "id": 272,
+          "text": "people",
+          "start": 20.2875,
+          "end": 20.6625
+        },
+        {
+          "id": 273,
+          "text": "from",
+          "start": 20.675,
+          "end": 20.825
+        },
+        {
+          "id": 274,
+          "text": "outside",
+          "start": 20.8375,
+          "end": 21.3125
+        },
+        {
+          "id": 275,
+          "text": "the",
+          "start": 21.325,
+          "end": 21.4125
+        },
+        {
+          "id": 276,
+          "text": "school.",
+          "start": 21.425,
+          "end": 21.875
+        },
+        {
+          "id": 277,
+          "text": "Before",
+          "start": 22.7375,
+          "end": 23.1625
+        },
+        {
+          "id": 278,
+          "text": "doing",
+          "start": 23.175,
+          "end": 23.45
+        },
+        {
+          "id": 279,
+          "text": "that,",
+          "start": 23.4625,
+          "end": 23.75
+        },
+        {
+          "id": 280,
+          "text": "the",
+          "start": 24.0,
+          "end": 24.1
+        },
+        {
+          "id": 281,
+          "text": "pupils",
+          "start": 24.1125,
+          "end": 24.55
+        },
+        {
+          "id": 282,
+          "text": "need",
+          "start": 24.5625,
+          "end": 24.7625
+        },
+        {
+          "id": 283,
+          "text": "to",
+          "start": 24.775,
+          "end": 24.85
+        },
+        {
+          "id": 284,
+          "text": "learn",
+          "start": 24.8625,
+          "end": 25.125
+        },
+        {
+          "id": 285,
+          "text": "how",
+          "start": 25.1375,
+          "end": 25.275
+        },
+        {
+          "id": 286,
+          "text": "to",
+          "start": 25.2875,
+          "end": 25.4
+        },
+        {
+          "id": 287,
+          "text": "arrange",
+          "start": 25.4125,
+          "end": 25.825
+        },
+        {
+          "id": 288,
+          "text": "interviews",
+          "start": 25.8375,
+          "end": 26.4625
+        },
+        {
+          "id": 289,
+          "text": "with",
+          "start": 26.475,
+          "end": 26.6125
+        },
+        {
+          "id": 290,
+          "text": "busy",
+          "start": 26.625,
+          "end": 26.9
+        },
+        {
+          "id": 291,
+          "text": "guests.",
+          "start": 26.9125,
+          "end": 27.5
+        }
+      ],
+      "phrases": [
+        {
+          "paragraph": 4,
+          "sentence": 19,
+          "text": "After three months,",
+          "first": 212,
+          "last": 214,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 4,
+          "sentence": 19,
+          "text": "more pupils wanted to join the team.",
+          "first": 215,
+          "last": 221,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 4,
+          "sentence": 20,
+          "text": "One of them was Maya,",
+          "first": 222,
+          "last": 226,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 4,
+          "sentence": 20,
+          "text": "who had been afraid to speak in front of her class.",
+          "first": 227,
+          "last": 237,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 4,
+          "sentence": 21,
+          "text": "She started by writing the news",
+          "first": 238,
+          "last": 243,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 4,
+          "sentence": 21,
+          "text": "and later agreed to read it with a friend.",
+          "first": 244,
+          "last": 252,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 4,
+          "sentence": 22,
+          "text": "She still feels nervous before a programme,",
+          "first": 253,
+          "last": 259,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 4,
+          "sentence": 22,
+          "text": "but she no longer avoids speaking.",
+          "first": 260,
+          "last": 265,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 4,
+          "sentence": 23,
+          "text": "The team now hopes to interview people",
+          "first": 266,
+          "last": 272,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 4,
+          "sentence": 23,
+          "text": "from outside the school.",
+          "first": 273,
+          "last": 276,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        },
+        {
+          "paragraph": 4,
+          "sentence": 24,
+          "text": "Before doing that,",
+          "first": 277,
+          "last": 279,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 4,
+          "sentence": 24,
+          "text": "the pupils need to learn",
+          "first": 280,
+          "last": 284,
+          "gapMs": 1500,
+          "pauseKind": "phrase"
+        },
+        {
+          "paragraph": 4,
+          "sentence": 24,
+          "text": "how to arrange interviews with busy guests.",
+          "first": 285,
+          "last": 291,
+          "gapMs": 2000,
+          "pauseKind": "sentence"
+        }
+      ]
+    }
+  ]
+}

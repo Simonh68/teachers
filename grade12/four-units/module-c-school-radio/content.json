@@ -1,0 +1,330 @@
+{
+  "id": "C-SCHOOL-RADIO-01",
+  "version": "1.0.0",
+  "level": "C",
+  "title": "A Voice for Every Student",
+  "grade": 12,
+  "units": 4,
+  "fictional_setting": true,
+  "word_count": 292,
+  "paragraphs": [
+    "Every Friday, pupils at Green Hill School hear familiar voices during the morning break. The voices come from a small room next to the library, where a group of pupils makes a radio programme. The programme includes school news, short interviews and music. It began when an English teacher noticed that some quiet pupils had interesting ideas but rarely shared them in class. She wanted to give them another way to be heard.",
+    "At first, only six pupils joined the radio team. They used an old computer and a microphone that the school already owned. Before their first programme, they asked classmates what they wanted to hear. Most asked for music, but some wanted advice about school life. The team decided to include both. Pupils who did not want to speak could choose music or write questions for interviews. Everyone had a useful job.",
+    "Making a programme was harder than the team expected. During their first interview, two pupils spoke at the same time, so listeners could not understand the guest's answer. After that, the team began practising interviews before recording them. They also learnt to ask short questions and wait for the answers. Now a teacher checks each programme before it is played. However, the pupils still choose the topics themselves.",
+    "After three months, more pupils wanted to join the team. One of them was Maya, who had been afraid to speak in front of her class. She started by writing the news and later agreed to read it with a friend. She still feels nervous before a programme, but she no longer avoids speaking. The team now hopes to interview people from outside the school. Before doing that, the pupils need to learn how to arrange interviews with busy guests."
+  ],
+  "reading_questions": [
+    {
+      "number": 1,
+      "type": "mc",
+      "points": 8,
+      "stem": "What do we learn from paragraph I?",
+      "range": [
+        1,
+        6
+      ],
+      "scope": "lines 1–6",
+      "answer": "ii) Why the radio programme was started.",
+      "evidence": "She wanted to give them another way to be heard.",
+      "evidence_scope": "lines 5–6",
+      "rubric": "8 points for option ii.",
+      "traps": [
+        "paragraph scope",
+        "keyword overlap",
+        "unsupported detail"
+      ],
+      "explanation_en": "The teacher wanted quiet pupils to share their ideas. The paragraph does not explain how programmes are made or how many pupils listen.",
+      "explanation_he": "המורה רצתה שגם תלמידים שקטים ישמיעו את הרעיונות שלהם. מוזיקה וספרייה מוזכרות, אבל לא נמסר מי בחר את השירים או כמה תלמידים מאזינים.",
+      "options": [
+        "How the pupils choose music for the programme.",
+        "Why the radio programme was started.",
+        "How many pupils listen to the programme.",
+        "Why the school library needed a new room."
+      ],
+      "correct": 1,
+      "distractors": {
+        "0": "המוזיקה מוזכרת כתוכן בתוכנית, אך תהליך הבחירה שלה אינו מוסבר בפסקה I.",
+        "2": "אין בפסקה מספר של מאזינים.",
+        "3": "החדר נמצא ליד הספרייה; לא נאמר שהספרייה זקוקה לחדר חדש."
+      }
+    },
+    {
+      "number": 2,
+      "type": "open",
+      "points": 8,
+      "stem": "What did the team ask their classmates before the first programme?",
+      "range": [
+        8,
+        10
+      ],
+      "scope": "lines 8–10",
+      "answer": "What they wanted to hear.",
+      "evidence": "Before their first programme, they asked classmates what they wanted to hear.",
+      "evidence_scope": "lines 8–9",
+      "rubric": "8 points for what classmates wanted to hear / their preferred programme content. Accept equivalent wording.",
+      "traps": [
+        "question focus",
+        "action versus result"
+      ],
+      "explanation_en": "Give the question the team asked, rather than only the classmates' answers.",
+      "explanation_he": "צריך לציין מה הצוות שאל, ולא רק את התשובות שקיבל — מוזיקה או עצות.",
+      "instruction": "ANSWER THE QUESTION.",
+      "fields": [
+        "Answer"
+      ],
+      "answer_lines": 2,
+      "accepted_groups": [
+        [
+          "what they wanted to hear",
+          "what they wanted to listen to",
+          "what programmes they wanted",
+          "what content they wanted",
+          "they asked what they wanted to hear",
+          "they asked their classmates what they wanted to hear"
+        ]
+      ]
+    },
+    {
+      "number": 3,
+      "type": "open",
+      "points": 14,
+      "stem": "What could pupils do if they did not want to speak on the programme?",
+      "range": [
+        11,
+        12
+      ],
+      "scope": "lines 11–12",
+      "answer": "Choose music; write questions for interviews.",
+      "evidence": "Pupils who did not want to speak could choose music or write questions for interviews.",
+      "evidence_scope": "lines 11–12",
+      "rubric": "7 points per distinct job. Accept either order. Do not award the same job twice.",
+      "traps": [
+        "two distinct details",
+        "copying unrelated action"
+      ],
+      "explanation_en": "Choosing music and writing interview questions are two different jobs. Reading the news is not a silent job.",
+      "explanation_he": "נדרשים שני תפקידים שונים: בחירת מוזיקה וכתיבת שאלות לראיונות. שתי דרכים לומר ״בחירת מוזיקה״ אינן שתי תשובות.",
+      "instruction": "GIVE TWO ANSWERS.",
+      "fields": [
+        "(1) They could ...",
+        "(2) They could ..."
+      ],
+      "answer_lines": 3,
+      "accepted_groups": [
+        [
+          "choose music",
+          "choose the music",
+          "select music",
+          "pick music",
+          "they could choose music"
+        ],
+        [
+          "write questions for interviews",
+          "write interview questions",
+          "prepare questions for interviews",
+          "they could write questions for interviews"
+        ]
+      ]
+    },
+    {
+      "number": 4,
+      "type": "multi",
+      "points": 16,
+      "stem": "What do we learn from paragraph III?",
+      "range": [
+        13,
+        18
+      ],
+      "scope": "lines 13–18",
+      "answer": "i) Why the first interview was difficult to understand; iv) What the team did to improve its interviews.",
+      "evidence": "two pupils spoke at the same time, so listeners could not understand the guest's answer. After that, the team began practising interviews before recording them.",
+      "evidence_scope": "lines 14–16",
+      "rubric": "8 points for each of i and iv. Select exactly two options.",
+      "traps": [
+        "two-answer instruction",
+        "role reversal",
+        "unsupported detail"
+      ],
+      "explanation_en": "The paragraph gives a problem and the team's response. Checking a programme is not the same as choosing its topic.",
+      "explanation_he": "בפסקה מוצגים הקושי בריאיון הראשון והדרך לשפר ראיונות. המורה בודקת את התוכנית, אבל התלמידים בוחרים את הנושאים.",
+      "options": [
+        "Why the first interview was difficult to understand.",
+        "How much the recording equipment cost.",
+        "Why the team chose its first guest.",
+        "What the team did to improve its interviews.",
+        "How the teacher chooses topics for the programme.",
+        "How many pupils listen to the programme each week."
+      ],
+      "correct": [
+        0,
+        3
+      ],
+      "distractors": {
+        "1": "מחיר הציוד אינו מופיע בפסקה.",
+        "2": "לא מוסבר מדוע נבחר האורח הראשון.",
+        "4": "התלמידים בוחרים את הנושאים; המורה בודקת את התוכנית.",
+        "5": "מספר המאזינים אינו מופיע בטקסט."
+      }
+    },
+    {
+      "number": 5,
+      "type": "open",
+      "points": 8,
+      "stem": "What do the pupils do themselves, even though a teacher checks each programme?",
+      "range": [
+        17,
+        18
+      ],
+      "scope": "lines 17–18",
+      "answer": "They choose the topics.",
+      "evidence": "However, the pupils still choose the topics themselves.",
+      "evidence_scope": "line 18",
+      "rubric": "8 points for choosing the programme topics. Preserve who does the action.",
+      "traps": [
+        "contrast",
+        "role reversal"
+      ],
+      "explanation_en": "The teacher checks programmes; the pupils decide what they are about.",
+      "explanation_he": "המילה However מסמנת ניגוד: בדיקת התוכנית היא תפקיד המורה, ובחירת הנושאים נשארת בידי התלמידים.",
+      "instruction": "COMPLETE THE SENTENCE.",
+      "prefix": "The pupils",
+      "fields": [
+        "The pupils ..."
+      ],
+      "answer_lines": 2,
+      "accepted_groups": [
+        [
+          "choose the topics",
+          "choose topics",
+          "choose the topics themselves",
+          "choose the programme topics",
+          "decide on the topics",
+          "decide what the programme is about",
+          "the pupils choose the topics"
+        ]
+      ]
+    },
+    {
+      "number": 6,
+      "type": "mc",
+      "points": 8,
+      "stem": "What do we learn about Maya from paragraph IV?",
+      "range": [
+        19,
+        22
+      ],
+      "scope": "lines 19–22",
+      "answer": "iii) She now speaks on the programme although she is still nervous.",
+      "evidence": "She still feels nervous before a programme, but she no longer avoids speaking.",
+      "evidence_scope": "lines 21–22",
+      "rubric": "8 points for option iii.",
+      "traps": [
+        "partial truth",
+        "time contrast",
+        "overstatement"
+      ],
+      "explanation_en": "Maya has changed her behaviour, but her nervousness has not disappeared. Writing the news was her first step, not her only current role.",
+      "explanation_he": "מאיה כבר מוכנה לדבר, אף שהחשש עדיין קיים. הטקסט אינו אומר שהפחד נעלם או שהיא ממשיכה רק לכתוב.",
+      "options": [
+        "She stopped feeling nervous before programmes.",
+        "She writes the news but refuses to read it.",
+        "She now speaks on the programme although she is still nervous.",
+        "She agreed to read the news alone from the beginning."
+      ],
+      "correct": 2,
+      "distractors": {
+        "0": "Still feels nervous אומר שהחשש נמשך.",
+        "1": "מאיה התחילה בכתיבה, אבל בהמשך הסכימה לקרוא עם חברה או חבר.",
+        "3": "בהתחלה היא כתבה; בהמשך קראה עם חבר, ולא לבדה."
+      }
+    },
+    {
+      "number": 7,
+      "type": "open",
+      "points": 8,
+      "stem": "What must the pupils learn before they interview people from outside the school?",
+      "range": [
+        22,
+        24
+      ],
+      "scope": "lines 22–24",
+      "answer": "How to arrange interviews with busy guests.",
+      "evidence": "Before doing that, the pupils need to learn how to arrange interviews with busy guests.",
+      "evidence_scope": "lines 23–24",
+      "rubric": "8 points for arranging / organizing interviews with busy outside guests. Do not accept just doing more interviews.",
+      "traps": [
+        "future plan versus completed action",
+        "necessary preparation"
+      ],
+      "explanation_en": "Interviewing outside guests is a plan. Learning to arrange these interviews must happen first.",
+      "explanation_he": "ראיונות עם אנשים מחוץ לבית הספר הם תוכנית לעתיד. קודם צריך ללמוד לתאם ראיונות עם אורחים עסוקים.",
+      "instruction": "ANSWER THE QUESTION.",
+      "fields": [
+        "Answer"
+      ],
+      "answer_lines": 2,
+      "accepted_groups": [
+        [
+          "how to arrange interviews with busy guests",
+          "to arrange interviews with busy guests",
+          "how to arrange interviews",
+          "how to organize interviews with busy guests",
+          "how to organise interviews with busy guests",
+          "how to schedule interviews with busy guests",
+          "how to arrange interviews with people from outside the school"
+        ]
+      ]
+    }
+  ],
+  "writing": {
+    "number": 8,
+    "type": "writing",
+    "points": 30,
+    "stem": "Describe a school activity that you enjoyed. Explain what you did and why you enjoyed it.",
+    "instruction": "Write 70–90 words in English. The activity may be real or imaginary.",
+    "min_words": 70,
+    "max_words": 90,
+    "rubric": [
+      {
+        "name": "Content and organization",
+        "points": 10,
+        "description": "Address the activity, what you did and why you enjoyed it. Develop ideas in a clear order."
+      },
+      {
+        "name": "Vocabulary",
+        "points": 8,
+        "description": "Use suitable words and natural phrases accurately."
+      },
+      {
+        "name": "Language use",
+        "points": 8,
+        "description": "Use basic tenses, sentence structures, word order, pronouns and prepositions correctly."
+      },
+      {
+        "name": "Mechanics",
+        "points": 4,
+        "description": "Check spelling, punctuation, capital letters and sentence boundaries."
+      }
+    ],
+    "model": "Last month, I took part in our school's art day. My friends and I painted a wall near the playground. First, we planned a picture of our town. Then we chose bright colours and divided the work. I painted the trees because I love nature. At first, I was worried about making mistakes, but my friends helped me. I enjoyed the activity because we worked together and created something useful. Now I feel proud whenever I walk past the wall.",
+    "marking_note": "Human or AI-assisted review is required. The local app does not award writing points. Accept any relevant real or imagined activity. The model is one example, not a required answer. Use the linked official rubric for detailed performance levels and any length deductions."
+  },
+  "sources": [
+    {
+      "title": "Ministry of Education, Module C, Summer 2026 A (official paper mirrored by Geva)",
+      "url": "https://files.geva.co.il/geva_website/uploads/2026/05/שאלון-C-16382.pdf",
+      "use": "Format: reading 70, writing 30, 70–90 words; seven reading questions, mixed formats; 90-minute practice model."
+    },
+    {
+      "title": "Ministry of Education, Module C, Summer 2026 B (official paper mirrored by Geva)",
+      "url": "https://files.geva.co.il/geva_website/uploads/2026/05/C16382-מועד-ב.pdf",
+      "use": "Secondary comparison of language and distractors. This sitting states 105 minutes; no universal duration claim."
+    },
+    {
+      "title": "Ministry of Education, 3-point Bagrut handbook 2025, Module C writing rubric",
+      "url": "https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/3pointsbooklet2025.pdf",
+      "use": "Writing categories and maximums 10/8/8/4, also applicable to Module C in the four-unit route."
+    }
+  ],
+  "sentence_count": 24
+}

@@ -1,0 +1,470 @@
+[
+  {
+    "paragraph": 1,
+    "sentence": 1,
+    "text": "Every Friday,",
+    "first": 0,
+    "last": 1,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 1,
+    "text": "pupils at Green Hill School hear familiar voices",
+    "first": 2,
+    "last": 9,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 1,
+    "text": "during the morning break.",
+    "first": 10,
+    "last": 13,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 2,
+    "text": "The voices come from a small room next to the library,",
+    "first": 14,
+    "last": 24,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 2,
+    "text": "where a group of pupils makes a radio programme.",
+    "first": 25,
+    "last": 33,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 3,
+    "text": "The programme includes school news,",
+    "first": 34,
+    "last": 38,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 3,
+    "text": "short interviews and music.",
+    "first": 39,
+    "last": 42,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 4,
+    "text": "It began when an English teacher noticed",
+    "first": 43,
+    "last": 49,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 4,
+    "text": "that some quiet pupils had interesting ideas",
+    "first": 50,
+    "last": 56,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 4,
+    "text": "but rarely shared them in class.",
+    "first": 57,
+    "last": 62,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 5,
+    "text": "She wanted to give them another way",
+    "first": 63,
+    "last": 69,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 5,
+    "text": "to be heard.",
+    "first": 70,
+    "last": 72,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 6,
+    "text": "At first,",
+    "first": 73,
+    "last": 74,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 6,
+    "text": "only six pupils joined the radio team.",
+    "first": 75,
+    "last": 81,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 7,
+    "text": "They used an old computer and a microphone",
+    "first": 82,
+    "last": 89,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 7,
+    "text": "that the school already owned.",
+    "first": 90,
+    "last": 94,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 8,
+    "text": "Before their first programme,",
+    "first": 95,
+    "last": 98,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 8,
+    "text": "they asked classmates what they wanted to hear.",
+    "first": 99,
+    "last": 106,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 9,
+    "text": "Most asked for music,",
+    "first": 107,
+    "last": 110,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 9,
+    "text": "but some wanted advice about school life.",
+    "first": 111,
+    "last": 117,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 10,
+    "text": "The team decided to include both.",
+    "first": 118,
+    "last": 123,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 11,
+    "text": "Pupils who did not want to speak",
+    "first": 124,
+    "last": 130,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 11,
+    "text": "could choose music",
+    "first": 131,
+    "last": 133,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 11,
+    "text": "or write questions for interviews.",
+    "first": 134,
+    "last": 138,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 12,
+    "text": "Everyone had a useful job.",
+    "first": 139,
+    "last": 143,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 13,
+    "text": "Making a programme was harder",
+    "first": 144,
+    "last": 148,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 13,
+    "text": "than the team expected.",
+    "first": 149,
+    "last": 152,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 14,
+    "text": "During their first interview,",
+    "first": 153,
+    "last": 156,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 14,
+    "text": "two pupils spoke at the same time,",
+    "first": 157,
+    "last": 163,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 14,
+    "text": "so listeners could not understand the guest's answer.",
+    "first": 164,
+    "last": 171,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 15,
+    "text": "After that,",
+    "first": 172,
+    "last": 173,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 15,
+    "text": "the team began practising interviews",
+    "first": 174,
+    "last": 178,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 15,
+    "text": "before recording them.",
+    "first": 179,
+    "last": 181,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 16,
+    "text": "They also learnt to ask short questions",
+    "first": 182,
+    "last": 188,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 16,
+    "text": "and wait for the answers.",
+    "first": 189,
+    "last": 193,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 17,
+    "text": "Now a teacher checks each programme",
+    "first": 194,
+    "last": 199,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 17,
+    "text": "before it is played.",
+    "first": 200,
+    "last": 203,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 18,
+    "text": "However,",
+    "first": 204,
+    "last": 204,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 18,
+    "text": "the pupils still choose the topics themselves.",
+    "first": 205,
+    "last": 211,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 19,
+    "text": "After three months,",
+    "first": 212,
+    "last": 214,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 19,
+    "text": "more pupils wanted to join the team.",
+    "first": 215,
+    "last": 221,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 20,
+    "text": "One of them was Maya,",
+    "first": 222,
+    "last": 226,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 20,
+    "text": "who had been afraid to speak in front of her class.",
+    "first": 227,
+    "last": 237,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 21,
+    "text": "She started by writing the news",
+    "first": 238,
+    "last": 243,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 21,
+    "text": "and later agreed to read it with a friend.",
+    "first": 244,
+    "last": 252,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 22,
+    "text": "She still feels nervous before a programme,",
+    "first": 253,
+    "last": 259,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 22,
+    "text": "but she no longer avoids speaking.",
+    "first": 260,
+    "last": 265,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 23,
+    "text": "The team now hopes to interview people",
+    "first": 266,
+    "last": 272,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 23,
+    "text": "from outside the school.",
+    "first": 273,
+    "last": 276,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 24,
+    "text": "Before doing that,",
+    "first": 277,
+    "last": 279,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 24,
+    "text": "the pupils need to learn",
+    "first": 280,
+    "last": 284,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 24,
+    "text": "how to arrange interviews with busy guests.",
+    "first": 285,
+    "last": 291,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  }
+]
