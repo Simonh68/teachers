@@ -1,0 +1,156 @@
+{
+  "source": "https://katzir.org.il/wp-content/uploads/2024/07/Band_3-List_A-_Official.xlsx",
+  "list": "BAND III CORE I - LIST A",
+  "verified_items": [
+    {
+      "question": 10,
+      "item": "objective",
+      "official_entry": "objective"
+    },
+    {
+      "question": 10,
+      "item": "consequence",
+      "official_entry": "consequence"
+    },
+    {
+      "question": 10,
+      "item": "guidance",
+      "official_entry": "guidance"
+    },
+    {
+      "question": 10,
+      "item": "request",
+      "official_entry": "request"
+    },
+    {
+      "question": 10,
+      "item": "proof",
+      "official_entry": "proof"
+    },
+    {
+      "question": 10,
+      "item": "priority",
+      "official_entry": "priority"
+    },
+    {
+      "question": 11,
+      "item": "participate",
+      "official_entry": "participate"
+    },
+    {
+      "question": 11,
+      "item": "prevent",
+      "official_entry": "prevent"
+    },
+    {
+      "question": 11,
+      "item": "recommend",
+      "official_entry": "recommend"
+    },
+    {
+      "question": 11,
+      "item": "investigate",
+      "official_entry": "investigate"
+    },
+    {
+      "question": 11,
+      "item": "generate",
+      "official_entry": "generate"
+    },
+    {
+      "question": 11,
+      "item": "rely on",
+      "official_entry": "rely on/upon sb/sth"
+    },
+    {
+      "question": 12,
+      "item": "efficient",
+      "official_entry": "efficient"
+    },
+    {
+      "question": 12,
+      "item": "flexible",
+      "official_entry": "flexible"
+    },
+    {
+      "question": 12,
+      "item": "reliable",
+      "official_entry": "reliable"
+    },
+    {
+      "question": 12,
+      "item": "limited",
+      "official_entry": "limited"
+    },
+    {
+      "question": 12,
+      "item": "relevant",
+      "official_entry": "relevant"
+    },
+    {
+      "question": 12,
+      "item": "significant",
+      "official_entry": "significant"
+    },
+    {
+      "question": 13,
+      "item": "deliberately",
+      "official_entry": "deliberately"
+    },
+    {
+      "question": 13,
+      "item": "essentially",
+      "official_entry": "essentially"
+    },
+    {
+      "question": 13,
+      "item": "hopefully",
+      "official_entry": "hopefully"
+    },
+    {
+      "question": 13,
+      "item": "naturally",
+      "official_entry": "naturally"
+    },
+    {
+      "question": 13,
+      "item": "seldom",
+      "official_entry": "seldom"
+    },
+    {
+      "question": 13,
+      "item": "unfortunately",
+      "official_entry": "unfortunately"
+    },
+    {
+      "question": 14,
+      "item": "at least",
+      "official_entry": "at least"
+    },
+    {
+      "question": 14,
+      "item": "even though",
+      "official_entry": "even though"
+    },
+    {
+      "question": 14,
+      "item": "in the meantime",
+      "official_entry": "in the meantime"
+    },
+    {
+      "question": 14,
+      "item": "run out of",
+      "official_entry": "run out of"
+    },
+    {
+      "question": 14,
+      "item": "take advantage of",
+      "official_entry": "take advantage of sth"
+    },
+    {
+      "question": 14,
+      "item": "be responsible for",
+      "official_entry": "be responsible for sth/doing sth"
+    }
+  ]
+}
