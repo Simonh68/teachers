@@ -29,6 +29,11 @@ if (typeof document !== 'undefined') (() => {
 'use strict';
 const data = JSON.parse(document.getElementById('exam-data').textContent);
 const lines = JSON.parse(document.getElementById('line-data').textContent);
+const glossary = JSON.parse(document.getElementById('gloss-data').textContent);
+const recordings = JSON.parse(document.getElementById('audio-data').textContent);
+let wordOffset=0;
+const lineWords=new Map(lines.map(l=>{const words=l.text.split(/\s+/).map(text=>({text,id:wordOffset++}));return [l.number,words];}));
+const reader=TeacherInlineReader.install({records:recordings.paragraphs,glosses:glossary.units});
 const storageKey = data.id + '-' + data.version;
 let state = {responses:{},checked:{},finished:false,mode:'practice',slide:0};
 try { const saved = JSON.parse(localStorage.getItem(storageKey)); if(saved && saved.responses && saved.checked) state={...state,...saved}; } catch {}
@@ -36,7 +41,11 @@ const deck = [{type:'intro'},...data.paragraphs.map((_,i)=>({type:'text',p:i+1})
 const stage=document.getElementById('stage'), jump=document.getElementById('jump'), dialog=document.getElementById('article');
 const esc = s => String(s ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const persist=()=>{try{localStorage.setItem(storageKey,JSON.stringify(state));}catch{}};
-const lineHTML = rows => `<div class="reading-lines" lang="en" dir="ltr">${rows.map(l=>`<div class="text-line${l.start?' para-start':''}"><span class="line-number">${l.number}</span><span>${esc(l.text)}</span></div>`).join('')}</div>`;
+const readerControls = rows => {
+ const first=lineWords.get(rows[0].number)[0].id,last=lineWords.get(rows.at(-1).number).at(-1).id;
+ return `<div class="ra-controls" data-reader data-first="${first}" data-last="${last}"><button data-read-play aria-pressed="false">▶ הקראה</button><button class="secondary" data-read-restart aria-label="הקראה מחדש">↺</button><label>מהירות <select data-read-speed aria-label="מהירות הקלטה"><option value="0.5">0.5×</option><option value="0.75" selected>0.75×</option><option value="1">1×</option><option value="1.25">1.25×</option></select></label><label><input type="checkbox" data-gloss-toggle checked>תרגום בריחוף</label><span class="ra-status" data-read-status aria-live="polite"></span></div>`;
+};
+const lineHTML = rows => `${readerControls(rows)}<p class="ra-help">עברו עם העכבר מעל מילה לתרגום בהקשר. בטלפון נוגעים במילה.</p><div class="reading-lines reader-text" lang="en" dir="ltr">${rows.map(l=>`<div class="text-line${l.start?' para-start':''}"><span class="line-number">${l.number}</span><span>${lineWords.get(l.number).map(w=>{const u=glossary.words[w.id].gloss;return `<span class="ra-word" data-word="${w.id}" data-gloss="${u}" role="button" tabindex="0" aria-label="${esc(w.text)}: תרגום בהקשר">${esc(w.text)}</span>`;}).join(' ')}</span></div>`).join('')}</div>`;
 const excerpt=q=>`<details class="excerpt"><summary lang="en">Read ${esc(q.scope)}</summary>${lineHTML(lines.filter(l=>l.number>=q.range[0]&&l.number<=q.range[1]))}</details>`;
 const qIndex=n=>deck.findIndex(s=>s.q&&s.q.number===n);
 function result(q){return q.number<10?ExamLogic.reading(q,state.responses[q.number]):ExamLogic.vocab(q,state.responses[q.number]);}
@@ -63,6 +72,7 @@ function feedback(q){
 }
 function label(s){return s.type==='intro'?'פתיחה':s.type==='text'?'טקסט: פסקה '+['I','II','III','IV','V'][s.p-1]:s.type==='summary'?'סיכום ותשובות':(s.type==='reading'?'שאלה ':'אוצר מילים ')+s.q.number;}
 function render(){
+ reader.reset();
  const s=deck[state.slide];
  jump.innerHTML=deck.map((x,i)=>`<option value="${i}" ${i===state.slide?'selected':''} ${x.type==='summary'&&!state.finished?'disabled':''}>${esc(label(x))}</option>`).join('');
  document.getElementById('counter').textContent=(state.slide+1)+' / '+deck.length;
@@ -70,7 +80,7 @@ function render(){
  document.getElementById('next').disabled=s.type==='summary'||s.q?.number===14;
  document.getElementById('progress').style.width=(100*(state.slide+1)/deck.length)+'%';
  if(s.type==='intro'){
- stage.innerHTML=`<section class="intro"><p class="eyebrow">BAGRUT TRAP KILLER · MODULE E</p><h1>A Bank That<br>Uses Time</h1><p class="lead" dir="rtl">שאלון תרגול מלא לכיתה י״א</p><p class="specs">75 minutes · Reading 70 · Vocabulary 30</p><div class="actions" dir="rtl"><button id="start">התחלת הקריאה</button><a class="button secondary" href="files/Module-E-Time-Bank.pdf" download>PDF להדפסה</a></div><div class="mode" dir="rtl"><label for="mode">אופן התרגול</label> <select id="mode"><option value="practice" ${state.mode==='practice'?'selected':''}>תרגול עם משוב</option><option value="exam" ${state.mode==='exam'?'selected':''}>מבחן: משוב בסיום</option></select></div><p class="small" dir="rtl">9 שאלות הבנה ו־5 קבוצות התאמה מתוך Band III Core I, List A. עונים באנגלית, ללא מילון. מספרי השורות זהים ל־PDF.</p><p class="small" dir="rtl">התשובות נשמרות במכשיר הזה. תשובה פתוחה בניסוח שלא זוהה תמתין לבדיקה. זהו שאלון תרגול מקורי.</p><button class="text-button" id="reset" dir="rtl">איפוס התשובות והתחלה חדשה</button></section>`;
+ stage.innerHTML=`<section class="intro"><p class="eyebrow">BAGRUT TRAP KILLER · MODULE E</p><h1>A Bank That<br>Uses Time</h1><p class="lead" dir="rtl">שאלון תרגול מלא לכיתה י״א</p><p class="specs">75 minutes · Reading 70 · Vocabulary 30</p><div class="actions" dir="rtl"><button id="start">התחלת הקריאה</button><a class="button secondary" href="files/Module-E-Time-Bank.pdf" download>PDF להדפסה</a></div><div class="mode" dir="rtl"><label for="mode">אופן התרגול</label> <select id="mode"><option value="practice" ${state.mode==='practice'?'selected':''}>תרגול עם משוב</option><option value="exam" ${state.mode==='exam'?'selected':''}>מבחן: משוב בסיום</option></select></div><p class="small" dir="rtl">9 שאלות הבנה ו־5 קבוצות התאמה מתוך Band III Core I, List A. עונים באנגלית, ללא מילון. מספרי השורות זהים ל־PDF. תרגום בריחוף והקלטה מוכנה מראש זמינים בכל תצוגות הטקסט.</p><p class="small" dir="rtl">התשובות נשמרות במכשיר הזה. תשובה פתוחה בניסוח שלא זוהה תמתין לבדיקה. זהו שאלון תרגול מקורי.</p><button class="text-button" id="reset" dir="rtl">איפוס התשובות והתחלה חדשה</button></section>`;
  document.getElementById('start').onclick=()=>show(1);
  document.getElementById('mode').onchange=e=>{state.mode=e.target.value;persist();};
  document.getElementById('reset').onclick=()=>{if(confirm('למחוק את התשובות השמורות בשאלון הזה?')){state={responses:{},checked:{},finished:false,mode:state.mode,slide:0};persist();render();}};
@@ -89,6 +99,7 @@ function render(){
  document.getElementById('check').onclick=()=>{const values=state.responses[q.number]||[];const selected=values.filter(Boolean);if(new Set(selected).size!==selected.length){document.getElementById('feedback').innerHTML='<p class="notice" dir="rtl">יש לבחור כל פריט פעם אחת בלבד בקבוצה.</p>';return;}state.checked[q.number]=true;persist();feedback(q);};feedback(q);
  if(q.number===14)document.getElementById('finish').onclick=()=>{state.finished=true;persist();show(deck.length-1);};
  }else renderSummary();
+ reader.sync();
  stage.scrollTop=0;
 }
 function renderSummary(){
@@ -107,9 +118,12 @@ function exportText(){
 function show(n){n=Math.max(0,Math.min(deck.length-1,n));if(n===deck.length-1&&!state.finished)return;state.slide=n;persist();render();stage.focus({preventScroll:true});}
 const rows=lineHTML(lines);
 document.getElementById('article-text').innerHTML=rows;
-document.getElementById('show-article').onclick=()=>dialog.showModal();document.getElementById('close-article').onclick=()=>dialog.close();
+document.getElementById('show-article').onclick=()=>{reader.reset();dialog.showModal();reader.sync();};
+document.getElementById('close-article').onclick=()=>dialog.close();
+dialog.addEventListener('close',()=>reader.reset());
+stage.addEventListener('toggle',e=>{if(e.target.matches('.excerpt')&&!e.target.open)reader.reset();else reader.sync();},true);
 document.getElementById('prev').onclick=()=>show(state.slide-1);document.getElementById('next').onclick=()=>show(state.slide+1);jump.onchange=e=>show(Number(e.target.value));
-document.addEventListener('keydown',e=>{if(dialog.open||e.altKey||e.ctrlKey||e.metaKey||e.target.closest('input,textarea,select,button,a,summary,[contenteditable]'))return;if(['ArrowRight','PageDown'].includes(e.key)){e.preventDefault();show(state.slide+1);}if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(state.slide-1);}});
+document.addEventListener('keydown',e=>{if(dialog.open||e.altKey||e.ctrlKey||e.metaKey||e.target.closest('input,textarea,select,button,a,summary,[data-gloss],[contenteditable]'))return;if(['ArrowRight','PageDown'].includes(e.key)){e.preventDefault();show(state.slide+1);}if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(state.slide-1);}});
 let touch=null;stage.addEventListener('touchstart',e=>{if(e.target.closest('input,textarea,select,button,a,summary'))return;touch=e.touches.length===1?{x:e.touches[0].clientX,y:e.touches[0].clientY}:null;},{passive:true});
 stage.addEventListener('touchend',e=>{if(!touch||!e.changedTouches.length)return;const dx=e.changedTouches[0].clientX-touch.x,dy=e.changedTouches[0].clientY-touch.y;touch=null;if(Math.abs(dx)>80&&Math.abs(dx)>2*Math.abs(dy))show(state.slide+(dx<0?1:-1));},{passive:true});
 if(!Number.isInteger(state.slide)||state.slide<0||state.slide>=deck.length||(!state.finished&&state.slide===deck.length-1))state.slide=0;

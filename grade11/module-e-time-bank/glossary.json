@@ -1,0 +1,3358 @@
+{
+  "units": [
+    {
+      "id": 0,
+      "paragraph": 1,
+      "en": "People",
+      "he": "אנשים",
+      "start_word": 0,
+      "end_word": 0
+    },
+    {
+      "id": 1,
+      "paragraph": 1,
+      "en": "usually",
+      "he": "בדרך כלל",
+      "start_word": 1,
+      "end_word": 1
+    },
+    {
+      "id": 2,
+      "paragraph": 1,
+      "en": "pay money",
+      "he": "משלמים כסף",
+      "start_word": 2,
+      "end_word": 3
+    },
+    {
+      "id": 3,
+      "paragraph": 1,
+      "en": "when",
+      "he": "כאשר",
+      "start_word": 4,
+      "end_word": 4
+    },
+    {
+      "id": 4,
+      "paragraph": 1,
+      "en": "they need",
+      "he": "הם צריכים",
+      "start_word": 5,
+      "end_word": 6
+    },
+    {
+      "id": 5,
+      "paragraph": 1,
+      "en": "someone",
+      "he": "מישהו",
+      "start_word": 7,
+      "end_word": 7
+    },
+    {
+      "id": 6,
+      "paragraph": 1,
+      "en": "to repair a chair",
+      "he": "לתקן כיסא",
+      "start_word": 8,
+      "end_word": 11
+    },
+    {
+      "id": 7,
+      "paragraph": 1,
+      "en": "or",
+      "he": "או",
+      "start_word": 12,
+      "end_word": 12
+    },
+    {
+      "id": 8,
+      "paragraph": 1,
+      "en": "teach them",
+      "he": "ללמד אותם",
+      "start_word": 13,
+      "end_word": 14
+    },
+    {
+      "id": 9,
+      "paragraph": 1,
+      "en": "a new skill.",
+      "he": "מיומנות חדשה",
+      "start_word": 15,
+      "end_word": 17
+    },
+    {
+      "id": 10,
+      "paragraph": 1,
+      "en": "However,",
+      "he": "אולם",
+      "start_word": 18,
+      "end_word": 18
+    },
+    {
+      "id": 11,
+      "paragraph": 1,
+      "en": "residents",
+      "he": "תושבים",
+      "start_word": 19,
+      "end_word": 19
+    },
+    {
+      "id": 12,
+      "paragraph": 1,
+      "en": "of the town of Brookfield",
+      "he": "של העיירה ברוקפילד",
+      "start_word": 20,
+      "end_word": 24
+    },
+    {
+      "id": 13,
+      "paragraph": 1,
+      "en": "have another option.",
+      "he": "יש להם אפשרות אחרת",
+      "start_word": 25,
+      "end_word": 27
+    },
+    {
+      "id": 14,
+      "paragraph": 1,
+      "en": "They can join",
+      "he": "הם יכולים להצטרף",
+      "start_word": 28,
+      "end_word": 30
+    },
+    {
+      "id": 15,
+      "paragraph": 1,
+      "en": "a \"time bank,\"",
+      "he": "ל״בנק זמן״",
+      "start_word": 31,
+      "end_word": 33
+    },
+    {
+      "id": 16,
+      "paragraph": 1,
+      "en": "a program",
+      "he": "תוכנית",
+      "start_word": 34,
+      "end_word": 35
+    },
+    {
+      "id": 17,
+      "paragraph": 1,
+      "en": "in which",
+      "he": "שבה",
+      "start_word": 36,
+      "end_word": 37
+    },
+    {
+      "id": 18,
+      "paragraph": 1,
+      "en": "people exchange help",
+      "he": "אנשים מחליפים ביניהם עזרה",
+      "start_word": 38,
+      "end_word": 40
+    },
+    {
+      "id": 19,
+      "paragraph": 1,
+      "en": "without using money.",
+      "he": "בלי להשתמש בכסף",
+      "start_word": 41,
+      "end_word": 43
+    },
+    {
+      "id": 20,
+      "paragraph": 1,
+      "en": "Members earn",
+      "he": "החברים צוברים",
+      "start_word": 44,
+      "end_word": 45
+    },
+    {
+      "id": 21,
+      "paragraph": 1,
+      "en": "one time credit",
+      "he": "נקודת זמן אחת",
+      "start_word": 46,
+      "end_word": 48
+    },
+    {
+      "id": 22,
+      "paragraph": 1,
+      "en": "for every hour",
+      "he": "על כל שעה",
+      "start_word": 49,
+      "end_word": 51
+    },
+    {
+      "id": 23,
+      "paragraph": 1,
+      "en": "they spend helping someone.",
+      "he": "שהם מקדישים לעזרה למישהו",
+      "start_word": 52,
+      "end_word": 55
+    },
+    {
+      "id": 24,
+      "paragraph": 1,
+      "en": "They can then",
+      "he": "לאחר מכן הם יכולים",
+      "start_word": 56,
+      "end_word": 58
+    },
+    {
+      "id": 25,
+      "paragraph": 1,
+      "en": "use their credits",
+      "he": "להשתמש בנקודות שלהם",
+      "start_word": 59,
+      "end_word": 61
+    },
+    {
+      "id": 26,
+      "paragraph": 1,
+      "en": "to receive help",
+      "he": "כדי לקבל עזרה",
+      "start_word": 62,
+      "end_word": 64
+    },
+    {
+      "id": 27,
+      "paragraph": 1,
+      "en": "from other members.",
+      "he": "מחברים אחרים",
+      "start_word": 65,
+      "end_word": 67
+    },
+    {
+      "id": 28,
+      "paragraph": 1,
+      "en": "The program aims",
+      "he": "התוכנית שואפת",
+      "start_word": 68,
+      "end_word": 70
+    },
+    {
+      "id": 29,
+      "paragraph": 1,
+      "en": "to bring neighbors together",
+      "he": "לקרב בין שכנים",
+      "start_word": 71,
+      "end_word": 74
+    },
+    {
+      "id": 30,
+      "paragraph": 1,
+      "en": "by giving everyone",
+      "he": "כשנותנים לכולם",
+      "start_word": 75,
+      "end_word": 77
+    },
+    {
+      "id": 31,
+      "paragraph": 1,
+      "en": "an opportunity to contribute.",
+      "he": "הזדמנות לתרום",
+      "start_word": 78,
+      "end_word": 81
+    },
+    {
+      "id": 32,
+      "paragraph": 2,
+      "en": "To join,",
+      "he": "כדי להצטרף",
+      "start_word": 82,
+      "end_word": 83
+    },
+    {
+      "id": 33,
+      "paragraph": 2,
+      "en": "residents complete a form",
+      "he": "התושבים ממלאים טופס",
+      "start_word": 84,
+      "end_word": 87
+    },
+    {
+      "id": 34,
+      "paragraph": 2,
+      "en": "describing",
+      "he": "המתאר",
+      "start_word": 88,
+      "end_word": 88
+    },
+    {
+      "id": 35,
+      "paragraph": 2,
+      "en": "the skills they can offer",
+      "he": "את המיומנויות שהם יכולים להציע",
+      "start_word": 89,
+      "end_word": 93
+    },
+    {
+      "id": 36,
+      "paragraph": 2,
+      "en": "and",
+      "he": "וגם",
+      "start_word": 94,
+      "end_word": 94
+    },
+    {
+      "id": 37,
+      "paragraph": 2,
+      "en": "the help they need.",
+      "he": "את העזרה שהם צריכים",
+      "start_word": 95,
+      "end_word": 98
+    },
+    {
+      "id": 38,
+      "paragraph": 2,
+      "en": "A coordinator",
+      "he": "רכז",
+      "start_word": 99,
+      "end_word": 100
+    },
+    {
+      "id": 39,
+      "paragraph": 2,
+      "en": "uses this information",
+      "he": "משתמש במידע הזה",
+      "start_word": 101,
+      "end_word": 103
+    },
+    {
+      "id": 40,
+      "paragraph": 2,
+      "en": "to connect members.",
+      "he": "כדי לקשר בין החברים",
+      "start_word": 104,
+      "end_word": 106
+    },
+    {
+      "id": 41,
+      "paragraph": 2,
+      "en": "An hour of gardening",
+      "he": "שעה של עבודות גינון",
+      "start_word": 107,
+      "end_word": 110
+    },
+    {
+      "id": 42,
+      "paragraph": 2,
+      "en": "earns the same credit",
+      "he": "מזכה באותה נקודת זמן",
+      "start_word": 111,
+      "end_word": 114
+    },
+    {
+      "id": 43,
+      "paragraph": 2,
+      "en": "as an hour of computer lessons,",
+      "he": "כמו שעה של שיעורי מחשב",
+      "start_word": 115,
+      "end_word": 120
+    },
+    {
+      "id": 44,
+      "paragraph": 2,
+      "en": "even if",
+      "he": "גם אם",
+      "start_word": 121,
+      "end_word": 122
+    },
+    {
+      "id": 45,
+      "paragraph": 2,
+      "en": "one of these services",
+      "he": "אחד מהשירותים האלה",
+      "start_word": 123,
+      "end_word": 126
+    },
+    {
+      "id": 46,
+      "paragraph": 2,
+      "en": "usually costs more.",
+      "he": "עולה בדרך כלל יותר",
+      "start_word": 127,
+      "end_word": 129
+    },
+    {
+      "id": 47,
+      "paragraph": 2,
+      "en": "Members do not have to",
+      "he": "החברים אינם חייבים",
+      "start_word": 130,
+      "end_word": 134
+    },
+    {
+      "id": 48,
+      "paragraph": 2,
+      "en": "help the person",
+      "he": "לעזור לאדם",
+      "start_word": 135,
+      "end_word": 137
+    },
+    {
+      "id": 49,
+      "paragraph": 2,
+      "en": "who helped them.",
+      "he": "שעזר להם",
+      "start_word": 138,
+      "end_word": 140
+    },
+    {
+      "id": 50,
+      "paragraph": 2,
+      "en": "For example,",
+      "he": "למשל",
+      "start_word": 141,
+      "end_word": 142
+    },
+    {
+      "id": 51,
+      "paragraph": 2,
+      "en": "someone who repairs a bicycle",
+      "he": "מישהו שמתקן אופניים",
+      "start_word": 143,
+      "end_word": 147
+    },
+    {
+      "id": 52,
+      "paragraph": 2,
+      "en": "can use the credit",
+      "he": "יכול להשתמש בנקודה",
+      "start_word": 148,
+      "end_word": 151
+    },
+    {
+      "id": 53,
+      "paragraph": 2,
+      "en": "to get cooking lessons",
+      "he": "כדי לקבל שיעורי בישול",
+      "start_word": 152,
+      "end_word": 155
+    },
+    {
+      "id": 54,
+      "paragraph": 2,
+      "en": "from a different member.",
+      "he": "מחבר אחר",
+      "start_word": 156,
+      "end_word": 159
+    },
+    {
+      "id": 55,
+      "paragraph": 3,
+      "en": "When the program began,",
+      "he": "כאשר התוכנית החלה",
+      "start_word": 160,
+      "end_word": 163
+    },
+    {
+      "id": 56,
+      "paragraph": 3,
+      "en": "fewer people joined",
+      "he": "הצטרפו פחות אנשים",
+      "start_word": 164,
+      "end_word": 166
+    },
+    {
+      "id": 57,
+      "paragraph": 3,
+      "en": "than the organizers had expected.",
+      "he": "מכפי שהמארגנים ציפו",
+      "start_word": 167,
+      "end_word": 171
+    },
+    {
+      "id": 58,
+      "paragraph": 3,
+      "en": "At first,",
+      "he": "בתחילה",
+      "start_word": 172,
+      "end_word": 173
+    },
+    {
+      "id": 59,
+      "paragraph": 3,
+      "en": "the organizers thought",
+      "he": "המארגנים חשבו",
+      "start_word": 174,
+      "end_word": 176
+    },
+    {
+      "id": 60,
+      "paragraph": 3,
+      "en": "residents were too busy",
+      "he": "שהתושבים היו עסוקים מדי",
+      "start_word": 177,
+      "end_word": 180
+    },
+    {
+      "id": 61,
+      "paragraph": 3,
+      "en": "to take part.",
+      "he": "מכדי להשתתף",
+      "start_word": 181,
+      "end_word": 183
+    },
+    {
+      "id": 62,
+      "paragraph": 3,
+      "en": "However,",
+      "he": "אולם",
+      "start_word": 184,
+      "end_word": 184
+    },
+    {
+      "id": 63,
+      "paragraph": 3,
+      "en": "conversations with local people",
+      "he": "שיחות עם התושבים המקומיים",
+      "start_word": 185,
+      "end_word": 188
+    },
+    {
+      "id": 64,
+      "paragraph": 3,
+      "en": "revealed a different problem:",
+      "he": "חשפו בעיה אחרת",
+      "start_word": 189,
+      "end_word": 192
+    },
+    {
+      "id": 65,
+      "paragraph": 3,
+      "en": "many believed",
+      "he": "רבים האמינו",
+      "start_word": 193,
+      "end_word": 194
+    },
+    {
+      "id": 66,
+      "paragraph": 3,
+      "en": "they had nothing useful to offer.",
+      "he": "שאין להם שום דבר מועיל להציע",
+      "start_word": 195,
+      "end_word": 200
+    },
+    {
+      "id": 67,
+      "paragraph": 3,
+      "en": "In response,",
+      "he": "בתגובה",
+      "start_word": 201,
+      "end_word": 202
+    },
+    {
+      "id": 68,
+      "paragraph": 3,
+      "en": "the organizers held meetings",
+      "he": "המארגנים קיימו מפגשים",
+      "start_word": 203,
+      "end_word": 206
+    },
+    {
+      "id": 69,
+      "paragraph": 3,
+      "en": "where they gave examples",
+      "he": "שבהם נתנו דוגמאות",
+      "start_word": 207,
+      "end_word": 210
+    },
+    {
+      "id": 70,
+      "paragraph": 3,
+      "en": "of simple tasks,",
+      "he": "למשימות פשוטות",
+      "start_word": 211,
+      "end_word": 213
+    },
+    {
+      "id": 71,
+      "paragraph": 3,
+      "en": "such as",
+      "he": "כגון",
+      "start_word": 214,
+      "end_word": 215
+    },
+    {
+      "id": 72,
+      "paragraph": 3,
+      "en": "watering plants",
+      "he": "השקיית צמחים",
+      "start_word": 216,
+      "end_word": 217
+    },
+    {
+      "id": 73,
+      "paragraph": 3,
+      "en": "while a neighbor was away.",
+      "he": "כאשר שכן נעדר מהבית",
+      "start_word": 218,
+      "end_word": 222
+    },
+    {
+      "id": 74,
+      "paragraph": 3,
+      "en": "More residents joined",
+      "he": "תושבים נוספים הצטרפו",
+      "start_word": 223,
+      "end_word": 225
+    },
+    {
+      "id": 75,
+      "paragraph": 3,
+      "en": "after they realized",
+      "he": "אחרי שהבינו",
+      "start_word": 226,
+      "end_word": 228
+    },
+    {
+      "id": 76,
+      "paragraph": 3,
+      "en": "that professional training",
+      "he": "שהכשרה מקצועית",
+      "start_word": 229,
+      "end_word": 231
+    },
+    {
+      "id": 77,
+      "paragraph": 3,
+      "en": "was not necessary.",
+      "he": "אינה נחוצה",
+      "start_word": 232,
+      "end_word": 234
+    },
+    {
+      "id": 78,
+      "paragraph": 4,
+      "en": "One of the new members",
+      "he": "אחד החברים החדשים",
+      "start_word": 235,
+      "end_word": 239
+    },
+    {
+      "id": 79,
+      "paragraph": 4,
+      "en": "was sixteen-year-old Adam,",
+      "he": "היה אדם בן השש־עשרה",
+      "start_word": 240,
+      "end_word": 242
+    },
+    {
+      "id": 80,
+      "paragraph": 4,
+      "en": "who helped an older resident",
+      "he": "שעזר לתושבת מבוגרת",
+      "start_word": 243,
+      "end_word": 247
+    },
+    {
+      "id": 81,
+      "paragraph": 4,
+      "en": "organize photographs",
+      "he": "לסדר תמונות",
+      "start_word": 248,
+      "end_word": 249
+    },
+    {
+      "id": 82,
+      "paragraph": 4,
+      "en": "on her phone.",
+      "he": "בטלפון שלה",
+      "start_word": 250,
+      "end_word": 252
+    },
+    {
+      "id": 83,
+      "paragraph": 4,
+      "en": "Later,",
+      "he": "מאוחר יותר",
+      "start_word": 253,
+      "end_word": 253
+    },
+    {
+      "id": 84,
+      "paragraph": 4,
+      "en": "he used his credits",
+      "he": "הוא השתמש בנקודות שלו",
+      "start_word": 254,
+      "end_word": 257
+    },
+    {
+      "id": 85,
+      "paragraph": 4,
+      "en": "to receive help",
+      "he": "כדי לקבל עזרה",
+      "start_word": 258,
+      "end_word": 260
+    },
+    {
+      "id": 86,
+      "paragraph": 4,
+      "en": "preparing for a job interview",
+      "he": "בהכנה לראיון עבודה",
+      "start_word": 261,
+      "end_word": 265
+    },
+    {
+      "id": 87,
+      "paragraph": 4,
+      "en": "from another member,",
+      "he": "מחבר אחר",
+      "start_word": 266,
+      "end_word": 268
+    },
+    {
+      "id": 88,
+      "paragraph": 4,
+      "en": "a retired manager.",
+      "he": "מנהל שיצא לגמלאות",
+      "start_word": 269,
+      "end_word": 271
+    },
+    {
+      "id": 89,
+      "paragraph": 4,
+      "en": "Adam had originally joined",
+      "he": "אדם הצטרף מלכתחילה",
+      "start_word": 272,
+      "end_word": 275
+    },
+    {
+      "id": 90,
+      "paragraph": 4,
+      "en": "to gain practical experience,",
+      "he": "כדי לצבור ניסיון מעשי",
+      "start_word": 276,
+      "end_word": 279
+    },
+    {
+      "id": 91,
+      "paragraph": 4,
+      "en": "but he discovered",
+      "he": "אך הוא גילה",
+      "start_word": 280,
+      "end_word": 282
+    },
+    {
+      "id": 92,
+      "paragraph": 4,
+      "en": "an additional benefit.",
+      "he": "יתרון נוסף",
+      "start_word": 283,
+      "end_word": 285
+    },
+    {
+      "id": 93,
+      "paragraph": 4,
+      "en": "Before joining,",
+      "he": "לפני שהצטרף",
+      "start_word": 286,
+      "end_word": 287
+    },
+    {
+      "id": 94,
+      "paragraph": 4,
+      "en": "he rarely spoke",
+      "he": "הוא דיבר לעיתים רחוקות",
+      "start_word": 288,
+      "end_word": 290
+    },
+    {
+      "id": 95,
+      "paragraph": 4,
+      "en": "to the adults on his street.",
+      "he": "עם המבוגרים ברחוב שלו",
+      "start_word": 291,
+      "end_word": 296
+    },
+    {
+      "id": 96,
+      "paragraph": 4,
+      "en": "Now,",
+      "he": "כעת",
+      "start_word": 297,
+      "end_word": 297
+    },
+    {
+      "id": 97,
+      "paragraph": 4,
+      "en": "he feels more comfortable",
+      "he": "הוא מרגיש בנוח יותר",
+      "start_word": 298,
+      "end_word": 301
+    },
+    {
+      "id": 98,
+      "paragraph": 4,
+      "en": "asking them for advice,",
+      "he": "לבקש מהם עצה",
+      "start_word": 302,
+      "end_word": 305
+    },
+    {
+      "id": 99,
+      "paragraph": 4,
+      "en": "and several",
+      "he": "וכמה מהם",
+      "start_word": 306,
+      "end_word": 307
+    },
+    {
+      "id": 100,
+      "paragraph": 4,
+      "en": "have asked him for help",
+      "he": "ביקשו ממנו עזרה",
+      "start_word": 308,
+      "end_word": 312
+    },
+    {
+      "id": 101,
+      "paragraph": 4,
+      "en": "with their phones.",
+      "he": "בטלפונים שלהם",
+      "start_word": 313,
+      "end_word": 315
+    },
+    {
+      "id": 102,
+      "paragraph": 5,
+      "en": "The time bank",
+      "he": "בנק הזמן",
+      "start_word": 316,
+      "end_word": 318
+    },
+    {
+      "id": 103,
+      "paragraph": 5,
+      "en": "still faces difficulties.",
+      "he": "עדיין מתמודד עם קשיים",
+      "start_word": 319,
+      "end_word": 321
+    },
+    {
+      "id": 104,
+      "paragraph": 5,
+      "en": "Some requests",
+      "he": "חלק מהבקשות",
+      "start_word": 322,
+      "end_word": 323
+    },
+    {
+      "id": 105,
+      "paragraph": 5,
+      "en": "remain unanswered",
+      "he": "נותרות ללא מענה",
+      "start_word": 324,
+      "end_word": 325
+    },
+    {
+      "id": 106,
+      "paragraph": 5,
+      "en": "because nobody",
+      "he": "מפני שאף אחד",
+      "start_word": 326,
+      "end_word": 327
+    },
+    {
+      "id": 107,
+      "paragraph": 5,
+      "en": "with the right skills",
+      "he": "בעל המיומנויות המתאימות",
+      "start_word": 328,
+      "end_word": 331
+    },
+    {
+      "id": 108,
+      "paragraph": 5,
+      "en": "is available.",
+      "he": "אינו פנוי",
+      "start_word": 332,
+      "end_word": 333
+    },
+    {
+      "id": 109,
+      "paragraph": 5,
+      "en": "In addition,",
+      "he": "בנוסף",
+      "start_word": 334,
+      "end_word": 335
+    },
+    {
+      "id": 110,
+      "paragraph": 5,
+      "en": "members sometimes cancel arrangements",
+      "he": "חברים לפעמים מבטלים סיכומים שנקבעו",
+      "start_word": 336,
+      "end_word": 339
+    },
+    {
+      "id": 111,
+      "paragraph": 5,
+      "en": "at the last minute,",
+      "he": "ברגע האחרון",
+      "start_word": 340,
+      "end_word": 343
+    },
+    {
+      "id": 112,
+      "paragraph": 5,
+      "en": "leaving others",
+      "he": "ומשאירים אחרים",
+      "start_word": 344,
+      "end_word": 345
+    },
+    {
+      "id": 113,
+      "paragraph": 5,
+      "en": "without the help they expected.",
+      "he": "ללא העזרה שציפו לה",
+      "start_word": 346,
+      "end_word": 350
+    },
+    {
+      "id": 114,
+      "paragraph": 5,
+      "en": "The organizers are considering",
+      "he": "המארגנים שוקלים",
+      "start_word": 351,
+      "end_word": 354
+    },
+    {
+      "id": 115,
+      "paragraph": 5,
+      "en": "a reminder system,",
+      "he": "מערכת תזכורות",
+      "start_word": 355,
+      "end_word": 357
+    },
+    {
+      "id": 116,
+      "paragraph": 5,
+      "en": "but they have not introduced it yet.",
+      "he": "אך הם עדיין לא הפעילו אותה",
+      "start_word": 358,
+      "end_word": 364
+    },
+    {
+      "id": 117,
+      "paragraph": 5,
+      "en": "Although the program",
+      "he": "אף שהתוכנית",
+      "start_word": 365,
+      "end_word": 367
+    },
+    {
+      "id": 118,
+      "paragraph": 5,
+      "en": "cannot replace every paid service,",
+      "he": "אינה יכולה להחליף כל שירות בתשלום",
+      "start_word": 368,
+      "end_word": 372
+    },
+    {
+      "id": 119,
+      "paragraph": 5,
+      "en": "they believe",
+      "he": "הם מאמינים",
+      "start_word": 373,
+      "end_word": 374
+    },
+    {
+      "id": 120,
+      "paragraph": 5,
+      "en": "it offers something valuable:",
+      "he": "שהיא מציעה דבר בעל ערך",
+      "start_word": 375,
+      "end_word": 378
+    },
+    {
+      "id": 121,
+      "paragraph": 5,
+      "en": "a chance for people",
+      "he": "הזדמנות לאנשים",
+      "start_word": 379,
+      "end_word": 382
+    },
+    {
+      "id": 122,
+      "paragraph": 5,
+      "en": "to recognize abilities",
+      "he": "לזהות יכולות",
+      "start_word": 383,
+      "end_word": 385
+    },
+    {
+      "id": 123,
+      "paragraph": 5,
+      "en": "in themselves",
+      "he": "בעצמם",
+      "start_word": 386,
+      "end_word": 387
+    },
+    {
+      "id": 124,
+      "paragraph": 5,
+      "en": "and in their neighbors.",
+      "he": "ובשכניהם",
+      "start_word": 388,
+      "end_word": 391
+    }
+  ],
+  "words": [
+    {
+      "id": 0,
+      "text": "People",
+      "gloss": 0,
+      "paragraph": 1
+    },
+    {
+      "id": 1,
+      "text": "usually",
+      "gloss": 1,
+      "paragraph": 1
+    },
+    {
+      "id": 2,
+      "text": "pay",
+      "gloss": 2,
+      "paragraph": 1
+    },
+    {
+      "id": 3,
+      "text": "money",
+      "gloss": 2,
+      "paragraph": 1
+    },
+    {
+      "id": 4,
+      "text": "when",
+      "gloss": 3,
+      "paragraph": 1
+    },
+    {
+      "id": 5,
+      "text": "they",
+      "gloss": 4,
+      "paragraph": 1
+    },
+    {
+      "id": 6,
+      "text": "need",
+      "gloss": 4,
+      "paragraph": 1
+    },
+    {
+      "id": 7,
+      "text": "someone",
+      "gloss": 5,
+      "paragraph": 1
+    },
+    {
+      "id": 8,
+      "text": "to",
+      "gloss": 6,
+      "paragraph": 1
+    },
+    {
+      "id": 9,
+      "text": "repair",
+      "gloss": 6,
+      "paragraph": 1
+    },
+    {
+      "id": 10,
+      "text": "a",
+      "gloss": 6,
+      "paragraph": 1
+    },
+    {
+      "id": 11,
+      "text": "chair",
+      "gloss": 6,
+      "paragraph": 1
+    },
+    {
+      "id": 12,
+      "text": "or",
+      "gloss": 7,
+      "paragraph": 1
+    },
+    {
+      "id": 13,
+      "text": "teach",
+      "gloss": 8,
+      "paragraph": 1
+    },
+    {
+      "id": 14,
+      "text": "them",
+      "gloss": 8,
+      "paragraph": 1
+    },
+    {
+      "id": 15,
+      "text": "a",
+      "gloss": 9,
+      "paragraph": 1
+    },
+    {
+      "id": 16,
+      "text": "new",
+      "gloss": 9,
+      "paragraph": 1
+    },
+    {
+      "id": 17,
+      "text": "skill.",
+      "gloss": 9,
+      "paragraph": 1
+    },
+    {
+      "id": 18,
+      "text": "However,",
+      "gloss": 10,
+      "paragraph": 1
+    },
+    {
+      "id": 19,
+      "text": "residents",
+      "gloss": 11,
+      "paragraph": 1
+    },
+    {
+      "id": 20,
+      "text": "of",
+      "gloss": 12,
+      "paragraph": 1
+    },
+    {
+      "id": 21,
+      "text": "the",
+      "gloss": 12,
+      "paragraph": 1
+    },
+    {
+      "id": 22,
+      "text": "town",
+      "gloss": 12,
+      "paragraph": 1
+    },
+    {
+      "id": 23,
+      "text": "of",
+      "gloss": 12,
+      "paragraph": 1
+    },
+    {
+      "id": 24,
+      "text": "Brookfield",
+      "gloss": 12,
+      "paragraph": 1
+    },
+    {
+      "id": 25,
+      "text": "have",
+      "gloss": 13,
+      "paragraph": 1
+    },
+    {
+      "id": 26,
+      "text": "another",
+      "gloss": 13,
+      "paragraph": 1
+    },
+    {
+      "id": 27,
+      "text": "option.",
+      "gloss": 13,
+      "paragraph": 1
+    },
+    {
+      "id": 28,
+      "text": "They",
+      "gloss": 14,
+      "paragraph": 1
+    },
+    {
+      "id": 29,
+      "text": "can",
+      "gloss": 14,
+      "paragraph": 1
+    },
+    {
+      "id": 30,
+      "text": "join",
+      "gloss": 14,
+      "paragraph": 1
+    },
+    {
+      "id": 31,
+      "text": "a",
+      "gloss": 15,
+      "paragraph": 1
+    },
+    {
+      "id": 32,
+      "text": "\"time",
+      "gloss": 15,
+      "paragraph": 1
+    },
+    {
+      "id": 33,
+      "text": "bank,\"",
+      "gloss": 15,
+      "paragraph": 1
+    },
+    {
+      "id": 34,
+      "text": "a",
+      "gloss": 16,
+      "paragraph": 1
+    },
+    {
+      "id": 35,
+      "text": "program",
+      "gloss": 16,
+      "paragraph": 1
+    },
+    {
+      "id": 36,
+      "text": "in",
+      "gloss": 17,
+      "paragraph": 1
+    },
+    {
+      "id": 37,
+      "text": "which",
+      "gloss": 17,
+      "paragraph": 1
+    },
+    {
+      "id": 38,
+      "text": "people",
+      "gloss": 18,
+      "paragraph": 1
+    },
+    {
+      "id": 39,
+      "text": "exchange",
+      "gloss": 18,
+      "paragraph": 1
+    },
+    {
+      "id": 40,
+      "text": "help",
+      "gloss": 18,
+      "paragraph": 1
+    },
+    {
+      "id": 41,
+      "text": "without",
+      "gloss": 19,
+      "paragraph": 1
+    },
+    {
+      "id": 42,
+      "text": "using",
+      "gloss": 19,
+      "paragraph": 1
+    },
+    {
+      "id": 43,
+      "text": "money.",
+      "gloss": 19,
+      "paragraph": 1
+    },
+    {
+      "id": 44,
+      "text": "Members",
+      "gloss": 20,
+      "paragraph": 1
+    },
+    {
+      "id": 45,
+      "text": "earn",
+      "gloss": 20,
+      "paragraph": 1
+    },
+    {
+      "id": 46,
+      "text": "one",
+      "gloss": 21,
+      "paragraph": 1
+    },
+    {
+      "id": 47,
+      "text": "time",
+      "gloss": 21,
+      "paragraph": 1
+    },
+    {
+      "id": 48,
+      "text": "credit",
+      "gloss": 21,
+      "paragraph": 1
+    },
+    {
+      "id": 49,
+      "text": "for",
+      "gloss": 22,
+      "paragraph": 1
+    },
+    {
+      "id": 50,
+      "text": "every",
+      "gloss": 22,
+      "paragraph": 1
+    },
+    {
+      "id": 51,
+      "text": "hour",
+      "gloss": 22,
+      "paragraph": 1
+    },
+    {
+      "id": 52,
+      "text": "they",
+      "gloss": 23,
+      "paragraph": 1
+    },
+    {
+      "id": 53,
+      "text": "spend",
+      "gloss": 23,
+      "paragraph": 1
+    },
+    {
+      "id": 54,
+      "text": "helping",
+      "gloss": 23,
+      "paragraph": 1
+    },
+    {
+      "id": 55,
+      "text": "someone.",
+      "gloss": 23,
+      "paragraph": 1
+    },
+    {
+      "id": 56,
+      "text": "They",
+      "gloss": 24,
+      "paragraph": 1
+    },
+    {
+      "id": 57,
+      "text": "can",
+      "gloss": 24,
+      "paragraph": 1
+    },
+    {
+      "id": 58,
+      "text": "then",
+      "gloss": 24,
+      "paragraph": 1
+    },
+    {
+      "id": 59,
+      "text": "use",
+      "gloss": 25,
+      "paragraph": 1
+    },
+    {
+      "id": 60,
+      "text": "their",
+      "gloss": 25,
+      "paragraph": 1
+    },
+    {
+      "id": 61,
+      "text": "credits",
+      "gloss": 25,
+      "paragraph": 1
+    },
+    {
+      "id": 62,
+      "text": "to",
+      "gloss": 26,
+      "paragraph": 1
+    },
+    {
+      "id": 63,
+      "text": "receive",
+      "gloss": 26,
+      "paragraph": 1
+    },
+    {
+      "id": 64,
+      "text": "help",
+      "gloss": 26,
+      "paragraph": 1
+    },
+    {
+      "id": 65,
+      "text": "from",
+      "gloss": 27,
+      "paragraph": 1
+    },
+    {
+      "id": 66,
+      "text": "other",
+      "gloss": 27,
+      "paragraph": 1
+    },
+    {
+      "id": 67,
+      "text": "members.",
+      "gloss": 27,
+      "paragraph": 1
+    },
+    {
+      "id": 68,
+      "text": "The",
+      "gloss": 28,
+      "paragraph": 1
+    },
+    {
+      "id": 69,
+      "text": "program",
+      "gloss": 28,
+      "paragraph": 1
+    },
+    {
+      "id": 70,
+      "text": "aims",
+      "gloss": 28,
+      "paragraph": 1
+    },
+    {
+      "id": 71,
+      "text": "to",
+      "gloss": 29,
+      "paragraph": 1
+    },
+    {
+      "id": 72,
+      "text": "bring",
+      "gloss": 29,
+      "paragraph": 1
+    },
+    {
+      "id": 73,
+      "text": "neighbors",
+      "gloss": 29,
+      "paragraph": 1
+    },
+    {
+      "id": 74,
+      "text": "together",
+      "gloss": 29,
+      "paragraph": 1
+    },
+    {
+      "id": 75,
+      "text": "by",
+      "gloss": 30,
+      "paragraph": 1
+    },
+    {
+      "id": 76,
+      "text": "giving",
+      "gloss": 30,
+      "paragraph": 1
+    },
+    {
+      "id": 77,
+      "text": "everyone",
+      "gloss": 30,
+      "paragraph": 1
+    },
+    {
+      "id": 78,
+      "text": "an",
+      "gloss": 31,
+      "paragraph": 1
+    },
+    {
+      "id": 79,
+      "text": "opportunity",
+      "gloss": 31,
+      "paragraph": 1
+    },
+    {
+      "id": 80,
+      "text": "to",
+      "gloss": 31,
+      "paragraph": 1
+    },
+    {
+      "id": 81,
+      "text": "contribute.",
+      "gloss": 31,
+      "paragraph": 1
+    },
+    {
+      "id": 82,
+      "text": "To",
+      "gloss": 32,
+      "paragraph": 2
+    },
+    {
+      "id": 83,
+      "text": "join,",
+      "gloss": 32,
+      "paragraph": 2
+    },
+    {
+      "id": 84,
+      "text": "residents",
+      "gloss": 33,
+      "paragraph": 2
+    },
+    {
+      "id": 85,
+      "text": "complete",
+      "gloss": 33,
+      "paragraph": 2
+    },
+    {
+      "id": 86,
+      "text": "a",
+      "gloss": 33,
+      "paragraph": 2
+    },
+    {
+      "id": 87,
+      "text": "form",
+      "gloss": 33,
+      "paragraph": 2
+    },
+    {
+      "id": 88,
+      "text": "describing",
+      "gloss": 34,
+      "paragraph": 2
+    },
+    {
+      "id": 89,
+      "text": "the",
+      "gloss": 35,
+      "paragraph": 2
+    },
+    {
+      "id": 90,
+      "text": "skills",
+      "gloss": 35,
+      "paragraph": 2
+    },
+    {
+      "id": 91,
+      "text": "they",
+      "gloss": 35,
+      "paragraph": 2
+    },
+    {
+      "id": 92,
+      "text": "can",
+      "gloss": 35,
+      "paragraph": 2
+    },
+    {
+      "id": 93,
+      "text": "offer",
+      "gloss": 35,
+      "paragraph": 2
+    },
+    {
+      "id": 94,
+      "text": "and",
+      "gloss": 36,
+      "paragraph": 2
+    },
+    {
+      "id": 95,
+      "text": "the",
+      "gloss": 37,
+      "paragraph": 2
+    },
+    {
+      "id": 96,
+      "text": "help",
+      "gloss": 37,
+      "paragraph": 2
+    },
+    {
+      "id": 97,
+      "text": "they",
+      "gloss": 37,
+      "paragraph": 2
+    },
+    {
+      "id": 98,
+      "text": "need.",
+      "gloss": 37,
+      "paragraph": 2
+    },
+    {
+      "id": 99,
+      "text": "A",
+      "gloss": 38,
+      "paragraph": 2
+    },
+    {
+      "id": 100,
+      "text": "coordinator",
+      "gloss": 38,
+      "paragraph": 2
+    },
+    {
+      "id": 101,
+      "text": "uses",
+      "gloss": 39,
+      "paragraph": 2
+    },
+    {
+      "id": 102,
+      "text": "this",
+      "gloss": 39,
+      "paragraph": 2
+    },
+    {
+      "id": 103,
+      "text": "information",
+      "gloss": 39,
+      "paragraph": 2
+    },
+    {
+      "id": 104,
+      "text": "to",
+      "gloss": 40,
+      "paragraph": 2
+    },
+    {
+      "id": 105,
+      "text": "connect",
+      "gloss": 40,
+      "paragraph": 2
+    },
+    {
+      "id": 106,
+      "text": "members.",
+      "gloss": 40,
+      "paragraph": 2
+    },
+    {
+      "id": 107,
+      "text": "An",
+      "gloss": 41,
+      "paragraph": 2
+    },
+    {
+      "id": 108,
+      "text": "hour",
+      "gloss": 41,
+      "paragraph": 2
+    },
+    {
+      "id": 109,
+      "text": "of",
+      "gloss": 41,
+      "paragraph": 2
+    },
+    {
+      "id": 110,
+      "text": "gardening",
+      "gloss": 41,
+      "paragraph": 2
+    },
+    {
+      "id": 111,
+      "text": "earns",
+      "gloss": 42,
+      "paragraph": 2
+    },
+    {
+      "id": 112,
+      "text": "the",
+      "gloss": 42,
+      "paragraph": 2
+    },
+    {
+      "id": 113,
+      "text": "same",
+      "gloss": 42,
+      "paragraph": 2
+    },
+    {
+      "id": 114,
+      "text": "credit",
+      "gloss": 42,
+      "paragraph": 2
+    },
+    {
+      "id": 115,
+      "text": "as",
+      "gloss": 43,
+      "paragraph": 2
+    },
+    {
+      "id": 116,
+      "text": "an",
+      "gloss": 43,
+      "paragraph": 2
+    },
+    {
+      "id": 117,
+      "text": "hour",
+      "gloss": 43,
+      "paragraph": 2
+    },
+    {
+      "id": 118,
+      "text": "of",
+      "gloss": 43,
+      "paragraph": 2
+    },
+    {
+      "id": 119,
+      "text": "computer",
+      "gloss": 43,
+      "paragraph": 2
+    },
+    {
+      "id": 120,
+      "text": "lessons,",
+      "gloss": 43,
+      "paragraph": 2
+    },
+    {
+      "id": 121,
+      "text": "even",
+      "gloss": 44,
+      "paragraph": 2
+    },
+    {
+      "id": 122,
+      "text": "if",
+      "gloss": 44,
+      "paragraph": 2
+    },
+    {
+      "id": 123,
+      "text": "one",
+      "gloss": 45,
+      "paragraph": 2
+    },
+    {
+      "id": 124,
+      "text": "of",
+      "gloss": 45,
+      "paragraph": 2
+    },
+    {
+      "id": 125,
+      "text": "these",
+      "gloss": 45,
+      "paragraph": 2
+    },
+    {
+      "id": 126,
+      "text": "services",
+      "gloss": 45,
+      "paragraph": 2
+    },
+    {
+      "id": 127,
+      "text": "usually",
+      "gloss": 46,
+      "paragraph": 2
+    },
+    {
+      "id": 128,
+      "text": "costs",
+      "gloss": 46,
+      "paragraph": 2
+    },
+    {
+      "id": 129,
+      "text": "more.",
+      "gloss": 46,
+      "paragraph": 2
+    },
+    {
+      "id": 130,
+      "text": "Members",
+      "gloss": 47,
+      "paragraph": 2
+    },
+    {
+      "id": 131,
+      "text": "do",
+      "gloss": 47,
+      "paragraph": 2
+    },
+    {
+      "id": 132,
+      "text": "not",
+      "gloss": 47,
+      "paragraph": 2
+    },
+    {
+      "id": 133,
+      "text": "have",
+      "gloss": 47,
+      "paragraph": 2
+    },
+    {
+      "id": 134,
+      "text": "to",
+      "gloss": 47,
+      "paragraph": 2
+    },
+    {
+      "id": 135,
+      "text": "help",
+      "gloss": 48,
+      "paragraph": 2
+    },
+    {
+      "id": 136,
+      "text": "the",
+      "gloss": 48,
+      "paragraph": 2
+    },
+    {
+      "id": 137,
+      "text": "person",
+      "gloss": 48,
+      "paragraph": 2
+    },
+    {
+      "id": 138,
+      "text": "who",
+      "gloss": 49,
+      "paragraph": 2
+    },
+    {
+      "id": 139,
+      "text": "helped",
+      "gloss": 49,
+      "paragraph": 2
+    },
+    {
+      "id": 140,
+      "text": "them.",
+      "gloss": 49,
+      "paragraph": 2
+    },
+    {
+      "id": 141,
+      "text": "For",
+      "gloss": 50,
+      "paragraph": 2
+    },
+    {
+      "id": 142,
+      "text": "example,",
+      "gloss": 50,
+      "paragraph": 2
+    },
+    {
+      "id": 143,
+      "text": "someone",
+      "gloss": 51,
+      "paragraph": 2
+    },
+    {
+      "id": 144,
+      "text": "who",
+      "gloss": 51,
+      "paragraph": 2
+    },
+    {
+      "id": 145,
+      "text": "repairs",
+      "gloss": 51,
+      "paragraph": 2
+    },
+    {
+      "id": 146,
+      "text": "a",
+      "gloss": 51,
+      "paragraph": 2
+    },
+    {
+      "id": 147,
+      "text": "bicycle",
+      "gloss": 51,
+      "paragraph": 2
+    },
+    {
+      "id": 148,
+      "text": "can",
+      "gloss": 52,
+      "paragraph": 2
+    },
+    {
+      "id": 149,
+      "text": "use",
+      "gloss": 52,
+      "paragraph": 2
+    },
+    {
+      "id": 150,
+      "text": "the",
+      "gloss": 52,
+      "paragraph": 2
+    },
+    {
+      "id": 151,
+      "text": "credit",
+      "gloss": 52,
+      "paragraph": 2
+    },
+    {
+      "id": 152,
+      "text": "to",
+      "gloss": 53,
+      "paragraph": 2
+    },
+    {
+      "id": 153,
+      "text": "get",
+      "gloss": 53,
+      "paragraph": 2
+    },
+    {
+      "id": 154,
+      "text": "cooking",
+      "gloss": 53,
+      "paragraph": 2
+    },
+    {
+      "id": 155,
+      "text": "lessons",
+      "gloss": 53,
+      "paragraph": 2
+    },
+    {
+      "id": 156,
+      "text": "from",
+      "gloss": 54,
+      "paragraph": 2
+    },
+    {
+      "id": 157,
+      "text": "a",
+      "gloss": 54,
+      "paragraph": 2
+    },
+    {
+      "id": 158,
+      "text": "different",
+      "gloss": 54,
+      "paragraph": 2
+    },
+    {
+      "id": 159,
+      "text": "member.",
+      "gloss": 54,
+      "paragraph": 2
+    },
+    {
+      "id": 160,
+      "text": "When",
+      "gloss": 55,
+      "paragraph": 3
+    },
+    {
+      "id": 161,
+      "text": "the",
+      "gloss": 55,
+      "paragraph": 3
+    },
+    {
+      "id": 162,
+      "text": "program",
+      "gloss": 55,
+      "paragraph": 3
+    },
+    {
+      "id": 163,
+      "text": "began,",
+      "gloss": 55,
+      "paragraph": 3
+    },
+    {
+      "id": 164,
+      "text": "fewer",
+      "gloss": 56,
+      "paragraph": 3
+    },
+    {
+      "id": 165,
+      "text": "people",
+      "gloss": 56,
+      "paragraph": 3
+    },
+    {
+      "id": 166,
+      "text": "joined",
+      "gloss": 56,
+      "paragraph": 3
+    },
+    {
+      "id": 167,
+      "text": "than",
+      "gloss": 57,
+      "paragraph": 3
+    },
+    {
+      "id": 168,
+      "text": "the",
+      "gloss": 57,
+      "paragraph": 3
+    },
+    {
+      "id": 169,
+      "text": "organizers",
+      "gloss": 57,
+      "paragraph": 3
+    },
+    {
+      "id": 170,
+      "text": "had",
+      "gloss": 57,
+      "paragraph": 3
+    },
+    {
+      "id": 171,
+      "text": "expected.",
+      "gloss": 57,
+      "paragraph": 3
+    },
+    {
+      "id": 172,
+      "text": "At",
+      "gloss": 58,
+      "paragraph": 3
+    },
+    {
+      "id": 173,
+      "text": "first,",
+      "gloss": 58,
+      "paragraph": 3
+    },
+    {
+      "id": 174,
+      "text": "the",
+      "gloss": 59,
+      "paragraph": 3
+    },
+    {
+      "id": 175,
+      "text": "organizers",
+      "gloss": 59,
+      "paragraph": 3
+    },
+    {
+      "id": 176,
+      "text": "thought",
+      "gloss": 59,
+      "paragraph": 3
+    },
+    {
+      "id": 177,
+      "text": "residents",
+      "gloss": 60,
+      "paragraph": 3
+    },
+    {
+      "id": 178,
+      "text": "were",
+      "gloss": 60,
+      "paragraph": 3
+    },
+    {
+      "id": 179,
+      "text": "too",
+      "gloss": 60,
+      "paragraph": 3
+    },
+    {
+      "id": 180,
+      "text": "busy",
+      "gloss": 60,
+      "paragraph": 3
+    },
+    {
+      "id": 181,
+      "text": "to",
+      "gloss": 61,
+      "paragraph": 3
+    },
+    {
+      "id": 182,
+      "text": "take",
+      "gloss": 61,
+      "paragraph": 3
+    },
+    {
+      "id": 183,
+      "text": "part.",
+      "gloss": 61,
+      "paragraph": 3
+    },
+    {
+      "id": 184,
+      "text": "However,",
+      "gloss": 62,
+      "paragraph": 3
+    },
+    {
+      "id": 185,
+      "text": "conversations",
+      "gloss": 63,
+      "paragraph": 3
+    },
+    {
+      "id": 186,
+      "text": "with",
+      "gloss": 63,
+      "paragraph": 3
+    },
+    {
+      "id": 187,
+      "text": "local",
+      "gloss": 63,
+      "paragraph": 3
+    },
+    {
+      "id": 188,
+      "text": "people",
+      "gloss": 63,
+      "paragraph": 3
+    },
+    {
+      "id": 189,
+      "text": "revealed",
+      "gloss": 64,
+      "paragraph": 3
+    },
+    {
+      "id": 190,
+      "text": "a",
+      "gloss": 64,
+      "paragraph": 3
+    },
+    {
+      "id": 191,
+      "text": "different",
+      "gloss": 64,
+      "paragraph": 3
+    },
+    {
+      "id": 192,
+      "text": "problem:",
+      "gloss": 64,
+      "paragraph": 3
+    },
+    {
+      "id": 193,
+      "text": "many",
+      "gloss": 65,
+      "paragraph": 3
+    },
+    {
+      "id": 194,
+      "text": "believed",
+      "gloss": 65,
+      "paragraph": 3
+    },
+    {
+      "id": 195,
+      "text": "they",
+      "gloss": 66,
+      "paragraph": 3
+    },
+    {
+      "id": 196,
+      "text": "had",
+      "gloss": 66,
+      "paragraph": 3
+    },
+    {
+      "id": 197,
+      "text": "nothing",
+      "gloss": 66,
+      "paragraph": 3
+    },
+    {
+      "id": 198,
+      "text": "useful",
+      "gloss": 66,
+      "paragraph": 3
+    },
+    {
+      "id": 199,
+      "text": "to",
+      "gloss": 66,
+      "paragraph": 3
+    },
+    {
+      "id": 200,
+      "text": "offer.",
+      "gloss": 66,
+      "paragraph": 3
+    },
+    {
+      "id": 201,
+      "text": "In",
+      "gloss": 67,
+      "paragraph": 3
+    },
+    {
+      "id": 202,
+      "text": "response,",
+      "gloss": 67,
+      "paragraph": 3
+    },
+    {
+      "id": 203,
+      "text": "the",
+      "gloss": 68,
+      "paragraph": 3
+    },
+    {
+      "id": 204,
+      "text": "organizers",
+      "gloss": 68,
+      "paragraph": 3
+    },
+    {
+      "id": 205,
+      "text": "held",
+      "gloss": 68,
+      "paragraph": 3
+    },
+    {
+      "id": 206,
+      "text": "meetings",
+      "gloss": 68,
+      "paragraph": 3
+    },
+    {
+      "id": 207,
+      "text": "where",
+      "gloss": 69,
+      "paragraph": 3
+    },
+    {
+      "id": 208,
+      "text": "they",
+      "gloss": 69,
+      "paragraph": 3
+    },
+    {
+      "id": 209,
+      "text": "gave",
+      "gloss": 69,
+      "paragraph": 3
+    },
+    {
+      "id": 210,
+      "text": "examples",
+      "gloss": 69,
+      "paragraph": 3
+    },
+    {
+      "id": 211,
+      "text": "of",
+      "gloss": 70,
+      "paragraph": 3
+    },
+    {
+      "id": 212,
+      "text": "simple",
+      "gloss": 70,
+      "paragraph": 3
+    },
+    {
+      "id": 213,
+      "text": "tasks,",
+      "gloss": 70,
+      "paragraph": 3
+    },
+    {
+      "id": 214,
+      "text": "such",
+      "gloss": 71,
+      "paragraph": 3
+    },
+    {
+      "id": 215,
+      "text": "as",
+      "gloss": 71,
+      "paragraph": 3
+    },
+    {
+      "id": 216,
+      "text": "watering",
+      "gloss": 72,
+      "paragraph": 3
+    },
+    {
+      "id": 217,
+      "text": "plants",
+      "gloss": 72,
+      "paragraph": 3
+    },
+    {
+      "id": 218,
+      "text": "while",
+      "gloss": 73,
+      "paragraph": 3
+    },
+    {
+      "id": 219,
+      "text": "a",
+      "gloss": 73,
+      "paragraph": 3
+    },
+    {
+      "id": 220,
+      "text": "neighbor",
+      "gloss": 73,
+      "paragraph": 3
+    },
+    {
+      "id": 221,
+      "text": "was",
+      "gloss": 73,
+      "paragraph": 3
+    },
+    {
+      "id": 222,
+      "text": "away.",
+      "gloss": 73,
+      "paragraph": 3
+    },
+    {
+      "id": 223,
+      "text": "More",
+      "gloss": 74,
+      "paragraph": 3
+    },
+    {
+      "id": 224,
+      "text": "residents",
+      "gloss": 74,
+      "paragraph": 3
+    },
+    {
+      "id": 225,
+      "text": "joined",
+      "gloss": 74,
+      "paragraph": 3
+    },
+    {
+      "id": 226,
+      "text": "after",
+      "gloss": 75,
+      "paragraph": 3
+    },
+    {
+      "id": 227,
+      "text": "they",
+      "gloss": 75,
+      "paragraph": 3
+    },
+    {
+      "id": 228,
+      "text": "realized",
+      "gloss": 75,
+      "paragraph": 3
+    },
+    {
+      "id": 229,
+      "text": "that",
+      "gloss": 76,
+      "paragraph": 3
+    },
+    {
+      "id": 230,
+      "text": "professional",
+      "gloss": 76,
+      "paragraph": 3
+    },
+    {
+      "id": 231,
+      "text": "training",
+      "gloss": 76,
+      "paragraph": 3
+    },
+    {
+      "id": 232,
+      "text": "was",
+      "gloss": 77,
+      "paragraph": 3
+    },
+    {
+      "id": 233,
+      "text": "not",
+      "gloss": 77,
+      "paragraph": 3
+    },
+    {
+      "id": 234,
+      "text": "necessary.",
+      "gloss": 77,
+      "paragraph": 3
+    },
+    {
+      "id": 235,
+      "text": "One",
+      "gloss": 78,
+      "paragraph": 4
+    },
+    {
+      "id": 236,
+      "text": "of",
+      "gloss": 78,
+      "paragraph": 4
+    },
+    {
+      "id": 237,
+      "text": "the",
+      "gloss": 78,
+      "paragraph": 4
+    },
+    {
+      "id": 238,
+      "text": "new",
+      "gloss": 78,
+      "paragraph": 4
+    },
+    {
+      "id": 239,
+      "text": "members",
+      "gloss": 78,
+      "paragraph": 4
+    },
+    {
+      "id": 240,
+      "text": "was",
+      "gloss": 79,
+      "paragraph": 4
+    },
+    {
+      "id": 241,
+      "text": "sixteen-year-old",
+      "gloss": 79,
+      "paragraph": 4
+    },
+    {
+      "id": 242,
+      "text": "Adam,",
+      "gloss": 79,
+      "paragraph": 4
+    },
+    {
+      "id": 243,
+      "text": "who",
+      "gloss": 80,
+      "paragraph": 4
+    },
+    {
+      "id": 244,
+      "text": "helped",
+      "gloss": 80,
+      "paragraph": 4
+    },
+    {
+      "id": 245,
+      "text": "an",
+      "gloss": 80,
+      "paragraph": 4
+    },
+    {
+      "id": 246,
+      "text": "older",
+      "gloss": 80,
+      "paragraph": 4
+    },
+    {
+      "id": 247,
+      "text": "resident",
+      "gloss": 80,
+      "paragraph": 4
+    },
+    {
+      "id": 248,
+      "text": "organize",
+      "gloss": 81,
+      "paragraph": 4
+    },
+    {
+      "id": 249,
+      "text": "photographs",
+      "gloss": 81,
+      "paragraph": 4
+    },
+    {
+      "id": 250,
+      "text": "on",
+      "gloss": 82,
+      "paragraph": 4
+    },
+    {
+      "id": 251,
+      "text": "her",
+      "gloss": 82,
+      "paragraph": 4
+    },
+    {
+      "id": 252,
+      "text": "phone.",
+      "gloss": 82,
+      "paragraph": 4
+    },
+    {
+      "id": 253,
+      "text": "Later,",
+      "gloss": 83,
+      "paragraph": 4
+    },
+    {
+      "id": 254,
+      "text": "he",
+      "gloss": 84,
+      "paragraph": 4
+    },
+    {
+      "id": 255,
+      "text": "used",
+      "gloss": 84,
+      "paragraph": 4
+    },
+    {
+      "id": 256,
+      "text": "his",
+      "gloss": 84,
+      "paragraph": 4
+    },
+    {
+      "id": 257,
+      "text": "credits",
+      "gloss": 84,
+      "paragraph": 4
+    },
+    {
+      "id": 258,
+      "text": "to",
+      "gloss": 85,
+      "paragraph": 4
+    },
+    {
+      "id": 259,
+      "text": "receive",
+      "gloss": 85,
+      "paragraph": 4
+    },
+    {
+      "id": 260,
+      "text": "help",
+      "gloss": 85,
+      "paragraph": 4
+    },
+    {
+      "id": 261,
+      "text": "preparing",
+      "gloss": 86,
+      "paragraph": 4
+    },
+    {
+      "id": 262,
+      "text": "for",
+      "gloss": 86,
+      "paragraph": 4
+    },
+    {
+      "id": 263,
+      "text": "a",
+      "gloss": 86,
+      "paragraph": 4
+    },
+    {
+      "id": 264,
+      "text": "job",
+      "gloss": 86,
+      "paragraph": 4
+    },
+    {
+      "id": 265,
+      "text": "interview",
+      "gloss": 86,
+      "paragraph": 4
+    },
+    {
+      "id": 266,
+      "text": "from",
+      "gloss": 87,
+      "paragraph": 4
+    },
+    {
+      "id": 267,
+      "text": "another",
+      "gloss": 87,
+      "paragraph": 4
+    },
+    {
+      "id": 268,
+      "text": "member,",
+      "gloss": 87,
+      "paragraph": 4
+    },
+    {
+      "id": 269,
+      "text": "a",
+      "gloss": 88,
+      "paragraph": 4
+    },
+    {
+      "id": 270,
+      "text": "retired",
+      "gloss": 88,
+      "paragraph": 4
+    },
+    {
+      "id": 271,
+      "text": "manager.",
+      "gloss": 88,
+      "paragraph": 4
+    },
+    {
+      "id": 272,
+      "text": "Adam",
+      "gloss": 89,
+      "paragraph": 4
+    },
+    {
+      "id": 273,
+      "text": "had",
+      "gloss": 89,
+      "paragraph": 4
+    },
+    {
+      "id": 274,
+      "text": "originally",
+      "gloss": 89,
+      "paragraph": 4
+    },
+    {
+      "id": 275,
+      "text": "joined",
+      "gloss": 89,
+      "paragraph": 4
+    },
+    {
+      "id": 276,
+      "text": "to",
+      "gloss": 90,
+      "paragraph": 4
+    },
+    {
+      "id": 277,
+      "text": "gain",
+      "gloss": 90,
+      "paragraph": 4
+    },
+    {
+      "id": 278,
+      "text": "practical",
+      "gloss": 90,
+      "paragraph": 4
+    },
+    {
+      "id": 279,
+      "text": "experience,",
+      "gloss": 90,
+      "paragraph": 4
+    },
+    {
+      "id": 280,
+      "text": "but",
+      "gloss": 91,
+      "paragraph": 4
+    },
+    {
+      "id": 281,
+      "text": "he",
+      "gloss": 91,
+      "paragraph": 4
+    },
+    {
+      "id": 282,
+      "text": "discovered",
+      "gloss": 91,
+      "paragraph": 4
+    },
+    {
+      "id": 283,
+      "text": "an",
+      "gloss": 92,
+      "paragraph": 4
+    },
+    {
+      "id": 284,
+      "text": "additional",
+      "gloss": 92,
+      "paragraph": 4
+    },
+    {
+      "id": 285,
+      "text": "benefit.",
+      "gloss": 92,
+      "paragraph": 4
+    },
+    {
+      "id": 286,
+      "text": "Before",
+      "gloss": 93,
+      "paragraph": 4
+    },
+    {
+      "id": 287,
+      "text": "joining,",
+      "gloss": 93,
+      "paragraph": 4
+    },
+    {
+      "id": 288,
+      "text": "he",
+      "gloss": 94,
+      "paragraph": 4
+    },
+    {
+      "id": 289,
+      "text": "rarely",
+      "gloss": 94,
+      "paragraph": 4
+    },
+    {
+      "id": 290,
+      "text": "spoke",
+      "gloss": 94,
+      "paragraph": 4
+    },
+    {
+      "id": 291,
+      "text": "to",
+      "gloss": 95,
+      "paragraph": 4
+    },
+    {
+      "id": 292,
+      "text": "the",
+      "gloss": 95,
+      "paragraph": 4
+    },
+    {
+      "id": 293,
+      "text": "adults",
+      "gloss": 95,
+      "paragraph": 4
+    },
+    {
+      "id": 294,
+      "text": "on",
+      "gloss": 95,
+      "paragraph": 4
+    },
+    {
+      "id": 295,
+      "text": "his",
+      "gloss": 95,
+      "paragraph": 4
+    },
+    {
+      "id": 296,
+      "text": "street.",
+      "gloss": 95,
+      "paragraph": 4
+    },
+    {
+      "id": 297,
+      "text": "Now,",
+      "gloss": 96,
+      "paragraph": 4
+    },
+    {
+      "id": 298,
+      "text": "he",
+      "gloss": 97,
+      "paragraph": 4
+    },
+    {
+      "id": 299,
+      "text": "feels",
+      "gloss": 97,
+      "paragraph": 4
+    },
+    {
+      "id": 300,
+      "text": "more",
+      "gloss": 97,
+      "paragraph": 4
+    },
+    {
+      "id": 301,
+      "text": "comfortable",
+      "gloss": 97,
+      "paragraph": 4
+    },
+    {
+      "id": 302,
+      "text": "asking",
+      "gloss": 98,
+      "paragraph": 4
+    },
+    {
+      "id": 303,
+      "text": "them",
+      "gloss": 98,
+      "paragraph": 4
+    },
+    {
+      "id": 304,
+      "text": "for",
+      "gloss": 98,
+      "paragraph": 4
+    },
+    {
+      "id": 305,
+      "text": "advice,",
+      "gloss": 98,
+      "paragraph": 4
+    },
+    {
+      "id": 306,
+      "text": "and",
+      "gloss": 99,
+      "paragraph": 4
+    },
+    {
+      "id": 307,
+      "text": "several",
+      "gloss": 99,
+      "paragraph": 4
+    },
+    {
+      "id": 308,
+      "text": "have",
+      "gloss": 100,
+      "paragraph": 4
+    },
+    {
+      "id": 309,
+      "text": "asked",
+      "gloss": 100,
+      "paragraph": 4
+    },
+    {
+      "id": 310,
+      "text": "him",
+      "gloss": 100,
+      "paragraph": 4
+    },
+    {
+      "id": 311,
+      "text": "for",
+      "gloss": 100,
+      "paragraph": 4
+    },
+    {
+      "id": 312,
+      "text": "help",
+      "gloss": 100,
+      "paragraph": 4
+    },
+    {
+      "id": 313,
+      "text": "with",
+      "gloss": 101,
+      "paragraph": 4
+    },
+    {
+      "id": 314,
+      "text": "their",
+      "gloss": 101,
+      "paragraph": 4
+    },
+    {
+      "id": 315,
+      "text": "phones.",
+      "gloss": 101,
+      "paragraph": 4
+    },
+    {
+      "id": 316,
+      "text": "The",
+      "gloss": 102,
+      "paragraph": 5
+    },
+    {
+      "id": 317,
+      "text": "time",
+      "gloss": 102,
+      "paragraph": 5
+    },
+    {
+      "id": 318,
+      "text": "bank",
+      "gloss": 102,
+      "paragraph": 5
+    },
+    {
+      "id": 319,
+      "text": "still",
+      "gloss": 103,
+      "paragraph": 5
+    },
+    {
+      "id": 320,
+      "text": "faces",
+      "gloss": 103,
+      "paragraph": 5
+    },
+    {
+      "id": 321,
+      "text": "difficulties.",
+      "gloss": 103,
+      "paragraph": 5
+    },
+    {
+      "id": 322,
+      "text": "Some",
+      "gloss": 104,
+      "paragraph": 5
+    },
+    {
+      "id": 323,
+      "text": "requests",
+      "gloss": 104,
+      "paragraph": 5
+    },
+    {
+      "id": 324,
+      "text": "remain",
+      "gloss": 105,
+      "paragraph": 5
+    },
+    {
+      "id": 325,
+      "text": "unanswered",
+      "gloss": 105,
+      "paragraph": 5
+    },
+    {
+      "id": 326,
+      "text": "because",
+      "gloss": 106,
+      "paragraph": 5
+    },
+    {
+      "id": 327,
+      "text": "nobody",
+      "gloss": 106,
+      "paragraph": 5
+    },
+    {
+      "id": 328,
+      "text": "with",
+      "gloss": 107,
+      "paragraph": 5
+    },
+    {
+      "id": 329,
+      "text": "the",
+      "gloss": 107,
+      "paragraph": 5
+    },
+    {
+      "id": 330,
+      "text": "right",
+      "gloss": 107,
+      "paragraph": 5
+    },
+    {
+      "id": 331,
+      "text": "skills",
+      "gloss": 107,
+      "paragraph": 5
+    },
+    {
+      "id": 332,
+      "text": "is",
+      "gloss": 108,
+      "paragraph": 5
+    },
+    {
+      "id": 333,
+      "text": "available.",
+      "gloss": 108,
+      "paragraph": 5
+    },
+    {
+      "id": 334,
+      "text": "In",
+      "gloss": 109,
+      "paragraph": 5
+    },
+    {
+      "id": 335,
+      "text": "addition,",
+      "gloss": 109,
+      "paragraph": 5
+    },
+    {
+      "id": 336,
+      "text": "members",
+      "gloss": 110,
+      "paragraph": 5
+    },
+    {
+      "id": 337,
+      "text": "sometimes",
+      "gloss": 110,
+      "paragraph": 5
+    },
+    {
+      "id": 338,
+      "text": "cancel",
+      "gloss": 110,
+      "paragraph": 5
+    },
+    {
+      "id": 339,
+      "text": "arrangements",
+      "gloss": 110,
+      "paragraph": 5
+    },
+    {
+      "id": 340,
+      "text": "at",
+      "gloss": 111,
+      "paragraph": 5
+    },
+    {
+      "id": 341,
+      "text": "the",
+      "gloss": 111,
+      "paragraph": 5
+    },
+    {
+      "id": 342,
+      "text": "last",
+      "gloss": 111,
+      "paragraph": 5
+    },
+    {
+      "id": 343,
+      "text": "minute,",
+      "gloss": 111,
+      "paragraph": 5
+    },
+    {
+      "id": 344,
+      "text": "leaving",
+      "gloss": 112,
+      "paragraph": 5
+    },
+    {
+      "id": 345,
+      "text": "others",
+      "gloss": 112,
+      "paragraph": 5
+    },
+    {
+      "id": 346,
+      "text": "without",
+      "gloss": 113,
+      "paragraph": 5
+    },
+    {
+      "id": 347,
+      "text": "the",
+      "gloss": 113,
+      "paragraph": 5
+    },
+    {
+      "id": 348,
+      "text": "help",
+      "gloss": 113,
+      "paragraph": 5
+    },
+    {
+      "id": 349,
+      "text": "they",
+      "gloss": 113,
+      "paragraph": 5
+    },
+    {
+      "id": 350,
+      "text": "expected.",
+      "gloss": 113,
+      "paragraph": 5
+    },
+    {
+      "id": 351,
+      "text": "The",
+      "gloss": 114,
+      "paragraph": 5
+    },
+    {
+      "id": 352,
+      "text": "organizers",
+      "gloss": 114,
+      "paragraph": 5
+    },
+    {
+      "id": 353,
+      "text": "are",
+      "gloss": 114,
+      "paragraph": 5
+    },
+    {
+      "id": 354,
+      "text": "considering",
+      "gloss": 114,
+      "paragraph": 5
+    },
+    {
+      "id": 355,
+      "text": "a",
+      "gloss": 115,
+      "paragraph": 5
+    },
+    {
+      "id": 356,
+      "text": "reminder",
+      "gloss": 115,
+      "paragraph": 5
+    },
+    {
+      "id": 357,
+      "text": "system,",
+      "gloss": 115,
+      "paragraph": 5
+    },
+    {
+      "id": 358,
+      "text": "but",
+      "gloss": 116,
+      "paragraph": 5
+    },
+    {
+      "id": 359,
+      "text": "they",
+      "gloss": 116,
+      "paragraph": 5
+    },
+    {
+      "id": 360,
+      "text": "have",
+      "gloss": 116,
+      "paragraph": 5
+    },
+    {
+      "id": 361,
+      "text": "not",
+      "gloss": 116,
+      "paragraph": 5
+    },
+    {
+      "id": 362,
+      "text": "introduced",
+      "gloss": 116,
+      "paragraph": 5
+    },
+    {
+      "id": 363,
+      "text": "it",
+      "gloss": 116,
+      "paragraph": 5
+    },
+    {
+      "id": 364,
+      "text": "yet.",
+      "gloss": 116,
+      "paragraph": 5
+    },
+    {
+      "id": 365,
+      "text": "Although",
+      "gloss": 117,
+      "paragraph": 5
+    },
+    {
+      "id": 366,
+      "text": "the",
+      "gloss": 117,
+      "paragraph": 5
+    },
+    {
+      "id": 367,
+      "text": "program",
+      "gloss": 117,
+      "paragraph": 5
+    },
+    {
+      "id": 368,
+      "text": "cannot",
+      "gloss": 118,
+      "paragraph": 5
+    },
+    {
+      "id": 369,
+      "text": "replace",
+      "gloss": 118,
+      "paragraph": 5
+    },
+    {
+      "id": 370,
+      "text": "every",
+      "gloss": 118,
+      "paragraph": 5
+    },
+    {
+      "id": 371,
+      "text": "paid",
+      "gloss": 118,
+      "paragraph": 5
+    },
+    {
+      "id": 372,
+      "text": "service,",
+      "gloss": 118,
+      "paragraph": 5
+    },
+    {
+      "id": 373,
+      "text": "they",
+      "gloss": 119,
+      "paragraph": 5
+    },
+    {
+      "id": 374,
+      "text": "believe",
+      "gloss": 119,
+      "paragraph": 5
+    },
+    {
+      "id": 375,
+      "text": "it",
+      "gloss": 120,
+      "paragraph": 5
+    },
+    {
+      "id": 376,
+      "text": "offers",
+      "gloss": 120,
+      "paragraph": 5
+    },
+    {
+      "id": 377,
+      "text": "something",
+      "gloss": 120,
+      "paragraph": 5
+    },
+    {
+      "id": 378,
+      "text": "valuable:",
+      "gloss": 120,
+      "paragraph": 5
+    },
+    {
+      "id": 379,
+      "text": "a",
+      "gloss": 121,
+      "paragraph": 5
+    },
+    {
+      "id": 380,
+      "text": "chance",
+      "gloss": 121,
+      "paragraph": 5
+    },
+    {
+      "id": 381,
+      "text": "for",
+      "gloss": 121,
+      "paragraph": 5
+    },
+    {
+      "id": 382,
+      "text": "people",
+      "gloss": 121,
+      "paragraph": 5
+    },
+    {
+      "id": 383,
+      "text": "to",
+      "gloss": 122,
+      "paragraph": 5
+    },
+    {
+      "id": 384,
+      "text": "recognize",
+      "gloss": 122,
+      "paragraph": 5
+    },
+    {
+      "id": 385,
+      "text": "abilities",
+      "gloss": 122,
+      "paragraph": 5
+    },
+    {
+      "id": 386,
+      "text": "in",
+      "gloss": 123,
+      "paragraph": 5
+    },
+    {
+      "id": 387,
+      "text": "themselves",
+      "gloss": 123,
+      "paragraph": 5
+    },
+    {
+      "id": 388,
+      "text": "and",
+      "gloss": 124,
+      "paragraph": 5
+    },
+    {
+      "id": 389,
+      "text": "in",
+      "gloss": 124,
+      "paragraph": 5
+    },
+    {
+      "id": 390,
+      "text": "their",
+      "gloss": 124,
+      "paragraph": 5
+    },
+    {
+      "id": 391,
+      "text": "neighbors.",
+      "gloss": 124,
+      "paragraph": 5
+    }
+  ]
+}

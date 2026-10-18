@@ -11,7 +11,7 @@ Standalone full-exam supplement for **Bagrut Trap Killer**, Grade 11.
 
 ## Use
 
-Open `index.html` in a browser, or use the Grade 11 website. The HTML contains its own data and scripts and works offline. Keep `files/` beside it for the PDF downloads. The Grade 11 navigation link requires the live site.
+Open `index.html` in a browser, or use the Grade 11 website. The HTML contains its own data and scripts and works offline. Keep `files/` and `audio/` beside it for the PDF downloads and recordings. The Grade 11 navigation link requires the live site.
 
 The deck has 21 slides: introduction, 5 reading paragraphs, 9 reading questions, 5 vocabulary groups and a summary. Each numbered screen line corresponds to a PDF line; on narrow screens that line can wrap without changing its number. A full-text dialog and per-question line excerpts allow pupils to consult the article.
 
@@ -45,3 +45,13 @@ The text was shown to the teacher first. PDF layout was then rendered and inspec
 From the repository root, run `python tools/build_module_e_time_bank.py`, then `python tools/build_module_e_time_bank_html.py`. The PDF builder uses ReportLab and embedded DejaVu fonts. If text or typography changes, inspect the new PDF and update every question's line references before publishing.
 
 This supplement does not change the locked E20 question bank or other Trap Killer bank versions.
+
+## Hover translation and recorded Read Along (2026-10-18)
+
+The header's text button opens the complete article from all 21 slides. Each paragraph slide and each question's text excerpt also supports the reader. Hover, keyboard focus/Enter, or a phone tap on any word shows a contextual Hebrew gloss. All 392 words belong to 125 reviewed word/phrase glosses. Bubbles remain for 3.5 seconds and fade for 1 second. At most three full bubbles and three fading predecessors remain. Bubbles sit in an overlay above the text when space allows; they do not alter text geometry or printed line numbers. Hebrew support can be switched off with the translation checkbox.
+
+Five MP3 files contain prerecorded US English narration (Aria), with real engine word cues. The web page uses recorded media only, with no browser speech synthesis and no live TTS requests. Word highlights change foreground color only. The player divides the unchanged text into 77 natural reading chunks across 26 sentences, inserting wall-clock pauses of 1.5 seconds between chunks and 2 seconds between sentences. The speed selector offers 0.5, 0.75 (default), 1 and 1.25, without changing these pause durations. Pause/resume, replay and navigation cancellation are included. Opening/closing the article or changing slides preserves the questionnaire responses and stops the previous recording.
+
+Reader sources are `shared/read-along/inline-reader.js` and `.css`. They are opt-in and leave the existing shared engines unchanged. The HTML builder embeds these sources, `glossary.json` and `audio.json`, so the ZIP can run offline once extracted. `reading-phrases.json` defines semantic pause positions. Regenerate the five recordings with `python tools/build_module_e_time_bank_audio.py` (edge-tts 7.3.1 and ffmpeg), then rebuild the HTML. The PDF content and exam storage key stay unchanged.
+
+Validation: all five MP3 files decoded; all 392 spoken tokens aligned to the text; every word mapped to a Hebrew gloss; phrase ranges cover every word once; fixed gap durations tested at all four playback rates; pause/resume, delayed playback cancellation and exam scoring checked. Actual browser layout and speaker playback remain unverified in this environment.

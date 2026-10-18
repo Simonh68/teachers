@@ -1,0 +1,695 @@
+[
+  {
+    "paragraph": 1,
+    "sentence": 1,
+    "text": "People usually pay money",
+    "first": 0,
+    "last": 3,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 1,
+    "text": "when they need someone to repair a chair",
+    "first": 4,
+    "last": 11,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 1,
+    "text": "or teach them a new skill.",
+    "first": 12,
+    "last": 17,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 2,
+    "text": "However,",
+    "first": 18,
+    "last": 18,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 2,
+    "text": "residents of the town of Brookfield",
+    "first": 19,
+    "last": 24,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 2,
+    "text": "have another option.",
+    "first": 25,
+    "last": 27,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 3,
+    "text": "They can join a \"time bank,\"",
+    "first": 28,
+    "last": 33,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 3,
+    "text": "a program in which people exchange help",
+    "first": 34,
+    "last": 40,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 3,
+    "text": "without using money.",
+    "first": 41,
+    "last": 43,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 4,
+    "text": "Members earn one time credit",
+    "first": 44,
+    "last": 48,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 4,
+    "text": "for every hour they spend helping someone.",
+    "first": 49,
+    "last": 55,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 5,
+    "text": "They can then use their credits",
+    "first": 56,
+    "last": 61,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 5,
+    "text": "to receive help from other members.",
+    "first": 62,
+    "last": 67,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 6,
+    "text": "The program aims to bring neighbors together",
+    "first": 68,
+    "last": 74,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 6,
+    "text": "by giving everyone an opportunity to contribute.",
+    "first": 75,
+    "last": 81,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 7,
+    "text": "To join,",
+    "first": 82,
+    "last": 83,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 7,
+    "text": "residents complete a form",
+    "first": 84,
+    "last": 87,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 7,
+    "text": "describing the skills they can offer",
+    "first": 88,
+    "last": 93,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 7,
+    "text": "and the help they need.",
+    "first": 94,
+    "last": 98,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 8,
+    "text": "A coordinator uses this information",
+    "first": 99,
+    "last": 103,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 8,
+    "text": "to connect members.",
+    "first": 104,
+    "last": 106,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 9,
+    "text": "An hour of gardening earns the same credit",
+    "first": 107,
+    "last": 114,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 9,
+    "text": "as an hour of computer lessons,",
+    "first": 115,
+    "last": 120,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 9,
+    "text": "even if one of these services usually costs more.",
+    "first": 121,
+    "last": 129,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 10,
+    "text": "Members do not have to help",
+    "first": 130,
+    "last": 135,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 10,
+    "text": "the person who helped them.",
+    "first": 136,
+    "last": 140,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 11,
+    "text": "For example,",
+    "first": 141,
+    "last": 142,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 11,
+    "text": "someone who repairs a bicycle",
+    "first": 143,
+    "last": 147,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 11,
+    "text": "can use the credit to get cooking lessons",
+    "first": 148,
+    "last": 155,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 11,
+    "text": "from a different member.",
+    "first": 156,
+    "last": 159,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 12,
+    "text": "When the program began,",
+    "first": 160,
+    "last": 163,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 12,
+    "text": "fewer people joined",
+    "first": 164,
+    "last": 166,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 12,
+    "text": "than the organizers had expected.",
+    "first": 167,
+    "last": 171,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 13,
+    "text": "At first,",
+    "first": 172,
+    "last": 173,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 13,
+    "text": "the organizers thought",
+    "first": 174,
+    "last": 176,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 13,
+    "text": "residents were too busy to take part.",
+    "first": 177,
+    "last": 183,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 14,
+    "text": "However,",
+    "first": 184,
+    "last": 184,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 14,
+    "text": "conversations with local people",
+    "first": 185,
+    "last": 188,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 14,
+    "text": "revealed a different problem:",
+    "first": 189,
+    "last": 192,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 14,
+    "text": "many believed they had nothing useful to offer.",
+    "first": 193,
+    "last": 200,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 15,
+    "text": "In response,",
+    "first": 201,
+    "last": 202,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 15,
+    "text": "the organizers held meetings",
+    "first": 203,
+    "last": 206,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 15,
+    "text": "where they gave examples of simple tasks,",
+    "first": 207,
+    "last": 213,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 15,
+    "text": "such as watering plants",
+    "first": 214,
+    "last": 217,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 15,
+    "text": "while a neighbor was away.",
+    "first": 218,
+    "last": 222,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 16,
+    "text": "More residents joined",
+    "first": 223,
+    "last": 225,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 16,
+    "text": "after they realized",
+    "first": 226,
+    "last": 228,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 16,
+    "text": "that professional training was not necessary.",
+    "first": 229,
+    "last": 234,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 17,
+    "text": "One of the new members",
+    "first": 235,
+    "last": 239,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 17,
+    "text": "was sixteen-year-old Adam,",
+    "first": 240,
+    "last": 242,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 17,
+    "text": "who helped an older resident",
+    "first": 243,
+    "last": 247,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 17,
+    "text": "organize photographs on her phone.",
+    "first": 248,
+    "last": 252,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 18,
+    "text": "Later,",
+    "first": 253,
+    "last": 253,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 18,
+    "text": "he used his credits",
+    "first": 254,
+    "last": 257,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 18,
+    "text": "to receive help preparing for a job interview",
+    "first": 258,
+    "last": 265,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 18,
+    "text": "from another member, a retired manager.",
+    "first": 266,
+    "last": 271,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 19,
+    "text": "Adam had originally joined",
+    "first": 272,
+    "last": 275,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 19,
+    "text": "to gain practical experience,",
+    "first": 276,
+    "last": 279,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 19,
+    "text": "but he discovered an additional benefit.",
+    "first": 280,
+    "last": 285,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 20,
+    "text": "Before joining,",
+    "first": 286,
+    "last": 287,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 20,
+    "text": "he rarely spoke",
+    "first": 288,
+    "last": 290,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 20,
+    "text": "to the adults on his street.",
+    "first": 291,
+    "last": 296,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 21,
+    "text": "Now,",
+    "first": 297,
+    "last": 297,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 21,
+    "text": "he feels more comfortable asking them for advice,",
+    "first": 298,
+    "last": 305,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 21,
+    "text": "and several have asked him for help with their phones.",
+    "first": 306,
+    "last": 315,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 22,
+    "text": "The time bank still faces difficulties.",
+    "first": 316,
+    "last": 321,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 23,
+    "text": "Some requests remain unanswered",
+    "first": 322,
+    "last": 325,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 23,
+    "text": "because nobody with the right skills is available.",
+    "first": 326,
+    "last": 333,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 24,
+    "text": "In addition,",
+    "first": 334,
+    "last": 335,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 24,
+    "text": "members sometimes cancel arrangements at the last minute,",
+    "first": 336,
+    "last": 343,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 24,
+    "text": "leaving others without the help they expected.",
+    "first": 344,
+    "last": 350,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 25,
+    "text": "The organizers are considering a reminder system,",
+    "first": 351,
+    "last": 357,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 25,
+    "text": "but they have not introduced it yet.",
+    "first": 358,
+    "last": 364,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 26,
+    "text": "Although the program cannot replace every paid service,",
+    "first": 365,
+    "last": 372,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 26,
+    "text": "they believe it offers something valuable:",
+    "first": 373,
+    "last": 378,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 26,
+    "text": "a chance for people to recognize abilities",
+    "first": 379,
+    "last": 385,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 26,
+    "text": "in themselves and in their neighbors.",
+    "first": 386,
+    "last": 391,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  }
+]
