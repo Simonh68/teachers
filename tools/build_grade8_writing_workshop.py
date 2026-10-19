@@ -59,7 +59,7 @@ def head(c,n,title,part):
     en(c,part,M,H-92,W-2*M,11,True)
     rule(c,M,38,W-2*M)
     en(c,'The Monkey Festival | Part One A-F',M,25,450,8)
-    c.setFont('Body',8);c.drawRightString(W-M,25,f'{n} / 5')
+    c.setFont('Body',8);c.drawRightString(W-M,25,f'{n} / 4')
     return H-119
 
 ERRORS=[
@@ -108,26 +108,30 @@ def build_pdf():
         y-=height
     assert y>40,('matching page overflow',y)
     c.showPage()
-    # Pages 3-4: each response has two full-width lines, with lighter scaffolds later.
-    for page,start in [(3,0),(4,12)]:
-        y=head(c,page,'יוצרים משפטים','B  |  Build and write sentences')
-        y=he(c,'כתבו משפטים שלמים באנגלית. הוסיפו אות גדולה וסימן פיסוק.',W-M,y,W-2*M,11)-13
-        for i in range(start,start+12):
-            item=DATA['writing'][i]
-            if i==0: y=he(c,'סדרו את כל החלקים למשפט שלם.',W-M,y,W-2*M,10,True)-5
-            if i==4: y=he(c,'תרגמו לאנגלית לפי ההקשר בטקסט.',W-M,y,W-2*M,10,True)-5
-            if i in (8,12): y=he(c,'כתבו לפי ההנחיה. אפשר יותר מניסוח נכון אחד.',W-M,y,W-2*M,10,True)-5
-            en(c,f'{i+1}.',M,y,30,10.4,True)
-            if item['type']=='translate':
-                y=he(c,item['prompt'],W-M,y,W-2*M-30,10.5)
-            else:
-                y=en(c,item['prompt'],M+27,y,W-2*M-27,10.2,leading=13.8)
-            y-=4;rule(c,M+27,y,W-2*M-27);y-=15
-            rule(c,M+27,y,W-2*M-27);y-=15
-        assert y>40,('writing page overflow',page,y)
-        c.showPage()
-    # Page 5: 20 open questions with two writing lines for each.
-    y=head(c,5,'מבינים, מסבירים ועונים','C  |  Answer 20 questions')
+    # Page 3: all 24 writing tasks, each with one full-width response line.
+    y=head(c,3,'יוצרים משפטים','B  |  Build and write 24 sentences')
+    y=he(c,'כתבו משפטים שלמים באנגלית. הוסיפו אות גדולה וסימן פיסוק.',W-M,y,W-2*M,10.4)-1.5
+    for i,item in enumerate(DATA['writing']):
+        if i in (0,4,8):
+            label={0:'סדרו את כל החלקים למשפט שלם.',
+                   4:'תרגמו לאנגלית לפי ההקשר בטקסט.',
+                   8:'כתבו לפי ההנחיה. אפשר יותר מניסוח נכון אחד.'}[i]
+            c.setFillColor(LIGHT);c.rect(M-4,y-3,W-2*M+8,13,fill=1,stroke=0)
+            he(c,label,W-M,y,W-2*M,9.5,True)
+            y-=15
+        en(c,f'{i+1}.',M,y,26,10.2,True)
+        if item['type']=='translate':
+            assert len(wrap(item['prompt'],W-2*M-27,10.2))==1
+            he(c,item['prompt'],W-M,y,W-2*M-27,10.2)
+        else:
+            assert len(wrap(item['prompt'],W-2*M-27,10.2))==1
+            en(c,item['prompt'],M+27,y,W-2*M-27,10.2)
+        rule(c,M+27,y-16,W-2*M-27)
+        y-=25.3
+    assert y>40,('writing page overflow',y)
+    c.showPage()
+    # Page 4: 20 open questions with two writing lines for each.
+    y=head(c,4,'מבינים, מסבירים ועונים','C  |  Answer 20 questions')
     y=he(c,'ענו באנגלית במשפטים שלמים. חזרו לטקסט ותמכו במסקנות בפרטים ממנו.',W-M,y,W-2*M,10.4)-7
     y=he(c,'בשאלות האחרונות נדרשים גם הסבר, מסקנה או עצה.',W-M,y,W-2*M,10.4)-18
     top=y; gap=24; col=(W-2*M-gap)/2
@@ -187,13 +191,13 @@ def build_deck():
     for start in [0,10]:
         rows=''.join(f'<li><span>{E(DATA["matching"][i]["en"])}</span><b>{DATA["matching_order"].index(i)+1}</b></li>' for i in range(start,start+10))
         add(p('בדיקה לאחר עבודה עצמאית','eyebrow')+f'<h2 class="part-he">מפתח התאמות {start+1}–{start+10}</h2><ol class="match-key en" lang="en" start="{start+1}">{rows}</ol>','התאמה')
-    transition('כתיבה','יצירת משפטים','בעמודים 3–4: מתחילים מחלקים מוכנים, ובהמשך בוחרים מילים ומנסחים בעצמכם.')
+    transition('כתיבה','יצירת משפטים','בעמוד 3: מתחילים מחלקים מוכנים, ובהמשך בוחרים מילים ומנסחים בעצמכם.')
     selected=[0,2,3,4,6,8,10,11,12,15,20,21,22,23]
     for idx in selected:
         item=DATA['writing'][idx]
         title={'order':'סדר מילים','translate':'תרגום לאנגלית','join':'חיבור משפטים','create':'כתיבה עצמאית'}[item['type']]
         pair('כתיבה',f'B{idx+1} · {title}',item['prompt'],item['answer'],item['explain'],item['tense'],'he' if item['type']=='translate' else 'en',alternative=item.get('alternative'))
-    transition('הבנה','תשובה מלאה לפי הטקסט','בעמוד 5: מאתרים מידע, מנסחים תשובה מלאה ומסבירים כשצריך. השאלות האחרונות דורשות גם הסקת מסקנות.')
+    transition('הבנה','תשובה מלאה לפי הטקסט','בעמוד 4: מאתרים מידע, מנסחים תשובה מלאה ומסבירים כשצריך. השאלות האחרונות דורשות גם הסקת מסקנות.')
     for idx in [0,1,6,7,10,13,15,16,17,18,19]:
         item=DATA['questions'][idx]
         pair('הבנה',f'C{idx+1} · Paragraph {item["ref"]}',item['q'],item['a'],item['why'])
@@ -211,8 +215,8 @@ def build_key():
     sections=[]
     sections.append('<h2>תיקון דקדוק ואיות · עמוד 1</h2><ol>'+''.join('<li>'+p(e['good'],'en','en')+p(e['he'])+'</li>' for e in ERRORS)+'</ol>')
     sections.append('<h2>התאמות · עמוד 2</h2><ol>'+''.join('<li>'+p(f'{m["en"]} = {DATA["matching_order"].index(i)+1}','en','en')+'</li>' for i,m in enumerate(DATA['matching']))+'</ol>')
-    sections.append('<h2>יצירת משפטים · עמודים 3–4</h2><p>אלה תשובות אפשריות. מקבלים ניסוח אחר אם הוא תקין, מתאים להנחיה ומבוסס על הטקסט. בסידור חלקים משתמשים בכל החלקים.</p><ol>'+''.join('<li>'+p(m['prompt'],'prompt','he' if m['type']=='translate' else 'en')+p(m['answer'],'en','en')+(p(m['alternative'],'en alt','en') if m.get('alternative') else '')+p(m['explain'])+'</li>' for m in DATA['writing'])+'</ol>')
-    sections.append('<h2>הבנה וחשיבה · עמוד 5</h2><ol>'+''.join('<li>'+p(m['q'],'prompt en','en')+p(m['a'],'en','en')+p(m['why'])+p('Paragraph '+m['ref'],'ref en','en')+'</li>' for m in DATA['questions'])+'</ol>')
+    sections.append('<h2>יצירת משפטים · עמוד 3</h2><p>אלה תשובות אפשריות. מקבלים ניסוח אחר אם הוא תקין, מתאים להנחיה ומבוסס על הטקסט. בסידור חלקים משתמשים בכל החלקים.</p><ol>'+''.join('<li>'+p(m['prompt'],'prompt','he' if m['type']=='translate' else 'en')+p(m['answer'],'en','en')+(p(m['alternative'],'en alt','en') if m.get('alternative') else '')+p(m['explain'])+'</li>' for m in DATA['writing'])+'</ol>')
+    sections.append('<h2>הבנה וחשיבה · עמוד 4</h2><ol>'+''.join('<li>'+p(m['q'],'prompt en','en')+p(m['a'],'en','en')+p(m['why'])+p('Paragraph '+m['ref'],'ref en','en')+'</li>' for m in DATA['questions'])+'</ol>')
     (OUT/'teacher.html').write_text('''<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>מפתח תשובות · The Monkey Festival</title><style>body{max-width:900px;margin:auto;padding:28px;font:18px/1.7 Arial,sans-serif;color:#142536;background:#f7fafb}a{color:#08677b}h1,h2{line-height:1.3}h2{border-top:2px solid #9fbec7;padding-top:22px;margin-top:35px}li{padding:12px 5px;border-bottom:1px solid #ccd9df}.en{direction:ltr;text-align:left;font-size:19px}.prompt{font-weight:bold}.alt{color:#186c4e}.ref{font-size:14px;color:#456}p{margin:8px 0}@media print{body{font-size:12px}.en{font-size:12px}li{break-inside:avoid}nav{display:none}}</style></head><body><nav><a href="./">למצגת</a> · <a href="../">לכיתה ח׳</a></nav><h1>The Monkey Festival · מפתח מלא</h1><p>החלק הראשון בלבד, פסקאות A–F. אפשר לתרגל עם הטקסט פתוח. אין להסיק שהמספר ראה היום מלחמת אוכל רק מפני ששמע על כך ומקווה לראות אחת.</p><p>הצעת שימוש: קריאה ובדיקה קצרה; התאמות; כתיבה אישית; בדיקת דוגמאות נבחרות במצגת; שאלות הבנה. אפשר לפצל לשני שיעורים. לתלמידים הזקוקים לתמיכה מתחילים במשימות הכתיבה 1–8; לאחרים נותנים גם משימות ניסוח עצמאיות.</p>'''+''.join(sections)+'</body></html>')
 
 if __name__=='__main__':
@@ -220,4 +224,4 @@ if __name__=='__main__':
     assert sorted(DATA['matching_order'])==list(range(20))
     assert all(i!=j for i,j in enumerate(DATA['matching_order']))
     build_pdf();count=build_deck();build_key()
-    print(json.dumps({'pdf_pages':5,'slides':count,'matching':20,'writing':24,'questions':20,'grammar':4,'source_words':len(' '.join(p['text'] for p in PARAS).split())}))
+    print(json.dumps({'pdf_pages':4,'slides':count,'matching':20,'writing':24,'questions':20,'grammar':4,'source_words':len(' '.join(p['text'] for p in PARAS).split())}))
