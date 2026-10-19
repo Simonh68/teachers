@@ -180,7 +180,7 @@ def pair(section,label,prompt,answer,why,tense='',lang='en',extra='',alternative
 
 def build_deck():
     add('<h1 class="cover-title">The Monkey Festival</h1>'+p('כיתה ח׳ · דף עבודה ותרגול כתיבה','cover-sub')+p('Part One A–F','level en','en')+'<div class="resource-links"><a href="files/'+PDF+'">דף העבודה · PDF</a><a href="../unit-1/sentences/">קריאת הטקסט עם שמע</a></div>'+p('נוצר: יום ראשון בערב, ח׳ בחשוון תשפ״ז (18.10.2026)','level'),'פתיחה','cover transition')
-    add('<h2 class="part-title">מנסים לבד, ואז בודקים יחד</h2>'+p('בדף: טקסט ובדיקת דקדוק, 20 התאמות, 24 משימות כתיבה ו־20 שאלות.','instruction')+p('המצגת מדגימה מבחר משימות. למפתח המלא אפשר להגיע בסוף.','instruction')+p('השתמשו בחצים, בגלגלת או בהחלקה. כל שאלה ואחריה שקף פתרון.','navigation-help'),'פתיחה','transition')
+    add('<h2 class="part-title">מנסים לבד, ואז בודקים יחד</h2>'+p('בדף: טקסט ובדיקת דקדוק, 20 התאמות, 24 משימות כתיבה ו־20 שאלות.','instruction')+p('המצגת מדגימה מבחר משימות ואת דרך הפתרון שלהן.','instruction')+p('השתמשו בחצים, בגלגלת או בהחלקה. כל שאלה ואחריה שקף פתרון.','navigation-help'),'פתיחה','transition')
     transition('התאמה','התאמת משפטים','בעמוד 2: באנגלית יש קו. בעברית יש מספר. כותבים את מספר התרגום על הקו.')
     for idx in [1,4,8,18]:
         item=DATA['matching'][idx]; correct=DATA['matching_order'].index(idx)+1
@@ -205,23 +205,15 @@ def build_deck():
     for i,item in enumerate(ERRORS):
         pair('בדיקה',f'תיקון {i+1}',item['bad'],item['good'],item['he'])
     add('<h2 class="part-title">בדיקה עצמית</h2>'+p('האם המשפט שלי מתאים לטקסט?','instruction')+p('האם יש בו נושא ופועל? האם הפועל מתאים לנושא?','instruction')+p('האם השתמשתי במילת הקישור שהתבקשה ובסימן פיסוק?','instruction'),'בדיקה','transition')
-    add('<h2 class="part-title">המשך עבודה ובדיקה</h2>'+'<div class="resource-links"><a href="files/'+PDF+'">דף העבודה · PDF</a><a href="teacher.html">מפתח מלא לכל המשימות</a><a href="../unit-1/sentences/">הטקסט עם שמע ותרגום</a><a href="../">חזרה לכיתה ח׳</a></div>','בדיקה','transition')
+    add('<h2 class="part-title">המשך עבודה ובדיקה</h2>'+'<div class="resource-links"><a href="files/'+PDF+'">דף העבודה · PDF</a><a href="../unit-1/sentences/">הטקסט עם שמע ותרגום</a><a href="../">חזרה לכיתה ח׳</a></div>','בדיקה','transition')
     nav=''.join(f'<button data-jump="{x}">{x}</button>' for x in ['התאמה','כתיבה','הבנה','בדיקה'])
     doc=f'''<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>כיתה ח׳ · The Monkey Festival · דף עבודה ומצגת</title><meta name="description" content="20 התאמות, 24 משימות כתיבה ו־20 שאלות על החלק הראשון של The Monkey Festival"><link rel="stylesheet" href="../../shared/deck/standard.css"><link rel="stylesheet" href="lesson.css"></head><body><a class="home" href="../" aria-label="חזרה לכיתה ח׳">⌂</a><nav class="section-nav" aria-label="חלקי המצגת">{nav}</nav><main class="stage">{''.join(slides)}</main><nav class="nav" aria-label="ניווט"><div class="nav-group"><button data-step="-1" aria-label="השקף הקודם">←</button><button data-step="1" aria-label="השקף הבא">→</button></div><a class="pdf-link" href="files/{PDF}">PDF</a><span class="progress" id="counter"></span></nav><div class="progress-track"><div class="progress-fill"></div></div><script src="../../shared/deck/standard.js"></script><script src="practice.js"></script><noscript>הפעילו JavaScript לצפייה במצגת. דף העבודה זמין בקישור PDF.</noscript></body></html>'''
     (OUT/'index.html').write_text(doc)
     return len(slides)
 
-def build_key():
-    sections=[]
-    sections.append('<h2>תיקון דקדוק ואיות · עמוד 1</h2><ol>'+''.join('<li>'+p(e['good'],'en','en')+p(e['he'])+'</li>' for e in ERRORS)+'</ol>')
-    sections.append('<h2>התאמות · עמוד 2</h2><ol>'+''.join('<li>'+p(f'{m["en"]} = {DATA["matching_order"].index(i)+1}','en','en')+'</li>' for i,m in enumerate(DATA['matching']))+'</ol>')
-    sections.append('<h2>יצירת משפטים · עמוד 3</h2><p>אלה תשובות אפשריות. מקבלים ניסוח אחר אם הוא תקין, מתאים להנחיה ומבוסס על הטקסט. בסידור חלקים משתמשים בכל החלקים.</p><ol>'+''.join('<li>'+p(m['prompt'],'prompt','he' if m['type']=='translate' else 'en')+p(m['answer'],'en','en')+(p(m['alternative'],'en alt','en') if m.get('alternative') else '')+p(m['explain'])+'</li>' for m in DATA['writing'])+'</ol>')
-    sections.append('<h2>הבנה וחשיבה · עמוד 4</h2><ol>'+''.join('<li>'+p(m['q'],'prompt en','en')+p(m['a'],'en','en')+p(m['why'])+p('Paragraph '+m['ref'],'ref en','en')+'</li>' for m in DATA['questions'])+'</ol>')
-    (OUT/'teacher.html').write_text('''<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>מפתח תשובות · The Monkey Festival</title><style>body{max-width:900px;margin:auto;padding:28px;font:18px/1.7 Arial,sans-serif;color:#142536;background:#f7fafb}a{color:#08677b}h1,h2{line-height:1.3}h2{border-top:2px solid #9fbec7;padding-top:22px;margin-top:35px}li{padding:12px 5px;border-bottom:1px solid #ccd9df}.en{direction:ltr;text-align:left;font-size:19px}.prompt{font-weight:bold}.alt{color:#186c4e}.ref{font-size:14px;color:#456}p{margin:8px 0}@media print{body{font-size:12px}.en{font-size:12px}li{break-inside:avoid}nav{display:none}}</style></head><body><nav><a href="./">למצגת</a> · <a href="../">לכיתה ח׳</a></nav><h1>The Monkey Festival · מפתח מלא</h1><p>החלק הראשון בלבד, פסקאות A–F. אפשר לתרגל עם הטקסט פתוח. אין להסיק שהמספר ראה היום מלחמת אוכל רק מפני ששמע על כך ומקווה לראות אחת.</p><p>הצעת שימוש: קריאה ובדיקה קצרה; התאמות; כתיבה אישית; בדיקת דוגמאות נבחרות במצגת; שאלות הבנה. אפשר לפצל לשני שיעורים. לתלמידים הזקוקים לתמיכה מתחילים במשימות הכתיבה 1–8; לאחרים נותנים גם משימות ניסוח עצמאיות.</p>'''+''.join(sections)+'</body></html>')
-
 if __name__=='__main__':
     assert len(DATA['matching'])==20 and len(DATA['writing'])==24 and len(DATA['questions'])==20
     assert sorted(DATA['matching_order'])==list(range(20))
     assert all(i!=j for i,j in enumerate(DATA['matching_order']))
-    build_pdf();count=build_deck();build_key()
+    build_pdf();count=build_deck()
     print(json.dumps({'pdf_pages':4,'slides':count,'matching':20,'writing':24,'questions':20,'grammar':4,'source_words':len(' '.join(p['text'] for p in PARAS).split())}))
