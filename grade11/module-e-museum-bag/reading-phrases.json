@@ -1,0 +1,560 @@
+[
+  {
+    "paragraph": 1,
+    "sentence": 1,
+    "text": "Visitors to the Westford Museum",
+    "first": 0,
+    "last": 4,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 1,
+    "text": "usually expect to see objects behind glass.",
+    "first": 5,
+    "last": 11,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 2,
+    "text": "Last summer, however,",
+    "first": 12,
+    "last": 14,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 2,
+    "text": "they found an empty display case near the entrance.",
+    "first": 15,
+    "last": 23,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 3,
+    "text": "Nothing had been stolen,",
+    "first": 24,
+    "last": 27,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 3,
+    "text": "and the museum had not run out of things to show.",
+    "first": 28,
+    "last": 38,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 4,
+    "text": "Instead,",
+    "first": 39,
+    "last": 39,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 4,
+    "text": "the empty space was an invitation.",
+    "first": 40,
+    "last": 45,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 5,
+    "text": "The museum wanted local residents",
+    "first": 46,
+    "last": 50,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 5,
+    "text": "to suggest an everyday object",
+    "first": 51,
+    "last": 55,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 5,
+    "text": "for a new exhibition about life in the town.",
+    "first": 56,
+    "last": 64,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 6,
+    "text": "Its aim was to include experiences",
+    "first": 65,
+    "last": 70,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 1,
+    "sentence": 6,
+    "text": "that were missing from its existing collections.",
+    "first": 71,
+    "last": 77,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 7,
+    "text": "Residents could suggest anything",
+    "first": 78,
+    "last": 81,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 7,
+    "text": "from a kitchen tool to a bus ticket.",
+    "first": 82,
+    "last": 89,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 8,
+    "text": "They first had to send a photograph",
+    "first": 90,
+    "last": 96,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 8,
+    "text": "and a short description",
+    "first": 97,
+    "last": 100,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 8,
+    "text": "explaining where the object came from",
+    "first": 101,
+    "last": 106,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 8,
+    "text": "and why it mattered to them.",
+    "first": 107,
+    "last": 112,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 9,
+    "text": "These details helped the museum team",
+    "first": 113,
+    "last": 118,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 9,
+    "text": "understand the story behind each suggestion.",
+    "first": 119,
+    "last": 124,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 10,
+    "text": "People did not need to bring the object to the museum",
+    "first": 125,
+    "last": 135,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 10,
+    "text": "unless the team contacted them.",
+    "first": 136,
+    "last": 140,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 11,
+    "text": "This made it possible to consider objects",
+    "first": 141,
+    "last": 147,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 2,
+    "sentence": 11,
+    "text": "that were still being used at home.",
+    "first": 148,
+    "last": 154,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 12,
+    "text": "Choosing an object was more difficult",
+    "first": 155,
+    "last": 160,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 12,
+    "text": "than the team had expected.",
+    "first": 161,
+    "last": 165,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 13,
+    "text": "Some residents assumed",
+    "first": 166,
+    "last": 168,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 13,
+    "text": "that the oldest or most expensive item would win.",
+    "first": 169,
+    "last": 177,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 14,
+    "text": "However, the team was looking for something",
+    "first": 178,
+    "last": 184,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 14,
+    "text": "that could reveal an interesting part of everyday life.",
+    "first": 185,
+    "last": 193,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 15,
+    "text": "A beautiful silver watch was not selected",
+    "first": 194,
+    "last": 200,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 15,
+    "text": "because very little was known about its owner.",
+    "first": 201,
+    "last": 208,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 16,
+    "text": "A worn school bag attracted more attention",
+    "first": 209,
+    "last": 215,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 16,
+    "text": "because it had belonged to three generations of the same family,",
+    "first": 216,
+    "last": 226,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 3,
+    "sentence": 16,
+    "text": "who had all attended the local school.",
+    "first": 227,
+    "last": 233,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 17,
+    "text": "Sixteen-year-old Daniel suggested the bag",
+    "first": 234,
+    "last": 238,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 17,
+    "text": "after finding it in his grandmother's cupboard.",
+    "first": 239,
+    "last": 245,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 18,
+    "text": "He originally hoped",
+    "first": 246,
+    "last": 248,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 18,
+    "text": "that the museum would help him discover",
+    "first": 249,
+    "last": 255,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 18,
+    "text": "when it had been made.",
+    "first": 256,
+    "last": 260,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 19,
+    "text": "While preparing his description, however,",
+    "first": 261,
+    "last": 265,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 19,
+    "text": "he interviewed several relatives",
+    "first": 266,
+    "last": 269,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 19,
+    "text": "and learned about their school days.",
+    "first": 270,
+    "last": 275,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 20,
+    "text": "The museum could not establish the bag's exact age,",
+    "first": 276,
+    "last": 284,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 20,
+    "text": "but Daniel felt that the conversations had been worthwhile.",
+    "first": 285,
+    "last": 293,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 21,
+    "text": "He had discovered",
+    "first": 294,
+    "last": 296,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 21,
+    "text": "that an ordinary object could encourage people to share memories",
+    "first": 297,
+    "last": 306,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 4,
+    "sentence": 21,
+    "text": "they had never discussed with him before.",
+    "first": 307,
+    "last": 313,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 22,
+    "text": "The bag was eventually chosen,",
+    "first": 314,
+    "last": 318,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 22,
+    "text": "together with photographs and memories",
+    "first": 319,
+    "last": 323,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 22,
+    "text": "provided by Daniel's family.",
+    "first": 324,
+    "last": 327,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 23,
+    "text": "Nevertheless, the museum team recognized a limitation:",
+    "first": 328,
+    "last": 334,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 23,
+    "text": "one family's experience could not represent everyone in Westford.",
+    "first": 335,
+    "last": 343,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 24,
+    "text": "They therefore invited visitors",
+    "first": 344,
+    "last": 347,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 24,
+    "text": "to add their own school memories",
+    "first": 348,
+    "last": 353,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 24,
+    "text": "to a noticeboard beside the display.",
+    "first": 354,
+    "last": 359,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 25,
+    "text": "The team is also considering a similar exhibition",
+    "first": 360,
+    "last": 367,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 25,
+    "text": "about working life.",
+    "first": 368,
+    "last": 370,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 26,
+    "text": "No date has been set,",
+    "first": 371,
+    "last": 375,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 26,
+    "text": "since staff must first review",
+    "first": 376,
+    "last": 380,
+    "gapMs": 1500,
+    "pauseKind": "phrase"
+  },
+  {
+    "paragraph": 5,
+    "sentence": 26,
+    "text": "what they learned from the school exhibition.",
+    "first": 381,
+    "last": 387,
+    "gapMs": 2000,
+    "pauseKind": "sentence"
+  }
+]

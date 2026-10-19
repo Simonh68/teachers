@@ -1,0 +1,468 @@
+{
+  "id": "E-FULL-MUSEUMBAG-02",
+  "version": "1.0.0",
+  "title": "MORE THAN AN OLD SCHOOL BAG",
+  "grade": 11,
+  "level": "E",
+  "set_number": 2,
+  "fictional_setting": true,
+  "word_count": 388,
+  "sentence_count": 26,
+  "paragraphs": [
+    "Visitors to the Westford Museum usually expect to see objects behind glass. Last summer, however, they found an empty display case near the entrance. Nothing had been stolen, and the museum had not run out of things to show. Instead, the empty space was an invitation. The museum wanted local residents to suggest an everyday object for a new exhibition about life in the town. Its aim was to include experiences that were missing from its existing collections.",
+    "Residents could suggest anything from a kitchen tool to a bus ticket. They first had to send a photograph and a short description explaining where the object came from and why it mattered to them. These details helped the museum team understand the story behind each suggestion. People did not need to bring the object to the museum unless the team contacted them. This made it possible to consider objects that were still being used at home.",
+    "Choosing an object was more difficult than the team had expected. Some residents assumed that the oldest or most expensive item would win. However, the team was looking for something that could reveal an interesting part of everyday life. A beautiful silver watch was not selected because very little was known about its owner. A worn school bag attracted more attention because it had belonged to three generations of the same family, who had all attended the local school.",
+    "Sixteen-year-old Daniel suggested the bag after finding it in his grandmother's cupboard. He originally hoped that the museum would help him discover when it had been made. While preparing his description, however, he interviewed several relatives and learned about their school days. The museum could not establish the bag's exact age, but Daniel felt that the conversations had been worthwhile. He had discovered that an ordinary object could encourage people to share memories they had never discussed with him before.",
+    "The bag was eventually chosen, together with photographs and memories provided by Daniel's family. Nevertheless, the museum team recognized a limitation: one family's experience could not represent everyone in Westford. They therefore invited visitors to add their own school memories to a noticeboard beside the display. The team is also considering a similar exhibition about working life. No date has been set, since staff must first review what they learned from the school exhibition."
+  ],
+  "reading_questions": [
+    {
+      "number": 1,
+      "type": "mc",
+      "points": 8,
+      "stem": "Why did the museum leave a display case empty?",
+      "scope": "lines 1-7",
+      "range": [
+        1,
+        7
+      ],
+      "options": [
+        "To show visitors that some objects had been stolen.",
+        "To encourage residents to suggest objects for an exhibition.",
+        "To make room for an exhibition about valuable objects.",
+        "To show that its existing collections had been removed."
+      ],
+      "correct": 1,
+      "answer": "ii) To encourage residents to suggest objects for an exhibition.",
+      "evidence": "The museum wanted local residents to suggest an everyday object for a new exhibition about life in the town.",
+      "evidence_scope": "lines 4-6",
+      "rubric": "8 points for option ii; 0 for another option.",
+      "traps": [
+        "Negation ignored",
+        "Unsupported purpose",
+        "Overgeneralization"
+      ],
+      "explanation_en": "The empty case invited residents to contribute. Theft and a lack of objects are explicitly ruled out; value and removal of collections are not the purpose.",
+      "explanation_he": "החלל הריק הוא הזמנה להשתתפות. הטקסט שולל גנבה ומחסור בחפצים; הוא אינו אומר שהמטרה היא להציג חפצים יקרים או לפנות את האוספים.",
+      "distractors": [
+        "הטקסט אומר במפורש ששום דבר לא נגנב.",
+        "",
+        "המילה valuable מוסיפה תנאי שאינו מופיע במטרת התערוכה.",
+        "חוויות מסוימות חסרות באוספים; לא נאמר שהאוספים הוסרו."
+      ]
+    },
+    {
+      "number": 2,
+      "type": "mc",
+      "points": 7,
+      "stem": "When did residents need to bring an object to the museum?",
+      "scope": "lines 8-13",
+      "range": [
+        8,
+        13
+      ],
+      "options": [
+        "Before sending a photograph of it.",
+        "As soon as they stopped using it at home.",
+        "Whenever they wrote a description of it.",
+        "Only if the museum team contacted them."
+      ],
+      "correct": 3,
+      "answer": "iv) Only if the museum team contacted them.",
+      "evidence": "People did not need to bring the object to the museum unless the team contacted them.",
+      "evidence_scope": "lines 11-12",
+      "rubric": "7 points for option iv; 0 for another option.",
+      "traps": [
+        "Condition ignored",
+        "Sequence reversed",
+        "Unsupported requirement"
+      ],
+      "explanation_en": "The word unless makes contact from the team the condition for bringing the object. Sending a photograph and description came first.",
+      "explanation_he": "המילה unless קובעת תנאי: מביאים את החפץ רק אם צוות המוזיאון פונה אליהם. תחילה שולחים תמונה ותיאור.",
+      "distractors": [
+        "זה היפוך של סדר הפעולות: קודם שולחים תמונה ותיאור.",
+        "הטקסט מאפשר גם חפצים שעדיין משתמשים בהם בבית.",
+        "כתיבת התיאור לבדה אינה מחייבת להביא את החפץ.",
+        ""
+      ]
+    },
+    {
+      "number": 3,
+      "type": "open",
+      "points": 8,
+      "stem": "What does \"These details\" (line 10) refer to?",
+      "scope": "lines 9-11",
+      "range": [
+        9,
+        11
+      ],
+      "instruction": "Give TWO details.",
+      "answer_lines": 2,
+      "fields": [
+        "One detail",
+        "Another detail"
+      ],
+      "answer": "Where the object came from AND why it mattered to its owner.",
+      "evidence": "where the object came from and why it mattered to them",
+      "evidence_scope": "lines 9-10",
+      "rubric": "4 points for origin; 4 for personal importance. Order does not matter. Repeating one detail earns at most 4 points.",
+      "traps": [
+        "Incomplete reference",
+        "Repeating one detail"
+      ],
+      "explanation_en": "The reference includes two details in the description: the origin of the object and its personal importance. A photograph is not one of these two details.",
+      "explanation_he": "ההפניה כוללת שני פרטים בתיאור: מאין הגיע החפץ ולמה הוא חשוב לבעליו. תמונה אינה אחד משני הפרטים האלה.",
+      "accepted_groups": [
+        [
+          "where the object came from",
+          "the origin of the object",
+          "its origin",
+          "where it came from"
+        ],
+        [
+          "why it mattered to them",
+          "why the object mattered to them",
+          "why it was important to them",
+          "why it mattered to its owner",
+          "its importance to the owner",
+          "why it was important to its owner"
+        ]
+      ]
+    },
+    {
+      "number": 4,
+      "type": "mc",
+      "points": 8,
+      "stem": "What was most important to the museum team when choosing an object?",
+      "scope": "lines 14-20",
+      "range": [
+        14,
+        20
+      ],
+      "options": [
+        "How much it could show about everyday life.",
+        "Whether it was the oldest object suggested.",
+        "How much money its owner had paid for it.",
+        "Whether its owner still used it every day."
+      ],
+      "correct": 0,
+      "answer": "i) How much it could show about everyday life.",
+      "evidence": "the team was looking for something that could reveal an interesting part of everyday life",
+      "evidence_scope": "lines 16-17",
+      "rubric": "8 points for option i; 0 for another option.",
+      "traps": [
+        "Residents' assumption versus selection criterion",
+        "Word overlap",
+        "Unsupported condition"
+      ],
+      "explanation_en": "Age and price were residents' assumptions. The team wanted an object that revealed everyday life, which is different from requiring daily use.",
+      "explanation_he": "גיל ומחיר היו השערות של התושבים. הצוות חיפש חפץ שמספר על חיי היום־יום; אין דרישה שעדיין ישתמשו בו בכל יום.",
+      "distractors": [
+        "",
+        "זו ההשערה של התושבים, ולא השיקול של הצוות.",
+        "גם המחיר מופיע כהשערה של התושבים.",
+        "everyday life אינו אומר שהחפץ חייב להיות בשימוש בכל יום."
+      ]
+    },
+    {
+      "number": 5,
+      "type": "open",
+      "points": 8,
+      "stem": "Why did the school bag attract the team's attention?",
+      "scope": "lines 18-20",
+      "range": [
+        18,
+        20
+      ],
+      "instruction": "Answer in ONE sentence.",
+      "answer_lines": 2,
+      "fields": [
+        "Your answer"
+      ],
+      "answer": "It had belonged to three generations of the same family who attended the local school.",
+      "evidence": "it had belonged to three generations of the same family, who had all attended the local school",
+      "evidence_scope": "lines 19-20",
+      "rubric": "8 points for the connection between three generations of the same family and the local school. 4 for the three-generation family history alone; other partial wording requires teacher review.",
+      "traps": [
+        "Appearance versus family history",
+        "Incomplete reason"
+      ],
+      "explanation_en": "The bag connected three generations of one family with the local school. Being worn was not the stated reason for the interest.",
+      "explanation_he": "התיק קישר בין שלושה דורות באותה משפחה שלמדו בבית הספר המקומי. המראה הבלוי אינו הסיבה שניתנת בטקסט.",
+      "accepted_groups": [
+        [
+          "it had belonged to three generations of the same family who had all attended the local school",
+          "it had belonged to three generations of the same family who attended the local school",
+          "three generations of the same family had used it at the local school",
+          "it connected three generations of one family with the local school"
+        ]
+      ]
+    },
+    {
+      "number": 6,
+      "type": "open",
+      "points": 8,
+      "stem": "What did Daniel originally hope to find out?",
+      "scope": "lines 21-26",
+      "range": [
+        21,
+        26
+      ],
+      "instruction": "Answer the question.",
+      "answer_lines": 2,
+      "fields": [
+        "Your answer"
+      ],
+      "answer": "When the bag had been made / its age.",
+      "evidence": "He originally hoped that the museum would help him discover when it had been made.",
+      "evidence_scope": "lines 22-23",
+      "rubric": "8 points for the required meaning. Accept equivalent wording.",
+      "traps": [
+        "Original aim versus unexpected benefit",
+        "Successful versus unsuccessful outcome"
+      ],
+      "explanation_en": "Daniel originally wanted to date the bag. Learning about relatives' school days was a later benefit, and the exact age remained unknown.",
+      "explanation_he": "המטרה המקורית הייתה לברר מתי התיק יוצר. הסיפורים המשפחתיים היו תועלת שהתגלתה בהמשך; הגיל המדויק לא נקבע.",
+      "accepted_groups": [
+        [
+          "when the bag had been made",
+          "when it had been made",
+          "when the bag was made",
+          "how old the bag was",
+          "the age of the bag",
+          "its age",
+          "the bag's exact age"
+        ]
+      ]
+    },
+    {
+      "number": 7,
+      "type": "open",
+      "points": 8,
+      "stem": "Why were visitors invited to add their own school memories?",
+      "scope": "lines 29-33",
+      "range": [
+        29,
+        33
+      ],
+      "instruction": "Answer the question.",
+      "answer_lines": 2,
+      "fields": [
+        "Your answer"
+      ],
+      "answer": "To include experiences beyond those of Daniel's family / because one family could not represent everyone in the town.",
+      "evidence": "one family's experience could not represent everyone in Westford",
+      "evidence_scope": "line 31",
+      "rubric": "8 points for the required meaning. Accept equivalent wording.",
+      "traps": [
+        "Action versus purpose",
+        "One example versus whole community"
+      ],
+      "explanation_en": "The noticeboard addressed the limitation of a display based on one family. Naming the noticeboard or repeating the invitation does not explain its purpose.",
+      "explanation_he": "לוח הזיכרונות נועד להרחיב את התמונה מעבר למשפחה אחת. ציון המיקום של הלוח או חזרה על ההזמנה אינם מסבירים את המטרה.",
+      "accepted_groups": [
+        [
+          "because one family's experience could not represent everyone in Westford",
+          "one family's experience could not represent everyone in Westford",
+          "because one family could not represent everyone in the town",
+          "to include experiences beyond those of Daniel's family",
+          "to include other people's experiences",
+          "to include memories from other families",
+          "to represent more people in the town"
+        ]
+      ]
+    },
+    {
+      "number": 8,
+      "type": "open",
+      "points": 7,
+      "stem": "Why has no date been set for the exhibition about working life?",
+      "scope": "lines 33-35",
+      "range": [
+        33,
+        35
+      ],
+      "instruction": "Answer the question.",
+      "answer_lines": 2,
+      "fields": [
+        "Your answer"
+      ],
+      "answer": "The staff must first review what they learned from the school exhibition.",
+      "evidence": "No date has been set, since staff must first review what they learned from the school exhibition.",
+      "evidence_scope": "lines 34-35",
+      "rubric": "7 points for the required meaning. Accept equivalent wording.",
+      "traps": [
+        "Future plan treated as completed",
+        "Unsupported cause"
+      ],
+      "explanation_en": "The staff need to review the school exhibition before setting a date. The text does not say the new exhibition was cancelled or that objects are missing.",
+      "explanation_he": "הצוות צריך תחילה לבחון מה למד מתערוכת בית הספר. אין בטקסט ביטול של התערוכה החדשה או מחסור בחפצים.",
+      "accepted_groups": [
+        [
+          "staff must first review what they learned from the school exhibition",
+          "the staff must first review what they learned from the school exhibition",
+          "because staff must first review what they learned from the school exhibition",
+          "they must review what they learned from the school exhibition first",
+          "the staff need to review the school exhibition first"
+        ]
+      ]
+    },
+    {
+      "number": 9,
+      "type": "mc",
+      "points": 8,
+      "stem": "What is the main idea of the article?",
+      "scope": "lines 1-35",
+      "range": [
+        1,
+        35
+      ],
+      "options": [
+        "Museums should replace all their old collections.",
+        "An object becomes valuable only when its exact age is known.",
+        "Ordinary objects can reveal personal stories worth sharing.",
+        "The experiences of one family can represent a whole town."
+      ],
+      "correct": 2,
+      "answer": "iii) Ordinary objects can reveal personal stories worth sharing.",
+      "evidence": "an ordinary object could encourage people to share memories they had never discussed with him before",
+      "evidence_scope": "lines 26-28",
+      "rubric": "8 points for option iii; 0 for another option.",
+      "traps": [
+        "Extreme generalization",
+        "Reversed conclusion",
+        "Example treated as representative"
+      ],
+      "explanation_en": "The bag illustrates how ordinary objects reveal stories. Exact age was not needed, and the final paragraph explicitly rejects treating one family as representative of everyone.",
+      "explanation_he": "התיק מדגים כיצד חפץ רגיל יכול לחשוף סיפורים וזיכרונות. הגיל המדויק לא נדרש, והפסקה האחרונה שוללת ייצוג של העיר כולה באמצעות משפחה אחת.",
+      "distractors": [
+        "אין קריאה להחליף את כל האוספים.",
+        "דווקא בלי לדעת את הגיל המדויק התגלו סיפורים בעלי ערך.",
+        "",
+        "הפסקה האחרונה מציינת במפורש שמשפחה אחת אינה מייצגת את כולם."
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 10,
+      "items": [
+        "discovery",
+        "disagreement",
+        "destruction",
+        "knowledge",
+        "personality",
+        "salary"
+      ],
+      "definitions": [
+        "money paid regularly to someone for their work",
+        "the act of finding something that was not known before",
+        "a situation in which people have different opinions"
+      ],
+      "keys": [
+        6,
+        1,
+        2
+      ],
+      "points": 6
+    },
+    {
+      "number": 11,
+      "items": [
+        "demonstrate",
+        "revise",
+        "recycle",
+        "misunderstand",
+        "invest",
+        "mention"
+      ],
+      "definitions": [
+        "to understand something incorrectly",
+        "to process used materials so they can be used again",
+        "to change a piece of writing in order to improve it"
+      ],
+      "keys": [
+        4,
+        3,
+        2
+      ],
+      "points": 6
+    },
+    {
+      "number": 12,
+      "items": [
+        "current",
+        "complicated",
+        "unique",
+        "visible",
+        "rural",
+        "worthwhile"
+      ],
+      "definitions": [
+        "worth the time and effort spent on it",
+        "able to be seen",
+        "the only one of its kind"
+      ],
+      "keys": [
+        6,
+        4,
+        3
+      ],
+      "points": 6
+    },
+    {
+      "number": 13,
+      "items": [
+        "nevertheless",
+        "otherwise",
+        "initially",
+        "occasionally",
+        "personally",
+        "exactly"
+      ],
+      "definitions": [
+        "despite what has just been said",
+        "at the beginning",
+        "sometimes, but not often"
+      ],
+      "keys": [
+        1,
+        3,
+        4
+      ],
+      "points": 6
+    },
+    {
+      "number": 14,
+      "items": [
+        "in actual fact",
+        "in that case",
+        "more or less",
+        "point of view",
+        "even if",
+        "out of date"
+      ],
+      "definitions": [
+        "a way of thinking about something",
+        "approximately",
+        "no longer current or suitable because it is old"
+      ],
+      "keys": [
+        4,
+        3,
+        6
+      ],
+      "points": 6
+    }
+  ],
+  "sources": [
+    {
+      "title": "Module E winter 2026, questionnaire 16471 (official exam mirrored by Geva)",
+      "url": "https://files.geva.co.il/geva_website/uploads/2026/01/שאלון-16471.pdf"
+    },
+    {
+      "title": "Band III Core I - List A (official spreadsheet mirrored by Katzir school)",
+      "url": "https://katzir.org.il/wp-content/uploads/2024/07/Band_3-List_A-_Official.xlsx"
+    }
+  ]
+}

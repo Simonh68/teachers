@@ -1,0 +1,245 @@
+{
+  "source": "https://katzir.org.il/wp-content/uploads/2024/07/Band_3-List_A-_Official.xlsx",
+  "items": [
+    {
+      "question": 10,
+      "item": "discovery",
+      "row": 47,
+      "official_entry": "discovery",
+      "matched_form": "discovery",
+      "match_type": "entry"
+    },
+    {
+      "question": 10,
+      "item": "disagreement",
+      "row": 45,
+      "official_entry": "disagreement",
+      "matched_form": "disagreement",
+      "match_type": "entry"
+    },
+    {
+      "question": 10,
+      "item": "destruction",
+      "row": 43,
+      "official_entry": "destruction",
+      "matched_form": "destruction",
+      "match_type": "entry"
+    },
+    {
+      "question": 10,
+      "item": "knowledge",
+      "row": 104,
+      "official_entry": "knowledge",
+      "matched_form": "knowledge",
+      "match_type": "entry"
+    },
+    {
+      "question": 10,
+      "item": "personality",
+      "row": 140,
+      "official_entry": "personality",
+      "matched_form": "personality",
+      "match_type": "entry"
+    },
+    {
+      "question": 10,
+      "item": "salary",
+      "row": 186,
+      "official_entry": "salary",
+      "matched_form": "salary",
+      "match_type": "entry"
+    },
+    {
+      "question": 11,
+      "item": "demonstrate",
+      "row": 41,
+      "official_entry": "demonstrate",
+      "matched_form": "demonstrate",
+      "match_type": "entry"
+    },
+    {
+      "question": 11,
+      "item": "revise",
+      "row": 182,
+      "official_entry": "revise",
+      "matched_form": "revise",
+      "match_type": "entry"
+    },
+    {
+      "question": 11,
+      "item": "recycle",
+      "row": 171,
+      "official_entry": "recycle",
+      "matched_form": "recycle",
+      "match_type": "entry"
+    },
+    {
+      "question": 11,
+      "item": "misunderstand",
+      "row": 118,
+      "official_entry": "misunderstand",
+      "matched_form": "misunderstand",
+      "match_type": "entry"
+    },
+    {
+      "question": 11,
+      "item": "invest",
+      "row": 98,
+      "official_entry": "invest",
+      "matched_form": "invest",
+      "match_type": "entry"
+    },
+    {
+      "question": 11,
+      "item": "mention",
+      "row": 116,
+      "official_entry": "mention",
+      "matched_form": "mention",
+      "match_type": "entry"
+    },
+    {
+      "question": 12,
+      "item": "current",
+      "row": 37,
+      "official_entry": "current",
+      "matched_form": "current",
+      "match_type": "entry"
+    },
+    {
+      "question": 12,
+      "item": "complicated",
+      "row": 29,
+      "official_entry": "complicated",
+      "matched_form": "complicated",
+      "match_type": "entry"
+    },
+    {
+      "question": 12,
+      "item": "unique",
+      "row": 210,
+      "official_entry": "unique",
+      "matched_form": "unique",
+      "match_type": "entry"
+    },
+    {
+      "question": 12,
+      "item": "visible",
+      "row": 219,
+      "official_entry": "visible",
+      "matched_form": "visible",
+      "match_type": "entry"
+    },
+    {
+      "question": 12,
+      "item": "rural",
+      "row": 185,
+      "official_entry": "rural",
+      "matched_form": "rural",
+      "match_type": "entry"
+    },
+    {
+      "question": 12,
+      "item": "worthwhile",
+      "row": 225,
+      "official_entry": "worthwhile",
+      "matched_form": "worthwhile",
+      "match_type": "entry"
+    },
+    {
+      "question": 13,
+      "item": "nevertheless",
+      "row": 124,
+      "official_entry": "nevertheless",
+      "matched_form": "nevertheless",
+      "match_type": "entry"
+    },
+    {
+      "question": 13,
+      "item": "otherwise",
+      "row": 134,
+      "official_entry": "otherwise",
+      "matched_form": "otherwise",
+      "match_type": "entry"
+    },
+    {
+      "question": 13,
+      "item": "initially",
+      "row": 93,
+      "official_entry": "initial",
+      "matched_form": "initially",
+      "match_type": "family"
+    },
+    {
+      "question": 13,
+      "item": "occasionally",
+      "row": 129,
+      "official_entry": "occasional",
+      "matched_form": "occasionally",
+      "match_type": "family"
+    },
+    {
+      "question": 13,
+      "item": "personally",
+      "row": 141,
+      "official_entry": "personally",
+      "matched_form": "personally",
+      "match_type": "entry"
+    },
+    {
+      "question": 13,
+      "item": "exactly",
+      "row": 61,
+      "official_entry": "exactly",
+      "matched_form": "exactly",
+      "match_type": "entry"
+    },
+    {
+      "question": 14,
+      "item": "in actual fact",
+      "row": 89,
+      "official_entry": "in actual fact",
+      "matched_form": "in actual fact",
+      "match_type": "entry"
+    },
+    {
+      "question": 14,
+      "item": "in that case",
+      "row": 91,
+      "official_entry": "in that case",
+      "matched_form": "in that case",
+      "match_type": "entry"
+    },
+    {
+      "question": 14,
+      "item": "more or less",
+      "row": 119,
+      "official_entry": "more or less",
+      "matched_form": "more or less",
+      "match_type": "entry"
+    },
+    {
+      "question": 14,
+      "item": "point of view",
+      "row": 145,
+      "official_entry": "point of view",
+      "matched_form": "point of view",
+      "match_type": "entry"
+    },
+    {
+      "question": 14,
+      "item": "even if",
+      "row": 58,
+      "official_entry": "even if",
+      "matched_form": "even if",
+      "match_type": "entry"
+    },
+    {
+      "question": 14,
+      "item": "out of date",
+      "row": 135,
+      "official_entry": "out of date",
+      "matched_form": "out of date",
+      "match_type": "entry"
+    }
+  ]
+}
