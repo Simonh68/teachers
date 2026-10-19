@@ -1,7 +1,7 @@
 {
   "units": [
     {
-      "id": "gloss-1",
+      "id": 0,
       "paragraph": 1,
       "en": "Visitors to the Westford Museum",
       "he": "מבקרים במוזיאון וסטפורד",
@@ -9,7 +9,7 @@
       "end_word": 4
     },
     {
-      "id": "gloss-2",
+      "id": 1,
       "paragraph": 1,
       "en": "usually expect to see objects behind glass.",
       "he": "בדרך כלל מצפים לראות חפצים מאחורי זכוכית.",
@@ -17,7 +17,7 @@
       "end_word": 11
     },
     {
-      "id": "gloss-3",
+      "id": 2,
       "paragraph": 1,
       "en": "Last summer, however,",
       "he": "אולם בקיץ שעבר,",
@@ -25,7 +25,7 @@
       "end_word": 14
     },
     {
-      "id": "gloss-4",
+      "id": 3,
       "paragraph": 1,
       "en": "they found an empty display case near the entrance.",
       "he": "הם מצאו ארון תצוגה ריק ליד הכניסה.",
@@ -33,7 +33,7 @@
       "end_word": 23
     },
     {
-      "id": "gloss-5",
+      "id": 4,
       "paragraph": 1,
       "en": "Nothing had been stolen,",
       "he": "שום דבר לא נגנב,",
@@ -41,7 +41,7 @@
       "end_word": 27
     },
     {
-      "id": "gloss-6",
+      "id": 5,
       "paragraph": 1,
       "en": "and the museum had not run out of things to show.",
       "he": "ולמוזיאון לא אזלו החפצים להצגה.",
@@ -49,7 +49,7 @@
       "end_word": 38
     },
     {
-      "id": "gloss-7",
+      "id": 6,
       "paragraph": 1,
       "en": "Instead,",
       "he": "במקום זאת,",
@@ -57,7 +57,7 @@
       "end_word": 39
     },
     {
-      "id": "gloss-8",
+      "id": 7,
       "paragraph": 1,
       "en": "the empty space was an invitation.",
       "he": "החלל הריק היה הזמנה.",
@@ -65,7 +65,7 @@
       "end_word": 45
     },
     {
-      "id": "gloss-9",
+      "id": 8,
       "paragraph": 1,
       "en": "The museum wanted local residents",
       "he": "המוזיאון רצה שתושבי המקום",
@@ -73,7 +73,7 @@
       "end_word": 50
     },
     {
-      "id": "gloss-10",
+      "id": 9,
       "paragraph": 1,
       "en": "to suggest an everyday object",
       "he": "יציעו חפץ מחיי היום־יום",
@@ -81,7 +81,7 @@
       "end_word": 55
     },
     {
-      "id": "gloss-11",
+      "id": 10,
       "paragraph": 1,
       "en": "for a new exhibition about life in the town.",
       "he": "לתערוכה חדשה על החיים בעיירה.",
@@ -89,7 +89,7 @@
       "end_word": 64
     },
     {
-      "id": "gloss-12",
+      "id": 11,
       "paragraph": 1,
       "en": "Its aim was to include experiences",
       "he": "מטרתו הייתה לכלול חוויות",
@@ -97,7 +97,7 @@
       "end_word": 70
     },
     {
-      "id": "gloss-13",
+      "id": 12,
       "paragraph": 1,
       "en": "that were missing from its existing collections.",
       "he": "שהיו חסרות באוספים הקיימים שלו.",
@@ -105,7 +105,7 @@
       "end_word": 77
     },
     {
-      "id": "gloss-14",
+      "id": 13,
       "paragraph": 2,
       "en": "Residents could suggest anything",
       "he": "התושבים יכלו להציע כל דבר",
@@ -113,7 +113,7 @@
       "end_word": 81
     },
     {
-      "id": "gloss-15",
+      "id": 14,
       "paragraph": 2,
       "en": "from a kitchen tool to a bus ticket.",
       "he": "מכלי מטבח ועד כרטיס אוטובוס.",
@@ -121,7 +121,7 @@
       "end_word": 89
     },
     {
-      "id": "gloss-16",
+      "id": 15,
       "paragraph": 2,
       "en": "They first had to send a photograph",
       "he": "תחילה היה עליהם לשלוח תמונה",
@@ -129,7 +129,7 @@
       "end_word": 96
     },
     {
-      "id": "gloss-17",
+      "id": 16,
       "paragraph": 2,
       "en": "and a short description",
       "he": "ותיאור קצר",
@@ -137,7 +137,7 @@
       "end_word": 100
     },
     {
-      "id": "gloss-18",
+      "id": 17,
       "paragraph": 2,
       "en": "explaining where the object came from",
       "he": "המסביר מאין הגיע החפץ",
@@ -145,7 +145,7 @@
       "end_word": 106
     },
     {
-      "id": "gloss-19",
+      "id": 18,
       "paragraph": 2,
       "en": "and why it mattered to them.",
       "he": "ולמה הוא היה חשוב להם.",
@@ -153,7 +153,7 @@
       "end_word": 112
     },
     {
-      "id": "gloss-20",
+      "id": 19,
       "paragraph": 2,
       "en": "These details helped the museum team",
       "he": "פרטים אלה עזרו לצוות המוזיאון",
@@ -161,7 +161,7 @@
       "end_word": 118
     },
     {
-      "id": "gloss-21",
+      "id": 20,
       "paragraph": 2,
       "en": "understand the story behind each suggestion.",
       "he": "להבין את הסיפור מאחורי כל הצעה.",
@@ -169,7 +169,7 @@
       "end_word": 124
     },
     {
-      "id": "gloss-22",
+      "id": 21,
       "paragraph": 2,
       "en": "People did not need to bring the object to the museum",
       "he": "האנשים לא נדרשו להביא את החפץ למוזיאון",
@@ -177,7 +177,7 @@
       "end_word": 135
     },
     {
-      "id": "gloss-23",
+      "id": 22,
       "paragraph": 2,
       "en": "unless the team contacted them.",
       "he": "אלא אם הצוות פנה אליהם.",
@@ -185,7 +185,7 @@
       "end_word": 140
     },
     {
-      "id": "gloss-24",
+      "id": 23,
       "paragraph": 2,
       "en": "This made it possible to consider objects",
       "he": "כך היה אפשר לשקול גם חפצים",
@@ -193,7 +193,7 @@
       "end_word": 147
     },
     {
-      "id": "gloss-25",
+      "id": 24,
       "paragraph": 2,
       "en": "that were still being used at home.",
       "he": "שעדיין השתמשו בהם בבית.",
@@ -201,7 +201,7 @@
       "end_word": 154
     },
     {
-      "id": "gloss-26",
+      "id": 25,
       "paragraph": 3,
       "en": "Choosing an object was more difficult",
       "he": "בחירת חפץ הייתה קשה יותר",
@@ -209,7 +209,7 @@
       "end_word": 160
     },
     {
-      "id": "gloss-27",
+      "id": 26,
       "paragraph": 3,
       "en": "than the team had expected.",
       "he": "מכפי שהצוות ציפה.",
@@ -217,7 +217,7 @@
       "end_word": 165
     },
     {
-      "id": "gloss-28",
+      "id": 27,
       "paragraph": 3,
       "en": "Some residents assumed",
       "he": "כמה תושבים הניחו",
@@ -225,7 +225,7 @@
       "end_word": 168
     },
     {
-      "id": "gloss-29",
+      "id": 28,
       "paragraph": 3,
       "en": "that the oldest or most expensive item would win.",
       "he": "שהפריט העתיק ביותר או היקר ביותר ייבחר.",
@@ -233,7 +233,7 @@
       "end_word": 177
     },
     {
-      "id": "gloss-30",
+      "id": 29,
       "paragraph": 3,
       "en": "However, the team was looking for something",
       "he": "אולם הצוות חיפש משהו",
@@ -241,7 +241,7 @@
       "end_word": 184
     },
     {
-      "id": "gloss-31",
+      "id": 30,
       "paragraph": 3,
       "en": "that could reveal an interesting part of everyday life.",
       "he": "שיוכל לחשוף היבט מעניין של חיי היום־יום.",
@@ -249,7 +249,7 @@
       "end_word": 193
     },
     {
-      "id": "gloss-32",
+      "id": 31,
       "paragraph": 3,
       "en": "A beautiful silver watch was not selected",
       "he": "שעון כסף יפה לא נבחר",
@@ -257,7 +257,7 @@
       "end_word": 200
     },
     {
-      "id": "gloss-33",
+      "id": 32,
       "paragraph": 3,
       "en": "because very little was known about its owner.",
       "he": "מפני שהיה ידוע מעט מאוד על בעליו.",
@@ -265,7 +265,7 @@
       "end_word": 208
     },
     {
-      "id": "gloss-34",
+      "id": 33,
       "paragraph": 3,
       "en": "A worn school bag attracted more attention",
       "he": "תיק בית ספר בלוי משך תשומת לב רבה יותר",
@@ -273,7 +273,7 @@
       "end_word": 215
     },
     {
-      "id": "gloss-35",
+      "id": 34,
       "paragraph": 3,
       "en": "because it had belonged to three generations of the same family,",
       "he": "מפני שהיה שייך לשלושה דורות של אותה משפחה,",
@@ -281,7 +281,7 @@
       "end_word": 226
     },
     {
-      "id": "gloss-36",
+      "id": 35,
       "paragraph": 3,
       "en": "who had all attended the local school.",
       "he": "שכולם למדו בבית הספר המקומי.",
@@ -289,7 +289,7 @@
       "end_word": 233
     },
     {
-      "id": "gloss-37",
+      "id": 36,
       "paragraph": 4,
       "en": "Sixteen-year-old Daniel suggested the bag",
       "he": "דניאל בן השש־עשרה הציע את התיק",
@@ -297,7 +297,7 @@
       "end_word": 238
     },
     {
-      "id": "gloss-38",
+      "id": 37,
       "paragraph": 4,
       "en": "after finding it in his grandmother's cupboard.",
       "he": "לאחר שמצא אותו בארון של סבתו.",
@@ -305,7 +305,7 @@
       "end_word": 245
     },
     {
-      "id": "gloss-39",
+      "id": 38,
       "paragraph": 4,
       "en": "He originally hoped",
       "he": "בתחילה הוא קיווה",
@@ -313,7 +313,7 @@
       "end_word": 248
     },
     {
-      "id": "gloss-40",
+      "id": 39,
       "paragraph": 4,
       "en": "that the museum would help him discover",
       "he": "שהמוזיאון יעזור לו לגלות",
@@ -321,7 +321,7 @@
       "end_word": 255
     },
     {
-      "id": "gloss-41",
+      "id": 40,
       "paragraph": 4,
       "en": "when it had been made.",
       "he": "מתי התיק יוצר.",
@@ -329,7 +329,7 @@
       "end_word": 260
     },
     {
-      "id": "gloss-42",
+      "id": 41,
       "paragraph": 4,
       "en": "While preparing his description, however,",
       "he": "אולם בזמן שהכין את התיאור שלו,",
@@ -337,7 +337,7 @@
       "end_word": 265
     },
     {
-      "id": "gloss-43",
+      "id": 42,
       "paragraph": 4,
       "en": "he interviewed several relatives",
       "he": "הוא ראיין כמה קרובי משפחה",
@@ -345,7 +345,7 @@
       "end_word": 269
     },
     {
-      "id": "gloss-44",
+      "id": 43,
       "paragraph": 4,
       "en": "and learned about their school days.",
       "he": "ולמד על שנות הלימודים שלהם.",
@@ -353,7 +353,7 @@
       "end_word": 275
     },
     {
-      "id": "gloss-45",
+      "id": 44,
       "paragraph": 4,
       "en": "The museum could not establish the bag's exact age,",
       "he": "המוזיאון לא הצליח לקבוע את גילו המדויק של התיק,",
@@ -361,7 +361,7 @@
       "end_word": 284
     },
     {
-      "id": "gloss-46",
+      "id": 45,
       "paragraph": 4,
       "en": "but Daniel felt that the conversations had been worthwhile.",
       "he": "אבל דניאל הרגיש שהשיחות היו שוות את המאמץ.",
@@ -369,7 +369,7 @@
       "end_word": 293
     },
     {
-      "id": "gloss-47",
+      "id": 46,
       "paragraph": 4,
       "en": "He had discovered",
       "he": "הוא גילה",
@@ -377,7 +377,7 @@
       "end_word": 296
     },
     {
-      "id": "gloss-48",
+      "id": 47,
       "paragraph": 4,
       "en": "that an ordinary object could encourage people to share memories",
       "he": "שחפץ רגיל יכול לעודד אנשים לשתף זיכרונות",
@@ -385,7 +385,7 @@
       "end_word": 306
     },
     {
-      "id": "gloss-49",
+      "id": 48,
       "paragraph": 4,
       "en": "they had never discussed with him before.",
       "he": "שמעולם לא סיפרו לו עליהם קודם.",
@@ -393,7 +393,7 @@
       "end_word": 313
     },
     {
-      "id": "gloss-50",
+      "id": 49,
       "paragraph": 5,
       "en": "The bag was eventually chosen,",
       "he": "בסופו של דבר התיק נבחר,",
@@ -401,7 +401,7 @@
       "end_word": 318
     },
     {
-      "id": "gloss-51",
+      "id": 50,
       "paragraph": 5,
       "en": "together with photographs and memories",
       "he": "יחד עם תמונות וזיכרונות",
@@ -409,7 +409,7 @@
       "end_word": 323
     },
     {
-      "id": "gloss-52",
+      "id": 51,
       "paragraph": 5,
       "en": "provided by Daniel's family.",
       "he": "שמסרה משפחתו של דניאל.",
@@ -417,7 +417,7 @@
       "end_word": 327
     },
     {
-      "id": "gloss-53",
+      "id": 52,
       "paragraph": 5,
       "en": "Nevertheless, the museum team recognized a limitation:",
       "he": "למרות זאת, צוות המוזיאון זיהה מגבלה:",
@@ -425,7 +425,7 @@
       "end_word": 334
     },
     {
-      "id": "gloss-54",
+      "id": 53,
       "paragraph": 5,
       "en": "one family's experience could not represent everyone in Westford.",
       "he": "החוויה של משפחה אחת לא יכלה לייצג את כל תושבי וסטפורד.",
@@ -433,7 +433,7 @@
       "end_word": 343
     },
     {
-      "id": "gloss-55",
+      "id": 54,
       "paragraph": 5,
       "en": "They therefore invited visitors",
       "he": "לכן הם הזמינו את המבקרים",
@@ -441,7 +441,7 @@
       "end_word": 347
     },
     {
-      "id": "gloss-56",
+      "id": 55,
       "paragraph": 5,
       "en": "to add their own school memories",
       "he": "להוסיף את הזיכרונות שלהם מבית הספר",
@@ -449,7 +449,7 @@
       "end_word": 353
     },
     {
-      "id": "gloss-57",
+      "id": 56,
       "paragraph": 5,
       "en": "to a noticeboard beside the display.",
       "he": "ללוח מודעות לצד התצוגה.",
@@ -457,7 +457,7 @@
       "end_word": 359
     },
     {
-      "id": "gloss-58",
+      "id": 57,
       "paragraph": 5,
       "en": "The team is also considering a similar exhibition",
       "he": "הצוות שוקל גם תערוכה דומה",
@@ -465,7 +465,7 @@
       "end_word": 367
     },
     {
-      "id": "gloss-59",
+      "id": 58,
       "paragraph": 5,
       "en": "about working life.",
       "he": "על חיי העבודה.",
@@ -473,7 +473,7 @@
       "end_word": 370
     },
     {
-      "id": "gloss-60",
+      "id": 59,
       "paragraph": 5,
       "en": "No date has been set,",
       "he": "טרם נקבע מועד,",
@@ -481,7 +481,7 @@
       "end_word": 375
     },
     {
-      "id": "gloss-61",
+      "id": 60,
       "paragraph": 5,
       "en": "since staff must first review",
       "he": "מפני שהצוות צריך תחילה לבחון",
@@ -489,7 +489,7 @@
       "end_word": 380
     },
     {
-      "id": "gloss-62",
+      "id": 61,
       "paragraph": 5,
       "en": "what they learned from the school exhibition.",
       "he": "מה למד מתערוכת בית הספר.",
@@ -501,2329 +501,2329 @@
     {
       "id": 0,
       "text": "Visitors",
-      "gloss": "gloss-1",
+      "gloss": 0,
       "paragraph": 1
     },
     {
       "id": 1,
       "text": "to",
-      "gloss": "gloss-1",
+      "gloss": 0,
       "paragraph": 1
     },
     {
       "id": 2,
       "text": "the",
-      "gloss": "gloss-1",
+      "gloss": 0,
       "paragraph": 1
     },
     {
       "id": 3,
       "text": "Westford",
-      "gloss": "gloss-1",
+      "gloss": 0,
       "paragraph": 1
     },
     {
       "id": 4,
       "text": "Museum",
-      "gloss": "gloss-1",
+      "gloss": 0,
       "paragraph": 1
     },
     {
       "id": 5,
       "text": "usually",
-      "gloss": "gloss-2",
+      "gloss": 1,
       "paragraph": 1
     },
     {
       "id": 6,
       "text": "expect",
-      "gloss": "gloss-2",
+      "gloss": 1,
       "paragraph": 1
     },
     {
       "id": 7,
       "text": "to",
-      "gloss": "gloss-2",
+      "gloss": 1,
       "paragraph": 1
     },
     {
       "id": 8,
       "text": "see",
-      "gloss": "gloss-2",
+      "gloss": 1,
       "paragraph": 1
     },
     {
       "id": 9,
       "text": "objects",
-      "gloss": "gloss-2",
+      "gloss": 1,
       "paragraph": 1
     },
     {
       "id": 10,
       "text": "behind",
-      "gloss": "gloss-2",
+      "gloss": 1,
       "paragraph": 1
     },
     {
       "id": 11,
       "text": "glass.",
-      "gloss": "gloss-2",
+      "gloss": 1,
       "paragraph": 1
     },
     {
       "id": 12,
       "text": "Last",
-      "gloss": "gloss-3",
+      "gloss": 2,
       "paragraph": 1
     },
     {
       "id": 13,
       "text": "summer,",
-      "gloss": "gloss-3",
+      "gloss": 2,
       "paragraph": 1
     },
     {
       "id": 14,
       "text": "however,",
-      "gloss": "gloss-3",
+      "gloss": 2,
       "paragraph": 1
     },
     {
       "id": 15,
       "text": "they",
-      "gloss": "gloss-4",
+      "gloss": 3,
       "paragraph": 1
     },
     {
       "id": 16,
       "text": "found",
-      "gloss": "gloss-4",
+      "gloss": 3,
       "paragraph": 1
     },
     {
       "id": 17,
       "text": "an",
-      "gloss": "gloss-4",
+      "gloss": 3,
       "paragraph": 1
     },
     {
       "id": 18,
       "text": "empty",
-      "gloss": "gloss-4",
+      "gloss": 3,
       "paragraph": 1
     },
     {
       "id": 19,
       "text": "display",
-      "gloss": "gloss-4",
+      "gloss": 3,
       "paragraph": 1
     },
     {
       "id": 20,
       "text": "case",
-      "gloss": "gloss-4",
+      "gloss": 3,
       "paragraph": 1
     },
     {
       "id": 21,
       "text": "near",
-      "gloss": "gloss-4",
+      "gloss": 3,
       "paragraph": 1
     },
     {
       "id": 22,
       "text": "the",
-      "gloss": "gloss-4",
+      "gloss": 3,
       "paragraph": 1
     },
     {
       "id": 23,
       "text": "entrance.",
-      "gloss": "gloss-4",
+      "gloss": 3,
       "paragraph": 1
     },
     {
       "id": 24,
       "text": "Nothing",
-      "gloss": "gloss-5",
+      "gloss": 4,
       "paragraph": 1
     },
     {
       "id": 25,
       "text": "had",
-      "gloss": "gloss-5",
+      "gloss": 4,
       "paragraph": 1
     },
     {
       "id": 26,
       "text": "been",
-      "gloss": "gloss-5",
+      "gloss": 4,
       "paragraph": 1
     },
     {
       "id": 27,
       "text": "stolen,",
-      "gloss": "gloss-5",
+      "gloss": 4,
       "paragraph": 1
     },
     {
       "id": 28,
       "text": "and",
-      "gloss": "gloss-6",
+      "gloss": 5,
       "paragraph": 1
     },
     {
       "id": 29,
       "text": "the",
-      "gloss": "gloss-6",
+      "gloss": 5,
       "paragraph": 1
     },
     {
       "id": 30,
       "text": "museum",
-      "gloss": "gloss-6",
+      "gloss": 5,
       "paragraph": 1
     },
     {
       "id": 31,
       "text": "had",
-      "gloss": "gloss-6",
+      "gloss": 5,
       "paragraph": 1
     },
     {
       "id": 32,
       "text": "not",
-      "gloss": "gloss-6",
+      "gloss": 5,
       "paragraph": 1
     },
     {
       "id": 33,
       "text": "run",
-      "gloss": "gloss-6",
+      "gloss": 5,
       "paragraph": 1
     },
     {
       "id": 34,
       "text": "out",
-      "gloss": "gloss-6",
+      "gloss": 5,
       "paragraph": 1
     },
     {
       "id": 35,
       "text": "of",
-      "gloss": "gloss-6",
+      "gloss": 5,
       "paragraph": 1
     },
     {
       "id": 36,
       "text": "things",
-      "gloss": "gloss-6",
+      "gloss": 5,
       "paragraph": 1
     },
     {
       "id": 37,
       "text": "to",
-      "gloss": "gloss-6",
+      "gloss": 5,
       "paragraph": 1
     },
     {
       "id": 38,
       "text": "show.",
-      "gloss": "gloss-6",
+      "gloss": 5,
       "paragraph": 1
     },
     {
       "id": 39,
       "text": "Instead,",
-      "gloss": "gloss-7",
+      "gloss": 6,
       "paragraph": 1
     },
     {
       "id": 40,
       "text": "the",
-      "gloss": "gloss-8",
+      "gloss": 7,
       "paragraph": 1
     },
     {
       "id": 41,
       "text": "empty",
-      "gloss": "gloss-8",
+      "gloss": 7,
       "paragraph": 1
     },
     {
       "id": 42,
       "text": "space",
-      "gloss": "gloss-8",
+      "gloss": 7,
       "paragraph": 1
     },
     {
       "id": 43,
       "text": "was",
-      "gloss": "gloss-8",
+      "gloss": 7,
       "paragraph": 1
     },
     {
       "id": 44,
       "text": "an",
-      "gloss": "gloss-8",
+      "gloss": 7,
       "paragraph": 1
     },
     {
       "id": 45,
       "text": "invitation.",
-      "gloss": "gloss-8",
+      "gloss": 7,
       "paragraph": 1
     },
     {
       "id": 46,
       "text": "The",
-      "gloss": "gloss-9",
+      "gloss": 8,
       "paragraph": 1
     },
     {
       "id": 47,
       "text": "museum",
-      "gloss": "gloss-9",
+      "gloss": 8,
       "paragraph": 1
     },
     {
       "id": 48,
       "text": "wanted",
-      "gloss": "gloss-9",
+      "gloss": 8,
       "paragraph": 1
     },
     {
       "id": 49,
       "text": "local",
-      "gloss": "gloss-9",
+      "gloss": 8,
       "paragraph": 1
     },
     {
       "id": 50,
       "text": "residents",
-      "gloss": "gloss-9",
+      "gloss": 8,
       "paragraph": 1
     },
     {
       "id": 51,
       "text": "to",
-      "gloss": "gloss-10",
+      "gloss": 9,
       "paragraph": 1
     },
     {
       "id": 52,
       "text": "suggest",
-      "gloss": "gloss-10",
+      "gloss": 9,
       "paragraph": 1
     },
     {
       "id": 53,
       "text": "an",
-      "gloss": "gloss-10",
+      "gloss": 9,
       "paragraph": 1
     },
     {
       "id": 54,
       "text": "everyday",
-      "gloss": "gloss-10",
+      "gloss": 9,
       "paragraph": 1
     },
     {
       "id": 55,
       "text": "object",
-      "gloss": "gloss-10",
+      "gloss": 9,
       "paragraph": 1
     },
     {
       "id": 56,
       "text": "for",
-      "gloss": "gloss-11",
+      "gloss": 10,
       "paragraph": 1
     },
     {
       "id": 57,
       "text": "a",
-      "gloss": "gloss-11",
+      "gloss": 10,
       "paragraph": 1
     },
     {
       "id": 58,
       "text": "new",
-      "gloss": "gloss-11",
+      "gloss": 10,
       "paragraph": 1
     },
     {
       "id": 59,
       "text": "exhibition",
-      "gloss": "gloss-11",
+      "gloss": 10,
       "paragraph": 1
     },
     {
       "id": 60,
       "text": "about",
-      "gloss": "gloss-11",
+      "gloss": 10,
       "paragraph": 1
     },
     {
       "id": 61,
       "text": "life",
-      "gloss": "gloss-11",
+      "gloss": 10,
       "paragraph": 1
     },
     {
       "id": 62,
       "text": "in",
-      "gloss": "gloss-11",
+      "gloss": 10,
       "paragraph": 1
     },
     {
       "id": 63,
       "text": "the",
-      "gloss": "gloss-11",
+      "gloss": 10,
       "paragraph": 1
     },
     {
       "id": 64,
       "text": "town.",
-      "gloss": "gloss-11",
+      "gloss": 10,
       "paragraph": 1
     },
     {
       "id": 65,
       "text": "Its",
-      "gloss": "gloss-12",
+      "gloss": 11,
       "paragraph": 1
     },
     {
       "id": 66,
       "text": "aim",
-      "gloss": "gloss-12",
+      "gloss": 11,
       "paragraph": 1
     },
     {
       "id": 67,
       "text": "was",
-      "gloss": "gloss-12",
+      "gloss": 11,
       "paragraph": 1
     },
     {
       "id": 68,
       "text": "to",
-      "gloss": "gloss-12",
+      "gloss": 11,
       "paragraph": 1
     },
     {
       "id": 69,
       "text": "include",
-      "gloss": "gloss-12",
+      "gloss": 11,
       "paragraph": 1
     },
     {
       "id": 70,
       "text": "experiences",
-      "gloss": "gloss-12",
+      "gloss": 11,
       "paragraph": 1
     },
     {
       "id": 71,
       "text": "that",
-      "gloss": "gloss-13",
+      "gloss": 12,
       "paragraph": 1
     },
     {
       "id": 72,
       "text": "were",
-      "gloss": "gloss-13",
+      "gloss": 12,
       "paragraph": 1
     },
     {
       "id": 73,
       "text": "missing",
-      "gloss": "gloss-13",
+      "gloss": 12,
       "paragraph": 1
     },
     {
       "id": 74,
       "text": "from",
-      "gloss": "gloss-13",
+      "gloss": 12,
       "paragraph": 1
     },
     {
       "id": 75,
       "text": "its",
-      "gloss": "gloss-13",
+      "gloss": 12,
       "paragraph": 1
     },
     {
       "id": 76,
       "text": "existing",
-      "gloss": "gloss-13",
+      "gloss": 12,
       "paragraph": 1
     },
     {
       "id": 77,
       "text": "collections.",
-      "gloss": "gloss-13",
+      "gloss": 12,
       "paragraph": 1
     },
     {
       "id": 78,
       "text": "Residents",
-      "gloss": "gloss-14",
+      "gloss": 13,
       "paragraph": 2
     },
     {
       "id": 79,
       "text": "could",
-      "gloss": "gloss-14",
+      "gloss": 13,
       "paragraph": 2
     },
     {
       "id": 80,
       "text": "suggest",
-      "gloss": "gloss-14",
+      "gloss": 13,
       "paragraph": 2
     },
     {
       "id": 81,
       "text": "anything",
-      "gloss": "gloss-14",
+      "gloss": 13,
       "paragraph": 2
     },
     {
       "id": 82,
       "text": "from",
-      "gloss": "gloss-15",
+      "gloss": 14,
       "paragraph": 2
     },
     {
       "id": 83,
       "text": "a",
-      "gloss": "gloss-15",
+      "gloss": 14,
       "paragraph": 2
     },
     {
       "id": 84,
       "text": "kitchen",
-      "gloss": "gloss-15",
+      "gloss": 14,
       "paragraph": 2
     },
     {
       "id": 85,
       "text": "tool",
-      "gloss": "gloss-15",
+      "gloss": 14,
       "paragraph": 2
     },
     {
       "id": 86,
       "text": "to",
-      "gloss": "gloss-15",
+      "gloss": 14,
       "paragraph": 2
     },
     {
       "id": 87,
       "text": "a",
-      "gloss": "gloss-15",
+      "gloss": 14,
       "paragraph": 2
     },
     {
       "id": 88,
       "text": "bus",
-      "gloss": "gloss-15",
+      "gloss": 14,
       "paragraph": 2
     },
     {
       "id": 89,
       "text": "ticket.",
-      "gloss": "gloss-15",
+      "gloss": 14,
       "paragraph": 2
     },
     {
       "id": 90,
       "text": "They",
-      "gloss": "gloss-16",
+      "gloss": 15,
       "paragraph": 2
     },
     {
       "id": 91,
       "text": "first",
-      "gloss": "gloss-16",
+      "gloss": 15,
       "paragraph": 2
     },
     {
       "id": 92,
       "text": "had",
-      "gloss": "gloss-16",
+      "gloss": 15,
       "paragraph": 2
     },
     {
       "id": 93,
       "text": "to",
-      "gloss": "gloss-16",
+      "gloss": 15,
       "paragraph": 2
     },
     {
       "id": 94,
       "text": "send",
-      "gloss": "gloss-16",
+      "gloss": 15,
       "paragraph": 2
     },
     {
       "id": 95,
       "text": "a",
-      "gloss": "gloss-16",
+      "gloss": 15,
       "paragraph": 2
     },
     {
       "id": 96,
       "text": "photograph",
-      "gloss": "gloss-16",
+      "gloss": 15,
       "paragraph": 2
     },
     {
       "id": 97,
       "text": "and",
-      "gloss": "gloss-17",
+      "gloss": 16,
       "paragraph": 2
     },
     {
       "id": 98,
       "text": "a",
-      "gloss": "gloss-17",
+      "gloss": 16,
       "paragraph": 2
     },
     {
       "id": 99,
       "text": "short",
-      "gloss": "gloss-17",
+      "gloss": 16,
       "paragraph": 2
     },
     {
       "id": 100,
       "text": "description",
-      "gloss": "gloss-17",
+      "gloss": 16,
       "paragraph": 2
     },
     {
       "id": 101,
       "text": "explaining",
-      "gloss": "gloss-18",
+      "gloss": 17,
       "paragraph": 2
     },
     {
       "id": 102,
       "text": "where",
-      "gloss": "gloss-18",
+      "gloss": 17,
       "paragraph": 2
     },
     {
       "id": 103,
       "text": "the",
-      "gloss": "gloss-18",
+      "gloss": 17,
       "paragraph": 2
     },
     {
       "id": 104,
       "text": "object",
-      "gloss": "gloss-18",
+      "gloss": 17,
       "paragraph": 2
     },
     {
       "id": 105,
       "text": "came",
-      "gloss": "gloss-18",
+      "gloss": 17,
       "paragraph": 2
     },
     {
       "id": 106,
       "text": "from",
-      "gloss": "gloss-18",
+      "gloss": 17,
       "paragraph": 2
     },
     {
       "id": 107,
       "text": "and",
-      "gloss": "gloss-19",
+      "gloss": 18,
       "paragraph": 2
     },
     {
       "id": 108,
       "text": "why",
-      "gloss": "gloss-19",
+      "gloss": 18,
       "paragraph": 2
     },
     {
       "id": 109,
       "text": "it",
-      "gloss": "gloss-19",
+      "gloss": 18,
       "paragraph": 2
     },
     {
       "id": 110,
       "text": "mattered",
-      "gloss": "gloss-19",
+      "gloss": 18,
       "paragraph": 2
     },
     {
       "id": 111,
       "text": "to",
-      "gloss": "gloss-19",
+      "gloss": 18,
       "paragraph": 2
     },
     {
       "id": 112,
       "text": "them.",
-      "gloss": "gloss-19",
+      "gloss": 18,
       "paragraph": 2
     },
     {
       "id": 113,
       "text": "These",
-      "gloss": "gloss-20",
+      "gloss": 19,
       "paragraph": 2
     },
     {
       "id": 114,
       "text": "details",
-      "gloss": "gloss-20",
+      "gloss": 19,
       "paragraph": 2
     },
     {
       "id": 115,
       "text": "helped",
-      "gloss": "gloss-20",
+      "gloss": 19,
       "paragraph": 2
     },
     {
       "id": 116,
       "text": "the",
-      "gloss": "gloss-20",
+      "gloss": 19,
       "paragraph": 2
     },
     {
       "id": 117,
       "text": "museum",
-      "gloss": "gloss-20",
+      "gloss": 19,
       "paragraph": 2
     },
     {
       "id": 118,
       "text": "team",
-      "gloss": "gloss-20",
+      "gloss": 19,
       "paragraph": 2
     },
     {
       "id": 119,
       "text": "understand",
-      "gloss": "gloss-21",
+      "gloss": 20,
       "paragraph": 2
     },
     {
       "id": 120,
       "text": "the",
-      "gloss": "gloss-21",
+      "gloss": 20,
       "paragraph": 2
     },
     {
       "id": 121,
       "text": "story",
-      "gloss": "gloss-21",
+      "gloss": 20,
       "paragraph": 2
     },
     {
       "id": 122,
       "text": "behind",
-      "gloss": "gloss-21",
+      "gloss": 20,
       "paragraph": 2
     },
     {
       "id": 123,
       "text": "each",
-      "gloss": "gloss-21",
+      "gloss": 20,
       "paragraph": 2
     },
     {
       "id": 124,
       "text": "suggestion.",
-      "gloss": "gloss-21",
+      "gloss": 20,
       "paragraph": 2
     },
     {
       "id": 125,
       "text": "People",
-      "gloss": "gloss-22",
+      "gloss": 21,
       "paragraph": 2
     },
     {
       "id": 126,
       "text": "did",
-      "gloss": "gloss-22",
+      "gloss": 21,
       "paragraph": 2
     },
     {
       "id": 127,
       "text": "not",
-      "gloss": "gloss-22",
+      "gloss": 21,
       "paragraph": 2
     },
     {
       "id": 128,
       "text": "need",
-      "gloss": "gloss-22",
+      "gloss": 21,
       "paragraph": 2
     },
     {
       "id": 129,
       "text": "to",
-      "gloss": "gloss-22",
+      "gloss": 21,
       "paragraph": 2
     },
     {
       "id": 130,
       "text": "bring",
-      "gloss": "gloss-22",
+      "gloss": 21,
       "paragraph": 2
     },
     {
       "id": 131,
       "text": "the",
-      "gloss": "gloss-22",
+      "gloss": 21,
       "paragraph": 2
     },
     {
       "id": 132,
       "text": "object",
-      "gloss": "gloss-22",
+      "gloss": 21,
       "paragraph": 2
     },
     {
       "id": 133,
       "text": "to",
-      "gloss": "gloss-22",
+      "gloss": 21,
       "paragraph": 2
     },
     {
       "id": 134,
       "text": "the",
-      "gloss": "gloss-22",
+      "gloss": 21,
       "paragraph": 2
     },
     {
       "id": 135,
       "text": "museum",
-      "gloss": "gloss-22",
+      "gloss": 21,
       "paragraph": 2
     },
     {
       "id": 136,
       "text": "unless",
-      "gloss": "gloss-23",
+      "gloss": 22,
       "paragraph": 2
     },
     {
       "id": 137,
       "text": "the",
-      "gloss": "gloss-23",
+      "gloss": 22,
       "paragraph": 2
     },
     {
       "id": 138,
       "text": "team",
-      "gloss": "gloss-23",
+      "gloss": 22,
       "paragraph": 2
     },
     {
       "id": 139,
       "text": "contacted",
-      "gloss": "gloss-23",
+      "gloss": 22,
       "paragraph": 2
     },
     {
       "id": 140,
       "text": "them.",
-      "gloss": "gloss-23",
+      "gloss": 22,
       "paragraph": 2
     },
     {
       "id": 141,
       "text": "This",
-      "gloss": "gloss-24",
+      "gloss": 23,
       "paragraph": 2
     },
     {
       "id": 142,
       "text": "made",
-      "gloss": "gloss-24",
+      "gloss": 23,
       "paragraph": 2
     },
     {
       "id": 143,
       "text": "it",
-      "gloss": "gloss-24",
+      "gloss": 23,
       "paragraph": 2
     },
     {
       "id": 144,
       "text": "possible",
-      "gloss": "gloss-24",
+      "gloss": 23,
       "paragraph": 2
     },
     {
       "id": 145,
       "text": "to",
-      "gloss": "gloss-24",
+      "gloss": 23,
       "paragraph": 2
     },
     {
       "id": 146,
       "text": "consider",
-      "gloss": "gloss-24",
+      "gloss": 23,
       "paragraph": 2
     },
     {
       "id": 147,
       "text": "objects",
-      "gloss": "gloss-24",
+      "gloss": 23,
       "paragraph": 2
     },
     {
       "id": 148,
       "text": "that",
-      "gloss": "gloss-25",
+      "gloss": 24,
       "paragraph": 2
     },
     {
       "id": 149,
       "text": "were",
-      "gloss": "gloss-25",
+      "gloss": 24,
       "paragraph": 2
     },
     {
       "id": 150,
       "text": "still",
-      "gloss": "gloss-25",
+      "gloss": 24,
       "paragraph": 2
     },
     {
       "id": 151,
       "text": "being",
-      "gloss": "gloss-25",
+      "gloss": 24,
       "paragraph": 2
     },
     {
       "id": 152,
       "text": "used",
-      "gloss": "gloss-25",
+      "gloss": 24,
       "paragraph": 2
     },
     {
       "id": 153,
       "text": "at",
-      "gloss": "gloss-25",
+      "gloss": 24,
       "paragraph": 2
     },
     {
       "id": 154,
       "text": "home.",
-      "gloss": "gloss-25",
+      "gloss": 24,
       "paragraph": 2
     },
     {
       "id": 155,
       "text": "Choosing",
-      "gloss": "gloss-26",
+      "gloss": 25,
       "paragraph": 3
     },
     {
       "id": 156,
       "text": "an",
-      "gloss": "gloss-26",
+      "gloss": 25,
       "paragraph": 3
     },
     {
       "id": 157,
       "text": "object",
-      "gloss": "gloss-26",
+      "gloss": 25,
       "paragraph": 3
     },
     {
       "id": 158,
       "text": "was",
-      "gloss": "gloss-26",
+      "gloss": 25,
       "paragraph": 3
     },
     {
       "id": 159,
       "text": "more",
-      "gloss": "gloss-26",
+      "gloss": 25,
       "paragraph": 3
     },
     {
       "id": 160,
       "text": "difficult",
-      "gloss": "gloss-26",
+      "gloss": 25,
       "paragraph": 3
     },
     {
       "id": 161,
       "text": "than",
-      "gloss": "gloss-27",
+      "gloss": 26,
       "paragraph": 3
     },
     {
       "id": 162,
       "text": "the",
-      "gloss": "gloss-27",
+      "gloss": 26,
       "paragraph": 3
     },
     {
       "id": 163,
       "text": "team",
-      "gloss": "gloss-27",
+      "gloss": 26,
       "paragraph": 3
     },
     {
       "id": 164,
       "text": "had",
-      "gloss": "gloss-27",
+      "gloss": 26,
       "paragraph": 3
     },
     {
       "id": 165,
       "text": "expected.",
-      "gloss": "gloss-27",
+      "gloss": 26,
       "paragraph": 3
     },
     {
       "id": 166,
       "text": "Some",
-      "gloss": "gloss-28",
+      "gloss": 27,
       "paragraph": 3
     },
     {
       "id": 167,
       "text": "residents",
-      "gloss": "gloss-28",
+      "gloss": 27,
       "paragraph": 3
     },
     {
       "id": 168,
       "text": "assumed",
-      "gloss": "gloss-28",
+      "gloss": 27,
       "paragraph": 3
     },
     {
       "id": 169,
       "text": "that",
-      "gloss": "gloss-29",
+      "gloss": 28,
       "paragraph": 3
     },
     {
       "id": 170,
       "text": "the",
-      "gloss": "gloss-29",
+      "gloss": 28,
       "paragraph": 3
     },
     {
       "id": 171,
       "text": "oldest",
-      "gloss": "gloss-29",
+      "gloss": 28,
       "paragraph": 3
     },
     {
       "id": 172,
       "text": "or",
-      "gloss": "gloss-29",
+      "gloss": 28,
       "paragraph": 3
     },
     {
       "id": 173,
       "text": "most",
-      "gloss": "gloss-29",
+      "gloss": 28,
       "paragraph": 3
     },
     {
       "id": 174,
       "text": "expensive",
-      "gloss": "gloss-29",
+      "gloss": 28,
       "paragraph": 3
     },
     {
       "id": 175,
       "text": "item",
-      "gloss": "gloss-29",
+      "gloss": 28,
       "paragraph": 3
     },
     {
       "id": 176,
       "text": "would",
-      "gloss": "gloss-29",
+      "gloss": 28,
       "paragraph": 3
     },
     {
       "id": 177,
       "text": "win.",
-      "gloss": "gloss-29",
+      "gloss": 28,
       "paragraph": 3
     },
     {
       "id": 178,
       "text": "However,",
-      "gloss": "gloss-30",
+      "gloss": 29,
       "paragraph": 3
     },
     {
       "id": 179,
       "text": "the",
-      "gloss": "gloss-30",
+      "gloss": 29,
       "paragraph": 3
     },
     {
       "id": 180,
       "text": "team",
-      "gloss": "gloss-30",
+      "gloss": 29,
       "paragraph": 3
     },
     {
       "id": 181,
       "text": "was",
-      "gloss": "gloss-30",
+      "gloss": 29,
       "paragraph": 3
     },
     {
       "id": 182,
       "text": "looking",
-      "gloss": "gloss-30",
+      "gloss": 29,
       "paragraph": 3
     },
     {
       "id": 183,
       "text": "for",
-      "gloss": "gloss-30",
+      "gloss": 29,
       "paragraph": 3
     },
     {
       "id": 184,
       "text": "something",
-      "gloss": "gloss-30",
+      "gloss": 29,
       "paragraph": 3
     },
     {
       "id": 185,
       "text": "that",
-      "gloss": "gloss-31",
+      "gloss": 30,
       "paragraph": 3
     },
     {
       "id": 186,
       "text": "could",
-      "gloss": "gloss-31",
+      "gloss": 30,
       "paragraph": 3
     },
     {
       "id": 187,
       "text": "reveal",
-      "gloss": "gloss-31",
+      "gloss": 30,
       "paragraph": 3
     },
     {
       "id": 188,
       "text": "an",
-      "gloss": "gloss-31",
+      "gloss": 30,
       "paragraph": 3
     },
     {
       "id": 189,
       "text": "interesting",
-      "gloss": "gloss-31",
+      "gloss": 30,
       "paragraph": 3
     },
     {
       "id": 190,
       "text": "part",
-      "gloss": "gloss-31",
+      "gloss": 30,
       "paragraph": 3
     },
     {
       "id": 191,
       "text": "of",
-      "gloss": "gloss-31",
+      "gloss": 30,
       "paragraph": 3
     },
     {
       "id": 192,
       "text": "everyday",
-      "gloss": "gloss-31",
+      "gloss": 30,
       "paragraph": 3
     },
     {
       "id": 193,
       "text": "life.",
-      "gloss": "gloss-31",
+      "gloss": 30,
       "paragraph": 3
     },
     {
       "id": 194,
       "text": "A",
-      "gloss": "gloss-32",
+      "gloss": 31,
       "paragraph": 3
     },
     {
       "id": 195,
       "text": "beautiful",
-      "gloss": "gloss-32",
+      "gloss": 31,
       "paragraph": 3
     },
     {
       "id": 196,
       "text": "silver",
-      "gloss": "gloss-32",
+      "gloss": 31,
       "paragraph": 3
     },
     {
       "id": 197,
       "text": "watch",
-      "gloss": "gloss-32",
+      "gloss": 31,
       "paragraph": 3
     },
     {
       "id": 198,
       "text": "was",
-      "gloss": "gloss-32",
+      "gloss": 31,
       "paragraph": 3
     },
     {
       "id": 199,
       "text": "not",
-      "gloss": "gloss-32",
+      "gloss": 31,
       "paragraph": 3
     },
     {
       "id": 200,
       "text": "selected",
-      "gloss": "gloss-32",
+      "gloss": 31,
       "paragraph": 3
     },
     {
       "id": 201,
       "text": "because",
-      "gloss": "gloss-33",
+      "gloss": 32,
       "paragraph": 3
     },
     {
       "id": 202,
       "text": "very",
-      "gloss": "gloss-33",
+      "gloss": 32,
       "paragraph": 3
     },
     {
       "id": 203,
       "text": "little",
-      "gloss": "gloss-33",
+      "gloss": 32,
       "paragraph": 3
     },
     {
       "id": 204,
       "text": "was",
-      "gloss": "gloss-33",
+      "gloss": 32,
       "paragraph": 3
     },
     {
       "id": 205,
       "text": "known",
-      "gloss": "gloss-33",
+      "gloss": 32,
       "paragraph": 3
     },
     {
       "id": 206,
       "text": "about",
-      "gloss": "gloss-33",
+      "gloss": 32,
       "paragraph": 3
     },
     {
       "id": 207,
       "text": "its",
-      "gloss": "gloss-33",
+      "gloss": 32,
       "paragraph": 3
     },
     {
       "id": 208,
       "text": "owner.",
-      "gloss": "gloss-33",
+      "gloss": 32,
       "paragraph": 3
     },
     {
       "id": 209,
       "text": "A",
-      "gloss": "gloss-34",
+      "gloss": 33,
       "paragraph": 3
     },
     {
       "id": 210,
       "text": "worn",
-      "gloss": "gloss-34",
+      "gloss": 33,
       "paragraph": 3
     },
     {
       "id": 211,
       "text": "school",
-      "gloss": "gloss-34",
+      "gloss": 33,
       "paragraph": 3
     },
     {
       "id": 212,
       "text": "bag",
-      "gloss": "gloss-34",
+      "gloss": 33,
       "paragraph": 3
     },
     {
       "id": 213,
       "text": "attracted",
-      "gloss": "gloss-34",
+      "gloss": 33,
       "paragraph": 3
     },
     {
       "id": 214,
       "text": "more",
-      "gloss": "gloss-34",
+      "gloss": 33,
       "paragraph": 3
     },
     {
       "id": 215,
       "text": "attention",
-      "gloss": "gloss-34",
+      "gloss": 33,
       "paragraph": 3
     },
     {
       "id": 216,
       "text": "because",
-      "gloss": "gloss-35",
+      "gloss": 34,
       "paragraph": 3
     },
     {
       "id": 217,
       "text": "it",
-      "gloss": "gloss-35",
+      "gloss": 34,
       "paragraph": 3
     },
     {
       "id": 218,
       "text": "had",
-      "gloss": "gloss-35",
+      "gloss": 34,
       "paragraph": 3
     },
     {
       "id": 219,
       "text": "belonged",
-      "gloss": "gloss-35",
+      "gloss": 34,
       "paragraph": 3
     },
     {
       "id": 220,
       "text": "to",
-      "gloss": "gloss-35",
+      "gloss": 34,
       "paragraph": 3
     },
     {
       "id": 221,
       "text": "three",
-      "gloss": "gloss-35",
+      "gloss": 34,
       "paragraph": 3
     },
     {
       "id": 222,
       "text": "generations",
-      "gloss": "gloss-35",
+      "gloss": 34,
       "paragraph": 3
     },
     {
       "id": 223,
       "text": "of",
-      "gloss": "gloss-35",
+      "gloss": 34,
       "paragraph": 3
     },
     {
       "id": 224,
       "text": "the",
-      "gloss": "gloss-35",
+      "gloss": 34,
       "paragraph": 3
     },
     {
       "id": 225,
       "text": "same",
-      "gloss": "gloss-35",
+      "gloss": 34,
       "paragraph": 3
     },
     {
       "id": 226,
       "text": "family,",
-      "gloss": "gloss-35",
+      "gloss": 34,
       "paragraph": 3
     },
     {
       "id": 227,
       "text": "who",
-      "gloss": "gloss-36",
+      "gloss": 35,
       "paragraph": 3
     },
     {
       "id": 228,
       "text": "had",
-      "gloss": "gloss-36",
+      "gloss": 35,
       "paragraph": 3
     },
     {
       "id": 229,
       "text": "all",
-      "gloss": "gloss-36",
+      "gloss": 35,
       "paragraph": 3
     },
     {
       "id": 230,
       "text": "attended",
-      "gloss": "gloss-36",
+      "gloss": 35,
       "paragraph": 3
     },
     {
       "id": 231,
       "text": "the",
-      "gloss": "gloss-36",
+      "gloss": 35,
       "paragraph": 3
     },
     {
       "id": 232,
       "text": "local",
-      "gloss": "gloss-36",
+      "gloss": 35,
       "paragraph": 3
     },
     {
       "id": 233,
       "text": "school.",
-      "gloss": "gloss-36",
+      "gloss": 35,
       "paragraph": 3
     },
     {
       "id": 234,
       "text": "Sixteen-year-old",
-      "gloss": "gloss-37",
+      "gloss": 36,
       "paragraph": 4
     },
     {
       "id": 235,
       "text": "Daniel",
-      "gloss": "gloss-37",
+      "gloss": 36,
       "paragraph": 4
     },
     {
       "id": 236,
       "text": "suggested",
-      "gloss": "gloss-37",
+      "gloss": 36,
       "paragraph": 4
     },
     {
       "id": 237,
       "text": "the",
-      "gloss": "gloss-37",
+      "gloss": 36,
       "paragraph": 4
     },
     {
       "id": 238,
       "text": "bag",
-      "gloss": "gloss-37",
+      "gloss": 36,
       "paragraph": 4
     },
     {
       "id": 239,
       "text": "after",
-      "gloss": "gloss-38",
+      "gloss": 37,
       "paragraph": 4
     },
     {
       "id": 240,
       "text": "finding",
-      "gloss": "gloss-38",
+      "gloss": 37,
       "paragraph": 4
     },
     {
       "id": 241,
       "text": "it",
-      "gloss": "gloss-38",
+      "gloss": 37,
       "paragraph": 4
     },
     {
       "id": 242,
       "text": "in",
-      "gloss": "gloss-38",
+      "gloss": 37,
       "paragraph": 4
     },
     {
       "id": 243,
       "text": "his",
-      "gloss": "gloss-38",
+      "gloss": 37,
       "paragraph": 4
     },
     {
       "id": 244,
       "text": "grandmother's",
-      "gloss": "gloss-38",
+      "gloss": 37,
       "paragraph": 4
     },
     {
       "id": 245,
       "text": "cupboard.",
-      "gloss": "gloss-38",
+      "gloss": 37,
       "paragraph": 4
     },
     {
       "id": 246,
       "text": "He",
-      "gloss": "gloss-39",
+      "gloss": 38,
       "paragraph": 4
     },
     {
       "id": 247,
       "text": "originally",
-      "gloss": "gloss-39",
+      "gloss": 38,
       "paragraph": 4
     },
     {
       "id": 248,
       "text": "hoped",
-      "gloss": "gloss-39",
+      "gloss": 38,
       "paragraph": 4
     },
     {
       "id": 249,
       "text": "that",
-      "gloss": "gloss-40",
+      "gloss": 39,
       "paragraph": 4
     },
     {
       "id": 250,
       "text": "the",
-      "gloss": "gloss-40",
+      "gloss": 39,
       "paragraph": 4
     },
     {
       "id": 251,
       "text": "museum",
-      "gloss": "gloss-40",
+      "gloss": 39,
       "paragraph": 4
     },
     {
       "id": 252,
       "text": "would",
-      "gloss": "gloss-40",
+      "gloss": 39,
       "paragraph": 4
     },
     {
       "id": 253,
       "text": "help",
-      "gloss": "gloss-40",
+      "gloss": 39,
       "paragraph": 4
     },
     {
       "id": 254,
       "text": "him",
-      "gloss": "gloss-40",
+      "gloss": 39,
       "paragraph": 4
     },
     {
       "id": 255,
       "text": "discover",
-      "gloss": "gloss-40",
+      "gloss": 39,
       "paragraph": 4
     },
     {
       "id": 256,
       "text": "when",
-      "gloss": "gloss-41",
+      "gloss": 40,
       "paragraph": 4
     },
     {
       "id": 257,
       "text": "it",
-      "gloss": "gloss-41",
+      "gloss": 40,
       "paragraph": 4
     },
     {
       "id": 258,
       "text": "had",
-      "gloss": "gloss-41",
+      "gloss": 40,
       "paragraph": 4
     },
     {
       "id": 259,
       "text": "been",
-      "gloss": "gloss-41",
+      "gloss": 40,
       "paragraph": 4
     },
     {
       "id": 260,
       "text": "made.",
-      "gloss": "gloss-41",
+      "gloss": 40,
       "paragraph": 4
     },
     {
       "id": 261,
       "text": "While",
-      "gloss": "gloss-42",
+      "gloss": 41,
       "paragraph": 4
     },
     {
       "id": 262,
       "text": "preparing",
-      "gloss": "gloss-42",
+      "gloss": 41,
       "paragraph": 4
     },
     {
       "id": 263,
       "text": "his",
-      "gloss": "gloss-42",
+      "gloss": 41,
       "paragraph": 4
     },
     {
       "id": 264,
       "text": "description,",
-      "gloss": "gloss-42",
+      "gloss": 41,
       "paragraph": 4
     },
     {
       "id": 265,
       "text": "however,",
-      "gloss": "gloss-42",
+      "gloss": 41,
       "paragraph": 4
     },
     {
       "id": 266,
       "text": "he",
-      "gloss": "gloss-43",
+      "gloss": 42,
       "paragraph": 4
     },
     {
       "id": 267,
       "text": "interviewed",
-      "gloss": "gloss-43",
+      "gloss": 42,
       "paragraph": 4
     },
     {
       "id": 268,
       "text": "several",
-      "gloss": "gloss-43",
+      "gloss": 42,
       "paragraph": 4
     },
     {
       "id": 269,
       "text": "relatives",
-      "gloss": "gloss-43",
+      "gloss": 42,
       "paragraph": 4
     },
     {
       "id": 270,
       "text": "and",
-      "gloss": "gloss-44",
+      "gloss": 43,
       "paragraph": 4
     },
     {
       "id": 271,
       "text": "learned",
-      "gloss": "gloss-44",
+      "gloss": 43,
       "paragraph": 4
     },
     {
       "id": 272,
       "text": "about",
-      "gloss": "gloss-44",
+      "gloss": 43,
       "paragraph": 4
     },
     {
       "id": 273,
       "text": "their",
-      "gloss": "gloss-44",
+      "gloss": 43,
       "paragraph": 4
     },
     {
       "id": 274,
       "text": "school",
-      "gloss": "gloss-44",
+      "gloss": 43,
       "paragraph": 4
     },
     {
       "id": 275,
       "text": "days.",
-      "gloss": "gloss-44",
+      "gloss": 43,
       "paragraph": 4
     },
     {
       "id": 276,
       "text": "The",
-      "gloss": "gloss-45",
+      "gloss": 44,
       "paragraph": 4
     },
     {
       "id": 277,
       "text": "museum",
-      "gloss": "gloss-45",
+      "gloss": 44,
       "paragraph": 4
     },
     {
       "id": 278,
       "text": "could",
-      "gloss": "gloss-45",
+      "gloss": 44,
       "paragraph": 4
     },
     {
       "id": 279,
       "text": "not",
-      "gloss": "gloss-45",
+      "gloss": 44,
       "paragraph": 4
     },
     {
       "id": 280,
       "text": "establish",
-      "gloss": "gloss-45",
+      "gloss": 44,
       "paragraph": 4
     },
     {
       "id": 281,
       "text": "the",
-      "gloss": "gloss-45",
+      "gloss": 44,
       "paragraph": 4
     },
     {
       "id": 282,
       "text": "bag's",
-      "gloss": "gloss-45",
+      "gloss": 44,
       "paragraph": 4
     },
     {
       "id": 283,
       "text": "exact",
-      "gloss": "gloss-45",
+      "gloss": 44,
       "paragraph": 4
     },
     {
       "id": 284,
       "text": "age,",
-      "gloss": "gloss-45",
+      "gloss": 44,
       "paragraph": 4
     },
     {
       "id": 285,
       "text": "but",
-      "gloss": "gloss-46",
+      "gloss": 45,
       "paragraph": 4
     },
     {
       "id": 286,
       "text": "Daniel",
-      "gloss": "gloss-46",
+      "gloss": 45,
       "paragraph": 4
     },
     {
       "id": 287,
       "text": "felt",
-      "gloss": "gloss-46",
+      "gloss": 45,
       "paragraph": 4
     },
     {
       "id": 288,
       "text": "that",
-      "gloss": "gloss-46",
+      "gloss": 45,
       "paragraph": 4
     },
     {
       "id": 289,
       "text": "the",
-      "gloss": "gloss-46",
+      "gloss": 45,
       "paragraph": 4
     },
     {
       "id": 290,
       "text": "conversations",
-      "gloss": "gloss-46",
+      "gloss": 45,
       "paragraph": 4
     },
     {
       "id": 291,
       "text": "had",
-      "gloss": "gloss-46",
+      "gloss": 45,
       "paragraph": 4
     },
     {
       "id": 292,
       "text": "been",
-      "gloss": "gloss-46",
+      "gloss": 45,
       "paragraph": 4
     },
     {
       "id": 293,
       "text": "worthwhile.",
-      "gloss": "gloss-46",
+      "gloss": 45,
       "paragraph": 4
     },
     {
       "id": 294,
       "text": "He",
-      "gloss": "gloss-47",
+      "gloss": 46,
       "paragraph": 4
     },
     {
       "id": 295,
       "text": "had",
-      "gloss": "gloss-47",
+      "gloss": 46,
       "paragraph": 4
     },
     {
       "id": 296,
       "text": "discovered",
-      "gloss": "gloss-47",
+      "gloss": 46,
       "paragraph": 4
     },
     {
       "id": 297,
       "text": "that",
-      "gloss": "gloss-48",
+      "gloss": 47,
       "paragraph": 4
     },
     {
       "id": 298,
       "text": "an",
-      "gloss": "gloss-48",
+      "gloss": 47,
       "paragraph": 4
     },
     {
       "id": 299,
       "text": "ordinary",
-      "gloss": "gloss-48",
+      "gloss": 47,
       "paragraph": 4
     },
     {
       "id": 300,
       "text": "object",
-      "gloss": "gloss-48",
+      "gloss": 47,
       "paragraph": 4
     },
     {
       "id": 301,
       "text": "could",
-      "gloss": "gloss-48",
+      "gloss": 47,
       "paragraph": 4
     },
     {
       "id": 302,
       "text": "encourage",
-      "gloss": "gloss-48",
+      "gloss": 47,
       "paragraph": 4
     },
     {
       "id": 303,
       "text": "people",
-      "gloss": "gloss-48",
+      "gloss": 47,
       "paragraph": 4
     },
     {
       "id": 304,
       "text": "to",
-      "gloss": "gloss-48",
+      "gloss": 47,
       "paragraph": 4
     },
     {
       "id": 305,
       "text": "share",
-      "gloss": "gloss-48",
+      "gloss": 47,
       "paragraph": 4
     },
     {
       "id": 306,
       "text": "memories",
-      "gloss": "gloss-48",
+      "gloss": 47,
       "paragraph": 4
     },
     {
       "id": 307,
       "text": "they",
-      "gloss": "gloss-49",
+      "gloss": 48,
       "paragraph": 4
     },
     {
       "id": 308,
       "text": "had",
-      "gloss": "gloss-49",
+      "gloss": 48,
       "paragraph": 4
     },
     {
       "id": 309,
       "text": "never",
-      "gloss": "gloss-49",
+      "gloss": 48,
       "paragraph": 4
     },
     {
       "id": 310,
       "text": "discussed",
-      "gloss": "gloss-49",
+      "gloss": 48,
       "paragraph": 4
     },
     {
       "id": 311,
       "text": "with",
-      "gloss": "gloss-49",
+      "gloss": 48,
       "paragraph": 4
     },
     {
       "id": 312,
       "text": "him",
-      "gloss": "gloss-49",
+      "gloss": 48,
       "paragraph": 4
     },
     {
       "id": 313,
       "text": "before.",
-      "gloss": "gloss-49",
+      "gloss": 48,
       "paragraph": 4
     },
     {
       "id": 314,
       "text": "The",
-      "gloss": "gloss-50",
+      "gloss": 49,
       "paragraph": 5
     },
     {
       "id": 315,
       "text": "bag",
-      "gloss": "gloss-50",
+      "gloss": 49,
       "paragraph": 5
     },
     {
       "id": 316,
       "text": "was",
-      "gloss": "gloss-50",
+      "gloss": 49,
       "paragraph": 5
     },
     {
       "id": 317,
       "text": "eventually",
-      "gloss": "gloss-50",
+      "gloss": 49,
       "paragraph": 5
     },
     {
       "id": 318,
       "text": "chosen,",
-      "gloss": "gloss-50",
+      "gloss": 49,
       "paragraph": 5
     },
     {
       "id": 319,
       "text": "together",
-      "gloss": "gloss-51",
+      "gloss": 50,
       "paragraph": 5
     },
     {
       "id": 320,
       "text": "with",
-      "gloss": "gloss-51",
+      "gloss": 50,
       "paragraph": 5
     },
     {
       "id": 321,
       "text": "photographs",
-      "gloss": "gloss-51",
+      "gloss": 50,
       "paragraph": 5
     },
     {
       "id": 322,
       "text": "and",
-      "gloss": "gloss-51",
+      "gloss": 50,
       "paragraph": 5
     },
     {
       "id": 323,
       "text": "memories",
-      "gloss": "gloss-51",
+      "gloss": 50,
       "paragraph": 5
     },
     {
       "id": 324,
       "text": "provided",
-      "gloss": "gloss-52",
+      "gloss": 51,
       "paragraph": 5
     },
     {
       "id": 325,
       "text": "by",
-      "gloss": "gloss-52",
+      "gloss": 51,
       "paragraph": 5
     },
     {
       "id": 326,
       "text": "Daniel's",
-      "gloss": "gloss-52",
+      "gloss": 51,
       "paragraph": 5
     },
     {
       "id": 327,
       "text": "family.",
-      "gloss": "gloss-52",
+      "gloss": 51,
       "paragraph": 5
     },
     {
       "id": 328,
       "text": "Nevertheless,",
-      "gloss": "gloss-53",
+      "gloss": 52,
       "paragraph": 5
     },
     {
       "id": 329,
       "text": "the",
-      "gloss": "gloss-53",
+      "gloss": 52,
       "paragraph": 5
     },
     {
       "id": 330,
       "text": "museum",
-      "gloss": "gloss-53",
+      "gloss": 52,
       "paragraph": 5
     },
     {
       "id": 331,
       "text": "team",
-      "gloss": "gloss-53",
+      "gloss": 52,
       "paragraph": 5
     },
     {
       "id": 332,
       "text": "recognized",
-      "gloss": "gloss-53",
+      "gloss": 52,
       "paragraph": 5
     },
     {
       "id": 333,
       "text": "a",
-      "gloss": "gloss-53",
+      "gloss": 52,
       "paragraph": 5
     },
     {
       "id": 334,
       "text": "limitation:",
-      "gloss": "gloss-53",
+      "gloss": 52,
       "paragraph": 5
     },
     {
       "id": 335,
       "text": "one",
-      "gloss": "gloss-54",
+      "gloss": 53,
       "paragraph": 5
     },
     {
       "id": 336,
       "text": "family's",
-      "gloss": "gloss-54",
+      "gloss": 53,
       "paragraph": 5
     },
     {
       "id": 337,
       "text": "experience",
-      "gloss": "gloss-54",
+      "gloss": 53,
       "paragraph": 5
     },
     {
       "id": 338,
       "text": "could",
-      "gloss": "gloss-54",
+      "gloss": 53,
       "paragraph": 5
     },
     {
       "id": 339,
       "text": "not",
-      "gloss": "gloss-54",
+      "gloss": 53,
       "paragraph": 5
     },
     {
       "id": 340,
       "text": "represent",
-      "gloss": "gloss-54",
+      "gloss": 53,
       "paragraph": 5
     },
     {
       "id": 341,
       "text": "everyone",
-      "gloss": "gloss-54",
+      "gloss": 53,
       "paragraph": 5
     },
     {
       "id": 342,
       "text": "in",
-      "gloss": "gloss-54",
+      "gloss": 53,
       "paragraph": 5
     },
     {
       "id": 343,
       "text": "Westford.",
-      "gloss": "gloss-54",
+      "gloss": 53,
       "paragraph": 5
     },
     {
       "id": 344,
       "text": "They",
-      "gloss": "gloss-55",
+      "gloss": 54,
       "paragraph": 5
     },
     {
       "id": 345,
       "text": "therefore",
-      "gloss": "gloss-55",
+      "gloss": 54,
       "paragraph": 5
     },
     {
       "id": 346,
       "text": "invited",
-      "gloss": "gloss-55",
+      "gloss": 54,
       "paragraph": 5
     },
     {
       "id": 347,
       "text": "visitors",
-      "gloss": "gloss-55",
+      "gloss": 54,
       "paragraph": 5
     },
     {
       "id": 348,
       "text": "to",
-      "gloss": "gloss-56",
+      "gloss": 55,
       "paragraph": 5
     },
     {
       "id": 349,
       "text": "add",
-      "gloss": "gloss-56",
+      "gloss": 55,
       "paragraph": 5
     },
     {
       "id": 350,
       "text": "their",
-      "gloss": "gloss-56",
+      "gloss": 55,
       "paragraph": 5
     },
     {
       "id": 351,
       "text": "own",
-      "gloss": "gloss-56",
+      "gloss": 55,
       "paragraph": 5
     },
     {
       "id": 352,
       "text": "school",
-      "gloss": "gloss-56",
+      "gloss": 55,
       "paragraph": 5
     },
     {
       "id": 353,
       "text": "memories",
-      "gloss": "gloss-56",
+      "gloss": 55,
       "paragraph": 5
     },
     {
       "id": 354,
       "text": "to",
-      "gloss": "gloss-57",
+      "gloss": 56,
       "paragraph": 5
     },
     {
       "id": 355,
       "text": "a",
-      "gloss": "gloss-57",
+      "gloss": 56,
       "paragraph": 5
     },
     {
       "id": 356,
       "text": "noticeboard",
-      "gloss": "gloss-57",
+      "gloss": 56,
       "paragraph": 5
     },
     {
       "id": 357,
       "text": "beside",
-      "gloss": "gloss-57",
+      "gloss": 56,
       "paragraph": 5
     },
     {
       "id": 358,
       "text": "the",
-      "gloss": "gloss-57",
+      "gloss": 56,
       "paragraph": 5
     },
     {
       "id": 359,
       "text": "display.",
-      "gloss": "gloss-57",
+      "gloss": 56,
       "paragraph": 5
     },
     {
       "id": 360,
       "text": "The",
-      "gloss": "gloss-58",
+      "gloss": 57,
       "paragraph": 5
     },
     {
       "id": 361,
       "text": "team",
-      "gloss": "gloss-58",
+      "gloss": 57,
       "paragraph": 5
     },
     {
       "id": 362,
       "text": "is",
-      "gloss": "gloss-58",
+      "gloss": 57,
       "paragraph": 5
     },
     {
       "id": 363,
       "text": "also",
-      "gloss": "gloss-58",
+      "gloss": 57,
       "paragraph": 5
     },
     {
       "id": 364,
       "text": "considering",
-      "gloss": "gloss-58",
+      "gloss": 57,
       "paragraph": 5
     },
     {
       "id": 365,
       "text": "a",
-      "gloss": "gloss-58",
+      "gloss": 57,
       "paragraph": 5
     },
     {
       "id": 366,
       "text": "similar",
-      "gloss": "gloss-58",
+      "gloss": 57,
       "paragraph": 5
     },
     {
       "id": 367,
       "text": "exhibition",
-      "gloss": "gloss-58",
+      "gloss": 57,
       "paragraph": 5
     },
     {
       "id": 368,
       "text": "about",
-      "gloss": "gloss-59",
+      "gloss": 58,
       "paragraph": 5
     },
     {
       "id": 369,
       "text": "working",
-      "gloss": "gloss-59",
+      "gloss": 58,
       "paragraph": 5
     },
     {
       "id": 370,
       "text": "life.",
-      "gloss": "gloss-59",
+      "gloss": 58,
       "paragraph": 5
     },
     {
       "id": 371,
       "text": "No",
-      "gloss": "gloss-60",
+      "gloss": 59,
       "paragraph": 5
     },
     {
       "id": 372,
       "text": "date",
-      "gloss": "gloss-60",
+      "gloss": 59,
       "paragraph": 5
     },
     {
       "id": 373,
       "text": "has",
-      "gloss": "gloss-60",
+      "gloss": 59,
       "paragraph": 5
     },
     {
       "id": 374,
       "text": "been",
-      "gloss": "gloss-60",
+      "gloss": 59,
       "paragraph": 5
     },
     {
       "id": 375,
       "text": "set,",
-      "gloss": "gloss-60",
+      "gloss": 59,
       "paragraph": 5
     },
     {
       "id": 376,
       "text": "since",
-      "gloss": "gloss-61",
+      "gloss": 60,
       "paragraph": 5
     },
     {
       "id": 377,
       "text": "staff",
-      "gloss": "gloss-61",
+      "gloss": 60,
       "paragraph": 5
     },
     {
       "id": 378,
       "text": "must",
-      "gloss": "gloss-61",
+      "gloss": 60,
       "paragraph": 5
     },
     {
       "id": 379,
       "text": "first",
-      "gloss": "gloss-61",
+      "gloss": 60,
       "paragraph": 5
     },
     {
       "id": 380,
       "text": "review",
-      "gloss": "gloss-61",
+      "gloss": 60,
       "paragraph": 5
     },
     {
       "id": 381,
       "text": "what",
-      "gloss": "gloss-62",
+      "gloss": 61,
       "paragraph": 5
     },
     {
       "id": 382,
       "text": "they",
-      "gloss": "gloss-62",
+      "gloss": 61,
       "paragraph": 5
     },
     {
       "id": 383,
       "text": "learned",
-      "gloss": "gloss-62",
+      "gloss": 61,
       "paragraph": 5
     },
     {
       "id": 384,
       "text": "from",
-      "gloss": "gloss-62",
+      "gloss": 61,
       "paragraph": 5
     },
     {
       "id": 385,
       "text": "the",
-      "gloss": "gloss-62",
+      "gloss": 61,
       "paragraph": 5
     },
     {
       "id": 386,
       "text": "school",
-      "gloss": "gloss-62",
+      "gloss": 61,
       "paragraph": 5
     },
     {
       "id": 387,
       "text": "exhibition.",
-      "gloss": "gloss-62",
+      "gloss": 61,
       "paragraph": 5
     }
   ]
