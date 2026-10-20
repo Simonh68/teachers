@@ -196,7 +196,7 @@
     slide.classList.contains('essay') &&
     /החיבור המלא|final draft|full essay/i.test(slide.querySelector('.eyebrow')?.textContent || '')
   );
-  if (!destination || document.querySelector('.final-draft-shortcut')) return;
+  if (!destination || document.querySelector('.final-draft-shortcut, .final-draft-top-link')) return;
   const link = document.createElement('a');
   link.className = 'final-draft-shortcut';
   link.href = '#' + destination.id;
