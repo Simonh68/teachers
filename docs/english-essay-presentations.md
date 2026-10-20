@@ -37,6 +37,7 @@ Applies to future English essay presentations, especially Grade 11 Module G. The
 
 ## Implementation and validation
 - Inspect every loaded shared script for injected sample slides; never carry over AI/parks/other-topic examples into a new topic. Avoid premature automatic two-paragraph demonstrations.
+- Show the shared hand guide on each complete-paragraph slide as well as the full-essay slide. On first entry to each slide, demonstrate two real clicks that change alternative phrasing, using different visible phrases when available. Keep the recurring demonstration after every fifth automatic wording cycle, with an independent cycle counter for each slide. Cancel pending clicks when leaving a slide; an interrupted entry can finish its remaining clicks on return.
 - Preserve scope: independent essay presentation with its own URL.
 - Check sentence sequence, paragraph boundaries, word count, all phrase variants, punctuation after switching, chapter links, mobile flow and edge-scroll navigation.
 - Verify the rendered page on phone dimensions when supported. If only code checks were possible, do not claim visual verification.

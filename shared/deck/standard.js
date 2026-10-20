@@ -348,11 +348,13 @@ const teacherDeckText = (he, en) => document.documentElement.dataset.essayLangua
   header.append(small);
 })();
 
-/* Visible hand guide: twice on entry, then after every five cycles. */
+/* Hand guide on every essay paragraph and full draft: two entry clicks per slide,
+   then one demonstration after each five automatic cycles on that slide. */
 (() => {
- const slide=[...document.querySelectorAll('.slide.essay')].find(s=>/החיבור המלא|final draft|full essay/i.test(s.querySelector('.eyebrow')?.textContent||''));
- if(!slide)return;
- let cycles=0,entryShown=false,busy=false,sequenceTimers=[];
+ const slides=[...document.querySelectorAll('.slide.essay')].filter(s=>s.querySelector('.essay.en .word-switch[data-options]'));
+ if(!slides.length)return;
+ const states=new Map(slides.map(s=>[s,{cycles:0,entryClicks:0}]));
+ let slide=null,busy=false,sequenceTimers=[],lastTarget=null;
  const hand=document.createElement('div');
  hand.className='essay-hand-guide';
  hand.setAttribute('aria-hidden','true');
@@ -368,46 +370,58 @@ const teacherDeckText = (he, en) => document.documentElement.dataset.essayLangua
  @keyframes essay-hand-guide-ring{0%{opacity:.9;transform:scale(.3)}100%{opacity:0;transform:scale(2.8)}}
  `;
  document.head.append(style);
- const onSlide=()=>slide.classList.contains('active')&&!slide.hidden&&!document.hidden;
- function stop(){sequenceTimers.forEach(clearTimeout);sequenceTimers=[];busy=false;hand.classList.remove('go');hand.style.opacity='0';}
+ const onSlide=()=>slide&&slide.classList.contains('active')&&!slide.hidden&&!document.hidden;
+ function stop(){sequenceTimers.forEach(clearTimeout);sequenceTimers=[];busy=false;lastTarget=null;hand.classList.remove('go');hand.querySelector('.essay-hand-guide-ring').classList.remove('go');hand.style.opacity='0';}
  function delay(fn,ms){sequenceTimers.push(setTimeout(fn,ms));}
- function target(){
-  return [...slide.querySelectorAll('.word-switch[data-options]')].find(el=>{
-    const r=el.getBoundingClientRect(),v=slide.getBoundingClientRect();
-    return r.width>20&&r.bottom>v.top+15&&r.top<Math.min(v.bottom,innerHeight)-60&&r.left<innerWidth-40&&r.right>10;
-  });
+ function visibleRect(el){
+  const v=slide.getBoundingClientRect();
+  return [...el.getClientRects()].find(r=>r.width>20&&r.bottom>v.top+15&&r.top<Math.min(v.bottom,innerHeight)-60&&r.left<innerWidth-40&&r.right>10);
  }
- function showOne(next){
+ function target(){
+  const candidates=[...slide.querySelectorAll('.essay.en .word-switch[data-options]')].filter(el=>{
+   try{return JSON.parse(el.dataset.options).length>1&&visibleRect(el)}catch{return false}
+  });
+  return candidates.find(el=>el!==lastTarget)||candidates[0];
+ }
+ function showOne(next,entry){
   if(!onSlide()){stop();return;}
   const el=target();if(!el){stop();return;}
-  const r=el.getBoundingClientRect();
+  const owner=slide,r=visibleRect(el);lastTarget=el;
   hand.style.left=Math.max(5,Math.min(innerWidth-58,r.left+r.width*.5-12))+'px';
   hand.style.top=Math.max(5,Math.min(innerHeight-70,r.top+8))+'px';
   hand.classList.remove('go');void hand.offsetWidth;hand.classList.add('go');
   delay(()=>{
-   if(!onSlide())return;
+   if(slide!==owner||!onSlide()||!visibleRect(el))return;
    const ring=hand.querySelector('.essay-hand-guide-ring');
    ring.classList.remove('go');void ring.offsetWidth;ring.classList.add('go');
    el.click();
+   if(entry)states.get(owner).entryClicks++;
   },1400);
   delay(()=>{hand.classList.remove('go');hand.style.opacity='0';if(next)next();else{busy=false;sequenceTimers=[];}},2500);
  }
- function show(count){
+ function show(count,entry=false){
   if(busy||!onSlide())return;
   busy=true;
-  if(count===2)showOne(()=>delay(()=>showOne(),450));
-  else showOne();
+  if(count===2)showOne(()=>delay(()=>showOne(null,entry),450),entry);
+  else showOne(null,entry);
  }
- const watcher=new MutationObserver(()=>{
-   if(!onSlide()){stop();return;}
-   if(!entryShown){entryShown=true;show(2);}
- });
- watcher.observe(slide,{attributes:true,attributeFilter:['class','hidden']});
- if(onSlide()){entryShown=true;show(2);}
+ function refresh(){
+  const active=slides.find(s=>s.classList.contains('active')&&!s.hidden)||null;
+  if(active!==slide){stop();slide=active;}
+  if(!onSlide())return;
+  const remaining=2-states.get(slide).entryClicks;
+  if(remaining>0)show(remaining,true);
+ }
+ const watcher=new MutationObserver(refresh);
+ slides.forEach(s=>watcher.observe(s,{attributes:true,attributeFilter:['class','hidden']}));
+ refresh();
  document.addEventListener('essay-word-cycle-complete',event=>{
    if(event.detail?.slide!==slide||!onSlide())return;
-   cycles++;
-   if(cycles%5===0)show(1);
+   const state=states.get(slide);state.cycles++;
+   if(state.cycles%5===0)show(1);
  });
- document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});
+ document.addEventListener('scroll',refresh,true);
+ window.addEventListener('resize',refresh);
+ document.fonts.ready.then(refresh);
+ document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();else refresh();});
 })();
