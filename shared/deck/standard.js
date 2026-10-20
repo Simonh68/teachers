@@ -344,3 +344,56 @@
   small.style.cssText='font:500 12px/1.25 system-ui,sans-serif;opacity:.75;margin:3px 0 0;text-align:center;direction:ltr';
   header.append(small);
 })();
+
+/* One-time animated hand tutorial on the final essay slide. */
+(() => {
+  const slide=[...document.querySelectorAll('.slide.essay')].find(s=>
+    /החיבור המלא|final draft|full essay/i.test(s.querySelector('.eyebrow')?.textContent||''));
+  if(!slide)return;
+  let shown=false,timers=[];
+  const pointer=document.createElement('div');
+  pointer.className='essay-hand-tutorial';
+  pointer.setAttribute('aria-hidden','true');
+  pointer.innerHTML='<svg viewBox="0 0 55 65" width="48" height="57"><path d="M19 56 9 39c-4-8 2-12 7-7l5 5V9c0-8 10-8 10 0v22-8c0-7 9-7 9 0v11-6c0-6 8-6 8 0v13c0 11-6 19-16 19H25z" fill="#f4cfac" stroke="#5e4335" stroke-width="2" stroke-linejoin="round"/></svg><span class="essay-hand-ring"></span>';
+  const css=document.createElement('style');
+  css.textContent=`
+    .essay-hand-tutorial{position:fixed;z-index:9600;pointer-events:none;opacity:0;transform:translate(24px,28px);transition:opacity .3s ease}
+    .essay-hand-tutorial.essay-hand-moving{animation:essay-hand-tap 2.3s ease-in-out forwards}
+    .essay-hand-ring{position:absolute;left:4px;top:0;width:22px;height:22px;border:2px solid #ffe26b;border-radius:50%;opacity:0}
+    .essay-hand-ring.tapped{animation:essay-hand-ripple .65s ease-out}
+    @keyframes essay-hand-tap{0%{opacity:0;transform:translate(28px,28px)}25%{opacity:1}60%{transform:translate(0,0) scale(1)}76%{transform:translate(0,-5px) scale(.88)}100%{opacity:0;transform:translate(0,-8px)}}
+    @keyframes essay-hand-ripple{0%{opacity:.85;transform:scale(.45)}100%{opacity:0;transform:scale(2.6)}}
+    @media(prefers-reduced-motion:reduce){.essay-hand-tutorial{display:none}}
+  `;
+  document.head.append(css);document.body.append(pointer);
+  function clear(){timers.forEach(clearTimeout);timers=[];pointer.classList.remove('essay-hand-moving');pointer.style.opacity='0';}
+  function demonstrate(){
+    if(shown||document.hidden||!slide.classList.contains('active')||slide.hidden)return;
+    const word=[...slide.querySelectorAll('.word-switch[data-options]')].find(el=>{
+      const r=el.getBoundingClientRect();
+      return r.width>20&&r.top>0&&r.bottom<innerHeight-90&&r.left>=0&&r.right<=innerWidth;
+    });
+    if(!word)return;
+    shown=true;
+    const rect=word.getBoundingClientRect();
+    pointer.style.left=Math.min(innerWidth-55,Math.max(7,rect.left+rect.width*.5-12))+'px';
+    pointer.style.top=Math.min(innerHeight-70,Math.max(8,rect.top+12))+'px';
+    pointer.classList.remove('essay-hand-moving');
+    void pointer.offsetWidth;
+    pointer.classList.add('essay-hand-moving');
+    timers.push(setTimeout(()=>{
+      if(!slide.classList.contains('active')||slide.hidden)return;
+      const ring=pointer.querySelector('.essay-hand-ring');
+      ring.classList.remove('tapped');void ring.offsetWidth;ring.classList.add('tapped');
+      word.click();
+    },1500));
+    timers.push(setTimeout(clear,2400));
+  }
+  const observer=new MutationObserver(()=>{
+    if(slide.classList.contains('active')&&!slide.hidden&&!shown&&!timers.length){
+      timers.push(setTimeout(()=>{timers=[];demonstrate();},5000));
+    }else if(slide.hidden||!slide.classList.contains('active'))clear();
+  });
+  observer.observe(slide,{attributes:true,attributeFilter:['class','hidden']});
+  if(slide.classList.contains('active')&&!slide.hidden)timers.push(setTimeout(()=>{timers=[];demonstrate();},5000));
+})();
