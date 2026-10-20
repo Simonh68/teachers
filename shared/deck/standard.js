@@ -112,7 +112,7 @@
   const current=()=>document.querySelector('.slide.active:not([hidden])');
   const style=document.createElement('style');
   style.textContent=`
-    .word-switch.essay-soft-focus{transition:color .35s ease,text-shadow .35s ease}
+    .word-switch.essay-soft-focus{transition:color .3s ease}.word-switch.essay-new-orange{color:#ff9d38!important;text-shadow:none!important;font-weight:800}
     @media(prefers-reduced-motion:reduce){.word-switch.essay-soft-focus{transition:none}}
   `;
   document.head.append(style);
@@ -132,7 +132,7 @@
   function stop(state){
     clearTimeout(state.timer);
     state.animation?.cancel();
-    state.el?.classList.remove('essay-soft-focus');
+    state.el?.classList.remove('essay-soft-focus','essay-new-orange');
     state.el?.style.removeProperty('color');
     state.el?.style.removeProperty('text-shadow');
     states.delete(state.region);
@@ -149,35 +149,21 @@
     const next=(i+1+Math.floor(Math.random()*(opts.length-1)))%opts.length;
     state.el=el;
     el.classList.add('essay-soft-focus');
-    // Repeated low-amplitude luminous pulses attract attention before the change.
-    if(el.animate){
-      state.animation=el.animate([
-        {color:'inherit',textShadow:'0 0 0 transparent',opacity:1,offset:0},
-        {color:'#ffe5a0',textShadow:'0 0 7px rgba(255,223,120,.35)',opacity:.85,offset:.17},
-        {color:'inherit',textShadow:'0 0 0 transparent',opacity:1,offset:.34},
-        {color:'#ffe5a0',textShadow:'0 0 7px rgba(255,223,120,.35)',opacity:.85,offset:.51},
-        {color:'inherit',textShadow:'0 0 0 transparent',opacity:1,offset:.68},
-        {color:'#ffe5a0',textShadow:'0 0 7px rgba(255,223,120,.35)',opacity:.85,offset:.85},
-        {color:'inherit',textShadow:'0 0 0 transparent',opacity:1,offset:1}
-      ],{duration:1650,easing:'ease-in-out'});
-    }
+    // Quiet focus before replacement; no blinking.
     state.timer=setTimeout(()=>{
       if(!visible(el)||stopped.has(region)){stop(state);return;}
       el.dataset.choice=String(next);
       el.textContent=opts[next]+(el.dataset.punctuation||'');
       el.setAttribute('aria-label',opts[next]+' — לחצו לניסוח אחר');
       state.animation?.cancel();
-      if(el.animate)state.animation=el.animate([
-        {opacity:.72,color:'#ffe9ae',textShadow:'0 0 9px rgba(255,223,120,.45)'},
-        {opacity:1,color:'inherit',textShadow:'0 0 0 transparent'}
-      ],{duration:1250,easing:'ease-out'});
+      el.classList.add('essay-new-orange');
       const slide=current(),count=slide?.querySelector('.count');
       if(count){
         const ps=[...slide.querySelectorAll('.essay.en p,.main-copy.en')];
         count.textContent=ps.reduce((n,p)=>n+(p.textContent.match(/[A-Za-z0-9]+(?:[’'-][A-Za-z0-9]+)*/g)||[]).length,0)+' words';
       }
       window.dispatchEvent(new Event('resize'));
-      state.timer=setTimeout(()=>{el.classList.remove('essay-soft-focus');tick(state);},2450);
+      state.timer=setTimeout(()=>{el.classList.remove('essay-soft-focus','essay-new-orange');tick(state);},2450);
     },1650);
   }
   function refresh(){
