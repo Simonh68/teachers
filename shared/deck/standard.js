@@ -108,11 +108,35 @@
 (() => {
   const fixed=/^\s*(on the one hand|on the other hand)[,.:;!?\s]*$/i;
   const states=new Map(),stopped=new WeakSet();
-  let slideNow=null;
+  let slideNow=null, speed='medium';
+  const speedTimes={verySlow:6000,slow:4500,medium:3000,fast:1800};
+  const speedBar=document.createElement('div');
+  speedBar.className='essay-speed-control';
+  speedBar.setAttribute('role','group');
+  speedBar.setAttribute('aria-label','קצב החלפת ניסוחים');
+  speedBar.innerHTML='<span class="essay-speed-label">קצב</span>'+[
+    ['verySlow','לאט מאוד'],['slow','לאט'],['medium','בינוני'],['fast','מהר']
+  ].map(([id,label])=>'<button type="button" data-essay-speed="'+id+'" aria-pressed="'+(id==='medium')+'">'+label+'</button>').join('');
+  document.body.append(speedBar);
+  speedBar.addEventListener('click',e=>{
+    const button=e.target.closest('[data-essay-speed]');
+    if(!button)return;
+    speed=button.dataset.essaySpeed;
+    speedBar.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+    [...states.values()].forEach(stop);
+    refresh();
+  });
   const current=()=>document.querySelector('.slide.active:not([hidden])');
   const style=document.createElement('style');
   style.textContent=`
     .word-switch.essay-soft-focus{transition:color .15s ease}.word-switch.essay-old-yellow{color:#ffe26b!important;text-shadow:0 0 5px rgba(255,226,107,.18)}.word-switch.essay-new-orange{color:#ff9d38!important;text-shadow:none!important;font-weight:800}
+    .essay-speed-control{position:fixed;left:12px;top:calc(env(safe-area-inset-top,0px) + 12px);z-index:9500;display:none;align-items:center;gap:3px;padding:4px;border-radius:12px;background:rgba(16,30,47,.94);color:#f6f7fa;box-shadow:0 3px 12px #0005;direction:rtl;font:600 12px system-ui,sans-serif}
+    .essay-speed-control.is-visible{display:flex}
+    .essay-speed-label{padding:0 5px}
+    .essay-speed-control button{border:0;border-radius:7px;padding:8px 7px;background:transparent;color:#e8eaf0;font:inherit;cursor:pointer;white-space:nowrap}
+    .essay-speed-control button[aria-pressed="true"]{background:#ffe26b;color:#172232}
+    .essay-speed-control button:focus-visible{outline:2px solid #ffe26b;outline-offset:2px}
+    @media(max-width:540px){.essay-speed-control{left:5px;top:57px;font-size:11px}.essay-speed-control button{padding:7px 5px}}
     @media(prefers-reduced-motion:reduce){.word-switch.essay-soft-focus{transition:none}}
   `;
   document.head.append(style);
@@ -150,7 +174,11 @@
     state.el=el;
     el.classList.add('essay-soft-focus');
     // No animation: constant yellow followed by constant orange.
-    const duration=t=>Math.round(Math.max(1500,Math.min(3200,1250+t.trim().length*32)));
+    const duration=t=>{
+      if(speed==='verySlow')return 6000;
+      const base=Math.max(1500,Math.min(3200,1250+t.trim().length*32));
+      return Math.round(Math.min(speed==='slow'?5500:speed==='medium'?4800:2900,base*({slow:2.25,medium:1.5,fast:0.9}[speed]||1.5)));
+    };
     el.classList.add('essay-old-yellow');
     el.style.setProperty('color','#ffe26b','important');
     state.timer=setTimeout(()=>{
@@ -177,6 +205,7 @@
   function refresh(){
     const s=current();
     if(s!==slideNow){[...states.values()].forEach(stop);slideNow=s;}
+    speedBar.classList.toggle('is-visible',!!s?.querySelector('.essay.en .word-switch[data-options],.main-copy.en .word-switch[data-options]'));
     if(!s||document.hidden)return;
     [...s.querySelectorAll('.essay.en > p,.main-copy.en')].forEach(region=>{
       if(!visible(region)){if(states.has(region))stop(states.get(region));return;}
