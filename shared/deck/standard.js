@@ -108,7 +108,7 @@
 (() => {
   const fixed=/^\s*(on the one hand|on the other hand)[,.:;!?\s]*$/i;
   const states=new Map(),stopped=new WeakSet();
-  let slideNow=null, speed='medium';
+  let slideNow=null, speed='verySlow', paused=false;
   const speedTimes={verySlow:6000,slow:4500,medium:3000,fast:1800};
   const speedBar=document.createElement('div');
   speedBar.className='essay-speed-control';
@@ -116,15 +116,34 @@
   speedBar.setAttribute('aria-label','קצב החלפת ניסוחים');
   speedBar.innerHTML='<span class="essay-speed-label">קצב</span>'+[
     ['verySlow','לאט מאוד'],['slow','לאט'],['medium','בינוני'],['fast','מהר']
-  ].map(([id,label])=>'<button type="button" data-essay-speed="'+id+'" aria-pressed="'+(id==='medium')+'">'+label+'</button>').join('');
+  ].map(([id,label])=>'<button type="button" data-essay-speed="'+id+'" aria-pressed="'+(id==='verySlow')+'">'+label+'</button>').join('');
+  speedBar.insertAdjacentHTML('beforeend','<button type="button" class="essay-play-pause" aria-label="השהה אנימציה" aria-pressed="true" title="השהה אנימציה">⏸</button>');
+  const toggle=speedBar.querySelector('.essay-play-pause');
+  function syncToggle(){
+    toggle.textContent=paused?'▶':'⏸';
+    toggle.title=paused?'הפעל אנימציה':'השהה אנימציה';
+    toggle.setAttribute('aria-label',toggle.title);
+    toggle.setAttribute('aria-pressed',String(!paused));
+  }
   document.body.append(speedBar);
   speedBar.addEventListener('click',e=>{
+    if(e.target.closest('.essay-play-pause')){
+      paused=!paused;
+      syncToggle();
+      if(paused){
+        states.forEach(state=>{clearTimeout(state.timer);state.timer=null;});
+      }else{
+        [...states.values()].forEach(stop);
+        refresh();
+      }
+      return;
+    }
     const button=e.target.closest('[data-essay-speed]');
     if(!button)return;
     speed=button.dataset.essaySpeed;
     speedBar.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
     [...states.values()].forEach(stop);
-    refresh();
+    if(!paused)refresh();
   });
   const current=()=>document.querySelector('.slide.active:not([hidden])');
   const style=document.createElement('style');
@@ -134,6 +153,7 @@
     .essay-speed-control.is-visible{display:flex}
     .essay-speed-label{padding:0 5px}
     .essay-speed-control button{border:0;border-radius:7px;padding:8px 7px;background:transparent;color:#e8eaf0;font:inherit;cursor:pointer;white-space:nowrap}
+    .essay-speed-control .essay-play-pause{font-size:19px;min-width:38px;border-inline-start:1px solid #ffffff4d;border-radius:0 7px 7px 0}
     .essay-speed-control button[aria-pressed="true"]{background:#ffe26b;color:#172232}
     .essay-speed-control button:focus-visible{outline:2px solid #ffe26b;outline-offset:2px}
     @media(max-width:540px){.essay-speed-control{left:5px;top:57px;font-size:11px}.essay-speed-control button{padding:7px 5px}}
@@ -163,7 +183,7 @@
   }
   function tick(state){
     const region=state.region;
-    if(document.hidden||!visible(region)||stopped.has(region)){stop(state);return;}
+    if(paused||document.hidden||!visible(region)||stopped.has(region)){stop(state);return;}
     const els=[...region.querySelectorAll('.word-switch[data-options]')].filter(el=>visible(el)&&optionsFor(el));
     if(!els.length){state.timer=setTimeout(()=>tick(state),900);return;}
     const pool=els.length>1?els.filter(e=>e!==state.el):els;
@@ -182,7 +202,7 @@
     el.classList.add('essay-old-yellow');
     el.style.setProperty('color','#ffe26b','important');
     state.timer=setTimeout(()=>{
-      if(!visible(el)||stopped.has(region)){stop(state);return;}
+      if(paused||!visible(el)||stopped.has(region)){stop(state);return;}
       el.classList.remove('essay-old-yellow');
       el.dataset.choice=String(next);
       el.textContent=opts[next]+(el.dataset.punctuation||'');
@@ -206,7 +226,7 @@
     const s=current();
     if(s!==slideNow){[...states.values()].forEach(stop);slideNow=s;}
     speedBar.classList.toggle('is-visible',!!s?.querySelector('.essay.en .word-switch[data-options],.main-copy.en .word-switch[data-options]'));
-    if(!s||document.hidden)return;
+    if(!s||document.hidden||paused)return;
     [...s.querySelectorAll('.essay.en > p,.main-copy.en')].forEach(region=>{
       if(!visible(region)){if(states.has(region))stop(states.get(region));return;}
       if(stopped.has(region)||states.has(region))return;
