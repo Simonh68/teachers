@@ -109,13 +109,13 @@
   const fixed=/^\s*(on the one hand|on the other hand)[,.:;!?\s]*$/i;
   const states=new Map(),stopped=new WeakSet();
   let slideNow=null, speed='verySlow', paused=false;
-  const speedTimes={verySlow:6000,slow:4500,medium:3000,fast:1800};
+  const speedTimes={verySlow:6000,medium:3000};
   const speedBar=document.createElement('div');
   speedBar.className='essay-speed-control';
   speedBar.setAttribute('role','group');
   speedBar.setAttribute('aria-label','קצב החלפת ניסוחים');
   speedBar.innerHTML='<span class="essay-speed-label">קצב</span>'+[
-    ['verySlow','לאט מאוד'],['slow','לאט'],['medium','בינוני'],['fast','מהר']
+    ['verySlow','×1'],['medium','×2']
   ].map(([id,label])=>'<button type="button" data-essay-speed="'+id+'" aria-pressed="'+(id==='verySlow')+'">'+label+'</button>').join('');
   speedBar.insertAdjacentHTML('beforeend','<button type="button" class="essay-play-pause" aria-label="השהה אנימציה" aria-pressed="true" title="השהה אנימציה">⏸</button>');
   const toggle=speedBar.querySelector('.essay-play-pause');
@@ -141,7 +141,7 @@
     const button=e.target.closest('[data-essay-speed]');
     if(!button)return;
     speed=button.dataset.essaySpeed;
-    speedBar.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+    speedBar.querySelectorAll('[data-essay-speed]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
     [...states.values()].forEach(stop);
     if(!paused)refresh();
   });
@@ -149,14 +149,14 @@
   const style=document.createElement('style');
   style.textContent=`
     .word-switch.essay-soft-focus{transition:color .15s ease}.word-switch.essay-old-yellow{color:#ffe26b!important;text-shadow:0 0 5px rgba(255,226,107,.18)}.word-switch.essay-new-orange{color:#ff9d38!important;text-shadow:none!important;font-weight:800}
-    .essay-speed-control{position:fixed;left:12px;top:calc(env(safe-area-inset-top,0px) + 12px);z-index:9500;display:none;align-items:center;gap:3px;padding:4px;border-radius:12px;background:rgba(16,30,47,.94);color:#f6f7fa;box-shadow:0 3px 12px #0005;direction:rtl;font:600 12px system-ui,sans-serif}
+    .essay-speed-control{position:fixed;left:12px;top:calc(env(safe-area-inset-top,0px) + 12px);z-index:9500;display:none;align-items:center;gap:2px;padding:3px;border-radius:9px;background:rgba(16,30,47,.94);color:#f6f7fa;box-shadow:0 3px 12px #0005;direction:rtl;font:600 12px system-ui,sans-serif}
     .essay-speed-control.is-visible{display:flex}
-    .essay-speed-label{padding:0 5px}
-    .essay-speed-control button{border:0;border-radius:7px;padding:8px 7px;background:transparent;color:#e8eaf0;font:inherit;cursor:pointer;white-space:nowrap}
+    .essay-speed-label{padding:0 3px;font-size:10px}
+    .essay-speed-control button{border:0;border-radius:7px;padding:6px 8px;background:transparent;color:#e8eaf0;font:inherit;cursor:pointer;white-space:nowrap}
     .essay-speed-control .essay-play-pause{font-size:19px;min-width:38px;border-inline-start:1px solid #ffffff4d;border-radius:0 7px 7px 0}
     .essay-speed-control button[aria-pressed="true"]{background:#ffe26b;color:#172232}
     .essay-speed-control button:focus-visible{outline:2px solid #ffe26b;outline-offset:2px}
-    @media(max-width:540px){.essay-speed-control{left:5px;top:57px;font-size:11px}.essay-speed-control button{padding:7px 5px}}
+    @media(max-width:540px){.essay-speed-control{left:6px;top:9px;font-size:11px}.essay-speed-control button{padding:7px 5px}}
     @media(prefers-reduced-motion:reduce){.word-switch.essay-soft-focus{transition:none}}
   `;
   document.head.append(style);
@@ -300,7 +300,7 @@
     const isFinal=finalSlide.classList.contains('active')&&!finalSlide.hidden;
     document.querySelectorAll('.final-draft-top-link,.final-draft-shortcut').forEach(link=>{
       link.href=isFinal?'#slide-1':'#'+finalSlide.id;
-      link.textContent=isFinal?'⌂ בית · תחילת המצגת':'Final Draft ↗';
+      link.textContent=isFinal?'⌂':'Final Draft ↗';
       link.title=isFinal?'חזרה לתחילת המצגת':'מעבר לחיבור הסופי';
       link.setAttribute('aria-label',link.title);
     });
@@ -308,4 +308,20 @@
   const observer=new MutationObserver(update);
   document.querySelectorAll('.slide').forEach(s=>observer.observe(s,{attributes:true,attributeFilter:['class','hidden']}));
   update();
+})();
+
+/* Compact essay reading layout: small title and topic, more room for writing. */
+(() => {
+  const style=document.createElement('style');
+  style.textContent=`
+    .slide.essay .slide-meta{margin-bottom:6px!important;padding-top:0!important}
+    .slide.essay .eyebrow{font-size:clamp(10px,1.3vw,13px)!important;line-height:1.15!important;margin:0!important}
+    .slide.essay .paragraph-tracker{margin:0 0 8px!important;gap:4px!important}
+    .slide.essay .frame{padding-top:10px!important;padding-bottom:12px!important}
+    .slide.essay .essay.en p{margin:0 0 .85em!important}
+    .slide.essay .essay.en p:last-child{margin-bottom:0!important}
+    .slide.essay .support,.slide.essay .short{margin-top:5px!important}
+    .final-draft-top-link[href="#slide-1"],.final-draft-shortcut[href="#slide-1"]{font-size:22px!important;min-width:38px!important;min-height:36px!important;padding:5px 10px!important}
+  `;
+  document.head.append(style);
 })();
