@@ -364,7 +364,7 @@
     .essay-hand-ring.tapped{animation:essay-hand-ripple .65s ease-out}
     @keyframes essay-hand-tap{0%{opacity:0;transform:translate(28px,28px)}25%{opacity:1}60%{transform:translate(0,0) scale(1)}76%{transform:translate(0,-5px) scale(.88)}100%{opacity:0;transform:translate(0,-8px)}}
     @keyframes essay-hand-ripple{0%{opacity:.85;transform:scale(.45)}100%{opacity:0;transform:scale(2.6)}}
-    @media(prefers-reduced-motion:reduce){.essay-hand-tutorial{display:none}}
+    @media(prefers-reduced-motion:reduce){.essay-hand-tutorial.essay-hand-moving{animation-duration:2.3s}}
   `;
   document.head.append(css);document.body.append(pointer);
   function clear(){timers.forEach(clearTimeout);timers=[];pointer.classList.remove('essay-hand-moving');pointer.style.opacity='0';}
@@ -389,6 +389,18 @@
     },1500));
     timers.push(setTimeout(clear,2400));
   }
+  // Give learners an immediate first demonstration; repeat after every five cycles.
+  let initialTimer=null;
+  const watcher=new MutationObserver(()=>{
+    clearTimeout(initialTimer);
+    if(slide.classList.contains('active')&&!slide.hidden&&cycles===0){
+      initialTimer=setTimeout(()=>demonstrate(),3500);
+    } else if(slide.hidden||!slide.classList.contains('active')) {
+      clear();
+    }
+  });
+  watcher.observe(slide,{attributes:true,attributeFilter:['class','hidden']});
+  if(slide.classList.contains('active')&&!slide.hidden)initialTimer=setTimeout(()=>demonstrate(),3500);
   // Count completed yellow-to-orange cycles while the final slide is active.
   // Do not count seconds or slide visits.
   document.addEventListener('essay-word-cycle-complete',event=>{
