@@ -5,7 +5,8 @@ English-only companion to `../rewards-at-home-essay/`, for the same Module G wri
 - 32 slides using the same animation, alternative-phrasing and navigation engine.
 - Four paragraphs, two sentences each: opening, motivation, appreciation, conclusion.
 - Consistent position in favor of small rewards. Both body paragraphs support that position.
-- Base essay: 127 words. All combinations of the 27 phrase groups produce 125–132 words, before the optional transition sentence.
+- Base essay: 127 words. All combinations of the 28 phrase groups produce 125–133 words, before the optional transition sentence.
+- The model uses First Conditional, Present Perfect, passive voice, a gerund after a preposition and relative clauses with who. Slides 27–31 explain these structures with examples and locations in the essay. Slide 32 is the final list, with patterns and short examples.
 - All instructions, tooltips, labels and examples are English only.
 - Shared builder, interaction code and styles live in `../rewards-at-home-essay/`. The content file is independent, and draft storage uses this page's unique path.
 

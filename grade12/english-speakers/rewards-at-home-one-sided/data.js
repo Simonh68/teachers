@@ -11,8 +11,8 @@ window.REWARDS_ESSAY = {
         ],
         " whether children ",
         [
-          "should receive rewards",
-          "should get rewards"
+          "should be rewarded",
+          "should be given rewards"
         ],
         " ",
         [
@@ -39,8 +39,8 @@ window.REWARDS_ESSAY = {
         ],
         " they ",
         [
-          "encourage children to contribute",
-          "motivate children to contribute"
+          "encourage children to contribute more",
+          "motivate children to contribute more"
         ],
         " to family life."
       ]
@@ -57,15 +57,15 @@ window.REWARDS_ESSAY = {
           "motivate children",
           "encourage children"
         ],
+        " ",
+        [
+          "who rarely help at home",
+          "who seldom help at home"
+        ],
         " to ",
         [
-          "complete useful tasks regularly",
-          "do useful chores regularly"
-        ],
-        " instead of ",
-        [
-          "leaving everything to their parents.",
-          "expecting parents to do everything."
+          "complete useful household tasks more regularly.",
+          "do useful household chores more regularly."
         ]
       ],
       [
@@ -73,15 +73,20 @@ window.REWARDS_ESSAY = {
           "For example,",
           "For instance,"
         ],
-        " a child may ",
+        " if a child ",
         [
-          "clean the kitchen each evening",
-          "tidy the kitchen every evening"
+          "cleans the kitchen each evening,",
+          "tidies the kitchen every evening,"
         ],
-        " to earn ",
+        " they will ",
         [
-          "extra time for a favorite activity.",
-          "more time for a favorite activity."
+          "earn extra time",
+          "receive extra time"
+        ],
+        " for ",
+        [
+          "a favorite activity.",
+          "an enjoyable activity."
         ]
       ]
     ],
@@ -104,15 +109,15 @@ window.REWARDS_ESSAY = {
       ],
       [
         [
-          "When parents recognize a job done well,",
-          "When parents praise a job done well,"
+          "Children who have received such recognition",
+          "Children who have received such praise"
         ],
-        " children ",
+        " ",
         [
-          "feel proud",
-          "feel pleased"
+          "often feel proud",
+          "usually feel proud"
         ],
-        " and may ",
+        " and ",
         [
           "become more willing to help again.",
           "feel more willing to help again."
@@ -170,7 +175,7 @@ window.REWARDS_ESSAY = {
     {
       "simple": "Should children receive rewards for household chores?",
       "prompt": "How can you introduce the question in your own words?",
-      "note": "Mention both rewards and household chores. The opening introduces the question without developing an opposing argument."
+      "note": "Mention rewards and household chores. Should be rewarded is a passive structure: the children receive the reward."
     },
     {
       "simple": "Small rewards encourage children to help.",
@@ -180,22 +185,22 @@ window.REWARDS_ESSAY = {
     {
       "simple": "Rewards motivate children to do regular chores.",
       "prompt": "What is your first reason for supporting rewards?",
-      "note": "Explain the benefit: children contribute regularly. After instead of, use the -ing form leaving or expecting."
+      "note": "Who rarely help at home describes the children. This relative clause makes your reason more specific. Keep the verb help after the plural noun children."
     },
     {
       "simple": "A child cleans the kitchen to earn extra activity time.",
       "prompt": "Which everyday example shows this motivation?",
-      "note": "Name a chore and a small reward. Extra time for a favorite activity is a reward; rewards do not have to be money."
+      "note": "Use a real household example. If + present simple gives the condition; will + base verb gives the expected result. Write if a child cleans, not if a child will clean."
     },
     {
       "simple": "Rewards show children that their effort matters.",
       "prompt": "What different reason also supports rewards?",
-      "note": "Add a second benefit: children feel that their work is appreciated. Keep this reason distinct from motivation."
+      "note": "Add a second benefit: children feel appreciated. Is noticed and valued uses the present passive to focus on their effort."
     },
     {
-      "simple": "Children feel proud when parents praise their work.",
-      "prompt": "What can happen when parents recognize a job done well?",
-      "note": "Develop the second reason with a likely result. May avoids claiming that every child reacts in the same way."
+      "simple": "Children feel proud after receiving praise.",
+      "prompt": "How can earlier recognition affect children now?",
+      "note": "Have received links earlier recognition to a present result: feeling proud. Who have received such recognition is a relative clause describing the children."
     },
     {
       "simple": "Small rewards encourage helpful habits.",
@@ -210,39 +215,49 @@ window.REWARDS_ESSAY = {
   ],
   "grammar": [
     {
-      "title": "Reasons with because, since and as",
-      "example": "Small rewards are a good idea because they encourage children to contribute to family life.",
-      "pattern": "Opinion + because / since / as + reason",
-      "color": "contrast",
-      "note": "All three connectors introduce the reason in this sentence. Keep a complete clause after the connector."
-    },
-    {
-      "title": "Present passive",
-      "example": "Their effort is noticed and valued.",
-      "pattern": "is + past participle + and + past participle",
-      "color": "passive",
-      "note": "Effort is singular, so use is. Noticed and valued describe what happens to the effort."
-    },
-    {
-      "title": "Gerund after for",
-      "example": "small rewards for helping at home",
-      "pattern": "for + verb-ing",
-      "color": "gerund",
-      "note": "For is a preposition here. Use helping or doing, not help or do."
-    },
-    {
-      "title": "Instead of + verb-ing",
-      "example": "instead of leaving everything to their parents",
-      "pattern": "instead of + verb-ing",
+      "title": "First Conditional",
+      "example": "For example, if a child cleans the kitchen each evening, they will earn extra time for a favorite activity.",
+      "pattern": "If + present simple, will + base verb",
       "color": "conditional",
-      "note": "Use leaving after instead of. This compares two actions; it does not introduce an argument against your position."
+      "location": "Paragraph 2, sentence 2",
+      "note": "The if-clause describes a possible condition, and will earn gives its expected result. Use cleans after a child. Do not use will in the if-clause.",
+      "summaryExample": "if a child cleans … they will earn"
     },
     {
-      "title": "A general result with when",
-      "example": "When parents recognize a job done well, children feel proud.",
-      "pattern": "When + present simple, present simple",
+      "title": "Present Perfect",
+      "example": "Children who have received such recognition often feel proud and become more willing to help again.",
+      "pattern": "have / has + past participle",
+      "color": "contrast",
+      "location": "Paragraph 3, sentence 2",
+      "note": "Have received connects earlier recognition with a present result: children feel proud. Children is plural, so use have. Received is the past participle.",
+      "summaryExample": "have received such recognition"
+    },
+    {
+      "title": "Passive voice",
+      "example": "Many parents wonder whether children should be rewarded for helping with household chores.",
+      "pattern": "should + be + past participle",
+      "color": "passive",
+      "location": "Paragraph 1, sentence 1; also paragraph 3, sentence 1",
+      "note": "Should be rewarded focuses on children receiving the reward. The essay also uses the present passive: their effort is noticed and valued. Its pattern is is + past participle.",
+      "summaryExample": "should be rewarded / is noticed and valued"
+    },
+    {
+      "title": "Gerund after a preposition",
+      "example": "for helping with household chores",
+      "pattern": "preposition + verb-ing",
+      "color": "gerund",
+      "location": "Paragraph 1, sentence 1; also paragraph 4, sentence 1",
+      "note": "When using a verb after the preposition for, use the -ing form: for helping or for doing. The gerund names the action that earns a reward.",
+      "summaryExample": "for helping with household chores"
+    },
+    {
+      "title": "Relative clause with who",
+      "example": "First of all, rewards can motivate children who rarely help at home to complete useful household tasks more regularly.",
+      "pattern": "person / people + who + verb",
       "color": "concession",
-      "note": "This describes a general connection. Put a comma after the opening when-clause."
+      "location": "Paragraph 2, sentence 1; also paragraph 3, sentence 2",
+      "note": "Who rarely help at home identifies the children. Who refers to people. This defining clause does not need commas. Keep a verb after who.",
+      "summaryExample": "children who rarely help at home"
     }
   ],
   "structure": "Introduce the question and state your opinion. Then give two different reasons that support that opinion, each with an example or explanation. End with a conclusion. Each paragraph has two sentences.",
@@ -275,5 +290,8 @@ window.REWARDS_ESSAY = {
       "example": "Restate your opinion and bring your supporting reasons together."
     }
   ],
-  "baseWords": 127
+  "baseWords": 127,
+  "grammarAtEnd": true,
+  "grammarSummaryTitle": "Five advanced structures in this essay",
+  "grammarSummaryNote": "Each structure above appears in the base essay. Use it to express a clear idea, and check that your wording keeps the pattern correct."
 };

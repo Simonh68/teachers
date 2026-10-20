@@ -20,10 +20,14 @@ for(let p=0;p<4;p++){
  add(`Paragraph ${p+1} · Check the connection`,`<div class="essay en">${paragraph(p)}</div>`+support(D.paragraphNotes[p])+`<p class="count en" aria-live="polite"></p>`,{p,essay:true});
 }
 add('Final Draft',`<div class="essay en">${[0,1,2,3].map(paragraph).join('')}</div><p class="count en" aria-live="polite" data-full-count></p>`,{essay:true,topic:true});
-for(const g of D.grammar)add(g.title,`<p class="main-copy en"><mark class="${g.color}">${esc(g.example)}</mark></p><p class="short en">${esc(g.pattern)}</p>`+support(g.note));
-add('Grammar in the base essay',`<div class="grammar-summary en">${D.grammar.map(g=>`<p><strong>${esc(g.title)}</strong><br><mark class="${g.color}">${esc(g.pattern)}</mark></p>`).join('')}</div>`+support('These structures occur in the base essay. Choose a structure that fits the idea you want to express.'));
+function grammarSlides(){
+ for(const g of D.grammar)add(g.title,`${g.location?`<p class="small">${esc(g.location)}</p>`:''}<p class="main-copy en"><mark class="${g.color}">${esc(g.example)}</mark></p><p class="short en">${esc(g.pattern)}</p>`+support(g.note));
+ add(D.grammarSummaryTitle||'Grammar in the base essay',`<div class="grammar-summary en">${D.grammar.map(g=>`<p><strong>${esc(g.title)}</strong><br><mark class="${g.color}">${esc(g.pattern)}</mark>${g.summaryExample?`<br><span class="small">${esc(g.summaryExample)}</span>`:''}</p>`).join('')}</div>`+support(D.grammarSummaryNote||'These structures occur in the base essay. Choose a structure that fits the idea you want to express.'));
+}
+if(!D.grammarAtEnd)grammarSlides();
 add('Choose a useful connector',`<div class="connector-guide en">${D.connectors.map(c=>`<p><strong>${esc(c.job)}</strong><br><mark>${esc(c.phrase)}</mark><br><span>${esc(c.example)}</span></p>`).join('')}</div>`+support('Choose a connector for its purpose. A clear reason and a concrete example matter more than a long opening phrase.'));
 add('Your own essay',`<p class="short en">${D.topic}</p>`+support('Write four paragraphs. Address rewards and help at home, and keep your position consistent.')+`<label class="draft-label" for="own-draft">Draft in English</label><textarea id="own-draft" dir="ltr" aria-label="Draft in English"></textarea><p id="draft-count" class="count en" aria-live="polite"></p>`+support('Before finishing, check your household example, verb forms, spelling and 120–140 words.'));
+if(D.grammarAtEnd)grammarSlides();
 document.getElementById('stage').innerHTML=slides.map((s,i)=>`<section class="slide ${s.essay?'essay':'info'}" hidden id="slide-${i+1}" data-slide="${i+1}" aria-label="${esc(s.title)}">${s.html}</section>`).join('');
 document.getElementById('slide-menu').innerHTML=slides.map((s,i)=>`<option value="${i+1}">${i+1}. ${esc(s.title)}</option>`).join('');
 window.REWARDS_UI={esc,slides:slides.map(s=>s.title),starts};
