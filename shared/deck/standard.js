@@ -218,6 +218,7 @@
       state.timer=setTimeout(()=>{
         el.classList.remove('essay-soft-focus','essay-new-orange');
         el.style.removeProperty('color');
+        document.dispatchEvent(new CustomEvent('essay-word-cycle-complete',{detail:{slide:current(),region}}));
         tick(state);
       },duration(opts[next]));
     },duration(opts[i]));
@@ -345,12 +346,12 @@
   header.append(small);
 })();
 
-/* One-time animated hand tutorial on the final essay slide. */
+/* Animated hand tutorial after every five completed final-slide wording cycles. */
 (() => {
   const slide=[...document.querySelectorAll('.slide.essay')].find(s=>
     /החיבור המלא|final draft|full essay/i.test(s.querySelector('.eyebrow')?.textContent||''));
   if(!slide)return;
-  let shown=false,timers=[];
+  let cycles=0,timers=[];
   const pointer=document.createElement('div');
   pointer.className='essay-hand-tutorial';
   pointer.setAttribute('aria-hidden','true');
@@ -368,13 +369,12 @@
   document.head.append(css);document.body.append(pointer);
   function clear(){timers.forEach(clearTimeout);timers=[];pointer.classList.remove('essay-hand-moving');pointer.style.opacity='0';}
   function demonstrate(){
-    if(shown||document.hidden||!slide.classList.contains('active')||slide.hidden)return;
+    if(document.hidden||!slide.classList.contains('active')||slide.hidden)return;
     const word=[...slide.querySelectorAll('.word-switch[data-options]')].find(el=>{
       const r=el.getBoundingClientRect();
       return r.width>20&&r.top>0&&r.bottom<innerHeight-90&&r.left>=0&&r.right<=innerWidth;
     });
     if(!word)return;
-    shown=true;
     const rect=word.getBoundingClientRect();
     pointer.style.left=Math.min(innerWidth-55,Math.max(7,rect.left+rect.width*.5-12))+'px';
     pointer.style.top=Math.min(innerHeight-70,Math.max(8,rect.top+12))+'px';
@@ -389,11 +389,11 @@
     },1500));
     timers.push(setTimeout(clear,2400));
   }
-  const observer=new MutationObserver(()=>{
-    if(slide.classList.contains('active')&&!slide.hidden&&!shown&&!timers.length){
-      timers.push(setTimeout(()=>{timers=[];demonstrate();},5000));
-    }else if(slide.hidden||!slide.classList.contains('active'))clear();
+  // Count completed yellow-to-orange cycles while the final slide is active.
+  // Do not count seconds or slide visits.
+  document.addEventListener('essay-word-cycle-complete',event=>{
+    if(event.detail?.slide!==slide||document.hidden)return;
+    cycles++;
+    if(cycles%5===0&&!timers.length)demonstrate();
   });
-  observer.observe(slide,{attributes:true,attributeFilter:['class','hidden']});
-  if(slide.classList.contains('active')&&!slide.hidden)timers.push(setTimeout(()=>{timers=[];demonstrate();},5000));
 })();
