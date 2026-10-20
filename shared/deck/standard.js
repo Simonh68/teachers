@@ -290,3 +290,22 @@
   `;
   document.head.append(style);
 })();
+
+/* Final Draft is replaced by Home only while viewing the final essay slide. */
+(() => {
+  const finalSlide=[...document.querySelectorAll('.slide.essay')].find(s=>
+    /החיבור המלא|final draft|full essay/i.test(s.querySelector('.eyebrow')?.textContent||''));
+  if(!finalSlide)return;
+  const update=()=>{
+    const isFinal=finalSlide.classList.contains('active')&&!finalSlide.hidden;
+    document.querySelectorAll('.final-draft-top-link,.final-draft-shortcut').forEach(link=>{
+      link.href=isFinal?'#slide-1':'#'+finalSlide.id;
+      link.textContent=isFinal?'⌂ בית · תחילת המצגת':'Final Draft ↗';
+      link.title=isFinal?'חזרה לתחילת המצגת':'מעבר לחיבור הסופי';
+      link.setAttribute('aria-label',link.title);
+    });
+  };
+  const observer=new MutationObserver(update);
+  document.querySelectorAll('.slide').forEach(s=>observer.observe(s,{attributes:true,attributeFilter:['class','hidden']}));
+  update();
+})();
