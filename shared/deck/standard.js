@@ -346,66 +346,66 @@
   header.append(small);
 })();
 
-/* Animated hand tutorial after every five completed final-slide wording cycles. */
+/* Visible hand guide: twice on entry, then after every five cycles. */
 (() => {
-  const slide=[...document.querySelectorAll('.slide.essay')].find(s=>
-    /החיבור המלא|final draft|full essay/i.test(s.querySelector('.eyebrow')?.textContent||''));
-  if(!slide)return;
-  let cycles=0,timers=[],firstShown=false;
-  const pointer=document.createElement('div');
-  pointer.className='essay-hand-tutorial';
-  pointer.setAttribute('aria-hidden','true');
-  pointer.innerHTML='<svg viewBox="0 0 55 65" width="48" height="57"><path d="M19 56 9 39c-4-8 2-12 7-7l5 5V9c0-8 10-8 10 0v22-8c0-7 9-7 9 0v11-6c0-6 8-6 8 0v13c0 11-6 19-16 19H25z" fill="#f4cfac" stroke="#5e4335" stroke-width="2" stroke-linejoin="round"/></svg><span class="essay-hand-ring"></span>';
-  const css=document.createElement('style');
-  css.textContent=`
-    .essay-hand-tutorial{position:fixed;z-index:9600;pointer-events:none;opacity:0;transform:translate(24px,28px);transition:opacity .3s ease}
-    .essay-hand-tutorial.essay-hand-moving{animation:essay-hand-tap 2.3s ease-in-out forwards}
-    .essay-hand-ring{position:absolute;left:4px;top:0;width:22px;height:22px;border:2px solid #ffe26b;border-radius:50%;opacity:0}
-    .essay-hand-ring.tapped{animation:essay-hand-ripple .65s ease-out}
-    @keyframes essay-hand-tap{0%{opacity:0;transform:translate(28px,28px)}25%{opacity:1}60%{transform:translate(0,0) scale(1)}76%{transform:translate(0,-5px) scale(.88)}100%{opacity:0;transform:translate(0,-8px)}}
-    @keyframes essay-hand-ripple{0%{opacity:.85;transform:scale(.45)}100%{opacity:0;transform:scale(2.6)}}
-    @media(prefers-reduced-motion:reduce){.essay-hand-tutorial.essay-hand-moving{animation-duration:2.3s}}
-  `;
-  document.head.append(css);document.body.append(pointer);
-  function clear(){timers.forEach(clearTimeout);timers=[];pointer.classList.remove('essay-hand-moving');pointer.style.opacity='0';}
-  function demonstrate(){
-    if(document.hidden||!slide.classList.contains('active')||slide.hidden)return;
-    const word=[...slide.querySelectorAll('.word-switch[data-options]')].find(el=>{
-      const r=el.getBoundingClientRect();
-      return r.width>20&&r.top>0&&r.bottom<innerHeight-90&&r.left>=0&&r.right<=innerWidth;
-    });
-    if(!word)return;
-    const rect=word.getBoundingClientRect();
-    pointer.style.left=Math.min(innerWidth-55,Math.max(7,rect.left+rect.width*.5-12))+'px';
-    pointer.style.top=Math.min(innerHeight-70,Math.max(8,rect.top+12))+'px';
-    pointer.classList.remove('essay-hand-moving');
-    void pointer.offsetWidth;
-    pointer.classList.add('essay-hand-moving');
-    timers.push(setTimeout(()=>{
-      if(!slide.classList.contains('active')||slide.hidden)return;
-      const ring=pointer.querySelector('.essay-hand-ring');
-      ring.classList.remove('tapped');void ring.offsetWidth;ring.classList.add('tapped');
-      word.click();
-    },1500));
-    timers.push(setTimeout(clear,2400));
-  }
-  // Demonstrate from the very first cycle, then at cycles 6, 11, 16, etc.
-  let initialTimer=null;
-  const watcher=new MutationObserver(()=>{
-    clearTimeout(initialTimer);
-    if(slide.classList.contains('active')&&!slide.hidden&&!firstShown){
-      initialTimer=setTimeout(()=>{firstShown=true;demonstrate();},0);
-    } else if(slide.hidden||!slide.classList.contains('active')) {
-      clear();
-    }
+ const slide=[...document.querySelectorAll('.slide.essay')].find(s=>/החיבור המלא|final draft|full essay/i.test(s.querySelector('.eyebrow')?.textContent||''));
+ if(!slide)return;
+ let cycles=0,entryShown=false,busy=false,sequenceTimers=[];
+ const hand=document.createElement('div');
+ hand.className='essay-hand-guide';
+ hand.setAttribute('aria-hidden','true');
+ hand.innerHTML='<svg width="52" height="64" viewBox="0 0 55 65"><path d="M19 56 9 39c-4-8 2-12 7-7l5 5V9c0-8 10-8 10 0v22-8c0-7 9-7 9 0v11-6c0-6 8-6 8 0v13c0 11-6 19-16 19H25z" fill="#f4cfac" stroke="#5e4335" stroke-width="2" stroke-linejoin="round"/></svg><span class="essay-hand-guide-ring"></span>';
+ document.body.append(hand);
+ const style=document.createElement('style');
+ style.textContent=`
+ .essay-hand-guide{position:fixed;z-index:99999;pointer-events:none;opacity:0;transform:translate(22px,28px);will-change:transform,opacity}
+ .essay-hand-guide.go{animation:essay-hand-guide-motion 2.3s ease-in-out forwards}
+ .essay-hand-guide-ring{position:absolute;top:0;left:4px;width:24px;height:24px;border:2px solid #ffe26b;border-radius:50%;opacity:0}
+ .essay-hand-guide-ring.go{animation:essay-hand-guide-ring .7s ease-out forwards}
+ @keyframes essay-hand-guide-motion{0%{opacity:0;transform:translate(22px,28px)}20%{opacity:1}55%{opacity:1;transform:translate(0,0) scale(1)}70%{opacity:1;transform:translate(0,-5px) scale(.9)}90%{opacity:1}100%{opacity:0;transform:translate(0,-10px)}}
+ @keyframes essay-hand-guide-ring{0%{opacity:.9;transform:scale(.3)}100%{opacity:0;transform:scale(2.8)}}
+ `;
+ document.head.append(style);
+ const onSlide=()=>slide.classList.contains('active')&&!slide.hidden&&!document.hidden;
+ function stop(){sequenceTimers.forEach(clearTimeout);sequenceTimers=[];busy=false;hand.classList.remove('go');hand.style.opacity='0';}
+ function delay(fn,ms){sequenceTimers.push(setTimeout(fn,ms));}
+ function target(){
+  return [...slide.querySelectorAll('.word-switch[data-options]')].find(el=>{
+    const r=el.getBoundingClientRect(),v=slide.getBoundingClientRect();
+    return r.width>20&&r.bottom>v.top+15&&r.top<Math.min(v.bottom,innerHeight)-60&&r.left<innerWidth-40&&r.right>10;
   });
-  watcher.observe(slide,{attributes:true,attributeFilter:['class','hidden']});
-  if(slide.classList.contains('active')&&!slide.hidden)initialTimer=setTimeout(()=>{firstShown=true;demonstrate();},0);
-  // Count completed yellow-to-orange cycles while the final slide is active.
-  // Do not count seconds or slide visits.
-  document.addEventListener('essay-word-cycle-complete',event=>{
-    if(event.detail?.slide!==slide||document.hidden)return;
-    cycles++;
-    if(cycles%5===0&&!timers.length)demonstrate();
-  });
+ }
+ function showOne(next){
+  if(!onSlide()){stop();return;}
+  const el=target();if(!el){stop();return;}
+  const r=el.getBoundingClientRect();
+  hand.style.left=Math.max(5,Math.min(innerWidth-58,r.left+r.width*.5-12))+'px';
+  hand.style.top=Math.max(5,Math.min(innerHeight-70,r.top+8))+'px';
+  hand.classList.remove('go');void hand.offsetWidth;hand.classList.add('go');
+  delay(()=>{
+   if(!onSlide())return;
+   const ring=hand.querySelector('.essay-hand-guide-ring');
+   ring.classList.remove('go');void ring.offsetWidth;ring.classList.add('go');
+   el.click();
+  },1400);
+  delay(()=>{hand.classList.remove('go');hand.style.opacity='0';if(next)next();else{busy=false;sequenceTimers=[];}},2500);
+ }
+ function show(count){
+  if(busy||!onSlide())return;
+  busy=true;
+  if(count===2)showOne(()=>delay(()=>showOne(),450));
+  else showOne();
+ }
+ const watcher=new MutationObserver(()=>{
+   if(!onSlide()){stop();return;}
+   if(!entryShown){entryShown=true;show(2);}
+ });
+ watcher.observe(slide,{attributes:true,attributeFilter:['class','hidden']});
+ if(onSlide()){entryShown=true;show(2);}
+ document.addEventListener('essay-word-cycle-complete',event=>{
+   if(event.detail?.slide!==slide||!onSlide())return;
+   cycles++;
+   if(cycles%5===0)show(1);
+ });
+ document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});
 })();
