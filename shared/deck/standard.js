@@ -351,7 +351,7 @@
   const slide=[...document.querySelectorAll('.slide.essay')].find(s=>
     /החיבור המלא|final draft|full essay/i.test(s.querySelector('.eyebrow')?.textContent||''));
   if(!slide)return;
-  let cycles=0,timers=[];
+  let cycles=0,timers=[],firstShown=false;
   const pointer=document.createElement('div');
   pointer.className='essay-hand-tutorial';
   pointer.setAttribute('aria-hidden','true');
@@ -389,18 +389,18 @@
     },1500));
     timers.push(setTimeout(clear,2400));
   }
-  // Give learners an immediate first demonstration; repeat after every five cycles.
+  // Demonstrate from the very first cycle, then at cycles 6, 11, 16, etc.
   let initialTimer=null;
   const watcher=new MutationObserver(()=>{
     clearTimeout(initialTimer);
-    if(slide.classList.contains('active')&&!slide.hidden&&cycles===0){
-      initialTimer=setTimeout(()=>demonstrate(),3500);
+    if(slide.classList.contains('active')&&!slide.hidden&&!firstShown){
+      initialTimer=setTimeout(()=>{firstShown=true;demonstrate();},0);
     } else if(slide.hidden||!slide.classList.contains('active')) {
       clear();
     }
   });
   watcher.observe(slide,{attributes:true,attributeFilter:['class','hidden']});
-  if(slide.classList.contains('active')&&!slide.hidden)initialTimer=setTimeout(()=>demonstrate(),3500);
+  if(slide.classList.contains('active')&&!slide.hidden)initialTimer=setTimeout(()=>{firstShown=true;demonstrate();},0);
   // Count completed yellow-to-orange cycles while the final slide is active.
   // Do not count seconds or slide visits.
   document.addEventListener('essay-word-cycle-complete',event=>{
