@@ -134,6 +134,7 @@
     state.animation?.cancel();
     state.el?.classList.remove('essay-soft-focus','essay-new-orange');
     state.el?.style.removeProperty('color');
+    state.el?.style.removeProperty('color');
     state.el?.style.removeProperty('text-shadow');
     states.delete(state.region);
   }
@@ -157,13 +158,14 @@
       el.setAttribute('aria-label',opts[next]+' — לחצו לניסוח אחר');
       state.animation?.cancel();
       el.classList.add('essay-new-orange');
+      el.style.setProperty('color','#ff9d38','important');
       const slide=current(),count=slide?.querySelector('.count');
       if(count){
         const ps=[...slide.querySelectorAll('.essay.en p,.main-copy.en')];
         count.textContent=ps.reduce((n,p)=>n+(p.textContent.match(/[A-Za-z0-9]+(?:[’'-][A-Za-z0-9]+)*/g)||[]).length,0)+' words';
       }
       window.dispatchEvent(new Event('resize'));
-      state.timer=setTimeout(()=>{el.classList.remove('essay-soft-focus','essay-new-orange');tick(state);},2450);
+      state.timer=setTimeout(()=>{el.classList.remove('essay-soft-focus','essay-new-orange');el.style.removeProperty('color');tick(state);},2450);
     },1650);
   }
   function refresh(){
