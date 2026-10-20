@@ -188,3 +188,42 @@
   });
   sync();
 })();
+
+/* Persistent Final Draft shortcut for essay-writing decks. */
+(() => {
+  const slides = [...document.querySelectorAll('.slide')];
+  const destination = [...slides].reverse().find(slide =>
+    slide.classList.contains('essay') &&
+    /החיבור המלא|final draft|full essay/i.test(slide.querySelector('.eyebrow')?.textContent || '')
+  );
+  if (!destination || document.querySelector('.final-draft-shortcut')) return;
+  const link = document.createElement('a');
+  link.className = 'final-draft-shortcut';
+  link.href = '#' + destination.id;
+  link.textContent = 'Final Draft';
+  link.title = 'מעבר לחיבור הסופי';
+  link.setAttribute('aria-label', 'Final Draft — מעבר לחיבור הסופי');
+  document.body.append(link);
+  const style = document.createElement('style');
+  style.textContent = `
+    .final-draft-shortcut {
+      position:fixed; top:max(12px,env(safe-area-inset-top));
+      right:max(16px,env(safe-area-inset-right)); z-index:200;
+      display:inline-flex; align-items:center; justify-content:center;
+      min-height:36px; padding:7px 15px;
+      border:1px solid rgba(255,230,142,.5); border-radius:999px;
+      background:rgba(28,34,46,.94); color:#ffebaa;
+      font:700 13px/1.2 system-ui,sans-serif; letter-spacing:.025em;
+      text-decoration:none; box-shadow:0 3px 14px rgba(0,0,0,.18);
+      transition:background .2s ease,transform .2s ease;
+    }
+    .final-draft-shortcut:hover,.final-draft-shortcut:focus-visible {
+      background:#43402b; color:#fff4cc; transform:translateY(-1px);
+      outline-offset:3px;
+    }
+    @media(max-width:600px) {
+      .final-draft-shortcut {top:max(8px,env(safe-area-inset-top));right:10px;padding:7px 11px;font-size:12px}
+    }
+  `;
+  document.head.append(style);
+})();
