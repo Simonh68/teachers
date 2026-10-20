@@ -103,3 +103,42 @@
   document.fonts.ready.then(fit);
   fromHash();
 })();
+
+/* Automatic essay wording sampler: one random replacement each second for 20 seconds. */
+(() => {
+  let interval, deadline, lastSlide = null;
+  const stop = () => { clearInterval(interval); clearTimeout(deadline); };
+  const active = () => document.querySelector('.slide.active:not([hidden])');
+  function enter(slide) {
+    stop();
+    lastSlide = slide;
+    if (!slide || !slide.querySelector('.essay, .main-copy.en')) return;
+    const words = [...slide.querySelectorAll('.word-switch[data-options]')].filter(el => {
+      try { return JSON.parse(el.dataset.options).length > 1; } catch { return false; }
+    });
+    if (!words.length) return;
+    function swap() {
+      if (active() !== slide) { stop(); return; }
+      const el = words[Math.floor(Math.random() * words.length)];
+      const opts = JSON.parse(el.dataset.options);
+      const step = 1 + Math.floor(Math.random() * (opts.length - 1));
+      for (let n = 0; n < step; n++) el.click();
+      el.animate?.(
+        [{backgroundColor:'#ffe35b'}, {backgroundColor:'rgba(255,227,91,0)'}],
+        {duration:1500, easing:'ease-out'}
+      );
+    }
+    interval = setInterval(swap, 1000);
+    deadline = setTimeout(stop, 20000);
+  }
+  const sync = () => { const s = active(); if (s !== lastSlide) enter(s); };
+  const observer = new MutationObserver(sync);
+  document.querySelectorAll('.slide').forEach(s =>
+    observer.observe(s, {attributes:true,attributeFilter:['class','hidden']})
+  );
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) stop();
+    else { lastSlide = null; sync(); }
+  });
+  sync();
+})();
