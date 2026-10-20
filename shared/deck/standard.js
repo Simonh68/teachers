@@ -325,3 +325,22 @@
   `;
   document.head.append(style);
 })();
+
+/* Compact topic line on the final composition slide. */
+(() => {
+  const topicByDeck={
+    'for-and-against-ai':'Should AI Be Used in Schools?',
+    'for-and-against-parks':'Parks and Playgrounds',
+    'smartphone-age-essay':'Smartphones at a Young Age',
+    'school-volunteering-essay':'Volunteering in the Community'
+  };
+  const topic=Object.entries(topicByDeck).find(([path])=>location.pathname.includes('/'+path+'/'))?.[1];
+  const slide=[...document.querySelectorAll('.slide.essay')].find(s=>/החיבור המלא|final draft|full essay/i.test(s.querySelector('.eyebrow')?.textContent||''));
+  if(!slide||!topic)return;
+  const header=slide.querySelector('.slide-meta');
+  if(!header||header.querySelector('.essay-topic-compact'))return;
+  const small=document.createElement('div');
+  small.className='essay-topic-compact';small.textContent=topic;
+  small.style.cssText='font:500 12px/1.25 system-ui,sans-serif;opacity:.75;margin:3px 0 0;text-align:center;direction:ltr';
+  header.append(small);
+})();
