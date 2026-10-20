@@ -149,29 +149,16 @@
     const next=(i+1+Math.floor(Math.random()*(opts.length-1)))%opts.length;
     state.el=el;
     el.classList.add('essay-soft-focus');
-    // Two gentle yellow text pulses, followed by a steady two-second yellow hold.
-    const pulse = [
-      {offset:0,color:'inherit',opacity:1},
-      {offset:.20,color:'#ffe26b',opacity:.82},
-      {offset:.40,color:'inherit',opacity:1},
-      {offset:.60,color:'#ffe26b',opacity:.82},
-      {offset:.80,color:'inherit',opacity:1},
-      {offset:1,color:'#ffe26b',opacity:1}
-    ];
-    if(el.animate && !window.matchMedia('(prefers-reduced-motion: reduce)').matches)
-      state.animation=el.animate(pulse,{duration:1000,easing:'ease-in-out',fill:'forwards'});
+    // No animation: constant yellow followed by constant orange.
+    const duration=t=>Math.round(Math.max(1500,Math.min(3200,1250+t.trim().length*32)));
+    el.classList.add('essay-old-yellow');
+    el.style.setProperty('color','#ffe26b','important');
     state.timer=setTimeout(()=>{
-      state.animation?.cancel();
-      el.classList.add('essay-old-yellow');
-      el.style.setProperty('color','#ffe26b','important');
-      state.timer=setTimeout(()=>{
       if(!visible(el)||stopped.has(region)){stop(state);return;}
       el.classList.remove('essay-old-yellow');
-      el.style.removeProperty('color');
       el.dataset.choice=String(next);
       el.textContent=opts[next]+(el.dataset.punctuation||'');
       el.setAttribute('aria-label',opts[next]+' — לחצו לניסוח אחר');
-      state.animation?.cancel();
       el.classList.add('essay-new-orange');
       el.style.setProperty('color','#ff9d38','important');
       const slide=current(),count=slide?.querySelector('.count');
@@ -180,9 +167,12 @@
         count.textContent=ps.reduce((n,p)=>n+(p.textContent.match(/[A-Za-z0-9]+(?:[’'-][A-Za-z0-9]+)*/g)||[]).length,0)+' words';
       }
       window.dispatchEvent(new Event('resize'));
-      state.timer=setTimeout(()=>{el.classList.remove('essay-soft-focus','essay-new-orange');el.style.removeProperty('color');tick(state);},2450);
-      },2000);
-    },1000);
+      state.timer=setTimeout(()=>{
+        el.classList.remove('essay-soft-focus','essay-new-orange');
+        el.style.removeProperty('color');
+        tick(state);
+      },duration(opts[next]));
+    },duration(opts[i]));
   }
   function refresh(){
     const s=current();
