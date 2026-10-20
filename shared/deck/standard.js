@@ -1,3 +1,5 @@
+/* English UI is opt-in; existing presentations keep their current labels. */
+const teacherDeckText = (he, en) => document.documentElement.dataset.essayLanguage === "en" ? en : he;
 
 (() => {
   'use strict';
@@ -93,8 +95,8 @@
   stage.addEventListener('touchcancel', () => {touchStart=null;}, {passive:true});
   document.querySelectorAll('[data-play-clip]').forEach(button => {
     const video = button.parentElement.querySelector('video');
-    function label() { const playing = !video.paused && !video.ended; button.textContent = playing ? 'Ⅱ' : '▶'; button.setAttribute('aria-label', playing ? 'השהיית הסרטון' : 'הפעלת הסרטון השקט'); }
-    button.addEventListener('click', async () => { if (video.paused) { try { await video.play(); } catch { button.setAttribute('aria-label','לא ניתן להפעיל כרגע — נסו שוב'); } } else video.pause(); label(); });
+    function label() { const playing = !video.paused && !video.ended; button.textContent = playing ? 'Ⅱ' : '▶'; button.setAttribute('aria-label', playing ? teacherDeckText('השהיית הסרטון','Pause video') : teacherDeckText('הפעלת הסרטון השקט','Play silent video')); }
+    button.addEventListener('click', async () => { if (video.paused) { try { await video.play(); } catch { button.setAttribute('aria-label',teacherDeckText('לא ניתן להפעיל כרגע — נסו שוב','Unable to play. Try again.')); } } else video.pause(); label(); });
     video.addEventListener('play',label); video.addEventListener('pause',label); video.addEventListener('ended',label);
   });
   function fromHash() { const match = location.hash.match(/^#slide-(\d+)$/); show(match ? Number(match[1])-1 : 0, false); }
@@ -113,15 +115,15 @@
   const speedBar=document.createElement('div');
   speedBar.className='essay-speed-control';
   speedBar.setAttribute('role','group');
-  speedBar.setAttribute('aria-label','קצב החלפת ניסוחים');
-  speedBar.innerHTML='<span class="essay-speed-label">קצב</span>'+[
+  speedBar.setAttribute('aria-label',teacherDeckText('קצב החלפת ניסוחים','Phrase-change speed'));
+  speedBar.innerHTML='<span class="essay-speed-label">'+teacherDeckText('קצב','Speed')+'</span>'+[
     ['verySlow','×1'],['medium','×2']
   ].map(([id,label])=>'<button type="button" data-essay-speed="'+id+'" aria-pressed="'+(id==='verySlow')+'">'+label+'</button>').join('');
-  speedBar.insertAdjacentHTML('beforeend','<button type="button" class="essay-play-pause" aria-label="השהה אנימציה" aria-pressed="true" title="השהה אנימציה">⏸</button>');
+  speedBar.insertAdjacentHTML('beforeend','<button type="button" class="essay-play-pause" aria-label="'+teacherDeckText('השהה אנימציה','Pause animation')+'" aria-pressed="true" title="'+teacherDeckText('השהה אנימציה','Pause animation')+'">⏸</button>');
   const toggle=speedBar.querySelector('.essay-play-pause');
   function syncToggle(){
     toggle.textContent=paused?'▶':'⏸';
-    toggle.title=paused?'הפעל אנימציה':'השהה אנימציה';
+    toggle.title=paused?teacherDeckText('הפעל אנימציה','Play animation'):teacherDeckText('השהה אנימציה','Pause animation');
     toggle.setAttribute('aria-label',toggle.title);
     toggle.setAttribute('aria-pressed',String(!paused));
   }
@@ -206,7 +208,7 @@
       el.classList.remove('essay-old-yellow');
       el.dataset.choice=String(next);
       el.textContent=opts[next]+(el.dataset.punctuation||'');
-      el.setAttribute('aria-label',opts[next]+' — לחצו לניסוח אחר');
+      el.setAttribute('aria-label',opts[next]+teacherDeckText(' — לחצו לניסוח אחר',' — click for another wording'));
       el.classList.add('essay-new-orange');
       el.style.setProperty('color','#ff9d38','important');
       const slide=current(),count=slide?.querySelector('.count');
@@ -265,8 +267,8 @@
   link.className = 'final-draft-shortcut';
   link.href = '#' + destination.id;
   link.textContent = 'Final Draft';
-  link.title = 'מעבר לחיבור הסופי';
-  link.setAttribute('aria-label', 'Final Draft — מעבר לחיבור הסופי');
+  link.title = teacherDeckText('מעבר לחיבור הסופי','Go to the final draft');
+  link.setAttribute('aria-label', teacherDeckText('Final Draft — מעבר לחיבור הסופי','Go to the final draft'));
   document.body.append(link);
   const style = document.createElement('style');
   style.textContent = `
@@ -302,7 +304,7 @@
     document.querySelectorAll('.final-draft-top-link,.final-draft-shortcut').forEach(link=>{
       link.href=isFinal?'#slide-1':'#'+finalSlide.id;
       link.textContent=isFinal?'⌂':'Final Draft ↗';
-      link.title=isFinal?'חזרה לתחילת המצגת':'מעבר לחיבור הסופי';
+      link.title=isFinal?teacherDeckText('חזרה לתחילת המצגת','Back to the first slide'):teacherDeckText('מעבר לחיבור הסופי','Go to the final draft');
       link.setAttribute('aria-label',link.title);
     });
   };
