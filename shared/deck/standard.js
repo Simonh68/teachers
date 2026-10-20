@@ -104,41 +104,87 @@
   fromHash();
 })();
 
-/* Automatic essay wording sampler: one random replacement each second for 20 seconds. */
+/* Classroom essay variation demo: continuous until the learner interacts. */
 (() => {
-  let interval, deadline, lastSlide = null;
-  const stop = () => { clearInterval(interval); clearTimeout(deadline); };
-  const active = () => document.querySelector('.slide.active:not([hidden])');
-  function enter(slide) {
-    stop();
-    lastSlide = slide;
-    if (!slide || !slide.querySelector('.essay, .main-copy.en')) return;
-    const words = [...slide.querySelectorAll('.word-switch[data-options]')].filter(el => {
+  const STEP_MS = 2100;
+  const pausedSlides = new WeakSet();
+  let timer = null, delayed = null, slideNow = null, lastElement = null;
+  let animations = [];
+  const activeSlide = () => document.querySelector('.slide.active:not([hidden])');
+  const reduced = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function clearEffects() {
+    clearInterval(timer); clearTimeout(delayed);
+    timer = delayed = null;
+    animations.forEach(a => a.cancel()); animations = [];
+    document.querySelectorAll('.word-switch.auto-essay-target').forEach(el => {
+      el.classList.remove('auto-essay-target');
+      el.style.removeProperty('outline-offset');
+    });
+  }
+  function play(el, keyframes, duration) {
+    if (reduced() || typeof el.animate !== 'function') return;
+    const animation = el.animate(keyframes, {duration, easing:'ease-in-out'});
+    animations.push(animation);
+    animation.onfinish = () => { animations = animations.filter(a => a !== animation); };
+  }
+  function rotate() {
+    const slide = slideNow;
+    if (!slide || activeSlide() !== slide || pausedSlides.has(slide)) { clearEffects(); return; }
+    const eligible = [...slide.querySelectorAll('.word-switch[data-options]')].filter(el => {
       try { return JSON.parse(el.dataset.options).length > 1; } catch { return false; }
     });
-    if (!words.length) return;
-    function swap() {
-      if (active() !== slide) { stop(); return; }
-      const el = words[Math.floor(Math.random() * words.length)];
-      const opts = JSON.parse(el.dataset.options);
-      const step = 1 + Math.floor(Math.random() * (opts.length - 1));
-      for (let n = 0; n < step; n++) el.click();
-      el.animate?.(
-        [{backgroundColor:'#ffe35b'}, {backgroundColor:'rgba(255,227,91,0)'}],
-        {duration:1500, easing:'ease-out'}
-      );
-    }
-    interval = setInterval(swap, 1000);
-    deadline = setTimeout(stop, 20000);
+    if (!eligible.length) return;
+    const pool = eligible.length > 1 ? eligible.filter(el => el !== lastElement) : eligible;
+    const el = pool[Math.floor(Math.random() * pool.length)];
+    lastElement = el;
+    const options = JSON.parse(el.dataset.options);
+    const current = Number(el.dataset.choice || 0);
+    const shift = 1 + Math.floor(Math.random() * (options.length - 1));
+    // Identify the phrase first, then reveal a different valid expression.
+    el.classList.add('auto-essay-target');
+    play(el, [
+      {backgroundColor:'rgba(255,224,83,0)',boxShadow:'0 0 0 0 rgba(255,224,83,0)'},
+      {backgroundColor:'rgba(255,224,83,.33)',boxShadow:'0 0 0 3px rgba(255,224,83,.12)'}
+    ], 340);
+    delayed = setTimeout(() => {
+      if (slideNow !== slide || activeSlide() !== slide || pausedSlides.has(slide)) return;
+      for(let i=0;i<shift;i++) el.click(); // Reuse existing count/punctuation logic.
+      el.classList.remove('auto-essay-target');
+      play(el, [
+        {offset:0,backgroundColor:'rgba(255,224,83,.68)',boxShadow:'0 0 0 3px rgba(255,224,83,.12)',opacity:.90},
+        {offset:.20,backgroundColor:'rgba(255,224,83,.45)',boxShadow:'0 0 0 2px rgba(255,224,83,.07)',opacity:1},
+        {offset:1,backgroundColor:'rgba(255,224,83,0)',boxShadow:'0 0 0 0 rgba(255,224,83,0)',opacity:1}
+      ], 1500);
+    }, 340);
   }
-  const sync = () => { const s = active(); if (s !== lastSlide) enter(s); };
+  function activate(slide) {
+    clearEffects(); slideNow = slide; lastElement = null;
+    if (!slide || pausedSlides.has(slide)) return;
+    if (!slide.querySelector('.essay, .main-copy.en')) return;
+    if (!slide.querySelector('.word-switch[data-options]')) return;
+    timer = setInterval(rotate, STEP_MS);
+    rotate();
+  }
+  const sync = () => { const next = activeSlide(); if (slideNow !== next) activate(next); };
   const observer = new MutationObserver(sync);
-  document.querySelectorAll('.slide').forEach(s =>
-    observer.observe(s, {attributes:true,attributeFilter:['class','hidden']})
+  document.querySelectorAll('.slide').forEach(slide =>
+    observer.observe(slide, {attributes:true,attributeFilter:['class','hidden']})
   );
+  function stopOnInteraction(event) {
+    if (!event.isTrusted) return;
+    const target = event.target instanceof Element ? event.target.closest('.word-switch[data-options]') : null;
+    const slide = activeSlide();
+    if (!target || !slide || !slide.contains(target)) return;
+    pausedSlides.add(slide);
+    clearEffects(); // Current alternative stays in place; manual clicks still work.
+  }
+  document.addEventListener('pointerdown', stopOnInteraction, true);
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Enter' || event.key === ' ') stopOnInteraction(event);
+  }, true);
   document.addEventListener('visibilitychange', () => {
-    if (document.hidden) stop();
-    else { lastSlide = null; sync(); }
+    if (document.hidden) clearEffects();
+    else if (slideNow && !pausedSlides.has(slideNow)) activate(slideNow);
   });
   sync();
 })();
