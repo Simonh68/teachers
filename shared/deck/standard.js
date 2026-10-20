@@ -104,104 +104,109 @@
   fromHash();
 })();
 
-/* Paragraph-local essay wording examples: only visible text animates. */
+/* Gentle independent variation, without changing fixed linking phrases. */
 (() => {
-  const CYCLE=3900, PREVIEW=950;
-  const stopped=new WeakSet(), states=new Map();
-  let activeSlide=null;
-  const visibleSlide=()=>document.querySelector('.slide.active:not([hidden])');
+  const fixed=/^\s*(on the one hand|on the other hand)[,.:;!?\s]*$/i;
+  const states=new Map(),stopped=new WeakSet();
+  let slideNow=null;
+  const current=()=>document.querySelector('.slide.active:not([hidden])');
   const style=document.createElement('style');
   style.textContent=`
-    .word-switch.essay-demo-upcoming{outline:3px solid #f6c744!important;outline-offset:3px;border-radius:5px;background:rgba(255,218,93,.28)!important;box-shadow:0 0 0 5px rgba(255,218,93,.12)!important}
-    .word-switch.essay-demo-new{outline:3px solid #ffe575!important;outline-offset:3px;border-radius:5px;background:#ffe575!important;color:#142334!important;box-shadow:0 0 14px #ffe57588!important;transition:background 1.6s ease,box-shadow 1.6s ease}
-    .essay-demo-note{position:fixed;z-index:7000;max-width:min(82vw,380px);padding:8px 12px;border:1px solid #ffe575;border-radius:12px;background:rgba(10,28,43,.97);color:#fff5cd;font:600 14px/1.4 system-ui,sans-serif;text-align:center;pointer-events:none;box-shadow:0 7px 24px #0008;direction:ltr}
-    .essay-demo-note[hidden]{display:none!important}
-    .essay-demo-note .old{color:#bccbd5;text-decoration:line-through;font-weight:400}
-    .essay-demo-note .new{color:#ffe575;font-weight:800}
-    @media(prefers-reduced-motion:reduce){.word-switch.essay-demo-new{transition:none}}
+    .word-switch.essay-soft-focus{transition:color .35s ease,text-shadow .35s ease}
+    @media(prefers-reduced-motion:reduce){.word-switch.essay-soft-focus{transition:none}}
   `;
   document.head.append(style);
   function visible(el){
-    if(!el.isConnected||!activeSlide||!activeSlide.contains(el))return false;
-    const r=el.getBoundingClientRect(), s=activeSlide.getBoundingClientRect();
-    const top=Math.max(r.top,s.top,0),bottom=Math.min(r.bottom,s.bottom,innerHeight);
-    const left=Math.max(r.left,s.left,0),right=Math.min(r.right,s.right,innerWidth);
-    return bottom-top>Math.min(14,r.height*.5)&&right-left>Math.min(24,r.width*.35);
+    const s=current();if(!s||!s.contains(el))return false;
+    const r=el.getBoundingClientRect(),v=s.getBoundingClientRect();
+    return Math.min(r.bottom,v.bottom,innerHeight)-Math.max(r.top,v.top,0)>Math.min(15,r.height*.5)
+      && Math.min(r.right,v.right,innerWidth)-Math.max(r.left,v.left,0)>Math.min(20,r.width*.35);
   }
-  function stopState(state){
-    clearTimeout(state.timer);clearTimeout(state.next);
-    state.el?.classList.remove('essay-demo-upcoming','essay-demo-new');
-    state.note.remove();states.delete(state.region);
+  function optionsFor(el){
+    try {
+      const all=JSON.parse(el.dataset.options);
+      if(!Array.isArray(all)||all.length<2||all.some(x=>fixed.test(x)))return null;
+      return all;
+    }catch{return null;}
   }
-  function stopAll(){[...states.values()].forEach(stopState);}
-  function sequence(state){
-    if(visibleSlide()!==activeSlide||!visible(state.region)||stopped.has(state.region)){stopState(state);return;}
-    const available=[...state.region.querySelectorAll('.word-switch[data-options]')].filter(el=>{
-      try{return visible(el)&&JSON.parse(el.dataset.options).length>1;}catch{return false;}
-    });
-    if(!available.length){state.timer=setTimeout(()=>sequence(state),1000);return;}
-    const pool=available.length>1?available.filter(el=>el!==state.el):available;
-    const el=pool[Math.floor(Math.random()*pool.length)], options=JSON.parse(el.dataset.options);
+  function stop(state){
+    clearTimeout(state.timer);
+    state.animation?.cancel();
+    state.el?.classList.remove('essay-soft-focus');
+    state.el?.style.removeProperty('color');
+    state.el?.style.removeProperty('text-shadow');
+    states.delete(state.region);
+  }
+  function tick(state){
+    const region=state.region;
+    if(document.hidden||!visible(region)||stopped.has(region)){stop(state);return;}
+    const els=[...region.querySelectorAll('.word-switch[data-options]')].filter(el=>visible(el)&&optionsFor(el));
+    if(!els.length){state.timer=setTimeout(()=>tick(state),900);return;}
+    const pool=els.length>1?els.filter(e=>e!==state.el):els;
+    const el=pool[Math.floor(Math.random()*pool.length)];
+    const opts=optionsFor(el);
+    const i=Number(el.dataset.choice||0);
+    const next=(i+1+Math.floor(Math.random()*(opts.length-1)))%opts.length;
     state.el=el;
-    const current=Number(el.dataset.choice||0);
-    const next=(current+1+Math.floor(Math.random()*(options.length-1)))%options.length;
-    const ending=el.dataset.punctuation||'';
-    state.note.replaceChildren();
-    const old=document.createElement('span'),fresh=document.createElement('span');
-    old.className='old';fresh.className='new';
-    old.textContent=options[current]+ending;fresh.textContent=options[next]+ending;
-    state.note.append(old,document.createTextNode('  →  '),fresh);
-    const r=el.getBoundingClientRect();
-    state.note.style.left=Math.max(8,Math.min(innerWidth-260,r.left))+'px';
-    state.note.style.top=(r.top>94?Math.max(8,r.top-66):Math.min(innerHeight-74,r.bottom+10))+'px';
-    state.note.hidden=false;
-    el.classList.add('essay-demo-upcoming');
-    state.next=setTimeout(()=>{
-      if(!visible(el)||stopped.has(state.region)){stopState(state);return;}
-      el.classList.remove('essay-demo-upcoming');el.classList.add('essay-demo-new');
-      el.dataset.choice=String(next);el.textContent=options[next]+ending;
-      el.setAttribute('aria-label',options[next]+' — לחצו לניסוח אחר');
-      const slide=activeSlide;
-      const count=slide?.querySelector('.count');
+    el.classList.add('essay-soft-focus');
+    // Repeated low-amplitude luminous pulses attract attention before the change.
+    if(el.animate){
+      state.animation=el.animate([
+        {color:'inherit',textShadow:'0 0 0 transparent',opacity:1,offset:0},
+        {color:'#ffe5a0',textShadow:'0 0 7px rgba(255,223,120,.35)',opacity:.85,offset:.17},
+        {color:'inherit',textShadow:'0 0 0 transparent',opacity:1,offset:.34},
+        {color:'#ffe5a0',textShadow:'0 0 7px rgba(255,223,120,.35)',opacity:.85,offset:.51},
+        {color:'inherit',textShadow:'0 0 0 transparent',opacity:1,offset:.68},
+        {color:'#ffe5a0',textShadow:'0 0 7px rgba(255,223,120,.35)',opacity:.85,offset:.85},
+        {color:'inherit',textShadow:'0 0 0 transparent',opacity:1,offset:1}
+      ],{duration:1650,easing:'ease-in-out'});
+    }
+    state.timer=setTimeout(()=>{
+      if(!visible(el)||stopped.has(region)){stop(state);return;}
+      el.dataset.choice=String(next);
+      el.textContent=opts[next]+(el.dataset.punctuation||'');
+      el.setAttribute('aria-label',opts[next]+' — לחצו לניסוח אחר');
+      state.animation?.cancel();
+      if(el.animate)state.animation=el.animate([
+        {opacity:.72,color:'#ffe9ae',textShadow:'0 0 9px rgba(255,223,120,.45)'},
+        {opacity:1,color:'inherit',textShadow:'0 0 0 transparent'}
+      ],{duration:1250,easing:'ease-out'});
+      const slide=current(),count=slide?.querySelector('.count');
       if(count){
-        const regions=[...slide.querySelectorAll('.essay.en p,.main-copy.en')];
-        count.textContent=regions.reduce((n,p)=>n+(p.textContent.match(/[A-Za-z0-9]+(?:[’'-][A-Za-z0-9]+)*/g)||[]).length,0)+' words';
+        const ps=[...slide.querySelectorAll('.essay.en p,.main-copy.en')];
+        count.textContent=ps.reduce((n,p)=>n+(p.textContent.match(/[A-Za-z0-9]+(?:[’'-][A-Za-z0-9]+)*/g)||[]).length,0)+' words';
       }
       window.dispatchEvent(new Event('resize'));
-      state.timer=setTimeout(()=>{
-        el.classList.remove('essay-demo-new');state.note.hidden=true;sequence(state);
-      },CYCLE-PREVIEW);
-    },PREVIEW);
+      state.timer=setTimeout(()=>{el.classList.remove('essay-soft-focus');tick(state);},2450);
+    },1650);
   }
   function refresh(){
-    const slide=visibleSlide();
-    if(slide!==activeSlide){stopAll();activeSlide=slide;}
-    if(!slide||document.hidden)return;
-    const paragraphs=[...slide.querySelectorAll('.essay.en > p,.main-copy.en')];
-    paragraphs.forEach(region=>{
-      if(stopped.has(region)||!region.querySelector('.word-switch[data-options]'))return;
-      if(!visible(region)){if(states.has(region))stopState(states.get(region));return;}
-      if(states.has(region))return;
-      const note=document.createElement('div');note.className='essay-demo-note';note.hidden=true;
-      document.body.append(note);
-      const state={region,note,el:null,timer:null,next:null};states.set(region,state);
-      sequence(state);
+    const s=current();
+    if(s!==slideNow){[...states.values()].forEach(stop);slideNow=s;}
+    if(!s||document.hidden)return;
+    [...s.querySelectorAll('.essay.en > p,.main-copy.en')].forEach(region=>{
+      if(!visible(region)){if(states.has(region))stop(states.get(region));return;}
+      if(stopped.has(region)||states.has(region))return;
+      if(![...region.querySelectorAll('.word-switch[data-options]')].some(optionsFor))return;
+      const state={region,timer:null,animation:null,el:null};
+      states.set(region,state);tick(state);
     });
   }
   const observer=new MutationObserver(refresh);
-  document.querySelectorAll('.slide').forEach(slide=>observer.observe(slide,{attributes:true,attributeFilter:['class','hidden']}));
+  document.querySelectorAll('.slide').forEach(s=>observer.observe(s,{attributes:true,attributeFilter:['class','hidden']}));
   document.addEventListener('scroll',refresh,true);
   window.addEventListener('resize',refresh);
-  document.addEventListener('visibilitychange',()=>{if(document.hidden)stopAll();else refresh();});
-  function stopByTouch(e){
+  document.addEventListener('visibilitychange',()=>{if(document.hidden)[...states.values()].forEach(stop);else refresh();});
+  const halt=e=>{
     if(!e.isTrusted)return;
     const el=e.target instanceof Element?e.target.closest('.word-switch[data-options]'):null;
     const region=el?.closest('.essay.en > p,.main-copy.en');
     if(!region)return;
-    stopped.add(region);if(states.has(region))stopState(states.get(region));
-  }
-  document.addEventListener('pointerdown',stopByTouch,true);
-  document.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' ')stopByTouch(e);},true);
+    stopped.add(region);
+    if(states.has(region))stop(states.get(region));
+  };
+  document.addEventListener('pointerdown',halt,true);
+  document.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' ')halt(e);},true);
   refresh();
 })();
 /* Persistent Final Draft shortcut for essay-writing decks. */
