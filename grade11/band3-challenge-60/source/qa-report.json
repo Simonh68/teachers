@@ -1,0 +1,36 @@
+{
+  "source_entries": 60,
+  "source_match": "all original English/Hebrew fields match source HTML flashcards",
+  "first_30_list_A": true,
+  "list_counts": {
+    "A": 30,
+    "B": 19,
+    "C": 9,
+    "D": 2
+  },
+  "mp3_decoded_and_word_text_verified": 120,
+  "slides": 133,
+  "browser_360x640": {
+    "checked_slides": 133,
+    "out_of_bounds": 0,
+    "english_reveal_coordinate_changes": 0
+  },
+  "sample_other_viewports": [
+    "390x844",
+    "844x390"
+  ],
+  "touch_test": {
+    "kind": "synthetic TouchEvent in 360x640 iframe",
+    "start_target": "word",
+    "results": {
+      "left": "2 to 3",
+      "up": "3 to 4",
+      "right": "4 to 3",
+      "down": "3 to 2"
+    },
+    "physical_device": false
+  },
+  "browser_audio_controls": "word and sentence independently play, switching/slide change stops previous clip",
+  "clipboard_preview": "HTTP clipboard unavailable; manual fallback verified",
+  "publication": "Simon explicitly approved publishing to the Grade 11 site on 2026-10-21. Deployment status is tracked by the GitHub Pages run for the publishing commit."
+}

@@ -1,0 +1,21 @@
+{
+  "repository": "Simonh68/module-e-vocab",
+  "commit": "912053cc5030cd6be4a936e642f34775fd07fb67",
+  "path": "data/vocabulary-master.json",
+  "records_reviewed": 982,
+  "selection": "Editorial teaching judgment across A–D: idiomatic meaning, abstraction, confusable senses, pronunciation and spelling. Not an empirical or official difficulty ranking.",
+  "preserved_fields": [
+    "en",
+    "pos",
+    "mean_he",
+    "ex_en",
+    "ex_he",
+    "support_text",
+    "source_entry_id",
+    "group"
+  ],
+  "speaker_plan": "Neutral adult teaching narrator for isolated vocabulary and all illustrative sentences. No character dialogue is being acted. US English en-US-AriaNeural.",
+  "spoken_expansions": {
+    "get away with sth": "get away with something"
+  }
+}

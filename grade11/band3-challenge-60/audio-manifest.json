@@ -1,0 +1,1835 @@
+{
+  "voice": "en-US-AriaNeural",
+  "rate": "-10%",
+  "prerecorded": true,
+  "clips": [
+    {
+      "entry": "A3-029",
+      "number": 1,
+      "kind": "word",
+      "text": "nevertheless",
+      "src": "audio/01-word.mp3",
+      "duration": 2.184,
+      "sha256": "3a975bfd9d8d7c9af16ced5a7238f180d15198de634e72bdd14a37acce8370eb",
+      "spoken_words": [
+        "nevertheless"
+      ]
+    },
+    {
+      "entry": "A3-029",
+      "number": 1,
+      "kind": "sentence",
+      "text": "The task was difficult; nevertheless, we completed it.",
+      "src": "audio/01-sentence.mp3",
+      "duration": 4.776,
+      "sha256": "c3f8ddd16a0ecc934c970a09a76f02693d9009de81f4d60073260c0b0c70f085",
+      "spoken_words": [
+        "The",
+        "task",
+        "was",
+        "difficult",
+        "nevertheless",
+        "we",
+        "completed",
+        "it"
+      ]
+    },
+    {
+      "entry": "A3-060",
+      "number": 2,
+      "kind": "word",
+      "text": "provided that",
+      "src": "audio/02-word.mp3",
+      "duration": 2.16,
+      "sha256": "802c70d4d48bd772556c2a0b9ae7bd8c4cdc8514265f5637ce5496ea166e72f5",
+      "spoken_words": [
+        "provided",
+        "that"
+      ]
+    },
+    {
+      "entry": "A3-060",
+      "number": 2,
+      "kind": "sentence",
+      "text": "You can borrow the bike provided that you return it today.",
+      "src": "audio/02-sentence.mp3",
+      "duration": 4.272,
+      "sha256": "054310ed1e29ffef2d92efd3e6360d3bf2e26bda9b203848af35fb37da2819c0",
+      "spoken_words": [
+        "You",
+        "can",
+        "borrow",
+        "the",
+        "bike",
+        "provided",
+        "that",
+        "you",
+        "return",
+        "it",
+        "today"
+      ]
+    },
+    {
+      "entry": "A1-022",
+      "number": 3,
+      "kind": "word",
+      "text": "even if",
+      "src": "audio/03-word.mp3",
+      "duration": 1.896,
+      "sha256": "84c482de44ce1eed618132d5fd49d30a38d98f6223d5918906cccdee3b459936",
+      "spoken_words": [
+        "even",
+        "if"
+      ]
+    },
+    {
+      "entry": "A1-022",
+      "number": 3,
+      "kind": "sentence",
+      "text": "I will walk to school even if it rains.",
+      "src": "audio/03-sentence.mp3",
+      "duration": 3.48,
+      "sha256": "607c564005bc5e670165771080198ec8f5060633a7f2297e86a989b73820cc3a",
+      "spoken_words": [
+        "I",
+        "will",
+        "walk",
+        "to",
+        "school",
+        "even",
+        "if",
+        "it",
+        "rains"
+      ]
+    },
+    {
+      "entry": "A1-016",
+      "number": 4,
+      "kind": "word",
+      "text": "even though",
+      "src": "audio/04-word.mp3",
+      "duration": 1.944,
+      "sha256": "de3f98ca84d8b10d04971463c1c09c595c23123451bd93ffd0390519436746e9",
+      "spoken_words": [
+        "even",
+        "though"
+      ]
+    },
+    {
+      "entry": "A1-016",
+      "number": 4,
+      "kind": "sentence",
+      "text": "Even though he was tired, he finished his homework.",
+      "src": "audio/04-sentence.mp3",
+      "duration": 4.056,
+      "sha256": "2976d544428ce4bd9e349c628eb5cd6767e979e079467844ed1d655d6a045695",
+      "spoken_words": [
+        "Even",
+        "though",
+        "he",
+        "was",
+        "tired",
+        "he",
+        "finished",
+        "his",
+        "homework"
+      ]
+    },
+    {
+      "entry": "A2-007",
+      "number": 5,
+      "kind": "word",
+      "text": "otherwise",
+      "src": "audio/05-word.mp3",
+      "duration": 2.016,
+      "sha256": "74e555e8668fafab214b682436cc15d6f24c36b35871a04d2c7faedfe70039c0",
+      "spoken_words": [
+        "otherwise"
+      ]
+    },
+    {
+      "entry": "A2-007",
+      "number": 5,
+      "kind": "sentence",
+      "text": "Hurry, otherwise we will be late.",
+      "src": "audio/05-sentence.mp3",
+      "duration": 3.24,
+      "sha256": "848be8b93700c52b88ab71096cfd36161b875397b4be42ce33d6fe730494f3d9",
+      "spoken_words": [
+        "Hurry",
+        "otherwise",
+        "we",
+        "will",
+        "be",
+        "late"
+      ]
+    },
+    {
+      "entry": "A2-033",
+      "number": 6,
+      "kind": "word",
+      "text": "necessarily",
+      "src": "audio/06-word.mp3",
+      "duration": 2.184,
+      "sha256": "5436c7ed9852ec66ac4096183f6eadfdd73bd2afb3f8704028f7f0cd4af0ae22",
+      "spoken_words": [
+        "necessarily"
+      ]
+    },
+    {
+      "entry": "A2-033",
+      "number": 6,
+      "kind": "sentence",
+      "text": "A high price does not necessarily mean good quality.",
+      "src": "audio/06-sentence.mp3",
+      "duration": 4.368,
+      "sha256": "2fb6473f4be223d6e23cc8bed7c69c9b0c076ff2af20bfbcade525cd5837a637",
+      "spoken_words": [
+        "A",
+        "high",
+        "price",
+        "does",
+        "not",
+        "necessarily",
+        "mean",
+        "good",
+        "quality"
+      ]
+    },
+    {
+      "entry": "A3-006",
+      "number": 7,
+      "kind": "word",
+      "text": "in terms of",
+      "src": "audio/07-word.mp3",
+      "duration": 2.136,
+      "sha256": "7900a0ff471b301eb464e8d0177dbf08363cbdaa62b09b65c98f24fe3b98c61b",
+      "spoken_words": [
+        "in",
+        "terms",
+        "of"
+      ]
+    },
+    {
+      "entry": "A3-006",
+      "number": 7,
+      "kind": "sentence",
+      "text": "The plan is good in terms of cost.",
+      "src": "audio/07-sentence.mp3",
+      "duration": 3.288,
+      "sha256": "c52789d374a1edf5773a06fc165e6e3a0e7619ec750d3096f833c2503dcc1efd",
+      "spoken_words": [
+        "The",
+        "plan",
+        "is",
+        "good",
+        "in",
+        "terms",
+        "of",
+        "cost"
+      ]
+    },
+    {
+      "entry": "A2-062",
+      "number": 8,
+      "kind": "word",
+      "text": "in actual fact",
+      "src": "audio/08-word.mp3",
+      "duration": 2.4,
+      "sha256": "5973f8f99d732cec42809065332711f08787ced1b2c79edcf3677a756a39dca7",
+      "spoken_words": [
+        "in",
+        "actual",
+        "fact"
+      ]
+    },
+    {
+      "entry": "A2-062",
+      "number": 8,
+      "kind": "sentence",
+      "text": "It looked easy, but in actual fact it was difficult.",
+      "src": "audio/08-sentence.mp3",
+      "duration": 4.368,
+      "sha256": "275af6c2fceade47bcbbe7a429bf5d9d432d74596492576529a829734d9890e8",
+      "spoken_words": [
+        "It",
+        "looked",
+        "easy",
+        "but",
+        "in",
+        "actual",
+        "fact",
+        "it",
+        "was",
+        "difficult"
+      ]
+    },
+    {
+      "entry": "A3-064",
+      "number": 9,
+      "kind": "word",
+      "text": "in the meantime",
+      "src": "audio/09-word.mp3",
+      "duration": 2.16,
+      "sha256": "e0574a57b9a5c45ab0e073364194c0c052a345773bc1a71845596c7d6d998031",
+      "spoken_words": [
+        "in",
+        "the",
+        "meantime"
+      ]
+    },
+    {
+      "entry": "A3-064",
+      "number": 9,
+      "kind": "sentence",
+      "text": "Dinner will be ready soon; in the meantime, set the table.",
+      "src": "audio/09-sentence.mp3",
+      "duration": 4.68,
+      "sha256": "9ab66a22ac9776e998e4f4843e83bb20ff0af4f374c373282617328f9ccfe506",
+      "spoken_words": [
+        "Dinner",
+        "will",
+        "be",
+        "ready",
+        "soon",
+        "in",
+        "the",
+        "meantime",
+        "set",
+        "the",
+        "table"
+      ]
+    },
+    {
+      "entry": "A2-029",
+      "number": 10,
+      "kind": "word",
+      "text": "among other things",
+      "src": "audio/10-word.mp3",
+      "duration": 2.4,
+      "sha256": "2511c7c89c2964d7a22b4465da75331728e893fafd7f276ede9da66efe40603f",
+      "spoken_words": [
+        "among",
+        "other",
+        "things"
+      ]
+    },
+    {
+      "entry": "A2-029",
+      "number": 10,
+      "kind": "sentence",
+      "text": "The center offers, among other things, free English lessons.",
+      "src": "audio/10-sentence.mp3",
+      "duration": 5.16,
+      "sha256": "f96355a06e0a48b4bbaa9d207e113c383d60c3efeb1e03de28a3d25285985c32",
+      "spoken_words": [
+        "The",
+        "center",
+        "offers",
+        "among",
+        "other",
+        "things",
+        "free",
+        "English",
+        "lessons"
+      ]
+    },
+    {
+      "entry": "A3-014",
+      "number": 11,
+      "kind": "word",
+      "text": "considerable",
+      "src": "audio/11-word.mp3",
+      "duration": 2.064,
+      "sha256": "a20d756dc2c7cfff763e59d7259864b81461e0108db98b42ef6abb5e2e316f05",
+      "spoken_words": [
+        "considerable"
+      ]
+    },
+    {
+      "entry": "A3-014",
+      "number": 11,
+      "kind": "sentence",
+      "text": "The project required considerable effort.",
+      "src": "audio/11-sentence.mp3",
+      "duration": 3.816,
+      "sha256": "1c0c7b5ceca109a94db7ffa9871514a79e6e0d45922c6bba8e6f2b8be1f2898b",
+      "spoken_words": [
+        "The",
+        "project",
+        "required",
+        "considerable",
+        "effort"
+      ]
+    },
+    {
+      "entry": "A2-006",
+      "number": 12,
+      "kind": "word",
+      "text": "significant",
+      "src": "audio/12-word.mp3",
+      "duration": 2.136,
+      "sha256": "4090e92cf083caf5dc6e8b26585603bf6fdb1c3c6061092bcf14f282f8784c3c",
+      "spoken_words": [
+        "significant"
+      ]
+    },
+    {
+      "entry": "A2-006",
+      "number": 12,
+      "kind": "sentence",
+      "text": "There was a significant improvement in her score.",
+      "src": "audio/12-sentence.mp3",
+      "duration": 3.864,
+      "sha256": "11cb024f3b2f861fca20eadd1d1f3f8b84dc46bc2f3deb3a5724a9dea417ee6c",
+      "spoken_words": [
+        "There",
+        "was",
+        "a",
+        "significant",
+        "improvement",
+        "in",
+        "her",
+        "score"
+      ]
+    },
+    {
+      "entry": "A1-040",
+      "number": 13,
+      "kind": "word",
+      "text": "essentially",
+      "src": "audio/13-word.mp3",
+      "duration": 2.016,
+      "sha256": "7f510cc237746c133270199472025e5ca456d3435ee63692df91a470cefdd640",
+      "spoken_words": [
+        "essentially"
+      ]
+    },
+    {
+      "entry": "A1-040",
+      "number": 13,
+      "kind": "sentence",
+      "text": "The two plans are essentially the same.",
+      "src": "audio/13-sentence.mp3",
+      "duration": 3.336,
+      "sha256": "0ec0d90dfaeb377a9d67c8212e7712c2792461a96d45f4d83d5df4daf81b4195",
+      "spoken_words": [
+        "The",
+        "two",
+        "plans",
+        "are",
+        "essentially",
+        "the",
+        "same"
+      ]
+    },
+    {
+      "entry": "A1-029",
+      "number": 14,
+      "kind": "word",
+      "text": "deliberately",
+      "src": "audio/14-word.mp3",
+      "duration": 2.016,
+      "sha256": "48d22f52ad0f44101e48cbb1be1e735db7bf60b90ec782fc16d3245e23a2b9ae",
+      "spoken_words": [
+        "deliberately"
+      ]
+    },
+    {
+      "entry": "A1-029",
+      "number": 14,
+      "kind": "sentence",
+      "text": "He deliberately left the answer blank.",
+      "src": "audio/14-sentence.mp3",
+      "duration": 3.384,
+      "sha256": "0c6ba90f7bf7cf1699413076048fc33b4a88d6e6c4758f0beab1686d11920264",
+      "spoken_words": [
+        "He",
+        "deliberately",
+        "left",
+        "the",
+        "answer",
+        "blank"
+      ]
+    },
+    {
+      "entry": "A1-078",
+      "number": 15,
+      "kind": "word",
+      "text": "worthwhile",
+      "src": "audio/15-word.mp3",
+      "duration": 2.04,
+      "sha256": "b17442101d0d8de0f0e2dbd48ec9d37a971ef1fde3b85bf842026a54d6c2900d",
+      "spoken_words": [
+        "worthwhile"
+      ]
+    },
+    {
+      "entry": "A1-078",
+      "number": 15,
+      "kind": "sentence",
+      "text": "The course was difficult but worthwhile.",
+      "src": "audio/15-sentence.mp3",
+      "duration": 3.384,
+      "sha256": "5e16d098e5b908780f7cf8f3b70d466912ab40a7ffc5667f82d44a01a1fd0350",
+      "spoken_words": [
+        "The",
+        "course",
+        "was",
+        "difficult",
+        "but",
+        "worthwhile"
+      ]
+    },
+    {
+      "entry": "A3-068",
+      "number": 16,
+      "kind": "word",
+      "text": "efficient",
+      "src": "audio/16-word.mp3",
+      "duration": 1.896,
+      "sha256": "734f068e38c53faf74eb43eb504977f86f6240be9f3aaa9a77557ad14eed8fcf",
+      "spoken_words": [
+        "efficient"
+      ]
+    },
+    {
+      "entry": "A3-068",
+      "number": 16,
+      "kind": "sentence",
+      "text": "The new system is simple and efficient.",
+      "src": "audio/16-sentence.mp3",
+      "duration": 3.36,
+      "sha256": "f3308562a7e2ae10de9489fd5ce8bca4b5d648b8a016dd9ef17982ebdcbb1fad",
+      "spoken_words": [
+        "The",
+        "new",
+        "system",
+        "is",
+        "simple",
+        "and",
+        "efficient"
+      ]
+    },
+    {
+      "entry": "A3-047",
+      "number": 17,
+      "kind": "word",
+      "text": "extraordinary",
+      "src": "audio/17-word.mp3",
+      "duration": 2.232,
+      "sha256": "ffb6b922b2f21bacd48b829cdd95255843666675dca98bf20a05097ccbd9d7ec",
+      "spoken_words": [
+        "extraordinary"
+      ]
+    },
+    {
+      "entry": "A3-047",
+      "number": 17,
+      "kind": "sentence",
+      "text": "She showed extraordinary courage.",
+      "src": "audio/17-sentence.mp3",
+      "duration": 3.168,
+      "sha256": "600925da01cdbf3bccac409cbcfbdcc8d3f55503ef65442c727cb8eb4c3fdca5",
+      "spoken_words": [
+        "She",
+        "showed",
+        "extraordinary",
+        "courage"
+      ]
+    },
+    {
+      "entry": "A3-048",
+      "number": 18,
+      "kind": "word",
+      "text": "characteristic",
+      "src": "audio/18-word.mp3",
+      "duration": 2.28,
+      "sha256": "9dbc792fcfe8386406537957fabe4f4a0939a8fa6515f87181ac3de098ea5af2",
+      "spoken_words": [
+        "characteristic"
+      ]
+    },
+    {
+      "entry": "A3-048",
+      "number": 18,
+      "kind": "sentence",
+      "text": "Patience is an important characteristic of a good teacher.",
+      "src": "audio/18-sentence.mp3",
+      "duration": 4.416,
+      "sha256": "c9ee9b47c0303bcf4c6f72719df54db3ff7a79b50e7050839111151d8ecf3af6",
+      "spoken_words": [
+        "Patience",
+        "is",
+        "an",
+        "important",
+        "characteristic",
+        "of",
+        "a",
+        "good",
+        "teacher"
+      ]
+    },
+    {
+      "entry": "A3-051",
+      "number": 19,
+      "kind": "word",
+      "text": "supposed",
+      "src": "audio/19-word.mp3",
+      "duration": 1.968,
+      "sha256": "61c593bd73e2c27c65a362d9d523fe94c069243f31398b3e068abf74bbf06155",
+      "spoken_words": [
+        "supposed"
+      ]
+    },
+    {
+      "entry": "A3-051",
+      "number": 19,
+      "kind": "sentence",
+      "text": "The supposed expert gave poor advice.",
+      "src": "audio/19-sentence.mp3",
+      "duration": 3.624,
+      "sha256": "a5bac2ddb7918a51f67d67a8f269b055711bf13fe3475c6cbf811cd98fee9b80",
+      "spoken_words": [
+        "The",
+        "supposed",
+        "expert",
+        "gave",
+        "poor",
+        "advice"
+      ]
+    },
+    {
+      "entry": "A1-028",
+      "number": 20,
+      "kind": "word",
+      "text": "reasonable",
+      "src": "audio/20-word.mp3",
+      "duration": 1.944,
+      "sha256": "10b7c3b5244a2ba174f0c2b0a8e6931138644e7a4b0437e2e352c70bd3196b11",
+      "spoken_words": [
+        "reasonable"
+      ]
+    },
+    {
+      "entry": "A1-028",
+      "number": 20,
+      "kind": "sentence",
+      "text": "The shop offered a reasonable price.",
+      "src": "audio/20-sentence.mp3",
+      "duration": 3.336,
+      "sha256": "8403399b347f0eeb3c1df15387ae300271c98c33ab4273e620351e4771cfffac",
+      "spoken_words": [
+        "The",
+        "shop",
+        "offered",
+        "a",
+        "reasonable",
+        "price"
+      ]
+    },
+    {
+      "entry": "A3-007",
+      "number": 21,
+      "kind": "word",
+      "text": "consequence",
+      "src": "audio/21-word.mp3",
+      "duration": 2.136,
+      "sha256": "6fb1dbe3f89bd964cb8981fc76b47744ae73e27e3844f123404804c8ecaa4c7f",
+      "spoken_words": [
+        "consequence"
+      ]
+    },
+    {
+      "entry": "A3-007",
+      "number": 21,
+      "kind": "sentence",
+      "text": "One consequence of the storm was a power cut.",
+      "src": "audio/21-sentence.mp3",
+      "duration": 4.008,
+      "sha256": "aea5601e6cbe020879d1cc55a7198cb98254815ba407c1eb889d79edd1c4508a",
+      "spoken_words": [
+        "One",
+        "consequence",
+        "of",
+        "the",
+        "storm",
+        "was",
+        "a",
+        "power",
+        "cut"
+      ]
+    },
+    {
+      "entry": "A2-023",
+      "number": 22,
+      "kind": "word",
+      "text": "emphasis",
+      "src": "audio/22-word.mp3",
+      "duration": 2.016,
+      "sha256": "717fb4f18536ecc93f7c9b4fdfdf1f48f6df1239c69e4cb92c18d887d527674d",
+      "spoken_words": [
+        "emphasis"
+      ]
+    },
+    {
+      "entry": "A2-023",
+      "number": 22,
+      "kind": "sentence",
+      "text": "The course places emphasis on speaking.",
+      "src": "audio/22-sentence.mp3",
+      "duration": 3.576,
+      "sha256": "987fe4abc139ab02f6747739235855c492149aa28baac17605c4e2390b288d6d",
+      "spoken_words": [
+        "The",
+        "course",
+        "places",
+        "emphasis",
+        "on",
+        "speaking"
+      ]
+    },
+    {
+      "entry": "A1-037",
+      "number": 23,
+      "kind": "word",
+      "text": "priority",
+      "src": "audio/23-word.mp3",
+      "duration": 1.968,
+      "sha256": "ff46efc42f5fd80844c10f1b84ac28cce2a497b0ee16f6d959422c7a1e407d3d",
+      "spoken_words": [
+        "priority"
+      ]
+    },
+    {
+      "entry": "A1-037",
+      "number": 23,
+      "kind": "sentence",
+      "text": "Student safety is our first priority.",
+      "src": "audio/23-sentence.mp3",
+      "duration": 3.504,
+      "sha256": "c3a13c905521bd589857eece1bb3fd8b2cf21db57acce6a58c74f7b2072b3d05",
+      "spoken_words": [
+        "Student",
+        "safety",
+        "is",
+        "our",
+        "first",
+        "priority"
+      ]
+    },
+    {
+      "entry": "A3-041",
+      "number": 24,
+      "kind": "word",
+      "text": "means",
+      "src": "audio/24-word.mp3",
+      "duration": 1.872,
+      "sha256": "dff8330cf0cac770e2002a97ff49e03d27ac380da2f4a4c9592057306f862763",
+      "spoken_words": [
+        "means"
+      ]
+    },
+    {
+      "entry": "A3-041",
+      "number": 24,
+      "kind": "sentence",
+      "text": "Email is a useful means of communication.",
+      "src": "audio/24-sentence.mp3",
+      "duration": 3.816,
+      "sha256": "6c56b640a23b1490deb11360e132c8abc6086a5b063a6771b0959a8c9eefc319",
+      "spoken_words": [
+        "Email",
+        "is",
+        "a",
+        "useful",
+        "means",
+        "of",
+        "communication"
+      ]
+    },
+    {
+      "entry": "A3-059",
+      "number": 25,
+      "kind": "word",
+      "text": "figure",
+      "src": "audio/25-word.mp3",
+      "duration": 1.872,
+      "sha256": "7fa8d981256096272e5cf690136cc245b905e2959e46d491c09d950060554ed2",
+      "spoken_words": [
+        "figure"
+      ]
+    },
+    {
+      "entry": "A3-059",
+      "number": 25,
+      "kind": "sentence",
+      "text": "The sales figure increased this year.",
+      "src": "audio/25-sentence.mp3",
+      "duration": 3.36,
+      "sha256": "33b61fc60d8396689afe37c6ab6dc5928fa2660d4caa92f52023990d105040f2",
+      "spoken_words": [
+        "The",
+        "sales",
+        "figure",
+        "increased",
+        "this",
+        "year"
+      ]
+    },
+    {
+      "entry": "A2-051",
+      "number": 26,
+      "kind": "word",
+      "text": "approach",
+      "src": "audio/26-word.mp3",
+      "duration": 1.896,
+      "sha256": "e6a652770dc8b8f3d8ed335345a3065c938e43eb78dc49498631fab754c996f6",
+      "spoken_words": [
+        "approach"
+      ]
+    },
+    {
+      "entry": "A2-051",
+      "number": 26,
+      "kind": "sentence",
+      "text": "This teaching approach helps beginners.",
+      "src": "audio/26-sentence.mp3",
+      "duration": 3.408,
+      "sha256": "e943b44e674dc031e79f8ee8130006feebc91e20b8f42064b1ca3059b0a04f67",
+      "spoken_words": [
+        "This",
+        "teaching",
+        "approach",
+        "helps",
+        "beginners"
+      ]
+    },
+    {
+      "entry": "A2-047",
+      "number": 27,
+      "kind": "word",
+      "text": "objective",
+      "src": "audio/27-word.mp3",
+      "duration": 2.016,
+      "sha256": "4a5b7ab70acaabbc1ffcf9ca0e8603446a395fff107e39e6aa1d73b6ff38c9a8",
+      "spoken_words": [
+        "objective"
+      ]
+    },
+    {
+      "entry": "A2-047",
+      "number": 27,
+      "kind": "sentence",
+      "text": "Our main objective is to improve reading skills.",
+      "src": "audio/27-sentence.mp3",
+      "duration": 4.008,
+      "sha256": "f6a5045aaaa3da3f01fcd8df9567c79149457088564daa9452128ed91d256c7d",
+      "spoken_words": [
+        "Our",
+        "main",
+        "objective",
+        "is",
+        "to",
+        "improve",
+        "reading",
+        "skills"
+      ]
+    },
+    {
+      "entry": "A1-065",
+      "number": 28,
+      "kind": "word",
+      "text": "concern",
+      "src": "audio/28-word.mp3",
+      "duration": 1.92,
+      "sha256": "516aae8d570d22c236c729a7b8b7069c43b6e671afea5afd56ffa185cebf2bbd",
+      "spoken_words": [
+        "concern"
+      ]
+    },
+    {
+      "entry": "A1-065",
+      "number": 28,
+      "kind": "sentence",
+      "text": "The rising cost concerns many families.",
+      "src": "audio/28-sentence.mp3",
+      "duration": 3.888,
+      "sha256": "df36709a7cb9cdc5c882a5f1524cce31e57311f85ba192ba3689d02b2020d7a5",
+      "spoken_words": [
+        "The",
+        "rising",
+        "cost",
+        "concerns",
+        "many",
+        "families"
+      ]
+    },
+    {
+      "entry": "A1-013",
+      "number": 29,
+      "kind": "word",
+      "text": "conduct",
+      "src": "audio/29-word.mp3",
+      "duration": 1.872,
+      "sha256": "81bfa74fc0185cdbd7ccc9b3a6f88af0388b0e0338d25b4b5e7d45b332e0b39a",
+      "spoken_words": [
+        "conduct"
+      ]
+    },
+    {
+      "entry": "A1-013",
+      "number": 29,
+      "kind": "sentence",
+      "text": "The class conducted a short survey.",
+      "src": "audio/29-sentence.mp3",
+      "duration": 3.216,
+      "sha256": "422af3d4b20cdb458798d0ce0dd82a07328238c7376f297772479503e9bc5bd9",
+      "spoken_words": [
+        "The",
+        "class",
+        "conducted",
+        "a",
+        "short",
+        "survey"
+      ]
+    },
+    {
+      "entry": "A3-070",
+      "number": 30,
+      "kind": "word",
+      "text": "claim",
+      "src": "audio/30-word.mp3",
+      "duration": 1.872,
+      "sha256": "768d3d8b97e14a07e2ffa0fabb5f31f6f42326c8941c4a61bbeabcfff7edb91f",
+      "spoken_words": [
+        "claim"
+      ]
+    },
+    {
+      "entry": "A3-070",
+      "number": 30,
+      "kind": "sentence",
+      "text": "The company claims that the product is safe.",
+      "src": "audio/30-sentence.mp3",
+      "duration": 3.648,
+      "sha256": "52343a635aaaa5ed247665e608fae4e28c13f4bf3dacb70c054453dbae5830b7",
+      "spoken_words": [
+        "The",
+        "company",
+        "claims",
+        "that",
+        "the",
+        "product",
+        "is",
+        "safe"
+      ]
+    },
+    {
+      "entry": "B2-002",
+      "number": 31,
+      "kind": "word",
+      "text": "put up with",
+      "src": "audio/31-word.mp3",
+      "duration": 1.944,
+      "sha256": "0b5096a7794c785a78d284a534f78af8d79743fae69e95d765a016c197ee3e71",
+      "spoken_words": [
+        "put",
+        "up",
+        "with"
+      ]
+    },
+    {
+      "entry": "B2-002",
+      "number": 31,
+      "kind": "sentence",
+      "text": "I cannot put up with this noise any longer.",
+      "src": "audio/31-sentence.mp3",
+      "duration": 3.648,
+      "sha256": "3d526d6e778f02a286aa5cc5baed62e840f2d58a3db856fc288f06699defda6f",
+      "spoken_words": [
+        "I",
+        "cannot",
+        "put",
+        "up",
+        "with",
+        "this",
+        "noise",
+        "any",
+        "longer"
+      ]
+    },
+    {
+      "entry": "B3-042",
+      "number": 32,
+      "kind": "word",
+      "text": "take into account",
+      "src": "audio/32-word.mp3",
+      "duration": 2.352,
+      "sha256": "016529d893e070893eabd9de8107762a533d47b45af1f1515bb128e361beea8b",
+      "spoken_words": [
+        "take",
+        "into",
+        "account"
+      ]
+    },
+    {
+      "entry": "B3-042",
+      "number": 32,
+      "kind": "sentence",
+      "text": "We must take the weather into account.",
+      "src": "audio/32-sentence.mp3",
+      "duration": 3.192,
+      "sha256": "5c10bf3b2191a5ba441107e306d73d96941d6c528b404dc2bbb85caa362cce5b",
+      "spoken_words": [
+        "We",
+        "must",
+        "take",
+        "the",
+        "weather",
+        "into",
+        "account"
+      ]
+    },
+    {
+      "entry": "D1-070",
+      "number": 33,
+      "kind": "word",
+      "text": "get away with something",
+      "src": "audio/33-word.mp3",
+      "duration": 2.424,
+      "sha256": "235cc1c1463fb0c9679c6e0fe11a331abc1234ee973c625c04c4ed910394e69c",
+      "spoken_words": [
+        "get",
+        "away",
+        "with",
+        "something"
+      ]
+    },
+    {
+      "entry": "D1-070",
+      "number": 33,
+      "kind": "sentence",
+      "text": "You won’t get away with this crime.",
+      "src": "audio/33-sentence.mp3",
+      "duration": 3.0,
+      "sha256": "8d10028e91e6c559c948bf8491a2d3936a3d0532f381feb132135ec73f0d4d7f",
+      "spoken_words": [
+        "You",
+        "won’t",
+        "get",
+        "away",
+        "with",
+        "this",
+        "crime"
+      ]
+    },
+    {
+      "entry": "C2-063",
+      "number": 34,
+      "kind": "word",
+      "text": "for the sake of",
+      "src": "audio/34-word.mp3",
+      "duration": 2.28,
+      "sha256": "e204ee0564761cf4302364dabe746fbf962ff3f9647221484cc293610961648e",
+      "spoken_words": [
+        "for",
+        "the",
+        "sake",
+        "of"
+      ]
+    },
+    {
+      "entry": "C2-063",
+      "number": 34,
+      "kind": "sentence",
+      "text": "Do it for the sake of the kids.",
+      "src": "audio/34-sentence.mp3",
+      "duration": 2.928,
+      "sha256": "094366ce96470f3b7af7d72ab119868f4fee28b00eed7491e4d052e4fe5aa08b",
+      "spoken_words": [
+        "Do",
+        "it",
+        "for",
+        "the",
+        "sake",
+        "of",
+        "the",
+        "kids"
+      ]
+    },
+    {
+      "entry": "C2-039",
+      "number": 35,
+      "kind": "word",
+      "text": "might as well",
+      "src": "audio/35-word.mp3",
+      "duration": 2.04,
+      "sha256": "b0ac1ff68142527bb2fb0db9aa6eb16d9f5810a15151991ed96416c3023e7fe1",
+      "spoken_words": [
+        "might",
+        "as",
+        "well"
+      ]
+    },
+    {
+      "entry": "C2-039",
+      "number": 35,
+      "kind": "sentence",
+      "text": "We might as well go home.",
+      "src": "audio/35-sentence.mp3",
+      "duration": 2.616,
+      "sha256": "7e5a5dc3996c7baae771aea9e6a3f447317a5e468a7851e76de7e0e382ebebb5",
+      "spoken_words": [
+        "We",
+        "might",
+        "as",
+        "well",
+        "go",
+        "home"
+      ]
+    },
+    {
+      "entry": "C1-040",
+      "number": 36,
+      "kind": "word",
+      "text": "hold up",
+      "src": "audio/36-word.mp3",
+      "duration": 1.872,
+      "sha256": "8b420939fb6e6953f37343c4df3f90a73594aa7cd2a5227a906655efe9575217",
+      "spoken_words": [
+        "hold",
+        "up"
+      ]
+    },
+    {
+      "entry": "C1-040",
+      "number": 36,
+      "kind": "sentence",
+      "text": "Traffic held us up.",
+      "src": "audio/36-sentence.mp3",
+      "duration": 2.52,
+      "sha256": "013d56457c7d632737a3504f50c9b3f137cb3dc43a3a1a7e6b72010913c2a2ff",
+      "spoken_words": [
+        "Traffic",
+        "held",
+        "us",
+        "up"
+      ]
+    },
+    {
+      "entry": "C3-078",
+      "number": 37,
+      "kind": "word",
+      "text": "give in",
+      "src": "audio/37-word.mp3",
+      "duration": 1.872,
+      "sha256": "8fa138f3009b183af01d4f24b3a71fa2caf2978577b0ccd1b7a4ea1cff8bb79a",
+      "spoken_words": [
+        "give",
+        "in"
+      ]
+    },
+    {
+      "entry": "C3-078",
+      "number": 37,
+      "kind": "sentence",
+      "text": "Never give in to pressure.",
+      "src": "audio/37-sentence.mp3",
+      "duration": 2.592,
+      "sha256": "94b97ff5a0ed1f7ff94f16753b60131cef909d38d714e4fca8be7d1745f44c96",
+      "spoken_words": [
+        "Never",
+        "give",
+        "in",
+        "to",
+        "pressure"
+      ]
+    },
+    {
+      "entry": "B2-034",
+      "number": 38,
+      "kind": "word",
+      "text": "make up",
+      "src": "audio/38-word.mp3",
+      "duration": 1.896,
+      "sha256": "131cc76275f4942ca65d5634d96b08e082c9b7e4dfb687e312f19fee34c23015",
+      "spoken_words": [
+        "make",
+        "up"
+      ]
+    },
+    {
+      "entry": "B2-034",
+      "number": 38,
+      "kind": "sentence",
+      "text": "The children made up a funny story.",
+      "src": "audio/38-sentence.mp3",
+      "duration": 3.192,
+      "sha256": "3e93b2b68448c2e250ab0c82510e1ff99b4015297c7cdb301baa3cd112def6aa",
+      "spoken_words": [
+        "The",
+        "children",
+        "made",
+        "up",
+        "a",
+        "funny",
+        "story"
+      ]
+    },
+    {
+      "entry": "B1-007",
+      "number": 39,
+      "kind": "word",
+      "text": "not until",
+      "src": "audio/39-word.mp3",
+      "duration": 2.04,
+      "sha256": "489e9550d050a66553290b554702df88ac49687f4702158f36d5190f0f79cebe",
+      "spoken_words": [
+        "not",
+        "until"
+      ]
+    },
+    {
+      "entry": "B1-007",
+      "number": 39,
+      "kind": "sentence",
+      "text": "We did not leave until the rain stopped.",
+      "src": "audio/39-sentence.mp3",
+      "duration": 3.36,
+      "sha256": "5e5306bc082a820de7dbcbd4cd0def945ee932a79eb50dee97e0a864bea396fd",
+      "spoken_words": [
+        "We",
+        "did",
+        "not",
+        "leave",
+        "until",
+        "the",
+        "rain",
+        "stopped"
+      ]
+    },
+    {
+      "entry": "B2-023",
+      "number": 40,
+      "kind": "word",
+      "text": "look forward to",
+      "src": "audio/40-word.mp3",
+      "duration": 2.304,
+      "sha256": "9df1e40472e673490b3985fddee739449c9c45a16d6f6d10e17ca8e26411e13c",
+      "spoken_words": [
+        "look",
+        "forward",
+        "to"
+      ]
+    },
+    {
+      "entry": "B2-023",
+      "number": 40,
+      "kind": "sentence",
+      "text": "I look forward to seeing you next week.",
+      "src": "audio/40-sentence.mp3",
+      "duration": 3.336,
+      "sha256": "81e4ff8f77cb2007aad6130b0f24a7cc2d471c28feea3c93b82acdfff1579cf9",
+      "spoken_words": [
+        "I",
+        "look",
+        "forward",
+        "to",
+        "seeing",
+        "you",
+        "next",
+        "week"
+      ]
+    },
+    {
+      "entry": "B2-046",
+      "number": 41,
+      "kind": "word",
+      "text": "peculiar",
+      "src": "audio/41-word.mp3",
+      "duration": 1.992,
+      "sha256": "72d43e1e9032e84ff3b84a8038e4913d03b9ededf81119721219270e156e71d4",
+      "spoken_words": [
+        "peculiar"
+      ]
+    },
+    {
+      "entry": "B2-046",
+      "number": 41,
+      "kind": "sentence",
+      "text": "There was a peculiar smell in the room.",
+      "src": "audio/41-sentence.mp3",
+      "duration": 3.216,
+      "sha256": "58550f40837cec0c5d6f7fce4835d4cddd0307ebcb82bb951a543dc10b19c400",
+      "spoken_words": [
+        "There",
+        "was",
+        "a",
+        "peculiar",
+        "smell",
+        "in",
+        "the",
+        "room"
+      ]
+    },
+    {
+      "entry": "B2-063",
+      "number": 42,
+      "kind": "word",
+      "text": "contemporary",
+      "src": "audio/42-word.mp3",
+      "duration": 2.136,
+      "sha256": "2eebad380a95cae1cf4c532b724064550a5a16d30f22ae8d77b3d71cce00b7d5",
+      "spoken_words": [
+        "contemporary"
+      ]
+    },
+    {
+      "entry": "B2-063",
+      "number": 42,
+      "kind": "sentence",
+      "text": "The museum displays contemporary art.",
+      "src": "audio/42-sentence.mp3",
+      "duration": 3.624,
+      "sha256": "f95e12813ff6ab33593a0b0f9f20ffe936beed0bc453011c3dfd40f910437260",
+      "spoken_words": [
+        "The",
+        "museum",
+        "displays",
+        "contemporary",
+        "art"
+      ]
+    },
+    {
+      "entry": "B3-049",
+      "number": 43,
+      "kind": "word",
+      "text": "apparent",
+      "src": "audio/43-word.mp3",
+      "duration": 1.872,
+      "sha256": "703aac98847d1f63e6f336a19118b9f6f54bc8704484ca4377087b065379666a",
+      "spoken_words": [
+        "apparent"
+      ]
+    },
+    {
+      "entry": "B3-049",
+      "number": 43,
+      "kind": "sentence",
+      "text": "It became apparent that we needed more time.",
+      "src": "audio/43-sentence.mp3",
+      "duration": 3.624,
+      "sha256": "05329263f469e472e49899ed26f0068dff31eacdf75e2579f4ffac290433206c",
+      "spoken_words": [
+        "It",
+        "became",
+        "apparent",
+        "that",
+        "we",
+        "needed",
+        "more",
+        "time"
+      ]
+    },
+    {
+      "entry": "B3-014",
+      "number": 44,
+      "kind": "word",
+      "text": "outstanding",
+      "src": "audio/44-word.mp3",
+      "duration": 2.088,
+      "sha256": "b281367c5449b77fbc9aa9936f2e927dc5c59ef55cf8a3f5bb99510e53e461f2",
+      "spoken_words": [
+        "outstanding"
+      ]
+    },
+    {
+      "entry": "B3-014",
+      "number": 44,
+      "kind": "sentence",
+      "text": "She received an award for outstanding work.",
+      "src": "audio/44-sentence.mp3",
+      "duration": 3.84,
+      "sha256": "fc9c505588fdcfc02597be9393016895f6ce4476f92751a2195c2f92c6a2074f",
+      "spoken_words": [
+        "She",
+        "received",
+        "an",
+        "award",
+        "for",
+        "outstanding",
+        "work"
+      ]
+    },
+    {
+      "entry": "B2-026",
+      "number": 45,
+      "kind": "word",
+      "text": "economical",
+      "src": "audio/45-word.mp3",
+      "duration": 2.04,
+      "sha256": "e5df9f5408bdf30bcbb744967c68404b0935ddae03056703ea3b451ac9d3e6ba",
+      "spoken_words": [
+        "economical"
+      ]
+    },
+    {
+      "entry": "B2-026",
+      "number": 45,
+      "kind": "sentence",
+      "text": "This small car is economical to run.",
+      "src": "audio/45-sentence.mp3",
+      "duration": 3.648,
+      "sha256": "7c59d7bb587252e53ad6e41218f96246efa1f3ed1f25e286909d0b6cfeb516b3",
+      "spoken_words": [
+        "This",
+        "small",
+        "car",
+        "is",
+        "economical",
+        "to",
+        "run"
+      ]
+    },
+    {
+      "entry": "B1-060",
+      "number": 46,
+      "kind": "word",
+      "text": "domestic",
+      "src": "audio/46-word.mp3",
+      "duration": 1.968,
+      "sha256": "5ac707ea611f44cd66621c77468a826e8f4f2087e005160a08daab298a2b56df",
+      "spoken_words": [
+        "domestic"
+      ]
+    },
+    {
+      "entry": "B1-060",
+      "number": 46,
+      "kind": "sentence",
+      "text": "Domestic flights are often shorter than international ones.",
+      "src": "audio/46-sentence.mp3",
+      "duration": 4.68,
+      "sha256": "2c360bf56b0174f20afeda596dfcee4230c81493ec9d6ddf4132108df580b17e",
+      "spoken_words": [
+        "Domestic",
+        "flights",
+        "are",
+        "often",
+        "shorter",
+        "than",
+        "international",
+        "ones"
+      ]
+    },
+    {
+      "entry": "B1-038",
+      "number": 47,
+      "kind": "word",
+      "text": "genuine",
+      "src": "audio/47-word.mp3",
+      "duration": 1.896,
+      "sha256": "96e456a7a1cb63122cb42c3c1a3b2157d395fb71df02417bf8a80040cd2d30d7",
+      "spoken_words": [
+        "genuine"
+      ]
+    },
+    {
+      "entry": "B1-038",
+      "number": 47,
+      "kind": "sentence",
+      "text": "Her concern for the children was genuine.",
+      "src": "audio/47-sentence.mp3",
+      "duration": 3.432,
+      "sha256": "4f0fd9d12084586958dcbf249cd97814c1bcf27c66719d1c15b2de767a18d061",
+      "spoken_words": [
+        "Her",
+        "concern",
+        "for",
+        "the",
+        "children",
+        "was",
+        "genuine"
+      ]
+    },
+    {
+      "entry": "B1-020",
+      "number": 48,
+      "kind": "word",
+      "text": "acquire",
+      "src": "audio/48-word.mp3",
+      "duration": 1.872,
+      "sha256": "fe610d601aefb3c818759eedc59d163c5ccf2528ce1f4ed0c761e1f52d9d7ef8",
+      "spoken_words": [
+        "acquire"
+      ]
+    },
+    {
+      "entry": "B1-020",
+      "number": 48,
+      "kind": "sentence",
+      "text": "Students acquire new skills through practice.",
+      "src": "audio/48-sentence.mp3",
+      "duration": 3.816,
+      "sha256": "d02e86e7a7da6e1ddb554c1c60cad274a1209faf922e18c2a4f64c39910e43b5",
+      "spoken_words": [
+        "Students",
+        "acquire",
+        "new",
+        "skills",
+        "through",
+        "practice"
+      ]
+    },
+    {
+      "entry": "C1-060",
+      "number": 49,
+      "kind": "word",
+      "text": "distinguish",
+      "src": "audio/49-word.mp3",
+      "duration": 2.112,
+      "sha256": "77e8ab5d82f0884eff3e93195aae128dbffb531ae2da62c8c06c312df8de581a",
+      "spoken_words": [
+        "distinguish"
+      ]
+    },
+    {
+      "entry": "C1-060",
+      "number": 49,
+      "kind": "sentence",
+      "text": "Distinguish between right and wrong.",
+      "src": "audio/49-sentence.mp3",
+      "duration": 3.192,
+      "sha256": "a97fa94b5ba3d550f7c969830e791bc3f3c20de452279f2b8b0017a409632bff",
+      "spoken_words": [
+        "Distinguish",
+        "between",
+        "right",
+        "and",
+        "wrong"
+      ]
+    },
+    {
+      "entry": "B3-024",
+      "number": 50,
+      "kind": "word",
+      "text": "interpret",
+      "src": "audio/50-word.mp3",
+      "duration": 1.968,
+      "sha256": "9f90c7ad8bed98b018d04fc0202fcc9ff874dddca5c14e444564063eb03b1d34",
+      "spoken_words": [
+        "interpret"
+      ]
+    },
+    {
+      "entry": "B3-024",
+      "number": 50,
+      "kind": "sentence",
+      "text": "Different readers may interpret the poem differently.",
+      "src": "audio/50-sentence.mp3",
+      "duration": 4.056,
+      "sha256": "0899baab6e7327effe56a77e6cc65665ff9708188a14fd800a97d056042a43c6",
+      "spoken_words": [
+        "Different",
+        "readers",
+        "may",
+        "interpret",
+        "the",
+        "poem",
+        "differently"
+      ]
+    },
+    {
+      "entry": "B3-033",
+      "number": 51,
+      "kind": "word",
+      "text": "determine",
+      "src": "audio/51-word.mp3",
+      "duration": 1.872,
+      "sha256": "2083f0a7d75ab4553f421372c57633c394fed62fee424af5bc9c4342dfa5f496",
+      "spoken_words": [
+        "determine"
+      ]
+    },
+    {
+      "entry": "B3-033",
+      "number": 51,
+      "kind": "sentence",
+      "text": "The results will determine who reaches the final.",
+      "src": "audio/51-sentence.mp3",
+      "duration": 3.816,
+      "sha256": "4706cc0033cd8499ba9972dcdba6eecca941af568608620208798553df849646",
+      "spoken_words": [
+        "The",
+        "results",
+        "will",
+        "determine",
+        "who",
+        "reaches",
+        "the",
+        "final"
+      ]
+    },
+    {
+      "entry": "C2-033",
+      "number": 52,
+      "kind": "word",
+      "text": "correspond",
+      "src": "audio/52-word.mp3",
+      "duration": 2.16,
+      "sha256": "28d50ac219fb1be380728ef6905bfdc76df4c95a1e7b27bc088bb680cb914693",
+      "spoken_words": [
+        "correspond"
+      ]
+    },
+    {
+      "entry": "C2-033",
+      "number": 52,
+      "kind": "sentence",
+      "text": "They correspond by mail.",
+      "src": "audio/52-sentence.mp3",
+      "duration": 2.76,
+      "sha256": "96c02dd7164f00c079e64b9e64ce6b070971103a68f2606bc59b23f44b7e276e",
+      "spoken_words": [
+        "They",
+        "correspond",
+        "by",
+        "mail"
+      ]
+    },
+    {
+      "entry": "B2-053",
+      "number": 53,
+      "kind": "word",
+      "text": "emerge",
+      "src": "audio/53-word.mp3",
+      "duration": 1.872,
+      "sha256": "50ce19c33de0c232bdddc5efc37a993e22b7264883919bedc6e36fba4d8541b5",
+      "spoken_words": [
+        "emerge"
+      ]
+    },
+    {
+      "entry": "B2-053",
+      "number": 53,
+      "kind": "sentence",
+      "text": "New facts emerged during the investigation.",
+      "src": "audio/53-sentence.mp3",
+      "duration": 3.816,
+      "sha256": "05a53b91c41d79d934720a6c0d93d5ea7f489790d2aafac7431e08ce8eba2f78",
+      "spoken_words": [
+        "New",
+        "facts",
+        "emerged",
+        "during",
+        "the",
+        "investigation"
+      ]
+    },
+    {
+      "entry": "C1-034",
+      "number": 54,
+      "kind": "word",
+      "text": "reassure",
+      "src": "audio/54-word.mp3",
+      "duration": 1.968,
+      "sha256": "84289c2bfdd7b01d4f1c268a199a28d6672e73126fdcf9e84a2586a847797a03",
+      "spoken_words": [
+        "reassure"
+      ]
+    },
+    {
+      "entry": "C1-034",
+      "number": 54,
+      "kind": "sentence",
+      "text": "He tried to reassure her.",
+      "src": "audio/54-sentence.mp3",
+      "duration": 2.664,
+      "sha256": "d7d467edc20194b3509f28b361ef87e67c71ec03fedcb52df1b757f58ca93590",
+      "spoken_words": [
+        "He",
+        "tried",
+        "to",
+        "reassure",
+        "her"
+      ]
+    },
+    {
+      "entry": "B2-040",
+      "number": 55,
+      "kind": "word",
+      "text": "criterion",
+      "src": "audio/55-word.mp3",
+      "duration": 2.064,
+      "sha256": "bd79d1ea5e6efdf017b5f0437ceb9d904f3693f2b3957ffa84e433fd7f8afbcd",
+      "spoken_words": [
+        "criterion"
+      ]
+    },
+    {
+      "entry": "B2-040",
+      "number": 55,
+      "kind": "sentence",
+      "text": "Price was an important criterion in our choice.",
+      "src": "audio/55-sentence.mp3",
+      "duration": 4.032,
+      "sha256": "089aaaf2b49beaa54a9409b2599e763ad4f9d958fad6bfbfbea8d85b22e3f16c",
+      "spoken_words": [
+        "Price",
+        "was",
+        "an",
+        "important",
+        "criterion",
+        "in",
+        "our",
+        "choice"
+      ]
+    },
+    {
+      "entry": "B1-062",
+      "number": 56,
+      "kind": "word",
+      "text": "judgment",
+      "src": "audio/56-word.mp3",
+      "duration": 1.872,
+      "sha256": "fa592987e8d2aae6b4891d4b6b0443abafa4e7a0ce262c993a2f16eafd726a83",
+      "spoken_words": [
+        "judgment"
+      ]
+    },
+    {
+      "entry": "B1-062",
+      "number": 56,
+      "kind": "sentence",
+      "text": "Good judgment is important in an emergency.",
+      "src": "audio/56-sentence.mp3",
+      "duration": 3.816,
+      "sha256": "1a50a70b18dda390598616bad51ec84494fbaecdba3307e54c83437b4ef0057d",
+      "spoken_words": [
+        "Good",
+        "judgment",
+        "is",
+        "important",
+        "in",
+        "an",
+        "emergency"
+      ]
+    },
+    {
+      "entry": "B1-001",
+      "number": 57,
+      "kind": "word",
+      "text": "involvement",
+      "src": "audio/57-word.mp3",
+      "duration": 2.04,
+      "sha256": "5cf51e8a2252aebb0411af822325f556ac1fe5a643a7001d412162f45f5e1906",
+      "spoken_words": [
+        "involvement"
+      ]
+    },
+    {
+      "entry": "B1-001",
+      "number": 57,
+      "kind": "sentence",
+      "text": "Parent involvement can help a school succeed.",
+      "src": "audio/57-sentence.mp3",
+      "duration": 3.84,
+      "sha256": "82c549f34497d9afbf71101e7fcd89fe7e2a7714c8aeaa2dd2fc27ff44106e6d",
+      "spoken_words": [
+        "Parent",
+        "involvement",
+        "can",
+        "help",
+        "a",
+        "school",
+        "succeed"
+      ]
+    },
+    {
+      "entry": "C2-048",
+      "number": 58,
+      "kind": "word",
+      "text": "dispute",
+      "src": "audio/58-word.mp3",
+      "duration": 1.872,
+      "sha256": "693bed90582122060d0f800fa54ff57c0350dbb3de4e5a80331f79b1987abda8",
+      "spoken_words": [
+        "dispute"
+      ]
+    },
+    {
+      "entry": "C2-048",
+      "number": 58,
+      "kind": "sentence",
+      "text": "They had a legal dispute.",
+      "src": "audio/58-sentence.mp3",
+      "duration": 2.664,
+      "sha256": "8aacd685756fefec4d09c4d6cf96377f10e93f7d5ada2ff2d41b1265cc77102d",
+      "spoken_words": [
+        "They",
+        "had",
+        "a",
+        "legal",
+        "dispute"
+      ]
+    },
+    {
+      "entry": "C2-054",
+      "number": 59,
+      "kind": "word",
+      "text": "debt",
+      "src": "audio/59-word.mp3",
+      "duration": 1.872,
+      "sha256": "e725e6bf8ff2d8f56edd9d25744903e32f05e9374c7fd274a9d597444a51b0a4",
+      "spoken_words": [
+        "debt"
+      ]
+    },
+    {
+      "entry": "C2-054",
+      "number": 59,
+      "kind": "sentence",
+      "text": "He paid his debt.",
+      "src": "audio/59-sentence.mp3",
+      "duration": 2.28,
+      "sha256": "e43b22c168ad95a57111915a26fa9a70edd8ee1bcf7a5f0e80dfebd1e2345da4",
+      "spoken_words": [
+        "He",
+        "paid",
+        "his",
+        "debt"
+      ]
+    },
+    {
+      "entry": "D3-005",
+      "number": 60,
+      "kind": "word",
+      "text": "range",
+      "src": "audio/60-word.mp3",
+      "duration": 1.896,
+      "sha256": "f17e8a8450c19bba30834f93c6265da8988f9b0e317e867f14dd0da641953a30",
+      "spoken_words": [
+        "range"
+      ]
+    },
+    {
+      "entry": "D3-005",
+      "number": 60,
+      "kind": "sentence",
+      "text": "Prices range from ten to fifty dollars.",
+      "src": "audio/60-sentence.mp3",
+      "duration": 3.696,
+      "sha256": "19567e0650d71ab90269d1b0cdd799ebc2be799f6a89132e4e8e81f586600baa",
+      "spoken_words": [
+        "Prices",
+        "range",
+        "from",
+        "ten",
+        "to",
+        "fifty",
+        "dollars"
+      ]
+    }
+  ]
+}

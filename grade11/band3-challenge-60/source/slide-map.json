@@ -1,0 +1,362 @@
+[
+  {
+    "number": 1,
+    "slide": 2,
+    "entry": "nevertheless",
+    "list": "A"
+  },
+  {
+    "number": 2,
+    "slide": 4,
+    "entry": "provided that",
+    "list": "A"
+  },
+  {
+    "number": 3,
+    "slide": 6,
+    "entry": "even if",
+    "list": "A"
+  },
+  {
+    "number": 4,
+    "slide": 8,
+    "entry": "even though",
+    "list": "A"
+  },
+  {
+    "number": 5,
+    "slide": 10,
+    "entry": "otherwise",
+    "list": "A"
+  },
+  {
+    "number": 6,
+    "slide": 13,
+    "entry": "necessarily",
+    "list": "A"
+  },
+  {
+    "number": 7,
+    "slide": 15,
+    "entry": "in terms of",
+    "list": "A"
+  },
+  {
+    "number": 8,
+    "slide": 17,
+    "entry": "in actual fact",
+    "list": "A"
+  },
+  {
+    "number": 9,
+    "slide": 19,
+    "entry": "in the meantime",
+    "list": "A"
+  },
+  {
+    "number": 10,
+    "slide": 21,
+    "entry": "among other things",
+    "list": "A"
+  },
+  {
+    "number": 11,
+    "slide": 24,
+    "entry": "considerable",
+    "list": "A"
+  },
+  {
+    "number": 12,
+    "slide": 26,
+    "entry": "significant",
+    "list": "A"
+  },
+  {
+    "number": 13,
+    "slide": 28,
+    "entry": "essentially",
+    "list": "A"
+  },
+  {
+    "number": 14,
+    "slide": 30,
+    "entry": "deliberately",
+    "list": "A"
+  },
+  {
+    "number": 15,
+    "slide": 32,
+    "entry": "worthwhile",
+    "list": "A"
+  },
+  {
+    "number": 16,
+    "slide": 35,
+    "entry": "efficient",
+    "list": "A"
+  },
+  {
+    "number": 17,
+    "slide": 37,
+    "entry": "extraordinary",
+    "list": "A"
+  },
+  {
+    "number": 18,
+    "slide": 39,
+    "entry": "characteristic",
+    "list": "A"
+  },
+  {
+    "number": 19,
+    "slide": 41,
+    "entry": "supposed",
+    "list": "A"
+  },
+  {
+    "number": 20,
+    "slide": 43,
+    "entry": "reasonable",
+    "list": "A"
+  },
+  {
+    "number": 21,
+    "slide": 46,
+    "entry": "consequence",
+    "list": "A"
+  },
+  {
+    "number": 22,
+    "slide": 48,
+    "entry": "emphasis",
+    "list": "A"
+  },
+  {
+    "number": 23,
+    "slide": 50,
+    "entry": "priority",
+    "list": "A"
+  },
+  {
+    "number": 24,
+    "slide": 52,
+    "entry": "means",
+    "list": "A"
+  },
+  {
+    "number": 25,
+    "slide": 54,
+    "entry": "figure",
+    "list": "A"
+  },
+  {
+    "number": 26,
+    "slide": 57,
+    "entry": "approach",
+    "list": "A"
+  },
+  {
+    "number": 27,
+    "slide": 59,
+    "entry": "objective",
+    "list": "A"
+  },
+  {
+    "number": 28,
+    "slide": 61,
+    "entry": "concern",
+    "list": "A"
+  },
+  {
+    "number": 29,
+    "slide": 63,
+    "entry": "conduct",
+    "list": "A"
+  },
+  {
+    "number": 30,
+    "slide": 65,
+    "entry": "claim",
+    "list": "A"
+  },
+  {
+    "number": 31,
+    "slide": 68,
+    "entry": "put up with",
+    "list": "B"
+  },
+  {
+    "number": 32,
+    "slide": 70,
+    "entry": "take into account",
+    "list": "B"
+  },
+  {
+    "number": 33,
+    "slide": 72,
+    "entry": "get away with sth",
+    "list": "D"
+  },
+  {
+    "number": 34,
+    "slide": 74,
+    "entry": "for the sake of",
+    "list": "C"
+  },
+  {
+    "number": 35,
+    "slide": 76,
+    "entry": "might as well",
+    "list": "C"
+  },
+  {
+    "number": 36,
+    "slide": 79,
+    "entry": "hold up",
+    "list": "C"
+  },
+  {
+    "number": 37,
+    "slide": 81,
+    "entry": "give in",
+    "list": "C"
+  },
+  {
+    "number": 38,
+    "slide": 83,
+    "entry": "make up",
+    "list": "B"
+  },
+  {
+    "number": 39,
+    "slide": 85,
+    "entry": "not until",
+    "list": "B"
+  },
+  {
+    "number": 40,
+    "slide": 87,
+    "entry": "look forward to",
+    "list": "B"
+  },
+  {
+    "number": 41,
+    "slide": 90,
+    "entry": "peculiar",
+    "list": "B"
+  },
+  {
+    "number": 42,
+    "slide": 92,
+    "entry": "contemporary",
+    "list": "B"
+  },
+  {
+    "number": 43,
+    "slide": 94,
+    "entry": "apparent",
+    "list": "B"
+  },
+  {
+    "number": 44,
+    "slide": 96,
+    "entry": "outstanding",
+    "list": "B"
+  },
+  {
+    "number": 45,
+    "slide": 98,
+    "entry": "economical",
+    "list": "B"
+  },
+  {
+    "number": 46,
+    "slide": 101,
+    "entry": "domestic",
+    "list": "B"
+  },
+  {
+    "number": 47,
+    "slide": 103,
+    "entry": "genuine",
+    "list": "B"
+  },
+  {
+    "number": 48,
+    "slide": 105,
+    "entry": "acquire",
+    "list": "B"
+  },
+  {
+    "number": 49,
+    "slide": 107,
+    "entry": "distinguish",
+    "list": "C"
+  },
+  {
+    "number": 50,
+    "slide": 109,
+    "entry": "interpret",
+    "list": "B"
+  },
+  {
+    "number": 51,
+    "slide": 112,
+    "entry": "determine",
+    "list": "B"
+  },
+  {
+    "number": 52,
+    "slide": 114,
+    "entry": "correspond",
+    "list": "C"
+  },
+  {
+    "number": 53,
+    "slide": 116,
+    "entry": "emerge",
+    "list": "B"
+  },
+  {
+    "number": 54,
+    "slide": 118,
+    "entry": "reassure",
+    "list": "C"
+  },
+  {
+    "number": 55,
+    "slide": 120,
+    "entry": "criterion",
+    "list": "B"
+  },
+  {
+    "number": 56,
+    "slide": 123,
+    "entry": "judgment",
+    "list": "B"
+  },
+  {
+    "number": 57,
+    "slide": 125,
+    "entry": "involvement",
+    "list": "B"
+  },
+  {
+    "number": 58,
+    "slide": 127,
+    "entry": "dispute",
+    "list": "C"
+  },
+  {
+    "number": 59,
+    "slide": 129,
+    "entry": "debt",
+    "list": "C"
+  },
+  {
+    "number": 60,
+    "slide": 131,
+    "entry": "range",
+    "list": "D"
+  }
+]
