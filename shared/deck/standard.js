@@ -8,11 +8,18 @@ const teacherDeckText = (he, en) => document.documentElement.dataset.essayLangua
   const progress = document.querySelector('.progress-fill');
   const navButtons = [...document.querySelectorAll('[data-step]')];
   const sectionButtons = [...document.querySelectorAll('[data-jump]')];
+  const naturalLayout = document.documentElement.dataset.deckLayout === 'natural';
+  let suppressTouchClickUntil = 0;
   let current = -1, wheelTime = 0, wheelSum = 0, touchStart = null;
   function fit() {
     const slide = slides[current];
     if (!slide) return;
     const frame = slide.querySelector('.frame');
+    if (naturalLayout) {
+      frame.style.zoom = '1';
+      slide.style.alignItems = 'flex-start';
+      return;
+    }
     const pair = slide.dataset.pair;
     const candidates = pair ? slides.filter(s => s.dataset.pair === pair) : [slide];
     const available = slide.clientHeight - parseFloat(getComputedStyle(slide).paddingTop) - parseFloat(getComputedStyle(slide).paddingBottom);
@@ -82,16 +89,33 @@ const teacherDeckText = (he, en) => document.documentElement.dataset.essayLangua
     wheelSum += delta * (e.deltaMode === 1 ? 16 : 1);
     if (Math.abs(wheelSum) >= 35) { show(current + (wheelSum > 0 ? 1 : -1)); wheelTime = now; wheelSum = 0; }
   }, {passive:false});
-  stage.addEventListener('touchstart', e => { if (e.touches.length === 1) touchStart = {x:e.touches[0].clientX,y:e.touches[0].clientY}; else touchStart=null; }, {passive:true});
+  stage.addEventListener('touchstart', e => {
+    if (e.touches.length === 1) {
+      const slide=slides[current];
+      touchStart={x:e.touches[0].clientX,y:e.touches[0].clientY,
+        atTop:slide.scrollTop<=2,atBottom:slide.scrollTop+slide.clientHeight>=slide.scrollHeight-2};
+    } else touchStart=null;
+  }, {passive:true});
+  stage.addEventListener('touchmove', e => {
+    if (naturalLayout && e.touches.length!==1) touchStart=null;
+  }, {passive:true});
   stage.addEventListener('touchend', e => {
     if (!touchStart || !e.changedTouches.length) return;
     const dx = e.changedTouches[0].clientX - touchStart.x;
     const dy = e.changedTouches[0].clientY - touchStart.y;
+    const start=touchStart;
     touchStart = null;
     if (Math.max(Math.abs(dx), Math.abs(dy)) < 55) return;
+    if (naturalLayout) suppressTouchClickUntil=Date.now()+500;
     if (Math.abs(dx) > Math.abs(dy)) show(current + (dx < 0 ? 1 : -1));
+    else if (naturalLayout) {
+      if ((dy<0&&start.atBottom)||(dy>0&&start.atTop)) show(current+(dy<0?1:-1));
+    }
     else if (slides[current].scrollHeight <= slides[current].clientHeight + 2) show(current + (dy < 0 ? 1 : -1));
   }, {passive:true});
+  stage.addEventListener('click',e=>{
+    if(naturalLayout&&Date.now()<suppressTouchClickUntil){e.preventDefault();e.stopImmediatePropagation();}
+  },true);
   stage.addEventListener('touchcancel', () => {touchStart=null;}, {passive:true});
   document.querySelectorAll('[data-play-clip]').forEach(button => {
     const video = button.parentElement.querySelector('video');

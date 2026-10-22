@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "question": "Where is the speaker at the beginning of the poem, and what choice does he have to make?",
+    "translation": "היכן נמצא הדובר בתחילת השיר, ואיזו בחירה עליו לעשות?",
+    "meaning": "יש לענות על שני חלקים: המקום שבו הדובר נמצא, והבחירה שעליו לעשות.",
+    "keywords": "Where = היכן · what choice = איזו בחירה",
+    "hebrewAnswer": ["הדובר נמצא ביער.", "עליו לבחור אחת משתי הדרכים."],
+    "difficulty": "בסיסית · איתור מידע",
+    "check": "התשובה כוללת מקום ובחירה.",
+    "sentences": [
+      ["The speaker is in a forest.", "The speaker is in a yellow wood.", "He is standing in a forest.", "At the beginning, he is in a wood.", "He stands where two roads separate in a wood.", "The poem begins with the speaker in a forest."],
+      ["He must choose one of the two roads.", "He has to choose between two roads.", "He needs to decide which road to take.", "He cannot take both roads, so he must choose one.", "He must decide which of the two roads to follow.", "He has to take one road and leave the other."]
+    ],
+    "upgrade": "The speaker is in a yellow wood, where he has to choose between two roads.",
+    "upgradeNote": "where מחברת את המקום למה שקורה בו. שני המשפטים הפשוטים מספיקים גם הם."
+  },
+  {
+    "id": 2,
+    "question": "What prevents the speaker from seeing the whole first road?",
+    "translation": "מה מונע מהדובר לראות את כל הדרך הראשונה?",
+    "meaning": "מסבירים מה חוסם את שדה הראייה שלו. מחפשים בשיר מדוע הוא רואה רק חלק מהדרך.",
+    "keywords": "prevents = מונע · whole = כל / שלם",
+    "hebrewAnswer": ["הדרך מתעקלת לתוך הצמחייה.", "לכן הדובר אינו יכול לראות את כולה."],
+    "difficulty": "בסיסית · סיבה מפורשת בטקסט",
+    "check": "הזכרנו את העיקול או את הצמחייה שמסתירים את המשך הדרך.",
+    "sentences": [
+      ["The road bends into the plants.", "The first road turns into thick plants.", "There is a bend in the road among the plants.", "The road turns where thick plants grow.", "The first road bends behind some plants.", "The road goes around a bend into the plants."],
+      ["He cannot see the whole road.", "He cannot see past the bend.", "The bend and the plants block his view.", "He can only see part of the road.", "He cannot see where the rest of the road goes.", "He cannot see all of the road ahead."]
+    ],
+    "upgrade": "Because the road bends into the plants, he cannot see all of it.",
+    "upgradeNote": "אפשר להתחיל ב־Because, ואז להשלים מה קורה בגלל הסיבה הזאת."
+  },
+  {
+    "id": 3,
+    "question": "Copy words or phrases from the poem that show the two roads were similar.",
+    "translation": "העתיקו מהשיר מילים או ביטויים שמראים ששתי הדרכים היו דומות.",
+    "meaning": "Copy פירושה להעתיק בדיוק. מחפשים מילים שמראות דמיון; ציטוט מתאים אחד מספיק כאן.",
+    "keywords": "Copy = העתיקו · similar = דומות",
+    "hebrewAnswer": ["שתי הדרכים היו דומות במידת השימוש בהן.", "במבחן צריך להעתיק את המילים שמראות זאת מתוך השיר."],
+    "difficulty": "בסיסית · איתור והעתקה",
+    "check": "העתקנו את מילות השיר בדיוק. הציטוט הוא תשובת המבחן.",
+    "sentences": [
+      ["The two roads were similar.", "The roads looked much the same.", "Both roads looked very much alike.", "There was little difference between the roads.", "The two roads were much alike.", "The roads did not look very different."],
+      ["People used both roads about the same amount.", "People walked along both roads about equally.", "Both roads showed about the same amount of use.", "People used one road about as much as the other.", "There were similar signs of use on both roads.", "One road did not show much more use than the other." ]
+    ],
+    "copyQuote": "Had worn them really about the same",
+    "copyLine": 10,
+    "copyNote": "שני המשפטים מסבירים את הרעיון. בשקף הבא מופיעה תשובת המבחן: ציטוט מדויק."
+  },
+  {
+    "id": 4,
+    "question": "Why does the speaker doubt that he will ever come back and take the other road?",
+    "translation": "מדוע הדובר מטיל ספק בכך שיחזור אי פעם וילך בדרך האחרת?",
+    "meaning": "צריך לתת סיבה לספק שלו לגבי החזרה. may = ייתכן; הוא אינו בטוח שיחזור.",
+    "keywords": "Why = מדוע · doubt = להטיל ספק · come back = לחזור",
+    "hebrewAnswer": ["דרך אחת מובילה לדרכים נוספות.", "הוא עלול להמשיך בדרכו ולא לחזור לדרך הראשונה."],
+    "difficulty": "בינונית · הסבר קשר של סיבה ותוצאה",
+    "check": "קישרנו בין המשך הדרך לבין הספק לגבי החזרה.",
+    "sentences": [
+      ["One road leads to other roads.", "He knows that one road leads to another.", "Each road can lead him to a new road.", "The road he chooses can lead to more roads.", "His journey can take him from one road to the next.", "After one road, there may be another road to follow."],
+      ["He may keep going and never return to the first road.", "He may not come back to try the other road.", "He may go on, so returning to the first road is not certain.", "He may continue his journey instead of coming back.", "He may never return to the place where he made his choice.", "He may keep moving forward and not try the road he left behind."]
+    ],
+    "upgrade": "Although he hopes to return, he knows that one road leads to another.",
+    "upgradeNote": "Although = אף על פי ש־. המבנה מחבר בין התקווה לחזור לבין הסיבה לספק."
+  },
+  {
+    "id": 5,
+    "question": "What might the two roads represent? Explain the metaphor.",
+    "translation": "מה עשויות שתי הדרכים לייצג? הסבירו את המטאפורה.",
+    "meaning": "אומרים מה הדרכים מייצגות, ואז מסבירים איך הבחירה בדרך דומה לבחירה בחיים.",
+    "keywords": "represent = לייצג · metaphor = מטאפורה · Explain = הסבירו",
+    "hebrewAnswer": ["שתי הדרכים מייצגות בחירות בחיים.", "כמו הדובר, גם אנחנו צריכים לפעמים לבחור אפשרות אחת ולוותר על האחרת."],
+    "difficulty": "חשיבה · פירוש והסבר מטאפורה",
+    "check": "כתבנו בחירות בחיים והסברנו את הדמיון לבחירה בדרך.",
+    "sentences": [
+      ["The two roads represent choices in life.", "The roads are like choices in our lives.", "The two roads can stand for different choices in life.", "The roads can represent two options in life.", "Each road can be a different choice in life.", "The two roads are a metaphor for choices in life."],
+      ["He must choose one road, and we also sometimes have to choose one option.", "He cannot take both roads, and we cannot always choose both options.", "He takes one road and leaves the other, as we sometimes do with choices.", "We sometimes have to choose one thing and give up another, like the speaker.", "Like the speaker, we sometimes have to choose between two things.", "The speaker chooses one road, just as we sometimes have to choose one thing."]
+    ],
+    "upgrade": "Just as the speaker must choose one road, we sometimes have to choose between two options in life.",
+    "upgradeNote": "Just as = בדיוק כפי ש־. משתמשים במבנה כדי להסביר את הדמיון."
+  },
+  {
+    "id": 6,
+    "question": "What might the word “sigh” suggest? Support your answer with a detail from the poem.",
+    "translation": "מה עשויה המילה ״אנחה״ לרמז? תמכו בתשובתכם בעזרת פרט מהשיר.",
+    "meaning": "מציעים פירוש אפשרי לאנחה ומביאים פרט שתומך בו. צריך לחבר בין הפירוש לפרט מהשיר.",
+    "keywords": "sigh = אנחה · might = עשוי / ייתכן · Support = תמכו בעזרת פרט",
+    "hebrewAnswer": ["האנחה עשויה לבטא צער או חרטה על הדרך שלא נבחרה.", "בתחילת השיר הוא מצטער שאינו יכול ללכת בשתי הדרכים."],
+    "difficulty": "חשיבה · פרשנות ופרט תומך",
+    "check": "הצענו פירוש אפשרי והבאנו פרט שתומך בו. גם פירוש אחר עם ביסוס מתאים יכול להתקבל.",
+    "sentences": [
+      ["The sigh may show that he feels sorry.", "The sigh may show regret.", "He may feel sad about the road he did not take.", "The sigh may show that he wishes he could try the other road.", "He may be sorry that he had to leave one road behind.", "The sigh may show sadness about the road he left behind."],
+      ["At the start, he is sorry that he cannot travel both roads.", "He wants to take both roads, but he can choose only one.", "He says that he is sorry because he cannot try both roads.", "He keeps the first road for another day, but he doubts that he will return.", "He hopes to try the first road another day, but he may never go back.", "He is sorry at the start because he must leave one of the roads behind."]
+    ],
+    "upgrade": "The sigh may suggest regret because he wanted to travel both roads.",
+    "upgradeNote": "may suggest = עשוי לרמז. זו פרשנות אפשרית. because מחברת אותה לפרט התומך."
+  }
+]
