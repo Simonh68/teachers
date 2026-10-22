@@ -47,5 +47,14 @@ html[data-deck-layout="natural"]{--top-height:94px;--nav-height:96px}
 .sequence-hand.show{animation:sequence-hand-in 1.5s ease-in-out forwards}
 .sequence-hand svg{filter:drop-shadow(0 2px 4px #0009)}
 @keyframes sequence-hand-in{0%{opacity:0;transform:translate(15px,18px)}35%{opacity:1;transform:translate(0,0)}75%{opacity:1;transform:translate(0,-4px) scale(.9)}100%{opacity:0;transform:translate(0,-8px)}}
+/* Touch exactly 600ms after arrival begins, at the sentence-change deadline. */
+html[data-sequence-hand="every-change"] .sequence-hand{transform-origin:23px 3px}
+html[data-sequence-hand="every-change"] .sequence-hand.show{animation:sequence-hand-every 1.2s linear forwards}
+html[data-sequence-hand="every-change"] .sequence-hand::after{content:"";position:absolute;left:13px;top:-7px;width:20px;height:20px;box-sizing:border-box;border:2px solid #fff173;border-radius:50%;opacity:0}
+html[data-sequence-hand="every-change"] .sequence-hand.show::after{animation:sequence-touch-ring .6s ease-out .6s forwards}
+@keyframes sequence-hand-every{0%{opacity:0;transform:translate(18px,22px)}25%{opacity:1}40%{opacity:1;transform:translate(0,0) scale(1)}50%,58%{opacity:1;transform:translate(0,0) scale(.88)}75%{opacity:1;transform:translate(0,0) scale(1)}100%{opacity:0;transform:translate(10px,14px)}}
+@keyframes sequence-touch-ring{0%{opacity:1;transform:scale(.4)}100%{opacity:0;transform:scale(2.5)}}
 @media(max-width:760px){html[data-deck-layout="natural"]{--top-height:83px;--nav-height:88px}.lesson-meta{margin:6px 0 25px;font-size:12px;gap:7px}.question-en{font-size:27px;line-height:1.38}.question-translation{padding-top:25px}.hebrew-question{font-size:23px}.question-meaning{font-size:20px;margin-top:18px}.keywords{font-size:16px}.think-he{margin-top:32px}.think-he p{font-size:21px}.sentence-choice{font-size:27px}.phase-6 .sentence-choice{font-size:25px}.phase-6 .question-en{font-size:25px}.sentence-row+.sentence-row{margin-top:22px}.sentence-caption{font-size:12px}.answer-tools{gap:9px;margin-top:22px}.timing-note{font-size:13px}.sequence-toggle{font-size:14px}.deck-name{display:none}.section-nav{gap:5px}.section-nav button{min-width:34px;padding:7px 8px;min-height:40px}.section-nav{right:14px}.hebrew-answer{font-size:28px}.small-note{font-size:19px}.difficulty{font-size:16px}.writing-slide .frame{padding-bottom:26px}}
 @media(prefers-reduced-motion:reduce){.sentence-choice.changing .is-current{animation:none;color:var(--amber)}.sequence-hand.show{animation:none;opacity:0}}
+@media(prefers-reduced-motion:reduce){html[data-sequence-hand="every-change"] .sequence-hand.show{animation:none;opacity:1;transform:none}html[data-sequence-hand="every-change"] .sequence-hand.show::after{animation:none}}
+
