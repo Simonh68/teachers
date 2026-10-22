@@ -1,0 +1,4 @@
+/* Hebrew hover help for this presentation; does not change slide geometry. */
+.hebrew-hover-target:focus-visible{outline:2px solid var(--amber,#ffc857);outline-offset:6px;border-radius:3px}
+.hebrew-hover-tooltip{position:fixed;z-index:11000;max-width:min(540px,calc(100vw - 24px));box-sizing:border-box;margin:0;padding:13px 18px;border:1px solid #dfff5b;border-radius:12px;background:#fff9df;color:#15263a;box-shadow:0 7px 24px #0008;font:700 clamp(18px,1.7vw,23px)/1.55 Heebo,Arial,sans-serif;direction:rtl;text-align:right;unicode-bidi:plaintext;white-space:normal;pointer-events:none}
+.hebrew-hover-tooltip[hidden]{display:none!important}
