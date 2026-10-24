@@ -15,7 +15,7 @@ def audio(text):
     with tempfile.TemporaryDirectory() as temp:
         mp3=Path(temp)/"speech.mp3"
         wav=Path(temp)/"speech.wav"
-        subprocess.run(["edge-tts","--voice","en-US-JennyNeural","--rate","-12%","--text",text,"--write-media",str(mp3)],check=True,stdout=subprocess.DEVNULL)
+        subprocess.run(["edge-tts","--voice","en-US-JennyNeural","--rate=-12%","--text",text,"--write-media",str(mp3)],check=True)
         subprocess.run(["ffmpeg","-nostdin","-hide_banner","-loglevel","error","-y","-i",str(mp3),"-ar",str(RATE),"-ac","1","-c:a","pcm_s16le",str(wav)],check=True)
         with wave.open(str(wav),"rb") as w:
             return w.readframes(w.getnframes())
