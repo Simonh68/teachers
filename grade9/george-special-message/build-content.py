@@ -16,7 +16,7 @@ def audio(text):
     """Record whole sentence, and capture word-boundary metadata from that same neural synthesis stream."""
     import asyncio,tempfile,edge_tts
     async def collect():
-        stream=edge_tts.Communicate(text,voice="en-US-JennyNeural",rate="-12%")
+        stream=edge_tts.Communicate(text,voice="en-US-JennyNeural",rate="-12%",boundary="WordBoundary")
         chunks=[]; boundaries=[]
         async for chunk in stream.stream():
             if chunk["type"]=="audio": chunks.append(chunk["data"])
