@@ -67,7 +67,7 @@ for index,row in enumerate(ROWS):
                 # Never claim unmatched word boundaries are exact.
                 pass
             while len(tokens)<=j:tokens.append(None)
-            clean=m.group().strip('.,!?“”"')
+            clean=m.group().strip('.,!?;:“”"')
             gloss=GLOSS.get(clean.lower(), 'פירוש חסר')
             tokens[j]={"text":m.group(),"he":gloss,"startChar":m.start(),"endChar":m.end(),"start":round(start,5),"end":round(end,5)}
         part_path=ROOT/"audio"/f"story-{num:02d}-part-{pi+1:02d}.wav"
