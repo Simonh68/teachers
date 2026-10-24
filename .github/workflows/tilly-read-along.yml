@@ -12,8 +12,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install speech encoder
-        run: sudo apt-get update -qq && sudo apt-get install -y espeak
+      - name: Install neural speech tools
+        run: |
+          python3 -m pip install --user edge-tts
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          ffmpeg -version | head -n 1
       - name: Build story data and recordings
         run: python3 grade8/tilly-tsunami/build-content.py
       - name: Commit generated content
