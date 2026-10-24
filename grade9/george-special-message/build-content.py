@@ -53,19 +53,28 @@ for index,row in enumerate(ROWS):
         raw_fragments.append(raw)
         # Approximate internal word boundaries by weighted pronunciation length;
         # phrase boundaries are exact from the WAV recordings.
-        weights=[max(1.8,len(re.sub('[^a-zA-Z]','',matches[j].group()))**0.72) for j in gg]
-        total=sum(weights);elapsed=0
-        for j,weight in zip(gg,weights):
-            m=matches[j];start=time_base+duration*elapsed/total;elapsed+=weight
-            end=time_base+duration*elapsed/total
-            if len(boundaries)==len(gg):
-                event=boundaries[gg.index(j)]
-                start=time_base+max(0,min(duration,event["start"]))
-                end=time_base+max(start-time_base,min(duration,event["start"]+event["duration"]))
-            elif boundaries:
-                # Retain weighted fallback only for unmatched tokenizer boundaries.
-                # Never claim unmatched word boundaries are exact.
-                pass
+        # Match the speech engine's actual WordBoundary stream to printed tokens
+        # by cumulative normalized character spans, not token counts.
+        def norm(t):
+            return re.sub(r"[^a-z0-9]", "", t.lower())
+        src_chars="".join(norm(matches[j].group()) for j in gg)
+        spoken_chars="".join(norm(e["text"]) for e in boundaries)
+        if not boundaries or src_chars != spoken_chars:
+            raise RuntimeError(f"WordBoundary alignment mismatch in sentence {num}: text={src_chars!r} speech={spoken_chars!r}")
+        spans=[];pos=0
+        for e in boundaries:
+            n=len(norm(e["text"]))
+            spans.append((pos,pos+n,e))
+            pos+=n
+        pos=0
+        for j in gg:
+            m=matches[j]; size=len(norm(m.group()))
+            overlaps=[e for a,b,e in spans if a<pos+size and b>pos]
+            if not overlaps:
+                raise RuntimeError(f"No recorded word boundary for sentence {num}, token {j}")
+            start=time_base+max(0,min(duration,overlaps[0]["start"]))
+            end=time_base+max(start-time_base,min(duration,overlaps[-1]["start"]+overlaps[-1]["duration"]))
+            pos+=size
             while len(tokens)<=j:tokens.append(None)
             clean=m.group().strip('.,!?;:“”"')
             gloss=GLOSS.get(clean.lower(), 'פירוש חסר')
