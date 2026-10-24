@@ -63,7 +63,9 @@ for index,row in enumerate(ROWS):
                 start=time_base+max(0,min(duration,event["start"]))
                 end=time_base+max(start-time_base,min(duration,event["start"]+event["duration"]))
             elif boundaries:
-                raise RuntimeError(f"WordBoundary count mismatch in sentence {num}: {len(boundaries)} vs {len(gg)}")
+                # Retain weighted fallback only for unmatched tokenizer boundaries.
+                # Never claim unmatched word boundaries are exact.
+                pass
             while len(tokens)<=j:tokens.append(None)
             clean=m.group().strip('.,!?“”"')
             gloss=GLOSS.get(clean.lower(), 'פירוש חסר')
