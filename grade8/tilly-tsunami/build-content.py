@@ -10,12 +10,16 @@ ROWS=json.loads("[{\"en\":[\"In December 2004, a ten-year-old girl named Tilly S
 ROWS=[{"en":row["en"][i],"he":row["en"][i+1],"p":row["p"]} for row in ROWS for i in range(0,len(row["en"]),2)]
 RATE=22050
 def audio(text):
-    out=subprocess.run(["espeak","-v","en-us","-s","142","-a","170","--stdout",text],stdout=subprocess.PIPE,stderr=subprocess.PIPE,check=True).stdout
-    import io
-    with wave.open(io.BytesIO(out),'rb') as w:
-        raw=w.readframes(w.getnframes());channels=w.getnchannels();swidth=w.getsampwidth();rate=w.getframerate()
-    if channels!=1 or swidth!=2 or rate!=RATE: raise RuntimeError((channels,swidth,rate))
-    return raw
+    """Natural neural voice, with no robotic eSpeak fallback."""
+    import tempfile
+    with tempfile.TemporaryDirectory() as temp:
+        mp3=Path(temp)/"speech.mp3"
+        wav=Path(temp)/"speech.wav"
+        subprocess.run(["edge-tts","--voice","en-US-JennyNeural","--rate","-12%","--text",text,"--write-media",str(mp3)],check=True,stdout=subprocess.DEVNULL)
+        subprocess.run(["ffmpeg","-nostdin","-hide_banner","-loglevel","error","-y","-i",str(mp3),"-ar",str(RATE),"-ac","1","-c:a","pcm_s16le",str(wav)],check=True)
+        with wave.open(str(wav),"rb") as w:
+            return w.readframes(w.getnframes())
+
 def write_wav(path,raw):
     path.parent.mkdir(parents=True,exist_ok=True)
     with wave.open(str(path),'wb') as w:
