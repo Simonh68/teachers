@@ -25,10 +25,16 @@ if(!['chunks','sentences'].includes(view)){
 <footer class="footer" id="footer"><nav class="navigation" aria-label="מעבר שקופיות"><button data-step="-1" aria-label="לשקופית הקודמת">←</button><button data-step="-1" aria-label="לשקופית הקודמת">↑</button><output id="counter" aria-live="polite"></output><button data-step="1" aria-label="לשקופית הבאה">↓</button><button data-step="1" aria-label="לשקופית הבאה">→</button></nav><p id="status" role="status">ההפסקות בשמע בלבד — 1.5 שניות.</p></footer><div class="progress"><div id="progress"></div></div>
 <dialog id="reading-menu"><div class="menu-heading"><h2>קריאה · The Girl Who Saved 100 Lives</h2><button id="close-menu" aria-label="סגירת התוכן">×</button></div><nav class="menu-modes"><a href="?view=chunks" data-mode="chunks">קריאה בקטעים</a><a href="?view=sentences" data-mode="sentences">משפט בשקף</a><a href="./">מפגשי היחידה</a></nav><div class="jump-row"><button id="start-over">מההתחלה</button><button id="resume-reading">המשך הקריאה</button></div><p class="menu-note">אנגלית תחילה; בשקופית הבאה התרגום נשאר גלוי והמרקר עוקב בשתי השפות. ההקראה באנגלית בלבד.</p><div id="sentence-list"></div></dialog><div id="reading-tip" role="tooltip" hidden></div><nav class="deck-nav" id="deck-nav" aria-label="ניווט שקפים רגילים"><div class="nav-group"><button id="deck-prev" aria-label="הקודם">←</button><button id="deck-up" aria-label="הקודם">↑</button></div><output class="deck-progress" id="deck-count"></output><div class="nav-group"><button id="deck-down" aria-label="הבא">↓</button><button id="deck-next" aria-label="הבא">→</button></div></nav><div class="deck-progress-track"><div class="deck-progress-fill" id="deck-progress-fill"></div></div>`;
  if(pilot){const home=document.querySelector('.home');home.href='./';home.setAttribute('aria-label','חזרה לעותק היחידה');}
- for(const path of ['phrase-data.js?v=tilly1','alignment.js?v=tilly1'])await load(path);
+ for(const path of ['phrase-data.js?v=neural-23-20261024','alignment.js?v=neural-23-20261024'])await load(path);
  if(deckName){if(!/^[a-z0-9-]+$/i.test(deckName))throw Error('Invalid deck name');if(!window.READALONG_DECKS?.[deckName])await loadURL(new URL('./decks/'+deckName+'.js?v=2',location.href).href);}
  for(const url of [new URL('standard-config.js?v=1',shared),new URL('phrase-player.js?v=20261007-deck6',shared),new URL('segmented-engine.js?v=20261007-rtl8',shared)])await new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=url.href;s.onload=resolve;s.onerror=reject;document.head.append(s);});
+ // Bust stale browser and GitHub Pages cache for the recorded WAV files; shared player remains unchanged.
+ window.GRADE8_PHRASES.sentences.forEach(record=>record.parts.forEach(part=>{
+   const clean=part.src.split('?')[0];
+   part.src=clean+'?audio=neural-23-20261024';
+ }));
  await cssReady;
- await window.initGrade8Bilingual({D,base,view,store:'teachers-grade8-tilly-v1',speedStore:'teachers-read-alone-speed-v1',deck:null});
+ window.TEACHERS_READALONG_STANDARD={...window.TEACHERS_READALONG_STANDARD,defaultSpeed:1};
+ await window.initGrade8Bilingual({D,base,view,store:'teachers-grade8-tilly-v1',speedStore:'teachers-tilly-natural-speed-v2',deck:null});
 })().catch(e=>{console.error(e);document.body.innerHTML='<main style="padding:25px;font:20px Arial,sans-serif;direction:rtl"><h1>לא ניתן לטעון את הקריאה כרגע.</h1><p>רעננו את העמוד כשהחיבור זמין.</p><a href="./">חזרה למפגשי היחידה</a></main>';});
 })();
