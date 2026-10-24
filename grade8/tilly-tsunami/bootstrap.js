@@ -1,7 +1,7 @@
 /* Grade 8 only. Keep the existing unit application for every non-reading view. */
 (()=>{'use strict';
 const script=document.currentScript,base=new URL('./',script.src),shared=new URL('../../shared/read-along/',script.src),query=new URLSearchParams(location.search);
-const view=query.get('view')||'home',deckName=query.get('deck'),legacy=document.getElementById('unit-legacy-app');
+const view=query.get('view')||'sentences',deckName=query.get('deck'),legacy=document.getElementById('unit-legacy-app');
 const load=(path)=>new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=new URL(path,base).href;s.onload=resolve;s.onerror=()=>reject(Error('Cannot load '+path));document.head.append(s);});
 const loadURL=(url)=>new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=url;s.onload=resolve;s.onerror=()=>reject(Error('Cannot load '+url));document.head.append(s);});
 if(!['chunks','sentences'].includes(view)){
