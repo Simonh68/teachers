@@ -12,6 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Update checkout before generating
+        run: git pull --ff-only origin main
       - name: Install neural speech tools
         run: |
           python3 -m venv "$RUNNER_TEMP/tilly-venv"
@@ -27,5 +31,12 @@ jobs:
           git add grade8/tilly-tsunami/audio grade8/tilly-tsunami/unit-data.js grade8/tilly-tsunami/phrase-data.js grade8/tilly-tsunami/alignment.js
           if ! git diff --cached --quiet; then
             git commit -m "Generate Tilly recorded story content for existing Read Alone engine"
-            git push
+            for attempt in 1 2 3 4 5; do
+              if git push origin HEAD:main; then exit 0; fi
+              echo "Remote main advanced; rebasing generated assets (attempt $attempt)"
+              git fetch origin main
+              git rebase origin/main || { git rebase --abort; exit 1; }
+            done
+            echo "Could not publish generated assets after five safe attempts" >&2
+            exit 1
           fi
