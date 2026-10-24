@@ -31,13 +31,8 @@ for index,row in enumerate(ROWS):
     if not matches:continue
     tokens=[]
     groups=[]
-    # Natural 3-6 word phrases, no added visible punctuation or movement.
-    word_groups=[];group=[]
-    for j,m in enumerate(matches):
-        group.append(j)
-        if (len(group)>=5 or en[m.end()-1] in ',;:!?') and j<len(matches)-1:
-            word_groups.append(group);group=[]
-    if group:word_groups.append(group)
+    # Preserve natural sentence-level prosody; the existing player handles one recorded segment per sentence.
+    word_groups=[list(range(len(matches)))]
     raw_fragments=[];time_base=0;parts=[]
     for pi,gg in enumerate(word_groups):
         left=matches[gg[0]].start();right=matches[gg[-1]].end()
