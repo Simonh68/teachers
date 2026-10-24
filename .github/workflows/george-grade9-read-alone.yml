@@ -1,0 +1,39 @@
+name: Build George Grade 9 Read Alone recordings
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'grade9/george-special-message/build-content.py'
+      - '.github/workflows/george-grade9-read-alone.yml'
+permissions:
+  contents: write
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - run: git pull --ff-only origin main
+      - name: Install natural recorded narration
+        run: |
+          python3 -m venv "$RUNNER_TEMP/george-venv"
+          "$RUNNER_TEMP/george-venv/bin/pip" install edge-tts
+          echo "$RUNNER_TEMP/george-venv/bin" >> "$GITHUB_PATH"
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+      - run: python3 grade9/george-special-message/build-content.py
+      - name: Commit verified generated audio and alignment
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add grade9/george-special-message/audio grade9/george-special-message/unit-data.js grade9/george-special-message/alignment.js grade9/george-special-message/phrase-data.js
+          if ! git diff --cached --quiet; then
+            git commit -m "Generate George natural recorded narration and reading metadata"
+            for attempt in 1 2 3 4 5; do
+              if git push origin HEAD:main; then exit 0; fi
+              git fetch origin main
+              git rebase origin/main || { git rebase --abort; exit 1; }
+            done
+            exit 1
+          fi
