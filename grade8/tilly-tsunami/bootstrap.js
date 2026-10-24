@@ -36,7 +36,7 @@ if(!['chunks','sentences'].includes(view)){
    part.src='https://raw.githubusercontent.com/Simonh68/teachers/ffb51a10e91f60f544e18dee55164a83ef302965/grade8/tilly-tsunami/'+clean;
  }));
  await cssReady;
- window.TEACHERS_READALONG_STANDARD={...window.TEACHERS_READALONG_STANDARD,defaultSpeed:1};
- await window.initGrade8Bilingual({D,base,view,store:'teachers-grade8-tilly-v1',speedStore:'teachers-tilly-natural-speed-v2',deck:null});
+ window.TEACHERS_READALONG_STANDARD={...window.TEACHERS_READALONG_STANDARD,defaultSpeed:.75};
+ await window.initGrade8Bilingual({D,base,view,store:'teachers-grade8-tilly-v1',speedStore:'teachers-tilly-natural-speed-v3',deck:null});
 })().catch(e=>{console.error(e);document.body.innerHTML='<main style="padding:25px;font:20px Arial,sans-serif;direction:rtl"><h1>לא ניתן לטעון את הקריאה כרגע.</h1><p>רעננו את העמוד כשהחיבור זמין.</p><a href="./">חזרה למפגשי היחידה</a></main>';});
 })();
