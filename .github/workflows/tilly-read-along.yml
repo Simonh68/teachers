@@ -14,8 +14,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: Install neural speech tools
         run: |
-          python3 -m pip install --user edge-tts
-          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          python3 -m venv "$RUNNER_TEMP/tilly-venv"
+          "$RUNNER_TEMP/tilly-venv/bin/pip" install --disable-pip-version-check edge-tts
+          echo "$RUNNER_TEMP/tilly-venv/bin" >> "$GITHUB_PATH"
           ffmpeg -version | head -n 1
       - name: Build story data and recordings
         run: python3 grade8/tilly-tsunami/build-content.py
