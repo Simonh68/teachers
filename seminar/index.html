@@ -59,17 +59,45 @@ case 'closing':return shell('Think Big. Start Small.','<p>Ask AI what it underst
 function pick(i){selected=i;let x=el('sentence');if(x)x.textContent=['Students use smartphones.','Many students use smartphones every day.','Students frequently use smartphones in their daily lives.'][i];document.querySelectorAll('.buttons button').forEach((b,j)=>b.classList.toggle('active',j===i))}
 function updateVisual(t){let v=visualFor(chapter,t);if(v!==el('main').dataset.view){el('main').dataset.view=v;el('main').innerHTML=draw(v);if(v==='essay')startHand();else clearInterval(demoInterval)}}
 function startHand(){clearInterval(demoInterval);let n=0;function tap(){let target=el('phrase'+(n%3)),finger=el('finger');if(!target||!finger)return;let rect=target.getBoundingClientRect(),par=el('essay').getBoundingClientRect();finger.style.left=(rect.left-par.left+rect.width/2)+'px';finger.style.top=(rect.top-par.top+rect.height)+'px';finger.classList.remove('tap');void finger.offsetWidth;finger.classList.add('tap');setTimeout(()=>rotate(n%3),650);n++}tap();demoInterval=setInterval(tap,4500)}
-function showCaption(t){const arr=cues[chapter];const total=words(chapters[chapter].text);let n=0,position=Math.max(0,t/chapters[chapter].duration)*total;let found=arr.length-1;for(let i=0;i<arr.length;i++){n+=words(arr[i]);if(position<n){found=i;break}}
-const text=arr[found];if(el('subs').dataset.text!==text){el('subs').dataset.text=text;el('subs').textContent=text}el('cueCount').textContent=(found+1)+' / '+arr.length}
-function tick(){if(started){updateVisual(audio.currentTime);showCaption(audio.currentTime)}raf=requestAnimationFrame(tick)}
-function play(){clearTimeout(delay);audio.pause();audio.src=chapters[chapter].src;audio.currentTime=0;started=false;el('subs').textContent='';el('subs').dataset.text='';el('cueCount').textContent='';updateVisual(0);el('heading').textContent=chapters[chapter].title;el('chapterCount').textContent=(chapter+1)+' / '+chapters.length;
- delay=setTimeout(()=>{started=true;audio.muted=!voiceOn;if(voiceOn){audio.play().catch(()=>{el('audioHint').hidden=false})}else{audio.play().then(()=>{audio.muted=true}).catch(()=>{el('audioHint').hidden=false})}},4000)}
-function move(n){chapter=Math.max(0,Math.min(chapters.length-1,chapter+n));audio.muted=!voiceOn;play()}
-function toggleVoice(){voiceOn=!voiceOn;audio.muted=!voiceOn;el('sound').textContent=voiceOn?'🔊':'🔇';el('sound').title=voiceOn?'Mute narration':'Unmute narration';if(voiceOn&&started&&audio.paused)audio.play().catch(()=>{el('audioHint').hidden=false})}
-function startNow(){el('audioHint').hidden=true;audio.play().catch(()=>{});}
+const steps=chapters.flatMap((item,k)=>cues[k].map((caption,i)=>({chapter:k,index:i,caption})));
+let step=0,cueEnd=0,playbackToken=0;
+function boundaries(k){const arr=cues[k],total=arr.reduce((a,v)=>a+words(v),0);let acc=0;return arr.map(t=>{const start=acc/total;acc+=words(t);return [start,acc/total]})}
+function showStep(){
+ const token=++playbackToken;clearTimeout(delay);audio.pause();started=false;
+ const s=steps[step];chapter=s.chapter;
+ el('audioHint').hidden=true;el('subs').textContent='';el('subs').dataset.text='';
+ el('cueCount').textContent=(step+1)+' / '+steps.length;
+ el('chapterCount').textContent=(chapter+1)+' / '+chapters.length;
+ el('heading').textContent=chapters[chapter].title;
+ const b=boundaries(chapter)[s.index];
+ const visualTime=((b[0]+b[1])/2)*chapters[chapter].duration;
+ updateVisual(visualTime);
+ delay=setTimeout(()=>{
+   if(token!==playbackToken)return;
+   el('subs').textContent=s.caption;
+   if(!voiceOn)return;
+   const src=chapters[chapter].src;
+   if(!audio.src.endsWith(src))audio.src=src;
+   const startAudio=()=>{
+      if(token!==playbackToken)return;
+      const duration=audio.duration||chapters[chapter].duration;
+      const range=boundaries(chapter)[s.index];
+      cueEnd=Math.max(0,Math.min(duration,range[1]*duration));
+      audio.currentTime=Math.max(0,range[0]*duration);
+      audio.muted=false;
+      audio.play().catch(()=>{el('audioHint').hidden=false});
+   };
+   if(audio.readyState>=1)startAudio();
+   else audio.addEventListener('loadedmetadata',startAudio,{once:true});
+ },4000);
+}
+function tick(){if(!audio.paused&&audio.currentTime>=cueEnd-.035){audio.pause()}raf=requestAnimationFrame(tick)}
+function move(n){const next=Math.max(0,Math.min(steps.length-1,step+n));if(next===step)return;step=next;showStep()}
+function toggleVoice(){voiceOn=!voiceOn;audio.pause();el('sound').textContent=voiceOn?'🔊':'🔇';el('sound').title=voiceOn?'Mute narration':'Unmute narration';if(!voiceOn){clearTimeout(delay);el('subs').textContent=steps[step].caption}else showStep()}
+function startNow(){el('audioHint').hidden=true;audio.play().catch(()=>{})}
 let sx=0,sy=0;document.addEventListener('touchstart',e=>{sx=e.touches[0].clientX;sy=e.touches[0].clientY},{passive:true});
 document.addEventListener('touchend',e=>{const x=e.changedTouches[0].clientX-sx,y=e.changedTouches[0].clientY-sy;if(Math.abs(x)>70&&Math.abs(x)>Math.abs(y)*1.4)move(x<0?1:-1)},{passive:true});
 document.addEventListener('keydown',e=>{if(['ArrowRight','PageDown'].includes(e.key))move(1);if(['ArrowLeft','PageUp'].includes(e.key))move(-1)});
 audio.addEventListener('ended',()=>{el('audioHint').hidden=true});
-audio.muted=false;play();tick();
+audio.muted=false;showStep();tick();
 </script></body></html>
