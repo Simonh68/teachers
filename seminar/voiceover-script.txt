@@ -1,0 +1,476 @@
+SEMINAR — COMPLETE VOICEOVER SCRIPT
+Instructions: Read only the English passages, not the segment numbers or labels.
+Pause for two seconds after each passage. Use one warm natural male voice, at a relaxed pace.
+Each passage is one subtitle change; keep the order. The slideshow adds its own four-second delay.
+
+001 | START | segment 1
+I teach English, and I like trying new things. I also have a background in tech.
+[Pause 2 seconds]
+
+002 | START | segment 2
+AI helps me a lot, at school and at home. I use a paid plan, and it's been worth it.
+[Pause 2 seconds]
+
+003 | START | segment 3
+I want to show you some things I made. Then we'll try making a small app together.
+[Pause 2 seconds]
+
+004 | START | segment 4
+Nothing fancy to start with. We'll take it one step at a time.
+[Pause 2 seconds]
+
+005 | TOOLS | segment 1
+Here are three things I've made with AI. I'll keep this part very short.
+[Pause 2 seconds]
+
+006 | TOOLS | segment 2
+First, my animated essays. Next, my class website.
+[Pause 2 seconds]
+
+007 | TOOLS | segment 3
+And finally, questions with tricky answers. They use ideas from PISA and past Bagrut exams.
+[Pause 2 seconds]
+
+008 | TOOLS | segment 4
+You don't need to build all this today. I just want to show what's possible.
+[Pause 2 seconds]
+
+009 | ANIMATED | segment 1
+Watch this sentence for a moment. The hand points to one part.
+[Pause 2 seconds]
+
+010 | ANIMATED | segment 2
+That part changes, but the rest stays put. Then the hand moves to a new part.
+[Pause 2 seconds]
+
+011 | ANIMATED | segment 3
+Students can also tap the words themselves. It's a simple idea, but it's fun to use.
+[Pause 2 seconds]
+
+012 | ANIMATED | segment 4
+Want to see the full essay? There's a link right here.
+[Pause 2 seconds]
+
+013 | WEBSITE | segment 1
+Here's my website for my English classes. Each class has its own page.
+[Pause 2 seconds]
+
+014 | WEBSITE | segment 2
+I keep lessons and activities in one place. That makes them easy to find.
+[Pause 2 seconds]
+
+015 | WEBSITE | segment 3
+You can build a little at a time. You don't need to make it all in one day.
+[Pause 2 seconds]
+
+016 | WEBSITE | segment 4
+Now let's go back to the start. How do you build a tiny app like this?
+[Pause 2 seconds]
+
+017 | LOGIN | segment 1
+Let's open ChatGPT. We start with a new chat.
+[Pause 2 seconds]
+
+018 | LOGIN | segment 2
+I won't ask it to build anything yet. First, I'll just talk through my idea.
+[Pause 2 seconds]
+
+019 | LOGIN | segment 3
+You can do this in English or Hebrew. Use whatever feels easy to you.
+[Pause 2 seconds]
+
+020 | LOGIN | segment 4
+The trick is not fancy words. The trick is being clear.
+[Pause 2 seconds]
+
+021 | QUESTION | segment 1
+See how short my message is? I'm just saying what I want.
+[Pause 2 seconds]
+
+022 | QUESTION | segment 2
+I don't need to sound like a programmer. I can talk the way I normally talk.
+[Pause 2 seconds]
+
+023 | QUESTION | segment 3
+I want AI to think with me first. So I don't waste time fixing a big mistake.
+[Pause 2 seconds]
+
+024 | QUESTION | segment 4
+Once I'm happy with the plan, we move on. There's no need to rush.
+[Pause 2 seconds]
+
+025 | ANSWER | segment 1
+Now let's read what AI says. Does it sound like what I asked for?
+[Pause 2 seconds]
+
+026 | ANSWER | segment 2
+If not, I can say no and change it. It's a chat, not a test.
+[Pause 2 seconds]
+
+027 | ANSWER | segment 3
+I don't have to take every idea it gives me. I can keep the good parts and drop the rest.
+[Pause 2 seconds]
+
+028 | ANSWER | segment 4
+When the plan looks right, we go ahead. One small step at a time.
+[Pause 2 seconds]
+
+029 | QUESTION | segment 1
+See how short my message is? I'm just saying what I want.
+[Pause 2 seconds]
+
+030 | QUESTION | segment 2
+I don't need to sound like a programmer. I can talk the way I normally talk.
+[Pause 2 seconds]
+
+031 | QUESTION | segment 3
+I want AI to think with me first. So I don't waste time fixing a big mistake.
+[Pause 2 seconds]
+
+032 | QUESTION | segment 4
+Once I'm happy with the plan, we move on. There's no need to rush.
+[Pause 2 seconds]
+
+033 | ANSWER | segment 1
+Now let's read what AI says. Does it sound like what I asked for?
+[Pause 2 seconds]
+
+034 | ANSWER | segment 2
+If not, I can say no and change it. It's a chat, not a test.
+[Pause 2 seconds]
+
+035 | ANSWER | segment 3
+I don't have to take every idea it gives me. I can keep the good parts and drop the rest.
+[Pause 2 seconds]
+
+036 | ANSWER | segment 4
+When the plan looks right, we go ahead. One small step at a time.
+[Pause 2 seconds]
+
+037 | QUESTION | segment 1
+See how short my message is? I'm just saying what I want.
+[Pause 2 seconds]
+
+038 | QUESTION | segment 2
+I don't need to sound like a programmer. I can talk the way I normally talk.
+[Pause 2 seconds]
+
+039 | QUESTION | segment 3
+I want AI to think with me first. So I don't waste time fixing a big mistake.
+[Pause 2 seconds]
+
+040 | QUESTION | segment 4
+Once I'm happy with the plan, we move on. There's no need to rush.
+[Pause 2 seconds]
+
+041 | ANSWER | segment 1
+Now let's read what AI says. Does it sound like what I asked for?
+[Pause 2 seconds]
+
+042 | ANSWER | segment 2
+If not, I can say no and change it. It's a chat, not a test.
+[Pause 2 seconds]
+
+043 | ANSWER | segment 3
+I don't have to take every idea it gives me. I can keep the good parts and drop the rest.
+[Pause 2 seconds]
+
+044 | ANSWER | segment 4
+When the plan looks right, we go ahead. One small step at a time.
+[Pause 2 seconds]
+
+045 | QUESTION | segment 1
+See how short my message is? I'm just saying what I want.
+[Pause 2 seconds]
+
+046 | QUESTION | segment 2
+I don't need to sound like a programmer. I can talk the way I normally talk.
+[Pause 2 seconds]
+
+047 | QUESTION | segment 3
+I want AI to think with me first. So I don't waste time fixing a big mistake.
+[Pause 2 seconds]
+
+048 | QUESTION | segment 4
+Once I'm happy with the plan, we move on. There's no need to rush.
+[Pause 2 seconds]
+
+049 | ANSWER | segment 1
+Now let's read what AI says. Does it sound like what I asked for?
+[Pause 2 seconds]
+
+050 | ANSWER | segment 2
+If not, I can say no and change it. It's a chat, not a test.
+[Pause 2 seconds]
+
+051 | ANSWER | segment 3
+I don't have to take every idea it gives me. I can keep the good parts and drop the rest.
+[Pause 2 seconds]
+
+052 | ANSWER | segment 4
+When the plan looks right, we go ahead. One small step at a time.
+[Pause 2 seconds]
+
+053 | QUESTION | segment 1
+See how short my message is? I'm just saying what I want.
+[Pause 2 seconds]
+
+054 | QUESTION | segment 2
+I don't need to sound like a programmer. I can talk the way I normally talk.
+[Pause 2 seconds]
+
+055 | QUESTION | segment 3
+I want AI to think with me first. So I don't waste time fixing a big mistake.
+[Pause 2 seconds]
+
+056 | QUESTION | segment 4
+Once I'm happy with the plan, we move on. There's no need to rush.
+[Pause 2 seconds]
+
+057 | ANSWER | segment 1
+Now let's read what AI says. Does it sound like what I asked for?
+[Pause 2 seconds]
+
+058 | ANSWER | segment 2
+If not, I can say no and change it. It's a chat, not a test.
+[Pause 2 seconds]
+
+059 | ANSWER | segment 3
+I don't have to take every idea it gives me. I can keep the good parts and drop the rest.
+[Pause 2 seconds]
+
+060 | ANSWER | segment 4
+When the plan looks right, we go ahead. One small step at a time.
+[Pause 2 seconds]
+
+061 | QUESTION | segment 1
+See how short my message is? I'm just saying what I want.
+[Pause 2 seconds]
+
+062 | QUESTION | segment 2
+I don't need to sound like a programmer. I can talk the way I normally talk.
+[Pause 2 seconds]
+
+063 | QUESTION | segment 3
+I want AI to think with me first. So I don't waste time fixing a big mistake.
+[Pause 2 seconds]
+
+064 | QUESTION | segment 4
+Once I'm happy with the plan, we move on. There's no need to rush.
+[Pause 2 seconds]
+
+065 | ANSWER | segment 1
+Now let's read what AI says. Does it sound like what I asked for?
+[Pause 2 seconds]
+
+066 | ANSWER | segment 2
+If not, I can say no and change it. It's a chat, not a test.
+[Pause 2 seconds]
+
+067 | ANSWER | segment 3
+I don't have to take every idea it gives me. I can keep the good parts and drop the rest.
+[Pause 2 seconds]
+
+068 | ANSWER | segment 4
+When the plan looks right, we go ahead. One small step at a time.
+[Pause 2 seconds]
+
+069 | QUESTION | segment 1
+See how short my message is? I'm just saying what I want.
+[Pause 2 seconds]
+
+070 | QUESTION | segment 2
+I don't need to sound like a programmer. I can talk the way I normally talk.
+[Pause 2 seconds]
+
+071 | QUESTION | segment 3
+I want AI to think with me first. So I don't waste time fixing a big mistake.
+[Pause 2 seconds]
+
+072 | QUESTION | segment 4
+Once I'm happy with the plan, we move on. There's no need to rush.
+[Pause 2 seconds]
+
+073 | ANSWER | segment 1
+Now let's read what AI says. Does it sound like what I asked for?
+[Pause 2 seconds]
+
+074 | ANSWER | segment 2
+If not, I can say no and change it. It's a chat, not a test.
+[Pause 2 seconds]
+
+075 | ANSWER | segment 3
+I don't have to take every idea it gives me. I can keep the good parts and drop the rest.
+[Pause 2 seconds]
+
+076 | ANSWER | segment 4
+When the plan looks right, we go ahead. One small step at a time.
+[Pause 2 seconds]
+
+077 | QUESTION | segment 1
+See how short my message is? I'm just saying what I want.
+[Pause 2 seconds]
+
+078 | QUESTION | segment 2
+I don't need to sound like a programmer. I can talk the way I normally talk.
+[Pause 2 seconds]
+
+079 | QUESTION | segment 3
+I want AI to think with me first. So I don't waste time fixing a big mistake.
+[Pause 2 seconds]
+
+080 | QUESTION | segment 4
+Once I'm happy with the plan, we move on. There's no need to rush.
+[Pause 2 seconds]
+
+081 | ANSWER | segment 1
+Now let's read what AI says. Does it sound like what I asked for?
+[Pause 2 seconds]
+
+082 | ANSWER | segment 2
+If not, I can say no and change it. It's a chat, not a test.
+[Pause 2 seconds]
+
+083 | ANSWER | segment 3
+I don't have to take every idea it gives me. I can keep the good parts and drop the rest.
+[Pause 2 seconds]
+
+084 | ANSWER | segment 4
+When the plan looks right, we go ahead. One small step at a time.
+[Pause 2 seconds]
+
+085 | QUESTION | segment 1
+See how short my message is? I'm just saying what I want.
+[Pause 2 seconds]
+
+086 | QUESTION | segment 2
+I don't need to sound like a programmer. I can talk the way I normally talk.
+[Pause 2 seconds]
+
+087 | QUESTION | segment 3
+I want AI to think with me first. So I don't waste time fixing a big mistake.
+[Pause 2 seconds]
+
+088 | QUESTION | segment 4
+Once I'm happy with the plan, we move on. There's no need to rush.
+[Pause 2 seconds]
+
+089 | ANSWER | segment 1
+Now let's read what AI says. Does it sound like what I asked for?
+[Pause 2 seconds]
+
+090 | ANSWER | segment 2
+If not, I can say no and change it. It's a chat, not a test.
+[Pause 2 seconds]
+
+091 | ANSWER | segment 3
+I don't have to take every idea it gives me. I can keep the good parts and drop the rest.
+[Pause 2 seconds]
+
+092 | ANSWER | segment 4
+When the plan looks right, we go ahead. One small step at a time.
+[Pause 2 seconds]
+
+093 | QUESTION | segment 1
+See how short my message is? I'm just saying what I want.
+[Pause 2 seconds]
+
+094 | QUESTION | segment 2
+I don't need to sound like a programmer. I can talk the way I normally talk.
+[Pause 2 seconds]
+
+095 | QUESTION | segment 3
+I want AI to think with me first. So I don't waste time fixing a big mistake.
+[Pause 2 seconds]
+
+096 | QUESTION | segment 4
+Once I'm happy with the plan, we move on. There's no need to rush.
+[Pause 2 seconds]
+
+097 | ANSWER | segment 1
+Now let's read what AI says. Does it sound like what I asked for?
+[Pause 2 seconds]
+
+098 | ANSWER | segment 2
+If not, I can say no and change it. It's a chat, not a test.
+[Pause 2 seconds]
+
+099 | ANSWER | segment 3
+I don't have to take every idea it gives me. I can keep the good parts and drop the rest.
+[Pause 2 seconds]
+
+100 | ANSWER | segment 4
+When the plan looks right, we go ahead. One small step at a time.
+[Pause 2 seconds]
+
+101 | APP | segment 1
+Here it is. Let's press the first button. Now let's try the next one.
+[Pause 2 seconds]
+
+102 | APP | segment 2
+The words change as we click. That's the whole first version.
+[Pause 2 seconds]
+
+103 | APP | segment 3
+It isn't a huge app, and that's good. It's easy to test and easy to fix.
+[Pause 2 seconds]
+
+104 | APP | segment 4
+Later, we can add more sentences. We can keep building when we want to.
+[Pause 2 seconds]
+
+105 | CHATLOOK | segment 1
+Here is the place to ask questions. I can change my mind as we talk.
+[Pause 2 seconds]
+
+106 | CHATLOOK | segment 2
+It is great for a quick idea. And for checking what AI understood.
+[Pause 2 seconds]
+
+107 | WORKLOOK | segment 1
+Here the focus is on getting a job done. For example, working through files and websites.
+[Pause 2 seconds]
+
+108 | WORKLOOK | segment 2
+I still give clear instructions. And I still check the result.
+[Pause 2 seconds]
+
+109 | COMPARE | segment 1
+They are not two different kinds of English. The difference is how you use the tool.
+[Pause 2 seconds]
+
+110 | COMPARE | segment 2
+For this little app, Chat is enough. For a much bigger project, try Work.
+[Pause 2 seconds]
+
+111 | SHARE | segment 1
+Now we need to send the file to students. We can send it as a WhatsApp document.
+[Pause 2 seconds]
+
+112 | SHARE | segment 2
+Some phones will open it right away. Others may need one extra step.
+[Pause 2 seconds]
+
+113 | SHARE | segment 3
+Save the file, then open it in Chrome. Let's check this on a real phone first.
+[Pause 2 seconds]
+
+114 | SHARE | segment 4
+No website is needed for this small app. But phone support may vary.
+[Pause 2 seconds]
+
+115 | END | segment 1
+So here's my main point. Start small and talk to AI like a person.
+[Pause 2 seconds]
+
+116 | END | segment 2
+Ask it what it understood. Ask to see the screen before it builds.
+[Pause 2 seconds]
+
+117 | END | segment 3
+If the job looks too big, make it smaller. Then test what you get.
+[Pause 2 seconds]
+
+118 | END | segment 4
+You can say all of this in Hebrew, too. The goal is the same: make something useful.
+[Pause 2 seconds]
