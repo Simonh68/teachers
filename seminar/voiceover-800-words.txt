@@ -1,0 +1,375 @@
+SEMINAR — NARRATION MASTER
+Natural warm male English voice. Read only text between SPEAK markers.
+Pause 2 seconds after each segment. Do not read segment labels. Four-second entry delay is controlled by the slideshow.
+
+SEGMENT 001
+[SPEAK]
+I teach English, and I like making useful tools.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 002
+[SPEAK]
+I have built some apps with AI already. But we will start with something much smaller.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 003
+[SPEAK]
+First, here are three things I made for students. I'll just give you a quick look.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 004
+[SPEAK]
+There are animated essays, class materials, and reading traps. The traps use ideas from PISA and past Bagrut exams.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 005
+[SPEAK]
+Watch how the hand touches one part of this sentence.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 006
+[SPEAK]
+Then the hand moves to another part. You can also click the words yourself.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 007
+[SPEAK]
+Here's my website for English classes. Each class has a place for lessons and practice.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 008
+[SPEAK]
+This wasn't built in a single day. It grew one little step at a time.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 009
+[SPEAK]
+Let's open ChatGPT and start a new chat.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 010
+[SPEAK]
+You can write your requests in Hebrew too. You just need to be clear about what you want.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 011
+[SPEAK]
+Here I tell AI what kind of app I want. I ask it to say what it understood.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 012
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 013
+[SPEAK]
+AI tells me how it understood my idea.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 014
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 015
+[SPEAK]
+Before moving on, I ask AI to explain again. I want to catch any mistake early.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 016
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 017
+[SPEAK]
+AI says the idea back to me in simple words.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 018
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 019
+[SPEAK]
+Now I make the goal clearer. I ask for three levels, not just any three sentences.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 020
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 021
+[SPEAK]
+Now AI has the three levels right.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 022
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 023
+[SPEAK]
+I ask what else we might add. Let's see whether those ideas are useful.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 024
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 025
+[SPEAK]
+Look at all these extra features.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 026
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 027
+[SPEAK]
+That's far too much for our first version. We only need one sentence and three buttons.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 028
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 029
+[SPEAK]
+AI agrees to keep things small.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 030
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 031
+[SPEAK]
+I ask what goes in, what comes out, and what we see. These are easy questions anyone can ask.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 032
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 033
+[SPEAK]
+The answer is clear: three sentences go in.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 034
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 035
+[SPEAK]
+Now I ask for two pictures of the screen. I want to see it before AI writes any code.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 036
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 037
+[SPEAK]
+Here are two real screen sketches.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 038
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 039
+[SPEAK]
+I ask AI to describe the screen again. That helps me check if we agree.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 040
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 041
+[SPEAK]
+AI describes the screen as we planned it.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 042
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 043
+[SPEAK]
+I like the first design, but I want changes. Please make the words bigger and move the buttons.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 044
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 045
+[SPEAK]
+Here is the updated picture.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 046
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 047
+[SPEAK]
+Now I ask what was changed. I also check the new picture myself.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 048
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 049
+[SPEAK]
+AI explains what changed in the layout.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 050
+[SPEAK]
+Let's check the plan before moving ahead. Small steps make this easier to understand.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 051
+[SPEAK]
+Here is the app. I'll press each button. Watch how the sentence changes each time.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 052
+[SPEAK]
+It's not a huge app, and that's fine. We can always add more sentences later.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 053
+[SPEAK]
+Here is the normal Chat screen.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 054
+[SPEAK]
+You can go back and change your mind. A conversation helps you get a clearer idea.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 055
+[SPEAK]
+Now look at Work. It is made for larger tasks with several steps.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 056
+[SPEAK]
+It can work with files and tools. You still need to check what it does.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 057
+[SPEAK]
+Chat is great for talking and planning.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 058
+[SPEAK]
+For this tiny app, Chat is enough. Choose the tool that fits the job.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 059
+[SPEAK]
+Let's send the HTML file by WhatsApp. Students get the file, not a website link.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 060
+[SPEAK]
+Some students may need to download it first. Then they can open it with a browser.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 061
+[SPEAK]
+Here's the main thing to remember.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+SEGMENT 062
+[SPEAK]
+Ask AI what it understood before building. And yes, you can do all this in Hebrew.
+[/SPEAK]
+[PAUSE: 2 seconds]
