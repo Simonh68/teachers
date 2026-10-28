@@ -1,0 +1,722 @@
+VOICEOVER PROMPT — SEMINAR / FROM IDEA TO APP
+
+Create ONE English voice recording from the COMPLETE SCRIPT below.
+Voice: natural, warm adult male, friendly American accent, like a teacher talking to colleagues.
+Tone: relaxed, conversational, clear and not robotic. No dramatic voice acting.
+Read only the dialogue inside each [SPEAK] block. Do NOT read segment numbers, scene names, labels, or pause instructions.
+After EVERY [SPEAK] block, leave exactly 2 seconds of silence.
+Keep the voice and loudness consistent from start to finish.
+Do not invent text. Do not skip or repeat a block. If the system cannot handle one long recording, split at scene boundaries and keep the same voice.
+The slide presentation itself will wait 4 seconds before playing each cut audio clip. Do not put a 4-second pause at the start of the recording.
+
+=== SCRIPT START ===
+
+[SEGMENT 001 | START]
+[SPEAK]
+I teach English, and I like trying new things. I also have a background in tech.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 002 | START]
+[SPEAK]
+AI helps me at school and at home. I use a paid plan, and it helps me a lot.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 003 | START]
+[SPEAK]
+Let me show you a few things I made. Then we'll try a small app together.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 004 | START]
+[SPEAK]
+We'll keep it simple. And we'll do it one step at a time.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 005 | TOOLS]
+[SPEAK]
+I'll show you three quick examples. Then we'll build something small.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 006 | TOOLS]
+[SPEAK]
+First, my animated essays. Then my class website.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 007 | TOOLS]
+[SPEAK]
+And finally, tricky reading questions. They use ideas from PISA and past Bagrut exams.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 008 | TOOLS]
+[SPEAK]
+These projects grew over time. You don't need to make everything at once.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 009 | ANIMATED]
+[SPEAK]
+Look at this sentence. The hand points to one part.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 010 | ANIMATED]
+[SPEAK]
+That part changes when you click. The rest stays right where it is.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 011 | ANIMATED]
+[SPEAK]
+Then the hand moves to another part. Each piece can change on its own.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 012 | ANIMATED]
+[SPEAK]
+There's a link to the full essay. You can explore it later.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 013 | WEBSITE]
+[SPEAK]
+Here's my website for English classes. Each class has its own page.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 014 | WEBSITE]
+[SPEAK]
+Students can find lessons and practice there. I keep the materials in one place.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 015 | WEBSITE]
+[SPEAK]
+I built it one part at a time. That's how bigger projects begin.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 016 | WEBSITE]
+[SPEAK]
+Now let's see how an app starts. We only need a very small idea.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 017 | LOGIN]
+[SPEAK]
+First, we open ChatGPT. We start with a fresh chat.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 018 | LOGIN]
+[SPEAK]
+We won't ask it to code right away. We'll talk about the idea first.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 019 | LOGIN]
+[SPEAK]
+You can do this in English or Hebrew. Either language can work.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 020 | LOGIN]
+[SPEAK]
+No fancy words are needed. Just say what you want.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 021 | QUESTION]
+[SPEAK]
+Here I explain what I want to make. I haven't asked AI to build anything.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 022 | QUESTION]
+[SPEAK]
+I ask it to tell me what it heard. That helps us start on the right foot.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 023 | QUESTION]
+[SPEAK]
+Here I explain what I want to make. I haven't asked AI to build anything.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 024 | QUESTION]
+[SPEAK]
+I ask it to tell me what it heard. That helps us start on the right foot.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 025 | ANSWER]
+[SPEAK]
+AI asks if students should type or tap. That's a useful question.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 026 | ANSWER]
+[SPEAK]
+For version one, tapping is enough. We can add typing later.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 027 | ANSWER]
+[SPEAK]
+AI asks if students should type or tap. That's a useful question.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 028 | ANSWER]
+[SPEAK]
+For version one, tapping is enough. We can add typing later.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 029 | QUESTION]
+[SPEAK]
+Before we move on, I check again. Did AI really get my idea?
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 030 | QUESTION]
+[SPEAK]
+I keep the question short. I want a simple answer.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 031 | QUESTION]
+[SPEAK]
+Before we move on, I check again. Did AI really get my idea?
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 032 | QUESTION]
+[SPEAK]
+I keep the question short. I want a simple answer.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 033 | ANSWER]
+[SPEAK]
+AI gives the idea back in simple words. It sounds close to what I want.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 034 | ANSWER]
+[SPEAK]
+But I still want three clear levels. So I'll say that next.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 035 | ANSWER]
+[SPEAK]
+AI gives the idea back in simple words. It sounds close to what I want.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 036 | ANSWER]
+[SPEAK]
+But I still want three clear levels. So I'll say that next.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 037 | QUESTION]
+[SPEAK]
+I change one thing in the plan. Now we have three levels.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 038 | QUESTION]
+[SPEAK]
+I ask AI to say the plan back to me. It's an easy way to catch mistakes.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 039 | QUESTION]
+[SPEAK]
+I change one thing in the plan. Now we have three levels.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 040 | QUESTION]
+[SPEAK]
+I ask AI to say the plan back to me. It's an easy way to catch mistakes.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 041 | ANSWER]
+[SPEAK]
+Now AI has the three levels right. Basic, Better and Advanced.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 042 | ANSWER]
+[SPEAK]
+All three should mean much the same thing. That's worth checking.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 043 | ANSWER]
+[SPEAK]
+Now AI has the three levels right. Basic, Better and Advanced.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 044 | ANSWER]
+[SPEAK]
+All three should mean much the same thing. That's worth checking.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 045 | QUESTION]
+[SPEAK]
+Now I ask what else we could add. AI may come up with too many ideas.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 046 | QUESTION]
+[SPEAK]
+Some sound great, but take too much work. We don't need all of them today.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 047 | QUESTION]
+[SPEAK]
+Now I ask what else we could add. AI may come up with too many ideas.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 048 | QUESTION]
+[SPEAK]
+Some sound great, but take too much work. We don't need all of them today.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 049 | ANSWER]
+[SPEAK]
+Look at how much AI suggests! Accounts, scores and even a teacher page.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 050 | ANSWER]
+[SPEAK]
+That's a whole new project. We only need a tiny app today.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 051 | ANSWER]
+[SPEAK]
+Look at how much AI suggests! Accounts, scores and even a teacher page.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 052 | ANSWER]
+[SPEAK]
+That's a whole new project. We only need a tiny app today.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 053 | QUESTION]
+[SPEAK]
+That's where I say, hold on! I'm not building another Google.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 054 | QUESTION]
+[SPEAK]
+One sentence and three buttons will do. We can add more later.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 055 | QUESTION]
+[SPEAK]
+That's where I say, hold on! I'm not building another Google.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 056 | QUESTION]
+[SPEAK]
+One sentence and three buttons will do. We can add more later.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 057 | ANSWER]
+[SPEAK]
+AI agrees to keep it small. Good. That's much more realistic.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 058 | ANSWER]
+[SPEAK]
+We can test one simple feature first. Then decide what comes next.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 059 | ANSWER]
+[SPEAK]
+AI agrees to keep it small. Good. That's much more realistic.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 060 | ANSWER]
+[SPEAK]
+We can test one simple feature first. Then decide what comes next.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 061 | QUESTION]
+[SPEAK]
+I ask three quick questions. What goes in? What comes out?
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 062 | QUESTION]
+[SPEAK]
+And what will the screen look like? That is all we need for now.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 063 | QUESTION]
+[SPEAK]
+I ask three quick questions. What goes in? What comes out?
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 064 | QUESTION]
+[SPEAK]
+And what will the screen look like? That is all we need for now.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 065 | ANSWER]
+[SPEAK]
+This answer is clear. Three sentences go in.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 066 | ANSWER]
+[SPEAK]
+One sentence appears on the screen. The buttons make the change.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 067 | ANSWER]
+[SPEAK]
+This answer is clear. Three sentences go in.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 068 | ANSWER]
+[SPEAK]
+One sentence appears on the screen. The buttons make the change.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 069 | QUESTION]
+[SPEAK]
+Now we ask for pictures. Not code. Just two quick screen ideas.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 070 | QUESTION]
+[SPEAK]
+We can spot problems much faster this way. And changing a sketch is easy.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 071 | QUESTION]
+[SPEAK]
+Now we ask for pictures. Not code. Just two quick screen ideas.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 072 | QUESTION]
+[SPEAK]
+We can spot problems much faster this way. And changing a sketch is easy.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 073 | ANSWER]
+[SPEAK]
+Here are two different screen designs. Now we can actually see the idea.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 074 | ANSWER]
+[SPEAK]
+I like the first one better. But I want a few changes.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 075 | ANSWER]
+[SPEAK]
+Here are two different screen designs. Now we can actually see the idea.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 076 | ANSWER]
+[SPEAK]
+I like the first one better. But I want a few changes.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 077 | QUESTION]
+[SPEAK]
+I want AI to describe the screen. I check that we're picturing the same thing.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 078 | QUESTION]
+[SPEAK]
+If we don't agree, we fix it here. There's no reason to code yet.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 079 | QUESTION]
+[SPEAK]
+I want AI to describe the screen. I check that we're picturing the same thing.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 080 | QUESTION]
+[SPEAK]
+If we don't agree, we fix it here. There's no reason to code yet.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 081 | ANSWER]
+[SPEAK]
+AI describes the screen again. A big sentence and three buttons.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 082 | ANSWER]
+[SPEAK]
+That matches our simple goal. Now we can improve the look.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 083 | ANSWER]
+[SPEAK]
+AI describes the screen again. A big sentence and three buttons.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 084 | ANSWER]
+[SPEAK]
+That matches our simple goal. Now we can improve the look.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 085 | QUESTION]
+[SPEAK]
+I like the first design, but not all of it. The sentence needs to be bigger.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 086 | QUESTION]
+[SPEAK]
+Let's move the buttons down. And make the active button blue.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 087 | QUESTION]
+[SPEAK]
+I like the first design, but not all of it. The sentence needs to be bigger.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 088 | QUESTION]
+[SPEAK]
+Let's move the buttons down. And make the active button blue.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 089 | ANSWER]
+[SPEAK]
+Here's the new mockup. The sentence is larger now.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 090 | ANSWER]
+[SPEAK]
+The buttons are easier to see. One of them is blue.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 091 | ANSWER]
+[SPEAK]
+Here's the new mockup. The sentence is larger now.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 092 | ANSWER]
+[SPEAK]
+The buttons are easier to see. One of them is blue.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 093 | QUESTION]
+[SPEAK]
+Now I ask what changed. AI should tell me what it fixed.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 094 | QUESTION]
+[SPEAK]
+I check the new picture myself. Then I can approve it.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 095 | QUESTION]
+[SPEAK]
+Now I ask what changed. AI should tell me what it fixed.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 096 | QUESTION]
+[SPEAK]
+I check the new picture myself. Then I can approve it.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 097 | ANSWER]
+[SPEAK]
+AI tells us what changed. But I won't just take its word for it.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 098 | ANSWER]
+[SPEAK]
+I look at the screen and check. That's how I stay in control.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 099 | ANSWER]
+[SPEAK]
+AI tells us what changed. But I won't just take its word for it.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 100 | ANSWER]
+[SPEAK]
+I look at the screen and check. That's how I stay in control.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 101 | APP]
+[SPEAK]
+Here it is. Let's press the first button.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 102 | APP]
+[SPEAK]
+Now let's press the next button. See how the words change?
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 103 | APP]
+[SPEAK]
+It's a small app, and that's fine. We can test every part.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 104 | APP]
+[SPEAK]
+Later we can add more sentences. There's no need to rush.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 105 | CHATLOOK]
+[SPEAK]
+This is the regular Chat screen. You can ask questions here.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 106 | CHATLOOK]
+[SPEAK]
+You can also change your mind as you go. It's great for planning together.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 107 | WORKLOOK]
+[SPEAK]
+Now take a look at Work. It's designed for larger jobs.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 108 | WORKLOOK]
+[SPEAK]
+It can work through several steps. You still need to check the results.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 109 | COMPARE]
+[SPEAK]
+Use Chat to talk things through. Use Work for bigger tasks.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 110 | COMPARE]
+[SPEAK]
+For our small app, Chat is enough. For a larger project, Work may help.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 111 | SHARE]
+[SPEAK]
+Now let's share our app with students. We can send the HTML file on WhatsApp.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 112 | SHARE]
+[SPEAK]
+Some phones may open it right away. Others need one more step.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 113 | SHARE]
+[SPEAK]
+First, save the file. Then open it in Chrome or another browser.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 114 | SHARE]
+[SPEAK]
+Test it on a real phone first. Different phones may work differently.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 115 | END]
+[SPEAK]
+So here's the main idea. Talk to AI like you talk to a person.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 116 | END]
+[SPEAK]
+Ask what it understood. Ask to see a picture before it builds.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 117 | END]
+[SPEAK]
+If the job is too big, make it smaller. Test everything as you go.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+[SEGMENT 118 | END]
+[SPEAK]
+And yes, you can speak Hebrew too. The goal is to make something useful.
+[/SPEAK]
+[PAUSE: 2 seconds]
+
+=== SCRIPT END ===
