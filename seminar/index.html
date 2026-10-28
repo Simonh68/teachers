@@ -61,16 +61,33 @@ function updateVisual(t){let v=visualFor(chapter,t);if(v!==el('main').dataset.vi
 function startHand(){clearInterval(demoInterval);let n=0;function tap(){let target=el('phrase'+(n%3)),finger=el('finger');if(!target||!finger)return;let rect=target.getBoundingClientRect(),par=el('essay').getBoundingClientRect();finger.style.left=(rect.left-par.left+rect.width/2)+'px';finger.style.top=(rect.top-par.top+rect.height)+'px';finger.classList.remove('tap');void finger.offsetWidth;finger.classList.add('tap');setTimeout(()=>rotate(n%3),650);n++}tap();demoInterval=setInterval(tap,4500)}
 const steps=chapters.flatMap((item,k)=>cues[k].map((caption,i)=>({chapter:k,index:i,caption})));
 let step=0,cueEnd=0,playbackToken=0;
-function boundaries(k){const arr=cues[k],total=arr.reduce((a,v)=>a+words(v),0);let acc=0;return arr.map(t=>{const start=acc/total;acc+=words(t);return [start,acc/total]})}
+const silenceMarks=[[3.99,10.24,13.78,16.98,19.4,21.71,23.19,26.1],[0.79,4.17,6.69,10.19,13.53,17.07,20.14,23.01,27.75],[0.65,2.61,7.72,9.97,15.31,16.12,18.8,20.9,24.7,25.51],[2.49,4.23,7.35,9.45,12.73,15.96,18.45,23.97,25.67],[9.2,10.81,14.64,16.35,19.18,20.1,20.81,21.89,24.03,26.21,28.78],[3.93,5.18,6.38,8.47,12.05,16.67,19.66,23.99,25.31],[4.12,5.19,6.26,9.07,11.9,13.47,16.26,21.45,22.59,24.81,29.21],[2.56,4.83,6.21,9.56,12.9,13.64,17.73,21.27,24.61,26.07],[3.11,10.2,12.15,21.67,24.39],[2.97,5.79,8.13,12.44,15.33,18.06,19.61,21.77,23.81,27.45]];
+const actualDurations=[28.05,32.65,27.68,27.71,32.85,29.78,32.67,29.04,28.03,28.3];
+let hideCaptionTimer=null;
+function boundaries(k){
+ const arr=cues[k],D=actualDurations[k],total=arr.reduce((a,v)=>a+words(v),0);
+ const possible=silenceMarks[k].filter(t=>t>.4&&t<D-.3);
+ const cuts=[0];let used=-1,done=0;
+ for(let i=0;i<arr.length-1;i++){
+   done+=words(arr[i]);const target=done/total*D;
+   const minIndex=used+1,maxIndex=possible.length-(arr.length-i-2)-1;
+   if(minIndex>maxIndex){cuts.push(Math.max(cuts.at(-1)+.25,target));continue}
+   let best=minIndex;
+   for(let j=minIndex;j<=maxIndex;j++)if(Math.abs(possible[j]-target)<Math.abs(possible[best]-target))best=j;
+   cuts.push(possible[best]);used=best;
+ }
+ cuts.push(D);
+ return arr.map((_,i)=>[Math.max(0,cuts[i]),Math.min(D,cuts[i+1])]);
+}
 function showStep(){
- const token=++playbackToken;clearTimeout(delay);audio.pause();started=false;
+ const token=++playbackToken;clearTimeout(delay);clearTimeout(hideCaptionTimer);audio.pause();started=false;
  const s=steps[step];chapter=s.chapter;
  el('audioHint').hidden=true;el('subs').textContent='';el('subs').dataset.text='';
  el('cueCount').textContent=(step+1)+' / '+steps.length;
  el('chapterCount').textContent=(chapter+1)+' / '+chapters.length;
  el('heading').textContent=chapters[chapter].title;
  const b=boundaries(chapter)[s.index];
- const visualTime=((b[0]+b[1])/2)*chapters[chapter].duration;
+ const visualTime=((b[0]+b[1])/2)/actualDurations[chapter]*chapters[chapter].duration;
  updateVisual(visualTime);
  delay=setTimeout(()=>{
    if(token!==playbackToken)return;
@@ -80,10 +97,10 @@ function showStep(){
    if(!audio.src.endsWith(src))audio.src=src;
    const startAudio=()=>{
       if(token!==playbackToken)return;
-      const duration=audio.duration||chapters[chapter].duration;
+      const duration=audio.duration||actualDurations[chapter];
       const range=boundaries(chapter)[s.index];
-      cueEnd=Math.max(0,Math.min(duration,range[1]*duration));
-      audio.currentTime=Math.max(0,range[0]*duration);
+      cueEnd=Math.max(0,Math.min(duration,range[1]));
+      audio.currentTime=Math.max(0,range[0]);
       audio.muted=false;
       audio.play().catch(()=>{el('audioHint').hidden=false});
    };
@@ -91,9 +108,9 @@ function showStep(){
    else audio.addEventListener('loadedmetadata',startAudio,{once:true});
  },4000);
 }
-function tick(){if(!audio.paused&&audio.currentTime>=cueEnd-.035){audio.pause()}raf=requestAnimationFrame(tick)}
+function tick(){if(!audio.paused&&audio.currentTime>=cueEnd-.025){audio.pause();const token=playbackToken;hideCaptionTimer=setTimeout(()=>{if(token===playbackToken)el('subs').textContent=''},2000)}raf=requestAnimationFrame(tick)}
 function move(n){const next=Math.max(0,Math.min(steps.length-1,step+n));if(next===step)return;step=next;showStep()}
-function toggleVoice(){voiceOn=!voiceOn;audio.pause();el('sound').textContent=voiceOn?'🔊':'🔇';el('sound').title=voiceOn?'Mute narration':'Unmute narration';if(!voiceOn){clearTimeout(delay);el('subs').textContent=steps[step].caption}else showStep()}
+function toggleVoice(){voiceOn=!voiceOn;clearTimeout(hideCaptionTimer);audio.pause();el('sound').textContent=voiceOn?'🔊':'🔇';el('sound').title=voiceOn?'Mute narration':'Unmute narration';if(!voiceOn){clearTimeout(delay);el('subs').textContent=steps[step].caption}else showStep()}
 function startNow(){el('audioHint').hidden=true;audio.play().catch(()=>{})}
 let sx=0,sy=0;document.addEventListener('touchstart',e=>{sx=e.touches[0].clientX;sy=e.touches[0].clientY},{passive:true});
 document.addEventListener('touchend',e=>{const x=e.changedTouches[0].clientX-sx,y=e.changedTouches[0].clientY-sy;if(Math.abs(x)>70&&Math.abs(x)>Math.abs(y)*1.4)move(x<0?1:-1)},{passive:true});
