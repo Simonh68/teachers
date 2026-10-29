@@ -1,0 +1,120 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Seminar — From Idea to App</title><style>*{box-sizing:border-box}html,body{margin:0;background:#0d1421;color:#f4f7fc;font-family:Arial,Helvetica,sans-serif;direction:ltr}body{overflow:hidden}.slide{height:100dvh;padding:3vh 5vw 18vh;display:flex;flex-direction:column}header{display:flex;justify-content:space-between;font-size:15px;color:#9fb2ce}.title{font-size:clamp(27px,4vw,57px);margin:3vh 0}.main{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;overflow:auto}.panel{border:1px solid #3b5576;border-radius:24px;padding:34px;background:#182942;text-align:center;width:min(1050px,100%);font-size:clamp(20px,2.6vw,36px)}.panel h2{font-size:clamp(28px,3.4vw,48px)}.headline{font-size:clamp(30px,4.3vw,63px);font-weight:bold;margin:24px}.panel p{font-size:clamp(18px,2.1vw,32px)}a{color:#9bc9ff}.essay{position:relative;padding:36px 8px 70px;line-height:1.65;font-size:clamp(26px,3vw,46px)}.phrase{color:#fef08a;cursor:pointer;border-bottom:2px dashed #eab308;display:inline-block;padding:2px 4px}#finger{position:absolute;opacity:0;font-size:40px;pointer-events:none}#finger.tap{animation:tap 1.6s}@keyframes tap{0%,100%{opacity:0;transform:translate(18px,10px)}35%,70%{opacity:1;transform:translate(-5px,-10px)}}.chatLogo{font-size:90px;color:#8af0b7}.chatUI{width:min(1050px,100%);display:flex;flex-direction:column;gap:26px;text-align:left}.userbubble{align-self:flex-end;max-width:85%;background:#2c3b53;border-radius:21px;padding:22px 27px;font-size:clamp(18px,2.3vw,31px)}.assistantbubble{display:flex;gap:15px;align-items:flex-start;font-size:clamp(19px,2.4vw,33px);line-height:1.4}.bot{background:#1d7659;padding:7px;border-radius:50%}.thinking{font-size:22px;color:#afbed2}.dots:after{content:'...';animation:blink 1s infinite}@keyframes blink{50%{opacity:.2}}.twomock{width:min(1090px,100%);display:grid;grid-template-columns:1fr 1fr;gap:18px}.mockup{background:#182942;border:1px solid #536e91;border-radius:23px;padding:35px;font-size:clamp(20px,2.3vw,34px);text-align:center}.mockup small{color:#a3bcde;display:block;font-size:16px;margin-bottom:30px}.buttons{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:36px}.buttons button{background:#314762;border:1px solid #6982a3;color:white;border-radius:12px;padding:11px 20px;font-size:clamp(16px,1.7vw,25px);cursor:pointer}.buttons .active{background:#2563eb}.bigtext{font-size:clamp(28px,3.2vw,50px);margin:30px 0}.carditem{padding:10px;margin:12px;background:#314762;border-radius:8px}.concepts{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.concepts>div{padding:25px;background:#263d5a;border-radius:14px}.concepts small{font-size:17px;color:#a1c5ed}.mockapp{width:min(1000px,100%);height:44vh;display:flex;border:1px solid #50617b;border-radius:18px;overflow:hidden;background:#202735}.mockapp aside{width:27%;background:#141d29;padding:27px;color:#b4c4da}.lookMain{flex:1;display:flex;flex-direction:column;padding:24px;justify-content:space-between;text-align:center}.inputMock{border:1px solid #526f95;border-radius:18px;padding:18px;text-align:left;color:#93aacc}.subs{position:fixed;bottom:5vh;left:50%;transform:translateX(-50%);width:min(88vw,1100px);font-size:clamp(21px,2.25vw,34px);line-height:1.12;text-align:left;text-shadow:0 2px 9px #000;min-height:2.2em;max-height:2.3em;overflow:visible}.controls{position:fixed;top:10px;right:12px;display:flex;align-items:center;gap:8px;z-index:10}.controls button{font-size:18px;background:#24364e;color:white;border:1px solid #65819f;border-radius:9px;padding:10px;cursor:pointer}.hint{position:fixed;top:13vh;right:12px;background:#27466a;padding:12px;border-radius:9px;z-index:20;cursor:pointer}@media(max-width:700px){.slide{padding:5vh 4vw 22vh}.subs{bottom:6vh;width:91vw;font-size:clamp(19px,4.3vw,26px)}.twomock{grid-template-columns:1fr}.mockup{padding:16px}.chatUI{gap:15px}.userbubble{font-size:18px;padding:15px}.assistantbubble{font-size:19px}.panel{padding:17px}.concepts{grid-template-columns:1fr}.mockapp{height:38vh}}.resourceLink{position:absolute;bottom:19vh;left:50%;transform:translateX(-50%);font-size:clamp(17px,1.5vw,23px);z-index:3}@media(max-width:700px){.resourceLink{bottom:23vh}} </style></head><body><div class="slide"><header><span>SEMINAR · AI FOR ENGLISH TEACHERS</span><span id="chapterCount"></span></header><h1 id="heading" class="title"></h1><div class="main" id="main"></div></div><div class="subs" id="subs"></div><div class="controls"><span id="cueCount"></span><button onclick="move(-1)" title="Previous chapter">◀</button><button onclick="toggleVoice()" id="sound" title="Mute narration">🔊</button><button onclick="move(1)" title="Next chapter">▶</button></div><div class="hint" id="audioHint" hidden onclick="startNow()">Tap to enable sound ▶</div><script>
+const chapters=[{"title":"From Idea to App","text":"I teach English, and I like making useful tools. I've been using AI to build things for my students, and it has changed the way I work. Today, I want to show you a few examples. Then we'll build a very small app together. You don't need to know how to write code. You just need a clear idea and a little patience. And don't worry. We'll keep things simple. That's really the point of this talk.","duration":28.25,"src":"audio/chapter_01.mp3"},{"title":"Three Things I Made","text":"First, let me show you three things I made with AI. Here is my animated essay. Watch the hand touch one part of the sentence. The words change, but the rest stays the same. Next, here is my website for English classes. Each class has its own learning materials. And here is my Bagrut Trap Killer. The tricky answers are based on PISA tests and past Bagrut exams. These projects took time, but each one started with a simple idea.","duration":32.9,"src":"audio/chapter_02.mp3"},{"title":"Let's Open ChatGPT","text":"Now, let's make something together. We'll use ChatGPT, but we won't ask it to build anything yet. First, we need an idea. I want a small app that helps students write better English sentences. That's all. Notice how simple my request is. I don't need special words or technical language. I can even write the same thing in Hebrew. The important thing is to explain what I want. Now, let's see what ChatGPT says.","duration":27.9,"src":"audio/chapter_03.mp3"},{"title":"Ask AI to Reflect","text":"Here's something I always like to do. Before we go on, I ask AI to tell me what it understood. This is called reflection. It's a simple way to check that we're talking about the same thing. AI may have a different idea from mine. That's fine. We can fix it now. I'd rather spend one minute checking the idea than ten minutes fixing the wrong app. So I ask again. Tell me what you think I want.","duration":27.8,"src":"audio/chapter_04.mp3"},{"title":"Keep It Small","text":"Now AI has some ideas for our app. It suggests student accounts, scores, feedback, and even a teacher page. That sounds great. But hold on! I'm not trying to build another Google today. Let's keep it simple. One sentence and three buttons. Basic, Better, and Advanced. That's enough for our first version. We can always add more things later. A small app is easier to make, easier to test, and much easier to fix when something goes wrong.","duration":33,"src":"audio/chapter_05.mp3"},{"title":"Input, Output, Screen","text":"Before we build, I want to ask three simple questions. What goes in? What comes out? And what will the screen look like? These are useful questions for almost any app. For our app, the input is three versions of one sentence. The output is the sentence the student chooses. And the screen will show one large sentence with three buttons. Nothing more. Now I know what we're trying to build. But I still want to see how it will look.","duration":30,"src":"audio/chapter_06.mp3"},{"title":"Show Me a Mockup","text":"Now I ask AI to show me two pictures of the app. Not code. Just pictures. Here are two possible designs. I like the first one, but there's a problem. The words are too small. So I ask AI to make them bigger. I also want the buttons at the bottom and the selected button in blue. Look! Now the design is much better. It's easier to change a picture than to rebuild a finished app. That's why I always ask to see the design first.","duration":32.9,"src":"audio/chapter_07.mp3"},{"title":"Build and Test","text":"Now I ask AI one more question. Can we really build this? What might go wrong? I want a realistic answer, not just a promise. AI says this is a small project. Good. Now I ask it to write one complete prompt for a new chat. I copy the prompt and open a fresh conversation. This time, I ask AI to build the app. And here it is! Let's press the buttons and see if everything works.","duration":29.3,"src":"audio/chapter_08.mp3"},{"title":"Chat or Work?","text":"Before we finish, I want to show you something else. This is the regular Chat screen. It's great when you want to ask questions, discuss ideas, or make a plan. Now look at Work. Work is useful for bigger jobs that involve several steps, files, or tools. You still need to explain what you want. And you still need to check the results. For our small app, Chat is enough. For a much bigger project, Work may be the better choice.","duration":28.2,"src":"audio/chapter_09.mp3"},{"title":"Send It to Students","text":"Now we want to send the app to our students. We can send the HTML file through WhatsApp. Some students can open it right away. Others may need to download the file first and then open it in Chrome. So always test it on a real phone. And here's the main thing I want you to remember. Start small. Ask AI what it understood. Check the design before building. And yes, you can do all of this in Hebrew too. Thank you!","duration":28.6,"src":"audio/chapter_10.mp3"}];
+let chapter=0,voiceOn=true,started=false,delay=null,raf=null,selected=0,wordPart=0,demoInterval=null;
+const audio=new Audio();audio.preload='auto';
+const phrases=[['I believe','I think','In my opinion'],['volunteering','helping others','volunteer work'],['helps young people.','benefits teenagers.','helps students grow.']];
+let options=[0,0,0];
+function sentenceHTML(){return phrases.map((x,i)=>'<span class="phrase" id="phrase'+i+'" onclick="rotate('+i+')">'+x[options[i]]+'</span>').join(' ')}
+function rotate(i){options[i]=(options[i]+1)%3;const e=document.getElementById('phrase'+i);if(e)e.textContent=phrases[i][options[i]]}
+function words(t){return t.trim().split(/\s+/).filter(Boolean).length}
+function cueify(t){const sentences=t.match(/[^.!?]+[.!?]+|[^.!?]+$/g)||[t];let cues=[],buffer='',count=0;for(const sent of sentences){const s=sent.trim();if(!s)continue;const n=words(s);if(count+n>(window.innerWidth<700?8:14)&&buffer){cues.push(buffer.trim());buffer='';count=0}buffer+=(buffer?' ':'')+s;count+=n}if(buffer)cues.push(buffer.trim());return cues}
+const cues=chapters.map(x=>cueify(x.text));
+function visualFor(k,time){
+ const fraction=time/chapters[k].duration;
+ if(k===1)return fraction<.47?'essay':fraction<.74?'site':'traps';
+ if(k===2)return fraction<.3?'login':fraction<.75?'chatquestion':'chatanswer';
+ if(k===3)return fraction<.34?'reflectQ':fraction<.70?'reflectA':'reflectAgain';
+ if(k===4)return fraction<.35?'scope':'simplify';
+ if(k===5)return fraction<.4?'ioquestion':'ioanswer';
+ if(k===6)return fraction<.26?'mockQ':fraction<.57?'mockTwo':fraction<.72?'mockChange':'mockRevised';
+ if(k===7)return fraction<.28?'feasibility':fraction<.57?'buildprompt':fraction<.76?'buildthinking':'app';
+ if(k===8)return fraction<.40?'chatlook':fraction<.75?'worklook':'comparison';
+ if(k===9)return fraction<.43?'whatsapp':'closing';
+ return 'opening';
+}
+const el=id=>document.getElementById(id);
+function shell(title,body){return '<div class="panel"><h2>'+title+'</h2>'+body+'</div>'}
+function chat(user,reply){return '<div class="chatUI"><div class="userbubble">'+user+'</div>'+(reply?'<div class="assistantbubble"><span class="bot">✳</span><div>'+reply+'</div></div>':'<div class="thinking">Thinking<span class="dots"></span></div>')+'</div>'}
+function mock(revised=false){return revised?'<div class="mockup"><small>Revised design</small><div class="bigtext">Students use smartphones.</div><div class="buttons"><button class="active">Basic</button><button>Better</button><button>Advanced</button></div></div>':'<div class="twomock"><div class="mockup"><small>Option A</small><div>Students use smartphones.</div><div class="buttons"><button>Basic</button><button>Better</button><button>Advanced</button></div></div><div class="mockup"><small>Option B</small><div class="carditem">Basic sentence</div><div class="carditem">Better sentence</div><div class="carditem">Advanced sentence</div></div></div>'}
+function look(mode){let w=mode==='Work';return '<div class="mockapp"><aside><b>ChatGPT</b><p>+ New '+(w?'task':'chat')+'</p><p>'+(w?'Tasks':'Recent chats')+'</p></aside><div class="lookMain"><div>'+(w?'Work':'Chat')+'</div><h2>'+(w?'What do you want to get done?':'What can I help with?')+'</h2><div class="inputMock">'+(w?'Describe a task...':'Ask anything...')+'</div></div></div>'}
+function draw(type){switch(type){
+case 'opening':return shell('From Idea to App','<div class="headline">AI for English Teachers</div><p>Plan first. Build small. Improve.</p>');
+case 'essay':return shell('Animated Essays','<div class="essay" id="essay">'+sentenceHTML()+'<span id="finger">👆</span></div><a href="https://simonh68.github.io/teachers/grade11/school-volunteering-essay/#slide-23" target="_blank">Open the full animated essay</a>');
+case 'site':return shell('My English Classes','<div class="headline">Grades 7–12 · Lessons · Practice</div><a href="https://simonh68.github.io/teachers/" target="_blank">Open the class website</a>');
+case 'traps':return shell('Bagrut Trap Killer','<div class="headline">PISA + Previous Bagrut Exams</div><p>Tricky answers. Clear thinking.</p><a href="https://englishfornoar.co.il/bagrut-trap-killer" target="_blank">Open Trap Killer</a>');
+case 'login':return shell('ChatGPT','<div class="chatLogo">✳</div><div class="headline">New chat</div><a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">Open ChatGPT</a>');
+case 'chatquestion':return chat("I want a small app for better English sentences. Don't build it yet.",null)+'<a class="resourceLink" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">Open ChatGPT ↗</a>';
+case 'chatanswer':return chat("I want a small app for better English sentences.","So you want students to see a sentence improve step by step?");
+case 'reflectQ':return chat("Tell me what you understood.",null);
+case 'reflectA':return chat("Tell me what you understood.","You want one simple app with different sentence levels. Is that right?");
+case 'reflectAgain':return chat("Tell me again, in your own words.","One sentence, three levels, and easy buttons.");
+case 'scope':return chat("What else could we add?","Accounts, scores, AI feedback, and reports!");
+case 'simplify':return chat("That's too much. One sentence and three buttons.","Good idea. Let's keep it simple.");
+case 'ioquestion':return chat("What goes in? What comes out? What will it look like?",null);
+case 'ioanswer':return shell('Input → Output → Screen','<div class="concepts"><div>Three sentences<br><small>INPUT</small></div><div>One selected sentence<br><small>OUTPUT</small></div><div>One sentence + buttons<br><small>SCREEN</small></div></div>');
+case 'mockQ':return chat("Show me two pictures of the app. No code yet.",null);
+case 'mockTwo':return mock(false);
+case 'mockChange':return chat("I like A. Bigger words. Buttons at the bottom. Blue selected button.",null);
+case 'mockRevised':return mock(true);
+case 'feasibility':return chat("Can we really build this? What could go wrong?","Yes. It's small. Test the wording and the buttons.");
+case 'buildprompt':return chat("Write one clear prompt for a new chat.","Build one HTML file with a sentence and three buttons. Make it work offline.");
+case 'buildthinking':return chat("Build the app from our approved plan.",null);
+case 'app':return shell('Sentence Transformer','<div id="sentence" class="bigtext">Students use smartphones.</div><div class="buttons">'+['Basic','Better','Advanced'].map((t,i)=>'<button class="'+(selected===i?'active':'')+'" onclick="pick('+i+')">'+t+'</button>').join('')+'</div>');
+case 'chatlook':return look('Chat');
+case 'worklook':return look('Work');
+case 'comparison':return '<div class="twomock"><div class="mockup"><h2>Chat</h2>Talk, ask, plan</div><div class="mockup"><h2>Work</h2>Do longer jobs</div></div>';
+case 'whatsapp':return '<div class="twomock"><div class="mockup"><h2>1. WhatsApp</h2><div class="bigtext">📄 app.html</div><p>Download the file</p></div><div class="mockup"><h2>2. Open</h2><div class="bigtext">Chrome</div><p>Open the saved file</p></div></div>';
+case 'closing':return shell('Think Big. Start Small.','<p>Ask AI what it understood.</p><p>Check the design. Build. Test.</p>');
+}}
+function pick(i){selected=i;let x=el('sentence');if(x)x.textContent=['Students use smartphones.','Many students use smartphones every day.','Students frequently use smartphones in their daily lives.'][i];document.querySelectorAll('.buttons button').forEach((b,j)=>b.classList.toggle('active',j===i))}
+function updateVisual(t){let v=visualFor(chapter,t);if(v!==el('main').dataset.view){el('main').dataset.view=v;el('main').innerHTML=draw(v);if(v==='essay')startHand();else clearInterval(demoInterval)}}
+function startHand(){clearInterval(demoInterval);let n=0;function tap(){let target=el('phrase'+(n%3)),finger=el('finger');if(!target||!finger)return;let rect=target.getBoundingClientRect(),par=el('essay').getBoundingClientRect();finger.style.left=(rect.left-par.left+rect.width/2)+'px';finger.style.top=(rect.top-par.top+rect.height)+'px';finger.classList.remove('tap');void finger.offsetWidth;finger.classList.add('tap');setTimeout(()=>rotate(n%3),650);n++}tap();demoInterval=setInterval(tap,4500)}
+const steps=chapters.flatMap((item,k)=>cues[k].map((caption,i)=>({chapter:k,index:i,caption}))).filter((s,i)=>i!==0);
+let step=0,cueEnd=0,playbackToken=0;
+const silenceMarks=[[1.49,3.99,7.78,10.24,11.45,13.78,14.41,16.98,19.4,21.71,23.19,26.1],[0.79,4.17,6.69,10.19,13.53,14.67,17.07,20.14,23.01,27.75,29.7,29.99],[0.65,2.61,7.72,8.62,9.97,13.56,15.31,16.12,18.8,20.9,21.36,24.7,25.51],[1.18,2.49,4.23,7.35,9.45,12.73,13.15,15.96,16.77,18.45,21.37,23.97,24.52,25.67],[0.47,3.41,7.4,9.2,10.81,12.05,14.64,16.35,17.63,19.18,20.1,20.81,21.89,23.73,24.03,26.21,28.78,30.11,31.34],[3.93,5.18,6.38,8.47,12.05,13.32,16.67,17.59,19.66,23.99,25.31,27.67],[4.12,5.19,6.26,9.07,10.63,11.9,13.47,16.26,21.45,22.59,24.81,29.21],[2.56,4.83,6.21,8.23,9.56,10.02,12.9,13.64,17.73,21.27,24.61,26.07],[3.11,5.39,10.2,10.6,12.15,17.58,19.8,21.67,23.3,24.39,25.26,26.28],[2.97,5.79,8.13,12.44,15.33,18.06,19.61,21.77,23.81,27.45]];
+const actualDurations=[28.05,32.65,27.68,27.71,32.85,29.78,32.67,29.04,28.03,28.3];
+let hideCaptionTimer=null;
+function boundaries(k){
+ const arr=cues[k],D=actualDurations[k],total=arr.reduce((a,v)=>a+words(v),0);
+ const possible=silenceMarks[k].filter(t=>t>.4&&t<D-.3);
+ const cuts=[0];let used=-1,done=0;
+ for(let i=0;i<arr.length-1;i++){
+   done+=words(arr[i]);const target=done/total*D;
+   const minIndex=used+1,maxIndex=possible.length-(arr.length-i-2)-1;
+   if(minIndex>maxIndex){cuts.push(Math.max(cuts.at(-1)+.25,target));continue}
+   let best=minIndex;
+   for(let j=minIndex;j<=maxIndex;j++)if(Math.abs(possible[j]-target)<Math.abs(possible[best]-target))best=j;
+   cuts.push(possible[best]);used=best;
+ }
+ cuts.push(D);
+ return arr.map((_,i)=>[Math.max(0,cuts[i]),Math.min(D,cuts[i+1])]);
+}
+function showStep(){
+ const token=++playbackToken;clearTimeout(delay);clearTimeout(hideCaptionTimer);audio.pause();started=false;
+ const s=steps[step];chapter=s.chapter;
+ el('audioHint').hidden=true;el('subs').textContent='';el('subs').dataset.text='';
+ el('cueCount').textContent=(step+1)+' / '+steps.length;
+ el('chapterCount').textContent=(chapter+1)+' / '+chapters.length;
+ el('heading').textContent=chapters[chapter].title;
+ const b=boundaries(chapter)[s.index];
+ const visualTime=((b[0]+b[1])/2)/actualDurations[chapter]*chapters[chapter].duration;
+ updateVisual(visualTime);
+ delay=setTimeout(()=>{
+   if(token!==playbackToken)return;
+   el('subs').textContent=s.caption;
+   if(!voiceOn)return;
+   const src=chapters[chapter].src;
+   if(!audio.src.endsWith(src))audio.src=src;
+   const startAudio=()=>{
+      if(token!==playbackToken)return;
+      const duration=audio.duration||actualDurations[chapter];
+      const range=boundaries(chapter)[s.index];
+      cueEnd=Math.max(0,Math.min(duration,range[1]+0.35));
+      audio.currentTime=Math.max(0,range[0]-0.1);
+      audio.muted=false;
+      audio.play().catch(()=>{el('audioHint').hidden=false});
+   };
+   if(audio.readyState>=1)startAudio();
+   else audio.addEventListener('loadedmetadata',startAudio,{once:true});
+ },4000);
+}
+function tick(){if(!audio.paused&&audio.currentTime>=cueEnd-.025){audio.pause();const token=playbackToken;hideCaptionTimer=setTimeout(()=>{if(token===playbackToken)el('subs').textContent=''},2000)}raf=requestAnimationFrame(tick)}
+function move(n){const next=Math.max(0,Math.min(steps.length-1,step+n));if(next===step)return;step=next;showStep()}
+function toggleVoice(){voiceOn=!voiceOn;clearTimeout(hideCaptionTimer);audio.pause();el('sound').textContent=voiceOn?'🔊':'🔇';el('sound').title=voiceOn?'Mute narration':'Unmute narration';if(!voiceOn){clearTimeout(delay);el('subs').textContent=steps[step].caption}else showStep()}
+function startNow(){el('audioHint').hidden=true;audio.play().catch(()=>{})}
+let sx=0,sy=0;document.addEventListener('touchstart',e=>{sx=e.touches[0].clientX;sy=e.touches[0].clientY},{passive:true});
+document.addEventListener('touchend',e=>{const x=e.changedTouches[0].clientX-sx,y=e.changedTouches[0].clientY-sy;if(Math.abs(x)>70&&Math.abs(x)>Math.abs(y)*1.4)move(x<0?1:-1)},{passive:true});
+document.addEventListener('keydown',e=>{if(['ArrowRight','PageDown'].includes(e.key))move(1);if(['ArrowLeft','PageUp'].includes(e.key))move(-1)});
+audio.addEventListener('ended',()=>{el('audioHint').hidden=true});
+audio.muted=false;showStep();tick();
+</script></body></html>
