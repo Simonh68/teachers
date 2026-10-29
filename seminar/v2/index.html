@@ -126,7 +126,7 @@ function tick(){
  raf=requestAnimationFrame(tick);
 }
 function move(n){const next=Math.max(0,Math.min(steps.length-1,step+n));if(next===step)return;step=next;showStep()}
-function toggleVoice(){voiceOn=!voiceOn;clearTimeout(hideCaptionTimer);audio.pause();el('sound').textContent=voiceOn?'🔊':'🔇';el('sound').title=voiceOn?'Mute narration':'Unmute narration';if(!voiceOn){clearTimeout(delay);el('subs').textContent=steps[step].caption}else showStep()}
+function toggleVoice(){voiceOn=!voiceOn;clearTimeout(hideCaptionTimer);audio.pause();el('sound').textContent=voiceOn?'🔊':'🔇';el('sound').title=voiceOn?'Mute narration':'Unmute narration';if(!voiceOn){clearTimeout(delay);el('subs').textContent=chunkCaptions(steps[step])[0]}else showStep()}
 function startNow(){el('audioHint').hidden=true;audio.play().catch(()=>{})}
 let sx=0,sy=0;document.addEventListener('touchstart',e=>{sx=e.touches[0].clientX;sy=e.touches[0].clientY},{passive:true});
 document.addEventListener('touchend',e=>{const x=e.changedTouches[0].clientX-sx,y=e.changedTouches[0].clientY-sy;if(Math.abs(x)>70&&Math.abs(x)>Math.abs(y)*1.4)move(x<0?1:-1)},{passive:true});
