@@ -63,7 +63,13 @@ const actualDurations=[28.05,32.65,27.68,27.71,32.85,29.78,32.67,29.04,28.03,28.
 const safePauseCuts=[[13.776,16.985,23.188,26.097],[13.532],[7.716,9.972,24.695],[7.351,9.445,15.958,25.675],[14.639,16.352,19.18,20.105,21.887,26.214],[5.176,12.052,16.674,25.309],[9.07,16.255,21.446],[9.559,12.897,17.727,21.268,24.615],[3.105],[5.788,8.128,12.436,15.329,18.058,19.606,23.807,27.449]];
 const steps=chapters.flatMap((item,k)=>{
  const boundaries=[0,...safePauseCuts[k],actualDurations[k]];
- return boundaries.slice(0,-1).map((from,i)=>({chapter:k,index:i,from,to:boundaries[i+1]}));
+ return boundaries.slice(0,-1).flatMap((from,i)=>{
+  const to=boundaries[i+1];
+  return [
+   {chapter:k,index:i,from,to,mode:'audio'},
+   {chapter:k,index:i,from,to,mode:'pause'}
+  ];
+ });
 });
 let step=0,cueEnd=0,playbackToken=0;
 const silenceMarks=[[1.49,3.99,7.78,10.24,11.45,13.78,14.41,16.98,19.4,21.71,23.19,26.1],[0.79,4.17,6.69,10.19,13.53,14.67,17.07,20.14,23.01,27.75,29.7,29.99],[0.65,2.61,7.72,8.62,9.97,13.56,15.31,16.12,18.8,20.9,21.36,24.7,25.51],[1.18,2.49,4.23,7.35,9.45,12.73,13.15,15.96,16.77,18.45,21.37,23.97,24.52,25.67],[0.47,3.41,7.4,9.2,10.81,12.05,14.64,16.35,17.63,19.18,20.1,20.81,21.89,23.73,24.03,26.21,28.78,30.11,31.34],[3.93,5.18,6.38,8.47,12.05,13.32,16.67,17.59,19.66,23.99,25.31,27.67],[4.12,5.19,6.26,9.07,10.63,11.9,13.47,16.26,21.45,22.59,24.81,29.21],[2.56,4.83,6.21,8.23,9.56,10.02,12.9,13.64,17.73,21.27,24.61,26.07],[3.11,5.39,10.2,10.6,12.15,17.58,19.8,21.67,23.3,24.39,25.26,26.28],[2.97,5.79,8.13,12.44,15.33,18.06,19.61,21.77,23.81,27.45]];
@@ -102,6 +108,16 @@ function showStep(){
  el('chapterCount').textContent=(chapter+1)+' / '+chapters.length;
  el('heading').textContent=chapters[chapter].title;
  updateVisual((s.from+s.to)/2/actualDurations[chapter]*chapters[chapter].duration);
+ if(s.mode==='pause'){
+  const fragments=chunkCaptions(s);
+  el('subs').textContent='';
+  delay=setTimeout(()=>{
+   if(token!==playbackToken)return;
+   el('subs').textContent=fragments[fragments.length-1]||'';
+   hideCaptionTimer=setTimeout(()=>{if(token===playbackToken)el('subs').textContent=''},4500);
+  },4000);
+  return;
+ }
  delay=setTimeout(()=>{
  if(token!==playbackToken)return;
  const src=chapters[chapter].src;
