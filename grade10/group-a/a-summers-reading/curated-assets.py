@@ -15,6 +15,10 @@ files={
 'cleaning':('https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1400&q=86','Unsplash real cleaning worker'),
 'stock-clerk':('https://images.pexels.com/photos/7019313/pexels-photo-7019313.jpeg?auto=compress&cs=tinysrgb&w=1400','cottonbro studio, 2021, Pexels free-use photo, modern stock clerk'),
 'carpenter':('https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=1400&q=86','Unsplash carpentry equipment, illustrative'),
+'magazine':('https://images.pexels.com/photos/4271625/pexels-photo-4271625.jpeg?auto=compress&cs=tinysrgb&w=1400','alleksana, Pexels free-use: close-up of stack of magazines (modern illustration)'),
+'iron-railing':('https://images.pexels.com/photos/11218644/pexels-photo-11218644.jpeg?auto=compress&cs=tinysrgb&w=1400','Mathias Reding, Pexels free-use: wrought-iron fence close up'),
+'porch':('https://images.pexels.com/photos/12654965/pexels-photo-12654965.jpeg?auto=compress&cs=tinysrgb&w=1400','Erik Mclean, Pexels free-use: house porch and steps'),
+'newspaper-stack':('https://images.pexels.com/photos/3866816/pexels-photo-3866816.jpeg?auto=compress&cs=tinysrgb&w=1400','Suzy Hazelwood, Pexels free-use: newspapers stacked on table'),
 }
 s=requests.Session()
 s.headers.update({'User-Agent':'Educational-photo-reference/1.0 (contact: webmaster of teachers site)','Accept':'image/webp,image/png,image/jpeg,image/*;q=0.8'})
