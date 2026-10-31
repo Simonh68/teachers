@@ -1,0 +1,22 @@
+name: Grade 10 Read-Along live browser QA
+on:
+  push:
+    paths:
+      - 'grade10/group-a/a-summers-reading/readalong/check-live.mjs'
+      - '.github/workflows/grade10-summer-reading-readalong-qa.yml'
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser dependencies
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Verify 3 chapter players, real audio, quizzes and word timing
+        run: node grade10/group-a/a-summers-reading/readalong/check-live.mjs
