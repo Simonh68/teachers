@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#071527"><title>Four Kilometres Together | Original Read Along | Grade 7</title><link rel="stylesheet" href="lesson.css?v=1"></head><body>
+<header class="top read-header"><a class="home" href="./">1 · אוצר מילים</a><span class="brand">2 · Four Kilometres Together — Read Along המקורי</span><div class="tools"><button class="home" id="reset-reader" type="button">התחלה מחדש</button><a class="home" href="practice.html">3 · שקפי עזר</a></div></header>
+<iframe id="original-reader" class="read-frame" title="מצגת Read Along המקורית של Four Kilometres Together" allow="autoplay"></iframe>
+<div class="finish-bar" id="finish-bar" hidden><p id="reader-note">סיימתם את הקריאה.</p><a class="primary" href="practice.html">3 · ממשיכים לשקפי העזר ←</a></div>
+<script>(function wheelchairReadWrapper(){
+  const frame=document.getElementById("original-reader"),finish=document.getElementById("finish-bar"),note=document.getElementById("reader-note");
+  let seenLast=false;
+  const url=new URL("../reading/?text=wheelchair&view=sentences&p=0",location.href);frame.src=url.href;
+  function check(){
+    try{
+      const child=new URL(frame.contentWindow.location.href);if(!child.pathname.includes("/reading/"))return;
+      const params=child.searchParams;
+      if(params.get("text")!=="wheelchair")return;
+      const p=Number(params.get("p")||"0");const reading= params.get("view")==="sentences";
+      if(reading&&p>=15){seenLast=true;finish.hidden=false;note.textContent="הגעתם למשפט האחרון. סיימו את הקריאה, ואז עברו לתרגול.";}
+    }catch(e){}
+  }
+  frame.addEventListener("load",check);setInterval(check,500);
+  document.getElementById("reset-reader").addEventListener("click",()=>{seenLast=false;finish.hidden=true;frame.src=url.href;note.textContent="מצגת הקריאה המקורית נפתחת כאן ללא שום שינוי בקבצים שלה.";});
+})();</script></body></html>
