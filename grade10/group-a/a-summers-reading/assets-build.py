@@ -12,7 +12,7 @@ def one(key):
  if target.exists() and target.stat().st_size>8000:return (key,'exists',target.stat().st_size)
  url=D['photos'][key][2] if key in D['photos'] else D['unsplash'][key]
  err=None
- for attempt in range(3):
+ for attempt in range(5):
   try:
    r=requests.get(url,timeout=(12,44),headers={'User-Agent':'Mozilla/5.0 (compatible; ClassroomEducationalResource/1.0; +https://github.com/Simonh68/teachers)','Accept':'image/webp,image/jpeg,image/png,image/*;q=0.8'})
    r.raise_for_status()
@@ -22,13 +22,14 @@ def one(key):
    im.save(target,'JPEG',quality=82,optimize=True,progressive=True)
    if target.stat().st_size<3000:raise RuntimeError('output unusually small')
    print('OK',key,im.size,target.stat().st_size,flush=True)
+   time.sleep(1.5)
    return (key,'ok',target.stat().st_size)
   except Exception as e:
    err=str(e)
-   time.sleep(.8+attempt*.5)
+   time.sleep(10+attempt*12 if '429' in err else 1+attempt)
  print('FAILED',key,err,flush=True)
  return (key,'failed',err)
-with ThreadPoolExecutor(max_workers=5) as pool:
+with ThreadPoolExecutor(max_workers=1) as pool:
  results=sorted([f.result() for f in as_completed([pool.submit(one,k) for k in KEYS])])
 failed=[r for r in results if r[1]=='failed']
 (OUT/'README.txt').write_text('Realistic teaching photographs sourced from Wikimedia Commons or Unsplash, source links are in content.js.\n'+'\n'.join(f'{k}: '+(D['photos'][k][2] if k in D['photos'] else D['unsplash'][k]) for k in KEYS),encoding='utf-8')
