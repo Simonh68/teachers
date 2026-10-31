@@ -1,0 +1,46 @@
+name: Grade 10 Summer Reading self-hosted photographs
+on:
+  push:
+    paths:
+      - 'grade10/group-a/a-summers-reading/assets-build.py'
+      - '.github/workflows/grade10-summer-reading-media.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  media:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        name: Checkout teaching site
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        name: Set up Python
+        with:
+          python-version: '3.11'
+      - name: Install image dependencies
+        run: python -m pip install --quiet pillow requests
+      - name: Download and optimize Wikimedia and Unsplash photographs
+        run: python grade10/group-a/a-summers-reading/assets-build.py
+      - name: Verify all 32 images are ready
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('grade10/group-a/a-summers-reading/images')
+          images=list(p.glob('*.jpg'))
+          print('Verified teaching photos:',len(images))
+          assert len(images)>=32
+          PY
+      - name: Publish photographs to classroom site
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add grade10/group-a/a-summers-reading/images/
+          if git diff --cached --quiet; then
+            echo 'Photos already current'
+          else
+            git commit -m 'Publish local Summer Reading photos for Grade 10'
+            git push origin HEAD:main
+          fi
