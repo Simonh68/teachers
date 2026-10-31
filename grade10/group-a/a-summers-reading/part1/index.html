@@ -60,8 +60,8 @@ footer button{background:#193049;color:#fff;border:1px solid #54758e;padding:9px
 img{color:transparent}
 @media(max-width:900px){header{height:auto;min-height:70px}.scene,.player,.quizPanel{grid-template-columns:1fr}.scene{height:auto;min-height:100%}.photobox,.playerPhoto,.quizVisual{height:34vh;min-height:220px}.content{padding:23px 25px}.playerCopy{padding:21px}.quizText{padding:20px}.menuGrid{grid-template-columns:1fr}main{height:auto;min-height:calc(100vh - 135px)}footer{height:auto;min-height:65px}.progress{display:none}}
 </style></head><body>
-<header><a class="headTitle" href="../../../#grade10" style="color:white;text-decoration:none">A SUMMER’S READING · GRADE 10</a><div class="tools">
-<a class="chip" href="./">תפריט חלק א׳</a><a class="chip" href="../../../#grade10">⌂ כיתה י׳</a>
+<header><a class="headTitle" href="../../../../#grade10" style="color:white;text-decoration:none">A SUMMER’S READING · GRADE 10</a><div class="tools">
+<a class="chip" href="./">תפריט חלק א׳</a><a class="chip" href="../../../../#grade10">⌂ כיתה י׳</a>
 <a class="chip" href="../?worksheet=1" target="_blank">🖨️ דף עבודה</a>
 </div></header>
 <div id="menu" style="display:none"></div><main id="main">
@@ -79,7 +79,7 @@ Your browser cannot play this Ogg Opus audio file.</audio>
 <button id="audioPlay" class="play">▶ Play</button>
 <button id="backTen">↶ 10 sec</button>
 <button id="audioPause">Ⅱ Pause</button>
-<select id="audioSpeed" aria-label="Listening speed"><option value=".75">Slow 0.75×</option><option value="1" selected>Medium 1×</option><option value="1.25">Fast 1.25×</option></select>
+<select id="audioSpeed" aria-label="Listening speed"><option value=".75" selected>Slow 0.75×</option><option value="1">Medium 1×</option><option value="1.25">Fast 1.25×</option></select>
 </div>
 <div class="soundStatus" id="soundStatus">Before you start: recognize the words you learned.</div>
 <div class="hint" dir="rtl">התמונות מתחלפות תוך כדי האזנה. השמע ייעצר אוטומטית פעמיים לשאלות חובה. בסוף חלק א׳ יופיעו שאלות סיכום.</div>
@@ -98,7 +98,8 @@ Your browser cannot play this Ogg Opus audio file.</audio>
 const D=window.SUMMER_DATA;
 const words=D.lesson1;
 const $=x=>document.getElementById(x);
-const pic=(key)=>'photos/'+key+'.jpg';
+const cueImages={a01:'v-08',a02:'v-12',a03:'v-15',a04:'v-01',a05:'v-17',a06:'v-19',a07:'v-18',a08:'v-20',a09:'v-22',a10:'v-24',a11:'v-28',a12:'v-30',a13:'v-36',q01:'v-08',q02:'v-18'};
+const pic=(key)=>'photos/'+(cueImages[key]||key)+'.jpg';
 const old=(key)=>'../images/'+key+'.jpg';
 const photoLabels={
 'bg-usa':'United States • New York marked on the map',
@@ -163,7 +164,7 @@ $('slideHebrew').textContent=s.he||'';$('slideHebrew').hidden=true;$('toggleHeb'
 $('slideNote').textContent=s.note||'';
 safeImg($('slidePhoto'),s.image,s.fallback||'street');$('slidePhoto').alt=s.title+' — realistic teaching photograph';
 $('slidePhotoLabel').textContent=s.kind==='word'?'VOCABULARY · '+s.title:photoLabels[s.image]||'Historical context';
-$('prev').disabled=step===0;$('next').disabled=step===slides.length-1;$('counter').textContent=(step+1)+' / '+slides.length;
+$('prev').disabled=step===0;$('next').disabled=false;$('counter').textContent=(step+1)+' / '+slides.length;
 $('prog').style.width=(100*(step+1)/slides.length)+'%';history.replaceState(null,'',location.pathname+'#slide-'+(step+1));
 }
 function showMenu(){
@@ -195,7 +196,7 @@ if(t>=385.3){audio.pause();$('soundStatus').textContent='Part 1 complete! Discus
 function openQuiz(i){activeQuiz=i;quizQ=0;quizSelection=-1;answered=false;$('challenge').style.display='block';showQuestion();}
 function showQuestion(){
 let quiz=quizzes[activeQuiz],item=quiz.questions[quizQ];quizSelection=-1;answered=false;
-$('quizPhoto').src=pic(quiz.image);$('quizPhoto').onerror=()=>{$('quizPhoto').onerror=null;$('quizPhoto').src=old(quiz.fallback)};
+$('quizPhoto').src=pic(activeQuiz===0?(quizQ===0?'v-08':'v-14'):(quizQ===0?'v-18':'v-20'));$('quizPhoto').onerror=()=>{$('quizPhoto').onerror=null;$('quizPhoto').src=old(quiz.fallback)};
 $('quizCaption').textContent=quiz.caption;$('quizEyebrow').textContent='LISTENING CHECK · STOP '+(activeQuiz+1)+' / 2';
 $('quizHead').textContent=quiz.title;$('quizProgress').textContent='Question '+(quizQ+1)+' / '+quiz.questions.length;
 $('quizQuestion').textContent=item.q;
@@ -220,7 +221,7 @@ audio.play().catch(e=>{$('soundStatus').textContent='Tap Play to continue. '+e.m
 function advance(delta){if(mode!=='slides')return;step=Math.max(0,Math.min(slides.length-1,step+delta));showSlide();}
 $('prev').onclick=()=>advance(-1);$('next').onclick=()=>{if(step===slides.length-1){showListen(true);}else advance(1);};
 $('toggleHeb').onclick=()=>{heVisible=!heVisible;$('slideHebrew').hidden=!heVisible;$('toggleHeb').textContent=heVisible?'הסתר תרגום':'הצג פירוש בעברית';};
-$('goListen').onclick=()=>showListen(true);
+$('goListen').onclick=()=>showListen(true);$('audioSpeed').value='.75';audio.playbackRate=.75;
 $('audioPlay').onclick=()=>audio.play().catch(e=>$('soundStatus').textContent='Playback unavailable: '+e.message);
 $('audioPause').onclick=()=>audio.pause();
 $('backTen').onclick=()=>{if(activeQuiz!==-1)return;const t=Math.max(0,audio.currentTime-10);audio.currentTime=t;tick();};
