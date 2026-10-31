@@ -84,7 +84,7 @@ const pictures=D.photos; const extra=D.unsplash;
 let slides=[],slidePos=0,revealed=false,fast=false,localURL='',playingEnd=1525,loadedSlide=-1;
 const iframeTag=(start,end)=>'<iframe title="Original YouTube audio and text" src="https://www.youtube-nocookie.com/embed/JyCyWpHS7AY?rel=0&playsinline=1&start='+start+'&end='+end+'" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
 function imageInfo(key){
- if(pictures[key]){let [name,alt]=pictures[key];return {url:'https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(name)+'?width=1250',credit:alt,source:'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(name)};}
+ if(pictures[key]){let [name,alt]=pictures[key];return {url:pictures[key][2]||'https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(name),credit:alt,source:'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(name)};}
  return {url:extra[key]||extra.books,credit:'Illustrative photograph · Unsplash',source:'https://unsplash.com'};
 }
 function media(key){const i=imageInfo(key);return '<div class="visual"><img src="'+esc(i.url)+'" alt="'+esc(i.credit)+'" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'"><div class="photo-fallback">🖼️<div>Photograph unavailable · use the source link</div></div><div class="gradient"></div><a class="photocredit" href="'+esc(i.source)+'" target="_blank" rel="noopener">'+esc(i.credit)+'</a></div>';}
