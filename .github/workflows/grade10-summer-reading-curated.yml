@@ -1,0 +1,33 @@
+name: Grade 10 story-specific vocabulary photographs
+on:
+  push:
+    paths:
+      - 'grade10/group-a/a-summers-reading/curated-assets.py'
+      - '.github/workflows/grade10-summer-reading-curated.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet pillow requests
+      - name: Download vetted photos
+        run: python grade10/group-a/a-summers-reading/curated-assets.py
+      - name: Publish real photo files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add grade10/group-a/a-summers-reading/images/curated
+          if ! git diff --cached --quiet; then
+            git commit -m 'Host word-specific photographs for Read-Along'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
