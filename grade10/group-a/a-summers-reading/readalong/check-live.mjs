@@ -16,8 +16,14 @@ for(const part of [1,2,3]){
  const newCount=await page.locator('#count').innerText();
  if(initial===newCount)throw Error('Next slide did not move on '+part);
  let images=await page.locator('.visual img').count();
- let next=0;
+ let next=0;const checkedPhotos={};const targets={1:['railroad flat','delivery boy','magazine','iron railing','porch','stock clerk'],2:['change booth','shoemaker','stoop','nickel'],3:['softback books','radio','library']}[part];
  for(let i=0;i<90;i++){
+  const word=await page.locator('.card .title').first().innerText();
+  if(targets.includes(word.toLowerCase())){
+    const img=await page.locator('.card .visual img').first().evaluate(async(el)=>{try{await el.decode()}catch(e){}return {src:el.currentSrc||el.src,width:el.naturalWidth,complete:el.complete}});
+    if(!img.width)throw Error('Photo not loaded on '+part+' word '+word+': '+JSON.stringify(img));
+    checkedPhotos[word.toLowerCase()]=img.src;
+  }
   const btn=page.locator('#next');
   const txt=await btn.innerText();
   if(txt.includes('להתחיל להאזין')){next=i;await btn.click();break;}
@@ -38,7 +44,25 @@ for(const part of [1,2,3]){
  if(questions<3)throw Error('Checkpoint missing answer choices');
  await page.locator('#checkpoint .choice[data-choice="0"]').click();
  if(await page.locator('#continueQuiz').isDisabled())throw Error('Correct answer did not unlock continue');
- report.push({part,title,slides_to_audio:next+1,images,audio,timed,questions,pageErrors:errors.filter(x=>!x.includes('fonts.googleapis'))});
+ await page.locator('#continueQuiz').click();
+ await page.waitForSelector('#checkpoint:not([hidden]) .quiz',{timeout:7000});
+ await page.locator('#checkpoint .choice[data-choice="0"]').click();
+ await page.locator('#continueQuiz').click();
+ await page.waitForTimeout(350);
+ if(!(await page.locator('#checkpoint').isHidden()))throw Error('Quiz 1 did not resume narration');
+ const secondStop=part===1?246.2:part===2?317.8:443.3;
+ await page.locator('#voice').evaluate((a,t)=>{a.currentTime=t+.3;a.dispatchEvent(new Event('timeupdate'));},secondStop);
+ await page.waitForSelector('#checkpoint:not([hidden]) .quiz',{timeout:9000});
+ await page.locator('#checkpoint .choice[data-choice="0"]').click();
+ await page.locator('#continueQuiz').click();
+ await page.locator('#checkpoint .choice[data-choice="0"]').click();
+ await page.locator('#continueQuiz').click();
+ await page.waitForTimeout(350);
+ if(!(await page.locator('#checkpoint').isHidden()))throw Error('Quiz 2 did not resume narration');
+ const missing=targets.filter(w=>!checkedPhotos[w]);
+ if(missing.length)throw Error('Vocabulary photo QA missed terms for Part '+part+': '+missing.join(', '));
+ const diffPhotos=Object.values(checkedPhotos);if(new Set(diffPhotos).size<diffPhotos.length-1)throw Error('Vocabulary nouns are reusing images: '+JSON.stringify(checkedPhotos));
+ report.push({part,title,slides_to_audio:next+1,photosVerified:checkedPhotos,audio,timed,questions,pageErrors:errors.filter(x=>!x.includes('fonts.googleapis'))});
  await page.close();
 }
 await browser.close();
