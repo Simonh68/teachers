@@ -22,6 +22,9 @@ for(const part of [1,2,3]){
   if(targets.includes(word.toLowerCase())){
     const img=await page.locator('.card .visual img').first().evaluate(async(el)=>{try{await el.decode()}catch(e){}return {src:el.currentSrc||el.src,width:el.naturalWidth,complete:el.complete}});
     if(!img.width)throw Error('Photo not loaded on '+part+' word '+word+': '+JSON.stringify(img));
+    const expected={ 'railroad flat':'tenement-interior.jpg','delivery boy':'delivery-boy.jpg','magazine':'magazine.jpg','iron railing':'iron-railing.jpg','porch':'porch.jpg','stock clerk':'stock-clerk.jpg','change booth':'token-booth.jpg','shoemaker':'shoemaker2.jpg','stoop':'stoop.jpg'};
+    const desired=expected[word.toLowerCase()];
+    if(desired&&!img.src.endsWith('/curated/'+desired))throw Error('Wrong word photo for '+word+': '+img.src+'; expected '+desired);
     checkedPhotos[word.toLowerCase()]=img.src;
   }
   const btn=page.locator('#next');
