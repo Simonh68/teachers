@@ -89,3 +89,57 @@ button,select,a{font:inherit}button{cursor:pointer}a{color:var(--teal)}.top{heig
 /* Practice questions are text-first: diagrams remain in the vocabulary deck only. */
 body[data-deck="practice"] .question-frame .question-grid{display:block;max-width:1100px;margin-inline:auto}
 body[data-deck="practice"] .question-frame .choice{width:100%}
+
+
+/* 2026-10-31: vocabulary visual must be below title and ABOVE sound controls on Android.
+   The old reverse flex-column pinned the content to the bottom and pushed the
+   illustration above the viewport, leaving the hidden Hebrew slot as empty space. */
+.word-info>.mobile-word-visual{display:none}
+@media (max-width:850px){
+  body[data-deck="vocab"] .top>.tools{flex-wrap:nowrap;gap:8px;align-items:center}
+  body[data-deck="vocab"] .top>.tools>.home{
+    flex:0 0 auto;white-space:nowrap;min-width:0;
+    font-size:clamp(12px,3.5vw,15px);padding:8px 11px;min-height:39px
+  }
+  body[data-deck="vocab"] .top>.tools>select{
+    order:0;flex:1 1 0;width:0;min-width:0;max-width:none;
+    padding:7px 10px;font-size:clamp(12px,3.5vw,15px);min-height:39px;
+  }
+  #stage .frame.word-frame{
+    display:block;direction:rtl;min-width:0;width:100%;
+    max-width:100%;min-height:100%;padding:13px;overflow:visible;
+  }
+  .word-frame .word-info{display:block;width:100%;max-width:100%;min-width:0;min-height:0}
+  .word-frame>.desktop-word-visual{display:none!important}
+  .word-frame .word-info>.mobile-word-visual{
+    display:block;width:100%;max-width:100%;min-width:0;
+    height:auto;min-height:0;max-height:none;
+    aspect-ratio:760 / 420;margin:9px 0 10px;border-radius:13px;
+  }
+  .word-frame .word-info>.mobile-word-visual svg{display:block;width:100%;height:100%}
+  .word-frame .word-title{
+    font-size:clamp(34px,9vw,53px);line-height:1.1;
+    margin:0 0 7px;overflow-wrap:anywhere;
+  }
+  .word-frame .sentence{
+    font-size:clamp(21px,5.7vw,28px);
+    line-height:1.23;min-height:0;margin:0;overflow-wrap:break-word
+  }
+  .word-frame .translation-slot.concealed{display:none}
+  .word-frame .translation-slot.visible{
+    visibility:visible;min-height:0;margin:9px 0 7px;
+    padding:9px 0 3px;border-top:1px solid #315e73
+  }
+  .word-frame .translation-slot.visible strong{font-size:clamp(24px,6.8vw,31px)}
+  .word-frame .morphology{margin:7px 0 2px}
+  .word-frame .audio-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .word-frame .audio-row button{
+    min-width:0;min-height:43px;padding:9px 5px;
+    font-size:clamp(15px,4vw,20px);line-height:1.25;
+    white-space:normal;overflow-wrap:break-word
+  }
+  .word-frame .hint{font-size:14px;line-height:1.4;margin:7px 0 2px}
+}
+@media(max-width:340px){
+  .word-frame .audio-row{grid-template-columns:1fr}
+}
