@@ -1,0 +1,380 @@
+{
+  "description": "A Summer's Reading Part 1. Every vocabulary item has a distinct physical photo asset. Historical photos clearly identified from modern illustrative photographs.",
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "word": "immigrant",
+      "search": "New York immigrant family Ellis Island old photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "immigrant",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-02",
+      "word": "tenement",
+      "search": null,
+      "existing": "tenement",
+      "url": null,
+      "fallback": "tenement",
+      "caption": "Selected from existing licensed image library"
+    },
+    {
+      "key": "v-03",
+      "word": "small business",
+      "search": null,
+      "existing": "shop",
+      "url": null,
+      "fallback": "shop",
+      "caption": "Selected from existing licensed image library"
+    },
+    {
+      "key": "v-04",
+      "word": "factory",
+      "search": "garment factory workers sewing machines 1940 1950 photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "factory",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-05",
+      "word": "office",
+      "search": null,
+      "existing": "office",
+      "url": null,
+      "fallback": "office",
+      "caption": "Selected from existing licensed image library"
+    },
+    {
+      "key": "v-06",
+      "word": "typewriter",
+      "search": null,
+      "existing": "typewriter",
+      "url": null,
+      "fallback": "typewriter",
+      "caption": "Selected from existing licensed image library"
+    },
+    {
+      "key": "v-07",
+      "word": "neighborhood",
+      "search": "Lower East Side Manhattan street 1940 New York photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "tenement",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-08",
+      "word": "quit school",
+      "search": "teenager leaving high school school entrance photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "student",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-09",
+      "word": "on an impulse",
+      "search": "young man makes decision photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "young",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-10",
+      "word": "run out of patience",
+      "search": "frustrated impatient young man photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "young",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-11",
+      "word": "ashamed",
+      "search": "ashamed upset person covering face photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "person",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-12",
+      "word": "look for a job",
+      "search": "help wanted job application sign shop window photo",
+      "existing": null,
+      "url": null,
+      "fallback": "shop",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-13",
+      "word": "register",
+      "search": "hand signing registration paper form photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "student",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-14",
+      "word": "night school",
+      "search": "night school adult class classroom evening photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "student",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-15",
+      "word": "time on his hands",
+      "search": "man bored waiting clock room photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "park",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-16",
+      "word": "respect",
+      "search": "two people showing respect shaking hands photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "person",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-17",
+      "word": "fish market",
+      "search": null,
+      "existing": null,
+      "url": "https://tile.loc.gov/storage-services/service/pnp/cph/3c30000/3c31000/3c31100/3c31125v.jpg",
+      "fallback": "fish",
+      "caption": "Historical photograph, Library of Congress"
+    },
+    {
+      "key": "v-18",
+      "word": "cafeteria",
+      "search": "cafeteria 1950s diner waitress counter photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "cafe",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-19",
+      "word": "subway",
+      "search": null,
+      "existing": "subwayOld",
+      "url": null,
+      "fallback": "subwayOld",
+      "caption": "Selected from existing licensed image library"
+    },
+    {
+      "key": "v-20",
+      "word": "railroad flat",
+      "search": null,
+      "existing": null,
+      "url": "https://tile.loc.gov/storage-services/service/pnp/highsm/13000/13052v.jpg",
+      "fallback": "apartment",
+      "caption": "Historical photograph, Library of Congress"
+    },
+    {
+      "key": "v-21",
+      "word": "butcher store",
+      "search": "butcher shop butcher meats old photograph 1940",
+      "existing": null,
+      "url": null,
+      "fallback": "shop",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-22",
+      "word": "mop the floor",
+      "search": null,
+      "existing": null,
+      "url": "https://images.pexels.com/photos/6197106/pexels-photo-6197106.jpeg?auto=compress&cs=tinysrgb&w=1100",
+      "fallback": "apartment",
+      "caption": "Modern illustrative photograph, Pexels"
+    },
+    {
+      "key": "v-23",
+      "word": "World Almanac",
+      "search": "World Almanac 1950 book cover photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "books",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-24",
+      "word": "magazine",
+      "search": null,
+      "existing": null,
+      "url": "https://blogs.loc.gov/law/files/2021/12/Newsstand.jpg",
+      "fallback": "newspaper",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-25",
+      "word": "newspaper",
+      "search": null,
+      "existing": "newspaper",
+      "url": null,
+      "fallback": "newspaper",
+      "caption": "Selected from existing licensed image library"
+    },
+    {
+      "key": "v-26",
+      "word": "worthwhile",
+      "search": null,
+      "existing": "reading",
+      "url": null,
+      "fallback": "books2",
+      "caption": "Selected from existing licensed image library"
+    },
+    {
+      "key": "v-27",
+      "word": "carpentry",
+      "search": "carpenter with hand saw woodworking workshop photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "hands",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-28",
+      "word": "wander",
+      "search": "young man walking on city street alone photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "street2",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-29",
+      "word": "sidewalk",
+      "search": "New York City sidewalk pedestrians 1950 photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "street",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-30",
+      "word": "park bench",
+      "search": null,
+      "existing": "parkbench",
+      "url": null,
+      "fallback": "parkbench",
+      "caption": "Selected from existing licensed image library"
+    },
+    {
+      "key": "v-31",
+      "word": "iron railing",
+      "search": "wrought iron railing park fence closeup photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "tenement",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-32",
+      "word": "delivery boy",
+      "search": "Western Union young bicycle messenger delivery boy old photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "shop",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-33",
+      "word": "stock clerk",
+      "search": "grocery worker stocking food cans shelves photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "shop",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-34",
+      "word": "dissatisfied",
+      "search": "frustrated dissatisfied young adult face photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "young",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-35",
+      "word": "lonely",
+      "search": "lonely individual sitting alone park photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "park",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    },
+    {
+      "key": "v-36",
+      "word": "porch",
+      "search": "front porch wooden house 1950 USA photograph",
+      "existing": null,
+      "url": null,
+      "fallback": "apartment",
+      "caption": "Creative Commons photograph, Wikimedia Commons"
+    }
+  ],
+  "background": [
+    {
+      "key": "bg-usa",
+      "word": "USA map",
+      "kind": "map",
+      "search": "United States location New York State map"
+    },
+    {
+      "key": "bg-city",
+      "word": "New York City map",
+      "kind": "map",
+      "search": "New York City boroughs Manhattan map"
+    },
+    {
+      "key": "bg-les",
+      "word": "Lower East Side",
+      "search": "Lower East Side New York 1943 black and white photograph",
+      "existing": null,
+      "fallback": "tenement"
+    },
+    {
+      "key": "bg-immigrant",
+      "word": "Immigrant families",
+      "search": "immigrant family New York lower east side historical 1900 photograph",
+      "fallback": "immigrant"
+    },
+    {
+      "key": "bg-tenement",
+      "word": "Tenement homes",
+      "existing": "tenement",
+      "fallback": "tenement"
+    },
+    {
+      "key": "bg-work",
+      "word": "Garment factory",
+      "search": "New York garment factory sewing worker 1940 photograph",
+      "fallback": "factory"
+    },
+    {
+      "key": "bg-office",
+      "word": "Office 1950",
+      "existing": "office",
+      "fallback": "office"
+    },
+    {
+      "key": "bg-1950",
+      "word": "New York 1950 street",
+      "search": "New York city street Lower East Side 1950 photograph",
+      "fallback": "street"
+    }
+  ]
+}
