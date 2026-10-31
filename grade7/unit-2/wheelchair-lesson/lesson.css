@@ -42,6 +42,7 @@ button,select,a{font:inherit}button{cursor:pointer}a{color:var(--teal)}.top{heig
   .top>.tools>select {
     order:5;flex:1 1 100%;width:100%;min-width:0;max-width:100%;
     padding:7px 11px;font-size:14px;min-height:36px;
+    direction:ltr;text-align:left;unicode-bidi:isolate;
     overflow:hidden;text-overflow:ellipsis;
   }
   #stage {
@@ -84,3 +85,7 @@ button,select,a{font:inherit}button{cursor:pointer}a{color:var(--teal)}.top{heig
   .finish-bar {max-width:calc(100% - 14px);padding:8px 10px}
   .finish-bar .primary {font-size:16px;padding:9px 12px;text-align:center}
 }
+
+/* Practice questions are text-first: diagrams remain in the vocabulary deck only. */
+body[data-deck="practice"] .question-frame .question-grid{display:block;max-width:1100px;margin-inline:auto}
+body[data-deck="practice"] .question-frame .choice{width:100%}
