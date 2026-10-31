@@ -31,11 +31,9 @@
     {
       "key": "v-04",
       "word": "factory",
-      "search": "garment factory workers sewing machines 1940 1950 photograph",
-      "existing": null,
-      "url": null,
+      "url": "https://images.pexels.com/photos/31047158/pexels-photo-31047158.jpeg?auto=compress&cs=tinysrgb&w=1250",
       "fallback": "factory",
-      "caption": "Creative Commons photograph, Wikimedia Commons"
+      "caption": "Modern illustrative photograph, Pexels Free License — not an archival 1950s image"
     },
     {
       "key": "v-05",
@@ -58,74 +56,58 @@
     {
       "key": "v-07",
       "word": "neighborhood",
-      "search": "Lower East Side Manhattan street 1940 New York photograph",
-      "existing": null,
-      "url": null,
+      "url": "https://images.pexels.com/photos/14357513/pexels-photo-14357513.jpeg?auto=compress&cs=tinysrgb&w=1250",
       "fallback": "tenement",
-      "caption": "Creative Commons photograph, Wikimedia Commons"
+      "caption": "Modern illustrative photograph, Pexels Free License — not an archival 1950s image"
     },
     {
       "key": "v-08",
       "word": "quit school",
-      "search": "teenager leaving high school school entrance photograph",
-      "existing": null,
-      "url": null,
+      "url": "https://images.pexels.com/photos/9328278/pexels-photo-9328278.jpeg?auto=compress&cs=tinysrgb&w=1250",
       "fallback": "student",
-      "caption": "Creative Commons photograph, Wikimedia Commons"
+      "caption": "Modern illustrative photograph, Pexels Free License — not an archival 1950s image"
     },
     {
       "key": "v-09",
       "word": "on an impulse",
-      "search": "young man makes decision photograph",
-      "existing": null,
-      "url": null,
+      "url": "https://images.pexels.com/photos/7776468/pexels-photo-7776468.jpeg?auto=compress&cs=tinysrgb&w=1250",
       "fallback": "young",
-      "caption": "Creative Commons photograph, Wikimedia Commons"
+      "caption": "Modern illustrative photograph, Pexels Free License — not an archival 1950s image"
     },
     {
       "key": "v-10",
       "word": "run out of patience",
-      "search": "frustrated impatient young man photograph",
-      "existing": null,
-      "url": null,
+      "url": "https://images.pexels.com/photos/34014555/pexels-photo-34014555.jpeg?auto=compress&cs=tinysrgb&w=1250",
       "fallback": "young",
-      "caption": "Creative Commons photograph, Wikimedia Commons"
+      "caption": "Modern illustrative photograph, Pexels Free License — not an archival 1950s image"
     },
     {
       "key": "v-11",
       "word": "ashamed",
-      "search": "ashamed upset person covering face photograph",
-      "existing": null,
-      "url": null,
+      "url": "https://images.pexels.com/photos/10720532/pexels-photo-10720532.jpeg?auto=compress&cs=tinysrgb&w=1250",
       "fallback": "person",
-      "caption": "Creative Commons photograph, Wikimedia Commons"
+      "caption": "Modern illustrative photograph, Pexels Free License — not an archival 1950s image"
     },
     {
       "key": "v-12",
       "word": "look for a job",
-      "search": "help wanted job application sign shop window photo",
-      "existing": null,
-      "url": null,
+      "url": "https://images.pexels.com/photos/5737622/pexels-photo-5737622.jpeg?auto=compress&cs=tinysrgb&w=1250",
       "fallback": "shop",
-      "caption": "Creative Commons photograph, Wikimedia Commons"
+      "caption": "Modern illustrative photograph, Pexels Free License — not an archival 1950s image"
     },
     {
       "key": "v-13",
       "word": "register",
-      "search": "hand signing registration paper form photograph",
-      "existing": null,
-      "url": null,
+      "url": "https://images.pexels.com/photos/48195/pexels-photo-48195.jpeg?auto=compress&cs=tinysrgb&w=1250",
       "fallback": "student",
-      "caption": "Creative Commons photograph, Wikimedia Commons"
+      "caption": "Modern illustrative photograph, Pexels Free License — not an archival 1950s image"
     },
     {
       "key": "v-14",
       "word": "night school",
-      "search": "night school adult class classroom evening photograph",
-      "existing": null,
-      "url": null,
+      "url": "https://images.pexels.com/photos/37852096/pexels-photo-37852096.jpeg?auto=compress&cs=tinysrgb&w=1250",
       "fallback": "student",
-      "caption": "Creative Commons photograph, Wikimedia Commons"
+      "caption": "Modern illustrative photograph, Pexels Free License — not an archival 1950s image"
     },
     {
       "key": "v-15",
@@ -139,11 +121,9 @@
     {
       "key": "v-16",
       "word": "respect",
-      "search": "two people showing respect shaking hands photograph",
-      "existing": null,
-      "url": null,
+      "url": "https://images.pexels.com/photos/6140466/pexels-photo-6140466.jpeg?auto=compress&cs=tinysrgb&w=1250",
       "fallback": "person",
-      "caption": "Creative Commons photograph, Wikimedia Commons"
+      "caption": "Modern illustrative photograph, Pexels Free License — not an archival 1950s image"
     },
     {
       "key": "v-17",
@@ -152,16 +132,14 @@
       "existing": null,
       "url": "https://tile.loc.gov/storage-services/service/pnp/cph/3c30000/3c31000/3c31100/3c31125v.jpg",
       "fallback": "fish",
-      "caption": "Historical photograph, Library of Congress"
+      "caption": "New York, New York. Fish store in the Jewish section, 1942–43. Library of Congress, Gordon Parks"
     },
     {
       "key": "v-18",
       "word": "cafeteria",
-      "search": "cafeteria 1950s diner waitress counter photograph",
-      "existing": null,
-      "url": null,
+      "url": "https://images.pexels.com/photos/5835331/pexels-photo-5835331.jpeg?auto=compress&cs=tinysrgb&w=1250",
       "fallback": "cafe",
-      "caption": "Creative Commons photograph, Wikimedia Commons"
+      "caption": "Modern illustrative photograph, Pexels Free License — not an archival 1950s image"
     },
     {
       "key": "v-19",
@@ -175,20 +153,18 @@
     {
       "key": "v-20",
       "word": "railroad flat",
-      "search": null,
+      "search": "Interior view of the Tenement Museum LCCN2011631246",
       "existing": null,
-      "url": "https://tile.loc.gov/storage-services/service/pnp/highsm/13000/13052v.jpg",
       "fallback": "apartment",
-      "caption": "Historical photograph, Library of Congress"
+      "caption": "Historical tenement apartment interior, reconstructed at 97 Orchard Street; Carol M. Highsmith / LOC · No known restrictions",
+      "commons_title": "File:Interior view of the Tenement Museum, located on the Lower East Side of Manhattan at 97 Orchard Street, New York, New York LCCN2011631246.tif"
     },
     {
       "key": "v-21",
       "word": "butcher store",
-      "search": "butcher shop butcher meats old photograph 1940",
-      "existing": null,
-      "url": null,
+      "url": "https://images.pexels.com/photos/16276492/pexels-photo-16276492.jpeg?auto=compress&cs=tinysrgb&w=1250",
       "fallback": "shop",
-      "caption": "Creative Commons photograph, Wikimedia Commons"
+      "caption": "Modern illustrative photograph, Pexels Free License — not an archival 1950s image"
     },
     {
       "key": "v-22",
@@ -211,11 +187,9 @@
     {
       "key": "v-24",
       "word": "magazine",
-      "search": null,
-      "existing": null,
-      "url": "https://blogs.loc.gov/law/files/2021/12/Newsstand.jpg",
+      "url": "https://images.pexels.com/photos/4271613/pexels-photo-4271613.jpeg?auto=compress&cs=tinysrgb&w=1250",
       "fallback": "newspaper",
-      "caption": "Creative Commons photograph, Wikimedia Commons"
+      "caption": "Modern illustrative photograph, Pexels Free License — not an archival 1950s image"
     },
     {
       "key": "v-25",
@@ -292,29 +266,23 @@
     {
       "key": "v-33",
       "word": "stock clerk",
-      "search": "grocery worker stocking food cans shelves photograph",
-      "existing": null,
-      "url": null,
+      "url": "https://images.pexels.com/photos/5380920/pexels-photo-5380920.jpeg?auto=compress&cs=tinysrgb&w=1250",
       "fallback": "shop",
-      "caption": "Creative Commons photograph, Wikimedia Commons"
+      "caption": "Modern illustrative photograph, Pexels Free License — not an archival 1950s image"
     },
     {
       "key": "v-34",
       "word": "dissatisfied",
-      "search": "frustrated dissatisfied young adult face photograph",
-      "existing": null,
-      "url": null,
+      "url": "https://images.pexels.com/photos/6355942/pexels-photo-6355942.jpeg?auto=compress&cs=tinysrgb&w=1250",
       "fallback": "young",
-      "caption": "Creative Commons photograph, Wikimedia Commons"
+      "caption": "Modern illustrative photograph, Pexels Free License — not an archival 1950s image"
     },
     {
       "key": "v-35",
       "word": "lonely",
-      "search": "lonely individual sitting alone park photograph",
-      "existing": null,
-      "url": null,
+      "url": "https://images.pexels.com/photos/18404157/pexels-photo-18404157.jpeg?auto=compress&cs=tinysrgb&w=1250",
       "fallback": "park",
-      "caption": "Creative Commons photograph, Wikimedia Commons"
+      "caption": "Modern illustrative photograph, Pexels Free License — not an archival 1950s image"
     },
     {
       "key": "v-36",
@@ -331,7 +299,8 @@
       "key": "bg-usa",
       "word": "USA map",
       "kind": "map",
-      "search": "United States location New York State map"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Map_of_USA_NY.svg/1280px-Map_of_USA_NY.svg.png",
+      "caption": "Map of the United States highlighting New York · Wikimedia Commons CC BY-SA"
     },
     {
       "key": "bg-city",
@@ -349,8 +318,9 @@
     {
       "key": "bg-immigrant",
       "word": "Immigrant families",
-      "search": "immigrant family New York lower east side historical 1900 photograph",
-      "fallback": "immigrant"
+      "fallback": "immigrant",
+      "commons_title": "File:Italian family in the baggage room, Ellis Island, 1905.jpg",
+      "caption": "Lewis Hine, Italian immigrant family at Ellis Island, 1905 · Public domain"
     },
     {
       "key": "bg-tenement",
@@ -373,8 +343,9 @@
     {
       "key": "bg-1950",
       "word": "New York 1950 street",
-      "search": "New York city street Lower East Side 1950 photograph",
-      "fallback": "street"
+      "fallback": "street",
+      "existing": "street",
+      "caption": "New York City around 1952 · Library of Congress · Public domain"
     }
   ]
 }
