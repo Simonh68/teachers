@@ -1,0 +1,245 @@
+<!doctype html><html lang="he" dir="rtl"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A Summer's Reading — Part 1 · Teacher-guided Listening</title><meta name="theme-color" content="#07101d">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;700;800;900&family=Manrope:wght@500;600;700;800;900&display=swap');
+:root{color-scheme:dark;--bg:#07111f;--card:#101e32;--edge:#354b63;--aqua:#7de9f5;--gold:#ffdc7b;--green:#aaf5b8;--muted:#b5c8da}
+*{box-sizing:border-box}html{height:100%;background:var(--bg)}body{font-family:Heebo,Arial,sans-serif;background:linear-gradient(155deg,#081a30,#050c17 70%);color:#f4f8ff;margin:0;min-height:100vh}
+button,select{font:inherit}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.42}a{color:var(--aqua)}
+header{height:67px;display:flex;gap:12px;justify-content:space-between;align-items:center;padding:8px 21px;background:#070d19e8;border-bottom:1px solid #2d4359}
+.headTitle{font:900 clamp(13px,1.4vw,21px) Manrope,Arial;direction:ltr}.tools{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.chip{border:1px solid #647d92;border-radius:11px;background:#16263b;color:white;padding:9px 14px;text-decoration:none;font-weight:800;display:inline-block}.chip:focus-visible,.chip:hover{outline:2px solid var(--aqua);outline-offset:2px}.chip.accent{color:#092139;background:var(--aqua);border-color:transparent}
+main{height:calc(100dvh - 132px);min-height:580px;max-width:1550px;margin:auto;padding:11px 15px}
+.scene{height:100%;border:1px solid var(--edge);border-radius:23px;background:linear-gradient(140deg,#142a43,#0c1727);display:grid;grid-template-columns:minmax(320px,1.04fr) minmax(400px,.96fr);direction:ltr;overflow:hidden}
+.photobox{position:relative;overflow:hidden;min-height:370px;background:#1b344a}
+.photobox img{height:100%;width:100%;object-fit:cover;display:block}.photobox::after{content:"";position:absolute;inset:55% 0 0;background:linear-gradient(transparent,#04101ab8);pointer-events:none}
+.photoNote{position:absolute;bottom:18px;left:18px;right:18px;z-index:1;color:white;text-shadow:0 1px 5px #000;font:700 clamp(14px,1.1vw,19px) Manrope;text-align:left;direction:ltr}
+.photoFail{display:none;position:absolute;inset:0;place-items:center;text-align:center;background:#142c48;padding:30px;color:white;font-size:25px}
+.content{padding:clamp(19px,3.8vw,61px);direction:rtl;display:flex;flex-direction:column;justify-content:center;gap:18px;min-width:0}
+.eyebrow{color:var(--aqua);font:900 14px Manrope;letter-spacing:.12em;direction:ltr;text-align:left;text-transform:uppercase}
+h1{font:900 clamp(37px,5.4vw,84px)/1.12 Manrope,Arial;letter-spacing:-.026em;margin:0;direction:ltr;text-align:left;overflow-wrap:break-word}
+h1.medium{font-size:clamp(32px,4.5vw,67px)}
+.english{font:700 clamp(21px,2.4vw,34px)/1.42 Manrope,Arial;direction:ltr;text-align:left;margin:0}
+.hebrew{font-size:clamp(20px,2.25vw,32px);line-height:1.48;color:var(--gold);font-weight:800}
+.reveal{border:0;border-radius:13px;background:var(--gold);color:#0a1b2c;font-size:clamp(17px,1.5vw,22px);font-weight:900;padding:13px 20px;align-self:flex-start}
+.heart{font-weight:800;color:var(--green);font-size:19px}.notes{font-size:clamp(15px,1.35vw,21px);color:#cbdced;line-height:1.55}
+.kpi{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.pill{background:#123e50;border-radius:100px;padding:6px 13px;color:#b9f5ff;font-size:14px;font-weight:900}
+.miniRow{display:flex;flex-wrap:wrap;gap:10px}
+footer{height:65px;border-top:1px solid #2d4359;padding:5px clamp(12px,2vw,30px);display:flex;align-items:center;justify-content:space-between;gap:14px;background:#07111e}
+footer .pagination{font:800 17px Manrope;color:#cfe4f4}
+footer button{background:#193049;color:#fff;border:1px solid #54758e;padding:9px 17px;border-radius:13px;font-size:25px;font-weight:800}
+.progress{width:min(300px,29vw);height:8px;background:#31455b;border-radius:10px;overflow:hidden}.progress>div{height:100%;width:0;background:linear-gradient(90deg,var(--aqua),var(--gold))}
+#listenScreen{display:none;height:100%}
+.player{height:100%;display:grid;grid-template-columns:minmax(400px,1.1fr) minmax(390px,.9fr);border-radius:24px;overflow:hidden;background:#12233a;border:1px solid #3a5a73;direction:ltr}
+.playerPhoto{position:relative;height:100%;min-height:440px;background:#0b1b2a}
+.playerPhoto img{width:100%;height:100%;object-fit:cover;display:block;transition:opacity .4s ease}.playerPhoto .label{position:absolute;left:25px;bottom:25px;background:#06121fdc;color:white;border-radius:14px;padding:9px 17px;font:900 clamp(20px,2.1vw,32px) Manrope;max-width:90%}
+.playerCopy{padding:clamp(20px,3vw,54px);direction:rtl;display:flex;flex-direction:column;justify-content:center;gap:14px}
+.playerCopy h2{font:900 clamp(40px,5vw,78px) Manrope;direction:ltr;text-align:left;margin:0}
+.audioControls{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.audioControls button,.audioControls select{font-size:19px;padding:13px 15px;border:1px solid #6389a0;border-radius:12px;background:#142d43;color:#fff;font-weight:900}
+.audioControls button.play{background:var(--aqua);color:#071827;border:0}
+.audioBar{width:100%;accent-color:var(--aqua);height:20px}.audioTimes{direction:ltr;display:flex;justify-content:space-between;align-items:center;font:700 17px Manrope}
+#narration{width:100%;height:46px}.hint{font-size:17px;color:#b2d0de}.soundStatus{font-size:16px;color:var(--gold)}
+#challenge{position:fixed;inset:0;display:none;z-index:100;background:#050b15fa;overflow:auto;padding:clamp(12px,2vw,24px)}
+.quizPanel{max-width:1300px;min-height:min(850px,96vh);margin:auto;display:grid;grid-template-columns:minmax(310px,.9fr) minmax(430px,1.1fr);direction:ltr;border-radius:24px;overflow:hidden;border:2px solid #4a6b85;background:#101e33}
+.quizVisual{min-height:450px;position:relative}.quizVisual>img{height:100%;width:100%;object-fit:cover;display:block}
+.quizVisual .caption{position:absolute;left:18px;bottom:18px;font:900 24px Manrope;color:white;background:#071829dd;padding:9px 18px;border-radius:12px}
+.quizText{padding:clamp(23px,4vw,56px);direction:rtl}
+.quizText h2{font:900 clamp(31px,3.9vw,60px) Manrope;direction:ltr;text-align:left;margin:8px 0 11px;line-height:1.2}
+.questionTitle{font:850 clamp(21px,2.5vw,36px) Manrope;direction:ltr;text-align:left;margin:28px 0 12px}
+.answers{display:grid;gap:10px}.answers button{border:2px solid #68819b;background:#1b344b;border-radius:13px;color:white;padding:13px 18px;text-align:left;direction:ltr;font:800 clamp(18px,1.6vw,25px) Manrope}
+.answers button:hover,.answers button:focus-visible{border-color:var(--gold);outline:none}.answers button.right{background:#184f40;border-color:var(--green)}.answers button.wrong{background:#4d2931;border-color:#fca6ac}
+.feedback{min-height:56px;font-size:clamp(16px,1.6vw,23px);color:var(--gold);font-weight:800;margin-top:16px}
+.continue{font-size:clamp(18px,2vw,27px);border:0;background:var(--aqua);color:#061c2c;padding:17px 22px;border-radius:16px;font-weight:900;margin-top:17px;width:100%}
+.quizStep{background:#164b5d;border-radius:100px;padding:4px 12px;font-weight:900;font-size:14px}
+#menu{display:none;max-width:1100px;margin:3vh auto;padding:12px}.intro{background:linear-gradient(120deg,#173550,#0d1726);border:1px solid var(--edge);border-radius:22px;padding:34px}
+.intro h1{font-size:clamp(45px,6.3vw,84px)}.largeDescription{font-size:clamp(21px,2.3vw,30px);line-height:1.45}
+.menuGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:23px}
+.menuTile{display:block;border:1px solid #52738f;border-radius:19px;padding:22px 25px;color:white;text-decoration:none;background:#15283e}
+.menuTile:hover{border-color:var(--aqua);background:#203951}.menuTile h2{font:850 clamp(27px,2.7vw,44px) Manrope;margin:3px 0}.menuTile p{font-size:18px;color:#c8d6e6}
+.kicker{font:800 13px Manrope;color:var(--aqua);letter-spacing:.16em}
+img{color:transparent}
+@media(max-width:900px){header{height:auto;min-height:70px}.scene,.player,.quizPanel{grid-template-columns:1fr}.scene{height:auto;min-height:100%}.photobox,.playerPhoto,.quizVisual{height:34vh;min-height:220px}.content{padding:23px 25px}.playerCopy{padding:21px}.quizText{padding:20px}.menuGrid{grid-template-columns:1fr}main{height:auto;min-height:calc(100vh - 135px)}footer{height:auto;min-height:65px}.progress{display:none}}
+</style></head><body>
+<header><a class="headTitle" href="../../../#grade10" style="color:white;text-decoration:none">A SUMMER’S READING · GRADE 10</a><div class="tools">
+<a class="chip" href="./">תפריט חלק א׳</a><a class="chip" href="../../../#grade10">⌂ כיתה י׳</a>
+<a class="chip" href="../?worksheet=1" target="_blank">🖨️ דף עבודה</a>
+</div></header>
+<div id="menu" style="display:none"></div><main id="main">
+<section id="slideScene" class="scene"><div class="photobox"><img id="slidePhoto" src="" alt=""><div class="photoFail" id="slideFall">Photograph unavailable</div><div class="photoNote" id="slidePhotoLabel"></div></div><div class="content"><div class="eyebrow" id="slideEyebrow"></div><h1 id="slideTitle"></h1><p class="english" id="slideExample"></p><div class="hebrew" id="slideHebrew" hidden></div><button class="reveal" id="toggleHeb">הצג פירוש בעברית</button><div class="notes" id="slideNote"></div></div></section>
+<section id="listenScreen"><div class="player"><div class="playerPhoto">
+<img id="scenePhoto" alt="Photographic listening cue"><span class="label" id="sceneWord">George’s World</span>
+</div><div class="playerCopy">
+<div class="eyebrow">ORIGINAL AUDIO · PART 1 · TWO LISTENING BREAKS</div><h2>Listen Along</h2>
+<p class="english" style="font-size:clamp(21px,2.1vw,33px)">Listen carefully. Watch the pictures. Stop twice to answer.</p>
+<audio id="narration" preload="metadata" playsinline controls>
+<source src="audio/part1.opus" type="audio/ogg; codecs=opus">
+Your browser cannot play this Ogg Opus audio file.</audio>
+<div class="audioTimes"><span id="timeNow">0:00</span><span>6:25</span></div>
+<div class="audioControls">
+<button id="audioPlay" class="play">▶ Play</button>
+<button id="backTen">↶ 10 sec</button>
+<button id="audioPause">Ⅱ Pause</button>
+<select id="audioSpeed" aria-label="Listening speed"><option value=".75">Slow 0.75×</option><option value="1" selected>Medium 1×</option><option value="1.25">Fast 1.25×</option></select>
+</div>
+<div class="soundStatus" id="soundStatus">Before you start: recognize the words you learned.</div>
+<div class="hint" dir="rtl">התמונות מתחלפות תוך כדי האזנה. השמע ייעצר אוטומטית פעמיים לשאלות חובה. בסוף חלק א׳ יופיעו שאלות סיכום.</div>
+<div class="miniRow"><button class="chip" id="restartAudio">↺ להתחלה</button><button class="chip" id="goVocab">אוצר מילים</button></div>
+</div></div></section>
+</main><footer id="bottom"><div style="display:flex;gap:8px"><button id="prev" title="Previous">→</button><button id="next" title="Next">←</button></div><div class="pagination" id="counter">1 / 1</div><div class="progress"><div id="prog"></div></div><button id="goListen" style="font-size:16px">🎧 Start Part 1</button></footer>
+<div id="challenge" aria-live="polite"><div class="quizPanel">
+<div class="quizVisual"><img id="quizPhoto" alt="Realistic photograph illustrating the question"><div class="caption" id="quizCaption">STOP & THINK</div></div>
+<div class="quizText"><div class="eyebrow" id="quizEyebrow">LISTENING CHECK · STOP 1/2</div><h2 id="quizHead">Listen & Think</h2>
+<div class="quizStep" id="quizProgress">Question 1 / 2</div><div class="questionTitle" id="quizQuestion"></div><div class="answers" id="quizAnswers"></div>
+<div class="feedback" id="quizFeedback"></div><button class="continue" id="quizContinue" disabled>המשך לשאלה הבאה</button>
+</div></div></div>
+<script src="../content.js"></script>
+<script>
+(()=>{
+const D=window.SUMMER_DATA;
+const words=D.lesson1;
+const $=x=>document.getElementById(x);
+const pic=(key)=>'photos/'+key+'.jpg';
+const old=(key)=>'../images/'+key+'.jpg';
+const photoLabels={
+'bg-usa':'United States • New York marked on the map',
+'bg-city':'New York City • Manhattan',
+'bg-les':'Lower East Side • working-class neighborhood',
+'bg-immigrant':'Immigrant families • historical context',
+'bg-tenement':'Homes above street-level shops',
+'bg-work':'Shops, factories and offices in the 1950s',
+'bg-office':'Office work with typewriters, not PCs',
+'bg-1950':'New York City in the 1950s'
+};
+const intro=[
+['A Summer’s Reading','Part 1 · Before We Listen','הסיפור מתרחש בשכונה של מעמד עובדים בניו יורק.','bg-1950','BACKGROUND · 1950s NEW YORK'],
+['Where is New York?','New York is in the north-east of the United States.','התחילו בארצות הברית, ואז התקרבו למדינת ניו יורק ולעיר.','bg-usa','MAP · USA → NEW YORK'],
+['New York City','Manhattan is one of the five boroughs of New York City.','התמקדו במנהטן, ואחריה בשכונה שבה מתרחש הסיפור.','bg-city','MAP · NYC → MANHATTAN'],
+['Lower East Side','A working-class neighborhood in Manhattan.','בניינים צפופים, חנויות ברחוב ודירות קטנות מעליהן.','bg-les','HISTORICAL CONTEXT'],
+['Immigrant families','Many immigrants came to New York seeking better lives.','הגירת המשפחות החלה עשרות שנים קודם לכן; נציג את שנות החמישים כרקע ולא כשנה מדויקת של העלילה.','bg-immigrant','HISTORICAL CONTEXT'],
+['Tenement buildings','Small apartments above busy street-level shops.','זוהי המחשה של אורח החיים העירוני. זו אינה דירה מודרנית או חדר מלון.','bg-tenement','HOMES IN NEW YORK'],
+['Making a living','People worked in small businesses, workshops and factories.','בעיר לא התפרנסו בעיקר מחקלאות. היו גם משרדים ועבודה משרדית.','bg-work','JOBS IN THE 1950s'],
+['Offices without PCs','Office workers used typewriters, phones and paper files.','לא היו אז מחשבים אישיים. טכנולוגיית המשרד נראתה שונה מאוד.','bg-office','JOBS IN THE 1950s']
+];
+const slides=[
+...intro.map(x=>({kind:'context',title:x[0],example:x[1],note:x[2],image:x[3],eyebrow:x[4]})),
+{kind:'section',title:'Vocabulary First',example:'One word. One realistic photograph. One clear sentence.',note:'התקדמו מילה־מילה. לחצו להצגת התרגום. כל מילה מקבלת תמונה נפרדת.',image:'bg-1950',eyebrow:'PRE-TEACHING · PART 1'},
+...words.map((x,i)=>({kind:'word',title:x[0],he:x[1],example:x[2],note:x[4],image:'v-'+String(i+1).padStart(2,'0'),fallback:x[3],eyebrow:(x[5]==='Background'?'BACKGROUND VOCABULARY':'PART 1 · EXTENDED VOCABULARY')+' · '+String(i+1).padStart(2,'0')+'/'+words.length})),
+{kind:'section',title:'Ready to Listen?',example:'You know the words. Now follow George’s story!',note:'ההקלטה המקורית תופעל מתוך המצגת עצמה ותיעצר פעמיים לשאלות. אין צורך לפתוח יוטיוב או לבחור שוב קובץ.',image:'bg-1950',eyebrow:'BEFORE LISTENING'}
+];
+const sceneCues=[
+{t:0,label:'GEORGE · HIGH SCHOOL',photo:'a01',fallback:'student'},
+{t:31,label:'LOOKING FOR A JOB',photo:'a02',fallback:'shop'},
+{t:62,label:'NO SCHOOL · NO JOB',photo:'a03',fallback:'young'},
+{t:98,label:'GEORGE’S FAMILY',photo:'a04',fallback:'person'},
+{t:130,label:'HIS FATHER · FISH MARKET',photo:'a05',fallback:'fish'},
+{t:154,label:'SOPHIE · SUBWAY',photo:'a06',fallback:'subwayOld'},
+{t:177,label:'SOPHIE · CAFETERIA',photo:'a07',fallback:'cafe'},
+{t:205,label:'A RAILROAD FLAT',photo:'a08',fallback:'tenement'},
+{t:230,label:'GEORGE’S DAY AT HOME',photo:'a09',fallback:'reading'},
+{t:258,label:'MAGAZINES · NEWSPAPERS',photo:'a10',fallback:'newspaper'},
+{t:284,label:'WALKING IN THE NEIGHBORHOOD',photo:'a11',fallback:'street'},
+{t:320,label:'A LITTLE PARK',photo:'a12',fallback:'parkbench'},
+{t:355,label:'DREAMING OF A BETTER LIFE',photo:'a13',fallback:'park'}
+];
+const quizzes=[
+{time:129.55,slug:'stop-one',caption:'GEORGE AND SCHOOL',image:'q01',fallback:'student',title:'Stop 1 · George',questions:[
+{q:'Why does George feel ashamed when he looks for a job?',answers:['He did not finish high school.','He cannot find his books.','He is new to New York.'],correct:0,why:'George left school at sixteen. When employers ask, he must say he did not finish.'},
+{q:'Why does George decide not to return to night school?',answers:['He does not want teachers telling him what to do.','The subway cannot take him there.','His sister tells him not to study.'],correct:0,why:'He thinks his teachers did not respect him, and he does not want their instructions.'}
+]},
+{time:244.73,slug:'stop-two',caption:'FAMILY AND DAILY LIFE',image:'q02',fallback:'fish',title:'Stop 2 · George’s Family',questions:[
+{q:'Where does Sophie go to work?',answers:['A fish market in Manhattan.','A cafeteria in the Bronx.','A school in New Jersey.'],correct:1,why:'Sophie takes a long subway ride to her job at a cafeteria in the Bronx.'},
+{q:'Why does George spend much of his day at home?',answers:['He has no job and is not at school.','He must care for a baby.','He is working from home on a computer.'],correct:0,why:'George has too much time on his hands. He is neither studying nor working.'}
+]}
+];
+let step=0,heVisible=false,mode='slides',done=[false,false],activeQuiz=-1,quizQ=0,quizSelection=-1,answered=false, currentCue=-1,allowSeek=false;
+const audio=$('narration');
+const page=new URLSearchParams(location.search);
+function safeImg(el,source,fallback){el.onerror=()=>{el.onerror=null;el.src=old(fallback||'street')};el.src=pic(source);}
+function showSlide(){
+mode='slides';$('slideScene').style.display='grid';$('listenScreen').style.display='none';$('bottom').style.display='flex';$('main').style.display='block';$('menu').style.display='none';audio.pause();document.title='A Summer’s Reading — Part 1';
+const s=slides[step];heVisible=false;
+$('slideEyebrow').textContent=s.eyebrow;$('slideTitle').textContent=s.title;$('slideExample').textContent=s.example;
+$('slideHebrew').textContent=s.he||'';$('slideHebrew').hidden=true;$('toggleHeb').hidden=!s.he;$('toggleHeb').textContent='הצג פירוש בעברית';
+$('slideNote').textContent=s.note||'';
+safeImg($('slidePhoto'),s.image,s.fallback||'street');$('slidePhoto').alt=s.title+' — realistic teaching photograph';
+$('slidePhotoLabel').textContent=s.kind==='word'?'VOCABULARY · '+s.title:photoLabels[s.image]||'Historical context';
+$('prev').disabled=step===0;$('next').disabled=step===slides.length-1;$('counter').textContent=(step+1)+' / '+slides.length;
+$('prog').style.width=(100*(step+1)/slides.length)+'%';history.replaceState(null,'',location.pathname+'#slide-'+(step+1));
+}
+function showMenu(){
+audio.pause();$('menu').style.display='block';$('main').style.display='none';$('bottom').style.display='none';$('menu').innerHTML='<div class="intro"><div class="kicker">GRADE 10 · ORIGINAL AUDIO INCLUDED</div><h1>A Summer’s Reading</h1><p class="largeDescription">Part 1 · New York in the 1950s · Expanded vocabulary · Three audio intervals with two mandatory listening checks.</p><div class="miniRow"><span class="pill">36 vocabulary items</span><span class="pill">2 interactive breaks</span><span class="pill">Original teacher-supplied narration · 6:25</span></div></div><div class="menuGrid"><a class="menuTile" href="#start"><div class="kicker">STEP 1</div><h2>Before You Listen</h2><p>Maps, immigrant neighborhoods, jobs before PCs and one realistic picture per vocabulary item.</p></a><a class="menuTile" href="#listen"><div class="kicker">STEP 2</div><h2>Listen Along · Part 1</h2><p>Original soundtrack, pictures that change while you listen, two pauses for comprehension, then a short review.</p></a></div><p class="notes">חלקים ב׳–ג׳ אינם חלק מהגרסה המתוקנת הזאת. לא שיניתי אותם.</p>';
+document.querySelectorAll('.menuTile').forEach(a=>a.onclick=e=>{e.preventDefault();if(a.hash==='#listen')showListen(true);else{step=0;showSlide();}});
+}
+function fmt(t){let s=Math.floor(t);return Math.floor(s/60)+':'+String(s%60).padStart(2,'0')}
+function showListen(reset=false){
+$('menu').style.display='none';$('slideScene').style.display='none';$('listenScreen').style.display='block';$('bottom').style.display='none';$('main').style.display='block';mode='listen';
+if(reset){audio.pause();audio.currentTime=0;done=[false,false];currentCue=-1;}
+history.replaceState(null,'',location.pathname+'#listen');
+tick();
+}
+function setCue(t){
+let i=sceneCues.length-1;while(i>0&&sceneCues[i].t>t)i--;
+if(i===currentCue)return;
+currentCue=i;const s=sceneCues[i];safeImg($('scenePhoto'),s.photo,s.fallback);$('sceneWord').textContent=s.label;
+$('scenePhoto').alt='Realistic image: '+s.label.toLowerCase();
+}
+function tick(){
+if(mode!=='listen'||activeQuiz!==-1)return;
+const t=audio.currentTime;
+setCue(t);$('timeNow').textContent=fmt(t);
+for(let i=0;i<quizzes.length;i++){
+ if(!done[i]&&t>=quizzes[i].time-.08){audio.pause();audio.currentTime=quizzes[i].time;openQuiz(i);return;}
+}
+if(t>=385.3){audio.pause();$('soundStatus').textContent='Part 1 complete! Discuss George’s hopes and his neighborhood.';}
+}
+function openQuiz(i){activeQuiz=i;quizQ=0;quizSelection=-1;answered=false;$('challenge').style.display='block';showQuestion();}
+function showQuestion(){
+let quiz=quizzes[activeQuiz],item=quiz.questions[quizQ];quizSelection=-1;answered=false;
+$('quizPhoto').src=pic(quiz.image);$('quizPhoto').onerror=()=>{$('quizPhoto').onerror=null;$('quizPhoto').src=old(quiz.fallback)};
+$('quizCaption').textContent=quiz.caption;$('quizEyebrow').textContent='LISTENING CHECK · STOP '+(activeQuiz+1)+' / 2';
+$('quizHead').textContent=quiz.title;$('quizProgress').textContent='Question '+(quizQ+1)+' / '+quiz.questions.length;
+$('quizQuestion').textContent=item.q;
+$('quizAnswers').innerHTML='';
+item.answers.forEach((a,i)=>{let b=document.createElement('button');b.textContent=String.fromCharCode(65+i)+'. '+a;b.onclick=()=>choose(i);$('quizAnswers').append(b);});
+$('quizFeedback').textContent='בחרו את התשובה המתאימה למה ששמעתם.';$('quizContinue').disabled=true;$('quizContinue').textContent=(quizQ+1<quiz.questions.length?'המשך לשאלה הבאה':'▶ המשך ההאזנה');
+}
+function choose(i){
+if(answered)return;
+const q=quizzes[activeQuiz].questions[quizQ],buttons=[...$('quizAnswers').children];
+buttons.forEach(b=>{b.classList.remove('right','wrong')});
+buttons[i].classList.add(i===q.correct?'right':'wrong');
+if(i===q.correct){answered=true;buttons[q.correct].classList.add('right');$('quizFeedback').textContent='✓ Correct! '+q.why;$('quizContinue').disabled=false;}
+else{$('quizFeedback').textContent='Not quite. Think about the recording and try another answer.';}
+}
+function continueQuiz(){
+if(!answered)return;
+const q=quizzes[activeQuiz];if(quizQ<q.questions.length-1){quizQ++;showQuestion();return;}
+done[activeQuiz]=true;activeQuiz=-1;$('challenge').style.display='none';$('soundStatus').textContent=done[1]?'Now listen to George’s dreams in the park.':'Good. Continue with George’s family and his day at home.';
+audio.play().catch(e=>{$('soundStatus').textContent='Tap Play to continue. '+e.message;});
+}
+function advance(delta){if(mode!=='slides')return;step=Math.max(0,Math.min(slides.length-1,step+delta));showSlide();}
+$('prev').onclick=()=>advance(-1);$('next').onclick=()=>{if(step===slides.length-1){showListen(true);}else advance(1);};
+$('toggleHeb').onclick=()=>{heVisible=!heVisible;$('slideHebrew').hidden=!heVisible;$('toggleHeb').textContent=heVisible?'הסתר תרגום':'הצג פירוש בעברית';};
+$('goListen').onclick=()=>showListen(true);
+$('audioPlay').onclick=()=>audio.play().catch(e=>$('soundStatus').textContent='Playback unavailable: '+e.message);
+$('audioPause').onclick=()=>audio.pause();
+$('backTen').onclick=()=>{if(activeQuiz!==-1)return;const t=Math.max(0,audio.currentTime-10);audio.currentTime=t;tick();};
+$('audioSpeed').onchange=e=>audio.playbackRate=Number(e.target.value);
+$('restartAudio').onclick=()=>showListen(true);
+$('goVocab').onclick=()=>{step=9;showSlide();};
+$('quizContinue').onclick=continueQuiz;
+audio.ontimeupdate=tick;audio.onloadedmetadata=()=>{$('soundStatus').textContent='Original recording loaded · 6:25';};
+audio.onerror=()=>{$('soundStatus').textContent='Cannot load original audio yet. Check the publication status.';};
+audio.onended=()=>{$('soundStatus').textContent='Part 1 finished. What does George hope for?';};
+document.addEventListener('keydown',e=>{
+ if(['INPUT','SELECT','BUTTON'].includes(document.activeElement?.tagName))return;
+ if(activeQuiz!==-1)return;
+ if(mode==='slides'){if(['ArrowLeft','ArrowUp','PageDown'].includes(e.key)){e.preventDefault();advance(1);}else if(['ArrowRight','ArrowDown','PageUp'].includes(e.key)){e.preventDefault();advance(-1);}}
+ else if(mode==='listen'&&e.key===' '){e.preventDefault();if(audio.paused)audio.play();else audio.pause();}
+});
+let sx=null,sy=null;document.addEventListener('touchstart',e=>{if(e.touches.length===1){sx=e.touches[0].clientX;sy=e.touches[0].clientY;}},{passive:true});
+document.addEventListener('touchend',e=>{if(mode!=='slides'||sx===null)return;const dx=e.changedTouches[0].clientX-sx,dy=e.changedTouches[0].clientY-sy;sx=sy=null;if(Math.max(Math.abs(dx),Math.abs(dy))<90)return;advance(Math.abs(dx)>Math.abs(dy)?(dx<0?1:-1):(dy<0?1:-1));},{passive:true});
+audio.addEventListener('seeking',()=>{if(activeQuiz!==-1)return;const max=done[0]?(done[1]?385.5:quizzes[1].time):quizzes[0].time;if(audio.currentTime>max+.2){audio.currentTime=max;}});
+const hash=location.hash;if(hash==='#listen')showListen(false);else if(hash.match(/^#slide-(\d+)$/)){step=Math.min(slides.length-1,Math.max(0,Number(hash.split('-')[1])-1));showSlide();}else showMenu();
+})();
+</script></body></html>
