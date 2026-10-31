@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="he" dir="rtl"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080f1c"><title>A Summer's Reading · Grade 10</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;700;800;900&family=Manrope:wght@400;600;700;800;900&display=swap');
+:root{--bg:#060c17;--panel:#111e31;--edge:#3d5470;--white:#f6f9ff;--quiet:#b5c9dd;--cyan:#6de4f5;--yellow:#f9d86d;--green:#9cf2ab}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--white);font-family:Heebo,Arial,sans-serif;min-height:100vh}
+a{color:var(--cyan)}button,select,input{font:inherit}button{cursor:pointer}
+.en{font-family:Manrope,Arial,sans-serif;direction:ltr;text-align:left}
+.mast{height:62px;padding:7px clamp(12px,2vw,34px);display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid #ffffff28;background:#080f1eea;z-index:12;position:relative}
+.mast a{text-decoration:none;font-weight:800}.mast .brand{font:800 clamp(13px,1.5vw,17px) Manrope}.controls{display:flex;align-items:center;gap:9px;flex-wrap:wrap}.control{border:1px solid #ffffff42;border-radius:12px;background:#14243a;color:#fff;padding:9px 13px;font-weight:800;text-decoration:none}
+.control:hover,.control:focus-visible{border-color:var(--cyan);outline:none}.control.primary{background:#22aabe;color:#07121d;border-color:transparent}
+#progressTrack{height:5px;background:#192a3f}#progressFill{height:100%;width:0;background:linear-gradient(90deg,#31d7ed,#f9d86d);transition:width .18s}
+#stage{min-height:calc(100dvh - 135px);display:grid;align-items:center}
+.scene{width:min(1510px,98vw);min-height:min(78dvh,800px);margin:10px auto;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(360px,.95fr);background:linear-gradient(135deg,#17283d,#0b1523);border:1px solid #385574;border-radius:26px;overflow:hidden;box-shadow:0 20px 70px #0008;direction:ltr}
+.scene.wide{grid-template-columns:1fr}.visual{position:relative;min-height:500px;background:#10283c;display:grid;place-items:center;overflow:hidden}
+.visual img{display:block;width:100%;height:100%;min-height:500px;max-height:76dvh;object-fit:cover;filter:saturate(.84) contrast(1.04)}
+.visual .gradient{position:absolute;inset:0;background:linear-gradient(0deg,#07111fd0,transparent 44%,#08111f55)}
+.photocredit{position:absolute;bottom:10px;left:16px;color:#fff;background:#06121eb7;border-radius:6px;padding:4px 7px;font:600 11px Manrope;max-width:90%;text-decoration:none}
+.photo-fallback{position:absolute;inset:0;background:linear-gradient(135deg,#0b3650,#141a35);display:none;place-items:center;padding:50px;color:#e6f5ff;text-align:center;font:800 22px Manrope}
+.copy{padding:clamp(24px,4vw,58px);display:flex;flex-direction:column;justify-content:center;gap:16px;direction:rtl;min-width:0}
+.eyebrow{font:900 13px Manrope;letter-spacing:.16em;text-transform:uppercase;color:var(--cyan);direction:ltr;text-align:left}
+.bigtitle{font:900 clamp(38px,5.9vw,87px)/1.07 Manrope;letter-spacing:-.035em;margin:0;overflow-wrap:anywhere;direction:ltr;text-align:left}
+.bigtitle.tight{font-size:clamp(35px,5.2vw,72px)}
+.lead{color:#e8f3ff;font:700 clamp(23px,2.45vw,38px)/1.33 Manrope;direction:ltr;text-align:left;margin:0}
+.description{font-size:clamp(19px,2vw,29px);line-height:1.5;margin:0;color:#d4e0ee}
+.hebrew{min-height:64px;font-size:clamp(24px,2.9vw,41px);font-weight:900;color:var(--yellow);border-inline-start:4px solid var(--yellow);padding-inline-start:17px;display:flex;align-items:center}
+.hebrew.hidden{visibility:hidden}
+.tip{border-top:1px solid #ffffff25;padding-top:15px;font-size:clamp(16px,1.6vw,23px);color:#d4e2f2}
+button.reveal{align-self:flex-start;color:#102037;background:var(--yellow);font-weight:900;border:0;border-radius:13px;padding:13px 24px;font-size:clamp(17px,1.6vw,23px)}
+.storyphase{display:inline-block;border-radius:10px;background:#e1f6ff12;color:var(--cyan);padding:7px 11px;font-weight:900;font-size:14px;align-self:flex-start}
+.bottom{min-height:62px;padding:6px max(2vw,14px);display:flex;align-items:center;justify-content:space-between;gap:9px}
+.counter{color:var(--quiet);font:700 16px Manrope}.arrow{font-size:28px;padding:5px 20px;border:1px solid #59738c;border-radius:14px;background:#1c334a;color:#fff}
+.arrow:disabled{opacity:.32}.lessonNav{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+#seek{width:clamp(120px,15vw,230px);accent-color:var(--cyan)}
+.route{display:flex;gap:9px;align-items:center;font-size:15px;color:var(--quiet)}
+#landing{max-width:1150px;margin:3vw auto;padding:25px}
+#landing h1{font:900 clamp(43px,7vw,86px) Manrope;direction:ltr;text-align:left;margin:20px 0 8px}
+#landing .hero{padding:40px;border:1px solid var(--edge);border-radius:27px;background:linear-gradient(145deg,#122940,#142037)}
+#landing .sub{font-size:clamp(19px,2.2vw,27px);color:#bcd0e7}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:19px;margin-top:25px}.lessonCard{border:1px solid #3d5874;border-radius:21px;padding:26px;background:#102136;text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:10px}
+.lessonCard h2{font:900 clamp(25px,3vw,38px) Manrope;margin:0;direction:ltr;text-align:left;color:#fff}
+.lessonCard strong{font-size:20px;color:var(--yellow)}.lessonCard p{font-size:18px;color:#c6d7e7;margin:0}
+.lessonCard:hover{border-color:var(--cyan);background:#172d44}.smallrow{display:flex;gap:13px;flex-wrap:wrap;margin-top:25px}
+.mapFrame{width:100%;height:100%;min-height:520px;display:block;border:0}.mapnote{font:700 14px Manrope;color:#dce8f4;position:absolute;bottom:8px;left:12px;background:#061326a8;padding:5px 10px}
+.timeline{font:900 clamp(28px,4vw,53px) Manrope;color:var(--yellow);direction:ltr;text-align:left}
+.videoScene{max-width:1450px;margin:16px auto;display:grid;grid-template-columns:minmax(330px,.68fr) minmax(0,1.32fr);gap:23px;padding:25px;background:#0f2134;border-radius:22px;border:1px solid #45627a;direction:ltr}
+.videoScene h1{font:900 clamp(43px,5vw,75px) Manrope;margin:0}
+.videoArea{position:relative;aspect-ratio:16/9;align-self:center;background:#09101c;border:1px solid #485f79;border-radius:15px;overflow:hidden}
+.videoArea iframe{width:100%;height:100%;border:0;display:block}.videoPlaceholder{height:100%;display:grid;place-content:center;text-align:center;gap:20px}
+.videoPlaceholder button{font-size:23px;max-width:400px}
+.audioLine{display:flex;gap:9px;align-items:center;flex-wrap:wrap;direction:rtl}
+.audioLine audio{width:100%;max-width:550px}
+.questionScene{max-width:1250px;margin:18px auto;padding:clamp(28px,5vw,65px);background:#11253a;border:1px solid var(--edge);border-radius:23px}
+.questionScene h1{font:900 clamp(29px,3.9vw,55px) Manrope;direction:ltr;text-align:left;line-height:1.22;margin:14px 0 25px}
+.option{width:100%;display:block;background:#172f47;border:2px solid #57718b;border-radius:13px;margin:13px 0;padding:15px 22px;color:#fff;font:800 clamp(20px,2.4vw,34px) Manrope;direction:ltr;text-align:left}
+.option:hover{border-color:var(--yellow)}.option.selected{border-color:var(--yellow);background:#3d3c35}
+.feedback{font-size:25px;font-weight:800;margin:24px 0;color:var(--green);min-height:45px}
+.questionBtn{background:var(--yellow);border:0;border-radius:12px;padding:12px 20px;font-weight:900;color:#101c2b}
+.routeBanner{margin-top:14px;color:#c2dcf1;font-size:17px}
+@media(max-width:920px){.scene{grid-template-columns:1fr;min-height:auto}.visual,.visual img{min-height:260px;max-height:38dvh}.copy{padding:20px 25px}.bigtitle{font-size:clamp(37px,7vw,70px)}.videoScene{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.mast{height:auto;min-height:62px}.route{display:none}}
+/* A4 worksheet mode */
+body.worksheet{background:#e4eaf0;color:#14202b}body.worksheet .mast{display:none}body.worksheet #stage{display:none}
+.worksheetWrap{max-width:210mm;margin:auto}.paper{width:210mm;height:297mm;margin:10mm auto;padding:14mm 16mm 13mm;background:#fff;box-shadow:0 4px 25px #0003;overflow:hidden;direction:ltr;font-family:Arial,sans-serif;color:#111;font-size:12.1pt;line-height:1.35;break-after:page}
+.paper h1{font-size:21pt;margin:0 0 4mm;color:#112742}.paper h2{font-size:14pt;color:#163d5a;margin:5mm 0 3mm}.paper .lessonstamp{font-size:9.5pt;color:#556;font-weight:700}.paper .details{border-bottom:1px solid #777;padding:3mm 0 5mm;margin-bottom:4mm}.paper p{margin:2mm 0}.paper .small{font-size:10pt;color:#444}.paper .twoCols{display:grid;grid-template-columns:1fr 1fr;column-gap:11mm}.paper .lines{border-bottom:1px solid #8c9195;height:9mm}.paper li{padding-bottom:2mm}.paper .wordbank{background:#eef2f4;border:1px solid #ddd;padding:8px 12px;margin:7px 0;font-size:10.8pt}.paper .challenge{border:1px solid #bdd4e0;background:#f6fafc;padding:4mm;margin:5mm 0}.paper .numbered{padding-left:20px}.paper .numbered li{margin-bottom:4mm}
+.printbar{text-align:center;margin:15px}.printbar button,.printbar a{font-size:17px;background:#102c47;color:white;border:0;border-radius:12px;padding:10px 16px;margin:0 6px;text-decoration:none}
+@page{size:A4;margin:0}
+@media print{body.worksheet{background:white}.printbar{display:none}.paper{margin:0;padding:13mm 16mm;box-shadow:none;page-break-after:always;break-after:page}.paper:last-child{page-break-after:auto;break-after:auto}}
+</style></head><body><header class="mast">
+<a class="brand" href="../../../#grade10">⌂ כיתה י׳ · Grade 10</a>
+<div class="controls" id="topButtons"></div>
+</header><div id="progressTrack"><div id="progressFill"></div></div>
+<div id="landing" hidden></div><main id="stage"></main><footer class="bottom" id="bottom" hidden>
+<div class="lessonNav"><button class="arrow" id="previous" aria-label="השקף הקודם">→</button><button class="arrow" id="next" aria-label="השקף הבא">←</button><span class="counter" id="counter"></span></div>
+<div class="lessonNav"><label class="route">דלג לשקף <input type="range" id="seek" min="1" value="1"></label><a class="control" id="worksheetLink" href="?worksheet=1" target="_blank">דף עבודה להדפסה</a></div>
+</footer><div id="sheet" hidden></div><audio id="localAudio" preload="metadata" style="display:none"></audio>
+<script src="content.js"></script><script>
+(()=>{
+'use strict';
+const D=window.SUMMER_DATA;const args=new URLSearchParams(location.search);const lesson=Number(args.get('lesson')||0);const worksheet=Number(args.get('worksheet')||0);
+const esc=(v)=>String(v??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+const pictures=D.photos; const extra=D.unsplash;
+let slides=[],slidePos=0,revealed=false,fast=false,localURL='',playingEnd=1525,loadedSlide=-1;
+const iframeTag=(start,end)=>'<iframe title="Original YouTube audio and text" src="https://www.youtube-nocookie.com/embed/JyCyWpHS7AY?rel=0&playsinline=1&start='+start+'&end='+end+'" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
+function imageInfo(key){
+ if(pictures[key]){let [name,alt]=pictures[key];return {url:'https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(name)+'?width=1250',credit:alt,source:'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(name)};}
+ return {url:extra[key]||extra.books,credit:'Illustrative photograph · Unsplash',source:'https://unsplash.com'};
+}
+function media(key){const i=imageInfo(key);return '<div class="visual"><img src="'+esc(i.url)+'" alt="'+esc(i.credit)+'" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'"><div class="photo-fallback">🖼️<div>Photograph unavailable · use the source link</div></div><div class="gradient"></div><a class="photocredit" href="'+esc(i.source)+'" target="_blank" rel="noopener">'+esc(i.credit)+'</a></div>';}
+function add(x){slides.push(x);}
+function vocabItems(list,part){list.filter(x=>x[5]===part).forEach((x,n)=>add({type:'word',word:x[0],he:x[1],example:x[2],photo:x[3],note:x[4],part,extended:(n%4===3)}));}
+function cover(n,title,sub,photo){add({type:'cover',title,sub,photo,part:n})}
+function context(title,sub,photo,note,part){add({type:'history',title,sub,photo,note,part})}
+function partHead(label,subtitle,photo){add({type:'section',title:label,sub:subtitle,photo,part:label})}
+function listen(part,start,end,prompt,photo){add({type:'listen',part,start,end,prompt,photo})}
+function question(part,q,options,answer,explain){add({type:'question',part,q,options,answer,explain})}
+function assemble(){
+ if(lesson===1){
+  cover('Lesson 1','A Summer’s Reading','Lesson 1 · New York in the 1950s · Part 1','street');
+  add({type:'map',title:'The United States',sub:'New York is in the north-eastern United States.',bbox:'-125,24,-66,50',part:'History',note:'מהמדינה הגדולה אל ניו יורק — מיקום גיאוגרפי'});
+  add({type:'map',title:'New York State → New York City',sub:'New York City is in New York State, on the Atlantic coast.',bbox:'-80,39.7,-70.8,45.1',part:'History',note:'מדינת ניו יורק איננה זהה לעיר ניו יורק'});
+  add({type:'map',title:'Manhattan and the Five Boroughs',sub:'The Bronx, Brooklyn, Queens, Staten Island and Manhattan form New York City.',bbox:'-74.18,40.53,-73.70,40.92',part:'History',note:'שימו לב למנהטן ולברונקס — סופי נוסעת לעבוד בברונקס'});
+  add({type:'map',title:'A Working-Class Neighborhood',sub:'The Lower East Side is an example of an old immigrant neighborhood in Manhattan.',bbox:'-74.02,40.705,-73.96,40.735',part:'History',note:'השכונה אינה נקראת במפורש כך בסיפור; זו המחשה של סביבת חיים דומה'});
+  context('New York, around the 1950s','Look at the street, the shops and the people.','street','צילום מ־1952. הסיפור פורסם בשנת 1956; אין בו שנה מדויקת.','History');
+  context('Immigrants built neighborhoods','Many families lived near people who spoke their language.','immigrant','מגורים בקרבת משפחות, חנויות ושירותים קהילתיים.','History');
+  context('Homes above small shops','Stores at street level. Small apartments upstairs.','tenement','כך התפרנסה שכונה עירונית — לא מחקלאות.','History');
+  context('Jobs before personal computers','Shops • factories • offices • manual work • typewriters','office','גם אז היו משרדים; העבודה במשרדים התבצעה בלי מחשבים אישיים.','History');
+  partHead('Background Vocabulary','One word. One realistic photograph. One useful sentence.','typewriter');
+  vocabItems(D.lesson1,'Background');
+  partHead('Part 1 · George’s World','Learn the words BEFORE you listen.','tenement');
+  vocabItems(D.lesson1,'Part 1');
+  context('Ready to listen?','Listen for George, Sophie, their father, work and the neighborhood.','street','אל תתרגמו כל מילה — נסו לזהות את הרעיונות והפרטים שהכנו.','Part 1');
+  listen('Part 1',0,386,'Who is George? What does he do? What does he want?', 'street');
+  question('Part 1','How old was George when he quit school?',['Sixteen.','Twenty-three.','Ten.'],0,'George quit high school when he was 16.');
+  question('Part 1','Where does Sophie work?',['In a fish market.','In a cafeteria in the Bronx.','In a library.'],1,'Sophie travels by subway to a cafeteria in the Bronx.');
+  question('Part 1','What does George usually do in the evening?',['He walks and visits a little park.','He works on a farm.','He studies at a university.'],0,'He wanders through the neighborhood and thinks in the park.');
+  question('Part 1','What does George want most for his future?',['A better life and respect.','A personal computer.','A new school uniform.'],0,'He wants a good job, a better home and respect.');
+  add({type:'end',part:'Lesson 1',title:'Lesson 1 complete',sub:'Next: Mr. C, the story of the books, and George’s choices.',photo:'books'});
+ } else {
+  cover('Lesson 2','A Summer’s Reading','Lesson 2 · Mr. C · Parts 2 & 3','subwayOld');
+  context('Remember George','George has no job. He wants respect. He likes to walk at night.','tenement','חזרה קצרה לפני פרק ב׳ — מה הוא חיפש בחייו?','Recap');
+  context('The IRT subway','Mr. C works at a change booth. New Yorkers used coins and later tokens.','subwayOld','בתמונה קרון רכבת תחתית אותנטי משנות החמישים.','Part 2');
+  context('A neighborhood of small businesses','Mr. C lives over a shoe-repair store.','shoe','בתמונה מקצוע הסנדלר; העבודה נעשית בידיים ובכלי עבודה.','Part 2');
+  partHead('Part 2 · Meet Mr. C','Mr. C = Mr. Cattanzara. Vocabulary BEFORE listening.','person');
+  vocabItems(D.lesson2,'Part 2');
+  listen('Part 2',391,858,'What does George tell Mr. C? How do the neighbors change?', 'subwayOld');
+  question('Part 2','Where does Mr. C work?',['At a change booth in an IRT station.','At George’s school.','On a farm.'],0,'Mr. C works at a subway station.');
+  question('Part 2','What does George say he is going to read?',['Ten magazines.','One hundred books.','Only newspapers.'],1,'He tells Mr. C that he plans to read 100 books.');
+  question('Part 2','Why do the neighbors begin to respect George?',['They believe he is reading many books.','He buys a car.','He joins a football team.'],0,'Mr. C’s interest helps change the neighbors’ view of George.');
+  question('Part 2','Why does George start to avoid Mr. C?',['He is afraid of questions about his reading.','He does not remember his name.','The subway is closed.'],0,'George has not really read the books.');
+  context('Before the final part','George has books in his room. But does he really read them?','books','אל תגלו את הסיום: רק שאלו מה עשוי לקרות עכשיו.','Part 3');
+  partHead('Part 3 · The Truth','The final vocabulary comes BEFORE the final audio section.','books2');
+  vocabItems(D.lesson2,'Part 3');
+  listen('Part 3',864,1525,'What does Mr. C ask? How does George feel? What does he finally do?', 'library');
+  question('Part 3','When Mr. C asks George to name a book, George…',['cannot give the name of one book.','names ten books immediately.','shows his school report.'],0,'George cannot name a book he has read.');
+  question('Part 3','What does Mr. C do after seeing George’s shame?',['He walks away without publicly exposing him.','He calls the police.','He laughs at him in front of everyone.'],0,'Mr. C leaves out of pity and does not tell the neighborhood.');
+  question('Part 3','What does the neighborhood believe later?',['George has finished his list of books.','George is a rich man.','George has become a teacher.'],0,'The rumor says George has read all the books.');
+  question('Part 3','What does George finally begin to do?',['Read books at the library.','Work at the fish market.','Move to another country.'],0,'George finally goes to the library and begins reading.');
+  add({type:'end',part:'Lesson 2',title:'Think about the story','sub':'Why does Mr. C protect George? How can a person really change?','photo':'library'});
+ }
+}
+function toolbar(){
+ const buttons=document.querySelector('#topButtons');
+ if(!lesson){buttons.innerHTML='<a class="control" href="../../../#grade10">🏠 תפריט הכיתה</a>';return;}
+ buttons.innerHTML='<a class="control" href="?">שני השיעורים</a><a class="control" href="?lesson='+(lesson===1?2:1)+'">שיעור '+(lesson===1?2:1)+'</a><button class="control" id="fastButton" title="הציגו רק מילות ליבה, אם הזמן מוגבל">קיצור לשיעור קצר</button><a class="control" target="_blank" href="?worksheet='+lesson+'">🖨️ דף עבודה '+lesson+'</a>';
+ document.querySelector('#fastButton').addEventListener('click',()=>{fast=!fast;document.querySelector('#fastButton').textContent=fast?'✓ רק מילות ליבה':'קיצור לשיעור קצר'; const active=slides[slidePos];if(fast&&active.type==='word'&&active.extended){slidePos=nextVisible(slidePos,1)}render();});
+}
+function nextVisible(p,delta){let n=p;while(true){n=Math.max(0,Math.min(slides.length-1,n+delta));if(!fast||!slides[n].extended||n===0||n===slides.length-1) return n;if(n===p)return n;}}
+function btnNav(delta){if(!slides.length)return;slidePos=nextVisible(slidePos,delta);render();}
+function slideBox(title,desc,photo,eyebrow,note,wide=false){
+ return '<article class="scene '+(wide?'wide':'')+'">'+(wide?'':media(photo))+'<div class="copy"><div class="eyebrow">'+esc(eyebrow||'A SUMMER’S READING')+'</div><h1 class="bigtitle '+(title.length>27?'tight':'')+'">'+esc(title)+'</h1><p class="lead">'+esc(desc||'')+'</p>'+(note?'<p class="tip" dir="rtl">'+esc(note)+'</p>':'')+'</div></article>';
+}
+function mapScene(s){
+const bbox=s.bbox;const view='https://www.openstreetmap.org/export/embed.html?bbox='+encodeURIComponent(bbox)+'&layer=mapnik';
+return '<article class="scene"><div class="visual"><iframe class="mapFrame" title="'+esc(s.title)+'" loading="lazy" src="'+view+'"></iframe><div class="mapnote">OpenStreetMap · interactive map</div></div><div class="copy"><div class="eyebrow">GEOGRAPHY · 1950s SETTING</div><h1 class="bigtitle tight">'+esc(s.title)+'</h1><p class="lead">'+esc(s.sub)+'</p><p class="tip" dir="rtl">'+esc(s.note)+'</p></div></article>';
+}
+function wordScene(s){
+return '<article class="scene">'+media(s.photo)+'<div class="copy"><div class="eyebrow">'+esc(s.part.toUpperCase())+' · VOCABULARY · '+(s.extended?'EXTENDED':'CORE')+'</div><h1 class="bigtitle '+(s.word.length>19?'tight':'')+'" lang="en">'+esc(s.word)+'</h1><p class="lead" lang="en">'+esc(s.example)+'</p><div class="hebrew '+(revealed?'':'hidden')+'" id="translation" aria-live="polite">'+esc(s.he)+'</div><button class="reveal" id="reveal" aria-expanded="'+revealed+'">'+(revealed?'הסתר תרגום':'הצג פירוש בעברית')+'</button><p class="tip">'+esc(s.note)+'</p></div></article>';
+}
+function listening(s){
+const min=n=>Math.floor(n/60)+':'+String(n%60).padStart(2,'0');
+return '<article class="videoScene"><div style="direction:rtl"><div class="eyebrow">LISTENING · ORIGINAL RECORDING</div><h1>'+esc(s.part)+'</h1><div class="timeline">'+min(s.start)+' – '+min(s.end)+'</div><p class="description en">'+esc(s.prompt)+'</p><p class="tip">1. לחצו להשמעה המקורית ביוטיוב. 2. או בחרו את קובץ ה־M4A שהעליתם, והשמיעו את אותו מקטע ישירות מהמחשב.</p><p class="tip">בתום ההאזנה עברו לשאלות. חזרו לקטע אם צריך.</p><div class="audioLine"><label class="control" style="cursor:pointer">📁 קובץ אודיו מקומי <input type="file" id="pickFile" accept=".m4a,.mp3,audio/*" style="width:1px;opacity:0;position:absolute"></label><button class="control" id="replayLocal" '+(localURL?'':'disabled')+'>▶ קטע מקובץ מקומי</button><select id="speed" class="control"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option></select></div><div id="audioHolder"></div></div><div class="videoArea" id="videoArea"><div class="videoPlaceholder"><div class="description">🎧 '+esc(s.part)+'</div><button class="control primary" id="playYoutube">▶ נגן את החלק ביוטיוב</button><a href="https://youtu.be/JyCyWpHS7AY?t='+s.start+'" target="_blank" rel="noopener">לפתיחה ישירה ביוטיוב</a></div></div></article>';
+}
+function questionScene(s){
+return '<article class="questionScene"><div class="eyebrow">'+esc(s.part)+' · LISTENING CHECK</div><h1>'+esc(s.q)+'</h1><div id="options">'+s.options.map((o,i)=>'<button class="option" data-answer="'+i+'">'+String.fromCharCode(65+i)+'. '+esc(o)+'</button>').join('')+'</div><div class="feedback" id="feedback" aria-live="polite"></div><button class="questionBtn" id="showAnswer">חשוף תשובה והסבר</button></article>';
+}
+function render(){
+ const s=slides[slidePos];revealed=false;document.querySelector('#progressFill').style.width=(100*(slidePos+1)/slides.length).toFixed(2)+'%';
+ const a=document.querySelector('#localAudio');a.pause();
+ let html='';
+ if(s.type==='word')html=wordScene(s);
+ else if(s.type==='map')html=mapScene(s);
+ else if(s.type==='question')html=questionScene(s);
+ else if(s.type==='listen')html=listening(s);
+ else html=slideBox(s.title,s.sub,s.photo,s.part,s.note);
+ document.querySelector('#stage').innerHTML=html;document.querySelector('#counter').textContent=(slidePos+1)+' / '+slides.length;
+ document.querySelector('#previous').disabled=slidePos===0;document.querySelector('#next').disabled=slidePos===slides.length-1;
+ const seek=document.querySelector('#seek');seek.max=slides.length;seek.value=slidePos+1;document.querySelector('#worksheetLink').href='?worksheet='+lesson;
+ if(s.type==='word')document.querySelector('#reveal').onclick=()=>{revealed=!revealed;document.querySelector('#translation').classList.toggle('hidden',!revealed);document.querySelector('#reveal').textContent=revealed?'הסתר תרגום':'הצג פירוש בעברית';document.querySelector('#reveal').setAttribute('aria-expanded',String(revealed));};
+ if(s.type==='question'){
+ let selected=-1;const buttons=[...document.querySelectorAll('.option')];buttons.forEach((b,i)=>b.onclick=()=>{selected=i;buttons.forEach(x=>x.classList.remove('selected'));b.classList.add('selected');document.querySelector('#feedback').textContent='נבחרה תשובה '+String.fromCharCode(65+i)+'. לחצו לחשיפה.';});
+ document.querySelector('#showAnswer').onclick=()=>{buttons.forEach((b,i)=>{b.style.borderColor=i===s.answer?'#9cf2ab':'#57718b';b.style.background=i===s.answer?'#24483b':'';});document.querySelector('#feedback').textContent=(selected===s.answer?'Correct! ':'Answer: '+String.fromCharCode(65+s.answer)+'. ')+s.explain;};
+ }
+ if(s.type==='listen'){
+ document.querySelector('#playYoutube').onclick=()=>{document.querySelector('#videoArea').innerHTML=iframeTag(s.start,s.end);};
+ document.querySelector('#pickFile').onchange=e=>{let f=e.target.files[0];if(!f)return;if(localURL)URL.revokeObjectURL(localURL);localURL=URL.createObjectURL(f);a.src=localURL;a.load();let btn=document.querySelector('#replayLocal');btn.disabled=false;document.querySelector('#audioHolder').innerHTML='<div style="color:var(--green);font-weight:800">✓ '+esc(f.name)+' נטען למכשיר זה בלבד</div><div id="playAudio"></div>';document.querySelector('#replayLocal').click();};
+ document.querySelector('#replayLocal').onclick=()=>{if(!localURL)return;playingEnd=s.end;const speed=document.querySelector('#speed');a.playbackRate=Number(speed.value);a.currentTime=s.start;let holder=document.querySelector('#audioHolder');if(holder)holder.innerHTML='<div class="audioLine"><audio controls id="newAudio" style="width:100%"></audio></div>';const v=holder.querySelector('#newAudio');v.src=localURL;v.currentTime=s.start;v.playbackRate=Number(speed.value);v.ontimeupdate=()=>{if(v.currentTime>=s.end){v.pause();v.currentTime=s.end;}};v.play().catch(()=>{});};
+ }
+ history.replaceState(null,'',location.pathname+'?lesson='+lesson+'#slide-'+(slidePos+1));
+}
+function landing(){
+ document.querySelector('#landing').hidden=false;document.querySelector('#stage').style.display='none';document.querySelector('#progressTrack').style.display='none';document.querySelector('#landing').innerHTML='<div class="hero"><div class="eyebrow">GRADE 10 · TWO LESSONS · A2–B1</div><h1>A Summer’s Reading</h1><p class="sub">Bernard Malamud · ניו יורק בשנות החמישים · רקע, תמונות ריאליסטיות ואוצר מילים מורחב · הכנה ממוקדת להקלטה</p><p class="sub">שלושת חלקי הסיפור נשמרים בדיוק. שיעור 1: רקע וחלק א׳; שיעור 2: חלקים ב׳–ג׳. כל פריט אוצר מילים בשקף נפרד.</p></div><div class="cards"><a class="lessonCard" href="?lesson=1"><strong>LESSON 01</strong><h2>New York & George’s World</h2><p>מפות, מהגרים, עבודה בעיר לפני המחשב האישי, אוצר מילים מורחב וחלק 1 של ההקלטה.</p><span>פתח מצגת שיעור 1 ←</span></a><a class="lessonCard" href="?lesson=2"><strong>LESSON 02</strong><h2>Mr. C · The Truth</h2><p>לימוד מילים לפני כל קטע, השמעת חלקים 2–3 ושאלות הבנת הנשמע.</p><span>פתח מצגת שיעור 2 ←</span></a></div><div class="smallrow"><a class="control" href="?worksheet=1">🖨️ דף עבודה · שיעור 1</a><a class="control" href="?worksheet=2">🖨️ דף עבודה · שיעור 2</a><a class="control" href="../../../#grade10">⌂ חזרה לכיתה י׳</a></div><p class="routeBanner">המצגת משתמשת בנגן הסרטון המקורי ביוטיוב. אפשר גם לבחור קובץ שמע מקומי דרך כפתור האודיו בלי לשלוח אותו לשרת. התמונה ההיסטורית היא להמחשה; מקום מגוריו המדויק של ג׳ורג׳ אינו מצוין בטקסט.</p>';
+}
+function writeLines(n){return Array(n).fill('<div class="lines"></div>').join('');}
+function twoColumns(left,right){return '<div class="twoCols"><div>'+left+'</div><div>'+right+'</div></div>';}
+function list(items){return '<ol class="numbered">'+items.map(x=>'<li>'+x+'</li>').join('')+'</ol>';}
+function worksheetHTML(n){
+const head='<div class="lessonstamp">A SUMMER’S READING · BERNARD MALAMUD · GRADE 10 · LESSON '+n+'</div><h1>'+(n===1?'Lesson 1 · New York & George':'Lesson 2 · Mr. C & The Truth')+'</h1><div class="details">Name: ______________________________ Class: ______ Date: __________</div>';
+if(n===1){
+const p1=head+'<h2>A. Before listening — Match the words to their meanings.</h2><p class="small">Write the correct letter next to each word.</p>'+
+twoColumns(list(['neighborhood ____','ashamed ____','railroad flat ____','fish market ____','quit school ____','time on his hands ____','cafeteria ____','dissatisfied ____','butcher store ____','wander ____']),list(['a. to leave school','b. not happy or satisfied','c. a place that sells fish','d. to walk without a plan','e. feeling shame','f. a local area of a town','g. a long narrow apartment','h. a place for simple meals','i. a shop that sells meat','j. a lot of free time']))+
+'<h2>B. Life in New York in the 1950s — Circle the correct answer.</h2>'+
+list(['Many people in working-class neighborhoods worked in <b>small shops / farms</b>.','Office workers used <b>typewriters / personal laptops</b>.','Families often lived in <b>tenement buildings / palaces</b>.'])+
+'<h2>C. Complete the sentences. Use the word bank.</h2><div class="wordbank">respect · subway · night school · worthwhile · magazine</div>'+
+list(['Sophie takes the __________________ to work.','George wants people to __________________ him.','A __________________ has articles and pictures.','George thinks about returning to __________________.','A good book can be __________________.'])+
+'<div class="challenge"><b>Prediction:</b> What kind of life does George want? '+writeLines(2)+'</div>';
+const p2=head+'<h2>D. Listen to Part 1 (0:00–6:30). Circle the best answer.</h2>'+
+list(['George left school when he was <b>16 / 23</b>.','George’s father works at a <b>fish market / school</b>.','Sophie works in a cafeteria in the <b>Bronx / countryside</b>.','George spends part of his day <b>at home / working full-time</b>.','At night George often visits a <b>park / farm</b>.'])+
+'<h2>E. Put the events in order (1–4).</h2>'+
+list(['____ George walks through his neighborhood.','____ George thinks about a better life.','____ George stops going to school.','____ George sits on a park bench.'])+
+'<h2>F. After listening — Write short answers.</h2><p>1. Why is George ashamed?</p>'+writeLines(2)+'<p>2. Give two things George wants in the future.</p>'+writeLines(2)+
+'<p>3. How is George’s world different from your life today?</p>'+writeLines(2);
+return [p1,p2];
+}
+const p1=head+'<h2>A. Part 2 — Match words to meanings.</h2>'+
+twoColumns(list(['change booth ____','shoemaker ____','stoop ____','nickel ____','lemon ice ____','allowance ____','uneasy ____','avoid ____','proud of ____','newsstand ____']),list(['a. a person who repairs shoes','b. feeling worried','c. happy with someone’s achievement','d. a five-cent coin','e. a small subway ticket/change window','f. stairs at a building entrance','g. not meet someone on purpose','h. money given regularly','i. a cold lemon dessert','j. a small shop for newspapers']))+
+'<h2>B. Listen to Part 2 (6:31–14:18).</h2>'+
+list(['Mr. C works at a __________________ station.','George says he is going to read __________________ books.','The neighbors begin to show George more __________________.','Sophie gives George a weekly __________________.'])+
+'<h2>C. Think — Why is George worried about meeting Mr. C again?</h2>'+writeLines(3)+
+'<div class="challenge"><b>Before Part 3:</b> Predict one thing that may happen when Mr. C asks about the books.'+writeLines(2)+'</div>';
+const p2=head+'<h2>D. Part 3 — Complete the vocabulary.</h2><div class="wordbank">pity · rumor · relieved · sneak · library · pile up · stifling · neglect</div>'+
+list(['A __________________ is news that may be untrue.','When the weather is too hot and airless, it is __________________.','When your fear disappears, you feel __________________.','If you do not do your chores, you __________________ them.','Books can __________________ on a table.','When you move quietly to avoid being seen, you __________________.','A feeling of compassion can be called __________________.','A __________________ is a place to borrow or read books.'])+
+'<h2>E. Listen to Part 3 (14:24–25:25).</h2>'+
+list(['Mr. C asks George to name <b>one book / ten jobs</b>.','George can / cannot answer Mr. C. <b>Circle one.</b>','Mr. C tells / does not tell the neighbors George’s secret. <b>Circle one.</b>','At the end George begins to <b>read / work at the market</b>.'])+
+'<h2>F. After listening — Answer in your own words.</h2><p>1. Why do you think Mr. C acts as he does?</p>'+writeLines(2)+
+'<p>2. What does George learn about respect and education?</p>'+writeLines(2)+
+'<p>3. What does the ending tell us about real change?</p>'+writeLines(2);
+return [p1,p2];
+}
+function renderWorksheet(){
+const pages=worksheetHTML(worksheet); document.body.classList.add('worksheet');document.querySelector('#progressTrack').hidden=true;document.querySelector('#sheet').hidden=false;document.querySelector('#sheet').innerHTML='<div class="printbar"><a href="?lesson='+worksheet+'">← למצגת שיעור '+worksheet+'</a><button onclick="window.print()">🖨️ הדפסה / שמירה כ-PDF</button></div><div class="worksheetWrap">'+pages.map(p=>'<section class="paper">'+p+'</section>').join('')+'</div>';document.title='A Summer’s Reading · Worksheet · Lesson '+worksheet;
+}
+if(worksheet===1||worksheet===2){renderWorksheet();return;}
+toolbar();
+if(lesson!==1&&lesson!==2){landing();return;}
+assemble();const hash=location.hash.match(/slide-(\d+)/);slidePos=hash?Math.max(0,Math.min(slides.length-1,Number(hash[1])-1)):0;
+document.querySelector('#landing').hidden=true;document.querySelector('#bottom').hidden=false;
+document.querySelector('#previous').onclick=()=>btnNav(-1);document.querySelector('#next').onclick=()=>btnNav(1);
+document.querySelector('#seek').onchange=e=>{slidePos=Number(e.target.value)-1;render();};
+document.addEventListener('keydown',e=>{if(['INPUT','TEXTAREA','SELECT'].includes(document.activeElement?.tagName))return;if(['ArrowLeft','ArrowUp','PageDown',' '].includes(e.key)){e.preventDefault();btnNav(1);}else if(['ArrowRight','ArrowDown','PageUp'].includes(e.key)){e.preventDefault();btnNav(-1);}});
+let sx=null,sy=null;document.addEventListener('touchstart',e=>{if(e.touches.length===1){sx=e.touches[0].clientX;sy=e.touches[0].clientY;}},{passive:true});
+document.addEventListener('touchend',e=>{if(sx==null)return;const dx=e.changedTouches[0].clientX-sx,dy=e.changedTouches[0].clientY-sy;sx=sy=null;if(Math.max(Math.abs(dx),Math.abs(dy))<85)return;if(Math.abs(dx)>Math.abs(dy))btnNav(dx<0?1:-1);else btnNav(dy<0?1:-1);},{passive:true});
+let lastWheel=0;document.addEventListener('wheel',e=>{if(e.target.closest('.videoArea,iframe,audio'))return;let now=Date.now();if(now-lastWheel<800)return;if(Math.abs(e.deltaY)<20)return;lastWheel=now;btnNav(e.deltaY>0?-1:1);},{passive:true});
+render();
+})();
+</script>
+</body></html>
