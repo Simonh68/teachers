@@ -13,7 +13,7 @@ files={
 'shoemaker2':('https://commons.wikimedia.org/wiki/Special:FilePath/'+quote('Shoemaker in his shop, Kenner, Louisiana 1938.jpg')+'?width=1400','US Farm Security Administration 1938, public-domain photograph of American shoemaker'),
 'stoop':('https://images.unsplash.com/photo-1561069934-eee225952461?auto=format&fit=crop&w=1400&q=86','Unsplash street-level brownstone reference'),
 'cleaning':('https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1400&q=86','Unsplash real cleaning worker'),
-'stock-clerk':('https://images.unsplash.com/photo-1605902711622-cfb43c4437d1?auto=format&fit=crop&w=1400&q=86','Unsplash warehouse shelves, illustrative'),
+'stock-clerk':('https://images.pexels.com/photos/7019313/pexels-photo-7019313.jpeg?auto=compress&cs=tinysrgb&w=1400','cottonbro studio, 2021, Pexels free-use photo, modern stock clerk'),
 'carpenter':('https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=1400&q=86','Unsplash carpentry equipment, illustrative'),
 }
 s=requests.Session()
