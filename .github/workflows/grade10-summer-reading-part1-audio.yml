@@ -1,0 +1,42 @@
+name: Grade 10 Summer Reading Part 1 original audio
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/grade10-summer-reading-part1-audio.yml'
+permissions:
+  contents: write
+jobs:
+  first-part-audio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Youtube source extractor
+        run: |
+          python -m pip install --quiet --upgrade "yt-dlp[default]"
+          ffmpeg -version | head -1
+      - name: Download original video recording soundtrack
+        run: |
+          mkdir -p grade10/group-a/a-summers-reading/part1/audio
+          yt-dlp --no-playlist -f "bestaudio/best" --extractor-args "youtube:player_client=android,web" --socket-timeout 18 --retries 2 --fragment-retries 2 -o "/tmp/summer-audio.%(ext)s" "https://www.youtube.com/watch?v=JyCyWpHS7AY"
+          find /tmp -maxdepth 1 -name 'summer-audio.*' -type f -ls
+      - name: Trim original performance to Part 1 only
+        run: |
+          SRC="$(find /tmp -maxdepth 1 -name 'summer-audio.*' -type f | head -1)"
+          test -n "$SRC"
+          ffmpeg -hide_banner -loglevel error -y -i "$SRC" -ss 0 -t 385.7 -map 0:a:0 -vn -ac 1 -ar 24000 -c:a libmp3lame -b:a 48k grade10/group-a/a-summers-reading/part1/audio/part1.mp3
+          ffprobe -v error -show_entries format=duration,size -of json grade10/group-a/a-summers-reading/part1/audio/part1.mp3
+      - name: Publish Part 1 audio
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add grade10/group-a/a-summers-reading/part1/audio/part1.mp3
+          if ! git diff --cached --quiet; then
+            git commit -m 'Host original audio performance of A Summer Reading Part 1'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
