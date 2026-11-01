@@ -16,7 +16,9 @@ import { getFirestore, collection, doc, writeBatch, increment, serverTimestamp }
 const launchFlag = "teachers.grade12.sentence-detective.launch.logged.v1";
 let alreadyLogged = false;
 try { alreadyLogged = sessionStorage.getItem(launchFlag) === "1"; } catch {}
-if (!new URLSearchParams(location.search).has("remote") && !alreadyLogged) {
+const query = new URLSearchParams(location.search);
+// Explicit QA preview does not inflate the real teaching usage report.
+if (!query.has("remote") && !query.has("qa") && !alreadyLogged) {
   try {
     // Remote and analytics share the same technical anonymous Firebase identity.
     // No login is shown, and this identity is never written into the usage event.
