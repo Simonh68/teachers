@@ -1,16 +1,22 @@
 name: Grade 12 Firebase Live QA
 
+# Manual QA writes ONE anonymous test launch and increments the public count.
+# Do not run casually: this is a real Firestore write in vocabdev-56392.
 on:
-  push:
-    paths:
-      - ".github/workflows/grade12-firebase-live-qa.yml"
   workflow_dispatch:
+    inputs:
+      confirm_write:
+        description: "I understand this adds one test launch to the public counter"
+        required: true
+        type: boolean
+        default: false
 
 permissions:
   contents: read
 
 jobs:
   live-firebase-qa:
+    if: ${{ inputs.confirm_write == true }}
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
