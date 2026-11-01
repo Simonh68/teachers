@@ -245,7 +245,8 @@ async function connectController() {
     const reqRef = doc(collection(ref, "joinRequests"), remote.user.uid);
     const existing = await getDoc(reqRef);
     if (!existing.exists()) await setDoc(reqRef, {
-      uid: remote.user.uid, createdAt: serverTimestamp()
+      uid: remote.user.uid, createdAt: serverTimestamp(),
+      expiresAt: Timestamp.fromMillis(Date.now() + 4 * 60 * 60 * 1000)
     });
     announce("📱 בקשה נשלחה — אשרו את הטלפון במחשב", "waiting");
   }
