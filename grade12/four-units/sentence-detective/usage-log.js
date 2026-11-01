@@ -8,19 +8,14 @@
  * Requires Anonymous Authentication and the narrowly scoped rules described in
  * FIREBASE_RULES_FRAGMENT.txt. Failure never blocks the presentation.
  */
-import { firebaseConfig } from "../../../shared/firebase-config.js";
-import { initializeApp, getApp, getApps } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js";
-import { getAuth, signInAnonymously } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js";
+import { app, getAnonymousUser } from "../../../shared/firebase-anonymous-auth.js";
 import { getFirestore, collection, doc, setDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
 
 if (!new URLSearchParams(location.search).has("remote")) {
   try {
-    const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
-    const auth = getAuth(app);
-    await auth.authStateReady();
-    // Reuse the anonymous Firebase technical identity when present.
-    // This never requests a user-visible login or saves the identity to the usage log.
-    if (!auth.currentUser) await signInAnonymously(auth);
+    // Remote and analytics share the same technical anonymous Firebase identity.
+    // No login is shown, and this identity is never written into the usage event.
+    await getAnonymousUser();
     const ref = doc(collection(getFirestore(app), "teachersPresentationUsageV1"));
     await setDoc(ref, {
       deck: "grade12-sentence-detective",
