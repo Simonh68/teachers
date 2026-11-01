@@ -7,6 +7,8 @@
 // Dedicated scope: teachersPresentationRemoteV1 only.
 // All other English for Noar collections and Firebase apps stay unchanged.
 //
+// No teachers need to sign in to the presentation: Firebase uses a temporary
+// anonymous technical UID for permission checks, not a teacher account.
 // Required: Firebase Authentication > Sign-in method > Anonymous (enabled).
 // Requires the existing (default) Cloud Firestore database to be available.
 
@@ -102,4 +104,32 @@ match /teachersPresentationRemoteV1/{sessionId} {
     allow delete: if request.auth != null
       && (request.auth.uid == requesterUid || owner());
   }
+}
+
+
+// Anonymous, minimal launch log for THIS ONE deck. Counts presentation opens,
+// NOT unique teachers. Controller phones are excluded by client-side logic.
+// No name, email, teacher ID, auth UID, IP address or device fingerprint are
+// written to usage documents. Only deck identifier and server timestamp.
+//
+// IMPORTANT: Because "allow" rules compose with OR semantics, audit the project's
+// existing wildcard rules before deploying. Enabling Anonymous Authentication
+// applies to the shared Firebase project, not just this collection.
+// Consider Firebase App Check and abuse monitoring, and avoid weakening any
+// existing English for Noar rules.
+
+match /teachersPresentationUsageV1/{eventId} {
+  allow create: if request.auth != null
+    && request.resource.data.keys().hasOnly([
+      "deck", "kind", "openedAt"
+    ])
+    && request.resource.data.keys().hasAll([
+      "deck", "kind", "openedAt"
+    ])
+    && request.resource.data.deck == "grade12-sentence-detective"
+    && request.resource.data.kind == "presentation-open"
+    && request.resource.data.openedAt == request.time;
+  // Event log is visible only to Firebase administrators through the console
+  // or a privileged server. Anonymous site users cannot list, read or edit it.
+  allow get, list, update, delete: if false;
 }
