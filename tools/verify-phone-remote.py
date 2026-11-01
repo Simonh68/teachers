@@ -63,18 +63,18 @@ def check_case(browser,name,path,counter_id):
         assert read_state(host)["connected"]
         print("EXPLICIT APPROVAL PASS",name,flush=True)
 
-        original=host.locator(f"#{counter_id}").inner_text()
+        original=host.evaluate("(id) => document.getElementById(id)?.textContent.trim()",counter_id)
         handset.locator(f"{SELECT} #next").click()
         host.wait_for_function("(old) => document.querySelector('#counter')?.textContent?.trim() !== old",original.strip(),timeout=12000)
-        after=host.locator(f"#{counter_id}").inner_text()
+        after=host.evaluate("(id) => document.getElementById(id)?.textContent.trim()",counter_id)
         print("NEXT SYNC",name,repr(original),"to",repr(after),flush=True)
         handset.locator(f"{SELECT} #previous").click()
         host.wait_for_function("(old) => document.querySelector('#counter')?.textContent?.trim() !== old",after.strip(),timeout=12000)
         print("PREVIOUS SYNC PASS",name,flush=True)
 
         # Host-side navigation updates the phone's slide counter, too.
-        host.locator("#next").click() if host.locator("#next").count() else host.locator("[data-step='1']").first.click()
-        current=host.locator(f"#{counter_id}").inner_text().strip()
+        host.evaluate("() => (document.querySelector('#next') || document.querySelector(\'[data-step="1"]\'))?.click()")
+        current=host.evaluate("(id) => document.getElementById(id)?.textContent.trim()",counter_id)
         handset.wait_for_function("(expected) => document.querySelector('#teachers-qr-remote-host')?.shadowRoot?.getElementById('counter')?.textContent?.trim()===expected",current,timeout=12000)
         print("PRESENTER TO PHONE SYNC PASS",name,flush=True)
 
