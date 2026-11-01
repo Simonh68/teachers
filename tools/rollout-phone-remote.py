@@ -35,7 +35,7 @@ SLIDE=re.compile(
 READER=re.compile(r"(?:read-along|read-alone|readalone|follow-along|track-engine\.js|segmented-engine\.js)",re.I)
 BOOT=re.compile(r"(?:(?:unit-data|bootstrap|phrase-data|track-engine|reader)\.js)",re.I)
 EXISTING=re.compile(r"(?:firebase-remote\.js|remote-sync\.js|id=['\"]remoteToggle['\"]|id=['\"]pairDialog['\"])",re.I)
-TAG=re.compile(r"shared/phone-remote/remote\.js",re.I)
+TAG=re.compile(r"phone-remote/remote\.js",re.I)
 
 def classify(path:str, html:str):
     if not path.startswith(PREF):return "out-of-scope"
