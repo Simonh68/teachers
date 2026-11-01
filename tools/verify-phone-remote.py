@@ -25,7 +25,10 @@ threading.Thread(target=httpd.serve_forever,daemon=True).start()
 SELECT="#teachers-qr-remote-host"
 CASES=[
     ("grade8-unit2", "grade8/unit-2/lesson/", "counter"),
-    ("standard-deck","shared/lessons/bagrut-reading-traps/", "counter")
+    ("standard-deck","shared/lessons/bagrut-reading-traps/", "counter"),
+    ("grade9-exam-review","grade9/exam-review-2026/","count"),
+    ("grade9-present-perfect","grade9/present-perfect-discovery/","counter"),
+    ("grade9-vocabulary","grade9/unit-1/vocabulary.html","v-position"),
 ]
 
 def read_state(page):
@@ -65,15 +68,15 @@ def check_case(browser,name,path,counter_id):
 
         original=host.evaluate("(id) => document.getElementById(id)?.textContent.trim()",counter_id)
         handset.locator(f"{SELECT} #next").click()
-        host.wait_for_function("(old) => document.querySelector('#counter')?.textContent?.trim() !== old",arg=original.strip(),timeout=12000)
+        host.wait_for_function("(data) => document.getElementById(data.id)?.textContent?.trim() !== data.before",arg={"id":counter_id,"before":original.strip()},timeout=12000)
         after=host.evaluate("(id) => document.getElementById(id)?.textContent.trim()",counter_id)
         print("NEXT SYNC",name,repr(original),"to",repr(after),flush=True)
         handset.locator(f"{SELECT} #previous").click()
-        host.wait_for_function("(old) => document.querySelector('#counter')?.textContent?.trim() !== old",arg=after.strip(),timeout=12000)
+        host.wait_for_function("(data) => document.getElementById(data.id)?.textContent?.trim() !== data.before",arg={"id":counter_id,"before":after.strip()},timeout=12000)
         print("PREVIOUS SYNC PASS",name,flush=True)
 
         # Host-side navigation updates the phone's slide counter, too.
-        host.evaluate("""() => (document.querySelector('#next') || document.querySelector('[data-step="1"]'))?.click()""")
+        host.evaluate("""() => {const b=document.querySelector('#next,#v-next,[data-step="1"]');if(b)b.click();else if(typeof window.next==='function')window.next();}""")
         current=host.evaluate("(id) => document.getElementById(id)?.textContent.trim()",counter_id)
         handset.wait_for_function("(expected) => document.querySelector('#teachers-qr-remote-host')?.shadowRoot?.getElementById('counter')?.textContent?.trim()===expected",arg=current,timeout=12000)
         print("PRESENTER TO PHONE SYNC PASS",name,flush=True)
