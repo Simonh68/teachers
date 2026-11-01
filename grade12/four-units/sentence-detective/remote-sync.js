@@ -114,6 +114,7 @@
     const url = new URL(location.href);
     url.hash = "";
     url.search = "";
+    url.searchParams.set("sync", "peer");
     url.searchParams.set("remote", peerId);
     return url.href;
   }
