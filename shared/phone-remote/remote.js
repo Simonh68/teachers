@@ -218,6 +218,28 @@ async function startPhone(){
   ctx.peer.on("error",e=>status("שגיאת רשת / Connection error: "+(e.type||"network"),"error"));
  }catch(e){console.error("Phone remote:",e);status("לא ניתן לחבר שלט / Remote connection unavailable","error");}
 }
+// Show the pairing entry only on the opening slide. A paired phone stays connected.
+function openingSlide(){
+ if(controller)return false;
+ const d=window.__grade8Bilingual;
+ if(d?.ready)return Number(d.page||0)===0;
+ const values=["#counter","#v-position","#position","#count",".slide-counter"];
+ for(const selector of values){
+  const el=document.querySelector(selector);
+  if(!el)continue;
+  const match=(el.textContent||"").trim().match(/^(\\d+)\\s*\\//);
+  if(match)return Number(match[1])===1;
+ }
+ if(typeof window.cur==="number")return window.cur===0;
+ const active=[...document.querySelectorAll(".slide")].findIndex(e=>e.classList.contains("active")&&!e.hidden);
+ if(active>=0)return active===0;
+ return true;
+}
+function updateLaunchVisibility(){
+ if(controller)return;
+ $("launch").hidden=!overlay.hidden||!openingSlide();
+}
+setInterval(updateLaunchVisibility,350);
 $("launch").onclick=startHost;
 $("close").onclick=hide;
 $("reset").onclick=startHost;
