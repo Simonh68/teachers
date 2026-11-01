@@ -1,0 +1,125 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Pilot only: Grade 12 Sentence Detective. Everything else is denied.
+    // Firebase Auth is anonymous: teachers never enter an email or create a profile.
+    function signedIn() {
+      return request.auth != null;
+    }
+    function validSelection() {
+      return request.resource.data.selected is map
+        && request.resource.data.selected.size() <= 38
+        && request.resource.data.selected.keys().hasOnly([
+          "0","1","2","3","4","5","6","7","8","9",
+          "10","11","12","13","14","15","16","17","18","19",
+          "20","21","22","23","24","25","26","27","28","29",
+          "30","31","32","33","34","35","36","37"
+        ])
+        && request.resource.data.selected.values().hasOnly([0, 1, 2]);
+    }
+    function validSlide() {
+      return request.resource.data.index is int
+        && request.resource.data.index >= 0
+        && request.resource.data.index < 38
+        && request.resource.data.stage is int
+        && request.resource.data.stage >= 0
+        && request.resource.data.stage <= 4
+        && validSelection();
+    }
+    function activeSession() {
+      return signedIn()
+        && resource.data.status == "active"
+        && request.time < resource.data.expiresAt;
+    }
+
+    match /teachersPresentationRemoteV1/{sessionId} {
+      allow create: if signedIn()
+        && request.resource.data.keys().hasOnly([
+          "hostUid","approvedUid","deck","status","index","stage",
+          "selected","createdAt","updatedAt","expiresAt"
+        ])
+        && request.resource.data.keys().hasAll([
+          "hostUid","approvedUid","deck","status","index","stage",
+          "selected","createdAt","updatedAt","expiresAt"
+        ])
+        && request.resource.data.hostUid == request.auth.uid
+        && request.resource.data.approvedUid == ""
+        && request.resource.data.deck == "grade12-sentence-detective"
+        && request.resource.data.status == "active"
+        && request.resource.data.createdAt == request.time
+        && request.resource.data.updatedAt == request.time
+        && request.resource.data.expiresAt is timestamp
+        && request.resource.data.expiresAt > request.time
+        && request.resource.data.expiresAt <= request.time + duration.value(5, "h")
+        && validSlide();
+
+      // The QR carries a high-entropy, unguessable document ID.
+      // No public listing of sessions or their anonymous technical IDs.
+      allow get: if activeSession();
+      allow list: if false;
+
+      allow update: if activeSession()
+        && request.resource.data.updatedAt == request.time
+        && validSlide()
+        && (
+          (
+            request.auth.uid == resource.data.hostUid
+            && request.resource.data.diff(resource.data).affectedKeys().hasOnly([
+              "approvedUid","status","index","stage","selected","updatedAt"
+            ])
+            && request.resource.data.approvedUid is string
+            && request.resource.data.approvedUid.size() <= 128
+            && request.resource.data.status in ["active","closed"]
+          )
+          ||
+          (
+            resource.data.approvedUid != ""
+            && request.auth.uid == resource.data.approvedUid
+            && request.resource.data.diff(resource.data).affectedKeys().hasOnly([
+              "index","stage","selected","updatedAt"
+            ])
+          )
+        );
+      allow delete: if signedIn() && request.auth.uid == resource.data.hostUid;
+
+      match /joinRequests/{requesterUid} {
+        function parentSession() {
+          return get(/databases/$(database)/documents/teachersPresentationRemoteV1/$(sessionId));
+        }
+        function isHost() {
+          return signedIn() && request.auth.uid == parentSession().data.hostUid;
+        }
+        allow create: if signedIn()
+          && request.auth.uid == requesterUid
+          && parentSession().data.status == "active"
+          && request.time < parentSession().data.expiresAt
+          && parentSession().data.approvedUid == ""
+          && request.resource.data.keys().hasOnly(["uid","createdAt","expiresAt"])
+          && request.resource.data.keys().hasAll(["uid","createdAt","expiresAt"])
+          && request.resource.data.uid == requesterUid
+          && request.resource.data.createdAt == request.time
+          && request.resource.data.expiresAt is timestamp
+          && request.resource.data.expiresAt > request.time
+          && request.resource.data.expiresAt <= request.time + duration.value(5, "h");
+        allow get: if signedIn() && (request.auth.uid == requesterUid || isHost());
+        allow list: if isHost();
+        allow update: if false;
+        allow delete: if signedIn() && (request.auth.uid == requesterUid || isHost());
+      }
+    }
+
+    // Anonymous launch events. One write for each presenter page opening;
+    // controller QR visits do not write. This is NOT a unique-teacher metric.
+    // Stored fields: deck, kind, openedAt. No name, email, UID, or device ID.
+    match /teachersPresentationUsageV1/{eventId} {
+      allow create: if signedIn()
+        && request.resource.data.keys().hasOnly(["deck","kind","openedAt"])
+        && request.resource.data.keys().hasAll(["deck","kind","openedAt"])
+        && request.resource.data.deck == "grade12-sentence-detective"
+        && request.resource.data.kind == "presentation-open"
+        && request.resource.data.openedAt == request.time;
+      allow get, list, update, delete: if false;
+    }
+  }
+}
