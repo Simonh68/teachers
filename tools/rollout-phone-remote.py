@@ -71,8 +71,12 @@ def run(apply=False):
                 tag=f'<!-- Teachers QR remote · shared · auto-attached -->\n<script defer src="{rel}?v=20261101-1"></script>\n'
                 result,count=re.subn(r"</body\s*>",lambda match:tag+match.group(),txt,count=1,flags=re.I)
                 if count!=1:
-                    excluded.append({"path":path,"reason":"missing closing body"})
-                    continue
+                    # Two older, valid legacy decks use an implicit <body> and
+                    # end with </script></html>. Append before </html> safely.
+                    result,count=re.subn(r"</html\\s*>",lambda match:tag+match.group(),txt,count=1,flags=re.I)
+                    if count!=1:
+                        excluded.append({"path":path,"reason":"no closing body/html"})
+                        continue
                 file.write_text(result,encoding="utf-8")
                 edited.append(path)
         else:excluded.append({"path":path,"reason":verdict})
