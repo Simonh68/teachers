@@ -104,7 +104,7 @@ function snapshot(){
  if(window.__grade8Bilingual?.ready){
   const d=window.__grade8Bilingual;count=(d.page+1)+(d.reveal?" + תרגום":"")+" / "+d.pages.length;
  }else{
-  for(const selector of ["#counter","#slide-counter","#slideCounter","#count",".counter",".page-number","#step-counter"]){
+  for(const selector of ["#counter","#slide-counter","#slideCounter","#count","#v-position",".counter",".page-number","#step-counter"]){
    const el=document.querySelector(selector);
    if(el){const value=el.textContent.trim().replace(/\s+/g," ");if(value.length>0&&value.length<55){count=value;break;}}
   }
@@ -135,11 +135,14 @@ function clickFirst(selectors){
 }
 function nav(forward){
  const s=forward?[
-  ".navigation [data-step='1']",".nav [data-step='1']","[data-step='1']","#deck-next","#deck-down","#next","#down","#nextBtn","#nextSlide"
+  ".navigation [data-step='1']",".nav [data-step='1']","[data-step='1']","#deck-next","#deck-down","#v-next","#next","#down","#nextBtn","#nextSlide"
  ]:[
-  ".navigation [data-step='-1']",".nav [data-step='-1']","[data-step='-1']","#deck-prev","#deck-up","#prev","#up","#prevBtn","#previousSlide"
+  ".navigation [data-step='-1']",".nav [data-step='-1']","[data-step='-1']","#deck-prev","#deck-up","#v-prev","#prev","#up","#prevBtn","#previousSlide"
  ];
  if(clickFirst(s))return;
+ // Legacy slide engines sometimes implement global next()/prev() without buttons.
+ const fn=window[forward?"next":"prev"];
+ if(typeof fn==="function"){try{fn();return;}catch(error){console.warn("Legacy slide navigation fallback:",error);}}
  document.dispatchEvent(new KeyboardEvent("keydown",{key:forward?"ArrowRight":"ArrowLeft",bubbles:true,cancelable:true}));
 }
 function execute(cmd){
