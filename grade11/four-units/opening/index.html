@@ -102,5 +102,7 @@ document.addEventListener('touchstart',e=>{touchX=e.touches[0].clientX;touchY=e.
 document.addEventListener('touchend',e=>{const dx=touchX-e.changedTouches[0].clientX,dy=touchY-e.changedTouches[0].clientY,d=Math.abs(dy)>Math.abs(dx)?dy:dx;if(Math.abs(d)>45)show(index+(d>0?1:-1))},{passive:true});
 const hash=Number((location.hash.match(/slide-(\d+)/)||[])[1]);show(hash?hash-1:0);
 </script>
+<!-- Teachers QR remote · shared · auto-attached -->
+<script defer src="../../../shared/phone-remote/remote.js?v=20261101-1"></script>
 </body>
 </html>

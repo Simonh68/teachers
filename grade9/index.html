@@ -123,5 +123,7 @@ document.addEventListener('touchstart',e=>{touchX=e.touches[0].clientX;touchY=e.
 const hash=Number((location.hash.match(/slide-(\d+)/)||[])[1]);show(hash?hash-1:0);
 document.querySelectorAll('.forgeBox').forEach(box=>box.addEventListener('click',e=>{const btn=e.target.closest('.forgeChoice');if(!btn)return;const blank=(box.querySelector('.forgePrompt').textContent.match(/_+/)||[''])[0];const completed=box.querySelector('.forgePrompt').textContent.replace(blank,btn.dataset.choice);const ok=completed.toLowerCase()===box.dataset.answer.toLowerCase();box.querySelectorAll('.forgeChoice').forEach(b=>b.classList.remove('correct','wrong'));btn.classList.add(ok?'correct':'wrong');const result=box.querySelector('.forgeResult');result.textContent=ok?`✓ ${box.dataset.answer} — ${box.dataset.meaning}`:'כמעט — נסו אפשרות אחרת';result.classList.toggle('show',ok)}));
 </script>
+<!-- Teachers QR remote · shared · auto-attached -->
+<script defer src="../shared/phone-remote/remote.js?v=20261101-1"></script>
 </body>
 </html>

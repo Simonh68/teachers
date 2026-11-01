@@ -86,4 +86,6 @@ function bind(slide){
 const observer=new MutationObserver(ms=>{for(const m of ms){if(m.type==='attributes'&&m.target.classList.contains('active')){shuffle(m.target);bind(m.target);}}});
 document.querySelectorAll('.slide').forEach(s=>observer.observe(s,{attributes:true,attributeFilter:['class']}));
 const first=document.querySelector('.slide.active');shuffle(first);bind(first);hud();
-})();</script></body></html>
+})();</script><!-- Teachers QR remote · shared · auto-attached -->
+<script defer src="../../shared/phone-remote/remote.js?v=20261101-1"></script>
+</body></html>
