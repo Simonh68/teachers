@@ -23,26 +23,26 @@
   ];
   const practice=[
     {kind:"cover",title:"Four Kilometres Together",subtitle:"שקפי עזר אחרי הקריאה",body:"קראנו את הסיפור המקורי. עכשיו נבדוק הבנה, נבנה משפטים ונתרגל שאלות ושלילה.",art:"wheelchair"},
-    {kind:"question",q:"Where is Samuel from?",he:"מאיזו מדינה סמואל?",opts:["India","Japan","England"],answer:0,why:"Samuel says: I am Samuel from India.",art:"route"},
-    {kind:"question",q:"How does Samuel go to school?",he:"איך סמואל מגיע לבית הספר?",opts:["By boat","In a wheelchair","On a horse"],answer:1,why:"I go to school in a wheelchair.",art:"wheelchair"},
-    {kind:"question",q:"Who comes with Samuel?",he:"מי בא עם סמואל?",opts:["His two younger brothers","His teacher","His friends from Japan"],answer:0,why:"My two younger brothers come with me.",art:"younger"},
+    {kind:"question",q:"Where is Samuel from?",he:"מאיזו מדינה סמואל?",opts:["Japan","India","England"],answer:1,why:"Samuel says: I am Samuel from India.",art:"route"},
+    {kind:"question",q:"How does Samuel go to school?",he:"איך סמואל מגיע לבית הספר?",opts:["In a wheelchair","By boat","On a horse"],answer:0,why:"I go to school in a wheelchair.",art:"wheelchair"},
+    {kind:"question",q:"Who comes with Samuel?",he:"מי בא עם סמואל?",opts:["His teacher","His friends from Japan","His two younger brothers"],answer:2,why:"My two younger brothers come with me.",art:"younger"},
     {kind:"question",q:"How far do they travel?",he:"מה אורך הדרך?",opts:["Four metres","Four kilometres","Four hours"],answer:1,why:"They push and pull my chair for four kilometres.",art:"kilometres"},
-    {kind:"question",q:"What do the brothers do?",he:"מה עושים האחים?",opts:["They ride a horse.","They push and pull the chair.","They swim to school."],answer:1,why:"They push and pull my chair.",art:"push"},
-    {kind:"question",q:"What is on their route?",he:"מה יש במסלול שלהם?",opts:["Sand, rivers and palm trees","Snow and ice","Trains and buses"],answer:0,why:"Our route includes sand, rivers and palm trees.",art:"palms"},
-    {kind:"question",q:"Do they make the journey alone?",he:"האם הם עושים את הדרך לבד?",opts:["Yes, Samuel is alone.","No, they travel together."],answer:1,why:"We make this long journey together.",art:"together"},
+    {kind:"question",q:"What do the brothers do?",he:"מה עושים האחים?",opts:["They push and pull the chair.","They swim to school.","They ride a horse."],answer:0,why:"They push and pull my chair.",art:"push"},
+    {kind:"question",q:"What is on their route?",he:"מה יש במסלול שלהם?",opts:["Sand, rivers and palm trees","Trains and buses","Snow and ice"],answer:0,why:"Our route includes sand, rivers and palm trees.",art:"palms"},
+    {kind:"question",q:"Do they make the journey alone?",he:"האם הם עושים את הדרך לבד?",opts:["No, they travel together.","Yes, Samuel is alone."],answer:0,why:"We make this long journey together.",art:"together"},
     {kind:"rule",label:"Present Simple · Positive",formula:"I go.   →   Samuel goes.",he:"עם I / you / we / they משתמשים ב־go. עם he / she / it במשפט חיובי מוסיפים es: goes.",art:"journey"},
-    {kind:"question",q:"Samuel ___ to school in a wheelchair.",he:"בחרו את הפועל הנכון.",opts:["go","goes","going"],answer:1,why:"Samuel = he. לכן: goes.",art:"wheelchair"},
+    {kind:"question",q:"Samuel ___ to school in a wheelchair.",he:"בחרו את הפועל הנכון.",opts:["going","go","goes"],answer:2,why:"Samuel = he. לכן: goes.",art:"wheelchair"},
     {kind:"question",q:"His brothers ___ with him.",he:"מה נכון עם brothers ברבים?",opts:["comes","come","coming"],answer:1,why:"His brothers = they. לכן הפועל נשאר come.",art:"brothers"},
     {kind:"rule",label:"Present Simple · Negative",formula:"They push. → They don't push.\nHe goes. → He doesn't go.",he:"אחרי don't או doesn't הפועל חוזר לצורת הבסיס. לא כותבים doesn't goes.",art:"push"},
     {kind:"question",q:"Samuel doesn't ___ to school alone.",he:"מה כותבים אחרי doesn't?",opts:["go","goes","going"],answer:0,why:"אחרי doesn't: go, בלי es.",art:"together"},
-    {kind:"question",q:"The brothers ___ leave Samuel alone.",he:"בחרו את השלילה הנכונה.",opts:["doesn't","don't","isn't"],answer:1,why:"The brothers = they, ולכן don't.",art:"brothers"},
+    {kind:"question",q:"The brothers ___ leave Samuel alone.",he:"בחרו את השלילה הנכונה.",opts:["isn't","doesn't","don't"],answer:2,why:"The brothers = they, ולכן don't.",art:"brothers"},
     {kind:"rule",label:"Yes / No Questions",formula:"Does Samuel go to school?\nDo his brothers help him?",he:"Does עם he / she / it; Do עם I / you / we / they. אחרי Do/Does הפועל בצורת הבסיס.",art:"route"},
-    {kind:"question",q:"___ Samuel go to school in a wheelchair?",he:"בחרו מילת עזר לשאלה.",opts:["Do","Does","Is"],answer:1,why:"Samuel = he. שואלים Does Samuel go ...?",art:"wheelchair"},
-    {kind:"question",q:"Do the brothers ___ his chair?",he:"מהי צורת הפועל אחרי Do?",opts:["pushes","pushing","push"],answer:2,why:"אחרי Do הפועל הוא push.",art:"push"},
-    {kind:"question",q:"Which sentence is correct?",he:"איזו שאלה בנויה נכון?",opts:["Does Samuel goes to school?","Does Samuel go to school?","Do Samuel go to school?"],answer:1,why:"Does + Samuel + go + to school?",art:"journey"},
+    {kind:"question",q:"___ Samuel go to school in a wheelchair?",he:"בחרו מילת עזר לשאלה.",opts:["Does","Do","Is"],answer:0,why:"Samuel = he. שואלים Does Samuel go ...?",art:"wheelchair"},
+    {kind:"question",q:"Do the brothers ___ his chair?",he:"מהי צורת הפועל אחרי Do?",opts:["pushing","push","pushes"],answer:1,why:"אחרי Do הפועל הוא push.",art:"push"},
+    {kind:"question",q:"Which sentence is correct?",he:"איזו שאלה בנויה נכון?",opts:["Do Samuel go to school?","Does Samuel goes to school?","Does Samuel go to school?"],answer:2,why:"Does + Samuel + go + to school?",art:"journey"},
     {kind:"rule",label:"WH Question · Who",formula:"Who goes to school with Samuel?",he:"Who שואל מי. כאשר Who הוא נושא השאלה, משתמשים ב־goes, ולא ב־does go.",art:"brothers"},
-    {kind:"question",q:"Who ___ to school with Samuel?",he:"בחרו צורה לשאלת הנושא.",opts:["go","goes","does go"],answer:1,why:"Who הוא הנושא; לכן goes.",art:"together"},
-    {kind:"question",q:"How do the brothers help Samuel?",he:"בחרו תשובה לפי הסיפור.",opts:["They push and pull his chair.","They drive a car.","They take a school bus."],answer:0,why:"הטקסט מתאר את הדחיפה והמשיכה לאורך ארבעה קילומטרים.",art:"pull"},
+    {kind:"question",q:"Who ___ to school with Samuel?",he:"בחרו צורה לשאלת הנושא.",opts:["go","does go","goes"],answer:2,why:"Who הוא הנושא; לכן goes.",art:"together"},
+    {kind:"question",q:"How do the brothers help Samuel?",he:"בחרו תשובה לפי הסיפור.",opts:["They drive a car.","They push and pull his chair.","They take a school bus."],answer:1,why:"הטקסט מתאר את הדחיפה והמשיכה לאורך ארבעה קילומטרים.",art:"pull"},
     {kind:"writing",title:"Write three sentences",he:"כתבו בעצמכם על סמואל: משפט חיוב, משפט שלילה ושאלה.",lines:["Samuel goes to school in a wheelchair.","His brothers don't leave him alone.","Does Samuel travel with his brothers?"],art:"journey"},
     {kind:"writing",title:"Now write about yourself",he:"כתבו שלושה משפטים אמיתיים על הדרך שלכם לבית הספר: חיוב, שלילה ושאלה לחבר.",lines:["I go to school by ...","I don't ...","Do you ...?"],art:"route"},
     {kind:"finish",title:"You can do it!",he:"סיימתם את שקפי העזר. חזרו לאוצר המילים או קראו מחדש את הסיפור בלי לשנות את המצגת המקורית.",art:"palms"}
@@ -69,8 +69,8 @@
     slides.push({kind:"cover",title:"Four Kilometres Together",subtitle:"Vocabulary First · אוצר מילים לפני הקריאה",body:"נכיר את המילים החדשות בעזרת תמונות, הקראה ומשפטים מתוך הסיפור.",art:"wheelchair"});
     slides.push({kind:"guide",title:"איך עובדים?",body:"1. רואים תמונה ומילה באנגלית. 2. לוחצים כדי לשמוע את המילה או את המשפט. 3. מנחשים. 4. עוברים לשקף הבא וחושפים עברית. אחרי כל שלוש מילים — הפוגה.",art:"journey"});
     vocab.forEach((entry,i)=>{slides.push({kind:"word",entry,i,translation:false});slides.push({kind:"word",entry,i,translation:true});if((i+1)%3===0)slides.push({kind:"pause",count:i+1,art:["younger","pull","rivers","journey"][Math.floor(i/3)]});});
-    slides.push({kind:"question",q:"Which word means כיסא גלגלים?",he:"בחרו את שם העצם לפי התמונה.",opts:["wheelchair","router","river"],answer:0,why:"wheel + chair = wheelchair.",art:"wheelchair"});
-    slides.push({kind:"question",q:"Push or pull?",he:"כשמרחיקים את הארגז מאיתנו — מה עושים?",opts:["pull","push"],answer:1,why:"Push = לדחוף ולהרחיק; Pull = למשוך לכיוון שלנו.",art:"push"});
+    slides.push({kind:"question",q:"Which word means כיסא גלגלים?",he:"בחרו את שם העצם לפי התמונה.",opts:["wheelchair","river","router"],answer:0,why:"wheel + chair = wheelchair.",art:"wheelchair"});
+    slides.push({kind:"question",q:"Push or pull?",he:"כשמרחיקים את הארגז מאיתנו — מה עושים?",opts:["push","pull"],answer:0,why:"Push = לדחוף ולהרחיק; Pull = למשוך לכיוון שלנו.",art:"push"});
     slides.push({kind:"question",q:"Sand or send?",he:"מהי המילה שמשמעותה חול?",opts:["send","sand"],answer:1,why:"sand = חול; send = לשלוח.",art:"sand"});
     slides.push({kind:"finish",title:"Ready to read!",he:"יופי! עכשיו עוברים לסיפור Four Kilometres Together עם הקריאה וההקלטה המקוריות. אחר כך נמשיך לשקפי העזר.",art:"journey"});
   } else practice.forEach(x=>slides.push(x));
