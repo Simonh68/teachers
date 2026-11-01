@@ -15,6 +15,8 @@
     peer: null,
     connection: null,
     clients: new Set(),
+    pending: null,
+    authorizedPeerId: null,
     retryTimer: null,
     lastSyncedState: null
   };
@@ -28,6 +30,8 @@
   const linkField = document.getElementById("pairLink");
   const copyButton = document.getElementById("pairCopy");
   const closeButton = document.getElementById("pairClose");
+  const approveButton = document.getElementById("pairApprove");
+  const resetButton = document.getElementById("pairReset");
 
   function announce(message, tone) {
     syncBadge.textContent = message;
@@ -100,7 +104,11 @@
   };
   function updatePresenterCount() {
     const count = [...remote.clients].filter(conn => conn.open).length;
-    announce(count ? "📱 " + count + " טלפון מחובר" : "📱 ממתין לסריקה", count ? "connected" : "waiting");
+    approveButton.hidden = !(remote.pending && remote.pending.open);
+    if (count) announce("📱 הטלפון אושר ומחובר", "connected");
+    else if (remote.pending && remote.pending.open) announce("📱 טלפון ממתין לאישור — לחצו על אישור", "waiting");
+    else if (remote.authorizedPeerId) announce("📱 הטלפון נותק — התחברו שוב או אפסו חיבור", "waiting");
+    else announce("📱 ממתין לסריקה", "waiting");
   }
   function pairedUrl(peerId) {
     const url = new URL(location.href);
@@ -151,21 +159,31 @@
         reconnectLater();
       }
     }, 12000);
+    let denied = false;
     connection.on("open", () => {
       clearTimeout(watchdog);
       if (remote.connection !== connection) return;
       opened = true;
-      setControllerStatus(true, "📱 מחובר למקרן — אפשר לנווט", "connected");
+      setControllerStatus(false, "📱 ממתין לאישור החיבור במחשב…", "waiting");
       connection.send({ type: "hello" });
     });
     connection.on("data", message => {
-      if (remote.connection === connection && message && message.type === "state") applySnapshot(message);
+      if (remote.connection !== connection || !message) return;
+      if (message.type === "approved") {
+        setControllerStatus(true, "📱 מחובר למקרן — אפשר לנווט", "connected");
+      } else if (message.type === "state" && remote.connected) {
+        applySnapshot(message);
+      } else if (["denied", "busy", "unpaired"].includes(message.type)) {
+        denied = true;
+        setControllerStatus(false, "📱 חיבור נדחה — בקשו אישור או איפוס במחשב", "error");
+        connection.close();
+      }
     });
     const lost = () => {
       clearTimeout(watchdog);
       if (remote.connection !== connection) return;
-      setControllerStatus(false, "📱 החיבור נותק — מתחבר מחדש…", "error");
-      reconnectLater();
+      setControllerStatus(false, denied ? "📱 נדרש אישור חדש במחשב" : "📱 החיבור נותק — מתחבר מחדש…", "error");
+      if (!denied) reconnectLater();
     };
     connection.on("close", lost);
     connection.on("error", lost);
@@ -179,20 +197,32 @@
     });
     remote.peer.on("connection", connection => {
       connection.on("open", () => {
-        remote.clients.add(connection);
-        connection.send(snapshot());
+        if (remote.authorizedPeerId && connection.peer !== remote.authorizedPeerId) {
+          connection.send({ type: "denied" });
+          setTimeout(() => connection.close(), 400);
+        } else if (remote.authorizedPeerId === connection.peer) {
+          remote.clients.add(connection);
+          connection.send({ type: "approved" });
+          connection.send(snapshot());
+        } else if (!remote.pending) {
+          remote.pending = connection;
+        } else {
+          connection.send({ type: "busy" });
+          setTimeout(() => connection.close(), 400);
+        }
         updatePresenterCount();
       });
       connection.on("data", message => {
-        if (!connection.open || !message || typeof message !== "object") return;
+        if (!remote.clients.has(connection) || !connection.open || !message || typeof message !== "object") return;
         if (message.type === "hello") connection.send(snapshot());
         else if (message.type === "state" && applySnapshot(message)) {
-          // Presenter remains authoritative and echoes updates to every connected screen.
+          // Only an explicitly approved phone can alter the projected slides.
           remote.broadcast();
         }
       });
       const lost = () => {
         remote.clients.delete(connection);
+        if (remote.pending === connection) remote.pending = null;
         updatePresenterCount();
       };
       connection.on("close", lost);
@@ -222,6 +252,27 @@
       reconnectLater();
     });
   }
+  approveButton.addEventListener("click", () => {
+    const connection = remote.pending;
+    if (!connection || !connection.open) return;
+    remote.pending = null;
+    remote.authorizedPeerId = connection.peer;
+    remote.clients.add(connection);
+    connection.send({ type: "approved" });
+    connection.send(snapshot());
+    updatePresenterCount();
+  });
+  resetButton.addEventListener("click", () => {
+    remote.clients.forEach(connection => {
+      if (connection.open) connection.send({ type: "unpaired" });
+      connection.close();
+    });
+    remote.clients.clear();
+    if (remote.pending) remote.pending.close();
+    remote.pending = null;
+    remote.authorizedPeerId = null;
+    updatePresenterCount();
+  });
   copyButton.addEventListener("click", async () => {
     if (!linkField.value) return;
     try {
