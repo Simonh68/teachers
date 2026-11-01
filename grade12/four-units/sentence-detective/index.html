@@ -144,6 +144,14 @@ header .brand{direction:rtl;letter-spacing:0}
 .pairAction{flex:1;min-width:140px;border:1px solid #6d98ba;border-radius:12px;background:#1b3a58;color:#fff;padding:12px 16px;font-size:17px;font-weight:900}
 .pairAction.primary{background:var(--lime);color:#152313;border-color:var(--lime)}
 .pairDialog .pairSmall{font-size:13px;color:#a5c9dc;margin:14px 0 0}
+.pairHowTo{display:grid;gap:8px;padding:12px 15px;border:1px solid #41688b;background:#102c45;border-radius:15px;text-align:start}
+.pairDialog .pairHowTo p{margin:0;font-size:clamp(14px,1.18vw,17px);font-weight:700;line-height:1.46}
+.pairHowTo [lang="en"]{font-size:clamp(13px,1.08vw,16px);font-weight:600;direction:ltr;text-align:left;color:#cce9fb}
+.pairNotLogin{color:#f9df95;font-size:clamp(13px,1.03vw,15px);display:block;margin-top:6px}
+.pairQrLabel{display:block;color:var(--lime);font-size:clamp(18px,1.6vw,24px);margin-top:9px}
+.pairDialog h2{font-size:clamp(24px,2.4vw,32px)}
+.pairDialog .pairActions .pairAction{font-size:clamp(13px,1.14vw,16px)}
+.pairDialog #pairQr{margin:8px auto 10px}
 @media(max-width:780px){
   #remoteToggle{padding:6px 8px;font-size:12px}
   .syncBadge{display:none}
@@ -165,20 +173,25 @@ header .brand{direction:rtl;letter-spacing:0}
 <dialog id="reader" class="readDialog"><button id="closeReader">סגור ✕</button><h2 dir="rtl" lang="he">קטע קריאה — סדנת התיקונים</h2><div id="readerText"></div></dialog>
 
 <dialog id="pairDialog" class="pairDialog" aria-labelledby="pairTitle" dir="rtl" lang="he">
-  <h2 id="pairTitle">📱 מחברים את הטלפון לשקפים</h2>
-  <p>סרקו את קוד ה-QR בטלפון, ואז אשרו את החיבור במחשב. מכאן תוכלו לשלוט גם בשקפים וגם בחשיפת הרמזים.</p>
-  <div id="pairQr" class="pairQr" aria-label="קוד QR לחיבור הטלפון">יוצר קוד QR…</div>
-  <span id="pairStatus" class="pairStatus" role="status" aria-live="polite">מכין חיבור…</span>
-  <label for="pairLink" style="display:block;text-align:right;font-size:15px;margin-bottom:7px">או פתחו את הקישור בטלפון:</label>
+  <h2 id="pairTitle">📱 שלט למצגת / Presentation Remote</h2>
+  <div class="pairHowTo" aria-label="הוראות התחברות בעברית ובאנגלית">
+    <p lang="he" dir="rtl"><strong>מה עושים עם הקוד?</strong> סורקים בטלפון כדי להפוך אותו לשלט של המצגת במקרן. מאשרים את הטלפון במחשב, ואז מחליקים בטלפון כדי להעביר שקפים ולגלות רמזים.</p>
+    <p lang="en" dir="ltr"><strong>What is this QR code for?</strong> Scan it with your phone camera to turn your phone into a remote for the projected slides. Approve the phone on the computer, then swipe to change slides and reveal hints.</p>
+    <span class="pairNotLogin">לא קוד למבחן או להתחברות לחשבון · Not a test code or login code. No sign-up needed.</span>
+  </div>
+  <strong class="pairQrLabel" lang="he" dir="rtl">↓ סרקו כאן / Scan this QR ↓</strong>
+  <div id="pairQr" class="pairQr" aria-label="קוד QR — סרקו בטלפון לשלט המצגת / QR for phone presentation remote">יוצר קוד QR…</div>
+  <span id="pairStatus" class="pairStatus" role="status" aria-live="polite">מכין חיבור… / Preparing connection…</span>
+  <label for="pairLink" style="display:block;text-align:right;font-size:14px;margin-bottom:7px">אין אפשרות לסרוק? פתחו את הקישור בטלפון / Can't scan? Open this link on your phone:</label>
   <input id="pairLink" class="pairLink" type="text" value="" readonly aria-label="קישור השלט"/>
   <div class="pairActions">
-    <button id="pairApprove" class="pairAction primary" type="button" hidden>✓ אשר חיבור לטלפון</button>
-    <button id="pairReset" class="pairAction" type="button">אפס חיבור</button>
-    <button id="pairClose" class="pairAction primary" type="button">התחל מצגת ←</button>
-    <button id="pairCopy" class="pairAction" type="button">העתק קישור</button>
-    <button id="pairFirebaseMode" class="pairAction" type="button">🧪 בדיקת Firebase</button>
+    <button id="pairApprove" class="pairAction primary" type="button" hidden>✓ אשר טלפון / Approve phone</button>
+    <button id="pairReset" class="pairAction" type="button">אפס חיבור / Reset</button>
+    <button id="pairClose" class="pairAction primary" type="button">התחל מצגת / Start presenting ←</button>
+    <button id="pairCopy" class="pairAction" type="button">העתק קישור / Copy link</button>
+    <button id="pairFirebaseMode" class="pairAction" type="button">🧪 בדיקת Firebase / Test Firebase</button>
   </div>
-  <p class="pairSmall">החיבור זמני ופועל כשהמצגת פתוחה במחשב. רק טלפון שאישרתם יוכל לשלוט. אפשר לפתוח QR מחדש או לאפס חיבור דרך הכפתור למעלה.</p>
+  <p class="pairSmall">רק טלפון שאישרתם יוכל לשלוט, כל עוד המצגת פתוחה במחשב. / Only an approved phone can control the slides while the presentation is open. No teacher account required.</p>
 </dialog>
 <script>
 "use strict";
@@ -246,7 +259,7 @@ render();
   const params = new URLSearchParams(location.search);
   const firebaseMode = params.get("sync") === "firebase";
   const switchButton = document.getElementById("pairFirebaseMode");
-  switchButton.textContent = firebaseMode ? "↩ חזור לשלט הרגיל" : "🧪 בדיקת Firebase";
+  switchButton.textContent = firebaseMode ? "↩ שלט רגיל / Standard remote" : "🧪 בדיקת Firebase / Test Firebase";
   switchButton.addEventListener("click", () => {
     const url = new URL(location.href);
     url.searchParams.delete("remote");
@@ -256,7 +269,7 @@ render();
   });
   if (firebaseMode) {
     document.querySelector(".pairSmall").textContent =
-      "ניסוי Firebase: נוצר אזור נתונים נפרד למצב השקפים בלבד. נדרש אישור הטלפון במחשב. אם השירות אינו זמין, אפשר לחזור לשלט הרגיל.";
+      "ניסוי Firebase ללא הרשמה: סורקים בטלפון ומאשרים במחשב. לא נשמרים שמות או פרטי מורים. / Firebase test without sign-up: scan with your phone, approve on this computer. No teacher names or contact information are saved.";
     import("./firebase-remote.js").catch(error => {
       console.error("Firebase remote module failed to load:", error);
       const message = "Firebase לא נטען. ניתן לחזור לשלט הרגיל.";
