@@ -1,0 +1,51 @@
+name: Build Grade 8 Unit 2 Read-Along recordings
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'grade8/unit-2/lesson-content.json'
+      - 'grade8/unit-2/build-readalongs.py'
+      - '.github/workflows/grade8-unit2-readalongs.yml'
+permissions:
+  contents: write
+concurrency:
+  group: grade8-unit2-recordings
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install neural speech and audio verification
+        run: |
+          python -m pip install --disable-pip-version-check edge-tts
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+      - name: Synthesize both texts and derive precise per-word boundaries
+        run: |
+          python grade8/unit-2/build-readalongs.py
+          node --check grade8/unit-2/australia/unit-data.js
+          node --check grade8/unit-2/coober-pedy/unit-data.js
+          node --check grade8/unit-2/reader-bootstrap.js
+      - name: Commit verified audio and timing files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add grade8/unit-2/australia/audio grade8/unit-2/australia/*.js grade8/unit-2/coober-pedy/audio grade8/unit-2/coober-pedy/*.js
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish Grade 8 Unit 2 recorded Read-Alongs with word timings"
+            for attempt in 1 2 3 4 5; do
+              if git push origin HEAD:main; then exit 0; fi
+              git fetch origin main
+              git rebase origin/main || { git rebase --abort; exit 1; }
+            done
+            exit 1
+          fi
