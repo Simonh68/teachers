@@ -1,5 +1,65 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Grade 9 · NYC Five Boroughs · Vocabulary & Present Perfect Review</title>
 <style>*{box-sizing:border-box}html,body{height:100%;margin:0;background:#061322;color:white;font-family:Arial,Helvetica,sans-serif;overflow:hidden}.deck{height:100dvh;background:radial-gradient(circle at 82% 8%,#124765 0,transparent 48%),radial-gradient(circle at 15% 90%,#282450 0,transparent 48%),#061322}.slide{position:absolute;inset:0;padding:clamp(15px,2.5vw,38px) clamp(15px,4vw,60px) 95px;display:none;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:clamp(9px,1.8vh,25px);overflow:auto}.slide.active{display:flex}.label{position:absolute;top:clamp(12px,2vh,25px);left:clamp(12px,4vw,60px);font-weight:900;color:#87dbe6;letter-spacing:.15em;font-size:clamp(12px,1.45vw,22px)}.center{max-width:1100px}h1{font-size:clamp(48px,7vw,110px);margin:0 0 20px;line-height:1.05}h2{font-size:clamp(34px,4.5vw,74px);margin:0;line-height:1.14}.huge{font-size:clamp(52px,6.3vw,102px)}.he{direction:rtl;color:#ffe0a0;font-size:clamp(23px,2.4vw,40px);line-height:1.3;margin:10px 0}.dim{color:#b3cad8;font-size:clamp(19px,2vw,32px)}.smaller{font-size:clamp(17px,1.8vw,28px)}.bottom{margin:0}.emoji{font-size:clamp(65px,9vw,145px)}.bigdesc{font-size:clamp(26px,3vw,53px);font-weight:800;color:#abedf8}.boroughmap{width:min(780px,75vw);height:auto;max-height:59vh}.milestones{display:flex;gap:15px;width:100%;max-width:1300px}.milestones>div{flex:1;display:flex;flex-direction:column;gap:15px;padding:27px 20px;background:#ffffff12;border:1px solid #ffffff30;border-radius:20px}.milestones b{font-size:clamp(38px,4.5vw,78px);color:#a8f1f5}.milestones span{font-size:clamp(22px,2.2vw,36px)}.wordslide .emoji{font-size:clamp(55px,7vw,100px)}.wordslide .huge{font-size:clamp(52px,6vw,100px)}.reveal{font-size:clamp(20px,2vw,33px);font-weight:900;border:0;border-radius:16px;padding:13px 28px;background:#fedb86;color:#202e42;cursor:pointer}.translation{font-size:clamp(31px,4vw,65px);font-weight:900}.example{margin:0}.choices{width:min(1150px,100%);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.choice{font-size:clamp(22px,2.4vw,39px);font-weight:800;min-height:120px;padding:18px;background:#173955;color:white;border:3px solid #668fa8;border-radius:22px;cursor:pointer}.choice strong{display:block;color:#ffdf96;font-size:.7em}.choice.correct{background:#166b50;border-color:#84f3bd}.choice.wrong{background:#6b233a;border-color:#ff9ba9}.question{max-width:1300px;font-size:clamp(34px,4.2vw,67px)}.feedback{color:#ffda89;font-weight:700;font-size:clamp(19px,2vw,31px);min-height:50px}.mainSentence{font-size:clamp(32px,4vw,74px);color:#92f4bf;font-weight:900}.timeline{width:min(1100px,100%);height:auto;max-height:27vh}.examples{font-size:clamp(25px,3vw,47px);line-height:1.3}.examples p{margin:11px 0}.examples mark{background:#ffdc7b;color:#132638;border-radius:8px;padding:0 9px}.endlinks{display:flex;justify-content:center;flex-wrap:wrap;gap:15px}.endlinks a{font-size:clamp(18px,2vw,28px);font-weight:800;color:#0c2e47;background:#baf1f9;padding:15px;border-radius:14px;text-decoration:none}.foot{position:absolute;left:0;bottom:0;right:0;min-height:65px;padding:10px 18px;background:#081c2d;display:flex;justify-content:space-between;align-items:center;gap:10px}.foot a{color:#a5dcec;font-size:14px;font-weight:bold;text-decoration:none}.controls{display:flex;align-items:center;gap:12px}.controls button{border:1px solid #5c8197;background:#173d57;color:white;font-size:21px;padding:7px 13px;border-radius:9px;cursor:pointer}.bar{height:4px;position:absolute;bottom:0;left:0;background:#80e7d3;transition:width .1s}.counter{font-size:16px;font-weight:bold;min-width:75px;text-align:center}.assist{color:#a7c4d8;font-size:14px}@media(max-width:730px){.slide{padding:44px 18px 100px;gap:8px}.choices{grid-template-columns:1fr;gap:8px}.choice{min-height:55px;font-size:21px;padding:10px}.question{font-size:clamp(23px,6vw,37px)}.milestones{flex-direction:column}.milestones>div{padding:9px 13px;gap:3px}.milestones b{font-size:26px}.milestones span{font-size:17px}.boroughmap{width:100%;max-height:48vh}.wordslide .huge{font-size:clamp(44px,9vw,70px)}.he{font-size:22px}.mainSentence{font-size:clamp(23px,6vw,40px)}.foot{padding:6px 10px}.foot a{font-size:12px}.assist{display:none}.timeline{max-height:20vh}}@media(min-width:960px) and (max-height:720px){.slide{gap:6px;padding-top:39px}.emoji{font-size:65px}.boroughmap{max-height:55vh}.choices .choice{min-height:85px;padding:10px}.he{margin:2px 0}.feedback{min-height:29px}}button:focus-visible,a:focus-visible{outline:4px solid #ffdf8d;outline-offset:4px}
+
+/* Dedicated, language-isolated vocabulary cards: never mix RTL and LTR in the same text run. */
+.wordslide{justify-content:flex-start;gap:clamp(5px,1vh,11px);padding-top:clamp(53px,7.7vh,77px)}
+.wordslide .word-heading{width:100%;display:flex;justify-content:center;align-items:center;direction:ltr}
+.wordslide .word-title{font:900 clamp(39px,5.1vw,76px)/1.08 Arial,sans-serif;letter-spacing:.008em;margin:0;color:#f4fcff;text-transform:uppercase;direction:ltr;unicode-bidi:isolate;overflow-wrap:anywhere}
+.wordslide .word-reveal-btn{display:inline-flex;gap:16px;align-items:center;justify-content:center;padding:12px 18px;font-size:clamp(17px,1.65vw,25px)}
+.word-reveal-btn span[lang="en"],.word-reveal-btn span[lang="he"]{display:inline-block;unicode-bidi:isolate;white-space:normal}
+.word-reveal{width:min(1160px,100%);display:flex;flex-direction:column;align-items:center;gap:clamp(5px,0.95vh,10px);margin:0 auto}
+.word-reveal[hidden]{display:none!important}
+.word-meaning{font:900 clamp(25px,2.55vw,42px)/1.12 Arial,sans-serif;color:#ffe0a0;text-align:center;direction:rtl;unicode-bidi:isolate}
+.word-part-label,.word-family-label{font:800 clamp(17px,1.45vw,23px)/1.15 Arial,sans-serif;direction:rtl;unicode-bidi:isolate;color:#bce9e9}
+.word-breakdown{width:100%;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;direction:ltr;gap:clamp(7px,1vw,13px)}
+.word-part{min-width:135px;max-width:100%;min-height:71px;padding:7px 16px;border:2px solid #2b89a9;border-radius:13px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;background:#0f3b54;direction:ltr;unicode-bidi:isolate}
+.word-part:nth-of-type(2){background:#473714;border-color:#b9944f}
+.word-part .part-en{font:900 clamp(20px,2.35vw,38px)/1.05 Arial,sans-serif;color:#fff;direction:ltr;unicode-bidi:isolate;white-space:nowrap}
+.word-part .part-he{font:700 clamp(15px,1.35vw,21px)/1.12 Arial,sans-serif;color:#ffe3a8;direction:rtl;unicode-bidi:isolate;white-space:nowrap}
+.word-result{background:#13503e!important;border-color:#5ecc9b!important}
+.word-result .part-en{color:#aaf3bf!important}
+.word-operator{font:900 clamp(23px,2.5vw,41px)/1 Arial,sans-serif;color:#f4f7fb;unicode-bidi:isolate}
+.word-family-grid{width:min(900px,100%);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));justify-content:center;gap:10px;direction:ltr}
+.family-item{border-radius:12px;background:#182f46;border:1px solid #4a7b9b;padding:9px 8px;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px}
+.family-en{font:800 clamp(21px,2vw,29px)/1.1 Arial,sans-serif;color:#c7efff;text-align:center;direction:ltr;unicode-bidi:isolate;overflow-wrap:anywhere}
+.family-he{font:700 clamp(16px,1.55vw,24px)/1.1 Arial,sans-serif;color:#ffe0a0;text-align:center;direction:rtl;unicode-bidi:isolate}
+.family-extra{display:flex;gap:6px 16px;align-items:center;justify-content:center;flex-wrap:wrap;text-align:center;background:#ffffff0d;border-radius:9px;padding:5px 10px;font-size:clamp(14px,1.25vw,20px)}
+.family-extra span[lang="en"]{direction:ltr;unicode-bidi:isolate;color:#c8e7f3}
+.family-extra span[lang="he"]{direction:rtl;unicode-bidi:isolate;color:#ffe0a0}
+.word-sentence{width:100%;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:4px}
+.word-sentence-en{font:800 clamp(19px,2.05vw,33px)/1.12 Arial,sans-serif;color:white;text-align:center;direction:ltr;unicode-bidi:isolate}
+.word-sentence-he{font:700 clamp(17px,1.62vw,26px)/1.16 Arial,sans-serif;color:#e1c79b;text-align:center;direction:rtl;unicode-bidi:isolate}
+@media(max-width:730px){
+ .wordslide{padding:51px 12px 92px;gap:6px}
+ .wordslide .word-title{font-size:clamp(35px,8.7vw,54px)}
+ .wordslide .word-reveal-btn{font-size:16px;padding:9px 10px;gap:8px}
+ .word-reveal{gap:6px}
+ .word-meaning{font-size:29px}
+ .word-part-label,.word-family-label{font-size:17px}
+ .word-breakdown{gap:4px 7px}
+ .word-part{min-width:95px;min-height:55px;padding:5px 8px}
+ .word-part .part-en{font-size:clamp(16px,4.8vw,24px)}
+ .word-part .part-he{font-size:13px}
+ .word-operator{font-size:25px}
+ .word-family-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:5px}
+ .family-item{padding:7px 3px;gap:4px}
+ .family-en{font-size:clamp(16px,4vw,21px)}
+ .family-he{font-size:clamp(14px,3.5vw,18px)}
+ .word-sentence-en{font-size:clamp(18px,4.7vw,23px)}
+ .word-sentence-he{font-size:clamp(16px,4.1vw,21px)}
+ .family-extra{font-size:14px}
+}
+@media(min-width:960px) and (max-height:720px){
+ .wordslide{padding-top:39px;gap:4px}
+ .wordslide .word-title{font-size:clamp(43px,4.5vw,64px)}
+ .word-reveal{gap:5px}
+ .word-part{min-height:60px}
+ .word-meaning{font-size:30px}
+ .word-sentence-en{font-size:24px}
+ .word-sentence-he{font-size:21px}
+ .family-item{padding:6px}
+}
+
 </style></head><body><main class="deck" id="deck"><section class="slide cover" aria-hidden="true"><div class="label">GRADE 9 · NEW UNIT</div><div class="center"><h1>NEW YORK CITY</h1><p class="he">עיר אחת · חמישה רבעים</p><p class="dim">Unseen · Vocabulary · Present Perfect</p></div></section>
 <section class="slide " aria-hidden="true"><div class="label">NYC · FIVE BOROUGHS</div><h2>New York is NOT only Manhattan</h2><svg class="boroughmap" viewBox="0 0 930 470" role="img" aria-label="Schematic map of five New York City boroughs; not to scale"><rect x="0" y="0" width="930" height="470" rx="22" fill="#113a56"/><g stroke="#c9e9e9" stroke-width="4" stroke-linejoin="round"><path d="M450 65 L533 30 L632 65 L655 122 L582 167 L463 145Z" fill="#dba5c8"/><path d="M377 146 L413 125 L425 222 L411 363 L384 409 L365 369 L367 258Z" fill="#facb75"/><path d="M477 179 L588 162 L750 182 L825 257 L808 317 L680 325 L565 315 L442 271Z" fill="#95d2ea"/><path d="M448 320 L582 327 L682 335 L750 382 L696 442 L537 452 L414 392Z" fill="#a6e8bf"/><path d="M146 350 L223 320 L299 358 L332 407 L269 450 L174 449 L117 399Z" fill="#c9b5ff"/></g><g fill="#17283d" font-size="26" font-weight="900" text-anchor="middle"><text x="548" y="102">BRONX</text><text x="670" y="252">QUEENS</text><text x="577" y="395">BROOKLYN</text><text x="220" y="385" font-size="24">STATEN</text><text x="220" y="414" font-size="24">ISLAND</text></g><line x1="400" y1="282" x2="331" y2="278" stroke="#fff" stroke-width="3"/><text x="326" y="266" text-anchor="end" fill="white" font-size="23" font-weight="900">MANHATTAN</text><text x="60" y="78" fill="#b4d7e7" font-size="19">Schematic · NOT to scale</text><text x="50" y="241" fill="#a8d0e2" font-size="19">Hudson River</text><text x="415" y="463" fill="#a8d0e2" font-size="17">NEW YORK HARBOR</text></svg><p class="he bottom">זו מפה סכמטית: לא בקנה מידה. לניו יורק חמישה רבעים.</p></section>
 <section class="slide " aria-hidden="true"><div class="label">HISTORY · THREE DATES</div><h2>New Amsterdam → New York → NYC</h2><div class="milestones"><div><b>1600s</b><span>New Amsterdam was a Dutch settlement on Manhattan.</span></div><div><b>1664</b><span>The English named it New York.</span></div><div><b>1898</b><span>The modern five-borough city was formed.</span></div></div><p class="he bottom">לפני האיחוד הייתה העיר מרוכזת במנהטן וחלקים מהברונקס של ימינו.</p></section>
@@ -9,22 +69,262 @@
 <section class="slide " aria-hidden="true"><div class="label">MEET THE FIVE BOROUGHS</div><div class="emoji">🎵</div><h2 class="huge">THE BRONX</h2><div class="bigdesc">Hip-hop history · Yankees · Bronx Zoo · Parks</div><p class="he">היסטוריית היפ־הופ, היאנקיז, גן החיות ופארקים</p></section>
 <section class="slide " aria-hidden="true"><div class="label">MEET THE FIVE BOROUGHS</div><div class="emoji">⛴️</div><h2 class="huge">STATEN ISLAND</h2><div class="bigdesc">Ferry · Parks · Quieter neighborhoods</div><p class="he">מעבורת, פארקים ושכונות שקטות יחסית</p></section>
 <section class="slide " aria-hidden="true"><div class="label">VOCABULARY</div><div class="center"><h1>16 WORDS</h1><p class="he">נחשו את המילה, ואז חשפו את התרגום.</p><p class="dim">All words appear in the New York text.</p></div></section>
-<section class="slide wordslide" aria-hidden="true"><div class="label">NEW WORD · REVEAL HEBREW</div><div class="emoji">🏙️</div><h2 class="huge">borough</h2><button class="reveal">Reveal / גלה תרגום</button><div class="secret" hidden><div class="he translation">רובע עירוני</div><p class="dim example">New York City has five boroughs.</p></div></section>
-<section class="slide wordslide" aria-hidden="true"><div class="label">NEW WORD · REVEAL HEBREW</div><div class="emoji">🏘️</div><h2 class="huge">settlement</h2><button class="reveal">Reveal / גלה תרגום</button><div class="secret" hidden><div class="he translation">יישוב</div><p class="dim example">The old settlement grew on Manhattan.</p></div></section>
-<section class="slide wordslide" aria-hidden="true"><div class="label">NEW WORD · REVEAL HEBREW</div><div class="emoji">🏷️</div><h2 class="huge">rename</h2><button class="reveal">Reveal / גלה תרגום</button><div class="secret" hidden><div class="he translation">לשנות שם</div><p class="dim example">The English renamed the settlement.</p></div></section>
-<section class="slide wordslide" aria-hidden="true"><div class="label">NEW WORD · REVEAL HEBREW</div><div class="emoji">🤝</div><h2 class="huge">join</h2><button class="reveal">Reveal / גלה תרגום</button><div class="secret" hidden><div class="he translation">להצטרף / להתאחד</div><p class="dim example">The areas joined in 1898.</p></div></section>
-<section class="slide wordslide" aria-hidden="true"><div class="label">NEW WORD · REVEAL HEBREW</div><div class="emoji">↕️</div><h2 class="huge">narrow</h2><button class="reveal">Reveal / גלה תרגום</button><div class="secret" hidden><div class="he translation">צר</div><p class="dim example">Manhattan is a long, narrow island.</p></div></section>
-<section class="slide wordslide" aria-hidden="true"><div class="label">NEW WORD · REVEAL HEBREW</div><div class="emoji">🗺️</div><h2 class="huge">mainland</h2><button class="reveal">Reveal / גלה תרגום</button><div class="secret" hidden><div class="he translation">יבשת</div><p class="dim example">The Bronx is mainly on the mainland.</p></div></section>
-<section class="slide wordslide" aria-hidden="true"><div class="label">NEW WORD · REVEAL HEBREW</div><div class="emoji">⚓</div><h2 class="huge">harbor</h2><button class="reveal">Reveal / גלה תרגום</button><div class="secret" hidden><div class="he translation">נמל / מפרץ נמל</div><p class="dim example">Ships travel across New York Harbor.</p></div></section>
-<section class="slide wordslide" aria-hidden="true"><div class="label">NEW WORD · REVEAL HEBREW</div><div class="emoji">🌉</div><h2 class="huge">connect</h2><button class="reveal">Reveal / גלה תרגום</button><div class="secret" hidden><div class="he translation">לחבר</div><p class="dim example">Bridges connect different boroughs.</p></div></section>
-<section class="slide wordslide" aria-hidden="true"><div class="label">NEW WORD · REVEAL HEBREW</div><div class="emoji">🏠</div><h2 class="huge">residential</h2><button class="reveal">Reveal / גלה תרגום</button><div class="secret" hidden><div class="he translation">למגורים</div><p class="dim example">Brooklyn has many residential streets.</p></div></section>
-<section class="slide wordslide" aria-hidden="true"><div class="label">NEW WORD · REVEAL HEBREW</div><div class="emoji">🏡</div><h2 class="huge">neighborhood</h2><button class="reveal">Reveal / גלה תרגום</button><div class="secret" hidden><div class="he translation">שכונה</div><p class="dim example">Each neighborhood feels different.</p></div></section>
-<section class="slide wordslide" aria-hidden="true"><div class="label">NEW WORD · REVEAL HEBREW</div><div class="emoji">🌍</div><h2 class="huge">variety</h2><button class="reveal">Reveal / גלה תרגום</button><div class="secret" hidden><div class="he translation">מגוון</div><p class="dim example">Queens has a great variety of cultures.</p></div></section>
-<section class="slide wordslide" aria-hidden="true"><div class="label">NEW WORD · REVEAL HEBREW</div><div class="emoji">🎊</div><h2 class="huge">tradition</h2><button class="reveal">Reveal / גלה תרגום</button><div class="secret" hidden><div class="he translation">מסורת</div><p class="dim example">People bring traditions from home.</p></div></section>
-<section class="slide wordslide" aria-hidden="true"><div class="label">NEW WORD · REVEAL HEBREW</div><div class="emoji">🎵</div><h2 class="huge">develop</h2><button class="reveal">Reveal / גלה תרגום</button><div class="secret" hidden><div class="he translation">להתפתח</div><p class="dim example">Hip-hop developed in the Bronx.</p></div></section>
-<section class="slide wordslide" aria-hidden="true"><div class="label">NEW WORD · REVEAL HEBREW</div><div class="emoji">🌳</div><h2 class="huge">quieter</h2><button class="reveal">Reveal / גלה תרגום</button><div class="secret" hidden><div class="he translation">שקט יותר</div><p class="dim example">Staten Island is often quieter.</p></div></section>
-<section class="slide wordslide" aria-hidden="true"><div class="label">NEW WORD · REVEAL HEBREW</div><div class="emoji">⛴️</div><h2 class="huge">ferry</h2><button class="reveal">Reveal / גלה תרגום</button><div class="secret" hidden><div class="he translation">מעבורת</div><p class="dim example">The ferry travels across the harbor.</p></div></section>
-<section class="slide wordslide" aria-hidden="true"><div class="label">NEW WORD · REVEAL HEBREW</div><div class="emoji">🧩</div><h2 class="huge">shape</h2><button class="reveal">Reveal / גלה תרגום</button><div class="secret" hidden><div class="he translation">לעצב / להשפיע על</div><p class="dim example">New residents have shaped the city.</p></div></section>
+<section class="slide wordslide" aria-hidden="true" data-vocab="borough">
+<div class="label" dir="ltr" lang="en">VOCABULARY · WORD FAMILY</div>
+<div class="word-heading" dir="ltr"><h2 class="word-title" dir="ltr" lang="en">borough</h2></div>
+<button type="button" class="reveal word-reveal-btn" aria-expanded="false" aria-controls="word-family-borough"><span dir="ltr" lang="en">Reveal</span><span dir="rtl" lang="he">גלה פירוק ומילים קשורות</span></button>
+<div class="word-reveal" id="word-family-borough" hidden>
+  <div class="word-meaning" lang="he" dir="rtl">רובע עירוני</div>
+  <div class="word-part-label" lang="he" dir="rtl">יחיד ורבים</div>
+  <div class="word-breakdown" dir="ltr" lang="en">
+    <div class="word-part"><span class="part-en" dir="ltr" lang="en">BOROUGH</span><span class="part-he" dir="rtl" lang="he">רובע</span></div><span class="word-operator" dir="ltr">+</span><div class="word-part"><span class="part-en" dir="ltr" lang="en">-S</span><span class="part-he" dir="rtl" lang="he">סיומת רבים</span></div><span class="word-operator" dir="ltr">→</span>
+    <div class="word-part word-result" dir="ltr" lang="en"><span class="part-en">BOROUGHS</span></div>
+  </div>
+  <div class="word-family-label" dir="rtl" lang="he">מילים שימושיות וקלות מאותה משפחה</div>
+  <div class="word-family-grid" dir="ltr"><div class="family-item"><div class="family-en" dir="ltr" lang="en">borough</div><div class="family-he" dir="rtl" lang="he">רובע</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">boroughs</div><div class="family-he" dir="rtl" lang="he">רבעים</div></div></div>
+  
+  <div class="word-sentence"><div class="word-sentence-en" lang="en" dir="ltr">New York City has five boroughs.</div><div class="word-sentence-he" lang="he" dir="rtl">לעיר ניו יורק יש חמישה רבעים.</div></div>
+</div></section>
+<section class="slide wordslide" aria-hidden="true" data-vocab="settlement">
+<div class="label" dir="ltr" lang="en">VOCABULARY · WORD FAMILY</div>
+<div class="word-heading" dir="ltr"><h2 class="word-title" dir="ltr" lang="en">settlement</h2></div>
+<button type="button" class="reveal word-reveal-btn" aria-expanded="false" aria-controls="word-family-settlement"><span dir="ltr" lang="en">Reveal</span><span dir="rtl" lang="he">גלה פירוק ומילים קשורות</span></button>
+<div class="word-reveal" id="word-family-settlement" hidden>
+  <div class="word-meaning" lang="he" dir="rtl">יישוב</div>
+  <div class="word-part-label" lang="he" dir="rtl">מילה בסיסית וסיומת</div>
+  <div class="word-breakdown" dir="ltr" lang="en">
+    <div class="word-part"><span class="part-en" dir="ltr" lang="en">SETTLE</span><span class="part-he" dir="rtl" lang="he">להתיישב</span></div><span class="word-operator" dir="ltr">+</span><div class="word-part"><span class="part-en" dir="ltr" lang="en">-MENT</span><span class="part-he" dir="rtl" lang="he">סיומת של שם עצם</span></div><span class="word-operator" dir="ltr">→</span>
+    <div class="word-part word-result" dir="ltr" lang="en"><span class="part-en">SETTLEMENT</span></div>
+  </div>
+  <div class="word-family-label" dir="rtl" lang="he">מילים שימושיות וקלות מאותה משפחה</div>
+  <div class="word-family-grid" dir="ltr"><div class="family-item"><div class="family-en" dir="ltr" lang="en">settle</div><div class="family-he" dir="rtl" lang="he">להתיישב</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">settled</div><div class="family-he" dir="rtl" lang="he">התיישב</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">settlement</div><div class="family-he" dir="rtl" lang="he">יישוב</div></div></div>
+  
+  <div class="word-sentence"><div class="word-sentence-en" lang="en" dir="ltr">The settlement became a city.</div><div class="word-sentence-he" lang="he" dir="rtl">היישוב הפך לעיר.</div></div>
+</div></section>
+<section class="slide wordslide" aria-hidden="true" data-vocab="rename">
+<div class="label" dir="ltr" lang="en">VOCABULARY · WORD FAMILY</div>
+<div class="word-heading" dir="ltr"><h2 class="word-title" dir="ltr" lang="en">rename</h2></div>
+<button type="button" class="reveal word-reveal-btn" aria-expanded="false" aria-controls="word-family-rename"><span dir="ltr" lang="en">Reveal</span><span dir="rtl" lang="he">גלה פירוק ומילים קשורות</span></button>
+<div class="word-reveal" id="word-family-rename" hidden>
+  <div class="word-meaning" lang="he" dir="rtl">לשנות שם</div>
+  <div class="word-part-label" lang="he" dir="rtl">תחילית ומילה</div>
+  <div class="word-breakdown" dir="ltr" lang="en">
+    <div class="word-part"><span class="part-en" dir="ltr" lang="en">RE-</span><span class="part-he" dir="rtl" lang="he">מחדש</span></div><span class="word-operator" dir="ltr">+</span><div class="word-part"><span class="part-en" dir="ltr" lang="en">NAME</span><span class="part-he" dir="rtl" lang="he">שם / לתת שם</span></div><span class="word-operator" dir="ltr">→</span>
+    <div class="word-part word-result" dir="ltr" lang="en"><span class="part-en">RENAME</span></div>
+  </div>
+  <div class="word-family-label" dir="rtl" lang="he">מילים שימושיות וקלות מאותה משפחה</div>
+  <div class="word-family-grid" dir="ltr"><div class="family-item"><div class="family-en" dir="ltr" lang="en">name</div><div class="family-he" dir="rtl" lang="he">שם</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">rename</div><div class="family-he" dir="rtl" lang="he">לשנות שם</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">renamed</div><div class="family-he" dir="rtl" lang="he">שינה שם</div></div></div>
+  
+  <div class="word-sentence"><div class="word-sentence-en" lang="en" dir="ltr">The English renamed the settlement.</div><div class="word-sentence-he" lang="he" dir="rtl">האנגלים שינו את שם היישוב.</div></div>
+</div></section>
+<section class="slide wordslide" aria-hidden="true" data-vocab="join">
+<div class="label" dir="ltr" lang="en">VOCABULARY · WORD FAMILY</div>
+<div class="word-heading" dir="ltr"><h2 class="word-title" dir="ltr" lang="en">join</h2></div>
+<button type="button" class="reveal word-reveal-btn" aria-expanded="false" aria-controls="word-family-join"><span dir="ltr" lang="en">Reveal</span><span dir="rtl" lang="he">גלה פירוק ומילים קשורות</span></button>
+<div class="word-reveal" id="word-family-join" hidden>
+  <div class="word-meaning" lang="he" dir="rtl">להצטרף / להתאחד</div>
+  <div class="word-part-label" lang="he" dir="rtl">פועל בעבר</div>
+  <div class="word-breakdown" dir="ltr" lang="en">
+    <div class="word-part"><span class="part-en" dir="ltr" lang="en">JOIN</span><span class="part-he" dir="rtl" lang="he">להצטרף</span></div><span class="word-operator" dir="ltr">+</span><div class="word-part"><span class="part-en" dir="ltr" lang="en">-ED</span><span class="part-he" dir="rtl" lang="he">סיומת עבר</span></div><span class="word-operator" dir="ltr">→</span>
+    <div class="word-part word-result" dir="ltr" lang="en"><span class="part-en">JOINED</span></div>
+  </div>
+  <div class="word-family-label" dir="rtl" lang="he">מילים שימושיות וקלות מאותה משפחה</div>
+  <div class="word-family-grid" dir="ltr"><div class="family-item"><div class="family-en" dir="ltr" lang="en">join</div><div class="family-he" dir="rtl" lang="he">להצטרף</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">joins</div><div class="family-he" dir="rtl" lang="he">מצטרף</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">joined</div><div class="family-he" dir="rtl" lang="he">הצטרף</div></div></div>
+  
+  <div class="word-sentence"><div class="word-sentence-en" lang="en" dir="ltr">The areas joined in 1898.</div><div class="word-sentence-he" lang="he" dir="rtl">האזורים התאחדו בשנת 1898.</div></div>
+</div></section>
+<section class="slide wordslide" aria-hidden="true" data-vocab="narrow">
+<div class="label" dir="ltr" lang="en">VOCABULARY · WORD FAMILY</div>
+<div class="word-heading" dir="ltr"><h2 class="word-title" dir="ltr" lang="en">narrow</h2></div>
+<button type="button" class="reveal word-reveal-btn" aria-expanded="false" aria-controls="word-family-narrow"><span dir="ltr" lang="en">Reveal</span><span dir="rtl" lang="he">גלה פירוק ומילים קשורות</span></button>
+<div class="word-reveal" id="word-family-narrow" hidden>
+  <div class="word-meaning" lang="he" dir="rtl">צר</div>
+  <div class="word-part-label" lang="he" dir="rtl">תואר והשוואה</div>
+  <div class="word-breakdown" dir="ltr" lang="en">
+    <div class="word-part"><span class="part-en" dir="ltr" lang="en">NARROW</span><span class="part-he" dir="rtl" lang="he">צר</span></div><span class="word-operator" dir="ltr">+</span><div class="word-part"><span class="part-en" dir="ltr" lang="en">-ER</span><span class="part-he" dir="rtl" lang="he">יותר</span></div><span class="word-operator" dir="ltr">→</span>
+    <div class="word-part word-result" dir="ltr" lang="en"><span class="part-en">NARROWER</span></div>
+  </div>
+  <div class="word-family-label" dir="rtl" lang="he">מילים שימושיות וקלות מאותה משפחה</div>
+  <div class="word-family-grid" dir="ltr"><div class="family-item"><div class="family-en" dir="ltr" lang="en">narrow</div><div class="family-he" dir="rtl" lang="he">צר</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">narrower</div><div class="family-he" dir="rtl" lang="he">צר יותר</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">narrowest</div><div class="family-he" dir="rtl" lang="he">הצר ביותר</div></div></div>
+  
+  <div class="word-sentence"><div class="word-sentence-en" lang="en" dir="ltr">Manhattan is a narrow island.</div><div class="word-sentence-he" lang="he" dir="rtl">מנהטן היא אי צר.</div></div>
+</div></section>
+<section class="slide wordslide" aria-hidden="true" data-vocab="mainland">
+<div class="label" dir="ltr" lang="en">VOCABULARY · WORD FAMILY</div>
+<div class="word-heading" dir="ltr"><h2 class="word-title" dir="ltr" lang="en">mainland</h2></div>
+<button type="button" class="reveal word-reveal-btn" aria-expanded="false" aria-controls="word-family-mainland"><span dir="ltr" lang="en">Reveal</span><span dir="rtl" lang="he">גלה פירוק ומילים קשורות</span></button>
+<div class="word-reveal" id="word-family-mainland" hidden>
+  <div class="word-meaning" lang="he" dir="rtl">יבשה (לעומת אי)</div>
+  <div class="word-part-label" lang="he" dir="rtl">שתי מילים יוצרות מילה</div>
+  <div class="word-breakdown" dir="ltr" lang="en">
+    <div class="word-part"><span class="part-en" dir="ltr" lang="en">MAIN</span><span class="part-he" dir="rtl" lang="he">עיקרי</span></div><span class="word-operator" dir="ltr">+</span><div class="word-part"><span class="part-en" dir="ltr" lang="en">LAND</span><span class="part-he" dir="rtl" lang="he">אדמה / יבשה</span></div><span class="word-operator" dir="ltr">→</span>
+    <div class="word-part word-result" dir="ltr" lang="en"><span class="part-en">MAINLAND</span></div>
+  </div>
+  <div class="word-family-label" dir="rtl" lang="he">מילים שימושיות וקלות מאותה משפחה</div>
+  <div class="word-family-grid" dir="ltr"><div class="family-item"><div class="family-en" dir="ltr" lang="en">main</div><div class="family-he" dir="rtl" lang="he">עיקרי</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">land</div><div class="family-he" dir="rtl" lang="he">יבשה</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">mainland</div><div class="family-he" dir="rtl" lang="he">היבשה</div></div></div>
+  
+  <div class="word-sentence"><div class="word-sentence-en" lang="en" dir="ltr">The Bronx is mainly on the mainland.</div><div class="word-sentence-he" lang="he" dir="rtl">הברונקס נמצא ברובו על היבשה.</div></div>
+</div></section>
+<section class="slide wordslide" aria-hidden="true" data-vocab="harbor">
+<div class="label" dir="ltr" lang="en">VOCABULARY · WORD FAMILY</div>
+<div class="word-heading" dir="ltr"><h2 class="word-title" dir="ltr" lang="en">harbor</h2></div>
+<button type="button" class="reveal word-reveal-btn" aria-expanded="false" aria-controls="word-family-harbor"><span dir="ltr" lang="en">Reveal</span><span dir="rtl" lang="he">גלה פירוק ומילים קשורות</span></button>
+<div class="word-reveal" id="word-family-harbor" hidden>
+  <div class="word-meaning" lang="he" dir="rtl">נמל / מפרץ נמל</div>
+  <div class="word-part-label" lang="he" dir="rtl">יחיד ורבים</div>
+  <div class="word-breakdown" dir="ltr" lang="en">
+    <div class="word-part"><span class="part-en" dir="ltr" lang="en">HARBOR</span><span class="part-he" dir="rtl" lang="he">נמל</span></div><span class="word-operator" dir="ltr">+</span><div class="word-part"><span class="part-en" dir="ltr" lang="en">-S</span><span class="part-he" dir="rtl" lang="he">סיומת רבים</span></div><span class="word-operator" dir="ltr">→</span>
+    <div class="word-part word-result" dir="ltr" lang="en"><span class="part-en">HARBORS</span></div>
+  </div>
+  <div class="word-family-label" dir="rtl" lang="he">מילים שימושיות וקלות מאותה משפחה</div>
+  <div class="word-family-grid" dir="ltr"><div class="family-item"><div class="family-en" dir="ltr" lang="en">harbor</div><div class="family-he" dir="rtl" lang="he">נמל</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">harbors</div><div class="family-he" dir="rtl" lang="he">נמלים</div></div></div>
+  <div class="family-extra"><span dir="ltr" lang="en">Similar meaning: port = harbor</span><span dir="rtl" lang="he">מילה דומה במשמעות: port — נמל</span></div>
+  <div class="word-sentence"><div class="word-sentence-en" lang="en" dir="ltr">Ships travel across New York Harbor.</div><div class="word-sentence-he" lang="he" dir="rtl">ספינות עוברות במפרץ הנמל של ניו יורק.</div></div>
+</div></section>
+<section class="slide wordslide" aria-hidden="true" data-vocab="connect">
+<div class="label" dir="ltr" lang="en">VOCABULARY · WORD FAMILY</div>
+<div class="word-heading" dir="ltr"><h2 class="word-title" dir="ltr" lang="en">connect</h2></div>
+<button type="button" class="reveal word-reveal-btn" aria-expanded="false" aria-controls="word-family-connect"><span dir="ltr" lang="en">Reveal</span><span dir="rtl" lang="he">גלה פירוק ומילים קשורות</span></button>
+<div class="word-reveal" id="word-family-connect" hidden>
+  <div class="word-meaning" lang="he" dir="rtl">לחבר</div>
+  <div class="word-part-label" lang="he" dir="rtl">פועל ומילים מאותה משפחה</div>
+  <div class="word-breakdown" dir="ltr" lang="en">
+    <div class="word-part"><span class="part-en" dir="ltr" lang="en">CONNECT</span><span class="part-he" dir="rtl" lang="he">לחבר</span></div><span class="word-operator" dir="ltr">+</span><div class="word-part"><span class="part-en" dir="ltr" lang="en">-ED</span><span class="part-he" dir="rtl" lang="he">סיומת עבר</span></div><span class="word-operator" dir="ltr">→</span>
+    <div class="word-part word-result" dir="ltr" lang="en"><span class="part-en">CONNECTED</span></div>
+  </div>
+  <div class="word-family-label" dir="rtl" lang="he">מילים שימושיות וקלות מאותה משפחה</div>
+  <div class="word-family-grid" dir="ltr"><div class="family-item"><div class="family-en" dir="ltr" lang="en">connect</div><div class="family-he" dir="rtl" lang="he">לחבר</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">connected</div><div class="family-he" dir="rtl" lang="he">מחובר</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">connection</div><div class="family-he" dir="rtl" lang="he">חיבור</div></div></div>
+  
+  <div class="word-sentence"><div class="word-sentence-en" lang="en" dir="ltr">Bridges connect the boroughs.</div><div class="word-sentence-he" lang="he" dir="rtl">גשרים מחברים בין הרבעים.</div></div>
+</div></section>
+<section class="slide wordslide" aria-hidden="true" data-vocab="residential">
+<div class="label" dir="ltr" lang="en">VOCABULARY · WORD FAMILY</div>
+<div class="word-heading" dir="ltr"><h2 class="word-title" dir="ltr" lang="en">residential</h2></div>
+<button type="button" class="reveal word-reveal-btn" aria-expanded="false" aria-controls="word-family-residential"><span dir="ltr" lang="en">Reveal</span><span dir="rtl" lang="he">גלה פירוק ומילים קשורות</span></button>
+<div class="word-reveal" id="word-family-residential" hidden>
+  <div class="word-meaning" lang="he" dir="rtl">של מגורים</div>
+  <div class="word-part-label" lang="he" dir="rtl">שם עצם ותואר</div>
+  <div class="word-breakdown" dir="ltr" lang="en">
+    <div class="word-part"><span class="part-en" dir="ltr" lang="en">RESIDENT</span><span class="part-he" dir="rtl" lang="he">תושב</span></div><span class="word-operator" dir="ltr">+</span><div class="word-part"><span class="part-en" dir="ltr" lang="en">-IAL</span><span class="part-he" dir="rtl" lang="he">סיומת לתואר</span></div><span class="word-operator" dir="ltr">→</span>
+    <div class="word-part word-result" dir="ltr" lang="en"><span class="part-en">RESIDENTIAL</span></div>
+  </div>
+  <div class="word-family-label" dir="rtl" lang="he">מילים שימושיות וקלות מאותה משפחה</div>
+  <div class="word-family-grid" dir="ltr"><div class="family-item"><div class="family-en" dir="ltr" lang="en">resident</div><div class="family-he" dir="rtl" lang="he">תושב</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">residents</div><div class="family-he" dir="rtl" lang="he">תושבים</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">residential</div><div class="family-he" dir="rtl" lang="he">של מגורים</div></div></div>
+  
+  <div class="word-sentence"><div class="word-sentence-en" lang="en" dir="ltr">Brooklyn has residential streets.</div><div class="word-sentence-he" lang="he" dir="rtl">בברוקלין יש רחובות מגורים.</div></div>
+</div></section>
+<section class="slide wordslide" aria-hidden="true" data-vocab="neighborhood">
+<div class="label" dir="ltr" lang="en">VOCABULARY · WORD FAMILY</div>
+<div class="word-heading" dir="ltr"><h2 class="word-title" dir="ltr" lang="en">neighborhood</h2></div>
+<button type="button" class="reveal word-reveal-btn" aria-expanded="false" aria-controls="word-family-neighborhood"><span dir="ltr" lang="en">Reveal</span><span dir="rtl" lang="he">גלה פירוק ומילים קשורות</span></button>
+<div class="word-reveal" id="word-family-neighborhood" hidden>
+  <div class="word-meaning" lang="he" dir="rtl">שכונה</div>
+  <div class="word-part-label" lang="he" dir="rtl">בסיס וסיומת</div>
+  <div class="word-breakdown" dir="ltr" lang="en">
+    <div class="word-part"><span class="part-en" dir="ltr" lang="en">NEIGHBOR</span><span class="part-he" dir="rtl" lang="he">שכן</span></div><span class="word-operator" dir="ltr">+</span><div class="word-part"><span class="part-en" dir="ltr" lang="en">-HOOD</span><span class="part-he" dir="rtl" lang="he">סיומת</span></div><span class="word-operator" dir="ltr">→</span>
+    <div class="word-part word-result" dir="ltr" lang="en"><span class="part-en">NEIGHBORHOOD</span></div>
+  </div>
+  <div class="word-family-label" dir="rtl" lang="he">מילים שימושיות וקלות מאותה משפחה</div>
+  <div class="word-family-grid" dir="ltr"><div class="family-item"><div class="family-en" dir="ltr" lang="en">neighbor</div><div class="family-he" dir="rtl" lang="he">שכן</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">neighbors</div><div class="family-he" dir="rtl" lang="he">שכנים</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">neighborhood</div><div class="family-he" dir="rtl" lang="he">שכונה</div></div></div>
+  <div class="family-extra"><span dir="ltr" lang="en">Same ending: CHILD + -HOOD → CHILDHOOD</span><span dir="rtl" lang="he">אותה סיומת במילה אחרת: ילדות</span></div>
+  <div class="word-sentence"><div class="word-sentence-en" lang="en" dir="ltr">My neighbor lives in my neighborhood.</div><div class="word-sentence-he" lang="he" dir="rtl">השכן שלי גר בשכונה שלי.</div></div>
+</div></section>
+<section class="slide wordslide" aria-hidden="true" data-vocab="variety">
+<div class="label" dir="ltr" lang="en">VOCABULARY · WORD FAMILY</div>
+<div class="word-heading" dir="ltr"><h2 class="word-title" dir="ltr" lang="en">variety</h2></div>
+<button type="button" class="reveal word-reveal-btn" aria-expanded="false" aria-controls="word-family-variety"><span dir="ltr" lang="en">Reveal</span><span dir="rtl" lang="he">גלה פירוק ומילים קשורות</span></button>
+<div class="word-reveal" id="word-family-variety" hidden>
+  <div class="word-meaning" lang="he" dir="rtl">מגוון</div>
+  <div class="word-part-label" lang="he" dir="rtl">מילים עם בסיס כתיב משותף: VARI-</div>
+  <div class="word-breakdown" dir="ltr" lang="en">
+    <div class="word-part"><span class="part-en" dir="ltr" lang="en">VARIETY</span><span class="part-he" dir="rtl" lang="he">מגוון</span></div><span class="word-operator" dir="ltr">→</span>
+    <div class="word-part word-result" dir="ltr" lang="en"><span class="part-en">VARIOUS</span></div>
+  </div>
+  <div class="word-family-label" dir="rtl" lang="he">מילים שימושיות וקלות מאותה משפחה</div>
+  <div class="word-family-grid" dir="ltr"><div class="family-item"><div class="family-en" dir="ltr" lang="en">variety</div><div class="family-he" dir="rtl" lang="he">מגוון</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">various</div><div class="family-he" dir="rtl" lang="he">שונים / מגוונים</div></div></div>
+  
+  <div class="word-sentence"><div class="word-sentence-en" lang="en" dir="ltr">Queens has a variety of cultures.</div><div class="word-sentence-he" lang="he" dir="rtl">בקווינס יש מגוון של תרבויות.</div></div>
+</div></section>
+<section class="slide wordslide" aria-hidden="true" data-vocab="tradition">
+<div class="label" dir="ltr" lang="en">VOCABULARY · WORD FAMILY</div>
+<div class="word-heading" dir="ltr"><h2 class="word-title" dir="ltr" lang="en">tradition</h2></div>
+<button type="button" class="reveal word-reveal-btn" aria-expanded="false" aria-controls="word-family-tradition"><span dir="ltr" lang="en">Reveal</span><span dir="rtl" lang="he">גלה פירוק ומילים קשורות</span></button>
+<div class="word-reveal" id="word-family-tradition" hidden>
+  <div class="word-meaning" lang="he" dir="rtl">מסורת</div>
+  <div class="word-part-label" lang="he" dir="rtl">שם עצם ותואר</div>
+  <div class="word-breakdown" dir="ltr" lang="en">
+    <div class="word-part"><span class="part-en" dir="ltr" lang="en">TRADITION</span><span class="part-he" dir="rtl" lang="he">מסורת</span></div><span class="word-operator" dir="ltr">+</span><div class="word-part"><span class="part-en" dir="ltr" lang="en">-AL</span><span class="part-he" dir="rtl" lang="he">סיומת לתואר</span></div><span class="word-operator" dir="ltr">→</span>
+    <div class="word-part word-result" dir="ltr" lang="en"><span class="part-en">TRADITIONAL</span></div>
+  </div>
+  <div class="word-family-label" dir="rtl" lang="he">מילים שימושיות וקלות מאותה משפחה</div>
+  <div class="word-family-grid" dir="ltr"><div class="family-item"><div class="family-en" dir="ltr" lang="en">tradition</div><div class="family-he" dir="rtl" lang="he">מסורת</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">traditions</div><div class="family-he" dir="rtl" lang="he">מסורות</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">traditional</div><div class="family-he" dir="rtl" lang="he">מסורתי</div></div></div>
+  <div class="family-extra"><span dir="ltr" lang="en">TRADITION is not from TRADE.</span><span dir="rtl" lang="he">אין קשר למילה trade (מסחר).</span></div>
+  <div class="word-sentence"><div class="word-sentence-en" lang="en" dir="ltr">We have a family tradition.</div><div class="word-sentence-he" lang="he" dir="rtl">יש לנו מסורת משפחתית.</div></div>
+</div></section>
+<section class="slide wordslide" aria-hidden="true" data-vocab="develop">
+<div class="label" dir="ltr" lang="en">VOCABULARY · WORD FAMILY</div>
+<div class="word-heading" dir="ltr"><h2 class="word-title" dir="ltr" lang="en">develop</h2></div>
+<button type="button" class="reveal word-reveal-btn" aria-expanded="false" aria-controls="word-family-develop"><span dir="ltr" lang="en">Reveal</span><span dir="rtl" lang="he">גלה פירוק ומילים קשורות</span></button>
+<div class="word-reveal" id="word-family-develop" hidden>
+  <div class="word-meaning" lang="he" dir="rtl">להתפתח</div>
+  <div class="word-part-label" lang="he" dir="rtl">צורות הפועל</div>
+  <div class="word-breakdown" dir="ltr" lang="en">
+    <div class="word-part"><span class="part-en" dir="ltr" lang="en">DEVELOP</span><span class="part-he" dir="rtl" lang="he">להתפתח</span></div><span class="word-operator" dir="ltr">+</span><div class="word-part"><span class="part-en" dir="ltr" lang="en">-ED</span><span class="part-he" dir="rtl" lang="he">סיומת עבר</span></div><span class="word-operator" dir="ltr">→</span>
+    <div class="word-part word-result" dir="ltr" lang="en"><span class="part-en">DEVELOPED</span></div>
+  </div>
+  <div class="word-family-label" dir="rtl" lang="he">מילים שימושיות וקלות מאותה משפחה</div>
+  <div class="word-family-grid" dir="ltr"><div class="family-item"><div class="family-en" dir="ltr" lang="en">develop</div><div class="family-he" dir="rtl" lang="he">להתפתח</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">developed</div><div class="family-he" dir="rtl" lang="he">התפתח</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">developing</div><div class="family-he" dir="rtl" lang="he">מתפתח</div></div></div>
+  
+  <div class="word-sentence"><div class="word-sentence-en" lang="en" dir="ltr">Hip-hop developed in the Bronx.</div><div class="word-sentence-he" lang="he" dir="rtl">ההיפ־הופ התפתח בברונקס.</div></div>
+</div></section>
+<section class="slide wordslide" aria-hidden="true" data-vocab="quieter">
+<div class="label" dir="ltr" lang="en">VOCABULARY · WORD FAMILY</div>
+<div class="word-heading" dir="ltr"><h2 class="word-title" dir="ltr" lang="en">quieter</h2></div>
+<button type="button" class="reveal word-reveal-btn" aria-expanded="false" aria-controls="word-family-quieter"><span dir="ltr" lang="en">Reveal</span><span dir="rtl" lang="he">גלה פירוק ומילים קשורות</span></button>
+<div class="word-reveal" id="word-family-quieter" hidden>
+  <div class="word-meaning" lang="he" dir="rtl">שקט יותר</div>
+  <div class="word-part-label" lang="he" dir="rtl">תואר והשוואה</div>
+  <div class="word-breakdown" dir="ltr" lang="en">
+    <div class="word-part"><span class="part-en" dir="ltr" lang="en">QUIET</span><span class="part-he" dir="rtl" lang="he">שקט</span></div><span class="word-operator" dir="ltr">+</span><div class="word-part"><span class="part-en" dir="ltr" lang="en">-ER</span><span class="part-he" dir="rtl" lang="he">יותר</span></div><span class="word-operator" dir="ltr">→</span>
+    <div class="word-part word-result" dir="ltr" lang="en"><span class="part-en">QUIETER</span></div>
+  </div>
+  <div class="word-family-label" dir="rtl" lang="he">מילים שימושיות וקלות מאותה משפחה</div>
+  <div class="word-family-grid" dir="ltr"><div class="family-item"><div class="family-en" dir="ltr" lang="en">quiet</div><div class="family-he" dir="rtl" lang="he">שקט</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">quieter</div><div class="family-he" dir="rtl" lang="he">שקט יותר</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">quietest</div><div class="family-he" dir="rtl" lang="he">השקט ביותר</div></div></div>
+  
+  <div class="word-sentence"><div class="word-sentence-en" lang="en" dir="ltr">Staten Island is quieter than Manhattan.</div><div class="word-sentence-he" lang="he" dir="rtl">סטטן איילנד שקט יותר ממנהטן.</div></div>
+</div></section>
+<section class="slide wordslide" aria-hidden="true" data-vocab="ferry">
+<div class="label" dir="ltr" lang="en">VOCABULARY · WORD FAMILY</div>
+<div class="word-heading" dir="ltr"><h2 class="word-title" dir="ltr" lang="en">ferry</h2></div>
+<button type="button" class="reveal word-reveal-btn" aria-expanded="false" aria-controls="word-family-ferry"><span dir="ltr" lang="en">Reveal</span><span dir="rtl" lang="he">גלה פירוק ומילים קשורות</span></button>
+<div class="word-reveal" id="word-family-ferry" hidden>
+  <div class="word-meaning" lang="he" dir="rtl">מעבורת</div>
+  <div class="word-part-label" lang="he" dir="rtl">צורת רבים: Y הופך ל־IES</div>
+  <div class="word-breakdown" dir="ltr" lang="en">
+    <div class="word-part"><span class="part-en" dir="ltr" lang="en">FERRY</span><span class="part-he" dir="rtl" lang="he">מעבורת</span></div><span class="word-operator" dir="ltr">→</span>
+    <div class="word-part word-result" dir="ltr" lang="en"><span class="part-en">FERRIES</span></div>
+  </div>
+  <div class="word-family-label" dir="rtl" lang="he">מילים שימושיות וקלות מאותה משפחה</div>
+  <div class="word-family-grid" dir="ltr"><div class="family-item"><div class="family-en" dir="ltr" lang="en">ferry</div><div class="family-he" dir="rtl" lang="he">מעבורת</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">ferries</div><div class="family-he" dir="rtl" lang="he">מעבורות</div></div></div>
+  
+  <div class="word-sentence"><div class="word-sentence-en" lang="en" dir="ltr">The ferry travels across the harbor.</div><div class="word-sentence-he" lang="he" dir="rtl">המעבורת חוצה את המפרץ.</div></div>
+</div></section>
+<section class="slide wordslide" aria-hidden="true" data-vocab="shape">
+<div class="label" dir="ltr" lang="en">VOCABULARY · WORD FAMILY</div>
+<div class="word-heading" dir="ltr"><h2 class="word-title" dir="ltr" lang="en">shape</h2></div>
+<button type="button" class="reveal word-reveal-btn" aria-expanded="false" aria-controls="word-family-shape"><span dir="ltr" lang="en">Reveal</span><span dir="rtl" lang="he">גלה פירוק ומילים קשורות</span></button>
+<div class="word-reveal" id="word-family-shape" hidden>
+  <div class="word-meaning" lang="he" dir="rtl">לעצב / צורה</div>
+  <div class="word-part-label" lang="he" dir="rtl">תחילית ופועל</div>
+  <div class="word-breakdown" dir="ltr" lang="en">
+    <div class="word-part"><span class="part-en" dir="ltr" lang="en">RE-</span><span class="part-he" dir="rtl" lang="he">מחדש</span></div><span class="word-operator" dir="ltr">+</span><div class="word-part"><span class="part-en" dir="ltr" lang="en">SHAPE</span><span class="part-he" dir="rtl" lang="he">לעצב</span></div><span class="word-operator" dir="ltr">→</span>
+    <div class="word-part word-result" dir="ltr" lang="en"><span class="part-en">RESHAPE</span></div>
+  </div>
+  <div class="word-family-label" dir="rtl" lang="he">מילים שימושיות וקלות מאותה משפחה</div>
+  <div class="word-family-grid" dir="ltr"><div class="family-item"><div class="family-en" dir="ltr" lang="en">shape</div><div class="family-he" dir="rtl" lang="he">לעצב / צורה</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">shaped</div><div class="family-he" dir="rtl" lang="he">עיצב</div></div><div class="family-item"><div class="family-en" dir="ltr" lang="en">reshape</div><div class="family-he" dir="rtl" lang="he">לעצב מחדש</div></div></div>
+  
+  <div class="word-sentence"><div class="word-sentence-en" lang="en" dir="ltr">New people have shaped New York City.</div><div class="word-sentence-he" lang="he" dir="rtl">אנשים חדשים השפיעו על עיצובה של ניו יורק.</div></div>
+</div></section>
 <section class="slide " aria-hidden="true"><div class="label">VOCABULARY PRACTICE</div><div class="center"><h1>CHOOSE THE MEANING</h1><p class="he">שמונה שאלות בחירה — בדיקה מיידית.</p><p class="dim"></p></div></section>
 <section class="slide quizslide" aria-hidden="true"><div class="label">WORD CHALLENGE</div><h2 class="question">What does BOROUGH mean?</h2><div class="choices"><button class="choice" data-answer="0"><strong>A</strong> טירה</button><button class="choice" data-answer="1"><strong>B</strong> רובע עירוני</button><button class="choice" data-answer="2"><strong>C</strong> בית ספר</button></div><div class="feedback" aria-live="polite" data-correct="1" data-expl="A borough is one of NYC’s five main areas.">Choose an answer.</div></section>
 <section class="slide quizslide" aria-hidden="true"><div class="label">WORD CHALLENGE</div><h2 class="question">What does SETTLEMENT mean?</h2><div class="choices"><button class="choice" data-answer="0"><strong>A</strong> יישוב</button><button class="choice" data-answer="1"><strong>B</strong> גשר</button><button class="choice" data-answer="2"><strong>C</strong> אצטדיון</button></div><div class="feedback" aria-live="polite" data-correct="0" data-expl="New Amsterdam was an early settlement.">Choose an answer.</div></section>
@@ -54,5 +354,5 @@
 <section class="slide " aria-hidden="true"><div class="label">SENTENCES FROM YOUR UNSEEN</div><h2>Have / Has + V3</h2><div class="examples"><p>People from around the world <mark>have brought</mark> different languages.</p><p>New York <mark>has changed</mark> over hundreds of years.</p><p>New people <mark>have continued</mark> to shape it.</p></div><p class="he">פעולה בעבר שיש לה קשר להווה — בדיוק כמו בדף העבודה.</p></section>
 <section class="slide " aria-hidden="true"><div class="label">NEXT STEPS</div><div class="center"><h1>Great work!</h1><p class="he">סיימנו חזרה על אוצר המילים ועל Present Perfect</p><div class="endlinks"><a href="../">🖨 Printable Unseen · 2 pages</a><a href="../../../#grade9">⌂ Grade 9 homepage</a><a href="../../present-perfect-discovery/">Original Present Perfect deck</a></div></div></section></main><footer class="foot"><a href="../">🖨 Unseen worksheet</a><div class="controls"><button id="prev" aria-label="Previous slide">←</button><span class="counter" id="counter"></span><button id="next" aria-label="Next slide">→</button></div><a href="../../../#grade9">⌂ Class home</a><span class="assist">← → / PgUp PgDn / swipe</span><span class="bar" id="bar"></span></footer>
 <script>
-(()=>{const all=[...document.querySelectorAll(".slide")],N=all.length;let current=0,locked=false;const count=document.getElementById("counter"),bar=document.getElementById("bar");function show(n){current=Math.max(0,Math.min(N-1,n));all.forEach((x,i)=>{x.classList.toggle("active",i===current);x.setAttribute("aria-hidden",String(i!==current))});count.textContent=(current+1)+" / "+N;bar.style.width=((current+1)*100/N)+"%";history.replaceState(null,"","#slide-"+(current+1))}document.getElementById("prev").onclick=()=>show(current-1);document.getElementById("next").onclick=()=>show(current+1);document.addEventListener("keydown",e=>{if(["ArrowRight","ArrowDown","PageDown","Enter"," "].includes(e.key)){if(e.target.closest("button,a"))return;e.preventDefault();show(current+1)}if(["ArrowLeft","ArrowUp","PageUp"].includes(e.key)){e.preventDefault();show(current-1)}});let ty=0,tx=0;document.addEventListener("touchstart",e=>{ty=e.changedTouches[0].clientY;tx=e.changedTouches[0].clientX},{passive:true});document.addEventListener("touchend",e=>{const dy=ty-e.changedTouches[0].clientY,dx=tx-e.changedTouches[0].clientX,delta=Math.abs(dx)>Math.abs(dy)?dx:dy;if(Math.abs(delta)>70)show(current+(delta>0?1:-1))},{passive:true});document.addEventListener("wheel",e=>{if(locked||Math.abs(e.deltaY)<40||e.target.closest(".choices"))return;locked=true;show(current+(e.deltaY>0?1:-1));setTimeout(()=>locked=false,520)},{passive:true});document.querySelectorAll(".reveal").forEach(btn=>btn.addEventListener("click",()=>{const s=btn.nextElementSibling;s.hidden=!s.hidden;btn.textContent=s.hidden?"Reveal / גלה תרגום":"Hide / הסתר תרגום"}));document.querySelectorAll(".quizslide").forEach(section=>{section.querySelectorAll(".choice").forEach(btn=>btn.addEventListener("click",()=>{const f=section.querySelector(".feedback"),ok=Number(f.dataset.correct),v=Number(btn.dataset.answer);section.querySelectorAll(".choice").forEach(el=>el.classList.remove("correct","wrong"));btn.classList.add(v===ok?"correct":"wrong");f.textContent=v===ok?"✓ Correct! "+f.dataset.expl:"Try again. Hint: "+f.dataset.expl;}))});let initial=Number((location.hash.match(/slide-(\d+)/)||[])[1])||1;show(initial-1)})();
+(()=>{const all=[...document.querySelectorAll(".slide")],N=all.length;let current=0,locked=false;const count=document.getElementById("counter"),bar=document.getElementById("bar");function show(n){current=Math.max(0,Math.min(N-1,n));all.forEach((x,i)=>{x.classList.toggle("active",i===current);x.setAttribute("aria-hidden",String(i!==current))});count.textContent=(current+1)+" / "+N;bar.style.width=((current+1)*100/N)+"%";history.replaceState(null,"","#slide-"+(current+1))}document.getElementById("prev").onclick=()=>show(current-1);document.getElementById("next").onclick=()=>show(current+1);document.addEventListener("keydown",e=>{if(["ArrowRight","ArrowDown","PageDown","Enter"," "].includes(e.key)){if(e.target.closest("button,a"))return;e.preventDefault();show(current+1)}if(["ArrowLeft","ArrowUp","PageUp"].includes(e.key)){e.preventDefault();show(current-1)}});let ty=0,tx=0;document.addEventListener("touchstart",e=>{ty=e.changedTouches[0].clientY;tx=e.changedTouches[0].clientX},{passive:true});document.addEventListener("touchend",e=>{const dy=ty-e.changedTouches[0].clientY,dx=tx-e.changedTouches[0].clientX,delta=Math.abs(dx)>Math.abs(dy)?dx:dy;if(e.target.closest(".wordslide")&&Math.abs(dy)>Math.abs(dx)&&e.target.closest(".wordslide").scrollHeight>e.target.closest(".wordslide").clientHeight+10)return;if(Math.abs(delta)>70)show(current+(delta>0?1:-1))},{passive:true});document.addEventListener("wheel",e=>{if(locked||Math.abs(e.deltaY)<40||e.target.closest(".choices")||e.target.closest(".wordslide"))return;locked=true;show(current+(e.deltaY>0?1:-1));setTimeout(()=>locked=false,520)},{passive:true});document.querySelectorAll(".word-reveal-btn").forEach(btn=>btn.addEventListener("click",()=>{const s=btn.nextElementSibling;s.hidden=!s.hidden;btn.setAttribute("aria-expanded",String(!s.hidden));btn.innerHTML=s.hidden?'<span dir="ltr" lang="en">Reveal</span><span dir="rtl" lang="he">גלה פירוק ומילים קשורות</span>':'<span dir="ltr" lang="en">Hide</span><span dir="rtl" lang="he">הסתר</span>'}));document.querySelectorAll(".quizslide").forEach(section=>{section.querySelectorAll(".choice").forEach(btn=>btn.addEventListener("click",()=>{const f=section.querySelector(".feedback"),ok=Number(f.dataset.correct),v=Number(btn.dataset.answer);section.querySelectorAll(".choice").forEach(el=>el.classList.remove("correct","wrong"));btn.classList.add(v===ok?"correct":"wrong");f.textContent=v===ok?"✓ Correct! "+f.dataset.expl:"Try again. Hint: "+f.dataset.expl;}))});let initial=Number((location.hash.match(/slide-(\d+)/)||[])[1])||1;show(initial-1)})();
 </script></body></html>
