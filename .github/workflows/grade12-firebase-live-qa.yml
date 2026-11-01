@@ -1,0 +1,94 @@
+name: Grade 12 Firebase Live QA
+
+on:
+  push:
+    paths:
+      - ".github/workflows/grade12-firebase-live-qa.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  live-firebase-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install Firebase Web SDK
+        run: npm install --no-save --no-audit --no-fund firebase@11.10.0
+      - name: Verify anonymous Firebase logging and scoped security
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          import assert from "node:assert/strict";
+          import { readFileSync } from "node:fs";
+          import { initializeApp } from "firebase/app";
+          import { getAuth, signInAnonymously } from "firebase/auth";
+          import {
+            getFirestore, doc, collection, getDoc, getDocs, setDoc,
+            writeBatch, increment, serverTimestamp, terminate
+          } from "firebase/firestore";
+
+          // Public web config only; no Google account, private key or CI secret.
+          const src = readFileSync("shared/firebase-config.js", "utf8");
+          const { firebaseConfig } = await import(
+            "data:text/javascript;base64," + Buffer.from(src).toString("base64")
+          );
+          const app = initializeApp(firebaseConfig);
+          const auth = getAuth(app);
+          await signInAnonymously(auth);
+          const db = getFirestore(app);
+
+          const stats = doc(db, "teachersPresentationStatsV1", "grade12-sentence-detective");
+          const beforeSnap = await getDoc(stats);
+          const before = beforeSnap.exists() ? beforeSnap.data().opens : 0;
+
+          const event = doc(collection(db, "teachersPresentationUsageV1"));
+          const batch = writeBatch(db);
+          batch.set(event, {
+            deck: "grade12-sentence-detective",
+            kind: "presentation-open",
+            openedAt: serverTimestamp()
+          });
+          batch.set(stats, {
+            deck: "grade12-sentence-detective",
+            opens: increment(1),
+            updatedAt: serverTimestamp(),
+            lastEventId: event.id
+          }, { merge: true });
+          await batch.commit();
+
+          const afterSnap = await getDoc(stats);
+          assert(afterSnap.exists(), "aggregate usage document was not created");
+          const after = afterSnap.data().opens;
+          assert.equal(after, before + 1, "atomic launch counter did not increment");
+
+          let usageListDenied = false;
+          try {
+            await getDocs(collection(db, "teachersPresentationUsageV1"));
+          } catch (error) {
+            usageListDenied = error?.code === "permission-denied";
+          }
+          assert(usageListDenied, "anonymous users must not list individual usage events");
+
+          let unrelatedWriteDenied = false;
+          try {
+            await setDoc(doc(db, "unrelatedCollectionQA", "should-not-exist"), { test: true });
+          } catch (error) {
+            unrelatedWriteDenied = error?.code === "permission-denied";
+          }
+          assert(unrelatedWriteDenied, "unrelated Firestore collections must remain denied");
+
+          console.log("FIREBASE_QA_PASS", JSON.stringify({
+            project: firebaseConfig.projectId,
+            before, after, eventFields: ["deck", "kind", "openedAt"],
+            usageListDenied, unrelatedWriteDenied,
+            note: "One QA launch was intentionally counted; no user data was logged."
+          }));
+          await terminate(db);
+          process.exit(0);
+          NODE
