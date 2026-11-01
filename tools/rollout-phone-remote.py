@@ -73,7 +73,7 @@ def run(apply=False):
                 if count!=1:
                     # Two older, valid legacy decks use an implicit <body> and
                     # end with </script></html>. Append before </html> safely.
-                    result,count=re.subn(r"</html\\s*>",lambda match:tag+match.group(),txt,count=1,flags=re.I)
+                    result,count=re.subn(r"</html\s*>",lambda match:tag+match.group(),txt,count=1,flags=re.I)
                     if count!=1:
                         excluded.append({"path":path,"reason":"no closing body/html"})
                         continue
