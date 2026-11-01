@@ -39,35 +39,36 @@ const part=Number(new URLSearchParams(location.search).get('part')||0);const dat
 const main=document.getElementById('main'), bottom=document.getElementById('bottom'),voice=document.getElementById('voice'),modal=document.getElementById('checkpoint');
 const base='../images/';const e=s=>String(s??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const chapter={
-1:{name:'George’s World',lesson:1,title:'Part 1',duration:380.49,stops:[126.9,246.2],audio:'../audio/part1.ogg',images:[['street',0],['student',45],['shop',92],['tenement',140],['fish',182],['cafe',219],['parkbench',282],['street2',343]],intro:[
+1:{name:'George’s World',lesson:1,title:'Part 1',duration:380.49,stops:[126.9,246.2],audio:'../audio/part1.ogg',images:[['street',0],['gen:classroom-1950s',30],['gen:garment-factory-1950s',83],['gen:fish-market-1950s',109],['gen:cafeteria-1950s',120],['gen:railroad-flat',136],['gen:reference-almanac-1950s',160],['gen:magazines-1950s',211],['gen:iron-railing-1950s',256],['gen:park-bench-1950s',302],['street2',345]],intro:[
 {type:'map',title:'The United States',sub:'New York is in the northeastern United States.',box:'-125,24,-66,50',note:'ממקמים את ניו יורק בתוך ארצות הברית.'},
 {type:'map',title:'New York City',sub:'New York City is in New York State.',box:'-80,39.7,-70.8,45.1',note:'עיר ניו יורק אינה זהה למדינת ניו יורק.'},
 {type:'map',title:'Manhattan',sub:'Manhattan is one of New York City’s five boroughs.',box:'-74.18,40.53,-73.70,40.92',note:'מפה: מהעיר הגדולה מתקרבים למנהטן.'},
 {type:'map',title:'Lower East Side',sub:'An example of an old working-class immigrant neighborhood.',box:'-74.02,40.705,-73.96,40.735',note:'הסיפור אינו קובע כתובת מדויקת. מציגים סביבה עירונית אופיינית.'},
 {type:'context',title:'Immigrants in New York',sub:'Families from different countries settled near people who spoke their language.',pic:'immigrant',note:'שכונות מהגרים; חנויות שכונתיות; משפחות עובדות.'},
-{type:'context',title:'Small homes above shops',sub:'Many working families lived in apartments above stores.',pic:'tenement',note:'תמונה של בית דירות: בהמשך נראה איך נראתה דירת המשפחה.'},
+{type:'context',title:'Small homes above shops',sub:'Many working families lived in apartments above stores.',pic:'gen:railroad-flat',note:'הדמיה תקופתית של דירה צרה עם חדרים בטור — בניגוד לחדר בבית מלון.'},
+{type:'context',title:'Factories and Small Businesses',sub:'Delivery workers, shoemakers, shopkeepers and factory workers used their hands.',pic:'gen:garment-factory-1950s',note:'עולם העבודה בשכונת מהגרים לא היה מבוסס על חקלאות; הוא כלל חנויות, בתי מלאכה ומפעלים.'},
 {type:'context',title:'Jobs in the 1950s',sub:'Small shops, workshops, factories — and offices with typewriters, not personal computers.',pic:'office',note:'היו משרדים, אבל מחשב אישי עדיין לא היה כלי עבודה רגיל.'}
 ]},
-2:{name:'Mr. C and the Books',lesson:2,title:'Part 2',duration:466.4,stops:[152.7,317.8],audio:'../audio/part2.ogg',images:[['subwayOld',0],['subway',50],['shoe',95],['person',145],['newspaper',190],['books2',245],['coin',318],['street2',395]],intro:[
+2:{name:'Mr. C and the Books',lesson:2,title:'Part 2',duration:466.4,stops:[152.7,317.8],audio:'../audio/part2.ogg',images:[['gen:subway-token-booth-1950s',0],['gen:shoe-repair-1950s',44],['gen:stoop-1950s',96],['newspaper',149],['person',188],['gen:reference-almanac-1950s',226],['books2',265],['coin',319],['street2',396]],intro:[
 {type:'context',title:'Meet Mr. C',sub:'Mr. C = Mr. Cattanzara. He is an older neighbor who reads the newspaper.',pic:'person',note:'משתמשים בשם הקצר Mr. C לאורך המצגת.'},
-{type:'context',title:'Work at a subway booth',sub:'Mr. C works in a change booth at an IRT station.',pic:'subwayOld',note:'תא בתחנת הרכבת התחתית, שבו מכרו אמצעי תשלום והחליפו כסף.'},
-{type:'context',title:'Small shops and the shoemaker',sub:'People lived above shops and workshops. A shoemaker repaired shoes by hand.',pic:'shoe',note:'אנשים הכירו את מי שעבד וגר בשכונה.'}
+{type:'context',title:'Work at a subway booth',sub:'Mr. C works in a change booth at an IRT station.',pic:'gen:subway-token-booth-1950s',note:'תא בתחנת הרכבת התחתית שבו מכרו אמצעי תשלום והחליפו כסף.'},
+{type:'context',title:'Small shops and the shoemaker',sub:'People lived above shops and workshops. A shoemaker repaired shoes by hand.',pic:'gen:shoe-repair-1950s',note:'אנשים הכירו את מי שעבד וגר בשכונה.'}
 ]},
-3:{name:'The Truth and the Change',lesson:2,title:'Part 3',duration:662.75,stops:[212.3,443.3],audio:'../audio/part3.ogg',images:[['books2',0],['reading',70],['newspaper',135],['young',190],['street2',263],['person',344],['tenement',430],['library',510],['books',597]],intro:[
+3:{name:'The Truth and the Change',lesson:2,title:'Part 3',duration:662.75,stops:[212.3,443.3],audio:'../audio/part3.ogg',images:[['books2',0],['reading',70],['gen:magazines-1950s',139],['young',207],['street2',278],['coin',350],['gen:railroad-flat',438],['library',520],['books',603]],intro:[
 {type:'context',title:'Before the last chapter',sub:'George has books in his room — but does he really read them?',pic:'books2',note:'הכנה בלבד — לא מגלים את סוף הסיפור.'},
 {type:'context',title:'Reading takes time',sub:'A book can change a person — but only if they actually read it.',pic:'reading',note:'לפני שמאזינים: לחשוב על ההבדל בין רושם חברתי לשינוי אמיתי.'}
 ]}
 };
 const checks={
 1:[[
-{q:'What did George do when he was sixteen?',choices:['He quit school.','He opened a factory.','He became a teacher.'],answer:0,pic:'student',why:'George left high school when he was sixteen.'},
+{q:'What did George do when he was sixteen?',choices:['He quit school.','He opened a factory.','He became a teacher.'],answer:0,pic:'gen:classroom-1950s',why:'George left high school when he was sixteen.'},
 {q:'Why does George feel ashamed?',choices:['Because he did not finish school.','Because he lives on a farm.','Because he cannot drive.'],answer:0,pic:'young',why:'He dislikes being asked whether he finished high school.'}
 ],[
-{q:'Where does Sophie work?',choices:['At a cafeteria in the Bronx.','In a school library.','At a shoe-repair shop.'],answer:0,pic:'cafe',why:'Sophie works at a cafeteria and travels by subway.'},
-{q:'Which picture describes George’s home?',choices:['A small, long railroad apartment.','A large luxury hotel suite.','A cottage on a farm.'],answer:0,pic:'special:tenement-interior',why:'He lives in a narrow railroad flat above a butcher shop.'}
+{q:'Where does Sophie work?',choices:['At a cafeteria in the Bronx.','In a school library.','At a shoe-repair shop.'],answer:0,pic:'gen:cafeteria-1950s',why:'Sophie works at a cafeteria and travels by subway.'},
+{q:'Which picture describes George’s home?',choices:['A small, long railroad apartment.','A large luxury hotel suite.','A cottage on a farm.'],answer:0,pic:'gen:railroad-flat',why:'He lives in a narrow railroad flat above a butcher shop.'}
 ]],
 2:[[
-{q:'Where does Mr. C work?',choices:['At a subway change booth.','At a computer office.','On a farm.'],answer:0,pic:'subwayOld',why:'Mr. C works in an IRT subway station.'},
+{q:'Where does Mr. C work?',choices:['At a subway change booth.','At a computer office.','On a farm.'],answer:0,pic:'gen:subway-token-booth-1950s',why:'Mr. C works in an IRT subway station.'},
 {q:'Which item does Mr. C often read?',choices:['A newspaper.','A smartphone.','A restaurant menu.'],answer:0,pic:'newspaper',why:'Reading the newspaper is part of Mr. C’s daily life.'}
 ],[
 {q:'How many books does George say he will read?',choices:['One hundred.','Ten thousand.','Only two.'],answer:0,pic:'books2',why:'George tells Mr. C about his plan to read one hundred books.'},
