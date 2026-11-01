@@ -1,0 +1,105 @@
+// REFERENCE FRAGMENT ONLY — NOT AUTOMATICALLY DEPLOYED.
+// Insert the following match INSIDE the existing
+// service cloud.firestore { match /databases/{database}/documents { ... } }
+// AFTER reviewing all current rules. Never replace the site's full ruleset.
+// Existing wildcard grants (e.g. match /{document=**}) may override restrictions.
+//
+// Dedicated scope: teachersPresentationRemoteV1 only.
+// All other English for Noar collections and Firebase apps stay unchanged.
+//
+// Required: Firebase Authentication > Sign-in method > Anonymous (enabled).
+// Requires the existing (default) Cloud Firestore database to be available.
+
+match /teachersPresentationRemoteV1/{sessionId} {
+  function signedIn() {
+    return request.auth != null;
+  }
+  function sessionValid() {
+    return request.resource.data.index is int
+      && request.resource.data.index >= 0
+      && request.resource.data.index < 38
+      && request.resource.data.stage is int
+      && request.resource.data.stage >= 0
+      && request.resource.data.stage <= 4
+      && request.resource.data.selected is map
+      && request.resource.data.selected.size() <= 38;
+  }
+  function live() {
+    return signedIn()
+      && resource.data.status == "active"
+      && request.time < resource.data.expiresAt;
+  }
+
+  allow create: if signedIn()
+    && request.resource.data.keys().hasOnly([
+      "hostUid", "approvedUid", "deck", "status", "index", "stage",
+      "selected", "createdAt", "updatedAt", "expiresAt"
+    ])
+    && request.resource.data.keys().hasAll([
+      "hostUid", "approvedUid", "deck", "status", "index", "stage",
+      "selected", "createdAt", "updatedAt", "expiresAt"
+    ])
+    && request.resource.data.hostUid == request.auth.uid
+    && request.resource.data.approvedUid == ""
+    && request.resource.data.deck == "grade12-sentence-detective"
+    && request.resource.data.status == "active"
+    && request.resource.data.createdAt == request.time
+    && request.resource.data.updatedAt == request.time
+    && request.resource.data.expiresAt > request.time
+    && request.resource.data.expiresAt <= request.time + duration.value(5, "h")
+    && sessionValid();
+
+  // No collection scans; high-entropy QR document ID only.
+  allow get: if live();
+  allow list: if false;
+
+  allow update: if live()
+    && request.resource.data.updatedAt == request.time
+    && sessionValid()
+    && (
+      (
+        request.auth.uid == resource.data.hostUid
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly([
+          "approvedUid", "status", "index", "stage", "selected", "updatedAt"
+        ])
+        && request.resource.data.approvedUid is string
+        && request.resource.data.approvedUid.size() <= 128
+        && request.resource.data.status in ["active", "closed"]
+      )
+      ||
+      (
+        resource.data.approvedUid != ""
+        && request.auth.uid == resource.data.approvedUid
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly([
+          "index", "stage", "selected", "updatedAt"
+        ])
+      )
+    );
+  allow delete: if signedIn() && request.auth.uid == resource.data.hostUid;
+
+  match /joinRequests/{requesterUid} {
+    function parentDoc() {
+      return get(/databases/$(database)/documents/teachersPresentationRemoteV1/$(sessionId));
+    }
+    function owner() {
+      return request.auth != null && request.auth.uid == parentDoc().data.hostUid;
+    }
+
+    allow create: if request.auth != null
+      && request.auth.uid == requesterUid
+      && parentDoc().data.status == "active"
+      && request.time < parentDoc().data.expiresAt
+      && parentDoc().data.approvedUid == ""
+      && request.resource.data.keys().hasOnly(["uid", "createdAt"])
+      && request.resource.data.keys().hasAll(["uid", "createdAt"])
+      && request.resource.data.uid == requesterUid
+      && request.resource.data.createdAt == request.time;
+
+    allow get: if request.auth != null
+      && (request.auth.uid == requesterUid || owner());
+    allow list: if owner();
+    allow update: if false;
+    allow delete: if request.auth != null
+      && (request.auth.uid == requesterUid || owner());
+  }
+}
