@@ -50,14 +50,15 @@ def classify(path:str, html:str):
     has_nav=bool(NAV.search(html)) or bool(re.search(r"""id=["'](?:v-next|v-prev)["']""",html,re.I))
     has_slide=bool(SLIDE.search(html))
     has_stage=bool(re.search(r"""id=["'](?:stage|deck|slide|main)["']""",html,re.I))
-    has_count=bool(re.search(r"""id=["'](?:counter|position|v-position|slideCount)["']""",html,re.I))
-    has_engine=bool(re.search(r"(?:lesson|app|sequence|bootstrap8?|track-engine|segmented-engine)\.js",html,re.I))
+    has_count=bool(re.search(r"""id=["'](?:counter|count|position|v-position|slideCount)["']""",html,re.I))
+    has_engine=bool(re.search(r"(?:lesson|app|unit|sequence|bootstrap8?|track-engine|segmented-engine)\.js",html,re.I))
     has_next=bool(re.search(r"\bfunction\s+(?:next|prev|move|advance)\s*\(",html))
     has_reader=bool(READER.search(path)) or bool(re.search(r"Read\s+Along|Read\s+Alone|READ[ -]?ALONG|READ[ -]?ALONE",html,re.I))
     is_readalong=has_reader and (has_engine or has_nav) and (has_stage or bool(BOOT.search(html)) or "read-along" in path)
     if is_readalong:return "compatible"
     if has_nav and (has_slide or has_stage or (has_count and has_engine)):return "compatible"
     if has_stage and has_count and (has_engine or has_next):return "compatible"
+    if has_count and has_next and re.search(r"""id=["\'](?:kicker|options|he1|en1|type|question)["\']""",html,re.I):return "compatible"
     if path.startswith("seminar/") and has_next and "showStep" in html:return "compatible"
     return "support-document"
 
