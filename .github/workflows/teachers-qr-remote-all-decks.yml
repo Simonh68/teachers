@@ -1,0 +1,66 @@
+name: Teachers — standard QR phone remote for all decks
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/rollout-phone-remote.py'
+      - 'shared/phone-remote/remote.js'
+      - 'grade*/**/*.html'
+      - 'seminar/**/*.html'
+      - 'to-be/**/*.html'
+      - 'first-course/**/*.html'
+      - 'shared/lessons/**/*.html'
+      - 'special/**/*.html'
+      - 'standalone/**/*.html'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: teachers-phone-remote-main
+  cancel-in-progress: false
+jobs:
+  apply-standard:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate shared JS and deterministic injection
+        run: |
+          python -m py_compile tools/rollout-phone-remote.py
+          node --check shared/phone-remote/remote.js
+          python tools/rollout-phone-remote.py --apply
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          m=json.loads(Path('shared/phone-remote/rollout-manifest.json').read_text())
+          assert m['counts']['pending']==0
+          assert m['counts']['enabled']>=10, m['counts']
+          for path in m['enabled_shared']:
+            txt=Path(path).read_text()
+            assert txt.count('phone-remote/remote.js')==1,path
+          for path in m['existing_custom_remotes']:
+            txt=Path(path).read_text()
+            assert 'shared/phone-remote/remote.js' not in txt,path
+          print('Shared QR remote rollout verified', m['counts'])
+          PY
+      - name: Publish idempotent remote script tags and manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add grade6 grade7 grade8 grade9 grade10 grade11 grade12 seminar to-be first-course shared/lessons special standalone shared/phone-remote/rollout-manifest.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Attach approved bilingual QR phone remote to all compatible Teachers decks"
+            for attempt in 1 2 3 4 5; do
+              if git push origin HEAD:main; then exit 0; fi
+              git fetch origin main
+              git rebase origin/main || { git rebase --abort; exit 1; }
+            done
+            echo "Remote standard rollout push unsuccessful" >&2
+            exit 1
+          fi
