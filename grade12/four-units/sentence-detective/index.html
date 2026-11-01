@@ -287,6 +287,14 @@ render();
     };
     document.body.appendChild(classic);
   }
+  // Log presentation launches (not unique teachers), never the QR phone.
+  // This anonymous analytics module is independent of the chosen remote.
+  // If Firestore is not enabled, the lesson still works without any interruption.
+  if (!params.has("remote")) {
+    import("./usage-log.js").catch(error => {
+      console.warn("Presentation usage count unavailable:", error);
+    });
+  }
 })();
 </script>
 </body></html>
