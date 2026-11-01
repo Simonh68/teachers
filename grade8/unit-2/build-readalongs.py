@@ -63,7 +63,11 @@ def timestamps(text,seconds,edges):
                 pointer=j+1
                 break
     number=sum(s is not None for s in known)
-    if number<.72*len(matches):
+    # Neural speech spells numeric tokens as words (e.g. "23" becomes "twenty three").
+    # Count those as expected unmatched tokens; retain the actually observed
+    # boundaries for ordinary words and interpolate only the numeric span.
+    numeric_tokens=sum(norm(m.group()).isdigit() for m in matches)
+    if number+numeric_tokens<.72*len(matches) or number<max(2,len(matches)//2):
         raise RuntimeError(f"Word alignment not reliable: {number}/{len(matches)} tokens: {text}")
     for i in range(len(known)):
         if known[i] is not None:continue
