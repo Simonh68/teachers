@@ -1,0 +1,25 @@
+name: Teachers QR remote — real two-device approval and slide sync QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/verify-phone-remote.py'
+      - '.github/workflows/teachers-qr-remote-browser-qa.yml'
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Playwright Chromium
+        run: |
+          python -m pip install playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - name: Verify real QR scan link, approval, navigation, reveal and revocation
+        run: python tools/verify-phone-remote.py
