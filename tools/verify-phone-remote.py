@@ -73,7 +73,7 @@ def check_case(browser,name,path,counter_id):
         print("PREVIOUS SYNC PASS",name,flush=True)
 
         # Host-side navigation updates the phone's slide counter, too.
-        host.evaluate("() => (document.querySelector('#next') || document.querySelector(\'[data-step="1"]\'))?.click()")
+        host.evaluate("""() => (document.querySelector('#next') || document.querySelector('[data-step="1"]'))?.click()""")
         current=host.evaluate("(id) => document.getElementById(id)?.textContent.trim()",counter_id)
         handset.wait_for_function("(expected) => document.querySelector('#teachers-qr-remote-host')?.shadowRoot?.getElementById('counter')?.textContent?.trim()===expected",current,timeout=12000)
         print("PRESENTER TO PHONE SYNC PASS",name,flush=True)
