@@ -34,7 +34,7 @@ async def synthesize(text,path):
         try:
             chunks=[]
             edges=[]
-            stream=edge_tts.Communicate(text,voice=VOICE,rate=RATE)
+            stream=edge_tts.Communicate(text,voice=VOICE,rate=RATE,boundary="WordBoundary")
             async for event in stream.stream():
                 if event["type"]=="audio":
                     chunks.append(event["data"])
