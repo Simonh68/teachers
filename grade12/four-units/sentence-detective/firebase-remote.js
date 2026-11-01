@@ -7,7 +7,7 @@
  */
 import { firebaseConfig } from "../../../shared/firebase-config.js";
 import { initializeApp, getApps, getApp } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js";
-import { getAuth, signInAnonymously, signInWithPopup, GoogleAuthProvider } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js";
+import { getAuth, signInAnonymously } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js";
 import {
   getFirestore, collection, doc, getDoc, setDoc, updateDoc, deleteDoc,
   onSnapshot, serverTimestamp, Timestamp
@@ -50,8 +50,8 @@ function announce(message, tone = "waiting") {
 }
 function explain(error) {
   const code = String(error?.code || "");
-  if (code.includes("operation-not-allowed")) return "Firebase: יש להפעיל את ספקי Google וכניסה אנונימית ב-Authentication.";
-  if (code.includes("unauthorized-domain")) return "Firebase: יש להוסיף את simonh68.github.io לדומיינים המורשים ל-Authentication.";
+  if (code.includes("operation-not-allowed")) return "Firebase: יש להפעיל Anonymous Authentication. אין צורך בהרשמה או בשם משתמש.";
+  if (code.includes("unauthorized-domain")) return "Firebase: יש להוסיף את simonh68.github.io לדומיינים המורשים.";
   if (code.includes("permission-denied") || code.includes("insufficient-permissions"))
     return "Firebase: כללי Firestore עדיין אינם מאפשרים את אזור השלט; אין לשנות את הרשאות English for Noar.";
   if (code.includes("not-found") || code.includes("failed-precondition"))
@@ -309,47 +309,18 @@ if (isController) {
   dialog.showModal();
 }
 refreshUi();
-async function bootstrapPresenter() {
-  // A teacher-only Google account prevents anonymous strangers from creating
-  // unlimited sessions and consuming the English for Noar project's quota.
-  const login = document.createElement("button");
-  login.type = "button";
-  login.className = "pairAction primary";
-  login.textContent = "🔐 התחבר עם Google כמורה";
-  document.querySelector("#pairDialog .pairActions")?.prepend(login);
-  login.addEventListener("click", async () => {
-    login.disabled = true;
-    announce("Firebase: מתחבר לחשבון המורה…");
-    try {
-      const signed = await signInWithPopup(auth, new GoogleAuthProvider());
-      if (!signed.user || signed.user.isAnonymous) throw new Error("Teacher Google sign-in required");
-      remote.user = signed.user;
-      login.hidden = true;
-      await createPresenterSession();
-    } catch (error) {
-      handleError(error);
-      login.disabled = false;
-      login.hidden = false;
-    }
-  });
+// Firestore uses an anonymous technical UID only to authorize the two devices.
+// No teacher registration, name, email address, or teacher profile is requested.
+// The usage log intentionally does not contain this UID.
+async function ensureAnonymousSession() {
   await auth.authStateReady();
-  if (auth.currentUser && !auth.currentUser.isAnonymous) {
-    remote.user = auth.currentUser;
-    login.hidden = true;
-    await createPresenterSession();
-  } else {
-    announce("🔐 לחצו על התחברות Google כדי להפיק QR מאובטח", "waiting");
-  }
+  if (auth.currentUser) return auth.currentUser;
+  return (await signInAnonymously(auth)).user;
 }
 try {
-  if (isController) {
-    // Preserve an existing signed-in Google session on the phone, if any.
-    await auth.authStateReady();
-    remote.user = auth.currentUser || (await signInAnonymously(auth)).user;
-    await connectController();
-  } else {
-    await bootstrapPresenter();
-  }
+  remote.user = await ensureAnonymousSession();
+  if (isController) await connectController();
+  else await createPresenterSession();
 } catch (error) {
   handleError(error);
 }
