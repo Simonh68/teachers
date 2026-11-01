@@ -11,7 +11,12 @@
 import { app, getAnonymousUser } from "../../../shared/firebase-anonymous-auth.js";
 import { getFirestore, collection, doc, setDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
 
-if (!new URLSearchParams(location.search).has("remote")) {
+// A refresh or switching between PeerJS and Firebase in the SAME tab is not
+// another presentation launch. This flag stays only in the tab, not in Firebase.
+const launchFlag = "teachers.grade12.sentence-detective.launch.logged.v1";
+let alreadyLogged = false;
+try { alreadyLogged = sessionStorage.getItem(launchFlag) === "1"; } catch {}
+if (!new URLSearchParams(location.search).has("remote") && !alreadyLogged) {
   try {
     // Remote and analytics share the same technical anonymous Firebase identity.
     // No login is shown, and this identity is never written into the usage event.
@@ -22,7 +27,10 @@ if (!new URLSearchParams(location.search).has("remote")) {
       kind: "presentation-open",
       openedAt: serverTimestamp()
     });
+    try { sessionStorage.setItem(launchFlag, "1"); } catch {}
+    window.__teacherUsageLogged = true;
   } catch (error) {
+    window.__teacherUsageLogged = false;
     // Logging is best-effort only; it must not interrupt a classroom lesson.
     console.warn("Anonymous presentation usage log unavailable:", error?.code || error);
   }
