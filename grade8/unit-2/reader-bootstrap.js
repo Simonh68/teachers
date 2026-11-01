@@ -32,5 +32,5 @@ if(!['chunks','sentences'].includes(view)){
  await cssReady;
  window.TEACHERS_READALONG_STANDARD={...window.TEACHERS_READALONG_STANDARD,defaultSpeed:.75};
  await window.initGrade8Bilingual({D,base,view,store:'teachers-grade8-unit2-'+D.slug,speedStore:'teachers-grade8-unit2-speed-v1',deck:null});
-})().catch(e=>{console.error(e);document.body.innerHTML='<main style="padding:25px;font:20px Arial,sans-serif;direction:rtl"><h1>לא ניתן לטעון את הקריאה כרגע.</h1><p>רעננו את העמוד כשהחיבור זמין.</p><a href="./">חזרה למפגשי היחידה</a></main>';});
+})().catch(e=>{console.error(e);document.body.innerHTML='<main style="padding:25px;font:20px Arial,sans-serif;direction:rtl"><h1>לא ניתן לטעון את הקריאה כרגע.</h1><p>רעננו את העמוד כשהחיבור זמין.</p><a href="./">חזרה למפגשי היחידה</a></main>';if(new URLSearchParams(location.search).has('debug')){const p=document.createElement('pre');p.textContent='ERROR: '+(e.stack||e.message);p.style='padding:20px;white-space:pre-wrap;direction:ltr';document.body.append(p);}});
 })();
