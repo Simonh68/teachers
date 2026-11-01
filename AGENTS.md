@@ -1,5 +1,10 @@
 # Repository instructions
 
+## Mandatory QR phone remote in every Teachers HTML presentation
+
+As of 2026-11-01, **every current and newly published teaching slide deck** in the Teachers site must offer a working bilingual QR phone remote, with explicit computer-side approval and no teacher sign-up. The shared implementation and automatic rollout live under `shared/phone-remote/` and `tools/rollout-phone-remote.py`. Do not mistake a QR opening the deck for a real remote. Preserve each presentation's text/audio/layout, respect existing Sentence Detective integrations, and keep English for Noar untouched. Before marking done verify actual pairing/approval/navigation and published deployment; report any exclusions.
+
+
 For English essay / composition presentations, read and follow [the essay presentation standard](docs/english-essay-presentations.md) before creating or modifying the deck. It captures Simon's requirements for pedagogy, simple English, interactive paraphrases, fonts, paragraph layout, punctuation, stable scrolling and publication links.
 
 The latest smartphone-age essay presentation is the implementation reference: grade11/smartphone-age-essay/index.html. These instructions apply to similar essay presentations, not unrelated lessons. The user's current explicit instructions take precedence.
