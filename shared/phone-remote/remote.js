@@ -178,7 +178,9 @@ async function startHost(){
    conn.on("data",data=>{
     if(conn!==ctx.channel||!ctx.connected||!data)return;
     if(data.type==="command"&&["next","previous","reveal","audio"].includes(data.action)){
-     if(Date.now()-ctx.lastAction<85)return;ctx.lastAction=Date.now();execute(data.action);
+     // Every deliberate tap must be honored, including immediate next/previous.
+     // Authorization is already checked above; never silently drop navigation.
+     ctx.lastAction=Date.now();execute(data.action);
     }else if(data.type==="ping")update(true);
    });
    conn.on("close",()=>{
