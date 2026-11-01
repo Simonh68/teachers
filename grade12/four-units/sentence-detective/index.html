@@ -123,6 +123,10 @@ header .brand{direction:rtl;letter-spacing:0}
 #prev:after{content:"←"}
 #next:after{content:"→"}
 }
+/* Mobile swipe navigation hint only on section-intro slides. */
+.swipeIntro{direction:rtl;text-align:center;color:#bce0ef;font-size:clamp(14px,1.1vw,18px);font-weight:700}
+#main{touch-action:pan-y}
+@media(max-width:780px){.swipeIntro{font-size:14px;line-height:1.45}}
 </style>
 </head>
 <body>
@@ -144,7 +148,7 @@ function tokens(str){if(!str)return "";const chunks=[];str.split("|").forEach(en
 function getStageHint(slide){return (stageHints[slide.section]||stageHints.NOUN)[Math.max(0,Math.min(3,state.stage-1))];}
 function diagram(info){if(!info||state.stage<3)return "";const t=info[0],label={reason:["הסיבה","מה קרה בעקבותיה"],result:["הגורם","התוצאה"],contrast:["מה היה צפוי","מה קרה בפועל"],condition:["התנאי","מה יקרה אם יתקיים"],time:["רמז לזמן","האירוע"],sequence:["קודם","אחר כך"],example:["הרעיון הכללי","דוגמאות"]}[t]||["חלק ראשון","חלק שני"];const symbol=t==="contrast"?"⇄":"➜";return '<div class="diagram '+t+'"><div class="cell"><strong>'+label[0]+'</strong><span class="segmentEnglish" lang="en" dir="ltr">'+esc(info[1])+'</span></div><div class="arrow">'+symbol+'</div><div class="cell"><strong>'+label[1]+'</strong><span class="segmentEnglish" lang="en" dir="ltr">'+esc(info[2])+'</span></div></div>';}
 function legend(){return '<div class="legend"><span class="legendItem"><i class="dot" style="background:var(--d)"></i>מילת עוגן</span><span class="legendItem"><i class="dot" style="background:var(--a)"></i>תיאורים</span><span class="legendItem"><i class="dot" style="background:var(--n)"></i>שם עצם מרכזי</span><span class="legendItem"><i class="dot" style="background:var(--v)"></i>פועל מרכזי</span><span class="legendItem"><i class="dot" style="background:var(--c)"></i>מילת קישור</span></div>';}
-function intro(s){return '<div class="page cover"><div class="kicker">'+(s.section==="START"?"שאלון C · ארבע יחידות":s.section==="FINISH"?"המשימה הושלמה":"הטכניקה הבאה: מילות קישור")+'</div><h1 class="heTitle" dir="rtl" lang="he">'+heTxt(s.titleHe)+'</h1><div class="titleEn" lang="en" dir="ltr">'+esc(s.title)+'</div><div class="hero">'+(s.section==="START"?'<span class="punch">מוצאים את שם העצם.</span> מזהים את הפועל.<br><span class="punch">מפענחים את הקשר הלוגי.</span>':s.section==="FINISH"?'<span class="punch">אתם מזהים את המבנה!</span><br>עכשיו אתם יכולים למצוא את התשובה.':'<span lang="en" dir="ltr" class="punch">BECAUSE</span> — סיבה · <span lang="en" dir="ltr" class="punch">SO</span> — תוצאה<br><span lang="en" dir="ltr" class="punch">BUT</span> — ניגוד · <span lang="en" dir="ltr" class="punch">IF</span> — תנאי')+'</div><div class="subtitle" lang="he" dir="rtl">'+heTxt(s.promptHe)+'</div>'+legend()+'<div class="teacher '+(state.teacher?'on':'')+' heb">'+heTxt(s.coach)+'</div></div>';}
+function intro(s){return '<div class="page cover"><div class="kicker">'+(s.section==="START"?"שאלון C · ארבע יחידות":s.section==="FINISH"?"המשימה הושלמה":"הטכניקה הבאה: מילות קישור")+'</div><h1 class="heTitle" dir="rtl" lang="he">'+heTxt(s.titleHe)+'</h1><div class="titleEn" lang="en" dir="ltr">'+esc(s.title)+'</div><div class="hero">'+(s.section==="START"?'<span class="punch">מוצאים את שם העצם.</span> מזהים את הפועל.<br><span class="punch">מפענחים את הקשר הלוגי.</span>':s.section==="FINISH"?'<span class="punch">אתם מזהים את המבנה!</span><br>עכשיו אתם יכולים למצוא את התשובה.':'<span lang="en" dir="ltr" class="punch">BECAUSE</span> — סיבה · <span lang="en" dir="ltr" class="punch">SO</span> — תוצאה<br><span lang="en" dir="ltr" class="punch">BUT</span> — ניגוד · <span lang="en" dir="ltr" class="punch">IF</span> — תנאי')+'</div><div class="subtitle" lang="he" dir="rtl">'+heTxt(s.promptHe)+'</div><div class="swipeIntro" dir="rtl" lang="he">בנייד: החלקה ↑ לשקף הבא · החלקה ↓ לשקף הקודם. בשקף ארוך אפשר לגלול כרגיל.</div>'+legend()+'<div class="teacher '+(state.teacher?'on':'')+' heb">'+heTxt(s.coach)+'</div></div>';}
 function questionHtml(s){if(!s.choices)return "";const value=state.selected[state.index];let fb="";if(value!==undefined){fb=value===s.correct?'<div class="feedback good" lang="he" dir="rtl" role="status">✓ נכון! איך מצאתם את התשובה? הסבירו לפי המבנה, לפני חשיפת הצבעים.</div>':'<div class="feedback bad" lang="he" dir="rtl" role="status">עוד לא. הסתכלו על מילת העוגן, שם העצם והפועל — ונסו שוב.</div>';}return '<div class="choices" dir="ltr" role="group" aria-label="אפשרויות תשובה">'+s.choices.map((v,i)=>'<button type="button" lang="en" dir="ltr" class="choice '+(value===i?(i===s.correct?'correct':'wrong'):'')+'" data-choice="'+i+'"><b>'+String.fromCharCode(65+i)+'.</b>'+esc(v)+'</button>').join("")+'</div>'+fb;}
 function meaningHtml(s){if(state.stage<4)return "";let gloss=(s.gloss||[]).map(x=>'<span><bdi lang="en" dir="ltr"><b>'+esc(x[0])+'</b></bdi> = <span lang="he" dir="rtl">'+esc(x[1])+'</span></span>').join(' &nbsp; · &nbsp; ');return '<div class="details" lang="he" dir="rtl"><div class="meaning">'+heTxt(s.why||"")+'</div>'+(gloss?'<div class="gloss heb" lang="he" dir="rtl"><strong>אוצר מילים: </strong>'+gloss+'</div>':'')+'</div>';}
 function render(opts={}){const savedScroll=$("main").scrollTop;const s=slides[state.index],isCover=!s.markup;const page=$("page");$("pill").textContent=s.section==="NOUN"?"01 · שם העצם":s.section==="SKELETON"?"02 · שלד המשפט":s.section==="LOGIC"?"03 · מילות קישור":s.section==="MIX"?"04 · שתי טכניקות":s.section==="READING"?"05 · שאלון C":s.section==="FINISH"?"06 · משימת סיכום":"בלשי המשפט";$("counter").textContent=(state.index+1)+" / "+slides.length;$("progress").style.width=((state.index+1)/slides.length*100)+"%";page.className="page stage"+state.stage;
@@ -153,6 +157,37 @@ else{page.innerHTML='<div class="kicker" lang="he" dir="rtl">'+esc(s.section==="
 $("prev").disabled=state.index===0;$("next").disabled=state.index===slides.length-1;$("reset").disabled=state.stage===0&&state.selected[state.index]===undefined;$("reveal").textContent=isCover?(state.index===slides.length-1?"מתחילים מחדש ↺":"מתחילים ←"):state.stage===4?(state.index===slides.length-1?"חזרה להתחלה ↺":"לשקף הבא ←"):(state.stage===0?"גלה רמז ←":"רמז נוסף ←");$("reading").hidden=s.section!=="READING";$("main").scrollTop=opts.preserveScroll?savedScroll:0;if(opts.focusFeedback)requestAnimationFrame(()=>{$("page").querySelector(".feedback")?.scrollIntoView({block:"nearest",behavior:"smooth"});});}
 function go(delta){let x=state.index+delta;if(x<0||x>=slides.length)return;state.index=x;state.stage=0;render();}
 function clue(){if(!slides[state.index].markup){if(state.index===slides.length-1){state.index=0;state.stage=0;render();}else{go(1);}return;}if(state.stage<4){state.stage++;render({preserveScroll:true});}else if(state.index===slides.length-1){state.index=0;state.stage=0;render();}else{go(1);}}
+
+// Mobile vertical swipe navigation. Let the browser scroll long slides naturally:
+// navigate only if the gesture BEGINS at the relevant scroll boundary.
+const slideScroller=$("main");
+let swipeGesture=null;
+slideScroller.addEventListener("touchstart",event=>{
+  swipeGesture=null;
+  if(event.touches.length!==1||$("reader").open)return;
+  const target=event.target;
+  if(target instanceof Element&&target.closest('button,a,input,select,textarea,dialog,[contenteditable="true"]'))return;
+  const touch=event.touches[0];
+  const maxScroll=Math.max(0,slideScroller.scrollHeight-slideScroller.clientHeight);
+  swipeGesture={
+    x:touch.clientX,y:touch.clientY,started:event.timeStamp,
+    atTop:slideScroller.scrollTop<=10,
+    atBottom:slideScroller.scrollTop>=maxScroll-10
+  };
+},{passive:true});
+slideScroller.addEventListener("touchend",event=>{
+  const gesture=swipeGesture;swipeGesture=null;
+  if(!gesture||event.changedTouches.length!==1||$("reader").open)return;
+  const touch=event.changedTouches[0];
+  const dy=touch.clientY-gesture.y,dx=touch.clientX-gesture.x;
+  if(Math.abs(dy)<75||Math.abs(dy)<Math.abs(dx)*1.3||event.timeStamp-gesture.started>1600)return;
+  const maxScroll=Math.max(0,slideScroller.scrollHeight-slideScroller.clientHeight);
+  // Swipe UP: next slide. Swipe DOWN: previous slide.
+  if(dy<0&&gesture.atBottom&&slideScroller.scrollTop>=maxScroll-12)go(1);
+  else if(dy>0&&gesture.atTop&&slideScroller.scrollTop<=12)go(-1);
+},{passive:true});
+slideScroller.addEventListener("touchcancel",()=>{swipeGesture=null;},{passive:true});
+
 $("prev").addEventListener("click",()=>go(-1));$("next").addEventListener("click",()=>go(1));$("reveal").addEventListener("click",clue);$("reset").addEventListener("click",()=>{state.stage=0;delete state.selected[state.index];render();});$("teacherToggle").addEventListener("click",()=>{state.teacher=!state.teacher;render({preserveScroll:true});});$("full").addEventListener("click",()=>{if(document.fullscreenElement){document.exitFullscreen();}else{document.documentElement.requestFullscreen?.();}});$("reading").addEventListener("click",()=>{$("readerText").innerHTML=passage.map(x=>'<p>'+esc(x)+'</p>').join("");$("reader").showModal();});$("closeReader").addEventListener("click",()=>$("reader").close());
 document.addEventListener("keydown",e=>{if($("reader").open)return;if(["ArrowRight","PageDown"].includes(e.key)){e.preventDefault();go(1);}else if(["ArrowLeft","PageUp"].includes(e.key)){e.preventDefault();go(-1);}else if(e.key===" "&&!(e.target instanceof HTMLButtonElement)){e.preventDefault();clue();}else if(e.key.toLowerCase()==="r"){state.stage=0;delete state.selected[state.index];render();}else if(e.key.toLowerCase()==="t"){state.teacher=!state.teacher;render({preserveScroll:true});}});
 render();
