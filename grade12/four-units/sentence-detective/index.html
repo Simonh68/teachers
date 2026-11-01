@@ -203,7 +203,7 @@ header .brand{direction:rtl;letter-spacing:0}
     <button id="pairReset" class="pairAction" type="button">אפס חיבור / Reset</button>
     <button id="pairClose" class="pairAction primary" type="button">התחל מצגת / Start presenting ←</button>
     <button id="pairCopy" class="pairAction" type="button">העתק קישור / Copy link</button>
-    <button id="pairFirebaseMode" class="pairAction" type="button">🧪 בדיקת Firebase / Test Firebase</button>
+    <button id="pairFirebaseMode" class="pairAction" type="button">↩ שלט חלופי / Alternate remote</button>
   </div>
   <p class="pairSmall">רק טלפון שאישרתם יוכל לשלוט. אין הרשמה ואין שמירת שמות או כתובות דוא״ל; הלוג סופר הפעלות, לא מורים שונים.<span lang="en" dir="ltr" style="display:block">Only an approved phone can control the slides. No sign-up or stored names/emails. Anonymous launch counts, not unique teachers.</span></p>
   <p class="pairSmall"><a href="./usage-report.html" target="_blank" rel="noopener noreferrer" style="color:var(--lime);font-weight:900">📊 דוח שימוש: כמה פעמים נפתחה המצגת? / View usage count</a></p>
@@ -268,26 +268,27 @@ render();
 <script src="https://cdn.jsdelivr.net/npm/peerjs@1.5.5/dist/peerjs.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
 <script>
-/* Firebase mode is opt-in until the existing project's rules are reviewed.
- * The established PeerJS controller remains the default and is not changed. */
+/* Firebase is the default QR remote for this Grade 12 deck.
+ * PeerJS remains a manual fallback, and legacy ?remote= links still work. */
 (() => {
   const params = new URLSearchParams(location.search);
-  const firebaseMode = params.get("sync") === "firebase";
+  const firebaseMode = params.get("sync") === "firebase" ||
+    (params.get("sync") !== "peer" && !params.has("remote"));
   const switchButton = document.getElementById("pairFirebaseMode");
-  switchButton.textContent = firebaseMode ? "↩ שלט רגיל / Standard remote" : "🧪 בדיקת Firebase / Test Firebase";
+  switchButton.textContent = firebaseMode ? "↩ שלט חלופי / Alternate remote" : "☁️ חזרה ל-Firebase / Return to Firebase";
   switchButton.addEventListener("click", () => {
     const url = new URL(location.href);
     url.searchParams.delete("remote");
-    if (firebaseMode) url.searchParams.delete("sync");
-    else url.searchParams.set("sync", "firebase");
+    if (firebaseMode) url.searchParams.set("sync", "peer");
+    else url.searchParams.delete("sync");
     location.assign(url.href);
   });
   if (firebaseMode) {
     document.querySelector(".pairSmall").textContent =
-      "ניסוי Firebase ללא הרשמה: סורקים בטלפון ומאשרים במחשב. לא נשמרים שמות או פרטי מורים. / Firebase test without sign-up: scan with your phone, approve on this computer. No teacher names or contact information are saved.";
+      "חיבור Firebase ללא הרשמה: סורקים בטלפון ומאשרים במחשב. לא נשמרים שמות או פרטי מורים. / Firebase phone remote without sign-up: scan, approve on this computer, then swipe. No teacher names or contact information are saved.";
     import("./firebase-remote.js").catch(error => {
       console.error("Firebase remote module failed to load:", error);
-      const message = "Firebase לא נטען. ניתן לחזור לשלט הרגיל.";
+      const message = "Firebase לא נטען. בחרו ׳שלט חלופי׳ כדי להמשיך. / Firebase unavailable — choose Alternate remote.";
       document.getElementById("syncBadge").textContent = message;
       document.getElementById("syncBadge").dataset.tone = "error";
       document.getElementById("pairStatus").textContent = message;
