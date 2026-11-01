@@ -176,6 +176,7 @@ header .brand{direction:rtl;letter-spacing:0}
     <button id="pairReset" class="pairAction" type="button">אפס חיבור</button>
     <button id="pairClose" class="pairAction primary" type="button">התחל מצגת ←</button>
     <button id="pairCopy" class="pairAction" type="button">העתק קישור</button>
+    <button id="pairFirebaseMode" class="pairAction" type="button">🧪 בדיקת Firebase</button>
   </div>
   <p class="pairSmall">החיבור זמני ופועל כשהמצגת פתוחה במחשב. רק טלפון שאישרתם יוכל לשלוט. אפשר לפתוח QR מחדש או לאפס חיבור דרך הכפתור למעלה.</p>
 </dialog>
@@ -238,5 +239,41 @@ render();
 </script>
 <script src="https://cdn.jsdelivr.net/npm/peerjs@1.5.5/dist/peerjs.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
-<script src="./remote-sync.js"></script>
+<script>
+/* Firebase mode is opt-in until the existing project's rules are reviewed.
+ * The established PeerJS controller remains the default and is not changed. */
+(() => {
+  const params = new URLSearchParams(location.search);
+  const firebaseMode = params.get("sync") === "firebase";
+  const switchButton = document.getElementById("pairFirebaseMode");
+  switchButton.textContent = firebaseMode ? "↩ חזור לשלט הרגיל" : "🧪 בדיקת Firebase";
+  switchButton.addEventListener("click", () => {
+    const url = new URL(location.href);
+    url.searchParams.delete("remote");
+    if (firebaseMode) url.searchParams.delete("sync");
+    else url.searchParams.set("sync", "firebase");
+    location.assign(url.href);
+  });
+  if (firebaseMode) {
+    document.querySelector(".pairSmall").textContent =
+      "ניסוי Firebase: נוצר אזור נתונים נפרד למצב השקפים בלבד. נדרש אישור הטלפון במחשב. אם השירות אינו זמין, אפשר לחזור לשלט הרגיל.";
+    import("./firebase-remote.js").catch(error => {
+      console.error("Firebase remote module failed to load:", error);
+      const message = "Firebase לא נטען. ניתן לחזור לשלט הרגיל.";
+      document.getElementById("syncBadge").textContent = message;
+      document.getElementById("syncBadge").dataset.tone = "error";
+      document.getElementById("pairStatus").textContent = message;
+      if (!params.has("remote")) document.getElementById("pairDialog").showModal();
+    });
+  } else {
+    const classic = document.createElement("script");
+    classic.src = "./remote-sync.js";
+    classic.onerror = () => {
+      document.getElementById("syncBadge").textContent = "שלט רגיל אינו זמין; אפשר להציג ללא שלט.";
+      document.getElementById("syncBadge").dataset.tone = "error";
+    };
+    document.body.appendChild(classic);
+  }
+})();
+</script>
 </body></html>
