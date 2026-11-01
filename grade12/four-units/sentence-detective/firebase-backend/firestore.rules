@@ -121,5 +121,36 @@ service cloud.firestore {
         && request.resource.data.openedAt == request.time;
       allow get, list, update, delete: if false;
     }
+
+    // Public aggregate total only. No personal information, no individual
+    // events exposed. A counter increment must accompany a new event in the
+    // SAME atomic Firestore batch (getAfter), preventing drift from the log.
+    match /teachersPresentationStatsV1/{deckId} {
+      function validStatsEvent() {
+        return request.resource.data.lastEventId is string
+          && request.resource.data.lastEventId.size() == 20
+          && getAfter(/databases/$(database)/documents/teachersPresentationUsageV1/$(request.resource.data.lastEventId)).data.deck == "grade12-sentence-detective"
+          && getAfter(/databases/$(database)/documents/teachersPresentationUsageV1/$(request.resource.data.lastEventId)).data.kind == "presentation-open"
+          && getAfter(/databases/$(database)/documents/teachersPresentationUsageV1/$(request.resource.data.lastEventId)).data.openedAt == request.time;
+      }
+      function validStatsSchema() {
+        return deckId == "grade12-sentence-detective"
+          && request.resource.data.keys().hasOnly(["deck","opens","updatedAt","lastEventId"])
+          && request.resource.data.keys().hasAll(["deck","opens","updatedAt","lastEventId"])
+          && request.resource.data.deck == "grade12-sentence-detective"
+          && request.resource.data.opens is int
+          && request.resource.data.updatedAt == request.time
+          && validStatsEvent();
+      }
+      allow create: if signedIn() && validStatsSchema()
+        && request.resource.data.opens == 1;
+      allow update: if signedIn() && validStatsSchema()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly([
+          "opens","updatedAt","lastEventId"
+        ])
+        && request.resource.data.opens == resource.data.opens + 1;
+      allow get: if true;
+      allow list, delete: if false;
+    }
   }
 }
