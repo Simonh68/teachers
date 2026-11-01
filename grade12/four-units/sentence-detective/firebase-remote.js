@@ -5,9 +5,7 @@
  * Requires Firebase Anonymous Authentication and NARROW Firestore security rules.
  * Never modify or replace the English for Noar production rules in order to run this.
  */
-import { firebaseConfig } from "../../../shared/firebase-config.js";
-import { initializeApp, getApps, getApp } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js";
-import { getAuth, signInAnonymously } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js";
+import { app, getAnonymousUser } from "../../../shared/firebase-anonymous-auth.js";
 import {
   getFirestore, collection, doc, getDoc, setDoc, updateDoc, deleteDoc,
   onSnapshot, serverTimestamp, Timestamp
@@ -37,8 +35,6 @@ window.deckRemote = remote;
 document.body.classList.add(isController ? "remote-controller" : "remote-presenter");
 const dialog = $("pairDialog"), approveButton = $("pairApprove"), resetButton = $("pairReset");
 const badge = $("syncBadge"), pairStatus = $("pairStatus");
-const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
-const auth = getAuth(app);
 const db = getFirestore(app);
 let writeChain = Promise.resolve();
 let initializing = false;
@@ -313,13 +309,8 @@ refreshUi();
 // Firestore uses an anonymous technical UID only to authorize the two devices.
 // No teacher registration, name, email address, or teacher profile is requested.
 // The usage log intentionally does not contain this UID.
-async function ensureAnonymousSession() {
-  await auth.authStateReady();
-  if (auth.currentUser) return auth.currentUser;
-  return (await signInAnonymously(auth)).user;
-}
 try {
-  remote.user = await ensureAnonymousSession();
+  remote.user = await getAnonymousUser();
   if (isController) await connectController();
   else await createPresenterSession();
 } catch (error) {
