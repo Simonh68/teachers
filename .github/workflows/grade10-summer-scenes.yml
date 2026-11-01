@@ -1,0 +1,35 @@
+name: Grade 10 Summer Reading publish 18 original photo-realistic scenes
+on:
+  push:
+    paths:
+      - '.github/workflows/grade10-summer-scenes.yml'
+      - 'grade10/group-a/a-summers-reading/readalong/visual-scenes-v1.tar.gz'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  add-scenes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify generated visual archive
+        run: |
+          file grade10/group-a/a-summers-reading/readalong/visual-scenes-v1.tar.gz
+          mkdir -p grade10/group-a/a-summers-reading/images
+          tar -xzf grade10/group-a/a-summers-reading/readalong/visual-scenes-v1.tar.gz -C grade10/group-a/a-summers-reading/images
+          count=$(find grade10/group-a/a-summers-reading/images/generated -name '*.jpg' | wc -l)
+          echo "Generated historical illustrative scenes: $count"
+          test "$count" -eq 18
+          test -s grade10/group-a/a-summers-reading/images/generated/railroad-flat.jpg
+          test -s grade10/group-a/a-summers-reading/images/generated/delivery-boy-1950s.jpg
+      - name: Publish generated scenes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add grade10/group-a/a-summers-reading/images/generated
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish 18 unique photo-realistic A Summer's Reading scenes"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
