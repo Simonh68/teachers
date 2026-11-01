@@ -44,16 +44,16 @@ def classify(path:str, html:str):
     if "<script" not in html.lower():return "support-document"
     if TAG.search(html):return "enabled"
     if EXISTING.search(html):return "already-has-remote"
-    # Canonical read-along engines rebuild the entire body, so their initial
-    # HTML shell may have no visible slide or navigation elements.
+    # The HTML shell of a Read-Along or legacy lesson may have no inline slides:
+    # its external lesson/sequence/bootstrap script builds slides after load.
     if "location.replace(" in html and len(html)<1800:return "redirect"
-    has_nav=bool(NAV.search(html)) or bool(re.search(r'id=["\\\'](?:v-next|v-prev)["\\\']',html,re.I))
+    has_nav=bool(NAV.search(html)) or bool(re.search(r"""id=["'](?:v-next|v-prev)["']""",html,re.I))
     has_slide=bool(SLIDE.search(html))
-    has_stage=bool(re.search(r'id=["\\\'](?:stage|deck|slide|main)["\\\']',html,re.I))
-    has_count=bool(re.search(r'id=["\\\'](?:counter|position|v-position|slideCount)["\\\']',html,re.I))
-    has_engine=bool(re.search(r'(?:lesson|app|sequence|bootstrap8?|track-engine|segmented-engine)\\.js',html,re.I))
-    has_next=bool(re.search(r'\\bfunction\\s+(?:next|prev|move|advance)\\s*\\(',html))
-    has_reader=bool(READER.search(path)) or bool(re.search(r'READ[ -]?ALON?G?|Read\\s+Along|Read\\s+Alone',html,re.I))
+    has_stage=bool(re.search(r"""id=["'](?:stage|deck|slide|main)["']""",html,re.I))
+    has_count=bool(re.search(r"""id=["'](?:counter|position|v-position|slideCount)["']""",html,re.I))
+    has_engine=bool(re.search(r"(?:lesson|app|sequence|bootstrap8?|track-engine|segmented-engine)\.js",html,re.I))
+    has_next=bool(re.search(r"\bfunction\s+(?:next|prev|move|advance)\s*\(",html))
+    has_reader=bool(READER.search(path)) or bool(re.search(r"Read\s+Along|Read\s+Alone|READ[ -]?ALONG|READ[ -]?ALONE",html,re.I))
     is_readalong=has_reader and (has_engine or has_nav) and (has_stage or bool(BOOT.search(html)) or "read-along" in path)
     if is_readalong:return "compatible"
     if has_nav and (has_slide or has_stage or (has_count and has_engine)):return "compatible"
