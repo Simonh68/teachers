@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="he" dir="ltr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07101d">
+<title>בלשי המשפט — מצגת שאלון E · כיתה י״א 5 יח״ל</title>
+<style>
+:root{color-scheme:dark;--bg:#07101d;--panel:#111f31;--panel2:#152943;--ink:#fff;--muted:#c7d7e8;--line:#354c67;--lime:#e4fa77;--n:#3388ff;--a:#ffbd45;--d:#dce4ef;--v:#ff6372;--p:#c29bff;--c:#4de3bd}
+*{box-sizing:border-box}html,body{height:100%;margin:0}body{background:radial-gradient(ellipse at 80% -20%,#174d83 0,transparent 48%),linear-gradient(145deg,#07101d,#0e2035);color:var(--ink);font:700 21px/1.5 Arial,Helvetica,sans-serif;overflow:hidden}
+button,select{font:inherit}button{cursor:pointer}a{color:var(--lime)}
+:focus-visible{outline:4px solid var(--lime);outline-offset:3px}
+header{height:79px;display:flex;align-items:center;gap:14px;padding:12px clamp(15px,3vw,38px);border-bottom:1px solid #42607a88}
+.brand{font-size:14px;letter-spacing:.1em;color:var(--lime);font-weight:900;text-transform:uppercase;white-space:nowrap}.headMid{flex:1;display:flex;justify-content:center;min-width:0;align-items:center;gap:14px}.counter{font-size:17px;color:#d6e2ed;white-space:nowrap;font-variant-numeric:tabular-nums}.pill{border:1px solid #7da1c155;background:#17406166;border-radius:999px;padding:6px 13px;color:#d5eafa;font-size:13px;letter-spacing:.06em}
+.headBtns{display:flex;gap:8px;align-items:center}.smallBtn{background:#1a3148;color:#f5faff;border:1px solid #6c8aa6;border-radius:10px;font-size:15px;padding:9px 13px;font-weight:900;text-decoration:none;white-space:nowrap}
+main{height:calc(100dvh - 157px);min-height:0;overflow:auto;display:flex;justify-content:center;padding:clamp(13px,2vw,26px) clamp(15px,3vw,50px)}
+.page{width:100%;max-width:1480px;display:flex;flex-direction:column;justify-content:center;min-height:100%;gap:clamp(10px,1.5vh,23px)}
+.kicker{font-size:clamp(14px,1.35vw,21px);text-transform:uppercase;letter-spacing:.14em;color:var(--lime)}
+h1{font-size:clamp(33px,4.15vw,71px);letter-spacing:-.035em;line-height:1.13;margin:0;font-weight:900}
+.subtitle{color:#d6e7f5;font-size:clamp(17px,1.7vw,27px)}
+.sentenceCard{position:relative;background:linear-gradient(125deg,#10263a,#0e1c31);border:2px solid #3d627d;border-radius:24px;padding:clamp(16px,3vw,45px);min-height:125px;box-shadow:0 14px 50px #0004;overflow:hidden}
+.sentence{display:flex;direction:ltr;flex-wrap:wrap;gap:.18em .20em;align-items:baseline;font-size:clamp(29px,3.9vw,63px);line-height:1.55;font-weight:800}
+.w{display:inline-block;padding:.015em .12em;border-radius:.16em;position:relative;box-shadow:inset 0 0 0 1px transparent;transition:background .4s,color .4s,box-shadow .4s;transform-origin:center;white-space:normal}
+.wordGroup{white-space:nowrap}
+.stage1 .w.d{box-shadow:inset 0 -5px 0 var(--d);animation:glow .6s both}.stage1 .w.c{box-shadow:inset 0 -6px 0 var(--c);color:#6fffe0;animation:glow .6s both}
+.stage2 .w.d,.stage3 .w.d,.stage4 .w.d{background:#4c5b6b;color:#fff}
+.stage2 .w.a,.stage3 .w.a,.stage4 .w.a{background:var(--a);color:#141b29;animation:appear .38s both;animation-delay:var(--delay)}
+.stage2 .w.n,.stage3 .w.n,.stage4 .w.n{background:var(--n);color:white;box-shadow:0 0 0 3px #3388ff44;animation:pulse .8s both}
+.stage2 .w.q,.stage3 .w.q,.stage4 .w.q{box-shadow:inset 0 -5px 0 #72a8ff}
+.stage2 .w.c,.stage3 .w.c,.stage4 .w.c{background:#10675a;color:#baffed}
+.stage3 .w.v,.stage4 .w.v{background:var(--v);color:#131c29;animation:pulse .7s both}
+.stage3 .w.p,.stage4 .w.p{background:#7950b6;color:#fff}
+.stage3 .w.o,.stage4 .w.o{box-shadow:inset 0 -5px 0 #a6beef}
+.stage3 .w.u,.stage4 .w.u{box-shadow:inset 0 -5px 0 #c88a93}
+.scanCue{display:none;position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,transparent 15%,#4de3bd14 42%,#4de3bd36 50%,#4de3bd14 58%,transparent 85%);background-size:200% 100%;animation:scan 1.8s ease-in-out infinite}
+.stage1 .scanCue{display:block}.nounCue{display:none;margin-top:12px;font-size:clamp(19px,1.6vw,24px);font-weight:900;color:#aed4ff;align-items:center;gap:12px}.stage2 .nounCue,.stage3 .nounCue,.stage4 .nounCue{display:flex;animation:fadeUp .4s both}
+.backArrow{font-size:36px;display:inline-block;animation:backmove 1.6s ease-in-out infinite;color:var(--a)}
+.prompt{font-size:clamp(22px,2.2vw,33px);font-weight:900;color:#f7faff}
+.choices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.choice{background:#162b43;color:#f7fbff;border:2px solid #54738f;text-align:left;padding:clamp(12px,1.7vw,23px);border-radius:16px;font-size:clamp(18px,1.65vw,26px);font-weight:800;line-height:1.4;min-height:76px;transition:background .15s,transform .15s}
+.choice:hover{background:#204365;transform:translateY(-2px)}.choice b{color:var(--lime);margin-right:12px}.choice.correct{border-color:#73e5af;background:#14523e}.choice.wrong{border-color:#f3a4a4;background:#4e2634}.choice:disabled{cursor:default}
+.feedback{min-height:35px;color:#ffe3a9;font-size:clamp(16px,1.45vw,23px)}.feedback.good{color:#86f1b3}.feedback.bad{color:#ffcbca}
+.hintCard{display:flex;align-items:center;gap:14px;background:#172c42;border:1px solid #5d7892;border-radius:13px;padding:11px 17px;font-size:clamp(15px,1.3vw,21px);color:#eff7ff}.hintNumber{background:#e4fa77;color:#162027;border-radius:50%;width:33px;height:33px;display:inline-grid;place-items:center;font-size:19px;flex-shrink:0}
+.heb{direction:rtl;text-align:right;font-family:Arial,'Noto Sans Hebrew',sans-serif;font-weight:700}
+.details{background:#192b40;border:1px solid #415b76;border-radius:14px;padding:14px 18px;animation:fadeUp .4s both}.details .meaning{font-size:clamp(17px,1.35vw,22px);color:#f4f6fb}.details .gloss{margin-top:9px;color:#ffe8ad;font-size:clamp(15px,1.2vw,20px)}
+.diagram{display:grid;grid-template-columns:minmax(0,1fr) 85px minmax(0,1fr);gap:8px;align-items:center;direction:ltr;animation:fadeUp .55s both}
+.diagram .cell{background:#173149;border:1px solid #7a98b2;border-radius:15px;min-height:75px;padding:12px 19px;text-align:center;display:flex;justify-content:center;align-items:center;flex-direction:column;gap:3px;font-size:clamp(18px,1.5vw,24px)}
+.diagram .cell strong{font-size:14px;color:var(--lime);text-transform:uppercase;letter-spacing:.08em}.diagram .arrow{font-size:49px;text-align:center;color:var(--c);animation:floatRight 1.6s infinite}
+.diagram.contrast .arrow{color:#ffbe76}.diagram.condition .arrow{color:#8cc7ff}
+.cover{text-align:center;align-items:center}.cover h1{font-size:clamp(51px,7vw,112px);line-height:1.05;max-width:1000px}.cover .subtitle{max-width:900px}.cover .hero{font-size:clamp(25px,3vw,46px);padding:22px;border-top:1px solid #527291;border-bottom:1px solid #527291;line-height:1.5}.cover .punch{color:var(--lime)}
+.legend{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}.legendItem{font-size:clamp(13px,1.1vw,17px);font-weight:900;display:flex;gap:8px;align-items:center;color:#dceaf8}.dot{width:14px;height:14px;border-radius:4px;display:inline-block}
+footer{height:78px;padding:10px clamp(15px,3vw,38px);border-top:1px solid #42607a88;display:flex;gap:12px;align-items:center;justify-content:space-between;background:#07101dc9}
+.navBtn{border:1px solid #9fb8ce;background:#1b3349;color:#fff;padding:11px 19px;border-radius:13px;font-weight:900;font-size:clamp(15px,1.5vw,20px)}.navBtn.primary{background:var(--lime);border-color:var(--lime);color:#14200d;min-width:clamp(170px,23vw,310px)}.navBtn:disabled{opacity:.35;cursor:not-allowed}.footLeft{display:flex;gap:10px;align-items:center}.footRight{display:flex;gap:10px;align-items:center}.progress{position:absolute;bottom:78px;left:0;right:0;height:4px;background:#1d3345}.progress i{display:block;height:100%;background:linear-gradient(90deg,var(--c),var(--lime));transition:width .4s}
+.teacher{display:none;margin:8px 0;color:#d7e7ff;font-size:15px;border-left:3px solid var(--lime);padding-left:12px}.teacher.on{display:block}.readingBox{white-space:pre-line;font:500 clamp(19px,1.4vw,23px)/1.8 Georgia,serif;max-width:1000px;margin:auto}.readDialog{background:#0b1829;color:white;border:2px solid #78a0bb;border-radius:20px;padding:25px;max-width:960px;width:95vw;max-height:88vh;overflow:auto}.readDialog::backdrop{background:#000b}.readDialog h2{font-size:36px}.readDialog p{font:500 clamp(20px,1.5vw,24px)/1.65 Georgia,serif}.readDialog button{float:right;background:var(--lime);border:0;border-radius:10px;padding:9px 20px;color:#111;font-weight:900}.readonlyBtn{background:#1d4850;color:#cffff4;border:1px solid #63cdb9;padding:10px 15px;border-radius:10px;font-size:15px}
+@media(max-width:780px){header{height:65px;gap:5px}.brand{font-size:11px}.headMid{justify-content:flex-end}.pill{display:none}.smallBtn{font-size:13px;padding:6px 8px}.counter{font-size:13px}main{height:calc(100dvh - 144px);padding:18px 12px}.page{justify-content:flex-start}.sentence{font-size:clamp(24px,6.2vw,38px);line-height:1.55}.choices{grid-template-columns:1fr;gap:7px}.choice{min-height:49px;font-size:18px;padding:10px 13px}.prompt{font-size:22px}.hintCard{font-size:15px}.diagram{grid-template-columns:minmax(0,1fr) 34px minmax(0,1fr)}.diagram .arrow{font-size:28px}.diagram .cell{font-size:14px;min-height:65px;padding:8px}.diagram .cell strong{font-size:11px}footer{height:79px;padding:8px 10px;gap:6px}.navBtn{padding:10px 9px;font-size:14px}.navBtn.primary{min-width:140px}.footLeft{gap:4px}.footRight{gap:4px}.progress{bottom:79px}.cover h1{font-size:50px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
+@keyframes scan{from{background-position:150% 0}to{background-position:-60% 0}}@keyframes pulse{0%{transform:scale(1);filter:brightness(1)}50%{transform:scale(1.08);filter:brightness(1.22)}100%{transform:scale(1);filter:brightness(1)}}@keyframes appear{from{opacity:.5;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}@keyframes backmove{0%,100%{transform:translateX(14px)}50%{transform:translateX(-18px)}}@keyframes glow{50%{filter:brightness(1.4)}}@keyframes floatRight{50%{transform:translateX(9px)}}
+
+/* Mobile-viewport reliability: keep every word and response inside a scrollable slide. */
+main{align-items:flex-start;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;scroll-padding-bottom:38px}
+.page{height:max-content;min-height:100%;flex:0 0 auto;justify-content:safe center;padding-bottom:22px}
+.page>*{flex:0 0 auto;min-width:0}
+.sentenceCard{height:auto;flex-shrink:0}
+@media(max-width:780px){
+main{padding:14px 12px 28px}
+.page{height:max-content;min-height:100%;justify-content:flex-start;gap:13px;padding-bottom:30px}
+.sentenceCard{height:auto;min-height:0;padding:17px;flex-shrink:0;border-radius:19px}
+.sentence{font-size:clamp(24px,6.2vw,38px);line-height:1.42}
+.prompt{font-size:22px;line-height:1.33}
+.feedback{min-height:0;font-size:17px;line-height:1.42}
+.footRight{flex:1;min-width:0}
+.navBtn.primary{flex:1;min-width:0}
+#reveal{white-space:nowrap;font-size:15px}
+#prev,#next{font-size:0;min-width:45px;padding:9px 5px}
+#prev:after{content:"←";font-size:24px}
+#next:after{content:"→";font-size:24px}
+#reset{min-width:43px;padding:9px 7px;font-size:19px}
+}
+@media(max-width:410px){
+h1{font-size:clamp(30px,8vw,39px);line-height:1.12}
+.kicker{font-size:13px;line-height:1.3;letter-spacing:.11em}
+.sentence{font-size:clamp(24px,6.6vw,28px);line-height:1.4}
+.sentenceCard{padding:17px}
+.prompt{font-size:21px}
+.choice{padding:10px 12px}
+}
+
+/* Hebrew instruction layer: preserve left-to-right English examples and answers. */
+body{font-family:Arial,"Noto Sans Hebrew",sans-serif}
+.page .kicker,.page h1,.page .titleEn,.page .questionHe,.page .hintCard,.page .details,.page .feedback,.page .teacher{unicode-bidi:isolate}
+.page h1.heTitle{direction:rtl;text-align:right;font-size:clamp(32px,4vw,64px);line-height:1.16;overflow-wrap:break-word}
+.page .titleEn{direction:ltr;text-align:left;color:#c0d5e7;font-size:clamp(15px,1.3vw,21px);font-weight:700;line-height:1.25;margin-top:-8px}
+.prompt{direction:ltr;text-align:left;line-height:1.32}
+.questionHe{direction:rtl;text-align:right;font-size:clamp(17px,1.65vw,25px);line-height:1.42;color:#f1f7ff;font-weight:750;letter-spacing:0}
+.feedback,.meaning,.gloss,.hintCard .heb{direction:rtl;text-align:right;line-height:1.5}
+.meaning{font-size:clamp(18px,1.6vw,25px)}
+.hintCard{justify-content:flex-start;direction:rtl}
+.hintCard .hintNumber{order:0}
+.hintCard .heb{flex:1}
+.nounCue{direction:rtl;text-align:right;line-height:1.45}
+.diagram .cell{direction:rtl}
+.diagram .cell .segmentEnglish{direction:ltr}
+.legendItem{direction:rtl;font-size:clamp(14px,1.15vw,19px)}
+.choices{direction:ltr}
+.choice{direction:ltr;text-align:left}
+.teacher{direction:rtl;text-align:right;font-size:clamp(15px,1.1vw,19px)}
+.cover h1.heTitle{text-align:center;font-size:clamp(43px,5.7vw,88px)}
+.cover .subtitle{direction:rtl;text-align:center}
+.cover .hero{direction:rtl;font-size:clamp(23px,2.45vw,37px)}
+.cover .titleEn{text-align:center}
+.cover .legend{direction:rtl}
+header .brand{direction:rtl;letter-spacing:0}
+#readerText{direction:ltr}
+@media(max-width:780px){
+.page h1.heTitle{font-size:clamp(30px,8vw,42px)}
+.page .titleEn{font-size:14px;margin-top:-6px}
+.questionHe{font-size:17px;line-height:1.35}
+.prompt{font-size:20px}
+.hintCard{direction:rtl}
+.meaning{font-size:18px;line-height:1.5}
+.cover h1.heTitle{font-size:clamp(40px,10vw,55px)}
+.cover .hero{font-size:24px}
+#reveal{font-size:15px}
+#prev:after{content:"←"}
+#next:after{content:"→"}
+}
+/* Mobile swipe navigation hint only on section-intro slides. */
+.swipeIntro{direction:rtl;text-align:center;color:#bce0ef;font-size:clamp(14px,1.1vw,18px);font-weight:700}
+#main{touch-action:pan-y}
+@media(max-width:780px){.swipeIntro{font-size:14px;line-height:1.45}}
+
+/* A QR pairing screen for this deck only; projector typography remains unchanged. */
+.syncBadge{font-size:12px;color:#c9ebf7;background:#173148;border:1px solid #426781;border-radius:999px;padding:6px 10px;white-space:nowrap}
+.syncBadge[data-tone="connected"]{color:#baffd6;border-color:#5bd6a3}
+.syncBadge[data-tone="error"]{color:#ffc2c2;border-color:#cf7279}
+.pairDialog{max-height:94dvh;width:min(94vw,550px);margin:auto;border:2px solid #81a8c5;border-radius:24px;background:#0e2338;color:#fff;box-shadow:0 25px 80px #000a;padding:clamp(20px,3vw,32px);text-align:center;direction:rtl;overflow:auto}
+.pairDialog::backdrop{background:#030b16da;backdrop-filter:blur(5px)}
+.pairDialog h2{font-size:clamp(27px,3vw,40px);margin:0 0 12px;color:var(--lime);line-height:1.18}
+.pairDialog p{font-size:clamp(16px,1.5vw,22px);line-height:1.48;margin:8px 0 15px;color:#e3f0ff}
+.pairDialog .pairStatus{display:block;font-size:17px;padding:9px;border-radius:10px;background:#193c50;color:#d9fafa;margin:13px 0}
+.pairQr{width:248px;height:248px;max-width:100%;margin:16px auto;background:#fff;border-radius:15px;padding:10px;display:flex;align-items:center;justify-content:center;color:#13243b;font-size:14px;line-height:1.3}
+.pairQr img,.pairQr canvas{max-width:100%;height:auto;display:block}
+.pairLink{background:#f3f7fb;color:#14263a;width:100%;border-radius:10px;border:2px solid #a6c8e2;padding:10px;direction:ltr;text-align:left;font:600 13px/1.3 Arial,sans-serif}
+.pairActions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.pairAction{flex:1;min-width:140px;border:1px solid #6d98ba;border-radius:12px;background:#1b3a58;color:#fff;padding:12px 16px;font-size:17px;font-weight:900}
+.pairAction.primary{background:var(--lime);color:#152313;border-color:var(--lime)}
+.pairDialog .pairSmall{font-size:13px;color:#a5c9dc;margin:14px 0 0}
+.pairHowTo{display:grid;gap:8px;padding:12px 15px;border:1px solid #41688b;background:#102c45;border-radius:15px;text-align:start}
+.pairDialog .pairHowTo p{margin:0;font-size:clamp(14px,1.18vw,17px);font-weight:700;line-height:1.46}
+.pairHowTo [lang="en"]{font-size:clamp(13px,1.08vw,16px);font-weight:600;direction:ltr;text-align:left;color:#cce9fb}
+.pairNotLogin{color:#f9df95;font-size:clamp(13px,1.03vw,15px);display:block;margin-top:6px}
+.pairQrLabel{display:block;color:var(--lime);font-size:clamp(18px,1.6vw,24px);margin-top:9px}
+.pairDialog h2{font-size:clamp(24px,2.4vw,32px)}
+.pairDialog .pairActions .pairAction{font-size:clamp(13px,1.14vw,16px)}
+.pairDialog #pairQr{margin:8px auto 10px}
+@media(max-height:780px){
+  .pairDialog{padding:12px 18px}
+  .pairDialog h2{font-size:22px;margin-bottom:8px}
+  .pairHowTo{gap:5px;padding:9px 12px}
+  .pairDialog .pairHowTo p,.pairHowTo [lang="en"]{font-size:13px;line-height:1.36}
+  .pairNotLogin{font-size:12px;margin-top:2px}
+  .pairQrLabel{font-size:17px;margin-top:5px}
+  .pairQr{width:192px;height:192px}
+  .pairDialog #pairQr{margin:6px auto}
+  .pairDialog .pairStatus{margin:6px 0;padding:6px;font-size:14px}
+  .pairActions{gap:6px;margin-top:8px}
+  .pairDialog .pairActions .pairAction{padding:7px 9px;font-size:12px;min-width:130px}
+  .pairDialog .pairSmall{font-size:11px;margin-top:7px}
+}
+@media(max-width:780px){
+  #remoteToggle{padding:6px 8px;font-size:12px}
+  .syncBadge{display:none}
+  body.remote-controller header .brand,body.remote-controller #teacherToggle,body.remote-controller #full{display:none}
+  body.remote-controller .syncBadge{display:inline;font-size:11px}
+  body.remote-controller .headMid{justify-content:flex-start}
+  body.remote-controller header .headBtns{margin-left:auto}
+  body.remote-controller #remoteToggle{font-size:11px}
+  .pairDialog{padding:18px}
+  .pairQr{width:228px;height:228px}
+}
+
+/* Reasoning-first reveal: every sentence part colors on step 1,
+   then word trains and ALL sentence components move left-to-right. */
+.sentence{direction:ltr;text-align:left;justify-content:flex-start}
+.sentence .w{direction:ltr;unicode-bidi:isolate;white-space:nowrap}
+.sentence:is(.stage1,.stage2,.stage3,.stage4) .w{
+ color:#fff;box-shadow:none;animation:revealWord .42s ease both;
+ animation-delay:calc(var(--seq)*55ms);border-radius:6px;
+}
+.sentence:is(.stage1,.stage2,.stage3,.stage4) .w.part-start{background:#596b7c!important;color:#fff!important}
+.sentence:is(.stage1,.stage2,.stage3,.stage4) .w.part-desc{background:#ffbd45!important;color:#111b27!important}
+.sentence:is(.stage1,.stage2,.stage3,.stage4) .w.part-thing{background:#3388ff!important;color:#fff!important}
+.sentence:is(.stage1,.stage2,.stage3,.stage4) .w.part-receiver{background:#7057cc!important;color:#fff!important}
+.sentence:is(.stage1,.stage2,.stage3,.stage4) .w.part-action{background:#ff6372!important;color:#171524!important}
+.sentence:is(.stage1,.stage2,.stage3,.stage4) .w.part-helper{background:#c9446d!important;color:#fff!important}
+.sentence:is(.stage1,.stage2,.stage3,.stage4) .w.part-sideAction{background:#a64b83!important;color:#fff!important;box-shadow:inset 0 0 0 2px #f6adcf!important}
+.sentence:is(.stage1,.stage2,.stage3,.stage4) .w.part-person{background:#995fe0!important;color:#fff!important}
+.sentence:is(.stage1,.stage2,.stage3,.stage4) .w.part-connect{background:#157d71!important;color:#fff!important}
+.sentence:is(.stage1,.stage2,.stage3,.stage4) .w.part-extra{background:#584c8c!important;color:#fff!important}
+.sentence:is(.stage1,.stage2,.stage3,.stage4) .w.part-state{background:#d18c33!important;color:#101726!important}
+.sentence:is(.stage1,.stage2,.stage3,.stage4) .w.part-other{background:#53677c!important;color:#fff!important}
+.sentence .w.wordFocus{outline:4px solid var(--lime);outline-offset:3px;box-shadow:0 0 18px var(--lime)!important;transform:scale(1.075);z-index:4}
+.decodePanel{background:linear-gradient(125deg,#142b41,#0d2538);border:2px solid #456e8c;border-radius:22px;padding:clamp(15px,2vw,27px);display:flex;flex-direction:column;gap:13px;overflow:visible}
+.decodePanel h3{margin:0;font-size:clamp(23px,2.2vw,34px);color:var(--lime);line-height:1.32}
+.decodeHelp{margin:0;color:#d6e4f0;font-size:clamp(16px,1.3vw,22px);font-weight:650;line-height:1.5}
+.wordRail{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:7px;direction:ltr;width:100%}
+.trainRow{border-top:1px solid #5d7c9477;padding-top:10px}
+.trainRow:first-of-type{border:0}
+.trainLabel{color:#bdd7f1;font-size:clamp(14px,1.1vw,17px);margin-bottom:8px}
+.wordPiece{border:2px solid transparent;border-radius:12px;min-width:63px;max-width:100%;padding:7px 8px;display:inline-flex;flex-direction:column;justify-content:center;align-items:center;gap:2px;background:#253a50;color:white;line-height:1.2;animation:wordTrain .35s both;animation-delay:calc(var(--seq)*70ms);cursor:pointer}
+.wordPiece strong{font-size:clamp(17px,1.7vw,27px);white-space:nowrap;font-weight:850}
+.wordPiece small{font-size:clamp(12px,1vw,16px);font-weight:750;white-space:nowrap;color:inherit}
+.wordPiece.part-start{background:#596b7c}
+.wordPiece.part-desc{background:#ffbd45;color:#111b27}
+.wordPiece.part-thing{background:#3388ff}
+.wordPiece.part-receiver{background:#7057cc}
+.wordPiece.part-action{background:#ff6372;color:#171524}
+.wordPiece.part-helper{background:#c9446d}
+.wordPiece.part-sideAction{background:#a64b83;border-color:#f6adcf}
+.wordPiece.part-person{background:#995fe0}
+.wordPiece.part-connect{background:#157d71}
+.wordPiece.part-extra{background:#584c8c}
+.wordPiece.part-state{background:#d18c33;color:#101726}
+.wordPiece.wordFocus{border-color:var(--lime);box-shadow:0 0 0 3px #e4fa7755,0 0 20px #dfff5b50}
+.railArrow{align-self:center;color:var(--lime);font-size:clamp(17px,1.5vw,27px);line-height:1}
+.fullRail{border-top:1px solid #617d9177;padding-top:16px}
+.explainTrack{font-size:18px;text-align:right;direction:rtl}
+.choices{direction:rtl}
+.choice[dir="rtl"]{text-align:right}
+.choice[dir="ltr"]{text-align:left}
+.questionHe{font-size:clamp(22px,2.1vw,33px);line-height:1.42;color:#f4f9ff}
+.legend{justify-content:flex-start;direction:rtl;row-gap:6px}
+.legendItem{font-size:clamp(13px,1.05vw,18px)}
+@keyframes revealWord{0%{opacity:.55;transform:translateY(6px) scale(.98)}100%{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes wordTrain{0%{opacity:0;transform:translateX(-18px)}100%{opacity:1;transform:translateX(0)}}
+@media(max-width:780px){
+.decodePanel{padding:13px;border-radius:15px;gap:9px}
+.decodePanel h3{font-size:20px}
+.decodeHelp{font-size:15px}
+.wordRail{gap:4px}
+.wordPiece{padding:6px;min-width:54px;border-radius:9px}
+.wordPiece strong{font-size:18px}
+.wordPiece small{font-size:11px;white-space:normal;text-align:center}
+.railArrow{font-size:17px}
+.questionHe{font-size:21px}
+.legend{gap:6px}
+}
+
+/* Reassemble individual cards into meaning-bearing units, using guided chunk reading. */
+.chunkPanel{background:linear-gradient(125deg,#102c35,#163548);border:2px solid #4c978c;border-radius:20px;padding:clamp(15px,2vw,26px);display:flex;flex-direction:column;gap:12px}
+.chunkPanel h3{font-size:clamp(23px,2.1vw,34px);margin:0;color:#baffdf;line-height:1.3}
+.chunkPanel p{margin:0;font-size:clamp(16px,1.25vw,21px);color:#dcefeb}
+.chunkRail{display:flex;flex-wrap:wrap;gap:9px;justify-content:flex-start;align-items:center;line-height:1.5}
+.chunk{display:inline-block;background:#285064;border:2px solid #7fcbb6;color:#fff;border-radius:12px;padding:13px 16px;font-size:clamp(19px,1.7vw,27px);font-weight:900;animation:wordTrain .45s both;animation-delay:calc(var(--chunk)*240ms)}
+.chunkLink{color:#e4fa77;font-size:23px}
+.teacherLink{display:inline-block;margin-top:10px;font-size:17px;font-weight:900;color:#e4fa77;direction:rtl}
+.lessonPhase{display:inline-flex;align-self:flex-start;border:1px solid #72c9ce;color:#d0faff;border-radius:999px;padding:4px 11px;font-size:clamp(14px,1vw,17px);background:#104148}
+@media(max-width:780px){.chunkPanel{padding:13px}.chunkPanel h3{font-size:20px}.chunkPanel p{font-size:15px}.chunk{font-size:18px;padding:10px 12px}.chunkLink{font-size:17px}}
+/* Grade 11 projection and mobile sizes */.page .questionHe{font-size:clamp(22px,2.1vw,34px)}.sentenceCard{max-height:none}@media(max-width:780px){.page .questionHe{font-size:21px}.sentence{font-size:clamp(22px,5.8vw,35px)}}
+</style>
+</head>
+<body>
+<header><a class="brand" href="../../#grade11" aria-label="חזרה לעמוד כיתה י״א">⌂ &nbsp; כיתה י״א · 5 יח״ל</a><div class="headMid"><span id="pill" class="pill">READING STRATEGIES</span><span id="counter" class="counter">1 / 35</span><span id="syncBadge" class="syncBadge" data-tone="waiting" role="status" aria-live="polite">📱 שלט מתכונן…</span></div><div class="headBtns"><button id="teacherToggle" class="smallBtn" title="הערות למורה">למורה</button><button id="remoteToggle" class="smallBtn" type="button" title="צימוד טלפון באמצעות QR">📱 QR / שלט</button><button id="full" class="smallBtn" title="מסך מלא">⛶ מלא</button></div></header>
+<main id="main"><article class="page" id="page" aria-live="polite"></article></main>
+<div class="progress"><i id="progress"></i></div>
+<footer><div class="footLeft"><button id="prev" class="navBtn" aria-label="השקף הקודם">← הקודם</button><button id="reset" class="navBtn" title="התחלת השקף מחדש">↻</button></div><div class="footRight"><button id="reading" class="readonlyBtn" hidden>קטע הקריאה</button><button id="reveal" class="navBtn primary">גלה רמז ←</button><button id="next" class="navBtn" aria-label="השקף הבא">הבא →</button></div></footer>
+<dialog id="reader" class="readDialog"><button id="closeReader">סגור ✕</button><h2 dir="rtl" lang="he">קטע קריאה מקורי — Borrow, Don’t Buy</h2><div id="readerText"></div></dialog>
+
+<dialog id="pairDialog" class="pairDialog" aria-labelledby="pairTitle" dir="rtl" lang="he">
+  <h2 id="pairTitle">📱 שלט למצגת / Presentation Remote</h2>
+  <div class="pairHowTo" aria-label="הוראות התחברות בעברית ובאנגלית">
+    <p lang="he" dir="rtl"><strong>מה עושים עם הקוד?</strong> סורקים בטלפון כדי להפוך אותו לשלט של המצגת במקרן. מאשרים את הטלפון במחשב, ואז מחליקים בטלפון כדי להעביר שקפים ולגלות רמזים.</p>
+    <p lang="en" dir="ltr"><strong>What is this QR code for?</strong> Scan it with your phone camera to turn your phone into a remote for the projected slides. Approve the phone on the computer, then swipe to change slides and reveal hints.</p>
+    <span class="pairNotLogin">לא קוד למבחן או להתחברות לחשבון · Not a test code or login code. No sign-up needed.</span>
+  </div>
+  <strong class="pairQrLabel" lang="he" dir="rtl">↓ סרקו כאן / Scan this QR ↓</strong>
+  <div id="pairQr" class="pairQr" aria-label="קוד QR — סרקו בטלפון לשלט המצגת / QR for phone presentation remote">יוצר קוד QR…</div>
+  <span id="pairStatus" class="pairStatus" role="status" aria-live="polite">מכין חיבור… / Preparing connection…</span>
+  <label for="pairLink" style="display:block;text-align:right;font-size:14px;margin-bottom:7px">אין אפשרות לסרוק? פתחו את הקישור בטלפון / Can't scan? Open this link on your phone:</label>
+  <input id="pairLink" class="pairLink" type="text" value="" readonly aria-label="קישור השלט"/>
+  <div class="pairActions">
+    <button id="pairApprove" class="pairAction primary" type="button" hidden>✓ אשר טלפון / Approve phone</button>
+    <button id="pairReset" class="pairAction" type="button">אפס חיבור / Reset</button>
+    <button id="pairClose" class="pairAction primary" type="button">התחל מצגת / Start presenting ←</button>
+    <button id="pairCopy" class="pairAction" type="button">העתק קישור / Copy link</button>
+    <button id="pairFirebaseMode" class="pairAction" type="button">↩ שלט חלופי / Alternate remote</button>
+  </div>
+  <p class="pairSmall">רק טלפון שאישרתם יוכל לשלוט. אין הרשמה ואין שמירת שמות או כתובות דוא״ל; אין צורך בהרשמה אישית.<span lang="en" dir="ltr" style="display:block">Only an approved phone can control the slides. No sign-up or stored names/emails. No teacher sign-up is required.</span></p>
+  <p class="pairSmall"><a href="./usage-report.html" target="_blank" rel="noopener noreferrer" style="color:var(--lime);font-weight:900">📊 דוח שימוש: כמה פעמים נפתחה המצגת? / View usage count</a></p>
+</dialog>
+<script>
+"use strict";
+const slides=[{"section":"START","title":"Module E · Sentence Detective","titleHe":"מגלים מבנה — בלי מילון","markup":"","prompt":"","promptHe":"אפשר להבין משפט מורכב גם בלי להכיר כל מילה?","choices":null,"correct":null,"why":"קודם מזהים מי או מה, את הפעולה ואת הקשרים. אחר כך מחפשים ראיות בטקסט.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":[],"phase":"כיתה י״א · 5 יח״ל"},{"section":"NOUN","title":"Module E · Sentence Detective","titleHe":"התוכנית שמסתתרת אחרי התיאורים","markup":"The~d|recently introduced school recycling~a|program~n|has attracted~v|many~d|volunteers.~o","prompt":"","promptHe":"מה משך מתנדבים רבים?","choices":["program","recycling","volunteers"],"correct":0,"why":"The מראה היכן מתחילה קבוצת המילים. התיאורים מובילים אל program, והפעולה היא has attracted.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["The recently introduced school recycling program","has attracted many volunteers"],"phase":"הדגמת מורה"},{"section":"NOUN","title":"Module E · Sentence Detective","titleHe":"שם דבר שמספר על החלטה","markup":"The~d|unexpected~a|decision~n|to close the local library~p|surprised~v|many~d|residents.~o","prompt":"","promptHe":"מה הפתיע את התושבים?","choices":["התושבים הפתיעו את הספרייה","ההחלטה לסגור את הספרייה","המורים פתחו ספרייה חדשה"],"correct":1,"why":"decision הוא הדבר שעליו מדברים. to close מסביר מהי ההחלטה; surprised הוא הפועל המרכזי.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["The unexpected decision to close the local library","surprised many residents"],"phase":"כיתה ומורה"},{"section":"NOUN","title":"Module E · Sentence Detective","titleHe":"השם האחרון עלול להטעות","markup":"The~d|number~n|of students taking part in the project~p|has increased.~v","prompt":"","promptHe":"מה עלה לפי המשפט?","choices":["מקום הפרויקט","הכיתות בבית הספר","מספר התלמידים שמשתתפים"],"correct":2,"why":"number הוא הדבר שעליו מדברים. of students... מוסיף איזה מספר. has increased מתאים ל־number, לא ל־students.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["The number of students taking part in the project","has increased"],"phase":"מלכודת of"},{"section":"NOUN","title":"Module E · Sentence Detective","titleHe":"ארבעה תיאורים, דבר מרכזי אחד","markup":"Several~d|small independent~a|bookshops~n|in the city center~p|have survived~v|despite online competition.~o","prompt":"","promptHe":"מי שרדו למרות התחרות?","choices":["bookshops","city","competition"],"correct":0,"why":"bookshops הוא הדבר המרכזי. in the city center רק אומר איפה; have survived הוא הפועל המלא.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["Several small independent bookshops in the city center","have survived","despite online competition"],"phase":"תלמידים בזוגות"},{"section":"NOUN","title":"Module E · Sentence Detective","titleHe":"השיפור הוא הדבר החשוב","markup":"The~d|gradual~a|improvement~n|in students' reading skills~p|has encouraged~v|teachers.~o","prompt":"","promptHe":"מה עודד את המורים?","choices":["הכישלון במבחן","השיפור בכישורי הקריאה של התלמידים","שינוי מזג האוויר"],"correct":1,"why":"improvement הוא הדבר שעודד. התוספת in students' reading skills רק מסבירה באיזה תחום.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["The gradual improvement in students' reading skills","has encouraged teachers"],"phase":"תרגול עצמאי"},{"section":"NOUN","title":"Module E · Sentence Detective","titleHe":"מזהים את קבוצת המילים","markup":"Those~d|carefully designed online~a|lessons~n|are available~v|to students worldwide.~p","prompt":"","promptHe":"מה זמין לתלמידים ברחבי העולם?","choices":["הרשת העולמית עצמה","המורים שהכינו אותם","השיעורים המקוונים"],"correct":2,"why":"הדבר עצמו הוא lessons. המילים שלפניה מתארות אילו שיעורים, ו־are available מציין את מצבם.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["Those carefully designed online lessons","are available to students worldwide"],"phase":"העברה"},{"section":"SKELETON","title":"Module E · Sentence Detective","titleHe":"הפועל הראשון אינו תמיד המרכזי","markup":"The~d|volunteers~n|who live near the school~p|have organized~v|a~d|weekend workshop.~o","prompt":"","promptHe":"מה עשו המתנדבים במשפט הראשי?","choices":["ארגנו סדנה בסוף השבוע","גרו ליד בית הספר","סגרו את בית הספר"],"correct":0,"why":"who live... הוא תיאור של המתנדבים; have organized היא הפעולה המרכזית.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["The volunteers who live near the school","have organized a weekend workshop"],"phase":"מלכודת who"},{"section":"SKELETON","title":"Module E · Sentence Detective","titleHe":"מידע נוסף מכיל פועל משלו","markup":"The~d|students~n|who were invited to the workshop~p|received~v|useful advice.~o","prompt":"","promptHe":"מה עשו התלמידים במשפט המרכזי?","choices":["הזמינו את הסדנה","קיבלו עצות שימושיות","ייעצו למדריכים"],"correct":1,"why":"who were invited מתאר מי התלמידים. received היא הפעולה העיקרית.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["The students who were invited to the workshop","received useful advice"],"phase":"פועל בתוך תיאור"},{"section":"SKELETON","title":"Module E · Sentence Detective","titleHe":"שלוש מילים יוצרות פעולה אחת","markup":"The~d|local app~n|that many teenagers use~p|has been updated.~v","prompt":"","promptHe":"מה קרה לאפליקציה?","choices":["היא נמחקה","היא הוזמנה בדואר","היא עודכנה"],"correct":2,"why":"has been updated הוא מכלול הפעולה. that many teenagers use רק מתאר איזו אפליקציה.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["The local app that many teenagers use","has been updated"],"phase":"פועל סביל"},{"section":"SKELETON","title":"Module E · Sentence Detective","titleHe":"טענה אינה עובדה","markup":"The~d|claim~n|that online classes always save time~p|is not supported~v|by the report.~o","prompt":"","promptHe":"מה טוען הדוח לגבי הטענה?","choices":["הוא אינו תומך בטענה","הוא מוכיח שהיא תמיד נכונה","הוא סופר את כל השיעורים"],"correct":0,"why":"claim הוא הדבר עליו מדברים; is not supported כולל שלילה. אין להפוך טענה להוכחה.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["The claim that online classes always save time","is not supported","by the report"],"phase":"טענה וראיה"},{"section":"SKELETON","title":"Module E · Sentence Detective","titleHe":"מידע על זמן לפני הפעולה","markup":"After~c|reviewing the feedback,~u|the teachers~n|changed~v|the schedule.~o","prompt":"","promptHe":"מה עשו המורים לאחר בדיקת המשוב?","choices":["ביטלו את הבדיקה","שינו את מערכת השעות","הזמינו ספרי לימוד"],"correct":1,"why":"After reviewing מסביר מתי, changed הוא הפועל המרכזי.","gloss":[],"logic":["time","Reviewing the feedback","Teachers changed the schedule"],"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["After reviewing the feedback","the teachers changed the schedule"],"phase":"שני חלקי משפט"},{"section":"SKELETON","title":"Module E · Sentence Detective","titleHe":"לא לבלבל בין השוואה לבין פעולה ראשית","markup":"Students~n|who carefully compare sources~p|often notice~v|misleading headlines.~o","prompt":"","promptHe":"מה עשויים לזהות תלמידים שמשווים מקורות?","choices":["סיכומים זהים","מורים חדשים","כותרות מטעות"],"correct":2,"why":"who carefully compare sources מוסיף מי התלמידים; notice הוא הפועל המרכזי.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["Students who carefully compare sources","often notice misleading headlines"],"phase":"מי עושה מה"},{"section":"SKELETON","title":"Module E · Sentence Detective","titleHe":"המילה May משנה את רמת הוודאות","markup":"The~d|new policy~n|may reduce~v|waste,~o|but~c|its long-term effects~q|are unclear.~u","prompt":"","promptHe":"מה אי אפשר להסיק בביטחון?","choices":["שהמדיניות כבר הפחיתה פסולת בפועל","שהמדיניות אולי תפחית פסולת","שהתוצאות לטווח ארוך אינן ידועות"],"correct":0,"why":"may מציינת אפשרות, לא עובדה. גם ההמשך מדגיש שההשפעות ארוכות הטווח אינן ברורות.","gloss":[],"logic":["contrast","Policy may reduce waste","Long-term effects are unclear"],"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["The new policy may reduce waste","but its long-term effects are unclear"],"phase":"טענה מול ודאות"},{"section":"LOGIC","title":"Module E · Sentence Detective","titleHe":"Although — תוצאה בניגוד לציפייה","markup":"Although~c|the service~q|was free,~u|only a few residents~n|used~v|it.~o","prompt":"","promptHe":"מה מפתיע במשפט?","choices":["התושבים שילמו מחיר גבוה","מעט אנשים השתמשו בשירות שהיה בחינם","השירות נסגר לפני שנפתח"],"correct":1,"why":"Although מציגה מצב שמעלה ציפייה, והתוצאה הפוכה לציפייה: מעט משתמשים למרות שהשירות חינם.","gloss":[],"logic":["contrast","Service was free","Few residents used it"],"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["Although the service was free","only a few residents used it"],"phase":"ניגוד"},{"section":"LOGIC","title":"Module E · Sentence Detective","titleHe":"Because יכול להופיע גם בסוף","markup":"The library~n|offered~v|more evening classes~o|because~c|surveys~q|showed growing demand.~u","prompt":"","promptHe":"למה הספרייה הוסיפה שיעורי ערב?","choices":["היה פחות מקום בחדרים","המורים עזבו את בית הספר","סקרים הראו ביקוש גדל"],"correct":2,"why":"Because מציגה סיבה גם באמצע המשפט. offered היא פעולה מרכזית, showed מסביר את הסיבה.","gloss":[],"logic":["reason","Surveys showed demand","Library offered evening classes"],"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["The library offered more evening classes","because surveys showed growing demand"],"phase":"סיבה"},{"section":"LOGIC","title":"Module E · Sentence Detective","titleHe":"Since — מאז או בגלל?","markup":"Since~c|the city introduced bike lanes,~u|more residents~n|have started cycling.~v","prompt":"","promptHe":"מה אפשר לקבוע מהמשפט בוודאות?","choices":["מאז שהוקמו השבילים יותר אנשים החלו לרכוב","השבילים הם הסיבה היחידה לעלייה","כולם בעיר התחילו לרכוב"],"correct":0,"why":"Since יכולה לציין זמן וגם סיבה. כאן אין ראיה שהשבילים הם הסיבה היחידה, ולכן מסיקים קודם קשר של זמן.","gloss":[],"logic":["time","Bike lanes introduced","More residents cycling"],"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["Since the city introduced bike lanes","more residents have started cycling"],"phase":"קשר דו־משמעי"},{"section":"LOGIC","title":"Module E · Sentence Detective","titleHe":"However — הצלחה עם מגבלה","markup":"The program~n|was successful,~u|however,~c|it~q|remained too expensive to expand.~v","prompt":"","promptHe":"מה הייתה הבעיה למרות ההצלחה?","choices":["התוכנית מעולם לא הצליחה","הרחבת התוכנית הייתה יקרה מדי","המשתתפים לא הגיעו"],"correct":1,"why":"However מציינת ניגוד: הצלחה מצד אחד, עלות גבוהה מדי להרחבה מצד שני.","gloss":[],"logic":["contrast","Program succeeded","Expansion was expensive"],"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["The program was successful","however, it remained too expensive to expand"],"phase":"ניגוד"},{"section":"LOGIC","title":"Module E · Sentence Detective","titleHe":"Unless — תנאי שלילי","markup":"Unless~c|additional volunteers~q|join,~u|the center~n|will cancel~v|the weekend sessions.~o","prompt":"","promptHe":"מה יכול למנוע את ביטול המפגשים?","choices":["סגירת המרכז","ביטול כל ימי שישי","הצטרפות מתנדבים נוספים"],"correct":2,"why":"Unless פירושה בקירוב 'אם לא'. אם לא יגיעו מתנדבים נוספים המפגשים יבוטלו.","gloss":[],"logic":["condition","More volunteers join","Sessions continue"],"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["Unless additional volunteers join","the center will cancel the weekend sessions"],"phase":"תנאי"},{"section":"LOGIC","title":"Module E · Sentence Detective","titleHe":"As a result — מה התוצאה?","markup":"As a result of~c|fewer cars on the road,~u|air pollution~n|decreased.~v","prompt":"","promptHe":"מה קרה בעקבות הירידה במספר המכוניות?","choices":["זיהום האוויר ירד","הכבישים התארכו","נבנו מכוניות רבות יותר"],"correct":0,"why":"As a result of מציגה גורם ומובילה לתוצאה. במקרה הזה פחות מכוניות מתקשרות לירידה בזיהום.","gloss":[],"logic":["result","Fewer cars","Less pollution"],"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["As a result of fewer cars on the road","air pollution decreased"],"phase":"תוצאה"},{"section":"LOGIC","title":"Module E · Sentence Detective","titleHe":"While — שתי העדפות שונות","markup":"While~c|some students~q|preferred paper books,~u|others~n|enjoyed~v|digital editions.~o","prompt":"","promptHe":"מה משמעות While במשפט הזה?","choices":["שעה מדויקת","ניגוד בין העדפות","סיבה אחת לשתי העדפות"],"correct":1,"why":"While יכולה לסמן זמן או ניגוד. כאן ההקשר מראה השוואה בין קבוצות בעלות העדפות שונות.","gloss":[],"logic":["contrast","Some prefer paper books","Others enjoy digital books"],"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["While some students preferred paper books","others enjoyed digital editions"],"phase":"פירוש לפי הקשר"},{"section":"MIX","title":"Module E · Sentence Detective","titleHe":"מספר תלמידים, ולא התלמידים עצמם","markup":"The~d|growing~a|number~n|of students who choose cycling~p|has encouraged~v|the school to build a bike shelter.~o","prompt":"","promptHe":"מה עודד את בית הספר לבנות מחסה לאופניים?","choices":["ירידה במספר התלמידים","איסור רכיבה בבית הספר","עלייה במספר התלמידים הרוכבים"],"correct":2,"why":"number הוא הרעיון המרכזי; who choose... מפרט באילו תלמידים מדובר. has encouraged הוא הפועל המרכזי.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["The growing number of students who choose cycling","has encouraged the school","to build a bike shelter"],"phase":"שילוב"},{"section":"MIX","title":"Module E · Sentence Detective","titleHe":"חוקרים זהירים למרות תוצאה מבטיחה","markup":"Although~c|the initial survey results~q|seemed promising,~u|the researchers~n|who reviewed the data~p|remained cautious.~v","prompt":"","promptHe":"מה הייתה עמדת החוקרים?","choices":["הם נשארו זהירים","הם הוכיחו הצלחה מוחלטת","הם הפסיקו מיד את המחקר"],"correct":0,"why":"Although מציגה ניגוד לציפייה. who reviewed... רק מזהה את החוקרים; remained cautious מציין את עמדתם.","gloss":[],"logic":["contrast","Results looked promising","Researchers remained cautious"],"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["Although the initial survey results seemed promising","the researchers who reviewed the data","remained cautious"],"phase":"שילוב"},{"section":"MIX","title":"Module E · Sentence Detective","titleHe":"סביל וקשר סיבתי חלקי","markup":"The~d|reduction~n|in food waste reported last year~p|was partly caused~v|by a new lunch program.~o","prompt":"","promptHe":"מה תרם בחלקו להפחתת בזבוז המזון?","choices":["הפסקת מכירת מזון","תוכנית ארוחות חדשה","שינוי מזג האוויר"],"correct":1,"why":"was partly caused פירושו שנמצא גורם חלקי, לא בהכרח בלעדי. by a new lunch program מציג אותו.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["The reduction in food waste reported last year","was partly caused","by a new lunch program"],"phase":"סביל"},{"section":"MIX","title":"Module E · Sentence Detective","titleHe":"Led to — גורם ותוצאה בלי Because","markup":"The~d|unexpected popularity~n|of the online course~p|led~v|the college to add a second group.~o","prompt":"","promptHe":"מה הייתה התוצאה של הפופולריות?","choices":["המכללה סגרה את הקורס","כל הסטודנטים קיבלו מחשבים","המכללה פתחה קבוצה נוספת"],"correct":2,"why":"led ... to מציין מה גרם לתוצאה. popularity היא המילה המרכזית בחלק הראשון.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["The unexpected popularity of the online course","led the college","to add a second group"],"phase":"קשר דרך פועל"},{"section":"MIX","title":"Module E · Sentence Detective","titleHe":"If וגם May — תנאי ואפשרות","markup":"If~c|a new app~q|can provide reliable information,~u|more students~n|may use~v|it instead of printed guides.~o","prompt":"","promptHe":"מהי המסקנה המדויקת?","choices":["אם האפליקציה תהיה אמינה, ייתכן שיותר תלמידים ישתמשו בה","כל התלמידים כבר עברו לאפליקציה","האפליקציה תמיד מדויקת"],"correct":0,"why":"If מבטא תנאי. can מבטא יכולת; may מבטא אפשרות. אין להסיק שבטוח יהיה שינוי.","gloss":[],"logic":["condition","App is reliable","More students may use it"],"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["If a new app can provide reliable information","more students may use it","instead of printed guides"],"phase":"תנאי וודאות"},{"section":"READING","title":"Module E · Practice","titleHe":"תרגול טקסט: Borrow, Don't Buy","markup":"","prompt":"","promptHe":"קראו את המאמר המקורי ופתרו שבע שאלות הבנה. לחצו על ״קטע הקריאה״ כדי להציגו.","choices":null,"correct":null,"why":"זו יחידת תרגול ולא מבחן E מלא. בבגרות הבנת הנקרא שווה 70 נקודות ואוצר המילים 30; הבחינה ללא מילון, והתשובות נכתבות באנגלית.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":[],"phase":"העברה להבנת הנקרא"},{"section":"READING","title":"Module E · Practice","titleHe":"פסקה I — מדוע נפתח השירות?","markup":"The~d|community center~n|introduced~v|the service~o|after~c|a local survey~q|showed demand for repairs.~u","prompt":"","promptHe":"מה הייתה הסיבה לפתיחת השירות?","choices":["סגירת כל החנויות בעיר","סקר שהראה ביקוש לתיקון חפצים","רצון של התושבים לקנות מכונות יקרות"],"correct":1,"why":"המרכז פתח ספרייה להשאלת ציוד לאחר שסקר הראה שרבים רצו לתקן חפצים במקום להחליפם.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["The center introduced the service","after a local survey showed demand for repairs"],"phase":"ראיה מפסקה I"},{"section":"READING","title":"Module E · Practice","titleHe":"פסקה II — למה לא ציפו?","markup":"The~d|most popular items~n|were not~v|the expensive machines~o|that the organizers expected.~p","prompt":"","promptHe":"מה הפתיע את המארגנים?","choices":["הביקוש העצום למכונות יקרות","היעדר השאלות בסופי שבוע","הביקוש הגדול דווקא לכלים פשוטים"],"correct":2,"why":"הטקסט מציין שהפריטים הפופולריים לא היו המכונות היקרות שציפו להן, אלא כלים פשוטים לתיקון.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["The most popular items","were not the expensive machines","that the organizers expected"],"phase":"ניגוד ציפייה"},{"section":"READING","title":"Module E · Practice","titleHe":"פסקה II — למי מתייחסת They?","markup":"The~d|volunteers~n|checked~v|each item~o|before lending it.~p|They~q|also offered~v|short demonstrations.~o","prompt":"","promptHe":"מי הציע הדגמות קצרות?","choices":["המתנדבים","המכשירים","התושבים שגרו בעיר אחרת"],"correct":0,"why":"They מתייחסת ל־volunteers במשפט שקדם לה. חזרו למשפט הקודם כדי לגלות למי היא מתייחסת.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["The volunteers checked each item","before lending it","They also offered demonstrations"],"phase":"זיהוי אזכור"},{"section":"READING","title":"Module E · Practice","titleHe":"פסקה II — מאין בא הביטחון?","markup":"The~d|volunteers~n|offered~v|short demonstrations.~o|As a result,~c|new users~q|felt more confident.~u","prompt":"","promptHe":"מה עזר למשתמשים להרגיש בטוחים יותר?","choices":["ביטול כל נהלי הבטיחות","בדיקת הכלים והדגמה קצרה","מכירת הכלים במבצע"],"correct":1,"why":"בדיקת כל פריט והדגמות קצרות עזרו למשתמשים חדשים. As a result מחברת את ההסברים לתחושת הביטחון.","gloss":[],"logic":["result","Demonstrations","Confidence"],"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["Volunteers checked items and offered demonstrations","As a result","new users felt more confident"],"phase":"סיבה ותוצאה"},{"section":"READING","title":"Module E · Practice","titleHe":"פסקה III — מה הסקר אינו מוכיח?","markup":"The~d|survey~n|recorded~v|members' reports,~o|but~c|it~q|did not prove how much waste was saved.~u","prompt":"","promptHe":"מה אי אפשר לדעת בוודאות מהסקר?","choices":["ש־78 חברים דיווחו שנמנעו מקנייה","שבסקר השתתפו 120 חברים","כמה פסולת בדיוק נחסכה"],"correct":2,"why":"הסקר מתעד דיווחים אישיים של חברים, אך אינו מוכיח את כמות הפסולת שנחסכה. זה הבדל בין תיאור לבין מדידה.","gloss":[],"logic":["contrast","Self reports","Waste not measured"],"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["The survey recorded members' reports","but it did not prove","how much waste was saved"],"phase":"טענה וראיות"},{"section":"READING","title":"Module E · Practice","titleHe":"פסקה IV — מה עדיין קושי?","markup":"Although~c|the reservation system~q|reduced confusion,~u|popular equipment~n|was sometimes unavailable.~v","prompt":"","promptHe":"מה עדיין לא נפתר לגמרי?","choices":["חוסר זמינות של ציוד מבוקש","אי־אפשר היה להזמין ציוד מראש","לא הייתה דרך לדווח על נזק"],"correct":0,"why":"מערכת ההזמנות צמצמה בלבול, אבל ציוד מבוקש עדיין לא תמיד זמין.","gloss":[],"logic":["contrast","Less confusion","Equipment unavailable"],"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["Although the reservation system reduced confusion","popular equipment was sometimes unavailable"],"phase":"הסתייגות"},{"section":"READING","title":"Module E · Practice","titleHe":"פסקה V — המסר המרכזי","markup":"The~d|director~n|believes~v|that stronger relationships between neighbors~o|are more important than the number of tools borrowed.~p","prompt":"","promptHe":"מה המנהל רואה כהישג החשוב ביותר?","choices":["מספר הכלים הכולל שהושאל","קשרים טובים יותר ושיתוף ידע בין שכנים","הקמת חנויות חדשות למכירת ציוד"],"correct":1,"why":"לדברי המנהל, הישג מרכזי הוא חיזוק הקשרים בין שכנים, ולא מספר הכלים שהושאלו.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":["The director believes","that stronger relationships between neighbors","matter more than number of tools"],"phase":"רעיון מרכזי"},{"section":"FINISH","title":"Module E · Sentence Detective","titleHe":"עכשיו פותרים את שאלון E","markup":"","prompt":"","promptHe":"אתם כבר יודעים לפרק משפט, לזהות ראיה והסתייגות, ולנסח תשובת הבנה.","choices":null,"correct":null,"why":"רק זיהוי מבנה אינו מספיק: צריך להמשיך לתרגל טקסטים מלאים, שאלות במתכונת E ואוצר מילים מן הרשימות הרשמיות.","gloss":[],"logic":null,"coach":"הדגימו תחילה חשיבה בקול, שאלו בעברית, ורק אחרי ניסיון חושפים את הסימונים.","chunks":[],"phase":"סיכום"}];
+const passage=["I. People often buy equipment they use only once or twice. A ladder, an electric drill or a camping tent may be useful for a weekend but expensive to own. In Mapleford, the community center opened a tool library where residents can borrow such equipment for a small annual fee. Members reserve items online and collect them on Saturdays. The center introduced the service after a local survey showed that many residents wanted to repair household objects instead of replacing them.","II. The center's most popular items were not the expensive machines that the organizers had expected. Instead, families frequently borrowed simple tools for fixing bicycles and shelves. At first, some residents were worried about equipment that other people had used. The volunteers checked each item before lending it. They also offered short demonstrations. As a result, many first-time users felt more confident.","III. The project may have environmental benefits. When people borrow an item rather than buy a new one, fewer products may need to be manufactured. However, the organizers have not measured the project's effect on waste or pollution. In a survey of 120 members, 78 said they had avoided buying at least one item. These answers describe what members reported; they do not prove how much waste the town has saved.","IV. The tool library faces practical difficulties as well. Some items are returned late, and popular equipment is often unavailable during summer holidays. The center recently introduced a reservation calendar and a system for reporting damage. Although these changes have reduced confusion, the volunteers still need to remind members that borrowed equipment must be treated carefully.","V. Next year, the organizers hope to add workshops for students who want to learn basic repair skills. This plan will go ahead only if additional volunteers join the project. The director believes that the most important achievement is not the number of tools borrowed, but the stronger relationships between neighbors who share knowledge and help one another."];
+const $=id=>document.getElementById(id);
+const stageHints={"NOUN":["שלב 1: כל המשפט נצבע. גלו איפה התחלת רכבת המילים, התיאורים והדבר עצמו.","שלב 2: הרכבת מתפרקת מילה אחר מילה, משמאל לימין, עד הדבר המרכזי.","שלב 3: גם הפעולות, האנשים, מילות החיבור ושאר הפרטים מתפרקים משמאל לימין.","שלב 4: מחברים את כל החלקים להבנה פשוטה. עכשיו נבדוק מה פירוש המילים."],"SKELETON":["שלב 1: הצבעים מגלים מי או מה, מה קרה ומה רק מוסיף פרטים.","שלב 2: בונים את רכבות המילים משמאל לימין — פתיחה, תיאור, הדבר עצמו.","שלב 3: מפרקים גם את הפועל, המילים שמחליפות שמות ואת כל ההמשך.","שלב 4: מסתירים בדמיון פרטים מיותרים ומגלים מה המשפט באמת מספר."],"LOGIC":["שלב 1: הצבעים מפרידים בין מילת הקישור לבין מה שבא לפניה ואחריה.","שלב 2: גם בתוך כל חלק מחפשים מהו הדבר ועל מי מדברים.","שלב 3: עוברים משמאל לימין על כל המילים — כולל הפעולה והחיבור.","שלב 4: מחברים את שני הצדדים: מה הסיבה, התוצאה, הניגוד או התנאי?"],"MIX":["שלב 1: צובעים את כל המשפט — דברים, תיאורים, פעולות ומילות קישור.","שלב 2: מזהים מה הדבר בכל רכבת מילים, בסדר הקריאה באנגלית.","שלב 3: עוברים על כל היתר משמאל לימין ומזהים מה התפקיד של כל מילה.","שלב 4: משתמשים בצבעים ובמילת הקישור כדי למצוא את התשובה."],"READING":["שלב 1: צובעים את המשפט שמכיל את הרמז לתשובה.","שלב 2: מגלים את האדם או הדבר בתוך קבוצת המילים באנגלית.","שלב 3: מתקדמים משמאל לימין, כולל הפעולה ומילת הקישור.","שלב 4: חוזרים לקטע ובודקים שהתשובה באמת נתמכת בטקסט."],"FINISH":["שלב 1: כל המשפט נצבע. האם אתם מזהים שני סימני דרך?","שלב 2: רכבות המילים נבנות משמאל לימין.","שלב 3: הפעולות וכל החיבורים נחשפים באותו סדר.","שלב 4: מסבירים בעברית את ההיגיון — בלי לתרגם כל מילה."]};
+const state={index:0,stage:0,selected:{},teacher:false};
+const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+const heTxt=s=>String(s??"").split(/([A-Za-z][A-Za-z0-9\u0027-]*(?:[ \t]+[A-Za-z0-9\u0027-]+)*)/g).map(part=>/^[A-Za-z]/.test(part)?'<bdi dir="ltr" lang="en">'+esc(part)+"</bdi>":esc(part)).join("");
+
+/* Every word is a visible stop along the English reading path, left to right.
+ * The role labels describe what the word DOES, not formal linguistic terms. */
+const openingWords=new Set(["the","a","an","many","some","several","more","each","every","its","their","our","another","this","these","those","my"]);
+const helperWords=new Set(["has","have","had","is","are","was","were","will","would","can","could","cannot","did","does","do"]);
+const pronounWords=new Set(["we","you","it","they","them","us","he","she","him","her","who","which"]);
+const linkingWords=new Set(["because","so","but","although","however","if","unless","when","before","after","while","therefore","result"]);
+const prepositionWords=new Set(["of","from","near","at","in","on","for","to","into","with","without","between","under","over","during"]);
+const verbWords=new Set(["use","live","teach","save","create","help","join","register","buy","clean","cleaned","work","worked","entered","enter","explain","explained","organize","organized","repair","attracts","complete","completed","continue","continued","offers","offer","ended","end","missed","need","needed","visit","visited","open","opened","add","added","improves","improve","was","were","borrowed","helped","increased","disappointed","launched","updated","met","joined","finished","glows"]);
+const roleLabel={start:"מילת פתיחה / כמה",desc:"מוסיף תיאור",thing:"מי או מה",action:"מה קורה",helper:"עוזר לפעולה",connect:"מה מחבר",person:"במקום שם",sideAction:"פעולה בתוך פרט",extra:"פרט נוסף",receiver:"על מי / מה",state:"איזה מצב",other:"עוד פרט"};
+function baseWord(word){return word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g,"");}
+function wordRole(word,role,index,total){
+ const clean=baseWord(word);
+ if(role==="c")return "connect";
+ if(linkingWords.has(clean)&&role!=="n")return "connect";
+ if(pronounWords.has(clean))return "person";
+ if(openingWords.has(clean))return "start";
+ if(role==="v")return helperWords.has(clean)?"helper":"action";
+ if(role==="a")return "desc";
+ if(role==="d")return "start";
+ if(role==="n")return index===total-1?"thing":"desc";
+ if(role==="p"){
+  // Relative clauses may contain verbs, but they are not automatically the MAIN verb.
+  if(verbWords.has(clean)||helperWords.has(clean))return "sideAction";
+  if(prepositionWords.has(clean))return "extra";
+  if(index===total-1)return "thing";
+  return "extra";
+ }
+ if(role==="q"){
+   if(helperWords.has(clean)||verbWords.has(clean))return "action";
+   return index===total-1?"thing":"desc";
+ }
+ if(role==="u")return helperWords.has(clean)||verbWords.has(clean)?"action":"state";
+ if(role==="o"){
+   if(prepositionWords.has(clean))return "extra";
+   if(verbWords.has(clean))return "action";
+   if(index===total-1)return "receiver";
+   return "desc";
+ }
+ if(role==="x")return "state";
+ if(prepositionWords.has(clean))return "extra";
+ if(helperWords.has(clean)||verbWords.has(clean))return "action";
+ return "other";
+}
+function splitSentence(markup){
+ let seq=0;
+ const segments=markup.split("|").filter(Boolean).map((raw,segIndex)=>{
+  const p=raw.lastIndexOf("~"),body=p<0?raw:raw.slice(0,p),role=p<0?"x":raw.slice(p+1);
+  const words=body.trim().split(/\s+/).filter(Boolean).map((word,j,arr)=>({word,role,kind:wordRole(word,role,j,arr.length),seq:seq++,segIndex}));
+  return {role,words,segIndex};
+ });
+ return {segments,parts:segments.flatMap(x=>x.words)};
+}
+function tokens(markup){
+ const {parts}=splitSentence(markup);
+ return parts.map((w,i)=>'<span class="w '+esc(w.role)+' part-'+w.kind+'" lang="en" dir="ltr" data-part-index="'+i+'" style="--seq:'+i+'">'+esc(w.word)+'</span>').join("");
+}
+function pieceHtml(w){
+ return '<button type="button" class="wordPiece part-'+w.kind+'" data-word-index="'+w.seq+'" title="'+esc(roleLabel[w.kind])+'" style="--seq:'+w.seq+'"><strong lang="en" dir="ltr">'+esc(w.word)+'</strong><small dir="rtl" lang="he">'+esc(roleLabel[w.kind])+'</small></button>';
+}
+function trainGroups(segments){
+ const groups=[];
+ for(let i=0;i<segments.length;i++){
+  const seg=segments[i];
+  if(seg.role==="q"&&/^(the|a|an|many|more|some|several)\s/i.test(seg.words.map(w=>w.word).join(" "))){
+   groups.push({parts:seg.words,extra:false});continue;
+  }
+  if(!["d","a","n"].includes(seg.role))continue;
+  const from=i,group=[];
+  let j=i,finished=false;
+  while(j<segments.length&&j<from+4){
+   const piece=segments[j];
+   if(!["d","a","n","o"].includes(piece.role))break;
+   group.push(...piece.words);
+   if(piece.role==="n"||piece.role==="o"){finished=true;j++;break;}
+   j++;
+  }
+  if(finished){groups.push({parts:group,extra:false});i=j-1;}
+ }
+ return groups.slice(0,4);
+}
+function nounTrains(markup){
+ const parsed=splitSentence(markup),groups=trainGroups(parsed.segments);
+ if(!groups.length)return '<div class="explainTrack heb">במשפט הזה אין רכבת תיאורים ארוכה; המילים שחשובות לפתרון יופיעו בשלב הבא.</div>';
+ return '<section class="decodePanel" data-step="train"><h3 dir="rtl" lang="he">רכבת המילים: מתקדמים משמאל לימין <bdi dir="ltr">→</bdi></h3><p dir="rtl" class="decodeHelp">כל כרטיס מצטרף לרכבת, עד שמגיעים לאדם או לדבר שעליו מדברים. לחצו על כרטיס כדי לראות אותו במשפט.</p>'+
+ groups.map((g,gIndex)=>'<div class="trainRow"><div dir="rtl" class="trainLabel">רכבת '+(gIndex+1)+': מתחילים בצד שמאל</div><div class="wordRail" dir="ltr">'+g.parts.map((w,j)=>pieceHtml(w)+(j<g.parts.length-1?'<span class="railArrow" aria-hidden="true">→</span>':'')).join("")+'</div></div>').join("")+'</section>';
+}
+function allPartsTrack(markup){
+ const parsed=splitSentence(markup);
+ return '<section class="decodePanel" data-step="all"><h3 dir="rtl" lang="he">כל חלקי המשפט: הולכים באותו כיוון <bdi dir="ltr">→</bdi></h3><p class="decodeHelp" dir="rtl">גם פעלים, מילים שמחליפות שמות, מילות קישור ופרטים נוספים — הכול מתפרק לפי סדר הקריאה באנגלית.</p><div class="wordRail fullRail" dir="ltr">'+parsed.parts.map((w,i)=>pieceHtml(w)+(i<parsed.parts.length-1?'<span class="railArrow" aria-hidden="true">→</span>':'')).join("")+'</div></section>';
+}
+function bindWordFocus(page){
+ page.querySelectorAll("button[data-word-index]").forEach(button=>button.addEventListener("click",()=>{
+  const id=button.getAttribute("data-word-index");
+  page.querySelectorAll(".wordFocus").forEach(node=>node.classList.remove("wordFocus"));
+  page.querySelectorAll('[data-word-index="'+id+'"],[data-part-index="'+id+'"]').forEach(node=>node.classList.add("wordFocus"));
+ }));
+}
+function getStageHint(slide){return (stageHints[slide.section]||stageHints.NOUN)[Math.max(0,Math.min(3,state.stage-1))];}
+function diagram(info){if(!info||state.stage<3)return "";const t=info[0],label={reason:["הסיבה","מה קרה בעקבותיה"],result:["הגורם","התוצאה"],contrast:["מה היה צפוי","מה קרה בפועל"],condition:["התנאי","מה יקרה אם יתקיים"],time:["רמז לזמן","האירוע"],sequence:["קודם","אחר כך"],example:["הרעיון הכללי","דוגמאות"]}[t]||["חלק ראשון","חלק שני"];const symbol=t==="contrast"?"⇄":"➜";return '<div class="diagram '+t+'"><div class="cell"><strong>'+label[0]+'</strong><span class="segmentEnglish" lang="en" dir="ltr">'+esc(info[1])+'</span></div><div class="arrow">'+symbol+'</div><div class="cell"><strong>'+label[1]+'</strong><span class="segmentEnglish" lang="en" dir="ltr">'+esc(info[2])+'</span></div></div>';}
+function legend(){return '<div class="legend" dir="rtl"><span class="legendItem"><i class="dot" style="background:#596b7c"></i>מילת פתיחה</span><span class="legendItem"><i class="dot" style="background:var(--a)"></i>תיאורים</span><span class="legendItem"><i class="dot" style="background:var(--n)"></i>מי / מה</span><span class="legendItem"><i class="dot" style="background:var(--v)"></i>מה קרה</span><span class="legendItem"><i class="dot" style="background:#7057cc"></i>על מי / מה</span><span class="legendItem"><i class="dot" style="background:var(--c)"></i>מילת קישור</span><span class="legendItem"><i class="dot" style="background:#a64b83"></i>פעולה בתוך תיאור</span><span class="legendItem"><i class="dot" style="background:#995fe0"></i>מילה במקום שם</span><span class="legendItem"><i class="dot" style="background:var(--p)"></i>מידע נוסף</span></div>';}
+function intro(s){return '<div class="page cover"><div class="kicker">'+(s.section==="START"?"שאלון E · חמש יחידות":s.section==="READING"?"קריאה מתקדמת · Module E":s.section==="FINISH"?"סיום ואתגר":"מתקדמים למילות קישור")+'</div><h1 class="heTitle" dir="rtl" lang="he">'+heTxt(s.titleHe)+'</h1><div class="titleEn" lang="en" dir="ltr">'+esc(s.title)+'</div><div class="hero">'+(s.section==="START"?'<span class="punch">מי או מה?</span> מה קורה?<br><span class="punch">ומה אפשר להסיק בוודאות?</span>':s.section==="READING"?'<span class="punch">BORROW, DON’T BUY?</span><br>פתחו את קטע הקריאה ופתרו שבע שאלות.':s.section==="FINISH"?'<span class="punch">אתם מזהים את המבנה!</span><br>עכשיו אתם יכולים למצוא את התשובה.':'<span lang="en" dir="ltr" class="punch">BECAUSE</span> — סיבה · <span lang="en" dir="ltr" class="punch">SO</span> — תוצאה<br><span lang="en" dir="ltr" class="punch">BUT</span> — ניגוד · <span lang="en" dir="ltr" class="punch">IF</span> — תנאי')+'</div><div class="subtitle" lang="he" dir="rtl">'+heTxt(s.promptHe)+'</div><div class="swipeIntro" dir="rtl" lang="he">בנייד: החלקה ↑ לשקף הבא · החלקה ↓ לשקף הקודם. בשקף ארוך אפשר לגלול כרגיל.</div>'+legend()+'<div class="teacher '+(state.teacher?'on':'')+' heb">'+heTxt(s.coach)+'<div><a class="teacherLink" href="teacher-guide.html" target="_blank" rel="noopener">📗 מדריך מחקרי למורה — שיטות, דוגמאות והסתייגויות</a></div></div></div>';}
+function questionHtml(s){
+ if(!s.choices)return "";
+ const selected=state.selected[state.index];
+ const feedback=selected===undefined?"":selected===s.correct?
+   '<div class="feedback good" lang="he" dir="rtl" role="status">✓ הצלחתם! עכשיו נראה איך הגיעו לתשובה, צעד אחר צעד.</div>':
+   '<div class="feedback bad" lang="he" dir="rtl" role="status">נסו שוב. חפשו רמז במשפט: מי, מה קרה, או מילת קישור.</div>';
+ return '<div class="choices" dir="rtl" role="group" aria-label="בחרו תשובה בעברית">'+s.choices.map((choice,i)=>{
+  const isHeb=/[א-ת]/.test(choice),lang=isHeb?"he":"en",direction=isHeb?"rtl":"ltr";
+  return '<button type="button" lang="'+lang+'" dir="'+direction+'" class="choice '+(selected===i?(i===s.correct?"correct":"wrong"):"")+'" data-choice="'+i+'"><b>'+String.fromCharCode(65+i)+'.</b>'+heTxt(choice)+'</button>';
+ }).join("")+'</div>'+feedback;
+}
+function researchChunkView(s){
+ if(!s.chunks||state.stage<3)return "";
+ return '<section class="chunkPanel" aria-label="Reading in meaningful groups"><h3 dir="rtl" lang="he">עכשיו קוראים בקבוצות משמעות — לא מילה־מילה</h3><p dir="rtl" lang="he">הכרטיסים הבודדים עזרו לגלות את המבנה. כעת מחברים אותם ליחידות שאפשר לקרוא ולהבין ברצף.</p><div class="chunkRail" dir="ltr" lang="en">'+s.chunks.map((chunk,i)=>'<span class="chunk" style="--chunk:'+i+'">'+esc(chunk)+'</span>').join('<span class="chunkLink">→</span>')+'</div></section>';
+}
+function meaningHtml(s){if(state.stage<4)return "";let gloss=(s.gloss||[]).map(x=>'<span><bdi lang="en" dir="ltr"><b>'+esc(x[0])+'</b></bdi> = <span lang="he" dir="rtl">'+esc(x[1])+'</span></span>').join(' &nbsp; · &nbsp; ');return '<div class="details" lang="he" dir="rtl"><div class="meaning">'+heTxt(s.why||"")+'</div>'+(gloss?'<div class="gloss heb" lang="he" dir="rtl"><strong>אוצר מילים: </strong>'+gloss+'</div>':'')+'</div>';}
+function render(opts={}){
+ const savedScroll=$("main").scrollTop,s=slides[state.index],isCover=!s.markup,page=$("page");
+ $("pill").textContent=s.section==="NOUN"?"01 · רכבת המילים":s.section==="SKELETON"?"02 · מי עושה מה":s.section==="LOGIC"?"03 · שלטי הדרך":s.section==="MIX"?"04 · הכל מתחבר":s.section==="READING"?"05 · שאלון E":s.section==="FINISH"?"06 · משימת סיכום":"בלשי המשפט";
+ $("counter").textContent=(state.index+1)+" / "+slides.length;
+ $("progress").style.width=((state.index+1)/slides.length*100)+"%";
+ page.className="page stage"+state.stage;
+ if(isCover){
+  page.outerHTML=intro(s).replace('class="page cover"','id="page" class="page cover stage'+state.stage+'"');
+ }else{
+  page.innerHTML=
+   '<div class="kicker" lang="he" dir="rtl">'+esc(s.section==="READING"?"תרגול הבנת הנקרא · שאלון E":s.section==="MIX"?"שתי טכניקות יחד":s.section==="FINISH"?"משימת הסיום":"בלשי המשפט · תרגול")+'</div>'+
+   '<h1 class="heTitle" lang="he" dir="rtl">'+heTxt(s.titleHe)+'</h1>'+
+   (s.phase?'<div class="lessonPhase" dir="rtl" lang="he">'+heTxt(s.phase)+'</div>':'')+
+   '<div class="sentenceCard"><div class="scanCue"></div><div class="sentence stage'+state.stage+'" lang="en" dir="ltr">'+tokens(s.markup)+'</div></div>'+
+   '<div class="questionHe" lang="he" dir="rtl">'+heTxt(s.promptHe)+'</div>'+
+   questionHtml(s)+
+   (state.stage>=1?'<div class="hintCard" lang="he" dir="rtl"><span class="hintNumber">'+state.stage+'</span><div class="heb">'+heTxt(getStageHint(s))+'</div></div>'+legend():'')+
+   (state.stage>=2?nounTrains(s.markup):'')+
+   (state.stage>=3?allPartsTrack(s.markup):'')+
+   researchChunkView(s)+diagram(s.logic)+meaningHtml(s)+
+   '<div class="teacher '+(state.teacher?"on":"")+' heb" lang="he" dir="rtl">'+heTxt(s.coach)+'<div><a class="teacherLink" href="teacher-guide.html" target="_blank" rel="noopener">📗 מדריך מחקרי למורה — שיטות, דוגמאות והסתייגויות</a></div></div>';
+  page.querySelectorAll("[data-choice]").forEach(b=>b.addEventListener("click",()=>{
+   if(window.deckRemote&&!window.deckRemote.canNavigate())return;
+   state.selected[state.index]=Number(b.dataset.choice);
+   render({preserveScroll:true,focusFeedback:true});
+  }));
+  bindWordFocus(page);
+ }
+ $("prev").disabled=state.index===0;
+ $("next").disabled=state.index===slides.length-1;
+ $("reset").disabled=state.stage===0&&state.selected[state.index]===undefined;
+ $("reveal").textContent=isCover?(state.index===slides.length-1?"מתחילים מחדש ↺":"מתחילים ←"):
+    state.stage===4?(state.index===slides.length-1?"חזרה להתחלה ↺":"לשקף הבא ←"):
+    state.stage===0?"צובעים את כל המשפט 🎨":state.stage===1?"בונים את רכבת המילים →":state.stage===2?"מפרקים גם את שאר המשפט →":"מגלים את הפתרון ✓";
+ $("reading").hidden=s.section!=="READING";
+ $("main").scrollTop=opts.preserveScroll?savedScroll:0;
+ if(opts.focusFeedback)requestAnimationFrame(()=>{$("page").querySelector(".feedback")?.scrollIntoView({block:"nearest",behavior:"smooth"});});
+ window.deckRemote?.syncUi?.();
+ window.deckRemote?.broadcast?.();
+}
+function go(delta){if(window.deckRemote&&!window.deckRemote.canNavigate())return;let x=state.index+delta;if(x<0||x>=slides.length)return;state.index=x;state.stage=0;render();}
+function clue(){if(window.deckRemote&&!window.deckRemote.canNavigate())return;if(!slides[state.index].markup){if(state.index===slides.length-1){state.index=0;state.stage=0;render();}else{go(1);}return;}if(state.stage<4){state.stage++;render({preserveScroll:true});if(state.stage===2||state.stage===3)requestAnimationFrame(()=>{$("page").querySelector(state.stage===2?"[data-step=train]":"[data-step=all]")?.scrollIntoView({block:"nearest",behavior:"smooth"});});}else if(state.index===slides.length-1){state.index=0;state.stage=0;render();}else{go(1);}}
+
+// Mobile vertical swipe navigation. Let the browser scroll long slides naturally:
+// navigate only if the gesture BEGINS at the relevant scroll boundary.
+const slideScroller=$("main");
+let swipeGesture=null;
+slideScroller.addEventListener("touchstart",event=>{
+  swipeGesture=null;
+  if(event.touches.length!==1||$("reader").open)return;
+  const target=event.target;
+  if(target instanceof Element&&target.closest('button,a,input,select,textarea,dialog,[contenteditable="true"]'))return;
+  const touch=event.touches[0];
+  const maxScroll=Math.max(0,slideScroller.scrollHeight-slideScroller.clientHeight);
+  swipeGesture={
+    x:touch.clientX,y:touch.clientY,started:event.timeStamp,
+    atTop:slideScroller.scrollTop<=10,
+    atBottom:slideScroller.scrollTop>=maxScroll-10
+  };
+},{passive:true});
+slideScroller.addEventListener("touchend",event=>{
+  const gesture=swipeGesture;swipeGesture=null;
+  if(!gesture||event.changedTouches.length!==1||$("reader").open)return;
+  const touch=event.changedTouches[0];
+  const dy=touch.clientY-gesture.y,dx=touch.clientX-gesture.x;
+  if(Math.abs(dy)<75||Math.abs(dy)<Math.abs(dx)*1.3||event.timeStamp-gesture.started>1600)return;
+  const maxScroll=Math.max(0,slideScroller.scrollHeight-slideScroller.clientHeight);
+  // Swipe UP: next slide. Swipe DOWN: previous slide.
+  if(dy<0&&gesture.atBottom&&slideScroller.scrollTop>=maxScroll-12)go(1);
+  else if(dy>0&&gesture.atTop&&slideScroller.scrollTop<=12)go(-1);
+},{passive:true});
+slideScroller.addEventListener("touchcancel",()=>{swipeGesture=null;},{passive:true});
+
+$("prev").addEventListener("click",()=>go(-1));$("next").addEventListener("click",()=>go(1));$("reveal").addEventListener("click",clue);$("reset").addEventListener("click",()=>{state.stage=0;delete state.selected[state.index];render();});$("teacherToggle").addEventListener("click",()=>{state.teacher=!state.teacher;render({preserveScroll:true});});$("full").addEventListener("click",()=>{if(document.fullscreenElement){document.exitFullscreen();}else{document.documentElement.requestFullscreen?.();}});$("reading").addEventListener("click",()=>{$("readerText").innerHTML=passage.map(x=>'<p>'+esc(x)+'</p>').join("");$("reader").showModal();});$("closeReader").addEventListener("click",()=>$("reader").close());
+document.addEventListener("keydown",e=>{if($("reader").open||$("pairDialog").open)return;if(["ArrowRight","PageDown"].includes(e.key)){e.preventDefault();go(1);}else if(["ArrowLeft","PageUp"].includes(e.key)){e.preventDefault();go(-1);}else if(e.key===" "&&!(e.target instanceof HTMLButtonElement)){e.preventDefault();clue();}else if(e.key.toLowerCase()==="r"){state.stage=0;delete state.selected[state.index];render();}else if(e.key.toLowerCase()==="t"){state.teacher=!state.teacher;render({preserveScroll:true});}});
+render();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/peerjs@1.5.5/dist/peerjs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+<script>
+/* Grade 11 deck: independent PeerJS QR remote only.
+ * No writes to the Grade 12 Firebase collections or English for Noar. */
+(() => {
+ const mode=document.getElementById("pairFirebaseMode");
+ if(mode){mode.textContent="שלט QR ללא חשבון";mode.disabled=true;mode.title="שלט PeerJS. לא נדרשת הרשמה.";}
+ const note=document.querySelector(".pairSmall");
+ if(note)note.textContent="סורקים QR בטלפון, מאשרים במחשב, ומשתמשים בסוויפ. אין צורך ליצור חשבון.";
+ const report=document.querySelector('a[href="usage-report.html"]');
+ if(report){report.href="teacher-guide.html";report.textContent="מדריך למורה";}
+ const script=document.createElement("script");
+ script.src="./remote-sync.js";
+ script.onerror=()=>{const badge=document.getElementById("syncBadge");if(badge){badge.textContent="השלט אינו זמין; אפשר להשתמש במצגת ללא שלט.";badge.dataset.tone="error";}};
+ document.body.appendChild(script);
+})();
+</script>
+</body></html>
