@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
     paths:
+      - 'shared/phone-remote/remote.js'
       - 'tools/verify-phone-remote.py'
       - '.github/workflows/teachers-qr-remote-browser-qa.yml'
 permissions:
