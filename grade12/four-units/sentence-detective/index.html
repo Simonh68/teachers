@@ -166,16 +166,18 @@ header .brand{direction:rtl;letter-spacing:0}
 
 <dialog id="pairDialog" class="pairDialog" aria-labelledby="pairTitle" dir="rtl" lang="he">
   <h2 id="pairTitle">📱 מחברים את הטלפון לשקפים</h2>
-  <p>סרקו את קוד ה-QR בטלפון. אותו שקף, הרמזים והתשובות יוצגו בטלפון ובמקרן.</p>
+  <p>סרקו את קוד ה-QR בטלפון, ואז אשרו את החיבור במחשב. מכאן תוכלו לשלוט גם בשקפים וגם בחשיפת הרמזים.</p>
   <div id="pairQr" class="pairQr" aria-label="קוד QR לחיבור הטלפון">יוצר קוד QR…</div>
   <span id="pairStatus" class="pairStatus" role="status" aria-live="polite">מכין חיבור…</span>
   <label for="pairLink" style="display:block;text-align:right;font-size:15px;margin-bottom:7px">או פתחו את הקישור בטלפון:</label>
   <input id="pairLink" class="pairLink" type="text" value="" readonly aria-label="קישור השלט"/>
   <div class="pairActions">
+    <button id="pairApprove" class="pairAction primary" type="button" hidden>✓ אשר חיבור לטלפון</button>
+    <button id="pairReset" class="pairAction" type="button">אפס חיבור</button>
     <button id="pairClose" class="pairAction primary" type="button">התחל מצגת ←</button>
     <button id="pairCopy" class="pairAction" type="button">העתק קישור</button>
   </div>
-  <p class="pairSmall">החיבור זמני ופועל בזמן שהמצגת פתוחה במחשב. אפשר להמשיך גם בלי שלט ולפתוח QR מחדש דרך הכפתור למעלה.</p>
+  <p class="pairSmall">החיבור זמני ופועל כשהמצגת פתוחה במחשב. רק טלפון שאישרתם יוכל לשלוט. אפשר לפתוח QR מחדש או לאפס חיבור דרך הכפתור למעלה.</p>
 </dialog>
 <script>
 "use strict";
