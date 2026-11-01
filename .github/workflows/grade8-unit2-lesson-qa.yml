@@ -1,0 +1,32 @@
+name: Grade 8 Unit 2 full lesson and worksheet live QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/grade8-unit2-lesson-qa.py'
+      - '.github/workflows/grade8-unit2-lesson-qa.yml'
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install browser
+        run: |
+          python -m pip install playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - name: Browser verification
+        run: python tools/grade8-unit2-lesson-qa.py
+      - name: Save view
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: grade8-unit2-lesson-screenshots
+          path: /tmp/grade8-unit2-lesson.png
+          if-no-files-found: ignore
