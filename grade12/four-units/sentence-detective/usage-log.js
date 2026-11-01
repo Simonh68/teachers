@@ -1,15 +1,15 @@
 /**
  * Minimal anonymous presentation-launch log.
- * This counts launches, NOT distinct teachers. Reloads can count again.
+ * This counts presenter-tab launches, NOT distinct teachers. Reloads in the same tab are ignored.
  * Excludes QR phone controllers to avoid double-counting one presentation.
  * Writes only deck ID, event type and a server timestamp; never writes UID,
  * email, name, phone number, IP, or any browser fingerprint.
  *
- * Requires Anonymous Authentication and the narrowly scoped rules described in
- * FIREBASE_RULES_FRAGMENT.txt. Failure never blocks the presentation.
+ * Requires anonymous technical Firebase authorization and the scoped rules at
+ * firebase-backend/firestore.rules. Failure never blocks the presentation.
  */
 import { app, getAnonymousUser } from "../../../shared/firebase-anonymous-auth.js";
-import { getFirestore, collection, doc, setDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
+import { getFirestore, collection, doc, writeBatch, increment, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
 
 // A refresh or switching between PeerJS and Firebase in the SAME tab is not
 // another presentation launch. This flag stays only in the tab, not in Firebase.
@@ -21,12 +21,24 @@ if (!new URLSearchParams(location.search).has("remote") && !alreadyLogged) {
     // Remote and analytics share the same technical anonymous Firebase identity.
     // No login is shown, and this identity is never written into the usage event.
     await getAnonymousUser();
-    const ref = doc(collection(getFirestore(app), "teachersPresentationUsageV1"));
-    await setDoc(ref, {
+    const db = getFirestore(app);
+    const event = doc(collection(db, "teachersPresentationUsageV1"));
+    const stats = doc(db, "teachersPresentationStatsV1", "grade12-sentence-detective");
+    // Atomic event + aggregate update: the displayed count matches the log.
+    // Neither document contains the Firebase UID or other user details.
+    const batch = writeBatch(db);
+    batch.set(event, {
       deck: "grade12-sentence-detective",
       kind: "presentation-open",
       openedAt: serverTimestamp()
     });
+    batch.set(stats, {
+      deck: "grade12-sentence-detective",
+      opens: increment(1),
+      updatedAt: serverTimestamp(),
+      lastEventId: event.id
+    }, { merge: true });
+    await batch.commit();
     try { sessionStorage.setItem(launchFlag, "1"); } catch {}
     window.__teacherUsageLogged = true;
   } catch (error) {
