@@ -1,0 +1,45 @@
+name: Grade 12 and English for Noar Availability Smoke
+
+on:
+  push:
+    paths:
+      - ".github/workflows/grade12-and-englishfornoar-smoke.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  public-site-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check public sites without changing any data
+        shell: bash
+        run: |
+          set -euo pipefail
+          urls=(
+            "https://simonh68.github.io/teachers/grade12/four-units/sentence-detective/"
+            "https://simonh68.github.io/teachers/grade12/four-units/sentence-detective/usage-report.html"
+            "https://englishfornoar.co.il/"
+            "https://englishfornoar.co.il/module-e-vocab"
+            "https://simonh68.github.io/module-e-vocab/"
+          )
+          i=0
+          for url in "${urls[@]}"; do
+            i=$((i+1))
+            code=$(curl -L -sS --max-time 20 --retry 1 \
+              -A "Mozilla/5.0 (compatible; EducationalSiteHealthCheck/1.0)" \
+              -o "/tmp/site_${i}.html" -w '%{http_code}' "$url" || true)
+            bytes=$(wc -c < "/tmp/site_${i}.html" 2>/dev/null || echo 0)
+            echo "SITE_CHECK $i HTTP=$code BYTES=$bytes URL=$url"
+            if [ "$i" -le 2 ] || [ "$i" -eq 5 ]; then
+              if [ "$code" != "200" ] || [ "$bytes" -lt 500 ]; then
+                echo "::error::GitHub Pages resource not available: $url"
+                exit 1
+              fi
+            fi
+          done
+          grep -q "What is this QR code for?" /tmp/site_1.html
+          grep -q "Presentation launches" /tmp/site_2.html
+          echo "PUBLIC_SITE_SMOKE_PASS"
