@@ -192,6 +192,7 @@ header .brand{direction:rtl;letter-spacing:0}
 .sentence:is(.stage1,.stage2,.stage3,.stage4) .w.part-receiver{background:#7057cc!important;color:#fff!important}
 .sentence:is(.stage1,.stage2,.stage3,.stage4) .w.part-action{background:#ff6372!important;color:#171524!important}
 .sentence:is(.stage1,.stage2,.stage3,.stage4) .w.part-helper{background:#c9446d!important;color:#fff!important}
+.sentence:is(.stage1,.stage2,.stage3,.stage4) .w.part-sideAction{background:#a64b83!important;color:#fff!important;box-shadow:inset 0 0 0 2px #f6adcf!important}
 .sentence:is(.stage1,.stage2,.stage3,.stage4) .w.part-person{background:#995fe0!important;color:#fff!important}
 .sentence:is(.stage1,.stage2,.stage3,.stage4) .w.part-connect{background:#157d71!important;color:#fff!important}
 .sentence:is(.stage1,.stage2,.stage3,.stage4) .w.part-extra{background:#584c8c!important;color:#fff!important}
@@ -214,6 +215,7 @@ header .brand{direction:rtl;letter-spacing:0}
 .wordPiece.part-receiver{background:#7057cc}
 .wordPiece.part-action{background:#ff6372;color:#171524}
 .wordPiece.part-helper{background:#c9446d}
+.wordPiece.part-sideAction{background:#a64b83;border-color:#f6adcf}
 .wordPiece.part-person{background:#995fe0}
 .wordPiece.part-connect{background:#157d71}
 .wordPiece.part-extra{background:#584c8c}
@@ -301,8 +303,8 @@ const helperWords=new Set(["has","have","had","is","are","was","were","will","wo
 const pronounWords=new Set(["we","you","it","they","them","us","he","she","him","her","who","which"]);
 const linkingWords=new Set(["because","so","but","although","however","if","unless","when","before","after","while","therefore","result"]);
 const prepositionWords=new Set(["of","from","near","at","in","on","for","to","into","with","without","between","under","over","during"]);
-const verbWords=new Set(["use","live","teach","save","create","help","join","register","buy","clean","cleaned","work","worked","entered","enter","explain","explained","organize","organized","repair","attracts","complete","completed","continue","continued","offers","offer","ended","end","missed","need","needed","visit","visited","open","opened","add","added","improves","improve","was","were"]);
-const roleLabel={start:"מילת פתיחה / כמה",desc:"מוסיף תיאור",thing:"מי או מה",action:"מה קורה",helper:"עוזר לפעולה",connect:"מה מחבר",person:"במקום שם",extra:"פרט נוסף",receiver:"על מי / מה",state:"איזה מצב",other:"עוד פרט"};
+const verbWords=new Set(["use","live","teach","save","create","help","join","register","buy","clean","cleaned","work","worked","entered","enter","explain","explained","organize","organized","repair","attracts","complete","completed","continue","continued","offers","offer","ended","end","missed","need","needed","visit","visited","open","opened","add","added","improves","improve","was","were","borrowed","helped","increased","disappointed","launched","updated","met","joined","finished","glows"]);
+const roleLabel={start:"מילת פתיחה / כמה",desc:"מוסיף תיאור",thing:"מי או מה",action:"מה קורה",helper:"עוזר לפעולה",connect:"מה מחבר",person:"במקום שם",sideAction:"פעולה בתוך פרט",extra:"פרט נוסף",receiver:"על מי / מה",state:"איזה מצב",other:"עוד פרט"};
 function baseWord(word){return word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g,"");}
 function wordRole(word,role,index,total){
  const clean=baseWord(word);
@@ -314,7 +316,13 @@ function wordRole(word,role,index,total){
  if(role==="a")return "desc";
  if(role==="d")return "start";
  if(role==="n")return index===total-1?"thing":"desc";
- if(role==="p")return "extra";
+ if(role==="p"){
+  // Relative clauses may contain verbs, but they are not automatically the MAIN verb.
+  if(verbWords.has(clean)||helperWords.has(clean))return "sideAction";
+  if(prepositionWords.has(clean))return "extra";
+  if(index===total-1)return "thing";
+  return "extra";
+ }
  if(role==="q"){
    if(helperWords.has(clean)||verbWords.has(clean))return "action";
    return index===total-1?"thing":"desc";
@@ -387,7 +395,7 @@ function bindWordFocus(page){
 }
 function getStageHint(slide){return (stageHints[slide.section]||stageHints.NOUN)[Math.max(0,Math.min(3,state.stage-1))];}
 function diagram(info){if(!info||state.stage<3)return "";const t=info[0],label={reason:["הסיבה","מה קרה בעקבותיה"],result:["הגורם","התוצאה"],contrast:["מה היה צפוי","מה קרה בפועל"],condition:["התנאי","מה יקרה אם יתקיים"],time:["רמז לזמן","האירוע"],sequence:["קודם","אחר כך"],example:["הרעיון הכללי","דוגמאות"]}[t]||["חלק ראשון","חלק שני"];const symbol=t==="contrast"?"⇄":"➜";return '<div class="diagram '+t+'"><div class="cell"><strong>'+label[0]+'</strong><span class="segmentEnglish" lang="en" dir="ltr">'+esc(info[1])+'</span></div><div class="arrow">'+symbol+'</div><div class="cell"><strong>'+label[1]+'</strong><span class="segmentEnglish" lang="en" dir="ltr">'+esc(info[2])+'</span></div></div>';}
-function legend(){return '<div class="legend" dir="rtl"><span class="legendItem"><i class="dot" style="background:#596b7c"></i>מילת פתיחה</span><span class="legendItem"><i class="dot" style="background:var(--a)"></i>תיאורים</span><span class="legendItem"><i class="dot" style="background:var(--n)"></i>מי / מה</span><span class="legendItem"><i class="dot" style="background:var(--v)"></i>מה קרה</span><span class="legendItem"><i class="dot" style="background:#7057cc"></i>על מי / מה</span><span class="legendItem"><i class="dot" style="background:var(--c)"></i>מילת קישור</span><span class="legendItem"><i class="dot" style="background:#995fe0"></i>מילה במקום שם</span><span class="legendItem"><i class="dot" style="background:var(--p)"></i>מידע נוסף</span></div>';}
+function legend(){return '<div class="legend" dir="rtl"><span class="legendItem"><i class="dot" style="background:#596b7c"></i>מילת פתיחה</span><span class="legendItem"><i class="dot" style="background:var(--a)"></i>תיאורים</span><span class="legendItem"><i class="dot" style="background:var(--n)"></i>מי / מה</span><span class="legendItem"><i class="dot" style="background:var(--v)"></i>מה קרה</span><span class="legendItem"><i class="dot" style="background:#7057cc"></i>על מי / מה</span><span class="legendItem"><i class="dot" style="background:var(--c)"></i>מילת קישור</span><span class="legendItem"><i class="dot" style="background:#a64b83"></i>פעולה בתוך תיאור</span><span class="legendItem"><i class="dot" style="background:#995fe0"></i>מילה במקום שם</span><span class="legendItem"><i class="dot" style="background:var(--p)"></i>מידע נוסף</span></div>';}
 function intro(s){return '<div class="page cover"><div class="kicker">'+(s.section==="START"?"שאלון C · ארבע יחידות":s.section==="FINISH"?"המשימה הושלמה":"הטכניקה הבאה: מילות קישור")+'</div><h1 class="heTitle" dir="rtl" lang="he">'+heTxt(s.titleHe)+'</h1><div class="titleEn" lang="en" dir="ltr">'+esc(s.title)+'</div><div class="hero">'+(s.section==="START"?'<span class="punch">מי או מה?</span> מה קורה?<br><span class="punch">ואיך כל החלקים מתחברים?</span>':s.section==="FINISH"?'<span class="punch">אתם מזהים את המבנה!</span><br>עכשיו אתם יכולים למצוא את התשובה.':'<span lang="en" dir="ltr" class="punch">BECAUSE</span> — סיבה · <span lang="en" dir="ltr" class="punch">SO</span> — תוצאה<br><span lang="en" dir="ltr" class="punch">BUT</span> — ניגוד · <span lang="en" dir="ltr" class="punch">IF</span> — תנאי')+'</div><div class="subtitle" lang="he" dir="rtl">'+heTxt(s.promptHe)+'</div><div class="swipeIntro" dir="rtl" lang="he">בנייד: החלקה ↑ לשקף הבא · החלקה ↓ לשקף הקודם. בשקף ארוך אפשר לגלול כרגיל.</div>'+legend()+'<div class="teacher '+(state.teacher?'on':'')+' heb">'+heTxt(s.coach)+'<div><a class="teacherLink" href="teacher-method.html" target="_blank" rel="noopener">📗 מדריך מחקרי למורה — שיטות, דוגמאות והסתייגויות</a></div></div></div>';}
 function questionHtml(s){
  if(!s.choices)return "";
