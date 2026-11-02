@@ -105,7 +105,7 @@ def run(apply=False):
       "existing_custom_remotes":sorted(existing),
       "pending":sorted(set(compatible)-set(edited)),
       "support_documents_excluded":len(excluded),
-      "counts":{"enabled":len(enabled+edited),"custom_existing":len(existing),"pending":len(set(compatible)-set(edited))},
+      "counts":{"enabled":len(set(enabled+edited)),"custom_existing":len(existing),"pending":len(set(compatible)-set(edited))},
       "rollout_paths":items
     }
     if apply:MANIFEST.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
