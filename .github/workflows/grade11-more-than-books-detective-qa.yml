@@ -72,6 +72,11 @@ jobs:
               const file=pathToFileURL(path.resolve('grade11/module-e-more-than-books-detective/index.html')).href;
               await page.goto(file,{waitUntil:'domcontentloaded'});
               await page.waitForSelector('#counter');
+              await page.waitForTimeout(600);
+              await page.evaluate(()=>{
+                const root=document.getElementById('teachers-qr-remote-host')?.shadowRoot;
+                root?.getElementById('close')?.click();
+              });
               assert.equal((await page.locator('#counter').textContent()).trim(),'1 / 38');
               await page.locator('#versionSelect').selectOption('B');
               for(let i=0;i<4;i++)await page.locator('#next').click();
