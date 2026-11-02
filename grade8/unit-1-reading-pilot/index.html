@@ -91,6 +91,6 @@ stage.addEventListener('touchcancel',()=>{touch=null},{passive:true});
 let wheelAt=0;stage.addEventListener('wheel',e=>{if(e.ctrlKey||Math.abs(e.deltaY)<20)return;let can=e.deltaY>0?stage.scrollTop+stage.clientHeight<stage.scrollHeight-4:stage.scrollTop>4;if(can)return;if(Date.now()-wheelAt<500){e.preventDefault();return}wheelAt=Date.now();e.preventDefault();move(e.deltaY>0?1:-1)},{passive:false});
 if(view==='home'){home();if(location.hash){const el=document.querySelector(location.hash);if(el){el.open=true;el.scrollIntoView()}}}else{document.body.classList.add('study');makeDeck();render()}save();
 </script><script type="text/plain" data-legacy-src="phrase-data.js?v=20261005-1"></script><script type="text/plain" data-legacy-src="phrase-player.js?v=20261005-1"></script><script type="text/plain" data-legacy-src="reading-pilot.js?v=20261005-1"></script><script src="../read-along/bootstrap.js?v=20261005-bilingual1"></script><!-- Teachers QR remote · shared · auto-attached -->
-<script defer src="../../shared/phone-remote/remote.js?v=20261102-qrfix2"></script>
+<script defer src="../../shared/phone-remote/remote.js?v=20261102-qrfix3"></script>
 </body></html>
 

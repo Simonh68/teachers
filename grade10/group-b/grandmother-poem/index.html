@@ -126,5 +126,5 @@ document.addEventListener('touchstart',e=>{unlockSpeech();touchX=e.touches[0].cl
 document.addEventListener('touchend',e=>{const dx=touchX-e.changedTouches[0].clientX,dy=touchY-e.changedTouches[0].clientY,d=Math.abs(dy)>=Math.abs(dx)?dy:dx;if(Math.abs(d)>32)show(index+(d>0?1:-1),true)},{passive:true});
 document.addEventListener('visibilitychange',()=>{if(document.hidden)stopSpeech()});window.addEventListener('pagehide',stopSpeech);if('speechSynthesis' in window)speechSynthesis.getVoices();const hash=Number((location.hash.match(/slide-(\d+)/)||[])[1]);show(hash?hash-1:0);
 </script><!-- Teachers QR remote · shared · auto-attached -->
-<script defer src="../../../shared/phone-remote/remote.js?v=20261102-qrfix2"></script>
+<script defer src="../../../shared/phone-remote/remote.js?v=20261102-qrfix3"></script>
 </body></html>

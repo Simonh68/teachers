@@ -16,5 +16,5 @@ $('next').onclick=()=>move(1);$('prev').onclick=()=>move(-1);$('reset').onclick=
 document.addEventListener('keydown',e=>{if(e.key==='ArrowDown'||e.key===' '){e.preventDefault();if(!$('next').disabled)move(1)}if(e.key==='ArrowUp'){e.preventDefault();move(-1)}if((e.key==='1'||e.key.toLowerCase()==='a')&&index<40&&results[order[index]]===undefined)choose(0);if((e.key==='2'||e.key.toLowerCase()==='b')&&index<40&&results[order[index]]===undefined)choose(1)});
 let y=null;document.addEventListener('touchstart',e=>{y=e.touches[0]?.clientY??null},{passive:true});document.addEventListener('touchend',e=>{if(y===null)return;const d=e.changedTouches[0].clientY-y;if(d< -55&&!$('next').disabled)move(1);if(d>55)move(-1);y=null},{passive:true});shuffle();show();
 </script><!-- Teachers QR remote · shared · auto-attached -->
-<script defer src="../../shared/phone-remote/remote.js?v=20261102-qrfix2"></script>
+<script defer src="../../shared/phone-remote/remote.js?v=20261102-qrfix3"></script>
 </body></html>
