@@ -77,7 +77,7 @@ jobs:
                 const root=document.getElementById('teachers-qr-remote-host')?.shadowRoot;
                 root?.getElementById('close')?.click();
               });
-              assert.equal((await page.locator('#counter').textContent()).trim(),'1 / 38');
+              assert.equal((await page.locator('body > footer #counter').textContent()).trim(),'1 / 38');
               await page.locator('#versionSelect').selectOption('B');
               for(let i=0;i<4;i++)await page.locator('#next').click();
               assert((await page.locator('.eyebrow').textContent()).includes('QUESTION 1'));
