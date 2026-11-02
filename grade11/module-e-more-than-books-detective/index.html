@@ -159,19 +159,55 @@ function buildSlide(s){
  return out;
 }
 
-function questionSlide(s){const q=d.questions.find(q=>q.n===s.q);let html='<div class="eyebrow">QUESTION '+q.n+' · 10 POINTS · '+tr(d.paras[q.p].scope)+'</div><h2 class="en" lang="en">'+tr(q.stem)+'</h2><p class="medium gold">'+tr(q.he)+'</p>';
- if(q.options){html+='<div class="options">'+q.options.map((v,i)=>'<div class="option"><span class="letter">'+String.fromCharCode(97+i)+'.</span><span>'+tr(v)+'</span></div>').join('')+'</div>'}
- else html+='<div class="card big">כתבו תחילה תשובה באנגלית במחברת. <span class="muted">אל תחשפו את הפתרון לפני שהכיתה ניסתה.</span></div>';
- if(reveal>=1)html+='<div class="evidence en"><b class="gold">EVIDENCE · </b>'+tr(q.evidence)+'</div>';
- if(reveal>=2)html+='<div class="sectionLabel">מלכודות ותשובות חלקיות</div><div class="traps">'+q.trap.map(x=>'<div class="trap">'+tr(x)+'</div>').join('')+'</div><p class="medium gold">'+tr(q.heTrap)+'</p>';
- if(reveal>=3)html+='<div class="answer"><div class="sectionLabel">תשובה מלאה</div><div class="en" lang="en">'+tr(q.model)+'</div><p class="medium">'+tr(q.rubric)+'</p></div>';
+function questionSlide(s){
+ const raw=d.questions.find(x=>x.n===s.q),q=examQuestion(raw),correct=String.fromCharCode(97+q.correct);
+ let html='<div class="eyebrow">QUESTION '+q.n+' · 10 POINTS · VERSION '+version+' · '+tr(d.paras[q.p].scope)+'</div>';
+ html+='<h2 class="en" lang="en">'+tr(vt(q.stem))+'</h2><p class="medium gold">'+tr(q.he)+'</p>';
+ if(q.options){
+   html+='<div class="options">'+q.options.map((v,i)=>'<div class="option"><span class="letter">'+String.fromCharCode(97+i)+'.</span><span>'+tr(vt(v))+'</span></div>').join('')+'</div>';
+ }else{
+   html+='<div class="card big">לפני חשיפת התשובה: נסחו תשובה קצרה באנגלית. <span class="muted">האם יש שני חלקים? האם הראיה מדויקת?</span></div>';
+ }
+ if(reveal>=1)html+='<div class="evidence en"><b class="gold">EVIDENCE · </b>'+tr(vt(q.evidence))+'</div>';
+ if(reveal>=2){
+   html+='<div class="sectionLabel">מלכודות · למה תשובה חלקית אינה מספיקה?</div><div class="traps">'+trapsFor(q).map(x=>'<div class="trap">'+tr(vt(x))+'</div>').join('')+'</div>';
+   html+='<p class="medium gold">'+tr(q.heTrap)+'</p>';
+ }
+ if(reveal>=3){
+   html+='<div class="answer"><div class="sectionLabel">פתרון גרסה '+version+(q.options?' · ANSWER '+correct.toUpperCase():'')+'</div><div class="en" lang="en">'+tr(modelFor(q))+'</div><p class="medium">'+tr(q.rubric)+'</p></div>';
+ }
  return html;
 }
-function vocabSlide(s){const v=d.vocabulary.find(x=>x.n===s.q);let html='<div class="eyebrow">LEXICAL KNOWLEDGE · QUESTION '+v.n+' · 6 POINTS</div><h2>שש מילים · שלוש הגדרות</h2><p class="medium gold">תחילה התאימו שלוש הגדרות. כל התאמה שווה 2 נקודות.</p><div class="vocabGrid"><div class="card"><div class="sectionLabel">WORD BANK</div>'+v.items.map((x,i)=>'<div class="vocabItem">'+(i+1)+'. '+tr(x)+'</div>').join('')+'</div><div class="card"><div class="sectionLabel">DEFINITIONS</div>'+v.definitions.map((x,i)=>'<div class="definition">'+String.fromCharCode(65+i)+'. '+tr(x)+(reveal===2?' <b class="green">→ '+v.keys[i]+'</b>':'')+'</div>').join('')+'</div></div>';
- if(reveal===1)html+='<div class="card big">רמז בעברית: '+tr(v.he)+'. אילו שלוש מילים מתאימות במדויק?</div>';
- if(reveal===2)html+='<div class="answer medium"><b>Key: '+v.keys.join(' · ')+'</b><p>'+tr(v.trap)+'</p></div>';
+const vocabChoices={};
+stage.addEventListener('change',function(event){
+ const el=event.target;
+ if(!el.matches('select[data-vocab-question]'))return;
+ const q=Number(el.dataset.vocabQuestion),i=Number(el.dataset.def);
+ if(!vocabChoices[q])vocabChoices[q]=['','',''];
+ vocabChoices[q][i]=el.value;
+});
+function vocabSlide(s){
+ const raw=d.vocabulary.find(x=>x.n===s.q),v=examVocabulary(raw),answers=vocabChoices[v.n]||['','',''];
+ let html='<div class="eyebrow">LEXICAL KNOWLEDGE · QUESTION '+v.n+' · 6 POINTS · VERSION '+version+'</div>';
+ html+='<h2>שש מילים · שלוש הגדרות</h2><p class="medium gold">בחרו מספר לכל הגדרה. לכל התאמה נכונה 2 נקודות. סדר המילים מתאים בדיוק לגרסה '+version+'.</p>';
+ html+='<div class="vocabGrid"><div class="card"><div class="sectionLabel">WORD BANK</div>';
+ html+=v.items.map((x,i)=>'<div class="vocabItem">'+(i+1)+'. '+tr(x)+'</div>').join('');
+ html+='</div><div class="card"><div class="sectionLabel">DEFINITIONS</div>';
+ html+=v.definitions.map((x,i)=>{
+   let options='<option value="">—</option>';
+   for(let n=1;n<=6;n++)options+='<option value="'+n+'" '+(String(answers[i])===String(n)?'selected':'')+'>'+n+'</option>';
+   const select='<select aria-label="Definition '+(i+1)+' match" data-vocab-question="'+v.n+'" data-def="'+i+'" '+(reveal>=2?'disabled':'')+'>'+options+'</select>';
+   return '<div class="definition">'+String.fromCharCode(65+i)+'. '+tr(x)+'<div class="small">'+select+(reveal>=2?' <b class="green">✓ '+v.keys[i]+'</b>':'')+'</div></div>';
+ }).join('');
+ html+='</div></div>';
+ if(reveal>=1)html+='<div class="card big">רמז בעברית: '+tr(v.he)+'. חפשו התאמה מדויקת, לא מילה שנראית דומה.</div>';
+ if(reveal>=2){
+   const score=answers.filter((x,i)=>String(x)===String(v.keys[i])).length*2;
+   html+='<div class="answer medium"><b>Answer key: '+v.keys.join(' · ')+'</b><p>'+tr(v.trap)+'</p><p>ההתאמות שסימנתם: '+score+' / 6 נקודות (אם סימנתם את שלושתן).</p></div>';
+ }
  return html;
 }
+
 function summary(){return '<div class="eyebrow">מה למדתם?</div><h2>שש מלכודות שאסור ליפול בהן</h2><div class="grid2"><div class="card big">1 · מטרה של פסקה ≠ פרט בפסקה</div><div class="card big">2 · מדגם של 250 ≠ 250 תומכים</div><div class="card big">3 · אישור מותנה ≠ אישור מלא</div><div class="card big">4 · 700 השאלות ≠ 700 קוראים</div><div class="card big">5 · תועלת בלתי צפויה ≠ ביטול המטרה המקורית</div><div class="card big">6 · כמות תרומות ≠ התאמה לצרכים</div></div>'}
 function exit(){return '<div class="eyebrow">EXIT TICKET · 3 MINUTES</div><h2>האם הייתם מקבלים 10 נקודות?</h2><div class="evidence en">The library was successful because 700 people read books and everyone agreed that the project worked.</div><p class="lead">מצאו שתי טעויות במשפט. תקנו אותו באנגלית בשני משפטים קצרים.</p>'+(reveal?'<div class="answer medium en">700 books were borrowed, but the figures do not prove that 700 different people read them. Some council members questioned whether borrowing figures showed increased reading.</div>':'<div class="card big">לתשובה — לחצו שוב על גלו רמז / פתרון.</div>')}
 function render(){const s=slides[index];let body;
