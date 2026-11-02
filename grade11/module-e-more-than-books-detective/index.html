@@ -128,7 +128,7 @@ function pauseAudio(){if(!('speechSynthesis' in window))return;if(window.speechS
 function goto(n){stopAudio();index=Math.max(0,Math.min(slides.length-1,n));reveal=0;render();stage.scrollTop=0}
 function advance(){const s=slides[index],max=s.type==='question'?3:s.type==='vocab'?2:s.type==='grammar'?3:s.type==='build'?3:0;if(reveal<max){reveal++;render();stage.scrollTop=0}else goto(index+1)}
 function opening(s){return '<div class="eyebrow">MODULE E · פותרים את המבחן בכיתה</div><h1 class="enTitle">MORE THAN<br>JUST BOOKS</h1><p class="lead">פסקה אחת → הבנת הרעיון → שאלות → מלכודות → תשובה מלאה.</p><div class="grid3"><div class="card big">5 פסקאות מוקראות</div><div class="card big">7 שאלות הבנה</div><div class="card big">5 שאלות אוצר מילים</div></div><p class="medium muted">גרסה נבחרת: '+version+'. כל גרסאות A–D מופיעות עם סדר האפשרויות המדויק של המבחן. סרקו את קוד ה־QR בתחילת המצגת כדי לשלוט מהטלפון.</p>'}
-function mapSlide(){return '<div class="eyebrow">איך עובדים?</div><h2>לא קוראים הכול בהתחלה</h2><div class="grid3"><div class="card big">1 · האזנה והדגשת מילים <span class="tap">👆</span></div><div class="card big">2 · מציאת ראיה בטקסט</div><div class="card big">3 · ניסיון לענות לבד</div><div class="card big">4 · זיהוי המלכודת</div><div class="card big">5 · תשובה וניקוד</div><div class="card big">6 · עוברים לפסקה הבאה</div></div><p class="medium gold">אין חשיפת תשובות אוטומטית. המורה שולט בקצב.</p>'}
+function mapSlide(){return '<div class="eyebrow">SENTENCE DETECTIVE · THE METHOD</div><h2>מהשאלה — לראיה — לפתרון</h2><div class="grid3"><div class="card big">1 · קראו את השאלה וסמנו מילות מפתח</div><div class="card big">2 · מצאו משפט ראיה בפסקה</div><div class="card big">3 · מצאו את ראש הצירוף (Head Noun)</div><div class="card big">4 · זהו את הפועל המרכזי ואת מילת הקישור</div><div class="card big">5 · בדקו מסיחים והסתייגויות</div><div class="card big">6 · בנו תשובה באנגלית ורק אז חשפו פתרון</div></div><p class="medium gold">הצבעים הם כלי עזר — לא כלל דקדוקי מכני. משפטים מורכבים דורשים זיהוי של פסוקיות, לא רק של המילים בין הנושא לפועל.</p>'}
 function paragraphSlide(s){const p=d.paras[s.p];return '<div class="eyebrow">'+tr(p.scope)+' · הקראה ועקיבה</div><h2 class="enTitle">'+tr(p.title)+'</h2><div class="para" lang="en">'+prepareWords(vt(p.text))+'</div><p class="medium">לחצו על <b class="gold">▶ הקרא פסקה</b>. בזמן ההקראה המילה הנוכחית מודגשת; אפשר להשהות ולחזור. לחצו על מילים מודגשות לקבלת תרגום.</p>'}
 function focusSlide(s){const p=d.paras[s.p];return '<div class="eyebrow">'+tr(p.scope)+' · לפני השאלות</div><h2>מה צריך לסמן?</h2>'+p.anchors.map((x,i)=>'<div class="evidence en"><span class="gold">'+(i+1)+'.</span> '+tr(vt(x))+'</div>').join('')+'<div class="card medium">'+tr(p.explain)+'</div>'}
 
@@ -210,15 +210,60 @@ function vocabSlide(s){
 
 function summary(){return '<div class="eyebrow">מה למדתם?</div><h2>שש מלכודות שאסור ליפול בהן</h2><div class="grid2"><div class="card big">1 · מטרה של פסקה ≠ פרט בפסקה</div><div class="card big">2 · מדגם של 250 ≠ 250 תומכים</div><div class="card big">3 · אישור מותנה ≠ אישור מלא</div><div class="card big">4 · 700 השאלות ≠ 700 קוראים</div><div class="card big">5 · תועלת בלתי צפויה ≠ ביטול המטרה המקורית</div><div class="card big">6 · כמות תרומות ≠ התאמה לצרכים</div></div>'}
 function exit(){return '<div class="eyebrow">EXIT TICKET · 3 MINUTES</div><h2>האם הייתם מקבלים 10 נקודות?</h2><div class="evidence en">The library was successful because 700 people read books and everyone agreed that the project worked.</div><p class="lead">מצאו שתי טעויות במשפט. תקנו אותו באנגלית בשני משפטים קצרים.</p>'+(reveal?'<div class="answer medium en">700 books were borrowed, but the figures do not prove that 700 different people read them. Some council members questioned whether borrowing figures showed increased reading.</div>':'<div class="card big">לתשובה — לחצו שוב על גלו רמז / פתרון.</div>')}
-function render(){const s=slides[index];let body;
- if(s.type==='intro')body=opening(s);else if(s.type==='map')body=mapSlide();else if(s.type==='read')body=paragraphSlide(s);else if(s.type==='focus')body=focusSlide(s);else if(s.type==='question')body=questionSlide(s);else if(s.type==='vocab')body=vocabSlide(s);else if(s.type==='summary')body=summary();else body=exit();
- stage.innerHTML='<section class="slide">'+body+'</section>';E('counter').textContent=(index+1)+' / '+slides.length;E('bar').style.width=((index+1)*100/slides.length)+'%';
- E('play').disabled=s.type!=='read';E('pause').disabled=s.type!=='read';E('prev').disabled=index===0;E('next').disabled=index===slides.length-1;
- E('reveal').disabled=!['question','vocab','exit'].includes(s.type)||(s.type==='question'&&reveal===3)||(s.type==='vocab'&&reveal===2)||(s.type==='exit'&&reveal===1);
- E('reveal').textContent=s.type==='question'?['גלו ראיה','חשפו מלכודות','חשפו תשובה','התשובה הוצגה'][reveal]:s.type==='vocab'?['רמז','פתרון','הפתרון הוצג'][reveal]:s.type==='exit'?'הראו תיקון':'גלו רמז / פתרון';
+function render(){
+ const s=slides[index];let body;
+ if(s.type==='intro')body=opening(s);
+ else if(s.type==='map')body=mapSlide();
+ else if(s.type==='read')body=paragraphSlide(s);
+ else if(s.type==='focus')body=focusSlide(s);
+ else if(s.type==='grammar')body=grammarSlide(s);
+ else if(s.type==='question')body=questionSlide(s);
+ else if(s.type==='build')body=buildSlide(s);
+ else if(s.type==='vocab')body=vocabSlide(s);
+ else if(s.type==='summary')body=summary();
+ else body=exit();
+ stage.innerHTML='<section class="slide">'+body+'</section>';
+ E('counter').textContent=(index+1)+' / '+slides.length;
+ E('bar').style.width=((index+1)*100/slides.length)+'%';
+ E('play').disabled=s.type!=='read';
+ E('pause').disabled=s.type!=='read';
+ E('prev').disabled=index===0;
+ E('next').disabled=index===slides.length-1;
+ const max=s.type==='grammar'?3:s.type==='question'?3:s.type==='build'?3:s.type==='vocab'?2:s.type==='exit'?1:0;
+ E('reveal').disabled=reveal>=max;
+ E('reveal').textContent=s.type==='grammar'?['1 · מי ופועל','2 · צבעי הקשרים','3 · הסבר המשפט','✓ הניתוח הושלם'][reveal]:
+ s.type==='question'?['1 · גלו ראיה','2 · חשפו מלכודות','3 · פתרון מלא','✓ התשובה הוצגה'][reveal]:
+ s.type==='build'?['1 · מילות מפתח','2 · תשובה לדוגמה','3 · בדיקת מלכודות','✓ סיימנו'][reveal]:
+ s.type==='vocab'?['1 · רמז','2 · מפתח התשובות','✓ סיימנו'][reveal]:
+ s.type==='exit'?'הראו תיקון':'גלו רמז / פתרון';
 }
-E('prev').onclick=()=>goto(index-1);E('next').onclick=()=>goto(index+1);E('reveal').onclick=()=>{reveal++;render()};E('play').onclick=playAudio;E('pause').onclick=pauseAudio;
-document.addEventListener('keydown',e=>{if(e.target.closest('button,select,input,textarea,a')||e.altKey||e.ctrlKey||e.metaKey)return;if(['ArrowRight','PageDown'].includes(e.key)){e.preventDefault();goto(index+1)}if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();goto(index-1)}if(e.key==='Enter'){e.preventDefault();const s=slides[index];const mx=s.type==='question'?3:s.type==='vocab'?2:s.type==='exit'?1:0;if(reveal<mx){reveal++;render()}}if(e.code==='Space'&&slides[index].type==='read'){e.preventDefault();playAudio()}});
+E('prev').onclick=()=>goto(index-1);
+E('next').onclick=()=>goto(index+1);
+E('reveal').onclick=()=>{
+ const s=slides[index],max=s.type==='grammar'?3:s.type==='question'?3:s.type==='build'?3:s.type==='vocab'?2:s.type==='exit'?1:0;
+ if(reveal<max){reveal++;render();stage.scrollTop=0}
+};
+E('play').onclick=playAudio;E('pause').onclick=pauseAudio;
+E('versionSelect').onchange=e=>{
+ stopAudio();version=e.target.value;reveal=0;
+ Object.keys(vocabChoices).forEach(k=>delete vocabChoices[k]);
+ render();stage.scrollTop=0;
+ const url=new URL(location.href);
+ url.searchParams.set('version',version);
+ history.replaceState(null,'',url.href);
+};
+const urlVersion=new URLSearchParams(location.search).get('version');
+if(urlVersion&&versions[urlVersion]){version=urlVersion;E('versionSelect').value=version}
+document.addEventListener('keydown',e=>{
+ if(e.target.closest('button,select,input,textarea,a')||e.altKey||e.ctrlKey||e.metaKey)return;
+ if(['ArrowRight','PageDown'].includes(e.key)){e.preventDefault();goto(index+1)}
+ else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();goto(index-1)}
+ else if(e.key==='Enter'||e.code==='Space'){
+   e.preventDefault();
+   const s=slides[index],max=s.type==='grammar'?3:s.type==='question'?3:s.type==='build'?3:s.type==='vocab'?2:s.type==='exit'?1:0;
+   if(reveal<max){reveal++;render();stage.scrollTop=0}
+ }
+});
 window.addEventListener('beforeunload',stopAudio);render();
 })();
 </script>
