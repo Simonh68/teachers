@@ -1,6 +1,6 @@
 {
   "name": "Teachers presentation QR phone remote",
-  "version": "2026-11-01",
+  "version": "20261102-qrfix2",
   "central_runtime": "shared/phone-remote/remote.js",
   "enabled_shared": [
     "grade10/connectors/index.html",
@@ -107,7 +107,7 @@
   "pending": [],
   "support_documents_excluded": 80,
   "counts": {
-    "enabled": 96,
+    "enabled": 192,
     "custom_existing": 2,
     "pending": 0
   },
