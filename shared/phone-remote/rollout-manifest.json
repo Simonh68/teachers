@@ -31,6 +31,7 @@
     "grade11/four-units/opening/index.html",
     "grade11/grammar-in-an-essay/english.html",
     "grade11/grammar-in-an-essay/index.html",
+    "grade11/module-e-more-than-books-detective/index.html",
     "grade11/module-e-more-than-books-review/index.html",
     "grade11/module-e-museum-bag/index.html",
     "grade11/module-e-museum-bag/template.html",
@@ -104,9 +105,9 @@
     "grade12/four-units/sentence-detective/index.html"
   ],
   "pending": [],
-  "support_documents_excluded": 79,
+  "support_documents_excluded": 80,
   "counts": {
-    "enabled": 95,
+    "enabled": 96,
     "custom_existing": 2,
     "pending": 0
   },
@@ -139,6 +140,7 @@
     "grade11/four-units/opening/index.html",
     "grade11/grammar-in-an-essay/english.html",
     "grade11/grammar-in-an-essay/index.html",
+    "grade11/module-e-more-than-books-detective/index.html",
     "grade11/module-e-more-than-books-review/index.html",
     "grade11/module-e-museum-bag/index.html",
     "grade11/module-e-museum-bag/template.html",
