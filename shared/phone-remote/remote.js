@@ -227,7 +227,7 @@ function openingSlide(){
  for(const selector of values){
   const el=document.querySelector(selector);
   if(!el)continue;
-  const match=(el.textContent||"").trim().match(/^(\\d+)\\s*\\//);
+    const match=(el.textContent||'').trim().match(new RegExp('^([0-9]+)[ ]*/'));
   if(match)return Number(match[1])===1;
  }
  if(typeof window.cur==="number")return window.cur===0;
