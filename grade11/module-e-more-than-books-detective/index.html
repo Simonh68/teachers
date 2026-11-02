@@ -35,6 +35,7 @@ h1,h2,h3,p{margin:0}h1{font-size:clamp(48px,6vw,94px);line-height:1.04}h2{font-s
 /* Sentence Detective — grammar highlighting for projected classroom teaching */
 :root{--subject:#4399ff;--verb:#ff7883;--connector:#42d9b0;--modifier:#ffca75;--complement:#c6a5ff}
 #versionSelect{font:900 17px Arial;color:#fff;background:#183b54;border:2px solid #82a8be;border-radius:10px;padding:7px 13px}
+#stage{overscroll-behavior:contain;touch-action:pan-x}
 .grammarSentence{direction:ltr;text-align:left;font:900 clamp(29px,3.4vw,54px)/1.65 Arial,sans-serif;padding:clamp(16px,2.5vw,30px);background:#0e2941;border:2px solid #65849c;border-radius:18px;unicode-bidi:plaintext}
 .part{display:inline;padding:.04em .14em;border-radius:.2em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .part.n{background:#155d9b;color:#e2f2ff}.part.v{background:#7a2e40;color:#ffe9ea}.part.c{background:#146e5e;color:#e2fff2}.part.m{background:#69491d;color:#fff1c7}.part.o{background:#51408b;color:#f0e8ff}
@@ -401,6 +402,34 @@ E('versionSelect').onchange=e=>{
 };
 const urlVersion=new URLSearchParams(location.search).get('version');
 if(urlVersion&&versions[urlVersion]){version=urlVersion;E('versionSelect').value=version}
+// Native vertical swipe on the slide itself, including when opened directly
+// on a phone without pairing. Swipe UP advances, swipe DOWN goes back.
+// The stage scroll is deliberately suppressed only for a deliberate gesture.
+let slideTouch=null;
+let lastSwipeAt=0;
+stage.addEventListener('touchstart',e=>{
+ if(e.touches.length!==1||e.target.closest('select,input,textarea,button,a')){
+   slideTouch=null;return;
+ }
+ const t=e.touches[0];
+ slideTouch={x:t.clientX,y:t.clientY};
+},{passive:true});
+stage.addEventListener('touchmove',e=>{
+ if(!slideTouch||e.touches.length!==1)return;
+ const t=e.touches[0],dx=t.clientX-slideTouch.x,dy=t.clientY-slideTouch.y;
+ if(Math.abs(dy)>18&&Math.abs(dy)>Math.abs(dx)*1.15&&e.cancelable)e.preventDefault();
+},{passive:false});
+stage.addEventListener('touchend',e=>{
+ const start=slideTouch;slideTouch=null;
+ if(!start||e.changedTouches.length!==1)return;
+ const t=e.changedTouches[0],dx=t.clientX-start.x,dy=t.clientY-start.y;
+ if(Math.abs(dy)<48||Math.abs(dy)<Math.abs(dx)*1.2)return;
+ if(Date.now()-lastSwipeAt<320)return;
+ lastSwipeAt=Date.now();
+ if(e.cancelable)e.preventDefault();
+ goto(index+(dy<0?1:-1));
+},{passive:false});
+stage.addEventListener('touchcancel',()=>{slideTouch=null;},{passive:true});
 document.addEventListener('keydown',e=>{
  if(e.target.closest('button,select,input,textarea,a')||e.altKey||e.ctrlKey||e.metaKey)return;
  if(['ArrowRight','PageDown'].includes(e.key)){e.preventDefault();goto(index+1)}
