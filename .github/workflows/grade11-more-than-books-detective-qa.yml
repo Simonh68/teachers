@@ -158,6 +158,37 @@ jobs:
               assert.equal(repeated[0],repeated[1],'Repeat did not replay the highlighted phrase');
               assert.deepEqual(readErrors,[]);
               await readPage.close();
+              // Touch gestures on the REAL phone-remote overlay. Intercept the
+              // outbound command rather than depending on a network connection.
+              const mobile=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
+              await mobile.route('**/peerjs@**',route=>route.abort());
+              await mobile.goto(file+'?teacherRemote=testing123456',{waitUntil:'domcontentloaded'});
+              await mobile.waitForFunction(()=>Boolean(window.teachersPhoneRemote&&document.querySelector('#teachers-qr-remote-host')?.shadowRoot?.getElementById('swipeZone')));
+              const swipeResult=await mobile.evaluate(()=>{
+                const root=document.getElementById('teachers-qr-remote-host').shadowRoot;
+                const panel=root.getElementById('remote');
+                const zone=root.getElementById('swipeZone');
+                const commands=[];
+                const ctx=window.teachersPhoneRemote;
+                ctx.connected=true;ctx.channel={open:true,send:x=>commands.push(x)};
+                function fire(type,x,y){
+                  const t=new Touch({identifier:1,target:zone,clientX:x,clientY:y,pageX:x,pageY:y,screenX:x,screenY:y});
+                  const ev=new TouchEvent(type,{bubbles:true,cancelable:true,
+                    touches:type==='touchend'?[]:[t],targetTouches:type==='touchend'?[]:[t],
+                    changedTouches:[t]});
+                  zone.dispatchEvent(ev);
+                }
+                fire('touchstart',180,480);fire('touchmove',182,330);fire('touchend',182,330);
+                fire('touchstart',180,300);fire('touchmove',182,465);fire('touchend',182,465);
+                return {commands,zoneVisible:getComputedStyle(zone).display!=='none',
+                  touchAction:getComputedStyle(panel).touchAction,zoneLabel:zone.textContent};
+              });
+              assert(swipeResult.zoneVisible);
+              assert.equal(swipeResult.touchAction,'none');
+              assert.deepEqual(swipeResult.commands.map(x=>x.action),['next','previous']);
+              assert(swipeResult.zoneLabel.includes('SWIPE UP'));
+              await mobile.close();
+              console.log('PHONE_SWIPE_QA_PASS: swipe up = next, down = previous; full-screen no-scroll gesture zone');
               console.log('BROWSER_DETECTIVE_QA_PASS: 38 slides, A-D answer keys, 10-word TTS chunks, visual phrase highlight, pause/resume and repeat');
 
             }finally{await browser.close()}
