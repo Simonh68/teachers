@@ -254,6 +254,19 @@ function updateLaunchVisibility(){
  $("launch").hidden=!overlay.hidden;
 }
 setInterval(updateLaunchVisibility,350);
+// The QR belongs to the opening slide. On projector-sized screens show it
+// automatically once; on phones never cover the lesson with a pairing dialog.
+if(!controller){
+ let openingQrShown=false;
+ const tryOpeningQr=()=>{
+   if(openingQrShown||!document.body||!window.matchMedia("(min-width: 900px)").matches)return;
+   if(!openingSlide())return;
+   openingQrShown=true;
+   startHost();
+ };
+ if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",()=>setTimeout(tryOpeningQr,800),{once:true});
+ else setTimeout(tryOpeningQr,800);
+}
 $("launch").onclick=startHost;
 $("close").onclick=hide;
 $("reset").onclick=startHost;
