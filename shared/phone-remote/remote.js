@@ -261,6 +261,11 @@ if(!controller){
  const tryOpeningQr=()=>{
    if(openingQrShown||!document.body||!window.matchMedia("(min-width: 900px)").matches)return;
    if(!openingSlide())return;
+   // If the teacher already opened pairing manually, never reset its
+   // session or replace the QR code while the phone is scanning.
+   if(!overlay.hidden||ctx.peer||ctx.pending||ctx.connected){
+     openingQrShown=true;return;
+   }
    openingQrShown=true;
    startHost();
  };
