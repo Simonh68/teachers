@@ -476,7 +476,8 @@
             6
           ]
         }
-      }
+      },
+      "town": "Greenfield"
     },
     "B": {
       "person": "David Parker",
@@ -601,7 +602,8 @@
             3
           ]
         }
-      }
+      },
+      "town": "Brookfield"
     },
     "C": {
       "person": "Michael Harris",
@@ -726,7 +728,8 @@
             4
           ]
         }
-      }
+      },
+      "town": "Westhaven"
     },
     "D": {
       "person": "Andrew Wilson",
@@ -851,7 +854,8 @@
             5
           ]
         }
-      }
+      },
+      "town": "Riverton"
     }
   },
   "classStats": {
