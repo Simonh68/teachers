@@ -69,12 +69,39 @@ h1,h2,h3,p{margin:0}h1{font-size:clamp(48px,6vw,94px);line-height:1.04}h2{font-s
 (function(){
 'use strict';
 const d=JSON.parse(document.getElementById('lesson-data').textContent);
+const metadata=JSON.parse(document.getElementById('version-data').textContent);
+const versions=metadata.versions;
+let version='A';
+function vt(value){
+ const v=versions[version],first=v.person.split(' ')[0];
+ return String(value||'').replaceAll('Daniel Morris',v.person).replaceAll('Daniel',first).replaceAll('Greenfield',v.town);
+}
+function examQuestion(q){
+ const v=versions[version];
+ return q.options?Object.assign({},q,{options:v.mc[q.n].options,correct:v.mc[q.n].correct}):q;
+}
+function examVocabulary(q){
+ const v=versions[version].vocab[q.n];
+ return Object.assign({},q,{items:v.items,definitions:v.definitions,keys:v.keys});
+}
+function modelFor(q){
+ if(!q.options)return vt(q.model);
+ const letter=String.fromCharCode(97+versions[version].mc[q.n].correct);
+ return letter+' — '+vt(q.model.replace(/^[a-d]\s+[—–-]\s+/i,''));
+}
+function trapsFor(q){
+ return q.trap.map(x=>String(x).replace(/^[a-d]:\s*/i,''));
+}
+
 const E=id=>document.getElementById(id);const stage=E('stage');const slides=[];
 const tr=x=>String(x||'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 slides.push({type:'intro'}, {type:'map'});
 d.paras.forEach((p,i)=>{
  slides.push({type:'read',p:i},{type:'focus',p:i});
- d.questions.filter(q=>q.p===i).forEach(q=>slides.push({type:'question',q:q.n}));
+ d.questions.filter(q=>q.p===i).forEach(q=>{
+   slides.push({type:'grammar',q:q.n},{type:'question',q:q.n});
+   if(q.type==='open')slides.push({type:'build',q:q.n});
+ });
  d.vocabulary.filter(q=>q.p===i).forEach(v=>slides.push({type:'vocab',q:v.n}));
 });
 slides.push({type:'summary'}, {type:'exit'});
@@ -91,7 +118,7 @@ stage.addEventListener('click',e=>{const t=e.target.closest('[data-tip]');if(t)s
 stage.addEventListener('focusin',e=>{const t=e.target.closest('[data-tip]');if(t)showTip(t.getAttribute('data-tip'))});
 function voiceForEnglish(){const voices=window.speechSynthesis.getVoices().filter(v=>v.lang&&v.lang.toLowerCase().startsWith('en'));return voices.find(v=>/david|guy|ryan|male|daniel|aaron|andrew|christopher/i.test(v.name))||voices.find(v=>/en-US/i.test(v.lang))||voices[0]||null}
 function playAudio(){const s=slides[index];if(s.type!=='read'||!('speechSynthesis' in window)){showTip('הקראה זמינה בשקופית של פסקה בדפדפן התומך בקול');return}
- stopAudio();const text=d.paras[s.p].text;activeWords=Array.from(stage.querySelectorAll('.word'));utt=new SpeechSynthesisUtterance(text);utt.lang='en-US';utt.rate=Number(E('speed').value);utt.pitch=.95;const v=voiceForEnglish();if(v)utt.voice=v;
+ stopAudio();const text=vt(d.paras[s.p].text);activeWords=Array.from(stage.querySelectorAll('.word'));utt=new SpeechSynthesisUtterance(text);utt.lang='en-US';utt.rate=Number(E('speed').value);utt.pitch=.95;const v=voiceForEnglish();if(v)utt.voice=v;
  utt.onboundary=e=>{if(e.name&&e.name!=='word')return;let target=0;for(let j=0;j<activeWords.length;j++){if(Number(activeWords[j].dataset.offset)<=e.charIndex)target=j;else break}activeWords.forEach((w,k)=>w.classList.toggle('now',k===target));};
  utt.onend=()=>{activeWords.forEach(w=>w.classList.remove('now'));spoken=false;};
  utt.onerror=()=>{activeWords.forEach(w=>w.classList.remove('now'));spoken=false;showTip('הקול בדפדפן אינו זמין כעת');};
@@ -99,11 +126,11 @@ function playAudio(){const s=slides[index];if(s.type!=='read'||!('speechSynthesi
 }
 function pauseAudio(){if(!('speechSynthesis' in window))return;if(window.speechSynthesis.paused){window.speechSynthesis.resume();E('pause').textContent='⏸ השהה'}else if(window.speechSynthesis.speaking){window.speechSynthesis.pause();E('pause').textContent='▶ המשך'}}
 function goto(n){stopAudio();index=Math.max(0,Math.min(slides.length-1,n));reveal=0;render();stage.scrollTop=0}
-function advance(){const s=slides[index],max=s.type==='question'?3:s.type==='vocab'?2:0;if(reveal<max){reveal++;render();stage.scrollTop=0}else goto(index+1)}
-function opening(s){return '<div class="eyebrow">MODULE E · פותרים את המבחן בכיתה</div><h1 class="enTitle">MORE THAN<br>JUST BOOKS</h1><p class="lead">פסקה אחת → הבנת הרעיון → שאלות → מלכודות → תשובה מלאה.</p><div class="grid3"><div class="card big">5 פסקאות מוקראות</div><div class="card big">7 שאלות הבנה</div><div class="card big">5 שאלות אוצר מילים</div></div><p class="medium muted">מצגת גרסה A. בסדר התשובות של גרסאות B–D יש שינויים, ולכן לומדים משמעות ולא אותיות.</p>'}
+function advance(){const s=slides[index],max=s.type==='question'?3:s.type==='vocab'?2:s.type==='grammar'?3:s.type==='build'?3:0;if(reveal<max){reveal++;render();stage.scrollTop=0}else goto(index+1)}
+function opening(s){return '<div class="eyebrow">MODULE E · פותרים את המבחן בכיתה</div><h1 class="enTitle">MORE THAN<br>JUST BOOKS</h1><p class="lead">פסקה אחת → הבנת הרעיון → שאלות → מלכודות → תשובה מלאה.</p><div class="grid3"><div class="card big">5 פסקאות מוקראות</div><div class="card big">7 שאלות הבנה</div><div class="card big">5 שאלות אוצר מילים</div></div><p class="medium muted">גרסה נבחרת: '+version+'. כל גרסאות A–D מופיעות עם סדר האפשרויות המדויק של המבחן. סרקו את קוד ה־QR בתחילת המצגת כדי לשלוט מהטלפון.</p>'}
 function mapSlide(){return '<div class="eyebrow">איך עובדים?</div><h2>לא קוראים הכול בהתחלה</h2><div class="grid3"><div class="card big">1 · האזנה והדגשת מילים <span class="tap">👆</span></div><div class="card big">2 · מציאת ראיה בטקסט</div><div class="card big">3 · ניסיון לענות לבד</div><div class="card big">4 · זיהוי המלכודת</div><div class="card big">5 · תשובה וניקוד</div><div class="card big">6 · עוברים לפסקה הבאה</div></div><p class="medium gold">אין חשיפת תשובות אוטומטית. המורה שולט בקצב.</p>'}
-function paragraphSlide(s){const p=d.paras[s.p];return '<div class="eyebrow">'+tr(p.scope)+' · הקראה ועקיבה</div><h2 class="enTitle">'+tr(p.title)+'</h2><div class="para" lang="en">'+prepareWords(p.text)+'</div><p class="medium">לחצו על <b class="gold">▶ הקרא פסקה</b>. בזמן ההקראה המילה הנוכחית מודגשת; אפשר להשהות ולחזור. לחצו על מילים מודגשות לקבלת תרגום.</p>'}
-function focusSlide(s){const p=d.paras[s.p];return '<div class="eyebrow">'+tr(p.scope)+' · לפני השאלות</div><h2>מה צריך לסמן?</h2>'+p.anchors.map((x,i)=>'<div class="evidence en"><span class="gold">'+(i+1)+'.</span> '+tr(x)+'</div>').join('')+'<div class="card medium">'+tr(p.explain)+'</div>'}
+function paragraphSlide(s){const p=d.paras[s.p];return '<div class="eyebrow">'+tr(p.scope)+' · הקראה ועקיבה</div><h2 class="enTitle">'+tr(p.title)+'</h2><div class="para" lang="en">'+prepareWords(vt(p.text))+'</div><p class="medium">לחצו על <b class="gold">▶ הקרא פסקה</b>. בזמן ההקראה המילה הנוכחית מודגשת; אפשר להשהות ולחזור. לחצו על מילים מודגשות לקבלת תרגום.</p>'}
+function focusSlide(s){const p=d.paras[s.p];return '<div class="eyebrow">'+tr(p.scope)+' · לפני השאלות</div><h2>מה צריך לסמן?</h2>'+p.anchors.map((x,i)=>'<div class="evidence en"><span class="gold">'+(i+1)+'.</span> '+tr(vt(x))+'</div>').join('')+'<div class="card medium">'+tr(p.explain)+'</div>'}
 function questionSlide(s){const q=d.questions.find(q=>q.n===s.q);let html='<div class="eyebrow">QUESTION '+q.n+' · 10 POINTS · '+tr(d.paras[q.p].scope)+'</div><h2 class="en" lang="en">'+tr(q.stem)+'</h2><p class="medium gold">'+tr(q.he)+'</p>';
  if(q.options){html+='<div class="options">'+q.options.map((v,i)=>'<div class="option"><span class="letter">'+String.fromCharCode(97+i)+'.</span><span>'+tr(v)+'</span></div>').join('')+'</div>'}
  else html+='<div class="card big">כתבו תחילה תשובה באנגלית במחברת. <span class="muted">אל תחשפו את הפתרון לפני שהכיתה ניסתה.</span></div>';
