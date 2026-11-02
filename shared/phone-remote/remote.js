@@ -249,7 +249,9 @@ function openingSlide(){
 }
 function updateLaunchVisibility(){
  if(controller)return;
- $("launch").hidden=!overlay.hidden||!openingSlide();
+ // Keep the re-pairing entry accessible on every slide. The QR itself
+ // is shown only when the teacher opens the pairing panel.
+ $("launch").hidden=!overlay.hidden;
 }
 setInterval(updateLaunchVisibility,350);
 $("launch").onclick=startHost;
