@@ -13,6 +13,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 REMOTE=ROOT/"shared/phone-remote/remote.js"
 MANIFEST=ROOT/"shared/phone-remote/rollout-manifest.json"
+VERSION="20261102-qrfix2"
 PREF=("grade6/","grade7/","grade8/","grade9/","grade10/","grade11/","grade12/","seminar/","to-be/","first-course/","shared/lessons/","special/","standalone/")
 SKIP_BASENAMES={
  "teacher.html","teacher.en.html","teacher-guide.html","teacher-method.html",
@@ -70,7 +71,13 @@ def run(apply=False):
         if ".git/" in path or "/node_modules/" in path:continue
         txt=file.read_text(encoding="utf-8")
         verdict=classify(path,txt)
-        if verdict=="enabled":enabled.append(path)
+        if verdict=="enabled":
+            enabled.append(path)
+            if apply:
+                updated=txt.replace("?v=20261101-1", "?v="+VERSION)
+                if updated!=txt:
+                    file.write_text(updated,encoding="utf-8")
+                    edited.append(path)
         elif verdict=="already-has-remote":existing.append(path)
         elif verdict=="compatible":
             compatible.append(path)
@@ -92,7 +99,7 @@ def run(apply=False):
     # In audit-only, compatible files are reported but not considered installed.
     manifest={
       "name":"Teachers presentation QR phone remote",
-      "version":"2026-11-01",
+      "version":VERSION,
       "central_runtime":"shared/phone-remote/remote.js",
       "enabled_shared":sorted(set(enabled+edited)),
       "existing_custom_remotes":sorted(existing),
