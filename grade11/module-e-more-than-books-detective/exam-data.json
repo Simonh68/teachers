@@ -853,5 +853,85 @@
         }
       }
     }
+  },
+  "classStats": {
+    "n": 18,
+    "average": 56,
+    "questionStats": [
+      {
+        "q": 1,
+        "average": 6.7,
+        "maximum": 10,
+        "zeroCount": 6
+      },
+      {
+        "q": 2,
+        "average": 5.3,
+        "maximum": 10,
+        "zeroCount": 4
+      },
+      {
+        "q": 3,
+        "average": 4.6,
+        "maximum": 10,
+        "zeroCount": 3
+      },
+      {
+        "q": 4,
+        "average": 4.2,
+        "maximum": 10,
+        "zeroCount": 4
+      },
+      {
+        "q": 5,
+        "average": 3.8,
+        "maximum": 10,
+        "zeroCount": 6
+      },
+      {
+        "q": 6,
+        "average": 4.1,
+        "maximum": 10,
+        "zeroCount": 9
+      },
+      {
+        "q": 7,
+        "average": 3.9,
+        "maximum": 10,
+        "zeroCount": 11
+      },
+      {
+        "q": 8,
+        "average": 5.1,
+        "maximum": 6,
+        "zeroCount": 1
+      },
+      {
+        "q": 9,
+        "average": 4.7,
+        "maximum": 6,
+        "zeroCount": 0
+      },
+      {
+        "q": 10,
+        "average": 5,
+        "maximum": 6,
+        "zeroCount": 1
+      },
+      {
+        "q": 11,
+        "average": 5,
+        "maximum": 6,
+        "zeroCount": 1
+      },
+      {
+        "q": 12,
+        "average": 3.6,
+        "maximum": 6,
+        "zeroCount": 3
+      }
+    ],
+    "source": "Module_E_Grade11_18_Graded_Final.pdf",
+    "privacy": "Only aggregate marks; no names or student identifiers"
   }
 }
