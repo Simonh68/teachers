@@ -72,7 +72,7 @@ jobs:
               const file=pathToFileURL(path.resolve('grade11/module-e-more-than-books-detective/index.html')).href;
               await page.goto(file,{waitUntil:'domcontentloaded'});
               await page.waitForSelector('#counter');
-              await page.waitForTimeout(600);
+              await page.waitForTimeout(1500);
               await page.evaluate(()=>{
                 const root=document.getElementById('teachers-qr-remote-host')?.shadowRoot;
                 root?.getElementById('close')?.click();
@@ -134,7 +134,7 @@ jobs:
               await readPage.route('**/peerjs@**',route=>route.abort());
               await readPage.route('**/qrcodejs@**',route=>route.abort());
               await readPage.goto(file,{waitUntil:'domcontentloaded'});
-              await readPage.waitForTimeout(600);
+              await readPage.waitForTimeout(1500);
               await readPage.evaluate(()=>document.getElementById('teachers-qr-remote-host')?.shadowRoot?.getElementById('close')?.click());
               await readPage.locator('body > footer #next').click();
               await readPage.locator('body > footer #next').click();
@@ -194,7 +194,7 @@ jobs:
               await direct.route('**/peerjs@**',route=>route.abort());
               await direct.route('**/qrcodejs@**',route=>route.abort());
               await direct.goto(file,{waitUntil:'domcontentloaded'});
-              await direct.waitForTimeout(650);
+              await direct.waitForTimeout(1500);
               await direct.evaluate(()=>document.getElementById('teachers-qr-remote-host')?.shadowRoot?.getElementById('close')?.click());
               const directSwipe=await direct.evaluate(()=>{
                 const stage=document.getElementById('stage');
