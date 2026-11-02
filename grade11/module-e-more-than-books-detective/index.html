@@ -250,7 +250,7 @@ E('versionSelect').onchange=e=>{
  render();stage.scrollTop=0;
  const url=new URL(location.href);
  url.searchParams.set('version',version);
- history.replaceState(null,'',url.href);
+ if(location.protocol!=='file:')history.replaceState(null,'',url.href);
 };
 const urlVersion=new URLSearchParams(location.search).get('version');
 if(urlVersion&&versions[urlVersion]){version=urlVersion;E('versionSelect').value=version}
