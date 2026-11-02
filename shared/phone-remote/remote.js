@@ -23,6 +23,12 @@ h1{font:900 clamp(25px,4vw,32px) Arial;margin:0 0 14px;color:#fff2bd}p{font-size
 #link{width:100%;font:13px Arial;padding:10px;background:#081c2b;color:#e7ffff;border:1px solid #769bb1;border-radius:7px;direction:ltr;text-align:left}
 .counter{font:900 clamp(30px,9vw,48px) Arial,sans-serif;text-align:center;color:#ffe28e;margin:12px 0}.controls{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin:13px 0}.controls button{font-size:27px;min-height:85px}.controls .wide{grid-column:1/-1;min-height:58px;font-size:18px}
 .help{font-size:13px;opacity:.92}.title{font-size:15px;text-align:center;overflow-wrap:anywhere}#remote [data-conn]{text-align:center}.close{margin-inline-start:auto}
+#remote{touch-action:none;overscroll-behavior:contain;user-select:none;-webkit-user-select:none}
+#swipeZone{flex:1;min-height:clamp(110px,24dvh,300px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;border:2px dashed #77d8ed;border-radius:17px;background:linear-gradient(180deg,#174d69,#10334d);text-align:center;touch-action:none;cursor:ns-resize}
+#swipeZone .swipeIcon{font:900 clamp(45px,9vh,90px) Arial;color:#e4fa77;line-height:1}
+#swipeZone .swipeText{font:900 clamp(19px,4vw,26px) Arial;color:#fff}
+#swipeZone .swipeEnglish{font:700 15px Arial;color:#c5ecff;direction:ltr}
+@media(max-width:560px){#overlay:has(#remote:not([hidden])){padding:4px;overflow:hidden}#remote{display:flex;flex-direction:column;gap:3px;height:calc(100dvh - 8px);min-height:0;overflow:hidden;padding:12px}#remote h1{font-size:22px;margin:0}#remote .counter{font-size:28px;margin:2px 0}#remote .status{padding:6px;margin:3px 0;font-size:13px;min-height:28px}#remote .title{font-size:12px}#remote .controls{margin:5px 0;gap:6px}#remote .controls button{min-height:50px;font-size:21px}#remote .controls .wide{min-height:40px;font-size:14px}#remote .help{font-size:11px;margin:2px 0}#remote .row{margin-top:1px}#remote #reconnect{padding:5px 9px;font-size:12px;min-height:31px}#swipeZone{min-height:80px}}
 @media(max-width:560px){.panel{padding:17px}#qr{height:201px;width:201px}.controls button{min-height:95px}}
 </style>
 <button id="launch" type="button" title="שלט טלפון QR / QR phone controller">📱 QR / שלט</button>
@@ -42,6 +48,12 @@ h1{font:900 clamp(25px,4vw,32px) Arial;margin:0 0 14px;color:#fff2bd}p{font-size
   <h1 style="text-align:center">📱 שלט למצגת / Remote</h1>
   <div class="status" id="remote-status" role="status" data-conn>מחכה לאישור / Waiting for approval</div>
   <div class="counter" id="counter" dir="ltr">—</div><div class="title" id="deck-title"></div>
+  <div id="swipeZone" role="region" aria-label="החליקו למעלה לשקף הבא ולמטה לשקף הקודם / Swipe up for next slide, down for previous">
+    <div class="swipeIcon" aria-hidden="true">↑</div>
+    <div class="swipeText">החליקו למעלה לשקף הבא</div>
+    <div class="swipeEnglish">SWIPE UP · NEXT SLIDE</div>
+    <div class="swipeEnglish">↓ Swipe down · Previous slide</div>
+  </div>
   <div class="controls">
    <button id="previous" disabled>←<div style="font-size:15px">הקודם / Previous</div></button>
    <button id="next" disabled>→<div style="font-size:15px">הבא / Next</div></button>
@@ -258,16 +270,33 @@ for(const [id,action] of [["next","next"],["previous","previous"],["reveal","rev
  $(id).onclick=()=>{if(ctx.connected)send(ctx.channel,{type:"command",action});};
 $("reconnect").onclick=startPhone;
 let swipe=null;
-$("remote").addEventListener("touchstart",e=>{
- if(e.touches.length!==1||e.target.closest("button,input,a")){swipe=null;return;}
- swipe={x:e.touches[0].clientX,y:e.touches[0].clientY};
+let suppressClickUntil=0;
+const remotePanel=$("remote");
+remotePanel.addEventListener("touchstart",e=>{
+ if(e.touches.length!==1||e.target.closest("input,a,select")){swipe=null;return;}
+ const t=e.touches[0];
+ swipe={x:t.clientX,y:t.clientY};
 },{passive:true});
-$("remote").addEventListener("touchend",e=>{
- if(!swipe||e.changedTouches.length!==1)return;
- const dx=e.changedTouches[0].clientX-swipe.x,dy=e.changedTouches[0].clientY-swipe.y;swipe=null;
- if(ctx.connected&&Math.max(Math.abs(dx),Math.abs(dy))>=55)
-  send(ctx.channel,{type:"command",action:(Math.abs(dx)>Math.abs(dy)?dx:dy)<0?"next":"previous"});
-},{passive:true});
+remotePanel.addEventListener("touchmove",e=>{
+ if(!swipe||e.touches.length!==1)return;
+ const t=e.touches[0],dx=t.clientX-swipe.x,dy=t.clientY-swipe.y;
+ if(Math.abs(dy)>10&&Math.abs(dy)>Math.abs(dx)*1.15&&e.cancelable)e.preventDefault();
+},{passive:false});
+remotePanel.addEventListener("touchend",e=>{
+ const start=swipe;swipe=null;
+ if(!start||e.changedTouches.length!==1)return;
+ const t=e.changedTouches[0],dx=t.clientX-start.x,dy=t.clientY-start.y;
+ const vertical=Math.abs(dy)>=45&&Math.abs(dy)>=Math.abs(dx)*1.1;
+ const horizontal=!vertical&&Math.abs(dx)>=65&&Math.abs(dx)>Math.abs(dy)*1.35;
+ if(!vertical&&!horizontal)return;
+ suppressClickUntil=Date.now()+450;
+ if(e.cancelable)e.preventDefault();
+ if(ctx.connected)send(ctx.channel,{type:"command",action:(vertical?dy:dx)<0?"next":"previous"});
+},{passive:false});
+remotePanel.addEventListener("touchcancel",()=>{swipe=null;},{passive:true});
+remotePanel.addEventListener("click",e=>{
+ if(Date.now()<suppressClickUntil){e.preventDefault();e.stopImmediatePropagation();}
+},true);
 $("deck-title").textContent=document.title.slice(0,95);
 if(controller)startPhone();
 window.addEventListener("pagehide",reset);
