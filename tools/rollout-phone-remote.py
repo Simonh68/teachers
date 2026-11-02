@@ -83,7 +83,7 @@ def run(apply=False):
             compatible.append(path)
             if apply:
                 rel=os.path.relpath(REMOTE,file.parent).replace(os.sep,"/")
-                tag=f'<!-- Teachers QR remote · shared · auto-attached -->\n<script defer src="{rel}?v=20261101-1"></script>\n'
+                tag=f'<!-- Teachers QR remote · shared · auto-attached -->\n<script defer src="{rel}?v={VERSION}"></script>\n'
                 result,count=re.subn(r"</body\s*>",lambda match:tag+match.group(),txt,count=1,flags=re.I)
                 if count!=1:
                     # Two older, valid legacy decks use an implicit <body> and
