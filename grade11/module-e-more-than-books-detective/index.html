@@ -450,6 +450,9 @@ window.addEventListener('beforeunload',stopAudio);render();
  * No teacher login, no Firebase writes, and no student identifiers. */
 window.addEventListener('DOMContentLoaded',function(){
  if(new URLSearchParams(location.search).has('teacherRemote'))return;
+ // On a phone the slides open immediately for direct vertical swiping.
+ // The QR pairing dialog still auto-opens on the classroom computer.
+ if(window.matchMedia('(max-width: 830px)').matches)return;
  let attempts=0;
  const poll=setInterval(function(){
    const root=document.getElementById('teachers-qr-remote-host')?.shadowRoot;
