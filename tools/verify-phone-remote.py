@@ -48,7 +48,11 @@ def check_case(browser,name,path,counter_id):
         host.wait_for_function("Boolean(window.teachersPhoneRemote && document.querySelector('#teachers-qr-remote-host'))",timeout=15000)
         assert read_state(host)["role"]=="presenter"
         launch=host.locator(f"{SELECT} #launch")
-        launch.click(timeout=10000)
+        # The QR auto-opens on projector-sized screens. A manual click is
+        # needed only on decks or viewports where it has not yet opened.
+        host.wait_for_timeout(1200)
+        if host.locator(f"{SELECT} #overlay").get_attribute("hidden") is not None:
+            launch.click(timeout=10000)
         host.locator(f"{SELECT} #link").wait_for(timeout=15000)
         host.wait_for_function("""() => Boolean(document.querySelector('#teachers-qr-remote-host')?.shadowRoot?.getElementById('link')?.value)""",timeout=32000)
         link=host.locator(f"{SELECT} #link").input_value()
