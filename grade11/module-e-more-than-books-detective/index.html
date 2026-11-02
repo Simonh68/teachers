@@ -445,22 +445,6 @@ window.addEventListener('beforeunload',stopAudio);render();
 </script>
 <!-- Teachers QR remote · shared · auto-attached -->
 <script defer src="../../shared/phone-remote/remote.js?v=20261102-qrfix2"></script>
-<script>
-/* Present a bilingual phone-remote QR on the opening slide only.
- * No teacher login, no Firebase writes, and no student identifiers. */
-window.addEventListener('DOMContentLoaded',function(){
- if(new URLSearchParams(location.search).has('teacherRemote'))return;
- // On a phone the slides open immediately for direct vertical swiping.
- // The QR pairing dialog still auto-opens on the classroom computer.
- if(window.matchMedia('(max-width: 830px)').matches)return;
- let attempts=0;
- const poll=setInterval(function(){
-   const root=document.getElementById('teachers-qr-remote-host')?.shadowRoot;
-   const launch=root?.getElementById('launch');
-   if(launch){clearInterval(poll);if(!launch.hidden)launch.click();}
-   if(++attempts>60)clearInterval(poll);
- },250);
-});
-</script>
+
 </body>
 </html>
