@@ -45,7 +45,7 @@ jobs:
           for(const script of scripts)new vm.Script(script[2]);
           new vm.Script(fs.readFileSync('shared/phone-remote/remote.js','utf8'));
           assert(html.includes('shared/phone-remote/remote.js'));
-          assert(html.includes('teacherRemote'));
+          assert(fs.readFileSync('shared/phone-remote/remote.js','utf8').includes('teacherRemote'));
           assert(html.includes('function grammarSlide'));
           assert(html.includes('function buildSlide'));
           assert(html.includes('versionSelect'));
