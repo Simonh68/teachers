@@ -13,7 +13,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 REMOTE=ROOT/"shared/phone-remote/remote.js"
 MANIFEST=ROOT/"shared/phone-remote/rollout-manifest.json"
-VERSION="20261102-qrfix2"
+VERSION="20261102-qrfix3"
 PREF=("grade6/","grade7/","grade8/","grade9/","grade10/","grade11/","grade12/","seminar/","to-be/","first-course/","shared/lessons/","special/","standalone/")
 SKIP_BASENAMES={
  "teacher.html","teacher.en.html","teacher-guide.html","teacher-method.html",
@@ -74,7 +74,7 @@ def run(apply=False):
         if verdict=="enabled":
             enabled.append(path)
             if apply:
-                updated=txt.replace("?v=20261101-1", "?v="+VERSION)
+                updated=txt.replace("?v=20261101-1", "?v="+VERSION).replace("?v=20261102-qrfix2", "?v="+VERSION)
                 if updated!=txt:
                     file.write_text(updated,encoding="utf-8")
                     edited.append(path)
