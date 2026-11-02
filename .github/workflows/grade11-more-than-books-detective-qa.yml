@@ -188,6 +188,43 @@ jobs:
               assert.deepEqual(swipeResult.commands.map(x=>x.action),['next','previous']);
               assert(swipeResult.zoneLabel.includes('SWIPE UP'));
               await mobile.close();
+              // A phone showing the slides directly must also support vertical
+              // swipes. This is separate from the QR remote surface.
+              const direct=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
+              await direct.route('**/peerjs@**',route=>route.abort());
+              await direct.route('**/qrcodejs@**',route=>route.abort());
+              await direct.goto(file,{waitUntil:'domcontentloaded'});
+              await direct.waitForTimeout(650);
+              await direct.evaluate(()=>document.getElementById('teachers-qr-remote-host')?.shadowRoot?.getElementById('close')?.click());
+              const directSwipe=await direct.evaluate(()=>{
+                const stage=document.getElementById('stage');
+                function touch(type,y){
+                  const t=new Touch({identifier:2,target:stage,clientX:190,clientY:y,pageX:190,pageY:y,screenX:190,screenY:y});
+                  const event=new TouchEvent(type,{bubbles:true,cancelable:true,touches:type==='touchend'?[]:[t],
+                    targetTouches:type==='touchend'?[]:[t],changedTouches:[t]});
+                  stage.dispatchEvent(event);
+                }
+                const before=document.querySelector('body > footer #counter').textContent.trim();
+                touch('touchstart',540);touch('touchmove',330);touch('touchend',330);
+                const afterUp=document.querySelector('body > footer #counter').textContent.trim();
+                return {before,afterUp,touchAction:getComputedStyle(stage).touchAction};
+              });
+              assert.equal(directSwipe.before,'1 / 38');
+              assert.equal(directSwipe.afterUp,'2 / 38');
+              assert.equal(directSwipe.touchAction,'pan-x');
+              await direct.waitForTimeout(380);
+              await direct.evaluate(()=>{
+                const stage=document.getElementById('stage');
+                function touch(type,y){
+                  const t=new Touch({identifier:3,target:stage,clientX:190,clientY:y,pageX:190,pageY:y,screenX:190,screenY:y});
+                  stage.dispatchEvent(new TouchEvent(type,{bubbles:true,cancelable:true,
+                    touches:type==='touchend'?[]:[t],targetTouches:type==='touchend'?[]:[t],changedTouches:[t]}));
+                }
+                touch('touchstart',280);touch('touchmove',500);touch('touchend',500);
+              });
+              assert.equal((await direct.locator('body > footer #counter').textContent()).trim(),'1 / 38');
+              await direct.close();
+              console.log('DIRECT_SLIDE_SWIPE_QA_PASS: swipe up and down navigate the Grade 11 slide on a phone without QR');
               console.log('PHONE_SWIPE_QA_PASS: swipe up = next, down = previous; full-screen no-scroll gesture zone');
               console.log('BROWSER_DETECTIVE_QA_PASS: 38 slides, A-D answer keys, 10-word TTS chunks, visual phrase highlight, pause/resume and repeat');
 
