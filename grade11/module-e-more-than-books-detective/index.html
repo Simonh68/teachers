@@ -106,25 +106,170 @@ d.paras.forEach((p,i)=>{
 });
 slides.push({type:'summary'}, {type:'exit'});
 let index=0,reveal=0,utt=null,spoken=false,activeWords=[],bubbleTimeout=null;
-function stopAudio(){if('speechSynthesis' in window){window.speechSynthesis.cancel()}utt=null;spoken=false;activeWords.forEach(w=>w.classList.remove('now'));activeWords=[]}
+// Pedagogical phrase-by-phrase reading: one short utterance at a time.
+// The whole phrase stays highlighted; a single word glows when word boundaries are supported.
+let readingState=null,readingToken=0;
+function stopAudio(){
+ readingToken++;
+ if(readingState?.timer)clearTimeout(readingState.timer);
+ readingState=null;
+ if('speechSynthesis' in window)window.speechSynthesis.cancel();
+ utt=null;spoken=false;
+ activeWords.forEach(w=>w.classList.remove('now','inChunk'));
+ activeWords=[];
+ if(E('pause'))E('pause').textContent='⏸ השהה';
+}
 function prepareWords(t){
  const re=/\S+/g;let m,html='',pos=0;
- while((m=re.exec(t))!==null){html+=tr(t.slice(pos,m.index));const token=m[0];const clean=token.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g,'');let tip=d.glossary[clean]||'';
- html+='<span class="word" data-offset="'+m.index+'" '+(tip?'tabindex="0" data-tip="'+tr(tip)+'"':'')+'>'+tr(token)+'</span>';pos=m.index+token.length}
+ while((m=re.exec(t))!==null){
+   html+=tr(t.slice(pos,m.index));
+   const token=m[0],clean=token.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g,'');
+   const tip=d.glossary[clean]||'';
+   html+='<span class="word" data-offset="'+m.index+'" '+(tip?'tabindex="0" data-tip="'+tr(tip)+'"':'')+'>'+tr(token)+'</span>';
+   pos=m.index+token.length;
+ }
  return html+tr(t.slice(pos));
 }
-function showTip(text){if(!text)return;const tip=E('tip');tip.textContent=text;tip.style.display='block';clearTimeout(bubbleTimeout);bubbleTimeout=setTimeout(()=>tip.style.display='none',3200)}
+function showTip(text){
+ if(!text)return;
+ const tip=E('tip');tip.textContent=text;tip.style.display='block';
+ clearTimeout(bubbleTimeout);bubbleTimeout=setTimeout(()=>tip.style.display='none',3200);
+}
 stage.addEventListener('click',e=>{const t=e.target.closest('[data-tip]');if(t)showTip(t.getAttribute('data-tip'))});
 stage.addEventListener('focusin',e=>{const t=e.target.closest('[data-tip]');if(t)showTip(t.getAttribute('data-tip'))});
-function voiceForEnglish(){const voices=window.speechSynthesis.getVoices().filter(v=>v.lang&&v.lang.toLowerCase().startsWith('en'));return voices.find(v=>/david|guy|ryan|male|daniel|aaron|andrew|christopher/i.test(v.name))||voices.find(v=>/en-US/i.test(v.lang))||voices[0]||null}
-function playAudio(){const s=slides[index];if(s.type!=='read'||!('speechSynthesis' in window)){showTip('הקראה זמינה בשקופית של פסקה בדפדפן התומך בקול');return}
- stopAudio();const text=vt(d.paras[s.p].text);activeWords=Array.from(stage.querySelectorAll('.word'));utt=new SpeechSynthesisUtterance(text);utt.lang='en-US';utt.rate=Number(E('speed').value);utt.pitch=.95;const v=voiceForEnglish();if(v)utt.voice=v;
- utt.onboundary=e=>{if(e.name&&e.name!=='word')return;let target=0;for(let j=0;j<activeWords.length;j++){if(Number(activeWords[j].dataset.offset)<=e.charIndex)target=j;else break}activeWords.forEach((w,k)=>w.classList.toggle('now',k===target));};
- utt.onend=()=>{activeWords.forEach(w=>w.classList.remove('now'));spoken=false;};
- utt.onerror=()=>{activeWords.forEach(w=>w.classList.remove('now'));spoken=false;showTip('הקול בדפדפן אינו זמין כעת');};
- spoken=true;window.speechSynthesis.speak(utt);
+function voiceForEnglish(){
+ const voices=window.speechSynthesis.getVoices().filter(v=>v.lang&&v.lang.toLowerCase().startsWith('en'));
+ return voices.find(v=>/david|guy|ryan|male|daniel|aaron|andrew|christopher/i.test(v.name))||
+        voices.find(v=>/en-US/i.test(v.lang))||voices[0]||null;
 }
-function pauseAudio(){if(!('speechSynthesis' in window))return;if(window.speechSynthesis.paused){window.speechSynthesis.resume();E('pause').textContent='⏸ השהה'}else if(window.speechSynthesis.speaking){window.speechSynthesis.pause();E('pause').textContent='▶ המשך'}}
+function splitIntoTeachingChunks(text){
+ const words=[...text.matchAll(/\S+/g)].map(m=>({text:m[0],start:m.index,end:m.index+m[0].length}));
+ if(!words.length)return [];
+ const chunks=[];let begin=0;
+ for(let i=0;i<words.length;i++){
+   const count=i-begin+1,word=words[i].text,next=words[i+1]?.text||'';
+   const sentenceEnd=/[.!?]["')\]]?$/.test(word);
+   const clauseEnd=/[,;:]["')\]]?$/.test(word);
+   const nextConnector=/^(although|however|nevertheless|because|while|whereas|but|which|who|when|if|despite|rather|therefore|before|after|on)$/i.test(next);
+   const end=sentenceEnd||(count>=4&&clauseEnd)||(count>=5&&nextConnector)||count>=10||i===words.length-1;
+   if(!end)continue;
+   const part=words.slice(begin,i+1),start=part[0].start,finish=part[part.length-1].end;
+   chunks.push({
+     text:text.slice(start,finish),
+     start,end:finish,
+     wordStart:begin,wordEnd:i+1,
+     pauseMs:sentenceEnd?1150:clauseEnd?750:600
+   });
+   begin=i+1;
+ }
+ return chunks;
+}
+function highlightTeachingChunk(chunk,wordIndex=-1){
+ activeWords.forEach((w,i)=>{
+   w.classList.toggle('inChunk',i>=chunk.wordStart&&i<chunk.wordEnd);
+   w.classList.toggle('now',i===wordIndex);
+ });
+}
+function updateReadingStatus(text){
+ const el=E('chunkStatus');if(el)el.textContent=text;
+}
+function scheduleNextTeachingChunk(wait){
+ const state=readingState;if(!state)return;
+ state.waitRemaining=wait;
+ if(state.paused)return;
+ state.waitStarted=Date.now();
+ state.timer=setTimeout(()=>{
+   if(readingState!==state||state.paused)return;
+   state.timer=null;state.waitRemaining=0;
+   speakTeachingChunk();
+ },wait);
+}
+function speakTeachingChunk(){
+ const state=readingState;if(!state||state.paused)return;
+ if(state.index>=state.chunks.length){
+   updateReadingStatus('✓ ההקראה הסתיימה. אפשר לחזור על הפסקה.');
+   activeWords.forEach(w=>w.classList.remove('now','inChunk'));
+   spoken=false;readingState=null;return;
+ }
+ const chunk=state.chunks[state.index],token=readingToken;
+ highlightTeachingChunk(chunk);
+ updateReadingStatus('🔊 חלק '+(state.index+1)+' מתוך '+state.chunks.length+' · '+chunk.text);
+ const utterance=new SpeechSynthesisUtterance(chunk.text);
+ utt=utterance;utterance.lang='en-US';
+ utterance.rate=Number(E('speed').value);utterance.pitch=.95;
+ const voice=voiceForEnglish();if(voice)utterance.voice=voice;
+ utterance.onstart=()=>{
+   if(token!==readingToken||readingState!==state)return;
+   highlightTeachingChunk(chunk);
+ };
+ utterance.onboundary=e=>{
+   if(token!==readingToken||readingState!==state)return;
+   if(e.name&&e.name!=='word')return;
+   const char=e.charIndex,fullOffset=chunk.start+char;
+   let found=chunk.wordStart;
+   for(let j=chunk.wordStart;j<chunk.wordEnd;j++){
+     if(Number(activeWords[j]?.dataset.offset)<=fullOffset)found=j;
+     else break;
+   }
+   highlightTeachingChunk(chunk,found);
+ };
+ utterance.onend=()=>{
+   if(token!==readingToken||readingState!==state)return;
+   highlightTeachingChunk(chunk);
+   state.index++;
+   if(state.index>=state.chunks.length){
+     updateReadingStatus('✓ סיימנו את הפסקה · '+state.chunks.length+' קטעי קריאה');
+     activeWords.forEach(w=>w.classList.remove('now','inChunk'));
+     spoken=false;readingState=null;return;
+   }
+   updateReadingStatus('⏳ הפסקה לחשיבה · החלק הבא יואר מיד');
+   scheduleNextTeachingChunk(chunk.pauseMs);
+ };
+ utterance.onerror=e=>{
+   if(token!==readingToken||readingState!==state)return;
+   if(e.error==='interrupted'||e.error==='canceled')return;
+   stopAudio();showTip('ההקראה אינה זמינה כרגע בדפדפן');
+ };
+ window.speechSynthesis.speak(utterance);
+}
+function playAudio(startAt=0){
+ const s=slides[index];
+ if(s.type!=='read'||!('speechSynthesis' in window)){
+   showTip('הקראה זמינה רק בשקופית של פסקה ובדפדפן התומך בקול');return;
+ }
+ stopAudio();
+ const text=vt(d.paras[s.p].text);
+ activeWords=Array.from(stage.querySelectorAll('.word'));
+ const chunks=splitIntoTeachingChunks(text);
+ readingState={chunks,index:Math.max(0,Math.min(chunks.length-1,Number(startAt)||0)),paused:false,timer:null,waitRemaining:0,waitStarted:0};
+ spoken=true;
+ speakTeachingChunk();
+}
+function pauseAudio(){
+ const state=readingState;if(!state||!('speechSynthesis' in window))return;
+ if(!state.paused){
+   state.paused=true;
+   if(state.timer){
+     clearTimeout(state.timer);state.timer=null;
+     state.waitRemaining=Math.max(0,state.waitRemaining-(Date.now()-state.waitStarted));
+   }
+   if(window.speechSynthesis.speaking)window.speechSynthesis.pause();
+   E('pause').textContent='▶ המשך';
+   updateReadingStatus('⏸ מושהה · לחצו להמשך. החלק המואר נשאר על המסך.');
+ }else{
+   state.paused=false;
+   E('pause').textContent='⏸ השהה';
+   if(window.speechSynthesis.paused)window.speechSynthesis.resume();
+   else if(state.waitRemaining>0)scheduleNextTeachingChunk(state.waitRemaining);
+   else speakTeachingChunk();
+ }
+}
+function repeatTeachingChunk(){
+ if(slides[index].type!=='read')return;
+ const state=readingState;
+ const part=state?Math.min(state.index,state.chunks.length-1):0;
+ playAudio(part);
+}
 function goto(n){stopAudio();index=Math.max(0,Math.min(slides.length-1,n));reveal=0;render();stage.scrollTop=0}
 function advance(){const s=slides[index],max=s.type==='question'?3:s.type==='vocab'?2:s.type==='grammar'?3:s.type==='build'?3:0;if(reveal<max){reveal++;render();stage.scrollTop=0}else goto(index+1)}
 function opening(s){return '<div class="eyebrow">MODULE E · פותרים את המבחן בכיתה</div><h1 class="enTitle">MORE THAN<br>JUST BOOKS</h1><p class="lead">פסקה אחת → הבנת הרעיון → שאלות → מלכודות → תשובה מלאה.</p><div class="grid3"><div class="card big">5 פסקאות מוקראות</div><div class="card big">7 שאלות הבנה</div><div class="card big">5 שאלות אוצר מילים</div></div><p class="medium muted">גרסה נבחרת: '+version+'. כל גרסאות A–D מופיעות עם סדר האפשרויות המדויק של המבחן. סרקו את קוד ה־QR בתחילת המצגת כדי לשלוט מהטלפון.</p>'}
@@ -227,6 +372,7 @@ function render(){
  E('bar').style.width=((index+1)*100/slides.length)+'%';
  E('play').disabled=s.type!=='read';
  E('pause').disabled=s.type!=='read';
+ E('repeatPart').disabled=s.type!=='read';
  E('prev').disabled=index===0;
  E('next').disabled=index===slides.length-1;
  const max=s.type==='grammar'?3:s.type==='question'?3:s.type==='build'?3:s.type==='vocab'?2:s.type==='exit'?1:0;
@@ -243,7 +389,7 @@ E('reveal').onclick=()=>{
  const s=slides[index],max=s.type==='grammar'?3:s.type==='question'?3:s.type==='build'?3:s.type==='vocab'?2:s.type==='exit'?1:0;
  if(reveal<max){reveal++;render();stage.scrollTop=0}
 };
-E('play').onclick=playAudio;E('pause').onclick=pauseAudio;
+E('play').onclick=()=>playAudio();E('pause').onclick=pauseAudio;E('repeatPart').onclick=repeatTeachingChunk;
 E('versionSelect').onchange=e=>{
  stopAudio();version=e.target.value;reveal=0;
  Object.keys(vocabChoices).forEach(k=>delete vocabChoices[k]);
