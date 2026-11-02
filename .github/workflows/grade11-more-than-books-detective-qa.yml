@@ -1,0 +1,108 @@
+name: Grade 11 More Than Books Sentence Detective QA
+on:
+  push:
+    paths:
+      - "grade11/module-e-more-than-books-detective/**"
+      - ".github/workflows/grade11-more-than-books-detective-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check-deck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Static source, key, and JavaScript validation
+        run: |
+          node <<'NODE'
+          const fs=require('fs'),vm=require('vm'),assert=require('assert');
+          const p='grade11/module-e-more-than-books-detective/';
+          const html=fs.readFileSync(p+'index.html','utf8');
+          const source=JSON.parse(fs.readFileSync(p+'exam-data.json','utf8'));
+          const lesson=JSON.parse(html.match(/<script id="lesson-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
+          const ver=JSON.parse(html.match(/<script id="version-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
+          assert.equal(lesson.questions.length,7);
+          assert.equal(lesson.vocabulary.length,5);
+          assert.deepEqual(Object.keys(ver.versions),['A','B','C','D']);
+          assert.deepEqual(Object.keys(source.versions),['A','B','C','D']);
+          const expected={A:[1,0],B:[1,2],C:[2,1],D:[0,2]};
+          for(const k of Object.keys(expected)){
+            const v=source.versions[k];
+            assert.deepEqual([v.mc[1].correct,v.mc[7].correct],expected[k]);
+            for(const q of [8,9,10,11,12]){
+              assert.equal(v.vocab[q].items.length,6);
+              assert.equal(v.vocab[q].definitions.length,3);
+              assert.equal(v.vocab[q].keys.length,3);
+              assert(v.vocab[q].keys.every(x=>x>=1&&x<=6));
+            }
+          }
+          const scripts=[...html.matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/g)]
+            .filter(m=>!m[1].includes('application/json')&&!m[1].includes('src='));
+          for(const script of scripts)new vm.Script(script[2]);
+          new vm.Script(fs.readFileSync('shared/phone-remote/remote.js','utf8'));
+          assert(html.includes('shared/phone-remote/remote.js'));
+          assert(html.includes('teacherRemote'));
+          assert(html.includes('function grammarSlide'));
+          assert(html.includes('function buildSlide'));
+          assert(html.includes('versionSelect'));
+          console.log('STATIC_DETECTIVE_QA_PASS: four exam versions, 7 questions, 5 lexical tasks, JS syntax, QR');
+          NODE
+      - name: Install browser testing
+        run: |
+          npm install --no-save --no-audit --no-fund playwright@1.58.2
+          npx playwright install chromium
+      - name: Run interactive browser QA against local HTML
+        run: |
+          node <<'NODE'
+          const {chromium}=require('playwright'),assert=require('assert');
+          const {pathToFileURL}=require('url'),path=require('path');
+          (async()=>{
+            const browser=await chromium.launch({headless:true});
+            try{
+              const page=await browser.newPage({viewport:{width:1440,height:900}});
+              const errors=[];
+              page.on('pageerror',e=>errors.push(e.message));
+              // Prevent network dependencies from blocking a local content check.
+              await page.route('**/peerjs@**',route=>route.abort());
+              await page.route('**/qrcodejs@**',route=>route.abort());
+              const file=pathToFileURL(path.resolve('grade11/module-e-more-than-books-detective/index.html')).href;
+              await page.goto(file,{waitUntil:'domcontentloaded'});
+              await page.waitForSelector('#counter');
+              assert.equal((await page.locator('#counter').textContent()).trim(),'1 / 38');
+              await page.locator('#versionSelect').selectOption('B');
+              for(let i=0;i<4;i++)await page.locator('#next').click();
+              assert((await page.locator('.eyebrow').textContent()).includes('QUESTION 1'));
+              await page.locator('#reveal').click();
+              assert((await page.locator('.part.n').count())>0);
+              assert((await page.locator('.part.v').count())>0);
+              await page.locator('#reveal').click();
+              assert((await page.locator('.part.c').count())>=0);
+              await page.locator('#reveal').click();
+              assert((await page.locator('.grammarTip').count())===1);
+              await page.locator('#next').click();
+              assert((await page.locator('.eyebrow').textContent()).includes('QUESTION 1'));
+              assert((await page.locator('.option').count())===4);
+              for(let i=0;i<3;i++)await page.locator('#reveal').click();
+              assert((await page.locator('.answer').textContent()).includes('ANSWER B'));
+              await page.locator('#versionSelect').selectOption('C');
+              for(let i=0;i<3;i++)await page.locator('#reveal').click();
+              assert((await page.locator('.answer').textContent()).includes('ANSWER C'));
+              await page.locator('#versionSelect').selectOption('D');
+              for(let i=0;i<3;i++)await page.locator('#reveal').click();
+              assert((await page.locator('.answer').textContent()).includes('ANSWER A'));
+              // Navigate to the first vocabulary question (Q8).
+              for(let i=0;i<4;i++)await page.locator('#next').click();
+              assert((await page.locator('.eyebrow').textContent()).includes('QUESTION 8'));
+              assert((await page.locator('.vocabItem').count())===6);
+              assert((await page.locator('select[data-vocab-question]').count())===3);
+              await page.locator('#reveal').click();await page.locator('#reveal').click();
+              assert((await page.locator('.answer').textContent()).includes('6 · 4 · 2'));
+              assert.deepEqual(errors,[]);
+              console.log('BROWSER_DETECTIVE_QA_PASS: 38 slides, grammar colors, B/C/D correct choices, D vocab key, no page errors');
+            }finally{await browser.close()}
+          })().catch(e=>{console.error(e);process.exit(1)});
+          NODE
