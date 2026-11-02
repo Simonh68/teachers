@@ -192,6 +192,7 @@ function speakTeachingChunk(){
    spoken=false;readingState=null;return;
  }
  const chunk=state.chunks[state.index],token=readingToken;
+ state.lastSpokenIndex=state.index;
  highlightTeachingChunk(chunk);
  updateReadingStatus('🔊 חלק '+(state.index+1)+' מתוך '+state.chunks.length+' · '+chunk.text);
  const utterance=new SpeechSynthesisUtterance(chunk.text);
@@ -267,7 +268,7 @@ function pauseAudio(){
 function repeatTeachingChunk(){
  if(slides[index].type!=='read')return;
  const state=readingState;
- const part=state?Math.min(state.index,state.chunks.length-1):0;
+ const part=state?Math.max(0,state.lastSpokenIndex??state.index):0;
  playAudio(part);
 }
 function goto(n){stopAudio();index=Math.max(0,Math.min(slides.length-1,n));reveal=0;render();stage.scrollTop=0}
