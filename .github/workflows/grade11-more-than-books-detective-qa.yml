@@ -107,7 +107,59 @@ jobs:
               await page.locator('body > footer #reveal').click();await page.locator('body > footer #reveal').click();
               assert((await page.locator('.answer').textContent()).includes('6 · 4 · 2'));
               assert.deepEqual(errors,[]);
-              console.log('BROWSER_DETECTIVE_QA_PASS: 38 slides, grammar colors, B/C/D correct choices, D vocab key, no page errors');
+              // Mock the browser TTS engine so phrase boundaries, pauses, and
+              // visual highlighting can be tested deterministically in CI.
+              const readPage=await browser.newPage({viewport:{width:1440,height:900}});
+              const readErrors=[];
+              readPage.on('pageerror',e=>readErrors.push(e.message));
+              await readPage.addInitScript(()=>{
+                window.__spoken=[];
+                window.SpeechSynthesisUtterance=class {
+                  constructor(text){this.text=text;this.rate=1;this.pitch=1}
+                };
+                const speech={
+                  speaking:false,paused:false,getVoices:()=>[],
+                  speak(u){
+                    window.__spoken.push(u.text);
+                    this.speaking=true;
+                    u.onstart?.();
+                    setTimeout(()=>u.onboundary?.({name:'word',charIndex:0}),15);
+                    setTimeout(()=>{this.speaking=false;u.onend?.()},95);
+                  },
+                  cancel(){this.speaking=false;this.paused=false},
+                  pause(){this.paused=true},resume(){this.paused=false}
+                };
+                Object.defineProperty(window,'speechSynthesis',{configurable:true,value:speech});
+              });
+              await readPage.route('**/peerjs@**',route=>route.abort());
+              await readPage.route('**/qrcodejs@**',route=>route.abort());
+              await readPage.goto(file,{waitUntil:'domcontentloaded'});
+              await readPage.waitForTimeout(600);
+              await readPage.evaluate(()=>document.getElementById('teachers-qr-remote-host')?.shadowRoot?.getElementById('close')?.click());
+              await readPage.locator('body > footer #next').click();
+              await readPage.locator('body > footer #next').click();
+              assert((await readPage.locator('.para').count())===1);
+              await readPage.locator('#play').click();
+              assert((await readPage.locator('.word.inChunk').count())>=2);
+              assert((await readPage.locator('#chunkStatus').textContent()).includes('חלק 1 מתוך'));
+              const first=await readPage.evaluate(()=>window.__spoken[0]);
+              assert(first.split(/\s+/).length<=10,'First spoken phrase exceeds ten words');
+              await readPage.waitForTimeout(140);
+              await readPage.locator('#pause').click();
+              assert((await readPage.locator('#chunkStatus').textContent()).includes('מושהה'));
+              await readPage.waitForTimeout(950);
+              assert.equal((await readPage.evaluate(()=>window.__spoken.length)),1,'Pause did not stop next phrase');
+              await readPage.locator('#pause').click();
+              await readPage.waitForFunction(()=>window.__spoken.length>=2,null,{timeout:3000});
+              assert((await readPage.locator('.word.inChunk').count())>=2);
+              await readPage.locator('#repeatPart').click();
+              await readPage.waitForFunction(()=>window.__spoken.length>=3,null,{timeout:1500});
+              const repeated=await readPage.evaluate(()=>window.__spoken.slice(1,3));
+              assert.equal(repeated[0],repeated[1],'Repeat did not replay the highlighted phrase');
+              assert.deepEqual(readErrors,[]);
+              await readPage.close();
+              console.log('BROWSER_DETECTIVE_QA_PASS: 38 slides, A-D answer keys, 10-word TTS chunks, visual phrase highlight, pause/resume and repeat');
+
             }finally{await browser.close()}
           })().catch(e=>{console.error(e);process.exit(1)});
           NODE
