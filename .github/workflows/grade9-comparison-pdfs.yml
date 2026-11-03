@@ -1,0 +1,30 @@
+name: Build Grade 9 comparison worksheets PDFs
+on:
+  push:
+    paths:
+      - 'grade9/comparatives-workshop/worksheet-*.html'
+      - '.github/workflows/grade9-comparison-pdfs.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save playwright
+      - run: npx playwright install --with-deps chromium
+      - name: Render exactly two A4 PDFs
+        run: node grade9/comparatives-workshop/build-worksheets.cjs
+      - name: Commit generated PDFs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add grade9/comparatives-workshop/worksheet-he.pdf grade9/comparatives-workshop/worksheet-en.pdf
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish Grade 9 Hebrew-instruction PDF worksheets"
+            git push
+          fi
