@@ -68,29 +68,68 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded',init);
   else init();
 })();
-</script><script>
+</script><style>.readalong-current{background:#ffe071!important;color:#08233a!important;border-radius:3px;box-decoration-break:clone;-webkit-box-decoration-break:clone}.readalong-word{transition:background-color .08s}</style>
+<script>
 (() => {
- const btn=document.getElementById('narrate');
- if(!btn)return;
+ const btn=document.getElementById('narrate'), synth=window.speechSynthesis;
+ if(!btn||!synth)return;
  btn.style.cssText='background:#17647b;border:2px solid #9de9ef;white-space:nowrap';
- const synth=window.speechSynthesis;
- if(!synth){btn.disabled=true;btn.title='Speech synthesis unavailable in this browser';return;}
- let speaking=null;
- const reset=()=>{speaking=null;btn.textContent='🔊 Read';};
+ let session=0,segments=[],position=0,activeWord=null,timeout=null,paused=false,utterance=null;
+ const clearMark=()=>{if(activeWord)activeWord.classList.remove('readalong-current');activeWord=null;};
+ const reset=()=>{clearMark();btn.textContent='🔊 Read';};
+ const cancel=()=>{session++;clearTimeout(timeout);timeout=null;synth.cancel();segments=[];position=0;paused=false;reset();};
+ const wrapWords=(element)=>{
+   if(element.dataset.readalongPrepared)return;
+   const walker=document.createTreeWalker(element,NodeFilter.SHOW_TEXT);
+   const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+   for(const node of nodes){
+     if(!node.textContent.trim())continue;
+     const frag=document.createDocumentFragment();
+     for(const token of node.textContent.match(/\s+|[^\s]+/g)||[]){
+       if(/^\s+$/.test(token))frag.append(document.createTextNode(token));
+       else{const span=document.createElement('span');span.className='readalong-word';span.textContent=token;frag.append(span);}
+     }
+     node.replaceWith(frag);
+   }
+   element.dataset.readalongPrepared='1';
+ };
+ const build=(element)=>{
+   wrapWords(element);
+   const words=[...element.querySelectorAll('.readalong-word')];
+   const groups=[];let current=[];
+   for(const word of words){
+     current.push(word);
+     if(/[.!?;:]$/.test(word.textContent)){groups.push(current);current=[];}
+   }
+   if(current.length)groups.push(current);
+   return groups.map(words=>({words,text:words.map(w=>w.textContent).join(' '),pause:/[.!?]$/.test(words.at(-1).textContent)?620:330}));
+ };
+ const highlight=(word)=>{clearMark();activeWord=word;if(word)word.classList.add('readalong-current');};
+ const play=()=>{
+   if(position>=segments.length){reset();return;}
+   const id=session,part=segments[position],u=new SpeechSynthesisUtterance(part.text);
+   utterance=u;u.lang='en-US';u.rate=.78;
+   let last=-1;highlight(part.words[0]);
+   const offsets=[];let at=0;for(const w of part.words){offsets.push(at);at+=w.textContent.length+1;}
+   u.onboundary=e=>{
+     if(id!==session||e.name!=='word')return;
+     let index=0;for(let i=0;i<offsets.length;i++)if(offsets[i]<=e.charIndex)index=i;
+     if(index!==last){last=index;highlight(part.words[index]);}
+   };
+   u.onend=()=>{if(id!==session)return;clearMark();position++;if(position>=segments.length){reset();return;}timeout=setTimeout(()=>{timeout=null;if(id===session&&!paused)play();},part.pause);};
+   u.onerror=()=>{if(id===session)reset();};
+   synth.speak(u);btn.textContent='⏸ Pause';
+ };
  btn.addEventListener('click',()=>{
-   if(synth.speaking&&!synth.paused){synth.pause();btn.textContent='▶ Resume';return;}
-   if(synth.paused){synth.resume();btn.textContent='⏸ Pause';return;}
-   const active=document.querySelector('.slide.active');
-   const content=active?.querySelector('.reading, .quote, .question, .model-answer, .text-en');
-   const english=(content?.innerText||'').trim();
-   if(!english){btn.textContent='No text';setTimeout(reset,1200);return;}
-   synth.cancel();
-   speaking=new SpeechSynthesisUtterance(english);
-   speaking.lang='en-US';speaking.rate=.82;
-   speaking.onend=reset;speaking.onerror=reset;
-   synth.speak(speaking);btn.textContent='⏸ Pause';
+   if(paused){paused=false;if(synth.paused)synth.resume();else if(timeout===null)play();btn.textContent='⏸ Pause';return;}
+   if(synth.speaking||timeout!==null){paused=true;if(synth.speaking)synth.pause();if(timeout!==null){clearTimeout(timeout);timeout=null;}btn.textContent='▶ Resume';return;}
+   cancel();
+   const element=document.querySelector('.slide.active .reading, .slide.active .quote, .slide.active .question, .slide.active .model-answer, .slide.active .text-en');
+   if(!element){btn.textContent='No text';return;}
+   segments=build(element);position=0;if(segments.length)play();
  });
- document.addEventListener('visibilitychange',()=>{if(document.hidden){synth.cancel();reset();}});
+ new MutationObserver(()=>{if(!synth.speaking&&!segments.length)return;cancel();}).observe(document.getElementById('deck'),{subtree:true,attributes:true,attributeFilter:['class']});
+ document.addEventListener('visibilitychange',()=>{if(document.hidden)cancel();});
 })();
 </script><!-- Teachers QR remote · shared · auto-attached -->
 <script defer src="../../../shared/phone-remote/remote.js?v=20261102-qrfix3"></script>
