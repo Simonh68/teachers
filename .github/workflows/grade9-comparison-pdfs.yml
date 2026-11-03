@@ -1,6 +1,7 @@
 name: Build Grade 9 comparison worksheets PDFs
 on:
   push:
+    branches: [classroom/grade9]
     paths:
       - 'grade9/comparatives-workshop/worksheet-*.html'
       - 'grade9/comparatives-workshop/build-worksheets.cjs'
@@ -27,5 +28,5 @@ jobs:
           git add grade9/comparatives-workshop/worksheet-part1-he.pdf grade9/comparatives-workshop/worksheet-part1-en.pdf grade9/comparatives-workshop/worksheet-part2-he.pdf grade9/comparatives-workshop/worksheet-part2-en.pdf
           if ! git diff --cached --quiet; then
             git commit -m "Publish Grade 9 Hebrew-instruction PDF worksheets"
-            git push
+            git push origin HEAD:classroom/grade9
           fi
