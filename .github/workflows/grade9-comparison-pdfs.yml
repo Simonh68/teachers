@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'grade9/comparatives-workshop/worksheet-*.html'
+      - 'grade9/comparatives-workshop/build-worksheets.cjs'
       - '.github/workflows/grade9-comparison-pdfs.yml'
   workflow_dispatch:
 permissions:
