@@ -1,0 +1,29 @@
+name: Validate manifest migration staging
+on:
+  push:
+    branches: [architecture/manifest-publisher]
+    paths:
+      - 'architecture/**'
+      - 'tools/audit-staged-migration.py'
+      - 'tools/validate-grade-manifests.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Audit staged links and data
+        run: python tools/audit-staged-migration.py
+      - name: Check staged JavaScript syntax
+        run: |
+          node --check architecture/staging/site/app/loader.js
+          node --check architecture/staging/site/app/renderer.js
+      - name: Confirm no write credentials
+        run: |
+          ! grep -R -E 'git push|contents: write|pages: write' architecture/staging/site
