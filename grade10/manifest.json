@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "grade": 10,
+  "materials": [
+    {
+      "id": "legacy-001",
+      "title": "A Summer’s Reading · All Learning Materials",
+      "url": "grade10/group-a/a-summers-reading/materials/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-002",
+      "title": "The Road Not Taken · Writing Answers",
+      "url": "grade10/group-a/road-writing-minimum/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-003",
+      "title": "Count That Day Lost · Bagrut Revision",
+      "url": "grade10/group-a/count-that-day-lost-revision/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-004",
+      "title": "The Road Not Taken · Bagrut Revision",
+      "url": "grade10/group-a/the-road-not-taken-revision/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-005",
+      "title": "Count That Day Lost · George Eliot",
+      "url": "grade10/group-a/count-that-day-lost/?v=20261008-2",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-006",
+      "title": "50 Words in Context",
+      "url": "grade10/group-a/band3-50/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-007",
+      "title": "30 Useful Verbs for Essays",
+      "url": "grade11/essay-verbs/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-008",
+      "title": "The Road Not Taken · Writing Coach",
+      "url": "grade10/group-a/poem-writing-coach/?v=20260917",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-009",
+      "title": "Connectors",
+      "url": "grade10/connectors/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-010",
+      "title": "The Road Not Taken · Review",
+      "url": "grade10/group-a/the-road-not-taken-review/?v=20260910f",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-011",
+      "title": "Advanced Grammar",
+      "url": "grade11/five-units/advanced-grammar/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-012",
+      "title": "פתיחת השנה",
+      "url": "grade10/group-a/opening/",
+      "unit": "Other"
+    }
+  ]
+}
