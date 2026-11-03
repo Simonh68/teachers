@@ -15,12 +15,12 @@ window.TeacherReadAlongSpeech=class {
  for(const w of words){g.push(w);if(/[.!?;:]$/.test(w.textContent)){groups.push(g);g=[]}}if(g.length)groups.push(g);
  return groups.map(words=>({words,text:words.map(w=>w.textContent).join(' '),pause:/[.!?]$/.test(words.at(-1).textContent)?1000:450}));
  }
- play(){if(this.index>=this.parts.length){this.stop();return}const id=this.token,p=this.parts[this.index],u=new SpeechSynthesisUtterance(p.text);this.utterance=u;u.lang='en-US';u.rate=.75;this.wordIndex=0;this.boundarySeen=false;this.elapsed=0;this.started=performance.now();this.mark(p.words[0]);
+ play(){if(this.index>=this.parts.length){this.stop();return}const id=this.token,p=this.parts[this.index],u=new SpeechSynthesisUtterance(p.text);this.utterance=u;u.lang='en-US';u.rate=.75;this.wordIndex=0;this.boundarySeen=false;this.lastBoundary=0;this.elapsed=0;this.started=performance.now();this.mark(p.words[0]);
  const offsets=[];let at=0;for(const w of p.words){offsets.push(at);at+=w.textContent.length+1}
  const weights=p.words.map(w=>Math.max(1.5,w.textContent.replace(/[^a-z]/gi,'').length*.52));const total=weights.reduce((a,b)=>a+b,0);
  this.duration=Math.max(850,p.words.length*330,total*125)/u.rate;
- u.onboundary=e=>{if(id!==this.token||e.name!=='word')return;this.boundarySeen=true;let n=0;for(let i=0;i<offsets.length;i++)if(offsets[i]<=e.charIndex)n=i;this.wordIndex=n;this.mark(p.words[n])};
- this.progressTimer=setInterval(()=>{if(id!==this.token||this.paused||this.boundarySeen)return;const t=Math.min(1,(this.elapsed+performance.now()-this.started)/this.duration);let target=t*total,acc=0,n=0;for(let i=0;i<weights.length;i++){acc+=weights[i];if(target<acc){n=i;break}n=i}if(n!==this.wordIndex){this.wordIndex=n;this.mark(p.words[n])}},65);
+ u.onboundary=e=>{if(id!==this.token||e.name!=='word')return;this.boundarySeen=true;this.lastBoundary=performance.now();let n=0;for(let i=0;i<offsets.length;i++)if(offsets[i]<=e.charIndex)n=i;this.wordIndex=n;this.mark(p.words[n])};
+ this.progressTimer=setInterval(()=>{if(id!==this.token||this.paused||(this.boundarySeen&&performance.now()-this.lastBoundary<650))return;const t=Math.min(1,(this.elapsed+performance.now()-this.started)/this.duration);let target=t*total,acc=0,n=0;for(let i=0;i<weights.length;i++){acc+=weights[i];if(target<acc){n=i;break}n=i}if(n!==this.wordIndex){this.wordIndex=n;this.mark(p.words[n])}},65);
  u.onend=()=>{if(id!==this.token)return;clearInterval(this.progressTimer);this.progressTimer=null;this.mark(null);this.index++;if(this.index>=this.parts.length){this.stop();return}this.timer=setTimeout(()=>{this.timer=null;if(id===this.token&&!this.paused)this.play()},p.pause)};
  u.onerror=()=>{if(id===this.token)this.stop()};
  this.synth.speak(u);this.button.textContent='⏸ Pause';
