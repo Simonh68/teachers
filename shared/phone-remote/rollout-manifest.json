@@ -80,6 +80,7 @@
     "grade8/unit-2/australia/index.html",
     "grade8/unit-2/coober-pedy/index.html",
     "grade8/unit-2/lesson/index.html",
+    "grade8/unit2/life-in-different-places/index.html",
     "grade9/comparatives-workshop/deck.html",
     "grade9/comparatives-workshop/english.html",
     "grade9/comparatives-workshop/equality.html",
@@ -115,7 +116,7 @@
   "pending": [],
   "support_documents_excluded": 90,
   "counts": {
-    "enabled": 104,
+    "enabled": 105,
     "custom_existing": 2,
     "pending": 0
   },
@@ -199,6 +200,7 @@
     "grade8/unit-2/australia/index.html",
     "grade8/unit-2/coober-pedy/index.html",
     "grade8/unit-2/lesson/index.html",
+    "grade8/unit2/life-in-different-places/index.html",
     "grade9/comparatives-workshop/deck.html",
     "grade9/comparatives-workshop/english.html",
     "grade9/comparatives-workshop/equality.html",
