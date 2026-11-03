@@ -24,7 +24,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add grade9/comparatives-workshop/worksheet-part1.pdf grade9/comparatives-workshop/worksheet-part2.pdf
+          git add grade9/comparatives-workshop/worksheet-part1-he.pdf grade9/comparatives-workshop/worksheet-part1-en.pdf grade9/comparatives-workshop/worksheet-part2-he.pdf grade9/comparatives-workshop/worksheet-part2-en.pdf
           if ! git diff --cached --quiet; then
             git commit -m "Publish Grade 9 Hebrew-instruction PDF worksheets"
             git push
