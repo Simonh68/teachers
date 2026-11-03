@@ -1,5 +1,90 @@
 {
   "schemaVersion": 1,
   "grade": 12,
-  "materials": []
+  "materials": [
+    {
+      "id": "legacy-001",
+      "title": "Why Kids Can’t Put Down Their Phones",
+      "url": "grade12/english-speakers/winter-2023-phones/",
+      "unit": "speakers"
+    },
+    {
+      "id": "legacy-002",
+      "title": "Rewards for Helping at Home · For and Against",
+      "url": "grade12/english-speakers/rewards-at-home-essay/",
+      "unit": "speakers"
+    },
+    {
+      "id": "legacy-003",
+      "title": "Rewards for Helping at Home · One-sided Opinion",
+      "url": "grade12/english-speakers/rewards-at-home-one-sided/",
+      "unit": "speakers"
+    },
+    {
+      "id": "legacy-004",
+      "title": "Mastering Bagrut Reading Traps",
+      "url": "shared/lessons/bagrut-reading-traps/",
+      "unit": "speakers"
+    },
+    {
+      "id": "legacy-005",
+      "title": "Sentence Detective — Find the Noun, Follow the Logic",
+      "url": "grade12/four-units/sentence-detective/",
+      "unit": "four-units"
+    },
+    {
+      "id": "legacy-006",
+      "title": "📗 מדריך מחקרי למורה · 12 תרגילים, מהלך שיעור והסתייגויות",
+      "url": "grade12/four-units/sentence-detective/teacher-method.html",
+      "unit": "four-units"
+    },
+    {
+      "id": "legacy-007",
+      "title": "A Voice for Every Student",
+      "url": "grade12/four-units/module-c-school-radio/",
+      "unit": "four-units"
+    },
+    {
+      "id": "legacy-008",
+      "title": "PDF להדפסה · שאלון C",
+      "url": "grade12/four-units/module-c-school-radio/files/Module-C-School-Radio.pdf",
+      "unit": "four-units"
+    },
+    {
+      "id": "legacy-009",
+      "title": "Food-Sharing Apps: More Than a Cheap Meal",
+      "url": "grade12/four-units/module-e-food-sharing/",
+      "unit": "four-units"
+    },
+    {
+      "id": "legacy-010",
+      "title": "A Library of Tools",
+      "url": "grade12/four-units/module-c-perfect-trip/",
+      "unit": "four-units"
+    },
+    {
+      "id": "legacy-011",
+      "title": "Mastering Bagrut Reading Traps",
+      "url": "shared/lessons/bagrut-reading-traps/",
+      "unit": "four-units"
+    },
+    {
+      "id": "legacy-012",
+      "title": "Boost Simulation",
+      "url": "grade6/boost-simulation/",
+      "unit": "four-units"
+    },
+    {
+      "id": "legacy-013",
+      "title": "מדריך למורה · תמלילים ומפתח תשובות",
+      "url": "grade6/boost-simulation/teacher.html",
+      "unit": "four-units"
+    },
+    {
+      "id": "legacy-014",
+      "title": "4 Units English",
+      "url": "grade11/four-units/",
+      "unit": "four-units"
+    }
+  ]
 }
