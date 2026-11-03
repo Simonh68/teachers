@@ -1,6 +1,7 @@
 name: Grade 10 Summer Reading self-hosted photographs
 on:
   push:
+    branches: [classroom/grade10]
     paths:
       - 'grade10/group-a/a-summers-reading/assets-build.py'
       - '.github/workflows/grade10-summer-reading-media.yml'
@@ -42,5 +43,5 @@ jobs:
             echo 'Photos already current'
           else
             git commit -m 'Publish local Summer Reading photos for Grade 10'
-            git push origin HEAD:main
+            git push origin HEAD:classroom/grade10
           fi
