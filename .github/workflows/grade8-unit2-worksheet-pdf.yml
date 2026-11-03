@@ -1,26 +1,19 @@
 name: Grade 8 Unit 2 printable worksheet PDF
 on:
+  workflow_dispatch:
   push:
-    branches: [main]
+    branches: [classroom/grade8]
     paths:
       - 'grade8/unit-2/worksheet.html'
       - 'tools/build-grade8-unit2-pdf.py'
-      - '.github/workflows/grade8-unit2-worksheet-pdf.yml'
-  workflow_dispatch:
 permissions:
-  contents: write
-concurrency:
-  group: grade8-unit2-worksheet-pdf
-  cancel-in-progress: false
+  contents: read
 jobs:
   make-pdf:
     runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -30,18 +23,9 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Create and verify two A4 PDF pages
         run: python tools/build-grade8-unit2-pdf.py
-      - name: Publish printable PDF to Unit 2
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add grade8/unit-2/files/Grade8-Unit2-Australia-CooberPedy-Worksheet.pdf
-          if ! git diff --cached --quiet; then
-            git commit -m "Publish two-page printable Grade 8 Unit 2 worksheet PDF"
-            for attempt in 1 2 3 4 5; do
-              if git push origin HEAD:main; then exit 0; fi
-              git fetch origin main
-              git rebase origin/main || { git rebase --abort; exit 1; }
-            done
-            echo "Could not publish PDF" >&2
-            exit 1
-          fi
+      - name: Store generated PDF as build artifact, never push to main
+        uses: actions/upload-artifact@v4
+        with:
+          name: grade8-unit2-worksheet-pdf
+          path: grade8/unit-2/files/Grade8-Unit2-Australia-CooberPedy-Worksheet.pdf
+          if-no-files-found: error
