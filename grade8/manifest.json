@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "grade": 8,
+  "materials": [
+    {
+      "id": "legacy-001",
+      "title": "Australia & Coober Pedy · Full Lesson",
+      "url": "grade8/unit-2/lesson/",
+      "unit": "Unit 2"
+    },
+    {
+      "id": "legacy-002",
+      "title": "דף עבודה — אוסטרליה וקובר פדי",
+      "url": "grade8/unit-2/worksheet.html",
+      "unit": "Unit 2"
+    },
+    {
+      "id": "legacy-003",
+      "title": "דף העבודה PDF · 2 עמודים",
+      "url": "grade8/unit-2/files/Grade8-Unit2-Australia-CooberPedy-Worksheet.pdf",
+      "unit": "Unit 2"
+    },
+    {
+      "id": "legacy-004",
+      "title": "למורה: תסריט שיעור ומפתח תשובות",
+      "url": "grade8/unit-2/teacher-guide.html",
+      "unit": "Unit 2"
+    },
+    {
+      "id": "legacy-005",
+      "title": "Australia and Coober Pedy — All Unit 2 Materials",
+      "url": "grade8/unit-2/",
+      "unit": "Unit 2"
+    },
+    {
+      "id": "legacy-006",
+      "title": "Australia: Opposite Seasons and Different Climates",
+      "url": "grade8/unit-2/australia/?view=sentences",
+      "unit": "Unit 2"
+    },
+    {
+      "id": "legacy-007",
+      "title": "Coober Pedy: The Town Under the Ground",
+      "url": "grade8/unit-2/coober-pedy/?view=sentences",
+      "unit": "Unit 2"
+    },
+    {
+      "id": "legacy-008",
+      "title": "The Monkey Festival · First English Test",
+      "url": "https://drive.google.com/file/d/12aFUDo9M8T_nPf9aF02Mk-x4wQlsIF0P/view",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-009",
+      "title": "Simple Tenses — Class Challenge",
+      "url": "grade8/simple-tenses-challenge/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-010",
+      "title": "Simple Tenses — Printable Worksheet",
+      "url": "grade8/simple-tenses-worksheet/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-011",
+      "title": "Simple & Continuous Tenses — Interactive",
+      "url": "grade8/simple-tenses/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-012",
+      "title": "Unit 1 · The Monkey Festival",
+      "url": "grade8/unit-1/",
+      "unit": "Unit 1"
+    },
+    {
+      "id": "legacy-013",
+      "title": "Core II · Groups 21–22 + The Monkey Festival · Part One",
+      "url": "grade8/exam-01-preparation/?v=20260917b",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-014",
+      "title": "The Monkey Festival",
+      "url": "grade8/monkey-festival/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-015",
+      "title": "פתיחת השנה · New Directions",
+      "url": "grade8/opening/",
+      "unit": "Other"
+    }
+  ]
+}
