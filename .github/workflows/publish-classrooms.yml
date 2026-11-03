@@ -1,0 +1,54 @@
+name: Assemble and publish independent classroom branches
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/15 * * * *'
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: teachers-pages-publication
+  cancel-in-progress: false
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout stable public shell
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: base
+          persist-credentials: false
+      - name: Checkout grade branches
+        shell: bash
+        run: |
+          set -euo pipefail
+          for n in 7 8 9 10 11 12; do
+            git clone --quiet --depth 1 --branch "classroom/grade${n}" "https://github.com/${{ github.repository }}.git" "sources/grade${n}"
+          done
+      - name: Assemble site without merging histories
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p public/data
+          cp -a base/. public/
+          rm -rf public/.git public/.github
+          for n in 7 8 9 10 11 12; do
+            test -f "sources/grade${n}/grade${n}/manifest.json"
+            cp "sources/grade${n}/grade${n}/manifest.json" "public/data/grade${n}.json"
+            rsync -a --exclude manifest.json --exclude '.git' "sources/grade${n}/grade${n}/" "public/grade${n}/"
+          done
+          python3 base/tools/validate-publication.py public
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload verified site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy site
+        id: deployment
+        uses: actions/deploy-pages@v4
