@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "grade": 11,
+  "materials": [
+    {
+      "id": "legacy-001",
+      "title": "Sentence Detective — More Than Just Books",
+      "url": "grade11/module-e-more-than-books-detective/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-002",
+      "title": "מדריך למורה · מפתח ארבע הגרסאות · דגשי תחביר",
+      "url": "grade11/module-e-more-than-books-detective/teacher-guide.html",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-003",
+      "title": "המבחן המקורי PDF",
+      "url": "https://drive.google.com/file/d/1zMe2DLTLu2peG1lX-zHtCaPBsAxxtloZ/view",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-004",
+      "title": "Sentence Detective — Module E Advanced",
+      "url": "grade11/module-e-sentence-detective/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-005",
+      "title": "מדריך למורה · תסריט הוראה מחקרי ומפתח 32 תשובות",
+      "url": "grade11/module-e-sentence-detective/teacher-guide.html",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-006",
+      "title": "פתרון המתכונת — More Than Just Books",
+      "url": "grade11/module-e-more-than-books-review/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-007",
+      "title": "חומר למתכונת",
+      "url": "https://drive.google.com/file/d/1zMe2DLTLu2peG1lX-zHtCaPBsAxxtloZ/view?usp=drivesdk",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-008",
+      "title": "List A — 50 Advanced Bagrut Matching Questions",
+      "url": "https://simonh68.github.io/module-e-vocab/list-a-hard-50.html",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-009",
+      "title": "More Than an Old School Bag",
+      "url": "grade11/module-e-museum-bag/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-010",
+      "title": "PDF להדפסה · שאלון E · סט 2",
+      "url": "grade11/module-e-museum-bag/files/Module-E-Museum-Bag.pdf",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-011",
+      "title": "A Bank That Uses Time",
+      "url": "grade11/module-e-time-bank/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-012",
+      "title": "PDF להדפסה · שאלון E",
+      "url": "grade11/module-e-time-bank/files/Module-E-Time-Bank.pdf",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-013",
+      "title": "Mastering Bagrut Reading Traps",
+      "url": "shared/lessons/bagrut-reading-traps/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-014",
+      "title": "School Volunteering",
+      "url": "grade11/school-volunteering-essay/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-015",
+      "title": "The Right Age for a Smartphone",
+      "url": "grade11/smartphone-age-essay/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-016",
+      "title": "30 Useful Verbs for Essays",
+      "url": "grade11/essay-verbs/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-017",
+      "title": "Grammar in an Essay",
+      "url": "grade11/grammar-in-an-essay/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-018",
+      "title": "Connectors",
+      "url": "grade11/connectors/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-019",
+      "title": "Advanced Grammar",
+      "url": "grade11/five-units/advanced-grammar/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-020",
+      "title": "פתיחת השנה",
+      "url": "grade11/five-units/opening/",
+      "unit": "Other"
+    }
+  ]
+}
