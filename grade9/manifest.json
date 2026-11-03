@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "grade": 9,
+  "materials": [
+    {
+      "id": "legacy-001",
+      "title": "Comparatives + Superlatives · 55 שקפים",
+      "url": "grade9/comparatives-workshop/part1.html?lang=he",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-002",
+      "title": "English Only",
+      "url": "grade9/comparatives-workshop/part1.html?lang=en",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-003",
+      "title": "דף עבודה בעברית",
+      "url": "grade9/comparatives-workshop/worksheet-part1-he.html",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-004",
+      "title": "English worksheet",
+      "url": "grade9/comparatives-workshop/worksheet-part1-en.html",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-005",
+      "title": "as ... as + not as ... as · 50 שקפים",
+      "url": "grade9/comparatives-workshop/part2.html?lang=he",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-006",
+      "title": "English Only",
+      "url": "grade9/comparatives-workshop/part2.html?lang=en",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-007",
+      "title": "דף עבודה בעברית",
+      "url": "grade9/comparatives-workshop/worksheet-part2-he.html",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-008",
+      "title": "English worksheet",
+      "url": "grade9/comparatives-workshop/worksheet-part2-en.html",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-009",
+      "title": "New York City — Five Boroughs · Unseen Solutions",
+      "url": "grade9/nyc-five-boroughs/solutions/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-010",
+      "title": "New York City — Five Boroughs · Interactive Review",
+      "url": "grade9/nyc-five-boroughs/review/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-011",
+      "title": "New York City — One City, Five Boroughs · Unseen",
+      "url": "grade9/nyc-five-boroughs/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-012",
+      "title": "Present Perfect — From Past to Now",
+      "url": "grade9/present-perfect-discovery/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-013",
+      "title": "A Message, a Mistake, and a Friendship — Exam Review",
+      "url": "grade9/exam-review-2026/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-014",
+      "title": "▶ פתיחת המצגת — משפט ותרגום",
+      "url": "grade9/george-special-message/?view=sentences",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-015",
+      "title": "📖 קריאה בפסקאות",
+      "url": "grade9/george-special-message/?view=chunks",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-016",
+      "title": "הכנה למבחן על הטקסט: איך עובדים בחוברת?",
+      "url": "grade9/message-worksheet-guide/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-017",
+      "title": "The Message Without a Voice · Worksheets",
+      "url": "grade9/message-worksheet-guide/files/Grade9-The-Message-Without-a-Voice-Worksheets.pdf",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-018",
+      "title": "The Message Without a Voice · Part A",
+      "url": "grade9/message-reading/part-a/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-019",
+      "title": "The Message Without a Voice · Part B",
+      "url": "grade9/message-reading/part-b/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-020",
+      "title": "Simple & Continuous Tenses",
+      "url": "grade9/simple-tenses/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-021",
+      "title": "Unit 1 · Communication & Human Connection",
+      "url": "grade9/unit-1/",
+      "unit": "Unit 1"
+    },
+    {
+      "id": "legacy-022",
+      "title": "The Message Without a Voice · Practice",
+      "url": "grade9/message-exam-practice/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-023",
+      "title": "דף עבודה PDF",
+      "url": "grade9/message-exam-practice/files/message-exam-practice.pdf",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-024",
+      "title": "תסריט ומפתח תשובות",
+      "url": "grade9/message-exam-practice/teacher.html",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-025",
+      "title": "Connectors",
+      "url": "grade9/connectors/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-026",
+      "title": "The Message Without a Voice",
+      "url": "grade9/the-message-without-a-voice/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-027",
+      "title": "פתיחת השנה ואתר הלמידה",
+      "url": "grade9/",
+      "unit": "Other"
+    }
+  ]
+}
