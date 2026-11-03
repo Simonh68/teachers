@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>חומרי הוראה · תצוגת ניסיון 2</title>
+<style>
+:root{color-scheme:dark;--bg:#06101d;--panel:#0d2032;--cyan:#53e4ff;--lime:#dfff5b;--text:#f4f8ff;--muted:#adc1d4}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0,#17678255,transparent 38%),var(--bg);font:16px Arial,"Segoe UI",sans-serif;color:var(--text)}
+header{border-bottom:1px solid #2d475a;background:#071322e8;position:sticky;top:0;z-index:2}.bar{max-width:1260px;margin:auto;padding:20px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+h1{margin:0;font-size:clamp(24px,3vw,38px)}.preview{color:#ffe58a;border:1px solid #8c793f;border-radius:30px;padding:8px 12px;font-weight:bold;font-size:13px}
+.layout{max-width:1260px;margin:auto;display:grid;grid-template-columns:210px 1fr;gap:26px;padding:25px 20px}
+nav{display:grid;gap:9px;align-content:start;position:sticky;top:110px;height:max-content}button{font:inherit;cursor:pointer}
+.grade{border:1px solid #29445b;background:#0d2132;color:#d2e5f5;padding:16px;border-radius:12px;font-weight:700;text-align:right}
+.grade.active{background:linear-gradient(130deg,#53e4ff,#a4f2db);color:#041522}
+.toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:18px 0 22px}
+input,select{background:#10273c;border:1px solid #3b627d;border-radius:10px;color:white;padding:12px;font:inherit;max-width:100%}
+input{flex:1;min-width:180px}select{min-width:140px}
+#materials{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:15px}
+.card{border:1px solid #2c4d65;border-radius:19px;background:linear-gradient(140deg,#102b40,#0c1b2b);padding:23px;display:flex;flex-direction:column;gap:12px;min-height:210px}
+.card h3{margin:0;font-size:23px;line-height:1.3;overflow-wrap:anywhere}.card p{margin:0;color:var(--muted);line-height:1.5}
+.tag{color:var(--cyan);font-size:12px;font-weight:bold}.card a{color:#071726;background:var(--lime);padding:11px 16px;border-radius:9px;text-decoration:none;font-weight:bold;align-self:start;margin-top:auto}
+.status{color:#b9d2e2;min-height:24px}.sub{color:var(--muted)}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #ffe58a}
+@media(max-width:700px){.layout{grid-template-columns:1fr}.bar{padding:14px}.layout{padding:15px}nav{position:static;display:grid;grid-template-columns:repeat(3,1fr)}.grade{text-align:center;padding:12px 5px;font-size:14px}}
+</style></head>
+<body><header><div class="bar"><div><h1>חומרי הוראה · דף הבית החדש</h1><div class="sub">English for Noar · Teachers</div></div><div class="preview">תצוגת ניסיון · index2.html</div></div></header>
+<div class="layout"><nav id="grades" aria-label="בחר כיתה"></nav><main><h2 id="heading">כיתה ז׳</h2><p class="sub">הדף נטען מקובץ נתונים נפרד לכל כיתה. האתר הראשי לא השתנה.</p><div class="toolbar"><input id="search" type="search" placeholder="חיפוש חומר לימוד..." aria-label="חיפוש חומר לימוד"><select id="unit" aria-label="סינון לפי יחידה"><option value="">כל היחידות</option></select></div><p id="status" class="status" role="status" aria-live="polite"></p><section id="materials" aria-label="חומרי הלימוד"></section></main></div>
+<script>
+const names={grade7:"כיתה ז׳",grade8:"כיתה ח׳",grade9:"כיתה ט׳",grade10:"כיתה י׳",grade11:"כיתה י״א",grade12:"כיתה י״ב"};
+const grades=document.getElementById("grades"),materials=document.getElementById("materials"),status=document.getElementById("status"),heading=document.getElementById("heading"),search=document.getElementById("search"),unit=document.getElementById("unit");
+let active="grade8",items=[],seq=0;
+function el(tag,text,cls){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e}
+function safeLink(path){const u=new URL(path,location.href);if(!["http:","https:"].includes(u.protocol))throw Error("invalid link");return u.href}
+function render(){const q=search.value.trim().toLocaleLowerCase(),selected=unit.value;const filtered=items.filter(x=>(!selected||x.unit===selected)&&(!q||(x.title+" "+(x.description||"")+" "+x.unit).toLocaleLowerCase().includes(q)));const frag=document.createDocumentFragment();for(const x of filtered){const card=el("article",undefined,"card");card.append(el("span",x.unit,"tag"),el("h3",x.title));if(x.description)card.append(el("p",x.description));try{const a=el("a","פתיחת חומר הלימוד");a.href=safeLink(x.url);if(a.origin!==location.origin){a.target="_blank";a.rel="noopener noreferrer"}card.append(a)}catch(e){card.append(el("p","קישור לא תקין"))}frag.append(card)}materials.replaceChildren(frag);status.textContent=filtered.length+" חומרים מוצגים מתוך "+items.length}
+async function selectGrade(g){if(!(g in names))g="grade8";active=g;const current=++seq;heading.textContent=names[g];for(const b of grades.children)b.classList.toggle("active",b.dataset.grade===g);status.textContent="טוען נתונים…";materials.replaceChildren();try{const r=await fetch("./preview-data/"+g+".json",{cache:"no-cache"});if(!r.ok)throw Error("HTTP "+r.status);const d=await r.json();if(d.grade!==Number(g.slice(5))||!Array.isArray(d.materials))throw Error("Invalid data");if(current!==seq)return;items=d.materials;search.value="";unit.replaceChildren(new Option("כל היחידות",""));for(const name of [...new Set(items.map(x=>x.unit))])unit.add(new Option(name,name));render()}catch(e){if(current!==seq)return;status.textContent="שגיאה בטעינת הכיתה: "+e.message;const retry=el("button","נסה שוב","grade");retry.addEventListener("click",()=>selectGrade(g));materials.replaceChildren(retry)}}
+for(const g of Object.keys(names)){const b=el("button",names[g],"grade");b.dataset.grade=g;b.addEventListener("click",()=>{location.hash=g});grades.append(b)}
+search.addEventListener("input",render);unit.addEventListener("change",render);
+window.addEventListener("hashchange",()=>selectGrade(location.hash.slice(1)));selectGrade(location.hash.slice(1)||"grade8");
+</script></body></html>
