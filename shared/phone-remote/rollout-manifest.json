@@ -81,6 +81,7 @@
     "grade8/unit-2/coober-pedy/index.html",
     "grade8/unit-2/lesson/index.html",
     "grade9/comparatives-workshop/deck.html",
+    "grade9/comparatives-workshop/english.html",
     "grade9/comparatives-workshop/equality.html",
     "grade9/comparatives-workshop/hebrew.html",
     "grade9/comparatives-workshop/inequality.html",
@@ -110,9 +111,9 @@
     "grade12/four-units/sentence-detective/index.html"
   ],
   "pending": [],
-  "support_documents_excluded": 81,
+  "support_documents_excluded": 82,
   "counts": {
-    "enabled": 101,
+    "enabled": 102,
     "custom_existing": 2,
     "pending": 0
   },
@@ -197,6 +198,7 @@
     "grade8/unit-2/coober-pedy/index.html",
     "grade8/unit-2/lesson/index.html",
     "grade9/comparatives-workshop/deck.html",
+    "grade9/comparatives-workshop/english.html",
     "grade9/comparatives-workshop/equality.html",
     "grade9/comparatives-workshop/hebrew.html",
     "grade9/comparatives-workshop/inequality.html",
