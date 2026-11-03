@@ -85,6 +85,7 @@
     "grade9/comparatives-workshop/equality.html",
     "grade9/comparatives-workshop/hebrew.html",
     "grade9/comparatives-workshop/inequality.html",
+    "grade9/comparatives-workshop/part1.html",
     "grade9/comparatives-workshop/superlatives.html",
     "grade9/connectors/index.html",
     "grade9/exam-review-2026/index.html",
@@ -113,7 +114,7 @@
   "pending": [],
   "support_documents_excluded": 83,
   "counts": {
-    "enabled": 102,
+    "enabled": 103,
     "custom_existing": 2,
     "pending": 0
   },
@@ -202,6 +203,7 @@
     "grade9/comparatives-workshop/equality.html",
     "grade9/comparatives-workshop/hebrew.html",
     "grade9/comparatives-workshop/inequality.html",
+    "grade9/comparatives-workshop/part1.html",
     "grade9/comparatives-workshop/superlatives.html",
     "grade9/connectors/index.html",
     "grade9/exam-review-2026/index.html",
