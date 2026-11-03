@@ -203,6 +203,46 @@ buttons.forEach(btn=>btn.addEventListener('click',()=>{history.pushState(null,''
 window.addEventListener('hashchange',()=>showGrade(location.hash.slice(1)));
 window.addEventListener('popstate',()=>showGrade(location.hash.slice(1)));
 showGrade(location.hash.slice(1));
+/* Dynamic classroom manifests. Existing HTML is retained as an offline/failure fallback. */
+(async function initializeClassroomManifests(){
+  const gradeIds=['grade7','grade8','grade9','grade10','grade11','grade12'];
+  const fetched=await Promise.allSettled(gradeIds.map(async grade=>{
+    let response=await fetch('data/'+grade+'.json',{cache:'no-cache'});
+    if(!response.ok)response=await fetch('preview-data/'+grade+'.json',{cache:'no-cache'});
+    if(!response.ok)throw Error('No manifest for '+grade);
+    const payload=await response.json();
+    if(payload.schemaVersion!==1||payload.grade!==Number(grade.slice(5))||!Array.isArray(payload.materials)||!payload.materials.length)throw Error('Invalid manifest');
+    return {grade,materials:payload.materials};
+  }));
+  const replacements=new Map();
+  for(const result of fetched){
+    if(result.status!=='fulfilled'){console.warn('Keeping original classroom content:',result.reason);continue;}
+    const {grade,materials}=result.value;
+    const groups=grade==='grade12'
+      ? [['grade12speakers',materials.filter(item=>item.unit==='speakers')],['grade12four',materials.filter(item=>item.unit!=='speakers')]]
+      : [[grade,materials]];
+    for(const [id,entries] of groups){
+      if(!entries.length)continue;
+      const panel=document.getElementById(id);if(!panel)continue;
+      const fragment=document.createDocumentFragment();
+      for(const item of entries){
+        if(!item||typeof item.title!=='string'||typeof item.url!=='string'||typeof item.unit!=='string')continue;
+        let url;try{url=new URL(item.url,location.href);if(!['http:','https:'].includes(url.protocol))continue;}catch{continue;}
+        const card=document.createElement('a');card.className='material';card.href=url.href;
+        if(url.origin!==location.origin){card.target='_blank';card.rel='noopener noreferrer';}
+        const content=document.createElement('div'),tag=document.createElement('span'),heading=document.createElement('h3'),desc=document.createElement('p'),arrow=document.createElement('span');
+        tag.className='tag';tag.textContent=item.unit;
+        heading.textContent=item.title;heading.dir='auto';
+        desc.textContent=item.description||'פתיחת חומר הלימוד';
+        arrow.className='arrow';arrow.textContent='←';
+        content.append(tag,heading,desc);card.append(content,arrow);fragment.append(card);
+      }
+      if(fragment.childNodes.length)replacements.set(panel,fragment);
+    }
+  }
+  for(const [panel,fragment] of replacements)panel.replaceChildren(fragment);
+  showGrade(location.hash.slice(1));
+})();
 </script>
 </body>
 </html>
