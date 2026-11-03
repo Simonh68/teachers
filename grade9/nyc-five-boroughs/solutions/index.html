@@ -128,7 +128,7 @@
    if(!element){btn.textContent='No text';return;}
    segments=build(element);position=0;if(segments.length)play();
  });
- new MutationObserver(()=>{if(!synth.speaking&&!segments.length)return;cancel();}).observe(document.getElementById('deck'),{subtree:true,attributes:true,attributeFilter:['class']});
+ new MutationObserver(changes=>{if(changes.some(change=>change.target.classList?.contains('slide')) && (synth.speaking||segments.length))cancel();}).observe(document.getElementById('deck'),{subtree:true,attributes:true,attributeFilter:['class']});
  document.addEventListener('visibilitychange',()=>{if(document.hidden)cancel();});
 })();
 </script><!-- Teachers QR remote · shared · auto-attached -->
