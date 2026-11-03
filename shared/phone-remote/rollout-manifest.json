@@ -80,6 +80,7 @@
     "grade8/unit-2/australia/index.html",
     "grade8/unit-2/coober-pedy/index.html",
     "grade8/unit-2/lesson/index.html",
+    "grade9/comparatives-workshop/deck.html",
     "grade9/comparatives-workshop/index.html",
     "grade9/connectors/index.html",
     "grade9/exam-review-2026/index.html",
@@ -108,7 +109,7 @@
   "pending": [],
   "support_documents_excluded": 80,
   "counts": {
-    "enabled": 97,
+    "enabled": 98,
     "custom_existing": 2,
     "pending": 0
   },
@@ -192,6 +193,7 @@
     "grade8/unit-2/australia/index.html",
     "grade8/unit-2/coober-pedy/index.html",
     "grade8/unit-2/lesson/index.html",
+    "grade9/comparatives-workshop/deck.html",
     "grade9/comparatives-workshop/index.html",
     "grade9/connectors/index.html",
     "grade9/exam-review-2026/index.html",
