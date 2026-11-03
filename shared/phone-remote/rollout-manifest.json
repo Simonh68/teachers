@@ -4,6 +4,7 @@
   "central_runtime": "shared/phone-remote/remote.js",
   "enabled_shared": [
     "grade10/connectors/index.html",
+    "grade10/group-a/a-summers-reading/exam-revision/index.html",
     "grade10/group-a/a-summers-reading/index.html",
     "grade10/group-a/a-summers-reading/part1/index.html",
     "grade10/group-a/a-summers-reading/readalong/index.html",
@@ -116,12 +117,13 @@
   "pending": [],
   "support_documents_excluded": 91,
   "counts": {
-    "enabled": 105,
+    "enabled": 106,
     "custom_existing": 2,
     "pending": 0
   },
   "rollout_paths": [
     "grade10/connectors/index.html",
+    "grade10/group-a/a-summers-reading/exam-revision/index.html",
     "grade10/group-a/a-summers-reading/index.html",
     "grade10/group-a/a-summers-reading/part1/index.html",
     "grade10/group-a/a-summers-reading/readalong/index.html",
