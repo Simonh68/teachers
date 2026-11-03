@@ -82,6 +82,7 @@
     "grade8/unit-2/lesson/index.html",
     "grade9/comparatives-workshop/deck.html",
     "grade9/comparatives-workshop/equality.html",
+    "grade9/comparatives-workshop/hebrew.html",
     "grade9/comparatives-workshop/inequality.html",
     "grade9/comparatives-workshop/superlatives.html",
     "grade9/connectors/index.html",
@@ -111,7 +112,7 @@
   "pending": [],
   "support_documents_excluded": 81,
   "counts": {
-    "enabled": 100,
+    "enabled": 101,
     "custom_existing": 2,
     "pending": 0
   },
@@ -197,6 +198,7 @@
     "grade8/unit-2/lesson/index.html",
     "grade9/comparatives-workshop/deck.html",
     "grade9/comparatives-workshop/equality.html",
+    "grade9/comparatives-workshop/hebrew.html",
     "grade9/comparatives-workshop/inequality.html",
     "grade9/comparatives-workshop/superlatives.html",
     "grade9/connectors/index.html",
