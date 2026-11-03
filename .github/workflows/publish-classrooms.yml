@@ -2,7 +2,7 @@ name: Assemble and publish independent classroom branches
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/5 * * * *'
   push:
     branches: [main]
     paths:
@@ -31,6 +31,8 @@ jobs:
           path: base
           persist-credentials: false
       - name: Checkout grade branches
+        env:
+          GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           set -euo pipefail
@@ -47,7 +49,7 @@ jobs:
           for n in 7 8 9 10 11 12; do
             test -f "sources/grade${n}/grade${n}/manifest.json"
             cp "sources/grade${n}/grade${n}/manifest.json" "public/data/grade${n}.json"
-            rsync -a --exclude manifest.json --exclude '.git' "sources/grade${n}/grade${n}/" "public/grade${n}/"
+            rsync -a --ignore-existing --exclude manifest.json --exclude '.git' "sources/grade${n}/grade${n}/" "public/grade${n}/"
           done
           python3 base/tools/validate-publication.py public
       - name: Record pinned classroom revisions
