@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "grade": 7,
+  "materials": [
+    {
+      "id": "legacy-001",
+      "title": "Four Kilometres Together · Printable Worksheet",
+      "url": "grade7/unit-2/wheelchair-lesson/worksheet.html",
+      "unit": "Unit 2"
+    },
+    {
+      "id": "legacy-002",
+      "title": "Four Kilometres Together · Vocabulary First",
+      "url": "grade7/unit-2/wheelchair-lesson/",
+      "unit": "Unit 2"
+    },
+    {
+      "id": "legacy-003",
+      "title": "Four Kilometres Together · Read & Listen",
+      "url": "grade7/unit-2/wheelchair-lesson/read.html",
+      "unit": "Unit 2"
+    },
+    {
+      "id": "legacy-004",
+      "title": "Four Kilometres Together · Questions & Grammar",
+      "url": "grade7/unit-2/wheelchair-lesson/practice.html",
+      "unit": "Unit 2"
+    },
+    {
+      "id": "legacy-005",
+      "title": "מתאימים, בונים ועונים",
+      "url": "grade7/exam-matching-reading/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-006",
+      "title": "מתאימים משפטים וקוראים לקראת המבחן",
+      "url": "grade7/exam-matching-reading/Grade7-Matching-and-Reading-Practice.pdf",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-007",
+      "title": "Question Words · A1+",
+      "url": "grade7/question-words-a1plus/?v=5",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-008",
+      "title": "Unit 2 · School Years Around the World",
+      "url": "grade7/unit-2/",
+      "unit": "Unit 2"
+    },
+    {
+      "id": "legacy-009",
+      "title": "Unit 1 · The Same Way",
+      "url": "grade7/unit-1/",
+      "unit": "Unit 1"
+    },
+    {
+      "id": "legacy-010",
+      "title": "The Same Way · Follow Along",
+      "url": "grade7/follow-along/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-011",
+      "title": "Band II · Groups 01–02",
+      "url": "grade7/band2-groups-01-02/?v=20260916-full1",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-012",
+      "title": "To Be",
+      "url": "to-be/",
+      "unit": "Other"
+    },
+    {
+      "id": "legacy-013",
+      "title": "חומרי השבוע הראשון וכלי תרגול נלווים",
+      "url": "first-course/",
+      "unit": "Other"
+    }
+  ]
+}
