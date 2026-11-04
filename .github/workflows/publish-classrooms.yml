@@ -1,6 +1,8 @@
 name: Assemble and publish independent classroom branches
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types: [classroom-content-updated]
   schedule:
     - cron: '*/5 * * * *'
   push:
@@ -52,6 +54,9 @@ jobs:
             rsync -a --exclude manifest.json --exclude '.git' "sources/grade${n}/grade${n}/" "public/grade${n}/"
           done
           python3 base/tools/validate-publication.py public
+          for n in 7 8 9 10 11 12; do
+            test -s "public/data/grade${n}.json"
+          done
           test -s public/grade11/sentence-detective-classroom/index.html
           test -s public/grade11/sentence-detective-classroom/app.js
           test -s public/grade11/sentence-detective-classroom/lesson.js
@@ -80,6 +85,12 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
+      - name: Validate JavaScript syntax for Grade 11
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --check public/grade11/sentence-detective-classroom/app.js
+          node --check public/grade11/sentence-detective-classroom/lesson.js
       - name: Deploy site
         id: deployment
         uses: actions/deploy-pages@v4
@@ -88,12 +99,21 @@ jobs:
         run: |
           set -euo pipefail
           url="https://simonh68.github.io/teachers/grade11/sentence-detective-classroom/"
+          full="https://simonh68.github.io/teachers/grade11/sentence-detective-classroom/complete.html"
+          manifest="https://simonh68.github.io/teachers/data/grade11.json"
           for attempt in $(seq 1 12); do
             status=$(curl -L -s -o /tmp/grade11-live.html -w '%{http_code}' "$url?deploy=${GITHUB_RUN_ID}")
             if [ "$status" = "200" ] && grep -q 'lesson.js' /tmp/grade11-live.html; then
               curl -fsSL "${url}app.js?deploy=${GITHUB_RUN_ID}" -o /tmp/grade11-app.js
               curl -fsSL "${url}lesson.js?deploy=${GITHUB_RUN_ID}" -o /tmp/grade11-lesson.js
-              echo "Live Grade 11 presentation verified"
+              curl -fsSL "$full?deploy=${GITHUB_RUN_ID}" -o /tmp/grade11-full.html
+              curl -fsSL "$manifest?deploy=${GITHUB_RUN_ID}" -o /tmp/grade11-manifest.json
+              python3 - <<'PY'
+              import json
+              d=json.load(open('/tmp/grade11-manifest.json'))
+              assert d['materials'][0]['url']=='grade11/sentence-detective-classroom/complete.html'
+              PY
+              echo "Live Grade 11 presentation and manifest verified"
               exit 0
             fi
             echo "Attempt $attempt: HTTP $status; retrying"
