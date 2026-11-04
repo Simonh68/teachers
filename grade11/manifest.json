@@ -3,11 +3,11 @@
   "grade": 11,
   "materials": [
     {
-      "id": "sentence-detective-tree",
-      "title": "בלש המשפט — Sentence Detective",
-      "url": "grade11/sentence-detective-tree/",
-      "unit": "חדש · כיתה י״א · פענוח משפטים",
-      "description": "המצגת המעודכנת: עשרה ענפי לימוד. הענף הראשון כולל עשרה משפטים ושישה שלבי פענוח לכל משפט; יתר הענפים בהכנה."
+      "id": "sentence-detective-classroom",
+      "title": "בלש המשפט — הגרסה החדשה להוראה",
+      "url": "grade11/sentence-detective-classroom/",
+      "unit": "כיתה י״א · עודכן 04.11.2026",
+      "description": "92 שקפי לימוד: פירוק צבעוני הדרגתי של עשרה משפטים, 20 שאלות הבנה ותשובות בשקפים הבאים. טקסט גדול וניווט קדימה ואחורה."
     },
     {
       "id": "legacy-001",

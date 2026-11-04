@@ -1,0 +1,71 @@
+name: Publish Grade 11 classroom materials
+on:
+  push:
+    branches: [classroom/grade11]
+    paths:
+      - 'grade11/**'
+      - '.github/workflows/grade11-publication.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: teachers-pages-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: base
+          persist-credentials: false
+      - name: Read pinned classroom sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          for n in 7 8 9 10 11 12; do
+            git clone --quiet --depth 1 --branch "classroom/grade${n}" "https://github.com/${{ github.repository }}.git" "sources/grade${n}"
+          done
+          git -C sources/grade11 fetch --quiet --depth 1 origin "${{ github.sha }}"
+          git -C sources/grade11 checkout --quiet --detach "${{ github.sha }}"
+      - name: Assemble without merging histories
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p public/data
+          cp -a base/. public/
+          rm -rf public/.git public/.github
+          for n in 7 8 9 10 11 12; do
+            cp "sources/grade${n}/grade${n}/manifest.json" "public/data/grade${n}.json"
+            rsync -a --ignore-existing --exclude manifest.json --exclude '.git' "sources/grade${n}/grade${n}/" "public/grade${n}/"
+          done
+          # Only this classroom's explicitly updated entry points replace base files.
+          cp sources/grade11/grade11/five-units/index.html public/grade11/five-units/index.html
+          cp sources/grade11/grade11/sentence-detective-tree/index.html public/grade11/sentence-detective-tree/index.html
+          rsync -a sources/grade11/grade11/sentence-detective-classroom/ public/grade11/sentence-detective-classroom/
+          rsync -a sources/grade11/grade11/classroom/ public/grade11/classroom/
+          python3 base/tools/validate-publication.py public
+          node --check public/grade11/sentence-detective-classroom/app.js
+          node --check public/grade11/sentence-detective-classroom/lesson.js
+          node --check public/grade11/sentence-detective-classroom/phone-remote.js
+          printf 'grade,revision\n' > public/classroom-revisions.csv
+          for n in 7 8 9 10 11 12; do
+            printf 'grade%s,%s\n' "$n" "$(git -C sources/grade${n} rev-parse HEAD)" >> public/classroom-revisions.csv
+          done
+          cat public/classroom-revisions.csv >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          name: github-pages-${{ github.run_attempt }}
+          path: public
+      - name: Deploy verified classroom update
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_attempt }}
