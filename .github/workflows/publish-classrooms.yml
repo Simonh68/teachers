@@ -73,3 +73,21 @@ jobs:
       - name: Deploy site
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify live Grade 11 presentation
+        shell: bash
+        run: |
+          set -euo pipefail
+          url="https://simonh68.github.io/teachers/grade11/sentence-detective-classroom/"
+          for attempt in $(seq 1 12); do
+            status=$(curl -L -s -o /tmp/grade11-live.html -w '%{http_code}' "$url?deploy=${GITHUB_RUN_ID}")
+            if [ "$status" = "200" ] && grep -q 'lesson.js' /tmp/grade11-live.html; then
+              curl -fsSL "${url}app.js?deploy=${GITHUB_RUN_ID}" -o /tmp/grade11-app.js
+              curl -fsSL "${url}lesson.js?deploy=${GITHUB_RUN_ID}" -o /tmp/grade11-lesson.js
+              echo "Live Grade 11 presentation verified"
+              exit 0
+            fi
+            echo "Attempt $attempt: HTTP $status; retrying"
+            sleep 10
+          done
+          echo "::error::Live Grade 11 presentation unavailable after deployment"
+          exit 1
