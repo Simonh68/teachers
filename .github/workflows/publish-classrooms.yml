@@ -98,26 +98,26 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          url="https://simonh68.github.io/teachers/grade11/sentence-detective-classroom/"
-          full="https://simonh68.github.io/teachers/grade11/sentence-detective-classroom/complete.html"
-          manifest="https://simonh68.github.io/teachers/data/grade11.json"
+          root="https://simonh68.github.io/teachers"
           for attempt in $(seq 1 12); do
-            status=$(curl -L -s -o /tmp/grade11-live.html -w '%{http_code}' "$url?deploy=${GITHUB_RUN_ID}")
-            if [ "$status" = "200" ] && grep -q 'lesson.js' /tmp/grade11-live.html; then
-              curl -fsSL "${url}app.js?deploy=${GITHUB_RUN_ID}" -o /tmp/grade11-app.js
-              curl -fsSL "${url}lesson.js?deploy=${GITHUB_RUN_ID}" -o /tmp/grade11-lesson.js
-              curl -fsSL "$full?deploy=${GITHUB_RUN_ID}" -o /tmp/grade11-full.html
-              curl -fsSL "$manifest?deploy=${GITHUB_RUN_ID}" -o /tmp/grade11-manifest.json
-              python3 - <<'PY'
-              import json
-              d=json.load(open('/tmp/grade11-manifest.json'))
-              assert d['materials'][0]['url']=='grade11/sentence-detective-classroom/complete.html'
-              PY
-              echo "Live Grade 11 presentation and manifest verified"
-              exit 0
+            if curl -fsSL "$root/grade11/sentence-detective-classroom/complete.html?deploy=${GITHUB_RUN_ID}" -o /tmp/grade11-full.html &&
+               curl -fsSL "$root/data/grade11.json?deploy=${GITHUB_RUN_ID}" -o /tmp/grade11-manifest.json; then
+              if python3 - <<'PY'
+          import json
+          from pathlib import Path
+          html=Path('/tmp/grade11-full.html').read_text(encoding='utf-8')
+          data=json.loads(Path('/tmp/grade11-manifest.json').read_text(encoding='utf-8'))
+          assert 'Sentence Detective' in html
+          assert 'const G=' in html and 'const UNIQUE_Q=' in html
+          assert data['materials'][0]['url']=='grade11/sentence-detective-classroom/complete.html'
+          PY
+              then
+                echo "Verified live Grade 11 complete presentation and current manifest"
+                exit 0
+              fi
             fi
-            echo "Attempt $attempt: HTTP $status; retrying"
+            echo "Attempt $attempt: full presentation or manifest not yet current"
             sleep 10
           done
-          echo "::error::Live Grade 11 presentation unavailable after deployment"
+          echo "::error::Grade 11 complete presentation or manifest verification failed"
           exit 1
