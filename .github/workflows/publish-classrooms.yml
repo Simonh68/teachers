@@ -75,6 +75,7 @@ jobs:
           grep -q 'audioTimer=setTimeout' public/grade7/can-vs-present-simple/index.html
           grep -q 'challenge-translation' public/grade7/can-vs-present-simple/index.html
           grep -q 'touchcancel' public/grade7/can-vs-present-simple/index.html
+          grep -q 'כינוי גוף כנושא המשפט' public/grade7/can-vs-present-simple/index.html
           grep -q 'בן אדם ממין זכר בלבד' public/grade7/can-vs-present-simple/index.html
           grep -q 'השלימו את המשפט באנגלית' public/grade7/can-vs-present-simple/index.html
           python3 - <<'PY'
