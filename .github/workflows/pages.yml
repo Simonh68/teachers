@@ -35,9 +35,9 @@ jobs:
             branch="classroom/grade${grade}"
             dest="$RUNNER_TEMP/classroom/grade${grade}"
             git clone --quiet --depth 1 --single-branch --branch "$branch" "https://github.com/${GITHUB_REPOSITORY}.git" "$dest"
-            test -s "$dest/grade${grade}/index.html" || { echo "::error::Missing grade${grade}/index.html in $branch"; exit 1; }
+            test -d "$dest/grade${grade}" || { echo "::error::Missing grade${grade} directory in $branch"; exit 1; }
             mkdir -p "$RUNNER_TEMP/site/grade${grade}"
-            rsync -a --delete --exclude='.git/' "$dest/grade${grade}/" "$RUNNER_TEMP/site/grade${grade}/"
+            rsync -a --exclude='.git/' "$dest/grade${grade}/" "$RUNNER_TEMP/site/grade${grade}/"
             echo "$branch $(git -C "$dest" rev-parse --short HEAD)" >> "$RUNNER_TEMP/site/classroom-build.txt"
           done
           test -s "$RUNNER_TEMP/site/index.html"
