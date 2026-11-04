@@ -3,11 +3,11 @@
   "grade": 11,
   "materials": [
     {
-      "id": "sentence-detective-classroom",
-      "title": "בלש המשפט — הגרסה החדשה להוראה",
-      "url": "grade11/sentence-detective-classroom/",
-      "unit": "כיתה י״א · עודכן 04.11.2026",
-      "description": "92 שקפי לימוד: פירוק צבעוני הדרגתי של עשרה משפטים, 20 שאלות הבנה ותשובות בשקפים הבאים. טקסט גדול וניווט קדימה ואחורה."
+      "id": "sentence-detective-full-course",
+      "title": "Sentence Detective — 100 Sentences · 10 Branches",
+      "url": "grade11/sentence-detective-classroom/complete.html",
+      "unit": "כיתה י״א · 5 יחידות · שאלוני E ו־G",
+      "description": "מצגת מורחבת עם 100 משפטים בעשרה ענפים, שאלות ותשובות דו־לשוניות. הפירוק התחבירי המפורט עדיין בהשלמה."
     },
     {
       "id": "legacy-001",
