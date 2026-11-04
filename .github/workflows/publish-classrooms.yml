@@ -55,6 +55,7 @@ jobs:
           test -s public/grade11/sentence-detective-classroom/index.html
           test -s public/grade11/sentence-detective-classroom/app.js
           test -s public/grade11/sentence-detective-classroom/lesson.js
+          test -s public/grade11/sentence-detective-classroom/complete.html
       - name: Record pinned classroom revisions
         shell: bash
         run: |
