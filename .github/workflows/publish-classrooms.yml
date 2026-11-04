@@ -56,6 +56,15 @@ jobs:
           test -s public/grade11/sentence-detective-classroom/app.js
           test -s public/grade11/sentence-detective-classroom/lesson.js
           test -s public/grade11/sentence-detective-classroom/complete.html
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('public/data/grade11.json').read_text(encoding='utf-8'))
+          target='grade11/sentence-detective-classroom/complete.html'
+          assert d['materials'][0]['url']==target, 'Grade 11 homepage manifest is stale'
+          assert sum(x['url']==target for x in d['materials'])==1, 'Duplicate or missing full course'
+          print('Verified Grade 11 homepage manifest:', target)
+          PY
       - name: Record pinned classroom revisions
         shell: bash
         run: |
