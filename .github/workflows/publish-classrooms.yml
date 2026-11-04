@@ -22,6 +22,7 @@ concurrency:
 jobs:
   build-and-publish:
     runs-on: ubuntu-24.04
+    timeout-minutes: 12
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -83,16 +84,17 @@ jobs:
           cat public/classroom-revisions.csv >> "$GITHUB_STEP_SUMMARY"
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Validate JavaScript syntax for Grade 11
+        timeout-minutes: 1
+        shell: bash
+        run: |
+          set -euo pipefail
+          timeout 15s node --check public/grade11/sentence-detective-classroom/app.js
+          timeout 15s node --check public/grade11/sentence-detective-classroom/lesson.js
       - name: Upload verified site
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
-      - name: Validate JavaScript syntax for Grade 11
-        shell: bash
-        run: |
-          set -euo pipefail
-          node --check public/grade11/sentence-detective-classroom/app.js
-          node --check public/grade11/sentence-detective-classroom/lesson.js
       - name: Deploy site
         id: deployment
         uses: actions/deploy-pages@v4
