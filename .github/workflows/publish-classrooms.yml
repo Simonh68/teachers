@@ -74,6 +74,8 @@ jobs:
           grep -q 'CAN · 70 MIN' public/grade7/can-vs-present-simple/index.html
           grep -q 'audioTimer=setTimeout' public/grade7/can-vs-present-simple/index.html
           grep -q 'challenge-translation' public/grade7/can-vs-present-simple/index.html
+          grep -q 'בן אדם ממין זכר בלבד' public/grade7/can-vs-present-simple/index.html
+          grep -q 'השלימו את המשפט באנגלית' public/grade7/can-vs-present-simple/index.html
           python3 - <<'PY'
           import json
           from pathlib import Path
