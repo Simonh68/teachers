@@ -3,6 +3,13 @@
   "grade": 11,
   "materials": [
     {
+      "id": "sentence-detective-tree",
+      "title": "בלש המשפט — Sentence Detective",
+      "url": "grade11/sentence-detective-tree/",
+      "unit": "חדש · כיתה י״א · פענוח משפטים",
+      "description": "המצגת המעודכנת: עשרה ענפי לימוד. הענף הראשון כולל עשרה משפטים ושישה שלבי פענוח לכל משפט; יתר הענפים בהכנה."
+    },
+    {
       "id": "legacy-001",
       "title": "Sentence Detective — More Than Just Books",
       "url": "grade11/module-e-more-than-books-detective/",
