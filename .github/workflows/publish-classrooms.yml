@@ -62,6 +62,14 @@ jobs:
           test -s public/grade11/sentence-detective-classroom/app.js
           test -s public/grade11/sentence-detective-classroom/lesson.js
           test -s public/grade11/sentence-detective-classroom/complete.html
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('public/data/grade7.json').read_text(encoding='utf-8'))
+          assert d['materials'][0]['url']=='grade7/can-vs-present-simple/', 'Grade 7 homepage link is stale'
+          assert d['materials'][0]['title'].find('92 Slides')>=0, 'Grade 7 title is stale'
+          print('Grade 7 manifest verified: 92-slide course is first')
+          PY
           test -s public/grade7/can-vs-present-simple/index.html
           grep -q 'CAN · Pronouns · Present · Past' public/grade7/can-vs-present-simple/index.html
           python3 - <<'PY'
