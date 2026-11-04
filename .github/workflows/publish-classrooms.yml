@@ -49,9 +49,12 @@ jobs:
           for n in 7 8 9 10 11 12; do
             test -f "sources/grade${n}/grade${n}/manifest.json"
             cp "sources/grade${n}/grade${n}/manifest.json" "public/data/grade${n}.json"
-            rsync -a --ignore-existing --exclude manifest.json --exclude '.git' "sources/grade${n}/grade${n}/" "public/grade${n}/"
+            rsync -a --exclude manifest.json --exclude '.git' "sources/grade${n}/grade${n}/" "public/grade${n}/"
           done
           python3 base/tools/validate-publication.py public
+          test -s public/grade11/sentence-detective-classroom/index.html
+          test -s public/grade11/sentence-detective-classroom/app.js
+          test -s public/grade11/sentence-detective-classroom/lesson.js
       - name: Record pinned classroom revisions
         shell: bash
         run: |
