@@ -68,9 +68,10 @@ jobs:
           import json
           from pathlib import Path
           d=json.loads(Path('public/data/grade7.json').read_text(encoding='utf-8'))
-          assert d['materials'][0]['url']=='grade7/can-vs-present-simple/', 'Grade 7 homepage link is stale'
-          assert '70-minute Lesson' in d['materials'][0]['title'], 'Grade 7 title is stale'
-          print('Grade 7 manifest verified: 70-minute lesson is first')
+          lessons=[item for item in d['materials'] if item['url']=='grade7/can-vs-present-simple/']
+          assert len(lessons)==1, 'Duplicate or missing Grade 7 lesson'
+          assert '70-minute Lesson' in lessons[0]['title'], 'Grade 7 title is stale'
+          print('Grade 7 manifest verified: 70-minute lesson is listed')
           PY
           test -s public/grade7/can-vs-present-simple/index.html
           grep -q 'CAN · 70 MIN' public/grade7/can-vs-present-simple/index.html
