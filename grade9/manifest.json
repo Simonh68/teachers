@@ -3,6 +3,18 @@
   "grade": 9,
   "materials": [
     {
+      "id": "the-middle-seat-reading",
+      "title": "The Middle Seat · מצגת קריאה והקראה",
+      "url": "grade9/the-middle-seat/",
+      "unit": "Other"
+    },
+    {
+      "id": "the-middle-seat-questions",
+      "title": "The Middle Seat · מצגת שאלות",
+      "url": "grade9/the-middle-seat/?questions=1",
+      "unit": "Other"
+    },
+    {
       "id": "legacy-001",
       "title": "Comparatives + Superlatives · 55 שקפים",
       "url": "grade9/comparatives-workshop/part1.html?lang=he",
