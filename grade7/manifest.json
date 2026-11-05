@@ -3,6 +3,13 @@
   "grade": 7,
   "materials": [
     {
+      "id": "grade7-tom-can",
+      "title": "Tom and His Friends · Read Along",
+      "url": "grade7/tom-and-his-friends/",
+      "unit": "כיתה ז׳ · קריאה ותרגול CAN",
+      "description": "11 משפטים עם הקראה ותרגום, 8 שאלות הבנה ודף עבודה להדפסה."
+    },
+    {
       "id": "grade7-can-pronouns-70min",
       "title": "CAN + Subject Pronouns — 70-minute Lesson",
       "url": "grade7/can-vs-present-simple/",
