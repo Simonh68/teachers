@@ -10,6 +10,7 @@ on:
     paths:
       - '.github/workflows/publish-classrooms.yml'
       - 'tools/validate-publication.py'
+      - 'tools/instrument-teacher-pages.py'
       - 'index.html'
       - 'index2.html'
 permissions:

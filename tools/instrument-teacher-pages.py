@@ -21,7 +21,9 @@ for manifest in sorted((root / "data").glob("grade*.json")):
         source = path.read_text(encoding="utf-8")
         index = source.lower().rfind("</body>")
         if index < 0:
-            continue
+            index = source.lower().rfind("</html>")
+        if index < 0:
+            index = len(source)
         attribute = html.escape("/teachers/" + url.path, quote=True)
         tag = f'<script defer src="https://englishfornoar.co.il/teacher-visits.js" data-material="{attribute}"></script>'
         path.write_text(source[:index] + tag + source[index:], encoding="utf-8")
