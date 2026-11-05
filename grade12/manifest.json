@@ -3,6 +3,12 @@
   "grade": 12,
   "materials": [
     {
+      "id": "grade12-module-c-sentence-detective-20261105",
+      "title": "Sentence Detective — 90 Slides · Module C · Noun Phrases",
+      "url": "grade12/four-units/sentence-detective/",
+      "unit": "four-units"
+    },
+    {
       "id": "legacy-001",
       "title": "Why Kids Can’t Put Down Their Phones",
       "url": "grade12/english-speakers/winter-2023-phones/",
@@ -25,12 +31,6 @@
       "title": "Mastering Bagrut Reading Traps",
       "url": "shared/lessons/bagrut-reading-traps/",
       "unit": "speakers"
-    },
-    {
-      "id": "legacy-005",
-      "title": "Sentence Detective — Find the Noun, Follow the Logic",
-      "url": "grade12/four-units/sentence-detective/",
-      "unit": "four-units"
     },
     {
       "id": "legacy-006",
