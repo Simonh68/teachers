@@ -55,6 +55,7 @@ jobs:
             cp "sources/grade${n}/grade${n}/manifest.json" "public/data/grade${n}.json"
             rsync -a --exclude manifest.json --exclude '.git' "sources/grade${n}/grade${n}/" "public/grade${n}/"
           done
+          for withdrawn in grade8/monkey-festival grade8/monkey-festival-challenges grade8/monkey-writing-workshop grade8/unit-1 grade8/unit-1-reading-pilot grade8/exam-01-preparation grade8/read-along/audio grade8/read-along/phrase-data.js tools/monkey-festival; do rm -rf "public/$withdrawn"; done
           python3 base/tools/validate-publication.py public
           python3 base/tools/instrument-teacher-pages.py
           for n in 7 8 9 10 11 12; do
@@ -142,3 +143,17 @@ jobs:
             sleep 3
           done
           echo "::warning::Deployment succeeded, but the live-site check did not yet confirm propagation."
+      - name: Verify withdrawn Grade 8 pages and downloads are unavailable
+        shell: bash
+        run: |
+          set -eu
+          root=https://simonh68.github.io/teachers
+          for path in grade8/monkey-festival/ grade8/monkey-festival/files/monkey-festival.pptx grade8/monkey-writing-workshop/files/Grade8-Monkey-Festival-Worksheet.pdf grade8/unit-1/sentences/ grade8/read-along/audio/story-01-part-01.wav; do
+            for attempt in {1..10}; do
+              code=$(curl -sL --max-time 15 -o /dev/null -w '%{http_code}' "$root/$path?withdrawal=$GITHUB_RUN_ID-$attempt")
+              [[ "$code" == 404 || "$code" == 410 ]] && break
+              sleep 5
+            done
+            echo "$code $path"
+            [[ "$code" == 404 || "$code" == 410 ]]
+          done
