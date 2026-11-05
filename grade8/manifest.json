@@ -3,6 +3,14 @@
   "grade": 8,
   "materials": [
     {
+      "id": "hanukkah-at-the-beach",
+      "title": "Hanukkah at the Beach",
+      "description": "הסיפור של נועם בבריזבן · Read-Along ודף עבודה",
+      "url": "grade8/hanukkah-at-the-beach/",
+      "unit": "Unit 2",
+      "date": "2026-11-05"
+    },
+    {
       "id": "life-in-different-places-20261103",
       "title": "Life in Different Places — Comparatives",
       "description": "52 שקפים דו־לשוניים על אוסטרליה, קובר פדי והשוואות; כולל דף עבודה.",
