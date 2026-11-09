@@ -3,6 +3,13 @@
   "grade": 11,
   "materials": [
     {
+      "id": "the-enemy",
+      "title": "The Enemy — Pearl S. Buck",
+      "url": "grade11/the-enemy/",
+      "unit": "Literature",
+      "description": "מערך שיעור ותרגול הבעה בעל־פה"
+    },
+    {
       "id": "sentence-detective-full-course",
       "title": "Sentence Detective — 100 Sentences · 10 Branches",
       "url": "grade11/sentence-detective-classroom/complete.html",
