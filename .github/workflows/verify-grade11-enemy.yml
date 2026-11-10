@@ -1,0 +1,62 @@
+name: Verify The Enemy Read-Along on published Grade 11 site
+on:
+  push:
+    branches:
+      - classroom/grade11
+    paths:
+      - 'grade11/the-enemy/**'
+      - 'grade11/five-units/index.html'
+      - 'grade11/manifest.json'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Checkout Grade 11 branch
+        uses: actions/checkout@v4
+      - name: Validate player JavaScript and required content
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          h=Path('grade11/the-enemy/read-along/index.html').read_text()
+          assert '<title>The Enemy' in h
+          assert 'speechSynthesis' in h and 'touchend' in h
+          assert 'const PARTS=' in h
+          assert h.count('kind:') >= 5
+          match=re.search(r'<script>(.*?)</script>', h,re.S)
+          assert match, 'Player script missing'
+          Path('/tmp/enemy-read-along.js').write_text(match.group(1))
+          print('Source player and five-part scaffolding available')
+          PY
+          node --check /tmp/enemy-read-along.js
+          python3 - <<'PY'
+          import json
+          with open('grade11/manifest.json') as f: d=json.load(f)
+          assert d['materials'][0]['id']=='sentence-detective-full-course'
+          assert any(m.get('url')=='grade11/the-enemy/read-along/' for m in d['materials'])
+          PY
+      - name: Confirm live Pages route and Grade 11 navigation
+        shell: bash
+        run: |
+          set -euo pipefail
+          root='https://simonh68.github.io/teachers'
+          ok=0
+          for attempt in $(seq 1 18); do
+            if curl -fLsS --max-time 20 "$root/grade11/the-enemy/read-along/?verify=$GITHUB_RUN_ID" -o /tmp/readalong.html &&
+               curl -fLsS --max-time 20 "$root/grade11/five-units/?verify=$GITHUB_RUN_ID" -o /tmp/class.html &&
+               curl -fLsS --max-time 20 "$root/data/grade11.json?verify=$GITHUB_RUN_ID" -o /tmp/manifest.json; then
+              if grep -q 'Guided Read-Along' /tmp/readalong.html &&
+                 grep -q 'const PARTS=' /tmp/readalong.html &&
+                 grep -q 'the-enemy/read-along/' /tmp/class.html &&
+                 python3 -c 'import json; d=json.load(open("/tmp/manifest.json")); assert any(x.get("url")=="grade11/the-enemy/read-along/" for x in d["materials"])'; then
+                  ok=1; break
+              fi
+            fi
+            sleep 8
+          done
+          test "$ok" -eq 1
+          echo "Public Read-Along, class navigation and manifest checked successfully."
