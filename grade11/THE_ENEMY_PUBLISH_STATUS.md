@@ -24,6 +24,7 @@ Updated: 2026-11-10. Branch: `classroom/grade11`. Never merge into main.
 - Duration: 3215.987 seconds (53 minutes, 35.99 seconds).
 - Original AAC mono audio, 44.1 kHz, 72 kbps; soundtrack extracted losslessly as `The-Enemy-original-audio.m4a` in the recovery chat's file artifacts (approximately 29 MB).
 - This media file is NOT in GitHub yet. Do not invent live URLs or imply it has been deployed.
+- On 2026-11-10, the extracted original-audio M4A was also uploaded to the user's connected Google Drive as `The-Enemy-original-audio.m4a` (29,498,973 bytes; permission remains PRIVATE to owner). This is durable storage for subsequent recovery work, not a public lesson audio URL.
 - The previously reported five recorded parts, 7,729 word timings and 30 comprehension stops were not in this GitHub branch when recovered. No exact timing/segment boundaries were preserved in the repo.
 
 ## Remaining tasks before the original requested Read-Along is truly complete
