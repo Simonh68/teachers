@@ -1,0 +1,60 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Grade 9 · Writing Coach · Paraphrase Carousel</title><style>
+:root{color-scheme:dark;--bg:#071321;--fg:#f2f8fc;--aqua:#66e7f5;--gold:#ffd46b;--muted:#c4d5df}*{box-sizing:border-box}
+body{margin:0;min-height:100dvh;background:radial-gradient(circle at 18% 12%,#174258,#071321 57%,#171b36);color:var(--fg);font-family:Arial,sans-serif}
+header{display:flex;gap:12px;align-items:center;justify-content:space-between;padding:13px 4vw;border-bottom:1px solid #ffffff25}
+header a{color:var(--aqua);text-decoration:none;font-size:13px}header strong{font-size:clamp(16px,2.4vw,25px)}
+main{max-width:1200px;margin:0 auto;padding:3vh 4vw 105px}.eyebrow{font-size:clamp(12px,1.5vw,18px);font-weight:800;letter-spacing:.13em;color:var(--aqua)}
+h1{font-size:clamp(25px,4.4vw,55px);margin:14px 0;line-height:1.15}.subtitle{font-size:clamp(16px,2vw,25px);color:var(--muted);line-height:1.4}
+.panel{padding:clamp(18px,3vw,35px);background:#101e31;border:1px solid #33506a;border-radius:22px;margin:23px 0}
+.topic{font-size:clamp(16px,2.2vw,26px);color:var(--gold);font-weight:bold}.sentence{font-size:clamp(25px,3.8vw,47px);line-height:1.25;font-weight:800;min-height:2.5em;margin:22px 0 10px;direction:ltr;text-align:left}
+.point{color:var(--gold);display:inline-block;animation:point 1.5s ease-in-out infinite;transform-origin:bottom}@keyframes point{50%{transform:translateX(18px) rotate(-12deg)}}
+.switcher{display:flex;flex-wrap:wrap;gap:10px;align-items:center;color:var(--muted);font-size:clamp(13px,1.7vw,19px)}button{cursor:pointer;font:inherit}
+.control{border:1px solid #7d9aaf;background:#1c3b50;color:#fff;border-radius:12px;padding:10px 16px;font-weight:800;min-height:46px}
+.control:focus-visible,.variant:focus-visible{outline:3px solid var(--gold);outline-offset:3px}.control.active{border-color:var(--gold);color:var(--gold)}
+.variants{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}.variant{padding:11px 15px;background:#1a2c44;color:#cfdee7;border:1px solid #3f607a;border-radius:11px}.variant.selected{background:#15586b;color:#fff;border:2px solid var(--aqua)}
+.cumulative{white-space:pre-line;font-size:clamp(18px,2.35vw,29px);line-height:1.62;border-left:5px solid var(--gold);padding-left:20px;direction:ltr;text-align:left}
+.count{color:var(--gold);font-size:16px}.navigation{position:fixed;bottom:0;left:0;right:0;background:#07111feb;backdrop-filter:blur(9px);border-top:1px solid #ffffff2c;padding:13px 4vw;display:flex;align-items:center;gap:12px;z-index:5}.navigation span{font-size:14px;color:var(--muted);margin-right:auto}
+#bar{height:5px;background:#4c687a;border-radius:4px;overflow:hidden;width:100%;margin-top:13px}#fill{height:100%;background:var(--gold);width:0}
+@media(max-width:650px){.panel{margin:16px 0}.sentence{min-height:3.7em}.control{padding:9px 10px}.navigation{gap:8px}header a{max-width:120px}}
+@media(prefers-reduced-motion:reduce){.point{animation:none}}
+</style></head><body><header><strong>GRADE 9 · WRITING COACH</strong><a href="./index.html">← Reading & Vocabulary</a></header>
+<main><div class="eyebrow">QUESTION 8 · 70-WORD OPINION WRITING</div><h1>Should students be allowed to use mobile phones in class?</h1><p class="subtitle" dir="rtl" lang="he">לכל משפט שלוש אפשרויות פרפרזה. הניסוחים מתחלפים כל שמונה שניות. אפשר לעצור, לבחור ניסוח ולהמשיך לבנות את החיבור משפט אחר משפט.</p>
+<section class="panel"><div id="stepTitle" class="topic"></div><div id="sentence" class="sentence" aria-live="polite"></div><div class="switcher"><span class="point" aria-hidden="true">👆</span><span id="choiceLabel">Paraphrase 1 of 3</span><button id="toggle" class="control active" aria-pressed="false">⏸ Pause</button><button id="speak" class="control">🔊 Read</button><span>Every 8 seconds</span></div><div id="variants" class="variants" aria-label="Choose a paraphrase"></div><div id="bar"><div id="fill"></div></div></section>
+<section class="panel"><div class="eyebrow">BUILD THE PARAGRAPH · CUMULATIVE WRITING</div><div id="essay" class="cumulative" aria-live="off"></div><p id="count" class="count"></p></section></main>
+<footer class="navigation"><button class="control" id="back">↑ Previous</button><span id="progress"></span><button class="control" id="next">Next ↓</button></footer>
+<script>
+const groups=[
+{label:"Your opinion",choices:["I think students should be allowed to use phones in class.","In my opinion, students should be able to use phones during lessons.","I believe that mobile phones can be useful in the classroom."]},
+{label:"Reason one",choices:["First, phones can help students find information quickly.","To begin with, students can use phones to look for useful information.","One reason is that a phone makes it easier to find answers."]},
+{label:"Example",choices:["For example, they can check the meaning of new English words.","For instance, they can use an online dictionary in English lessons.","They can also look up difficult words during a lesson."]},
+{label:"Reason two",choices:["Second, phones can help students learn in different ways.","Another reason is that phones can make learning more interesting.","Also, students can learn better with useful educational apps."]},
+{label:"Another example",choices:["They can watch short videos or practise with learning apps.","For example, students can use educational videos and language apps.","They may study with short videos and practise new skills."]},
+{label:"Important rule",choices:["However, students must not use phones for games during lessons.","Of course, phones should only be used for schoolwork in class.","Still, teachers need clear rules about using phones in lessons."]},
+{label:"Conclusion",choices:["In conclusion, I support using phones when teachers allow it.","To sum up, phones are helpful if students use them responsibly.","For these reasons, I think phones can have a place in lessons."]}
+];
+let step=0,options=groups.map(()=>0),paused=false,last=Date.now(),progress=0;
+const $=id=>document.getElementById(id);
+function words(t){return(t.match(/\b[\w'-]+\b/g)||[]).length}
+function selected(i){return groups[i].choices[options[i]]}
+function refresh(){
+$('stepTitle').textContent='Sentence '+(step+1)+' of '+groups.length+' · '+groups[step].label;
+$('sentence').textContent=selected(step);
+$('choiceLabel').textContent='Paraphrase '+(options[step]+1)+' of 3';
+$('variants').innerHTML='';
+groups[step].choices.forEach((x,i)=>{const b=document.createElement('button');b.className='variant'+(i===options[step]?' selected':'');b.textContent='Option '+(i+1);b.setAttribute('aria-label',x);b.title=x;b.onclick=()=>{options[step]=i;progress=0;refresh()};$('variants').append(b)});
+const essay=groups.slice(0,step+1).map((_,i)=>selected(i)).join(' ');$('essay').textContent=essay;
+$('count').textContent=words(essay)+' words so far · '+(step===groups.length-1?'Aim for about 70 words':'Continue building the paragraph');
+$('progress').textContent=(step+1)+' / '+groups.length;
+$('back').disabled=step===0;$('next').textContent=step===groups.length-1?'Start again ↺':'Next ↓';
+$('toggle').textContent=paused?'▶ Play':'⏸ Pause';$('toggle').setAttribute('aria-pressed',String(paused));$('toggle').classList.toggle('active',!paused);
+$('fill').style.width=(progress/8000*100)+'%';
+}
+function move(n){step=Math.max(0,Math.min(groups.length-1,n));progress=0;last=Date.now();if('speechSynthesis'in window)speechSynthesis.cancel();refresh()}
+$('toggle').onclick=()=>{paused=!paused;last=Date.now();refresh()};
+$('speak').onclick=()=>{if(!('speechSynthesis'in window))return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(selected(step));u.lang='en-US';u.rate=.72;speechSynthesis.speak(u)};
+$('back').onclick=()=>move(step-1);$('next').onclick=()=>move(step===groups.length-1?0:step+1);
+document.addEventListener('keydown',e=>{if(['ArrowDown','ArrowRight','PageDown'].includes(e.key)){e.preventDefault();move(step+1)}if(['ArrowUp','ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();move(step-1)}});
+let startY=0;document.addEventListener('touchstart',e=>startY=e.changedTouches[0].clientY,{passive:true});document.addEventListener('touchend',e=>{const delta=startY-e.changedTouches[0].clientY;if(Math.abs(delta)>85&&e.target.closest('.navigation'))move(step+(delta>0?1:-1))},{passive:true});
+setInterval(()=>{const now=Date.now();const dt=Math.min(now-last,1000);last=now;if(paused||document.hidden)return;progress+=dt;if(progress>=8000){progress=0;options[step]=(options[step]+1)%3;refresh()}else{$('fill').style.width=(progress/8000*100)+'%'}},100);
+refresh();
+</script></body></html>
