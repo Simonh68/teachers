@@ -7,6 +7,7 @@ on:
       - 'grade11/the-enemy/**'
       - 'grade11/five-units/index.html'
       - 'grade11/manifest.json'
+      - 'grade11/THE_ENEMY_PUBLISH_STATUS.md'
 permissions:
   contents: read
 jobs:
