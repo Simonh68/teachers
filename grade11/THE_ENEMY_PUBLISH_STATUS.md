@@ -38,3 +38,20 @@ Updated: 2026-11-10. Branch: `classroom/grade11`. Never merge into main.
 
 - Source and live URL smoke test: `.github/workflows/verify-grade11-enemy.yml`.
 - Report precise links to exact successful publish and test Actions runs, along with the public site link and specific missing assets.
+
+## 2026-11-10 original narration recovery progress
+
+- Original AAC narration recovered from supplied MP4 (53:35.99) and archived privately on user's Google Drive. Do not assume it is publicly shareable.
+- Created five independent M4A extracts (unchanged audio codec, no synthetic speech), with estimated section cut points based on teaching edition's printed Parts I–V: 0, 469.85, 1240.80, 1804.72, 2597.45, 3215.99 seconds. These boundaries were snapped to local audio pauses; they remain PROVISIONAL, not word-aligned verification.
+- Created a 29.5 MB portable zip `The_Enemy_Original_Audio_Five_Parts.zip` in the user's current ChatGPT conversation, containing five M4As, offline HTML player, bilingual study cues, 30 questions and a JSON boundary manifest. The ZIP is not committed to GitHub or available as a site-hosted download.
+- Updated the public `grade11/the-enemy/read-along/index.html` page: the teacher can select the original M4A/MP4 from their own device (no network upload); native audio controls play the original, chapter navigation uses the provisional cut points, and the adapted slides remain available. Word-level synchronization of original speech is not claimed.
+- Exact GitHub Pages deployment for the locally-loadable original audio feature: https://github.com/Simonh68/teachers/actions/runs/42816436607 SUCCESS.
+- Grade 11 live-site verification: https://github.com/Simonh68/teachers/actions/runs/42816419549 SUCCESS.
+- Public site URL: https://simonh68.github.io/teachers/grade11/the-enemy/read-along/
+
+### What is still NOT complete (do not misreport)
+- The original audio is NOT hosted publicly, because the Google Drive upload is owner-restricted and the GitHub connector only allows UTF-8 text writes. Its owner must confirm sharing rights and choose a supported public-media upload path.
+- There are NOT accurate word timings for the 53-minute narration; the adapted slides and audio should not be represented as synchronized.
+- The five provisional chapter cuts have NOT been verified by listening to spoken chapter transitions.
+
+Keep all claims precise. Do not erase this record or restart the work.
