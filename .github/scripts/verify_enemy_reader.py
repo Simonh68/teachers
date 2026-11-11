@@ -1,6 +1,6 @@
 import shutil
 from playwright.sync_api import sync_playwright
-base='http://127.0.0.1:8817/grade11/the-enemy/read-along/'
+base='https://simonh68.github.io/teachers/grade11/the-enemy/read-along/'
 with sync_playwright() as pw:
  browser=pw.chromium.launch(executable_path=shutil.which('google-chrome') or shutil.which('chromium'),args=['--no-sandbox','--disable-dev-shm-usage','--autoplay-policy=no-user-gesture-required'])
  for width,height in [(390,844),(1280,800)]:
@@ -14,7 +14,11 @@ with sync_playwright() as pw:
    page.locator('#home').click()
   page.locator('.part-row').first.click();page.locator('[data-action=begin]').click();page.locator('.sentence').wait_for()
   assert page.locator('#jump option').count()==111
-  page.wait_for_function("document.querySelector('.word.on')!==null",timeout=20000)
+  try:
+   page.wait_for_function("document.querySelector('.word.on')!==null",timeout=20000)
+  except Exception:
+   print('Audio diagnostic',page.evaluate('({page:state.page,automatic,engaged,requested,paused:audio.paused,hidden:document.hidden,ready:audio.readyState,error:audio.error?.message,time:audio.currentTime,url:audio.currentSrc,status:document.querySelector(".status")?.innerText})'),errors,flush=True)
+   raise
   assert page.locator('#play').inner_text().endswith('Pause')
   page.locator('#play').click();page.locator('#auto').uncheck()
   page.locator('[data-action=next]').click();assert 'סדאו' in page.locator('.translation').inner_text()

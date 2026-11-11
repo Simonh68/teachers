@@ -7,6 +7,8 @@ on:
       - 'grade11/five-units/index.html'
       - 'grade11/manifest.json'
       - 'grade11/THE_ENEMY_PUBLISH_STATUS.md'
+      - '.github/scripts/verify_enemy_reader.py'
+      - '.github/workflows/verify-grade11-enemy.yml'
 permissions:
   contents: read
 jobs:
@@ -35,14 +37,6 @@ jobs:
           assert '../the-enemy/read-along/' in Path('grade11/five-units/index.html').read_text()
           assert any(m.get('url')=='grade11/the-enemy/read-along/' for m in json.loads(Path('grade11/manifest.json').read_text())['materials'])
           PY
-      - name: Exercise desktop and mobile reading, audio and comprehension stops
-        run: |
-          python3 -m venv "$RUNNER_TEMP/enemy-browser"
-          "$RUNNER_TEMP/enemy-browser/bin/pip" -q install 'playwright>=1.53,<2'
-          python3 -m http.server 8817 --bind 127.0.0.1 >/tmp/enemy-local.log 2>&1 &
-          server=$!
-          trap 'kill "$server"' EXIT
-          "$RUNNER_TEMP/enemy-browser/bin/python" .github/scripts/verify_enemy_reader.py
       - name: Match the live player, timing data and MP3s against this revision
         run: |
           python3 - <<'PY'
@@ -71,3 +65,8 @@ jobs:
                   if attempt==39: raise
                   print(exc,flush=True);time.sleep(8)
           PY
+      - name: Exercise desktop and mobile reading on the published Pages site
+        run: |
+          python3 -m venv "$RUNNER_TEMP/enemy-browser"
+          "$RUNNER_TEMP/enemy-browser/bin/pip" -q install 'playwright>=1.53,<2'
+          "$RUNNER_TEMP/enemy-browser/bin/python" .github/scripts/verify_enemy_reader.py
