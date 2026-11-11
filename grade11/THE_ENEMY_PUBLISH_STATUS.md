@@ -55,3 +55,7 @@ Updated: 2026-11-10. Branch: `classroom/grade11`. Never merge into main.
 - The five provisional chapter cuts have NOT been verified by listening to spoken chapter transitions.
 
 Keep all claims precise. Do not erase this record or restart the work.
+
+## 2026-11-11 · Sentence reading for Part 1
+
+The Read-Along entry now provides listening preparation for Parts 1–5. Part 1 contains 111 sentences with Hebrew translations, word times synchronized to the original recording and six comprehension stops. Its nine MP3 media files are internal loading segments of the same first chapter. Parts 2–5 currently have preparation only. The earlier adapted companion remains at `read-along/guided.html`. Verified chapter boundaries in the full recording are 0, 658.5265, 1580.048, 2176.3205 and 2938.238 seconds.

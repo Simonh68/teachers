@@ -1,8 +1,7 @@
 name: Verify The Enemy Read-Along on published Grade 11 site
 on:
   push:
-    branches:
-      - classroom/grade11
+    branches: [classroom/grade11]
     paths:
       - 'grade11/the-enemy/**'
       - 'grade11/five-units/index.html'
@@ -13,51 +12,62 @@ permissions:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 10
     steps:
-      - name: Checkout Grade 11 branch
-        uses: actions/checkout@v4
-      - name: Validate player JavaScript and required content
+      - uses: actions/checkout@v4
+      - name: Validate the five preparations, Part 1, and class navigation
         run: |
-          set -euo pipefail
+          node --check grade11/the-enemy/read-along/sentences/reader.js
+          node --check grade11/the-enemy/read-along/sentences/lesson.js
           python3 - <<'PY'
           from pathlib import Path
-          import re
-          h=Path('grade11/the-enemy/read-along/index.html').read_text()
-          assert '<title>The Enemy' in h
-          assert 'speechSynthesis' in h and 'touchend' in h
-          assert 'const PARTS=' in h
-          assert h.count('kind:') >= 5
-          match=re.search(r'<script>(.*?)</script>', h,re.S)
-          assert match, 'Player script missing'
-          Path('/tmp/enemy-read-along.js').write_text(match.group(1))
-          print('Source player and five-part scaffolding available')
+          import json,re
+          root=Path('grade11/the-enemy/read-along')
+          assert 'sentences/reader.js' in (root/'index.html').read_text()
+          assert (root/'guided.html').exists()
+          lesson=(root/'sentences/lesson.js').read_text()
+          assert lesson.count('focusHe:') == 5
+          data=json.loads((root/'sentences/part-1.json').read_text())
+          assert len(data['rows'])==111
+          for track in data['tracks']: assert (root/'sentences'/track['file']).stat().st_size>1000
+          for row in data['rows']:
+              assert row['he'] and row['words'] and row['start'] < row['end']
+          assert '../the-enemy/read-along/' in Path('grade11/five-units/index.html').read_text()
+          assert any(m.get('url')=='grade11/the-enemy/read-along/' for m in json.loads(Path('grade11/manifest.json').read_text())['materials'])
           PY
-          node --check /tmp/enemy-read-along.js
-          python3 - <<'PY'
-          import json
-          with open('grade11/manifest.json') as f: d=json.load(f)
-          assert d['materials'][0]['id']=='sentence-detective-full-course'
-          assert any(m.get('url')=='grade11/the-enemy/read-along/' for m in d['materials'])
-          PY
-      - name: Confirm live Pages route and Grade 11 navigation
-        shell: bash
+      - name: Exercise desktop and mobile reading, audio and comprehension stops
         run: |
-          set -euo pipefail
-          root='https://simonh68.github.io/teachers'
-          ok=0
-          for attempt in $(seq 1 18); do
-            if curl -fLsS --max-time 20 "$root/grade11/the-enemy/read-along/?verify=$GITHUB_RUN_ID" -o /tmp/readalong.html &&
-               curl -fLsS --max-time 20 "$root/grade11/five-units/?verify=$GITHUB_RUN_ID" -o /tmp/class.html &&
-               curl -fLsS --max-time 20 "$root/data/grade11.json?verify=$GITHUB_RUN_ID" -o /tmp/manifest.json; then
-              if grep -q 'Guided Read-Along' /tmp/readalong.html &&
-                 grep -q 'const PARTS=' /tmp/readalong.html &&
-                 grep -q 'the-enemy/read-along/' /tmp/class.html &&
-                 python3 -c 'import json; d=json.load(open("/tmp/manifest.json")); assert any(x.get("url")=="grade11/the-enemy/read-along/" for x in d["materials"])'; then
-                  ok=1; break
-              fi
-            fi
-            sleep 8
-          done
-          test "$ok" -eq 1
-          echo "Public Read-Along, class navigation and manifest checked successfully."
+          python3 -m venv "$RUNNER_TEMP/enemy-browser"
+          "$RUNNER_TEMP/enemy-browser/bin/pip" -q install 'playwright>=1.53,<2'
+          python3 -m http.server 8817 --bind 127.0.0.1 >/tmp/enemy-local.log 2>&1 &
+          server=$!
+          trap 'kill "$server"' EXIT
+          "$RUNNER_TEMP/enemy-browser/bin/python" .github/scripts/verify_enemy_reader.py
+      - name: Match the live player, timing data and MP3s against this revision
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,os,time,urllib.request
+          from pathlib import Path
+          base='https://simonh68.github.io/teachers/'
+          root=Path('grade11/the-enemy/read-along')
+          def download(path):
+              request=urllib.request.Request(base+path+'?verify='+os.environ['GITHUB_RUN_ID'],headers={'Cache-Control':'no-cache'})
+              return urllib.request.urlopen(request,timeout=20).read()
+          files=[root/'index.html',root/'guided.html',*sorted((root/'sentences').rglob('*'))]
+          files=[p for p in files if p.is_file()]
+          for attempt in range(40):
+              try:
+                  if download(str(root)+'/') != (root/'index.html').read_bytes():
+                      raise ValueError('Waiting for the new entry page')
+                  for f in files:
+                      if hashlib.sha256(download(str(f))).digest()!=hashlib.sha256(f.read_bytes()).digest():
+                          raise ValueError('Waiting for '+str(f))
+                  assert b'Part 1 Read-Along' in download('grade11/five-units/')
+                  manifest=json.loads(download('data/grade11.json'))
+                  assert any(m.get('id')=='the-enemy-read-along' and 'Part 1' in m.get('title','') for m in manifest['materials'])
+                  print('Live class link, complete original Part 1 audio and all player files match the checked-out revision.')
+                  break
+              except Exception as exc:
+                  if attempt==39: raise
+                  print(exc,flush=True);time.sleep(8)
+          PY
