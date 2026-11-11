@@ -3,6 +3,24 @@
   "grade": 9,
   "materials": [
     {
+      "id": "easy-module-c-maths-reading",
+      "title": "Easy Module C · Maths Groups — Vocabulary, Reading & Questions",
+      "url": "grade9/easy-module-c-maths-groups/",
+      "unit": "Other"
+    },
+    {
+      "id": "easy-module-c-writing-coach",
+      "title": "Writing Coach · Mobile Phones in Class — Paraphrases Every 8 Seconds",
+      "url": "grade9/easy-module-c-maths-groups/writing-coach.html",
+      "unit": "Other"
+    },
+    {
+      "id": "easy-module-c-maths-pdf",
+      "title": "Easy Module C · Maths Groups — Printable 2-page PDF",
+      "url": "grade9/easy-module-c-maths-groups/worksheet.pdf",
+      "unit": "Other"
+    },
+    {
       "id": "the-middle-seat-reading",
       "title": "The Middle Seat · מצגת קריאה והקראה",
       "url": "grade9/the-middle-seat/",
