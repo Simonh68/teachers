@@ -3,6 +3,12 @@
   "grade": 10,
   "materials": [
     {
+      "id": "a-summers-reading-exam-coach",
+      "title": "A Summer’s Reading · הכנה למבחן · 25 שאלות ותשובות (PDF)",
+      "url": "grade10/group-a/a-summers-reading/exam-revision/A-Summers-Reading-Exam-Coach.pdf",
+      "unit": "Literature"
+    },
+    {
       "id": "legacy-001",
       "title": "A Summer’s Reading · All Learning Materials",
       "url": "grade10/group-a/a-summers-reading/materials/",
