@@ -49,12 +49,17 @@ jobs:
               return urllib.request.urlopen(request,timeout=20).read()
           files=[root/'index.html',root/'guided.html',*sorted((root/'sentences').rglob('*'))]
           files=[p for p in files if p.is_file()]
+          def page_source(path):
+              body=download(path)
+              counter=b'<script defer src="https://englishfornoar.co.il/teacher-visits.js" data-material="/teachers/grade11/the-enemy/read-along/"></script>'
+              return body.replace(counter,b'')
           for attempt in range(40):
               try:
-                  if download(str(root)+'/') != (root/'index.html').read_bytes():
+                  if page_source(str(root)+'/') != (root/'index.html').read_bytes():
                       raise ValueError('Waiting for the new entry page')
                   for f in files:
-                      if hashlib.sha256(download(str(f))).digest()!=hashlib.sha256(f.read_bytes()).digest():
+                      actual=page_source(str(f)) if f==root/'index.html' else download(str(f))
+                      if hashlib.sha256(actual).digest()!=hashlib.sha256(f.read_bytes()).digest():
                           raise ValueError('Waiting for '+str(f))
                   assert b'Part 1 Read-Along' in download('grade11/five-units/')
                   manifest=json.loads(download('data/grade11.json'))
