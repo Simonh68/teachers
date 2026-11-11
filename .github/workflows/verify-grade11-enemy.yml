@@ -14,10 +14,10 @@ permissions:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      - name: Validate the five preparations, Part 1, and class navigation
+      - name: Validate all five synchronized parts and class navigation
         run: |
           node --check grade11/the-enemy/read-along/sentences/reader.js
           node --check grade11/the-enemy/read-along/sentences/lesson.js
@@ -29,15 +29,25 @@ jobs:
           assert (root/'guided.html').exists()
           lesson=(root/'sentences/lesson.js').read_text()
           assert lesson.count('focusHe:') == 5
-          data=json.loads((root/'sentences/part-1.json').read_text())
-          assert len(data['rows'])==111
-          for track in data['tracks']: assert (root/'sentences'/track['file']).stat().st_size>1000
-          for row in data['rows']:
-              assert row['he'] and row['words'] and row['start'] < row['end']
+          for part,total in enumerate([111,186,118,158,45],1):
+              data=json.loads((root/f'sentences/part-{part}.json').read_text())
+              assert len(data['rows'])==total
+              if part>1: assert len(data['checks'])==6 and str(total) in data['checks']
+              for track in data['tracks']: assert (root/'sentences'/track['file']).stat().st_size>1000
+              previous=-1
+              for row in data['rows']:
+                  track=data['tracks'][row['track']]
+                  assert row['he'] and row['words'] and 0 <= row['start'] < row['end'] <= track['duration']+.002
+                  assert track['offset']+row['start']>=previous-.002
+                  previous=track['offset']+row['end']
+                  pos=row['start']
+                  for word,a,b in row['words']:
+                      assert word and pos-.002<=a<b<=row['end']+.002
+                      pos=b
           assert '../the-enemy/read-along/' in Path('grade11/five-units/index.html').read_text()
           assert any(m.get('url')=='grade11/the-enemy/read-along/' for m in json.loads(Path('grade11/manifest.json').read_text())['materials'])
           PY
-      - name: Match the live player, timing data and MP3s against this revision
+      - name: Match the live player, timing data and recordings against this revision
         run: |
           python3 - <<'PY'
           import hashlib,json,os,time,urllib.request
@@ -45,7 +55,7 @@ jobs:
           base='https://simonh68.github.io/teachers/'
           root=Path('grade11/the-enemy/read-along')
           def download(path):
-              request=urllib.request.Request(base+path+'?verify='+os.environ['GITHUB_RUN_ID'],headers={'Cache-Control':'no-cache'})
+              request=urllib.request.Request(base+path+'?verify='+os.environ['GITHUB_RUN_ID']+'-'+str(attempt),headers={'Cache-Control':'no-cache'})
               return urllib.request.urlopen(request,timeout=20).read()
           files=[root/'index.html',root/'guided.html',*sorted((root/'sentences').rglob('*'))]
           files=[p for p in files if p.is_file()]
@@ -61,10 +71,10 @@ jobs:
                       actual=page_source(str(f)) if f==root/'index.html' else download(str(f))
                       if hashlib.sha256(actual).digest()!=hashlib.sha256(f.read_bytes()).digest():
                           raise ValueError('Waiting for '+str(f))
-                  assert b'Part 1 Read-Along' in download('grade11/five-units/')
+                  assert b'Five-Part Read-Along' in download('grade11/five-units/')
                   manifest=json.loads(download('data/grade11.json'))
-                  assert any(m.get('id')=='the-enemy-read-along' and 'Part 1' in m.get('title','') for m in manifest['materials'])
-                  print('Live class link, complete original Part 1 audio and all player files match the checked-out revision.')
+                  assert any(m.get('id')=='the-enemy-read-along' and 'Five-Part' in m.get('title','') for m in manifest['materials'])
+                  print('Live class link, all five original audio parts and all player files match the checked-out revision.')
                   break
               except Exception as exc:
                   if attempt==39: raise
