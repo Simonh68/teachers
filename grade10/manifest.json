@@ -3,6 +3,13 @@
   "grade": 10,
   "materials": [
     {
+      "id": "a-summers-reading-readalong",
+      "title": "הקראת הסיפור · A Summer’s Reading",
+      "url": "grade10/group-a/a-summers-reading/readalong/",
+      "unit": "Literature",
+      "description": "קראו את הסיפור והאזינו להקלטה המקורית. בחרו אחד משלושת חלקי הסיפור כדי להתחיל."
+    },
+    {
       "id": "a-summers-reading-exam-coach",
       "title": "A Summer’s Reading · הכנה למבחן · 25 שאלות ותשובות (PDF)",
       "url": "grade10/group-a/a-summers-reading/exam-revision/A-Summers-Reading-Exam-Coach.pdf",
