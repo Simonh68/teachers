@@ -6,6 +6,36 @@ const $=s=>app.querySelector(s);
 const escapeText=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const label=i=>String(i+1).padStart(2,'0');
 const state={page:'menu',part:0,index:0,translated:false};
+const languageButton=document.querySelector('#hebrew-mode');
+const languageKey='teachers.the-enemy.hebrew';
+let savedLanguage=null;
+try{savedLanguage=localStorage.getItem(languageKey)}catch{}
+const initialLink=new URLSearchParams(location.search);
+let hebrewEnabled=savedLanguage==='on' ||
+  (savedLanguage===null && initialLink.get('he')==='1' && initialLink.has('sentence'));
+
+function rememberLanguage(){
+  try{localStorage.setItem(languageKey,hebrewEnabled?'on':'off')}catch{}
+}
+if(savedLanguage===null && hebrewEnabled)rememberLanguage();
+languageButton.setAttribute('aria-pressed',String(hebrewEnabled));
+languageButton.addEventListener('click',()=>{
+  hebrewEnabled=!hebrewEnabled;
+  rememberLanguage();
+  languageButton.setAttribute('aria-pressed',String(hebrewEnabled));
+  if(state.page==='prep')prep();
+  if(state.page!=='read'||!$('.sentence'))return;
+  if(!hebrewEnabled){
+    state.translated=false;
+    $('.translation').textContent='';
+    $('.meaning').textContent='';
+    const url=new URL(location.href);
+    url.searchParams.delete('he');
+    history.replaceState(null,'',url);
+  }
+  updateGlosses();
+});
+
 const chapters=new Map();
 const pendingChapters=new Map();
 let data, activeTrack='', requested=false, engaged=false, speed=.75, automatic=true;
@@ -28,7 +58,7 @@ function partHeading(){return 'Part '+label(state.part)+' · '+parts[state.part]
 function action(name,content,cls='',more=''){
   const remoteStep={next:1,back:-1}[name] || (name==='begin'&&state.page==='prep' || state.page==='finish'&&['next-part','parts'].includes(name) ? 1 : 0);
   if(remoteStep)more+=' data-step="'+remoteStep+'"';
-  if(name==='translation'||name==='hint')more+=' data-reveal="answer"';
+  if(name==='hint')more+=' data-reveal="answer"';
   return '<button type="button" class="'+cls+'" data-action="'+name+'" '+more+'>'+content+'</button>'}
 function stop(){
   epoch++;requested=false;clearTimeout(timer);cancelAnimationFrame(frame);audio.pause();
@@ -47,7 +77,7 @@ function readLocation(){
   const p=Number(q.get('part'))-1,idx=Number(q.get('sentence'))-1;
   if(!Number.isInteger(p)||p<0||p>4)return go('menu',0,0,false,null);
   if(q.get('view')==='finish')return go('finish',p,0,false,null);
-  if(q.has('sentence')&&Number.isInteger(idx)&&idx>=0)return go(q.get('view')==='check'?'check':'read',p,idx,q.get('he')==='1',null);
+  if(q.has('sentence')&&Number.isInteger(idx)&&idx>=0)return go(q.get('view')==='check'?'check':'read',p,idx,hebrewEnabled && q.get('he')==='1',null);
   go('prep',p,0,false,null);
 }
 function schedule(){
@@ -59,18 +89,35 @@ function menu(){
 }
 function prep(){
   const p=parts[state.part];
-  app.innerHTML='<section class="prep"><div class="eyebrow">Part '+label(state.part)+' · Listening preparation</div><h2>'+p.title+'</h2><p class="lead">'+p.intro+'</p><div class="group"><h3>Words to listen for</h3><div class="chips">'+p.words.map(([w,h],i)=>action('vocab',w+'<small dir="rtl" lang="he" hidden>'+h+'</small>','chip','aria-expanded="false" data-word="'+i+'"')).join('')+'</div></div><div class="group"><h3>Listen for this</h3><p class="prompt">'+p.focus+'</p></div>'+action('prep-he','עברית','minor','aria-expanded="false"')+'<div class="reveal prep-cards" id="prep-he" lang="he" dir="rtl" hidden><strong>'+p.he+'</strong><p>'+p.introHe+'</p><p>'+p.focusHe+'</p></div><div class="footnav">'+action('begin','Start reading · Part '+(state.part+1),'primary')+(state.part<4?action('next-part','Prepare Part '+(state.part+2)+' →','minor'):'')+'</div></section>';
+  app.innerHTML='<section class="prep"><div class="eyebrow">Part '+label(state.part)+' · Listening preparation</div><h2>'+p.title+'</h2><p class="lead">'+p.intro+'</p><div class="group"><h3>Words to listen for</h3><div class="chips">'+p.words.map(([w,h],i)=>hebrewEnabled?action('vocab',w+'<small dir="rtl" lang="he" hidden>'+h+'</small>','chip','aria-expanded="false" data-word="'+i+'"'):'<span class="vocab-label">'+escapeText(w)+'</span>').join('')+'</div></div><div class="group"><h3>Listen for this</h3><p class="prompt">'+p.focus+'</p></div><div class="reveal prep-cards" id="prep-he" lang="he" dir="rtl" '+(hebrewEnabled?'':'hidden')+'><strong>'+p.he+'</strong><p>'+p.introHe+'</p><p>'+p.focusHe+'</p></div><div class="footnav">'+action('begin','Start reading · Part '+(state.part+1),'primary')+(state.part<4?action('next-part','Prepare Part '+(state.part+2)+' →','minor'):'')+'</div></section>';
 }
 function reader(){
   state.index=Math.min(state.index,data.rows.length-1);
   const s=data.rows[state.index],num=state.index+1;
-  const gloss=w=>glossary[w.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g,'')];
+
   const options=data.rows.map((_,i)=>'<option value="'+i+'" '+(i===state.index?'selected':'')+'>Sentence '+(i+1)+'</option>').join('');
-  app.innerHTML='<section class="reader"><div class="bar"><span class="eyebrow">'+partHeading()+'</span><label class="control-label"><select class="picker" id="jump" aria-label="Go to sentence">'+options+'</select> / '+data.rows.length+'</label></div><div class="progress"><i style="width:'+num/data.rows.length*100+'%"></i></div><p class="sentence '+(s.words.length>25?'long':'')+'" lang="en" dir="ltr">'+s.words.map(([w],i)=>{const g=gloss(w);return '<span class="word'+(g?' known':'')+'" data-i="'+i+'" '+(g?'tabindex="0" role="button" data-gloss="'+escapeText(g)+'" aria-label="'+escapeText(w+' — '+g)+'"':'')+'>'+escapeText(w)+'</span>'}).join(' ')+'</p><div class="meaning" lang="he" dir="rtl" aria-live="polite"></div><div class="translation" lang="he" dir="rtl">'+(state.translated?escapeText(s.he):'')+'</div><div class="controls">'+action('play','▶ Play','primary','id="play"')+action('replay','↺ Replay','minor')+action('rewind','−15 s','minor','aria-label="Back fifteen seconds"')+'<label class="control-label"><select id="rate" aria-label="Playback speed">'+[.6,.75,1].map(r=>'<option value="'+r+'" '+(r===speed?'selected':'')+'>'+r+'×</option>').join('')+'</select></label><label class="control-label"><input id="auto" type="checkbox" '+(automatic?'checked':'')+'>Auto · 4 s</label></div><p class="status" role="status"></p><div class="footnav">'+action('back','← Back','minor')+action('translation',state.translated?'English only':'עברית','minor')+action('next','Next →','primary')+'</div></section>';
+  app.innerHTML='<section class="reader"><div class="bar"><span class="eyebrow">'+partHeading()+'</span><label class="control-label"><select class="picker" id="jump" aria-label="Go to sentence">'+options+'</select> / '+data.rows.length+'</label></div><div class="progress"><i style="width:'+num/data.rows.length*100+'%"></i></div><p class="sentence '+(s.words.length>25?'long':'')+'" lang="en" dir="ltr">'+s.words.map(([word],i)=>'<span class="word" data-i="'+i+'">'+escapeText(word)+'</span>').join(' ')+'</p><div class="meaning" lang="he" dir="rtl" aria-live="polite"></div><div class="translation" lang="he" dir="rtl">'+(state.translated?escapeText(s.he):'')+'</div><div class="controls">'+action('play','▶ Play','primary','id="play"')+action('replay','↺ Replay','minor')+action('rewind','−15 s','minor','aria-label="Back fifteen seconds"')+'<label class="control-label"><select id="rate" aria-label="Playback speed">'+[.6,.75,1].map(r=>'<option value="'+r+'" '+(r===speed?'selected':'')+'>'+r+'×</option>').join('')+'</select></label><label class="control-label"><input id="auto" type="checkbox" '+(automatic?'checked':'')+'>Auto · 4 s</label></div><p class="status" role="status"></p><div class="footnav">'+action('back','← Back','minor')+action('next','Next →','primary')+'</div></section>';
   wordNodes=[...app.querySelectorAll('.word')];lastWord=-1;
+  updateGlosses();
   const file=data.tracks[s.track].file;
   if(activeTrack!==file){activeTrack=file;audio.src='sentences/'+file;audio.load()}
   audio.playbackRate=speed;schedule();
+}
+function updateGlosses(){
+  for(const el of wordNodes){
+    const word=el.textContent;
+    const key=word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g,'');
+    const meaning=hebrewEnabled && Object.hasOwn(glossary,key) && glossary[key];
+    el.classList.toggle('known',Boolean(meaning));
+    if(meaning){
+      el.tabIndex=0;
+      el.setAttribute('role','button');
+      el.dataset.gloss=meaning;
+      el.setAttribute('aria-label',word+' — '+meaning);
+    }else{
+      for(const attr of ['tabindex','role','data-gloss','aria-label'])el.removeAttribute(attr);
+    }
+  }
 }
 function checkpoint(){
   const [question,hint,answer]=currentChecks()[state.index+1];
@@ -132,21 +179,21 @@ function move(dir){
     return;
   }
   if(state.page==='check'){
-    if(dir<0)go('read',part,n,true,'replaceState');
+    if(dir<0)go('read',part,n,hebrewEnabled,'replaceState');
     else if(n+1<data.rows.length)go('read',part,n+1,false,'replaceState');
     else go('finish',part);
     return;
   }
   if(state.page!=='read')return;
   if(dir>0){
-    if(!state.translated)go('read',part,n,true,'replaceState');
+    if(hebrewEnabled&&!state.translated)go('read',part,n,true,'replaceState');
     else if(currentChecks()[n+1])go('check',part,n,false,'replaceState');
     else if(n+1<data.rows.length)go('read',part,n+1,false,'replaceState');
     else go('finish',part);
   }else if(state.translated)go('read',part,n,false,'replaceState');
   else if(n===0)go('prep',part);
   else if(currentChecks()[n])go('check',part,n-1,false,'replaceState');
-  else go('read',part,n-1,true,'replaceState');
+  else go('read',part,n-1,hebrewEnabled,'replaceState');
 }
 function toggle(btn,el){el.hidden=!el.hidden;btn.setAttribute('aria-expanded',String(!el.hidden))}
 function showGloss(el){const box=$('.meaning');if(el&&box)box.textContent=el.textContent+' · '+el.dataset.gloss}
@@ -162,10 +209,8 @@ app.addEventListener('click',e=>{
     case 'begin':go('read',state.part,0);break;
     case 'retry':render();break;
     case 'vocab':toggle(b,b.querySelector('small'));break;
-    case 'prep-he':toggle(b,$('#prep-he'));break;
     case 'hint':toggle(b,$('#hint'));break;
     case 'answer':toggle(b,$('#answer'));b.textContent=$('#answer').hidden?'Show answer':'Hide answer';break;
-    case 'translation':go('read',state.part,state.index,!state.translated,'replaceState');break;
     case 'next':move(1);break;
     case 'back':move(-1);break;
     case 'play':if(requested){const wasPlaying=!audio.paused;stop();if(wasPlaying)b.dataset.paused='1';b.textContent='▶ Play'}else startAudio();break;

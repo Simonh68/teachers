@@ -19,6 +19,12 @@ def assert_plays(page):
     page.wait_for_function("!!document.querySelector('.word.on') && !audio.paused", timeout=20000)
     page.locator("#play").click()
 
+def document_position(locator):
+    return locator.evaluate("""el => {
+        const box=el.getBoundingClientRect();
+        return [box.left+scrollX,box.top+scrollY];
+    }""")
+
 def swipe(page, delta):
     page.locator("#app").evaluate("""(el, dx) => {
         const point = x => new Touch({identifier: 1, target: el, clientX: x, clientY: 140});
@@ -41,10 +47,16 @@ with sync_playwright() as pw:
             close_pairing(page)
         for part, total in enumerate(COUNTS, 1):
             page.locator(".part-row").nth(part-1).click()
-            page.locator(".chip").first.click()
-            assert page.locator(".chip small").first.is_visible()
-            page.locator("[data-action=prep-he]").click()
-            assert page.locator("#prep-he").is_visible()
+            language=page.get_by_role("button",name="עברית",exact=True)
+            if part==1:
+                assert language.get_attribute("aria-pressed")=="false"
+                assert page.locator("#prep-he").is_hidden()
+                assert page.locator(".vocab-label").count()==5
+            else:
+                assert language.get_attribute("aria-pressed")=="true"
+                assert page.locator("#prep-he").is_visible()
+                page.locator(".chip").first.click()
+                assert page.locator(".chip small").first.is_visible()
             page.locator("[data-action=begin]").click()
             page.locator(".sentence").wait_for()
             assert page.locator("#jump option").count() == total
@@ -53,11 +65,41 @@ with sync_playwright() as pw:
                 page.wait_for_function("!!document.querySelector('.word.on')",timeout=22000)
                 page.locator("#play").click()
             page.locator("#auto").uncheck()
+            if part==1:
+                assert page.locator("[data-gloss]").count()==0
+                if width==390:
+                    swipe(page,-100)
+                    assert page.locator("#jump").input_value()=="1"
+                    swipe(page,100)
+                else:
+                    page.locator(".sentence").click()
+                    page.keyboard.press("ArrowRight")
+                    assert page.locator("#jump").input_value()=="1"
+                    page.keyboard.press("ArrowLeft")
+                assert page.locator("#jump").input_value()=="0"
+                page.locator("[data-action=next]").click()
+                assert page.locator("#jump").input_value()=="1"
+                assert not page.locator(".translation").inner_text().strip()
+                page.locator("#jump").select_option(str(CHECKS[0][0]-1))
+                page.locator("[data-action=next]").click()
+                assert page.locator("[data-action=hint]").is_visible()
+                page.locator("[data-action=back]").click()
+                assert not page.locator(".translation").inner_text().strip()
+                language.click()
+                assert language.get_attribute("aria-pressed")=="true"
             for idx in [0,total//2,total-1]:
                 page.locator("#jump").select_option(str(idx))
                 assert_plays(page)
-                page.locator("[data-action=translation]").click()
+                assert not page.locator(".translation").inner_text().strip()
+                sentence=page.locator(".sentence")
+                before=document_position(sentence)
+                before_text=sentence.inner_text()
+                page.locator("[data-action=next]").click()
                 assert page.locator(".translation").inner_text().strip()
+                assert page.locator("#jump").input_value()==str(idx)
+                assert sentence.inner_text()==before_text
+                after=document_position(sentence)
+                assert all(abs(a-b)<1 for a,b in zip(after,before))
                 assert page.evaluate("document.documentElement.scrollWidth<=innerWidth")
             page.locator("[data-action=rewind]").click()
             assert int(page.locator("#jump").input_value())<total-1
@@ -87,6 +129,22 @@ with sync_playwright() as pw:
         page.locator(".sentence").wait_for()
         assert page.locator("#jump").input_value()=="44"
         assert "Strange" in page.locator(".sentence").inner_text()
+        assert language.get_attribute("aria-pressed")=="true"
+        page.locator("[data-action=next]").click()
+        assert page.locator(".translation").inner_text().strip()
+        page.reload(wait_until="domcontentloaded")
+        page.locator(".sentence").wait_for()
+        assert language.get_attribute("aria-pressed")=="true"
+        assert page.locator(".translation").inner_text().strip()
+        language.click()
+        assert language.get_attribute("aria-pressed")=="false"
+        assert not page.locator(".translation").inner_text().strip()
+        page.goto(BASE+"?part=2&sentence=1&he=1")
+        page.locator(".sentence").wait_for()
+        assert language.get_attribute("aria-pressed")=="false"
+        assert not page.locator(".translation").inner_text().strip()
+        page.locator("[data-action=next]").click()
+        assert page.locator("#jump").input_value()=="1"
         assert not errors,errors
         page.close()
 
@@ -109,6 +167,10 @@ with sync_playwright() as pw:
     host.locator("[data-action=begin]").click()
     host.locator(".sentence").wait_for()
     host.locator("#auto").uncheck()
+    remote.locator("#next").click()
+    host.wait_for_function("document.querySelector('#jump')?.value==='1'")
+    assert not host.locator(".translation").inner_text().strip()
+    host.get_by_role("button",name="עברית",exact=True).click()
     remote.locator("#next").click()
     host.wait_for_function("!!document.querySelector('.translation')?.textContent")
     remote.locator("#previous").click()
