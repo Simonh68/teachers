@@ -39,7 +39,7 @@ with sync_playwright() as pw:
         page = browser.new_page(viewport={"width":width, "height":height})
         errors = []
         page.on("pageerror", lambda error: errors.append(str(error)))
-        page.goto(BASE,wait_until="domcontentloaded")
+        page.goto(BASE+"?verify="+os.getenv("GITHUB_SHA","local"),wait_until="domcontentloaded")
         page.locator(".part-row").first.wait_for()
         assert page.locator(".part-row").count() == 5
         if width >= 900:
@@ -47,7 +47,7 @@ with sync_playwright() as pw:
             close_pairing(page)
         for part, total in enumerate(COUNTS, 1):
             page.locator(".part-row").nth(part-1).click()
-            language=page.get_by_role("button",name="עברית",exact=True)
+            language=page.locator("#hebrew-mode")
             if part==1:
                 assert language.get_attribute("aria-pressed")=="false"
                 assert page.locator("#prep-he").is_hidden()
@@ -151,7 +151,7 @@ with sync_playwright() as pw:
     # Use two browser contexts so a remote action crosses the actual approved connection.
 
     host=browser.new_page(viewport={"width":1280,"height":800})
-    host.goto(BASE,wait_until="domcontentloaded")
+    host.goto(BASE+"?verify="+os.getenv("GITHUB_SHA","local"),wait_until="domcontentloaded")
     pairing=host.locator("#teachers-qr-remote-host")
     pairing.locator("#link").wait_for()
     host.wait_for_function("document.querySelector('#teachers-qr-remote-host').shadowRoot.querySelector('#link').value.length>0",timeout=45000)
@@ -170,7 +170,7 @@ with sync_playwright() as pw:
     remote.locator("#next").click()
     host.wait_for_function("document.querySelector('#jump')?.value==='1'")
     assert not host.locator(".translation").inner_text().strip()
-    host.get_by_role("button",name="עברית",exact=True).click()
+    host.locator("#hebrew-mode").click()
     remote.locator("#next").click()
     host.wait_for_function("!!document.querySelector('.translation')?.textContent")
     remote.locator("#previous").click()

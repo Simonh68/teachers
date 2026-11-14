@@ -5,8 +5,8 @@ body:not([data-page="menu"]) .top{padding-right:max(112px,7rem)}
 
 .header-actions{display:flex;align-items:center;flex-wrap:wrap;gap:.35rem}
 #hebrew-mode{font-size:.9rem;line-height:1.3}
-#hebrew-mode::before{content:"";display:inline-block;width:.85em;margin-inline-end:.25em}
+#hebrew-mode::before{content:"";display:inline-block;width:.75em;height:.42em;margin-inline-end:.45em;vertical-align:.2em;box-sizing:border-box}
 #hebrew-mode[aria-pressed=true]{background:var(--sea);border-color:var(--sea);color:white}
-#hebrew-mode[aria-pressed=true]::before{content:"✓"}
+#hebrew-mode[aria-pressed=true]::before{border-left:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(-45deg)}
 body[data-page=menu] .top{padding-right:max(112px,7rem)}
 .prep .vocab-label{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:.45rem;padding:.55em .85em}
