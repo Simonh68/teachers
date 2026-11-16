@@ -3,6 +3,14 @@
   "grade": 8,
   "materials": [
     {
+      "id": "test2-practice-60",
+      "title": "Test 2 Practice — 60 Interactive Exercises",
+      "description": "חזרה למבחן 2 על בסיס דף העבודה: אוצר מילים, דקדוק, איות, בניית משפטים, תרגום וכתיבה. שלוש רמות, רמזים, בדיקה ושמירת התקדמות.",
+      "url": "grade8/test2-practice/",
+      "unit": "Unit 2",
+      "date": "2026-11-16"
+    },
+    {
       "id": "hanukkah-at-the-beach",
       "title": "Hanukkah at the Beach",
       "description": "הסיפור של דניאל בבריזבן · Read-Along ודף עבודה",
