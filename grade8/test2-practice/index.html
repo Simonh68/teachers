@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Test 2 · Interactive Practice | Grade 8</title>
+<meta name="description" content="60 interactive exercises based on the Grade 8 Test 2 worksheet: Hanukkah at the Beach and Coober Pedy. Vocabulary, grammar, spelling, sentence building and translation.">
+<meta name="theme-color" content="#081321">
+<link rel="stylesheet" href="style.css?v=20261116-1">
+<script src="lesson.js?v=20261116-1" defer></script><script src="app.js?v=20261116-1" defer></script>
+</head>
+<body>
+<header class="topbar">
+ <a class="back" href="../" data-en="← Grade 8" data-he="חזרה לכיתה ח׳ ←">← Grade 8</a>
+ <span class="brand">TEST 2 <b>LAB</b></span>
+ <div class="tools">
+  <button id="copy" data-en="Copy link" data-he="העתקת קישור">Copy link</button>
+  <button id="he" aria-pressed="false" lang="he">עברית</button>
+  <button id="full" data-en="Full screen" data-he="מסך מלא">Full screen</button>
+ </div>
+</header>
+<main id="main">
+<section id="home" aria-labelledby="title">
+ <div class="eyebrow">GRADE 8 · HANUKKAH AT THE BEACH / COOBER PEDY</div>
+ <h1 id="title">Small steps.<br><em>Stronger English.</em></h1>
+ <p class="intro" data-en="The worksheet becomes a practice lab. Try, check, learn and try again." data-he="דף העבודה הופך למצגת תרגול: מנסים, בודקים, לומדים ומנסים שוב.">The worksheet becomes a practice lab. Try, check, learn and try again.</p>
+ <div class="hero-stats"><span><b>60</b><small data-en="tasks" data-he="תרגילים">tasks</small></span><span><b>8</b><small data-en="sections" data-he="חלקים">sections</small></span><span><b>3</b><small data-en="levels" data-he="רמות">levels</small></span></div>
+ <div class="launch"><button class="primary" id="start" data-en="Start practising →" data-he="התחילו לתרגל ←">Start practising →</button><button id="resume" hidden data-en="Continue where I stopped" data-he="המשיכו מהמקום שעצרתי">Continue where I stopped</button><button id="report" data-en="My progress" data-he="ההתקדמות שלי">My progress</button></div>
+ <p class="micro" data-en="Your answers stay in this browser. No login. Use arrows or swipe up/down between tasks." data-he="התשובות נשמרות בדפדפן הזה, ללא הרשמה. אפשר לנווט בחיצים או בסוויפ למעלה ולמטה.">Your answers stay in this browser. No login. Use arrows or swipe up/down between tasks.</p>
+ <div id="sections" class="section-grid"></div>
+ <div class="source-note"><span data-en="Based on the 60-task worksheet, with the same A1–H2 exercise codes. Hebrew stays visible when it is part of the exercise itself." data-he="מבוסס על דף 60 התרגילים, עם אותם קודי תרגיל A1–H2. עברית נשארת גלויה כשהיא חלק מהתרגיל עצמו.">Based on the 60-task worksheet, with the same A1–H2 exercise codes. Hebrew stays visible when it is part of the exercise itself.</span><div class="source-links"><a href="../hanukkah-at-the-beach/">Hanukkah at the Beach ↗</a><a href="../unit-2/coober-pedy/?view=sentences">Coober Pedy ↗</a></div></div>
+</section>
+<section id="practice" hidden aria-label="Interactive practice">
+ <div class="lessonbar"><button id="homebtn" data-en="All sections" data-he="כל החלקים">All sections</button><label><span data-en="Level" data-he="רמה">Level</span> <select id="level" aria-label="Difficulty level"><option value="0">All levels</option><option value="1">1 · Foundation</option><option value="2">2 · Building</option><option value="3">3 · Challenge</option></select></label><label><span data-en="Jump to" data-he="מעבר לתרגיל">Jump to</span> <select id="jump" aria-label="Jump to exercise"></select></label></div>
+ <div class="progress-track" role="progressbar" aria-label="Completed tasks" aria-valuemin="0" aria-valuemax="60" aria-valuenow="0"><div id="bar"></div></div>
+ <div class="progress-label"><span id="stats"></span><button class="linkbtn" id="report2" data-en="Progress details" data-he="פירוט התקדמות">Progress details</button></div>
+ <article id="card" tabindex="-1"></article>
+ <footer class="nav"><button id="prev" data-en="↑ Previous" data-he="הקודם ↑">↑ Previous</button><span id="position"></span><button class="primary" id="next" data-en="Next ↓" data-he="הבא ↓">Next ↓</button></footer>
+</section>
+</main>
+<dialog id="summary" aria-labelledby="summary-title"><button class="close" id="closeSummary" aria-label="Close">×</button><h2 id="summary-title" data-en="Your practice, at a glance" data-he="התרגול שלכם במבט אחד">Your practice, at a glance</h2><div id="summaryBody"></div><div class="actions"><button id="retry" data-en="Practise unfinished tasks" data-he="תרגול המשימות שנותרו">Practise unfinished tasks</button><button id="reset" data-en="Reset my progress" data-he="איפוס ההתקדמות">Reset my progress</button></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<noscript>This interactive presentation needs JavaScript. יש להפעיל JavaScript כדי להשתמש במצגת.</noscript>
+</body></html>
