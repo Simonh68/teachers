@@ -113,9 +113,12 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
+          name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Deploy site
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Live availability smoke test (non-blocking)
         if: success()
         continue-on-error: true
@@ -143,6 +146,45 @@ jobs:
             sleep 3
           done
           echo "::warning::Deployment succeeded, but the live-site check did not yet confirm propagation."
+      - name: Verify Grade 8 interactive practice is live
+        if: success()
+        continue-on-error: true
+        timeout-minutes: 2
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, os, time, urllib.request
+          from pathlib import Path
+          root = 'https://simonh68.github.io/teachers/'
+          prefix = 'grade8/test2-practice/'
+          if not Path('public', prefix, 'index.html').is_file():
+              print('Grade 8 practice is not present in this revision; nothing to verify.')
+              raise SystemExit(0)
+          stamp = os.environ['GITHUB_RUN_ID'] + '-' + os.environ['GITHUB_RUN_ATTEMPT']
+          for attempt in range(1, 4):
+              try:
+                  def read(path):
+                      request = urllib.request.Request(root + path + '?verify=' + stamp + '-' + str(attempt), headers={'Cache-Control': 'no-cache'})
+                      with urllib.request.urlopen(request, timeout=12) as response:
+                          assert response.status == 200, (path, response.status)
+                          return response.read()
+                  for name in ['index.html', 'lesson.js', 'app.js', 'style.css']:
+                      path = prefix + name
+                      actual = read(path)
+                      expected = Path('public', path).read_bytes()
+                      assert hashlib.sha256(actual).digest() == hashlib.sha256(expected).digest(), 'Stale content: ' + path
+                      print('Verified live bytes:', path, len(actual))
+                  assert b'test2-practice/' in read('grade8/')
+                  manifest = json.loads(read('data/grade8.json'))
+                  assert any(item['url'] == prefix for item in manifest['materials'])
+                  print('GRADE8_LIVE_OK: all four app files, class-page link and published manifest verified.')
+                  break
+              except Exception as error:
+                  print('Grade 8 verification attempt', attempt, str(error))
+                  if attempt == 3:
+                      raise
+                  time.sleep(4)
+          PY
       - name: Verify withdrawn Grade 8 pages and downloads are unavailable
         shell: bash
         run: |
