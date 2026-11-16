@@ -14,9 +14,14 @@ def close_pairing(page):
     if close.is_visible():
         close.click()
 
-def assert_plays(page):
+def assert_plays(page, expected_rate):
     page.locator("[data-action=replay]").click()
-    page.wait_for_function("!!document.querySelector('.word.on') && !audio.paused", timeout=20000)
+    page.wait_for_function("""rate => {
+        const word = document.querySelector('.word.on');
+        if (!word || audio.paused || audio.playbackRate !== rate) return false;
+        const [, start, end] = data.rows[state.index].words[Number(word.dataset.i)];
+        return audio.currentTime >= start && audio.currentTime < end;
+    }""", arg=float(expected_rate), timeout=20000)
     page.locator("#play").click()
 
 def document_position(locator):
@@ -45,6 +50,7 @@ with sync_playwright() as pw:
         if width >= 900:
             page.locator("#teachers-qr-remote-host").get_by_role("button",name="סגור / Close").wait_for(timeout=10000)
             close_pairing(page)
+        expected_rate = "0.75"
         for part, total in enumerate(COUNTS, 1):
             page.locator(".part-row").nth(part-1).click()
             language=page.locator("#hebrew-mode")
@@ -59,6 +65,9 @@ with sync_playwright() as pw:
                 assert page.locator(".chip small").first.is_visible()
             page.locator("[data-action=begin]").click()
             page.locator(".sentence").wait_for()
+            rates = page.get_by_role("combobox", name="Playback speed")
+            assert rates.locator("option").all_text_contents() == ["0.75×", "1×", "1.25×", "1.5×"]
+            assert rates.input_value() == expected_rate
             assert page.locator("#jump option").count() == total
             assert f"Part {part:02}" in page.locator(".eyebrow").inner_text()
             if part==1:
@@ -89,7 +98,11 @@ with sync_playwright() as pw:
                 assert language.get_attribute("aria-pressed")=="true"
             for idx in [0,total//2,total-1]:
                 page.locator("#jump").select_option(str(idx))
-                assert_plays(page)
+                assert rates.input_value() == expected_rate
+                if idx != total-1:
+                    expected_rate = "1.25" if idx == 0 else "1.5"
+                    rates.select_option(expected_rate)
+                assert_plays(page, expected_rate)
                 assert not page.locator(".translation").inner_text().strip()
                 sentence=page.locator(".sentence")
                 before=document_position(sentence)
