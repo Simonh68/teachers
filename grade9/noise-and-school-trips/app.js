@@ -267,7 +267,7 @@
   document.addEventListener('visibilitychange',()=>{if(document.hidden){stopTimers();narration.pause();audioUI(false);}else scheduleSlide();});
   window.addEventListener('pagehide',()=>{stopTimers();stopAudio();});
   async function init(){
-    const results=await Promise.all([fetch('content.json?v=20261118').then(r=>{if(!r.ok)throw Error('content');return r.json();}),fetch('audio/manifest.json?v=20261118').then(r=>r.ok?r.json():{clips:{}}).catch(()=>({clips:{}}))]);
+    const results=await Promise.all([fetch('content.json?v=20261118').then(r=>{if(!r.ok)throw Error('content');return r.json();}),fetch('audio/audio-index.json?v=20261118-2').then(r=>r.ok?r.json():{clips:{}}).catch(()=>({clips:{}}))]);
     S.data=results[0];S.clips=results[1].clips||{};for(const [id,clip] of Object.entries(S.clips)){
       S.audioByText.set(norm(clip.text),id);
       let offset=0;const spans=clip.text.split(/\s+/).filter(Boolean).map(word=>{const start=offset;offset+=norm(word).replace(/\s/g,'').length;return {start,end:offset};});
