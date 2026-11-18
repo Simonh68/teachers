@@ -3,6 +3,14 @@
   "grade": 9,
   "materials": [
     {
+      "id": "noise-school-trips-lesson",
+      "title": "Too Much Noise at School · מצגת לימוד: קריאה, 7 שאלות וכתיבה",
+      "description": "אוצר מילים, הקראה מוקלטת עם הדגשת מילים, פתרון מודרך לשבע השאלות וכתיבה על טיולים קרובים או רחוקים. תרגום עברי לבחירה וקישור לדף העבודה.",
+      "url": "grade9/noise-and-school-trips/",
+      "unit": "Other",
+      "worksheet": "grade9/noise-and-school-trips/grade9-noise-and-school-trips.pdf"
+    },
+    {
       "id": "noise-school-trips-module-c-pdf",
       "title": "Too Much Noise at School · אנסין וכתיבה — PDF, שני עמודים",
       "url": "grade9/noise-and-school-trips/grade9-noise-and-school-trips.pdf",

@@ -1,0 +1,6716 @@
+{
+  "schemaVersion": 1,
+  "provider": "Microsoft Edge Read Aloud neural speech",
+  "voice": "en-US-GuyNeural",
+  "recordingRate": 1,
+  "defaultPlaybackRate": 0.75,
+  "timing": "service_word_boundaries",
+  "clips": {
+    "p1s1": {
+      "file": "audio/p1s1.mp3",
+      "text": "Imagine trying to read a story while chairs move across the floor and students talk around you.",
+      "words": [
+        {
+          "text": "Imagine",
+          "start": 0.1,
+          "end": 0.575
+        },
+        {
+          "text": "trying",
+          "start": 0.6,
+          "end": 0.875
+        },
+        {
+          "text": "to",
+          "start": 0.8875,
+          "end": 0.975
+        },
+        {
+          "text": "read",
+          "start": 1.0,
+          "end": 1.2
+        },
+        {
+          "text": "a",
+          "start": 1.2125,
+          "end": 1.2625
+        },
+        {
+          "text": "story",
+          "start": 1.2875,
+          "end": 1.6375
+        },
+        {
+          "text": "while",
+          "start": 1.6625,
+          "end": 1.85
+        },
+        {
+          "text": "chairs",
+          "start": 1.8625,
+          "end": 2.1875
+        },
+        {
+          "text": "move",
+          "start": 2.2125,
+          "end": 2.3875
+        },
+        {
+          "text": "across",
+          "start": 2.4,
+          "end": 2.7375
+        },
+        {
+          "text": "the",
+          "start": 2.7625,
+          "end": 2.8625
+        },
+        {
+          "text": "floor",
+          "start": 2.875,
+          "end": 3.175
+        },
+        {
+          "text": "and",
+          "start": 3.1875,
+          "end": 3.2875
+        },
+        {
+          "text": "students",
+          "start": 3.3125,
+          "end": 3.75
+        },
+        {
+          "text": "talk",
+          "start": 3.775,
+          "end": 4.0
+        },
+        {
+          "text": "around",
+          "start": 4.0125,
+          "end": 4.3125
+        },
+        {
+          "text": "you",
+          "start": 4.325,
+          "end": 4.525
+        }
+      ],
+      "duration": 5.4,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p1s2": {
+      "file": "audio/p1s2.mp3",
+      "text": "You may read the same sentence several times without understanding it.",
+      "words": [
+        {
+          "text": "You",
+          "start": 0.1,
+          "end": 0.2875
+        },
+        {
+          "text": "may",
+          "start": 0.3,
+          "end": 0.4625
+        },
+        {
+          "text": "read",
+          "start": 0.4875,
+          "end": 0.7
+        },
+        {
+          "text": "the",
+          "start": 0.725,
+          "end": 0.825
+        },
+        {
+          "text": "same",
+          "start": 0.85,
+          "end": 1.125
+        },
+        {
+          "text": "sentence",
+          "start": 1.15,
+          "end": 1.55
+        },
+        {
+          "text": "several",
+          "start": 1.575,
+          "end": 1.8875
+        },
+        {
+          "text": "times",
+          "start": 1.9,
+          "end": 2.2625
+        },
+        {
+          "text": "without",
+          "start": 2.275,
+          "end": 2.6125
+        },
+        {
+          "text": "understanding",
+          "start": 2.6375,
+          "end": 3.3
+        },
+        {
+          "text": "it",
+          "start": 3.3125,
+          "end": 3.4875
+        }
+      ],
+      "duration": 4.392,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p1s3": {
+      "file": "audio/p1s3.mp3",
+      "text": "Noise can make it difficult to concentrate, which means keeping your attention on what you are doing.",
+      "words": [
+        {
+          "text": "Noise",
+          "start": 0.1,
+          "end": 0.45
+        },
+        {
+          "text": "can",
+          "start": 0.475,
+          "end": 0.6125
+        },
+        {
+          "text": "make",
+          "start": 0.6375,
+          "end": 0.8125
+        },
+        {
+          "text": "it",
+          "start": 0.825,
+          "end": 0.925
+        },
+        {
+          "text": "difficult",
+          "start": 0.95,
+          "end": 1.4
+        },
+        {
+          "text": "to",
+          "start": 1.425,
+          "end": 1.525
+        },
+        {
+          "text": "concentrate",
+          "start": 1.55,
+          "end": 2.2125
+        },
+        {
+          "text": "which",
+          "start": 2.475,
+          "end": 2.6625
+        },
+        {
+          "text": "means",
+          "start": 2.6875,
+          "end": 2.925
+        },
+        {
+          "text": "keeping",
+          "start": 2.95,
+          "end": 3.2875
+        },
+        {
+          "text": "your",
+          "start": 3.3125,
+          "end": 3.45
+        },
+        {
+          "text": "attention",
+          "start": 3.4625,
+          "end": 3.9375
+        },
+        {
+          "text": "on",
+          "start": 3.9625,
+          "end": 4.0875
+        },
+        {
+          "text": "what",
+          "start": 4.1125,
+          "end": 4.2875
+        },
+        {
+          "text": "you",
+          "start": 4.3125,
+          "end": 4.425
+        },
+        {
+          "text": "are",
+          "start": 4.45,
+          "end": 4.55
+        },
+        {
+          "text": "doing",
+          "start": 4.5625,
+          "end": 4.925
+        }
+      ],
+      "duration": 5.832,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p1s4": {
+      "file": "audio/p1s4.mp3",
+      "text": "This problem can affect students in both public and private schools.",
+      "words": [
+        {
+          "text": "This",
+          "start": 0.1,
+          "end": 0.325
+        },
+        {
+          "text": "problem",
+          "start": 0.3375,
+          "end": 0.725
+        },
+        {
+          "text": "can",
+          "start": 0.75,
+          "end": 0.8875
+        },
+        {
+          "text": "affect",
+          "start": 0.9125,
+          "end": 1.225
+        },
+        {
+          "text": "students",
+          "start": 1.25,
+          "end": 1.675
+        },
+        {
+          "text": "in",
+          "start": 1.7,
+          "end": 1.8
+        },
+        {
+          "text": "both",
+          "start": 1.825,
+          "end": 2.0375
+        },
+        {
+          "text": "public",
+          "start": 2.0625,
+          "end": 2.4625
+        },
+        {
+          "text": "and",
+          "start": 2.475,
+          "end": 2.6
+        },
+        {
+          "text": "private",
+          "start": 2.6125,
+          "end": 2.9625
+        },
+        {
+          "text": "schools",
+          "start": 2.975,
+          "end": 3.475
+        }
+      ],
+      "duration": 4.368,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p2s1": {
+      "file": "audio/p2s1.mp3",
+      "text": "Noise may come from inside or outside the classroom.",
+      "words": [
+        {
+          "text": "Noise",
+          "start": 0.1,
+          "end": 0.45
+        },
+        {
+          "text": "may",
+          "start": 0.4625,
+          "end": 0.6
+        },
+        {
+          "text": "come",
+          "start": 0.625,
+          "end": 0.825
+        },
+        {
+          "text": "from",
+          "start": 0.85,
+          "end": 1.025
+        },
+        {
+          "text": "inside",
+          "start": 1.05,
+          "end": 1.5125
+        },
+        {
+          "text": "or",
+          "start": 1.525,
+          "end": 1.65
+        },
+        {
+          "text": "outside",
+          "start": 1.675,
+          "end": 2.0375
+        },
+        {
+          "text": "the",
+          "start": 2.05,
+          "end": 2.1375
+        },
+        {
+          "text": "classroom",
+          "start": 2.1625,
+          "end": 2.7
+        }
+      ],
+      "duration": 3.6,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p2s2": {
+      "file": "audio/p2s2.mp3",
+      "text": "Talking, moving furniture and loud fans can disturb a lesson.",
+      "words": [
+        {
+          "text": "Talking",
+          "start": 0.1,
+          "end": 0.5375
+        },
+        {
+          "text": "moving",
+          "start": 0.6875,
+          "end": 0.9625
+        },
+        {
+          "text": "furniture",
+          "start": 0.9875,
+          "end": 1.4625
+        },
+        {
+          "text": "and",
+          "start": 1.475,
+          "end": 1.5625
+        },
+        {
+          "text": "loud",
+          "start": 1.5875,
+          "end": 1.825
+        },
+        {
+          "text": "fans",
+          "start": 1.85,
+          "end": 2.2125
+        },
+        {
+          "text": "can",
+          "start": 2.2375,
+          "end": 2.3625
+        },
+        {
+          "text": "disturb",
+          "start": 2.3875,
+          "end": 2.8
+        },
+        {
+          "text": "a",
+          "start": 2.8125,
+          "end": 2.875
+        },
+        {
+          "text": "lesson",
+          "start": 2.9,
+          "end": 3.3
+        }
+      ],
+      "duration": 4.2,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p2s3": {
+      "file": "audio/p2s3.mp3",
+      "text": "Traffic and building work nearby can also make it hard to hear the teacher.",
+      "words": [
+        {
+          "text": "Traffic",
+          "start": 0.1,
+          "end": 0.5375
+        },
+        {
+          "text": "and",
+          "start": 0.5625,
+          "end": 0.6625
+        },
+        {
+          "text": "building",
+          "start": 0.6875,
+          "end": 1.0375
+        },
+        {
+          "text": "work",
+          "start": 1.0625,
+          "end": 1.275
+        },
+        {
+          "text": "nearby",
+          "start": 1.2875,
+          "end": 1.7
+        },
+        {
+          "text": "can",
+          "start": 1.725,
+          "end": 1.9
+        },
+        {
+          "text": "also",
+          "start": 1.925,
+          "end": 2.1875
+        },
+        {
+          "text": "make",
+          "start": 2.2,
+          "end": 2.4
+        },
+        {
+          "text": "it",
+          "start": 2.4125,
+          "end": 2.4875
+        },
+        {
+          "text": "hard",
+          "start": 2.5125,
+          "end": 2.7625
+        },
+        {
+          "text": "to",
+          "start": 2.775,
+          "end": 2.85
+        },
+        {
+          "text": "hear",
+          "start": 2.875,
+          "end": 3.075
+        },
+        {
+          "text": "the",
+          "start": 3.1,
+          "end": 3.2
+        },
+        {
+          "text": "teacher",
+          "start": 3.2125,
+          "end": 3.7125
+        }
+      ],
+      "duration": 4.608,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p2s4": {
+      "file": "audio/p2s4.mp3",
+      "text": "When students miss important instructions, they may make mistakes even when they understand the subject.",
+      "words": [
+        {
+          "text": "When",
+          "start": 0.1,
+          "end": 0.2625
+        },
+        {
+          "text": "students",
+          "start": 0.2875,
+          "end": 0.7
+        },
+        {
+          "text": "miss",
+          "start": 0.7125,
+          "end": 0.9125
+        },
+        {
+          "text": "important",
+          "start": 0.925,
+          "end": 1.4125
+        },
+        {
+          "text": "instructions",
+          "start": 1.4375,
+          "end": 2.1125
+        },
+        {
+          "text": "they",
+          "start": 2.35,
+          "end": 2.475
+        },
+        {
+          "text": "may",
+          "start": 2.5,
+          "end": 2.65
+        },
+        {
+          "text": "make",
+          "start": 2.6625,
+          "end": 2.8625
+        },
+        {
+          "text": "mistakes",
+          "start": 2.8875,
+          "end": 3.3625
+        },
+        {
+          "text": "even",
+          "start": 3.375,
+          "end": 3.6375
+        },
+        {
+          "text": "when",
+          "start": 3.6625,
+          "end": 3.7875
+        },
+        {
+          "text": "they",
+          "start": 3.8125,
+          "end": 3.9375
+        },
+        {
+          "text": "understand",
+          "start": 3.9625,
+          "end": 4.5125
+        },
+        {
+          "text": "the",
+          "start": 4.525,
+          "end": 4.6125
+        },
+        {
+          "text": "subject",
+          "start": 4.6375,
+          "end": 5.2
+        }
+      ],
+      "duration": 6.096,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p3s1": {
+      "file": "audio/p3s1.mp3",
+      "text": "Some people think that private schools are always quieter than public schools.",
+      "words": [
+        {
+          "text": "Some",
+          "start": 0.1,
+          "end": 0.3875
+        },
+        {
+          "text": "people",
+          "start": 0.4,
+          "end": 0.6625
+        },
+        {
+          "text": "think",
+          "start": 0.675,
+          "end": 0.8625
+        },
+        {
+          "text": "that",
+          "start": 0.8875,
+          "end": 1.025
+        },
+        {
+          "text": "private",
+          "start": 1.0375,
+          "end": 1.375
+        },
+        {
+          "text": "schools",
+          "start": 1.3875,
+          "end": 1.7625
+        },
+        {
+          "text": "are",
+          "start": 1.775,
+          "end": 1.9375
+        },
+        {
+          "text": "always",
+          "start": 1.9625,
+          "end": 2.2875
+        },
+        {
+          "text": "quieter",
+          "start": 2.3,
+          "end": 2.7375
+        },
+        {
+          "text": "than",
+          "start": 2.7625,
+          "end": 2.9125
+        },
+        {
+          "text": "public",
+          "start": 2.9375,
+          "end": 3.2625
+        },
+        {
+          "text": "schools",
+          "start": 3.275,
+          "end": 3.8
+        }
+      ],
+      "duration": 4.704,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p3s2": {
+      "file": "audio/p3s2.mp3",
+      "text": "However, the type of school is not enough to tell us how noisy it is.",
+      "words": [
+        {
+          "text": "However",
+          "start": 0.1,
+          "end": 0.525
+        },
+        {
+          "text": "the",
+          "start": 0.6625,
+          "end": 0.775
+        },
+        {
+          "text": "type",
+          "start": 0.8,
+          "end": 1.0375
+        },
+        {
+          "text": "of",
+          "start": 1.05,
+          "end": 1.1625
+        },
+        {
+          "text": "school",
+          "start": 1.175,
+          "end": 1.5125
+        },
+        {
+          "text": "is",
+          "start": 1.5375,
+          "end": 1.6625
+        },
+        {
+          "text": "not",
+          "start": 1.6875,
+          "end": 1.875
+        },
+        {
+          "text": "enough",
+          "start": 1.8875,
+          "end": 2.1
+        },
+        {
+          "text": "to",
+          "start": 2.125,
+          "end": 2.2
+        },
+        {
+          "text": "tell",
+          "start": 2.225,
+          "end": 2.4375
+        },
+        {
+          "text": "us",
+          "start": 2.45,
+          "end": 2.575
+        },
+        {
+          "text": "how",
+          "start": 2.6,
+          "end": 2.7125
+        },
+        {
+          "text": "noisy",
+          "start": 2.7375,
+          "end": 3.1625
+        },
+        {
+          "text": "it",
+          "start": 3.1875,
+          "end": 3.2875
+        },
+        {
+          "text": "is",
+          "start": 3.3,
+          "end": 3.5875
+        }
+      ],
+      "duration": 4.488,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p3s3": {
+      "file": "audio/p3s3.mp3",
+      "text": "A small private school next to a busy road may be noisier than a large public school on a quiet street.",
+      "words": [
+        {
+          "text": "A",
+          "start": 0.1,
+          "end": 0.225
+        },
+        {
+          "text": "small",
+          "start": 0.2375,
+          "end": 0.5125
+        },
+        {
+          "text": "private",
+          "start": 0.525,
+          "end": 0.875
+        },
+        {
+          "text": "school",
+          "start": 0.8875,
+          "end": 1.1875
+        },
+        {
+          "text": "next",
+          "start": 1.2125,
+          "end": 1.4375
+        },
+        {
+          "text": "to",
+          "start": 1.4625,
+          "end": 1.55
+        },
+        {
+          "text": "a",
+          "start": 1.575,
+          "end": 1.65
+        },
+        {
+          "text": "busy",
+          "start": 1.675,
+          "end": 1.9625
+        },
+        {
+          "text": "road",
+          "start": 1.9875,
+          "end": 2.3125
+        },
+        {
+          "text": "may",
+          "start": 2.3375,
+          "end": 2.4625
+        },
+        {
+          "text": "be",
+          "start": 2.4875,
+          "end": 2.6125
+        },
+        {
+          "text": "noisier",
+          "start": 2.6375,
+          "end": 3.1375
+        },
+        {
+          "text": "than",
+          "start": 3.1625,
+          "end": 3.2875
+        },
+        {
+          "text": "a",
+          "start": 3.3125,
+          "end": 3.3625
+        },
+        {
+          "text": "large",
+          "start": 3.375,
+          "end": 3.675
+        },
+        {
+          "text": "public",
+          "start": 3.7,
+          "end": 4.025
+        },
+        {
+          "text": "school",
+          "start": 4.0375,
+          "end": 4.4125
+        },
+        {
+          "text": "on",
+          "start": 4.4375,
+          "end": 4.5375
+        },
+        {
+          "text": "a",
+          "start": 4.5625,
+          "end": 4.6125
+        },
+        {
+          "text": "quiet",
+          "start": 4.625,
+          "end": 4.9375
+        },
+        {
+          "text": "street",
+          "start": 4.95,
+          "end": 5.3375
+        }
+      ],
+      "duration": 6.216,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p3s4": {
+      "file": "audio/p3s4.mp3",
+      "text": "The number of students in a room and their behavior also make a difference.",
+      "words": [
+        {
+          "text": "The",
+          "start": 0.1,
+          "end": 0.2125
+        },
+        {
+          "text": "number",
+          "start": 0.2375,
+          "end": 0.5375
+        },
+        {
+          "text": "of",
+          "start": 0.55,
+          "end": 0.6375
+        },
+        {
+          "text": "students",
+          "start": 0.65,
+          "end": 1.1
+        },
+        {
+          "text": "in",
+          "start": 1.125,
+          "end": 1.2125
+        },
+        {
+          "text": "a",
+          "start": 1.2375,
+          "end": 1.2875
+        },
+        {
+          "text": "room",
+          "start": 1.3,
+          "end": 1.6125
+        },
+        {
+          "text": "and",
+          "start": 1.6375,
+          "end": 1.7125
+        },
+        {
+          "text": "their",
+          "start": 1.7375,
+          "end": 1.8875
+        },
+        {
+          "text": "behavior",
+          "start": 1.9,
+          "end": 2.475
+        },
+        {
+          "text": "also",
+          "start": 2.5,
+          "end": 2.775
+        },
+        {
+          "text": "make",
+          "start": 2.7875,
+          "end": 2.975
+        },
+        {
+          "text": "a",
+          "start": 2.9875,
+          "end": 3.05
+        },
+        {
+          "text": "difference",
+          "start": 3.0625,
+          "end": 3.625
+        }
+      ],
+      "duration": 4.512,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p4s1": {
+      "file": "audio/p4s1.mp3",
+      "text": "Noise does not affect every student in the same way.",
+      "words": [
+        {
+          "text": "Noise",
+          "start": 0.1,
+          "end": 0.45
+        },
+        {
+          "text": "does",
+          "start": 0.475,
+          "end": 0.6625
+        },
+        {
+          "text": "not",
+          "start": 0.6875,
+          "end": 0.875
+        },
+        {
+          "text": "affect",
+          "start": 0.9,
+          "end": 1.2875
+        },
+        {
+          "text": "every",
+          "start": 1.3,
+          "end": 1.55
+        },
+        {
+          "text": "student",
+          "start": 1.575,
+          "end": 1.95
+        },
+        {
+          "text": "in",
+          "start": 1.9625,
+          "end": 2.025
+        },
+        {
+          "text": "the",
+          "start": 2.05,
+          "end": 2.15
+        },
+        {
+          "text": "same",
+          "start": 2.1625,
+          "end": 2.4375
+        },
+        {
+          "text": "way",
+          "start": 2.45,
+          "end": 2.775
+        }
+      ],
+      "duration": 3.672,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p4s2": {
+      "file": "audio/p4s2.mp3",
+      "text": "Some can work with quiet sounds around them, while others need more silence.",
+      "words": [
+        {
+          "text": "Some",
+          "start": 0.1,
+          "end": 0.4
+        },
+        {
+          "text": "can",
+          "start": 0.425,
+          "end": 0.5875
+        },
+        {
+          "text": "work",
+          "start": 0.6125,
+          "end": 0.8375
+        },
+        {
+          "text": "with",
+          "start": 0.8625,
+          "end": 1.0125
+        },
+        {
+          "text": "quiet",
+          "start": 1.0375,
+          "end": 1.375
+        },
+        {
+          "text": "sounds",
+          "start": 1.4,
+          "end": 1.6875
+        },
+        {
+          "text": "around",
+          "start": 1.7125,
+          "end": 2.0125
+        },
+        {
+          "text": "them",
+          "start": 2.025,
+          "end": 2.1625
+        },
+        {
+          "text": "while",
+          "start": 2.4125,
+          "end": 2.6125
+        },
+        {
+          "text": "others",
+          "start": 2.625,
+          "end": 2.95
+        },
+        {
+          "text": "need",
+          "start": 2.975,
+          "end": 3.15
+        },
+        {
+          "text": "more",
+          "start": 3.175,
+          "end": 3.35
+        },
+        {
+          "text": "silence",
+          "start": 3.375,
+          "end": 3.95
+        }
+      ],
+      "duration": 4.824,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p4s3": {
+      "file": "audio/p4s3.mp3",
+      "text": "The activity also matters.",
+      "words": [
+        {
+          "text": "The",
+          "start": 0.1,
+          "end": 0.25
+        },
+        {
+          "text": "activity",
+          "start": 0.275,
+          "end": 0.8875
+        },
+        {
+          "text": "also",
+          "start": 0.9125,
+          "end": 1.2625
+        },
+        {
+          "text": "matters",
+          "start": 1.2875,
+          "end": 1.8125
+        }
+      ],
+      "duration": 2.688,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p4s4": {
+      "file": "audio/p4s4.mp3",
+      "text": "During a test, students usually need quiet.",
+      "words": [
+        {
+          "text": "During",
+          "start": 0.1,
+          "end": 0.45
+        },
+        {
+          "text": "a",
+          "start": 0.475,
+          "end": 0.5375
+        },
+        {
+          "text": "test",
+          "start": 0.5625,
+          "end": 0.9375
+        },
+        {
+          "text": "students",
+          "start": 1.15,
+          "end": 1.6125
+        },
+        {
+          "text": "usually",
+          "start": 1.6375,
+          "end": 2.075
+        },
+        {
+          "text": "need",
+          "start": 2.0875,
+          "end": 2.2875
+        },
+        {
+          "text": "quiet",
+          "start": 2.3125,
+          "end": 2.775
+        }
+      ],
+      "duration": 3.672,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p4s5": {
+      "file": "audio/p4s5.mp3",
+      "text": "During group work, however, talking helps students share ideas.",
+      "words": [
+        {
+          "text": "During",
+          "start": 0.1,
+          "end": 0.4125
+        },
+        {
+          "text": "group",
+          "start": 0.425,
+          "end": 0.6625
+        },
+        {
+          "text": "work",
+          "start": 0.675,
+          "end": 0.9125
+        },
+        {
+          "text": "however",
+          "start": 1.05,
+          "end": 1.4875
+        },
+        {
+          "text": "talking",
+          "start": 1.6875,
+          "end": 2.0375
+        },
+        {
+          "text": "helps",
+          "start": 2.0625,
+          "end": 2.3125
+        },
+        {
+          "text": "students",
+          "start": 2.3375,
+          "end": 2.7
+        },
+        {
+          "text": "share",
+          "start": 2.725,
+          "end": 2.9625
+        },
+        {
+          "text": "ideas",
+          "start": 2.9875,
+          "end": 3.5
+        }
+      ],
+      "duration": 4.392,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p4s6": {
+      "file": "audio/p4s6.mp3",
+      "text": "A completely silent classroom is therefore not always the best place to learn.",
+      "words": [
+        {
+          "text": "A",
+          "start": 0.1,
+          "end": 0.225
+        },
+        {
+          "text": "completely",
+          "start": 0.25,
+          "end": 0.7875
+        },
+        {
+          "text": "silent",
+          "start": 0.8125,
+          "end": 1.2125
+        },
+        {
+          "text": "classroom",
+          "start": 1.2375,
+          "end": 1.6875
+        },
+        {
+          "text": "is",
+          "start": 1.7,
+          "end": 1.825
+        },
+        {
+          "text": "therefore",
+          "start": 1.85,
+          "end": 2.2375
+        },
+        {
+          "text": "not",
+          "start": 2.2625,
+          "end": 2.4875
+        },
+        {
+          "text": "always",
+          "start": 2.5125,
+          "end": 2.875
+        },
+        {
+          "text": "the",
+          "start": 2.9,
+          "end": 3.0
+        },
+        {
+          "text": "best",
+          "start": 3.0125,
+          "end": 3.275
+        },
+        {
+          "text": "place",
+          "start": 3.3,
+          "end": 3.525
+        },
+        {
+          "text": "to",
+          "start": 3.55,
+          "end": 3.6625
+        },
+        {
+          "text": "learn",
+          "start": 3.6875,
+          "end": 4.0375
+        }
+      ],
+      "duration": 4.944,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p5s1": {
+      "file": "audio/p5s1.mp3",
+      "text": "Schools can take simple steps to reduce noise.",
+      "words": [
+        {
+          "text": "Schools",
+          "start": 0.1,
+          "end": 0.5875
+        },
+        {
+          "text": "can",
+          "start": 0.6,
+          "end": 0.725
+        },
+        {
+          "text": "take",
+          "start": 0.75,
+          "end": 0.9375
+        },
+        {
+          "text": "simple",
+          "start": 0.9625,
+          "end": 1.3375
+        },
+        {
+          "text": "steps",
+          "start": 1.3625,
+          "end": 1.675
+        },
+        {
+          "text": "to",
+          "start": 1.7,
+          "end": 1.8
+        },
+        {
+          "text": "reduce",
+          "start": 1.825,
+          "end": 2.1625
+        },
+        {
+          "text": "noise",
+          "start": 2.1875,
+          "end": 2.65
+        }
+      ],
+      "duration": 3.552,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p5s2": {
+      "file": "audio/p5s2.mp3",
+      "text": "They can put soft covers under chair legs and close windows during noisy activities outside.",
+      "words": [
+        {
+          "text": "They",
+          "start": 0.1,
+          "end": 0.25
+        },
+        {
+          "text": "can",
+          "start": 0.2625,
+          "end": 0.4
+        },
+        {
+          "text": "put",
+          "start": 0.425,
+          "end": 0.6
+        },
+        {
+          "text": "soft",
+          "start": 0.6125,
+          "end": 0.925
+        },
+        {
+          "text": "covers",
+          "start": 0.95,
+          "end": 1.3
+        },
+        {
+          "text": "under",
+          "start": 1.325,
+          "end": 1.5375
+        },
+        {
+          "text": "chair",
+          "start": 1.55,
+          "end": 1.7875
+        },
+        {
+          "text": "legs",
+          "start": 1.8125,
+          "end": 2.1
+        },
+        {
+          "text": "and",
+          "start": 2.125,
+          "end": 2.2125
+        },
+        {
+          "text": "close",
+          "start": 2.2375,
+          "end": 2.5
+        },
+        {
+          "text": "windows",
+          "start": 2.525,
+          "end": 2.925
+        },
+        {
+          "text": "during",
+          "start": 2.95,
+          "end": 3.2125
+        },
+        {
+          "text": "noisy",
+          "start": 3.2375,
+          "end": 3.5875
+        },
+        {
+          "text": "activities",
+          "start": 3.6125,
+          "end": 4.15
+        },
+        {
+          "text": "outside",
+          "start": 4.175,
+          "end": 4.7
+        }
+      ],
+      "duration": 5.592,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p5s3": {
+      "file": "audio/p5s3.mp3",
+      "text": "Teachers can also agree on clear rules with their classes, such as speaking one at a time.",
+      "words": [
+        {
+          "text": "Teachers",
+          "start": 0.1,
+          "end": 0.4875
+        },
+        {
+          "text": "can",
+          "start": 0.5125,
+          "end": 0.65
+        },
+        {
+          "text": "also",
+          "start": 0.675,
+          "end": 0.925
+        },
+        {
+          "text": "agree",
+          "start": 0.95,
+          "end": 1.2125
+        },
+        {
+          "text": "on",
+          "start": 1.2375,
+          "end": 1.3625
+        },
+        {
+          "text": "clear",
+          "start": 1.375,
+          "end": 1.65
+        },
+        {
+          "text": "rules",
+          "start": 1.675,
+          "end": 1.9625
+        },
+        {
+          "text": "with",
+          "start": 1.9875,
+          "end": 2.125
+        },
+        {
+          "text": "their",
+          "start": 2.1375,
+          "end": 2.2875
+        },
+        {
+          "text": "classes",
+          "start": 2.3,
+          "end": 2.7625
+        },
+        {
+          "text": "such",
+          "start": 2.975,
+          "end": 3.1625
+        },
+        {
+          "text": "as",
+          "start": 3.1875,
+          "end": 3.275
+        },
+        {
+          "text": "speaking",
+          "start": 3.3,
+          "end": 3.6875
+        },
+        {
+          "text": "one",
+          "start": 3.7,
+          "end": 3.8625
+        },
+        {
+          "text": "at",
+          "start": 3.875,
+          "end": 3.95
+        },
+        {
+          "text": "a",
+          "start": 3.9625,
+          "end": 4.0125
+        },
+        {
+          "text": "time",
+          "start": 4.025,
+          "end": 4.4125
+        }
+      ],
+      "duration": 5.304,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "p5s4": {
+      "file": "audio/p5s4.mp3",
+      "text": "Both public and private schools should provide quiet spaces for students who need them.",
+      "words": [
+        {
+          "text": "Both",
+          "start": 0.1,
+          "end": 0.35
+        },
+        {
+          "text": "public",
+          "start": 0.375,
+          "end": 0.7375
+        },
+        {
+          "text": "and",
+          "start": 0.75,
+          "end": 0.85
+        },
+        {
+          "text": "private",
+          "start": 0.875,
+          "end": 1.2375
+        },
+        {
+          "text": "schools",
+          "start": 1.25,
+          "end": 1.625
+        },
+        {
+          "text": "should",
+          "start": 1.65,
+          "end": 1.8375
+        },
+        {
+          "text": "provide",
+          "start": 1.85,
+          "end": 2.2375
+        },
+        {
+          "text": "quiet",
+          "start": 2.25,
+          "end": 2.5875
+        },
+        {
+          "text": "spaces",
+          "start": 2.6125,
+          "end": 3.0375
+        },
+        {
+          "text": "for",
+          "start": 3.0625,
+          "end": 3.225
+        },
+        {
+          "text": "students",
+          "start": 3.25,
+          "end": 3.6625
+        },
+        {
+          "text": "who",
+          "start": 3.6875,
+          "end": 3.7875
+        },
+        {
+          "text": "need",
+          "start": 3.8125,
+          "end": 4.0125
+        },
+        {
+          "text": "them",
+          "start": 4.025,
+          "end": 4.2375
+        }
+      ],
+      "duration": 5.136,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "v01": {
+      "file": "audio/v01.mp3",
+      "text": "noise",
+      "words": [
+        {
+          "text": "noise",
+          "start": 0.1,
+          "end": 0.7875
+        }
+      ],
+      "duration": 1.872,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "ve01": {
+      "file": "audio/ve01.mp3",
+      "text": "Noise can make a lesson difficult.",
+      "words": [
+        {
+          "text": "Noise",
+          "start": 0.1,
+          "end": 0.4875
+        },
+        {
+          "text": "can",
+          "start": 0.5125,
+          "end": 0.6625
+        },
+        {
+          "text": "make",
+          "start": 0.6875,
+          "end": 0.875
+        },
+        {
+          "text": "a",
+          "start": 0.8875,
+          "end": 0.95
+        },
+        {
+          "text": "lesson",
+          "start": 0.975,
+          "end": 1.3125
+        },
+        {
+          "text": "difficult",
+          "start": 1.3375,
+          "end": 1.925
+        }
+      ],
+      "duration": 2.808,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "v02": {
+      "file": "audio/v02.mp3",
+      "text": "concentrate",
+      "words": [
+        {
+          "text": "concentrate",
+          "start": 0.1,
+          "end": 1.0125
+        }
+      ],
+      "duration": 1.896,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "ve02": {
+      "file": "audio/ve02.mp3",
+      "text": "I cannot concentrate when people talk around me.",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.1,
+          "end": 0.25
+        },
+        {
+          "text": "cannot",
+          "start": 0.275,
+          "end": 0.6125
+        },
+        {
+          "text": "concentrate",
+          "start": 0.6375,
+          "end": 1.2875
+        },
+        {
+          "text": "when",
+          "start": 1.3125,
+          "end": 1.4625
+        },
+        {
+          "text": "people",
+          "start": 1.4875,
+          "end": 1.8125
+        },
+        {
+          "text": "talk",
+          "start": 1.8375,
+          "end": 2.0875
+        },
+        {
+          "text": "around",
+          "start": 2.1,
+          "end": 2.4125
+        },
+        {
+          "text": "me",
+          "start": 2.425,
+          "end": 2.6625
+        }
+      ],
+      "duration": 3.552,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "v03": {
+      "file": "audio/v03.mp3",
+      "text": "attention",
+      "words": [
+        {
+          "text": "attention",
+          "start": 0.1,
+          "end": 0.8875
+        }
+      ],
+      "duration": 1.872,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "ve03": {
+      "file": "audio/ve03.mp3",
+      "text": "Please give your attention to the speaker.",
+      "words": [
+        {
+          "text": "Please",
+          "start": 0.1,
+          "end": 0.3875
+        },
+        {
+          "text": "give",
+          "start": 0.4125,
+          "end": 0.5625
+        },
+        {
+          "text": "your",
+          "start": 0.5875,
+          "end": 0.7375
+        },
+        {
+          "text": "attention",
+          "start": 0.75,
+          "end": 1.25
+        },
+        {
+          "text": "to",
+          "start": 1.275,
+          "end": 1.3625
+        },
+        {
+          "text": "the",
+          "start": 1.375,
+          "end": 1.4875
+        },
+        {
+          "text": "speaker",
+          "start": 1.5125,
+          "end": 2.05
+        }
+      ],
+      "duration": 2.928,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "v04": {
+      "file": "audio/v04.mp3",
+      "text": "affect",
+      "words": [
+        {
+          "text": "affect",
+          "start": 0.1,
+          "end": 0.75
+        }
+      ],
+      "duration": 1.872,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "ve04": {
+      "file": "audio/ve04.mp3",
+      "text": "Noise can affect students in both types of school.",
+      "words": [
+        {
+          "text": "Noise",
+          "start": 0.1,
+          "end": 0.4625
+        },
+        {
+          "text": "can",
+          "start": 0.4875,
+          "end": 0.625
+        },
+        {
+          "text": "affect",
+          "start": 0.65,
+          "end": 0.975
+        },
+        {
+          "text": "students",
+          "start": 1.0,
+          "end": 1.4375
+        },
+        {
+          "text": "in",
+          "start": 1.4625,
+          "end": 1.5875
+        },
+        {
+          "text": "both",
+          "start": 1.6125,
+          "end": 1.85
+        },
+        {
+          "text": "types",
+          "start": 1.8625,
+          "end": 2.1375
+        },
+        {
+          "text": "of",
+          "start": 2.15,
+          "end": 2.225
+        },
+        {
+          "text": "school",
+          "start": 2.25,
+          "end": 2.675
+        }
+      ],
+      "duration": 3.576,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "v05": {
+      "file": "audio/v05.mp3",
+      "text": "disturb",
+      "words": [
+        {
+          "text": "disturb",
+          "start": 0.1,
+          "end": 0.7625
+        }
+      ],
+      "duration": 1.872,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "ve05": {
+      "file": "audio/ve05.mp3",
+      "text": "Loud fans can disturb a lesson.",
+      "words": [
+        {
+          "text": "Loud",
+          "start": 0.1,
+          "end": 0.4
+        },
+        {
+          "text": "fans",
+          "start": 0.425,
+          "end": 0.775
+        },
+        {
+          "text": "can",
+          "start": 0.8,
+          "end": 0.925
+        },
+        {
+          "text": "disturb",
+          "start": 0.95,
+          "end": 1.3875
+        },
+        {
+          "text": "a",
+          "start": 1.4125,
+          "end": 1.475
+        },
+        {
+          "text": "lesson",
+          "start": 1.5,
+          "end": 1.925
+        }
+      ],
+      "duration": 2.832,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "v06": {
+      "file": "audio/v06.mp3",
+      "text": "traffic",
+      "words": [
+        {
+          "text": "traffic",
+          "start": 0.1,
+          "end": 0.7625
+        }
+      ],
+      "duration": 1.872,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "ve06": {
+      "file": "audio/ve06.mp3",
+      "text": "Traffic can make it hard to hear the teacher.",
+      "words": [
+        {
+          "text": "Traffic",
+          "start": 0.1,
+          "end": 0.5625
+        },
+        {
+          "text": "can",
+          "start": 0.5875,
+          "end": 0.7375
+        },
+        {
+          "text": "make",
+          "start": 0.7625,
+          "end": 0.9625
+        },
+        {
+          "text": "it",
+          "start": 0.9875,
+          "end": 1.075
+        },
+        {
+          "text": "hard",
+          "start": 1.1,
+          "end": 1.375
+        },
+        {
+          "text": "to",
+          "start": 1.3875,
+          "end": 1.4625
+        },
+        {
+          "text": "hear",
+          "start": 1.4875,
+          "end": 1.7125
+        },
+        {
+          "text": "the",
+          "start": 1.7375,
+          "end": 1.8375
+        },
+        {
+          "text": "teacher",
+          "start": 1.85,
+          "end": 2.3625
+        }
+      ],
+      "duration": 3.24,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "v07": {
+      "file": "audio/v07.mp3",
+      "text": "instructions",
+      "words": [
+        {
+          "text": "instructions",
+          "start": 0.1,
+          "end": 1.075
+        }
+      ],
+      "duration": 1.944,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "ve07": {
+      "file": "audio/ve07.mp3",
+      "text": "Read the instructions before you begin.",
+      "words": [
+        {
+          "text": "Read",
+          "start": 0.1,
+          "end": 0.4125
+        },
+        {
+          "text": "the",
+          "start": 0.4375,
+          "end": 0.525
+        },
+        {
+          "text": "instructions",
+          "start": 0.5375,
+          "end": 1.225
+        },
+        {
+          "text": "before",
+          "start": 1.2375,
+          "end": 1.6
+        },
+        {
+          "text": "you",
+          "start": 1.625,
+          "end": 1.725
+        },
+        {
+          "text": "begin",
+          "start": 1.75,
+          "end": 2.2375
+        }
+      ],
+      "duration": 3.12,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "v08": {
+      "file": "audio/v08.mp3",
+      "text": "public school",
+      "words": [
+        {
+          "text": "public",
+          "start": 0.1,
+          "end": 0.5125
+        },
+        {
+          "text": "school",
+          "start": 0.525,
+          "end": 1.0375
+        }
+      ],
+      "duration": 1.92,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "ve08": {
+      "file": "audio/ve08.mp3",
+      "text": "A public school can be on a quiet street.",
+      "words": [
+        {
+          "text": "A",
+          "start": 0.1,
+          "end": 0.25
+        },
+        {
+          "text": "public",
+          "start": 0.275,
+          "end": 0.6375
+        },
+        {
+          "text": "school",
+          "start": 0.65,
+          "end": 1.0125
+        },
+        {
+          "text": "can",
+          "start": 1.0375,
+          "end": 1.2
+        },
+        {
+          "text": "be",
+          "start": 1.225,
+          "end": 1.375
+        },
+        {
+          "text": "on",
+          "start": 1.4,
+          "end": 1.5125
+        },
+        {
+          "text": "a",
+          "start": 1.5375,
+          "end": 1.6
+        },
+        {
+          "text": "quiet",
+          "start": 1.6125,
+          "end": 1.95
+        },
+        {
+          "text": "street",
+          "start": 1.9625,
+          "end": 2.375
+        }
+      ],
+      "duration": 3.264,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "v09": {
+      "file": "audio/v09.mp3",
+      "text": "private school",
+      "words": [
+        {
+          "text": "private",
+          "start": 0.1,
+          "end": 0.5
+        },
+        {
+          "text": "school",
+          "start": 0.525,
+          "end": 1.025
+        }
+      ],
+      "duration": 1.92,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "ve09": {
+      "file": "audio/ve09.mp3",
+      "text": "A private school can be next to a busy road.",
+      "words": [
+        {
+          "text": "A",
+          "start": 0.1,
+          "end": 0.2375
+        },
+        {
+          "text": "private",
+          "start": 0.25,
+          "end": 0.625
+        },
+        {
+          "text": "school",
+          "start": 0.6375,
+          "end": 0.975
+        },
+        {
+          "text": "can",
+          "start": 1.0,
+          "end": 1.15
+        },
+        {
+          "text": "be",
+          "start": 1.1625,
+          "end": 1.275
+        },
+        {
+          "text": "next",
+          "start": 1.3,
+          "end": 1.575
+        },
+        {
+          "text": "to",
+          "start": 1.6,
+          "end": 1.7
+        },
+        {
+          "text": "a",
+          "start": 1.725,
+          "end": 1.8125
+        },
+        {
+          "text": "busy",
+          "start": 1.8375,
+          "end": 2.1
+        },
+        {
+          "text": "road",
+          "start": 2.1125,
+          "end": 2.5125
+        }
+      ],
+      "duration": 3.408,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "v10": {
+      "file": "audio/v10.mp3",
+      "text": "behavior",
+      "words": [
+        {
+          "text": "behavior",
+          "start": 0.1,
+          "end": 1.025
+        }
+      ],
+      "duration": 1.896,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "ve10": {
+      "file": "audio/ve10.mp3",
+      "text": "Our behavior can affect the noise in the classroom.",
+      "words": [
+        {
+          "text": "Our",
+          "start": 0.1,
+          "end": 0.3125
+        },
+        {
+          "text": "behavior",
+          "start": 0.325,
+          "end": 0.8875
+        },
+        {
+          "text": "can",
+          "start": 0.9125,
+          "end": 1.05
+        },
+        {
+          "text": "affect",
+          "start": 1.075,
+          "end": 1.425
+        },
+        {
+          "text": "the",
+          "start": 1.45,
+          "end": 1.5375
+        },
+        {
+          "text": "noise",
+          "start": 1.5625,
+          "end": 1.8875
+        },
+        {
+          "text": "in",
+          "start": 1.9125,
+          "end": 1.975
+        },
+        {
+          "text": "the",
+          "start": 1.9875,
+          "end": 2.075
+        },
+        {
+          "text": "classroom",
+          "start": 2.0875,
+          "end": 2.6375
+        }
+      ],
+      "duration": 3.528,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "v11": {
+      "file": "audio/v11.mp3",
+      "text": "silence",
+      "words": [
+        {
+          "text": "silence",
+          "start": 0.1,
+          "end": 0.85
+        }
+      ],
+      "duration": 1.872,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "ve11": {
+      "file": "audio/ve11.mp3",
+      "text": "Some students need more silence.",
+      "words": [
+        {
+          "text": "Some",
+          "start": 0.1,
+          "end": 0.3875
+        },
+        {
+          "text": "students",
+          "start": 0.4125,
+          "end": 0.85
+        },
+        {
+          "text": "need",
+          "start": 0.8625,
+          "end": 1.0875
+        },
+        {
+          "text": "more",
+          "start": 1.1125,
+          "end": 1.3
+        },
+        {
+          "text": "silence",
+          "start": 1.325,
+          "end": 1.9125
+        }
+      ],
+      "duration": 2.784,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "v12": {
+      "file": "audio/v12.mp3",
+      "text": "share",
+      "words": [
+        {
+          "text": "share",
+          "start": 0.1,
+          "end": 0.7375
+        }
+      ],
+      "duration": 1.872,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "ve12": {
+      "file": "audio/ve12.mp3",
+      "text": "Group work helps us share ideas.",
+      "words": [
+        {
+          "text": "Group",
+          "start": 0.1,
+          "end": 0.4
+        },
+        {
+          "text": "work",
+          "start": 0.4125,
+          "end": 0.6625
+        },
+        {
+          "text": "helps",
+          "start": 0.6875,
+          "end": 0.9375
+        },
+        {
+          "text": "us",
+          "start": 0.9625,
+          "end": 1.05
+        },
+        {
+          "text": "share",
+          "start": 1.075,
+          "end": 1.3375
+        },
+        {
+          "text": "ideas",
+          "start": 1.3625,
+          "end": 1.95
+        }
+      ],
+      "duration": 2.856,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "v13": {
+      "file": "audio/v13.mp3",
+      "text": "reduce",
+      "words": [
+        {
+          "text": "reduce",
+          "start": 0.1,
+          "end": 0.8875
+        }
+      ],
+      "duration": 1.872,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "ve13": {
+      "file": "audio/ve13.mp3",
+      "text": "We can reduce noise by speaking one at a time.",
+      "words": [
+        {
+          "text": "We",
+          "start": 0.1,
+          "end": 0.2875
+        },
+        {
+          "text": "can",
+          "start": 0.3,
+          "end": 0.4625
+        },
+        {
+          "text": "reduce",
+          "start": 0.4875,
+          "end": 0.875
+        },
+        {
+          "text": "noise",
+          "start": 0.9,
+          "end": 1.2375
+        },
+        {
+          "text": "by",
+          "start": 1.2625,
+          "end": 1.4125
+        },
+        {
+          "text": "speaking",
+          "start": 1.4375,
+          "end": 1.875
+        },
+        {
+          "text": "one",
+          "start": 1.8875,
+          "end": 2.0625
+        },
+        {
+          "text": "at",
+          "start": 2.075,
+          "end": 2.1625
+        },
+        {
+          "text": "a",
+          "start": 2.1875,
+          "end": 2.25
+        },
+        {
+          "text": "time",
+          "start": 2.275,
+          "end": 2.675
+        }
+      ],
+      "duration": 3.552,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "v14": {
+      "file": "audio/v14.mp3",
+      "text": "provide",
+      "words": [
+        {
+          "text": "provide",
+          "start": 0.1,
+          "end": 0.825
+        }
+      ],
+      "duration": 1.872,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "ve14": {
+      "file": "audio/ve14.mp3",
+      "text": "Schools should provide quiet spaces.",
+      "words": [
+        {
+          "text": "Schools",
+          "start": 0.1,
+          "end": 0.575
+        },
+        {
+          "text": "should",
+          "start": 0.6,
+          "end": 0.7875
+        },
+        {
+          "text": "provide",
+          "start": 0.8125,
+          "end": 1.2125
+        },
+        {
+          "text": "quiet",
+          "start": 1.225,
+          "end": 1.5625
+        },
+        {
+          "text": "spaces",
+          "start": 1.5875,
+          "end": 2.1625
+        }
+      ],
+      "duration": 3.048,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "v15": {
+      "file": "audio/v15.mp3",
+      "text": "nearby",
+      "words": [
+        {
+          "text": "nearby",
+          "start": 0.1,
+          "end": 0.9
+        }
+      ],
+      "duration": 1.872,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "ve15": {
+      "file": "audio/ve15.mp3",
+      "text": "We can visit a nearby park.",
+      "words": [
+        {
+          "text": "We",
+          "start": 0.1,
+          "end": 0.3
+        },
+        {
+          "text": "can",
+          "start": 0.3125,
+          "end": 0.475
+        },
+        {
+          "text": "visit",
+          "start": 0.5,
+          "end": 0.825
+        },
+        {
+          "text": "a",
+          "start": 0.85,
+          "end": 0.9
+        },
+        {
+          "text": "nearby",
+          "start": 0.925,
+          "end": 1.2875
+        },
+        {
+          "text": "park",
+          "start": 1.3125,
+          "end": 1.7875
+        }
+      ],
+      "duration": 2.664,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "v16": {
+      "file": "audio/v16.mp3",
+      "text": "prefer",
+      "words": [
+        {
+          "text": "prefer",
+          "start": 0.1,
+          "end": 0.8
+        }
+      ],
+      "duration": 1.872,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "ve16": {
+      "file": "audio/ve16.mp3",
+      "text": "I prefer a short bus ride.",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.1,
+          "end": 0.275
+        },
+        {
+          "text": "prefer",
+          "start": 0.2875,
+          "end": 0.65
+        },
+        {
+          "text": "a",
+          "start": 0.6625,
+          "end": 0.7
+        },
+        {
+          "text": "short",
+          "start": 0.7125,
+          "end": 1.05
+        },
+        {
+          "text": "bus",
+          "start": 1.0625,
+          "end": 1.3125
+        },
+        {
+          "text": "ride",
+          "start": 1.3375,
+          "end": 1.6875
+        }
+      ],
+      "duration": 2.592,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q1": {
+      "file": "audio/q1.mp3",
+      "text": "What problem is presented in paragraph I? Choose the correct answer.",
+      "words": [
+        {
+          "text": "What",
+          "start": 0.1,
+          "end": 0.3125
+        },
+        {
+          "text": "problem",
+          "start": 0.325,
+          "end": 0.7375
+        },
+        {
+          "text": "is",
+          "start": 0.75,
+          "end": 0.8625
+        },
+        {
+          "text": "presented",
+          "start": 0.875,
+          "end": 1.375
+        },
+        {
+          "text": "in",
+          "start": 1.4,
+          "end": 1.5
+        },
+        {
+          "text": "paragraph",
+          "start": 1.525,
+          "end": 2.075
+        },
+        {
+          "text": "I",
+          "start": 2.0875,
+          "end": 2.375
+        },
+        {
+          "text": "Choose",
+          "start": 3.25,
+          "end": 3.6125
+        },
+        {
+          "text": "the",
+          "start": 3.6375,
+          "end": 3.7625
+        },
+        {
+          "text": "correct",
+          "start": 3.7875,
+          "end": 4.175
+        },
+        {
+          "text": "answer",
+          "start": 4.1875,
+          "end": 4.6875
+        }
+      ],
+      "duration": 5.592,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q1answer": {
+      "file": "audio/q1answer.mp3",
+      "text": "Noise can make it difficult for students to concentrate.",
+      "words": [
+        {
+          "text": "Noise",
+          "start": 0.1,
+          "end": 0.45
+        },
+        {
+          "text": "can",
+          "start": 0.475,
+          "end": 0.6125
+        },
+        {
+          "text": "make",
+          "start": 0.6375,
+          "end": 0.825
+        },
+        {
+          "text": "it",
+          "start": 0.85,
+          "end": 0.975
+        },
+        {
+          "text": "difficult",
+          "start": 1.0,
+          "end": 1.475
+        },
+        {
+          "text": "for",
+          "start": 1.5,
+          "end": 1.65
+        },
+        {
+          "text": "students",
+          "start": 1.675,
+          "end": 2.075
+        },
+        {
+          "text": "to",
+          "start": 2.1,
+          "end": 2.2125
+        },
+        {
+          "text": "concentrate",
+          "start": 2.2375,
+          "end": 2.95
+        }
+      ],
+      "duration": 3.84,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q1option1": {
+      "file": "audio/q1option1.mp3",
+      "text": "Students do not have enough time to read.",
+      "words": [
+        {
+          "text": "Students",
+          "start": 0.1,
+          "end": 0.6625
+        },
+        {
+          "text": "do",
+          "start": 0.675,
+          "end": 0.8
+        },
+        {
+          "text": "not",
+          "start": 0.8125,
+          "end": 1.0125
+        },
+        {
+          "text": "have",
+          "start": 1.0375,
+          "end": 1.2
+        },
+        {
+          "text": "enough",
+          "start": 1.2125,
+          "end": 1.45
+        },
+        {
+          "text": "time",
+          "start": 1.475,
+          "end": 1.75
+        },
+        {
+          "text": "to",
+          "start": 1.775,
+          "end": 1.9
+        },
+        {
+          "text": "read",
+          "start": 1.925,
+          "end": 2.325
+        }
+      ],
+      "duration": 3.216,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q1option2": {
+      "file": "audio/q1option2.mp3",
+      "text": "Noise can make it difficult for students to concentrate.",
+      "words": [
+        {
+          "text": "Noise",
+          "start": 0.1,
+          "end": 0.45
+        },
+        {
+          "text": "can",
+          "start": 0.475,
+          "end": 0.6125
+        },
+        {
+          "text": "make",
+          "start": 0.6375,
+          "end": 0.825
+        },
+        {
+          "text": "it",
+          "start": 0.85,
+          "end": 0.975
+        },
+        {
+          "text": "difficult",
+          "start": 1.0,
+          "end": 1.475
+        },
+        {
+          "text": "for",
+          "start": 1.5,
+          "end": 1.65
+        },
+        {
+          "text": "students",
+          "start": 1.675,
+          "end": 2.075
+        },
+        {
+          "text": "to",
+          "start": 2.1,
+          "end": 2.2125
+        },
+        {
+          "text": "concentrate",
+          "start": 2.2375,
+          "end": 2.95
+        }
+      ],
+      "duration": 3.84,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q1option3": {
+      "file": "audio/q1option3.mp3",
+      "text": "Students prefer studying outside the classroom.",
+      "words": [
+        {
+          "text": "Students",
+          "start": 0.1,
+          "end": 0.6125
+        },
+        {
+          "text": "prefer",
+          "start": 0.625,
+          "end": 1.0125
+        },
+        {
+          "text": "studying",
+          "start": 1.0375,
+          "end": 1.5375
+        },
+        {
+          "text": "outside",
+          "start": 1.5625,
+          "end": 1.9625
+        },
+        {
+          "text": "the",
+          "start": 1.975,
+          "end": 2.0625
+        },
+        {
+          "text": "classroom",
+          "start": 2.0875,
+          "end": 2.65
+        }
+      ],
+      "duration": 3.552,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q1option4": {
+      "file": "audio/q1option4.mp3",
+      "text": "Schools give students too many instructions.",
+      "words": [
+        {
+          "text": "Schools",
+          "start": 0.1,
+          "end": 0.625
+        },
+        {
+          "text": "give",
+          "start": 0.65,
+          "end": 0.8125
+        },
+        {
+          "text": "students",
+          "start": 0.8375,
+          "end": 1.2875
+        },
+        {
+          "text": "too",
+          "start": 1.3125,
+          "end": 1.475
+        },
+        {
+          "text": "many",
+          "start": 1.4875,
+          "end": 1.7375
+        },
+        {
+          "text": "instructions",
+          "start": 1.7625,
+          "end": 2.5375
+        }
+      ],
+      "duration": 3.432,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q2": {
+      "file": "audio/q2.mp3",
+      "text": "Why may students make mistakes even when they understand the subject? (Paragraph II)",
+      "words": [
+        {
+          "text": "Why",
+          "start": 0.1,
+          "end": 0.3375
+        },
+        {
+          "text": "may",
+          "start": 0.35,
+          "end": 0.4875
+        },
+        {
+          "text": "students",
+          "start": 0.5,
+          "end": 0.9625
+        },
+        {
+          "text": "make",
+          "start": 0.975,
+          "end": 1.175
+        },
+        {
+          "text": "mistakes",
+          "start": 1.2,
+          "end": 1.6375
+        },
+        {
+          "text": "even",
+          "start": 1.6625,
+          "end": 1.9125
+        },
+        {
+          "text": "when",
+          "start": 1.9375,
+          "end": 2.05
+        },
+        {
+          "text": "they",
+          "start": 2.075,
+          "end": 2.2
+        },
+        {
+          "text": "understand",
+          "start": 2.225,
+          "end": 2.7375
+        },
+        {
+          "text": "the",
+          "start": 2.75,
+          "end": 2.8375
+        },
+        {
+          "text": "subject",
+          "start": 2.8625,
+          "end": 3.475
+        },
+        {
+          "text": "Paragraph",
+          "start": 4.35,
+          "end": 4.9625
+        },
+        {
+          "text": "II",
+          "start": 4.9875,
+          "end": 5.4
+        }
+      ],
+      "duration": 6.288,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q2answer": {
+      "file": "audio/q2answer.mp3",
+      "text": "They may miss important instructions because they cannot hear the teacher clearly.",
+      "words": [
+        {
+          "text": "They",
+          "start": 0.1,
+          "end": 0.2625
+        },
+        {
+          "text": "may",
+          "start": 0.2875,
+          "end": 0.4375
+        },
+        {
+          "text": "miss",
+          "start": 0.45,
+          "end": 0.6625
+        },
+        {
+          "text": "important",
+          "start": 0.675,
+          "end": 1.15
+        },
+        {
+          "text": "instructions",
+          "start": 1.175,
+          "end": 1.825
+        },
+        {
+          "text": "because",
+          "start": 1.85,
+          "end": 2.1875
+        },
+        {
+          "text": "they",
+          "start": 2.2125,
+          "end": 2.325
+        },
+        {
+          "text": "cannot",
+          "start": 2.35,
+          "end": 2.7
+        },
+        {
+          "text": "hear",
+          "start": 2.7125,
+          "end": 2.9375
+        },
+        {
+          "text": "the",
+          "start": 2.9625,
+          "end": 3.0875
+        },
+        {
+          "text": "teacher",
+          "start": 3.1,
+          "end": 3.4625
+        },
+        {
+          "text": "clearly",
+          "start": 3.475,
+          "end": 3.975
+        }
+      ],
+      "duration": 4.872,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q3": {
+      "file": "audio/q3.mp3",
+      "text": "Why might a small private school be noisier than a large public school? (Paragraph III)",
+      "words": [
+        {
+          "text": "Why",
+          "start": 0.1,
+          "end": 0.3
+        },
+        {
+          "text": "might",
+          "start": 0.3125,
+          "end": 0.5
+        },
+        {
+          "text": "a",
+          "start": 0.525,
+          "end": 0.5875
+        },
+        {
+          "text": "small",
+          "start": 0.6,
+          "end": 0.9125
+        },
+        {
+          "text": "private",
+          "start": 0.925,
+          "end": 1.2875
+        },
+        {
+          "text": "school",
+          "start": 1.3125,
+          "end": 1.6375
+        },
+        {
+          "text": "be",
+          "start": 1.6625,
+          "end": 1.7875
+        },
+        {
+          "text": "noisier",
+          "start": 1.8125,
+          "end": 2.3125
+        },
+        {
+          "text": "than",
+          "start": 2.325,
+          "end": 2.45
+        },
+        {
+          "text": "a",
+          "start": 2.475,
+          "end": 2.525
+        },
+        {
+          "text": "large",
+          "start": 2.5375,
+          "end": 2.825
+        },
+        {
+          "text": "public",
+          "start": 2.85,
+          "end": 3.1625
+        },
+        {
+          "text": "school",
+          "start": 3.175,
+          "end": 3.625
+        },
+        {
+          "text": "Paragraph",
+          "start": 4.5,
+          "end": 5.0875
+        },
+        {
+          "text": "III",
+          "start": 5.1,
+          "end": 5.6125
+        }
+      ],
+      "duration": 6.504,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q3answer": {
+      "file": "audio/q3answer.mp3",
+      "text": "The private school may be next to a busy road, while the public school may be on a quiet street.",
+      "words": [
+        {
+          "text": "The",
+          "start": 0.1,
+          "end": 0.2375
+        },
+        {
+          "text": "private",
+          "start": 0.2625,
+          "end": 0.6125
+        },
+        {
+          "text": "school",
+          "start": 0.625,
+          "end": 0.9375
+        },
+        {
+          "text": "may",
+          "start": 0.9625,
+          "end": 1.1
+        },
+        {
+          "text": "be",
+          "start": 1.1125,
+          "end": 1.225
+        },
+        {
+          "text": "next",
+          "start": 1.25,
+          "end": 1.4875
+        },
+        {
+          "text": "to",
+          "start": 1.5125,
+          "end": 1.6125
+        },
+        {
+          "text": "a",
+          "start": 1.6375,
+          "end": 1.7125
+        },
+        {
+          "text": "busy",
+          "start": 1.7375,
+          "end": 2.0
+        },
+        {
+          "text": "road",
+          "start": 2.0125,
+          "end": 2.3375
+        },
+        {
+          "text": "while",
+          "start": 2.6,
+          "end": 2.7375
+        },
+        {
+          "text": "the",
+          "start": 2.75,
+          "end": 2.85
+        },
+        {
+          "text": "public",
+          "start": 2.875,
+          "end": 3.175
+        },
+        {
+          "text": "school",
+          "start": 3.1875,
+          "end": 3.525
+        },
+        {
+          "text": "may",
+          "start": 3.55,
+          "end": 3.7
+        },
+        {
+          "text": "be",
+          "start": 3.725,
+          "end": 3.8625
+        },
+        {
+          "text": "on",
+          "start": 3.8875,
+          "end": 3.975
+        },
+        {
+          "text": "a",
+          "start": 4.0,
+          "end": 4.05
+        },
+        {
+          "text": "quiet",
+          "start": 4.0625,
+          "end": 4.3875
+        },
+        {
+          "text": "street",
+          "start": 4.4,
+          "end": 4.7875
+        }
+      ],
+      "duration": 5.664,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q4": {
+      "file": "audio/q4.mp3",
+      "text": "When do students usually need a quiet classroom? (Paragraph IV)",
+      "words": [
+        {
+          "text": "When",
+          "start": 0.1,
+          "end": 0.3375
+        },
+        {
+          "text": "do",
+          "start": 0.3625,
+          "end": 0.525
+        },
+        {
+          "text": "students",
+          "start": 0.55,
+          "end": 1.05
+        },
+        {
+          "text": "usually",
+          "start": 1.075,
+          "end": 1.5125
+        },
+        {
+          "text": "need",
+          "start": 1.5375,
+          "end": 1.725
+        },
+        {
+          "text": "a",
+          "start": 1.75,
+          "end": 1.8125
+        },
+        {
+          "text": "quiet",
+          "start": 1.825,
+          "end": 2.1625
+        },
+        {
+          "text": "classroom",
+          "start": 2.1875,
+          "end": 2.75
+        },
+        {
+          "text": "Paragraph",
+          "start": 3.625,
+          "end": 4.2
+        },
+        {
+          "text": "IV",
+          "start": 4.225,
+          "end": 4.725
+        }
+      ],
+      "duration": 5.616,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q4answer": {
+      "file": "audio/q4answer.mp3",
+      "text": "During a test.",
+      "words": [
+        {
+          "text": "During",
+          "start": 0.1,
+          "end": 0.475
+        },
+        {
+          "text": "a",
+          "start": 0.5,
+          "end": 0.5625
+        },
+        {
+          "text": "test",
+          "start": 0.5875,
+          "end": 1.1
+        }
+      ],
+      "duration": 1.968,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q5": {
+      "file": "audio/q5.mp3",
+      "text": "Complete the sentence according to paragraph IV.",
+      "words": [
+        {
+          "text": "Complete",
+          "start": 0.1,
+          "end": 0.525
+        },
+        {
+          "text": "the",
+          "start": 0.55,
+          "end": 0.6625
+        },
+        {
+          "text": "sentence",
+          "start": 0.6875,
+          "end": 1.0875
+        },
+        {
+          "text": "according",
+          "start": 1.1,
+          "end": 1.4875
+        },
+        {
+          "text": "to",
+          "start": 1.5125,
+          "end": 1.625
+        },
+        {
+          "text": "paragraph",
+          "start": 1.65,
+          "end": 2.2375
+        },
+        {
+          "text": "IV",
+          "start": 2.2625,
+          "end": 2.6875
+        }
+      ],
+      "duration": 3.576,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q5answer": {
+      "file": "audio/q5answer.mp3",
+      "text": "it helps students share ideas.",
+      "words": [
+        {
+          "text": "it",
+          "start": 0.1,
+          "end": 0.2625
+        },
+        {
+          "text": "helps",
+          "start": 0.2875,
+          "end": 0.55
+        },
+        {
+          "text": "students",
+          "start": 0.575,
+          "end": 0.95
+        },
+        {
+          "text": "share",
+          "start": 0.975,
+          "end": 1.225
+        },
+        {
+          "text": "ideas",
+          "start": 1.25,
+          "end": 1.825
+        }
+      ],
+      "duration": 2.712,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q5stem": {
+      "file": "audio/q5stem.mp3",
+      "text": "Talking during group work can be useful because",
+      "words": [
+        {
+          "text": "Talking",
+          "start": 0.1,
+          "end": 0.4875
+        },
+        {
+          "text": "during",
+          "start": 0.5125,
+          "end": 0.7625
+        },
+        {
+          "text": "group",
+          "start": 0.775,
+          "end": 1.0375
+        },
+        {
+          "text": "work",
+          "start": 1.05,
+          "end": 1.275
+        },
+        {
+          "text": "can",
+          "start": 1.3,
+          "end": 1.4375
+        },
+        {
+          "text": "be",
+          "start": 1.45,
+          "end": 1.55
+        },
+        {
+          "text": "useful",
+          "start": 1.575,
+          "end": 1.95
+        },
+        {
+          "text": "because",
+          "start": 1.975,
+          "end": 2.525
+        }
+      ],
+      "duration": 3.432,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q5full": {
+      "file": "audio/q5full.mp3",
+      "text": "Talking during group work can be useful because it helps students share ideas.",
+      "words": [
+        {
+          "text": "Talking",
+          "start": 0.1,
+          "end": 0.475
+        },
+        {
+          "text": "during",
+          "start": 0.5,
+          "end": 0.7625
+        },
+        {
+          "text": "group",
+          "start": 0.7875,
+          "end": 1.05
+        },
+        {
+          "text": "work",
+          "start": 1.0625,
+          "end": 1.275
+        },
+        {
+          "text": "can",
+          "start": 1.3,
+          "end": 1.4375
+        },
+        {
+          "text": "be",
+          "start": 1.45,
+          "end": 1.55
+        },
+        {
+          "text": "useful",
+          "start": 1.575,
+          "end": 1.95
+        },
+        {
+          "text": "because",
+          "start": 1.9625,
+          "end": 2.2625
+        },
+        {
+          "text": "it",
+          "start": 2.2875,
+          "end": 2.3625
+        },
+        {
+          "text": "helps",
+          "start": 2.3875,
+          "end": 2.6375
+        },
+        {
+          "text": "students",
+          "start": 2.6625,
+          "end": 3.0375
+        },
+        {
+          "text": "share",
+          "start": 3.0625,
+          "end": 3.3
+        },
+        {
+          "text": "ideas",
+          "start": 3.325,
+          "end": 3.8375
+        }
+      ],
+      "duration": 4.728,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q6": {
+      "file": "audio/q6.mp3",
+      "text": "Give TWO ways schools can reduce noise. (Paragraph V)",
+      "words": [
+        {
+          "text": "Give",
+          "start": 0.1,
+          "end": 0.325
+        },
+        {
+          "text": "TWO",
+          "start": 0.35,
+          "end": 0.5
+        },
+        {
+          "text": "ways",
+          "start": 0.525,
+          "end": 0.75
+        },
+        {
+          "text": "schools",
+          "start": 0.7625,
+          "end": 1.1375
+        },
+        {
+          "text": "can",
+          "start": 1.1625,
+          "end": 1.325
+        },
+        {
+          "text": "reduce",
+          "start": 1.35,
+          "end": 1.7
+        },
+        {
+          "text": "noise",
+          "start": 1.725,
+          "end": 2.1875
+        },
+        {
+          "text": "Paragraph V",
+          "start": 3.075,
+          "end": 4.2375
+        }
+      ],
+      "duration": 5.112,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q6answer": {
+      "file": "audio/q6answer.mp3",
+      "text": "Schools can put soft covers under chair legs and close windows during noisy activities outside.",
+      "words": [
+        {
+          "text": "Schools",
+          "start": 0.1,
+          "end": 0.55
+        },
+        {
+          "text": "can",
+          "start": 0.5625,
+          "end": 0.7
+        },
+        {
+          "text": "put",
+          "start": 0.725,
+          "end": 0.8875
+        },
+        {
+          "text": "soft",
+          "start": 0.9125,
+          "end": 1.225
+        },
+        {
+          "text": "covers",
+          "start": 1.25,
+          "end": 1.5875
+        },
+        {
+          "text": "under",
+          "start": 1.6125,
+          "end": 1.825
+        },
+        {
+          "text": "chair",
+          "start": 1.8375,
+          "end": 2.075
+        },
+        {
+          "text": "legs",
+          "start": 2.1,
+          "end": 2.3875
+        },
+        {
+          "text": "and",
+          "start": 2.4,
+          "end": 2.4875
+        },
+        {
+          "text": "close",
+          "start": 2.5125,
+          "end": 2.775
+        },
+        {
+          "text": "windows",
+          "start": 2.8,
+          "end": 3.2
+        },
+        {
+          "text": "during",
+          "start": 3.225,
+          "end": 3.5125
+        },
+        {
+          "text": "noisy",
+          "start": 3.5375,
+          "end": 3.8875
+        },
+        {
+          "text": "activities",
+          "start": 3.9125,
+          "end": 4.45
+        },
+        {
+          "text": "outside",
+          "start": 4.475,
+          "end": 5.0
+        }
+      ],
+      "duration": 5.88,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q7": {
+      "file": "audio/q7.mp3",
+      "text": "What is the main message of the text? Choose the correct answer.",
+      "words": [
+        {
+          "text": "What",
+          "start": 0.1,
+          "end": 0.325
+        },
+        {
+          "text": "is",
+          "start": 0.35,
+          "end": 0.475
+        },
+        {
+          "text": "the",
+          "start": 0.5,
+          "end": 0.6
+        },
+        {
+          "text": "main",
+          "start": 0.6125,
+          "end": 0.875
+        },
+        {
+          "text": "message",
+          "start": 0.9,
+          "end": 1.2875
+        },
+        {
+          "text": "of",
+          "start": 1.3125,
+          "end": 1.4
+        },
+        {
+          "text": "the",
+          "start": 1.425,
+          "end": 1.525
+        },
+        {
+          "text": "text",
+          "start": 1.55,
+          "end": 2.0625
+        },
+        {
+          "text": "Choose",
+          "start": 2.9375,
+          "end": 3.3
+        },
+        {
+          "text": "the",
+          "start": 3.325,
+          "end": 3.45
+        },
+        {
+          "text": "correct",
+          "start": 3.475,
+          "end": 3.8625
+        },
+        {
+          "text": "answer",
+          "start": 3.875,
+          "end": 4.375
+        }
+      ],
+      "duration": 5.28,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q7answer": {
+      "file": "audio/q7answer.mp3",
+      "text": "Schools should reduce disturbing noise and allow useful discussion.",
+      "words": [
+        {
+          "text": "Schools",
+          "start": 0.1,
+          "end": 0.575
+        },
+        {
+          "text": "should",
+          "start": 0.6,
+          "end": 0.775
+        },
+        {
+          "text": "reduce",
+          "start": 0.8,
+          "end": 1.15
+        },
+        {
+          "text": "disturbing",
+          "start": 1.175,
+          "end": 1.7125
+        },
+        {
+          "text": "noise",
+          "start": 1.7375,
+          "end": 2.0875
+        },
+        {
+          "text": "and",
+          "start": 2.1,
+          "end": 2.2125
+        },
+        {
+          "text": "allow",
+          "start": 2.2375,
+          "end": 2.5125
+        },
+        {
+          "text": "useful",
+          "start": 2.5375,
+          "end": 2.925
+        },
+        {
+          "text": "discussion",
+          "start": 2.95,
+          "end": 3.575
+        }
+      ],
+      "duration": 4.464,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q7option1": {
+      "file": "audio/q7option1.mp3",
+      "text": "Every lesson should be completely silent.",
+      "words": [
+        {
+          "text": "Every",
+          "start": 0.1,
+          "end": 0.425
+        },
+        {
+          "text": "lesson",
+          "start": 0.45,
+          "end": 0.8
+        },
+        {
+          "text": "should",
+          "start": 0.825,
+          "end": 1.0125
+        },
+        {
+          "text": "be",
+          "start": 1.0375,
+          "end": 1.15
+        },
+        {
+          "text": "completely",
+          "start": 1.175,
+          "end": 1.7625
+        },
+        {
+          "text": "silent",
+          "start": 1.7875,
+          "end": 2.35
+        }
+      ],
+      "duration": 3.24,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q7option2": {
+      "file": "audio/q7option2.mp3",
+      "text": "Private schools always offer better places to study.",
+      "words": [
+        {
+          "text": "Private",
+          "start": 0.1,
+          "end": 0.5125
+        },
+        {
+          "text": "schools",
+          "start": 0.525,
+          "end": 1.0
+        },
+        {
+          "text": "always",
+          "start": 1.0125,
+          "end": 1.3625
+        },
+        {
+          "text": "offer",
+          "start": 1.3875,
+          "end": 1.675
+        },
+        {
+          "text": "better",
+          "start": 1.7,
+          "end": 1.9875
+        },
+        {
+          "text": "places",
+          "start": 2.0,
+          "end": 2.4
+        },
+        {
+          "text": "to",
+          "start": 2.425,
+          "end": 2.5125
+        },
+        {
+          "text": "study",
+          "start": 2.5375,
+          "end": 3.0125
+        }
+      ],
+      "duration": 3.912,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q7option3": {
+      "file": "audio/q7option3.mp3",
+      "text": "Schools should reduce disturbing noise and allow useful discussion.",
+      "words": [
+        {
+          "text": "Schools",
+          "start": 0.1,
+          "end": 0.575
+        },
+        {
+          "text": "should",
+          "start": 0.6,
+          "end": 0.775
+        },
+        {
+          "text": "reduce",
+          "start": 0.8,
+          "end": 1.15
+        },
+        {
+          "text": "disturbing",
+          "start": 1.175,
+          "end": 1.7125
+        },
+        {
+          "text": "noise",
+          "start": 1.7375,
+          "end": 2.0875
+        },
+        {
+          "text": "and",
+          "start": 2.1,
+          "end": 2.2125
+        },
+        {
+          "text": "allow",
+          "start": 2.2375,
+          "end": 2.5125
+        },
+        {
+          "text": "useful",
+          "start": 2.5375,
+          "end": 2.925
+        },
+        {
+          "text": "discussion",
+          "start": 2.95,
+          "end": 3.575
+        }
+      ],
+      "duration": 4.464,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "q7option4": {
+      "file": "audio/q7option4.mp3",
+      "text": "Only noise from outside the classroom needs to be reduced.",
+      "words": [
+        {
+          "text": "Only",
+          "start": 0.1,
+          "end": 0.45
+        },
+        {
+          "text": "noise",
+          "start": 0.475,
+          "end": 0.8
+        },
+        {
+          "text": "from",
+          "start": 0.8125,
+          "end": 0.975
+        },
+        {
+          "text": "outside",
+          "start": 1.0,
+          "end": 1.4
+        },
+        {
+          "text": "the",
+          "start": 1.4125,
+          "end": 1.5
+        },
+        {
+          "text": "classroom",
+          "start": 1.525,
+          "end": 2.0
+        },
+        {
+          "text": "needs",
+          "start": 2.025,
+          "end": 2.2625
+        },
+        {
+          "text": "to",
+          "start": 2.2875,
+          "end": 2.375
+        },
+        {
+          "text": "be",
+          "start": 2.3875,
+          "end": 2.5125
+        },
+        {
+          "text": "reduced",
+          "start": 2.525,
+          "end": 3.075
+        }
+      ],
+      "duration": 3.984,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "near1": {
+      "file": "audio/near1.mp3",
+      "text": "I prefer school trips to places near our school because short bus rides are more comfortable.",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.1,
+          "end": 0.275
+        },
+        {
+          "text": "prefer",
+          "start": 0.2875,
+          "end": 0.625
+        },
+        {
+          "text": "school",
+          "start": 0.6375,
+          "end": 0.9125
+        },
+        {
+          "text": "trips",
+          "start": 0.925,
+          "end": 1.1875
+        },
+        {
+          "text": "to",
+          "start": 1.2,
+          "end": 1.3
+        },
+        {
+          "text": "places",
+          "start": 1.325,
+          "end": 1.7
+        },
+        {
+          "text": "near",
+          "start": 1.725,
+          "end": 1.9125
+        },
+        {
+          "text": "our",
+          "start": 1.9375,
+          "end": 2.0375
+        },
+        {
+          "text": "school",
+          "start": 2.0625,
+          "end": 2.4
+        },
+        {
+          "text": "because",
+          "start": 2.4125,
+          "end": 2.6875
+        },
+        {
+          "text": "short",
+          "start": 2.7,
+          "end": 2.9875
+        },
+        {
+          "text": "bus",
+          "start": 3.0125,
+          "end": 3.2375
+        },
+        {
+          "text": "rides",
+          "start": 3.2625,
+          "end": 3.5375
+        },
+        {
+          "text": "are",
+          "start": 3.5625,
+          "end": 3.6375
+        },
+        {
+          "text": "more",
+          "start": 3.65,
+          "end": 3.8375
+        },
+        {
+          "text": "comfortable",
+          "start": 3.8625,
+          "end": 4.45
+        }
+      ],
+      "duration": 5.352,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "near1v1": {
+      "file": "audio/near1v1.mp3",
+      "text": "I would rather visit places near our school because short bus rides are more comfortable.",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.1,
+          "end": 0.2625
+        },
+        {
+          "text": "would",
+          "start": 0.275,
+          "end": 0.425
+        },
+        {
+          "text": "rather",
+          "start": 0.45,
+          "end": 0.725
+        },
+        {
+          "text": "visit",
+          "start": 0.75,
+          "end": 1.05
+        },
+        {
+          "text": "places",
+          "start": 1.075,
+          "end": 1.4625
+        },
+        {
+          "text": "near",
+          "start": 1.4875,
+          "end": 1.675
+        },
+        {
+          "text": "our",
+          "start": 1.7,
+          "end": 1.8125
+        },
+        {
+          "text": "school",
+          "start": 1.8375,
+          "end": 2.175
+        },
+        {
+          "text": "because",
+          "start": 2.1875,
+          "end": 2.4625
+        },
+        {
+          "text": "short",
+          "start": 2.4875,
+          "end": 2.7875
+        },
+        {
+          "text": "bus",
+          "start": 2.8,
+          "end": 3.0375
+        },
+        {
+          "text": "rides",
+          "start": 3.0625,
+          "end": 3.35
+        },
+        {
+          "text": "are",
+          "start": 3.3625,
+          "end": 3.4375
+        },
+        {
+          "text": "more",
+          "start": 3.45,
+          "end": 3.6375
+        },
+        {
+          "text": "comfortable",
+          "start": 3.65,
+          "end": 4.2375
+        }
+      ],
+      "duration": 5.112,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "near1v2": {
+      "file": "audio/near1v2.mp3",
+      "text": "For school trips, I prefer nearby places because short bus rides are more comfortable.",
+      "words": [
+        {
+          "text": "For",
+          "start": 0.1,
+          "end": 0.2875
+        },
+        {
+          "text": "school",
+          "start": 0.3,
+          "end": 0.575
+        },
+        {
+          "text": "trips",
+          "start": 0.6,
+          "end": 0.925
+        },
+        {
+          "text": "I",
+          "start": 1.15,
+          "end": 1.2125
+        },
+        {
+          "text": "prefer",
+          "start": 1.2375,
+          "end": 1.5375
+        },
+        {
+          "text": "nearby",
+          "start": 1.5625,
+          "end": 1.8875
+        },
+        {
+          "text": "places",
+          "start": 1.9125,
+          "end": 2.3375
+        },
+        {
+          "text": "because",
+          "start": 2.3625,
+          "end": 2.65
+        },
+        {
+          "text": "short",
+          "start": 2.6625,
+          "end": 2.975
+        },
+        {
+          "text": "bus",
+          "start": 2.9875,
+          "end": 3.2125
+        },
+        {
+          "text": "rides",
+          "start": 3.2375,
+          "end": 3.5125
+        },
+        {
+          "text": "are",
+          "start": 3.5375,
+          "end": 3.6125
+        },
+        {
+          "text": "more",
+          "start": 3.625,
+          "end": 3.8125
+        },
+        {
+          "text": "comfortable",
+          "start": 3.825,
+          "end": 4.425
+        }
+      ],
+      "duration": 5.304,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "near2": {
+      "file": "audio/near2.mp3",
+      "text": "First, we spend less time on the bus and have more time to enjoy the place.",
+      "words": [
+        {
+          "text": "First",
+          "start": 0.1,
+          "end": 0.5
+        },
+        {
+          "text": "we",
+          "start": 0.6875,
+          "end": 0.7875
+        },
+        {
+          "text": "spend",
+          "start": 0.8,
+          "end": 1.05
+        },
+        {
+          "text": "less",
+          "start": 1.075,
+          "end": 1.2625
+        },
+        {
+          "text": "time",
+          "start": 1.275,
+          "end": 1.5
+        },
+        {
+          "text": "on",
+          "start": 1.525,
+          "end": 1.625
+        },
+        {
+          "text": "the",
+          "start": 1.65,
+          "end": 1.75
+        },
+        {
+          "text": "bus",
+          "start": 1.775,
+          "end": 2.075
+        },
+        {
+          "text": "and",
+          "start": 2.0875,
+          "end": 2.175
+        },
+        {
+          "text": "have",
+          "start": 2.2,
+          "end": 2.3625
+        },
+        {
+          "text": "more",
+          "start": 2.3875,
+          "end": 2.5625
+        },
+        {
+          "text": "time",
+          "start": 2.575,
+          "end": 2.825
+        },
+        {
+          "text": "to",
+          "start": 2.85,
+          "end": 2.9625
+        },
+        {
+          "text": "enjoy",
+          "start": 2.975,
+          "end": 3.225
+        },
+        {
+          "text": "the",
+          "start": 3.25,
+          "end": 3.3625
+        },
+        {
+          "text": "place",
+          "start": 3.3875,
+          "end": 3.8125
+        }
+      ],
+      "duration": 4.68,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "near2v1": {
+      "file": "audio/near2v1.mp3",
+      "text": "First, a short bus ride leaves us more time to enjoy the place we visit.",
+      "words": [
+        {
+          "text": "First",
+          "start": 0.1,
+          "end": 0.4875
+        },
+        {
+          "text": "a",
+          "start": 0.675,
+          "end": 0.725
+        },
+        {
+          "text": "short",
+          "start": 0.75,
+          "end": 1.075
+        },
+        {
+          "text": "bus",
+          "start": 1.0875,
+          "end": 1.3
+        },
+        {
+          "text": "ride",
+          "start": 1.325,
+          "end": 1.6
+        },
+        {
+          "text": "leaves",
+          "start": 1.625,
+          "end": 1.8625
+        },
+        {
+          "text": "us",
+          "start": 1.8875,
+          "end": 2.0
+        },
+        {
+          "text": "more",
+          "start": 2.025,
+          "end": 2.2375
+        },
+        {
+          "text": "time",
+          "start": 2.25,
+          "end": 2.5125
+        },
+        {
+          "text": "to",
+          "start": 2.5375,
+          "end": 2.65
+        },
+        {
+          "text": "enjoy",
+          "start": 2.6625,
+          "end": 2.9375
+        },
+        {
+          "text": "the",
+          "start": 2.9625,
+          "end": 3.075
+        },
+        {
+          "text": "place",
+          "start": 3.1,
+          "end": 3.35
+        },
+        {
+          "text": "we",
+          "start": 3.3625,
+          "end": 3.475
+        },
+        {
+          "text": "visit",
+          "start": 3.5,
+          "end": 3.9
+        }
+      ],
+      "duration": 4.8,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "near2v2": {
+      "file": "audio/near2v2.mp3",
+      "text": "To begin with, less time on the bus means more time to enjoy the place.",
+      "words": [
+        {
+          "text": "To",
+          "start": 0.1,
+          "end": 0.2
+        },
+        {
+          "text": "begin",
+          "start": 0.225,
+          "end": 0.5375
+        },
+        {
+          "text": "with",
+          "start": 0.5625,
+          "end": 0.75
+        },
+        {
+          "text": "less",
+          "start": 0.95,
+          "end": 1.1375
+        },
+        {
+          "text": "time",
+          "start": 1.15,
+          "end": 1.3625
+        },
+        {
+          "text": "on",
+          "start": 1.3875,
+          "end": 1.5
+        },
+        {
+          "text": "the",
+          "start": 1.525,
+          "end": 1.625
+        },
+        {
+          "text": "bus",
+          "start": 1.65,
+          "end": 1.9125
+        },
+        {
+          "text": "means",
+          "start": 1.925,
+          "end": 2.1625
+        },
+        {
+          "text": "more",
+          "start": 2.175,
+          "end": 2.3875
+        },
+        {
+          "text": "time",
+          "start": 2.4,
+          "end": 2.6875
+        },
+        {
+          "text": "to",
+          "start": 2.7125,
+          "end": 2.8375
+        },
+        {
+          "text": "enjoy",
+          "start": 2.85,
+          "end": 3.1375
+        },
+        {
+          "text": "the",
+          "start": 3.1625,
+          "end": 3.275
+        },
+        {
+          "text": "place",
+          "start": 3.2875,
+          "end": 3.725
+        }
+      ],
+      "duration": 4.608,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "near3": {
+      "file": "audio/near3.mp3",
+      "text": "For example, we can visit a local park and spend the morning walking with our friends.",
+      "words": [
+        {
+          "text": "For",
+          "start": 0.1,
+          "end": 0.3125
+        },
+        {
+          "text": "example",
+          "start": 0.325,
+          "end": 0.8125
+        },
+        {
+          "text": "we",
+          "start": 0.9875,
+          "end": 1.1125
+        },
+        {
+          "text": "can",
+          "start": 1.1375,
+          "end": 1.2875
+        },
+        {
+          "text": "visit",
+          "start": 1.3125,
+          "end": 1.5875
+        },
+        {
+          "text": "a",
+          "start": 1.6125,
+          "end": 1.675
+        },
+        {
+          "text": "local",
+          "start": 1.7,
+          "end": 2.075
+        },
+        {
+          "text": "park",
+          "start": 2.1,
+          "end": 2.425
+        },
+        {
+          "text": "and",
+          "start": 2.4375,
+          "end": 2.5375
+        },
+        {
+          "text": "spend",
+          "start": 2.5625,
+          "end": 2.8375
+        },
+        {
+          "text": "the",
+          "start": 2.85,
+          "end": 2.925
+        },
+        {
+          "text": "morning",
+          "start": 2.9375,
+          "end": 3.2625
+        },
+        {
+          "text": "walking",
+          "start": 3.2875,
+          "end": 3.625
+        },
+        {
+          "text": "with",
+          "start": 3.6375,
+          "end": 3.775
+        },
+        {
+          "text": "our",
+          "start": 3.8,
+          "end": 3.9125
+        },
+        {
+          "text": "friends",
+          "start": 3.9375,
+          "end": 4.4375
+        }
+      ],
+      "duration": 5.328,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "near3v1": {
+      "file": "audio/near3v1.mp3",
+      "text": "For example, we could walk with our friends all morning in a local park.",
+      "words": [
+        {
+          "text": "For",
+          "start": 0.1,
+          "end": 0.3125
+        },
+        {
+          "text": "example",
+          "start": 0.325,
+          "end": 0.825
+        },
+        {
+          "text": "we",
+          "start": 1.0,
+          "end": 1.125
+        },
+        {
+          "text": "could",
+          "start": 1.15,
+          "end": 1.2875
+        },
+        {
+          "text": "walk",
+          "start": 1.3125,
+          "end": 1.55
+        },
+        {
+          "text": "with",
+          "start": 1.575,
+          "end": 1.7125
+        },
+        {
+          "text": "our",
+          "start": 1.7375,
+          "end": 1.8625
+        },
+        {
+          "text": "friends",
+          "start": 1.8875,
+          "end": 2.2625
+        },
+        {
+          "text": "all",
+          "start": 2.2875,
+          "end": 2.475
+        },
+        {
+          "text": "morning",
+          "start": 2.5,
+          "end": 2.8375
+        },
+        {
+          "text": "in",
+          "start": 2.8625,
+          "end": 2.9375
+        },
+        {
+          "text": "a",
+          "start": 2.9625,
+          "end": 3.0125
+        },
+        {
+          "text": "local",
+          "start": 3.0375,
+          "end": 3.375
+        },
+        {
+          "text": "park",
+          "start": 3.4,
+          "end": 3.8
+        }
+      ],
+      "duration": 4.68,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "near3v2": {
+      "file": "audio/near3v2.mp3",
+      "text": "For example, we could spend a morning walking with friends in a local park.",
+      "words": [
+        {
+          "text": "For",
+          "start": 0.1,
+          "end": 0.325
+        },
+        {
+          "text": "example",
+          "start": 0.3375,
+          "end": 0.85
+        },
+        {
+          "text": "we",
+          "start": 1.0375,
+          "end": 1.1625
+        },
+        {
+          "text": "could",
+          "start": 1.1875,
+          "end": 1.325
+        },
+        {
+          "text": "spend",
+          "start": 1.35,
+          "end": 1.6
+        },
+        {
+          "text": "a",
+          "start": 1.625,
+          "end": 1.6625
+        },
+        {
+          "text": "morning",
+          "start": 1.675,
+          "end": 2.025
+        },
+        {
+          "text": "walking",
+          "start": 2.0375,
+          "end": 2.375
+        },
+        {
+          "text": "with",
+          "start": 2.3875,
+          "end": 2.5375
+        },
+        {
+          "text": "friends",
+          "start": 2.5625,
+          "end": 2.9375
+        },
+        {
+          "text": "in",
+          "start": 2.9625,
+          "end": 3.0625
+        },
+        {
+          "text": "a",
+          "start": 3.0875,
+          "end": 3.1375
+        },
+        {
+          "text": "local",
+          "start": 3.1625,
+          "end": 3.4875
+        },
+        {
+          "text": "park",
+          "start": 3.5125,
+          "end": 3.9125
+        }
+      ],
+      "duration": 4.8,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "near4": {
+      "file": "audio/near4.mp3",
+      "text": "Also, nearby trips often cost less, so more students can join.",
+      "words": [
+        {
+          "text": "Also",
+          "start": 0.1,
+          "end": 0.5125
+        },
+        {
+          "text": "nearby",
+          "start": 0.6625,
+          "end": 0.9625
+        },
+        {
+          "text": "trips",
+          "start": 0.9875,
+          "end": 1.325
+        },
+        {
+          "text": "often",
+          "start": 1.35,
+          "end": 1.6875
+        },
+        {
+          "text": "cost",
+          "start": 1.7125,
+          "end": 2.0125
+        },
+        {
+          "text": "less",
+          "start": 2.0375,
+          "end": 2.325
+        },
+        {
+          "text": "so",
+          "start": 2.4875,
+          "end": 2.6
+        },
+        {
+          "text": "more",
+          "start": 2.6125,
+          "end": 2.8
+        },
+        {
+          "text": "students",
+          "start": 2.825,
+          "end": 3.2125
+        },
+        {
+          "text": "can",
+          "start": 3.2375,
+          "end": 3.375
+        },
+        {
+          "text": "join",
+          "start": 3.4,
+          "end": 3.7625
+        }
+      ],
+      "duration": 4.656,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "near4v1": {
+      "file": "audio/near4v1.mp3",
+      "text": "Also, trips to nearby places may cost less, allowing more students to join.",
+      "words": [
+        {
+          "text": "Also",
+          "start": 0.1,
+          "end": 0.5375
+        },
+        {
+          "text": "trips",
+          "start": 0.7375,
+          "end": 1.025
+        },
+        {
+          "text": "to",
+          "start": 1.0375,
+          "end": 1.125
+        },
+        {
+          "text": "nearby",
+          "start": 1.15,
+          "end": 1.4875
+        },
+        {
+          "text": "places",
+          "start": 1.5125,
+          "end": 1.9125
+        },
+        {
+          "text": "may",
+          "start": 1.925,
+          "end": 2.05
+        },
+        {
+          "text": "cost",
+          "start": 2.075,
+          "end": 2.4
+        },
+        {
+          "text": "less",
+          "start": 2.425,
+          "end": 2.725
+        },
+        {
+          "text": "allowing",
+          "start": 2.9375,
+          "end": 3.2625
+        },
+        {
+          "text": "more",
+          "start": 3.275,
+          "end": 3.45
+        },
+        {
+          "text": "students",
+          "start": 3.475,
+          "end": 3.875
+        },
+        {
+          "text": "to",
+          "start": 3.9,
+          "end": 3.9875
+        },
+        {
+          "text": "join",
+          "start": 4.0125,
+          "end": 4.425
+        }
+      ],
+      "duration": 5.328,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "near4v2": {
+      "file": "audio/near4v2.mp3",
+      "text": "Another reason is that nearby trips can be cheaper, so more students can join.",
+      "words": [
+        {
+          "text": "Another",
+          "start": 0.1,
+          "end": 0.525
+        },
+        {
+          "text": "reason",
+          "start": 0.5375,
+          "end": 0.875
+        },
+        {
+          "text": "is",
+          "start": 0.9,
+          "end": 1.0125
+        },
+        {
+          "text": "that",
+          "start": 1.0375,
+          "end": 1.2
+        },
+        {
+          "text": "nearby",
+          "start": 1.225,
+          "end": 1.55
+        },
+        {
+          "text": "trips",
+          "start": 1.575,
+          "end": 1.925
+        },
+        {
+          "text": "can",
+          "start": 1.9375,
+          "end": 2.0875
+        },
+        {
+          "text": "be",
+          "start": 2.1,
+          "end": 2.2125
+        },
+        {
+          "text": "cheaper",
+          "start": 2.2375,
+          "end": 2.65
+        },
+        {
+          "text": "so",
+          "start": 2.9,
+          "end": 3.025
+        },
+        {
+          "text": "more",
+          "start": 3.0375,
+          "end": 3.225
+        },
+        {
+          "text": "students",
+          "start": 3.25,
+          "end": 3.6375
+        },
+        {
+          "text": "can",
+          "start": 3.6625,
+          "end": 3.8125
+        },
+        {
+          "text": "join",
+          "start": 3.8375,
+          "end": 4.225
+        }
+      ],
+      "duration": 5.112,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "near5": {
+      "file": "audio/near5.mp3",
+      "text": "We can enjoy time together without paying for a long bus ride.",
+      "words": [
+        {
+          "text": "We",
+          "start": 0.1,
+          "end": 0.2625
+        },
+        {
+          "text": "can",
+          "start": 0.2875,
+          "end": 0.4125
+        },
+        {
+          "text": "enjoy",
+          "start": 0.4375,
+          "end": 0.7125
+        },
+        {
+          "text": "time",
+          "start": 0.725,
+          "end": 1.0
+        },
+        {
+          "text": "together",
+          "start": 1.025,
+          "end": 1.4625
+        },
+        {
+          "text": "without",
+          "start": 1.4875,
+          "end": 1.8
+        },
+        {
+          "text": "paying",
+          "start": 1.825,
+          "end": 2.125
+        },
+        {
+          "text": "for",
+          "start": 2.1375,
+          "end": 2.2875
+        },
+        {
+          "text": "a",
+          "start": 2.3125,
+          "end": 2.3625
+        },
+        {
+          "text": "long",
+          "start": 2.3875,
+          "end": 2.6625
+        },
+        {
+          "text": "bus",
+          "start": 2.6875,
+          "end": 2.925
+        },
+        {
+          "text": "ride",
+          "start": 2.95,
+          "end": 3.3125
+        }
+      ],
+      "duration": 4.2,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "near5v1": {
+      "file": "audio/near5v1.mp3",
+      "text": "A short bus ride can help us enjoy time together at a lower cost.",
+      "words": [
+        {
+          "text": "A",
+          "start": 0.1,
+          "end": 0.225
+        },
+        {
+          "text": "short",
+          "start": 0.25,
+          "end": 0.575
+        },
+        {
+          "text": "bus",
+          "start": 0.5875,
+          "end": 0.8125
+        },
+        {
+          "text": "ride",
+          "start": 0.8375,
+          "end": 1.075
+        },
+        {
+          "text": "can",
+          "start": 1.1,
+          "end": 1.2375
+        },
+        {
+          "text": "help",
+          "start": 1.2625,
+          "end": 1.475
+        },
+        {
+          "text": "us",
+          "start": 1.4875,
+          "end": 1.6125
+        },
+        {
+          "text": "enjoy",
+          "start": 1.6375,
+          "end": 1.925
+        },
+        {
+          "text": "time",
+          "start": 1.9375,
+          "end": 2.2
+        },
+        {
+          "text": "together",
+          "start": 2.225,
+          "end": 2.6875
+        },
+        {
+          "text": "at",
+          "start": 2.7125,
+          "end": 2.7875
+        },
+        {
+          "text": "a",
+          "start": 2.8,
+          "end": 2.85
+        },
+        {
+          "text": "lower",
+          "start": 2.875,
+          "end": 3.15
+        },
+        {
+          "text": "cost",
+          "start": 3.175,
+          "end": 3.6375
+        }
+      ],
+      "duration": 4.536,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "near5v2": {
+      "file": "audio/near5v2.mp3",
+      "text": "We can have fun together without the cost of a long bus ride.",
+      "words": [
+        {
+          "text": "We",
+          "start": 0.1,
+          "end": 0.275
+        },
+        {
+          "text": "can",
+          "start": 0.2875,
+          "end": 0.4
+        },
+        {
+          "text": "have",
+          "start": 0.425,
+          "end": 0.5875
+        },
+        {
+          "text": "fun",
+          "start": 0.6125,
+          "end": 0.8375
+        },
+        {
+          "text": "together",
+          "start": 0.8625,
+          "end": 1.3
+        },
+        {
+          "text": "without",
+          "start": 1.325,
+          "end": 1.6125
+        },
+        {
+          "text": "the",
+          "start": 1.6375,
+          "end": 1.75
+        },
+        {
+          "text": "cost",
+          "start": 1.775,
+          "end": 2.125
+        },
+        {
+          "text": "of",
+          "start": 2.15,
+          "end": 2.2125
+        },
+        {
+          "text": "a",
+          "start": 2.225,
+          "end": 2.2875
+        },
+        {
+          "text": "long",
+          "start": 2.3125,
+          "end": 2.6125
+        },
+        {
+          "text": "bus",
+          "start": 2.6375,
+          "end": 2.875
+        },
+        {
+          "text": "ride",
+          "start": 2.8875,
+          "end": 3.2375
+        }
+      ],
+      "duration": 4.128,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "near6": {
+      "file": "audio/near6.mp3",
+      "text": "For these reasons, I think nearby places are a good choice for school trips.",
+      "words": [
+        {
+          "text": "For",
+          "start": 0.1,
+          "end": 0.275
+        },
+        {
+          "text": "these",
+          "start": 0.3,
+          "end": 0.4875
+        },
+        {
+          "text": "reasons",
+          "start": 0.5125,
+          "end": 0.925
+        },
+        {
+          "text": "I",
+          "start": 1.1375,
+          "end": 1.2
+        },
+        {
+          "text": "think",
+          "start": 1.225,
+          "end": 1.4375
+        },
+        {
+          "text": "nearby",
+          "start": 1.45,
+          "end": 1.775
+        },
+        {
+          "text": "places",
+          "start": 1.7875,
+          "end": 2.2
+        },
+        {
+          "text": "are",
+          "start": 2.225,
+          "end": 2.325
+        },
+        {
+          "text": "a",
+          "start": 2.35,
+          "end": 2.4125
+        },
+        {
+          "text": "good",
+          "start": 2.4375,
+          "end": 2.625
+        },
+        {
+          "text": "choice",
+          "start": 2.65,
+          "end": 2.9375
+        },
+        {
+          "text": "for",
+          "start": 2.95,
+          "end": 3.0875
+        },
+        {
+          "text": "school",
+          "start": 3.1125,
+          "end": 3.3875
+        },
+        {
+          "text": "trips",
+          "start": 3.4,
+          "end": 3.7875
+        }
+      ],
+      "duration": 4.68,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "near6v1": {
+      "file": "audio/near6v1.mp3",
+      "text": "For these reasons, nearby places are my first choice for a school trip.",
+      "words": [
+        {
+          "text": "For",
+          "start": 0.1,
+          "end": 0.275
+        },
+        {
+          "text": "these",
+          "start": 0.3,
+          "end": 0.5
+        },
+        {
+          "text": "reasons",
+          "start": 0.525,
+          "end": 0.95
+        },
+        {
+          "text": "nearby",
+          "start": 1.125,
+          "end": 1.475
+        },
+        {
+          "text": "places",
+          "start": 1.4875,
+          "end": 1.875
+        },
+        {
+          "text": "are",
+          "start": 1.9,
+          "end": 1.975
+        },
+        {
+          "text": "my",
+          "start": 1.9875,
+          "end": 2.1125
+        },
+        {
+          "text": "first",
+          "start": 2.1375,
+          "end": 2.4625
+        },
+        {
+          "text": "choice",
+          "start": 2.475,
+          "end": 2.7625
+        },
+        {
+          "text": "for",
+          "start": 2.775,
+          "end": 2.925
+        },
+        {
+          "text": "a",
+          "start": 2.95,
+          "end": 3.0
+        },
+        {
+          "text": "school",
+          "start": 3.025,
+          "end": 3.3125
+        },
+        {
+          "text": "trip",
+          "start": 3.325,
+          "end": 3.65
+        }
+      ],
+      "duration": 4.536,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "near6v2": {
+      "file": "audio/near6v2.mp3",
+      "text": "That is why I would choose a nearby place for our next school trip.",
+      "words": [
+        {
+          "text": "That",
+          "start": 0.1,
+          "end": 0.325
+        },
+        {
+          "text": "is",
+          "start": 0.35,
+          "end": 0.475
+        },
+        {
+          "text": "why",
+          "start": 0.5,
+          "end": 0.7
+        },
+        {
+          "text": "I",
+          "start": 0.725,
+          "end": 0.775
+        },
+        {
+          "text": "would",
+          "start": 0.8,
+          "end": 0.9625
+        },
+        {
+          "text": "choose",
+          "start": 0.975,
+          "end": 1.25
+        },
+        {
+          "text": "a",
+          "start": 1.275,
+          "end": 1.325
+        },
+        {
+          "text": "nearby",
+          "start": 1.35,
+          "end": 1.7
+        },
+        {
+          "text": "place",
+          "start": 1.7125,
+          "end": 2.0375
+        },
+        {
+          "text": "for",
+          "start": 2.05,
+          "end": 2.2
+        },
+        {
+          "text": "our",
+          "start": 2.225,
+          "end": 2.3125
+        },
+        {
+          "text": "next",
+          "start": 2.3375,
+          "end": 2.5875
+        },
+        {
+          "text": "school",
+          "start": 2.6,
+          "end": 2.8625
+        },
+        {
+          "text": "trip",
+          "start": 2.8875,
+          "end": 3.2125
+        }
+      ],
+      "duration": 4.08,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "far1": {
+      "file": "audio/far1.mp3",
+      "text": "I prefer school trips to places far away because they give us a chance to discover something new.",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.1,
+          "end": 0.275
+        },
+        {
+          "text": "prefer",
+          "start": 0.2875,
+          "end": 0.625
+        },
+        {
+          "text": "school",
+          "start": 0.6375,
+          "end": 0.9125
+        },
+        {
+          "text": "trips",
+          "start": 0.9375,
+          "end": 1.2125
+        },
+        {
+          "text": "to",
+          "start": 1.225,
+          "end": 1.3125
+        },
+        {
+          "text": "places",
+          "start": 1.325,
+          "end": 1.7125
+        },
+        {
+          "text": "far",
+          "start": 1.7375,
+          "end": 1.95
+        },
+        {
+          "text": "away",
+          "start": 1.975,
+          "end": 2.225
+        },
+        {
+          "text": "because",
+          "start": 2.2375,
+          "end": 2.5625
+        },
+        {
+          "text": "they",
+          "start": 2.5875,
+          "end": 2.7
+        },
+        {
+          "text": "give",
+          "start": 2.7125,
+          "end": 2.875
+        },
+        {
+          "text": "us",
+          "start": 2.8875,
+          "end": 3.0125
+        },
+        {
+          "text": "a",
+          "start": 3.0375,
+          "end": 3.1
+        },
+        {
+          "text": "chance",
+          "start": 3.1125,
+          "end": 3.45
+        },
+        {
+          "text": "to",
+          "start": 3.475,
+          "end": 3.5625
+        },
+        {
+          "text": "discover",
+          "start": 3.575,
+          "end": 4.025
+        },
+        {
+          "text": "something",
+          "start": 4.05,
+          "end": 4.375
+        },
+        {
+          "text": "new",
+          "start": 4.4,
+          "end": 4.7125
+        }
+      ],
+      "duration": 5.616,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "far1v1": {
+      "file": "audio/far1v1.mp3",
+      "text": "I would rather go on school trips to places far away and discover something new.",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.1,
+          "end": 0.2625
+        },
+        {
+          "text": "would",
+          "start": 0.2875,
+          "end": 0.4375
+        },
+        {
+          "text": "rather",
+          "start": 0.4625,
+          "end": 0.75
+        },
+        {
+          "text": "go",
+          "start": 0.775,
+          "end": 0.9375
+        },
+        {
+          "text": "on",
+          "start": 0.9625,
+          "end": 1.075
+        },
+        {
+          "text": "school",
+          "start": 1.1,
+          "end": 1.3875
+        },
+        {
+          "text": "trips",
+          "start": 1.4,
+          "end": 1.7
+        },
+        {
+          "text": "to",
+          "start": 1.7125,
+          "end": 1.8125
+        },
+        {
+          "text": "places",
+          "start": 1.825,
+          "end": 2.2125
+        },
+        {
+          "text": "far",
+          "start": 2.2375,
+          "end": 2.4625
+        },
+        {
+          "text": "away",
+          "start": 2.4875,
+          "end": 2.7375
+        },
+        {
+          "text": "and",
+          "start": 2.75,
+          "end": 2.8125
+        },
+        {
+          "text": "discover",
+          "start": 2.8375,
+          "end": 3.3125
+        },
+        {
+          "text": "something",
+          "start": 3.3375,
+          "end": 3.6875
+        },
+        {
+          "text": "new",
+          "start": 3.7125,
+          "end": 4.0375
+        }
+      ],
+      "duration": 4.92,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "far1v2": {
+      "file": "audio/far1v2.mp3",
+      "text": "For school trips, I prefer places far away because I enjoy discovering new places.",
+      "words": [
+        {
+          "text": "For",
+          "start": 0.1,
+          "end": 0.2875
+        },
+        {
+          "text": "school",
+          "start": 0.3,
+          "end": 0.575
+        },
+        {
+          "text": "trips",
+          "start": 0.6,
+          "end": 0.925
+        },
+        {
+          "text": "I",
+          "start": 1.1375,
+          "end": 1.2
+        },
+        {
+          "text": "prefer",
+          "start": 1.225,
+          "end": 1.575
+        },
+        {
+          "text": "places",
+          "start": 1.5875,
+          "end": 1.9875
+        },
+        {
+          "text": "far",
+          "start": 2.0125,
+          "end": 2.2375
+        },
+        {
+          "text": "away",
+          "start": 2.2625,
+          "end": 2.5125
+        },
+        {
+          "text": "because",
+          "start": 2.525,
+          "end": 2.85
+        },
+        {
+          "text": "I",
+          "start": 2.875,
+          "end": 2.975
+        },
+        {
+          "text": "enjoy",
+          "start": 3.0,
+          "end": 3.3
+        },
+        {
+          "text": "discovering",
+          "start": 3.3125,
+          "end": 3.8625
+        },
+        {
+          "text": "new",
+          "start": 3.8875,
+          "end": 4.0
+        },
+        {
+          "text": "places",
+          "start": 4.0125,
+          "end": 4.5625
+        }
+      ],
+      "duration": 5.448,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "far2": {
+      "file": "audio/far2.mp3",
+      "text": "First, we can see places that we do not usually visit with our families.",
+      "words": [
+        {
+          "text": "First",
+          "start": 0.1,
+          "end": 0.5125
+        },
+        {
+          "text": "we",
+          "start": 0.675,
+          "end": 0.8
+        },
+        {
+          "text": "can",
+          "start": 0.825,
+          "end": 0.975
+        },
+        {
+          "text": "see",
+          "start": 1.0,
+          "end": 1.1625
+        },
+        {
+          "text": "places",
+          "start": 1.175,
+          "end": 1.5625
+        },
+        {
+          "text": "that",
+          "start": 1.5875,
+          "end": 1.7125
+        },
+        {
+          "text": "we",
+          "start": 1.7375,
+          "end": 1.8375
+        },
+        {
+          "text": "do",
+          "start": 1.85,
+          "end": 1.975
+        },
+        {
+          "text": "not",
+          "start": 2.0,
+          "end": 2.225
+        },
+        {
+          "text": "usually",
+          "start": 2.2375,
+          "end": 2.6625
+        },
+        {
+          "text": "visit",
+          "start": 2.6875,
+          "end": 3.025
+        },
+        {
+          "text": "with",
+          "start": 3.05,
+          "end": 3.1875
+        },
+        {
+          "text": "our",
+          "start": 3.2125,
+          "end": 3.3375
+        },
+        {
+          "text": "families",
+          "start": 3.3625,
+          "end": 3.9
+        }
+      ],
+      "duration": 4.8,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "far2v1": {
+      "file": "audio/far2v1.mp3",
+      "text": "First, these trips take us to places we rarely visit with our families.",
+      "words": [
+        {
+          "text": "First",
+          "start": 0.1,
+          "end": 0.5125
+        },
+        {
+          "text": "these",
+          "start": 0.7125,
+          "end": 0.9125
+        },
+        {
+          "text": "trips",
+          "start": 0.9375,
+          "end": 1.225
+        },
+        {
+          "text": "take",
+          "start": 1.25,
+          "end": 1.4875
+        },
+        {
+          "text": "us",
+          "start": 1.5,
+          "end": 1.6125
+        },
+        {
+          "text": "to",
+          "start": 1.6375,
+          "end": 1.7375
+        },
+        {
+          "text": "places",
+          "start": 1.7625,
+          "end": 2.1375
+        },
+        {
+          "text": "we",
+          "start": 2.1625,
+          "end": 2.3
+        },
+        {
+          "text": "rarely",
+          "start": 2.325,
+          "end": 2.675
+        },
+        {
+          "text": "visit",
+          "start": 2.7,
+          "end": 3.0375
+        },
+        {
+          "text": "with",
+          "start": 3.0625,
+          "end": 3.2
+        },
+        {
+          "text": "our",
+          "start": 3.225,
+          "end": 3.35
+        },
+        {
+          "text": "families",
+          "start": 3.375,
+          "end": 3.9125
+        }
+      ],
+      "duration": 4.8,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "far2v2": {
+      "file": "audio/far2v2.mp3",
+      "text": "First, we get to see places that our families do not usually visit.",
+      "words": [
+        {
+          "text": "First",
+          "start": 0.1,
+          "end": 0.5125
+        },
+        {
+          "text": "we",
+          "start": 0.725,
+          "end": 0.8375
+        },
+        {
+          "text": "get",
+          "start": 0.8625,
+          "end": 1.0125
+        },
+        {
+          "text": "to",
+          "start": 1.025,
+          "end": 1.1125
+        },
+        {
+          "text": "see",
+          "start": 1.125,
+          "end": 1.3
+        },
+        {
+          "text": "places",
+          "start": 1.325,
+          "end": 1.75
+        },
+        {
+          "text": "that",
+          "start": 1.775,
+          "end": 1.9
+        },
+        {
+          "text": "our",
+          "start": 1.925,
+          "end": 2.0375
+        },
+        {
+          "text": "families",
+          "start": 2.0625,
+          "end": 2.5125
+        },
+        {
+          "text": "do",
+          "start": 2.5375,
+          "end": 2.65
+        },
+        {
+          "text": "not",
+          "start": 2.675,
+          "end": 2.8875
+        },
+        {
+          "text": "usually",
+          "start": 2.9,
+          "end": 3.3
+        },
+        {
+          "text": "visit",
+          "start": 3.325,
+          "end": 3.725
+        }
+      ],
+      "duration": 4.632,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "far3": {
+      "file": "audio/far3.mp3",
+      "text": "For example, we can visit a desert and learn how people live there.",
+      "words": [
+        {
+          "text": "For",
+          "start": 0.1,
+          "end": 0.3125
+        },
+        {
+          "text": "example",
+          "start": 0.325,
+          "end": 0.8375
+        },
+        {
+          "text": "we",
+          "start": 1.0125,
+          "end": 1.1375
+        },
+        {
+          "text": "can",
+          "start": 1.1625,
+          "end": 1.3125
+        },
+        {
+          "text": "visit",
+          "start": 1.3375,
+          "end": 1.625
+        },
+        {
+          "text": "a",
+          "start": 1.65,
+          "end": 1.7125
+        },
+        {
+          "text": "desert",
+          "start": 1.725,
+          "end": 2.1375
+        },
+        {
+          "text": "and",
+          "start": 2.15,
+          "end": 2.25
+        },
+        {
+          "text": "learn",
+          "start": 2.275,
+          "end": 2.475
+        },
+        {
+          "text": "how",
+          "start": 2.5,
+          "end": 2.65
+        },
+        {
+          "text": "people",
+          "start": 2.675,
+          "end": 3.025
+        },
+        {
+          "text": "live",
+          "start": 3.05,
+          "end": 3.2375
+        },
+        {
+          "text": "there",
+          "start": 3.2625,
+          "end": 3.5875
+        }
+      ],
+      "duration": 4.488,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "far3v1": {
+      "file": "audio/far3v1.mp3",
+      "text": "For example, a visit to the desert can teach us how people live there.",
+      "words": [
+        {
+          "text": "For",
+          "start": 0.1,
+          "end": 0.325
+        },
+        {
+          "text": "example",
+          "start": 0.3375,
+          "end": 0.8375
+        },
+        {
+          "text": "a",
+          "start": 1.075,
+          "end": 1.1375
+        },
+        {
+          "text": "visit",
+          "start": 1.1625,
+          "end": 1.4625
+        },
+        {
+          "text": "to",
+          "start": 1.4875,
+          "end": 1.5875
+        },
+        {
+          "text": "the",
+          "start": 1.6125,
+          "end": 1.7375
+        },
+        {
+          "text": "desert",
+          "start": 1.7625,
+          "end": 2.125
+        },
+        {
+          "text": "can",
+          "start": 2.15,
+          "end": 2.3125
+        },
+        {
+          "text": "teach",
+          "start": 2.3375,
+          "end": 2.575
+        },
+        {
+          "text": "us",
+          "start": 2.6,
+          "end": 2.7375
+        },
+        {
+          "text": "how",
+          "start": 2.7625,
+          "end": 2.8875
+        },
+        {
+          "text": "people",
+          "start": 2.9125,
+          "end": 3.2625
+        },
+        {
+          "text": "live",
+          "start": 3.2875,
+          "end": 3.4625
+        },
+        {
+          "text": "there",
+          "start": 3.4875,
+          "end": 3.8
+        }
+      ],
+      "duration": 4.704,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "far3v2": {
+      "file": "audio/far3v2.mp3",
+      "text": "For example, a desert trip can show us how people live in that area.",
+      "words": [
+        {
+          "text": "For",
+          "start": 0.1,
+          "end": 0.325
+        },
+        {
+          "text": "example",
+          "start": 0.3375,
+          "end": 0.85
+        },
+        {
+          "text": "a",
+          "start": 1.1,
+          "end": 1.1875
+        },
+        {
+          "text": "desert",
+          "start": 1.2125,
+          "end": 1.575
+        },
+        {
+          "text": "trip",
+          "start": 1.5875,
+          "end": 1.8375
+        },
+        {
+          "text": "can",
+          "start": 1.8625,
+          "end": 2.025
+        },
+        {
+          "text": "show",
+          "start": 2.05,
+          "end": 2.3
+        },
+        {
+          "text": "us",
+          "start": 2.325,
+          "end": 2.45
+        },
+        {
+          "text": "how",
+          "start": 2.475,
+          "end": 2.6
+        },
+        {
+          "text": "people",
+          "start": 2.625,
+          "end": 2.9875
+        },
+        {
+          "text": "live",
+          "start": 3.0125,
+          "end": 3.2
+        },
+        {
+          "text": "in",
+          "start": 3.225,
+          "end": 3.2875
+        },
+        {
+          "text": "that",
+          "start": 3.3125,
+          "end": 3.5125
+        },
+        {
+          "text": "area",
+          "start": 3.525,
+          "end": 3.9375
+        }
+      ],
+      "duration": 4.8,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "far4": {
+      "file": "audio/far4.mp3",
+      "text": "Also, a long trip gives us more time to talk and play games together.",
+      "words": [
+        {
+          "text": "Also",
+          "start": 0.1,
+          "end": 0.5375
+        },
+        {
+          "text": "a",
+          "start": 0.7,
+          "end": 0.7375
+        },
+        {
+          "text": "long",
+          "start": 0.75,
+          "end": 0.975
+        },
+        {
+          "text": "trip",
+          "start": 1.0,
+          "end": 1.2625
+        },
+        {
+          "text": "gives",
+          "start": 1.2875,
+          "end": 1.5
+        },
+        {
+          "text": "us",
+          "start": 1.525,
+          "end": 1.6375
+        },
+        {
+          "text": "more",
+          "start": 1.6625,
+          "end": 1.8375
+        },
+        {
+          "text": "time",
+          "start": 1.85,
+          "end": 2.0875
+        },
+        {
+          "text": "to",
+          "start": 2.1125,
+          "end": 2.2
+        },
+        {
+          "text": "talk",
+          "start": 2.225,
+          "end": 2.5125
+        },
+        {
+          "text": "and",
+          "start": 2.525,
+          "end": 2.6125
+        },
+        {
+          "text": "play",
+          "start": 2.6375,
+          "end": 2.825
+        },
+        {
+          "text": "games",
+          "start": 2.85,
+          "end": 3.125
+        },
+        {
+          "text": "together",
+          "start": 3.1375,
+          "end": 3.6875
+        }
+      ],
+      "duration": 4.584,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "far4v1": {
+      "file": "audio/far4v1.mp3",
+      "text": "Also, we have more time to talk and play games together on a long trip.",
+      "words": [
+        {
+          "text": "Also",
+          "start": 0.1,
+          "end": 0.5375
+        },
+        {
+          "text": "we",
+          "start": 0.7375,
+          "end": 0.8375
+        },
+        {
+          "text": "have",
+          "start": 0.8625,
+          "end": 0.975
+        },
+        {
+          "text": "more",
+          "start": 1.0,
+          "end": 1.175
+        },
+        {
+          "text": "time",
+          "start": 1.1875,
+          "end": 1.4
+        },
+        {
+          "text": "to",
+          "start": 1.425,
+          "end": 1.5
+        },
+        {
+          "text": "talk",
+          "start": 1.525,
+          "end": 1.8125
+        },
+        {
+          "text": "and",
+          "start": 1.825,
+          "end": 1.9125
+        },
+        {
+          "text": "play",
+          "start": 1.9375,
+          "end": 2.125
+        },
+        {
+          "text": "games",
+          "start": 2.15,
+          "end": 2.4625
+        },
+        {
+          "text": "together",
+          "start": 2.475,
+          "end": 2.9375
+        },
+        {
+          "text": "on",
+          "start": 2.9625,
+          "end": 3.05
+        },
+        {
+          "text": "a",
+          "start": 3.075,
+          "end": 3.125
+        },
+        {
+          "text": "long",
+          "start": 3.15,
+          "end": 3.4
+        },
+        {
+          "text": "trip",
+          "start": 3.425,
+          "end": 3.7875
+        }
+      ],
+      "duration": 4.68,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "far4v2": {
+      "file": "audio/far4v2.mp3",
+      "text": "In addition, a long trip gives us extra time to talk and play games together.",
+      "words": [
+        {
+          "text": "In",
+          "start": 0.1,
+          "end": 0.2875
+        },
+        {
+          "text": "addition",
+          "start": 0.3125,
+          "end": 0.7375
+        },
+        {
+          "text": "a",
+          "start": 0.95,
+          "end": 1.0
+        },
+        {
+          "text": "long",
+          "start": 1.025,
+          "end": 1.275
+        },
+        {
+          "text": "trip",
+          "start": 1.3,
+          "end": 1.5625
+        },
+        {
+          "text": "gives",
+          "start": 1.575,
+          "end": 1.7875
+        },
+        {
+          "text": "us",
+          "start": 1.8125,
+          "end": 1.9375
+        },
+        {
+          "text": "extra",
+          "start": 1.9625,
+          "end": 2.3125
+        },
+        {
+          "text": "time",
+          "start": 2.3375,
+          "end": 2.5875
+        },
+        {
+          "text": "to",
+          "start": 2.6125,
+          "end": 2.7125
+        },
+        {
+          "text": "talk",
+          "start": 2.7375,
+          "end": 3.0375
+        },
+        {
+          "text": "and",
+          "start": 3.05,
+          "end": 3.1375
+        },
+        {
+          "text": "play",
+          "start": 3.1625,
+          "end": 3.35
+        },
+        {
+          "text": "games",
+          "start": 3.375,
+          "end": 3.65
+        },
+        {
+          "text": "together",
+          "start": 3.6625,
+          "end": 4.2125
+        }
+      ],
+      "duration": 5.112,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "far5": {
+      "file": "audio/far5.mp3",
+      "text": "These shared experiences can help us become better friends.",
+      "words": [
+        {
+          "text": "These",
+          "start": 0.1,
+          "end": 0.3125
+        },
+        {
+          "text": "shared",
+          "start": 0.3375,
+          "end": 0.6125
+        },
+        {
+          "text": "experiences",
+          "start": 0.6375,
+          "end": 1.4375
+        },
+        {
+          "text": "can",
+          "start": 1.4625,
+          "end": 1.6
+        },
+        {
+          "text": "help",
+          "start": 1.625,
+          "end": 1.85
+        },
+        {
+          "text": "us",
+          "start": 1.8625,
+          "end": 2.0125
+        },
+        {
+          "text": "become",
+          "start": 2.0375,
+          "end": 2.375
+        },
+        {
+          "text": "better",
+          "start": 2.4,
+          "end": 2.675
+        },
+        {
+          "text": "friends",
+          "start": 2.6875,
+          "end": 3.2125
+        }
+      ],
+      "duration": 4.08,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "far5v1": {
+      "file": "audio/far5v1.mp3",
+      "text": "Sharing these experiences can help us build stronger friendships.",
+      "words": [
+        {
+          "text": "Sharing",
+          "start": 0.1,
+          "end": 0.55
+        },
+        {
+          "text": "these",
+          "start": 0.575,
+          "end": 0.75
+        },
+        {
+          "text": "experiences",
+          "start": 0.775,
+          "end": 1.575
+        },
+        {
+          "text": "can",
+          "start": 1.6,
+          "end": 1.75
+        },
+        {
+          "text": "help",
+          "start": 1.775,
+          "end": 2.0
+        },
+        {
+          "text": "us",
+          "start": 2.0125,
+          "end": 2.1375
+        },
+        {
+          "text": "build",
+          "start": 2.1625,
+          "end": 2.4125
+        },
+        {
+          "text": "stronger",
+          "start": 2.4375,
+          "end": 2.875
+        },
+        {
+          "text": "friendships",
+          "start": 2.8875,
+          "end": 3.525
+        }
+      ],
+      "duration": 4.416,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "far5v2": {
+      "file": "audio/far5v2.mp3",
+      "text": "We can become better friends when we share these experiences.",
+      "words": [
+        {
+          "text": "We",
+          "start": 0.1,
+          "end": 0.3
+        },
+        {
+          "text": "can",
+          "start": 0.3125,
+          "end": 0.45
+        },
+        {
+          "text": "become",
+          "start": 0.4625,
+          "end": 0.7875
+        },
+        {
+          "text": "better",
+          "start": 0.8125,
+          "end": 1.1
+        },
+        {
+          "text": "friends",
+          "start": 1.1125,
+          "end": 1.525
+        },
+        {
+          "text": "when",
+          "start": 1.5375,
+          "end": 1.675
+        },
+        {
+          "text": "we",
+          "start": 1.7,
+          "end": 1.8125
+        },
+        {
+          "text": "share",
+          "start": 1.8375,
+          "end": 2.15
+        },
+        {
+          "text": "these",
+          "start": 2.175,
+          "end": 2.3625
+        },
+        {
+          "text": "experiences",
+          "start": 2.3875,
+          "end": 3.3
+        }
+      ],
+      "duration": 4.176,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "far6": {
+      "file": "audio/far6.mp3",
+      "text": "That is why I would choose a school trip to a place far away.",
+      "words": [
+        {
+          "text": "That",
+          "start": 0.1,
+          "end": 0.3125
+        },
+        {
+          "text": "is",
+          "start": 0.3375,
+          "end": 0.4625
+        },
+        {
+          "text": "why",
+          "start": 0.4875,
+          "end": 0.6875
+        },
+        {
+          "text": "I",
+          "start": 0.7125,
+          "end": 0.7625
+        },
+        {
+          "text": "would",
+          "start": 0.7875,
+          "end": 0.9375
+        },
+        {
+          "text": "choose",
+          "start": 0.95,
+          "end": 1.175
+        },
+        {
+          "text": "a",
+          "start": 1.2,
+          "end": 1.2625
+        },
+        {
+          "text": "school",
+          "start": 1.2875,
+          "end": 1.5875
+        },
+        {
+          "text": "trip",
+          "start": 1.6,
+          "end": 1.8375
+        },
+        {
+          "text": "to",
+          "start": 1.8625,
+          "end": 1.9875
+        },
+        {
+          "text": "a",
+          "start": 2.0,
+          "end": 2.0625
+        },
+        {
+          "text": "place",
+          "start": 2.075,
+          "end": 2.35
+        },
+        {
+          "text": "far",
+          "start": 2.375,
+          "end": 2.575
+        },
+        {
+          "text": "away",
+          "start": 2.6,
+          "end": 3.0125
+        }
+      ],
+      "duration": 3.912,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "far6v1": {
+      "file": "audio/far6v1.mp3",
+      "text": "For these reasons, places far away are my choice for our school trips.",
+      "words": [
+        {
+          "text": "For",
+          "start": 0.1,
+          "end": 0.275
+        },
+        {
+          "text": "these",
+          "start": 0.3,
+          "end": 0.5125
+        },
+        {
+          "text": "reasons",
+          "start": 0.525,
+          "end": 0.9625
+        },
+        {
+          "text": "places",
+          "start": 1.1375,
+          "end": 1.525
+        },
+        {
+          "text": "far",
+          "start": 1.55,
+          "end": 1.775
+        },
+        {
+          "text": "away",
+          "start": 1.8,
+          "end": 2.05
+        },
+        {
+          "text": "are",
+          "start": 2.075,
+          "end": 2.1625
+        },
+        {
+          "text": "my",
+          "start": 2.1875,
+          "end": 2.3375
+        },
+        {
+          "text": "choice",
+          "start": 2.3625,
+          "end": 2.7125
+        },
+        {
+          "text": "for",
+          "start": 2.7375,
+          "end": 2.8875
+        },
+        {
+          "text": "our",
+          "start": 2.9125,
+          "end": 3.0125
+        },
+        {
+          "text": "school",
+          "start": 3.025,
+          "end": 3.3125
+        },
+        {
+          "text": "trips",
+          "start": 3.325,
+          "end": 3.725
+        }
+      ],
+      "duration": 4.608,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    },
+    "far6v2": {
+      "file": "audio/far6v2.mp3",
+      "text": "That is why I prefer school trips to places that are far away.",
+      "words": [
+        {
+          "text": "That",
+          "start": 0.1,
+          "end": 0.325
+        },
+        {
+          "text": "is",
+          "start": 0.35,
+          "end": 0.475
+        },
+        {
+          "text": "why",
+          "start": 0.5,
+          "end": 0.6875
+        },
+        {
+          "text": "I",
+          "start": 0.7125,
+          "end": 0.775
+        },
+        {
+          "text": "prefer",
+          "start": 0.8,
+          "end": 1.175
+        },
+        {
+          "text": "school",
+          "start": 1.1875,
+          "end": 1.475
+        },
+        {
+          "text": "trips",
+          "start": 1.4875,
+          "end": 1.7875
+        },
+        {
+          "text": "to",
+          "start": 1.8,
+          "end": 1.9
+        },
+        {
+          "text": "places",
+          "start": 1.9125,
+          "end": 2.3125
+        },
+        {
+          "text": "that",
+          "start": 2.3375,
+          "end": 2.4625
+        },
+        {
+          "text": "are",
+          "start": 2.4875,
+          "end": 2.575
+        },
+        {
+          "text": "far",
+          "start": 2.6,
+          "end": 2.8375
+        },
+        {
+          "text": "away",
+          "start": 2.8625,
+          "end": 3.2875
+        }
+      ],
+      "duration": 4.176,
+      "timing": "service_word_boundaries",
+      "voice": "en-US-GuyNeural"
+    }
+  }
+}

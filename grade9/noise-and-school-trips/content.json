@@ -1,0 +1,1017 @@
+{
+  "title": "Too Much Noise at School",
+  "subtitle": "Reading and writing with the Grade 9 worksheet",
+  "subtitleHe": "לימוד הטקסט והכתיבה לפי דף העבודה של כיתה ט׳",
+  "version": "2026-11-18",
+  "worksheetFile": "grade9-noise-and-school-trips.pdf",
+  "paragraphs": [
+    {
+      "id": "I",
+      "sentences": [
+        {
+          "en": "Imagine trying to read a story while chairs move across the floor and students talk around you.",
+          "he": "דמיינו שאתם מנסים לקרוא סיפור בזמן שכיסאות זזים על הרצפה ותלמידים מדברים סביבכם."
+        },
+        {
+          "en": "You may read the same sentence several times without understanding it.",
+          "he": "ייתכן שתקראו את אותו המשפט כמה פעמים בלי להבין אותו."
+        },
+        {
+          "en": "Noise can make it difficult to concentrate, which means keeping your attention on what you are doing.",
+          "he": "רעש עלול להקשות עליכם להתרכז, כלומר לשמור את תשומת הלב במה שאתם עושים."
+        },
+        {
+          "en": "This problem can affect students in both public and private schools.",
+          "he": "הבעיה הזאת יכולה להשפיע על תלמידים גם בבתי ספר ציבוריים וגם בבתי ספר פרטיים."
+        }
+      ],
+      "summary": {
+        "en": "Noise can make concentration difficult.",
+        "he": "רעש עלול להקשות על הריכוז."
+      },
+      "focusWords": [
+        "noise",
+        "concentrate",
+        "attention",
+        "affect"
+      ]
+    },
+    {
+      "id": "II",
+      "sentences": [
+        {
+          "en": "Noise may come from inside or outside the classroom.",
+          "he": "הרעש יכול להגיע מתוך הכיתה או מחוצה לה."
+        },
+        {
+          "en": "Talking, moving furniture and loud fans can disturb a lesson.",
+          "he": "דיבורים, הזזת רהיטים ומאווררים רועשים יכולים להפריע לשיעור."
+        },
+        {
+          "en": "Traffic and building work nearby can also make it hard to hear the teacher.",
+          "he": "גם תנועה בכביש ועבודות בנייה בקרבת מקום עלולות להקשות על שמיעת המורה."
+        },
+        {
+          "en": "When students miss important instructions, they may make mistakes even when they understand the subject.",
+          "he": "כאשר תלמידים מפספסים הוראות חשובות, הם עלולים לטעות גם כשהם מבינים את הנושא."
+        }
+      ],
+      "summary": {
+        "en": "Noise has different sources and can cause students to miss instructions.",
+        "he": "לרעש יש מקורות שונים, והוא עלול לגרום לתלמידים לפספס הוראות."
+      },
+      "focusWords": [
+        "disturb",
+        "traffic",
+        "instructions"
+      ]
+    },
+    {
+      "id": "III",
+      "sentences": [
+        {
+          "en": "Some people think that private schools are always quieter than public schools.",
+          "he": "יש אנשים שחושבים שבתי ספר פרטיים תמיד שקטים יותר מבתי ספר ציבוריים."
+        },
+        {
+          "en": "However, the type of school is not enough to tell us how noisy it is.",
+          "he": "עם זאת, סוג בית הספר אינו מספיק כדי לדעת עד כמה רועש בו."
+        },
+        {
+          "en": "A small private school next to a busy road may be noisier than a large public school on a quiet street.",
+          "he": "בית ספר פרטי קטן ליד כביש עמוס עשוי להיות רועש יותר מבית ספר ציבורי גדול ברחוב שקט."
+        },
+        {
+          "en": "The number of students in a room and their behavior also make a difference.",
+          "he": "גם מספר התלמידים בכיתה וההתנהגות שלהם משפיעים."
+        }
+      ],
+      "summary": {
+        "en": "Location and classroom conditions matter in both types of school.",
+        "he": "המיקום והתנאים בכיתה חשובים בשני סוגי בתי הספר."
+      },
+      "focusWords": [
+        "private school",
+        "public school",
+        "behavior"
+      ]
+    },
+    {
+      "id": "IV",
+      "sentences": [
+        {
+          "en": "Noise does not affect every student in the same way.",
+          "he": "הרעש אינו משפיע על כל התלמידים באותה דרך."
+        },
+        {
+          "en": "Some can work with quiet sounds around them, while others need more silence.",
+          "he": "חלקם יכולים לעבוד כשיש סביבם קולות חלשים, ואחרים זקוקים ליותר שקט."
+        },
+        {
+          "en": "The activity also matters.",
+          "he": "גם סוג הפעילות חשוב."
+        },
+        {
+          "en": "During a test, students usually need quiet.",
+          "he": "בזמן מבחן, התלמידים בדרך כלל זקוקים לשקט."
+        },
+        {
+          "en": "During group work, however, talking helps students share ideas.",
+          "he": "עם זאת, בזמן עבודה בקבוצות הדיבור עוזר לתלמידים לשתף רעיונות."
+        },
+        {
+          "en": "A completely silent classroom is therefore not always the best place to learn.",
+          "he": "לכן כיתה שקטה לחלוטין אינה תמיד המקום הטוב ביותר ללמוד בו."
+        }
+      ],
+      "summary": {
+        "en": "Different students and different activities need different levels of quiet.",
+        "he": "תלמידים שונים ופעילויות שונות זקוקים לרמות שונות של שקט."
+      },
+      "focusWords": [
+        "silence",
+        "share",
+        "group work"
+      ]
+    },
+    {
+      "id": "V",
+      "sentences": [
+        {
+          "en": "Schools can take simple steps to reduce noise.",
+          "he": "בתי ספר יכולים לנקוט צעדים פשוטים כדי להפחית את הרעש."
+        },
+        {
+          "en": "They can put soft covers under chair legs and close windows during noisy activities outside.",
+          "he": "הם יכולים לשים כיסויים רכים בתחתית רגלי הכיסאות ולסגור חלונות כשמתקיימות בחוץ פעילויות רועשות."
+        },
+        {
+          "en": "Teachers can also agree on clear rules with their classes, such as speaking one at a time.",
+          "he": "המורים יכולים גם להסכים עם הכיתות שלהם על כללים ברורים, כמו לדבר אחד בכל פעם."
+        },
+        {
+          "en": "Both public and private schools should provide quiet spaces for students who need them.",
+          "he": "גם בתי ספר ציבוריים וגם בתי ספר פרטיים צריכים לספק מקומות שקטים לתלמידים שזקוקים להם."
+        }
+      ],
+      "summary": {
+        "en": "Schools can reduce disturbing noise with simple steps.",
+        "he": "בתי הספר יכולים להפחית רעש מפריע בעזרת צעדים פשוטים."
+      },
+      "focusWords": [
+        "reduce",
+        "provide",
+        "one at a time"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "noise",
+      "he": "רעש",
+      "example": "Noise can make a lesson difficult.",
+      "exampleHe": "רעש עלול להקשות על הלמידה בשיעור."
+    },
+    {
+      "word": "concentrate",
+      "he": "להתרכז",
+      "example": "I cannot concentrate when people talk around me.",
+      "exampleHe": "אני לא מצליח להתרכז כשאנשים מדברים סביבי."
+    },
+    {
+      "word": "attention",
+      "he": "תשומת לב",
+      "example": "Please give your attention to the speaker.",
+      "exampleHe": "בבקשה, הקדישו את תשומת הלב שלכם לדובר."
+    },
+    {
+      "word": "affect",
+      "he": "להשפיע על",
+      "example": "Noise can affect students in both types of school.",
+      "exampleHe": "רעש יכול להשפיע על תלמידים בשני סוגי בתי הספר."
+    },
+    {
+      "word": "disturb",
+      "he": "להפריע",
+      "example": "Loud fans can disturb a lesson.",
+      "exampleHe": "מאווררים רועשים יכולים להפריע לשיעור."
+    },
+    {
+      "word": "traffic",
+      "he": "תנועה בכביש",
+      "example": "Traffic can make it hard to hear the teacher.",
+      "exampleHe": "תנועה בכביש יכולה להקשות על שמיעת המורה."
+    },
+    {
+      "word": "instructions",
+      "he": "הוראות",
+      "example": "Read the instructions before you begin.",
+      "exampleHe": "קראו את ההוראות לפני שאתם מתחילים."
+    },
+    {
+      "word": "public school",
+      "he": "בית ספר ציבורי",
+      "example": "A public school can be on a quiet street.",
+      "exampleHe": "בית ספר ציבורי יכול להיות ברחוב שקט."
+    },
+    {
+      "word": "private school",
+      "he": "בית ספר פרטי",
+      "example": "A private school can be next to a busy road.",
+      "exampleHe": "בית ספר פרטי יכול להיות ליד כביש עמוס."
+    },
+    {
+      "word": "behavior",
+      "he": "התנהגות",
+      "example": "Our behavior can affect the noise in the classroom.",
+      "exampleHe": "ההתנהגות שלנו יכולה להשפיע על הרעש בכיתה."
+    },
+    {
+      "word": "silence",
+      "he": "שקט; דממה",
+      "example": "Some students need more silence.",
+      "exampleHe": "יש תלמידים שזקוקים ליותר שקט."
+    },
+    {
+      "word": "share",
+      "he": "לשתף",
+      "example": "Group work helps us share ideas.",
+      "exampleHe": "עבודה בקבוצות עוזרת לנו לשתף רעיונות."
+    },
+    {
+      "word": "reduce",
+      "he": "להפחית",
+      "example": "We can reduce noise by speaking one at a time.",
+      "exampleHe": "אפשר להפחית רעש כשמדברים אחד בכל פעם."
+    },
+    {
+      "word": "provide",
+      "he": "לספק",
+      "example": "Schools should provide quiet spaces.",
+      "exampleHe": "בתי הספר צריכים לספק מקומות שקטים."
+    },
+    {
+      "word": "nearby",
+      "he": "בקרבת מקום",
+      "example": "We can visit a nearby park.",
+      "exampleHe": "אפשר לבקר בפארק שנמצא בקרבת מקום."
+    },
+    {
+      "word": "prefer",
+      "he": "להעדיף",
+      "example": "I prefer a short bus ride.",
+      "exampleHe": "אני מעדיף נסיעה קצרה באוטובוס."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "paragraph": "I",
+      "type": "mcq",
+      "prompt": "What problem is presented in paragraph I? Choose the correct answer.",
+      "promptHe": "איזו בעיה מוצגת בפסקה הראשונה? בחרו בתשובה הנכונה.",
+      "options": [
+        "Students do not have enough time to read.",
+        "Noise can make it difficult for students to concentrate.",
+        "Students prefer studying outside the classroom.",
+        "Schools give students too many instructions."
+      ],
+      "optionsHe": [
+        "אין לתלמידים מספיק זמן לקרוא.",
+        "רעש יכול להקשות על התלמידים להתרכז.",
+        "תלמידים מעדיפים ללמוד מחוץ לכיתה.",
+        "בתי הספר נותנים לתלמידים יותר מדי הוראות."
+      ],
+      "correctIndex": 1,
+      "answer": "Noise can make it difficult for students to concentrate.",
+      "answerHe": "רעש יכול להקשות על התלמידים להתרכז.",
+      "evidence": [
+        {
+          "paragraph": "I",
+          "quote": "Noise can make it difficult to concentrate, which means keeping your attention on what you are doing."
+        }
+      ],
+      "hint": "Look for the sentence that explains the problem.",
+      "hintHe": "חפשו את המשפט שמסביר מהי הבעיה.",
+      "explanation": "The example of rereading a sentence shows a problem with concentration.",
+      "explanationHe": "הדוגמה של קריאת אותו משפט שוב ושוב ממחישה קושי בריכוז.",
+      "acceptedAnswers": [
+        "b",
+        "Noise can make it difficult for students to concentrate."
+      ]
+    },
+    {
+      "number": 2,
+      "paragraph": "II",
+      "type": "open",
+      "prompt": "Why may students make mistakes even when they understand the subject? (Paragraph II)",
+      "promptHe": "מדוע תלמידים עלולים לטעות גם כשהם מבינים את הנושא? (פסקה II)",
+      "answer": "They may miss important instructions because they cannot hear the teacher clearly.",
+      "answerHe": "הם עלולים לפספס הוראות חשובות מפני שאינם שומעים את המורה בבירור.",
+      "evidence": [
+        {
+          "paragraph": "II",
+          "quote": "When students miss important instructions, they may make mistakes even when they understand the subject."
+        }
+      ],
+      "hint": "What important information might the students miss?",
+      "hintHe": "איזה מידע חשוב התלמידים עלולים לפספס?",
+      "explanation": "The reason is missing instructions. The students can understand the subject and still miss what they must do.",
+      "explanationHe": "הסיבה היא החמצת הוראות. התלמידים יכולים להבין את החומר, ובכל זאת לפספס מה הם צריכים לעשות.",
+      "acceptedAnswers": [
+        "Because they miss important instructions.",
+        "They cannot hear the teacher clearly and may miss important instructions.",
+        "Noise makes it hard to hear the instructions."
+      ]
+    },
+    {
+      "number": 3,
+      "paragraph": "III",
+      "type": "open",
+      "prompt": "Why might a small private school be noisier than a large public school? (Paragraph III)",
+      "promptHe": "מדוע בית ספר פרטי קטן עשוי להיות רועש יותר מבית ספר ציבורי גדול? (פסקה III)",
+      "answer": "The private school may be next to a busy road, while the public school may be on a quiet street.",
+      "answerHe": "בית הספר הפרטי עשוי להיות ליד כביש עמוס, ואילו בית הספר הציבורי עשוי להיות ברחוב שקט.",
+      "evidence": [
+        {
+          "paragraph": "III",
+          "quote": "A small private school next to a busy road may be noisier than a large public school on a quiet street."
+        }
+      ],
+      "hint": "Compare the two locations in the example.",
+      "hintHe": "השוו בין שני המיקומים שבדוגמה.",
+      "explanation": "The example compares a busy road with a quiet street. It does not say that every private school is noisier.",
+      "explanationHe": "הדוגמה משווה בין כביש עמוס לרחוב שקט. היא אינה טוענת שכל בית ספר פרטי רועש יותר.",
+      "acceptedAnswers": [
+        "Because the private school may be next to a busy road and the public school may be on a quiet street.",
+        "The private school is near a busy road, but the public school is in a quiet street."
+      ]
+    },
+    {
+      "number": 4,
+      "paragraph": "IV",
+      "type": "open",
+      "prompt": "When do students usually need a quiet classroom? (Paragraph IV)",
+      "promptHe": "מתי תלמידים בדרך כלל זקוקים לכיתה שקטה? (פסקה IV)",
+      "answer": "During a test.",
+      "answerHe": "בזמן מבחן.",
+      "evidence": [
+        {
+          "paragraph": "IV",
+          "quote": "During a test, students usually need quiet."
+        }
+      ],
+      "hint": "Find the activity that comes after the word \"During\".",
+      "hintHe": "מצאו את הפעילות שמופיעה אחרי המילה During.",
+      "explanation": "The question asks WHEN. Name the time or activity.",
+      "explanationHe": "השאלה שואלת מתי. ציינו את הזמן או את הפעילות.",
+      "acceptedAnswers": [
+        "During a test.",
+        "When they take a test.",
+        "While taking a test."
+      ]
+    },
+    {
+      "number": 5,
+      "paragraph": "IV",
+      "type": "completion",
+      "prompt": "Complete the sentence according to paragraph IV.",
+      "promptHe": "השלימו את המשפט לפי פסקה IV.",
+      "stem": "Talking during group work can be useful because",
+      "stemHe": "דיבור בזמן עבודה בקבוצות יכול להיות מועיל מפני ש...",
+      "answer": "it helps students share ideas.",
+      "answerHe": "הוא עוזר לתלמידים לשתף רעיונות.",
+      "completeAnswer": "Talking during group work can be useful because it helps students share ideas.",
+      "evidence": [
+        {
+          "paragraph": "IV",
+          "quote": "During group work, however, talking helps students share ideas."
+        }
+      ],
+      "hint": "What useful thing does talking help students do?",
+      "hintHe": "איזה דבר מועיל הדיבור עוזר לתלמידים לעשות?",
+      "explanation": "After \"because\", give a reason. Read the whole sentence to check that it makes sense.",
+      "explanationHe": "אחרי because מוסיפים סיבה. קראו את המשפט השלם ובדקו שהוא הגיוני.",
+      "acceptedAnswers": [
+        "it helps students share ideas.",
+        "students can share ideas.",
+        "talking helps students share ideas."
+      ]
+    },
+    {
+      "number": 6,
+      "paragraph": "V",
+      "type": "open",
+      "prompt": "Give TWO ways schools can reduce noise. (Paragraph V)",
+      "promptHe": "תנו שתי דרכים שבהן בתי ספר יכולים להפחית רעש. (פסקה V)",
+      "answer": "Schools can put soft covers under chair legs and close windows during noisy activities outside.",
+      "answerHe": "בתי הספר יכולים לשים כיסויים רכים מתחת לרגלי הכיסאות ולסגור חלונות כשיש פעילויות רועשות בחוץ.",
+      "answerOptions": [
+        "Put soft covers under chair legs.",
+        "Close windows during noisy activities outside.",
+        "Agree on rules such as speaking one at a time.",
+        "Provide quiet spaces for students who need them."
+      ],
+      "answerOptionsHe": [
+        "לשים כיסויים רכים מתחת לרגלי הכיסאות.",
+        "לסגור חלונות בזמן פעילויות רועשות בחוץ.",
+        "לקבוע כללים כמו דיבור של אדם אחד בכל פעם.",
+        "לספק מקומות שקטים לתלמידים הזקוקים להם."
+      ],
+      "evidence": [
+        {
+          "paragraph": "V",
+          "quote": "They can put soft covers under chair legs and close windows during noisy activities outside."
+        },
+        {
+          "paragraph": "V",
+          "quote": "Teachers can also agree on clear rules with their classes, such as speaking one at a time."
+        }
+      ],
+      "hint": "Find TWO different actions in paragraph V.",
+      "hintHe": "חפשו בפסקה V שתי פעולות שונות.",
+      "explanation": "Give two different ways. Writing only one way does not complete the task.",
+      "explanationHe": "יש לתת שתי דרכים שונות. כתיבת דרך אחת בלבד אינה משלימה את המשימה.",
+      "acceptedAnswers": [
+        "Soft covers under chair legs and closed windows.",
+        "Speaking one at a time and putting soft covers under chair legs.",
+        "Closing windows and speaking one at a time."
+      ]
+    },
+    {
+      "number": 7,
+      "paragraph": "Whole text",
+      "type": "mcq",
+      "prompt": "What is the main message of the text? Choose the correct answer.",
+      "promptHe": "מהו המסר המרכזי של הטקסט? בחרו בתשובה הנכונה.",
+      "options": [
+        "Every lesson should be completely silent.",
+        "Private schools always offer better places to study.",
+        "Schools should reduce disturbing noise and allow useful discussion.",
+        "Only noise from outside the classroom needs to be reduced."
+      ],
+      "optionsHe": [
+        "כל שיעור צריך להתנהל בדממה מוחלטת.",
+        "בתי ספר פרטיים תמיד מציעים מקום טוב יותר ללמוד בו.",
+        "בתי הספר צריכים להפחית רעש מפריע ולאפשר דיון מועיל.",
+        "צריך להפחית רק רעש שמגיע מחוץ לכיתה."
+      ],
+      "correctIndex": 2,
+      "answer": "Schools should reduce disturbing noise and allow useful discussion.",
+      "answerHe": "בתי הספר צריכים להפחית רעש מפריע ולאפשר דיון מועיל.",
+      "evidence": [
+        {
+          "paragraph": "IV",
+          "quote": "During group work, however, talking helps students share ideas."
+        },
+        {
+          "paragraph": "V",
+          "quote": "Schools can take simple steps to reduce noise."
+        }
+      ],
+      "hint": "Think about both useful talking and disturbing noise.",
+      "hintHe": "חשבו גם על דיבור מועיל וגם על רעש מפריע.",
+      "explanation": "The main message connects the problem with the solution. Useful discussion can continue while disturbing noise is reduced.",
+      "explanationHe": "המסר המרכזי מחבר בין הבעיה לפתרון. אפשר להמשיך בדיון מועיל ובאותו הזמן להפחית רעש מפריע.",
+      "acceptedAnswers": [
+        "c",
+        "Schools should reduce disturbing noise and allow useful discussion."
+      ]
+    }
+  ],
+  "warmup": [
+    {
+      "title": "Sounds in our classroom",
+      "en": "What can you hear when everyone stops talking?",
+      "he": "מה אתם שומעים כשכולם מפסיקים לדבר?"
+    },
+    {
+      "title": "A difficult moment",
+      "en": "Think of a time when noise made it hard to read or listen.",
+      "he": "חשבו על פעם שבה רעש הקשה עליכם לקרוא או להקשיב."
+    },
+    {
+      "title": "Useful talking",
+      "en": "When can talking help students learn?",
+      "he": "מתי דיבור יכול לעזור לתלמידים ללמוד?"
+    }
+  ],
+  "checks": [
+    {
+      "title": "Vocabulary practice",
+      "paragraph": "I",
+      "prompt": "A student cannot keep his attention on a task. Which word describes the problem?",
+      "promptHe": "תלמיד לא מצליח לשמור את תשומת הלב במשימה. איזו מילה מתארת את הקושי?",
+      "options": [
+        "He cannot concentrate.",
+        "He cannot provide.",
+        "He cannot reduce."
+      ],
+      "correctIndex": 0,
+      "explanation": "To concentrate means to keep your attention on what you are doing.",
+      "explanationHe": "להתרכז פירושו לשמור את תשומת הלב במה שעושים."
+    },
+    {
+      "title": "Inside or outside?",
+      "paragraph": "II",
+      "prompt": "Which sound usually comes from outside the classroom?",
+      "promptHe": "איזה קול מגיע בדרך כלל מחוץ לכיתה?",
+      "options": [
+        "A moving chair.",
+        "Traffic on a road.",
+        "Students talking at their desks."
+      ],
+      "correctIndex": 1,
+      "explanation": "Traffic is an outside source of noise.",
+      "explanationHe": "תנועה בכביש היא מקור רעש חיצוני."
+    },
+    {
+      "title": "Careful reading",
+      "paragraph": "III",
+      "prompt": "Which sentence agrees with paragraph III?",
+      "promptHe": "איזה משפט מתאים לנאמר בפסקה III?",
+      "options": [
+        "Private schools are always quiet.",
+        "Large schools are always noisy.",
+        "A school near a busy road may be noisy."
+      ],
+      "correctIndex": 2,
+      "explanation": "The location can affect noise in either type of school.",
+      "explanationHe": "המיקום יכול להשפיע על הרעש בשני סוגי בתי הספר."
+    },
+    {
+      "title": "Useful or disturbing?",
+      "paragraph": "IV",
+      "prompt": "Students speak quietly to share ideas during group work. What does paragraph IV suggest?",
+      "promptHe": "תלמידים מדברים בשקט כדי לשתף רעיונות בעבודה קבוצתית. מה משתמע מפסקה IV?",
+      "options": [
+        "This talking can help them learn.",
+        "They must never speak.",
+        "Every student needs the same amount of silence."
+      ],
+      "correctIndex": 0,
+      "explanation": "The purpose of the talking matters. Sharing ideas can help learning.",
+      "explanationHe": "המטרה של הדיבור חשובה. שיתוף רעיונות יכול לסייע ללמידה."
+    },
+    {
+      "title": "A word in context",
+      "paragraph": "V",
+      "prompt": "In \"reduce noise\", what does \"reduce\" mean?",
+      "promptHe": "מה פירוש reduce בביטוי reduce noise?",
+      "options": [
+        "Make more noise.",
+        "Make less noise.",
+        "Find the noise."
+      ],
+      "correctIndex": 1,
+      "explanation": "To reduce means to make the amount smaller.",
+      "explanationHe": "להפחית פירושו להקטין את הכמות."
+    },
+    {
+      "title": "Writing practice",
+      "paragraph": "Writing",
+      "prompt": "Which sentence gives an opinion AND a reason?",
+      "promptHe": "באיזה משפט יש גם דעה וגם נימוק?",
+      "options": [
+        "Our school has a bus.",
+        "I like school trips.",
+        "I prefer nearby trips because the bus ride is shorter."
+      ],
+      "correctIndex": 2,
+      "explanation": "\"I prefer\" gives the opinion. \"Because\" introduces the reason.",
+      "explanationHe": "I prefer מציג את הדעה. because מציג את הסיבה."
+    }
+  ],
+  "writing": {
+    "title": "School Trips: Near or Far?",
+    "prompt": "Which do you prefer: school trips to places near your school or school trips to places far away?",
+    "promptHe": "מה אתם מעדיפים: טיולי בית ספר למקומות הקרובים לבית הספר שלכם או טיולי בית ספר למקומות רחוקים?",
+    "instructions": "Give TWO reasons for your choice and include an example.",
+    "instructionsHe": "תנו שני נימוקים לבחירתכם והוסיפו דוגמה.",
+    "minWords": 70,
+    "maxWords": 90,
+    "near": {
+      "title": "Places near our school",
+      "titleHe": "מקומות הקרובים לבית הספר שלנו",
+      "sentences": [
+        {
+          "role": "Opinion",
+          "en": "I prefer school trips to places near our school because short bus rides are more comfortable.",
+          "he": "אני מעדיף טיולי בית ספר למקומות הקרובים לבית הספר שלנו, מפני שנסיעות קצרות באוטובוס נוחות יותר.",
+          "variants": [
+            "I would rather visit places near our school because short bus rides are more comfortable.",
+            "For school trips, I prefer nearby places because short bus rides are more comfortable."
+          ],
+          "variantsHe": [
+            "הייתי מעדיף לבקר במקומות הקרובים לבית הספר שלנו, מפני שנסיעות קצרות באוטובוס נוחות יותר.",
+            "בטיולי בית ספר אני מעדיף מקומות קרובים, מפני שנסיעות קצרות באוטובוס נוחות יותר."
+          ],
+          "paragraph": 0
+        },
+        {
+          "role": "First reason",
+          "en": "First, we spend less time on the bus and have more time to enjoy the place.",
+          "he": "ראשית, אנו מבלים פחות זמן באוטובוס ויש לנו יותר זמן ליהנות מהמקום.",
+          "variants": [
+            "First, a short bus ride leaves us more time to enjoy the place we visit.",
+            "To begin with, less time on the bus means more time to enjoy the place."
+          ],
+          "variantsHe": [
+            "ראשית, נסיעה קצרה באוטובוס משאירה לנו יותר זמן ליהנות מהמקום שבו אנו מבקרים.",
+            "בתור התחלה, פחות זמן באוטובוס פירושו יותר זמן ליהנות מהמקום."
+          ],
+          "paragraph": 1
+        },
+        {
+          "role": "Example",
+          "en": "For example, we can visit a local park and spend the morning walking with our friends.",
+          "he": "למשל, אפשר לבקר בפארק מקומי ולבלות את הבוקר בהליכה עם החברים שלנו.",
+          "variants": [
+            "For example, we could walk with our friends all morning in a local park.",
+            "For example, we could spend a morning walking with friends in a local park."
+          ],
+          "variantsHe": [
+            "למשל, אפשר ללכת עם החברים שלנו כל הבוקר בפארק מקומי.",
+            "למשל, אפשר לבלות בוקר בהליכה עם חברים בפארק מקומי."
+          ],
+          "paragraph": 1
+        },
+        {
+          "role": "Second reason",
+          "en": "Also, nearby trips often cost less, so more students can join.",
+          "he": "בנוסף, טיולים קרובים עולים לעיתים קרובות פחות, ולכן יותר תלמידים יכולים להצטרף.",
+          "variants": [
+            "Also, trips to nearby places may cost less, allowing more students to join.",
+            "Another reason is that nearby trips can be cheaper, so more students can join."
+          ],
+          "variantsHe": [
+            "בנוסף, טיולים למקומות קרובים עשויים לעלות פחות, וכך יותר תלמידים יכולים להצטרף.",
+            "סיבה נוספת היא שטיולים קרובים עשויים להיות זולים יותר, ולכן יותר תלמידים יכולים להצטרף."
+          ],
+          "paragraph": 1
+        },
+        {
+          "role": "More detail",
+          "en": "We can enjoy time together without paying for a long bus ride.",
+          "he": "אפשר ליהנות מזמן משותף בלי לשלם על נסיעה ארוכה באוטובוס.",
+          "variants": [
+            "A short bus ride can help us enjoy time together at a lower cost.",
+            "We can have fun together without the cost of a long bus ride."
+          ],
+          "variantsHe": [
+            "נסיעה קצרה באוטובוס יכולה לעזור לנו ליהנות מזמן משותף במחיר נמוך יותר.",
+            "אפשר ליהנות יחד בלי העלות של נסיעה ארוכה באוטובוס."
+          ],
+          "paragraph": 1
+        },
+        {
+          "role": "Ending",
+          "en": "For these reasons, I think nearby places are a good choice for school trips.",
+          "he": "מסיבות אלה, אני חושב שמקומות קרובים הם בחירה טובה לטיולי בית ספר.",
+          "variants": [
+            "For these reasons, nearby places are my first choice for a school trip.",
+            "That is why I would choose a nearby place for our next school trip."
+          ],
+          "variantsHe": [
+            "מסיבות אלה, מקומות קרובים הם הבחירה הראשונה שלי לטיול בית ספר.",
+            "לכן הייתי בוחר מקום קרוב לטיול בית הספר הבא שלנו."
+          ],
+          "paragraph": 2
+        }
+      ],
+      "paragraphGroups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "baseWordCount": 85,
+      "minWordCount": 79,
+      "maxWordCount": 90,
+      "variantCombinationsChecked": 729
+    },
+    "far": {
+      "title": "Places far away",
+      "titleHe": "מקומות רחוקים",
+      "sentences": [
+        {
+          "role": "Opinion",
+          "en": "I prefer school trips to places far away because they give us a chance to discover something new.",
+          "he": "אני מעדיף טיולי בית ספר למקומות רחוקים, מפני שהם נותנים לנו הזדמנות לגלות משהו חדש.",
+          "variants": [
+            "I would rather go on school trips to places far away and discover something new.",
+            "For school trips, I prefer places far away because I enjoy discovering new places."
+          ],
+          "variantsHe": [
+            "הייתי מעדיף לצאת לטיולי בית ספר למקומות רחוקים ולגלות משהו חדש.",
+            "בטיולי בית ספר אני מעדיף מקומות רחוקים, מפני שאני נהנה לגלות מקומות חדשים."
+          ],
+          "paragraph": 0
+        },
+        {
+          "role": "First reason",
+          "en": "First, we can see places that we do not usually visit with our families.",
+          "he": "ראשית, אפשר לראות מקומות שבדרך כלל איננו מבקרים בהם עם המשפחות שלנו.",
+          "variants": [
+            "First, these trips take us to places we rarely visit with our families.",
+            "First, we get to see places that our families do not usually visit."
+          ],
+          "variantsHe": [
+            "ראשית, הטיולים האלה לוקחים אותנו למקומות שאנו כמעט לא מבקרים בהם עם המשפחות שלנו.",
+            "ראשית, אנו זוכים לראות מקומות שהמשפחות שלנו בדרך כלל אינן מבקרות בהם."
+          ],
+          "paragraph": 1
+        },
+        {
+          "role": "Example",
+          "en": "For example, we can visit a desert and learn how people live there.",
+          "he": "למשל, אפשר לבקר במדבר וללמוד כיצד אנשים חיים שם.",
+          "variants": [
+            "For example, a visit to the desert can teach us how people live there.",
+            "For example, a desert trip can show us how people live in that area."
+          ],
+          "variantsHe": [
+            "למשל, ביקור במדבר יכול ללמד אותנו כיצד אנשים חיים שם.",
+            "למשל, טיול במדבר יכול להראות לנו כיצד אנשים חיים באזור הזה."
+          ],
+          "paragraph": 1
+        },
+        {
+          "role": "Second reason",
+          "en": "Also, a long trip gives us more time to talk and play games together.",
+          "he": "בנוסף, טיול ארוך נותן לנו יותר זמן לדבר ולשחק יחד.",
+          "variants": [
+            "Also, we have more time to talk and play games together on a long trip.",
+            "In addition, a long trip gives us extra time to talk and play games together."
+          ],
+          "variantsHe": [
+            "בנוסף, בטיול ארוך יש לנו יותר זמן לדבר ולשחק יחד.",
+            "נוסף על כך, טיול ארוך נותן לנו זמן נוסף לדבר ולשחק יחד."
+          ],
+          "paragraph": 1
+        },
+        {
+          "role": "More detail",
+          "en": "These shared experiences can help us become better friends.",
+          "he": "החוויות המשותפות האלה יכולות לעזור לנו להיות חברים טובים יותר.",
+          "variants": [
+            "Sharing these experiences can help us build stronger friendships.",
+            "We can become better friends when we share these experiences."
+          ],
+          "variantsHe": [
+            "שיתוף החוויות האלה יכול לעזור לנו לבנות חברויות חזקות יותר.",
+            "אנחנו יכולים להיות חברים טובים יותר כשאנו חולקים את החוויות האלה."
+          ],
+          "paragraph": 1
+        },
+        {
+          "role": "Ending",
+          "en": "That is why I would choose a school trip to a place far away.",
+          "he": "לכן הייתי בוחר בטיול בית ספר למקום רחוק.",
+          "variants": [
+            "For these reasons, places far away are my choice for our school trips.",
+            "That is why I prefer school trips to places that are far away."
+          ],
+          "variantsHe": [
+            "מסיבות אלה, מקומות רחוקים הם הבחירה שלי לטיולי בית הספר שלנו.",
+            "לכן אני מעדיף טיולי בית ספר למקומות רחוקים."
+          ],
+          "paragraph": 2
+        }
+      ],
+      "paragraphGroups": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "baseWordCount": 82,
+      "minWordCount": 76,
+      "maxWordCount": 85,
+      "variantCombinationsChecked": 729
+    },
+    "tips": [
+      {
+        "en": "Choose the opinion you can explain clearly.",
+        "he": "בחרו בדעה שאתם יכולים להסביר בבירור."
+      },
+      {
+        "en": "Give two different reasons. Develop at least one with an example.",
+        "he": "תנו שני נימוקים שונים. פתחו לפחות אחד מהם בעזרת דוגמה."
+      },
+      {
+        "en": "Use because to connect an opinion to a reason.",
+        "he": "השתמשו ב־because כדי לחבר דעה לנימוק."
+      },
+      {
+        "en": "Use First, Also and For example to help the reader follow your ideas.",
+        "he": "השתמשו ב־First, Also ו־For example כדי לעזור לקורא לעקוב אחרי הרעיונות."
+      },
+      {
+        "en": "Both opinions are possible. Your reasons must support your choice.",
+        "he": "שתי הדעות אפשריות. הנימוקים צריכים לתמוך בבחירה שלכם."
+      }
+    ],
+    "checklist": [
+      {
+        "en": "I clearly said which trips I prefer.",
+        "he": "כתבתי בבירור אילו טיולים אני מעדיף."
+      },
+      {
+        "en": "I gave two different reasons.",
+        "he": "נתתי שני נימוקים שונים."
+      },
+      {
+        "en": "I included an example.",
+        "he": "הוספתי דוגמה."
+      },
+      {
+        "en": "My ideas support the same opinion.",
+        "he": "הרעיונות שלי תומכים באותה דעה."
+      },
+      {
+        "en": "I used capital letters and full stops.",
+        "he": "השתמשתי באותיות גדולות ובנקודות."
+      },
+      {
+        "en": "I checked my writing is 70–90 words.",
+        "he": "בדקתי שהחיבור שלי כולל 70–90 מילים."
+      }
+    ],
+    "independentTask": {
+      "en": "Choose your own opinion. Write 70–90 words on the worksheet. Use your own reasons and examples.",
+      "he": "בחרו את הדעה שלכם. כתבו בדף העבודה 70–90 מילים. השתמשו בנימוקים ובדוגמאות משלכם."
+    }
+  },
+  "teacherNotes": {
+    "readingWords": 276,
+    "readingSentences": 22,
+    "worksheetQuestionCount": 7,
+    "suggestedMinutes": {
+      "warmup": 4,
+      "vocabulary": 10,
+      "reading": 15,
+      "questions": 12,
+      "writing": 15,
+      "independentWriting": 10
+    },
+    "sequence": "Warm-up; vocabulary; read each paragraph and its sentences; complete questions from that paragraph; revisit the whole-text message; compare near/far opinions; build one model together; write independently.",
+    "readingIntegrity": "Joining the sentence strings reproduces every original worksheet paragraph exactly.",
+    "question3": "Require the location contrast: a private school beside a busy road can be noisier than a public school on a quiet street. Do not teach that private schools are generally noisier.",
+    "question6": "The displayed model gives two clear noise-reduction actions. Accept any two distinct supported measures; provide quiet spaces is also a reasonable paragraph-V response, particularly when the student explains that pupils can work without disturbing noise.",
+    "writingScope": "This is Module C-style classroom practice with 70–90 words. The longer Module G essay structure and 125-word target do not apply.",
+    "writingExamples": "Near and far are both valid choices. The model essays illustrate opinions rather than verified research claims.",
+    "practiceLabel": "The six additional checks are practice activities, not extra numbered questions on the worksheet.",
+    "questionsBeforeAnswers": "Let students answer on paper before revealing the answer and the supporting sentence.",
+    "autoMarking": "Open responses may have many correct phrasings. Use model answers and evidence for discussion; do not mark exact-string mismatches as incorrect."
+  },
+  "glossary": {
+    "imagine": "דמיינו",
+    "trying": "מנסים",
+    "read": "לקרוא",
+    "story": "סיפור",
+    "chairs": "כיסאות",
+    "move": "זזים",
+    "floor": "רצפה",
+    "students": "תלמידים",
+    "talk": "לדבר",
+    "around": "סביב",
+    "same": "אותו",
+    "sentence": "משפט",
+    "several": "כמה",
+    "times": "פעמים",
+    "without": "בלי",
+    "understanding": "הבנה",
+    "noise": "רעש",
+    "difficult": "קשה",
+    "concentrate": "להתרכז",
+    "means": "פירושו",
+    "keeping": "שמירה",
+    "attention": "תשומת לב",
+    "problem": "בעיה",
+    "affect": "להשפיע על",
+    "both": "שניהם",
+    "public": "ציבורי",
+    "private": "פרטי",
+    "schools": "בתי ספר",
+    "public school": "בית ספר ציבורי",
+    "private school": "בית ספר פרטי",
+    "inside": "בתוך",
+    "outside": "בחוץ",
+    "classroom": "כיתה",
+    "talking": "דיבור",
+    "moving": "הזזה",
+    "furniture": "רהיטים",
+    "loud": "רועש",
+    "fans": "מאווררים",
+    "disturb": "להפריע",
+    "lesson": "שיעור",
+    "traffic": "תנועה בכביש",
+    "building": "בנייה",
+    "nearby": "בקרבת מקום",
+    "hard": "קשה",
+    "hear": "לשמוע",
+    "teacher": "מורה",
+    "miss": "לפספס",
+    "important": "חשוב",
+    "instructions": "הוראות",
+    "mistakes": "טעויות",
+    "even": "אפילו",
+    "subject": "נושא",
+    "think": "לחשוב",
+    "always": "תמיד",
+    "quieter": "שקט יותר",
+    "however": "עם זאת",
+    "type": "סוג",
+    "enough": "מספיק",
+    "noisy": "רועש",
+    "small": "קטן",
+    "next to": "ליד",
+    "busy": "עמוס",
+    "road": "כביש",
+    "noisier": "רועש יותר",
+    "large": "גדול",
+    "quiet": "שקט",
+    "street": "רחוב",
+    "number": "מספר",
+    "room": "חדר",
+    "behavior": "התנהגות",
+    "difference": "הבדל",
+    "every": "כל",
+    "way": "דרך",
+    "sounds": "קולות",
+    "others": "אחרים",
+    "need": "זקוקים",
+    "more": "יותר",
+    "silence": "שקט; דממה",
+    "activity": "פעילות",
+    "matters": "חשוב",
+    "during": "בזמן",
+    "test": "מבחן",
+    "usually": "בדרך כלל",
+    "group": "קבוצה",
+    "group work": "עבודה בקבוצות",
+    "helps": "עוזר",
+    "share": "לשתף",
+    "ideas": "רעיונות",
+    "completely": "לחלוטין",
+    "silent": "שקט",
+    "therefore": "לכן",
+    "best": "הטוב ביותר",
+    "place": "מקום",
+    "learn": "ללמוד",
+    "simple": "פשוט",
+    "steps": "צעדים",
+    "reduce": "להפחית",
+    "put": "לשים",
+    "soft": "רך",
+    "covers": "כיסויים",
+    "under": "מתחת",
+    "legs": "רגליים",
+    "close": "לסגור",
+    "windows": "חלונות",
+    "activities": "פעילויות",
+    "teachers": "מורים",
+    "agree": "להסכים",
+    "clear": "ברור",
+    "rules": "כללים",
+    "classes": "כיתות",
+    "speaking": "דיבור",
+    "one at a time": "אחד בכל פעם",
+    "provide": "לספק",
+    "spaces": "מקומות",
+    "prefer": "להעדיף",
+    "near": "קרוב",
+    "far away": "רחוק",
+    "trips": "טיולים",
+    "comfortable": "נוח",
+    "spend": "לבלות",
+    "enjoy": "ליהנות",
+    "local": "מקומי",
+    "cost": "עלות; לעלות כסף",
+    "cheaper": "זול יותר",
+    "join": "להצטרף",
+    "reasons": "נימוקים; סיבות",
+    "choice": "בחירה",
+    "discover": "לגלות",
+    "desert": "מדבר",
+    "experiences": "חוויות",
+    "friendships": "חברויות"
+  }
+}

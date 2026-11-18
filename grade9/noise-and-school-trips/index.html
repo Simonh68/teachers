@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#101b2b">
+  <meta name="description" content="Grade 9 lesson for Too Much Noise at School: recorded reading, vocabulary, seven worksheet questions and a school-trip writing workshop.">
+  <title>Too Much Noise at School | Grade 9 Lesson</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Nunito:wght@400;600;700;800;900&display=swap">
+  <link rel="stylesheet" href="style.css?v=20261118-1">
+  <link rel="stylesheet" href="../../shared/deck/essay-clean.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="back" href="../../#grade9" aria-label="Back to Grade 9 materials">← <span>Grade 9</span></a>
+    <nav class="chapters" aria-label="Lesson sections">
+      <button data-chapter="start">Start</button>
+      <button data-chapter="words">Words</button>
+      <button data-chapter="reading">Read</button>
+      <button data-chapter="questions">Questions</button>
+      <button data-chapter="writing">Write</button>
+    </nav>
+    <div class="top-actions">
+      <a class="pdf-link" href="grade9-noise-and-school-trips.pdf" type="application/pdf" target="_blank" rel="noopener">PDF</a>
+      <button id="copy-link" aria-label="Copy presentation link">Copy link</button>
+      <button id="hebrew-toggle" lang="he" aria-pressed="false" title="Show or hide Hebrew translations">עברית</button>
+      <button id="open-menu" aria-label="Open lesson contents" aria-haspopup="dialog">☰</button>
+    </div>
+  </header>
+  <main class="stage" id="stage" tabindex="-1">
+    <section class="slide active" id="current-slide"><p class="loading">Loading the lesson…</p></section>
+  </main>
+  <footer class="controls">
+    <div class="progress-track"><div id="progress-fill"></div></div>
+    <div class="controls-inner">
+      <button id="prev" aria-label="Previous slide">↑ <span>Previous</span></button>
+      <div class="audio-controls">
+        <button id="audio-toggle" data-audio-action="toggle" aria-label="Play or pause recorded English audio">▶ <span>Listen</span></button>
+        <label class="rate-label"><span class="sr-only">Audio speed</span><select id="audio-rate" aria-label="Audio speed"><option value="0.7">0.7×</option><option value="0.75" selected>0.75×</option><option value="1">1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></label>
+        <button id="auto-read" aria-pressed="false" title="Read each new reading or vocabulary slide after four seconds">Auto-read: off</button>
+      </div>
+      <button id="counter" aria-label="Open lesson contents">1 / 1</button>
+      <button id="next" aria-label="Next slide"><span>Next</span> ↓</button>
+    </div>
+  </footer>
+  <dialog id="contents-dialog" aria-labelledby="contents-title">
+    <div class="dialog-heading"><h2 id="contents-title">Lesson contents</h2><button id="close-menu" aria-label="Close contents">✕</button></div>
+    <div id="contents-list"></div>
+    <details class="credits"><summary>Photo credits</summary><div id="photo-credits"></div></details>
+  </dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <div id="word-tip" lang="he" dir="rtl" hidden></div>
+  <div id="hand-guide" aria-hidden="true" hidden>☝</div>
+  <audio id="narration" preload="none"></audio>
+  <script defer src="app.js?v=20261118-1"></script>
+  <script defer src="../../shared/phone-remote/remote.js?v=20261102-qrfix3"></script>
+</body>
+</html>

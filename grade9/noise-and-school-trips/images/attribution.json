@@ -1,0 +1,50 @@
+[
+  {
+    "file": "classroom.webp",
+    "title": "A Sideview of an Empty Classroom",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:A_Sideview_of_an_Empty_Classroom.jpg",
+    "downloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/A_Sideview_of_an_Empty_Classroom.jpg/1280px-A_Sideview_of_an_Empty_Classroom.jpg",
+    "author": "Paul The Writer",
+    "license": "CC0 1.0",
+    "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "Empty classroom with rows of desks and chairs",
+    "use": "Reading section opening, an illustrative classroom rather than a public/private-school comparison",
+    "width": 1275,
+    "height": 960,
+    "bytes": 68702,
+    "changes": "Resized and converted to WebP; no compositional edits",
+    "derivedLicense": "CC0 1.0"
+  },
+  {
+    "file": "school-bus.webp",
+    "title": "YellowSchoolBus",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:YellowSchoolBus.jpg",
+    "downloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/YellowSchoolBus.jpg/1280px-YellowSchoolBus.jpg",
+    "author": "Raysonho @ Open Grid Scheduler / Grid Engine",
+    "license": "CC0 1.0",
+    "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "A yellow school bus parked outdoors",
+    "use": "School-trip writing section; a general school-bus illustration, not an Israeli bus",
+    "width": 1280,
+    "height": 853,
+    "bytes": 260840,
+    "changes": "Resized and converted to WebP; no compositional edits",
+    "derivedLicense": "CC0 1.0"
+  },
+  {
+    "file": "yarkon-park.webp",
+    "title": "Yarkon Park Aerial 01",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Yarkon_Park_Aerial_01.jpg",
+    "downloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Yarkon_Park_Aerial_01.jpg/1280px-Yarkon_Park_Aerial_01.jpg",
+    "author": "Ynhockey",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "alt": "Aerial panorama of Yarkon Park in Tel Aviv, with green lawns, trees and a river",
+    "use": "Example of a nearby school-trip destination; display source credit with the image or in an accessible credits section",
+    "width": 1280,
+    "height": 436,
+    "bytes": 191574,
+    "changes": "Resized and converted to WebP; no compositional edits",
+    "derivedLicense": "CC BY-SA 4.0"
+  }
+]
