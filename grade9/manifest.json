@@ -3,6 +3,12 @@
   "grade": 9,
   "materials": [
     {
+      "id": "noise-school-trips-module-c-pdf",
+      "title": "Too Much Noise at School · אנסין וכתיבה — PDF, שני עמודים",
+      "url": "grade9/noise-and-school-trips/grade9-noise-and-school-trips.pdf",
+      "unit": "Other"
+    },
+    {
       "id": "easy-module-c-maths-reading",
       "title": "Easy Module C · Maths Groups — Vocabulary, Reading & Questions",
       "url": "grade9/easy-module-c-maths-groups/",
