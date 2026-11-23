@@ -234,6 +234,11 @@ html[dir="rtl"] .course-label, body.is-rtl .course-label { letter-spacing: norma
   .action-row .primary { flex: 1; min-width: 0; }
   .question-footer > span { max-width: 15ch; }
 }
+@media (max-width: 899px) {
+  .topbar { display: grid; grid-template-columns: minmax(0, 1fr); gap: .25rem; padding: .65rem .8rem; }
+  .topbar .back-link { width: fit-content; max-width: calc(100% - 130px); margin-right: 130px; }
+  .tools { width: 100%; margin-inline-start: 0; justify-content: space-between; }
+}
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
