@@ -87,7 +87,7 @@ jobs:
           from pathlib import Path
           d=json.loads(Path('public/data/grade11.json').read_text(encoding='utf-8'))
           target='grade11/sentence-detective-classroom/complete.html'
-          assert d['materials'][0]['url']==target, 'Grade 11 homepage manifest is stale'
+          assert any(item['url']==target for item in d['materials']), 'Grade 11 full course is missing from the manifest'
           assert sum(x['url']==target for x in d['materials'])==1, 'Duplicate or missing full course'
           print('Verified Grade 11 homepage manifest:', target)
           PY
@@ -109,6 +109,25 @@ jobs:
           set -euo pipefail
           timeout 15s node --check public/grade11/sentence-detective-classroom/app.js
           timeout 15s node --check public/grade11/sentence-detective-classroom/lesson.js
+          timeout 15s node --check public/grade11/translation-challenge-e/content.js
+          timeout 15s node --check public/grade11/translation-challenge-e/app.js
+          node - <<'JS'
+          const fs = require('node:fs');
+          const vm = require('node:vm');
+          const assert = require('node:assert/strict');
+          const context = { window: {} };
+          vm.runInNewContext(fs.readFileSync('public/grade11/translation-challenge-e/content.js','utf8'), context);
+          const rounds = context.window.TRANSLATION_E_DATA.rounds;
+          const items = rounds.flatMap(round => round.items);
+          assert.equal(rounds.length, 10);
+          assert.ok(rounds.every(round => round.items.length === 7));
+          assert.equal(items.length, 70);
+          assert.equal(new Set(items.map(item => item.id)).size, 70);
+          assert.equal(items.filter(item => item.direction === 'he-en').length, 35);
+          assert.equal(items.filter(item => item.direction === 'en-he').length, 35);
+          assert.ok(items.every((item,index) => item.id === index + 1 && item.source && item.answer));
+          console.log('Grade 11 translation game verified: 70 challenges, 10 rounds, 35 in each direction.');
+          JS
       - name: Upload verified site
         uses: actions/upload-pages-artifact@v3
         with:
@@ -136,7 +155,7 @@ jobs:
           html=Path('/tmp/full.html').read_text(encoding='utf-8')
           d=json.loads(Path('/tmp/grade11.json').read_text(encoding='utf-8'))
           assert 'Sentence Detective' in html
-          assert d['materials'][0]['url']=='grade11/sentence-detective-classroom/complete.html'
+          assert any(item['url']=='grade11/sentence-detective-classroom/complete.html' for item in d['materials'])
           PY
               then
                 echo "Live presentation and manifest verified"
