@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071521">
+  <meta name="description" content="70 short Hebrew and English translation challenges for Grade 12, 4 units, Module C. Practise one grammar point at a time.">
+  <title>Translation Challenge · Module C</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="content.js"></script>
+  <script defer src="app.js"></script>
+  <script defer src="../../../shared/phone-remote/remote.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#sourceSentence">Skip to the sentence</a>
+  <header class="topbar">
+    <a id="backLink" class="back-link" href="../../../#grade12four">Class materials</a>
+    <nav class="tools" aria-label="Game controls">
+      <button id="menuBtn" class="quiet" type="button" aria-haspopup="dialog" aria-controls="roundDialog">Rounds</button>
+      <button id="copyBtn" class="quiet" type="button">Copy link</button>
+      <button id="fullBtn" class="quiet full-screen" type="button">Full screen</button>
+      <button id="langBtn" class="language" type="button" lang="he" aria-pressed="false">עברית</button>
+    </nav>
+  </header>
+
+  <main class="shell">
+    <div class="game-heading">
+      <div class="heading-copy">
+        <p id="courseLabel" class="course-label">Grade 12 · 4 units · Module C</p>
+        <h1 lang="en" dir="ltr">Translation <span>Challenge</span></h1>
+      </div>
+      <div id="gameState" class="game-state" data-state="turn" role="status" aria-live="polite">Your turn</div>
+    </div>
+
+    <section id="playScreen" class="play-screen" aria-labelledby="roundTitle">
+      <div class="round-header">
+        <div>
+          <p id="roundMeta" class="eyebrow">Round 1 of 14</p>
+          <h2 id="roundTitle">am / is / are</h2>
+        </div>
+        <div class="focus-tag">
+          <span id="focusLabel">Focus</span>
+          <strong id="focusText" dir="ltr">am / is / are</strong>
+        </div>
+      </div>
+
+      <div class="progress-row">
+        <progress id="globalProgress" max="70" value="1" aria-label="Current slide"></progress>
+        <span id="progressText">1 / 70</span>
+      </div>
+
+      <div class="challenge">
+        <p id="directionLabel" class="direction-label">Translate into English</p>
+        <p id="sourceSentence" class="sentence source-sentence" dir="rtl" lang="he" tabindex="-1">התלמידים מוכנים למבחן.</p>
+
+        <div class="action-row">
+          <button id="hintBtn" class="secondary" type="button" aria-expanded="false" aria-controls="hintText">Hint</button>
+          <button id="revealBtn" class="primary" type="button" aria-expanded="false" aria-controls="answerPanel">Show answer</button>
+        </div>
+        <p id="hintText" class="hint-text" hidden></p>
+
+        <section id="answerPanel" class="answer-panel" aria-labelledby="answerLabel" hidden>
+          <p id="answerLabel" class="answer-label">One possible answer</p>
+          <p id="answerSentence" class="sentence answer-sentence" dir="ltr" lang="en"></p>
+          <p id="focusFeedback" class="focus-feedback">Notice: am / is / are</p>
+          <p id="answerNote" class="answer-note">Other natural translations can also be correct.</p>
+        </section>
+      </div>
+
+      <footer class="question-footer">
+        <button id="prevBtn" class="quiet nav-button" type="button">Previous</button>
+        <span id="questionMeta">Sentence 1 of 5</span>
+        <button id="nextBtn" class="secondary nav-button" type="button">Next</button>
+      </footer>
+      <p id="statusMessage" class="status-message" role="status" aria-live="polite"></p>
+      <p id="keyboardHelp" class="keyboard-help">Arrow keys, or swipe the sentence up and down.</p>
+    </section>
+
+  </main>
+
+  <dialog id="roundDialog" class="round-dialog" aria-labelledby="roundDialogTitle">
+    <div class="dialog-heading">
+      <h2 id="roundDialogTitle">Choose a round</h2>
+      <button id="closeRoundsBtn" class="quiet" type="button">Close</button>
+    </div>
+    <p id="dialogHelp" class="dialog-help">Five sentences. One focus. Choose where to practise.</p>
+    <div id="roundList" class="round-list"></div>
+  </dialog>
+
+  <dialog id="shareDialog" class="small-dialog" aria-labelledby="shareTitle">
+    <div class="dialog-heading">
+      <h2 id="shareTitle">Copy this link</h2>
+      <button id="closeShareBtn" class="quiet" type="button">Close</button>
+    </div>
+    <input id="shareInput" class="share-input" type="text" readonly aria-label="Game link" dir="ltr">
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><div class="noscript">Please enable JavaScript to play this translation game.</div></noscript>
+</body>
+</html>

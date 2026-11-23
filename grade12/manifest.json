@@ -3,6 +3,13 @@
   "grade": 12,
   "materials": [
     {
+      "id": "grade12-module-c-translate-win-20261123",
+      "title": "Translation Challenge · 70 אתגרי תרגום · שאלון C",
+      "url": "grade12/four-units/translate-and-win/",
+      "unit": "four-units",
+      "description": "70 משפטים קצרים בעברית ובאנגלית, ב־14 סבבים. רמזים לפי בחירה, חשיפת תשובות וחיווי חזותי משחקי."
+    },
+    {
       "id": "grade12-module-c-sentence-detective-part-b",
       "title": "Sentence Detective · Part B — משפטים והבנת הנקרא · שאלון C",
       "url": "grade12/four-units/sentence-detective-part-b/",
