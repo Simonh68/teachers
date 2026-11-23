@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081120">
+  <meta name="description" content="70 Hebrew–English translation challenges for Grade 11, Module E. Ten focused rounds, hints, model answers and visual progress.">
+  <title>Translation Challenge · Module E · Grade 11</title>
+  <link rel="stylesheet" href="style.css?v=20261123">
+  <script defer src="content.js?v=20261123"></script>
+  <script defer src="app.js?v=20261123"></script>
+  <script defer src="../../shared/phone-remote/remote.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the game</a>
+  <div class="app-shell">
+    <header class="topbar">
+      <a id="backToClass" class="back-link" href="../five-units/" data-i18n="backToClass">Grade 11 materials</a>
+      <div class="brand" aria-label="Module E"><span class="brand-icon" aria-hidden="true">E</span><span>TRANSLATION LAB</span></div>
+      <nav class="utility-bar" aria-label="Presentation controls">
+        <button type="button" id="languageToggle" class="button subtle language-button" aria-pressed="false">עברית</button>
+        <button type="button" id="copyLink" class="button subtle" data-i18n="copyLink">Copy link</button>
+        <button type="button" id="fullscreenToggle" class="button subtle" data-i18n="fullscreen">Full screen</button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="homeScreen" class="home-screen" aria-labelledby="gameTitle">
+        <div class="intro">
+          <div class="intro-copy">
+            <p class="eyebrow" data-i18n="eyebrow">GRADE 11 · MODULE E</p>
+            <h1 id="gameTitle" data-i18n="title">Translation Challenge</h1>
+            <p class="intro-description" data-i18n="subtitle">One sentence. One focus. Your words.</p>
+            <div class="intro-facts" aria-label="70 challenges, 10 rounds, both languages">
+              <div><strong>70</strong><span class="fact-label" data-i18n="challenges">challenges</span></div>
+              <div><strong>10</strong><span class="fact-label" data-i18n="roundsLabel">focused rounds</span></div>
+              <div class="language-pair"><strong><bdi>EN</bdi><span aria-hidden="true"> / </span><bdi>עב</bdi></strong><span class="fact-label" data-i18n="bothDirections">both directions</span></div>
+            </div>
+            <div class="intro-actions">
+              <button type="button" id="startGame" class="button primary large" data-i18n="start">Start the challenge</button>
+              <button type="button" id="resumeGame" class="button secondary large" data-i18n="resume" hidden>Continue where I stopped</button>
+            </div>
+            <p class="muted intro-note" data-i18n="progressNote">Your progress stays on this device.</p>
+          </div>
+          <aside class="intro-guide" aria-labelledby="guideHeading">
+            <p class="tiny-heading" data-i18n="howToTitle" id="guideHeading">HOW TO PLAY</p>
+            <p class="guide-line"><span class="guide-dot">A</span><span data-i18n="howToStep1">Translate the sentence in your own words.</span></p>
+            <p class="guide-line"><span class="guide-dot">B</span><span data-i18n="howToStep2">Use a hint or a word when you need one.</span></p>
+            <p class="guide-line"><span class="guide-dot">C</span><span data-i18n="howToStep3">Reveal a possible answer and discover the focus.</span></p>
+            <div class="guide-note"><span class="note-icon" aria-hidden="true">✓</span><p data-i18n="translationNote">There is more than one correct translation. Explore the meaning and the focus.</p></div>
+          </aside>
+        </div>
+        <section class="round-selection" aria-labelledby="roundsHeading">
+          <div class="section-heading"><h2 id="roundsHeading" data-i18n="roundsTitle">Choose your focus</h2><p class="muted" data-i18n="roundsDescription">Seven sentences in every round.</p></div>
+          <div id="roundGrid" class="round-grid"></div>
+        </section>
+        <details id="teacherGuide" class="teacher-guide">
+          <summary data-i18n="teacherGuide">Teacher notes &amp; controls</summary>
+          <p data-i18n="howToText">Play individually, in pairs or in teams. Think or say a translation before revealing a possible answer.</p>
+          <p data-i18n="keyboardNote">Use Up / Down or Page Up / Page Down to move. Space reveals the answer. You can also swipe up or down on the sentence.</p>
+          <p data-i18n="remoteNote">The phone remote is available on this opening screen. Scan the QR and approve the connection on the computer.</p>
+          <button id="restartButton" type="button" class="button subtle danger-text" data-i18n="restart">Reset this device’s progress</button>
+        </details>
+      </section>
+
+      <section id="gameScreen" class="game-screen" hidden aria-label="Translation challenge">
+        <div class="game-toolbar">
+          <button id="roundsButton" type="button" class="button secondary" data-i18n="rounds">Choose a round</button>
+          <div class="round-heading"><p class="eyebrow" data-i18n="currentFocus">CURRENT FOCUS</p><h2 id="roundTitle"></h2></div>
+          <span id="challengeStatus" class="challenge-status" role="status">Ready</span>
+        </div>
+        <div class="progress-row"><span id="progressText" class="counter">1 / 70</span><progress id="progressBar" max="70" value="1" aria-label="Challenge progress"></progress></div>
+        <article id="stage" class="stage" tabindex="-1">
+          <div class="stage-heading"><p id="directionLabel" class="direction-label"></p><button id="flagButton" class="button flag-button" type="button" aria-pressed="false" data-i18n="flag">Practise again</button></div>
+          <p id="roundFocus" class="focus-line"></p>
+          <p id="roundInstruction" class="instruction-line" hidden></p>
+          <div class="prompt-area"><p id="promptText" class="sentence" dir="auto"></p></div>
+          <div class="challenge-actions">
+            <button id="hintButton" type="button" class="button secondary" aria-controls="hintPanel" aria-expanded="false" data-i18n="hint">Hint</button>
+            <button id="vocabButton" type="button" class="button secondary" aria-controls="vocabPanel" aria-expanded="false" data-i18n="vocabulary">Word help</button>
+            <button id="reveal" type="button" class="button primary" data-reveal="answer" aria-controls="answerPanel" aria-expanded="false" data-i18n="reveal">Reveal an answer</button>
+          </div>
+          <div id="hintPanel" class="help-panel" hidden></div>
+          <div id="vocabPanel" class="help-panel vocab-panel" hidden></div>
+          <section id="answerPanel" class="answer-panel" hidden aria-live="polite">
+            <p class="tiny-heading answer-label" data-i18n="modelAnswer">ONE POSSIBLE ANSWER</p>
+            <p id="answerText" class="answer-sentence" dir="auto"></p>
+            <details class="explanation-details"><summary data-i18n="explanation">The focus</summary><p id="explanationText"></p></details>
+          </section>
+        </article>
+        <footer class="game-navigation"><button id="prev" type="button" class="button secondary" data-i18n="previous">Previous</button><span class="navigation-help" data-i18n="footerHelp">Swipe up for next · down for previous</span><button id="next" type="button" class="button primary" data-i18n="next">Next sentence</button></footer>
+      </section>
+
+      <section id="summaryScreen" class="summary-screen" hidden aria-labelledby="summaryTitle">
+        <div class="completion-symbol" aria-hidden="true">✓</div>
+        <p class="eyebrow" data-i18n="reflection">YOUR PROGRESS</p>
+        <h1 id="summaryTitle"></h1>
+        <p id="summaryText" class="intro-description"></p>
+        <div id="summaryStats" class="summary-stats"></div>
+        <div class="summary-actions">
+          <button id="summaryContinue" type="button" class="button primary large" data-i18n="continueRound">Continue to the next round</button>
+          <button id="repeatRound" type="button" class="button secondary" data-i18n="repeatRound">Repeat this round</button>
+          <button id="reviewDifficult" type="button" class="button secondary" data-i18n="reviewDifficult">Practise difficult sentences</button>
+          <button id="summaryChooseRound" type="button" class="button subtle" data-i18n="summaryChooseRound">Choose another focus</button>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><span>MODULE E · GRADE 11</span><span data-i18n="smallPrint">70 original challenges · One focus at a time</span></footer>
+  </div>
+  <dialog id="roundDialog" aria-labelledby="dialogTitle"><div class="dialog-heading"><h2 id="dialogTitle" data-i18n="chooseRound">Choose a round</h2><button type="button" id="closeRoundDialog" class="button subtle" data-i18n="close">Close</button></div><div id="dialogRoundGrid" class="round-grid"></div></dialog>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+  <span id="counter" class="sr-only">1 / 72</span>
+  <noscript><p class="noscript-message">יש להפעיל JavaScript כדי להשתמש במשחק. Please enable JavaScript to use the game.</p></noscript>
+</body>
+</html>
