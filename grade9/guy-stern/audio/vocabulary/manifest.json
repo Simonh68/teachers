@@ -1,0 +1,225 @@
+{
+  "voice": "en-US-BrianNeural",
+  "rate": "-5%",
+  "synthetic": true,
+  "pause_seconds": 0.55,
+  "source_sha256": "c12e8a7c500a99649a55e42433826d32c54f7142defa1e9f31c63f08430f16c0",
+  "clips": [
+    {
+      "chapter": 1,
+      "index": 1,
+      "word": "boarded",
+      "exampleEnglish": "Guy boarded a ship for America.",
+      "src": "audio/vocabulary/vocab-1-1.mp3",
+      "duration": 4.608,
+      "sha256": "7f651e45b2435777f23337f1078ea02175ee750d5f0a1cd5a31388b94fabe819"
+    },
+    {
+      "chapter": 1,
+      "index": 2,
+      "word": "arranged",
+      "exampleEnglish": "His parents arranged for him to live with an aunt and uncle.",
+      "src": "audio/vocabulary/vocab-1-2.mp3",
+      "duration": 6.072,
+      "sha256": "beeebd371c35524aa21892e2aacf333c68c35defa55d666f046447e9bc9f098f"
+    },
+    {
+      "chapter": 1,
+      "index": 3,
+      "word": "skills",
+      "exampleEnglish": "Guy needed skills that could help him begin again.",
+      "src": "audio/vocabulary/vocab-1-3.mp3",
+      "duration": 5.28,
+      "sha256": "17c2152c19b0b64622a2d5cdf225115f5cca04e01f3a7968df0cc97920a2495a"
+    },
+    {
+      "chapter": 1,
+      "index": 4,
+      "word": "goal",
+      "exampleEnglish": "Guy had a goal: he wanted to bring his family to safety.",
+      "src": "audio/vocabulary/vocab-1-4.mp3",
+      "duration": 5.736,
+      "sha256": "441b994a37bfeefa6ac7383358c4fe9c09fa81179207a22fceac60bc619f11ce"
+    },
+    {
+      "chapter": 2,
+      "index": 1,
+      "word": "welcomed",
+      "exampleEnglish": "His teachers welcomed him.",
+      "src": "audio/vocabulary/vocab-2-1.mp3",
+      "duration": 4.344,
+      "sha256": "c304b1547674c5067d9144514934fd789fdcacbbee2c5a9fc4d674455a7dcd81"
+    },
+    {
+      "chapter": 2,
+      "index": 2,
+      "word": "responsibilities",
+      "exampleEnglish": "These were difficult responsibilities for a teenager.",
+      "src": "audio/vocabulary/vocab-2-2.mp3",
+      "duration": 5.736,
+      "sha256": "d30dce9752d6dbbd1009d6b642d0861dd269c5e1b41c7884310c7af36cd18cc0"
+    },
+    {
+      "chapter": 2,
+      "index": 3,
+      "word": "journalist",
+      "exampleEnglish": "Guy wanted to become a journalist.",
+      "src": "audio/vocabulary/vocab-2-3.mp3",
+      "duration": 4.56,
+      "sha256": "b39e8de619846cebccc60f1919e2d83e7a0abb6d57bf10fc6c90778ecad80a82"
+    },
+    {
+      "chapter": 2,
+      "index": 4,
+      "word": "practical",
+      "exampleEnglish": "His wish to study was shaping practical decisions about his life.",
+      "src": "audio/vocabulary/vocab-2-4.mp3",
+      "duration": 6.648,
+      "sha256": "de713d21602a34af36e6f567e36c0bf9949ea191e692abba82db9f6042f8bdba"
+    },
+    {
+      "chapter": 3,
+      "index": 1,
+      "word": "applied",
+      "exampleEnglish": "He applied for work in Navy intelligence.",
+      "src": "audio/vocabulary/vocab-3-1.mp3",
+      "duration": 5.232,
+      "sha256": "e0d1987f6a6ba56491a13cdebf76895f351d68413388671d6e2f6e68b1b1dbc2"
+    },
+    {
+      "chapter": 3,
+      "index": 2,
+      "word": "refused",
+      "exampleEnglish": "His application was refused.",
+      "src": "audio/vocabulary/vocab-3-2.mp3",
+      "duration": 4.68,
+      "sha256": "2efe864eb2ff96c43511c4b7d1ee2a6bf90b43efeb85ac5555cec92ae0d32d34"
+    },
+    {
+      "chapter": 3,
+      "index": 3,
+      "word": "drafted",
+      "exampleEnglish": "In 1943, he was drafted into the U.S. Army.",
+      "src": "audio/vocabulary/vocab-3-3.mp3",
+      "duration": 6.12,
+      "sha256": "410d92a6f0c98cfe1ba00128adba46d8b25e17b41b200fa575893f827b5bf62a"
+    },
+    {
+      "chapter": 3,
+      "index": 4,
+      "word": "provide",
+      "exampleEnglish": "His questions could provide information for other soldiers.",
+      "src": "audio/vocabulary/vocab-3-4.mp3",
+      "duration": 6.096,
+      "sha256": "12bf2fcb84a5bf36103198d2ffae97852cdf1e9e0b5ce95f8366e09648e90593"
+    },
+    {
+      "chapter": 4,
+      "index": 1,
+      "word": "familiar",
+      "exampleEnglish": "Guy found a familiar name among the German prisoners.",
+      "src": "audio/vocabulary/vocab-4-1.mp3",
+      "duration": 5.688,
+      "sha256": "07150b5271ee06424324e4f07be48ee20b857a1aae9a53379717803bfeab5ab8"
+    },
+    {
+      "chapter": 4,
+      "index": 2,
+      "word": "former",
+      "exampleEnglish": "One of the club's former members was a prisoner.",
+      "src": "audio/vocabulary/vocab-4-2.mp3",
+      "duration": 5.328,
+      "sha256": "1a3c8aa7b545c286ce161accbb0294f592f03544aa2e23d1b6cb72145e5a6e44"
+    },
+    {
+      "chapter": 4,
+      "index": 3,
+      "word": "identity",
+      "exampleEnglish": "Guy kept his own identity hidden.",
+      "src": "audio/vocabulary/vocab-4-3.mp3",
+      "duration": 4.8,
+      "sha256": "8be92a2d0b47a7475d8780c027bee37b84ccad4ca638894b6503f5d3e2d53b31"
+    },
+    {
+      "chapter": 4,
+      "index": 4,
+      "word": "knowledge",
+      "exampleEnglish": "His knowledge of German life had become useful.",
+      "src": "audio/vocabulary/vocab-4-4.mp3",
+      "duration": 5.376,
+      "sha256": "184419e9616995fc72e549d59e37c9475005a91d4012fb9e5fd874eec3a8d626"
+    },
+    {
+      "chapter": 5,
+      "index": 1,
+      "word": "efforts",
+      "exampleEnglish": "His efforts to rescue his family had failed.",
+      "src": "audio/vocabulary/vocab-5-1.mp3",
+      "duration": 5.472,
+      "sha256": "7240b8f59a18f9ba90147f24c119c39cb0202f5a9da08d29d897559829e724b0"
+    },
+    {
+      "chapter": 5,
+      "index": 2,
+      "word": "recommendation",
+      "exampleEnglish": "Guy had a letter of recommendation from an army officer.",
+      "src": "audio/vocabulary/vocab-5-2.mp3",
+      "duration": 5.76,
+      "sha256": "ce17460704a5eda91e6269976203f4f1c6cf213cf870c1fe50d6d8445aad2c4e"
+    },
+    {
+      "chapter": 5,
+      "index": 3,
+      "word": "Eventually",
+      "exampleEnglish": "Eventually, he chose another direction.",
+      "src": "audio/vocabulary/vocab-5-3.mp3",
+      "duration": 5.04,
+      "sha256": "9d1066bf399726f4bf5f2a2901d52d43b791b361e9716e3bf1491577b46c7682"
+    },
+    {
+      "chapter": 5,
+      "index": 4,
+      "word": "literature",
+      "exampleEnglish": "He studied literature and later became a professor.",
+      "src": "audio/vocabulary/vocab-5-4.mp3",
+      "duration": 5.76,
+      "sha256": "ec27122ed8dd6a0435f11ebf42c25a78a3a8ebfb387fddaf44f331b84711a55b"
+    },
+    {
+      "chapter": 6,
+      "index": 1,
+      "word": "abilities",
+      "exampleEnglish": "Guy had years ahead of him to discover abilities.",
+      "src": "audio/vocabulary/vocab-6-1.mp3",
+      "duration": 5.424,
+      "sha256": "65135481525624fe1281fb9e9c13ce5d3534f9b8b806695599276bfd8707d9c3"
+    },
+    {
+      "chapter": 6,
+      "index": 2,
+      "word": "possibilities",
+      "exampleEnglish": "He kept making room for new possibilities.",
+      "src": "audio/vocabulary/vocab-6-2.mp3",
+      "duration": 5.328,
+      "sha256": "a5711104b19925c50be2a162019181f52801ecae557f4033dac46291668461c2"
+    },
+    {
+      "chapter": 6,
+      "index": 3,
+      "word": "refugee",
+      "exampleEnglish": "Guy once entered an American classroom as a refugee.",
+      "src": "audio/vocabulary/vocab-6-3.mp3",
+      "duration": 6.024,
+      "sha256": "0daedccbae6f7b5d598932623e13ef45a18093d32053b9a142afab1c9a6ad812"
+    },
+    {
+      "chapter": 6,
+      "index": 4,
+      "word": "rewards",
+      "exampleEnglish": "His students' success became one of the greatest rewards of his life.",
+      "src": "audio/vocabulary/vocab-6-4.mp3",
+      "duration": 5.88,
+      "sha256": "48040af494f4ca52b5ff38d2dad12cf61346dd230bbb60520b4d6a8684400996"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-24",
+  "story": {
+    "approved_words": 748,
+    "chapters": 6,
+    "exact_source_reconstruction": true,
+    "reading_passages": 57,
+    "maximum_words_per_passage": 18,
+    "translated_words": 748,
+    "translation_units": 287,
+    "vocabulary_cards": 24,
+    "questions": 12,
+    "separate_answer_screens": 12,
+    "all_relative_asset_links_resolve": true
+  },
+  "audio": {
+    "voice": "en-US-BrianNeural",
+    "synthetic": true,
+    "chapter_recordings": 6,
+    "chapter_duration_seconds": 252.024,
+    "vocabulary_recordings": 24,
+    "all_recordings_decode": true,
+    "word_and_paragraph_alignment_exact": true,
+    "source": "Synthesis WordBoundary events",
+    "vocabulary_text_and_checksums_match": true,
+    "no_clipping_detected": true,
+    "browser_playback_verified": true,
+    "browser_rates_verified": [0.25, 0.75, 1.5],
+    "menu_and_navigation_stop_playback": true,
+    "human_listening_audit": false
+  },
+  "layout": {
+    "desktop_viewport": [1363, 936],
+    "small_viewport": [360, 640],
+    "tall_viewport": [390, 844],
+    "all_reading_passages_checked_at_both_narrow_sizes": true,
+    "narrow_reading_measurements": 114,
+    "hebrew_enabled_during_checks": true,
+    "horizontal_overflow": false,
+    "reading_or_translation_overlaps_player": false,
+    "minimum_small_screen_clearance_px": 40.94,
+    "method": "Real browser UI navigation and read-only DOM bounds in fixed-size iframe viewports; no emulated touch events"
+  },
+  "limits": [
+    "Actual touch gestures were not verified in this browser environment; gesture handling uses the existing shared Teachers deck module.",
+    "The shared QR code rendered and the controller blocked input before approval, but the preview browser could not establish the WebRTC data connection. Complete pairing, approval, remote navigation and disconnection were not verified.",
+    "Browser copy reported success; the separate browser clipboard inspection did not expose the copied text. The manual-copy fallback is included."
+  ]
+}

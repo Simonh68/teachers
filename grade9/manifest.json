@@ -3,6 +3,16 @@
   "grade": 9,
   "materials": [
     {
+      "id": "guy-stern-readalong",
+      "title": "Guy Stern · A Future to Build — סיפור אמיתי עם קריינות ותרגום",
+      "description": "שישה פרקים על בחירות, הסתגלות ותקווה; הקראה מוקלטת והדגשת מילים, תרגום בנגיעה, 24 כרטיסי מילים ו־12 שאלות. כולל הסיפור להדפסה.",
+      "url": "grade9/guy-stern/",
+      "unit": "Other",
+      "worksheet": "grade9/guy-stern/files/Guy_Stern_A_Future_to_Build_Grade9.pdf",
+      "created": "2026-11-24",
+      "createdHebrew": "אור לט״ו בכסלו תשפ״ז"
+    },
+    {
       "id": "noise-school-trips-lesson",
       "title": "Too Much Noise at School · מצגת לימוד: קריאה, 7 שאלות וכתיבה",
       "description": "אוצר מילים, הקראה מוקלטת עם הדגשת מילים, פתרון מודרך לשבע השאלות וכתיבה על טיולים קרובים או רחוקים. תרגום עברי לבחירה וקישור לדף העבודה.",

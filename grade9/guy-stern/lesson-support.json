@@ -1,0 +1,2577 @@
+{
+  "titleHe": "גאי שטרן — עתיד שאפשר לבנות",
+  "subtitleHe": "סיפור אמיתי לכיתה ט׳",
+  "matchingNote": "Match glossary phrases against the original chapter text, longest phrase first, ignoring case. Keep original English text unchanged. Translations are contextual reading support.",
+  "chapters": [
+    {
+      "id": 1,
+      "titleHe": "לעזוב את הבית",
+      "sceneLabel": "Germany to America · 1937",
+      "sceneLabelHe": "מגרמניה לאמריקה · 1937",
+      "vocabulary": [
+        {
+          "word": "boarded",
+          "hebrew": "עלה לכלי תחבורה",
+          "definition": "got onto a ship, train or plane",
+          "exampleEnglish": "Guy boarded a ship for America."
+        },
+        {
+          "word": "arranged",
+          "hebrew": "סידרו; ארגנו",
+          "definition": "made plans for something to happen",
+          "exampleEnglish": "His parents arranged for him to live with an aunt and uncle."
+        },
+        {
+          "word": "skills",
+          "hebrew": "מיומנויות; כישורים",
+          "definition": "things you can do well because you have learned them",
+          "exampleEnglish": "Guy needed skills that could help him begin again."
+        },
+        {
+          "word": "goal",
+          "hebrew": "מטרה",
+          "definition": "something you want to achieve",
+          "exampleEnglish": "Guy had a goal: he wanted to bring his family to safety."
+        }
+      ],
+      "questions": [
+        {
+          "question": "Why did Guy's parents arrange for him to leave Germany?",
+          "questionHe": "מדוע הוריו של גאי דאגו שיעזוב את גרמניה?",
+          "modelAnswer": "The Nazis were making life dangerous for Jewish families. His parents arranged for him to live with relatives in America.",
+          "modelAnswerHe": "הנאצים הפכו את חייהן של משפחות יהודיות למסוכנים. הוריו דאגו שיגור אצל קרובי משפחה באמריקה."
+        },
+        {
+          "question": "What goal did Guy have when he left home?",
+          "questionHe": "איזו מטרה הייתה לגאי כשעזב את הבית?",
+          "modelAnswer": "He wanted to bring his family to safety in America.",
+          "modelAnswerHe": "הוא רצה להביא את משפחתו למקום בטוח באמריקה."
+        }
+      ],
+      "paragraphsHe": [
+        "בנובמבר 1937 עלה גאי שטרן בן החמש־עשרה על אונייה לאמריקה. הוריו, אחיו ואחותו נשארו בגרמניה. הוא קיווה שיצטרפו אליו בהמשך.",
+        "הנאצים הפכו את החיים למסוכנים יותר עבור משפחות יהודיות. חברים הפסיקו לדבר עם גאי, ומועדון הספורט שלו הוציא אותו משורותיו משום שהיה יהודי. הוריו סידרו שיגור אצל דודו ודודתו בסנט לואיס.",
+        "לפני שיצא, אביו מצא עבורו מורה לאנגלית. היה עליו ללמוד שפה חדשה ולהכיר מדינה חדשה. בגיל חמש־עשרה נזקק גאי למיומנויות שיעזרו לו להתחיל מחדש. הייתה לו גם מטרה: לאחר שיגיע לאמריקה, הוא ינסה להביא את משפחתו למקום בטוח."
+      ],
+      "glossary": [
+        {
+          "phrase": "fifteen-year-old",
+          "hebrew": "בן חמש־עשרה"
+        },
+        {
+          "phrase": "boarded a ship",
+          "hebrew": "עלה על אונייה"
+        },
+        {
+          "phrase": "boarded",
+          "hebrew": "עלה לכלי תחבורה"
+        },
+        {
+          "phrase": "remained",
+          "hebrew": "נשארו"
+        },
+        {
+          "phrase": "hoped",
+          "hebrew": "קיווה"
+        },
+        {
+          "phrase": "would follow him",
+          "hebrew": "יצטרפו אליו בהמשך"
+        },
+        {
+          "phrase": "dangerous",
+          "hebrew": "מסוכנים"
+        },
+        {
+          "phrase": "Jewish families",
+          "hebrew": "משפחות יהודיות"
+        },
+        {
+          "phrase": "stopped speaking",
+          "hebrew": "הפסיקו לדבר"
+        },
+        {
+          "phrase": "sports club",
+          "hebrew": "מועדון ספורט"
+        },
+        {
+          "phrase": "removed him",
+          "hebrew": "הוציא אותו משורותיו"
+        },
+        {
+          "phrase": "because",
+          "hebrew": "מפני ש־"
+        },
+        {
+          "phrase": "arranged",
+          "hebrew": "סידרו; ארגנו"
+        },
+        {
+          "phrase": "an aunt and uncle",
+          "hebrew": "דודה ודוד"
+        },
+        {
+          "phrase": "Before he left",
+          "hebrew": "לפני שעזב"
+        },
+        {
+          "phrase": "language",
+          "hebrew": "שפה"
+        },
+        {
+          "phrase": "country",
+          "hebrew": "מדינה"
+        },
+        {
+          "phrase": "understand",
+          "hebrew": "להבין"
+        },
+        {
+          "phrase": "needed",
+          "hebrew": "נזקק ל־"
+        },
+        {
+          "phrase": "skills",
+          "hebrew": "מיומנויות; כישורים"
+        },
+        {
+          "phrase": "begin again",
+          "hebrew": "להתחיל מחדש"
+        },
+        {
+          "phrase": "goal",
+          "hebrew": "מטרה"
+        },
+        {
+          "phrase": "once he reached America",
+          "hebrew": "לאחר שיגיע לאמריקה"
+        },
+        {
+          "phrase": "bring his family to safety",
+          "hebrew": "להביא את משפחתו למקום בטוח"
+        },
+        {
+          "phrase": "safety",
+          "hebrew": "ביטחון; מקום בטוח"
+        }
+      ],
+      "translationUnits": [
+        [
+          {
+            "text": "In November 1937,",
+            "hebrew": "בנובמבר 1937"
+          },
+          {
+            "text": "fifteen-year-old",
+            "hebrew": "בן החמש־עשרה"
+          },
+          {
+            "text": "Guy Stern",
+            "hebrew": "גאי שטרן"
+          },
+          {
+            "text": "boarded a ship",
+            "hebrew": "עלה על אונייה"
+          },
+          {
+            "text": "for America.",
+            "hebrew": "לאמריקה"
+          },
+          {
+            "text": "His parents,",
+            "hebrew": "הוריו"
+          },
+          {
+            "text": "brother and sister",
+            "hebrew": "אחיו ואחותו"
+          },
+          {
+            "text": "remained in Germany.",
+            "hebrew": "נשארו בגרמניה"
+          },
+          {
+            "text": "He hoped",
+            "hebrew": "הוא קיווה"
+          },
+          {
+            "text": "that they",
+            "hebrew": "שהם"
+          },
+          {
+            "text": "would follow him.",
+            "hebrew": "יצטרפו אליו בהמשך"
+          }
+        ],
+        [
+          {
+            "text": "The Nazis",
+            "hebrew": "הנאצים"
+          },
+          {
+            "text": "were making life",
+            "hebrew": "הפכו את החיים"
+          },
+          {
+            "text": "more dangerous",
+            "hebrew": "למסוכנים יותר"
+          },
+          {
+            "text": "for Jewish families.",
+            "hebrew": "עבור משפחות יהודיות"
+          },
+          {
+            "text": "Friends",
+            "hebrew": "חברים"
+          },
+          {
+            "text": "stopped speaking",
+            "hebrew": "הפסיקו לדבר"
+          },
+          {
+            "text": "to Guy,",
+            "hebrew": "עם גאי"
+          },
+          {
+            "text": "and his sports club",
+            "hebrew": "ומועדון הספורט שלו"
+          },
+          {
+            "text": "removed him",
+            "hebrew": "הוציא אותו משורותיו"
+          },
+          {
+            "text": "because",
+            "hebrew": "מפני ש־"
+          },
+          {
+            "text": "he was Jewish.",
+            "hebrew": "הוא היה יהודי"
+          },
+          {
+            "text": "His parents",
+            "hebrew": "הוריו"
+          },
+          {
+            "text": "arranged for him",
+            "hebrew": "סידרו עבורו"
+          },
+          {
+            "text": "to live with",
+            "hebrew": "לגור אצל"
+          },
+          {
+            "text": "an aunt and uncle",
+            "hebrew": "דודה ודוד"
+          },
+          {
+            "text": "in St. Louis.",
+            "hebrew": "בסנט לואיס"
+          }
+        ],
+        [
+          {
+            "text": "Before he left,",
+            "hebrew": "לפני שעזב"
+          },
+          {
+            "text": "his father",
+            "hebrew": "אביו"
+          },
+          {
+            "text": "found",
+            "hebrew": "מצא"
+          },
+          {
+            "text": "an English teacher",
+            "hebrew": "מורה לאנגלית"
+          },
+          {
+            "text": "for him.",
+            "hebrew": "עבורו"
+          },
+          {
+            "text": "There was",
+            "hebrew": "הייתה"
+          },
+          {
+            "text": "a new language",
+            "hebrew": "שפה חדשה"
+          },
+          {
+            "text": "to learn",
+            "hebrew": "ללמוד"
+          },
+          {
+            "text": "and",
+            "hebrew": "וגם"
+          },
+          {
+            "text": "a new country",
+            "hebrew": "מדינה חדשה"
+          },
+          {
+            "text": "to understand.",
+            "hebrew": "להכיר ולהבין"
+          },
+          {
+            "text": "At fifteen,",
+            "hebrew": "בגיל חמש־עשרה"
+          },
+          {
+            "text": "Guy needed",
+            "hebrew": "גאי נזקק ל־"
+          },
+          {
+            "text": "skills",
+            "hebrew": "מיומנויות; כישורים"
+          },
+          {
+            "text": "that could help him",
+            "hebrew": "שיוכלו לעזור לו"
+          },
+          {
+            "text": "begin again.",
+            "hebrew": "להתחיל מחדש"
+          },
+          {
+            "text": "He also had",
+            "hebrew": "הייתה לו גם"
+          },
+          {
+            "text": "a goal:",
+            "hebrew": "מטרה"
+          },
+          {
+            "text": "once he reached America,",
+            "hebrew": "לאחר שיגיע לאמריקה"
+          },
+          {
+            "text": "he would try",
+            "hebrew": "הוא ינסה"
+          },
+          {
+            "text": "to bring his family",
+            "hebrew": "להביא את משפחתו"
+          },
+          {
+            "text": "to safety.",
+            "hebrew": "למקום בטוח"
+          }
+        ]
+      ],
+      "readingPages": [
+        {
+          "paragraph": 0,
+          "wordStart": 0,
+          "wordEnd": 11,
+          "text": "In November 1937, fifteen-year-old Guy Stern boarded a ship for America.",
+          "hebrew": "בנובמבר 1937 עלה גאי שטרן בן החמש־עשרה על אונייה לאמריקה."
+        },
+        {
+          "paragraph": 0,
+          "wordStart": 11,
+          "wordEnd": 26,
+          "text": "His parents, brother and sister remained in Germany. He hoped that they would follow him.",
+          "hebrew": "הוריו, אחיו ואחותו נשארו בגרמניה. הוא קיווה שיצטרפו אליו בהמשך."
+        },
+        {
+          "paragraph": 1,
+          "wordStart": 0,
+          "wordEnd": 10,
+          "text": "The Nazis were making life more dangerous for Jewish families.",
+          "hebrew": "הנאצים הפכו את החיים למסוכנים יותר עבור משפחות יהודיות."
+        },
+        {
+          "paragraph": 1,
+          "wordStart": 10,
+          "wordEnd": 25,
+          "text": "Friends stopped speaking to Guy, and his sports club removed him because he was Jewish.",
+          "hebrew": "חברים הפסיקו לדבר עם גאי, ומועדון הספורט שלו הוציא אותו משורותיו משום שהיה יהודי."
+        },
+        {
+          "paragraph": 1,
+          "wordStart": 25,
+          "wordEnd": 40,
+          "text": "His parents arranged for him to live with an aunt and uncle in St. Louis.",
+          "hebrew": "הוריו סידרו שיגור אצל דודו ודודתו בסנט לואיס."
+        },
+        {
+          "paragraph": 2,
+          "wordStart": 0,
+          "wordEnd": 11,
+          "text": "Before he left, his father found an English teacher for him.",
+          "hebrew": "לפני שיצא, אביו מצא עבורו מורה לאנגלית."
+        },
+        {
+          "paragraph": 2,
+          "wordStart": 11,
+          "wordEnd": 24,
+          "text": "There was a new language to learn and a new country to understand.",
+          "hebrew": "היה עליו ללמוד שפה חדשה ולהכיר מדינה חדשה."
+        },
+        {
+          "paragraph": 2,
+          "wordStart": 24,
+          "wordEnd": 35,
+          "text": "At fifteen, Guy needed skills that could help him begin again.",
+          "hebrew": "בגיל חמש־עשרה נזקק גאי למיומנויות שיעזרו לו להתחיל מחדש."
+        },
+        {
+          "paragraph": 2,
+          "wordStart": 35,
+          "wordEnd": 53,
+          "text": "He also had a goal: once he reached America, he would try to bring his family to safety.",
+          "hebrew": "הייתה לו גם מטרה: לאחר שיגיע לאמריקה, הוא ינסה להביא את משפחתו למקום בטוח."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleHe": "למצוא מקום להשתייך אליו",
+      "sceneLabel": "School, work and new plans",
+      "sceneLabelHe": "לימודים, עבודה ותוכניות חדשות",
+      "vocabulary": [
+        {
+          "word": "welcomed",
+          "hebrew": "קיבלו בחום",
+          "definition": "showed someone they were happy to have him there",
+          "exampleEnglish": "His teachers welcomed him."
+        },
+        {
+          "word": "responsibilities",
+          "hebrew": "תחומי אחריות; חובות",
+          "definition": "things you need to do or take care of",
+          "exampleEnglish": "These were difficult responsibilities for a teenager."
+        },
+        {
+          "word": "journalist",
+          "hebrew": "עיתונאי",
+          "definition": "a person who reports or writes news",
+          "exampleEnglish": "Guy wanted to become a journalist."
+        },
+        {
+          "word": "practical",
+          "hebrew": "מעשיות",
+          "definition": "useful in real situations",
+          "exampleEnglish": "His wish to study was shaping practical decisions about his life."
+        }
+      ],
+      "questions": [
+        {
+          "question": "Name two school activities that helped Guy find his place.",
+          "questionHe": "ציינו שתי פעילויות בבית הספר שעזרו לגאי למצוא את מקומו.",
+          "modelAnswer": "He joined the swimming team and worked on the school newspaper.",
+          "modelAnswerHe": "הוא הצטרף לנבחרת השחייה ועבד בעיתון בית הספר."
+        },
+        {
+          "question": "What did Guy do so that he could work and continue studying?",
+          "questionHe": "מה עשה גאי כדי שיוכל לעבוד ולהמשיך ללמוד?",
+          "modelAnswer": "He found work at a hotel across the street from his university. Sometimes he went to class in his work uniform.",
+          "modelAnswerHe": "הוא מצא עבודה במלון מעבר לרחוב מהאוניברסיטה שלו. לפעמים הגיע לשיעור במדי העבודה שלו."
+        }
+      ],
+      "paragraphsHe": [
+        "חמישה ימים לאחר שהגיע לסנט לואיס, גאי כבר למד בבית ספר תיכון אמריקאי. מוריו קיבלו אותו בחום. הוא הצטרף לנבחרת השחייה ועבד בעיתון בית הספר. ההשתתפות בחיי בית הספר עזרה לו למצוא את מקומו.",
+        "הכסף היה בעיה. מורה עזר לו למצוא עבודה בחדר האוכל של בית הספר, ובהמשך הוא עבד בבתי מלון. הוא למד ובמקביל הרוויח כסף. הוא גם חיפש מישהו שיוכל לעזור להביא את משפחתו לאמריקה.",
+        "אלה היו תחומי אחריות לא פשוטים לנער. ובכל זאת, הוא גילה תחומי עניין חדשים ותכנן תוכניות. הכתיבה לעיתון העניקה לו מטרה נוספת: הוא רצה להיות עיתונאי.",
+        "בהמשך מצא עבודה במלון מעבר לרחוב מהאוניברסיטה שלו. לפעמים מיהר לשיעור כשהוא עדיין לבוש במדי העבודה. הרצון שלו ללמוד השפיע על החלטות מעשיות שקיבל בנוגע לחייו."
+      ],
+      "glossary": [
+        {
+          "phrase": "arriving",
+          "hebrew": "ההגעה"
+        },
+        {
+          "phrase": "was attending",
+          "hebrew": "למד ב־"
+        },
+        {
+          "phrase": "high school",
+          "hebrew": "בית ספר תיכון"
+        },
+        {
+          "phrase": "welcomed him",
+          "hebrew": "קיבלו אותו בחום"
+        },
+        {
+          "phrase": "joined",
+          "hebrew": "הצטרף ל־"
+        },
+        {
+          "phrase": "swimming team",
+          "hebrew": "נבחרת שחייה"
+        },
+        {
+          "phrase": "school newspaper",
+          "hebrew": "עיתון בית הספר"
+        },
+        {
+          "phrase": "Taking part",
+          "hebrew": "ההשתתפות"
+        },
+        {
+          "phrase": "find his place",
+          "hebrew": "למצוא את מקומו; להרגיש שייך"
+        },
+        {
+          "phrase": "lunchroom",
+          "hebrew": "חדר האוכל"
+        },
+        {
+          "phrase": "while earning money",
+          "hebrew": "במקביל לכך שהרוויח כסף"
+        },
+        {
+          "phrase": "searched for",
+          "hebrew": "חיפש"
+        },
+        {
+          "phrase": "responsibilities",
+          "hebrew": "תחומי אחריות; חובות"
+        },
+        {
+          "phrase": "teenager",
+          "hebrew": "נער בגיל ההתבגרות"
+        },
+        {
+          "phrase": "Yet",
+          "hebrew": "ובכל זאת"
+        },
+        {
+          "phrase": "discovering",
+          "hebrew": "גילה"
+        },
+        {
+          "phrase": "new interests",
+          "hebrew": "תחומי עניין חדשים"
+        },
+        {
+          "phrase": "making plans",
+          "hebrew": "תכנן תוכניות"
+        },
+        {
+          "phrase": "another goal",
+          "hebrew": "מטרה נוספת"
+        },
+        {
+          "phrase": "journalist",
+          "hebrew": "עיתונאי"
+        },
+        {
+          "phrase": "across the street",
+          "hebrew": "מעבר לרחוב"
+        },
+        {
+          "phrase": "university",
+          "hebrew": "אוניברסיטה"
+        },
+        {
+          "phrase": "hurried",
+          "hebrew": "מיהר"
+        },
+        {
+          "phrase": "still wearing",
+          "hebrew": "כשהוא עדיין לבוש ב־"
+        },
+        {
+          "phrase": "work uniform",
+          "hebrew": "מדי עבודה"
+        },
+        {
+          "phrase": "wish to study",
+          "hebrew": "הרצון ללמוד"
+        },
+        {
+          "phrase": "shaping",
+          "hebrew": "עיצב; השפיע על"
+        },
+        {
+          "phrase": "practical decisions",
+          "hebrew": "החלטות מעשיות"
+        }
+      ],
+      "translationUnits": [
+        [
+          {
+            "text": "Five days",
+            "hebrew": "חמישה ימים"
+          },
+          {
+            "text": "after arriving",
+            "hebrew": "לאחר שהגיע"
+          },
+          {
+            "text": "in St. Louis,",
+            "hebrew": "לסנט לואיס"
+          },
+          {
+            "text": "Guy was attending",
+            "hebrew": "גאי למד ב־"
+          },
+          {
+            "text": "an American high school.",
+            "hebrew": "בית ספר תיכון אמריקאי"
+          },
+          {
+            "text": "His teachers",
+            "hebrew": "מוריו"
+          },
+          {
+            "text": "welcomed him.",
+            "hebrew": "קיבלו אותו בחום"
+          },
+          {
+            "text": "He joined",
+            "hebrew": "הוא הצטרף ל־"
+          },
+          {
+            "text": "the swimming team",
+            "hebrew": "נבחרת השחייה"
+          },
+          {
+            "text": "and worked on",
+            "hebrew": "ועבד ב־"
+          },
+          {
+            "text": "the school newspaper.",
+            "hebrew": "עיתון בית הספר"
+          },
+          {
+            "text": "Taking part",
+            "hebrew": "ההשתתפות"
+          },
+          {
+            "text": "in school life",
+            "hebrew": "בחיי בית הספר"
+          },
+          {
+            "text": "helped him",
+            "hebrew": "עזרה לו"
+          },
+          {
+            "text": "find his place.",
+            "hebrew": "למצוא את מקומו"
+          }
+        ],
+        [
+          {
+            "text": "Money",
+            "hebrew": "הכסף"
+          },
+          {
+            "text": "was a problem.",
+            "hebrew": "היה בעיה"
+          },
+          {
+            "text": "A teacher",
+            "hebrew": "מורה"
+          },
+          {
+            "text": "helped him",
+            "hebrew": "עזר לו"
+          },
+          {
+            "text": "find work",
+            "hebrew": "למצוא עבודה"
+          },
+          {
+            "text": "in the school lunchroom,",
+            "hebrew": "בחדר האוכל של בית הספר"
+          },
+          {
+            "text": "and later",
+            "hebrew": "ובהמשך"
+          },
+          {
+            "text": "he worked",
+            "hebrew": "הוא עבד"
+          },
+          {
+            "text": "in hotels.",
+            "hebrew": "בבתי מלון"
+          },
+          {
+            "text": "He studied",
+            "hebrew": "הוא למד"
+          },
+          {
+            "text": "while earning money.",
+            "hebrew": "ובמקביל הרוויח כסף"
+          },
+          {
+            "text": "He also",
+            "hebrew": "הוא גם"
+          },
+          {
+            "text": "searched for someone",
+            "hebrew": "חיפש מישהו"
+          },
+          {
+            "text": "who could help",
+            "hebrew": "שיוכל לעזור"
+          },
+          {
+            "text": "bring his family",
+            "hebrew": "להביא את משפחתו"
+          },
+          {
+            "text": "to America.",
+            "hebrew": "לאמריקה"
+          }
+        ],
+        [
+          {
+            "text": "These were",
+            "hebrew": "אלה היו"
+          },
+          {
+            "text": "difficult responsibilities",
+            "hebrew": "תחומי אחריות לא פשוטים"
+          },
+          {
+            "text": "for a teenager.",
+            "hebrew": "לנער בגיל ההתבגרות"
+          },
+          {
+            "text": "Yet",
+            "hebrew": "ובכל זאת"
+          },
+          {
+            "text": "he was discovering",
+            "hebrew": "הוא גילה"
+          },
+          {
+            "text": "new interests",
+            "hebrew": "תחומי עניין חדשים"
+          },
+          {
+            "text": "and making plans.",
+            "hebrew": "ותכנן תוכניות"
+          },
+          {
+            "text": "Writing for the newspaper",
+            "hebrew": "הכתיבה לעיתון"
+          },
+          {
+            "text": "gave him",
+            "hebrew": "העניקה לו"
+          },
+          {
+            "text": "another goal:",
+            "hebrew": "מטרה נוספת"
+          },
+          {
+            "text": "he wanted",
+            "hebrew": "הוא רצה"
+          },
+          {
+            "text": "to become a journalist.",
+            "hebrew": "להיות עיתונאי"
+          }
+        ],
+        [
+          {
+            "text": "Later,",
+            "hebrew": "בהמשך"
+          },
+          {
+            "text": "he found work",
+            "hebrew": "הוא מצא עבודה"
+          },
+          {
+            "text": "at a hotel",
+            "hebrew": "במלון"
+          },
+          {
+            "text": "across the street",
+            "hebrew": "מעבר לרחוב"
+          },
+          {
+            "text": "from his university.",
+            "hebrew": "מהאוניברסיטה שלו"
+          },
+          {
+            "text": "Sometimes",
+            "hebrew": "לפעמים"
+          },
+          {
+            "text": "he hurried",
+            "hebrew": "הוא מיהר"
+          },
+          {
+            "text": "into class",
+            "hebrew": "לשיעור"
+          },
+          {
+            "text": "still wearing",
+            "hebrew": "כשהוא עדיין לבוש ב־"
+          },
+          {
+            "text": "his work uniform.",
+            "hebrew": "מדי העבודה שלו"
+          },
+          {
+            "text": "His wish to study",
+            "hebrew": "הרצון שלו ללמוד"
+          },
+          {
+            "text": "was shaping",
+            "hebrew": "עיצב; השפיע על"
+          },
+          {
+            "text": "practical decisions",
+            "hebrew": "החלטות מעשיות"
+          },
+          {
+            "text": "about his life.",
+            "hebrew": "בנוגע לחייו"
+          }
+        ]
+      ],
+      "readingPages": [
+        {
+          "paragraph": 0,
+          "wordStart": 0,
+          "wordEnd": 18,
+          "text": "Five days after arriving in St. Louis, Guy was attending an American high school. His teachers welcomed him.",
+          "hebrew": "חמישה ימים לאחר שהגיע לסנט לואיס, גאי כבר למד בבית ספר תיכון אמריקאי. מוריו קיבלו אותו בחום."
+        },
+        {
+          "paragraph": 0,
+          "wordStart": 18,
+          "wordEnd": 29,
+          "text": "He joined the swimming team and worked on the school newspaper.",
+          "hebrew": "הוא הצטרף לנבחרת השחייה ועבד בעיתון בית הספר."
+        },
+        {
+          "paragraph": 0,
+          "wordStart": 29,
+          "wordEnd": 39,
+          "text": "Taking part in school life helped him find his place.",
+          "hebrew": "ההשתתפות בחיי בית הספר עזרה לו למצוא את מקומו."
+        },
+        {
+          "paragraph": 1,
+          "wordStart": 0,
+          "wordEnd": 4,
+          "text": "Money was a problem.",
+          "hebrew": "הכסף היה בעיה."
+        },
+        {
+          "paragraph": 1,
+          "wordStart": 4,
+          "wordEnd": 20,
+          "text": "A teacher helped him find work in the school lunchroom, and later he worked in hotels.",
+          "hebrew": "מורה עזר לו למצוא עבודה בחדר האוכל של בית הספר, ובהמשך הוא עבד בבתי מלון."
+        },
+        {
+          "paragraph": 1,
+          "wordStart": 20,
+          "wordEnd": 38,
+          "text": "He studied while earning money. He also searched for someone who could help bring his family to America.",
+          "hebrew": "הוא למד ובמקביל הרוויח כסף. הוא גם חיפש מישהו שיוכל לעזור להביא את משפחתו לאמריקה."
+        },
+        {
+          "paragraph": 2,
+          "wordStart": 0,
+          "wordEnd": 16,
+          "text": "These were difficult responsibilities for a teenager. Yet he was discovering new interests and making plans.",
+          "hebrew": "אלה היו תחומי אחריות לא פשוטים לנער. ובכל זאת, הוא גילה תחומי עניין חדשים ותכנן תוכניות."
+        },
+        {
+          "paragraph": 2,
+          "wordStart": 16,
+          "wordEnd": 30,
+          "text": "Writing for the newspaper gave him another goal: he wanted to become a journalist.",
+          "hebrew": "הכתיבה לעיתון העניקה לו מטרה נוספת: הוא רצה להיות עיתונאי."
+        },
+        {
+          "paragraph": 3,
+          "wordStart": 0,
+          "wordEnd": 13,
+          "text": "Later, he found work at a hotel across the street from his university.",
+          "hebrew": "בהמשך מצא עבודה במלון מעבר לרחוב מהאוניברסיטה שלו."
+        },
+        {
+          "paragraph": 3,
+          "wordStart": 13,
+          "wordEnd": 23,
+          "text": "Sometimes he hurried into class still wearing his work uniform.",
+          "hebrew": "לפעמים מיהר לשיעור כשהוא עדיין לבוש במדי העבודה."
+        },
+        {
+          "paragraph": 3,
+          "wordStart": 23,
+          "wordEnd": 34,
+          "text": "His wish to study was shaping practical decisions about his life.",
+          "hebrew": "הרצון שלו ללמוד השפיע על החלטות מעשיות שקיבל בנוגע לחייו."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleHe": "ייעוד חדש",
+      "sceneLabel": "Language becomes a way to help",
+      "sceneLabelHe": "השפה הופכת לדרך לעזור",
+      "vocabulary": [
+        {
+          "word": "applied",
+          "hebrew": "הגיש מועמדות",
+          "definition": "formally asked to be considered for a job or position",
+          "exampleEnglish": "He applied for work in Navy intelligence."
+        },
+        {
+          "word": "refused",
+          "hebrew": "נדחתה",
+          "definition": "not accepted",
+          "exampleEnglish": "His application was refused."
+        },
+        {
+          "word": "drafted",
+          "hebrew": "גויס",
+          "definition": "officially required to join the armed forces",
+          "exampleEnglish": "In 1943, he was drafted into the U.S. Army."
+        },
+        {
+          "word": "provide",
+          "hebrew": "לספק",
+          "definition": "give something that is needed",
+          "exampleEnglish": "His questions could provide information for other soldiers."
+        }
+      ],
+      "questions": [
+        {
+          "question": "Why was Guy's knowledge of German useful in the army?",
+          "questionHe": "מדוע ידיעת הגרמנית של גאי הייתה מועילה בצבא?",
+          "modelAnswer": "It helped him question German prisoners and understand military information.",
+          "modelAnswerHe": "היא עזרה לו לתשאל שבויים גרמנים ולהבין מידע צבאי."
+        },
+        {
+          "question": "How had Guy's role changed when he returned to Europe?",
+          "questionHe": "כיצד השתנה תפקידו של גאי כשחזר לאירופה?",
+          "modelAnswer": "He had left Germany as a teenager who needed help. He returned as an American soldier with skills that could help others.",
+          "modelAnswerHe": "הוא עזב את גרמניה כנער שהיה זקוק לעזרה. הוא חזר כחייל אמריקאי עם כישורים שיכלו לעזור לאחרים."
+        }
+      ],
+      "paragraphsHe": [
+        "כאשר ארצות הברית נכנסה למלחמה, גאי רצה לשרת. הוא הגיש מועמדות לעבודה במודיעין חיל הים, שם ידיעת שפות הייתה מועילה. מועמדותו נדחתה משום שלא נולד באמריקה.",
+        "בשנת 1943 גויס לצבא ארצות הברית. במחנה ריצ׳י הוא למד לתשאל שבויים גרמנים ולהבין מידע צבאי. השפה של המדינה שממנה נמלט העניקה לו כעת דרך חשובה לעזור.",
+        "ביוני 1944 נחת גאי בנורמנדי שבצרפת, שלושה ימים לאחר יום הפלישה לנורמנדי. הוא חזר לאירופה לבוש במדים אמריקאיים. שאלותיו יכלו לספק מידע לחיילים אחרים. הנער שהיה זקוק פעם לעזרה כדי לעזוב את גרמניה היה כעת בעל כישורים שמדינתו החדשה נזקקה להם."
+      ],
+      "glossary": [
+        {
+          "phrase": "entered the war",
+          "hebrew": "נכנסה למלחמה"
+        },
+        {
+          "phrase": "serve",
+          "hebrew": "לשרת בצבא"
+        },
+        {
+          "phrase": "applied for",
+          "hebrew": "הגיש מועמדות ל־"
+        },
+        {
+          "phrase": "Navy intelligence",
+          "hebrew": "מודיעין חיל הים"
+        },
+        {
+          "phrase": "language skills",
+          "hebrew": "כישורי שפה; ידיעת שפות"
+        },
+        {
+          "phrase": "useful",
+          "hebrew": "מועילים"
+        },
+        {
+          "phrase": "application",
+          "hebrew": "בקשת הקבלה; המועמדות"
+        },
+        {
+          "phrase": "was refused",
+          "hebrew": "נדחתה"
+        },
+        {
+          "phrase": "had not been born",
+          "hebrew": "לא נולד"
+        },
+        {
+          "phrase": "was drafted",
+          "hebrew": "גויס"
+        },
+        {
+          "phrase": "U.S. Army",
+          "hebrew": "צבא ארצות הברית"
+        },
+        {
+          "phrase": "Camp Ritchie",
+          "hebrew": "מחנה ריצ׳י"
+        },
+        {
+          "phrase": "question German prisoners",
+          "hebrew": "לתשאל שבויים גרמנים"
+        },
+        {
+          "phrase": "military information",
+          "hebrew": "מידע צבאי"
+        },
+        {
+          "phrase": "had escaped",
+          "hebrew": "נמלט ממנה"
+        },
+        {
+          "phrase": "landed",
+          "hebrew": "נחת"
+        },
+        {
+          "phrase": "Normandy",
+          "hebrew": "נורמנדי, אזור בצרפת"
+        },
+        {
+          "phrase": "D-Day",
+          "hebrew": "יום הפלישה לנורמנדי — 6 ביוני 1944"
+        },
+        {
+          "phrase": "returned",
+          "hebrew": "חזר"
+        },
+        {
+          "phrase": "uniform",
+          "hebrew": "מדים"
+        },
+        {
+          "phrase": "provide information",
+          "hebrew": "לספק מידע"
+        },
+        {
+          "phrase": "soldiers",
+          "hebrew": "חיילים"
+        },
+        {
+          "phrase": "teenager",
+          "hebrew": "נער בגיל ההתבגרות"
+        },
+        {
+          "phrase": "once needed help",
+          "hebrew": "היה זקוק פעם לעזרה"
+        },
+        {
+          "phrase": "skills",
+          "hebrew": "מיומנויות; כישורים"
+        }
+      ],
+      "translationUnits": [
+        [
+          {
+            "text": "When",
+            "hebrew": "כאשר"
+          },
+          {
+            "text": "the United States",
+            "hebrew": "ארצות הברית"
+          },
+          {
+            "text": "entered the war,",
+            "hebrew": "נכנסה למלחמה"
+          },
+          {
+            "text": "Guy wanted",
+            "hebrew": "גאי רצה"
+          },
+          {
+            "text": "to serve.",
+            "hebrew": "לשרת בצבא"
+          },
+          {
+            "text": "He applied",
+            "hebrew": "הוא הגיש מועמדות"
+          },
+          {
+            "text": "for work",
+            "hebrew": "לעבודה"
+          },
+          {
+            "text": "in Navy intelligence,",
+            "hebrew": "במודיעין חיל הים"
+          },
+          {
+            "text": "where",
+            "hebrew": "שם"
+          },
+          {
+            "text": "language skills",
+            "hebrew": "כישורי שפה; ידיעת שפות"
+          },
+          {
+            "text": "were useful.",
+            "hebrew": "היו מועילים"
+          },
+          {
+            "text": "His application",
+            "hebrew": "מועמדותו"
+          },
+          {
+            "text": "was refused",
+            "hebrew": "נדחתה"
+          },
+          {
+            "text": "because",
+            "hebrew": "מפני ש־"
+          },
+          {
+            "text": "he had not been born",
+            "hebrew": "הוא לא נולד"
+          },
+          {
+            "text": "in America.",
+            "hebrew": "באמריקה"
+          }
+        ],
+        [
+          {
+            "text": "In 1943,",
+            "hebrew": "בשנת 1943"
+          },
+          {
+            "text": "he was drafted",
+            "hebrew": "הוא גויס"
+          },
+          {
+            "text": "into the U.S. Army.",
+            "hebrew": "לצבא ארצות הברית"
+          },
+          {
+            "text": "At Camp Ritchie,",
+            "hebrew": "במחנה ריצ׳י"
+          },
+          {
+            "text": "he learned",
+            "hebrew": "הוא למד"
+          },
+          {
+            "text": "to question",
+            "hebrew": "לתשאל"
+          },
+          {
+            "text": "German prisoners",
+            "hebrew": "שבויים גרמנים"
+          },
+          {
+            "text": "and understand",
+            "hebrew": "ולהבין"
+          },
+          {
+            "text": "military information.",
+            "hebrew": "מידע צבאי"
+          },
+          {
+            "text": "The language",
+            "hebrew": "השפה"
+          },
+          {
+            "text": "of the country",
+            "hebrew": "של המדינה"
+          },
+          {
+            "text": "he had escaped",
+            "hebrew": "שממנה נמלט"
+          },
+          {
+            "text": "now gave him",
+            "hebrew": "העניקה לו כעת"
+          },
+          {
+            "text": "an important way",
+            "hebrew": "דרך חשובה"
+          },
+          {
+            "text": "to help.",
+            "hebrew": "לעזור"
+          }
+        ],
+        [
+          {
+            "text": "In June 1944,",
+            "hebrew": "ביוני 1944"
+          },
+          {
+            "text": "Guy landed",
+            "hebrew": "גאי נחת"
+          },
+          {
+            "text": "in Normandy, France,",
+            "hebrew": "בנורמנדי שבצרפת"
+          },
+          {
+            "text": "three days",
+            "hebrew": "שלושה ימים"
+          },
+          {
+            "text": "after D-Day.",
+            "hebrew": "לאחר יום הפלישה לנורמנדי"
+          },
+          {
+            "text": "He returned",
+            "hebrew": "הוא חזר"
+          },
+          {
+            "text": "to Europe",
+            "hebrew": "לאירופה"
+          },
+          {
+            "text": "wearing",
+            "hebrew": "כשהוא לבוש ב־"
+          },
+          {
+            "text": "an American uniform.",
+            "hebrew": "מדים אמריקאיים"
+          },
+          {
+            "text": "His questions",
+            "hebrew": "שאלותיו"
+          },
+          {
+            "text": "could provide information",
+            "hebrew": "יכלו לספק מידע"
+          },
+          {
+            "text": "for other soldiers.",
+            "hebrew": "לחיילים אחרים"
+          },
+          {
+            "text": "The teenager",
+            "hebrew": "הנער"
+          },
+          {
+            "text": "who once needed help",
+            "hebrew": "שהיה זקוק פעם לעזרה"
+          },
+          {
+            "text": "leaving Germany",
+            "hebrew": "כדי לעזוב את גרמניה"
+          },
+          {
+            "text": "now had skills",
+            "hebrew": "היה כעת בעל כישורים"
+          },
+          {
+            "text": "that his new country",
+            "hebrew": "שמדינתו החדשה"
+          },
+          {
+            "text": "needed.",
+            "hebrew": "נזקקה להם"
+          }
+        ]
+      ],
+      "readingPages": [
+        {
+          "paragraph": 0,
+          "wordStart": 0,
+          "wordEnd": 11,
+          "text": "When the United States entered the war, Guy wanted to serve.",
+          "hebrew": "כאשר ארצות הברית נכנסה למלחמה, גאי רצה לשרת."
+        },
+        {
+          "paragraph": 0,
+          "wordStart": 11,
+          "wordEnd": 23,
+          "text": "He applied for work in Navy intelligence, where language skills were useful.",
+          "hebrew": "הוא הגיש מועמדות לעבודה במודיעין חיל הים, שם ידיעת שפות הייתה מועילה."
+        },
+        {
+          "paragraph": 0,
+          "wordStart": 23,
+          "wordEnd": 35,
+          "text": "His application was refused because he had not been born in America.",
+          "hebrew": "מועמדותו נדחתה משום שלא נולד באמריקה."
+        },
+        {
+          "paragraph": 1,
+          "wordStart": 0,
+          "wordEnd": 9,
+          "text": "In 1943, he was drafted into the U.S. Army.",
+          "hebrew": "בשנת 1943 גויס לצבא ארצות הברית."
+        },
+        {
+          "paragraph": 1,
+          "wordStart": 9,
+          "wordEnd": 22,
+          "text": "At Camp Ritchie, he learned to question German prisoners and understand military information.",
+          "hebrew": "במחנה ריצ׳י הוא למד לתשאל שבויים גרמנים ולהבין מידע צבאי."
+        },
+        {
+          "paragraph": 1,
+          "wordStart": 22,
+          "wordEnd": 38,
+          "text": "The language of the country he had escaped now gave him an important way to help.",
+          "hebrew": "השפה של המדינה שממנה נמלט העניקה לו כעת דרך חשובה לעזור."
+        },
+        {
+          "paragraph": 2,
+          "wordStart": 0,
+          "wordEnd": 12,
+          "text": "In June 1944, Guy landed in Normandy, France, three days after D-Day.",
+          "hebrew": "ביוני 1944 נחת גאי בנורמנדי שבצרפת, שלושה ימים לאחר יום הפלישה לנורמנדי."
+        },
+        {
+          "paragraph": 2,
+          "wordStart": 12,
+          "wordEnd": 28,
+          "text": "He returned to Europe wearing an American uniform. His questions could provide information for other soldiers.",
+          "hebrew": "הוא חזר לאירופה לבוש במדים אמריקאיים. שאלותיו יכלו לספק מידע לחיילים אחרים."
+        },
+        {
+          "paragraph": 2,
+          "wordStart": 28,
+          "wordEnd": 44,
+          "text": "The teenager who once needed help leaving Germany now had skills that his new country needed.",
+          "hebrew": "הנער שהיה זקוק פעם לעזרה כדי לעזוב את גרמניה היה כעת בעל כישורים שמדינתו החדשה נזקקה להם."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titleHe": "שם מוכר",
+      "sceneLabel": "An encounter in wartime France",
+      "sceneLabelHe": "מפגש בצרפת בזמן המלחמה",
+      "vocabulary": [
+        {
+          "word": "familiar",
+          "hebrew": "מוכר",
+          "definition": "known or recognized from before",
+          "exampleEnglish": "Guy found a familiar name among the German prisoners."
+        },
+        {
+          "word": "former",
+          "hebrew": "לשעבר",
+          "definition": "from an earlier time",
+          "exampleEnglish": "One of the club's former members was a prisoner."
+        },
+        {
+          "word": "identity",
+          "hebrew": "זהות",
+          "definition": "who a person is",
+          "exampleEnglish": "Guy kept his own identity hidden."
+        },
+        {
+          "word": "knowledge",
+          "hebrew": "ידע",
+          "definition": "what someone knows about a subject",
+          "exampleEnglish": "His knowledge of German life had become useful."
+        }
+      ],
+      "questions": [
+        {
+          "question": "How did Guy know the German prisoner?",
+          "questionHe": "מהיכן הכיר גאי את השבוי הגרמני?",
+          "modelAnswer": "He knew him from his old sports club in Germany.",
+          "modelAnswerHe": "הוא הכיר אותו ממועדון הספורט הישן שלו בגרמניה."
+        },
+        {
+          "question": "What did Guy keep hidden during the questioning?",
+          "questionHe": "מה הסתיר גאי במהלך התשאול?",
+          "modelAnswer": "He kept his identity hidden. He did not tell the prisoner who he was.",
+          "modelAnswerHe": "הוא הסתיר את זהותו. הוא לא סיפר לשבוי מי הוא."
+        }
+      ],
+      "paragraphsHe": [
+        "במהלך הלחימה בצרפת מצא גאי שם מוכר בין השבויים הגרמנים. זה היה שמו של אדם שהכיר ממועדון הספורט הישן שלו.",
+        "שנים קודם לכן הודיע המועדון למשפחתו של גאי שילדים יהודים לא יוכלו עוד להיות חברים בו. כעת היה אחד מחבריו לשעבר של המועדון שבוי, וגאי היה החייל האמריקאי ששאל את השאלות.",
+        "לפי סיפורו של גאי, הוא תשאל את האיש בלילה, כשאור מאיר על השבוי. גאי הסתיר את זהותו. הוא לא סיפר לאיש מי הוא.",
+        "הנער שסולק ממועדון ספורט גדל והיה לחייל מיומן. הידע שלו על החיים בגרמניה הפך למועיל במאבק בנאצים."
+      ],
+      "glossary": [
+        {
+          "phrase": "During the fighting",
+          "hebrew": "במהלך הלחימה"
+        },
+        {
+          "phrase": "familiar name",
+          "hebrew": "שם מוכר"
+        },
+        {
+          "phrase": "among",
+          "hebrew": "בין; בקרב"
+        },
+        {
+          "phrase": "prisoners",
+          "hebrew": "שבויים"
+        },
+        {
+          "phrase": "belonged to",
+          "hebrew": "היה שייך ל־"
+        },
+        {
+          "phrase": "sports club",
+          "hebrew": "מועדון ספורט"
+        },
+        {
+          "phrase": "Years earlier",
+          "hebrew": "שנים קודם לכן"
+        },
+        {
+          "phrase": "could no longer belong",
+          "hebrew": "לא יוכלו עוד להיות חברים בו"
+        },
+        {
+          "phrase": "former members",
+          "hebrew": "חברים לשעבר"
+        },
+        {
+          "phrase": "prisoner",
+          "hebrew": "שבוי"
+        },
+        {
+          "phrase": "soldier",
+          "hebrew": "חייל"
+        },
+        {
+          "phrase": "According to Guy's account",
+          "hebrew": "לפי סיפורו של גאי"
+        },
+        {
+          "phrase": "questioned",
+          "hebrew": "תשאל"
+        },
+        {
+          "phrase": "shining",
+          "hebrew": "מאיר"
+        },
+        {
+          "phrase": "identity",
+          "hebrew": "זהות"
+        },
+        {
+          "phrase": "hidden",
+          "hebrew": "מוסתרת"
+        },
+        {
+          "phrase": "pushed out of",
+          "hebrew": "סולק מ־"
+        },
+        {
+          "phrase": "had grown into",
+          "hebrew": "גדל והיה ל־"
+        },
+        {
+          "phrase": "trained soldier",
+          "hebrew": "חייל שעבר הכשרה"
+        },
+        {
+          "phrase": "knowledge",
+          "hebrew": "ידע"
+        },
+        {
+          "phrase": "had become useful",
+          "hebrew": "הפך למועיל"
+        },
+        {
+          "phrase": "fight against",
+          "hebrew": "מאבק נגד"
+        }
+      ],
+      "translationUnits": [
+        [
+          {
+            "text": "During the fighting",
+            "hebrew": "במהלך הלחימה"
+          },
+          {
+            "text": "in France,",
+            "hebrew": "בצרפת"
+          },
+          {
+            "text": "Guy found",
+            "hebrew": "גאי מצא"
+          },
+          {
+            "text": "a familiar name",
+            "hebrew": "שם מוכר"
+          },
+          {
+            "text": "among the German prisoners.",
+            "hebrew": "בין השבויים הגרמנים"
+          },
+          {
+            "text": "It belonged to",
+            "hebrew": "זה היה שמו של"
+          },
+          {
+            "text": "someone he knew",
+            "hebrew": "אדם שהכיר"
+          },
+          {
+            "text": "from his old sports club.",
+            "hebrew": "ממועדון הספורט הישן שלו"
+          }
+        ],
+        [
+          {
+            "text": "Years earlier,",
+            "hebrew": "שנים קודם לכן"
+          },
+          {
+            "text": "that club",
+            "hebrew": "אותו מועדון"
+          },
+          {
+            "text": "had told",
+            "hebrew": "הודיע ל־"
+          },
+          {
+            "text": "Guy's family",
+            "hebrew": "משפחתו של גאי"
+          },
+          {
+            "text": "that Jewish children",
+            "hebrew": "שילדים יהודים"
+          },
+          {
+            "text": "could no longer belong.",
+            "hebrew": "לא יוכלו עוד להיות חברים בו"
+          },
+          {
+            "text": "Now",
+            "hebrew": "כעת"
+          },
+          {
+            "text": "one of its former members",
+            "hebrew": "אחד מחבריו לשעבר"
+          },
+          {
+            "text": "was a prisoner,",
+            "hebrew": "היה שבוי"
+          },
+          {
+            "text": "and Guy",
+            "hebrew": "וגאי"
+          },
+          {
+            "text": "was the American soldier",
+            "hebrew": "היה החייל האמריקאי"
+          },
+          {
+            "text": "asking the questions.",
+            "hebrew": "ששאל את השאלות"
+          }
+        ],
+        [
+          {
+            "text": "According to Guy's account,",
+            "hebrew": "לפי סיפורו של גאי"
+          },
+          {
+            "text": "he questioned the man",
+            "hebrew": "הוא תשאל את האיש"
+          },
+          {
+            "text": "at night,",
+            "hebrew": "בלילה"
+          },
+          {
+            "text": "with a light",
+            "hebrew": "כשאור"
+          },
+          {
+            "text": "shining on the prisoner.",
+            "hebrew": "מאיר על השבוי"
+          },
+          {
+            "text": "Guy kept",
+            "hebrew": "גאי שמר את"
+          },
+          {
+            "text": "his own identity",
+            "hebrew": "זהותו שלו"
+          },
+          {
+            "text": "hidden.",
+            "hebrew": "מוסתרת"
+          },
+          {
+            "text": "He did not tell",
+            "hebrew": "הוא לא סיפר"
+          },
+          {
+            "text": "the man",
+            "hebrew": "לאיש"
+          },
+          {
+            "text": "who he was.",
+            "hebrew": "מי הוא"
+          }
+        ],
+        [
+          {
+            "text": "The boy",
+            "hebrew": "הנער"
+          },
+          {
+            "text": "pushed out of",
+            "hebrew": "שסולק מ־"
+          },
+          {
+            "text": "a sports club",
+            "hebrew": "מועדון ספורט"
+          },
+          {
+            "text": "had grown into",
+            "hebrew": "גדל והיה ל־"
+          },
+          {
+            "text": "a trained soldier.",
+            "hebrew": "חייל מיומן"
+          },
+          {
+            "text": "His knowledge",
+            "hebrew": "הידע שלו"
+          },
+          {
+            "text": "of German life",
+            "hebrew": "על החיים בגרמניה"
+          },
+          {
+            "text": "had become useful",
+            "hebrew": "הפך למועיל"
+          },
+          {
+            "text": "in the fight",
+            "hebrew": "במאבק"
+          },
+          {
+            "text": "against the Nazis.",
+            "hebrew": "נגד הנאצים"
+          }
+        ]
+      ],
+      "readingPages": [
+        {
+          "paragraph": 0,
+          "wordStart": 0,
+          "wordEnd": 14,
+          "text": "During the fighting in France, Guy found a familiar name among the German prisoners.",
+          "hebrew": "במהלך הלחימה בצרפת מצא גאי שם מוכר בין השבויים הגרמנים."
+        },
+        {
+          "paragraph": 0,
+          "wordStart": 14,
+          "wordEnd": 25,
+          "text": "It belonged to someone he knew from his old sports club.",
+          "hebrew": "זה היה שמו של אדם שהכיר ממועדון הספורט הישן שלו."
+        },
+        {
+          "paragraph": 1,
+          "wordStart": 0,
+          "wordEnd": 15,
+          "text": "Years earlier, that club had told Guy's family that Jewish children could no longer belong.",
+          "hebrew": "שנים קודם לכן הודיע המועדון למשפחתו של גאי שילדים יהודים לא יוכלו עוד להיות חברים בו."
+        },
+        {
+          "paragraph": 1,
+          "wordStart": 15,
+          "wordEnd": 33,
+          "text": "Now one of its former members was a prisoner, and Guy was the American soldier asking the questions.",
+          "hebrew": "כעת היה אחד מחבריו לשעבר של המועדון שבוי, וגאי היה החייל האמריקאי ששאל את השאלות."
+        },
+        {
+          "paragraph": 2,
+          "wordStart": 0,
+          "wordEnd": 17,
+          "text": "According to Guy's account, he questioned the man at night, with a light shining on the prisoner.",
+          "hebrew": "לפי סיפורו של גאי, הוא תשאל את האיש בלילה, כשאור מאיר על השבוי."
+        },
+        {
+          "paragraph": 2,
+          "wordStart": 17,
+          "wordEnd": 32,
+          "text": "Guy kept his own identity hidden. He did not tell the man who he was.",
+          "hebrew": "גאי הסתיר את זהותו. הוא לא סיפר לאיש מי הוא."
+        },
+        {
+          "paragraph": 3,
+          "wordStart": 0,
+          "wordEnd": 14,
+          "text": "The boy pushed out of a sports club had grown into a trained soldier.",
+          "hebrew": "הנער שסולק ממועדון ספורט גדל והיה לחייל מיומן."
+        },
+        {
+          "paragraph": 3,
+          "wordStart": 14,
+          "wordEnd": 28,
+          "text": "His knowledge of German life had become useful in the fight against the Nazis.",
+          "hebrew": "הידע שלו על החיים בגרמניה הפך למועיל במאבק בנאצים."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleHe": "לשנות כיוון",
+      "sceneLabel": "Loss, a closed door and a new path",
+      "sceneLabelHe": "אובדן, דלת שנסגרה ודרך חדשה",
+      "vocabulary": [
+        {
+          "word": "efforts",
+          "hebrew": "מאמצים",
+          "definition": "work and energy used to try to do something",
+          "exampleEnglish": "His efforts to rescue his family had failed."
+        },
+        {
+          "word": "recommendation",
+          "hebrew": "המלצה",
+          "definition": "a statement saying that someone is suitable for something",
+          "exampleEnglish": "Guy had a letter of recommendation from an army officer."
+        },
+        {
+          "word": "Eventually",
+          "hebrew": "בסופו של דבר",
+          "definition": "after some time",
+          "exampleEnglish": "Eventually, he chose another direction."
+        },
+        {
+          "word": "literature",
+          "hebrew": "ספרות",
+          "definition": "written works, especially stories, plays and poems",
+          "exampleEnglish": "He studied literature and later became a professor."
+        }
+      ],
+      "questions": [
+        {
+          "question": "What did Guy do after he could not find a job at the newspaper?",
+          "questionHe": "מה עשה גאי לאחר שלא הצליח למצוא עבודה בעיתון?",
+          "modelAnswer": "He worked as a waiter and went back to university. Later, he became a professor.",
+          "modelAnswerHe": "הוא עבד כמלצר וחזר לאוניברסיטה. בהמשך היה לפרופסור."
+        },
+        {
+          "question": "What shows that Guy could change his plans?",
+          "questionHe": "מה מראה שגאי היה מסוגל לשנות את תוכניותיו?",
+          "modelAnswer": "He wanted to be a journalist, but when that plan failed, he continued studying and chose a new direction.",
+          "modelAnswerHe": "הוא רצה להיות עיתונאי, אך כשהתוכנית לא הצליחה, הוא המשיך ללמוד ובחר כיוון חדש."
+        }
+      ],
+      "paragraphsHe": [
+        "לאחר המלחמה גילה גאי שהוריו, אחיו ואחותו נרצחו בשואה. מאמציו להציל אותם נכשלו. האובדן הזה נשאר חלק מחייו.",
+        "הוא עדיין קיווה להיות עיתונאי. עם מכתב המלצה מקצין בצבא, הוא פנה לניו יורק טיימס. אולם לעיתון לא הייתה משרה עבורו.",
+        "גאי חזר כמה פעמים, אך המצב לא השתנה. בסופו של דבר בחר כיוון אחר. הוא עבד כמלצר וחזר לאוניברסיטה.",
+        "מטרתו השתנתה ככל שלמד יותר. הוא למד ספרות ובהמשך נעשה פרופסור. תוכנית שנכשלה הובילה אותו לעבודה שבה ימשיך במשך שנים רבות."
+      ],
+      "glossary": [
+        {
+          "phrase": "had been murdered",
+          "hebrew": "נרצחו"
+        },
+        {
+          "phrase": "Holocaust",
+          "hebrew": "השואה"
+        },
+        {
+          "phrase": "efforts",
+          "hebrew": "מאמצים"
+        },
+        {
+          "phrase": "rescue them",
+          "hebrew": "להציל אותם"
+        },
+        {
+          "phrase": "loss",
+          "hebrew": "אובדן"
+        },
+        {
+          "phrase": "remain part of his life",
+          "hebrew": "להישאר חלק מחייו"
+        },
+        {
+          "phrase": "journalist",
+          "hebrew": "עיתונאי"
+        },
+        {
+          "phrase": "letter of recommendation",
+          "hebrew": "מכתב המלצה"
+        },
+        {
+          "phrase": "army officer",
+          "hebrew": "קצין בצבא"
+        },
+        {
+          "phrase": "However",
+          "hebrew": "אולם; עם זאת"
+        },
+        {
+          "phrase": "several times",
+          "hebrew": "כמה פעמים"
+        },
+        {
+          "phrase": "situation",
+          "hebrew": "המצב"
+        },
+        {
+          "phrase": "Eventually",
+          "hebrew": "בסופו של דבר"
+        },
+        {
+          "phrase": "chose another direction",
+          "hebrew": "בחר כיוון אחר"
+        },
+        {
+          "phrase": "waiter",
+          "hebrew": "מלצר"
+        },
+        {
+          "phrase": "went back",
+          "hebrew": "חזר"
+        },
+        {
+          "phrase": "university",
+          "hebrew": "אוניברסיטה"
+        },
+        {
+          "phrase": "goal",
+          "hebrew": "מטרה"
+        },
+        {
+          "phrase": "literature",
+          "hebrew": "ספרות"
+        },
+        {
+          "phrase": "professor",
+          "hebrew": "פרופסור"
+        },
+        {
+          "phrase": "led him towards",
+          "hebrew": "הובילה אותו לעבר"
+        },
+        {
+          "phrase": "continue",
+          "hebrew": "להמשיך"
+        },
+        {
+          "phrase": "His efforts to rescue them had failed",
+          "hebrew": "מאמציו להציל אותם נכשלו"
+        },
+        {
+          "phrase": "A plan that had failed",
+          "hebrew": "תוכנית שנכשלה"
+        }
+      ],
+      "translationUnits": [
+        [
+          {
+            "text": "After the war,",
+            "hebrew": "לאחר המלחמה"
+          },
+          {
+            "text": "Guy learned",
+            "hebrew": "גאי גילה"
+          },
+          {
+            "text": "that his parents,",
+            "hebrew": "שהוריו"
+          },
+          {
+            "text": "brother and sister",
+            "hebrew": "אחיו ואחותו"
+          },
+          {
+            "text": "had been murdered",
+            "hebrew": "נרצחו"
+          },
+          {
+            "text": "in the Holocaust.",
+            "hebrew": "בשואה"
+          },
+          {
+            "text": "His efforts",
+            "hebrew": "מאמציו"
+          },
+          {
+            "text": "to rescue them",
+            "hebrew": "להציל אותם"
+          },
+          {
+            "text": "had failed.",
+            "hebrew": "נכשלו"
+          },
+          {
+            "text": "This loss",
+            "hebrew": "האובדן הזה"
+          },
+          {
+            "text": "would remain",
+            "hebrew": "יישאר"
+          },
+          {
+            "text": "part of his life.",
+            "hebrew": "חלק מחייו"
+          }
+        ],
+        [
+          {
+            "text": "He still hoped",
+            "hebrew": "הוא עדיין קיווה"
+          },
+          {
+            "text": "to become a journalist.",
+            "hebrew": "להיות עיתונאי"
+          },
+          {
+            "text": "With a letter of recommendation",
+            "hebrew": "עם מכתב המלצה"
+          },
+          {
+            "text": "from an army officer,",
+            "hebrew": "מקצין בצבא"
+          },
+          {
+            "text": "he went",
+            "hebrew": "הוא פנה"
+          },
+          {
+            "text": "to the New York Times.",
+            "hebrew": "לניו יורק טיימס"
+          },
+          {
+            "text": "However,",
+            "hebrew": "אולם"
+          },
+          {
+            "text": "the newspaper",
+            "hebrew": "לעיתון"
+          },
+          {
+            "text": "had no job",
+            "hebrew": "לא הייתה משרה"
+          },
+          {
+            "text": "for him.",
+            "hebrew": "עבורו"
+          }
+        ],
+        [
+          {
+            "text": "Guy returned",
+            "hebrew": "גאי חזר"
+          },
+          {
+            "text": "several times,",
+            "hebrew": "כמה פעמים"
+          },
+          {
+            "text": "but the situation",
+            "hebrew": "אך המצב"
+          },
+          {
+            "text": "did not change.",
+            "hebrew": "לא השתנה"
+          },
+          {
+            "text": "Eventually,",
+            "hebrew": "בסופו של דבר"
+          },
+          {
+            "text": "he chose",
+            "hebrew": "הוא בחר"
+          },
+          {
+            "text": "another direction.",
+            "hebrew": "כיוון אחר"
+          },
+          {
+            "text": "He worked",
+            "hebrew": "הוא עבד"
+          },
+          {
+            "text": "as a waiter",
+            "hebrew": "כמלצר"
+          },
+          {
+            "text": "and went back",
+            "hebrew": "וחזר"
+          },
+          {
+            "text": "to university.",
+            "hebrew": "לאוניברסיטה"
+          }
+        ],
+        [
+          {
+            "text": "His goal",
+            "hebrew": "מטרתו"
+          },
+          {
+            "text": "changed",
+            "hebrew": "השתנתה"
+          },
+          {
+            "text": "as he learned more.",
+            "hebrew": "ככל שלמד יותר"
+          },
+          {
+            "text": "He studied literature",
+            "hebrew": "הוא למד ספרות"
+          },
+          {
+            "text": "and later",
+            "hebrew": "ובהמשך"
+          },
+          {
+            "text": "became a professor.",
+            "hebrew": "נעשה פרופסור"
+          },
+          {
+            "text": "A plan",
+            "hebrew": "תוכנית"
+          },
+          {
+            "text": "that had failed",
+            "hebrew": "שנכשלה"
+          },
+          {
+            "text": "led him towards",
+            "hebrew": "הובילה אותו לעבר"
+          },
+          {
+            "text": "work he would continue",
+            "hebrew": "עבודה שבה ימשיך"
+          },
+          {
+            "text": "for many years.",
+            "hebrew": "במשך שנים רבות"
+          }
+        ]
+      ],
+      "readingPages": [
+        {
+          "paragraph": 0,
+          "wordStart": 0,
+          "wordEnd": 17,
+          "text": "After the war, Guy learned that his parents, brother and sister had been murdered in the Holocaust.",
+          "hebrew": "לאחר המלחמה גילה גאי שהוריו, אחיו ואחותו נרצחו בשואה."
+        },
+        {
+          "paragraph": 0,
+          "wordStart": 17,
+          "wordEnd": 32,
+          "text": "His efforts to rescue them had failed. This loss would remain part of his life.",
+          "hebrew": "מאמציו להציל אותם נכשלו. האובדן הזה נשאר חלק מחייו."
+        },
+        {
+          "paragraph": 1,
+          "wordStart": 0,
+          "wordEnd": 7,
+          "text": "He still hoped to become a journalist.",
+          "hebrew": "הוא עדיין קיווה להיות עיתונאי."
+        },
+        {
+          "paragraph": 1,
+          "wordStart": 7,
+          "wordEnd": 23,
+          "text": "With a letter of recommendation from an army officer, he went to the New York Times.",
+          "hebrew": "עם מכתב המלצה מקצין בצבא, הוא פנה לניו יורק טיימס."
+        },
+        {
+          "paragraph": 1,
+          "wordStart": 23,
+          "wordEnd": 31,
+          "text": "However, the newspaper had no job for him.",
+          "hebrew": "אולם לעיתון לא הייתה משרה עבורו."
+        },
+        {
+          "paragraph": 2,
+          "wordStart": 0,
+          "wordEnd": 15,
+          "text": "Guy returned several times, but the situation did not change. Eventually, he chose another direction.",
+          "hebrew": "גאי חזר כמה פעמים, אך המצב לא השתנה. בסופו של דבר בחר כיוון אחר."
+        },
+        {
+          "paragraph": 2,
+          "wordStart": 15,
+          "wordEnd": 25,
+          "text": "He worked as a waiter and went back to university.",
+          "hebrew": "הוא עבד כמלצר וחזר לאוניברסיטה."
+        },
+        {
+          "paragraph": 3,
+          "wordStart": 0,
+          "wordEnd": 15,
+          "text": "His goal changed as he learned more. He studied literature and later became a professor.",
+          "hebrew": "מטרתו השתנתה ככל שלמד יותר. הוא למד ספרות ובהמשך נעשה פרופסור."
+        },
+        {
+          "paragraph": 3,
+          "wordStart": 15,
+          "wordEnd": 30,
+          "text": "A plan that had failed led him towards work he would continue for many years.",
+          "hebrew": "תוכנית שנכשלה הובילה אותו לעבודה שבה ימשיך במשך שנים רבות."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleHe": "עתיד שאפשר לבנות",
+      "sceneLabel": "Keep learning. Leave room for possibility.",
+      "sceneLabelHe": "להמשיך ללמוד ולהשאיר מקום לאפשרויות חדשות",
+      "vocabulary": [
+        {
+          "word": "abilities",
+          "hebrew": "יכולות",
+          "definition": "things a person can do",
+          "exampleEnglish": "Guy had years ahead of him to discover abilities."
+        },
+        {
+          "word": "possibilities",
+          "hebrew": "אפשרויות",
+          "definition": "things that may happen or become possible",
+          "exampleEnglish": "He kept making room for new possibilities."
+        },
+        {
+          "word": "refugee",
+          "hebrew": "פליט",
+          "definition": "a person who has had to leave home because it is not safe",
+          "exampleEnglish": "Guy once entered an American classroom as a refugee."
+        },
+        {
+          "word": "rewards",
+          "hebrew": "מקורות סיפוק; דברים טובים שמקבלים בעקבות מעשה",
+          "definition": "good things that come from something you do",
+          "exampleEnglish": "His students' success became one of the greatest rewards of his life."
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which three actions does Guy's life encourage young people to take?",
+          "questionHe": "אילו שלושה דברים מעודד סיפור חייו של גאי צעירים לעשות?",
+          "modelAnswer": "Set goals, accept help and keep learning.",
+          "modelAnswerHe": "להציב מטרות, לקבל עזרה ולהמשיך ללמוד."
+        },
+        {
+          "question": "How can believing in a better future help someone?",
+          "questionHe": "כיצד האמונה בעתיד טוב יותר יכולה לעזור לאדם?",
+          "modelAnswer": "It can give someone a reason to take the next step and keep looking for new possibilities.",
+          "modelAnswerHe": "היא יכולה לתת לאדם סיבה לעשות את הצעד הבא ולהמשיך לחפש אפשרויות חדשות."
+        }
+      ],
+      "paragraphsHe": [
+        "בגיל חמש־עשרה גאי לא יכול היה לדעת מה צופן לו העתיד. היו לפניו שנים שבהן יוכל ללמוד, לגלות יכולות ולשנות כיוון. ההחלטות שקיבל בבית הספר הפכו לחלק מהאדם הבוגר שיהיה.",
+        "הוא נזקק לעזרתם של קרובי משפחה, מורים ואחרים. חלק מהמטרות נותרו מחוץ להישג יד, ועל חלק מהאובדנים לא היה אפשר לפצות לעולם. ובכל זאת, הוא המשיך לפנות מקום לאפשרויות חדשות.",
+        "לצעירים מציעים חייו מסר חשוב: הציבו מטרות, קבלו עזרה והמשיכו ללמוד. אפשר לשנות את התוכניות עם ההתבגרות. האמונה שהחיים יכולים להשתפר יכולה לתת לכם סיבה לעשות את הצעד הבא.",
+        "גאי נכנס פעם לכיתה אמריקאית כפליט. בהמשך הקדיש עשרות שנים להוראת סטודנטים. הצלחתם הייתה לאחד ממקורות הסיפוק הגדולים ביותר בחייו."
+      ],
+      "glossary": [
+        {
+          "phrase": "what his future would hold",
+          "hebrew": "מה צופן לו העתיד"
+        },
+        {
+          "phrase": "years ahead of him",
+          "hebrew": "שנים לפניו"
+        },
+        {
+          "phrase": "discover abilities",
+          "hebrew": "לגלות יכולות"
+        },
+        {
+          "phrase": "change direction",
+          "hebrew": "לשנות כיוון"
+        },
+        {
+          "phrase": "decisions",
+          "hebrew": "החלטות"
+        },
+        {
+          "phrase": "adult",
+          "hebrew": "אדם בוגר"
+        },
+        {
+          "phrase": "relatives",
+          "hebrew": "קרובי משפחה"
+        },
+        {
+          "phrase": "out of reach",
+          "hebrew": "מחוץ להישג יד"
+        },
+        {
+          "phrase": "losses",
+          "hebrew": "אובדנים"
+        },
+        {
+          "phrase": "could never be repaired",
+          "hebrew": "אי אפשר היה לתקן לעולם"
+        },
+        {
+          "phrase": "Still",
+          "hebrew": "ובכל זאת"
+        },
+        {
+          "phrase": "making room",
+          "hebrew": "מפנה מקום"
+        },
+        {
+          "phrase": "possibilities",
+          "hebrew": "אפשרויות"
+        },
+        {
+          "phrase": "offers",
+          "hebrew": "מציע"
+        },
+        {
+          "phrase": "message",
+          "hebrew": "מסר"
+        },
+        {
+          "phrase": "set goals",
+          "hebrew": "להציב מטרות"
+        },
+        {
+          "phrase": "accept help",
+          "hebrew": "לקבל עזרה"
+        },
+        {
+          "phrase": "keep learning",
+          "hebrew": "להמשיך ללמוד"
+        },
+        {
+          "phrase": "as you grow",
+          "hebrew": "ככל שמתבגרים"
+        },
+        {
+          "phrase": "Believing",
+          "hebrew": "האמונה"
+        },
+        {
+          "phrase": "reason",
+          "hebrew": "סיבה"
+        },
+        {
+          "phrase": "take the next step",
+          "hebrew": "לעשות את הצעד הבא"
+        },
+        {
+          "phrase": "refugee",
+          "hebrew": "פליט"
+        },
+        {
+          "phrase": "decades",
+          "hebrew": "עשרות שנים"
+        },
+        {
+          "phrase": "success",
+          "hebrew": "הצלחה"
+        },
+        {
+          "phrase": "greatest rewards",
+          "hebrew": "מקורות הסיפוק הגדולים ביותר"
+        }
+      ],
+      "translationUnits": [
+        [
+          {
+            "text": "At fifteen,",
+            "hebrew": "בגיל חמש־עשרה"
+          },
+          {
+            "text": "Guy could not know",
+            "hebrew": "גאי לא יכול היה לדעת"
+          },
+          {
+            "text": "what his future would hold.",
+            "hebrew": "מה צופן לו העתיד"
+          },
+          {
+            "text": "He had",
+            "hebrew": "היו לו"
+          },
+          {
+            "text": "years ahead of him",
+            "hebrew": "שנים לפניו"
+          },
+          {
+            "text": "in which to learn,",
+            "hebrew": "שבהן יוכל ללמוד"
+          },
+          {
+            "text": "discover abilities",
+            "hebrew": "לגלות יכולות"
+          },
+          {
+            "text": "and change direction.",
+            "hebrew": "ולשנות כיוון"
+          },
+          {
+            "text": "The decisions",
+            "hebrew": "ההחלטות"
+          },
+          {
+            "text": "he made at school",
+            "hebrew": "שקיבל בבית הספר"
+          },
+          {
+            "text": "became part of",
+            "hebrew": "הפכו לחלק מ־"
+          },
+          {
+            "text": "the adult",
+            "hebrew": "האדם הבוגר"
+          },
+          {
+            "text": "he would become.",
+            "hebrew": "שיהיה"
+          }
+        ],
+        [
+          {
+            "text": "He needed help",
+            "hebrew": "הוא נזקק לעזרה"
+          },
+          {
+            "text": "from relatives,",
+            "hebrew": "מקרובי משפחה"
+          },
+          {
+            "text": "teachers and others.",
+            "hebrew": "ממורים ומאחרים"
+          },
+          {
+            "text": "Some goals",
+            "hebrew": "חלק מהמטרות"
+          },
+          {
+            "text": "remained out of reach,",
+            "hebrew": "נותרו מחוץ להישג יד"
+          },
+          {
+            "text": "and some losses",
+            "hebrew": "ועל חלק מהאובדנים"
+          },
+          {
+            "text": "could never be repaired.",
+            "hebrew": "לא היה אפשר לפצות לעולם"
+          },
+          {
+            "text": "Still,",
+            "hebrew": "ובכל זאת"
+          },
+          {
+            "text": "he kept making room",
+            "hebrew": "הוא המשיך לפנות מקום"
+          },
+          {
+            "text": "for new possibilities.",
+            "hebrew": "לאפשרויות חדשות"
+          }
+        ],
+        [
+          {
+            "text": "For young people,",
+            "hebrew": "עבור צעירים"
+          },
+          {
+            "text": "his life offers",
+            "hebrew": "חייו מציעים"
+          },
+          {
+            "text": "an important message:",
+            "hebrew": "מסר חשוב"
+          },
+          {
+            "text": "set goals,",
+            "hebrew": "הציבו מטרות"
+          },
+          {
+            "text": "accept help",
+            "hebrew": "קבלו עזרה"
+          },
+          {
+            "text": "and keep learning.",
+            "hebrew": "והמשיכו ללמוד"
+          },
+          {
+            "text": "You can change",
+            "hebrew": "אפשר לשנות"
+          },
+          {
+            "text": "your plans",
+            "hebrew": "את התוכניות שלכם"
+          },
+          {
+            "text": "as you grow.",
+            "hebrew": "ככל שמתבגרים"
+          },
+          {
+            "text": "Believing",
+            "hebrew": "האמונה"
+          },
+          {
+            "text": "that life can become better",
+            "hebrew": "שהחיים יכולים להשתפר"
+          },
+          {
+            "text": "can give you",
+            "hebrew": "יכולה לתת לכם"
+          },
+          {
+            "text": "a reason",
+            "hebrew": "סיבה"
+          },
+          {
+            "text": "to take the next step.",
+            "hebrew": "לעשות את הצעד הבא"
+          }
+        ],
+        [
+          {
+            "text": "Guy once entered",
+            "hebrew": "גאי נכנס פעם"
+          },
+          {
+            "text": "an American classroom",
+            "hebrew": "לכיתה אמריקאית"
+          },
+          {
+            "text": "as a refugee.",
+            "hebrew": "כפליט"
+          },
+          {
+            "text": "Later,",
+            "hebrew": "בהמשך"
+          },
+          {
+            "text": "he spent decades",
+            "hebrew": "הוא הקדיש עשרות שנים"
+          },
+          {
+            "text": "teaching students.",
+            "hebrew": "להוראת סטודנטים"
+          },
+          {
+            "text": "Their success",
+            "hebrew": "הצלחתם"
+          },
+          {
+            "text": "became one of",
+            "hebrew": "הייתה לאחד מ־"
+          },
+          {
+            "text": "the greatest rewards",
+            "hebrew": "מקורות הסיפוק הגדולים ביותר"
+          },
+          {
+            "text": "of his life.",
+            "hebrew": "בחייו"
+          }
+        ]
+      ],
+      "readingPages": [
+        {
+          "paragraph": 0,
+          "wordStart": 0,
+          "wordEnd": 11,
+          "text": "At fifteen, Guy could not know what his future would hold.",
+          "hebrew": "בגיל חמש־עשרה גאי לא יכול היה לדעת מה צופן לו העתיד."
+        },
+        {
+          "paragraph": 0,
+          "wordStart": 11,
+          "wordEnd": 26,
+          "text": "He had years ahead of him in which to learn, discover abilities and change direction.",
+          "hebrew": "היו לפניו שנים שבהן יוכל ללמוד, לגלות יכולות ולשנות כיוון."
+        },
+        {
+          "paragraph": 0,
+          "wordStart": 26,
+          "wordEnd": 40,
+          "text": "The decisions he made at school became part of the adult he would become.",
+          "hebrew": "ההחלטות שקיבל בבית הספר הפכו לחלק מהאדם הבוגר שיהיה."
+        },
+        {
+          "paragraph": 1,
+          "wordStart": 0,
+          "wordEnd": 8,
+          "text": "He needed help from relatives, teachers and others.",
+          "hebrew": "הוא נזקק לעזרתם של קרובי משפחה, מורים ואחרים."
+        },
+        {
+          "paragraph": 1,
+          "wordStart": 8,
+          "wordEnd": 21,
+          "text": "Some goals remained out of reach, and some losses could never be repaired.",
+          "hebrew": "חלק מהמטרות נותרו מחוץ להישג יד, ועל חלק מהאובדנים לא היה אפשר לפצות לעולם."
+        },
+        {
+          "paragraph": 1,
+          "wordStart": 21,
+          "wordEnd": 29,
+          "text": "Still, he kept making room for new possibilities.",
+          "hebrew": "ובכל זאת, הוא המשיך לפנות מקום לאפשרויות חדשות."
+        },
+        {
+          "paragraph": 2,
+          "wordStart": 0,
+          "wordEnd": 16,
+          "text": "For young people, his life offers an important message: set goals, accept help and keep learning.",
+          "hebrew": "לצעירים מציעים חייו מסר חשוב: הציבו מטרות, קבלו עזרה והמשיכו ללמוד."
+        },
+        {
+          "paragraph": 2,
+          "wordStart": 16,
+          "wordEnd": 24,
+          "text": "You can change your plans as you grow.",
+          "hebrew": "אפשר לשנות את התוכניות עם ההתבגרות."
+        },
+        {
+          "paragraph": 2,
+          "wordStart": 24,
+          "wordEnd": 40,
+          "text": "Believing that life can become better can give you a reason to take the next step.",
+          "hebrew": "האמונה שהחיים יכולים להשתפר יכולה לתת לכם סיבה לעשות את הצעד הבא."
+        },
+        {
+          "paragraph": 3,
+          "wordStart": 0,
+          "wordEnd": 15,
+          "text": "Guy once entered an American classroom as a refugee. Later, he spent decades teaching students.",
+          "hebrew": "גאי נכנס פעם לכיתה אמריקאית כפליט. בהמשך הקדיש עשרות שנים להוראת סטודנטים."
+        },
+        {
+          "paragraph": 3,
+          "wordStart": 15,
+          "wordEnd": 26,
+          "text": "Their success became one of the greatest rewards of his life.",
+          "hebrew": "הצלחתם הייתה לאחד ממקורות הסיפוק הגדולים ביותר בחייו."
+        }
+      ]
+    }
+  ],
+  "finalReflection": {
+    "title": "Your next step",
+    "titleHe": "הצעד הבא שלכם",
+    "question": "What goal would you like to work towards, and what is one step you can take now?",
+    "questionHe": "לאיזו מטרה הייתם רוצים להתקדם, ומהו צעד אחד שתוכלו לעשות כבר עכשיו?",
+    "sentenceStarters": [
+      "My goal is to…",
+      "One step I can take now is…",
+      "Someone who can help me is…"
+    ],
+    "sentenceStartersHe": [
+      "המטרה שלי היא…",
+      "צעד אחד שאוכל לעשות עכשיו הוא…",
+      "מישהו שיוכל לעזור לי הוא…"
+    ],
+    "example": "My goal is to read more confidently in English. One step I can take now is to read a short paragraph aloud every day.",
+    "exampleHe": "המטרה שלי היא לקרוא באנגלית בביטחון רב יותר. צעד אחד שאוכל לעשות עכשיו הוא לקרוא פסקה קצרה בקול בכל יום."
+  },
+  "teacherNoteHe": "הסיפור מציג תקווה כמניע ללמידה ולפעולה, לצד עזרה מאחרים. הוא אינו מבטיח שכל מטרה תתגשם או שהאובדן ייעלם. ניתן לשנות מטרות לאורך החיים.",
+  "contentReview": {
+    "originalEnglishChanged": false,
+    "paragraphTranslationsMatchOriginalOrder": true,
+    "vocabularyPerChapter": 4,
+    "questionsPerChapter": 2,
+    "personalNamesNotTranslatedAsCommonWords": true,
+    "translationUnitsCoverAllOriginalParagraphsExactly": true,
+    "translationUnitCount": 287,
+    "translationWordCount": 748,
+    "longestTranslationUnitWords": 5,
+    "readingPagesPreserveFullOriginalText": true,
+    "readingPageCount": 57,
+    "maximumReadingPageWords": 18
+  }
+}
