@@ -3,6 +3,23 @@
   "grade": 8,
   "materials": [
     {
+      "id": "translation-challenge-70",
+      "title": "Translation Challenge · 70 אתגרים",
+      "description": "מצגת לכיתה ח׳: קל–מתאים שלוש פעמים, ואז קשה. 30 שאלות רב־ברירה ו־40 פתוחות. חץ למטה בלבד חושף תשובה, הסבר קצר ואת השאלה הבאה. 210 שלבי תצוגה ודף עבודה PDF.",
+      "url": "grade8/translation-challenge/",
+      "worksheet": "grade8/translation-challenge/worksheet.pdf",
+      "unit": "Grammar practice",
+      "date": "2026-11-26"
+    },
+    {
+      "id": "translation-challenge-worksheet",
+      "title": "דף עבודה PDF · אתגרי תרגום לכיתה ח׳",
+      "description": "שני עמודים להדפסה, 14 אתגרים מתוך המצגת עם מספרים תואמים, מקום לכתיבה וקוד QR למצגת.",
+      "url": "grade8/translation-challenge/worksheet.pdf",
+      "unit": "Grammar practice",
+      "date": "2026-11-26"
+    },
+    {
       "id": "test2-practice-60",
       "title": "Test 2 Practice — 60 Interactive Exercises",
       "description": "חזרה למבחן 2 על בסיס דף העבודה: אוצר מילים, דקדוק, איות, בניית משפטים, תרגום וכתיבה. שלוש רמות, רמזים, בדיקה ושמירת התקדמות.",

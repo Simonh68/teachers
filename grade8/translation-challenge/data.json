@@ -1,0 +1,1396 @@
+{
+  "titleEn": "Translation Challenge · Grade 8",
+  "titleHe": "אתגרי תרגום · כיתה ח׳",
+  "rounds": [
+    {
+      "id": 1,
+      "titleEn": "Everyday actions",
+      "titleHe": "פעולות והרגלים",
+      "focusEn": "Present Simple: affirmative",
+      "focusHe": "הווה פשוט: משפטי חיוב",
+      "items": [
+        {
+          "id": 1,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "he",
+          "prompt": "אני משחק כדורגל בכל יום.",
+          "answer": "I play football every day.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Use play with I to describe an everyday habit.",
+          "explanationHe": "עם I משתמשים בצורת הבסיס play כדי לתאר הרגל.",
+          "options": [
+            {
+              "text": "I play football every day.",
+              "correct": true
+            },
+            {
+              "text": "I plays football every day.",
+              "correct": false
+            },
+            {
+              "text": "I am play football every day.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "אחי משחק כדורגל אחרי בית הספר.",
+          "answer": "My brother plays football after school.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "My brother is one person, so play becomes plays.",
+          "explanationHe": "My brother שקול ל־he, ולכן מוסיפים s לפועל: plays.",
+          "options": []
+        },
+        {
+          "id": 3,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "en",
+          "prompt": "We eat lunch at home.",
+          "answer": "אנחנו אוכלים ארוחת צהריים בבית.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "We eat describes a regular action, and at home tells us where.",
+          "explanationHe": "We eat מתאר פעולה שגרתית, ו־at home מציין היכן.",
+          "options": [
+            {
+              "text": "אנחנו אכלנו ארוחת צהריים בבית.",
+              "correct": false
+            },
+            {
+              "text": "אנחנו אוכלים ארוחת צהריים בבית.",
+              "correct": true
+            },
+            {
+              "text": "הם אוכלים ארוחת צהריים בבית.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "Daniel usually eats lunch with his family.",
+          "answer": "דניאל בדרך כלל אוכל ארוחת צהריים עם המשפחה שלו.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Usually shows a habit, and Daniel takes the verb eats.",
+          "explanationHe": "Usually מציין הרגל, ועם Daniel משתמשים בפועל eats.",
+          "options": []
+        },
+        {
+          "id": 5,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "he",
+          "prompt": "אני הולך לבית הספר בבוקר.",
+          "answer": "I go to school in the morning.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Use go with I in the Present Simple.",
+          "explanationHe": "בהווה פשוט משתמשים ב־go אחרי I.",
+          "options": [
+            {
+              "text": "I goes to school in the morning.",
+              "correct": false
+            },
+            {
+              "text": "I going to school in the morning.",
+              "correct": false
+            },
+            {
+              "text": "I go to school in the morning.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "אחותי הולכת לבית הספר בשמונה בכל בוקר.",
+          "answer": "My sister goes to school at eight every morning.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "With my sister, go becomes goes in the Present Simple.",
+          "explanationHe": "אחרי my sister, הפועל go משתנה ל־goes בהווה פשוט.",
+          "options": []
+        },
+        {
+          "id": 7,
+          "level": "challenge",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "My brother studies English every day, and I help him with his homework.",
+          "answer": "אחי לומד אנגלית בכל יום, ואני עוזר לו בשיעורי הבית שלו.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Use studies with my brother and help with I.",
+          "explanationHe": "משתמשים ב־studies עם my brother וב־help עם I.",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleEn": "Habits: negatives and questions",
+      "titleHe": "הווה פשוט: שלילה ושאלות",
+      "focusEn": "do / does / don't / doesn't",
+      "focusHe": "שימוש ב־do וב־does בשלילה ובשאלות",
+      "items": [
+        {
+          "id": 8,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "en",
+          "prompt": "I don't like milk.",
+          "answer": "אני לא אוהב חלב.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Don't makes like negative: I do not like milk.",
+          "explanationHe": "Don’t יוצר שלילה: אני לא אוהב חלב.",
+          "options": [
+            {
+              "text": "אני לא אוהב חלב.",
+              "correct": true
+            },
+            {
+              "text": "אני אוהב חלב.",
+              "correct": false
+            },
+            {
+              "text": "אני לא שותה חלב.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "My brother doesn't drink milk in the morning.",
+          "answer": "אחי לא שותה חלב בבוקר.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "After doesn't, use the base verb drink.",
+          "explanationHe": "אחרי doesn’t משתמשים בצורת הבסיס drink, בלי s.",
+          "options": []
+        },
+        {
+          "id": 10,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "he",
+          "prompt": "האם אתה משחק כדורגל?",
+          "answer": "Do you play football?",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Start a Present Simple question with Do when the subject is you.",
+          "explanationHe": "שאלת הווה פשוט עם you מתחילה ב־Do.",
+          "options": [
+            {
+              "text": "Does you play football?",
+              "correct": false
+            },
+            {
+              "text": "Do you play football?",
+              "correct": true
+            },
+            {
+              "text": "Do you plays football?",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "האם אחיך משחק כדורגל אחרי בית הספר?",
+          "answer": "Does your brother play football after school?",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Use Does with your brother and keep play in its base form.",
+          "explanationHe": "משתמשים ב־Does עם your brother, והפועל play נשאר בצורת הבסיס.",
+          "options": []
+        },
+        {
+          "id": 12,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "en",
+          "prompt": "Do they read books?",
+          "answer": "האם הם קוראים ספרים?",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Use Do to ask a Present Simple question about they.",
+          "explanationHe": "משתמשים ב־Do כדי לשאול שאלת הווה פשוט על they.",
+          "options": [
+            {
+              "text": "האם הוא קורא ספרים?",
+              "correct": false
+            },
+            {
+              "text": "האם הם קראו ספרים?",
+              "correct": false
+            },
+            {
+              "text": "האם הם קוראים ספרים?",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "Where does your friend study English?",
+          "answer": "איפה החבר שלך לומד אנגלית?",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Where comes before does, and study stays in its base form.",
+          "explanationHe": "Where בא לפני does, והפועל study נשאר בצורת הבסיס.",
+          "options": []
+        },
+        {
+          "id": 14,
+          "level": "challenge",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "אחי אוהב כדורגל, אבל הוא לא משחק בכל יום.",
+          "answer": "My brother likes football, but he doesn't play every day.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Use likes in the positive clause and doesn't play in the negative clause.",
+          "explanationHe": "בחלק החיובי משתמשים ב־likes, ובחלק השלילי ב־doesn’t play.",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleEn": "What is happening now?",
+      "titleHe": "מה קורה עכשיו?",
+      "focusEn": "Present Continuous: am / is / are + -ing",
+      "focusHe": "הווה ממושך: פעולה המתרחשת עכשיו",
+      "items": [
+        {
+          "id": 15,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "he",
+          "prompt": "אני קורא עכשיו.",
+          "answer": "I am reading now.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "I am reading describes an action happening now.",
+          "explanationHe": "I am reading מתאר פעולה שמתרחשת עכשיו.",
+          "options": [
+            {
+              "text": "I am reading now.",
+              "correct": true
+            },
+            {
+              "text": "I reading now.",
+              "correct": false
+            },
+            {
+              "text": "I am read now.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "אחי קורא עכשיו ספר בחדר שלו.",
+          "answer": "My brother is reading a book in his room now.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Use is reading because my brother is one person.",
+          "explanationHe": "משתמשים ב־is reading כי my brother הוא נושא ביחיד.",
+          "options": []
+        },
+        {
+          "id": 17,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "en",
+          "prompt": "They are playing now.",
+          "answer": "הם משחקים עכשיו.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Use are playing with they for an action happening now.",
+          "explanationHe": "משתמשים ב־are playing עם they לפעולה שמתרחשת עכשיו.",
+          "options": [
+            {
+              "text": "הוא משחק עכשיו.",
+              "correct": false
+            },
+            {
+              "text": "הם משחקים עכשיו.",
+              "correct": true
+            },
+            {
+              "text": "הם ישחקו מחר.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "The boys are playing football in the park now.",
+          "answer": "הבנים משחקים עכשיו כדורגל בפארק.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "The boys is plural, so use are playing.",
+          "explanationHe": "The boys הוא נושא ברבים, ולכן משתמשים ב־are playing.",
+          "options": []
+        },
+        {
+          "id": 19,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "he",
+          "prompt": "אני לא ישן עכשיו.",
+          "answer": "I am not sleeping now.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Put not after am and keep sleeping with -ing.",
+          "explanationHe": "מוסיפים not אחרי am, והפועל נשאר sleeping עם ing.",
+          "options": [
+            {
+              "text": "I not sleeping now.",
+              "correct": false
+            },
+            {
+              "text": "I am not sleep now.",
+              "correct": false
+            },
+            {
+              "text": "I am not sleeping now.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "האם אתה מקשיב למורה עכשיו?",
+          "answer": "Are you listening to the teacher now?",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Put Are before you to ask a Present Continuous question.",
+          "explanationHe": "בשאלת הווה ממושך מעבירים את Are לפני you.",
+          "options": []
+        },
+        {
+          "id": 21,
+          "level": "challenge",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "I am doing my homework now, but my brother is watching TV.",
+          "answer": "אני עושה עכשיו את שיעורי הבית שלי, אבל אחי צופה בטלוויזיה.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Am doing and is watching describe two actions happening now.",
+          "explanationHe": "Am doing ו־is watching מתארים שתי פעולות שמתרחשות עכשיו.",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titleEn": "What happened?",
+      "titleHe": "מה קרה בעבר?",
+      "focusEn": "Past Simple: affirmative; was / were",
+      "focusHe": "עבר פשוט: משפטי חיוב; was ו־were",
+      "items": [
+        {
+          "id": 22,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "en",
+          "prompt": "I played football yesterday.",
+          "answer": "שיחקתי כדורגל אתמול.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Yesterday shows the past, so play becomes played.",
+          "explanationHe": "Yesterday מציין עבר, ולכן play הופך ל־played.",
+          "options": [
+            {
+              "text": "שיחקתי כדורגל אתמול.",
+              "correct": true
+            },
+            {
+              "text": "אשחק כדורגל מחר.",
+              "correct": false
+            },
+            {
+              "text": "אני משחק כדורגל בכל יום.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "We visited our grandparents last week.",
+          "answer": "ביקרנו את סבא וסבתא שלנו בשבוע שעבר.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Visited is the past form of visit, and last week tells us when.",
+          "explanationHe": "Visited היא צורת העבר של visit, ו־last week מציין מתי.",
+          "options": []
+        },
+        {
+          "id": 24,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "he",
+          "prompt": "הלכתי הביתה אתמול.",
+          "answer": "I went home yesterday.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Went is the past form of go.",
+          "explanationHe": "Went היא צורת העבר של go.",
+          "options": [
+            {
+              "text": "I goed home yesterday.",
+              "correct": false
+            },
+            {
+              "text": "I went home yesterday.",
+              "correct": true
+            },
+            {
+              "text": "I go home yesterday.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "אחי הלך אתמול לפארק עם החברים שלו.",
+          "answer": "My brother went to the park with his friends yesterday.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Use went for the past with my brother, without adding -s.",
+          "explanationHe": "משתמשים ב־went בעבר גם עם my brother, בלי להוסיף s.",
+          "options": []
+        },
+        {
+          "id": 26,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "en",
+          "prompt": "I was tired yesterday.",
+          "answer": "הייתי עייף אתמול.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Was is the past form of am when the subject is I.",
+          "explanationHe": "Was היא צורת העבר של am כשהנושא הוא I.",
+          "options": [
+            {
+              "text": "הייתי רעב אתמול.",
+              "correct": false
+            },
+            {
+              "text": "אהיה עייף מחר.",
+              "correct": false
+            },
+            {
+              "text": "הייתי עייף אתמול.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "We were at home yesterday afternoon.",
+          "answer": "היינו בבית אתמול אחר הצהריים.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Use were with we to describe where we were in the past.",
+          "explanationHe": "משתמשים ב־were עם we כדי לתאר היכן היינו בעבר.",
+          "options": []
+        },
+        {
+          "id": 28,
+          "level": "challenge",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "אתמול שיחקתי כדורגל והלכתי הביתה עם אחי.",
+          "answer": "Yesterday I played football and went home with my brother.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Both actions happened yesterday, so use played and went.",
+          "explanationHe": "שתי הפעולות התרחשו אתמול, ולכן משתמשים ב־played וב־went.",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleEn": "Questions about the past",
+      "titleHe": "עבר פשוט: שלילה ושאלות",
+      "focusEn": "did / didn't + base verb",
+      "focusHe": "אחרי did או didn’t משתמשים בצורת הבסיס של הפועל",
+      "items": [
+        {
+          "id": 29,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "he",
+          "prompt": "לא שיחקתי אתמול.",
+          "answer": "I didn't play yesterday.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "After didn't, use the base verb play.",
+          "explanationHe": "אחרי didn’t משתמשים בצורת הבסיס play.",
+          "options": [
+            {
+              "text": "I didn't play yesterday.",
+              "correct": true
+            },
+            {
+              "text": "I didn't played yesterday.",
+              "correct": false
+            },
+            {
+              "text": "I don't played yesterday.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "אחי לא שיחק כדורגל אתמול אחר הצהריים.",
+          "answer": "My brother didn't play football yesterday afternoon.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Didn't already marks the past, so use play rather than played.",
+          "explanationHe": "Didn’t כבר מסמן עבר, ולכן הפועל אחריו הוא play ולא played.",
+          "options": []
+        },
+        {
+          "id": 31,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "en",
+          "prompt": "Did you go home?",
+          "answer": "האם הלכת הביתה?",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Did makes the question past, and go stays in its base form.",
+          "explanationHe": "Did יוצר שאלה בעבר, והפועל go נשאר בצורת הבסיס.",
+          "options": [
+            {
+              "text": "האם אתה הולך הביתה?",
+              "correct": false
+            },
+            {
+              "text": "האם הלכת הביתה?",
+              "correct": true
+            },
+            {
+              "text": "האם הלכת לבית הספר?",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "When did your friends go home yesterday?",
+          "answer": "מתי החברים שלך הלכו הביתה אתמול?",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Put When before did and use the base verb go.",
+          "explanationHe": "שמים When לפני did ומשתמשים בצורת הבסיס go.",
+          "options": []
+        },
+        {
+          "id": 33,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "he",
+          "prompt": "האם קראת את הספר?",
+          "answer": "Did you read the book?",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "After Did, read is the base verb.",
+          "explanationHe": "אחרי Did, הפועל read הוא בצורת הבסיס.",
+          "options": [
+            {
+              "text": "Did you reading the book?",
+              "correct": false
+            },
+            {
+              "text": "Did you reads the book?",
+              "correct": false
+            },
+            {
+              "text": "Did you read the book?",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "האם החבר שלך קרא את הספר בשבוע שעבר?",
+          "answer": "Did your friend read the book last week?",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Use Did with your friend and keep read in its base form.",
+          "explanationHe": "משתמשים ב־Did עם your friend, והפועל read נשאר בצורת הבסיס.",
+          "options": []
+        },
+        {
+          "id": 35,
+          "level": "challenge",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "We didn't go to the park yesterday, but we played football at school.",
+          "answer": "לא הלכנו לפארק אתמול, אבל שיחקנו כדורגל בבית הספר.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "The negative clause uses didn't go, and the positive clause uses played.",
+          "explanationHe": "בחלק השלילי משתמשים ב־didn’t go, ובחלק החיובי ב־played.",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleEn": "Talking about the future",
+      "titleHe": "מדברים על העתיד",
+      "focusEn": "will / won't; be going to",
+      "focusHe": "עתיד באמצעות will ו־going to",
+      "items": [
+        {
+          "id": 36,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "en",
+          "prompt": "I will help you.",
+          "answer": "אני אעזור לך.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Will help describes help in the future.",
+          "explanationHe": "Will help מתאר עזרה שתינתן בעתיד.",
+          "options": [
+            {
+              "text": "אני אעזור לך.",
+              "correct": true
+            },
+            {
+              "text": "אני עוזר לך.",
+              "correct": false
+            },
+            {
+              "text": "אני עזרתי לך.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "My friends will help me with my homework tomorrow.",
+          "answer": "החברים שלי יעזרו לי מחר בשיעורי הבית.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Use will and the base verb help to talk about tomorrow.",
+          "explanationHe": "משתמשים ב־will ובצורת הבסיס help כדי לדבר על מחר.",
+          "options": []
+        },
+        {
+          "id": 38,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "he",
+          "prompt": "אני אשחק מחר.",
+          "answer": "I am going to play tomorrow.",
+          "cueEn": "Use going to.",
+          "cueHe": "השתמשו ב־going to.",
+          "explanationEn": "With I, the future pattern is am going to and the base verb play.",
+          "explanationHe": "עם I, מבנה העתיד הוא am going to ואחריו צורת הבסיס play.",
+          "options": [
+            {
+              "text": "I am going play tomorrow.",
+              "correct": false
+            },
+            {
+              "text": "I am going to play tomorrow.",
+              "correct": true
+            },
+            {
+              "text": "I going to play tomorrow.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "אנחנו נשחק כדורגל אחרי בית הספר.",
+          "answer": "We are going to play football after school.",
+          "cueEn": "Use going to.",
+          "cueHe": "השתמשו ב־going to.",
+          "explanationEn": "With we, the future pattern is are going to and the base verb play.",
+          "explanationHe": "עם we, מבנה העתיד הוא are going to ואחריו צורת הבסיס play.",
+          "options": []
+        },
+        {
+          "id": 40,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "en",
+          "prompt": "He won't come tomorrow.",
+          "answer": "הוא לא יבוא מחר.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Won't means will not, so the sentence is negative and future.",
+          "explanationHe": "Won’t הוא קיצור של will not, ולכן המשפט מביע שלילה בעתיד.",
+          "options": [
+            {
+              "text": "הוא יבוא מחר.",
+              "correct": false
+            },
+            {
+              "text": "הוא לא בא אתמול.",
+              "correct": false
+            },
+            {
+              "text": "הוא לא יבוא מחר.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "Our teacher won't give us homework tomorrow.",
+          "answer": "המורה שלנו לא ייתן לנו שיעורי בית מחר.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Use the base verb give after won't.",
+          "explanationHe": "אחרי won’t משתמשים בצורת הבסיס give.",
+          "options": []
+        },
+        {
+          "id": 42,
+          "level": "challenge",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "אני לא אשחק מחר בבוקר, אבל אני אעזור לאחי בשיעורי הבית שלו.",
+          "answer": "I won't play tomorrow morning, but I will help my brother with his homework.",
+          "cueEn": "Use will and won't.",
+          "cueHe": "השתמשו ב־will וב־won’t.",
+          "explanationEn": "Use won't play for the negative action and will help for the positive action.",
+          "explanationHe": "משתמשים ב־won’t play לפעולה השלילית וב־will help לפעולה החיובית.",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleEn": "Ability and permission",
+      "titleHe": "יכולת ובקשת רשות",
+      "focusEn": "can / can't + base verb",
+      "focusHe": "יכולת ובקשת רשות באמצעות can",
+      "items": [
+        {
+          "id": 43,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "he",
+          "prompt": "אני יכול לשחות.",
+          "answer": "I can swim.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Use the base verb swim directly after can.",
+          "explanationHe": "אחרי can באה צורת הבסיס swim, בלי to.",
+          "options": [
+            {
+              "text": "I can swim.",
+              "correct": true
+            },
+            {
+              "text": "I can to swim.",
+              "correct": false
+            },
+            {
+              "text": "I can swimming.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "אחי יכול לשחות מהר מאוד.",
+          "answer": "My brother can swim very fast.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Can takes the base verb swim even with my brother.",
+          "explanationHe": "אחרי can משתמשים בצורת הבסיס swim גם כשהנושא הוא my brother.",
+          "options": []
+        },
+        {
+          "id": 45,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "en",
+          "prompt": "I can't come today.",
+          "answer": "אני לא יכול לבוא היום.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Can't means cannot, so the speaker is not able to come today.",
+          "explanationHe": "Can’t פירושו cannot: הדובר לא יכול לבוא היום.",
+          "options": [
+            {
+              "text": "אני יכול לבוא היום.",
+              "correct": false
+            },
+            {
+              "text": "אני לא יכול לבוא היום.",
+              "correct": true
+            },
+            {
+              "text": "אני לא יכול לבוא מחר.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 46,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "My friend can't come to school today.",
+          "answer": "החבר שלי לא יכול לבוא לבית הספר היום.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "After can't, use the base verb come without to.",
+          "explanationHe": "אחרי can’t משתמשים בצורת הבסיס come, בלי to.",
+          "options": []
+        },
+        {
+          "id": 47,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "he",
+          "prompt": "האם מותר לי לפתוח את החלון?",
+          "answer": "Can I open the window?",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Can I asks for permission, and open stays in its base form.",
+          "explanationHe": "Can I משמש לבקשת רשות, והפועל open נשאר בצורת הבסיס.",
+          "options": [
+            {
+              "text": "Can I to open the window?",
+              "correct": false
+            },
+            {
+              "text": "Do I can open the window?",
+              "correct": false
+            },
+            {
+              "text": "Can I open the window?",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "האם מותר לנו להשתמש במחשבים אחרי השיעור?",
+          "answer": "Can we use the computers after the lesson?",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Can we asks for permission for the group.",
+          "explanationHe": "Can we משמש לבקשת רשות עבור הקבוצה.",
+          "options": []
+        },
+        {
+          "id": 49,
+          "level": "challenge",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "I can help you with your homework today, but I can't come tomorrow.",
+          "answer": "אני יכול לעזור לך היום בשיעורי הבית, אבל אני לא יכול לבוא מחר.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Can help shows ability today, and can't come shows a limit tomorrow.",
+          "explanationHe": "Can help מביע יכולת היום, ו־can’t come מביע חוסר אפשרות להגיע מחר.",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleEn": "Rules and advice",
+      "titleHe": "חובה, איסור ועצה",
+      "focusEn": "must / mustn't / should / shouldn't",
+      "focusHe": "חובה, איסור ועצה באמצעות מודלים בסיסיים",
+      "items": [
+        {
+          "id": 50,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "en",
+          "prompt": "You must listen.",
+          "answer": "אתה חייב להקשיב.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Must expresses an obligation, not just advice.",
+          "explanationHe": "Must מביע חובה, ולא רק עצה.",
+          "options": [
+            {
+              "text": "אתה חייב להקשיב.",
+              "correct": true
+            },
+            {
+              "text": "כדאי לך להקשיב.",
+              "correct": false
+            },
+            {
+              "text": "אסור לך להקשיב.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 51,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "Students must listen to the teacher in class.",
+          "answer": "תלמידים חייבים להקשיב למורה בכיתה.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Must listen means that listening is required.",
+          "explanationHe": "Must listen פירושו שחובה להקשיב.",
+          "options": []
+        },
+        {
+          "id": 52,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "he",
+          "prompt": "אסור לך לרוץ כאן.",
+          "answer": "You mustn't run here.",
+          "cueEn": "Use mustn't.",
+          "cueHe": "השתמשו ב־mustn’t.",
+          "explanationEn": "Mustn't expresses a prohibition, so running here is not allowed.",
+          "explanationHe": "Mustn’t מביע איסור, כלומר אסור לרוץ כאן.",
+          "options": [
+            {
+              "text": "You mustn't to run here.",
+              "correct": false
+            },
+            {
+              "text": "You mustn't run here.",
+              "correct": true
+            },
+            {
+              "text": "You mustn't running here.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 53,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "אסור לתלמידים לרוץ בתוך הכיתה.",
+          "answer": "Students mustn't run inside the classroom.",
+          "cueEn": "Use mustn't.",
+          "cueHe": "השתמשו ב־mustn’t.",
+          "explanationEn": "Use mustn't and the base verb run to express the rule.",
+          "explanationHe": "משתמשים ב־mustn’t ובצורת הבסיס run כדי להביע את האיסור.",
+          "options": []
+        },
+        {
+          "id": 54,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "en",
+          "prompt": "You should rest.",
+          "answer": "כדאי לך לנוח.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Should gives advice, so כדאי is the natural meaning here.",
+          "explanationHe": "Should מביע עצה, ולכן המשמעות כאן היא כדאי.",
+          "options": [
+            {
+              "text": "אתה חייב לנוח.",
+              "correct": false
+            },
+            {
+              "text": "אסור לך לנוח.",
+              "correct": false
+            },
+            {
+              "text": "כדאי לך לנוח.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": 55,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "You shouldn't go to bed late before a test.",
+          "answer": "לא כדאי לך ללכת לישון מאוחר לפני מבחן.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Shouldn't advises against going to bed late before a test.",
+          "explanationHe": "Shouldn’t מביע עצה להימנע מהליכה לישון מאוחר לפני מבחן.",
+          "options": []
+        },
+        {
+          "id": 56,
+          "level": "challenge",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "אתה חייב ללמוד למבחן, אבל לא כדאי לך ללמוד מאוחר בלילה.",
+          "answer": "You must study for the test, but you shouldn't study late at night.",
+          "cueEn": "Use must and shouldn't.",
+          "cueHe": "השתמשו ב־must וב־shouldn’t.",
+          "explanationEn": "Must gives an obligation, while shouldn't advises against studying late.",
+          "explanationHe": "Must מביע חובה, ואילו shouldn’t מביע עצה להימנע מלימוד מאוחר.",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titleEn": "Joining ideas",
+      "titleHe": "מחברים רעיונות",
+      "focusEn": "and / but / or",
+      "focusHe": "הוספה, ניגוד ובחירה",
+      "items": [
+        {
+          "id": 57,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "he",
+          "prompt": "אני אוהב תפוחים ובננות.",
+          "answer": "I like apples and bananas.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "And joins the two things that the speaker likes.",
+          "explanationHe": "And מחבר בין שני הדברים שהדובר אוהב.",
+          "options": [
+            {
+              "text": "I like apples and bananas.",
+              "correct": true
+            },
+            {
+              "text": "I like apples because bananas.",
+              "correct": false
+            },
+            {
+              "text": "I like apples so bananas.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 58,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "אחי אוכל ארוחת בוקר ושותה מים בכל בוקר.",
+          "answer": "My brother eats breakfast and drinks water every morning.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "And joins two habits, and both verbs take -s with my brother.",
+          "explanationHe": "And מחבר שני הרגלים, ולשני הפעלים מוסיפים s עם my brother.",
+          "options": []
+        },
+        {
+          "id": 59,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "en",
+          "prompt": "I am tired, but I am happy.",
+          "answer": "אני עייף, אבל אני שמח.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "But connects two contrasting ideas: tired and happy.",
+          "explanationHe": "But מחבר בין שני רעיונות מנוגדים: עייפות ושמחה.",
+          "options": [
+            {
+              "text": "אני עייף, ולכן אני שמח.",
+              "correct": false
+            },
+            {
+              "text": "אני עייף, אבל אני שמח.",
+              "correct": true
+            },
+            {
+              "text": "אני עייף, כי אני שמח.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 60,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "He wants to play outside, but it is raining now.",
+          "answer": "הוא רוצה לשחק בחוץ, אבל יורד גשם עכשיו.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "But shows the contrast between wanting to play outside and the rain.",
+          "explanationHe": "But מציין ניגוד בין הרצון לשחק בחוץ לבין הגשם.",
+          "options": []
+        },
+        {
+          "id": 61,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "he",
+          "prompt": "האם אתה רוצה מים או חלב?",
+          "answer": "Do you want water or milk?",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Or presents a choice between water and milk.",
+          "explanationHe": "Or מציג בחירה בין מים לחלב.",
+          "options": [
+            {
+              "text": "Do you wants water or milk?",
+              "correct": false
+            },
+            {
+              "text": "Does you want water or milk?",
+              "correct": false
+            },
+            {
+              "text": "Do you want water or milk?",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": 62,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "האם אתה רוצה לקרוא ספר או לשחק כדורגל אחרי בית הספר?",
+          "answer": "Do you want to read a book or play football after school?",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Or joins the two activities offered as choices.",
+          "explanationHe": "Or מחבר בין שתי הפעילויות המוצעות לבחירה.",
+          "options": []
+        },
+        {
+          "id": 63,
+          "level": "challenge",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "I can play football or basketball, but I must do my homework first.",
+          "answer": "אני יכול לשחק כדורגל או כדורסל, אבל אני חייב לעשות קודם את שיעורי הבית שלי.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Or gives a choice, and but introduces what must happen first.",
+          "explanationHe": "Or מציג בחירה, ו־but מציג את מה שחייבים לעשות קודם.",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titleEn": "Cause and result",
+      "titleHe": "סיבה ותוצאה",
+      "focusEn": "because / so",
+      "focusHe": "כי / ולכן",
+      "items": [
+        {
+          "id": 64,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "en",
+          "prompt": "I am happy because you are here.",
+          "answer": "אני שמח כי אתה כאן.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Because introduces the reason that the speaker is happy.",
+          "explanationHe": "Because מציג את הסיבה לכך שהדובר שמח.",
+          "options": [
+            {
+              "text": "אני שמח כי אתה כאן.",
+              "correct": true
+            },
+            {
+              "text": "אני שמח, ולכן אתה כאן.",
+              "correct": false
+            },
+            {
+              "text": "אני שמח, אבל אתה כאן.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 65,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "We are staying at home because it is raining.",
+          "answer": "אנחנו נשארים בבית כי יורד גשם.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Because explains why we are staying at home.",
+          "explanationHe": "Because מסביר מדוע אנחנו נשארים בבית.",
+          "options": []
+        },
+        {
+          "id": 66,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "he",
+          "prompt": "אני עייף, ולכן אני במיטה.",
+          "answer": "I am tired, so I am in bed.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "So introduces the result: being in bed because of tiredness.",
+          "explanationHe": "So מציג את התוצאה: הדובר במיטה בגלל העייפות.",
+          "options": [
+            {
+              "text": "I tired, so I in bed.",
+              "correct": false
+            },
+            {
+              "text": "I am tired, so I am in bed.",
+              "correct": true
+            },
+            {
+              "text": "I am tired, so I is in bed.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 67,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "יש לי מבחן מחר, ולכן אני לומד עכשיו.",
+          "answer": "I have a test tomorrow, so I am studying now.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "So links the test tomorrow to the decision to study now.",
+          "explanationHe": "So מקשר בין המבחן מחר לבין ההחלטה ללמוד עכשיו.",
+          "options": []
+        },
+        {
+          "id": 68,
+          "level": "easy",
+          "type": "choice",
+          "sourceLang": "en",
+          "prompt": "I am eating because I am hungry.",
+          "answer": "אני אוכל כי אני רעב.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Because introduces hunger as the reason for eating.",
+          "explanationHe": "Because מציג את הרעב כסיבה לאכילה.",
+          "options": [
+            {
+              "text": "אני רעב כי אני אוכל.",
+              "correct": false
+            },
+            {
+              "text": "אני אוכל, אבל אני רעב.",
+              "correct": false
+            },
+            {
+              "text": "אני אוכל כי אני רעב.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": 69,
+          "level": "core",
+          "type": "open",
+          "sourceLang": "en",
+          "prompt": "My brother can't play football because he must study for a test.",
+          "answer": "אחי לא יכול לשחק כדורגל כי הוא חייב ללמוד למבחן.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Because explains that studying for the test prevents him from playing.",
+          "explanationHe": "Because מסביר שהצורך ללמוד למבחן מונע ממנו לשחק.",
+          "options": []
+        },
+        {
+          "id": 70,
+          "level": "challenge",
+          "type": "open",
+          "sourceLang": "he",
+          "prompt": "לא הלכתי לפארק אתמול כי הייתי עייף, ולכן שיחקתי בבית.",
+          "answer": "I didn't go to the park yesterday because I was tired, so I played at home.",
+          "cueEn": "",
+          "cueHe": "",
+          "explanationEn": "Because gives the reason, and so gives the result, with all actions in the past.",
+          "explanationHe": "Because מציג את הסיבה ו־so את התוצאה, וכל הפעולות מתוארות בעבר.",
+          "options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Translation Challenge · Grade 8</title>
+  <meta name="description" content="70 graded English and Hebrew translation challenges for Grade 8. One Down Arrow key reveals every answer and explanation. Includes a two-page PDF worksheet.">
+  <meta name="theme-color" content="#071522">
+  <link rel="stylesheet" href="style.css">
+  <link rel="prefetch" href="../../shared/phone-remote/remote.js" as="script">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="class-link" href="../" aria-label="Grade 8 class materials"><span class="class-number">08</span><span id="class-label">Class materials</span></a>
+    <div class="brand">Translation Challenge</div>
+    <nav class="tools" aria-label="Lesson tools">
+      <a class="tool worksheet-link" href="worksheet.pdf" target="_blank" rel="noopener" id="worksheet-link">Worksheet PDF</a>
+      <button class="tool" id="language" type="button" aria-pressed="false">עברית</button>
+      <button class="tool qr-trigger" id="phone-remote" type="button" title="Optional QR phone remote">QR</button>
+      <button class="tool" id="menu-open" type="button" aria-haspopup="dialog">Menu</button>
+    </nav>
+  </header>
+
+  <main id="lesson" tabindex="-1">
+    <section class="lesson-meta" aria-label="Current challenge">
+      <div class="round-info"><span id="round-number">ROUND 01 / 10</span><h2 id="round-title">Everyday actions</h2></div>
+      <div class="level-group"><span class="level easy" id="level">Warm-up</span><div class="cycle" id="cycle" aria-label="Easy, core, easy, core, easy, core, stretch"></div></div>
+    </section>
+
+    <article class="challenge" id="challenge" aria-busy="true">
+      <div class="task-line"><span id="direction">Translate into English</span><span class="task-type" id="task-type">Choose a translation</span></div>
+      <h1 class="prompt" id="prompt" lang="he" dir="rtl">אני משחק כדורגל בכל יום.</h1>
+      <p class="cue" id="cue" hidden></p>
+      <ol class="choices" id="choices" aria-label="Answer choices"></ol>
+      <p class="think" id="think" hidden>Say your translation aloud.</p>
+
+      <section class="response-area" aria-label="Answer and explanation" aria-live="polite" aria-atomic="false">
+        <div class="answer-row reveal-row" id="answer-row" aria-hidden="true">
+          <div class="row-label"><span class="answer-icon" aria-hidden="true">✓</span><span id="answer-label">One possible answer</span></div>
+          <p class="answer" id="answer"></p>
+        </div>
+        <div class="explanation-row reveal-row" id="explanation-row" aria-hidden="true">
+          <span class="row-label" id="explanation-label">Notice</span>
+          <p id="explanation"></p>
+        </div>
+      </section>
+      <p class="completion" id="completion" hidden>All 70 challenges completed. Well done!</p>
+    </article>
+    <p id="load-error" role="alert" hidden></p>
+  </main>
+
+  <footer class="controlbar">
+    <div class="position"><span id="question-count">Challenge 1 / 70</span><span class="steps"><span id="step-label">Step</span> <span id="counter">1 / 210</span></span></div>
+    <div class="key-instruction"><kbd aria-label="Down Arrow">↓</kbd><span id="key-help">One key. Every step.</span></div>
+    <button id="next" class="next" type="button" data-step="1"><span id="next-label">Reveal answer</span><span aria-hidden="true">↓</span></button>
+    <div class="progress-track" role="progressbar" id="progress" aria-label="Lesson progress" aria-valuemin="1" aria-valuemax="210" aria-valuenow="1"><span id="progress-fill"></span></div>
+  </footer>
+
+  <dialog id="menu" aria-labelledby="menu-title">
+    <div class="dialog-head"><h2 id="menu-title">Lesson menu</h2><button id="menu-close" type="button" class="tool" aria-label="Close menu">×</button></div>
+    <p id="menu-help">Press Down Arrow to reveal the answer, see the explanation and continue. No answer selection is required.</p>
+    <div class="menu-links">
+      <a href="worksheet.pdf" target="_blank" rel="noopener" id="menu-worksheet">Worksheet PDF · 2 pages</a>
+      <a href="answer-key.pdf" target="_blank" rel="noopener" id="menu-key">Worksheet answer key</a>
+      <button id="copy-link" type="button">Copy link</button>
+      <button id="fullscreen" type="button">Full screen</button>
+      <button id="prev" type="button" data-step="-1">Previous step</button>
+      <button id="restart" type="button">Start again</button>
+      <a href="../" id="menu-class">Grade 8 materials</a>
+      <a href="../../#grade8" id="menu-school">All classes</a>
+    </div>
+    <h3 id="rounds-label">Choose a round</h3>
+    <div class="round-picker" id="round-picker"></div>
+    <p class="menu-footnote" id="menu-footnote">30 multiple-choice questions · 40 open questions · 35 translations in each direction. Other natural translations may also be correct.</p>
+  </dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <noscript><p class="noscript">Please enable JavaScript to use the presentation. <a href="worksheet.pdf">Download the worksheet PDF.</a></p></noscript>
+</body>
+</html>
